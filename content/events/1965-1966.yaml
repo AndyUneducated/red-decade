@@ -163,9 +163,8 @@
   people: [mao-zedong, peng-zhen, xu-liqun, guan-feng]
   voices:
     - { voice: official1966, text: 毛主席是不赞成这个所谓“五人小组汇报提纲”的……彭真同志竟然用欺骗手法，打电话告诉常委同志，说文件已经毛主席同意。, cite: ws-1966-05-16-notice-attachment@1966-02-08, quote: true }
-    - { voice: editor, text: 本条只有胜利一方编写的大事记作为来源，彭真一方的叙述尚待查找（见研究队列）。, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
+    - { voice: editor, text: 本条只有胜利一方编写的大事记作为来源，彭真一方的叙述尚待查找（见研究队列与 C001）。会面本身无争议，争议在于毛泽东当时是否同意。, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
   cites: [ws-1966-05-16-notice-attachment@1966-02-08]
-  verify: true
 
 - id: 1966-02-12-outline-issued
   date: 1966-02-12
@@ -319,8 +318,11 @@
   lane: culture
   weight: 2
   place: 北京
-  summary: 《评“三家村”》发表后第 8 天。文革中第一位自杀的省部级干部。
+  summary: 《评“三家村”》发表后第 8 天。起诉书把邓拓与刘仁、吴晗、乐松生并列为“被迫害致死”，归入林彪、江青、康生、谢富治指使的北京市委冤案，但没有给出日期和方式。
   people: [deng-tuo]
+  voices:
+    - { voice: judicial1980, text: 刘仁、邓拓、吴晗、乐松生被迫害致死。, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 邓拓死于 5 月，早于中央文革小组成立和林彪、江青掌握实权；起诉书把这桩死亡与 1968 年的北京市公安局冤案写在同一段里，时间上的因果并不清楚。日期与方式待核。 }
   cites: [ws-1980-indictment]
   verify: true
 
@@ -395,7 +397,10 @@
   place: 北京
   summary: 李雪峰任第一书记、吴德任第二书记。张承先率工作组进驻北京大学“代行党委职权”。刘少奇检讨：“特别在报纸上发表了派工作组到北京大学代行党委职权以后，这种派工作组的要求就更加强烈了。”
   people: [li-xuefeng, zhang-chengxian, liu-shaoqi]
-  cites: [ws-1966-10-liu-self-criticism]
+  voices:
+    - { voice: official1966, text: 我们党中央改组了北京市委，建立了新市委。这是非常英明、非常正确的决定。, cite: ws-1966-06-red-flag-long-live, quote: true }
+    - { voice: editor, text: 已入库原文能证明 6 月 8 日之前市委已经改组、工作组已经进驻北大；“6 月 3 日”这一日期和李雪峰、吴德的任职还没有原文支持，待以吴德《十年风雨纪事》或 1966 年 6 月 4 日《人民日报》核对。 }
+  cites: [ws-1966-10-liu-self-criticism, ws-1966-06-red-flag-long-live]
   verify: true
 
 - id: 1966-06-workteams
@@ -427,16 +432,19 @@
   cites: [ws-1966-10-liu-self-criticism]
 
 - id: 1966-06-tsinghua-kuai
-  date: 1966-06-21
-  end: 1966-07
+  date: 1966-06-09
+  end: 1966-08
   title: 清华工作组与蒯大富
   lane: mass
   weight: 2
   place: 清华大学
-  summary: 王光美以工作组顾问身份参与清华运动。蒯大富公开质疑工作组，被定为“反革命”。刘少奇称清华是“这一错误路线的典型例子”。
+  summary: 据 1967 年《红旗》的调查，工作组 6 月 9 日进校，先令全体干部“撤职罢官”；6 月 24 日至 7 月 15 日“大搞所谓‘反蒯’”，以“下楼”为条件动员干部批蒯大富；7 月 16 日起转为批斗“黑帮”，8 月初撤出。王光美参与其事，刘少奇称清华是“这一错误路线的典型例子”。蒯大富被定为“反革命”一说尚无原文。
   people: [wang-guangmei, kuai-dafu, liu-shaoqi]
-  cites: [ws-1966-10-liu-self-criticism]
-  verify: true
+  voices:
+    - { voice: doc, text: 我过问过的，王光美同志参加过的清华大学前一段文化革命运动中所犯的错误，是这一错误路线的典型例子。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism, quote: true }
+    - { voice: official1966, text: 从六月二十四日到七月十五日。工作组大搞所谓“反蒯”。, cite: ws-1966-qinghua-workteam-survey, quote: true }
+    - { voice: editor, text: 调查报告发表于 1967 年 3 月批判刘少奇期间，出自反工作组一方，把干部一律写作“王××”“蒋××”。工作组自己的记录与蒯大富的大字报原文都还没有入库。 }
+  cites: [ws-1966-10-liu-self-criticism, ws-1966-qinghua-workteam-survey]
 
 - id: 1966-06-13-exam-postponed
   date: 1966-06-13

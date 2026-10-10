@@ -425,7 +425,7 @@
     - { date: 1958, s: power }
     - { date: 1966-04-16, s: attacked, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
     - { date: 1966-05-10, s: purged, cite: ws-1966-05-16-notice-attachment@1966-05-10 }
-    - { date: 1966-05-18, s: dead, verify: true }
+    - { date: 1966-05-18, s: dead, note: 起诉书列为“迫害致死”，但未给日期, cite: ws-1980-indictment, verify: true }
   cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
 
 - id: liao-mosha
@@ -604,7 +604,7 @@
   factions: [frontline, workteams]
   fate:
     - { date: 1963, s: normal }
-    - { date: 1966-06, s: power, note: 进驻清华, verify: true }
+    - { date: 1966-06, s: power, note: 进驻清华；刘少奇检讨称“王光美同志参加过的清华大学前一段文化革命运动”, cite: ws-1966-10-liu-self-criticism }
     - { date: 1966-08, s: attacked, cite: ws-1966-10-liu-self-criticism }
     - { date: 1967-09, s: detained, verify: true }
     - { date: 1978-12, s: restored, verify: true }
@@ -651,7 +651,7 @@
   factions: [bjcommittee, academics]
   fate:
     - { date: 1960, s: power }
-    - { date: 1966-06-01, s: purged, verify: true }
+    - { date: 1966-06-02, s: purged, note: 《人民日报》评论员文章称北大为“三家村”黑帮的“重要据点”，点名为“车马”, cite: ws-1966-06-02-hail-pku }
     - { date: 1978, s: restored, verify: true }
     - { date: 2002-01-02, s: dead }
   cites: [ws-1966-06-02-hail-pku]
@@ -664,7 +664,7 @@
   factions: [bjcommittee]
   fate:
     - { date: 1964, s: power }
-    - { date: 1966-06-01, s: purged, verify: true }
+    - { date: 1966-06-02, s: purged, note: 《人民日报》评论员文章称北大为“三家村”黑帮的“重要据点”，点名为“车马”, cite: ws-1966-06-02-hail-pku }
   cites: [ws-1966-06-02-hail-pku]
 
 - id: peng-peiyun
@@ -676,7 +676,7 @@
   factions: [bjcommittee]
   fate:
     - { date: 1964, s: power }
-    - { date: 1966-06-01, s: purged, verify: true }
+    - { date: 1966-06-02, s: purged, note: 《人民日报》评论员文章称北大为“三家村”黑帮的“重要据点”，点名为“车马”, cite: ws-1966-06-02-hail-pku }
     - { date: 1978, s: restored, verify: true }
   cites: [ws-1966-06-02-hail-pku]
   verify: true
@@ -690,7 +690,7 @@
   factions: [rebels]
   fate:
     - { date: 1966-01, s: normal }
-    - { date: 1966-06-24, s: attacked, note: 被工作组定为“反革命”, verify: true }
+    - { date: 1966-06-24, s: attacked, note: 清华工作组开始“反蒯”（据 1967 年反工作组一方的调查报告）, cite: ws-1966-qinghua-workteam-survey }
     - { date: 1966-08, s: rise, verify: true }
     - { date: 1966-12-18, s: power, note: 张春桥接见, cite: ws-1980-indictment }
     - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖后, verify: true }
@@ -809,7 +809,7 @@
   fate:
     - { date: 1952, s: normal }
     - { date: 1966-03-25, s: attacked, cite: ws-1966-05-16-notice-attachment@1966-03-25 }
-    - { date: 1966-06, s: purged, verify: true }
+    - { date: 1966-06-08, s: purged, note: 《红旗》社论点名为“反共老手”, cite: ws-1966-06-red-flag-long-live }
     - { date: 1968-12-18, s: dead, cite: ws-1980-indictment }
   cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
 
