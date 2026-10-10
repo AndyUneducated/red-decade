@@ -280,13 +280,31 @@
   lane: center
   weight: 3
   place: 北京
-  summary: 讨论“彭真、陆定一、罗瑞卿、杨尚昆四同志的错误问题”。5 月 16 日通过《通知》。会上林彪讲话大谈“政变”（俗称“五一八讲话”）。
+  summary: 讨论“彭真、陆定一、罗瑞卿、杨尚昆四同志的错误问题”。5 月 16 日通过《通知》。5 月 18 日林彪讲话大谈“政变”（见“五一八讲话”）。
   people: [peng-zhen, luo-ruiqing, lu-dingyi, yang-shangkun, lin-biao, liu-shaoqi]
   voices:
     - { voice: official1981, text: 一九六六年五月中央政治局扩大会议和同年八月八届十一中全会的召开，是“文化大革命”全面发动的标志。, cite: ws-1981-resolution, quote: true }
     - { voice: judicial1980, text: 一九六六年五月，林彪捏造罪名，诬陷陆定一是“反革命分子”。, cite: ws-1980-indictment, quote: true }
     - { voice: editor, text: 当时的文件称之为“错误问题”，1981 年决议称之为“所谓‘彭真、罗瑞卿、陆定一、杨尚昆反党集团’”；起诉书则只追究林彪、江青一方对其中个人的诬陷，不涉及会议本身。, cite: ws-1981-resolution }
   cites: [ws-1966-05-16-notice-attachment@1966-05-04, ws-1981-resolution, ws-1980-indictment]
+
+- id: 1966-05-18-lin-coup-speech
+  date: 1966-05-18
+  title: 林彪“五一八讲话”：政变与天才
+  lane: army
+  weight: 3
+  place: 北京
+  summary: 政治局扩大会议上的长篇讲话，开头即说“我没有写出稿子来，凭口来讲”。前半篇讲“防止反革命政变”，历数中国历代宫廷政变和 1960 年以来亚非拉“六十一次政变”，称毛泽东“调兵遣将……电台、广播电台、军队和公安系统都做了布置”；后半篇讲毛泽东是“天才”，“毛主席的话，句句是真理，一句超过我们一万句”。
+  people: [lin-biao, mao-zedong, peng-zhen, luo-ruiqing, lu-dingyi, yang-shangkun]
+  concepts: [coup, mao-thought, khrushchev]
+  docs: [ws-1966-05-18-lin-speech]
+  voices:
+    - { voice: doc, text: 毛主席最近几个月，特别注意防止反革命政变，采取了很多措施。, cite: ws-1966-05-18-lin-speech, quote: true }
+    - { voice: doc, text: 谁反对他，全党共诛之，全国共讨之。在他身后，如果有谁做赫鲁晓夫那样的秘密报告，一定是野心家，一定是大坏蛋，全党共诛之，全国共讨之。, cite: ws-1966-05-18-lin-speech, quote: true }
+    - { voice: doc, text: 毛主席的话，句句是真理，一句超过我们一万句。, cite: ws-1966-05-18-lin-speech, quote: true }
+    - { voice: editor, text: 讲话把彭罗陆杨的问题从“错误问题”（会议议题的说法）提升为“反革命政变”的危险，但没有给出任何政变计划的事实，只说“有很多现象，很多材料，我在这里不去详细说了”。指控的依据是一种可能性和一份历史政变清单。, cite: ws-1966-05-18-lin-speech }
+    - { voice: official1981, text: 对毛泽东同志的个人崇拜被鼓吹到了狂热的程度。, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1966-05-18-lin-speech, ws-1981-resolution]
 
 - id: 1966-05-10-three-family
   date: 1966-05-10
@@ -342,13 +360,15 @@
   lane: mass
   weight: 3
   place: 北京大学
-  summary: 《宋硕、陆平、彭佩云在文化革命中究竟干些什么？》。6 月 1 日晚中央人民广播电台播出，次日《人民日报》全文刊登并配评论员文章。
+  summary: 哲学系聂元梓等七人在大饭厅东墙贴出《宋硕、陆平、彭珮云在文化革命中究竟干些什么？》。攻击的不是某个观点，而是程序：北京市委大学部和北大党委要求运动“加强领导，坚守岗位”，“北大不宜贴大字报”，引导到“开小组会，写小字报”。6 月 1 日晚中央人民广播电台播出，次日《人民日报》全文刊登并配评论员文章。
   people: [nie-yuanzi, lu-ping, song-shuo, peng-peiyun, kang-sheng]
   concepts: [mass-democracy]
-  docs: [ws-1966-06-02-hail-pku]
+  docs: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku]
   voices:
+    - { voice: doc, text: 你们为什么这样害怕大字报？害怕开声讨大会？, cite: rmrb-1966-06-02-nie-dazibao, quote: true }
     - { voice: doc, text: 全国第一张马列主义的大字报和人民日报评论员的评论，写得何等好呵！（《炮打司令部》）, cite: ws-1967-08-bombard-anniv, quote: true }
-  cites: [ws-1966-06-02-hail-pku, ws-1967-08-bombard-anniv]
+    - { voice: editor, text: 大字报引述的宋硕“指示”——“有领导”、“坚持讲道理”、“从理论上彻底驳倒”——与《二月提纲》的程序性主张同出一辙（C001）；大字报把它们重新定义为“压制群众革命”。这是五一六通知对提纲的那套论证，在基层第一次被群众用来对付本单位党委。, cite: ws-1966-02-outline }
+  cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, ws-1967-08-bombard-anniv]
 
 - id: 1966-05-28-ccrg
   date: 1966-05-28
@@ -370,10 +390,31 @@
   lane: mass
   weight: 2
   place: 清华大学附属中学
-  summary: 一批以干部子弟为主的学生以“红卫兵”署名贴大字报。6 月 24 日起贴出《无产阶级的革命造反精神万岁》系列，后由《红旗》1966 年第 11 期转载。
+  summary: 一批以干部子弟为主的学生以“红卫兵”署名贴大字报。“5 月 29 日”这一日期尚无原文；已入库原文中最早的“红卫兵”署名是 6 月 24 日的《无产阶级的革命造反精神万岁》。
   concepts: [rebellion]
-  cites: [ws-1966-red-flag-index]
+  voices:
+    - { voice: editor, text: 名称出现的日期、成员与发起人，需以当事人回忆或清华附中校史核对；工作组时期的大字报原件没有入库。 }
+  cites: [rmrb-1966-08-24-rebel-1]
   verify: true
+
+- id: 1966-06-24-rebel-essays
+  date: 1966-06-24
+  end: 1966-07-27
+  title: 清华附中红卫兵“三论造反精神”
+  lane: mass
+  weight: 3
+  place: 清华大学附属中学
+  summary: 落款“清华大学附属中学 红卫兵”的三张大字报，分别署 6 月 24 日、7 月 4 日、7 月 27 日，贴出时正值工作组在校。毛泽东 8 月 1 日复信表示“热烈的支持”（据陈伯达 10 月讲话转引）；8 月 21 日《红旗》第 11 期以“革命大字报选”刊出，配本刊评论员《向革命的青少年致敬》，8 月 24 日《人民日报》转载。
+  concepts: [rebellion]
+  docs: [rmrb-1966-08-24-rebel-1, rmrb-1966-08-24-rebel-2, rmrb-1966-08-24-rebel-3, rmrb-1966-08-24-salute-youth]
+  voices:
+    - { voice: doc, text: 革命就是造反，毛泽东思想的灵魂就是造反。, cite: rmrb-1966-08-24-rebel-1, quote: true }
+    - { voice: doc, text: 我们只许左派造反，不许右派造反！你们胆敢造反，我们就立即镇压！这就是我们的逻辑。反正国家机器在我们手里。（再论）, cite: rmrb-1966-08-24-rebel-2, quote: true }
+    - { voice: doc, text: 我们就是要把你们打翻在地上，再踏上一只脚！, cite: rmrb-1966-08-24-rebel-1, quote: true }
+    - { voice: official1966, text: 本刊特选几篇大字报，公之于世，让广大人民群众来作鉴定。（《红旗》评论员）, cite: rmrb-1966-08-24-salute-youth, quote: true }
+    - { voice: doc, text: 在八月一日，他就向清华大学附属中学红卫兵写信，说：“我向你们表示热烈的支持”。（陈伯达 10 月 16 日讲话）, cite: web-1966-10-16-chen-speech, quote: true }
+    - { voice: editor, text: “造反”在这里的第一义不是反对权力：再论宣称“国家机器在我们手里”，造反权只属于左派，右派造反要“立即镇压”。造反的发明者把自己放在国家一边——这与 11 月工总司造本地党委的反，是同一个词的两种用法（C006）。 }
+  cites: [rmrb-1966-08-24-rebel-1, rmrb-1966-08-24-rebel-2, rmrb-1966-08-24-rebel-3, rmrb-1966-08-24-salute-youth, web-1966-10-16-chen-speech]
 
 # ── 1966 年 6–7 月 工作组“五十多天” ─────────────────────────
 - id: 1966-06-01-sweep-editorial
@@ -395,13 +436,14 @@
   lane: local
   weight: 2
   place: 北京
-  summary: 李雪峰任第一书记、吴德任第二书记。张承先率工作组进驻北京大学“代行党委职权”。刘少奇检讨：“特别在报纸上发表了派工作组到北京大学代行党委职权以后，这种派工作组的要求就更加强烈了。”
-  people: [li-xuefeng, zhang-chengxian, liu-shaoqi]
+  summary: 新华社 6 月 3 日电：中共中央决定由华北局第一书记李雪峰兼任北京市委第一书记，调吉林省委第一书记吴德任第二书记。新市委随即决定派张承先为首的工作组进驻北京大学，撤销陆平、彭珮云的一切职务，“由工作组代行党委的职权”。刘少奇检讨：“特别在报纸上发表了派工作组到北京大学代行党委职权以后，这种派工作组的要求就更加强烈了。”
+  people: [li-xuefeng, zhang-chengxian, liu-shaoqi, lu-ping, peng-peiyun]
+  docs: [rmrb-1966-06-04-new-committee, rmrb-1966-06-04-pku-committee]
   voices:
+    - { voice: doc, text: 在北京大学党委改组期间，由工作组代行党委的职权。, cite: rmrb-1966-06-04-pku-committee, quote: true }
     - { voice: official1966, text: 我们党中央改组了北京市委，建立了新市委。这是非常英明、非常正确的决定。, cite: ws-1966-06-red-flag-long-live, quote: true }
-    - { voice: editor, text: 已入库原文能证明 6 月 8 日之前市委已经改组、工作组已经进驻北大；“6 月 3 日”这一日期和李雪峰、吴德的任职还没有原文支持，待以吴德《十年风雨纪事》或 1966 年 6 月 4 日《人民日报》核对。 }
-  cites: [ws-1966-10-liu-self-criticism, ws-1966-06-red-flag-long-live]
-  verify: true
+    - { voice: editor, text: 派工作组的决定以新市委名义公开见报，刘少奇检讨承认正是这条消息让各地纷纷要求派工作组。五十天后被定为“路线错误”的做法，起点是一条公开的、经中央改组的市委决定。, cite: ws-1966-10-liu-self-criticism }
+  cites: [rmrb-1966-06-04-new-committee, rmrb-1966-06-04-pku-committee, ws-1966-10-liu-self-criticism, ws-1966-06-red-flag-long-live]
 
 - id: 1966-06-workteams
   date: 1966-06-01
@@ -451,8 +493,12 @@
   title: 高校招生推迟，高考停止
   lane: culture
   weight: 2
-  summary: 中共中央、国务院决定 1966 年高校招生推迟半年，此后高考中断至 1977 年。
-  verify: true
+  summary: 中共中央、国务院 6 月 13 日发出通知，1966 年高校招生“推迟半年进行”，理由是高考“基本上没有跳出资产阶级考试制度的框框”，“必须彻底改革”。6 月 18 日见报，同日《人民日报》社论《彻底搞好文化革命　彻底改革教育制度》。此后高考中断至 1977 年。
+  docs: [rmrb-1966-06-18-exam-postponed, rmrb-1966-06-18-education-editorial]
+  voices:
+    - { voice: doc, text: 决定一九六六年高等学校招收新生的工作推迟半年进行, cite: rmrb-1966-06-18-exam-postponed, quote: true }
+    - { voice: editor, text: 通知只说“推迟半年”，并安排未完成运动的高中毕业生留校、已完成的“下乡下厂参加生产劳动”。“中断十一年”不是当时的决定，而是推迟一再延续的结果；1977 年恢复高考的原文尚未入库。 }
+  cites: [rmrb-1966-06-18-exam-postponed, rmrb-1966-06-18-education-editorial]
 
 - id: 1966-07-16-yangtze
   date: 1966-07-16
@@ -460,9 +506,13 @@
   lane: center
   weight: 1
   place: 武汉
-  summary: 公开显示健康与重返政治前台的信号。两天后回到北京。
+  summary: 据新华社电，毛泽东在武汉“历时一小时零五分，游程近三十华里”。两天后回到北京。消息却迟至 7 月 24 日才发出、25 日见报——恰在 24 日决定撤回工作组之后。
   people: [mao-zedong]
-  verify: true
+  docs: [rmrb-1966-07-25-yangtze]
+  voices:
+    - { voice: official1966, text: 我们伟大的领袖毛主席，在一九六六年七月十六日，再一次乘风破浪，畅游长江。, cite: rmrb-1966-07-25-yangtze, quote: true }
+    - { voice: editor, text: 游泳与报道相隔八天。报道发出的时间，与毛泽东回京（18 日）、决定撤回工作组（24 日）衔接；“健康”与“重返前台”的含义是读者从时间顺序里读出来的，报道本身只写游泳和欢呼。, cite: ws-1966-10-liu-self-criticism }
+  cites: [rmrb-1966-07-25-yangtze, ws-1966-10-liu-self-criticism]
 
 - id: 1966-07-18-mao-returns
   date: 1966-07-18
@@ -578,15 +628,19 @@
   lane: mass
   weight: 3
   place: 天安门广场
-  summary: 林彪代表毛泽东讲话：“我们要大破一切剥削阶级的旧思想，旧文化，旧风俗，旧习惯……要把……资产阶级反动权威，彻底打倒，打垮，使他们威风扫地，永世不得翻身！”宋彬彬为毛泽东戴上红卫兵袖章。至 11 月 26 日共八次接见。
+  summary: 毛泽东清晨五时穿军装走进广场人群，与“百万革命群众”在一起六个多小时。林彪代表毛泽东讲话：“我们要大破一切剥削阶级的旧思想，旧文化，旧风俗，旧习惯……要把……资产阶级反动权威，彻底打倒，打垮，使他们威风扫地，永世不得翻身！”师大女附中一名红卫兵（宋彬彬）为毛泽东戴上红卫兵袖章，“几万个系着红袖章的‘红卫兵’”在城楼和广场维持秩序。至 11 月 26 日共八次接见。
   people: [mao-zedong, lin-biao, zhou-enlai, song-binbin]
   concepts: [four-olds, rebellion, reactionary-authority]
-  docs: [ws-1966-08-18-lin-speech, ws-1966-08-18-zhou-speech]
+  docs: [ws-1966-08-18-lin-speech, rmrb-1966-08-18-zhou-speech, rmrb-1966-08-19-first-rally]
   voices:
     - { voice: doc, text: 我们坚决地支持你们敢闯、敢干、敢革命、敢造反的无产阶级革命精神！, cite: ws-1966-08-18-lin-speech, quote: true }
+    - { voice: official1966, text: 在大会进行中，师大女附中一个“红卫兵”，登上天安门城楼给毛主席戴上了“红卫兵”的袖章。, cite: rmrb-1966-08-19-first-rally, quote: true }
+    - { voice: official1966, text: 这个运动规模很大，确实把群众发动起来了，对全国人民的思想革命化有很大的意义。（毛泽东对林彪语，新华社电）, cite: rmrb-1966-08-19-first-rally, quote: true }
+    - { voice: doc, text: 无论是北京市的革命师生，还是各地的革命师生，主要的任务都是把本单位的文化大革命搞好，一要斗好，二要批好，三要改好。（周恩来）, cite: rmrb-1966-08-18-zhou-speech, quote: true }
     - { voice: editor, text: 十天前的《十六条》要求“文斗”、“一律不整”学生；林彪讲话则要使打击对象“永世不得翻身”。同一个月里，成文政策的约束与动员性话语并行。, cite: ws-1966-08-08-sixteen-points }
+    - { voice: editor, text: 同一讲台上，周恩来把任务限定在“本单位”的斗批改，并要求首都学生“好好接待客人”；全篇没有“造反”二字，而林彪讲话开头就是“敢造反”。两篇讲话由《人民日报》同版刊出。, cite: rmrb-1966-08-18-zhou-speech }
     - { voice: official1981, text: 对毛泽东同志的个人崇拜被鼓吹到了狂热的程度。, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1966-08-18-lin-speech, ws-1966-red-flag-index, ws-1981-resolution]
+  cites: [ws-1966-08-18-lin-speech, rmrb-1966-08-18-zhou-speech, rmrb-1966-08-19-first-rally, ws-1966-red-flag-index, ws-1981-resolution]
 
 - id: 1966-08-red-august
   date: 1966-08-19
@@ -732,13 +786,15 @@
   title: 中央工作会议：批判“资产阶级反动路线”
   lane: center
   weight: 3
-  summary: 陈伯达作关于两条路线的讲话。10 月 23 日刘少奇、邓小平作检讨。刘少奇检讨的结构——“五十多天”、“一九六二年右倾”、“一九六四年形'左'实右”——与《炮打司令部》的三项指控一一对应。
+  summary: 10 月 16 日陈伯达讲话点名：“提出错误路线的，是错误路线的代表人，即刘少奇和邓小平”，同时批判“自来红”、“高干子弟要掌权”与血统论。10 月 23 日刘少奇、邓小平作检讨。刘少奇检讨的结构——“五十多天”、“一九六二年右倾”、“一九六四年形'左'实右”——与《炮打司令部》的三项指控一一对应。
   people: [liu-shaoqi, deng-xiaoping, chen-boda, lin-biao]
-  concepts: [two-lines]
-  docs: [ws-1966-10-liu-self-criticism]
+  concepts: [two-lines, bloodline]
+  docs: [web-1966-10-16-chen-speech, ws-1966-10-liu-self-criticism]
   voices:
+    - { voice: doc, text: 提出错误路线的，是错误路线的代表人，即刘少奇和邓小平，他们要负主要责任。（陈伯达）, cite: web-1966-10-16-chen-speech, quote: true }
     - { voice: doc, text: 我在一九六二年犯了右倾机会主义路线性的错误之后，在一九六四年又犯了形式上是“左”的而实际上是右倾的错误。, cite: ws-1966-10-liu-self-criticism, quote: true }
-  cites: [ws-1966-10-liu-self-criticism]
+    - { voice: editor, text: 陈伯达把路线错误分为“提出的”与“执行的”：前者点名刘、邓；后者他说多数是不自觉执行的，性质属于人民内部矛盾（讲话第三、第八条，未收入摘录）。这一区分让地方干部可以检讨过关，同时把罪名集中到两个人身上。陈的讲话底本为网络转录，原件待核。 }
+  cites: [web-1966-10-16-chen-speech, ws-1966-10-liu-self-criticism]
 
 - id: 1966-11-01-two-lines-editorial
   date: 1966-11-01

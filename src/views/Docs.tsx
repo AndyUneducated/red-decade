@@ -118,11 +118,16 @@ function Reader({ id }: { id: string }) {
           {s.author && <span>{s.author}</span>}
           {s.url && (
             <a href={s.url} target="_blank" rel="noreferrer">
-              维基文库 rev {s.revid} ↗
+              {s.revid ? `维基文库 rev ${s.revid}` : (s.via ?? new URL(s.url).hostname)} ↗
             </a>
           )}
           {text && <span>{text.length.toLocaleString()} 字</span>}
         </div>
+        {s.excerpt && (
+          <div className="significance" style={{ borderLeftColor: '#8a5a00', background: '#fbf3e3' }}>
+            节录：原作者为个人，著作权尚在保护期内，本站只收录用于评论的段落（不计入思想谱系词频）。全文见上方链接。
+          </div>
+        )}
         {meta && (
           <div className="significance">
             <div>{meta.summary}</div>

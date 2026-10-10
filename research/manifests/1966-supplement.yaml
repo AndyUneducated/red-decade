@@ -1,6 +1,13 @@
 # M2-1: 1966 年补充文献（2026-10-10 用 tools/ws-links.ts 从《红旗/1966年》《红旗/1967年》目录与全文检索中找到）
 # 日期取自维基文库页面头部；页面只给年份的，按期号推定月份并注明（见 research/log/2026-10-10-m2.md）。
 wikisource:
+  - id: ws-1966-05-18-lin-speech
+    title: 在中央政治局扩大会议上的讲话
+    date: 1966-05-18
+    author: 林彪
+    kind: speech
+    alias: 林彪 5·18 讲话
+    note: M2-7 补入。
   - id: ws-1966-07-trust-masses
     title: 信任群众，依靠群众
     date: 1966-07-01

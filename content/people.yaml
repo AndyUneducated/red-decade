@@ -44,7 +44,7 @@
   fate:
     - { date: 1949-10, s: power }
     - { date: 1976-01-08, s: dead }
-  cites: [ws-1966-05-16-notice-attachment, ws-1966-08-18-zhou-speech]
+  cites: [ws-1966-05-16-notice-attachment, rmrb-1966-08-18-zhou-speech]
 
 - id: lin-biao
   name: 林彪
@@ -635,7 +635,7 @@
   factions: [rebels]
   fate:
     - { date: 1964, s: normal }
-    - { date: 1966-05-25, s: rise, cite: ws-1966-06-02-hail-pku }
+    - { date: 1966-05-25, s: rise, cite: rmrb-1966-06-02-nie-dazibao }
     - { date: 1966-09, s: power, note: 北大校文革主任, verify: true }
     - { date: 1971, s: detained, verify: true }
     - { date: 2019-08-28, s: dead }
@@ -705,7 +705,7 @@
   factions: [oldrg]
   fate:
     - { date: 1966-01, s: normal }
-    - { date: 1966-08-18, s: rise, verify: true }
+    - { date: 1966-08-18, s: rise, note: 新华社当日电只说“师大女附中一个‘红卫兵’”，未点名, cite: rmrb-1966-08-19-first-rally, verify: true }
   verify: true
 
 - id: wang-hongwen

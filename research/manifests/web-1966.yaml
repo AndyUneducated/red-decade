@@ -1,0 +1,129 @@
+# M2-7: 维基文库以外的 1966 年原文（tools/fetch-web.ts 抓取）
+# 《人民日报》版面取自 cn.govopendata.com 的逐版转录（文字版，非原版扫描，校对质量未知；与扫描件不一致时以扫描件为准）。
+# 版权：党和国家机关、报社、群众组织署名的作品按“职务作品发表满 50 年”进入公有领域，全文收录；
+# 个人署名且作者去世未满 50 年的（聂元梓等七人、陈伯达、周恩来），只保留 keep 所列段落作为引文。
+web:
+  - id: rmrb-1966-06-02-nie-dazibao
+    title: 北京大学七同志一张大字报揭穿一个大阴谋（新华社电，附聂元梓等《宋硕、陆平、彭珮云在文化革命中究竟干些什么？》全文）
+    date: 1966-05-25
+    author: 聂元梓、宋一秀、夏剑豸、杨克明、赵正义、高云鹏、李醒尘
+    kind: redguard
+    alias: 聂元梓大字报
+    url: https://cn.govopendata.com/renminribao/1966/6/2/1/
+    via: 《人民日报》1966-06-02 第 1 版（govopendata 转录）
+    article: 北京大学七同志一张大字报揭穿一个大阴谋  “三家村”黑帮分子宋硕陆平彭珮云负隅顽抗妄想坚守反动堡垒
+    excerpt: true
+    keep: [新华社一日讯, 宋硕说：现在运动, 你们为什么这样害怕大字报, 一切革命的知识分子]
+    note: 大字报贴出于 5 月 25 日，6 月 1 日晚经中央人民广播电台播出，6 月 2 日见报。这里只保留新华社导语和三段原文。
+  - id: rmrb-1966-06-04-new-committee
+    title: 中共中央决定改组北京市委
+    date: 1966-06-04
+    author: 新华社
+    kind: news
+    url: https://cn.govopendata.com/renminribao/1966/6/4/1/
+    via: 《人民日报》1966-06-04 第 1 版（govopendata 转录）
+    article: 中共中央决定改组北京市委  李雪峰同志兼任北京市委第一书记，吴德同志任第二书记  北京市的社会主义文化大革命的工作，由新市委直接领导
+  - id: rmrb-1966-06-04-pku-committee
+    title: 北京新市委决定改组北京大学党委
+    date: 1966-06-04
+    author: 新华社
+    kind: news
+    url: https://cn.govopendata.com/renminribao/1966/6/4/1/
+    via: 《人民日报》1966-06-04 第 1 版（govopendata 转录）
+    article: 北京新市委决定改组北京大学党委  派工作组领导北大社会主义文化大革命  撤销北大党委书记陆平、副书记彭珮云的一切职务
+  - id: rmrb-1966-06-18-exam-postponed
+    title: 中共中央和国务院决定改革高等学校招考办法
+    date: 1966-06-18
+    author: 中共中央、国务院（新华社电）
+    kind: party-doc
+    url: https://cn.govopendata.com/renminribao/1966/6/18/1/
+    via: 《人民日报》1966-06-18 第 1 版（govopendata 转录）
+    article: 中共中央和国务院决定  改革高等学校招考办法  为了彻底搞好大专学校和高中的文化大革命，为了充分准备实行新的招生办法，决定将今年高等学校招收新生工作推迟半年
+  - id: rmrb-1966-06-18-education-editorial
+    title: 彻底搞好文化革命　彻底改革教育制度
+    date: 1966-06-18
+    author: 《人民日报》社论
+    kind: editorial
+    url: https://cn.govopendata.com/renminribao/1966/6/18/1/
+    via: 《人民日报》1966-06-18 第 1 版（govopendata 转录）
+    article: 彻底搞好文化革命　彻底改革教育制度
+  - id: rmrb-1966-07-25-yangtze
+    title: 毛主席畅游长江
+    date: 1966-07-25
+    author: 新华社
+    kind: news
+    url: https://cn.govopendata.com/renminribao/1966/7/25/1/
+    via: 《人民日报》1966-07-25 第 1 版（govopendata 转录）
+    article: 毛主席畅游长江
+  - id: rmrb-1966-08-19-first-rally
+    title: 毛主席同百万群众共庆文化大革命
+    date: 1966-08-18
+    author: 新华社
+    kind: news
+    url: https://cn.govopendata.com/renminribao/1966/8/19/1/
+    via: 《人民日报》1966-08-19 第 1 版（govopendata 转录）
+    article: 无产阶级文化大革命是共产主义运动和社会主义革命的伟大创举  毛主席同百万群众共庆文化大革命
+  - id: rmrb-1966-08-18-zhou-speech
+    title: 在庆祝无产阶级文化大革命群众大会上周恩来同志的讲话
+    date: 1966-08-18
+    author: 周恩来
+    kind: speech
+    alias: 周恩来 8·18 讲话
+    url: https://cn.govopendata.com/renminribao/1966/8/19/2/
+    via: 《人民日报》1966-08-19 第 2 版（govopendata 转录）
+    article: 在庆祝无产阶级文化大革命群众大会上　周恩来同志的讲话
+    excerpt: true
+    keep: [这次会议通过的十六条, 我们要自己教育自己, 一要斗好]
+    note: 周恩来 1976 年去世，2027 年起进入公有领域；在此之前只保留三段。
+  - id: rmrb-1966-08-24-salute-youth
+    title: 向革命的青少年致敬
+    date: 1966-08-21
+    author: 《红旗》杂志评论员
+    kind: editorial
+    note: 原载《红旗》1966 年第 11 期（8 月 21 日），8 月 24 日《人民日报》转载。
+    url: https://cn.govopendata.com/renminribao/1966/8/24/2/
+    via: 《人民日报》1966-08-24 第 2 版（govopendata 转录）
+    article: 向革命的青少年致敬
+  - id: rmrb-1966-08-24-rebel-1
+    title: 无产阶级的革命造反精神万岁
+    date: 1966-06-24
+    author: 清华大学附属中学红卫兵
+    kind: redguard
+    alias: 清华附中一论造反
+    url: https://cn.govopendata.com/renminribao/1966/8/24/2/
+    via: 《人民日报》1966-08-24 第 2 版（govopendata 转录）
+    article: 无产阶级的革命造反精神万岁
+    note: 日期为文末落款（大字报贴出日）；三篇先由《红旗》1966 年第 11 期（8 月 21 日）“革命大字报选”刊出，8 月 24 日《人民日报》转载。
+  - id: rmrb-1966-08-24-rebel-2
+    title: 再论无产阶级的革命造反精神万岁
+    date: 1966-07-04
+    author: 清华大学附属中学红卫兵
+    kind: redguard
+    alias: 清华附中二论造反
+    url: https://cn.govopendata.com/renminribao/1966/8/24/2/
+    via: 《人民日报》1966-08-24 第 2 版（govopendata 转录）
+    article: 再论无产阶级的革命造反精神万岁
+    note: 日期为文末落款；见报为 8 月 24 日。
+  - id: rmrb-1966-08-24-rebel-3
+    title: 三论无产阶级的革命造反精神万岁
+    date: 1966-07-27
+    author: 清华大学附属中学红卫兵
+    kind: redguard
+    alias: 清华附中三论造反
+    url: https://cn.govopendata.com/renminribao/1966/8/24/2/
+    via: 《人民日报》1966-08-24 第 2 版（govopendata 转录）
+    article: 三论无产阶级的革命造反精神万岁
+    note: 日期为文末落款；见报为 8 月 24 日。
+  - id: web-1966-10-16-chen-speech
+    title: 陈伯达在中央工作会议上的讲话
+    date: 1966-10-16
+    author: 陈伯达
+    kind: speech
+    alias: 陈伯达 10·16 讲话
+    url: https://web.archive.org/web/20200430162138/https:/ccradb.appspot.com/post/1728
+    via: 中国文化大革命文库（CCRADB）网页存档，2020-04-30 快照
+    start: （一）形势大好
+    end: 毛主席万岁！
+    excerpt: true
+    keep: [提出错误路线的，是错误路线的代表人, 他就向清华大学附属中学红卫兵写信, 我们高干子弟要掌权, 各地流行着一种所谓“自来红”的谬论, 现在有一些学生接受什么“自来红”]
+    note: CCRADB 未注明所据底本，属二手转录。只保留点名刘、邓的“第一”条、转引毛泽东 8·1 信的一段和批判血统论的三段。

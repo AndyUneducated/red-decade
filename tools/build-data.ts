@@ -55,6 +55,14 @@ const manifestSources = yamlFiles('research', 'manifests').flatMap((p) =>
     hasText: existsSync(join(textDir, `${m.id}.txt`)),
   })),
 )
+const webSources = yamlFiles('research', 'manifests').flatMap((p) =>
+  ((read(...p) as { web?: Record<string, unknown>[] }).web ?? []).map(({ article, start, end, keep, ...m }) => ({
+    ...m,
+    tier: 1,
+    hasText: existsSync(join(textDir, `${m.id}.txt`)),
+  })),
+)
+manifestSources.push(...webSources)
 const extraSources = existsSync(join(ROOT, 'content', 'sources.yaml')) ? read('content', 'sources.yaml') : []
 const sources: Source[] = load(SourceSchema, [...manifestSources, ...extraSources], 'sources')
 const sourceById = new Map(sources.map((s) => [s.id, s]))
@@ -154,7 +162,7 @@ for (const d of documents)
 // ── concordance ──────────────────────────────────────────
 const datedTexts = [...texts.entries()]
   .map(([id, body]) => ({ id, body, source: sourceById.get(id)! }))
-  .filter((t) => t.source.kind !== 'index')
+  .filter((t) => t.source.kind !== 'index' && !t.source.excerpt)
   .sort((a, b) => a.source.date.localeCompare(b.source.date))
 
 function hitsFor(terms: string[]): ConceptHit[] {

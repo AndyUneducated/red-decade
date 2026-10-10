@@ -214,10 +214,11 @@
   kind: database
   tier: 4
   locator: 篇名
-  access: unread
+  access: partial
   want:
-    - 维基文库缺失的 1966 年文献：聂元梓大字报、清华附中三论、周恩来 8·18 讲话、陈伯达 10 月讲话、林彪 5·18 讲话
-  note: 电子资料库，有后续增订版。收录的原始文件属第 1 层；资料库本身的编选属第 4 层。
+    - 核对网络转录的陈伯达 10-16 讲话、林彪 5·18 讲话的底本
+    - 《红旗》1966 年第 14 期社论；1966 年 10–12 月红卫兵、造反派小报
+  note: 电子资料库，有后续增订版。收录的原始文件属第 1 层；资料库本身的编选属第 4 层。陈伯达 10-16 讲话经其网络版（CCRADB，Wayback 存档）入库摘录，所据底本未注明。
 
 - id: frus-1964-68-xxx
   title: Foreign Relations of the United States, 1964–1968, Volume XXX, China

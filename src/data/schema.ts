@@ -159,6 +159,9 @@ export const SourceSchema = z.object({
   tier: z.number().int().min(1).max(4),
   hasText: z.boolean().default(false),
   note: z.string().optional(),
+  // web transcriptions (manifest `web:`): where the text was taken from, and whether only excerpts are kept
+  via: z.string().optional(),
+  excerpt: z.boolean().optional(),
   // bibliographic sources (content/sources.yaml)
   publisher: z.string().optional(),
   locator: z.string().optional(),
@@ -170,6 +173,7 @@ export const SOURCE_KINDS: Record<string, string> = {
   'party-doc': '中央文件',
   editorial: '社论 · 评论',
   speech: '讲话 · 检讨',
+  news: '新闻报道',
   redguard: '红卫兵 · 群众组织文献',
   essay: '民间思想',
   chronology: '资料汇编',
