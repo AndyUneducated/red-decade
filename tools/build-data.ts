@@ -128,13 +128,23 @@ for (const c of claims) {
 }
 
 // ── verbatim quote checks ────────────────────────────────
+// Tolerated: nested ‘’ rendered as “”, and a sentence-final mark where the source continues.
+const norm = (s: string) => s.replace(/[‘’]/g, (q) => (q === '‘' ? '“' : '”'))
 function checkQuote(sourceId: string, quote: string, where: string) {
   const body = texts.get(sourceId)
   if (!body) return errors.push(`${where}: source ${sourceId} has no text to check quote against`)
-  for (const part of quote.split('……').map((s) => s.trim()).filter(Boolean))
-    if (!body.includes(part)) errors.push(`${where}: quote not found in ${sourceId}: "${part.slice(0, 40)}…"`)
+  const hay = norm(body)
+  for (const part of quote.split('……').map((s) => norm(s.trim()).replace(/[。！？，；]$/, '')).filter(Boolean))
+    if (!hay.includes(part)) errors.push(`${where}: quote not found in ${sourceId}: "${part.slice(0, 40)}…"`)
 }
 for (const c of claims) for (const e of c.evidence) if (e.quote) checkQuote(e.cite.split('@')[0], e.quote, `claim ${c.id}`)
+// Voice quotes may end with an attribution in full-width parentheses: “……”（刘少奇检讨）
+for (const e of events)
+  for (const v of e.voices)
+    if (v.quote) {
+      if (!v.cite) errors.push(`event ${e.id}: quoted ${v.voice} voice has no cite`)
+      else checkQuote(v.cite.split('@')[0], v.text.replace(/（[^）]*）$/, ''), `event ${e.id} voice ${v.voice}`)
+    }
 for (const d of documents)
   for (const p of d.pairs ?? []) {
     checkQuote(p.against, p.original, `document ${d.id} pair ${p.point}`)

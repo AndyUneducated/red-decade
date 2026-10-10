@@ -14,7 +14,7 @@
   people: [mao-zedong, peng-zhen, wu-han, kang-sheng]
   concepts: [revisionism]
   voices:
-    - { voice: official1966, text: 毛主席早就察觉到吴晗的问题，是资产阶级代表人物向党向社会主义猖狂进攻的问题。, cite: ws-1966-05-16-notice-attachment@1965-09 }
+    - { voice: official1966, text: 毛主席早就察觉到吴晗的问题，是资产阶级代表人物向党向社会主义猖狂进攻的问题。, cite: ws-1966-05-16-notice-attachment@1965-09, quote: true }
     - { voice: doc, text: 《五一六通知》称此为“毛泽东同志在一九六五年九月至十月间中央工作会议上……关于批判吴晗的指示”。, cite: ws-1966-05-16-notice }
   cites: [ws-1966-05-16-notice-attachment@1965-09, ws-1966-05-16-notice]
 
@@ -38,8 +38,8 @@
   people: [yao-wenyuan, zhang-chunqiao, jiang-qing, wu-han]
   concepts: [class-struggle]
   voices:
-    - { voice: official1966, text: 这篇文章指出，《海瑞罢官》鼓吹“单干风”、“翻案风”，是毒草。, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
-    - { voice: official1981, text: 1981 年决议将文革起点定为“一九六六年五月”，并未把姚文发表作为开端。, cite: ws-1981-resolution }
+    - { voice: official1966, text: 这篇文章指出，《海瑞罢官》鼓吹“单干风”、“翻案风”，是毒草。, cite: ws-1966-05-16-notice-attachment@1965-11-10, quote: true }
+    - { voice: official1981, text: 在意识形态领域，也对一些文艺作品、学术观点和文艺界学术界的一些代表人物进行了错误的、过火的政治批判……并且在后来发展成为“文化大革命”的导火线。, cite: ws-1981-resolution, quote: true }
   cites: [ws-1966-05-16-notice-attachment@1965-11-10]
 
 - id: 1965-11-10-yang-removed
@@ -61,7 +61,7 @@
   summary: 官方大事记：“北京各报刊，在十八天内，都未转载姚文元同志的文章。”上海人民出版社出单行本，北京新华书店“奉命不复”征订电报，直到 29 日。
   people: [peng-zhen, yao-wenyuan]
   voices:
-    - { voice: official1966, text: 各报刊多次请示是否可以转载，彭真同志和中宣部都不让转载。, cite: ws-1966-05-16-notice-attachment@1965-11-11 }
+    - { voice: official1966, text: 各报刊多次请示是否可以转载，彭真同志和中宣部都不让转载。, cite: ws-1966-05-16-notice-attachment@1965-11-11, quote: true }
   cites: [ws-1966-05-16-notice-attachment@1965-11-11, ws-1966-05-16-notice-attachment@1965-11-24]
 
 - id: 1965-11-28-zhou-presses
@@ -82,7 +82,7 @@
   summary: 按语按彭真意见作为学术问题讨论，“既容许批评的自由，也容许反批评的自由”。按语最后一段引用毛泽东语录，“这是周恩来同志加的”。前一日《解放军报》转载时称《海瑞罢官》“是一株大毒草”，《北京日报》按语则强调“有不同意见”。
   people: [peng-zhen, zhou-enlai]
   voices:
-    - { voice: official1966, text: 没有表示支持姚文元同志文章。按语的最后一段……这是周恩来同志加的。, cite: ws-1966-05-16-notice-attachment@1965-11-30 }
+    - { voice: official1966, text: 没有表示支持姚文元同志文章。按语的最后一段……这是周恩来同志加的。, cite: ws-1966-05-16-notice-attachment@1965-11-30, quote: true }
     - { voice: editor, text: 同一篇文章的四家按语（解放军报 / 北京日报 / 人民日报 / 光明日报）被上海报纸按“发表先后”排列、把解放军报放在第一，彭真“极为不满”——转载顺序本身成了政治信号。, cite: ws-1966-05-16-notice-attachment@1965-12-06 }
   cites: [ws-1966-05-16-notice-attachment@1965-11-29, ws-1966-05-16-notice-attachment@1965-11-30]
 
@@ -107,7 +107,7 @@
   people: [mao-zedong, chen-boda, guan-feng, qi-benyu, peng-zhen, kang-sheng, peng-dehuai, wu-han]
   concepts: [class-struggle]
   voices:
-    - { voice: official1966, text: 姚文元的文章也很好，点了名……但是没有打中要害。要害问题是“罢官”。, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
+    - { voice: official1966, text: 姚文元的文章也很好，点了名……但是没有打中要害。要害问题是“罢官”。, cite: ws-1966-05-16-notice-attachment@1965-12-21, quote: true }
   cites: [ws-1966-05-16-notice-attachment@1965-12-21, ws-1966-05-16-notice-attachment@1965-12-22]
 
 - id: 1965-12-27-wu-self-criticism
@@ -162,7 +162,7 @@
   summary: 官方大事记称“毛主席的意见同彭真同志的意见是完全对立的”，毛泽东两次问彭真“吴晗是不是反党反社会主义？”；对“整风”整左派一说回答“这样的问题，三年以后再说”。彭真事后电话告知常委“文件已经毛主席同意”。两种说法孰是孰非，是二月提纲之争的核心。
   people: [mao-zedong, peng-zhen, xu-liqun, guan-feng]
   voices:
-    - { voice: official1966, text: 毛主席是不赞成这个所谓“五人小组汇报提纲”的……彭真同志竟然用欺骗手法，打电话告诉常委同志，说文件已经毛主席同意。, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
+    - { voice: official1966, text: 毛主席是不赞成这个所谓“五人小组汇报提纲”的……彭真同志竟然用欺骗手法，打电话告诉常委同志，说文件已经毛主席同意。, cite: ws-1966-05-16-notice-attachment@1966-02-08, quote: true }
     - { voice: editor, text: 本条只有胜利一方编写的大事记作为来源，彭真一方的叙述尚待查找（见研究队列）。, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
   cites: [ws-1966-05-16-notice-attachment@1966-02-08]
   verify: true
@@ -230,7 +230,7 @@
   people: [mao-zedong, kang-sheng, jiang-qing, zhang-chunqiao, peng-zhen]
   concepts: [rebellion, revisionism]
   voices:
-    - { voice: official1966, text: 毛主席指出，扣压左派稿件、包庇反共知识分子的人是“大学阀”。中宣部是阎王殿。, cite: ws-1966-05-16-notice-attachment@1966-03-28 }
+    - { voice: official1966, text: 毛主席指出，扣压左派稿件、包庇反共知识分子的人是“大学阀”。中宣部是阎王殿。, cite: ws-1966-05-16-notice-attachment@1966-03-28, quote: true }
   cites: [ws-1966-05-16-notice-attachment@1966-03-28]
 
 - id: 1966-04-09-secretariat
@@ -283,7 +283,11 @@
   place: 北京
   summary: 讨论“彭真、陆定一、罗瑞卿、杨尚昆四同志的错误问题”。5 月 16 日通过《通知》。会上林彪讲话大谈“政变”（俗称“五一八讲话”）。
   people: [peng-zhen, luo-ruiqing, lu-dingyi, yang-shangkun, lin-biao, liu-shaoqi]
-  cites: [ws-1966-05-16-notice-attachment@1966-05-04]
+  voices:
+    - { voice: official1981, text: 一九六六年五月中央政治局扩大会议和同年八月八届十一中全会的召开，是“文化大革命”全面发动的标志。, cite: ws-1981-resolution, quote: true }
+    - { voice: judicial1980, text: 一九六六年五月，林彪捏造罪名，诬陷陆定一是“反革命分子”。, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 当时的文件称之为“错误问题”，1981 年决议称之为“所谓‘彭真、罗瑞卿、陆定一、杨尚昆反党集团’”；起诉书则只追究林彪、江青一方对其中个人的诬陷，不涉及会议本身。, cite: ws-1981-resolution }
+  cites: [ws-1966-05-16-notice-attachment@1966-05-04, ws-1981-resolution, ws-1980-indictment]
 
 - id: 1966-05-10-three-family
   date: 1966-05-10
@@ -305,8 +309,8 @@
   concepts: [khrushchev, capitalist-roaders, equality-before-truth, monsters, successor]
   docs: [ws-1966-05-16-notice, ws-1966-02-outline]
   voices:
-    - { voice: doc, text: 混进党里、政府里、军队里和各种文化界的资产阶级代表人物，是一批反革命的修正主义分子，一旦时机成熟，他们就会要夺取政权。, cite: ws-1966-05-16-notice }
-    - { voice: official1981, text: 这些论点主要地出现在作为“文化大革命”纲领性文件的《五·一六通知》和党的九大的政治报告中。, cite: ws-1981-resolution }
+    - { voice: doc, text: 混进党里、政府里、军队里和各种文化界的资产阶级代表人物，是一批反革命的修正主义分子，一旦时机成熟，他们就会要夺取政权。, cite: ws-1966-05-16-notice, quote: true }
+    - { voice: official1981, text: 这些论点主要地出现在作为“文化大革命”纲领性文件的《五·一六通知》和党的九大的政治报告中。, cite: ws-1981-resolution, quote: true }
   cites: [ws-1966-05-16-notice, ws-1981-resolution]
 
 - id: 1966-05-18-deng-tuo-death
@@ -341,7 +345,7 @@
   concepts: [mass-democracy]
   docs: [ws-1966-06-02-hail-pku]
   voices:
-    - { voice: doc, text: 全国第一张马列主义的大字报和人民日报评论员的评论，写得何等好呵！（《炮打司令部》）, cite: ws-1967-08-bombard-anniv }
+    - { voice: doc, text: 全国第一张马列主义的大字报和人民日报评论员的评论，写得何等好呵！（《炮打司令部》）, cite: ws-1967-08-bombard-anniv, quote: true }
   cites: [ws-1966-06-02-hail-pku, ws-1967-08-bombard-anniv]
 
 - id: 1966-05-28-ccrg
@@ -352,7 +356,11 @@
   summary: 组长陈伯达，顾问康生，副组长江青、王任重、刘志坚、张春桥，组员谢镗忠、尹达、王力、关锋、戚本禹、穆欣、姚文元。“隶属于政治局常委领导下”。
   people: [chen-boda, kang-sheng, jiang-qing, wang-renzhong, liu-zhijian, zhang-chunqiao, wang-li, guan-feng, qi-benyu, yao-wenyuan]
   docs: [ws-1966-05-ccrg-list]
-  cites: [ws-1966-05-ccrg-list]
+  voices:
+    - { voice: doc, text: 中央决定设立中央文化革命小组，隶属于政治局常委领导下。, cite: ws-1966-05-ccrg-list, quote: true }
+    - { voice: official1981, text: 成立了所谓“中央文革小组”并让它掌握了中央的很大部分权力。, cite: ws-1981-resolution, quote: true }
+    - { voice: official1981, text: 林彪、江青、康生、张春桥等人主要利用所谓“中央文革小组”的名义，乘机煽动“打倒一切、全面内战”。, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1966-05-ccrg-list, ws-1981-resolution]
 
 - id: 1966-05-29-qhfz-redguards
   date: 1966-05-29
@@ -376,7 +384,7 @@
   concepts: [monsters, four-olds]
   docs: [ws-1966-06-01-sweep]
   voices:
-    - { voice: judicial1980, text: 一九六六年六月，陈伯达组织编写和审定的“横扫一切牛鬼蛇神”等社论，为林彪、江青反革命集团搞乱全国，乱中夺权，制造反革命舆论。, cite: ws-1980-indictment }
+    - { voice: judicial1980, text: 一九六六年六月，陈伯达组织编写和审定的“横扫一切牛鬼蛇神”等社论，为林彪、江青反革命集团搞乱全国，乱中夺权，制造反革命舆论。, cite: ws-1980-indictment, quote: true }
   cites: [ws-1966-06-01-sweep, ws-1980-indictment]
 
 - id: 1966-06-03-new-committee
@@ -401,8 +409,8 @@
   people: [liu-shaoqi, deng-xiaoping, wang-guangmei, zhang-chengxian, kuai-dafu]
   concepts: [two-lines]
   voices:
-    - { voice: doc, text: 在五十多天里，从中央到地方的某些领导同志……实行资产阶级专政，将无产阶级轰轰烈烈的文化大革命运动打下去。（《炮打司令部》）, cite: ws-1967-08-bombard-anniv }
-    - { voice: doc, text: 在今年六月一日以后的五十多天中，我在指导无产阶级文化大革命中发生了路线错误，方向错误。……第一位要负责任的，就是我。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism }
+    - { voice: doc, text: 在五十多天里，从中央到地方的某些领导同志……实行资产阶级专政，将无产阶级轰轰烈烈的文化大革命运动打下去。（《炮打司令部》）, cite: ws-1967-08-bombard-anniv, quote: true }
+    - { voice: doc, text: 在今年六月一日以后的五十多天中，我在指导无产阶级文化大革命中发生了路线错误，方向错误。……第一位要负责任的，就是我。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism, quote: true }
     - { voice: editor, text: 刘少奇检讨中“当时我们没有就是否应当派工作组的问题进行过讨论”与“当时群众纷纷要求……派工作组”并存——派工作组既是惯例，也是回应；被定性为“路线错误”是事后的。, cite: ws-1966-10-liu-self-criticism }
   cites: [ws-1966-10-liu-self-criticism, ws-1967-08-bombard-anniv]
 
@@ -415,7 +423,7 @@
   summary: 学生自发揪斗数十名干部、教师，有体罚、戴高帽。工作组将其定为“乱斗”加以制止；刘少奇主持的会议批发北大简报第九号，认为处理“正确的，及时的”。这一判断后来被定为“把革命师生群众的革命行动，说成是反革命事件”。
   people: [zhang-chengxian, liu-shaoqi]
   voices:
-    - { voice: doc, text: 批发了北京大学文化革命简报第九号到各地党委……这就给全国定了一种基调。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism }
+    - { voice: doc, text: 批发了北京大学文化革命简报第九号到各地党委……这就给全国定了一种基调。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism, quote: true }
   cites: [ws-1966-10-liu-self-criticism]
 
 - id: 1966-06-tsinghua-kuai
@@ -490,8 +498,9 @@
   concepts: [successor, mao-thought]
   docs: [ws-1966-08-12-plenum-communique, ws-1966-08-08-sixteen-points]
   voices:
-    - { voice: doc, text: 全会一致决定：由把毛泽东思想伟大红旗举得最高、活学活用毛主席著作最好的林彪同志，作为毛主席的第一位助手和毛主席的接班人。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism }
-  cites: [ws-1966-08-12-plenum-communique, ws-1966-10-liu-self-criticism]
+    - { voice: doc, text: 全会一致决定：由把毛泽东思想伟大红旗举得最高、活学活用毛主席著作最好的林彪同志，作为毛主席的第一位助手和毛主席的接班人。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism, quote: true }
+    - { voice: official1981, text: 对所谓“彭真、罗瑞卿、陆定一、杨尚昆反党集团”和对所谓“刘少奇、邓小平司令部”进行了错误的斗争，对党中央领导机构进行了错误的改组。, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1966-08-12-plenum-communique, ws-1966-10-liu-self-criticism, ws-1981-resolution]
 
 - id: 1966-08-05-bombard
   date: 1966-08-05
@@ -503,9 +512,10 @@
   concepts: [bourgeois-hq, two-lines]
   docs: [ws-1967-08-bombard-anniv]
   voices:
-    - { voice: doc, text: 联系到一九六二年的右倾和一九六四年形“左”而实右的错误倾向，岂不是可以发人深醒的吗？, cite: ws-1967-08-bombard-anniv }
+    - { voice: doc, text: 联系到一九六二年的右倾和一九六四年形“左”而实右的错误倾向，岂不是可以发人深醒的吗？, cite: ws-1967-08-bombard-anniv, quote: true }
     - { voice: official1966, text: 一年后的周年社论将其解释为揭露了“以中国赫鲁晓夫为首的资产阶级司令部”——原文并无此语。, cite: ws-1967-08-bombard-anniv }
-  cites: [ws-1967-08-bombard-anniv]
+    - { voice: official1981, text: 党内根本不存在所谓以刘少奇、邓小平为首的“资产阶级司令部”。, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1967-08-bombard-anniv, ws-1981-resolution]
 
 - id: 1966-08-05-bian-zhongyun
   date: 1966-08-05
@@ -526,7 +536,11 @@
   people: [mao-zedong, chen-boda]
   concepts: [capitalist-roaders, four-olds, verbal-struggle, paris-commune, mass-democracy, mao-thought]
   docs: [ws-1966-08-08-sixteen-points]
-  cites: [ws-1966-08-08-sixteen-points]
+  voices:
+    - { voice: doc, text: 在进行辩论的时候，要用文斗，不用武斗。, cite: ws-1966-08-08-sixteen-points, quote: true }
+    - { voice: official1981, text: 这两次会议相继通过了《五·一六通知》和《关于无产阶级文化大革命的决定》, cite: ws-1981-resolution, quote: true }
+    - { voice: editor, text: 1981 年决议把《十六条》与《五一六通知》并列为“全面发动的标志”，没有提及其中“要用文斗，不用武斗”“一律不整”等约束条款；这些条款在 8–9 月几乎没有被执行（见“红八月”）。, cite: ws-1981-resolution }
+  cites: [ws-1966-08-08-sixteen-points, ws-1981-resolution]
 
 - id: 1966-08-12-communique
   date: 1966-08-12
@@ -547,7 +561,7 @@
   summary: 据 1980 年起诉书，叶群两次找总参作战部副部长雷英夫口授材料；8 月 14 日林彪让雷以写信形式附上材料，“这样更政治化些”，当天批送江青“酌转”毛泽东。
   people: [ye-qun, lin-biao, jiang-qing, liu-shaoqi]
   voices:
-    - { voice: judicial1980, text: 林彪在他的住处告诉雷英夫，用给林彪和毛泽东主席写信的形式，附上诬陷材料，由他批转毛泽东主席，并说“这样更政治化些”。, cite: ws-1980-indictment }
+    - { voice: judicial1980, text: 林彪在他的住处告诉雷英夫，用给林彪和毛泽东主席写信的形式，附上诬陷材料，由他批转毛泽东主席，并说“这样更政治化些”。, cite: ws-1980-indictment, quote: true }
   cites: [ws-1980-indictment]
 
 - id: 1966-08-18-first-rally
@@ -561,9 +575,10 @@
   concepts: [four-olds, rebellion, reactionary-authority]
   docs: [ws-1966-08-18-lin-speech, ws-1966-08-18-zhou-speech]
   voices:
-    - { voice: doc, text: 我们坚决地支持你们敢闯、敢干、敢革命、敢造反的无产阶级革命精神！, cite: ws-1966-08-18-lin-speech }
+    - { voice: doc, text: 我们坚决地支持你们敢闯、敢干、敢革命、敢造反的无产阶级革命精神！, cite: ws-1966-08-18-lin-speech, quote: true }
     - { voice: editor, text: 十天前的《十六条》要求“文斗”、“一律不整”学生；林彪讲话则要使打击对象“永世不得翻身”。同一个月里，成文政策的约束与动员性话语并行。, cite: ws-1966-08-08-sixteen-points }
-  cites: [ws-1966-08-18-lin-speech, ws-1966-red-flag-index]
+    - { voice: official1981, text: 对毛泽东同志的个人崇拜被鼓吹到了狂热的程度。, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1966-08-18-lin-speech, ws-1966-red-flag-index, ws-1981-resolution]
 
 - id: 1966-08-red-august
   date: 1966-08-19
@@ -577,10 +592,12 @@
   concepts: [four-olds, bloodline, verbal-struggle]
   docs: [ws-1966-08-xicheng-4, ws-1966-08-23-very-good]
   voices:
-    - { voice: official1966, text: “\”红卫兵\“小将们以毛泽东思想为武器，正在横扫一切剥削阶级的旧思想、旧文化、旧风俗、旧习惯的灰尘。……好得很！”, cite: ws-1966-08-23-very-good }
-    - { voice: doc, text: 不是黑六类的家一律不查！国家负责干部的家绝对不许查！（西城纠察队第四号通令）, cite: ws-1966-08-xicheng-4 }
+    - { voice: official1966, text: “红卫兵”小将们以毛泽东思想为武器，正在横扫一切剥削阶级的旧思想、旧文化、旧风俗、旧习惯的灰尘。……好得很！, cite: ws-1966-08-23-very-good, quote: true }
+    - { voice: doc, text: 不是黑六类的家一律不查！国家负责干部的家绝对不许查！（西城纠察队第四号通令）, cite: ws-1966-08-xicheng-4, quote: true }
     - { voice: editor, text: 通令要求“文斗”、“一切缴获要归公”，却以出身划定查抄对象并驱逐出京——这正是《出身论》所批判的“偷换概念”：把斗争矛头从“当权派”转向“黑六类”。, cite: ws-1967-yu-origin-theory }
-  cites: [ws-1966-08-xicheng-4, ws-1966-08-23-very-good]
+    - { voice: official1981, text: “文化大革命”初期被卷入运动的大多数人，是出于对毛泽东同志和党的信赖，但是除了极少数极端分子以外，他们也不赞成对党的各级领导干部进行残酷斗争。, cite: ws-1981-resolution, quote: true }
+    - { voice: editor, text: 1981 年决议全文没有出现“红卫兵”“抄家”“武斗”“四旧”；1980 年起诉书中“抄家”三次都指对刘少奇、彭罗陆杨等干部或张春桥的特务组织，“红卫兵”两次是“冒充红卫兵”和“交红卫兵审判”。红八月以出身为界的抄家、殴打与驱逐，在两份定论文件中都没有位置（C013）。, cite: ws-1981-resolution }
+  cites: [ws-1966-08-xicheng-4, ws-1966-08-23-very-good, ws-1981-resolution, ws-1980-indictment]
 
 - id: 1966-08-23-lao-she
   date: 1966-08-23
@@ -590,6 +607,9 @@
   place: 北京国子监孔庙、太平湖
   summary: 北京市文联干部、作家与京剧演员被押至孔庙，在焚烧戏装的火堆旁遭殴打。老舍次日死于太平湖。
   people: [lao-she]
+  voices:
+    - { voice: judicial1980, text: 著名作家、艺术家老舍、赵树理、周信芳、盖叫天、潘天寿、应云卫、郑君里、孙维世等迫害致死。, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 起诉书把老舍之死列入林彪、江青集团的罪责，但没有给出日期和经过；孔庙批斗的实施者是红卫兵学生，这一层在起诉书中不出现。日期与经过待核（亲历者回忆、王友琴《文革受难者》）。 }
   cites: [ws-1980-indictment]
   verify: true
 
@@ -652,7 +672,10 @@
   weight: 1
   summary: 据 1980 年起诉书，8 月林彪指使吴法宪编造贺龙“在空军阴谋夺权”的材料，9 月 3 日送林彪；9 月 7–24 日宋治国受叶群授意写四份材料。
   people: [lin-biao, wu-faxian, ye-qun, he-long]
-  cites: [ws-1980-indictment]
+  voices:
+    - { voice: judicial1980, text: 一九六六年八月，林彪指使吴法宪编造诬陷贺龙在空军阴谋夺权的材料。九月三日，吴法宪把他写的诬陷材料送给林彪。, cite: ws-1980-indictment, quote: true }
+    - { voice: official1981, text: 在“文化大革命”中受迫害而牺牲的刘少奇、彭德怀、贺龙、陶铸等党和国家领导人, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1980-indictment, ws-1981-resolution]
 
 - id: 1966-08-31-second-rally
   date: 1966-08-31
@@ -665,7 +688,7 @@
   concepts: [four-olds]
   docs: [ws-1966-08-31-lin-speech]
   voices:
-    - { voice: doc, text: 红卫兵和其他青少年的革命组织，像雨后春笋一样地发展起来。他们走上街头，横扫“四旧”。, cite: ws-1966-08-31-lin-speech }
+    - { voice: doc, text: 红卫兵和其他青少年的革命组织，像雨后春笋一样地发展起来。他们走上街头，横扫“四旧”。, cite: ws-1966-08-31-lin-speech, quote: true }
   cites: [ws-1966-08-31-lin-speech]
 
 - id: 1966-10-01-national-day
@@ -679,7 +702,7 @@
   concepts: [two-lines, four-olds]
   docs: [ws-1966-10-01-mao-thought-road, ws-1966-10-01-lin-speech]
   voices:
-    - { voice: doc, text: 对资产阶级反动路线，必须彻底批判。, cite: ws-1966-10-01-mao-thought-road }
+    - { voice: doc, text: 对资产阶级反动路线，必须彻底批判。, cite: ws-1966-10-01-mao-thought-road, quote: true }
     - { voice: editor, text: 此前 1966 年的已收文本中没有这一说法，被指控者刘少奇在 10 月 23 日检讨中也不用它（C011）。 }
   cites: [ws-1966-10-01-mao-thought-road, ws-1966-10-01-lin-speech]
 
@@ -691,6 +714,8 @@
   place: 上海
   summary: 据 1980 年起诉书，江青勾结叶群，指使江腾蛟组织四十多人冒充红卫兵，搜查五位上海文艺界人士家中“书信、日记本、笔记本”，寻找江青 1930 年代的信件。1967 年 1 月在江青监视下烧毁。
   people: [jiang-qing, ye-qun]
+  voices:
+    - { voice: judicial1980, text: 江腾蛟回上海后，组织四十多人，冒充红卫兵，于十月九日凌晨，搜查了赵丹、郑君里、童芷苓、陈鲤庭和顾而已的家。, cite: ws-1980-indictment, quote: true }
   cites: [ws-1980-indictment]
 
 - id: 1966-10-work-conference
@@ -704,7 +729,7 @@
   concepts: [two-lines]
   docs: [ws-1966-10-liu-self-criticism]
   voices:
-    - { voice: doc, text: 我在一九六二年犯了右倾机会主义路线性的错误之后，在一九六四年又犯了形式上是“左”的而实际上是右倾的错误。, cite: ws-1966-10-liu-self-criticism }
+    - { voice: doc, text: 我在一九六二年犯了右倾机会主义路线性的错误之后，在一九六四年又犯了形式上是“左”的而实际上是右倾的错误。, cite: ws-1966-10-liu-self-criticism, quote: true }
   cites: [ws-1966-10-liu-self-criticism]
 
 - id: 1966-11-01-two-lines-editorial
@@ -716,7 +741,7 @@
   concepts: [two-lines]
   docs: [ws-1966-11-01-luxun]
   voices:
-    - { voice: doc, text: 在这两条路线的斗争中，进行调和、折中，这实际上就是维护资产阶级反动路线，反对无产阶级革命路线。, cite: ws-1966-11-01-luxun }
+    - { voice: doc, text: 在这两条路线的斗争中，进行调和、折中，这实际上就是维护资产阶级反动路线，反对无产阶级革命路线。, cite: ws-1966-11-01-luxun, quote: true }
   cites: [ws-1966-red-flag-index, ws-1966-11-01-luxun]
 
 - id: 1966-11-09-shanghai-wgs
@@ -730,7 +755,7 @@
   concepts: [rebellion, two-lines]
   docs: [ws-1966-11-shanghai-wgs]
   voices:
-    - { voice: doc, text: 我们上海市工人革命造反总司令部就在以毛主席为代表的无产阶级革命路线与资产阶级反动路线的大搏斗中宣告成立了！, cite: ws-1966-11-shanghai-wgs }
+    - { voice: doc, text: 我们上海市工人革命造反总司令部就在以毛主席为代表的无产阶级革命路线与资产阶级反动路线的大搏斗中宣告成立了！, cite: ws-1966-11-shanghai-wgs, quote: true }
   cites: [ws-1966-11-shanghai-wgs]
   verify: true
 
@@ -745,7 +770,7 @@
   concepts: [two-lines, rebellion, bloodline]
   docs: [ws-1966-12-liandong]
   voices:
-    - { voice: doc, text: 继资产阶级反动路线之后出现的资产阶级反动路线新形式乃是对当前运动的最大威胁。, cite: ws-1966-12-liandong }
+    - { voice: doc, text: 继资产阶级反动路线之后出现的资产阶级反动路线新形式乃是对当前运动的最大威胁。, cite: ws-1966-12-liandong, quote: true }
   cites: [ws-1966-12-liandong]
 
 - id: 1966-12-06-deng-black-gang
@@ -756,6 +781,8 @@
   people: [lin-biao, deng-xiaoping]
   summary: 据 1980 年起诉书。
   concepts: [black-gang]
+  voices:
+    - { voice: judicial1980, text: 一九六六年十二月六日，林彪诬陷邓小平是“黑帮分子”、“反党分子”。, cite: ws-1980-indictment, quote: true }
   cites: [ws-1980-indictment]
 
 - id: 1966-12-peng-dehuai-seized
@@ -776,7 +803,7 @@
   summary: 张春桥：“中央那一两个提出资产阶级反动路线的人至今仍不投降……你们革命小将应该联合起来……痛打落水狗，把他们搞臭。”
   people: [zhang-chunqiao, kuai-dafu, liu-shaoqi, deng-xiaoping]
   voices:
-    - { voice: judicial1980, text: 在张春桥的指使下，蒯大富于十二月二十五日在北京组织游行示威……公开煽动“打倒刘少奇！”“打倒邓小平！”, cite: ws-1980-indictment }
+    - { voice: judicial1980, text: 在张春桥的指使下，蒯大富于十二月二十五日在北京组织游行示威……公开煽动“打倒刘少奇！”“打倒邓小平！”, cite: ws-1980-indictment, quote: true }
   cites: [ws-1980-indictment]
 
 - id: 1966-12-25-down-with-liu
@@ -787,7 +814,11 @@
   place: 北京天安门、王府井
   summary: 首次以群众游行公开喊出打倒国家主席的口号。
   people: [kuai-dafu, liu-shaoqi, deng-xiaoping]
-  cites: [ws-1980-indictment]
+  voices:
+    - { voice: judicial1980, text: 张贴标语、大字报，散发传单，呼喊口号，公开煽动“打倒刘少奇！”“打倒邓小平！”, cite: ws-1980-indictment, quote: true }
+    - { voice: official1981, text: 确凿的事实证明，硬加给刘少奇同志的所谓“叛徒”、“内奸”、“工贼”的罪名，完全是林彪、江青等人的诬陷。, cite: ws-1981-resolution, quote: true }
+    - { voice: editor, text: 起诉书把游行写成“在张春桥的指使下”，蒯大富是被指使者；清华井冈山方面的文献（传单、大字报）尚未入库，组织者自己怎么说还不知道。 }
+  cites: [ws-1980-indictment, ws-1981-resolution]
 
 - id: 1966-12-30-kangping-road
   date: 1966-12-30
@@ -798,6 +829,8 @@
   summary: 据 1980 年起诉书，12 月 28 日张春桥电话称“胜利果实不能被赤卫队夺去”，王洪文伙同耿金章指挥攻打“工人赤卫队”，“伤残九十一人”。一个月后上海“一月风暴”夺权。
   people: [zhang-chunqiao, wang-hongwen, cao-diqiu]
   concepts: [verbal-struggle]
+  voices:
+    - { voice: judicial1980, text: 王洪文伙同打砸抢罪犯耿金章，组织指挥一些不明真相的群众，攻打“工人赤卫队”，伤残九十一人，制造了康平路武斗事件。, cite: ws-1980-indictment, quote: true }
   cites: [ws-1980-indictment]
 
 - id: 1967-01-18-origin-theory

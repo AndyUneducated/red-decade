@@ -56,7 +56,13 @@ export const VOICES = {
 } as const
 export type Voice = keyof typeof VOICES
 
-const Voiced = z.object({ voice: z.enum(Object.keys(VOICES) as [Voice, ...Voice[]]), text: z.string(), cite: Cite.optional() })
+// quote: text is verbatim from cite (checked at build time); otherwise it is a paraphrase.
+const Voiced = z.object({
+  voice: z.enum(Object.keys(VOICES) as [Voice, ...Voice[]]),
+  text: z.string(),
+  cite: Cite.optional(),
+  quote: z.boolean().optional(),
+})
 
 export const FateSchema = z.object({
   date: PartialDate,

@@ -928,3 +928,93 @@ h2.sec {
   font-family: var(--serif);
   letter-spacing: 0.2em;
 }
+
+/* ── narratives ────────────────────────────────────── */
+.nar-map {
+  position: relative;
+  padding: 6px 20px 0 0;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper-2);
+}
+.nar-list {
+  flex: 1;
+  overflow: auto;
+}
+.nar-row {
+  display: grid;
+  border-bottom: 1px solid var(--rule);
+  min-width: 1080px;
+}
+.nar-cell .cite {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+.nar-row[aria-selected='true'] {
+  background: var(--accent-soft);
+}
+.nar-row > div {
+  padding: 10px 10px 12px;
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+.nar-head {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule-2);
+}
+.nar-head > div {
+  padding: 8px 10px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+.nar-head span {
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 4px;
+}
+.nar-event time {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+}
+.nar-event button {
+  text-align: left;
+  font-family: var(--serif);
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+.nar-event button:hover {
+  color: var(--accent);
+}
+.nar-cell {
+  border-top: 2px solid transparent;
+  border-left: 1px dashed var(--rule);
+}
+.nar-cell p {
+  margin: 0 0 8px;
+}
+.nar-cell p:last-child {
+  margin: 0;
+}
+.nar-cell q {
+  font-family: var(--serif);
+  quotes: '「' '」';
+}
+.nar-cell .by,
+.nar-cell .para {
+  color: var(--ink-2);
+}
+.nar-cell .by {
+  font-size: 11px;
+}
+.nar-cell .empty {
+  color: var(--rule-2);
+}

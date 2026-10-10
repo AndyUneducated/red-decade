@@ -9,6 +9,7 @@ export const VIEWS = {
   fates: '命运矩阵',
   river: '派系河流',
   ideas: '思想谱系',
+  narratives: '叙事对照',
   docs: '文献',
   research: '研究',
 } as const
