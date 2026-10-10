@@ -82,7 +82,12 @@ export const PersonSchema = z.object({
   tier: z.number().int().min(1).max(3),
   role1966: z.string(),
   bio: z.string(),
+  // every faction the person ever belonged to; factions[0] is the default primary
   factions: z.array(z.string()),
+  // time-scoped primary faction, for people who changed sides (overrides factions[0] inside each span)
+  memberships: z
+    .array(z.object({ f: z.string(), from: PartialDate.optional(), to: PartialDate.optional(), note: z.string().optional(), cite: Cite.optional() }))
+    .optional(),
   fate: z.array(FateSchema).default([]),
   cites: z.array(Cite).default([]),
   verify: z.boolean().optional(),

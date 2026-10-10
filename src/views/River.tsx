@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 import { useMemo, useRef, useState } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
-import { statusAt } from '../data/atlas'
+import { factionAt, statusAt } from '../data/atlas'
 import { STATUSES, type Faction, type Person, type Status } from '../data/schema'
 import { fmtDate, fmtT, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
@@ -54,7 +54,7 @@ export function River() {
     const data = months.map((tt) => {
       const r: Record<string, number> = { t: tt }
       for (const k of keys) r[k] = 0
-      for (const p of ix.people) if (STANDING.has(sAt(p, tt))) r[p.factions[0]]++
+      for (const p of ix.people) if (STANDING.has(sAt(p, tt))) r[factionAt(p, tt)]++
       return r
     })
     const series = d3
@@ -217,7 +217,7 @@ export function River() {
           </g>
 
           {river.map((r) => {
-            const dim = (selFaction && selFaction !== r.f.id) || (selPerson && ix.person.get(selPerson)?.factions[0] !== r.f.id)
+            const dim = (selFaction && selFaction !== r.f.id) || (selPerson && !ix.person.get(selPerson)?.factions.includes(r.f.id))
             return (
               <path
                 key={r.f.id}
@@ -234,7 +234,7 @@ export function River() {
                 onMouseMove={(e) => {
                   const tt = tAt(e)
                   const d = r.at(tt)
-                  const total = ix.people.filter((p) => p.factions[0] === r.f.id).length
+                  const total = ix.people.filter((p) => factionAt(p, tt) === r.f.id).length
                   tip_(
                     e,
                     <>

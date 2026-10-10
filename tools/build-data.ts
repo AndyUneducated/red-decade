@@ -99,6 +99,10 @@ const needCite = (cite: string | undefined, where: string) => {
   if (cite && !sourceById.has(cite.split('@')[0])) errors.push(`${where}: unknown source "${cite}"`)
 }
 for (const p of people) {
+  for (const m of p.memberships ?? []) {
+    needCite(m.cite, `person ${p.id} membership`)
+    if (!p.factions.includes(m.f)) p.factions.push(m.f)
+  }
   p.factions.forEach((f) => need(ids.faction, f, `person ${p.id}`))
   p.cites.forEach((c) => needCite(c, `person ${p.id}`))
   p.fate.forEach((f) => needCite(f.cite, `person ${p.id} fate`))

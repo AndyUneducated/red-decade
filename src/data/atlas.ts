@@ -53,6 +53,16 @@ export function statusAt(p: Person, t: number): Status | undefined {
   return s
 }
 
+export function factionAt(p: Person, t: number): string {
+  let f = p.factions[0]
+  for (const m of p.memberships ?? []) {
+    const from = m.from ? toT(m.from) : -Infinity
+    const to = m.to ? toT(m.to, true) : Infinity
+    if (from <= t && t <= to) f = m.f
+  }
+  return f
+}
+
 export function relationActive(r: Relation, t: number): boolean {
   const from = r.from ? toT(r.from) : -Infinity
   const to = r.to ? toT(r.to, true) : Infinity
