@@ -4,6 +4,8 @@ import { useApp } from '../state'
 import { shortTitle } from './Ideas'
 
 const REPO = 'https://github.com/AndyUneducated/red-decade/tree/main/research'
+const TIERS = ['', '原文', '官方', '亲历', '研究']
+const ACCESS = { unread: '未读', partial: '部分', read: '已读' }
 
 export function Research() {
   const { ix, openDoc, select } = useApp()
@@ -11,7 +13,8 @@ export function Research() {
   const fateTotal = ix.people.reduce((n, p) => n + p.fate.length, 0)
   const fateVerify = ix.people.reduce((n, p) => n + p.fate.filter((f) => f.verify).length, 0)
   const withText = ix.sources.filter((s) => s.hasText)
-  const missing = ix.sources.filter((s) => !s.hasText)
+  const missing = ix.sources.filter((s) => s.tier === 1 && !s.hasText)
+  const secondary = ix.sources.filter((s) => s.tier > 1).sort((a, b) => a.tier - b.tier || a.date.localeCompare(b.date))
   const verifyEvents = ix.events.filter((e) => e.verify)
 
   const stats: [number | string, string][] = [
@@ -19,7 +22,7 @@ export function Research() {
     [`${sourced}/${ix.events.length}`, '事件（有原文出处）'],
     [`${fateTotal - fateVerify}/${fateTotal}`, '命运节点（已核）'],
     [ix.relations.length, '关系'],
-    [`${withText.length}/${ix.sources.length}`, '一手文献（已获全文）'],
+    [`${withText.length}/${withText.length + missing.length}`, '一手文献（已获全文）'],
     [ix.claims.length, '本站研究结论'],
   ]
 
@@ -98,6 +101,46 @@ export function Research() {
                       {s.title}
                       {s.note && <div style={{ fontSize: 11.5, color: 'var(--muted)' }}>{s.note}</div>}
                     </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+
+            <h2 className="sec" style={{ marginTop: 28 }}>
+              第 2–4 层来源（{secondary.filter((s) => s.access !== 'unread').length}/{secondary.length} 已读）
+            </h2>
+            <table className="sources">
+              <thead>
+                <tr>
+                  <th>层</th>
+                  <th>书目</th>
+                  <th>状态</th>
+                </tr>
+              </thead>
+              <tbody>
+                {secondary.map((s) => (
+                  <tr key={s.id}>
+                    <td className="num">{TIERS[s.tier]}</td>
+                    <td>
+                      {s.url ? (
+                        <a href={s.url} target="_blank" rel="noreferrer">
+                          {s.title}
+                        </a>
+                      ) : (
+                        s.title
+                      )}
+                      <div style={{ fontSize: 11.5, color: 'var(--muted)' }}>
+                        {[s.author, s.publisher, s.date].filter(Boolean).join(' · ')}
+                      </div>
+                      {s.want.length > 0 && (
+                        <ul style={{ margin: '4px 0 0', paddingLeft: 16, fontSize: 12, color: 'var(--ink-2)' }}>
+                          {s.want.map((w) => (
+                            <li key={w}>{w}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </td>
+                    <td className="num">{ACCESS[s.access ?? 'unread']}</td>
                   </tr>
                 ))}
               </tbody>

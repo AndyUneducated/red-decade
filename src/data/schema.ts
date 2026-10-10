@@ -153,7 +153,30 @@ export const SourceSchema = z.object({
   tier: z.number().int().min(1).max(4),
   hasText: z.boolean().default(false),
   note: z.string().optional(),
+  // bibliographic sources (content/sources.yaml)
+  publisher: z.string().optional(),
+  locator: z.string().optional(),
+  access: z.enum(['unread', 'partial', 'read']).optional(),
+  want: z.array(z.string()).default([]),
 })
+
+export const SOURCE_KINDS: Record<string, string> = {
+  'party-doc': '中央文件',
+  editorial: '社论 · 评论',
+  speech: '讲话 · 检讨',
+  redguard: '红卫兵 · 群众组织文献',
+  essay: '民间思想',
+  chronology: '资料汇编',
+  judicial: '司法文书',
+  index: '目录 · 索引',
+  collected: '文集 · 文稿',
+  annals: '年谱 · 组织史',
+  memoir: '回忆录 · 口述',
+  monograph: '学术专著',
+  database: '资料库',
+  archive: '外国档案',
+  gazetteer: '地方志',
+}
 
 export const ClaimSchema = z.object({
   id: z.string(),

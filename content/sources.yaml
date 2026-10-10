@@ -1,0 +1,234 @@
+# 第 2–4 层来源登记（维基文库以外）。第 1 层原文见 research/manifests/。
+# tier: 2 官方后来的整理 · 3 亲历者 · 4 研究与资料库
+# access: unread 未读 · partial 读了一部分 · read 已读
+# locator: 引用时 @ 后面的定位方式（如 “卷:页”）
+# want: 打算用它核对什么（对应 queue.md）
+# 书目信息录入时以出版社版权页为准；未经亲见的项在 note 中注明。
+
+- id: mao-manuscripts-12
+  title: 建国以来毛泽东文稿（第十二册）
+  author: 中共中央文献研究室 编
+  publisher: 中央文献出版社
+  date: 1998
+  kind: collected
+  tier: 2
+  locator: 页
+  access: unread
+  want:
+    - 《炮打司令部——我的一张大字报》原稿（C002、C003）
+    - 1966-08-01 致清华附中红卫兵信
+  note: 收 1966 年 1 月至 1968 年 12 月文稿。
+
+- id: mao-chronicle-1949
+  title: 毛泽东年谱（1949—1976）
+  author: 中共中央文献研究室 编
+  publisher: 中央文献出版社
+  date: 2013
+  kind: annals
+  tier: 2
+  locator: 卷:页
+  access: unread
+  want:
+    - 1965–1966 年会议日期与毛的行踪（清理待核事件）
+    - 1966-07-18 回京、7 月下旬撤工作组的决策过程
+
+- id: zhou-chronicle-1949
+  title: 周恩来年谱（1949—1976）
+  author: 中共中央文献研究室 编
+  publisher: 中央文献出版社
+  date: 1997
+  kind: annals
+  tier: 2
+  locator: 卷:页
+  access: unread
+  want:
+    - 1966-08-18 讲话；周对红卫兵的约束性表态
+    - C009：周恩来在《海瑞罢官》按语中的作用
+
+- id: liu-chronicle
+  title: 刘少奇年谱（1898—1969）
+  author: 中共中央文献研究室 编
+  publisher: 中央文献出版社
+  date: 1996
+  kind: annals
+  tier: 2
+  locator: 卷:页
+  access: unread
+  want:
+    - 1966 年 6–7 月工作组决策（“五十多天”）
+    - 刘少奇命运节点的日期（清理待核）
+
+- id: peng-zhen-chronicle
+  title: 彭真年谱
+  author: 《彭真传》编写组 编
+  publisher: 中央文献出版社
+  date: 2012
+  kind: annals
+  tier: 2
+  locator: 卷:页
+  access: unread
+  want:
+    - C001：彭真一方对《二月提纲》意图的叙述
+  note: 书目信息待以版权页核对。
+
+- id: ccp-org-history
+  title: 中国共产党组织史资料
+  author: 中共中央组织部 等 编
+  publisher: 中共党史出版社
+  date: 2000
+  kind: annals
+  tier: 2
+  locator: 卷:页
+  access: unread
+  want:
+    - 1966 年人物任职起止（人物 role1966 与命运节点）
+
+- id: wu-de-memoir
+  title: 十年风雨纪事——我在北京工作的一些经历
+  author: 吴德
+  publisher: 当代中国出版社
+  date: 2004
+  kind: memoir
+  tier: 3
+  locator: 页
+  access: unread
+  want:
+    - 北京新市委视角下的工作组、红八月、大兴事件
+
+- id: wang-li-memoir
+  title: 王力反思录
+  author: 王力
+  publisher: 北星出版社（香港）
+  date: 2001
+  kind: memoir
+  tier: 3
+  locator: 卷:页
+  access: unread
+  want:
+    - 中央文革小组内部、《红旗》1966 年第 13–14 期社论的起草（C011）
+  note: 书目信息待以版权页核对。
+
+- id: nie-yuanzi-memoir
+  title: 聂元梓回忆录
+  author: 聂元梓
+  publisher: 时代国际出版有限公司（香港）
+  date: 2005
+  kind: memoir
+  tier: 3
+  locator: 页
+  access: unread
+  want:
+    - 5·25 大字报的起草与康生方面的介入
+  note: 书目信息待以版权页核对。
+
+- id: wang-youqin-victims
+  title: 文革受难者——关于迫害、监禁与杀戮的寻访实录
+  author: 王友琴
+  publisher: 开放杂志出版社（香港）
+  date: 2004
+  kind: memoir
+  tier: 3
+  locator: 页
+  access: unread
+  want:
+    - 卞仲耘之死（8 月 5 日）的经过与日期
+    - 红八月北京学校中的死亡名单
+
+- id: wang-nianyi-turmoil
+  title: 大动乱的年代
+  author: 王年一
+  publisher: 河南人民出版社
+  date: 1988
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 1966 年事件日期的交叉核对（官方系统内的研究口径）
+
+- id: bu-weihua-smash
+  title: “砸烂旧世界”——文化大革命的动乱与浩劫（1966—1968）
+  author: 卜伟华
+  publisher: 香港中文大学出版社
+  date: 2008
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 1966–1968 年事件与数字（M2、M3）
+
+- id: macfarquhar-schoenhals
+  title: Mao's Last Revolution
+  author: Roderick MacFarquhar, Michael Schoenhals
+  publisher: Belknap Press of Harvard University Press
+  date: 2006
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 1966 年高层决策时间线；红八月死亡数字的出处
+
+- id: walder-fractured
+  title: "Fractured Rebellion: The Beijing Red Guard Movement"
+  author: Andrew G. Walder
+  publisher: Harvard University Press
+  date: 2009
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 老红卫兵与造反派分化的机制（C006、C012）
+
+- id: yang-jisheng-overturn
+  title: 天地翻覆——中国文化大革命史
+  author: 杨继绳
+  publisher: 天地图书（香港）
+  date: 2016
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 全时段事件与数字的交叉核对
+
+- id: su-yang-killings
+  title: Collective Killings in Rural China during the Cultural Revolution
+  author: Yang Su
+  publisher: Cambridge University Press
+  date: 2011
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - M3 大规模暴力专题：县志死亡数字的口径与方法
+
+- id: song-yongyi-database
+  title: 中国文化大革命文库
+  author: 宋永毅 主编
+  publisher: 香港中文大学中国研究服务中心
+  date: 2002
+  kind: database
+  tier: 4
+  locator: 篇名
+  access: unread
+  want:
+    - 维基文库缺失的 1966 年文献：聂元梓大字报、清华附中三论、周恩来 8·18 讲话、陈伯达 10 月讲话、林彪 5·18 讲话
+  note: 电子资料库，有后续增订版。收录的原始文件属第 1 层；资料库本身的编选属第 4 层。
+
+- id: frus-1964-68-xxx
+  title: Foreign Relations of the United States, 1964–1968, Volume XXX, China
+  author: U.S. Department of State, Office of the Historian
+  publisher: United States Government Printing Office
+  date: 1998
+  kind: archive
+  tier: 3
+  locator: 文件号
+  access: unread
+  url: https://history.state.gov/historicaldocuments/frus1964-68v30
+  want:
+    - M4 外国档案：美国对 1966 年中国局势的观察
+  note: 美国政府作品，公有领域。

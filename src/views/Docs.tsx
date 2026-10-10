@@ -1,20 +1,12 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Entity, PersonChip } from '../components/bits'
 import type { Ref } from '../data/atlas'
+import { SOURCE_KINDS } from '../data/schema'
 import { fmtDate } from '../lib/dates'
 import { useApp } from '../state'
 import { shortTitle } from './Ideas'
 
-const KINDS: Record<string, string> = {
-  'party-doc': '中央文件',
-  editorial: '社论 · 评论',
-  speech: '讲话 · 检讨',
-  redguard: '红卫兵文献',
-  essay: '民间思想',
-  chronology: '资料汇编',
-  judicial: '司法文书',
-  index: '目录 · 索引',
-}
+const KINDS = SOURCE_KINDS
 const DEFAULT_DOC = 'ws-1966-05-16-notice'
 
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
