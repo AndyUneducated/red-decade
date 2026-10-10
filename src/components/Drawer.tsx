@@ -347,6 +347,15 @@ export function ClaimCard({ id, inline }: { id: string; inline?: boolean }) {
       ))}
       <div className="method">方法：{c.method}</div>
       {c.caveats && <div className="caveat">局限：{c.caveats}</div>}
+      {c.history.length > 0 && (
+        <div className="method">
+          {c.history.map((h, i) => (
+            <div key={i}>
+              修订 {fmtDate(h.date)}：{h.note}
+            </div>
+          ))}
+        </div>
+      )}
       <div className="chips" style={{ marginTop: 8 }}>
         {c.people.map((p) => (
           <PersonChip key={p} id={p} />

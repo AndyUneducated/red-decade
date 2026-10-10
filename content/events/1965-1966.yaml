@@ -654,6 +654,35 @@
   people: [lin-biao, wu-faxian, ye-qun, he-long]
   cites: [ws-1980-indictment]
 
+- id: 1966-08-31-second-rally
+  date: 1966-08-31
+  title: 毛泽东第二次接见红卫兵；林彪讲话称“横扫‘四旧’”
+  lane: mass
+  weight: 2
+  place: 北京 / 天安门
+  summary: 林彪讲话描述红卫兵“走上街头，横扫‘四旧’”。这是缩写“四旧”首次见于已收官方文本，带引号。
+  people: [mao-zedong, lin-biao]
+  concepts: [four-olds]
+  docs: [ws-1966-08-31-lin-speech]
+  voices:
+    - { voice: doc, text: 红卫兵和其他青少年的革命组织，像雨后春笋一样地发展起来。他们走上街头，横扫“四旧”。, cite: ws-1966-08-31-lin-speech }
+  cites: [ws-1966-08-31-lin-speech]
+
+- id: 1966-10-01-national-day
+  date: 1966-10-01
+  title: 国庆：《红旗》社论首提“资产阶级反动路线”
+  lane: ideology
+  weight: 3
+  place: 北京
+  summary: 《红旗》第 13 期社论《在毛泽东思想的大路上前进》首次公开提出“资产阶级反动路线”，号召“必须彻底批判”，并把《十六条》说成“两条路线斗争的产物”。同日林彪讲话说“破剥削阶级的四旧，立无产阶级的四新”，“四旧”已不加引号。
+  people: [lin-biao, mao-zedong]
+  concepts: [two-lines, four-olds]
+  docs: [ws-1966-10-01-mao-thought-road, ws-1966-10-01-lin-speech]
+  voices:
+    - { voice: doc, text: 对资产阶级反动路线，必须彻底批判。, cite: ws-1966-10-01-mao-thought-road }
+    - { voice: editor, text: 此前 1966 年的已收文本中没有这一说法，被指控者刘少奇在 10 月 23 日检讨中也不用它（C011）。 }
+  cites: [ws-1966-10-01-mao-thought-road, ws-1966-10-01-lin-speech]
+
 - id: 1966-10-09-shanghai-raid
   date: 1966-10-09
   title: 冒充红卫兵搜查赵丹、郑君里等五家
@@ -680,12 +709,15 @@
 
 - id: 1966-11-01-two-lines-editorial
   date: 1966-11-01
-  title: 《红旗》社论《以毛主席为代表的无产阶级革命路线的胜利》
+  title: 《红旗》第 14 期：《以毛主席为代表的无产阶级革命路线的胜利》
   lane: ideology
   weight: 1
-  summary: 将工作组时期定性为“资产阶级反动路线”，两条路线框架公开化。
+  summary: 同期另一篇社论借鲁迅逝世三十周年号召“彻底批判资产阶级反动路线”，宣称在两条路线之间“没有中间道路可走”。“两条路线”框架此前已由 10 月 1 日国庆社论公开提出。主社论原文尚未入库。
   concepts: [two-lines]
-  cites: [ws-1966-red-flag-index]
+  docs: [ws-1966-11-01-luxun]
+  voices:
+    - { voice: doc, text: 在这两条路线的斗争中，进行调和、折中，这实际上就是维护资产阶级反动路线，反对无产阶级革命路线。, cite: ws-1966-11-01-luxun }
+  cites: [ws-1966-red-flag-index, ws-1966-11-01-luxun]
 
 - id: 1966-11-09-shanghai-wgs
   date: 1966-11-09
@@ -695,8 +727,26 @@
   place: 上海 / 安亭
   summary: 王洪文等成立“上海工人革命造反总司令部”，市委拒绝承认；工人卧轨安亭，沪宁线中断。张春桥赴现场签字承认其合法，越过了“工人不要离厂串连”的指示。
   people: [wang-hongwen, zhang-chunqiao, cao-diqiu]
-  concepts: [rebellion]
+  concepts: [rebellion, two-lines]
+  docs: [ws-1966-11-shanghai-wgs]
+  voices:
+    - { voice: doc, text: 我们上海市工人革命造反总司令部就在以毛主席为代表的无产阶级革命路线与资产阶级反动路线的大搏斗中宣告成立了！, cite: ws-1966-11-shanghai-wgs }
+  cites: [ws-1966-11-shanghai-wgs]
   verify: true
+
+- id: 1966-12-05-liandong
+  date: 1966-12-05
+  title: 老红卫兵成立“首都红卫兵联合行动委员会”（联动）
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: 以干部子弟为主的老红卫兵组成“联动”，宣言警告“资产阶级反动路线新形式”将使“千百万人头落地”。矛头实际指向中央文革，用的却是同一套官方语言（C012）。
+  people: []
+  concepts: [two-lines, rebellion, bloodline]
+  docs: [ws-1966-12-liandong]
+  voices:
+    - { voice: doc, text: 继资产阶级反动路线之后出现的资产阶级反动路线新形式乃是对当前运动的最大威胁。, cite: ws-1966-12-liandong }
+  cites: [ws-1966-12-liandong]
 
 - id: 1966-12-06-deng-black-gang
   date: 1966-12-06

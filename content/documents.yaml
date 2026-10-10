@@ -137,3 +137,41 @@
   significance: 迄今为止中共对文革的正式定性：“一场由领导者错误发动，被反革命集团利用，给党、国家和各族人民带来严重灾难的内乱”。
   people: [mao-zedong, liu-shaoqi, lin-biao, jiang-qing, deng-xiaoping]
   concepts: [continuous-revolution, bourgeois-hq, capitalist-roaders, class-struggle]
+
+- id: ws-1966-08-31-lin-speech
+  summary: 毛泽东第二次接见外地来京师生，林彪讲话。肯定红卫兵“走上街头，横扫‘四旧’”，同时要求“要用文斗，不用武斗”。
+  significance: 缩写“四旧”首次见于已收官方文本，且带引号（C004）。
+  people: [lin-biao, mao-zedong]
+  concepts: [four-olds, verbal-struggle]
+
+- id: ws-1966-10-01-mao-thought-road
+  summary: 《红旗》1966 年第 13 期国庆社论。宣布《十六条》是“两条路线斗争的产物”，号召“彻底批判”资产阶级反动路线。
+  significance: “资产阶级反动路线”首次公开出现（C011）。从此运动的主要矛头由“牛鬼蛇神”转向工作组时期的各级领导。
+  concepts: [two-lines, four-olds, capitalist-roaders]
+
+- id: ws-1966-11-shanghai-wgs
+  summary: 上海工总司成立宣言（草案）。以“造反有理”开篇，宣布造上海市委与“资产阶级反动路线”的反，并提出“我们要夺权”。
+  significance: 工人造反组织登场；“夺权”一词已出现在 1966 年 11 月的群众文献中，比一月夺权早两个月（C006）。
+  people: [wang-hongwen]
+  concepts: [rebellion, two-lines]
+
+- id: ws-1966-12-liandong
+  summary: 老红卫兵“联动”成立宣言。警告“资产阶级反动路线新形式”，宣誓捍卫毛主席革命路线。
+  significance: 反中央文革的一方用的是同一套官方语言（C012）。
+  concepts: [two-lines, rebellion]
+
+- id: ws-1967-01-01-to-the-end
+  summary: 1967 年元旦两报一刊社论，宣告“全面展开阶级斗争的一年”，号召工矿企业和农村开展文化大革命。
+  significance: 一篇之中“资产阶级反动路线”41 次，却无一次“资产阶级司令部”（C003）。
+  concepts: [two-lines, capitalist-roaders]
+
+- id: ws-1967-11-06-october-road
+  summary: 十月革命五十周年两报一刊社论。首次以“伟大理论”命名“无产阶级专政下继续革命”，并列出六条要点。
+  significance: “继续革命”理论的命名时刻（C008）。
+  concepts: [continuous-revolution, class-struggle]
+
+- id: ws-1969-04-ninth-report
+  summary: 林彪在九大的政治报告。把“继续革命”上溯到 1957 年，系统叙述“两个司令部”的斗争史。
+  significance: 文革官方叙事的定型文本，1981 年决议主要针对的对象之一。
+  people: [lin-biao, liu-shaoqi, mao-zedong]
+  concepts: [continuous-revolution, bourgeois-hq, two-lines]

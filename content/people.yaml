@@ -825,7 +825,7 @@
   fate:
     - { date: 1950, s: normal }
     - { date: 1966-08-23, s: attacked, verify: true }
-    - { date: 1966-08-24, s: dead, cite: ws-1980-indictment }
+    - { date: 1966-08-24, s: dead, note: 起诉书列为“迫害致死”，但未给日期, cite: ws-1980-indictment, verify: true }
   cites: [ws-1980-indictment]
 
 - id: bian-zhongyun

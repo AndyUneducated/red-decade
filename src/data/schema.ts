@@ -166,6 +166,7 @@ export const ClaimSchema = z.object({
   concepts: z.array(z.string()).default([]),
   events: z.array(z.string()).default([]),
   logged: PartialDate,
+  history: z.array(z.object({ date: PartialDate, note: z.string() })).default([]),
 })
 
 export type Fate = z.infer<typeof FateSchema>
