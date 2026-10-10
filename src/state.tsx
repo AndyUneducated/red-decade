@@ -7,6 +7,7 @@ export const VIEWS = {
   timeline: '时间线',
   network: '人物网络',
   fates: '命运矩阵',
+  river: '派系河流',
   ideas: '思想谱系',
   docs: '文献',
   research: '研究',
