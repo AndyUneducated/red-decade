@@ -148,6 +148,43 @@
     - 林彪本人对“571 工程”的知情程度、九一三出逃经过的不同说法
   note: 文集，作者多人。书目信息待以版权页核对。
 
+- id: vogel-deng
+  title: Deng Xiaoping and the Transformation of China
+  author: Ezra F. Vogel
+  publisher: Belknap Press of Harvard University Press
+  date: 2011
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 邓小平文革中的两起两落；1975 年整顿；1977 年复出过程
+
+- id: witke-jiang
+  title: Comrade Chiang Ch'ing
+  author: Roxane Witke
+  publisher: Little, Brown and Company
+  date: 1977
+  kind: monograph
+  tier: 3
+  locator: 页
+  access: unread
+  want:
+    - 江青 1972 年本人口述的早年、上海与延安经历（亲历者自述，需与其他来源对照）
+  note: 基于 1972 年作者对江青的长时间访谈，按亲历者口述归入第 3 层。
+
+- id: byron-pack-kang
+  title: "The Claws of the Dragon: Kang Sheng, the Evil Genius Behind Mao and His Legacy of Terror in People's China"
+  author: John Byron, Robert Pack
+  publisher: Simon & Schuster
+  date: 1992
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 康生在莫斯科、延安审干中的经历（需与中方档案对照）
+
 - id: wu-de-memoir
   title: 十年风雨纪事——我在北京工作的一些经历
   author: 吴德

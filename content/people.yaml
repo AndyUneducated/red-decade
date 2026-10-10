@@ -498,83 +498,518 @@
 
 - id: deng-xiaoping
   name: 邓小平
+  pinyin: Dèng Xiǎopíng
+  aka:
+    - { kind: original, name: 邓先圣 }
+    - { kind: other, name: 邓希贤 }
+    - { kind: cover, name: 邓斌 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 四川广安协兴乡牌坊村
+  origin: 四川广安
+  classOrigin: 地主
+  classNote: 父亲邓绍昌为当地小地主、袍哥头目（据后来传记，待核）。
   born: 1904-08-22
   died: 1997-02-19
+  deathKind: natural
+  deathPlace: 北京
+  education:
+    - { school: 重庆留法勤工俭学预备学校, from: 1919-09, to: 1920-07, verify: true }
+    - { school: 法国勤工俭学, from: 1920-10, to: 1926-01, verify: true }
+    - { school: 莫斯科中山大学, from: 1926-01, to: 1926-12, verify: true }
+  party: 中国共产党
+  joinedParty: 1924
+  joinedRevolution: 1922
+  positions:
+    - { title: 中共中央秘书长, orgName: 中共中央, from: 1927-12, to: 1929, verify: true }
+    - { title: 红七军、红八军政治委员, orgName: 红七军, from: 1929-12, to: 1931, cite: ws-1997-02-19-deng-message }
+    - { title: 八路军一二九师政治委员, orgName: 八路军一二九师, from: 1938-01, to: 1945, cite: ws-1997-02-19-deng-message }
+    - { title: 中共中央中原局第一书记, orgName: 中共中央中原局, from: 1947, to: 1949, cite: ws-1997-02-19-deng-message }
+    - { title: 淮海战役总前委书记, orgName: 总前委, from: 1948-11, to: 1949, cite: ws-1997-02-19-deng-message }
+    - { title: 中共中央西南局第一书记, orgName: 中共中央西南局, from: 1949-11, to: 1952, cite: ws-1997-02-19-deng-message }
+    - { title: 政务院副总理、国务院副总理, orgName: 国务院, from: 1952-08, to: 1968, verify: true }
+    - { title: 中共中央总书记, orgName: 中共中央书记处, from: 1956-09, to: 1966, cite: ws-1997-02-19-deng-message }
+    - { title: 国务院副总理, orgName: 国务院, from: 1973-03, to: 1976-04-07, cite: ws-1997-02-19-deng-message }
+    - { title: 中共中央副主席、中央军委副主席、总参谋长, orgName: 中共中央, from: 1975-01, to: 1976-04-07, cite: ws-1997-02-19-deng-message }
+    - { title: 中共中央副主席、国务院副总理、总参谋长（恢复）, orgName: 中共中央, from: 1977-07, to: 1982-09, verify: true }
+    - { title: 全国政协主席, orgName: 全国政协, from: 1978-03, to: 1983-06, verify: true }
+    - { title: 中共中央军事委员会主席, orgName: 中共中央军委, from: 1981-06, to: 1989-11, cite: ws-1997-02-19-deng-message }
+    - { title: 中央顾问委员会主任, orgName: 中央顾问委员会, from: 1982-09, to: 1987-11, verify: true }
+  afterlife:
+    - { date: 1997-02-25, text: 人民大会堂举行追悼大会，江泽民致悼词, verify: true }
+    - { date: 1997-03-02, text: 骨灰按遗愿撒入大海, verify: true }
   tier: 1
   role1966: 中共中央总书记、国务院副总理
-  bio: 与刘少奇同处“一线”。1966 年 4 月主持书记处会议批判彭真。10 月作检讨。1980 年起诉书：“一九六六年十二月六日，林彪诬陷邓小平是'黑帮分子'、'反党分子'。”
+  bio: 中共早期党员，百色起义领导者，抗战和解放战争中与刘伯承搭档指挥晋冀鲁豫、中原部队，淮海战役总前委书记。1956–1966 年任总书记，与刘少奇同处“一线”。文革中被打倒、下放江西，1973 年复出，1975 年主持整顿，1976 年再次被撤销一切职务；1977 年复出后成为“第二代中央领导集体的核心”，主导改革开放，直到 1997 年去世。1966 年 4 月主持书记处会议批判彭真，10 月作检讨。
+  life:
+    - h: 家世与留法
+      from: 1904
+      to: 1927
+      text: |
+        1904 年 8 月 22 日生于四川广安协兴乡牌坊村，原名邓先圣，入私塾时改名邓希贤。1919 年入重庆留法勤工俭学预备学校，1920 年赴法国，在工厂做工。1922 年加入旅欧中国少年共产党，1924 年转为中共党员，在周恩来领导下负责油印刊物《赤光》，被称为“油印博士”。1926 年初经苏联入莫斯科中山大学学习。
+      verify: true
+      cites: [ccp-figures-bios, klein-clark-1971]
+    - h: 从西北军到中央苏区与长征
+      from: 1927
+      to: 1937
+      text: |
+        1927 年春回国，到冯玉祥国民军联军所属中山军事学校负责政治工作，后到武汉，参加八七会议，此时改名邓小平。1927 年底至 1929 年任中共中央秘书长。1929 年受中央派遣到广西，化名邓斌，12 月 11 日发动百色起义，创建红七军和右江根据地，次年 2 月发动龙州起义，创建红八军。
+
+        1931 年到中央苏区，任瑞金、会昌中心县委书记。1933 年因拥护毛泽东的主张被“左”倾领导者批判、撤职，与毛泽覃、谢唯俊、古柏一起被称为“邓、毛、谢、古”。此后在红军总政治部编《红星》报。长征途中任中央秘书长，出席遵义会议。
+      cites: [ws-1997-02-19-deng-message]
+      verify: true
+    - h: 刘邓大军
+      from: 1937
+      to: 1949
+      text: |
+        1938 年起任八路军一二九师政治委员，与师长刘伯承一起创建晋冀豫等根据地，后任北方局太行分局书记、代理北方局书记。1945 年七大当选中央委员。解放战争中任晋冀鲁豫军区政委、中原局书记，1947 年夏与刘伯承率部强渡黄河，千里跃进大别山。1948 年 11 月任总前委书记，与刘伯承、陈毅、粟裕、谭震林指挥淮海战役，1949 年指挥渡江战役，随后进军西南。
+      cites: [ws-1997-02-19-deng-message]
+    - h: 西南与总书记十年
+      from: 1949
+      to: 1966
+      text: |
+        建国后任西南局第一书记，1952 年调中央任政务院副总理，1954 年任中共中央秘书长、组织部部长，1955 年增选为政治局委员。1956 年八大作关于修改党章的报告，八届一中全会当选政治局常委、总书记，主持中央书记处工作十年。1957 年反右派斗争中担任中央领导小组组长；1960–1963 年多次率团赴莫斯科与苏共论战。三年困难时期支持调整，1962 年 7 月谈恢复农业生产时引用“不管黄猫黑猫，只要捉住老鼠就是好猫”。
+      cites: [ws-1997-02-19-deng-message, ws-1981-resolution]
+      verify: true
+    - h: 文化大革命
+      from: 1966
+      to: 1976
+      text: |
+        1966 年 4 月主持书记处会议批判彭真。6–7 月与刘少奇主持派工作组，八届十一中全会后被定为“资产阶级司令部”的二号人物，10 月 23 日在中央工作会议上作检讨。1980 年起诉书：“一九六六年十二月六日，林彪诬陷邓小平是‘黑帮分子’、‘反党分子’。”1969 年 10 月被下放江西新建县拖拉机修造厂劳动，长子邓朴方 1968 年在北大受迫害致残。
+
+        1972 年致信毛泽东，1973 年 3 月恢复国务院副总理职务。1975 年 1 月任中共中央副主席、军委副主席、总参谋长，在周恩来病重时主持党政军日常工作，开展全面整顿。1976 年 4 月天安门事件后被定为“反革命政治事件的总后台”，4 月 7 日被撤销一切职务。
+      cites: [ws-1966-05-16-notice-attachment@1966-04-09, ws-1980-indictment, ws-1981-01-25-judgment, ws-1981-resolution, ws-1997-02-19-deng-message]
+      verify: true
+    - h: 复出与改革开放
+      from: 1977
+      to: 1992
+      text: |
+        1977 年 7 月十届三中全会恢复其职务。他反对“两个凡是”，支持真理标准讨论；1978 年 12 月十一届三中全会后成为“第二代中央领导集体的核心”。主持平反冤假错案，1980–1981 年推动审判林彪、江青集团和起草《关于建国以来党的若干历史问题的决议》，主张对毛泽东“功绩是第一位的，错误是第二位的”。1979 年访美，同年对越南作战。
+
+        提出“一国两制”，签订中英（1984）、中葡（1987）联合声明。1987 年十三大退出中央委员会，留任军委主席；1989 年支持对北京学生运动实行戒严，11 月十三届五中全会辞去军委主席。1992 年初视察南方发表谈话。
+      cites: [ws-1997-02-19-deng-message]
+      verify: true
+    - h: 去世与身后
+      from: 1997
+      text: |
+        1997 年 2 月 19 日二十一时零八分因帕金森病晚期并发肺部感染在北京逝世，享年九十三岁。告全党书称他为“我国社会主义改革开放和现代化建设的总设计师”，提到“八十年代末、九十年代初国内国际发生政治风波”时他坚决支持党和政府。2 月 25 日追悼大会由江泽民致悼词，3 月 2 日骨灰撒入大海。“邓小平理论”同年写入十五大党章。
+      cites: [ws-1997-02-19-deng-message]
+      verify: true
+    - h: 家庭
+      text: |
+        第一任妻子张锡瑗 1930 年难产去世；第二任妻子金维映 1933 年离婚。1939 年在延安与卓琳结婚，生邓林、邓朴方、邓楠、邓榕（毛毛）、邓质方。邓榕著《我的父亲邓小平》《我的父亲邓小平：“文革”岁月》，是研究其文革经历的主要亲属叙述。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: official1966, text: 林彪诬陷邓小平是“黑帮分子”、“反党分子”, cite: ws-1980-indictment, quote: true }
+    - { voice: official1981, text: 毛泽东同志不能容忍邓小平同志系统地纠正“文化大革命”的错误, cite: ws-1981-resolution, quote: true }
+    - { voice: doc, text: 我国社会主义改革开放和现代化建设的总设计师（1997 年告全党书）, cite: ws-1997-02-19-deng-message, quote: true }
+    - { voice: scholar, text: 傅高义（Ezra Vogel）等认为邓在文革中的两起两落使他确信必须结束群众运动式政治，这一判断主导了 1978 年后的改革与 1989 年的处置。, cite: vogel-deng }
+  works:
+    - { title: 关于修改党的章程的报告, date: 1956-09-16 }
+    - { title: 解放思想，实事求是，团结一致向前看, date: 1978-12-13 }
+    - { title: 坚持四项基本原则, date: 1979-03-30 }
+    - { title: 党和国家领导制度的改革, date: 1980-08-18 }
+    - { title: 在武昌、深圳、珠海、上海等地的谈话要点, date: 1992-01 }
   factions: [frontline]
   fate:
-    - { date: 1956-09, s: power }
+    - { date: 1924, s: normal, note: 在法国转为中共党员, verify: true }
+    - { date: 1927-12, s: rise, note: 二十三岁任中共中央秘书长, verify: true }
+    - { date: 1929-12-11, s: rise, note: 发动百色起义，创建红七军, cite: ws-1997-02-19-deng-message }
+    - { date: 1933-05, s: purged, note: 被“左”倾领导者撤职（“邓毛谢古”）, cite: ws-1997-02-19-deng-message }
+    - { date: 1935-01, s: normal, note: 以中央秘书长身份出席遵义会议, cite: ws-1997-02-19-deng-message }
+    - { date: 1938-01, s: rise, note: 八路军一二九师政委, cite: ws-1997-02-19-deng-message }
+    - { date: 1948-11, s: power, note: 淮海战役总前委书记, cite: ws-1997-02-19-deng-message }
+    - { date: 1956-09, s: power, note: 政治局常委、总书记 }
     - { date: 1966-10-23, s: attacked, note: 中央工作会议上作检讨, verify: true }
     - { date: 1966-12-06, s: purged, note: 林彪称其“黑帮分子”, cite: ws-1980-indictment }
     - { date: 1969-10, s: detained, note: 下放江西新建县, verify: true }
-    - { date: 1973-03, s: restored, note: 恢复国务院副总理职务, verify: true }
-    - { date: 1976-04-07, s: purged, note: 天安门事件后再次被撤销一切职务, verify: true }
+    - { date: 1973-03, s: restored, note: 恢复国务院副总理职务, cite: ws-1997-02-19-deng-message }
+    - { date: 1975-01, s: power, note: 主持党政军日常工作，开展整顿, cite: ws-1997-02-19-deng-message }
+    - { date: 1976-04-07, s: purged, note: 天安门事件后再次被撤销一切职务, cite: ws-1981-resolution }
     - { date: 1977-07, s: restored, note: 十届三中全会恢复职务, verify: true }
-    - { date: 1997-02-19, s: dead }
-  cites: [ws-1980-indictment, ws-1966-05-16-notice-attachment@1966-04-09]
+    - { date: 1978-12, s: power, note: 十一届三中全会后成为中央领导核心, cite: ws-1997-02-19-deng-message }
+    - { date: 1989-11, s: normal, note: 辞去中央军委主席，完全退休, cite: ws-1997-02-19-deng-message }
+    - { date: 1997-02-19, s: dead, cite: ws-1997-02-19-deng-message }
+  cites: [ws-1980-indictment, ws-1966-05-16-notice-attachment@1966-04-09, ws-1981-resolution, ws-1997-02-19-deng-message]
 
 - id: chen-boda
   name: 陈伯达
+  pinyin: Chén Bódá
+  aka:
+    - { kind: original, name: 陈建相 }
+    - { kind: courtesy, name: 尚友 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 福建惠安
+  origin: 福建惠安
   born: 1904-07-29
   died: 1989-09-20
+  deathKind: natural
+  deathPlace: 北京
+  education:
+    - { school: 集美学校师范部, from: 1919, to: 1923, verify: true }
+    - { school: 上海劳动大学, from: 1927, to: 1927, verify: true }
+    - { school: 莫斯科中山大学, from: 1927, to: 1930, verify: true }
+  party: 中国共产党
+  joinedParty: 1927
+  positions:
+    - { title: 中共中央宣传部副部长, orgName: 中共中央宣传部, from: 1949, to: 1966, verify: true }
+    - { title: 毛泽东政治秘书, orgName: 中共中央办公厅, from: 1939, to: 1970, verify: true }
+    - { title: 中国科学院副院长, orgName: 中国科学院, from: 1949-11, to: 1966, verify: true }
+    - { title: 《红旗》杂志总编辑, orgName: 红旗杂志社, from: 1958-06, to: 1970, verify: true }
+    - { title: 中央文革小组组长, orgName: 中央文革小组, from: 1966-05-28, to: 1969-04, cite: ws-1981-01-25-judgment }
+    - { title: 中共中央政治局常委, orgName: 中共中央政治局, from: 1966-08, to: 1970-09, note: 八、九届, cite: ws-1981-01-25-judgment }
+  afterlife:
+    - { date: 1988-10, text: 刑满释放，此后在北京居住, verify: true }
   tier: 1
   role1966: 中央文革小组组长
-  bio: 毛泽东的政治秘书、《红旗》总编辑。1966 年 5 月任中央文革小组组长。1980 年起诉书称“横扫一切牛鬼蛇神”等社论由其“组织编写和审定”。1970 年庐山会议后倒台。
+  bio: 中共理论家，1939 年起长期任毛泽东的政治秘书，起草过大量中央文件和毛的文稿，1958 年创办《红旗》并任总编辑。文革中任中央文革小组组长、政治局常委，排名一度居第四；1970 年庐山会议上与林彪一方提出“天才论”，被毛泽东批判倒台。1981 年被判处有期徒刑十八年，1988 年刑满，次年病逝。1980 年起诉书称“横扫一切牛鬼蛇神”等社论由其“组织编写和审定”。
+  life:
+    - h: 早年与入党
+      from: 1904
+      to: 1937
+      text: |
+        1904 年 7 月 29 日生于福建惠安，原名陈建相，字尚友。在集美学校师范部读书，1924 年后到上海，曾在国民党方面任职，参加北伐。1927 年入党，同年被派往莫斯科中山大学学习，1930 年回国。1931 年在北平从事地下工作时被捕，1932 年获释。
+
+        这段经历在 1971 年被毛泽东定性：“陈伯达早期就是一个国民党反共分子。混入党内以后，又在一九三一年被捕叛变，成了特务。”此后的官方文件沿用这一说法；陈本人晚年否认“叛变”，获释经过的细节各方说法不一（待核）。1930 年代中期在北平中国大学任教，参与发起“新启蒙运动”。
+      cites: [ws-1971-12-lin-chen-material-1]
+      verify: true
+    - h: 毛泽东的秘书
+      from: 1937
+      to: 1965
+      text: |
+        1937 年到延安，任教于陕北公学，1939 年起任毛泽东的政治秘书，著《中国四大家族》《人民公敌蒋介石》《窃国大盗袁世凯》等。1945 年七大当选中央候补委员。建国后任中宣部副部长、中国科学院副院长、中央政治研究室主任，参与起草毛泽东署名的大量文件。1956 年八大当选政治局候补委员。1958 年 6 月创办《红旗》杂志并任总编辑，同年积极鼓吹“大跃进”和人民公社。1962–1965 年参与起草“农业六十条”、四清《二十三条》等文件。
+      verify: true
+      cites: [ccp-figures-bios, klein-clark-1971]
+    - h: 中央文革小组组长
+      from: 1966
+      to: 1970
+      text: |
+        1966 年 5 月任中央文革小组组长，6 月 1 日率工作组接管《人民日报》，当日发表社论《横扫一切牛鬼蛇神》。8 月八届十一中全会进入政治局常委。10 月 16 日在中央工作会议上作《无产阶级文化大革命中的两条路线》讲话。据判决书，1967 年 7 月与江青、康生决定剥夺刘少奇的行动自由；1966 年底至 1968 年多次诬陷陆定一；1967 年 12 月在唐山称中共冀东组织“可能是国共合作的党”，造成冀东冤案。1969 年九大留任常委，九大政治报告最初由他起草，未被采用。
+
+        1970 年 8 月九届二中全会上与林彪方面主张在宪法中设国家主席、称颂毛泽东“天才”，毛泽东写《我的一点意见》批判他，随后开展“批陈整风”。
+      cites: [ws-1966-05-ccrg-list, ws-1971-12-lin-chen-material-1, ws-1980-indictment, ws-1981-01-25-judgment]
+      verify: true
+    - h: 审判与晚年
+      from: 1970
+      to: 1989
+      text: |
+        1970 年庐山会议后被审查，后关押于秦城监狱。1980–1981 年受审，是供认犯罪事实的被告之一，1981 年 1 月 25 日被判处有期徒刑十八年，剥夺政治权利五年。保外就医期间于 1988 年刑满，1989 年 9 月 20 日在北京病逝。晚年接受其子陈晓农的访谈，口述整理为《陈伯达最后口述回忆》。
+      cites: [ws-1981-01-25-judgment]
+      verify: true
+  assess:
+    - { voice: official1966, text: 陈伯达早期就是一个国民党反共分子。混入党内以后，又在一九三一年被捕叛变，成了特务, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: judicial1980, text: 陈伯达控制宣传舆论工具，进行反革命宣传煽动，一九六六年提出“横扫一切牛鬼蛇神”等口号, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: witness, text: 陈晓农整理的口述称陈伯达自认在文革中“犯了大罪”，但否认“叛徒”结论和庐山会议上的“阴谋”定性（亲属整理，待核）。 }
+  works:
+    - { title: 中国四大家族, date: 1946 }
+    - { title: 人民公敌蒋介石, date: 1948 }
+    - { title: 横扫一切牛鬼蛇神（《人民日报》社论，主持）, date: 1966-06-01 }
+    - { title: 无产阶级文化大革命中的两条路线, date: 1966-10-16 }
   factions: [ccrg]
   fate:
-    - { date: 1958-06, s: power }
+    - { date: 1927, s: normal, note: 入党，赴莫斯科学习, verify: true }
+    - { date: 1931, s: detained, note: 在北平被捕，次年获释, cite: ws-1971-12-lin-chen-material-1, verify: true }
+    - { date: 1932, s: normal, note: 获释后在北平任教, verify: true }
+    - { date: 1939, s: rise, note: 任毛泽东政治秘书, verify: true }
+    - { date: 1956-09, s: rise, note: 八大政治局候补委员, verify: true }
+    - { date: 1958-06, s: power, note: 《红旗》总编辑 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组组长, cite: ws-1966-05-ccrg-list }
-    - { date: 1970-09, s: purged, note: 九届二中全会后被审查, verify: true }
-    - { date: 1976-10, s: detained, verify: true }
+    - { date: 1966-08, s: power, note: 进入政治局常委, cite: ws-1981-01-25-judgment }
+    - { date: 1970-09, s: purged, note: 九届二中全会后被审查, cite: ws-1971-12-lin-chen-material-1 }
+    - { date: 1971, s: detained, note: 关押于秦城监狱, verify: true }
+    - { date: 1981-01-25, s: detained, note: 判处有期徒刑十八年, cite: ws-1981-01-25-judgment }
+    - { date: 1988-10, s: normal, note: 刑满释放, verify: true }
     - { date: 1989-09-20, s: dead }
-  cites: [ws-1966-05-ccrg-list, ws-1980-indictment]
+  cites: [ws-1966-05-ccrg-list, ws-1971-12-lin-chen-material-1, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: kang-sheng
   name: 康生
+  pinyin: Kāng Shēng
+  aka:
+    - { kind: original, name: 张宗可 }
+    - { kind: cover, name: 赵容 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山东胶县大台庄
+  origin: 山东胶县
+  classOrigin: 地主
+  classNote: 出身胶东大地主家庭（据后来传记，待核）。
   born: 1898
   died: 1975-12-16
+  deathKind: natural
+  deathPlace: 北京
+  education:
+    - { school: 上海大学, from: 1924, to: 1925, verify: true }
+  party: 中国共产党
+  joinedParty: 1925
+  positions:
+    - { title: 中共中央组织部部长（临时中央）, orgName: 中共中央组织部, from: 1932, to: 1933, verify: true }
+    - { title: 中共驻共产国际代表团副团长, orgName: 中共驻共产国际代表团, from: 1933-07, to: 1937-11, verify: true }
+    - { title: 中共中央社会部部长、情报部部长, orgName: 中共中央社会部, from: 1939, to: 1946, verify: true }
+    - { title: 中共中央华东局山东分局书记, orgName: 中共山东分局, from: 1949, to: 1950, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1962-09, to: 1966, verify: true }
+    - { title: 中央文革小组顾问, orgName: 中央文革小组, from: 1966-05-28, to: 1969-04, cite: ws-1981-01-25-judgment }
+    - { title: 中共中央政治局常委, orgName: 中共中央政治局, from: 1966-08, to: 1975-12-16, verify: true }
+    - { title: 中共中央副主席, orgName: 中共中央, from: 1973-08, to: 1975-12-16, cite: ws-1981-01-25-judgment }
+  afterlife:
+    - { date: 1975-12-21, text: 举行追悼大会，悼词称他为“无产阶级革命家、理论家”“光荣的反修战士”, verify: true }
+    - { date: 1980-10-16, text: 中共中央决定公布其罪行，“撤销对这两人的《悼词》，并决定开除他们的党籍”, cite: ws-1980-kang-xie-reports }
+    - { date: 1980-12, text: 骨灰移出八宝山革命公墓, verify: true }
+    - { date: 1981-01-25, text: 特别法庭判决书列为林彪、江青反革命集团案主犯，因已死亡不再追究, cite: ws-1981-01-25-judgment }
   tier: 1
   role1966: 中央书记处书记、中央文革小组顾问
-  bio: 五人小组成员中唯一站在毛泽东一边者。1966 年 2 月 3 日会上“以康生同志为代表”的一方主张揭露吴晗“政治问题、要害问题”。1980 年起诉书列其为林彪、江青反革命集团主犯（已死亡不再追究），并指控其主导“内人党”、“赵健民特务案”等冤案。
+  bio: 中共早期工运和特工干部，1930 年代在莫斯科任驻共产国际代表团副团长，延安时期主管中央社会部（情报与保卫），主持整风审干中的“抢救运动”。1962 年复出任书记处书记，文革中任中央文革小组顾问、政治局常委，1973 年任中央副主席，1975 年病逝时享有极高规格悼词。1980 年中共中央撤销悼词、开除党籍，1981 年判决书列为反革命集团主犯。五人小组成员中唯一站在毛泽东一边者：1966 年 2 月 3 日会上“以康生同志为代表”的一方主张揭露吴晗“政治问题、要害问题”。
+  life:
+    - h: 家世与早年
+      from: 1898
+      to: 1933
+      text: |
+        1898 年生于山东胶县大台庄一个地主家庭，原名张宗可。早年在青岛礼贤书院等处读书，曾在家乡任小学教员。1924 年到上海大学社会学系学习，1925 年入党，参与领导上海工人第三次武装起义。此后在上海从事工运和党的秘密工作，任沪东区委书记、江苏省委组织部长等职。1931 年后任中央特科负责人之一、中央组织部部长。
+      verify: true
+      cites: [ccp-figures-bios, klein-clark-1971]
+    - h: 莫斯科与延安
+      from: 1933
+      to: 1949
+      text: |
+        1933 年 7 月赴莫斯科，任中共驻共产国际代表团副团长（团长王明），参与苏联肃反时期对旅苏中共党员的审查。1937 年 11 月与王明一同回延安，此后转而靠近毛泽东。1938 年起任中央社会部部长、中央情报部部长，主管情报和保卫工作。1943 年整风后期主持审干，提出“抢救失足者”，大批干部被打成“特务”，后由毛泽东出面道歉、甄别。1947 年参加晋绥土改，有“左”的偏差。
+      verify: true
+      cites: [ccp-figures-bios, klein-clark-1971]
+    - h: 建国后的沉浮
+      from: 1949
+      to: 1965
+      text: |
+        建国初任山东分局书记，不久称病长期休养。1956 年八大由政治局委员降为候补委员。1958 年后回中央主管理论和对外宣传，参加中苏论战的写作班子（“钓鱼台写作班子”）。1962 年 9 月八届十中全会上指控小说《刘志丹》是“利用小说反党”，导致习仲勋等人被审查，同会增选为中央书记处书记。1964 年任文化革命五人小组成员。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 文化大革命
+      from: 1966
+      to: 1975
+      text: |
+        1966 年 2 月五人小组会议上主张揭露吴晗“政治问题”，与彭真分歧；5 月任中央文革小组顾问，并通过曹轶欧推动北京大学聂元梓等写出 5 月 25 日的大字报。8 月进入政治局常委。据起诉书和判决书：他与江青、陈伯达决定剥夺刘少奇行动自由，参与指挥刘少奇专案组；1967 年制造“新疆叛徒集团”冤案；1968 年与谢富治制造云南“赵健民特务案”，煽动挖“内人党”，内蒙古“有三十四万六千多名干部、群众遭到诬陷、迫害，一万六千二百二十二人被迫害致死”；1968 年 1 月下令对刘仁、冯基平等人“铐起来，进行严厉地突击地审讯”。
+
+        1969 年九大、1973 年十大连任常委，十大任中央副主席。晚年患膀胱癌，1975 年曾对王海容、唐闻生说江青、张春桥有叛徒问题，托她们转告毛泽东（据亲历者回忆，待核）。1975 年 12 月 16 日在北京病逝。
+      cites: [ws-1966-05-16-notice-attachment@1966-02-03, ws-1980-indictment, ws-1981-01-25-judgment]
+      verify: true
+    - h: 身后
+      from: 1975
+      text: |
+        1975 年 12 月 21 日追悼大会由邓小平致悼词，称他为“无产阶级革命家、理论家”“光荣的反修战士”，骨灰安放于八宝山革命公墓。1978 年十一届三中全会决定审查康生、谢富治。1980 年 10 月 16 日中共中央转发中纪委关于康生、谢富治问题的两个审查报告，称两人“政治品质表现恶劣”，“直接参与林彪、江青等人篡党夺权的反革命阴谋活动，犯下严重罪行”，撤销悼词并开除党籍，骨灰移出八宝山。1981 年判决书把他列为林彪、江青反革命集团案主犯。
+      cites: [ws-1980-kang-xie-reports, ws-1981-01-25-judgment]
+      verify: true
+  assess:
+    - { voice: official1981, text: 直接参与林彪、江青等人篡党夺权的反革命阴谋活动，犯下严重罪行（1980 年中共中央批语）, cite: ws-1980-kang-xie-reports, quote: true }
+    - { voice: judicial1980, text: 在康生、谢富治的唆使下，内蒙古自治区因“内人党”等冤案，有三十四万六千多名干部、群众遭到诬陷、迫害，一万六千二百二十二人被迫害致死, cite: ws-1980-indictment, quote: true }
+    - { voice: scholar, text: 拜伦与皮克（John Byron, Robert Pack）的传记把康生描绘为“毛的特务头子”，强调他的苏联肃反经历对延安审干和文革专案的影响；该书多依据二手材料，细节需与中方档案对照。, cite: byron-pack-kang }
+  works:
+    - { title: 关于小说《刘志丹》的指控（八届十中全会）, date: 1962-09 }
   factions: [ccrg]
   fate:
-    - { date: 1962-09, s: power }
+    - { date: 1925, s: normal, note: 入党，参加上海工人运动, verify: true }
+    - { date: 1931, s: rise, note: 中央特科、中央组织部负责人, verify: true }
+    - { date: 1933-07, s: rise, note: 驻共产国际代表团副团长, verify: true }
+    - { date: 1938, s: power, note: 中央社会部部长，主管情报保卫, verify: true }
+    - { date: 1943, s: power, note: 主持“抢救运动”, verify: true }
+    - { date: 1950, s: sidelined, note: 称病长期休养, verify: true }
+    - { date: 1956-09, s: sidelined, note: 八大降为政治局候补委员, verify: true }
+    - { date: 1962-09, s: power, note: 增选为中央书记处书记 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组顾问, cite: ws-1966-05-ccrg-list }
+    - { date: 1966-08, s: power, note: 进入政治局常委, verify: true }
+    - { date: 1973-08, s: power, note: 十大任中央副主席, cite: ws-1981-01-25-judgment }
     - { date: 1975-12-16, s: dead }
-  cites: [ws-1966-05-16-notice-attachment@1966-02-03, ws-1980-indictment]
+  cites: [ws-1966-05-16-notice-attachment@1966-02-03, ws-1980-indictment, ws-1980-kang-xie-reports, ws-1981-01-25-judgment]
 
 - id: jiang-qing
   name: 江青
+  pinyin: Jiāng Qīng
+  aka:
+    - { kind: original, name: 李云鹤 }
+    - { kind: other, name: 李进孩 }
+    - { kind: other, name: 蓝苹 }
+  gender: f
+  ethnicity: 汉族
+  birthplace: 山东诸城
+  origin: 山东诸城
+  classOrigin: 小手工业者
+  classNote: 父李德文开木匠铺，母为其妾，家境窘迫（据后来传记，待核）。
   born: 1914-03
   died: 1991-05-14
+  deathKind: suicide
+  deathPlace: 北京（保外就医居所）
+  education:
+    - { school: 山东省立实验剧院, from: 1929, to: 1930, verify: true }
+  party: 中国共产党
+  joinedParty: 1933
+  positions:
+    - { title: 毛泽东办公室秘书, orgName: 中共中央办公厅, from: 1949, to: 1966, note: 名义职务，另曾任中宣部电影处处长, verify: true }
+    - { title: 中央文革小组第一副组长、代理组长, orgName: 中央文革小组, from: 1966-05-28, to: 1969-04, cite: ws-1966-05-ccrg-list }
+    - { title: 中央军委文化革命小组顾问, orgName: 全军文革小组, from: 1967-01, to: 1969, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1969-04, to: 1976-10-06, cite: ws-1981-01-25-judgment }
+  afterlife:
+    - { date: 1983-01-25, text: 死缓期满，改判无期徒刑, verify: true }
+    - { date: 2002, text: 骨灰葬于北京福田公墓，墓碑刻“先母李云鹤之墓”, verify: true }
   tier: 1
   role1966: 中央文革小组第一副组长
-  bio: 毛泽东妻子。1966 年 2 月受林彪委托召开部队文艺工作座谈会，形成提出“文艺黑线专政”论的《纪要》。5 月任中央文革小组副组长，后代理组长。1976 年 10 月被捕。
+  bio: 1930 年代上海影剧演员，1937 年到延安，1938 年与毛泽东结婚。1960 年代以“京剧革命”和“样板戏”进入政治，文革中任中央文革小组第一副组长、代理组长，1969 年进入政治局，是“四人帮”的首要人物。1976 年 10 月 6 日被隔离审查，1981 年被特别法庭判处死刑缓期二年执行，1991 年在保外就医期间自杀。1966 年 2 月受林彪委托召开部队文艺工作座谈会，形成提出“文艺黑线专政”论的《纪要》。
+  life:
+    - h: 家世与早年
+      from: 1914
+      to: 1937
+      text: |
+        1914 年 3 月生于山东诸城，原名李进孩，后名李云鹤。幼年随母离家，辗转济南、天津。1929 年考入山东省立实验剧院学习话剧，1931 年到青岛大学图书馆做职员并旁听课程，与中共地下党员俞启威（黄敬）同居，1933 年经俞介绍入党。
+
+        1933 年到上海，参加左翼戏剧活动，以艺名“蓝苹”演出《娜拉》《大雷雨》和电影《王老五》等。1934 年 10 月在上海被捕，数月后出狱；出狱经过与是否写过“自首”声明，日后成为她的政治隐患，文革中经手过此事的知情人多遭迫害。1936 年与影评人唐纳的婚变成为上海小报新闻。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 延安与毛泽东
+      from: 1937
+      to: 1949
+      text: |
+        1937 年 8 月到延安，入中央党校、鲁迅艺术学院学习、任教。1938 年 11 月与毛泽东结婚；中央部分领导人对此有保留，相传约定她不担任公开政治职务（此“约法三章”之说缺乏文件证据）。1940 年生女李讷。1947 年随毛转战陕北。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 建国后至文革前夜
+      from: 1949
+      to: 1965
+      text: |
+        建国后名义上任毛泽东秘书、中宣部电影处处长，1951 年参与发起批判电影《武训传》。1950 年代多次赴苏联治病。1963 年起介入京剧改革，抓《红灯记》《沙家浜》《智取威虎山》等“革命现代京剧”，1964 年京剧现代戏观摩演出大会后影响上升。1965 年在上海与张春桥组织姚文元写作《评新编历史剧〈海瑞罢官〉》，文章 11 月 10 日发表。
+      verify: true
+      cites: [ws-1966-05-16-notice-attachment]
+    - h: 文化大革命
+      from: 1966
+      to: 1976
+      text: |
+        1966 年 2 月受林彪委托召开部队文艺工作座谈会，形成《纪要》；5 月任中央文革小组第一副组长，8 月后代理组长，此后以中央文革名义频繁接见红卫兵和造反派。据特别法庭判决书：1966 年 10 月勾结叶群指使江腾蛟非法搜查郑君里等五人的家；1967 年 5 月起直接控制“刘少奇、王光美专案组”；1967 年 7 月与康生、陈伯达决定剥夺刘少奇的行动自由；1968 年 7 月 21 日与康生密谋诬陷八届中央委员、候补委员八十八人。
+
+        1969 年九大进入政治局。1973 年十大后与张春桥、姚文元、王洪文在政治局内结成“四人帮”。1974 年发起“批林批孔”，矛头指向周恩来；毛泽东随后批评她“不要搞四人帮”。1976 年 3 月在对十二省区负责人的谈话中点名诬陷一批干部，4 月推动把天安门事件定为“反革命”。
+      cites: [ws-1966-03-army-arts, ws-1966-05-ccrg-list, ws-1981-01-25-judgment, ws-1981-resolution]
+      verify: true
+    - h: 审判与晚年
+      from: 1976
+      to: 1991
+      text: |
+        1976 年 10 月 6 日在中南海被隔离审查。1980 年 11 月起在特别法庭受审，没有委托律师，在法庭上多次与公诉人、证人争吵，判决书记为“江青破坏法庭秩序”。1981 年 1 月 25 日被认定为“林彪、江青反革命集团的首要分子”，判处死刑，缓期二年执行，剥夺政治权利终身。1983 年改判无期徒刑。1984 年起保外就医，1991 年 5 月 14 日在北京居所自缢身亡，新华社以简讯公布。
+      cites: [ws-1981-01-25-judgment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 江青是林彪、江青反革命集团的首要分子, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: official1981, text: 毛泽东同志先是批准开展所谓“批林批孔”运动，在发现江青等人借机进行篡权活动以后，又对他们作了严厉批评，宣布他们是“四人帮”, cite: ws-1981-resolution, quote: true }
+    - { voice: witness, text: 她在法庭上自称“我是毛主席的一条狗，毛主席让我咬谁我就咬谁”（据旁听者转述，原始庭审录音未公开，待核）。 }
+    - { voice: scholar, text: 维特克（Roxane Witke）1972 年的访谈录与后来的传记研究多把江青的政治行为与她 1930 年代在上海的经历、在延安所受的排斥联系起来；也有研究者批评这类解释把她个人化、性别化，忽视了毛的授权。, cite: witke-jiang }
+  works:
+    - { title: 谈京剧革命（在京剧现代戏观摩演出人员座谈会上的讲话）, date: 1964-07 }
+    - { title: 林彪同志委托江青同志召开的部队文艺工作座谈会纪要, date: 1966-02, cite: ws-1966-03-army-arts }
   factions: [ccrg]
   fate:
-    - { date: 1965-01, s: normal }
+    - { date: 1933, s: normal, note: 在青岛入党, verify: true }
+    - { date: 1934-10, s: detained, note: 在上海被捕，数月后出狱, verify: true }
+    - { date: 1935, s: normal, note: 出狱后在上海演剧, verify: true }
+    - { date: 1937-08, s: normal, note: 到延安, verify: true }
+    - { date: 1963, s: rise, note: 介入京剧改革, verify: true }
+    - { date: 1965-11-10, s: rise, note: 组织写作的姚文元文章发表, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
     - { date: 1966-02-02, s: rise, note: 主持部队文艺工作座谈会, cite: ws-1966-05-16-notice-attachment@1966-02-02 }
-    - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
-    - { date: 1976-10-06, s: detained, verify: true }
-    - { date: 1991-05-14, s: dead }
-  cites: [ws-1966-03-army-arts, ws-1966-05-ccrg-list, ws-1980-indictment]
+    - { date: 1966-05-28, s: power, note: 中央文革小组第一副组长, cite: ws-1966-05-ccrg-list }
+    - { date: 1969-04, s: power, note: 九大进入政治局, cite: ws-1981-01-25-judgment }
+    - { date: 1975-05, s: attacked, note: 毛泽东批评“不要搞四人帮”, cite: ws-1981-resolution, verify: true }
+    - { date: 1976-10-06, s: detained, note: 被隔离审查, verify: true }
+    - { date: 1981-01-25, s: detained, note: 判处死刑缓期二年执行, cite: ws-1981-01-25-judgment }
+    - { date: 1984, s: detained, note: 保外就医, verify: true }
+    - { date: 1991-05-14, s: dead, verify: true }
+  cites: [ws-1966-03-army-arts, ws-1966-05-ccrg-list, ws-1980-indictment, ws-1981-01-25-judgment, ws-1981-resolution]
 
 - id: zhang-chunqiao
   name: 张春桥
+  pinyin: Zhāng Chūnqiáo
+  aka:
+    - { kind: pen, name: 狄克 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山东巨野
+  origin: 山东巨野
   born: 1917-02-01
   died: 2005-04-21
+  deathKind: natural
+  education:
+    - { school: 济南正谊中学, from: 1931, to: 1934, verify: true }
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 《解放日报》（上海）社长、总编辑, orgName: 解放日报社, from: 1950, to: 1958, verify: true }
+    - { title: 上海市委宣传部部长、书记处书记, orgName: 中共上海市委, from: 1958, to: 1967, verify: true }
+    - { title: 中央文革小组副组长, orgName: 中央文革小组, from: 1966-05-28, to: 1969-04, cite: ws-1981-01-25-judgment }
+    - { title: 上海市革命委员会主任, orgName: 上海市革命委员会, from: 1967-02, to: 1976-10, cite: ws-1981-01-25-judgment }
+    - { title: 中共中央政治局委员、常委, orgName: 中共中央政治局, from: 1969-04, to: 1976-10-06, note: 九届为委员，十届为常委, cite: ws-1981-01-25-judgment }
+    - { title: 国务院副总理、总政治部主任, orgName: 国务院, from: 1975-01, to: 1976-10-06, verify: true }
+  afterlife:
+    - { date: 1983-01, text: 死缓期满，改判无期徒刑, verify: true }
+    - { date: 1998-12, text: 减为有期徒刑十八年, verify: true }
+    - { date: 2002-12, text: 刑满释放，此后居上海, verify: true }
   tier: 1
   role1966: 上海市委书记处书记、中央文革小组副组长
-  bio: 主持组织姚文元批判《海瑞罢官》的文章。1966 年 12 月 18 日在中南海西门单独接见蒯大富，授意“把他们搞臭”；12 月 28 日电话指示“胜利果实不能被赤卫队夺去”，引发康平路武斗（据 1980 年起诉书）。
+  bio: 1930 年代上海左翼文人，延安时期进入中共新闻宣传系统，1950–60 年代任上海市委宣传主管，1958 年以《破除资产阶级的法权思想》受毛泽东赏识。文革中任中央文革小组副组长、上海市革委会主任，1973 年进入政治局常委，1975 年任副总理，是“四人帮”的理论主将。1976 年被捕，1981 年判处死缓，拒绝在法庭上回答审问，2002 年获释，2005 年病逝。主持组织姚文元批判《海瑞罢官》的文章；1966 年 12 月 18 日单独接见蒯大富授意“把他们搞臭”，12 月 28 日电话指示“胜利果实不能被赤卫队夺去”，引发康平路武斗（据 1980 年起诉书）。
+  life:
+    - h: 早年与上海左翼文坛
+      from: 1917
+      to: 1937
+      text: |
+        1917 年 2 月 1 日生于山东巨野，在济南读中学，参加“华蒂文艺社”。1935 年到上海，从事左翼文学活动，加入左联外围组织。1936 年以笔名“狄克”发表《我们要执行自我批判》，批评萧军《八月的乡村》，鲁迅撰《三月的租界》予以回击；文革中此事成为知情人受牵连的原因之一。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 延安与新闻宣传
+      from: 1937
+      to: 1949
+      text: |
+        1937 年到延安，入陕北公学，1938 年入党。抗战期间在晋察冀边区从事宣传工作，任《晋察冀日报》副总编辑等职。解放战争后期任石家庄市政府秘书长、《石家庄日报》社长。1949 年随军南下，进入上海新闻系统。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 上海宣传主管
+      from: 1949
+      to: 1965
+      text: |
+        1950 年代任新华社华东总分社社长、上海《解放日报》社长兼总编辑，后任市委宣传部部长、市委书记处书记，是上海市委第一书记柯庆施的主要助手。1958 年 9 月在上海《解放》半月刊发表《破除资产阶级的法权思想》，毛泽东写按语让《人民日报》10 月转载。1965 年与江青在上海组织姚文元撰写批判《海瑞罢官》的文章。
+      verify: true
+      cites: [ws-1966-05-16-notice-attachment]
+    - h: 文化大革命
+      from: 1966
+      to: 1976
+      text: |
+        1966 年 5 月任中央文革小组副组长。据特别法庭判决书：1966 年 12 月单独召见蒯大富，指使其“首先在社会上煽动‘打倒刘少奇’”；12 月 28 日制造上海康平路武斗事件，打伤九十一人；1967 年 1 月说“我们对所有的权都要夺”，策动上海“一月夺权”，2 月任上海市革命委员会主任；1967 年 5 月在济南支持王效禹制造武斗事件。判决书称他“是向人民民主政权实行夺权的肇始者和自始至终的煽动者、策划者”。
+
+        1969 年九大进入政治局，1973 年十大任政治局常委。1975 年 1 月任国务院副总理兼总政治部主任，4 月在《红旗》发表《论对资产阶级的全面专政》。1976 年 3 月指使马天水、徐景贤在上海诬陷复出干部“从资产阶级民主派变成走资派”，并与王洪文在上海扩建“民兵武装”。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+      verify: true
+    - h: 审判与晚年
+      from: 1976
+      to: 2005
+      text: |
+        1976 年 10 月 6 日被隔离审查。1980–1981 年受审时始终拒绝回答法庭审问，判决书记为“张春桥不回答法庭对他的审问”。1981 年 1 月 25 日判处死刑，缓期二年执行，剥夺政治权利终身。后改判无期徒刑、有期徒刑，2002 年获释，2005 年 4 月 21 日因胰腺癌在上海病逝。
+      cites: [ws-1981-01-25-judgment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 在十年动乱中，张春桥是向人民民主政权实行夺权的肇始者和自始至终的煽动者、策划者, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: doc, text: 我们对所有的权都要夺（1967 年 1 月，据判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: scholar, text: 研究者多把张视为“四人帮”中唯一有系统理论的人，其“全面专政”论是“无产阶级专政下继续革命”理论的主要阐释；他在狱中拒绝认罪、保持沉默，被部分研究者解读为对毛路线的坚持。 }
+  works:
+    - { title: 我们要执行自我批判（署名狄克）, date: 1936-03 }
+    - { title: 破除资产阶级的法权思想, date: 1958-09 }
+    - { title: 论对资产阶级的全面专政, date: 1975-04 }
   factions: [ccrg, shanghai]
   fate:
-    - { date: 1965-01, s: power }
+    - { date: 1938, s: normal, note: 在延安入党, verify: true }
+    - { date: 1949-05, s: rise, note: 随军进入上海新闻系统, verify: true }
+    - { date: 1958-10, s: rise, note: 《破除资产阶级的法权思想》经毛泽东加按语转载, verify: true }
+    - { date: 1965-01, s: power, note: 上海市委书记处书记 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组副组长, cite: ws-1966-05-ccrg-list }
-    - { date: 1976-10-06, s: detained, verify: true }
-    - { date: 2005-04-21, s: dead }
-  cites: [ws-1966-05-ccrg-list, ws-1980-indictment]
+    - { date: 1967-02, s: power, note: 上海市革命委员会主任, cite: ws-1981-01-25-judgment }
+    - { date: 1969-04, s: power, note: 九大进入政治局, cite: ws-1981-01-25-judgment }
+    - { date: 1973-08, s: power, note: 十大任政治局常委, cite: ws-1981-01-25-judgment }
+    - { date: 1975-01, s: power, note: 国务院副总理兼总政治部主任, verify: true }
+    - { date: 1976-10-06, s: detained, note: 被隔离审查, verify: true }
+    - { date: 1981-01-25, s: detained, note: 判处死刑缓期二年执行, cite: ws-1981-01-25-judgment }
+    - { date: 2002-12, s: normal, note: 刑满释放, verify: true }
+    - { date: 2005-04-21, s: dead, verify: true }
+  cites: [ws-1966-05-ccrg-list, ws-1980-indictment, ws-1981-01-25-judgment]
 
 # ── 中央文革小组成员 ────────────────────────────────────────
 - id: yao-wenyuan
@@ -689,20 +1124,115 @@
 # ── 第一批被打倒者 ──────────────────────────────────────────
 - id: peng-zhen
   name: 彭真
+  pinyin: Péng Zhēn
+  aka:
+    - { kind: original, name: 傅懋恭 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西曲沃垤上村
+  origin: 山西曲沃
+  classOrigin: 贫农
+  classNote: 据后来传记，家庭为贫苦农民（待核）。
   born: 1902-10-12
   died: 1997-04-26
+  deathKind: natural
+  deathPlace: 北京
+  education:
+    - { school: 山西省立第一中学, from: 1922, to: 1926, verify: true }
+  party: 中国共产党
+  joinedParty: 1923
+  positions:
+    - { title: 中共晋察冀分局书记, orgName: 中共中央北方分局, from: 1938, to: 1941, verify: true }
+    - { title: 中共中央党校教育长、中央组织部部长, orgName: 中共中央组织部, from: 1941, to: 1945, verify: true }
+    - { title: 中共中央东北局书记, orgName: 中共中央东北局, from: 1945-09, to: 1946-06, verify: true }
+    - { title: 中共北京市委书记、第一书记, orgName: 中共北京市委, from: 1948-12, to: 1966-05, cite: ws-1966-05-16-notice }
+    - { title: 北京市市长, orgName: 北京市人民政府, from: 1951-02, to: 1966-05, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1956-09, to: 1966-05, verify: true }
+    - { title: 文化革命五人小组组长, orgName: 文化革命五人小组, from: 1964-07, to: 1966-05-16, cite: ws-1966-02-outline }
+    - { title: 中央政法委员会书记, orgName: 中央政法委, from: 1980-01, to: 1982, verify: true }
+    - { title: 全国人大常委会委员长, orgName: 全国人大常委会, from: 1983-06, to: 1988-04, verify: true }
+  rehab:
+    - { date: 1979-02, text: 中共中央为彭真平反，恢复名誉；9 月十一届四中全会增补为中央委员, verify: true }
+  afterlife:
+    - { date: 1997-05-06, text: 八宝山革命公墓举行遗体告别，骨灰撒入大海（待核）, verify: true }
   tier: 1
   role1966: 北京市委第一书记、文化革命五人小组组长
-  bio: 主持起草《二月提纲》，坚持把批判吴晗限定在“学术”范围内、“在真理面前人人平等”。1966 年 4 月书记处会议上受批判，5 月政治局扩大会议上被定为“反党集团”成员。
+  bio: 山西最早的中共党员之一，长期从事华北地下工作，曾坐国民党监狱六年；延安时期任中央党校教育长、组织部长，1945 年主持东北局。建国后任北京市委第一书记、市长十七年，又是中央书记处书记和法制建设的主要负责人。文革中第一个被打倒的政治局委员：主持起草《二月提纲》，坚持把批判吴晗限定在“学术”范围内、“在真理面前人人平等”，1966 年 4 月书记处会议上受批判，5 月被定为“彭罗陆杨反党集团”成员。关押、流放十二年后复出，主持 1982 年宪法修订，任全国人大常委会委员长。
+  life:
+    - h: 家世与早年革命
+      from: 1902
+      to: 1935
+      text: |
+        1902 年 10 月 12 日生于山西曲沃垤上村，原名傅懋恭。1922 年入山西省立第一中学，参加学生运动，1923 年入党，是山西最早的党员之一。此后在太原、天津从事工人运动和地下党工作，化名“彭真”。1929 年 6 月在天津被捕，在狱中领导绝食斗争，1935 年刑满获释。
+      verify: true
+      cites: [ccp-figures-bios, peng-zhen-chronicle]
+    - h: 华北、延安与东北
+      from: 1935
+      to: 1948
+      text: |
+        出狱后在天津协助刘少奇主持北方局组织工作。1938 年任晋察冀分局书记，参与创建晋察冀根据地。1941 年到延安，任中央党校教育长，1944 年任中央组织部代部长，七大当选中央委员、政治局委员。1945 年 9 月赴东北任东北局书记，与林彪对东北战略有分歧，1946 年 6 月改由林彪主持东北局，彭真调回中央。
+      verify: true
+      cites: [ccp-figures-bios, peng-zhen-chronicle]
+    - h: 北京市委书记十七年
+      from: 1948
+      to: 1965
+      text: |
+        1948 年 12 月任北平市委书记，建国后任北京市委书记（后第一书记）、市长，同时任中央政法小组组长、全国人大常委会副委员长兼秘书长，参与起草 1954 年宪法。1956 年八大当选中央书记处书记，协助邓小平主持书记处。1962 年七千人大会上提出“毛主席也有错误”可以批评（待核）。1964 年 7 月任文化革命五人小组组长。
+      verify: true
+      cites: [peng-zhen-chronicle, ccp-figures-bios]
+    - h: 二月提纲与倒台
+      from: 1965
+      to: 1966
+      text: |
+        1965 年 11 月姚文元文章发表后，北京报刊起初没有转载，后经周恩来督促才在《北京日报》《人民日报》刊出。1966 年 2 月主持五人小组起草《二月提纲》，主张学术讨论要“坚持实事求是，在真理面前人人平等”，不要“象学阀一样武断和以势压人”，2 月 12 日经中央批转。4 月 9–12 日书记处会议上受康生、陈伯达批判，周恩来、邓小平指出他“是反对毛主席的”。
+
+        5 月 16 日政治局扩大会议通过《通知》，撤销《二月提纲》和五人小组，彭真与罗瑞卿、陆定一、杨尚昆被定为“反党集团”，北京市委被改组。
+      cites: [ws-1966-02-outline, ws-1966-05-16-notice, ws-1966-05-16-notice-attachment@1966-04-09]
+    - h: 关押与流放
+      from: 1966
+      to: 1978
+      text: |
+        1966 年 12 月被红卫兵从家中揪走批斗，此后由卫戍区“监护”，1968 年起关押于秦城监狱。1975 年 5 月被“下放”陕西商洛，在当地居住至 1978 年。
+      verify: true
+      cites: [peng-zhen-chronicle]
+    - h: 复出与法制建设
+      from: 1979
+      to: 1988
+      text: |
+        1979 年 2 月平反，9 月十一届四中全会增补为中央委员、政治局委员。主持制定刑法、刑事诉讼法等七部法律，1980 年任中央政法委书记，主持起诉林彪、江青反革命集团的工作。1980–1982 年主持宪法修改委员会的具体工作，1982 年宪法通过。1983–1988 年任第六届全国人大常委会委员长。
+      verify: true
+      cites: [peng-zhen-chronicle]
+    - h: 晚年与去世
+      from: 1988
+      text: |
+        1988 年 4 月卸任后退休。1997 年 4 月 26 日在北京病逝，终年九十五岁，新华社发布讣告与生平（原文待入库）。
+      verify: true
+      cites: [peng-zhen-chronicle]
+  assess:
+    - { voice: official1966, text: 采取了极不正当的手段，武断专横，滥用职权，盗窃中央的名义，匆匆忙忙发到全党（《五·一六通知》论《二月提纲》）, cite: ws-1966-05-16-notice, quote: true }
+    - { voice: official1981, text: 对所谓“彭真、罗瑞卿、陆定一、杨尚昆反党集团”和对所谓“刘少奇、邓小平司令部”进行了错误的斗争, cite: ws-1981-resolution, quote: true }
+    - { voice: doc, text: 坚持实事求是，在真理面前人人平等（《二月提纲》）, cite: ws-1966-02-outline, quote: true }
+  works:
+    - { title: 关于当前学术讨论的汇报提纲（二月提纲）, date: 1966-02-07, cite: ws-1966-02-outline }
+    - { title: 关于中华人民共和国宪法修改草案的报告, date: 1982-11-26 }
   factions: [plly, bjcommittee]
   fate:
-    - { date: 1951, s: power }
+    - { date: 1923, s: normal, note: 在太原入党, verify: true }
+    - { date: 1929-06, s: detained, note: 在天津被捕, verify: true }
+    - { date: 1935, s: normal, note: 刑满出狱，协助北方局工作, verify: true }
+    - { date: 1938, s: rise, note: 晋察冀分局书记, verify: true }
+    - { date: 1945-06, s: power, note: 七大当选政治局委员, verify: true }
+    - { date: 1946-06, s: sidelined, note: 东北局改由林彪主持，调回中央, verify: true }
+    - { date: 1948-12, s: power, note: 北平市委书记 }
     - { date: 1966-04-09, s: attacked, note: 书记处会议批判, cite: ws-1966-05-16-notice-attachment@1966-04-09 }
     - { date: 1966-05-16, s: purged, cite: ws-1966-05-16-notice }
     - { date: 1966-12, s: detained, verify: true }
+    - { date: 1975-05, s: detained, note: 下放陕西商洛, verify: true }
     - { date: 1979-02, s: restored, verify: true }
+    - { date: 1983-06, s: power, note: 全国人大常委会委员长, verify: true }
+    - { date: 1988-04, s: normal, note: 卸任退休, verify: true }
     - { date: 1997-04-26, s: dead }
-  cites: [ws-1966-02-outline, ws-1966-05-16-notice, ws-1966-05-16-notice-attachment]
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice, ws-1966-05-16-notice-attachment, ws-1981-resolution]
 
 - id: luo-ruiqing
   name: 罗瑞卿
