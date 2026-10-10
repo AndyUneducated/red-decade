@@ -1,0 +1,232 @@
+# M3-1: 1967 年维基文库原文（据《红旗/1967年》目录，tools/ws-links.ts 查得 50 个存在页面中与本时期有关的 34 个）。
+# 日期取自页面头部 y/m/d；页面无日期的按《红旗》期号日期，并在 note 中注明。
+wikisource:
+  # ── 一月夺权 ──
+  - id: ws-1967-01-04-shanghai-letter
+    title: 抓革命，促生产，彻底粉碎资产阶级反动路线的新反扑——告上海全市人民书
+    date: 1967-01-04
+    author: 上海工人革命造反总司令部、红革会、上海新闻界革命造反委员会等十一个群众组织
+    kind: redguard
+    alias: 告上海全市人民书
+    note: 落款十一个组织，其中四个是北京、哈尔滨、西安院校的“驻沪联络站”。
+  - id: ws-1967-01-11-cc-telegram
+    title: 中共中央、国务院、中央军委、中央文革小组给上海市各革命造反团体的贺电
+    date: 1967-01-11
+    author: 中共中央、国务院、中央军委、中央文革小组
+    kind: party-doc
+    alias: 中央贺电
+    note: 页面无日期；电文日期见正文落款。收入《红旗》1967 年第 2 期（1 月 16 日）。
+  - id: ws-1967-01-12-anti-economism
+    title: 反对经济主义 粉碎资产阶级反动路线的新反扑
+    date: 1967-01-12
+    author: 《人民日报》《红旗》社论
+    kind: editorial
+  - id: ws-1967-01-16-rebels-unite
+    title: 无产阶级革命派联合起来
+    date: 1967-01-16
+    author: 《红旗》杂志评论员
+    kind: editorial
+    note: 页面只标 1967 年；日期据《红旗》1967 年第 2 期（1 月 16 日）。
+  - id: ws-1967-01-13-public-security
+    title: 中共中央、国务院关于无产阶級文化大革命中加强公安工作的若干規定
+    date: 1967-01-13
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 公安六条
+    note: 页面头部 1967-01-13（中发〔67〕19号）。正文分两张扫描页，主页面只嵌入第 1 页，第 2 页经 extraPages 补入。
+    extraPages:
+      - Page:中共中央文件 中发〔67〕19号 中共中央、国务院关于无产阶級文化大革命中加强公安工作的若干規定 (2).png
+  - id: ws-1967-01-22-seize-power-editorial
+    title: 无产阶级革命派大联合，夺走资本主义道路当权派的权！
+    date: 1967-01-22
+    author: 《人民日报》社论
+    kind: editorial
+    alias: 一·二二社论
+  - id: ws-1967-01-23-pla-left
+    title: 关于人民解放军坚决支持革命左派群众的决定
+    date: 1967-01-23
+    author: 中共中央、国务院、中央军委、中央文革小组
+    kind: party-doc
+    note: 页面无日期；日期见正文。
+  - id: ws-1967-01-22-qingdao-order
+    title: 青岛市革命造反委员会第一号通令
+    date: 1967-01-22
+    author: 青岛市革命造反委员会
+    kind: redguard
+  - id: ws-1967-01-25-pla-support
+    title: 人民解放军坚决支持无产阶级革命派
+    date: 1967-01-25
+    author: 《解放军报》社论
+    kind: editorial
+  - id: ws-1967-01-25-shanxi
+    title: 山西省无产阶级文化大革命的伟大胜利
+    date: 1967-01-25
+    author: 《人民日报》社论
+    kind: editorial
+  - id: ws-1967-02-01-southwest
+    title: 西南的春雷
+    date: 1967-02-01
+    author: 《人民日报》社论
+    kind: editorial
+  - id: ws-1967-02-02-northeast
+    title: 东北的新曙光
+    date: 1967-02-02
+    author: 《人民日报》社论
+    kind: editorial
+  - id: ws-1967-02-04-discipline
+    title: 论无产阶级的革命纪律和革命权威
+    date: 1967-02-04
+    author: 《红旗》杂志评论员
+    kind: editorial
+  - id: ws-1967-02-05-shanghai-commune
+    title: 一月革命胜利万岁！──上海人民公社宣言
+    date: 1967-02-05
+    author: 上海人民公社
+    kind: redguard
+    alias: 上海人民公社宣言
+  # ── 二月：军队、“逆流”、干部、三结合 ──
+  - id: ws-1967-02-18-adverse-current
+    title: 彻底粉碎反革命逆流
+    date: 1967-02-18
+    author: 《解放军报》社论
+    kind: editorial
+  - id: ws-1967-02-23-cadres
+    title: 必须正确地对待干部
+    date: 1967-02-23
+    author: 《红旗》1967 年第 4 期社论
+    kind: editorial
+  - id: ws-1967-03-01-three-in-one-rmrb
+    title: 革命的“三结合”是夺权斗争胜利的保证
+    date: 1967-03-01
+    author: 《人民日报》社论
+    kind: editorial
+    note: 页面无日期；日期据《红旗》1967 年第 4 期（3 月 1 日）转载，《人民日报》原刊日期待核。
+  - id: ws-1967-03-04-four-cleanups
+    title: 保卫四清运动的伟大成果
+    date: 1967-03-04
+    author: 《红旗》杂志评论员
+    kind: editorial
+  - id: ws-1967-03-10-three-in-one
+    title: 论革命的“三结合”
+    date: 1967-03-10
+    author: 《红旗》1967 年第 5 期社论
+    kind: editorial
+    note: 日期取页面头部 3-10；但《红旗》第 5 期出刊日为 3-30（同期刊出戚本禹文，《人民日报》4-1 转载），3-10 可能是社论提前播发的日期，待核。
+  - id: ws-1967-03-18-cc-letter-factories
+    title: 中共中央给全国厂矿企业革命职工、革命干部的信
+    date: 1967-03-18
+    author: 中共中央
+    kind: party-doc
+  - id: ws-1967-03-19-three-supports
+    title: 关于集中力量执行支左、支农、支工、军管、军训任务的决定
+    date: 1967-03-19
+    author: 中共中央军委
+    kind: party-doc
+    alias: 三支两军决定
+    note: 页面无日期；日期见正文。
+  - id: ws-1967-04-06-ten-orders
+    title: 十条命令
+    date: 1967-04-06
+    author: 中央军委
+    kind: party-doc
+    alias: 军委十条命令
+  - id: ws-1967-04-13-inner-mongolia
+    title: 中共中央关于处理内蒙问题的决定
+    date: 1967-04-13
+    author: 中共中央
+    kind: party-doc
+  - id: ws-1967-03-31-cadre-line
+    title: 在干部问题上的资产阶级反动路线必须批判
+    date: 1967-03-31
+    author: 《红旗》杂志评论员
+    kind: editorial
+  # ── 4–7 月 ──
+  - id: ws-1967-04-28-army-people
+    title: 热烈响应拥军爱民的号召
+    date: 1967-04-28
+    author: 《红旗》1967 年第 6 期社论
+    kind: editorial
+  - id: ws-1967-05-10-opera
+    title: 欢呼京剧革命的伟大胜利
+    date: 1967-05-10
+    author: 《红旗》1967 年第 6 期社论
+    kind: editorial
+  - id: ws-1967-05-20-main-contradiction
+    title: 抓住主要矛盾，掌握斗争大方向
+    date: 1967-05-20
+    author: 《红旗》杂志评论员
+    kind: editorial
+    note: 页面无日期；日期据《红旗》1967 年第 7 期（5 月 20 日）。
+  - id: ws-1967-06-01-strategic
+    title: 伟大的战略措施
+    date: 1967-06-01
+    author: 《红旗》《人民日报》社论
+    kind: editorial
+  - id: ws-1967-07-01-party-road
+    title: 毛泽东思想照亮了我们党胜利前进的道路
+    date: 1967-07-01
+    author: 《红旗》1967 年第 11 期社论
+    kind: editorial
+  # ── 8 月：枪杆子、大批判 ──
+  - id: ws-1967-08-01-gun
+    title: 无产阶级必须牢牢掌握枪杆子
+    date: 1967-08-01
+    author: 《红旗》杂志编辑部
+    kind: editorial
+    alias: 《红旗》八一社论
+  - id: ws-1967-08-09-renegades
+    title: 策动叛党就是为了篡党
+    date: 1967-08-09
+    author: 《文汇报》《解放日报》《支部生活》编辑部
+    kind: editorial
+  - id: ws-1967-08-10-parliament
+    title: 中国“议会迷”的破产
+    date: 1967-08-10
+    author: 《文汇报》《解放日报》《支部生活》编辑部
+    kind: editorial
+  - id: ws-1967-08-13-qinghai
+    title: 青海高原的凯歌
+    date: 1967-08-13
+    author: 《人民日报》社论
+    kind: editorial
+  - id: ws-1967-08-15-socialist-road
+    title: 走社会主义道路，还是走资本主义道路？
+    date: 1967-08-15
+    author: 《红旗》杂志编辑部、《人民日报》编辑部
+    kind: editorial
+  - id: ws-1967-08-16-peng-dehuai
+    title: 从彭德怀的失败到中国赫鲁晓夫的破产
+    date: 1967-08-16
+    author: 《红旗》1967 年第 13 期社论
+    kind: editorial
+  - id: ws-1967-08-20-pla-pillar
+    title: 伟大的中国人民解放军是我国无产阶级专政和无产阶级文化大革命的可靠支柱
+    date: 1967-08-20
+    author: 《红旗》1967 年第 14 期社论
+    kind: editorial
+  # ── 9–11 月：大联合、斗私批修 ──
+  - id: ws-1967-09-20-production
+    title: 进一步贯彻毛主席“抓革命，促生产”的伟大方针
+    date: 1967-09-20
+    author: 《红旗》1967 年第 14 期社论
+    kind: editorial
+  - id: ws-1967-10-06-mao-thought
+    title: 大立毛泽东思想的伟大革命
+    date: 1967-10-06
+    author: 《红旗》杂志编辑部
+    kind: editorial
+  - id: ws-1967-10-17-unite-by-system
+    title: 中共中央、国务院、中央军委、中央文革关于按照系统实行革命大联合的通知
+    date: 1967-10-17
+    author: 中共中央、国务院、中央军委、中央文革
+    kind: party-doc
+  - id: ws-1967-11-06-lin-speech
+    title: 在首都人民纪念十月革命五十周年大会上林彪同志的讲话
+    date: 1967-11-06
+    author: 林彪
+    kind: speech
+  - id: ws-1967-11-24-countryside
+    title: 中国农村两条道路的斗争
+    date: 1967-11-24
+    author: 《人民日报》《红旗》《解放军报》编辑部
+    kind: editorial

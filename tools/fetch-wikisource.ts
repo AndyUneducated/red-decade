@@ -14,7 +14,8 @@ const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '
 const API = 'https://zh.wikisource.org/w/api.php'
 const UA = 'red-decade-research/0.1 (github.com/AndyUneducated/red-decade)'
 
-type Entry = { id: string; title: string; variant?: string }
+// extraPages: Page: titles that belong to the text but are not transcluded by the main page
+type Entry = { id: string; title: string; variant?: string; extraPages?: string[] }
 
 const args = process.argv.slice(2)
 const force = args.includes('--force')
@@ -47,7 +48,9 @@ for (const entry of entries) {
     continue
   }
   const rev = page.revisions[0]
-  const wikitext = rev.slots.main.content
+  const transcluded: { title: string; revid: number }[] = []
+  const extra = (entry.extraPages ?? []).map((t) => `<pages index="${t.replace(/^Page:/, '')}" />`).join('\n')
+  const wikitext = await expandPages(rev.slots.main.content + (extra ? '\n' + extra : ''), transcluded)
   const text = wikiToText(wikitext)
   writeFileSync(rawPath, wikitext)
   writeFileSync(join(ROOT, 'sources', 'text', `${entry.id}.txt`), text)
@@ -63,12 +66,48 @@ for (const entry of entries) {
     sha256: createHash('sha256').update(wikitext).digest('hex'),
     chars: text.length,
     license,
+    ...(transcluded.length ? { transcluded } : {}),
   })
   console.log(`OK  ${entry.id.padEnd(28)} rev ${rev.revid}  ${text.length} chars  ${page.title}`)
   fetched++
   await sleep(1500)
 }
 console.log(`\n${fetched} fetched`)
+
+// Scan-backed pages hold their text in Page: subpages pulled in by <pages index=… from=… to=…/>.
+// Each tag is replaced by the body of those subpages (header/footer <noinclude> parts dropped),
+// and every subpage revision is recorded so the expansion stays reproducible.
+async function expandPages(wikitext: string, out: { title: string; revid: number }[]): Promise<string> {
+  const tags = [...wikitext.matchAll(/<pages\b([^>]*?)\/?>/g)]
+  let result = wikitext
+  for (const tag of tags) {
+    const attr = (name: string) => tag[1].match(new RegExp(`${name}\\s*=\\s*(?:"([^"]*)"|([^\\s/>]+))`))?.slice(1).find(Boolean)
+    const index = attr('index')
+    if (!index) continue
+    const from = attr('from')
+    const to = attr('to')
+    const titles =
+      from && /^\d+$/.test(from)
+        ? Array.from({ length: Number(to ?? from) - Number(from) + 1 }, (_, i) => `Page:${index}/${Number(from) + i}`)
+        : [`Page:${from ?? index}`]
+    const bodies: string[] = []
+    for (const title of titles) {
+      await sleep(800)
+      const json = (await getJson(
+        `${API}?action=query&prop=revisions&rvprop=ids|content&rvslots=main&format=json&formatversion=2&titles=${encodeURIComponent(title)}`,
+      )) as { query: { pages: { missing?: boolean; revisions?: { revid: number; slots: { main: { content: string } } }[] }[] } }
+      const p = json.query.pages[0]
+      if (p.missing || !p.revisions) {
+        console.error(`  missing subpage ${title}`)
+        continue
+      }
+      out.push({ title, revid: p.revisions[0].revid })
+      bodies.push(p.revisions[0].slots.main.content.replace(/<noinclude>[\s\S]*?<\/noinclude>/g, '').trim())
+    }
+    result = result.replace(tag[0], bodies.join('\n'))
+  }
+  return result
+}
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms))

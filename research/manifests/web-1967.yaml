@@ -1,0 +1,14 @@
+# M3-1: 维基文库以外的 1967 年原文（tools/fetch-web.ts 抓取；来源与版权规则同 web-1966.yaml）。
+web:
+  - id: rmrb-1967-04-01-qi-benyu
+    title: 爱国主义还是卖国主义？——评反动影片《清宫秘史》
+    date: 1967-04-01
+    author: 戚本禹
+    kind: editorial
+    alias: 戚本禹《爱国主义还是卖国主义？》
+    url: https://cn.govopendata.com/renminribao/1967/4/1/1/
+    via: 《人民日报》1967-04-01 第 1 版（govopendata 转录；原载《红旗》1967 年第 5 期）
+    article: 爱国主义还是卖国主义？——评反动影片《清宫秘史》
+    excerpt: true
+    keep: [毛主席严正指出：《清宫秘史》, 老革命遇到了新问题, 为什么你要在, 答案只有一个]
+    note: 戚本禹 2016 年去世，只保留开头一段和“八个为什么”及结论段。全文约一万六千字，通篇不点名，称刘少奇为“党内最大的走资本主义道路的当权派”。

@@ -32,5 +32,8 @@ do {
 } while (Object.keys(cont).length)
 
 const shown = pages.filter((p) => !filter || p.title.includes(filter)).sort((a, b) => a.title.localeCompare(b.title, 'zh'))
-for (const p of shown) console.log(`${'missing' in p ? '✘' : '✔'} ${p.title}${p.length ? `  [${p.length}B]` : ''}`)
-console.log(`\n${shown.filter((p) => !('missing' in p)).length} exist / ${shown.length} linked`)
+const lines = shown.map((p) => `${'missing' in p ? '✘' : '✔'} ${p.title}${p.length ? `  [${p.length}B]` : ''}`)
+lines.push(`\n${shown.filter((p) => !('missing' in p)).length} exist / ${shown.length} linked`)
+// WS_OUT=<file>: write UTF-8 to a file instead of the console (Windows consoles mangle CJK)
+if (process.env.WS_OUT) (await import('node:fs')).writeFileSync(process.env.WS_OUT, lines.join('\n') + '\n')
+else console.log(lines.join('\n'))

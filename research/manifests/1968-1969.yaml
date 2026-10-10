@@ -1,0 +1,27 @@
+# M3-1: 1968–1969 年维基文库原文（逐题检索命中的页面）。日期取自页面头部或正文落款，见 note。
+wikisource:
+  - id: ws-1968-07-03-notice
+    title: 七·三布告
+    date: 1968-07-03
+    author: 中共中央、国务院、中央军委、中央文革
+    kind: party-doc
+    alias: 七三布告
+  - id: ws-1968-07-24-notice
+    title: 七·二四布告
+    date: 1968-07-24
+    author: 中共中央、国务院、中央军委、中央文革
+    kind: party-doc
+    alias: 七二四布告
+  - id: ws-1968-liu-case-report
+    title: 关于叛徒、内奸、工贼刘少奇罪行的审查报告
+    date: 1968-10-18
+    author: 中央专案审查小组
+    kind: party-doc
+    alias: 刘少奇审查报告
+    note: 中发〔68〕155号，页面头部 1968-10-18；页首“废止”模板的 1980-02-29 是十一届五中全会为刘少奇平反、撤销本报告的日期。
+  - id: ws-1969-04-constitution
+    title: 中国共产党章程 (1969年)
+    date: 1969-04-14
+    author: 中国共产党第九次全国代表大会
+    kind: party-doc
+    alias: 九大党章
