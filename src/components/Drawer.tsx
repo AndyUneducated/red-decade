@@ -1,5 +1,5 @@
 import { relationActive, statusAt } from '../data/atlas'
-import { LANES, RELATION_TYPES, STATUSES } from '../data/schema'
+import { LANES, RELATION_TYPES, STATUSES, type Person } from '../data/schema'
 import { fmtDate, fmtRange, lifespan, toT } from '../lib/dates'
 import { useApp } from '../state'
 import { Cite, Entity, PersonChip, StatusDot, Verify, Voices } from './bits'
@@ -24,7 +24,7 @@ export function Drawer() {
 }
 
 function PersonCard({ id }: { id: string }) {
-  const { ix, t } = useApp()
+  const { ix, t, openPerson } = useApp()
   const p = ix.person.get(id)
   if (!p) return null
   const events = ix.eventsByPerson.get(id) ?? []
@@ -47,6 +47,10 @@ function PersonCard({ id }: { id: string }) {
               <StatusDot s={now} /> {STATUSES[now]}
             </>
           )}
+          {' · '}
+          <button className="linklike" onClick={() => openPerson(id)}>
+            完整传记 →
+          </button>
         </div>
         <div className="chips" style={{ marginTop: 8 }}>
           {p.factions.map((f) => (
@@ -72,42 +76,13 @@ function PersonCard({ id }: { id: string }) {
       {p.fate.length > 0 && (
         <section>
           <h3>命运轨迹</h3>
-          <ul className="fateline">
-            {p.fate.map((f, i) => (
-              <li key={i}>
-                <time>{fmtDate(f.date)}</time>
-                <StatusDot s={f.s} />
-                <span>
-                  <b style={{ fontWeight: 500 }}>{STATUSES[f.s]}</b>
-                  {f.note && ` · ${f.note}`} <Cite cite={f.cite} />
-                  {f.verify && <Verify />}
-                </span>
-              </li>
-            ))}
-          </ul>
+          <FateLine p={p} />
         </section>
       )}
       {rels.length > 0 && (
         <section>
           <h3>关系（{rels.filter((r) => relationActive(r, t)).length} 条在当前时刻有效）</h3>
-          <ul className="minilist">
-            {rels.map((r, i) => {
-              const other = r.a === id ? r.b : r.a
-              const dir = r.a === id ? '→' : '←'
-              return (
-                <li key={i} style={{ opacity: relationActive(r, t) ? 1 : 0.55 }}>
-                  <span style={{ color: 'var(--muted)', fontSize: 11.5, marginRight: 6 }}>
-                    {RELATION_TYPES[r.type]} {dir}
-                  </span>
-                  <PersonChip id={other} />
-                  {r.from && <time style={{ marginLeft: 6 }}>{fmtDate(r.from)}</time>}
-                  {r.note && <div style={{ color: 'var(--ink-2)', marginTop: 2 }}>{r.note}</div>}
-                  <Cite cite={r.cite} />
-                  {r.verify && <Verify />}
-                </li>
-              )
-            })}
-          </ul>
+          <RelationList id={id} />
         </section>
       )}
       {events.length > 0 && (
@@ -121,7 +96,50 @@ function PersonCard({ id }: { id: string }) {
   )
 }
 
-function EventList({ events }: { events: { id: string; date: string; title: string }[] }) {
+export function FateLine({ p }: { p: Person }) {
+  return (
+    <ul className="fateline">
+      {p.fate.map((f, i) => (
+        <li key={i}>
+          <time>{fmtDate(f.date)}</time>
+          <StatusDot s={f.s} />
+          <span>
+            <b style={{ fontWeight: 500 }}>{STATUSES[f.s]}</b>
+            {f.note && ` · ${f.note}`} <Cite cite={f.cite} />
+            {f.verify && <Verify />}
+          </span>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+export function RelationList({ id }: { id: string }) {
+  const { ix, t } = useApp()
+  const rels = ix.relationsByPerson.get(id) ?? []
+  return (
+    <ul className="minilist">
+      {rels.map((r, i) => {
+        const other = r.a === id ? r.b : r.a
+        const dir = r.a === id ? '→' : '←'
+        return (
+          <li key={i} style={{ opacity: relationActive(r, t) ? 1 : 0.55 }}>
+            <span style={{ color: 'var(--muted)', fontSize: 11.5, marginRight: 6 }}>
+              {RELATION_TYPES[r.type]} {dir}
+            </span>
+            <PersonChip id={other} />
+            {r.from && <time style={{ marginLeft: 6 }}>{fmtDate(r.from)}</time>}
+            {r.note && <div style={{ color: 'var(--ink-2)', marginTop: 2 }}>{r.note}</div>}
+            <Cite cite={r.cite} />
+            {r.verify && <Verify />}
+          </li>
+        )
+      })}
+    </ul>
+  )
+}
+
+export function EventList({ events }: { events: { id: string; date: string; title: string }[] }) {
   const { select, setT } = useApp()
   return (
     <ul className="minilist">
@@ -340,7 +358,7 @@ function DocCard({ id }: { id: string }) {
   )
 }
 
-function ClaimLinks({ ids }: { ids: string[] }) {
+export function ClaimLinks({ ids }: { ids: string[] }) {
   const { ix, select } = useApp()
   return (
     <section>
