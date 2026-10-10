@@ -2,7 +2,8 @@ import { toT } from '../lib/dates'
 import type { Atlas, Event, Faction, Person, Relation, Status } from './schema'
 
 export type EntityType = 'person' | 'event' | 'concept' | 'doc' | 'faction' | 'claim'
-export type Ref = { type: EntityType; id: string }
+// sub narrows a selection, e.g. a concept within one source document
+export type Ref = { type: EntityType; id: string; sub?: string }
 
 export type Index = Atlas & {
   person: Map<string, Person>

@@ -1,5 +1,5 @@
 // App state lives in the URL hash so every view/selection is linkable:
-//   #/<view>?sel=<type>:<id>&t=<fractional year>
+//   #/<view>?sel=<type>:<id>[:<sub>]&t=<fractional year>
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { EntityType, Index, Ref } from './data/atlas'
 
@@ -28,14 +28,14 @@ function parseHash(): State {
   return {
     view: (view in VIEWS ? view : 'timeline') as View,
     doc: doc || undefined,
-    sel: sel?.length === 2 ? { type: sel[0] as EntityType, id: sel[1] } : undefined,
+    sel: sel && sel.length >= 2 ? { type: sel[0] as EntityType, id: sel[1], sub: sel[2] } : undefined,
     t: Number.isFinite(t) && t > 1900 ? t : DEFAULT_T,
   }
 }
 
 function toHash(s: State): string {
   const q = new URLSearchParams()
-  if (s.sel) q.set('sel', `${s.sel.type}:${s.sel.id}`)
+  if (s.sel) q.set('sel', `${s.sel.type}:${s.sel.id}${s.sel.sub ? `:${s.sel.sub}` : ''}`)
   if (s.t !== DEFAULT_T) q.set('t', s.t.toFixed(3))
   const qs = q.toString()
   return `#/${s.view}${s.doc ? `/${s.doc}` : ''}${qs ? `?${qs}` : ''}`

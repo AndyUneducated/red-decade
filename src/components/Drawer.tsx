@@ -14,7 +14,7 @@ export function Drawer() {
       </button>
       {sel.type === 'person' && <PersonCard id={sel.id} />}
       {sel.type === 'event' && <EventCard id={sel.id} />}
-      {sel.type === 'concept' && <ConceptCard id={sel.id} />}
+      {sel.type === 'concept' && <ConceptCard id={sel.id} doc={sel.sub} />}
       {sel.type === 'faction' && <FactionCard id={sel.id} />}
       {sel.type === 'doc' && <DocCard id={sel.id} />}
       {sel.type === 'claim' && ix.claim.get(sel.id) && <ClaimCard id={sel.id} />}
@@ -194,36 +194,57 @@ function EventCard({ id }: { id: string }) {
   )
 }
 
-function ConceptCard({ id }: { id: string }) {
-  const { ix, go } = useApp()
+function highlight(text: string, terms: string[]) {
+  const re = new RegExp(`(${terms.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'g')
+  return text.split(re).map((part, i) => (i % 2 ? <mark key={i}>{part}</mark> : part))
+}
+
+function ConceptCard({ id, doc }: { id: string; doc?: string }) {
+  const { ix, go, view, select } = useApp()
   const c = ix.concept.get(id)
   if (!c) return null
   const events = ix.events.filter((e) => e.concepts.includes(id))
   const claims = ix.claims.filter((cl) => cl.concepts.includes(id))
   const total = c.hits.reduce((s, h) => s + h.count, 0)
+  const hits = doc ? c.hits.filter((h) => h.source === doc) : c.hits
   return (
     <>
       <header>
         <div className="kicker">概念</div>
         <h2>{c.name}</h2>
         <div className="meta">
-          在 {c.hits.length} 份原始文献中出现 {total} 次 ·{' '}
-          <button className="linklike" onClick={() => go('ideas')}>
-            查看谱系 →
-          </button>
+          在 {c.hits.length} 份原始文献中出现 {total} 次
+          {view !== 'ideas' && (
+            <>
+              {' · '}
+              <button className="linklike" onClick={() => go('ideas')}>
+                查看谱系 →
+              </button>
+            </>
+          )}
         </div>
       </header>
       <section>
         <p>{c.summary}</p>
+        <div style={{ fontSize: 11.5, color: 'var(--muted)', marginBottom: 8 }}>匹配词：{c.terms.join('、')}</div>
         {c.notes.length > 0 && <Voices voices={c.notes} />}
       </section>
       {c.hits.length > 0 && (
         <section>
-          <h3>首次出现</h3>
-          <div className="ctx" style={{ borderTop: 0 }}>
-            <time>{fmtDate(c.hits[0].date)}</time> <Cite cite={c.hits[0].source} />
-            <div className="q">…{c.hits[0].context}…</div>
-          </div>
+          <h3>
+            原文语境（{doc ? `${hits.length} / ${c.hits.length}` : c.hits.length} 份文献）
+            {doc && (
+              <button className="linklike" style={{ marginLeft: 8, letterSpacing: 0, fontWeight: 400 }} onClick={() => select({ type: 'concept', id })}>
+                显示全部
+              </button>
+            )}
+          </h3>
+          {hits.map((h, i) => (
+            <div className="ctx" key={h.source} style={i ? undefined : { borderTop: 0 }}>
+              <time>{fmtDate(h.date)}</time> · {h.count} 次{h.source === c.hits[0].source && ' · 首次出现'} <Cite cite={h.source} />
+              <div className="q">…{highlight(h.context, c.terms)}…</div>
+            </div>
+          ))}
         </section>
       )}
       {c.related.length > 0 && (
