@@ -1,0 +1,177 @@
+# M1 / 1966 core primary texts on zh.wikisource.
+# Each entry is both a fetch target (tools/fetch-wikisource.ts) and a source record
+# (tools/build-data.ts). kind: party-doc | state-doc | editorial | speech | dazibao |
+# redguard | essay | chronology | judicial
+wikisource:
+  - id: ws-1965-hairui-critique-index
+    title: 一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记
+    date: 1966-05-16
+    author: 中共中央（五一六通知附件）
+    kind: chronology
+    alias: 五一六附件·大事记
+  - id: ws-1966-02-outline
+    title: 五人小组向中央的汇报提纲
+    date: 1966-02-12
+    author: 文化革命五人小组（彭真等）
+    kind: party-doc
+    alias: 二月提纲
+  - id: ws-1966-03-army-arts
+    title: 中共中央批发《林彪同志委托江青同志召开的部队文艺工作座谈会纪要》及附件
+    date: 1966-04-10
+    author: 中共中央；江青
+    kind: party-doc
+    alias: 部队文艺工作座谈会纪要
+  - id: ws-1966-05-16-notice
+    title: 中国共产党中央委员会通知（一九六六年五月十六日）
+    date: 1966-05-16
+    author: 中共中央
+    kind: party-doc
+    alias: 五一六通知
+  - id: ws-1966-05-16-notice-attachment
+    title: 中国共产党中央委员会通知及原件附件之二
+    date: 1966-05-16
+    author: 中共中央
+    kind: party-doc
+    alias: 五一六通知（含附件）
+  - id: ws-1966-05-ccrg-list
+    title: 中共中央关于中央文化革命小组名单的通知
+    date: 1966-05-28
+    author: 中共中央
+    kind: party-doc
+  - id: ws-1966-06-01-sweep
+    title: 横扫一切牛鬼蛇神
+    date: 1966-06-01
+    author: 人民日报社论
+    kind: editorial
+  - id: ws-1966-06-02-hail-pku
+    title: 欢呼北大的一张大字报
+    date: 1966-06-02
+    author: 人民日报评论员
+    kind: editorial
+  - id: ws-1966-05-25-nie-dazibao
+    title: 宋硕、陆平、彭佩云在文化革命中究竟干些什么？
+    date: 1966-05-25
+    author: 聂元梓等七人（北京大学）
+    kind: dazibao
+  - id: ws-1966-06-red-flag-long-live
+    title: 无产阶级文化大革命万岁
+    date: 1966-06-08
+    author: 红旗杂志社论
+    kind: editorial
+  - id: ws-1966-06-qhfz-rebel-1
+    title: 无产阶级的革命造反精神万岁
+    date: 1966-06-24
+    author: 清华大学附属中学红卫兵
+    kind: redguard
+  - id: ws-1966-07-qhfz-rebel-2
+    title: 再论无产阶级的革命造反精神万岁
+    date: 1966-07-04
+    author: 清华大学附属中学红卫兵
+    kind: redguard
+  - id: ws-1966-07-qhfz-rebel-3
+    title: 三论无产阶级的革命造反精神万岁
+    date: 1966-07-27
+    author: 清华大学附属中学红卫兵
+    kind: redguard
+  - id: ws-1966-07-withdraw-workteams
+    title: 关于撤销各大专学校工作组的决定
+    date: 1966-07-28
+    author: 中共北京市委
+    kind: party-doc
+  - id: ws-1966-08-08-sixteen-points
+    title: 中国共产党中央委员会关于无产阶级文化大革命的决定
+    date: 1966-08-08
+    author: 中共八届中央委员会
+    kind: party-doc
+    alias: 十六条
+  - id: ws-1966-08-12-plenum-communique
+    title: 中国共产党第八届中央委员会第十一次全体会议公报
+    date: 1966-08-12
+    author: 中共八届十一中全会
+    kind: party-doc
+  - id: ws-1966-08-18-lin-speech
+    title: 在庆祝无产阶级文化大革命群众大会上林彪同志的讲话
+    date: 1966-08-18
+    author: 林彪
+    kind: speech
+  - id: ws-1966-08-18-zhou-speech
+    title: 在庆祝无产阶级文化大革命群众大会上周恩来同志的讲话
+    date: 1966-08-18
+    author: 周恩来
+    kind: speech
+  - id: ws-1966-08-23-very-good
+    title: 好得很！
+    date: 1966-08-23
+    author: 人民日报社论
+    kind: editorial
+  - id: ws-1966-08-xicheng-4
+    title: 《首都红卫兵纠察队》西城指挥部第四号通令
+    date: 1966-08
+    author: 首都红卫兵纠察队西城指挥部
+    kind: redguard
+  - id: ws-1966-08-xicheng-founding
+    title: 首都红卫兵纠察队（ 西城分队 ）宣告成立
+    date: 1966-08-25
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+  - id: ws-1966-09-07-grasp-rev
+    title: 抓革命、促生产
+    date: 1966-09-07
+    author: 人民日报社论
+    kind: editorial
+  - id: ws-1966-09-red-guard-praise
+    title: 红卫兵赞
+    date: 1966-09-17
+    author: 红旗杂志评论员
+    kind: editorial
+  - id: ws-1966-09-exchange-notice
+    title: 中共中央、国务院关于革命师生进行革命串连问题的通知
+    date: 1966-09-05
+    author: 中共中央、国务院
+    kind: party-doc
+  - id: ws-1966-10-workers-no-exchange
+    title: 中共中央关于工人不要离厂外出串连的指示
+    date: 1966-10-30
+    author: 中共中央
+    kind: party-doc
+  - id: ws-1966-11-red-flag-two-lines
+    title: 以毛主席为代表的无产阶级革命路线的胜利
+    date: 1966-11-01
+    author: 红旗杂志社论
+    kind: editorial
+  - id: ws-1966-10-liu-self-criticism
+    title: 在中央工作会议上的检讨
+    date: 1966-10-23
+    author: 刘少奇
+    kind: speech
+  - id: ws-1966-12-wangli-dictatorship
+    title: 无产阶级专政和无产阶级文化大革命
+    date: 1966-12-13
+    author: 王力、贾一学、李鑫
+    kind: essay
+  - id: ws-1967-08-bombard-anniv
+    title: 炮打资产阶级司令部
+    date: 1967-08-05
+    author: 人民日报、红旗社论
+    kind: editorial
+  - id: ws-1967-yu-origin-theory
+    title: 出身论
+    date: 1967-01-18
+    author: 遇罗克（北京家庭出身问题研究小组）
+    kind: essay
+  - id: ws-1966-red-flag-index
+    title: 红旗/1966年
+    date: 1966
+    author: 红旗杂志
+    kind: index
+  - id: ws-1980-indictment
+    title: 中华人民共和国最高人民检察院特别检察厅起诉书
+    date: 1980-11-20
+    author: 最高人民检察院特别检察厅
+    kind: judicial
+  - id: ws-1981-resolution
+    title: 关于建国以来党的若干历史问题的决议
+    date: 1981-06-27
+    author: 中共十一届六中全会
+    kind: party-doc
+    alias: 历史决议

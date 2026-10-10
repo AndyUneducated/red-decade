@@ -1,0 +1,94 @@
+# Relations between people. Directed for patron / subordinate / attack / persecute / protect (a → b).
+# type: spouse | patron | ally | subordinate | attack | persecute | protect | link
+- { a: mao-zedong, b: jiang-qing, type: spouse }
+- { a: lin-biao, b: ye-qun, type: spouse }
+- { a: liu-shaoqi, b: wang-guangmei, type: spouse }
+
+- { a: mao-zedong, b: tian-jiaying, type: subordinate, to: 1966-05, note: 秘书 18 年 }
+- { a: mao-zedong, b: chen-boda, type: subordinate, note: 政治秘书 }
+- { a: mao-zedong, b: lin-biao, type: patron, from: 1966-08-12, to: 1970-08, note: 定为接班人, cite: ws-1966-10-liu-self-criticism }
+- { a: mao-zedong, b: kang-sheng, type: patron, from: 1966-02, cite: ws-1966-05-16-notice-attachment@1966-03-28 }
+- { a: mao-zedong, b: qi-benyu, type: patron, from: 1965-12-21, note: “我看了三遍”, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
+- { a: mao-zedong, b: guan-feng, type: protect, from: 1966-02-08, note: “写点杂文有什么关系”, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
+- { a: mao-zedong, b: nie-yuanzi, type: patron, from: 1966-06-01, note: 批示广播其大字报, cite: ws-1967-08-bombard-anniv }
+- { a: mao-zedong, b: tao-zhu, type: patron, from: 1966-06, to: 1967-01, verify: true }
+- { a: mao-zedong, b: peng-zhen, type: attack, from: 1966-03-28, note: 要中宣部、北京市委、五人小组“解散”, cite: ws-1966-05-16-notice-attachment@1966-03-28 }
+- { a: mao-zedong, b: liu-shaoqi, type: attack, from: 1966-08-05, note: 《炮打司令部》, cite: ws-1967-08-bombard-anniv }
+- { a: mao-zedong, b: wu-han, type: attack, from: 1965-09, note: “要害是罢官”, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
+- { a: mao-zedong, b: jian-bozan, type: attack, from: 1966-03-17, note: “实际上是国民党”, cite: ws-1966-05-16-notice-attachment@1966-03-17 }
+- { a: wu-han, b: peng-dehuai, type: link, from: 1965-12-21, note: 毛泽东称“彭德怀也是'海瑞'”；彭真辩称“没有发现……组织联系”, cite: ws-1966-05-16-notice-attachment@1965-12-22 }
+
+- { a: jiang-qing, b: zhang-chunqiao, type: ally, from: 1965 }
+- { a: zhang-chunqiao, b: yao-wenyuan, type: patron, from: 1965 }
+- { a: jiang-qing, b: yao-wenyuan, type: ally, from: 1965 }
+- { a: lin-biao, b: jiang-qing, type: ally, from: 1966-02, to: 1971-09, note: 委托召开部队文艺座谈会, cite: ws-1966-03-army-arts }
+- { a: chen-boda, b: wang-li, type: ally, from: 1966-05-28, to: 1967-08 }
+- { a: chen-boda, b: guan-feng, type: ally, from: 1966-05-28, to: 1967-08 }
+- { a: jiang-qing, b: qi-benyu, type: ally, from: 1966-05-28, to: 1968-01 }
+- { a: kang-sheng, b: jiang-qing, type: ally, from: 1966 }
+
+- { a: yao-wenyuan, b: wu-han, type: attack, from: 1965-11-10, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
+- { a: yao-wenyuan, b: deng-tuo, type: attack, from: 1966-05-10, note: 《评“三家村”》, cite: ws-1966-05-16-notice-attachment@1966-05-10 }
+- { a: yao-wenyuan, b: liao-mosha, type: attack, from: 1966-05-10, cite: ws-1966-05-16-notice-attachment@1966-05-10 }
+- { a: qi-benyu, b: jian-bozan, type: attack, from: 1966-03-25, cite: ws-1966-05-16-notice-attachment@1966-03-25 }
+- { a: guan-feng, b: wu-han, type: attack, from: 1966-04-05, cite: ws-1966-05-16-notice-attachment@1966-04-05 }
+- { a: kang-sheng, b: peng-zhen, type: attack, from: 1966-02-03, note: 五人小组会上对立, cite: ws-1966-05-16-notice-attachment@1966-02-03 }
+- { a: kang-sheng, b: he-long, type: persecute, from: 1966-07, note: 诬“二月兵变”, cite: ws-1980-indictment }
+- { a: kang-sheng, b: deng-xiaoping, type: persecute, from: 1967-01-29, cite: ws-1980-indictment }
+- { a: kang-sheng, b: liu-ren, type: persecute, from: 1968-01, cite: ws-1980-indictment }
+- { a: chen-boda, b: peng-zhen, type: attack, from: 1966-04-09, cite: ws-1966-05-16-notice-attachment@1966-04-09 }
+- { a: chen-boda, b: lu-dingyi, type: persecute, from: 1966-05, note: 提出“交红卫兵审判”, cite: ws-1980-indictment }
+
+- { a: lin-biao, b: luo-ruiqing, type: attack, from: 1965-12, verify: true }
+- { a: lin-biao, b: lu-dingyi, type: persecute, from: 1966-05, cite: ws-1980-indictment }
+- { a: lin-biao, b: liu-shaoqi, type: persecute, from: 1966-08-14, note: 批转雷英夫材料, cite: ws-1980-indictment }
+- { a: ye-qun, b: liu-shaoqi, type: persecute, from: 1966-08-11, cite: ws-1980-indictment }
+- { a: lin-biao, b: he-long, type: persecute, from: 1966-08, cite: ws-1980-indictment }
+- { a: wu-faxian, b: he-long, type: persecute, from: 1966-08, cite: ws-1980-indictment }
+- { a: ye-qun, b: he-long, type: persecute, from: 1966-08, cite: ws-1980-indictment }
+- { a: lin-biao, b: deng-xiaoping, type: persecute, from: 1966-12-06, cite: ws-1980-indictment }
+- { a: lin-biao, b: zhu-de, type: persecute, from: 1966-09, cite: ws-1980-indictment }
+- { a: lin-biao, b: wu-faxian, type: patron }
+- { a: zhang-chunqiao, b: zhu-de, type: persecute, from: 1966-09, cite: ws-1980-indictment }
+- { a: jiang-qing, b: liu-shaoqi, type: persecute, from: 1967-05, note: 刘少奇、王光美专案组, cite: ws-1980-indictment }
+- { a: jiang-qing, b: wang-guangmei, type: persecute, from: 1967-05, cite: ws-1980-indictment }
+- { a: xie-fuzhi, b: liu-shaoqi, type: persecute, from: 1967-10, cite: ws-1980-indictment }
+
+- { a: zhang-chunqiao, b: kuai-dafu, type: patron, from: 1966-12-18, cite: ws-1980-indictment }
+- { a: zhang-chunqiao, b: wang-hongwen, type: patron, from: 1966-11, verify: true }
+- { a: zhang-chunqiao, b: cao-diqiu, type: persecute, from: 1966-12-28, cite: ws-1980-indictment }
+- { a: zhang-chunqiao, b: chen-pixian, type: persecute, from: 1968-01, cite: ws-1980-indictment }
+- { a: wang-hongwen, b: cao-diqiu, type: attack, from: 1966-11, verify: true }
+- { a: kuai-dafu, b: liu-shaoqi, type: attack, from: 1966-12-25, cite: ws-1980-indictment }
+- { a: kuai-dafu, b: wang-guangmei, type: attack, from: 1966-06, verify: true }
+- { a: wang-guangmei, b: kuai-dafu, type: attack, from: 1966-06, to: 1966-07-28, note: 工作组定其为“反革命”, verify: true }
+- { a: nie-yuanzi, b: lu-ping, type: attack, from: 1966-05-25, cite: ws-1966-06-02-hail-pku }
+- { a: nie-yuanzi, b: song-shuo, type: attack, from: 1966-05-25, cite: ws-1966-06-02-hail-pku }
+- { a: nie-yuanzi, b: peng-peiyun, type: attack, from: 1966-05-25, cite: ws-1966-06-02-hail-pku }
+- { a: kang-sheng, b: nie-yuanzi, type: patron, from: 1966-05, note: 康生妻曹轶欧曾赴北大调查, verify: true }
+
+- { a: liu-shaoqi, b: deng-xiaoping, type: ally, to: 1966-12 }
+- { a: liu-shaoqi, b: wang-guangmei, type: patron, from: 1966-06, to: 1966-07-28, note: 推荐参加清华工作组, cite: ws-1966-10-liu-self-criticism }
+- { a: liu-shaoqi, b: li-xuefeng, type: patron, from: 1966-06-03, to: 1966-07-28 }
+- { a: li-xuefeng, b: zhang-chengxian, type: patron, from: 1966-06-03, to: 1966-07-28, verify: true }
+- { a: deng-xiaoping, b: peng-zhen, type: attack, from: 1966-04-09, cite: ws-1966-05-16-notice-attachment@1966-04-09 }
+- { a: zhou-enlai, b: peng-zhen, type: attack, from: 1966-04-09, cite: ws-1966-05-16-notice-attachment@1966-04-09 }
+- { a: zhou-enlai, b: chen-yi, type: ally }
+
+- { a: peng-zhen, b: wu-han, type: protect, from: 1965-11, to: 1966-04, note: “坚持真理，修正错误”, cite: ws-1966-05-16-notice-attachment@1965-12-14 }
+- { a: peng-zhen, b: deng-tuo, type: protect, from: 1965-12, to: 1966-04, note: “邓拓是左派”, cite: ws-1966-05-16-notice-attachment@1965-12-26 }
+- { a: peng-zhen, b: xu-liqun, type: subordinate, to: 1966-05, cite: ws-1966-02-outline }
+- { a: peng-zhen, b: liu-ren, type: subordinate, to: 1966-05 }
+- { a: peng-zhen, b: zheng-tianxiang, type: subordinate, to: 1966-05 }
+- { a: peng-zhen, b: lu-dingyi, type: ally, to: 1966-05, cite: ws-1966-05-16-notice-attachment@1966-01-02 }
+- { a: peng-zhen, b: guan-feng, type: attack, from: 1966-01-08, to: 1966-04, note: 收集其杂文作为“整左派”材料, cite: ws-1966-05-16-notice-attachment@1966-01-08 }
+- { a: lu-dingyi, b: zhou-yang, type: subordinate, to: 1966-05 }
+- { a: lu-dingyi, b: xu-liqun, type: subordinate, to: 1966-05 }
+- { a: lu-dingyi, b: lin-mohan, type: subordinate, to: 1966-05 }
+- { a: xu-liqun, b: yao-zhen, type: ally, to: 1966-05, note: 合写二月提纲, cite: ws-1966-05-16-notice-attachment@1966-02-04 }
+- { a: deng-tuo, b: wu-han, type: ally, note: 三家村 }
+- { a: deng-tuo, b: liao-mosha, type: ally, note: 三家村 }
+- { a: wu-han, b: liao-mosha, type: ally, note: 三家村 }
+- { a: lu-ping, b: peng-peiyun, type: ally, to: 1966-06 }
+- { a: chen-pixian, b: cao-diqiu, type: ally, to: 1967-01 }
+- { a: peng-dehuai, b: he-long, type: ally }

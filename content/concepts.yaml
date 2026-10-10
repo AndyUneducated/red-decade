@@ -1,0 +1,135 @@
+# Concepts. `terms` are matched verbatim against every text in sources/text at build
+# time, so each concept carries a chronological concordance computed from the corpus.
+- id: class-struggle
+  name: 阶级斗争
+  terms: [阶级斗争]
+  summary: 1962 年八届十中全会重提“千万不要忘记阶级斗争”，成为文革的理论前提。1978 年十一届三中全会“果断地停止使用'以阶级斗争为纲'这个不适用于社会主义社会的口号”。
+  related: [two-lines, continuous-revolution]
+  notes:
+    - { voice: official1981, text: 停止使用“以阶级斗争为纲”这个不适用于社会主义社会的口号。, cite: ws-1981-resolution }
+
+- id: revisionism
+  name: 修正主义
+  terms: [修正主义]
+  summary: 原指苏共赫鲁晓夫路线。1966 年起被用来指称党内对象——“反革命的修正主义分子”。
+  related: [khrushchev, capitalist-roaders]
+
+- id: khrushchev
+  name: “赫鲁晓夫那样的人物”
+  terms: [赫鲁晓夫]
+  summary: 《五一六通知》首次在中央文件中把“赫鲁晓夫那样的人物”指向党内：“他们现正睡在我们的身旁”。1967 年起“中国的赫鲁晓夫”成为刘少奇的代称。
+  related: [revisionism, successor, bourgeois-hq]
+
+- id: capitalist-roaders
+  name: 走资本主义道路的当权派
+  terms: [走资本主义道路的当权派, 走资派]
+  summary: 出自 1965 年初的《二十三条》（“这次运动的重点，是整党内那些走资本主义道路的当权派”），《十六条》原文照搬。1981 年决议称其为“错误地提出”。
+  related: [bourgeois-hq, two-lines]
+  notes:
+    - { voice: doc, text: 刘少奇在检讨中引用《二十三条》此语，称“这样，就把打击对象缩小到极少数人身上”——他把这一口号理解为收窄打击面。, cite: ws-1966-10-liu-self-criticism }
+
+- id: bourgeois-hq
+  name: 资产阶级司令部
+  terms: [资产阶级司令部, 炮打司令部]
+  summary: 《炮打司令部》的标题。原文未出现“资产阶级司令部”一词；1967 年 8 月周年社论将其展开为“两个司令部”理论，该词在一篇社论中出现 17 次。
+  related: [two-lines, khrushchev]
+  notes:
+    - { voice: official1981, text: 党内根本不存在所谓以刘少奇、邓小平为首的“资产阶级司令部”。, cite: ws-1981-resolution }
+
+- id: two-lines
+  name: 两条路线 / 资产阶级反动路线
+  terms: [两条路线, 反动路线]
+  summary: 1966 年 10 月中央工作会议起，工作组时期被定为“资产阶级反动路线”，与“以毛主席为代表的无产阶级革命路线”对立。
+  related: [bourgeois-hq, class-struggle]
+
+- id: four-olds
+  name: 四旧
+  terms: [四旧, 旧思想, 旧风俗]
+  summary: 旧思想、旧文化、旧风俗、旧习惯。本站语料中四项并列最早见于 1966 年 6 月 1 日社论；但缩写“四旧”在所有已收官方文本中均未出现。
+  related: [monsters]
+
+- id: monsters
+  name: 牛鬼蛇神
+  terms: [牛鬼蛇神]
+  summary: 《五一六通知》引毛泽东 1957 年语“凡是牛鬼蛇神，都应该进行批判”。6 月 1 日社论《横扫一切牛鬼蛇神》后成为泛指一切批判对象的标签，被关押者的场所俗称“牛棚”。
+  related: [reactionary-authority, black-gang]
+
+- id: black-gang
+  name: 黑帮
+  terms: [黑帮, 黑店]
+  summary: 1966 年 6 月《人民日报》称“三家村”为“黑帮”、“黑店”。年底林彪称邓小平为“黑帮分子”。
+  related: [monsters, black-line]
+
+- id: black-line
+  name: 文艺黑线专政
+  terms: [黑线]
+  summary: 《部队文艺工作座谈会纪要》称建国以来文艺界“被一条与毛主席思想相对立的反党反社会主义的黑线专了我们的政”。1979 年第四次文代会后被否定。
+  related: [black-gang, two-lines]
+
+- id: reactionary-authority
+  name: 资产阶级反动学术权威
+  terms: [反动学术, 学术“权威”, 学术权威]
+  summary: 《十六条》并列的两类打击对象之一（另一类为“走资本主义道路的当权派”）。
+  related: [monsters]
+
+- id: rebellion
+  name: 造反
+  terms: [造反]
+  summary: 1966 年 3 月毛泽东“号召地方造反”、8 月林彪“敢造反”、8 月 23 日社论引“造反有理”。1966 年 8 月老红卫兵纠察队自称“造反队”，数月后“造反派”转而专指反对他们的一方。
+  related: [mass-democracy]
+
+- id: mass-democracy
+  name: 大民主（大鸣大放大字报大辩论）
+  terms: [大字报, 大鸣大放, 大辩论]
+  summary: 《十六条》要求“充分运用大字报、大辩论这些形式，进行大鸣大放”。1975 年写入宪法，1980 年取消。
+  related: [rebellion, paris-commune]
+
+- id: paris-commune
+  name: 巴黎公社式选举
+  terms: [巴黎公社]
+  summary: 《十六条》第九条：“要象巴黎公社那样，必须实行全面的选举制……可以改选、撤换。”1967 年 2 月“上海人民公社”一度以此命名，旋即被改为“革命委员会”。
+  related: [mass-democracy]
+
+- id: verbal-struggle
+  name: 文斗与武斗
+  terms: [文斗, 武斗]
+  summary: 《十六条》：“要用文斗，不用武斗。”同年 12 月上海康平路事件后，“武斗”成为 1967–1968 年最主要的暴力形态。
+  related: [rebellion]
+
+- id: bloodline
+  name: 出身与血统论
+  terms: [出身, 黑六类, 黑五类, 狗崽子, 老子英雄儿好汉]
+  summary: 1966 年 8 月流行的对联“老子英雄儿好汉，老子反动儿混蛋”代表的血统论。遇罗克《出身论》以“重在表现”反驳，指其把斗争矛头从当权派转向出身不好的群众。
+  related: [successor]
+
+- id: successor
+  name: 接班人
+  terms: [接班人]
+  summary: 1964 年毛泽东提出“培养无产阶级革命事业接班人”五项条件。1966 年 8 月林彪被确定为“毛主席的接班人”，1969 年写入党章。
+  related: [khrushchev, bloodline]
+
+- id: mao-thought
+  name: 毛泽东思想 / 活学活用
+  terms: [活学活用, 毛泽东思想]
+  summary: 十一中全会公报推广林彪倡导的“带着问题学，活学活用，学用结合，急用先学，立竿见影”。1981 年决议将毛泽东晚年错误“同毛泽东思想完全区别开来”。
+  related: [successor]
+
+- id: equality-before-truth
+  name: 在真理面前人人平等
+  terms: [人人平等]
+  summary: 彭真 1965–1966 年反复使用、写入《二月提纲》；《五一六通知》斥之为“资产阶级的口号”，“根本否认真理的阶级性”。1978 年真理标准讨论中重新被正面提出。
+  related: [class-struggle]
+
+- id: grasp-revolution
+  name: 抓革命，促生产
+  terms: [抓革命，促生产, 抓革命、促生产, 抓革命促生产]
+  summary: 《十六条》第十四条标题，9 月 7 日同题社论。官方试图约束运动对生产的冲击。
+  related: []
+
+- id: continuous-revolution
+  name: 无产阶级专政下继续革命
+  terms: [继续革命]
+  summary: 1981 年决议指出，《五一六通知》和九大报告中的论点“曾被概括成为所谓'无产阶级专政下继续革命的理论'”。本站 1966 年语料中此语未出现，名称是事后概括。
+  related: [class-struggle, two-lines]
+  notes:
+    - { voice: official1981, text: 并曾被概括成为所谓“无产阶级专政下继续革命的理论”，从而使“无产阶级专政下继续革命”一语有了特定的含义。, cite: ws-1981-resolution }

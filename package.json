@@ -1,0 +1,33 @@
+{
+  "name": "red-decade",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/build-data.ts && vite",
+    "build": "node tools/build-data.ts && tsc -b && vite build",
+    "data:build": "node tools/build-data.ts",
+    "data:fetch": "node tools/fetch-wikisource.ts",
+    "data:search": "node tools/ws-search.ts",
+    "concordance": "node tools/concordance.ts",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

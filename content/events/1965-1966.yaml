@@ -1,0 +1,763 @@
+# Events, Sept 1965 – Dec 1966 (M1 deep slice).
+# lane: center | ideology | mass | army | culture | local | intl | econ
+# voices: the same event as described by different kinds of source.
+
+# ── 1965 序幕 ────────────────────────────────────────────────
+- id: 1965-09-work-conference
+  date: 1965-09
+  end: 1965-10
+  title: 中央工作会议：毛泽东问“吴晗是不是可以批判？”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 在有各大区负责人参加的政治局常委会上，毛泽东问彭真吴晗是否可以批判；彭真答“吴晗有些问题可以批判”。官方大事记称此事彭真直到 1966 年 1 月 2 日前“对康生等同志都没有说过”。同一会议上毛泽东问：“中央出了修正主义，你们怎么办？”
+  people: [mao-zedong, peng-zhen, wu-han, kang-sheng]
+  concepts: [revisionism]
+  voices:
+    - { voice: official1966, text: 毛主席早就察觉到吴晗的问题，是资产阶级代表人物向党向社会主义猖狂进攻的问题。, cite: ws-1966-05-16-notice-attachment@1965-09 }
+    - { voice: doc, text: 《五一六通知》称此为“毛泽东同志在一九六五年九月至十月间中央工作会议上……关于批判吴晗的指示”。, cite: ws-1966-05-16-notice }
+  cites: [ws-1966-05-16-notice-attachment@1965-09, ws-1966-05-16-notice]
+
+- id: 1965-09-23-peng-equality
+  date: 1965-09-23
+  title: 彭真：“在真理面前，是人人平等的”
+  lane: ideology
+  weight: 1
+  summary: 彭真在文化部文化厅局长会议上讲话。官方大事记引其语：“在真理面前，是人人平等的，管你是党中央的主席也好。”这句话后来成为《五一六通知》驳斥的第四点。
+  people: [peng-zhen, lu-dingyi]
+  concepts: [equality-before-truth]
+  cites: [ws-1966-05-16-notice-attachment@1965-09-23]
+
+- id: 1965-11-10-yao-article
+  date: 1965-11-10
+  title: 姚文元《评新编历史剧〈海瑞罢官〉》
+  lane: ideology
+  weight: 3
+  place: 上海《文汇报》
+  summary: 上海市委“根据毛主席在这次中央工作会议上的指示”准备的文章，指《海瑞罢官》鼓吹“单干风”、“翻案风”。11 月 12–26 日华东各省报纸先后转载。
+  people: [yao-wenyuan, zhang-chunqiao, jiang-qing, wu-han]
+  concepts: [class-struggle]
+  voices:
+    - { voice: official1966, text: 这篇文章指出，《海瑞罢官》鼓吹“单干风”、“翻案风”，是毒草。, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
+    - { voice: official1981, text: 1981 年决议将文革起点定为“一九六六年五月”，并未把姚文发表作为开端。, cite: ws-1981-resolution }
+  cites: [ws-1966-05-16-notice-attachment@1965-11-10]
+
+- id: 1965-11-10-yang-removed
+  date: 1965-11-10
+  title: 杨尚昆被免去中央办公厅主任
+  lane: center
+  weight: 1
+  summary: 与姚文元文章同日。杨尚昆后与彭真、罗瑞卿、陆定一并称“彭罗陆杨”。
+  people: [yang-shangkun]
+  verify: true
+
+- id: 1965-11-beijing-silence
+  date: 1965-11-11
+  end: 1965-11-28
+  title: 北京报刊 18 天不转载姚文
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 官方大事记：“北京各报刊，在十八天内，都未转载姚文元同志的文章。”上海人民出版社出单行本，北京新华书店“奉命不复”征订电报，直到 29 日。
+  people: [peng-zhen, yao-wenyuan]
+  voices:
+    - { voice: official1966, text: 各报刊多次请示是否可以转载，彭真同志和中宣部都不让转载。, cite: ws-1966-05-16-notice-attachment@1965-11-11 }
+  cites: [ws-1966-05-16-notice-attachment@1965-11-11, ws-1966-05-16-notice-attachment@1965-11-24]
+
+- id: 1965-11-28-zhou-presses
+  date: 1965-11-28
+  title: 周恩来督促下彭真开会讨论转载
+  lane: center
+  weight: 1
+  summary: 邓拓说“吴晗很紧张，因为他知道这次批判有来头”。彭真答：“什么来头不来头，不用管，只问真理如何，真理面前人人平等。”
+  people: [zhou-enlai, peng-zhen, deng-tuo, zhou-yang, xu-liqun, yao-zhen]
+  concepts: [equality-before-truth]
+  cites: [ws-1966-05-16-notice-attachment@1965-11-28]
+
+- id: 1965-11-30-peoples-daily
+  date: 1965-11-30
+  title: 《人民日报》在“学术研究”栏转载姚文
+  lane: ideology
+  weight: 2
+  summary: 按语按彭真意见作为学术问题讨论，“既容许批评的自由，也容许反批评的自由”。按语最后一段引用毛泽东语录，“这是周恩来同志加的”。前一日《解放军报》转载时称《海瑞罢官》“是一株大毒草”，《北京日报》按语则强调“有不同意见”。
+  people: [peng-zhen, zhou-enlai]
+  voices:
+    - { voice: official1966, text: 没有表示支持姚文元同志文章。按语的最后一段……这是周恩来同志加的。, cite: ws-1966-05-16-notice-attachment@1965-11-30 }
+    - { voice: editor, text: 同一篇文章的四家按语（解放军报 / 北京日报 / 人民日报 / 光明日报）被上海报纸按“发表先后”排列、把解放军报放在第一，彭真“极为不满”——转载顺序本身成了政治信号。, cite: ws-1966-05-16-notice-attachment@1965-12-06 }
+  cites: [ws-1966-05-16-notice-attachment@1965-11-29, ws-1966-05-16-notice-attachment@1965-11-30]
+
+- id: 1965-12-luo-shanghai
+  date: 1965-12-08
+  end: 1965-12-15
+  title: 上海会议揭批罗瑞卿
+  lane: army
+  weight: 2
+  place: 上海
+  summary: 政治局常委扩大会议上，叶群等揭发总参谋长罗瑞卿“反对突出政治”。罗瑞卿被停职。
+  people: [luo-ruiqing, lin-biao, ye-qun]
+  verify: true
+
+- id: 1965-12-21-mao-dismissal
+  date: 1965-12-21
+  title: 毛泽东：“要害问题是'罢官'”
+  lane: center
+  weight: 3
+  place: 杭州
+  summary: 毛泽东对陈伯达、艾思奇、关锋说：“嘉靖皇帝罢了海瑞的官，一九五九年我们罢了彭德怀的官。彭德怀也是'海瑞'。”由此把一出历史剧的批判与庐山会议直接相联。次日向彭真、康生、杨成武重复此意，彭真辩称“没有发现吴晗同彭德怀有什么组织联系”。
+  people: [mao-zedong, chen-boda, guan-feng, qi-benyu, peng-zhen, kang-sheng, peng-dehuai, wu-han]
+  concepts: [class-struggle]
+  voices:
+    - { voice: official1966, text: 姚文元的文章也很好，点了名……但是没有打中要害。要害问题是“罢官”。, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
+  cites: [ws-1966-05-16-notice-attachment@1965-12-21, ws-1966-05-16-notice-attachment@1965-12-22]
+
+- id: 1965-12-27-wu-self-criticism
+  date: 1965-12-27
+  title: 吴晗《关于〈海瑞罢官〉的自我批评》
+  lane: ideology
+  weight: 1
+  summary: 吴晗辩称《海瑞罢官》在《论海瑞》基础上写成，而《论海瑞》“是根据庐山会议精神反对右倾机会主义的”。官方大事记评：“这就自己暴露了自己的要害。”
+  people: [wu-han, peng-zhen]
+  cites: [ws-1966-05-16-notice-attachment@1965-12-27]
+
+# ── 1966 年 1–4 月 二月提纲之争 ─────────────────────────────
+- id: 1966-01-02-peng-meeting
+  date: 1966-01-02
+  title: 彭真召集三十余人会议，“先搞学术”
+  lane: ideology
+  weight: 1
+  summary: 胡绳传达毛泽东谈话时未提“要害是罢官”，康生当场补上。彭真称“政治问题两个月以后再说”。
+  people: [peng-zhen, hu-sheng, kang-sheng, lu-dingyi]
+  cites: [ws-1966-05-16-notice-attachment@1966-01-02]
+
+- id: 1966-02-02-army-arts-forum
+  date: 1966-02-02
+  end: 1966-02-20
+  title: 江青受林彪委托召开部队文艺工作座谈会
+  lane: culture
+  weight: 2
+  place: 上海
+  summary: 参加者刘志坚、谢镗忠、李曼村、陈亚丁。形成的《纪要》提出文艺界“被一条与毛主席思想相对立的反党反社会主义的黑线专了我们的政”，要“坚决进行一场文化战线上的社会主义大革命”。
+  people: [jiang-qing, lin-biao, liu-zhijian]
+  concepts: [black-line, two-lines]
+  docs: [ws-1966-03-army-arts]
+  cites: [ws-1966-05-16-notice-attachment@1966-02-02, ws-1966-03-army-arts]
+
+- id: 1966-02-03-five-man-group
+  date: 1966-02-03
+  title: 五人小组扩大会议：两种意见
+  lane: center
+  weight: 2
+  summary: 11 人参加。彭真主张左派“也要整风，不要当'学阀'”、“不要提庐山会议”；康生主张“要揭露吴晗的政治问题、要害问题”。会后彭真要许立群、姚溱起草汇报提纲，二人在钓鱼台“关起门来”写成。
+  people: [peng-zhen, kang-sheng, lu-dingyi, wu-lengxi, xu-liqun, hu-sheng, yao-zhen, wang-li, liu-ren, zheng-tianxiang]
+  concepts: [equality-before-truth]
+  docs: [ws-1966-02-outline]
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-02-03, ws-1966-05-16-notice-attachment@1966-02-04]
+
+- id: 1966-02-08-wuhan-report
+  date: 1966-02-08
+  title: 彭真等向毛泽东汇报提纲
+  lane: center
+  weight: 2
+  place: 武汉
+  summary: 官方大事记称“毛主席的意见同彭真同志的意见是完全对立的”，毛泽东两次问彭真“吴晗是不是反党反社会主义？”；对“整风”整左派一说回答“这样的问题，三年以后再说”。彭真事后电话告知常委“文件已经毛主席同意”。两种说法孰是孰非，是二月提纲之争的核心。
+  people: [mao-zedong, peng-zhen, xu-liqun, guan-feng]
+  voices:
+    - { voice: official1966, text: 毛主席是不赞成这个所谓“五人小组汇报提纲”的……彭真同志竟然用欺骗手法，打电话告诉常委同志，说文件已经毛主席同意。, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
+    - { voice: editor, text: 本条只有胜利一方编写的大事记作为来源，彭真一方的叙述尚待查找（见研究队列）。, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
+  cites: [ws-1966-05-16-notice-attachment@1966-02-08]
+  verify: true
+
+- id: 1966-02-12-outline-issued
+  date: 1966-02-12
+  title: 中央批转《二月提纲》
+  lane: center
+  weight: 3
+  summary: 《文化革命五人小组关于当前学术讨论的汇报提纲》作为中央文件下发。提纲在“兴无灭资”框架内主张“放”、“在真理面前人人平等”、“有领导地、认真地、积极地和谨慎地”进行，“报刊上公开点名作重点批判要慎重”。
+  people: [peng-zhen, lu-dingyi, kang-sheng, wu-lengxi]
+  concepts: [equality-before-truth, class-struggle]
+  docs: [ws-1966-02-outline]
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice]
+
+- id: 1966-03-17-hangzhou
+  date: 1966-03-17
+  end: 1966-03-20
+  title: 杭州政治局常委扩大会议：毛泽东谈学术批判
+  lane: center
+  weight: 2
+  place: 杭州
+  summary: 毛泽东：“现在学术界和教育界是资产阶级知识分子掌握实权……吴晗和翦伯赞等人是共产党员，也反共，实际上是国民党。”“不要怕年青人犯'王法'，不要扣压他们的稿件。”
+  people: [mao-zedong, wu-han, jian-bozan]
+  concepts: [reactionary-authority]
+  cites: [ws-1966-05-16-notice-attachment@1966-03-17]
+
+- id: 1966-03-18-luo-suicide-attempt
+  date: 1966-03-18
+  title: 罗瑞卿跳楼自杀未遂
+  lane: army
+  weight: 1
+  place: 北京
+  summary: 在接受批判期间跳楼，致腿部重伤。
+  people: [luo-ruiqing]
+  verify: true
+
+- id: 1966-03-22-cpsu-letter
+  date: 1966-03-22
+  title: 中共拒绝出席苏共二十三大
+  lane: intl
+  weight: 2
+  summary: 中共中央 3 月 22 日复信苏共中央，拒绝派代表团出席苏共第二十三次代表大会。复信刊于《红旗》1966 年第 4 期。两党关系实际中断。
+  concepts: [revisionism]
+  cites: [ws-1966-red-flag-index]
+
+- id: 1966-03-25-jian-criticized
+  date: 1966-03-25
+  title: 《红旗》批判翦伯赞
+  lane: ideology
+  weight: 1
+  summary: 戚本禹、林杰、阎长贵发表《翦伯赞同志的历史观点应当批判》。
+  people: [qi-benyu, jian-bozan]
+  concepts: [reactionary-authority]
+  cites: [ws-1966-05-16-notice-attachment@1966-03-25, ws-1966-red-flag-index]
+
+- id: 1966-03-28-yama-palace
+  date: 1966-03-28
+  end: 1966-03-30
+  title: 毛泽东：“打倒阎王，解放小鬼！”
+  lane: center
+  weight: 3
+  place: 杭州 / 上海
+  summary: 毛泽东同康生、江青、张春桥等谈话，称中宣部是“阎王殿”，“我历来主张，凡中央机关作坏事，我就号召地方造反，向中央进攻。各地要多出些孙悟空，大闹天宫。”并说中宣部、北京市委、五人小组“要解散”。这是 1966 年文本中“造反”一词的最早用例之一。
+  people: [mao-zedong, kang-sheng, jiang-qing, zhang-chunqiao, peng-zhen]
+  concepts: [rebellion, revisionism]
+  voices:
+    - { voice: official1966, text: 毛主席指出，扣压左派稿件、包庇反共知识分子的人是“大学阀”。中宣部是阎王殿。, cite: ws-1966-05-16-notice-attachment@1966-03-28 }
+  cites: [ws-1966-05-16-notice-attachment@1966-03-28]
+
+- id: 1966-04-09-secretariat
+  date: 1966-04-09
+  end: 1966-04-12
+  title: 书记处会议批判彭真
+  lane: center
+  weight: 2
+  summary: 邓小平主持、周恩来参加。康生传达毛泽东指示，陈伯达“从政治路线方面”批判彭真；周、邓指出彭真“是反对毛主席的”。会议决定起草通知撤销提纲，成立文件起草小组。
+  people: [deng-xiaoping, zhou-enlai, kang-sheng, chen-boda, peng-zhen]
+  cites: [ws-1966-05-16-notice-attachment@1966-04-09]
+
+- id: 1966-04-10-summary-issued
+  date: 1966-04-10
+  title: 中央批发《部队文艺工作座谈会纪要》
+  lane: culture
+  weight: 2
+  summary: 刘志坚起草的批语被彭真压下，另换新批语下发。《纪要》将建国后文艺界定为“黑线专政”，与二月提纲形成对立的两份中央文件。
+  people: [jiang-qing, lin-biao, liu-zhijian, peng-zhen]
+  concepts: [black-line]
+  docs: [ws-1966-03-army-arts]
+  cites: [ws-1966-03-army-arts, ws-1966-05-16-notice-attachment@1966-04-10]
+
+- id: 1966-04-16-beijing-daily
+  date: 1966-04-16
+  title: 《北京日报》三版刊吴晗、邓拓、廖沫沙材料
+  lane: ideology
+  weight: 2
+  summary: 北京市委以“毫无自我批评”的按语抢先公开批判“三家村”。中央人民广播电台、新华社当天广播，当晚撤销；19 日书记处通知各报不转载。同日毛泽东在杭州召集常委扩大会议讨论彭真问题。
+  people: [peng-zhen, wu-han, deng-tuo, liao-mosha, mao-zedong]
+  concepts: [black-gang]
+  cites: [ws-1966-05-16-notice-attachment@1966-04-16, ws-1966-05-16-notice-attachment@1966-04-19]
+
+- id: 1966-04-18-pla-daily
+  date: 1966-04-18
+  title: 《解放军报》社论号召“积极参加社会主义文化大革命”
+  lane: army
+  weight: 1
+  summary: 《高举毛泽东思想伟大红旗，积极参加社会主义文化大革命》，次日全国转载，《红旗》第 6 期全文刊载。
+  concepts: [mao-thought]
+  cites: [ws-1966-05-16-notice-attachment@1966-04-18, ws-1966-red-flag-index]
+
+# ── 1966 年 5 月 五一六 ─────────────────────────────────────
+- id: 1966-05-04-politburo
+  date: 1966-05-04
+  end: 1966-05-26
+  title: 政治局扩大会议：彭罗陆杨被定为“反党集团”
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 讨论“彭真、陆定一、罗瑞卿、杨尚昆四同志的错误问题”。5 月 16 日通过《通知》。会上林彪讲话大谈“政变”（俗称“五一八讲话”）。
+  people: [peng-zhen, luo-ruiqing, lu-dingyi, yang-shangkun, lin-biao, liu-shaoqi]
+  cites: [ws-1966-05-16-notice-attachment@1966-05-04]
+
+- id: 1966-05-10-three-family
+  date: 1966-05-10
+  title: 姚文元《评“三家村”》
+  lane: ideology
+  weight: 2
+  summary: 上海《解放日报》《文汇报》同时发表，次日全国转载。批判对象从吴晗一人扩大为邓拓、吴晗、廖沫沙及《燕山夜话》《三家村札记》。
+  people: [yao-wenyuan, deng-tuo, wu-han, liao-mosha]
+  concepts: [black-gang]
+  cites: [ws-1966-05-16-notice-attachment@1966-05-10, ws-1966-red-flag-index]
+
+- id: 1966-05-16-notice
+  date: 1966-05-16
+  title: 《五一六通知》
+  lane: center
+  weight: 3
+  summary: 撤销二月提纲和五人小组，“重新设立文化革命小组，隶属于政治局常委之下”。逐条驳斥提纲十点，并宣称“有些正在受到我们信用，被培养为我们的接班人，例如赫鲁晓夫那样的人物，他们现正睡在我们的身旁”。共印 39,985 份，发到县委和军队团级党委。
+  people: [mao-zedong, peng-zhen, kang-sheng, chen-boda]
+  concepts: [khrushchev, capitalist-roaders, equality-before-truth, monsters, successor]
+  docs: [ws-1966-05-16-notice, ws-1966-02-outline]
+  voices:
+    - { voice: doc, text: 混进党里、政府里、军队里和各种文化界的资产阶级代表人物，是一批反革命的修正主义分子，一旦时机成熟，他们就会要夺取政权。, cite: ws-1966-05-16-notice }
+    - { voice: official1981, text: 这些论点主要地出现在作为“文化大革命”纲领性文件的《五·一六通知》和党的九大的政治报告中。, cite: ws-1981-resolution }
+  cites: [ws-1966-05-16-notice, ws-1981-resolution]
+
+- id: 1966-05-18-deng-tuo-death
+  date: 1966-05-18
+  title: 邓拓自杀
+  lane: culture
+  weight: 2
+  place: 北京
+  summary: 《评“三家村”》发表后第 8 天。文革中第一位自杀的省部级干部。
+  people: [deng-tuo]
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1966-05-23-tian-jiaying
+  date: 1966-05-23
+  title: 田家英自杀
+  lane: center
+  weight: 1
+  place: 中南海
+  summary: 毛泽东秘书，被停职审查后次日自杀。
+  people: [tian-jiaying]
+  verify: true
+
+- id: 1966-05-25-nie-dazibao
+  date: 1966-05-25
+  title: 聂元梓等七人大字报
+  lane: mass
+  weight: 3
+  place: 北京大学
+  summary: 《宋硕、陆平、彭佩云在文化革命中究竟干些什么？》。6 月 1 日晚中央人民广播电台播出，次日《人民日报》全文刊登并配评论员文章。
+  people: [nie-yuanzi, lu-ping, song-shuo, peng-peiyun, kang-sheng]
+  concepts: [mass-democracy]
+  docs: [ws-1966-06-02-hail-pku]
+  voices:
+    - { voice: doc, text: 全国第一张马列主义的大字报和人民日报评论员的评论，写得何等好呵！（《炮打司令部》）, cite: ws-1967-08-bombard-anniv }
+  cites: [ws-1966-06-02-hail-pku, ws-1967-08-bombard-anniv]
+
+- id: 1966-05-28-ccrg
+  date: 1966-05-28
+  title: 中央文化革命小组成立
+  lane: center
+  weight: 3
+  summary: 组长陈伯达，顾问康生，副组长江青、王任重、刘志坚、张春桥，组员谢镗忠、尹达、王力、关锋、戚本禹、穆欣、姚文元。“隶属于政治局常委领导下”。
+  people: [chen-boda, kang-sheng, jiang-qing, wang-renzhong, liu-zhijian, zhang-chunqiao, wang-li, guan-feng, qi-benyu, yao-wenyuan]
+  docs: [ws-1966-05-ccrg-list]
+  cites: [ws-1966-05-ccrg-list]
+
+- id: 1966-05-29-qhfz-redguards
+  date: 1966-05-29
+  title: 清华附中出现“红卫兵”名称
+  lane: mass
+  weight: 2
+  place: 清华大学附属中学
+  summary: 一批以干部子弟为主的学生以“红卫兵”署名贴大字报。6 月 24 日起贴出《无产阶级的革命造反精神万岁》系列，后由《红旗》1966 年第 11 期转载。
+  concepts: [rebellion]
+  cites: [ws-1966-red-flag-index]
+  verify: true
+
+# ── 1966 年 6–7 月 工作组“五十多天” ─────────────────────────
+- id: 1966-06-01-sweep-editorial
+  date: 1966-06-01
+  title: 《人民日报》社论《横扫一切牛鬼蛇神》
+  lane: ideology
+  weight: 3
+  summary: 陈伯达率工作组接管《人民日报》后的首篇社论。提出“彻底破除几千年来一切剥削阶级所造成的毒害人民的旧思想、旧文化、旧风俗、旧习惯”——这是本站语料中“四旧”四项并列的最早出处。
+  people: [chen-boda]
+  concepts: [monsters, four-olds]
+  docs: [ws-1966-06-01-sweep]
+  voices:
+    - { voice: judicial1980, text: 一九六六年六月，陈伯达组织编写和审定的“横扫一切牛鬼蛇神”等社论，为林彪、江青反革命集团搞乱全国，乱中夺权，制造反革命舆论。, cite: ws-1980-indictment }
+  cites: [ws-1966-06-01-sweep, ws-1980-indictment]
+
+- id: 1966-06-03-new-committee
+  date: 1966-06-03
+  title: 北京市委改组，工作组进驻北大
+  lane: local
+  weight: 2
+  place: 北京
+  summary: 李雪峰任第一书记、吴德任第二书记。张承先率工作组进驻北京大学“代行党委职权”。刘少奇检讨：“特别在报纸上发表了派工作组到北京大学代行党委职权以后，这种派工作组的要求就更加强烈了。”
+  people: [li-xuefeng, zhang-chengxian, liu-shaoqi]
+  cites: [ws-1966-10-liu-self-criticism]
+  verify: true
+
+- id: 1966-06-workteams
+  date: 1966-06-01
+  end: 1966-07-18
+  title: 工作组的“五十多天”
+  lane: center
+  weight: 3
+  place: 北京各高校、中学
+  summary: 刘少奇主持的中央汇报会议决定派出工作组，规定“不让群众上街游行，不让把大字报贴到马路上去，要内外有别”。许多学校出现“排除干扰”斗争、“学生斗学生”，一些学生被定为“反革命分子”、“右派”或“假左派”。
+  people: [liu-shaoqi, deng-xiaoping, wang-guangmei, zhang-chengxian, kuai-dafu]
+  concepts: [two-lines]
+  voices:
+    - { voice: doc, text: 在五十多天里，从中央到地方的某些领导同志……实行资产阶级专政，将无产阶级轰轰烈烈的文化大革命运动打下去。（《炮打司令部》）, cite: ws-1967-08-bombard-anniv }
+    - { voice: doc, text: 在今年六月一日以后的五十多天中，我在指导无产阶级文化大革命中发生了路线错误，方向错误。……第一位要负责任的，就是我。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism }
+    - { voice: editor, text: 刘少奇检讨中“当时我们没有就是否应当派工作组的问题进行过讨论”与“当时群众纷纷要求……派工作组”并存——派工作组既是惯例，也是回应；被定性为“路线错误”是事后的。, cite: ws-1966-10-liu-self-criticism }
+  cites: [ws-1966-10-liu-self-criticism, ws-1967-08-bombard-anniv]
+
+- id: 1966-06-18-pku-incident
+  date: 1966-06-18
+  title: 北大“六一八事件”
+  lane: mass
+  weight: 2
+  place: 北京大学
+  summary: 学生自发揪斗数十名干部、教师，有体罚、戴高帽。工作组将其定为“乱斗”加以制止；刘少奇主持的会议批发北大简报第九号，认为处理“正确的，及时的”。这一判断后来被定为“把革命师生群众的革命行动，说成是反革命事件”。
+  people: [zhang-chengxian, liu-shaoqi]
+  voices:
+    - { voice: doc, text: 批发了北京大学文化革命简报第九号到各地党委……这就给全国定了一种基调。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism }
+  cites: [ws-1966-10-liu-self-criticism]
+
+- id: 1966-06-tsinghua-kuai
+  date: 1966-06-21
+  end: 1966-07
+  title: 清华工作组与蒯大富
+  lane: mass
+  weight: 2
+  place: 清华大学
+  summary: 王光美以工作组顾问身份参与清华运动。蒯大富公开质疑工作组，被定为“反革命”。刘少奇称清华是“这一错误路线的典型例子”。
+  people: [wang-guangmei, kuai-dafu, liu-shaoqi]
+  cites: [ws-1966-10-liu-self-criticism]
+  verify: true
+
+- id: 1966-06-13-exam-postponed
+  date: 1966-06-13
+  title: 高校招生推迟，高考停止
+  lane: culture
+  weight: 2
+  summary: 中共中央、国务院决定 1966 年高校招生推迟半年，此后高考中断至 1977 年。
+  verify: true
+
+- id: 1966-07-16-yangtze
+  date: 1966-07-16
+  title: 毛泽东畅游长江
+  lane: center
+  weight: 1
+  place: 武汉
+  summary: 公开显示健康与重返政治前台的信号。两天后回到北京。
+  people: [mao-zedong]
+  verify: true
+
+- id: 1966-07-18-mao-returns
+  date: 1966-07-18
+  title: 毛泽东回到北京
+  lane: center
+  weight: 2
+  summary: 刘少奇检讨：“在今年七月十八日以前的一段时间内，毛主席不在北京，党中央的日常工作，是由我主持进行的。”
+  people: [mao-zedong, liu-shaoqi]
+  cites: [ws-1966-10-liu-self-criticism]
+
+- id: 1966-07-24-withdraw-decision
+  date: 1966-07-24
+  title: 决定撤回工作组
+  lane: center
+  weight: 2
+  summary: 毛泽东“同中央其他同志讨论后，在七月二十四日决定撤退各学校和一些机关的工作组”。28 日北京市委发出《关于撤销各大专学校工作组的决定》。
+  people: [mao-zedong, li-xuefeng]
+  docs: [ws-1966-07-withdraw-workteams]
+  cites: [ws-1966-10-liu-self-criticism, ws-1966-07-withdraw-workteams]
+
+- id: 1966-07-29-activists-meeting
+  date: 1966-07-29
+  title: 人民大会堂师生大会：刘少奇“老革命遇到新问题”
+  lane: center
+  weight: 1
+  place: 人民大会堂
+  summary: 北京大专院校和中学师生文化革命积极分子大会，刘少奇、邓小平、周恩来讲话检讨工作组问题。
+  people: [liu-shaoqi, deng-xiaoping, zhou-enlai]
+  verify: true
+
+# ── 1966 年 8 月 十一中全会与红八月 ─────────────────────────
+- id: 1966-08-01-plenum
+  date: 1966-08-01
+  end: 1966-08-12
+  title: 八届十一中全会
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 通过《十六条》和公报。改选政治局常委：林彪成为唯一副主席，刘少奇由第二降至第八。首都高等院校“革命师生的代表”列席会议。
+  people: [mao-zedong, lin-biao, liu-shaoqi, zhou-enlai, deng-xiaoping, tao-zhu, chen-boda, kang-sheng]
+  concepts: [successor, mao-thought]
+  docs: [ws-1966-08-12-plenum-communique, ws-1966-08-08-sixteen-points]
+  voices:
+    - { voice: doc, text: 全会一致决定：由把毛泽东思想伟大红旗举得最高、活学活用毛主席著作最好的林彪同志，作为毛主席的第一位助手和毛主席的接班人。（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism }
+  cites: [ws-1966-08-12-plenum-communique, ws-1966-10-liu-self-criticism]
+
+- id: 1966-08-05-bombard
+  date: 1966-08-05
+  title: 毛泽东《炮打司令部——我的一张大字报》
+  lane: center
+  weight: 3
+  summary: 全文不足 300 字，不点名地指“从中央到地方的某些领导同志”在“五十多天里”实行“白色恐怖”，并“联系到一九六二年的右倾和一九六四年形'左'而实右的错误倾向”。8 月 7 日印发全会。
+  people: [mao-zedong, liu-shaoqi, deng-xiaoping]
+  concepts: [bourgeois-hq, two-lines]
+  docs: [ws-1967-08-bombard-anniv]
+  voices:
+    - { voice: doc, text: 联系到一九六二年的右倾和一九六四年形“左”而实右的错误倾向，岂不是可以发人深醒的吗？, cite: ws-1967-08-bombard-anniv }
+    - { voice: official1966, text: 一年后的周年社论将其解释为揭露了“以中国赫鲁晓夫为首的资产阶级司令部”——原文并无此语。, cite: ws-1967-08-bombard-anniv }
+  cites: [ws-1967-08-bombard-anniv]
+
+- id: 1966-08-05-bian-zhongyun
+  date: 1966-08-05
+  title: 卞仲耘被学生打死
+  lane: mass
+  weight: 2
+  place: 北京师范大学女附中
+  summary: 副校长卞仲耘在校内批斗中被殴打致死。工作组撤离后，北京中学的暴力迅速升级。
+  people: [bian-zhongyun]
+  verify: true
+
+- id: 1966-08-08-sixteen-points
+  date: 1966-08-08
+  title: 《十六条》通过
+  lane: center
+  weight: 3
+  summary: “这次运动的重点，是整党内那些走资本主义道路的当权派。”“要用文斗，不用武斗。”“大学、专科学校、中学和小学学生中的问题，一律不整。”规定文化革命委员会成员“要象巴黎公社那样，必须实行全面的选举制”。
+  people: [mao-zedong, chen-boda]
+  concepts: [capitalist-roaders, four-olds, verbal-struggle, paris-commune, mass-democracy, mao-thought]
+  docs: [ws-1966-08-08-sixteen-points]
+  cites: [ws-1966-08-08-sixteen-points]
+
+- id: 1966-08-12-communique
+  date: 1966-08-12
+  title: 十一中全会公报
+  lane: center
+  weight: 2
+  summary: 宣布“毛泽东同志是当代最伟大的马克思列宁主义者”，“活学活用，学用结合，急用先学，立竿见影”的学习方法“应当进一步在全党全国推广”。国际部分称苏共新领导“实行没有赫鲁晓夫的赫鲁晓夫修正主义”。
+  concepts: [mao-thought, revisionism, khrushchev]
+  docs: [ws-1966-08-12-plenum-communique]
+  cites: [ws-1966-08-12-plenum-communique]
+
+- id: 1966-08-11-lei-yingfu
+  date: 1966-08-11
+  end: 1966-08-14
+  title: 叶群口授雷英夫诬陷刘少奇材料
+  lane: army
+  weight: 1
+  summary: 据 1980 年起诉书，叶群两次找总参作战部副部长雷英夫口授材料；8 月 14 日林彪让雷以写信形式附上材料，“这样更政治化些”，当天批送江青“酌转”毛泽东。
+  people: [ye-qun, lin-biao, jiang-qing, liu-shaoqi]
+  voices:
+    - { voice: judicial1980, text: 林彪在他的住处告诉雷英夫，用给林彪和毛泽东主席写信的形式，附上诬陷材料，由他批转毛泽东主席，并说“这样更政治化些”。, cite: ws-1980-indictment }
+  cites: [ws-1980-indictment]
+
+- id: 1966-08-18-first-rally
+  date: 1966-08-18
+  title: 天安门第一次接见红卫兵
+  lane: mass
+  weight: 3
+  place: 天安门广场
+  summary: 林彪代表毛泽东讲话：“我们要大破一切剥削阶级的旧思想，旧文化，旧风俗，旧习惯……要把……资产阶级反动权威，彻底打倒，打垮，使他们威风扫地，永世不得翻身！”宋彬彬为毛泽东戴上红卫兵袖章。至 11 月 26 日共八次接见。
+  people: [mao-zedong, lin-biao, zhou-enlai, song-binbin]
+  concepts: [four-olds, rebellion, reactionary-authority]
+  docs: [ws-1966-08-18-lin-speech, ws-1966-08-18-zhou-speech]
+  voices:
+    - { voice: doc, text: 我们坚决地支持你们敢闯、敢干、敢革命、敢造反的无产阶级革命精神！, cite: ws-1966-08-18-lin-speech }
+    - { voice: editor, text: 十天前的《十六条》要求“文斗”、“一律不整”学生；林彪讲话则要使打击对象“永世不得翻身”。同一个月里，成文政策的约束与动员性话语并行。, cite: ws-1966-08-08-sixteen-points }
+  cites: [ws-1966-08-18-lin-speech, ws-1966-red-flag-index]
+
+- id: 1966-08-red-august
+  date: 1966-08-19
+  end: 1966-09-30
+  title: “红八月”：破四旧、抄家与打人
+  lane: mass
+  weight: 3
+  place: 北京及全国城市
+  summary: 红卫兵上街改街名、砸文物、抄家、批斗、殴打。8 月下旬首都红卫兵纠察队西城指挥部第四号通令规范对“地、富、反、坏、右、资黑六类”抄家，限其 9 月 10 日前离京回原籍，同时规定“国家负责干部的家绝对不许查”。
+  people: []
+  concepts: [four-olds, bloodline, verbal-struggle]
+  docs: [ws-1966-08-xicheng-4, ws-1966-08-23-very-good]
+  voices:
+    - { voice: official1966, text: “\”红卫兵\“小将们以毛泽东思想为武器，正在横扫一切剥削阶级的旧思想、旧文化、旧风俗、旧习惯的灰尘。……好得很！”, cite: ws-1966-08-23-very-good }
+    - { voice: doc, text: 不是黑六类的家一律不查！国家负责干部的家绝对不许查！（西城纠察队第四号通令）, cite: ws-1966-08-xicheng-4 }
+    - { voice: editor, text: 通令要求“文斗”、“一切缴获要归公”，却以出身划定查抄对象并驱逐出京——这正是《出身论》所批判的“偷换概念”：把斗争矛头从“当权派”转向“黑六类”。, cite: ws-1967-yu-origin-theory }
+  cites: [ws-1966-08-xicheng-4, ws-1966-08-23-very-good]
+
+- id: 1966-08-23-lao-she
+  date: 1966-08-23
+  title: 老舍在孔庙遭批斗，次日投湖
+  lane: culture
+  weight: 2
+  place: 北京国子监孔庙、太平湖
+  summary: 北京市文联干部、作家与京剧演员被押至孔庙，在焚烧戏装的火堆旁遭殴打。老舍次日死于太平湖。
+  people: [lao-she]
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1966-08-23-very-good
+  date: 1966-08-23
+  title: 《人民日报》社论《好得很！》
+  lane: ideology
+  weight: 2
+  summary: 为红卫兵“破四旧”背书：“我们为北京市'红卫兵'小将们的无产阶级革命造反精神欢呼！”并引毛泽东“造反有理”语录。
+  concepts: [four-olds, rebellion]
+  docs: [ws-1966-08-23-very-good]
+  cites: [ws-1966-08-23-very-good]
+
+- id: 1966-08-25-xicheng-picket
+  date: 1966-08-25
+  title: 首都红卫兵纠察队西城分队成立
+  lane: mass
+  weight: 2
+  summary: 由北京三中、女一中、四中等中学红卫兵组成，宣言自称“革命的造反队，是无产阶级专政的工具”。此后数月内，“造反派”一词将转而专指反对他们的一方。
+  people: []
+  concepts: [rebellion]
+  docs: [ws-1966-08-xicheng-founding]
+  cites: [ws-1966-08-xicheng-founding]
+
+- id: 1966-08-27-daxing
+  date: 1966-08-27
+  end: 1966-09-01
+  title: 大兴县屠杀
+  lane: local
+  weight: 2
+  place: 北京大兴县
+  summary: 在“红八月”气氛下，大兴县十余个公社对“四类分子”及其家属集体杀戮。具体死亡人数各来源说法不一，待核。
+  concepts: [bloodline]
+  verify: true
+
+# ── 1966 年 9–12 月 串连、造反与路线斗争 ─────────────────────
+- id: 1966-09-05-exchange
+  date: 1966-09-05
+  title: 中央通知组织外地师生来京串连
+  lane: mass
+  weight: 2
+  summary: “自从……八月十八日在首都天安门上接见……以来，全国掀起了革命师生大串连的高潮。”来京师生“乘坐火车免费”，生活补助由国家财政开支。10 月 30 日又发指示要求工人不要离厂串连。
+  docs: [ws-1966-09-exchange-notice, ws-1966-10-workers-no-exchange]
+  cites: [ws-1966-09-exchange-notice, ws-1966-10-workers-no-exchange]
+
+- id: 1966-09-07-grasp-rev
+  date: 1966-09-07
+  title: 《人民日报》社论《抓革命，促生产》
+  lane: econ
+  weight: 2
+  summary: 要求“学校的红卫兵和革命学生，不要到那些地方去干预”城乡四清部署。这是官方首次正面处理文革与生产的矛盾。
+  concepts: [grasp-revolution]
+  docs: [ws-1966-09-07-grasp-rev]
+  cites: [ws-1966-09-07-grasp-rev]
+
+- id: 1966-09-he-long
+  date: 1966-09-03
+  title: 吴法宪编写诬陷贺龙材料送林彪
+  lane: army
+  weight: 1
+  summary: 据 1980 年起诉书，8 月林彪指使吴法宪编造贺龙“在空军阴谋夺权”的材料，9 月 3 日送林彪；9 月 7–24 日宋治国受叶群授意写四份材料。
+  people: [lin-biao, wu-faxian, ye-qun, he-long]
+  cites: [ws-1980-indictment]
+
+- id: 1966-10-09-shanghai-raid
+  date: 1966-10-09
+  title: 冒充红卫兵搜查赵丹、郑君里等五家
+  lane: culture
+  weight: 1
+  place: 上海
+  summary: 据 1980 年起诉书，江青勾结叶群，指使江腾蛟组织四十多人冒充红卫兵，搜查五位上海文艺界人士家中“书信、日记本、笔记本”，寻找江青 1930 年代的信件。1967 年 1 月在江青监视下烧毁。
+  people: [jiang-qing, ye-qun]
+  cites: [ws-1980-indictment]
+
+- id: 1966-10-work-conference
+  date: 1966-10-09
+  end: 1966-10-28
+  title: 中央工作会议：批判“资产阶级反动路线”
+  lane: center
+  weight: 3
+  summary: 陈伯达作关于两条路线的讲话。10 月 23 日刘少奇、邓小平作检讨。刘少奇检讨的结构——“五十多天”、“一九六二年右倾”、“一九六四年形'左'实右”——与《炮打司令部》的三项指控一一对应。
+  people: [liu-shaoqi, deng-xiaoping, chen-boda, lin-biao]
+  concepts: [two-lines]
+  docs: [ws-1966-10-liu-self-criticism]
+  voices:
+    - { voice: doc, text: 我在一九六二年犯了右倾机会主义路线性的错误之后，在一九六四年又犯了形式上是“左”的而实际上是右倾的错误。, cite: ws-1966-10-liu-self-criticism }
+  cites: [ws-1966-10-liu-self-criticism]
+
+- id: 1966-11-01-two-lines-editorial
+  date: 1966-11-01
+  title: 《红旗》社论《以毛主席为代表的无产阶级革命路线的胜利》
+  lane: ideology
+  weight: 1
+  summary: 将工作组时期定性为“资产阶级反动路线”，两条路线框架公开化。
+  concepts: [two-lines]
+  cites: [ws-1966-red-flag-index]
+
+- id: 1966-11-09-shanghai-wgs
+  date: 1966-11-09
+  title: 上海“工总司”成立，安亭事件
+  lane: local
+  weight: 3
+  place: 上海 / 安亭
+  summary: 王洪文等成立“上海工人革命造反总司令部”，市委拒绝承认；工人卧轨安亭，沪宁线中断。张春桥赴现场签字承认其合法，越过了“工人不要离厂串连”的指示。
+  people: [wang-hongwen, zhang-chunqiao, cao-diqiu]
+  concepts: [rebellion]
+  verify: true
+
+- id: 1966-12-06-deng-black-gang
+  date: 1966-12-06
+  title: 林彪称邓小平“黑帮分子”
+  lane: center
+  weight: 1
+  people: [lin-biao, deng-xiaoping]
+  summary: 据 1980 年起诉书。
+  concepts: [black-gang]
+  cites: [ws-1980-indictment]
+
+- id: 1966-12-peng-dehuai-seized
+  date: 1966-12
+  title: 彭德怀被红卫兵从成都揪回北京
+  lane: mass
+  weight: 1
+  people: [peng-dehuai]
+  summary: 北京航空学院等红卫兵赴成都，将彭德怀押回北京。
+  verify: true
+
+- id: 1966-12-18-zhang-kuai
+  date: 1966-12-18
+  title: 张春桥单独接见蒯大富
+  lane: mass
+  weight: 2
+  place: 中南海西门传达室
+  summary: 张春桥：“中央那一两个提出资产阶级反动路线的人至今仍不投降……你们革命小将应该联合起来……痛打落水狗，把他们搞臭。”
+  people: [zhang-chunqiao, kuai-dafu, liu-shaoqi, deng-xiaoping]
+  voices:
+    - { voice: judicial1980, text: 在张春桥的指使下，蒯大富于十二月二十五日在北京组织游行示威……公开煽动“打倒刘少奇！”“打倒邓小平！”, cite: ws-1980-indictment }
+  cites: [ws-1980-indictment]
+
+- id: 1966-12-25-down-with-liu
+  date: 1966-12-25
+  title: 清华井冈山游行：“打倒刘少奇！”
+  lane: mass
+  weight: 3
+  place: 北京天安门、王府井
+  summary: 首次以群众游行公开喊出打倒国家主席的口号。
+  people: [kuai-dafu, liu-shaoqi, deng-xiaoping]
+  cites: [ws-1980-indictment]
+
+- id: 1966-12-30-kangping-road
+  date: 1966-12-30
+  title: 上海康平路武斗
+  lane: local
+  weight: 2
+  place: 上海康平路市委机关
+  summary: 据 1980 年起诉书，12 月 28 日张春桥电话称“胜利果实不能被赤卫队夺去”，王洪文伙同耿金章指挥攻打“工人赤卫队”，“伤残九十一人”。一个月后上海“一月风暴”夺权。
+  people: [zhang-chunqiao, wang-hongwen, cao-diqiu]
+  concepts: [verbal-struggle]
+  cites: [ws-1980-indictment]
+
+- id: 1967-01-18-origin-theory
+  date: 1967-01-18
+  title: 遇罗克《出身论》发表
+  lane: ideology
+  weight: 2
+  place: 《中学文革报》
+  summary: 以“毛主席提出的革命接班人的五项条件，有出身这一条吗？”和《十六条》本身反驳血统论。“出身几乎决定了一切……有多少无辜青年，死于非命，溺死于唯出身论的深渊之中。”
+  people: [yu-luoke]
+  concepts: [bloodline, successor]
+  docs: [ws-1967-yu-origin-theory]
+  cites: [ws-1967-yu-origin-theory]

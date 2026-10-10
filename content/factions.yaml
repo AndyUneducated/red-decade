@@ -1,0 +1,105 @@
+# Political groupings as they appear in 1965–1966. One person may belong to several.
+# kind: core | group | institution | mass | target | dissent
+- id: mao
+  name: 毛泽东
+  kind: core
+  color: '#b3122e'
+  summary: 发动者与最终裁决者。1966 年的官方文本自称“以毛主席为首的无产阶级司令部”，这一称谓在 1967 年后才被系统化。
+  cites: [ws-1967-08-bombard-anniv]
+- id: ccrg
+  name: 中央文革小组
+  kind: group
+  color: '#e0573a'
+  from: 1966-05-28
+  to: 1969-04
+  summary: 1966 年 5 月 28 日设立，“隶属于政治局常委领导下”。组长陈伯达，顾问康生，副组长江青、王任重、刘志坚、张春桥，组员王力、关锋、戚本禹、姚文元等。1967 年后逐步取代政治局的日常职能。
+  cites: [ws-1966-05-ccrg-list]
+- id: lin
+  name: 林彪系
+  kind: group
+  color: '#7a4a1e'
+  from: 1959-09
+  to: 1971-09
+  summary: 以林彪、叶群为中心，含后来的黄永胜、吴法宪、李作鹏、邱会作等军队干部。1966 年 8 月林彪成为“毛主席的第一位助手和接班人”。
+  cites: [ws-1966-10-liu-self-criticism, ws-1980-indictment]
+- id: frontline
+  name: 一线领导
+  kind: institution
+  color: '#2f5d8a'
+  summary: 1959 年后主持中央日常工作的刘少奇、邓小平。1966 年 6–7 月派工作组；8 月起被定性为“资产阶级反动路线”，1967 年被称为“资产阶级司令部”。1981 年决议称：“党内根本不存在所谓以刘少奇、邓小平为首的'资产阶级司令部'。”
+  cites: [ws-1966-10-liu-self-criticism, ws-1981-resolution]
+- id: premier
+  name: 国务院 / 周恩来
+  kind: institution
+  color: '#3f7f6e'
+  summary: 周恩来及国务院系统。在 1966 年的文件中多次作为毛泽东指示的执行者出现（如 1965 年 11 月 30 日《人民日报》按语末段由周恩来所加）。
+  cites: [ws-1966-05-16-notice-attachment@1965-11-30]
+- id: plly
+  name: 彭罗陆杨
+  kind: target
+  color: '#5b5b66'
+  from: 1965-11
+  to: 1966-05
+  summary: 彭真、罗瑞卿、陆定一、杨尚昆。1966 年 5 月政治局扩大会议上被定为“反党集团”，是文革第一批被打倒的中央领导人。
+  cites: [ws-1966-05-16-notice-attachment@1966-05-04, ws-1967-08-bombard-anniv]
+- id: bjcommittee
+  name: 旧北京市委 / 三家村
+  kind: target
+  color: '#6d6a8a'
+  to: 1966-06-03
+  summary: 彭真主持的北京市委，包括刘仁、郑天翔、邓拓，及《燕山夜话》《三家村札记》作者邓拓、吴晗、廖沫沙。1966 年 6 月 3 日改组。
+  cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
+- id: propdept
+  name: 中宣部（“阎王殿”）
+  kind: target
+  color: '#8a7f6d'
+  to: 1966-07
+  summary: 陆定一、周扬、许立群、姚溱、林默涵等。毛泽东 1966 年 3 月底称“中宣部是阎王殿”，“要打倒阎王，解放小鬼”。
+  cites: [ws-1966-05-16-notice-attachment@1966-03-28]
+- id: workteams
+  name: 工作组
+  kind: institution
+  color: '#4a7aa8'
+  from: 1966-06
+  to: 1966-07-28
+  summary: 6 月初由刘少奇主持的中央会议决定派往北京各大中学校，7 月 24 日决定撤回，7 月 28 日北京市委正式撤销。刘少奇自述：“第一位要负责任的，就是我。”
+  cites: [ws-1966-10-liu-self-criticism, ws-1966-07-withdraw-workteams]
+- id: oldrg
+  name: 老红卫兵
+  kind: mass
+  color: '#c2410c'
+  from: 1966-05-29
+  to: 1967-01
+  summary: 以清华附中、北京各中学干部子弟为主体的早期红卫兵。8 月下旬组建“首都红卫兵纠察队”，按“黑六类”出身查抄，同时规定“国家负责干部的家绝对不许查”。
+  cites: [ws-1966-08-xicheng-4, ws-1966-08-xicheng-founding]
+- id: rebels
+  name: 造反派
+  kind: mass
+  color: '#d97706'
+  from: 1966-06
+  summary: 反对工作组、后被中央文革支持的学生和工人组织，如清华蒯大富、北大聂元梓、上海王洪文“工总司”。1966 年 10 月后取代老红卫兵成为运动主力。
+  cites: [ws-1980-indictment]
+- id: shanghai
+  name: 上海市委
+  kind: institution
+  color: '#577590'
+  summary: 第一书记陈丕显、市长曹荻秋。1965 年发表姚文元文章的地方；1966 年底与“工总司”冲突，1967 年“一月风暴”中被夺权。
+  cites: [ws-1980-indictment]
+- id: marshals
+  name: 军队元老
+  kind: institution
+  color: '#6b705c'
+  summary: 朱德、彭德怀、贺龙、陈毅、叶剑英等老帅。1966 年起陆续遭到林彪、江青方面的诬陷。
+  cites: [ws-1980-indictment]
+- id: academics
+  name: “反动学术权威”
+  kind: target
+  color: '#9c8c7a'
+  summary: 被《五一六通知》和《十六条》列为批判对象的学者、作家、教师。1980 年起诉书列举老舍、翦伯赞、熊庆来、赵九章等被迫害致死者。
+  cites: [ws-1966-08-08-sixteen-points, ws-1980-indictment]
+- id: dissent
+  name: 异端思想
+  kind: dissent
+  color: '#1f7a8c'
+  summary: 在运动内部以官方话语反驳官方逻辑的独立思考者，如遇罗克《出身论》。
+  cites: [ws-1967-yu-origin-theory]

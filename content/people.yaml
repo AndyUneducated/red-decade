@@ -1,0 +1,860 @@
+# People. tier 1 = 决策核心, 2 = 关键角色, 3 = 典型个案.
+# fate: dated status changes (normal|rise|power|attacked|sidelined|purged|detained|dead|restored).
+# verify: true marks facts not yet checked against a primary source in sources/.
+
+# ── 决策核心 ────────────────────────────────────────────
+- id: mao-zedong
+  name: 毛泽东
+  born: 1893-12-26
+  died: 1976-09-09
+  tier: 1
+  role1966: 中共中央主席
+  bio: 文化大革命的发动者和领导者。1965 年秋提出批判吴晗，1966 年 8 月 5 日写《炮打司令部》，8 月 18 日起八次在天安门接见红卫兵。1981 年决议：“这场'文化大革命'是毛泽东同志发动和领导的。”
+  factions: [mao]
+  fate:
+    - { date: 1949-10, s: power }
+    - { date: 1976-09-09, s: dead }
+  cites: [ws-1966-05-16-notice-attachment, ws-1967-08-bombard-anniv, ws-1981-resolution]
+
+- id: liu-shaoqi
+  name: 刘少奇
+  born: 1898-11-24
+  died: 1969-11-12
+  death: 被迫害致死（开封）
+  tier: 1
+  role1966: 国家主席、中共中央副主席
+  bio: 毛泽东不在北京期间主持中央日常工作，6–7 月决定向北京高校派工作组。八届十一中全会后排名降至第八。10 月 23 日在中央工作会议上作检讨，其结构与《炮打司令部》的指控逐项对应。1968 年被开除党籍，1969 年死于开封，1980 年平反。
+  factions: [frontline]
+  fate:
+    - { date: 1959-04, s: power }
+    - { date: 1966-08-05, s: attacked, note: 《炮打司令部》点出“五十多天”的“资产阶级专政”, cite: ws-1967-08-bombard-anniv }
+    - { date: 1966-12-25, s: purged, note: 清华蒯大富等在张春桥授意下公开喊出“打倒刘少奇”, cite: ws-1980-indictment }
+    - { date: 1967-09, s: detained, note: 专案审查期间实际被软禁、隔离, verify: true }
+    - { date: 1969-11-12, s: dead, cite: ws-1980-indictment }
+  cites: [ws-1966-10-liu-self-criticism, ws-1980-indictment, ws-1981-resolution]
+
+- id: zhou-enlai
+  name: 周恩来
+  born: 1898-03-05
+  died: 1976-01-08
+  tier: 1
+  role1966: 国务院总理、中共中央副主席
+  bio: 在 1966 年官方大事记中被描述为督促彭真转载姚文元文章、在《人民日报》按语中加入毛泽东语录的人；4 月书记处会议上与邓小平一起指出彭真“是反对毛主席的”。8 月 18 日后在接见红卫兵大会上讲话。
+  factions: [premier]
+  fate:
+    - { date: 1949-10, s: power }
+    - { date: 1976-01-08, s: dead }
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-08-18-zhou-speech]
+
+- id: lin-biao
+  name: 林彪
+  born: 1907-12-05
+  died: 1971-09-13
+  death: 温都尔汗坠机
+  tier: 1
+  role1966: 国防部长 → 中共中央唯一副主席
+  bio: 委托江青召开部队文艺座谈会（1966 年 2 月）。八届十一中全会后被确定为“毛主席的第一位助手和毛主席的接班人”。8 月 18 日代表毛泽东讲话，号召“大破一切剥削阶级的旧思想，旧文化，旧风俗，旧习惯”。1980 年起诉书指控其 8 月 11–14 日指使叶群、雷英夫编造诬陷刘少奇的材料。
+  factions: [lin]
+  fate:
+    - { date: 1959-09, s: power }
+    - { date: 1966-08-12, s: rise, note: 成为唯一副主席与接班人, cite: ws-1966-10-liu-self-criticism }
+    - { date: 1971-09-13, s: dead }
+  cites: [ws-1966-08-18-lin-speech, ws-1980-indictment]
+
+- id: deng-xiaoping
+  name: 邓小平
+  born: 1904-08-22
+  died: 1997-02-19
+  tier: 1
+  role1966: 中共中央总书记、国务院副总理
+  bio: 与刘少奇同处“一线”。1966 年 4 月主持书记处会议批判彭真。10 月作检讨。1980 年起诉书：“一九六六年十二月六日，林彪诬陷邓小平是'黑帮分子'、'反党分子'。”
+  factions: [frontline]
+  fate:
+    - { date: 1956-09, s: power }
+    - { date: 1966-10-23, s: attacked, note: 中央工作会议上作检讨, verify: true }
+    - { date: 1966-12-06, s: purged, note: 林彪称其“黑帮分子”, cite: ws-1980-indictment }
+    - { date: 1969-10, s: detained, note: 下放江西新建县, verify: true }
+    - { date: 1973-03, s: restored, note: 恢复国务院副总理职务, verify: true }
+    - { date: 1976-04-07, s: purged, note: 天安门事件后再次被撤销一切职务, verify: true }
+    - { date: 1977-07, s: restored, note: 十届三中全会恢复职务, verify: true }
+    - { date: 1997-02-19, s: dead }
+  cites: [ws-1980-indictment, ws-1966-05-16-notice-attachment@1966-04-09]
+
+- id: chen-boda
+  name: 陈伯达
+  born: 1904-07-29
+  died: 1989-09-20
+  tier: 1
+  role1966: 中央文革小组组长
+  bio: 毛泽东的政治秘书、《红旗》总编辑。1966 年 5 月任中央文革小组组长。1980 年起诉书称“横扫一切牛鬼蛇神”等社论由其“组织编写和审定”。1970 年庐山会议后倒台。
+  factions: [ccrg]
+  fate:
+    - { date: 1958-06, s: power }
+    - { date: 1966-05-28, s: rise, note: 中央文革小组组长, cite: ws-1966-05-ccrg-list }
+    - { date: 1970-09, s: purged, note: 九届二中全会后被审查, verify: true }
+    - { date: 1976-10, s: detained, verify: true }
+    - { date: 1989-09-20, s: dead }
+  cites: [ws-1966-05-ccrg-list, ws-1980-indictment]
+
+- id: kang-sheng
+  name: 康生
+  born: 1898
+  died: 1975-12-16
+  tier: 1
+  role1966: 中央书记处书记、中央文革小组顾问
+  bio: 五人小组成员中唯一站在毛泽东一边者。1966 年 2 月 3 日会上“以康生同志为代表”的一方主张揭露吴晗“政治问题、要害问题”。1980 年起诉书列其为林彪、江青反革命集团主犯（已死亡不再追究），并指控其主导“内人党”、“赵健民特务案”等冤案。
+  factions: [ccrg]
+  fate:
+    - { date: 1962-09, s: power }
+    - { date: 1966-05-28, s: rise, note: 中央文革小组顾问, cite: ws-1966-05-ccrg-list }
+    - { date: 1975-12-16, s: dead }
+  cites: [ws-1966-05-16-notice-attachment@1966-02-03, ws-1980-indictment]
+
+- id: jiang-qing
+  name: 江青
+  born: 1914-03
+  died: 1991-05-14
+  tier: 1
+  role1966: 中央文革小组第一副组长
+  bio: 毛泽东妻子。1966 年 2 月受林彪委托召开部队文艺工作座谈会，形成提出“文艺黑线专政”论的《纪要》。5 月任中央文革小组副组长，后代理组长。1976 年 10 月被捕。
+  factions: [ccrg]
+  fate:
+    - { date: 1965-01, s: normal }
+    - { date: 1966-02-02, s: rise, note: 主持部队文艺工作座谈会, cite: ws-1966-05-16-notice-attachment@1966-02-02 }
+    - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
+    - { date: 1976-10-06, s: detained, verify: true }
+    - { date: 1991-05-14, s: dead }
+  cites: [ws-1966-03-army-arts, ws-1966-05-ccrg-list, ws-1980-indictment]
+
+- id: zhang-chunqiao
+  name: 张春桥
+  born: 1917-02-01
+  died: 2005-04-21
+  tier: 1
+  role1966: 上海市委书记处书记、中央文革小组副组长
+  bio: 主持组织姚文元批判《海瑞罢官》的文章。1966 年 12 月 18 日在中南海西门单独接见蒯大富，授意“把他们搞臭”；12 月 28 日电话指示“胜利果实不能被赤卫队夺去”，引发康平路武斗（据 1980 年起诉书）。
+  factions: [ccrg, shanghai]
+  fate:
+    - { date: 1965-01, s: power }
+    - { date: 1966-05-28, s: rise, note: 中央文革小组副组长, cite: ws-1966-05-ccrg-list }
+    - { date: 1976-10-06, s: detained, verify: true }
+    - { date: 2005-04-21, s: dead }
+  cites: [ws-1966-05-ccrg-list, ws-1980-indictment]
+
+# ── 中央文革小组成员 ────────────────────────────────────────
+- id: yao-wenyuan
+  name: 姚文元
+  born: 1931-12-12
+  died: 2005-12-23
+  tier: 2
+  role1966: 上海《解放日报》编委、中央文革小组组员
+  bio: 1965 年 11 月 10 日在《文汇报》发表《评新编历史剧〈海瑞罢官〉》，被官方定为文革序幕；1966 年 5 月 10 日发表《评“三家村”》，次日全国转载。
+  factions: [ccrg, shanghai]
+  fate:
+    - { date: 1965-01, s: normal }
+    - { date: 1965-11-10, s: rise, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
+    - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
+    - { date: 1976-10-06, s: detained, verify: true }
+    - { date: 2005-12-23, s: dead }
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list]
+
+- id: wang-li
+  name: 王力
+  born: 1921-08
+  died: 1996-10-21
+  tier: 2
+  role1966: 《红旗》副总编、中央文革小组组员
+  bio: 既是二月提纲所列“五人小组办公室”成员，又被列入中央文革小组。1966 年 12 月与贾一学、李鑫合写《无产阶级专政和无产阶级文化大革命》。1967 年 8 月被隔离审查。
+  factions: [ccrg, propdept]
+  fate:
+    - { date: 1965-01, s: power }
+    - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
+    - { date: 1967-08-30, s: detained, note: 王力、关锋被隔离审查, verify: true }
+    - { date: 1996-10-21, s: dead }
+  cites: [ws-1966-02-outline, ws-1966-05-ccrg-list]
+
+- id: guan-feng
+  name: 关锋
+  aka: [何明, 庆云]
+  born: 1919
+  died: 2005-03-03
+  tier: 2
+  role1966: 《红旗》副总编、中央文革小组组员
+  bio: 彭真、许立群在 1966 年初收集其杂文作为“整左派”的材料；毛泽东 2 月 8 日当面回护：“写点杂文有什么关系。”4 月 5 日与林杰在《红旗》发表批判吴晗的文章。
+  factions: [ccrg]
+  fate:
+    - { date: 1965-01, s: normal }
+    - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
+    - { date: 1967-08-30, s: detained, verify: true }
+    - { date: 2005-03-03, s: dead }
+  cites: [ws-1966-05-16-notice-attachment@1966-02-08, ws-1966-05-ccrg-list]
+
+- id: qi-benyu
+  name: 戚本禹
+  born: 1931
+  died: 2016-04-20
+  tier: 2
+  role1966: 《红旗》历史组组长、中央文革小组组员
+  bio: 1965 年 12 月发表《为革命而研究历史》，毛泽东称“很好，我看了三遍，缺点是没有点名”。1966 年 3 月与林杰、阎长贵批判翦伯赞。
+  factions: [ccrg]
+  fate:
+    - { date: 1965-01, s: normal }
+    - { date: 1965-12-21, s: rise, note: 毛泽东点名称赞, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
+    - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
+    - { date: 1968-01-13, s: detained, verify: true }
+    - { date: 2016-04-20, s: dead }
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list]
+
+- id: wang-renzhong
+  name: 王任重
+  born: 1917-01-18
+  died: 1992-03-16
+  tier: 2
+  role1966: 中南局第二书记、中央文革小组副组长
+  bio: 1966 年 4 月在《红旗》发表《突出政治，用毛泽东思想统帅一切》。5 月任中央文革小组副组长，年底遭冲击。
+  factions: [ccrg]
+  fate:
+    - { date: 1965-01, s: power }
+    - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
+    - { date: 1966-12, s: purged, verify: true }
+    - { date: 1978, s: restored, verify: true }
+    - { date: 1992-03-16, s: dead }
+  cites: [ws-1966-05-ccrg-list, ws-1966-red-flag-index]
+
+- id: liu-zhijian
+  name: 刘志坚
+  born: 1912
+  died: 2006
+  tier: 3
+  role1966: 总政治部副主任、中央文革小组副组长
+  bio: 参加江青主持的部队文艺座谈会；为《纪要》代中央起草批语，第二稿被彭真压下（1966 年官方大事记）。中央文革小组副组长，1967 年初被打倒。
+  factions: [ccrg, lin]
+  fate:
+    - { date: 1965-01, s: power }
+    - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
+    - { date: 1967-01, s: purged, verify: true }
+  cites: [ws-1966-05-16-notice-attachment@1966-04-03, ws-1966-05-ccrg-list]
+
+- id: tao-zhu
+  name: 陶铸
+  born: 1908-01-16
+  died: 1969-11-30
+  death: 被迫害致死（合肥）
+  tier: 2
+  role1966: 中宣部部长、中央政治局常委、中央文革小组顾问
+  bio: 1966 年 6 月由中南局调京接替陆定一主管宣传，八届十一中全会后进入政治局常委，排名第四，兼任中央文革小组顾问。1967 年 1 月被打倒，1969 年死于合肥。1981 年决议将其与刘少奇、彭德怀、贺龙并列为“受迫害而牺牲”的领导人。
+  factions: [premier, ccrg]
+  fate:
+    - { date: 1965-01, s: power }
+    - { date: 1966-06, s: rise, note: 调任中宣部部长, verify: true }
+    - { date: 1967-01-04, s: purged, verify: true }
+    - { date: 1969-11-30, s: dead }
+  cites: [ws-1981-resolution]
+
+# ── 第一批被打倒者 ──────────────────────────────────────────
+- id: peng-zhen
+  name: 彭真
+  born: 1902-10-12
+  died: 1997-04-26
+  tier: 1
+  role1966: 北京市委第一书记、文化革命五人小组组长
+  bio: 主持起草《二月提纲》，坚持把批判吴晗限定在“学术”范围内、“在真理面前人人平等”。1966 年 4 月书记处会议上受批判，5 月政治局扩大会议上被定为“反党集团”成员。
+  factions: [plly, bjcommittee]
+  fate:
+    - { date: 1951, s: power }
+    - { date: 1966-04-09, s: attacked, note: 书记处会议批判, cite: ws-1966-05-16-notice-attachment@1966-04-09 }
+    - { date: 1966-05-16, s: purged, cite: ws-1966-05-16-notice }
+    - { date: 1966-12, s: detained, verify: true }
+    - { date: 1979-02, s: restored, verify: true }
+    - { date: 1997-04-26, s: dead }
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice, ws-1966-05-16-notice-attachment]
+
+- id: luo-ruiqing
+  name: 罗瑞卿
+  born: 1906-05-31
+  died: 1978-08-03
+  tier: 2
+  role1966: 总参谋长（1965 年 12 月起被停职）
+  bio: 1965 年 12 月上海会议上受林彪方面揭发，1966 年 3 月 18 日跳楼自杀未遂。“彭罗陆杨”之一。
+  factions: [plly, marshals]
+  fate:
+    - { date: 1959-09, s: power }
+    - { date: 1965-12, s: purged, note: 上海会议, verify: true }
+    - { date: 1966-12, s: detained, verify: true }
+    - { date: 1975, s: restored, verify: true }
+    - { date: 1978-08-03, s: dead }
+  cites: [ws-1967-08-bombard-anniv]
+  verify: true
+
+- id: lu-dingyi
+  name: 陆定一
+  born: 1906-06-09
+  died: 1996-05-09
+  tier: 2
+  role1966: 中宣部部长、五人小组成员
+  bio: 二月提纲参与者（“定一”）。1980 年起诉书：“一九六六年五月，林彪捏造罪名，诬陷陆定一是'反革命分子'”，中宣部九名副部长分别被诬为“叛徒”、“特务”。
+  factions: [plly, propdept]
+  fate:
+    - { date: 1954, s: power }
+    - { date: 1966-05, s: purged, cite: ws-1980-indictment }
+    - { date: 1966-12, s: detained, verify: true }
+    - { date: 1978-12, s: restored, verify: true }
+    - { date: 1996-05-09, s: dead }
+  cites: [ws-1966-02-outline, ws-1980-indictment]
+
+- id: yang-shangkun
+  name: 杨尚昆
+  born: 1907-08-03
+  died: 1998-09-14
+  tier: 2
+  role1966: 前中央办公厅主任
+  bio: 1965 年 11 月被免去中央办公厅主任。“彭罗陆杨”之一。
+  factions: [plly]
+  fate:
+    - { date: 1945, s: power }
+    - { date: 1965-11-10, s: purged, verify: true }
+    - { date: 1966-12, s: detained, verify: true }
+    - { date: 1978-12, s: restored, verify: true }
+    - { date: 1998-09-14, s: dead }
+  cites: [ws-1967-08-bombard-anniv]
+  verify: true
+
+- id: peng-dehuai
+  name: 彭德怀
+  born: 1898-10-24
+  died: 1974-11-29
+  death: 被迫害致死
+  tier: 2
+  role1966: 三线建设委员会副主任（成都）
+  bio: 1959 年庐山会议后被罢官。毛泽东 1965 年 12 月 21 日：“嘉靖皇帝罢了海瑞的官，一九五九年我们罢了彭德怀的官。彭德怀也是'海瑞'。”这把《海瑞罢官》的批判直接接到庐山会议。1966 年底被红卫兵揪回北京。
+  factions: [marshals]
+  fate:
+    - { date: 1959-08, s: purged }
+    - { date: 1965-09, s: sidelined, note: 调往成都三线, verify: true }
+    - { date: 1966-12, s: detained, note: 被北京红卫兵从成都揪回, verify: true }
+    - { date: 1974-11-29, s: dead, cite: ws-1980-indictment }
+  cites: [ws-1966-05-16-notice-attachment@1965-12-21, ws-1980-indictment]
+
+- id: he-long
+  name: 贺龙
+  born: 1896-03-22
+  died: 1969-06-09
+  death: 被迫害致死
+  tier: 2
+  role1966: 中共中央军委副主席、国务院副总理
+  bio: 1980 年起诉书：“一九六六年夏，康生……诬陷贺龙和彭真'私自调动军队搞二月兵变'”；8–9 月林彪指使吴法宪、叶群授意他人编写诬陷材料。
+  factions: [marshals]
+  fate:
+    - { date: 1954, s: power }
+    - { date: 1966-09, s: attacked, cite: ws-1980-indictment }
+    - { date: 1967-01, s: purged, verify: true }
+    - { date: 1969-06-09, s: dead, cite: ws-1980-indictment }
+  cites: [ws-1980-indictment]
+
+- id: zhu-de
+  name: 朱德
+  born: 1886-12-01
+  died: 1976-07-06
+  tier: 2
+  role1966: 全国人大常委会委员长
+  bio: 1980 年起诉书：1966 年 9 月起被林彪、张春桥等诽谤为“黑司令”、“老机会主义者”。
+  factions: [marshals]
+  fate:
+    - { date: 1949-10, s: power }
+    - { date: 1966-09, s: attacked, cite: ws-1980-indictment }
+    - { date: 1976-07-06, s: dead }
+  cites: [ws-1980-indictment]
+
+- id: chen-yi
+  name: 陈毅
+  born: 1901-08-26
+  died: 1972-01-06
+  tier: 3
+  role1966: 国务院副总理兼外交部长
+  bio: 1967 年 2 月在怀仁堂会议上与谭震林等抵制中央文革，被称为“二月逆流”。
+  factions: [marshals, premier]
+  fate:
+    - { date: 1958-02, s: power }
+    - { date: 1967-02, s: attacked, verify: true }
+    - { date: 1972-01-06, s: dead }
+  verify: true
+
+- id: ye-jianying
+  name: 叶剑英
+  born: 1897-04-28
+  died: 1986-10-22
+  tier: 3
+  role1966: 中央军委副主席、中央书记处书记
+  bio: 八届十一中全会增补为中央书记处书记。1967 年“二月逆流”参与者之一，1976 年 10 月参与逮捕“四人帮”。
+  factions: [marshals]
+  fate:
+    - { date: 1955, s: power }
+    - { date: 1967-02, s: attacked, verify: true }
+    - { date: 1986-10-22, s: dead }
+  verify: true
+
+# ── 北京市委与“三家村” ──────────────────────────────────────
+- id: wu-han
+  name: 吴晗
+  born: 1909-08-11
+  died: 1969-10-11
+  death: 被迫害致死
+  tier: 2
+  role1966: 北京市副市长、明史学者
+  bio: 京剧《海瑞罢官》作者。1965 年 12 月 27 日在《北京日报》发表《关于〈海瑞罢官〉的自我批评》，自陈该剧以《论海瑞》为基础，而《论海瑞》“是根据庐山会议精神反对右倾机会主义的”——官方大事记认为这“自己暴露了自己的要害”。1966 年 3 月被北京市委派去参加四清工作队，化名“老李”。
+  factions: [bjcommittee, academics]
+  fate:
+    - { date: 1949, s: power }
+    - { date: 1965-11-10, s: attacked, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
+    - { date: 1966-04-16, s: purged, note: 《北京日报》三版材料, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
+    - { date: 1968-03, s: detained, verify: true }
+    - { date: 1969-10-11, s: dead, cite: ws-1980-indictment }
+  cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
+
+- id: deng-tuo
+  name: 邓拓
+  aka: [马南邨, 向阳生]
+  born: 1912-02-26
+  died: 1966-05-18
+  death: 自杀
+  tier: 2
+  role1966: 北京市委书记处书记
+  bio: 《燕山夜话》作者、“三家村”之一。1965 年 12 月以“向阳生”之名发表《从〈海瑞罢官〉谈到“道德继承论”》，官方大事记称系彭真“亲自指导”。1966 年 5 月 10 日姚文元《评“三家村”》发表，8 天后自杀。
+  factions: [bjcommittee]
+  fate:
+    - { date: 1958, s: power }
+    - { date: 1966-04-16, s: attacked, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
+    - { date: 1966-05-10, s: purged, cite: ws-1966-05-16-notice-attachment@1966-05-10 }
+    - { date: 1966-05-18, s: dead, verify: true }
+  cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
+
+- id: liao-mosha
+  name: 廖沫沙
+  born: 1907-01-15
+  died: 1990-12-27
+  tier: 3
+  role1966: 北京市委统战部部长
+  bio: “三家村”之一（笔名繁星）。1966 年 4 月 16 日《北京日报》三版材料点名。
+  factions: [bjcommittee]
+  fate:
+    - { date: 1958, s: power }
+    - { date: 1966-04-16, s: attacked, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
+    - { date: 1966-05, s: purged, verify: true }
+    - { date: 1979, s: restored, verify: true }
+    - { date: 1990-12-27, s: dead }
+  cites: [ws-1966-05-16-notice-attachment]
+
+- id: liu-ren
+  name: 刘仁
+  born: 1909
+  died: 1973-10-26
+  death: 被迫害致死（狱中）
+  tier: 3
+  role1966: 北京市委第二书记
+  bio: 2 月 3 日五人小组扩大会上被彭真要求“证明邓拓是拥护三面红旗的”。1980 年起诉书：1968 年 1 月康生批示对其“铐起来，进行严厉地突击地审讯”。
+  factions: [bjcommittee]
+  fate:
+    - { date: 1955, s: power }
+    - { date: 1966-05, s: purged, verify: true }
+    - { date: 1968-01, s: detained, cite: ws-1980-indictment }
+    - { date: 1973-10-26, s: dead, cite: ws-1980-indictment }
+  cites: [ws-1966-02-outline, ws-1980-indictment]
+
+- id: zheng-tianxiang
+  name: 郑天翔
+  born: 1914-01
+  died: 2013-10-10
+  tier: 3
+  role1966: 北京市委书记处书记
+  bio: 二月提纲会议参加者之一。1980 年起诉书列北京市委书记“刘仁、郑天翔、万里、邓拓等七人”全部被诬陷。
+  factions: [bjcommittee]
+  fate:
+    - { date: 1955, s: power }
+    - { date: 1966-05, s: purged, cite: ws-1980-indictment }
+    - { date: 1977, s: restored, verify: true }
+    - { date: 2013-10-10, s: dead }
+  cites: [ws-1966-02-outline, ws-1980-indictment]
+
+- id: li-xuefeng
+  name: 李雪峰
+  born: 1907
+  died: 2003-03-18
+  tier: 3
+  role1966: 华北局第一书记、新北京市委第一书记
+  bio: 1966 年 6 月 3 日接替彭真主持北京市委，7 月 28 日以新市委名义宣布撤销各大专学校工作组。
+  factions: [frontline]
+  fate:
+    - { date: 1963, s: power }
+    - { date: 1966-06-03, s: rise, verify: true }
+    - { date: 1971-01, s: purged, note: 华北会议后, verify: true }
+    - { date: 2003-03-18, s: dead }
+  cites: [ws-1966-07-withdraw-workteams]
+
+# ── 中宣部“阎王殿” ──────────────────────────────────────────
+- id: zhou-yang
+  name: 周扬
+  born: 1908-11-07
+  died: 1989-07-31
+  tier: 2
+  role1966: 中宣部副部长、文艺界主管
+  bio: 1966 年 1 月仍在《红旗》发表文章；7 月《红旗》刊出《周扬颠倒历史的一支暗箭》，被定为“文艺黑线”代表人物。《海瑞上疏》“是周扬同志亲自向上海京剧院布置的”（官方大事记）。
+  factions: [propdept]
+  fate:
+    - { date: 1949, s: power }
+    - { date: 1966-07-01, s: purged, cite: ws-1966-red-flag-index }
+    - { date: 1966-12, s: detained, verify: true }
+    - { date: 1975-07, s: restored, verify: true }
+    - { date: 1989-07-31, s: dead }
+  cites: [ws-1966-red-flag-index, ws-1966-05-16-notice-attachment@1966-01-02]
+
+- id: xu-liqun
+  name: 许立群
+  born: 1917
+  died: 2000
+  tier: 3
+  role1966: 中宣部副部长、五人小组办公室主任
+  bio: 与姚溱在钓鱼台起草《二月提纲》。1966 年 1 月 17 日召集三报三刊会议，要求“有领导地造成'一场混战'”。
+  factions: [propdept]
+  fate:
+    - { date: 1960, s: power }
+    - { date: 1966-05, s: purged, verify: true }
+    - { date: 2000, s: dead }
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-01-17]
+
+- id: yao-zhen
+  name: 姚溱
+  born: 1921
+  died: 1966-07-23
+  death: 自杀
+  tier: 3
+  role1966: 中宣部副部长
+  bio: 二月提纲起草者之一。官方大事记指其转达彭真意见，使《光明日报》晚三天转载姚文元文章。
+  factions: [propdept]
+  fate:
+    - { date: 1960, s: power }
+    - { date: 1966-05, s: purged, verify: true }
+    - { date: 1966-07-23, s: dead, verify: true }
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1965-12-02]
+
+- id: hu-sheng
+  name: 胡绳
+  born: 1918-01-11
+  died: 2000-11-05
+  tier: 3
+  role1966: 五人小组办公室成员
+  bio: 1966 年 1 月 2 日传达毛泽东谈话时“有意隐瞒了毛主席指出的《海瑞罢官》的要害是罢官”（官方大事记）。
+  factions: [propdept]
+  fate:
+    - { date: 1960, s: power }
+    - { date: 1966-05, s: attacked, verify: true }
+    - { date: 2000-11-05, s: dead }
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-01-02]
+
+- id: wu-lengxi
+  name: 吴冷西
+  born: 1919-12
+  died: 2002-06-16
+  tier: 3
+  role1966: 人民日报社社长、新华社社长、五人小组成员
+  bio: 五人小组成员（“冷西”）。1966 年 5 月 31 日陈伯达率工作组进驻人民日报后失去职权。
+  factions: [propdept]
+  fate:
+    - { date: 1958, s: power }
+    - { date: 1966-05-31, s: purged, verify: true }
+    - { date: 2002-06-16, s: dead }
+  cites: [ws-1966-02-outline]
+
+- id: lin-mohan
+  name: 林默涵
+  born: 1913-01
+  died: 2008-01-17
+  tier: 3
+  role1966: 中宣部副部长
+  bio: 官方大事记指其 1966 年 4 月 7 日在全国创作会议上“全面地剽窃了《纪要》的内容，并且作了严重的歪曲”。
+  factions: [propdept]
+  fate:
+    - { date: 1960, s: power }
+    - { date: 1966-07, s: purged, verify: true }
+    - { date: 2008-01-17, s: dead }
+  cites: [ws-1966-05-16-notice-attachment@1966-04-07]
+
+- id: tian-jiaying
+  name: 田家英
+  born: 1922-01
+  died: 1966-05-23
+  death: 自杀
+  tier: 3
+  role1966: 毛泽东秘书、中央办公厅副主任
+  bio: 担任毛泽东秘书 18 年。1966 年 5 月被停职审查后自杀，是文革中最早死亡的中央机关干部之一。
+  factions: [mao]
+  fate:
+    - { date: 1948, s: power }
+    - { date: 1966-05-22, s: purged, verify: true }
+    - { date: 1966-05-23, s: dead, verify: true }
+  verify: true
+
+# ── 一线与工作组 ────────────────────────────────────────────
+- id: wang-guangmei
+  name: 王光美
+  born: 1921-09-26
+  died: 2006-10-13
+  tier: 2
+  role1966: 清华大学工作组顾问
+  bio: 刘少奇妻子。刘少奇检讨：“我过问过的，王光美同志参加过的清华大学前一段文化革命运动中所犯的错误，是这一错误路线的典型例子。”又提及其 1964 年“桃园蹲点”经验。
+  factions: [frontline, workteams]
+  fate:
+    - { date: 1963, s: normal }
+    - { date: 1966-06, s: power, note: 进驻清华, verify: true }
+    - { date: 1966-08, s: attacked, cite: ws-1966-10-liu-self-criticism }
+    - { date: 1967-09, s: detained, verify: true }
+    - { date: 1978-12, s: restored, verify: true }
+    - { date: 2006-10-13, s: dead }
+  cites: [ws-1966-10-liu-self-criticism, ws-1980-indictment]
+
+- id: zhang-chengxian
+  name: 张承先
+  born: 1915
+  died: 2006
+  tier: 3
+  role1966: 北京大学工作组组长
+  bio: 北大工作组 6 月 18 日处理“乱斗现象”，刘少奇主持的会议将北大简报第九号批发全国，“把革命师生群众的革命行动，说成是反革命事件，这就给全国定了一种基调”（刘少奇检讨）。
+  factions: [workteams]
+  fate:
+    - { date: 1966-06-03, s: power, verify: true }
+    - { date: 1966-07-26, s: purged, verify: true }
+  cites: [ws-1966-10-liu-self-criticism]
+
+# ── 学校与群众组织 ──────────────────────────────────────────
+- id: nie-yuanzi
+  name: 聂元梓
+  born: 1921-04-05
+  died: 2019-08-28
+  tier: 2
+  role1966: 北京大学哲学系党总支书记
+  bio: 1966 年 5 月 25 日与另六人贴出《宋硕、陆平、彭佩云在文化革命中究竟干些什么？》。6 月 1 日经毛泽东批示由中央人民广播电台播出，次日《人民日报》发表评论员文章《欢呼北大的一张大字报》。《炮打司令部》称之为“全国第一张马列主义的大字报”。
+  factions: [rebels]
+  fate:
+    - { date: 1964, s: normal }
+    - { date: 1966-05-25, s: rise, cite: ws-1966-06-02-hail-pku }
+    - { date: 1966-09, s: power, note: 北大校文革主任, verify: true }
+    - { date: 1971, s: detained, verify: true }
+    - { date: 2019-08-28, s: dead }
+  cites: [ws-1966-06-02-hail-pku, ws-1967-08-bombard-anniv]
+
+- id: lu-ping
+  name: 陆平
+  born: 1914
+  died: 2002-01-02
+  tier: 3
+  role1966: 北京大学校长、党委书记
+  bio: 聂元梓大字报的主要批判对象。6 月 1 日大字报广播后即被撤职。
+  factions: [bjcommittee, academics]
+  fate:
+    - { date: 1960, s: power }
+    - { date: 1966-06-01, s: purged, verify: true }
+    - { date: 1978, s: restored, verify: true }
+    - { date: 2002-01-02, s: dead }
+  cites: [ws-1966-06-02-hail-pku]
+
+- id: song-shuo
+  name: 宋硕
+  tier: 3
+  role1966: 北京市委大学部副部长
+  bio: 聂元梓大字报标题点名者之一。《欢呼北大的一张大字报》称其主持的会议“布置”了“坚守岗位”。
+  factions: [bjcommittee]
+  fate:
+    - { date: 1964, s: power }
+    - { date: 1966-06-01, s: purged, verify: true }
+  cites: [ws-1966-06-02-hail-pku]
+
+- id: peng-peiyun
+  name: 彭珮云
+  born: 1929-12
+  tier: 3
+  role1966: 北京大学党委副书记
+  bio: 聂元梓大字报标题点名者之一。改革时期任国家计生委主任、国务委员。
+  factions: [bjcommittee]
+  fate:
+    - { date: 1964, s: power }
+    - { date: 1966-06-01, s: purged, verify: true }
+    - { date: 1978, s: restored, verify: true }
+  cites: [ws-1966-06-02-hail-pku]
+  verify: true
+
+- id: kuai-dafu
+  name: 蒯大富
+  born: 1945-09
+  tier: 2
+  role1966: 清华大学化工系学生
+  bio: 1966 年 6 月反对王光美参与的清华工作组，被打成“反革命”；工作组撤出后成为清华井冈山兵团领袖。1980 年起诉书：12 月 18 日张春桥单独接见他后，12 月 25 日他组织游行，“公开煽动'打倒刘少奇！''打倒邓小平！'”。
+  factions: [rebels]
+  fate:
+    - { date: 1966-01, s: normal }
+    - { date: 1966-06-24, s: attacked, note: 被工作组定为“反革命”, verify: true }
+    - { date: 1966-08, s: rise, verify: true }
+    - { date: 1966-12-18, s: power, note: 张春桥接见, cite: ws-1980-indictment }
+    - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖后, verify: true }
+  cites: [ws-1980-indictment, ws-1966-10-liu-self-criticism]
+
+- id: song-binbin
+  name: 宋彬彬
+  born: 1947
+  tier: 3
+  role1966: 北京师范大学女附中学生
+  bio: 8 月 18 日在天安门城楼为毛泽东戴上红卫兵袖章，毛泽东问其名后说“要武嘛”，随后见报的署名文章题为《我给毛主席戴上了红袖章》。其在卞仲耘之死中的角色，晚年本人与当事人之间存在争议。
+  factions: [oldrg]
+  fate:
+    - { date: 1966-01, s: normal }
+    - { date: 1966-08-18, s: rise, verify: true }
+  verify: true
+
+- id: wang-hongwen
+  name: 王洪文
+  born: 1935-12
+  died: 1992-08-03
+  tier: 2
+  role1966: 上海国棉十七厂保卫科干事
+  bio: 1966 年 11 月组织“上海工人革命造反总司令部”（工总司）。1980 年起诉书：12 月 30 日伙同耿金章指挥攻打“工人赤卫队”，“伤残九十一人，制造了康平路武斗事件”。1973 年升任中共中央副主席。
+  factions: [rebels, shanghai]
+  fate:
+    - { date: 1966-01, s: normal }
+    - { date: 1966-11-09, s: rise, note: 工总司成立, verify: true }
+    - { date: 1967-02, s: power, verify: true }
+    - { date: 1976-10-06, s: detained, verify: true }
+    - { date: 1992-08-03, s: dead }
+  cites: [ws-1980-indictment]
+
+- id: cao-diqiu
+  name: 曹荻秋
+  born: 1909
+  died: 1976-03-29
+  death: 被迫害致死
+  tier: 3
+  role1966: 上海市长、市委书记
+  bio: 1966 年 4 月 1 日深夜接到彭真两次电话（官方大事记）。1980 年起诉书：1968 年被张春桥、姚文元诬为“叛徒”，“被迫害致死”。
+  factions: [shanghai]
+  fate:
+    - { date: 1965, s: power }
+    - { date: 1966-12, s: attacked, verify: true }
+    - { date: 1967-01, s: purged, verify: true }
+    - { date: 1976-03-29, s: dead, cite: ws-1980-indictment }
+  cites: [ws-1966-05-16-notice-attachment@1966-04-01, ws-1980-indictment]
+
+- id: chen-pixian
+  name: 陈丕显
+  born: 1916-03-20
+  died: 1995-08-22
+  tier: 3
+  role1966: 上海市委第一书记
+  bio: 1980 年起诉书：被张春桥、姚文元诬为“一个极其狡猾极其阴险的反革命两面派”。
+  factions: [shanghai]
+  fate:
+    - { date: 1965, s: power }
+    - { date: 1967-01, s: purged, verify: true }
+    - { date: 1977, s: restored, verify: true }
+    - { date: 1995-08-22, s: dead }
+  cites: [ws-1980-indictment]
+
+# ── 林彪系 ──────────────────────────────────────────────────
+- id: ye-qun
+  name: 叶群
+  born: 1917
+  died: 1971-09-13
+  tier: 2
+  role1966: 林彪办公室主任
+  bio: 1980 年起诉书：1966 年 8 月 11、12 日两次找雷英夫口授诬陷刘少奇的材料；8–9 月授意宋治国编写诬陷贺龙的材料，叮嘱“以你主动向我反映情况的口气写”。
+  factions: [lin]
+  fate:
+    - { date: 1965, s: power }
+    - { date: 1971-09-13, s: dead }
+  cites: [ws-1980-indictment]
+
+- id: wu-faxian
+  name: 吴法宪
+  born: 1915-03
+  died: 2004-10-17
+  tier: 3
+  role1966: 空军司令员
+  bio: 1980 年起诉书：1966 年 8 月受林彪指使编造诬陷贺龙“在空军阴谋夺权”的材料，9 月 3 日送林彪。
+  factions: [lin]
+  fate:
+    - { date: 1965, s: power }
+    - { date: 1971-09-24, s: detained, verify: true }
+    - { date: 2004-10-17, s: dead }
+  cites: [ws-1980-indictment]
+
+- id: xie-fuzhi
+  name: 谢富治
+  born: 1909
+  died: 1972-03-26
+  tier: 2
+  role1966: 公安部长
+  bio: 1980 年起诉书：“谢富治在全国煽动'砸烂公检法'”；列为主犯（已死亡）。
+  factions: [ccrg]
+  fate:
+    - { date: 1959, s: power }
+    - { date: 1972-03-26, s: dead }
+  cites: [ws-1980-indictment]
+
+# ── 知识分子与受难者 ────────────────────────────────────────
+- id: jian-bozan
+  name: 翦伯赞
+  born: 1898-04-14
+  died: 1968-12-18
+  death: 与妻子一同自杀
+  tier: 2
+  role1966: 北京大学副校长、历史学家
+  bio: 1966 年 3 月 25 日《红旗》刊出戚本禹、林杰、阎长贵《翦伯赞同志的历史观点应当批判》；毛泽东 3 月称“吴晗和翦伯赞等人是共产党员，也反共，实际上是国民党”（官方大事记）。1980 年起诉书列为被迫害致死的著名教授。
+  factions: [academics]
+  fate:
+    - { date: 1952, s: normal }
+    - { date: 1966-03-25, s: attacked, cite: ws-1966-05-16-notice-attachment@1966-03-25 }
+    - { date: 1966-06, s: purged, verify: true }
+    - { date: 1968-12-18, s: dead, cite: ws-1980-indictment }
+  cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
+
+- id: lao-she
+  name: 老舍
+  born: 1899-02-03
+  died: 1966-08-24
+  death: 投太平湖
+  tier: 2
+  role1966: 北京市文联主席、作家
+  bio: 1966 年 8 月 23 日在北京市文联被红卫兵押往国子监孔庙焚烧戏装现场遭殴打，次日投太平湖。1980 年起诉书列为被迫害致死的作家首位。
+  factions: [academics]
+  fate:
+    - { date: 1950, s: normal }
+    - { date: 1966-08-23, s: attacked, verify: true }
+    - { date: 1966-08-24, s: dead, cite: ws-1980-indictment }
+  cites: [ws-1980-indictment]
+
+- id: bian-zhongyun
+  name: 卞仲耘
+  born: 1916
+  died: 1966-08-05
+  death: 被学生殴打致死
+  tier: 3
+  role1966: 北京师范大学女附中副校长
+  bio: 1966 年 8 月 5 日下午在校内被红卫兵学生批斗殴打致死，被认为是文革中北京第一位被学生打死的教育工作者。同一天毛泽东写下《炮打司令部》。
+  factions: [academics]
+  fate:
+    - { date: 1949, s: normal }
+    - { date: 1966-06, s: attacked, verify: true }
+    - { date: 1966-08-05, s: dead, verify: true }
+  verify: true
+
+- id: yu-luoke
+  name: 遇罗克
+  born: 1942-05-01
+  died: 1970-03-05
+  death: 被处决
+  tier: 2
+  role1966: 北京人民机器厂学徒工
+  bio: 1967 年 1 月 18 日在《中学文革报》发表《出身论》，以“毛主席提出的革命接班人的五项条件，有出身这一条吗？”和十六条本身反驳血统论；指出“斗争的矛头主要是指向党内走资本主义道路的当权派”，血统论是“偷换了概念”。1968 年被捕，1970 年被处决，1979 年平反。
+  factions: [dissent]
+  fate:
+    - { date: 1965, s: normal }
+    - { date: 1967-01-18, s: rise, cite: ws-1967-yu-origin-theory }
+    - { date: 1968-01-05, s: detained, verify: true }
+    - { date: 1970-03-05, s: dead, verify: true }
+  cites: [ws-1967-yu-origin-theory]
