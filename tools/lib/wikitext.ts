@@ -1,6 +1,7 @@
 // Minimal wikitext → plain text conversion for Wikisource documents.
 // Headings become "## title", paragraphs are separated by blank lines,
-// templates/refs/categories are dropped.
+// templates/refs/categories are dropped, except inline Wikipedia links ({{w|target|label}}),
+// which keep their visible text.
 
 function stripTemplates(src: string): string {
   let out = ''
@@ -21,6 +22,7 @@ export function wikiToText(wikitext: string): string {
   let s = wikitext
   s = s.replace(/<!--[\s\S]*?-->/g, '')
   s = s.replace(/<ref[^>/]*\/>/g, '').replace(/<ref[^>]*>[\s\S]*?<\/ref>/g, '')
+  s = s.replace(/\{\{\s*(?:w|wp|wl)\s*\|([^{}|]*)(?:\|([^{}|]*))?\}\}/g, (_, target: string, label?: string) => label ?? target)
   s = stripTemplates(s)
   s = s.replace(/\{\|[\s\S]*?\|\}/g, '')
   s = s.replace(/\[\[(?:Category|分类|File|Image|文件):[^\]]*\]\]/gi, '')

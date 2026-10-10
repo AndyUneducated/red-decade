@@ -1,0 +1,61 @@
+# MP-2：人物传记用的官方文件（讣告、告全党书、平反决议、审查报告、判决书、专案材料）。
+# 这些都是中共中央 / 国家机关文件，依《著作权法》第五条全文收录（见 methods.md §6）。
+# 它们本身就是“当时官方”或“后来官方”声部：给出的是官方的一生定性，不是中立的生平。
+wikisource:
+  - id: ws-1976-01-09-zhou-obituary
+    title: 中共中央、人大常委会、国务院讣告 周恩来同志逝世
+    date: 1976-01-09
+    author: 中共中央、全国人大常委会、国务院
+    kind: party-doc
+    alias: 周恩来讣告
+  - id: ws-1976-07-07-zhu-obituary
+    title: 中共中央、人大常委会、国务院讣告 朱德同志逝世
+    date: 1976-07-07
+    author: 中共中央、全国人大常委会、国务院
+    kind: party-doc
+    alias: 朱德讣告
+  - id: ws-1976-09-09-mao-message
+    title: 告全党全军全国各族人民书 (1976年)
+    date: 1976-09-09
+    author: 中共中央、全国人大常委会、国务院、中央军委
+    kind: party-doc
+    alias: 毛泽东逝世告全党书
+  - id: ws-1971-12-lin-chen-material-1
+    title: 粉碎林陈反党集团反革命政变的斗争（材料之一）
+    date: 1971-12-07
+    author: 中共中央
+    kind: party-doc
+    alias: 林陈反党集团材料之一
+    note: 页面头部 1971-12-07，出处为中共中央组织传达和讨论该材料的通知；材料之二、之三是 1972 年陆续下发的。
+  - id: ws-1980-02-29-liu-rehab
+    title: 中国共产党第十一届中央委员会第五次全体会议关于为刘少奇同志平反的决议
+    date: 1980-02-29
+    author: 中共十一届五中全会
+    kind: party-doc
+    alias: 刘少奇平反决议
+  - id: ws-1980-kang-xie-reports
+    title: 中共中央转发中央纪律检查委员会关于康生、谢富治问题的两个审查报告的批语
+    date: 1980-10-16
+    author: 中共中央
+    kind: party-doc
+    alias: 康生谢富治审查报告批语
+    note: 落款 1980-10-16。只有批语本身；两个审查报告和罪证附件不在本页。批语写明“撤销对这两人的《悼词》，并决定开除他们的党籍”。
+  - id: ws-1981-01-25-judgment
+    title: 中华人民共和国最高人民法院（特法字第一号）特别法庭判决书
+    date: 1981-01-25
+    author: 最高人民法院特别法庭
+    kind: judicial
+    alias: 特别法庭判决书
+    note: 正文写审理期为 1980-11-20 至 1981-01-25；页面抄本末尾没有落款日期，日期按宣判日记。
+  - id: ws-1997-02-19-deng-message
+    title: 告全党全军全国各族人民书 (1997年)
+    date: 1997-02-19
+    author: 中共中央、全国人大常委会、国务院、全国政协、中央军委
+    kind: party-doc
+    alias: 邓小平逝世告全党书
+  - id: ws-1998-09-yang-shangkun-obituary
+    title: 中共中央、全国人大常委会、国务院、全国政协、中央军委沉痛宣告 杨尚昆同志在北京逝世
+    date: 1998-09-14
+    author: 中共中央、全国人大常委会、国务院、全国政协、中央军委
+    kind: party-doc
+    alias: 杨尚昆讣告

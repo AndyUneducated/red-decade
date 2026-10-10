@@ -83,6 +83,71 @@
   want:
     - 1966 年人物任职起止（人物 role1966 与命运节点）
 
+- id: ccp-figures-bios
+  title: 中共党史人物传
+  author: 中共党史人物研究会 编
+  publisher: 陕西人民出版社（后续卷由中共党史出版社出版）
+  date: 1980
+  kind: annals
+  tier: 2
+  locator: 卷:页
+  access: unread
+  want:
+    - MP-2：人物家世、学历、早年任职的骨架（各传记段落中标 verify 的部分）
+  note: 多卷本，1980 年起陆续出版。书目信息待以版权页核对。
+
+- id: people-leaders-memorial
+  title: 领袖人物纪念馆（传略、大事年表）
+  author: 中共中央文献研究室、人民网
+  publisher: 人民网 · 中国共产党新闻网
+  date: 2006
+  kind: annals
+  tier: 2
+  locator: 栏目
+  access: unread
+  url: http://cpc.people.com.cn/GB/69112/index.html
+  want:
+    - MP-2：毛泽东、刘少奇、周恩来、朱德、邓小平、陈云等人的传略与大事年表
+  note: 法人作品，未满 50 年，只作书目来源、不存原文。2026-10-10 抓取时站点对本机 IP 返回 403，只读到刘少奇传略的分段目录。
+
+- id: klein-clark-1971
+  title: Biographic Dictionary of Chinese Communism, 1921–1965
+  author: Donald W. Klein, Anne B. Clark
+  publisher: Harvard University Press
+  date: 1971
+  kind: monograph
+  tier: 4
+  locator: 卷:页
+  access: unread
+  want:
+    - MP-2：1965 年以前的任职与早年经历，与中方传记交叉核对
+
+- id: gao-wenqian-zhou
+  title: 晚年周恩来
+  author: 高文谦
+  publisher: 明镜出版社（纽约）
+  date: 2003
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 周恩来在刘少奇专案、“伍豪事件”中的角色；与大陆官方叙述对照
+  note: 作者曾在中共中央文献研究室参与周恩来生平研究。书目信息待以版权页核对。
+
+- id: ding-kaiwen-lin
+  title: 重审林彪罪案
+  author: 丁凯文 主编
+  publisher: 明镜出版社（纽约）
+  date: 2004
+  kind: monograph
+  tier: 4
+  locator: 页
+  access: unread
+  want:
+    - 林彪本人对“571 工程”的知情程度、九一三出逃经过的不同说法
+  note: 文集，作者多人。书目信息待以版权页核对。
+
 - id: wu-de-memoir
   title: 十年风雨纪事——我在北京工作的一些经历
   author: 吴德

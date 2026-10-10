@@ -149,7 +149,9 @@ function checkPersonFacts(p: (typeof people)[number]) {
   for (const s of p.life) {
     s.cites.forEach((c) => needCite(c, `${where} life "${s.h}"`))
     if (!s.cites.length && !s.verify) errors.push(`${where} life "${s.h}": no cites and not marked verify`)
-    span(s, `life "${s.h}"`)
+    // sections may run past death (身后、平反), so only the start is bound to the life span
+    if (s.from && s.to && after(s.from, s.to)) errors.push(`${where}: life "${s.h}" ends (${s.to}) before it starts (${s.from})`)
+    if (s.from && p.born && after(p.born, s.from)) errors.push(`${where}: life "${s.h}" starts before birth`)
   }
   p.assess.forEach((v) => needCite(v.cite, `${where} assess`))
   p.works.forEach((w) => needCite(w.cite, `${where} works`))
