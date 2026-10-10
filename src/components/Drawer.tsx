@@ -3,6 +3,7 @@ import { LANES, RELATION_TYPES, STATUSES } from '../data/schema'
 import { fmtDate, fmtRange, lifespan, toT } from '../lib/dates'
 import { useApp } from '../state'
 import { Cite, Entity, PersonChip, StatusDot, Verify, Voices } from './bits'
+import { PersonFacts, PositionList } from './PersonFacts'
 
 export function Drawer() {
   const { ix, sel, select } = useApp()
@@ -60,7 +61,14 @@ function PersonCard({ id }: { id: string }) {
             <Cite key={c} cite={c} />
           ))}
         </div>
+        <PersonFacts p={p} />
       </section>
+      {p.positions.length > 0 && (
+        <section>
+          <h3>职务</h3>
+          <PositionList p={p} t={t} />
+        </section>
+      )}
       {p.fate.length > 0 && (
         <section>
           <h3>命运轨迹</h3>

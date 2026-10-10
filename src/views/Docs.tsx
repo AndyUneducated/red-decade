@@ -75,7 +75,7 @@ function Reader({ id }: { id: string }) {
     const terms = new Map<string, { ref: Ref; cls: string }>()
     if (hl.people)
       for (const p of ix.people)
-        for (const n of [p.name, ...(p.aka ?? [])]) if (n.length >= 2) terms.set(n, { ref: { type: 'person', id: p.id }, cls: 'p' })
+        for (const n of [p.name, ...(p.aka ?? []).map((a) => a.name)]) if (n.length >= 2) terms.set(n, { ref: { type: 'person', id: p.id }, cls: 'p' })
     if (hl.concepts) for (const c of ix.concepts) for (const t of c.terms) terms.set(t, { ref: { type: 'concept', id: c.id }, cls: 'c' })
     const q = find.trim()
     const keys = [...terms.keys()].sort((a, b) => b.length - a.length)

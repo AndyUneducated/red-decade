@@ -72,16 +72,88 @@ export const FateSchema = z.object({
   verify: z.boolean().optional(),
 })
 
+export const ALIAS_KINDS = {
+  original: '原名',
+  courtesy: '字',
+  art: '号',
+  pen: '笔名',
+  cover: '化名',
+  other: '又名',
+} as const
+
+export const DEATH_KINDS = {
+  natural: '病故',
+  suicide: '自杀',
+  persecuted: '被迫害致死',
+  executed: '处决',
+  killed: '被杀',
+  accident: '事故',
+  war: '战死',
+  unknown: '不明',
+} as const
+export type DeathKind = keyof typeof DEATH_KINDS
+
+// a fact with its own date span and source, used for education, positions, rehabilitation, afterlife
+const Dated = {
+  from: PartialDate.optional(),
+  to: PartialDate.optional(),
+  note: z.string().optional(),
+  cite: Cite.optional(),
+  verify: z.boolean().optional(),
+}
+
+// one section of a full biography (MP-2); h is the section heading, e.g. 家世与早年
+const LifeSection = z.object({
+  h: z.string(),
+  from: PartialDate.optional(),
+  to: PartialDate.optional(),
+  text: z.string(),
+  cites: z.array(Cite).default([]),
+  verify: z.boolean().optional(),
+})
+
 export const PersonSchema = z.object({
   id: z.string(),
   name: z.string(),
-  aka: z.array(z.string()).optional(),
+  pinyin: z.string().optional(),
+  // plain strings are accepted as kind 'other'
+  aka: z
+    .array(z.union([z.string(), z.object({ kind: z.enum(Object.keys(ALIAS_KINDS) as [keyof typeof ALIAS_KINDS]), name: z.string() })]))
+    .transform((xs) => xs.map((x) => (typeof x === 'string' ? { kind: 'other' as const, name: x } : x)))
+    .optional(),
+  gender: z.enum(['m', 'f']).optional(),
+  ethnicity: z.string().optional(),
+  // 出生地 and 籍贯 are kept apart, as Chinese biographies do
+  birthplace: z.string().optional(),
+  origin: z.string().optional(),
+  // 家庭出身 as recorded (地主、富农、职员、工人……); classNote explains disputes or later reclassification
+  classOrigin: z.string().optional(),
+  classNote: z.string().optional(),
   born: PartialDate.optional(),
   died: PartialDate.optional(),
   death: z.string().optional(),
+  deathKind: z.enum(Object.keys(DEATH_KINDS) as [DeathKind, ...DeathKind[]]).optional(),
+  deathPlace: z.string().optional(),
+  // the cause itself is disputed (e.g. suicide vs. killed); the dispute belongs in life/assess voices
+  deathContested: z.boolean().optional(),
+  education: z.array(z.object({ school: z.string(), ...Dated })).default([]),
+  // party: 中国共产党 unless stated; joinedRevolution: 参加革命 / 参加工作
+  party: z.string().optional(),
+  joinedParty: PartialDate.optional(),
+  joinedRevolution: PartialDate.optional(),
+  // org: id in content/orgs.yaml (MP-3); orgName when the body is not modelled
+  positions: z.array(z.object({ title: z.string(), org: z.string().optional(), orgName: z.string().optional(), ...Dated })).default([]),
+  rank: z.object({ rank: z.string(), date: PartialDate, cite: Cite.optional() }).optional(),
+  rehab: z.array(z.object({ date: PartialDate, text: z.string(), cite: Cite.optional(), verify: z.boolean().optional() })).default([]),
+  afterlife: z.array(z.object({ date: PartialDate, text: z.string(), cite: Cite.optional(), verify: z.boolean().optional() })).default([]),
+  ids: z.object({ wikidata: z.string().regex(/^Q\d+$/).optional(), cbdb: z.string().optional() }).optional(),
   tier: z.number().int().min(1).max(3),
   role1966: z.string(),
+  // bio is the lead (概述); life holds the full biography by section
   bio: z.string(),
+  life: z.array(LifeSection).default([]),
+  assess: z.array(Voiced).default([]),
+  works: z.array(z.object({ title: z.string(), date: PartialDate.optional(), cite: Cite.optional() })).default([]),
   // every faction the person ever belonged to; factions[0] is the default primary
   factions: z.array(z.string()),
   // time-scoped primary faction, for people who changed sides (overrides factions[0] inside each span)

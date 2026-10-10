@@ -21,7 +21,7 @@ export function Search({ onClose }: { onClose: () => void }) {
         type: TYPE_LABEL.person,
         title: p.name,
         sub: p.role1966,
-        hay: [p.name, ...(p.aka ?? []), p.role1966, p.bio].join(' '),
+        hay: [p.name, ...(p.aka ?? []).map((a) => a.name), p.pinyin ?? '', p.role1966, p.bio].join(' '),
       })),
       ...ix.events.map((e) => ({
         ref: { type: 'event' as const, id: e.id },

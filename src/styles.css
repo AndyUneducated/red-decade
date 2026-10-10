@@ -402,6 +402,28 @@ kbd {
 .drawer p {
   margin: 0 0 8px;
 }
+.facts {
+  margin: 10px 0 0;
+  font-size: 12.5px;
+}
+.facts > div {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 8px;
+  padding: 4px 0;
+  border-top: 1px solid var(--rule);
+}
+.facts dt {
+  color: var(--muted);
+  font-size: 11.5px;
+}
+.facts dd {
+  margin: 0;
+}
+.facts time {
+  color: var(--muted);
+  font-size: 11.5px;
+}
 .fateline {
   list-style: none;
   margin: 0;

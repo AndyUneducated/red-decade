@@ -84,6 +84,8 @@ const ids = {
   faction: new Set(factions.map((f) => f.id)),
   concept: new Set(concepts.map((c) => c.id)),
   event: new Set(events.map((e) => e.id)),
+  // institutions arrive in MP-3 (content/orgs.yaml); until then any position.org is an error
+  org: new Set<string>(),
 }
 for (const [kind, list] of [['person', people], ['faction', factions], ['event', events], ['concept', concepts]] as const) {
   const seen = new Set<string>()
@@ -108,6 +110,49 @@ for (const p of people) {
   p.fate.forEach((f) => needCite(f.cite, `person ${p.id} fate`))
   for (let i = 1; i < p.fate.length; i++)
     if (p.fate[i].date < p.fate[i - 1].date) errors.push(`person ${p.id}: fate out of order at ${p.fate[i].date}`)
+  checkPersonFacts(p)
+}
+
+// Partial dates compare on their common prefix: "1966" is neither before nor after "1966-05".
+function after(a: string, b: string) {
+  const n = Math.min(a.length, b.length)
+  return a.slice(0, n) > b.slice(0, n)
+}
+function checkPersonFacts(p: (typeof people)[number]) {
+  const where = `person ${p.id}`
+  const inLife = (d: string | undefined, what: string) => {
+    if (!d) return
+    if (p.born && after(p.born, d)) errors.push(`${where}: ${what} ${d} is before birth ${p.born}`)
+    if (p.died && after(d, p.died)) errors.push(`${where}: ${what} ${d} is after death ${p.died}`)
+  }
+  const span = (s: { from?: string; to?: string }, what: string) => {
+    if (s.from && s.to && after(s.from, s.to)) errors.push(`${where}: ${what} ends (${s.to}) before it starts (${s.from})`)
+    inLife(s.from, what)
+    inLife(s.to, what)
+  }
+  p.education.forEach((e) => (span(e, `education ${e.school}`), needCite(e.cite, `${where} education`)))
+  p.positions.forEach((x) => {
+    span(x, `position ${x.title}`)
+    needCite(x.cite, `${where} position`)
+    if (x.org) need(ids.org, x.org, `${where} position ${x.title}`)
+  })
+  inLife(p.joinedParty, 'joinedParty')
+  inLife(p.joinedRevolution, 'joinedRevolution')
+  inLife(p.rank?.date, 'rank')
+  needCite(p.rank?.cite, `${where} rank`)
+  p.fate.forEach((f) => p.born && after(p.born, f.date) && errors.push(`${where}: fate ${f.date} is before birth`))
+  if ((p.deathKind || p.deathPlace || p.deathContested) && !p.died) errors.push(`${where}: death details without a death date`)
+  for (const r of [...p.rehab, ...p.afterlife]) {
+    needCite(r.cite, `${where} rehab/afterlife`)
+    if (p.born && after(p.born, r.date)) errors.push(`${where}: rehab/afterlife ${r.date} is before birth`)
+  }
+  for (const s of p.life) {
+    s.cites.forEach((c) => needCite(c, `${where} life "${s.h}"`))
+    if (!s.cites.length && !s.verify) errors.push(`${where} life "${s.h}": no cites and not marked verify`)
+    span(s, `life "${s.h}"`)
+  }
+  p.assess.forEach((v) => needCite(v.cite, `${where} assess`))
+  p.works.forEach((w) => needCite(w.cite, `${where} works`))
 }
 for (const f of factions) f.cites.forEach((c) => needCite(c, `faction ${f.id}`))
 for (const e of events) {
@@ -150,6 +195,12 @@ function checkQuote(sourceId: string, quote: string, where: string) {
     if (!hay.includes(part)) errors.push(`${where}: quote not found in ${sourceId}: "${part.slice(0, 40)}…"`)
 }
 for (const c of claims) for (const e of c.evidence) if (e.quote) checkQuote(e.cite.split('@')[0], e.quote, `claim ${c.id}`)
+for (const p of people)
+  for (const v of p.assess)
+    if (v.quote) {
+      if (!v.cite) errors.push(`person ${p.id}: quoted ${v.voice} assessment has no cite`)
+      else checkQuote(v.cite.split('@')[0], v.text.replace(/（[^）]*）$/, ''), `person ${p.id} assess ${v.voice}`)
+    }
 // Voice quotes may end with an attribution in full-width parentheses: “……”（刘少奇检讨）
 for (const e of events)
   for (const v of e.voices)
@@ -217,7 +268,7 @@ for (const id of texts.keys()) copyFileSync(join(textDir, `${id}.txt`), join(out
 const verified = (xs: { verify?: boolean }[]) => xs.filter((x) => !x.verify).length
 console.log(
   [
-    `people     ${people.length}`,
+    `people     ${people.length}  (${people.filter((p) => p.life.length >= 3).length} full bios, avg ${(people.reduce((s, p) => s + p.fate.length, 0) / people.length).toFixed(1)} fate nodes)`,
     `factions   ${factions.length}`,
     `events     ${events.length}  (${verified(events)} sourced, ${events.length - verified(events)} 待核)`,
     `relations  ${relations.length}`,

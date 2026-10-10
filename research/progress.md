@@ -47,16 +47,34 @@
 
 ## 插入：MP 人物与机构（2026-10-10 用户提出，内容见 `milestones.md` MP 节）
 
-建议排在 M3-2 之前，用户确认排期和照片方案后开始。
+**用户决定（2026-10-10）：**
+- MP 排在 M3-2 之前，**MP 完成后再回到 M3-2**。
+- 移动端基础层现在做（MP-5）。
+- 照片统一灰度 + 本站墨色双色调，3:4 头肩构图，不合格的用文字头像。
+- 字段五组全要：身份、背景、履历、结局、外部标识。
 
 | 阶段 | 内容 | 状态 |
 |---|---|---|
-| MP-0 | 人物标准化字段（schema + 构建校验） | 字段清单待用户确认 |
+| MP-0 | 人物标准化字段（schema + 构建校验） | ✔ 字段与写法见下方“人物字段”；抽屉显示档案表与职务 |
 | MP-1 | “人物”视图：目录 + 完整传记页 | |
 | MP-2 | 56 人传记重写 + 命运轨迹覆盖一生 | |
 | MP-3 | 机构模型 `orgs.yaml` + “机构”视图 | |
-| MP-4 | 人物照片 | 方案待用户确认 |
-| MP-5 | 移动端基础层 | 排期待用户确认（否则留在 M9） |
+| MP-4 | 人物照片（双色调管线 + 文字头像兜底） | |
+| MP-5 | 移动端基础层 | |
+
+**人物字段（MP-0 起，`src/data/schema.ts` PersonSchema）：**
+- 身份：`pinyin`；`aka`（字符串，或 `{kind: original|courtesy|art|pen|cover|other, name}`）；`gender`（m/f）；`ethnicity`；`birthplace`（出生地）；`origin`（籍贯）。
+- 背景：`classOrigin`（家庭出身）、`classNote`；`education: [{school, from, to, note, cite}]`。
+- 履历：`party`（默认中国共产党）、`joinedParty`、`joinedRevolution`；`positions: [{title, org?, orgName?, from, to, note, cite}]`；`rank: {rank, date, cite}`。
+  - `org` 填 `content/orgs.yaml` 的 id，MP-3 之前不要填，用 `orgName`。
+- 结局：`deathKind`（natural|suicide|persecuted|executed|killed|accident|war|unknown）、`deathPlace`、`deathContested`；`rehab: [{date, text, cite}]`；`afterlife: [{date, text, cite}]`。
+- 外部标识：`ids: {wikidata, cbdb}`。
+- 传记（MP-2）：`bio` 是概述；`life: [{h, from, to, text, cites}]` 是分段生平，每段必须有出处或标 `verify`；`assess` 是评价（多声部，`quote: true` 的逐字核对）；`works` 是著述。
+- 构建会检查：
+  - 各项日期在生卒之间，起止不倒置；
+  - 有死亡细节就必须有卒年；
+  - 引用的来源、机构 id 必须存在。
+- 构建输出“full bios”是 `life` 至少 3 段的人数，用来追踪 MP-2 进度。
 
 **同日已修：** 派系河流、命运矩阵、思想谱系三个视图内容被裁切而无法滚动。原因是全局 CSS `.canvas > svg { height: 100% }` 盖过了这三个视图自己设定的图表高度。
 - 思想谱系改为表头和概念列固定、可双向滚动的表格。
@@ -64,6 +82,8 @@
 - 新增 `.probe/layout.mjs`，可在任意尺寸下检查所有视图有没有裁切、能不能滚动。
 
 ## 下一步
+
+先做 MP（按上表顺序 MP-0 → MP-5），全部完成后再做下面的 M3-2。
 
 M3-2：新建 `content/events/1967.yaml`，用 M3-1 入库的原文写 1967 年上半年事件，日志 `log/2026-10-10-m3.md` 末尾有可写成事件的“初读要点”。
 - 事件：上海一月夺权、中央贺电、一·二三决定、上海人民公社到革委会、二月逆流、三支两军、军委十条、内蒙决定、戚本禹文等。
