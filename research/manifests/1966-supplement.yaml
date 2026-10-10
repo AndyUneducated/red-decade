@@ -1,0 +1,56 @@
+# M2-1: 1966 年补充文献（2026-10-10 用 tools/ws-links.ts 从《红旗/1966年》《红旗/1967年》目录与全文检索中找到）
+# 日期取自维基文库页面头部；页面只给年份的，按期号推定月份并注明（见 research/log/2026-10-10-m2.md）。
+wikisource:
+  - id: ws-1966-07-trust-masses
+    title: 信任群众，依靠群众
+    date: 1966-07-01
+    author: 《红旗》1966 年第 9 期社论
+    kind: editorial
+    note: 页面只标 1966 年；出版日期据《红旗/1966年》目录（第九期 7 月 1 日）。
+  - id: ws-1966-08-sixteen-points-redflag
+    title: 无产阶级文化大革命的纲领性文件
+    date: 1966-08-10
+    author: 《红旗》杂志编辑部
+    kind: editorial
+  - id: ws-1966-08-31-lin-speech
+    title: 在接见外地来京革命师生大会上林彪同志的讲话
+    date: 1966-08-31
+    author: 林彪
+    kind: speech
+    alias: 林彪 8·31 讲话
+  - id: ws-1966-10-01-lin-speech
+    title: 在中华人民共和国成立十七周年庆祝大会上林彪同志的讲话
+    date: 1966-10-01
+    author: 林彪
+    kind: speech
+    alias: 林彪国庆讲话
+  - id: ws-1966-10-01-mao-thought-road
+    title: 在毛泽东思想的大路上前进
+    date: 1966-10-01
+    author: 《红旗》1966 年第 13 期社论（国庆）
+    alias: 红旗国庆社论
+    kind: editorial
+  - id: ws-1966-11-01-luxun
+    title: 纪念我们的文化革命先驱鲁迅
+    date: 1966-11-01
+    author: 《红旗》1966 年第 14 期社论
+    kind: editorial
+    note: 页面只标 1966 年；出版日期据《红旗/1966年》目录（第十四期 11 月 1 日）。同期另一篇社论即缺失的《以毛主席为代表的无产阶级革命路线的胜利》。
+  - id: ws-1966-11-shanghai-wgs
+    title: 上海市工人革命造反总司令部宣言（草案）
+    date: 1966-11-09
+    author: 上海市工人革命造反总司令部
+    kind: redguard
+    alias: 工总司宣言
+  - id: ws-1966-12-liandong
+    title: 首都红卫兵联合行动委员会宣言
+    date: 1966-12-05
+    author: 首都红卫兵联合行动委员会
+    kind: redguard
+    alias: 联动宣言
+  - id: ws-1966-qinghua-workteam-survey
+    title: “打击一大片，保护一小撮”是资产阶级反动路线的一个组成部分（一九六六年六、七两月清华大学工作组在干部问题上执行资产阶级反动路线的情况调查）
+    date: 1967-03-30
+    author: 《红旗》
+    kind: editorial
+    alias: 清华工作组调查

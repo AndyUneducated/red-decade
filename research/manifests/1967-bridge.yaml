@@ -1,0 +1,66 @@
+# M2-1: 1967–1969 年“桥接”文献——用来检验 1966 年结论（C003 资产阶级司令部、C006 造反、C008 继续革命），
+# 同时为 M3 打底。日期取自维基文库页面头部。
+wikisource:
+  - id: ws-1967-01-01-to-the-end
+    title: 把无产阶级文化大革命进行到底
+    date: 1967-01-01
+    author: 《人民日报》《红旗》社论
+    kind: editorial
+    alias: 1967 元旦社论
+  - id: ws-1967-01-rebel-justified
+    title: 革命造反有理万岁
+    date: 1967-01-08
+    author: 《红旗》（转载《文汇报》）
+    kind: editorial
+  - id: ws-1967-01-shanghai-urgent
+    title: 紧急通告
+    date: 1967-01-09
+    author: 上海工总司等革命群众组织
+    kind: redguard
+    alias: 上海《紧急通告》
+  - id: ws-1967-02-seize-power
+    title: 论无产阶级革命派的夺权斗争
+    date: 1967-01-31
+    author: 《红旗》1967 年第 3 期社论
+    kind: editorial
+  - id: ws-1967-04-xiuyang
+    title: 《修养》的要害是背叛无产阶级专政
+    date: 1967-05-08
+    author: 《红旗》《人民日报》编辑部
+    kind: editorial
+  - id: ws-1967-05-great-document
+    title: 伟大的历史文件
+    date: 1967-05-18
+    author: 《红旗》《人民日报》编辑部
+    kind: editorial
+    alias: 伟大的历史文件
+  - id: ws-1967-07-09-liu-jiangong-review
+    title: 刘少奇向北京建筑工业学院革命师生员工的检查
+    date: 1967-07-09
+    author: 刘少奇
+    kind: speech
+    alias: 刘少奇建工学院检查
+    note: 页面注：1967 年 7 月 9 日围困中南海期间，在中共中央要求下向建工学院造反派做的书面检查；回顾 1966 年 8 月 2–4 日他在该院的活动。
+  - id: ws-1967-08-destroy-hq
+    title: 彻底摧毁资产阶级司令部
+    date: 1967-08-07
+    author: 《红旗》社论
+    kind: editorial
+  - id: ws-1967-10-cr-victory
+    title: 无产阶级专政下的文化大革命胜利万岁
+    date: 1967-10-01
+    author: 《人民日报》《红旗》《解放军报》编辑部
+    kind: editorial
+    alias: 1967 国庆社论
+  - id: ws-1967-11-06-october-road
+    title: 沿着十月社会主义革命开辟的道路前进
+    date: 1967-11-06
+    author: 《人民日报》《红旗》《解放军报》编辑部
+    kind: editorial
+    alias: 十月革命五十周年社论
+  - id: ws-1969-04-ninth-report
+    title: 在中国共产党第九次全国代表大会上的报告
+    date: 1969-04-01
+    author: 林彪
+    kind: speech
+    alias: 九大报告
