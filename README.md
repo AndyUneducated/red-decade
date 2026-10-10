@@ -44,6 +44,8 @@ npm run concordance -- 造反 四旧   # 全语料检索
 | `tools/` | 检索、抓取、词频、数据构建与校验 |
 | `src/` | 前端（React + TypeScript + D3） |
 
-## 版权
+## 许可
 
-原始文献的版权状态以维基文库页面标注为准，详见 [`research/methods.md`](research/methods.md)。
+- 代码（`src/`、`tools/`、构建配置）：[MIT](LICENSE)。
+- 本站整理的数据与研究（`content/`、`research/`）：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)，转载或使用请注明出处。
+- 原始文献（`sources/`）不在上述许可之内，版权状态以维基文库页面标注为准，详见 [`research/methods.md`](research/methods.md)。
