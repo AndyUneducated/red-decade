@@ -151,9 +151,13 @@
 - { id: liaoyang, name: 辽阳, names: [辽阳], lat: 41.27, lon: 123.17 }
 - { id: tangxian, name: 唐县, names: [唐县], lat: 38.75, lon: 114.98 }
 - { id: xinzhou-hb, name: 新洲, names: [新洲], lat: 30.84, lon: 114.80 }
+# batch 5
+- { id: wangcheng, name: 望城, names: [望城], lat: 28.35, lon: 112.82 }
+- { id: dunhua, name: 敦化, names: [敦化], lat: 43.37, lon: 128.23 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
 - { id: hoechang, name: 朝鲜桧仓（志愿军总部）, names: [桧仓], lat: 39.37, lon: 126.33 }
 - { id: moscow, name: 莫斯科, names: [莫斯科], lat: 55.75, lon: 37.62, far: true }
+- { id: melbourne, name: 澳大利亚墨尔本, names: [墨尔本], lat: -37.81, lon: 144.96, far: true }
 - { id: heidelberg, name: 联邦德国海德堡, names: [海德堡], lat: 49.40, lon: 8.67, far: true }
