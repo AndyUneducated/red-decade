@@ -5,7 +5,7 @@ import { Cite, Entity, Verify } from '../components/bits'
 import { EventList } from '../components/Drawer'
 import { LONG_MARKS, Scrubber } from '../components/Scrubber'
 import type { Tenure } from '../data/atlas'
-import { ORG_KINDS, ORG_LEVELS, type Org, type OrgKind, type OrgLink } from '../data/schema'
+import { ORG_KINDS, ORG_LEVELS, type Org, type OrgKind, type OrgLink, type Person } from '../data/schema'
 import { fmtDate, fmtRange, fmtT, toT } from '../lib/dates'
 import { existsAt, isHead, KIND_ORDER, LEVEL_ORDER, parentAt, placeAt, segments, suspendedAt, within } from '../lib/orgs'
 import { heldAt } from '../lib/positions'
@@ -116,7 +116,7 @@ function Directory() {
 
   const narrow = width > 0 && width < 760
   const nameW = narrow ? 190 : 320
-  const countW = narrow ? 44 : 80
+  const countW = narrow ? 56 : 88
   const stripW = Math.max(160, width - nameW - countW - 84)
   const x = useMemo(() => d3.scaleLinear().domain([T0, T1]).range([0, stripW]).clamp(true), [stripW])
 
@@ -132,7 +132,7 @@ function Directory() {
         <div>
           <h1>机构</h1>
           <p>
-            党、政、军、群团、群众组织与单位共 {ix.orgs.length} 个，{fmtT(t, 'month')}存在的有 {alive} 个。缩进是此刻的隶属关系，随时间轴改变，下属机构跟随上级排列（如军队在中央军委之下）；色条是存续期（{T0}–{T1}），虚线框为停止活动。右侧是库中在此任职的人数（此刻在任 / 总数）。
+            党、政、军、群团、群众组织与单位共 {ix.orgs.length} 个，{fmtT(t, 'month')}存在的有 {alive} 个。缩进是此刻的隶属关系，随时间轴改变，下属机构跟随上级排列（如军队在中央军委之下）；色条是存续期（{T0}–{T1}），虚线框为停止活动。右侧是此刻的负责人；没有负责人名单的机构显示库中在此任职的人数（此刻在任 / 总数）。
           </p>
         </div>
         <div className="spacer" />
@@ -182,6 +182,7 @@ function Directory() {
               const held = tenures.filter((x) => heldAt(x.pos, t)).length
               const sus = suspendedAt(o, t)
               const off = !existsAt(o, t)
+              const head = o.leaders.filter((l) => within(l, t)).pop()
               return (
                 <button
                   key={o.id}
@@ -202,7 +203,9 @@ function Directory() {
                   <span className="strip">
                     <OrgBar o={o} x={x} width={stripW} t={t} />
                   </span>
-                  <span className="cnt">{tenures.length ? `${held} / ${tenures.length}` : ''}</span>
+                  <span className="cnt" title={head ? `${head.name} · ${head.title}` : tenures.length ? `库中此刻在任 ${held} / 共 ${tenures.length}` : undefined}>
+                    {head ? <span data-person={head.person ? '' : undefined}>{head.name}</span> : tenures.length ? `${held} / ${tenures.length}` : ''}
+                  </span>
                 </button>
               )
             })}
@@ -361,28 +364,39 @@ function OrgTimeline({ o, x, width }: { o: Org; x: ScaleLinear<number, number>; 
   )
 }
 
-function TenureBands({ list, x, width, end }: { list: Tenure[]; x: ScaleLinear<number, number>; width: number; end: number }) {
+// One row per tenure: a person in the atlas (linked, colored by primary faction) or a name only.
+type Band = { name: string; person?: Person; title: string; from?: string; to?: string; verify?: boolean; unsourced?: boolean; note?: string }
+const bandOfTenure = ({ person, pos }: Tenure): Band => ({ name: person.name, person, title: pos.title, from: pos.from, to: pos.to, verify: pos.verify })
+
+function TenureBands({ list, x, width, end, from }: { list: Band[]; x: ScaleLinear<number, number>; width: number; end: number; from?: string }) {
   const { ix, t, select } = useApp()
   const [lo, hi] = x.domain()
   return (
     <div className="tenures">
-      {list.map(({ person, pos }, i) => {
-        const a = pos.from ? toT(pos.from) : lo
-        const b = pos.to ? toT(pos.to, true) : person.died ? Math.min(end, toT(person.died, true)) : hi
-        const on = heldAt(pos, t)
-        const c = ix.primaryFaction(person)?.color ?? 'var(--muted)'
+      {list.map((r, i) => {
+        const a = r.from ? toT(r.from) : from ? toT(from) : lo
+        const b = r.to ? toT(r.to, true) : r.person?.died ? Math.min(end, toT(r.person.died, true)) : hi
+        const on = a <= t && t < b
+        const c = r.person ? (ix.primaryFaction(r.person)?.color ?? 'var(--muted)') : 'var(--muted)'
+        const span = `${r.from ? fmtDate(r.from) : '?'}–${r.to ? fmtDate(r.to) : ''}`
         return (
           <div key={i} className="tenure" data-on={on || undefined}>
-            <button className="linklike" onClick={() => select({ type: 'person', id: person.id })}>
-              {person.name}
-            </button>
-            <span className="tt" title={pos.title}>
-              {pos.title}
-              {pos.verify && <Verify />}
+            {r.person ? (
+              <button className="linklike" onClick={() => select({ type: 'person', id: r.person!.id })}>
+                {r.name}
+              </button>
+            ) : (
+              <span className="nolink" title="本站未收录此人">
+                {r.name}
+              </span>
+            )}
+            <span className="tt" title={[r.title, span, r.note].filter(Boolean).join(' · ')}>
+              {r.title}
+              {r.verify && <Verify />}
             </span>
             <svg width={width} height={10} style={{ display: 'block', overflow: 'visible' }}>
-              <rect x={x(a)} width={Math.max(2, x(b) - x(a))} height={10} rx={2} fill={c} fillOpacity={on ? 1 : 0.35} stroke={c} strokeDasharray={pos.verify ? '3 2' : undefined}>
-                <title>{`${person.name} · ${pos.title} · ${pos.from ? fmtDate(pos.from) : '?'}–${pos.to ? fmtDate(pos.to) : ''}`}</title>
+              <rect x={x(a)} width={Math.max(2, x(b) - x(a))} height={10} rx={2} fill={c} fillOpacity={on ? 1 : 0.35} stroke={c} strokeDasharray={r.verify || r.unsourced ? '3 2' : undefined}>
+                <title>{[`${r.name} · ${r.title} · ${span}`, r.note].filter(Boolean).join('\n')}</title>
               </rect>
               {t >= lo && t <= hi && <line x1={x(t)} x2={x(t)} y1={-3} y2={13} stroke="var(--accent)" strokeWidth={1.2} />}
             </svg>
@@ -390,6 +404,55 @@ function TenureBands({ list, x, width, end }: { list: Tenure[]; x: ScaleLinear<n
         )
       })}
     </div>
+  )
+}
+
+// The succession as one strip: consecutive heads side by side, overlaps (a nominal head and the one who
+// ran daily work) stacked on a second line.
+function Succession({ list, x, width }: { list: Band[]; x: ScaleLinear<number, number>; width: number }) {
+  const { ix, t, select } = useApp()
+  const [lo, hi] = x.domain()
+  const lanes: number[] = []
+  const placed = list.map((r, i) => {
+    const a = r.from ? toT(r.from) : lo
+    const next = list.slice(i + 1).find((n) => n.from && toT(n.from) > a)
+    const b = r.to ? toT(r.to, true) : r.person?.died ? Math.min(hi, toT(r.person.died, true), next?.from ? toT(next.from) : hi) : next?.from ? toT(next.from) : hi
+    let lane = lanes.findIndex((end) => end <= a + 0.01)
+    if (lane < 0) lane = lanes.push(b) - 1
+    else lanes[lane] = b
+    return { r, a, b, lane }
+  })
+  const H = 22
+  return (
+    <svg width={width} height={lanes.length * (H + 3) + 14} style={{ display: 'block', overflow: 'visible' }} className="succession">
+      {placed.map(({ r, a, b, lane }, i) => {
+        const w = Math.max(2, x(b) - x(a))
+        const c = r.person ? (ix.primaryFaction(r.person)?.color ?? 'var(--muted)') : 'var(--muted)'
+        const on = a <= t && t < b
+        return (
+          <g
+            key={i}
+            transform={`translate(${x(a)},${lane * (H + 3)})`}
+            style={{ cursor: r.person ? 'pointer' : 'default' }}
+            onClick={() => r.person && select({ type: 'person', id: r.person.id })}
+          >
+            <rect width={w} height={H} rx={2} fill={c} fillOpacity={on ? 0.95 : 0.3} stroke="var(--card)" strokeWidth={1} />
+            {w > r.name.length * 12 + 6 && (
+              <text x={4} y={15} fontSize={11.5} fill={on ? 'var(--on-accent)' : 'var(--ink)'}>
+                {r.name}
+              </text>
+            )}
+            <title>{`${r.name} · ${r.title} · ${r.from ? fmtDate(r.from) : '?'}–${r.to ? fmtDate(r.to) : ''}${r.note ? `\n${r.note}` : ''}`}</title>
+          </g>
+        )
+      })}
+      {t >= lo && t <= hi && <line x1={x(t)} x2={x(t)} y1={-3} y2={lanes.length * (H + 3)} stroke="var(--accent)" strokeWidth={1.4} />}
+      {d3.range(Math.ceil(lo / 10) * 10, hi, 10).map((yr) => (
+        <text key={yr} x={x(yr)} y={lanes.length * (H + 3) + 11} fontSize={10} fill="var(--muted)" textAnchor="middle">
+          {yr}
+        </text>
+      ))}
+    </svg>
   )
 }
 
@@ -402,7 +465,7 @@ function OrgPage({ id }: { id: string }) {
 
   const mainW = Math.min(720, Math.max(280, (width > 1100 ? width - 420 : width) - 64))
   const tenures = [...(ix.tenuresByOrg.get(id) ?? [])].sort((u, v) => (u.pos.from ?? '').localeCompare(v.pos.from ?? ''))
-  const years = [o.from, o.to, ...tenures.flatMap((x) => [x.pos.from, x.pos.to]), ...o.places.flatMap((p) => [p.from, p.to]), ...o.under.flatMap((u) => [u.from, u.to])]
+  const years = [o.from, o.to, ...tenures.flatMap((x) => [x.pos.from, x.pos.to]), ...o.leaders.flatMap((l) => [l.from, l.to]), ...o.places.flatMap((p) => [p.from, p.to]), ...o.under.flatMap((u) => [u.from, u.to])]
     .filter((d): d is string => !!d)
     .map((d) => Number(d.slice(0, 4)))
   const start = Math.max(1890, Math.min(...years, o.from ? 9999 : 1949) - 2)
@@ -410,8 +473,12 @@ function OrgPage({ id }: { id: string }) {
   const x = d3.scaleLinear().domain([start, end]).range([0, mainW - LBL])
   const bandW = Math.max(160, mainW - 240)
   const xb = d3.scaleLinear().domain([start, end]).range([0, bandW])
-  const heads = tenures.filter((x) => isHead(x.pos.title, o))
-  const others = tenures.filter((x) => !isHead(x.pos.title, o))
+  const xb2 = d3.scaleLinear().domain([start, end]).range([0, mainW])
+  const leaders: Band[] = o.leaders.map((l) => ({ ...l, person: l.person ? ix.person.get(l.person) : undefined, unsourced: !l.cite }))
+  // with a leaders list, the atlas tenures are shown as one list; without, heads are picked by title
+  const heads = leaders.length ? [] : tenures.filter((x) => isHead(x.pos.title, o))
+  const others = leaders.length ? tenures : tenures.filter((x) => !isHead(x.pos.title, o))
+  const nowLeaders = leaders.filter((l) => within(l, t))
   const children = [...(ix.childrenOf.get(id) ?? [])].sort((a, b) => order(a.org, b.org))
   const linksIn = ix.linksInto.get(id) ?? []
   const events = ix.eventsByOrg.get(id) ?? []
@@ -497,10 +564,25 @@ function OrgPage({ id }: { id: string }) {
                   </ul>
                 </section>
               )}
+              {leaders.length > 0 && (
+                <section>
+                  <h2>
+                    历任负责人
+                    <time>
+                      {leaders.length} 任 · {new Set(leaders.map((l) => l.name)).size} 人 · 此刻{nowLeaders.length ? nowLeaders.map((l) => l.name).join('、') : '无'}
+                    </time>
+                  </h2>
+                  <Succession list={leaders} x={xb2} width={mainW} />
+                  <TenureBands list={leaders} x={xb} width={bandW} end={end} from={o.from} />
+                  <p className="muted-note">
+                    含本站未收录的人物（灰色，无链接）。名单据通行史实整理，尚未逐条与组织史资料核对，均属待核；虚线框表示没有出处。重叠的色带是名义负责人与主持日常工作者并存。
+                  </p>
+                </section>
+              )}
               {tenures.length > 0 && (
                 <section>
                   <h2>
-                    任职人物
+                    {leaders.length ? '本站人物在此任职' : '任职人物'}
                     <time>
                       库中 {tenures.length} 条任职 · 此刻在任 {tenures.filter((x) => heldAt(x.pos, t)).length} 人
                     </time>
@@ -508,13 +590,13 @@ function OrgPage({ id }: { id: string }) {
                   {heads.length > 0 && (
                     <>
                       <h3 className="tenure-h">负责人</h3>
-                      <TenureBands list={heads} x={xb} width={bandW} end={end} />
+                      <TenureBands list={heads.map(bandOfTenure)} x={xb} width={bandW} end={end} />
                     </>
                   )}
                   {others.length > 0 && (
                     <>
-                      <h3 className="tenure-h">其他任职</h3>
-                      <TenureBands list={others} x={xb} width={bandW} end={end} />
+                      {!leaders.length && <h3 className="tenure-h">其他任职</h3>}
+                      <TenureBands list={others.map(bandOfTenure)} x={xb} width={bandW} end={end} />
                     </>
                   )}
                   <p className="muted-note">只列本站 {ix.people.length} 位人物的任职，不是完整名单。色带颜色是人物的主要派系，实心为此刻在任，虚线框为待核。</p>

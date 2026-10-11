@@ -6,6 +6,19 @@
 # ── cities and seats of central bodies ──
 - { id: beijing, name: 北京, names: [北京, 北平], lat: 39.90, lon: 116.40 }
 - { id: shanghai, name: 上海, names: [上海], lat: 31.23, lon: 121.47 }
+# provincial capitals (added with the provincial party committees and revolutionary committees)
+- { id: taiyuan, name: 太原, names: [太原], lat: 37.87, lon: 112.55 }
+- { id: hohhot, name: 呼和浩特, names: [呼和浩特, 归绥], lat: 40.84, lon: 111.75 }
+- { id: zhengzhou, name: 郑州, names: [郑州], lat: 34.75, lon: 113.62 }
+- { id: hangzhou, name: 杭州, names: [杭州], lat: 30.27, lon: 120.15 }
+- { id: guiyang, name: 贵阳, names: [贵阳], lat: 26.65, lon: 106.63 }
+- { id: nanning, name: 南宁, names: [南宁], lat: 22.82, lon: 108.32 }
+- { id: lanzhou, name: 兰州, names: [兰州], lat: 36.06, lon: 103.83 }
+- { id: xining, name: 西宁, names: [西宁], lat: 36.62, lon: 101.78 }
+- { id: urumqi, name: 乌鲁木齐, names: [乌鲁木齐, 迪化], lat: 43.83, lon: 87.62 }
+- { id: lhasa, name: 拉萨, names: [拉萨], lat: 29.65, lon: 91.13 }
+- { id: dalian, name: 大连, names: [大连, 旅大], lat: 38.91, lon: 121.61 }
+- { id: qingdao, name: 青岛, names: [青岛], lat: 36.07, lon: 120.38 }
 - { id: tianjin, name: 天津, names: [天津], lat: 39.13, lon: 117.20 }
 - { id: chongqing, name: 重庆, names: [重庆], lat: 29.56, lon: 106.55 }
 - { id: wuhan, name: 武汉, names: [武汉, 汉口, 武昌], lat: 30.59, lon: 114.30 }

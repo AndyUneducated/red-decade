@@ -1,0 +1,925 @@
+# Provincial party committees (1949–) and revolutionary committees (1967–1979), the provinces not
+# already in 00-central.yaml. Seats, dates and heads from general reference, all verify.
+# Revolutionary committee founding dates follow the order in which the 29 were set up (黑龙江 1967-01-31
+# … 西藏、新疆 1968-09-05). Party committees stopped working when the revolutionary committee took
+# over and were rebuilt in 1970–1971; the exact month differs by province and is only approximate here.
+
+# ── 华北 ──
+- id: tj-committee
+  name: 中共天津市委员会
+  short: 天津市委
+  aliases: [中共天津市委]
+  kind: party
+  level: provincial
+  from: 1949-01
+  under: [{ org: cc, to: 1958-02 }, { org: hebei-committee, from: 1958-02, to: 1967-01 }, { org: cc, from: 1967-01 }]
+  suspended: [{ from: 1967-12-06, to: 1971-05, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: tianjin }]
+  summary: 1958–1967 年天津改为河北省辖市，市委归河北省委领导；1967 年恢复直辖。第一书记万晓塘 1966 年 9 月去世。
+  verify: true
+  leaders:
+    - { name: 黄敬, title: 书记, from: 1949-01, to: 1952 }
+    - { name: 黄火青, title: 书记、第一书记, from: 1952, to: 1958 }
+    - { name: 万晓塘, title: 第一书记, from: 1958, to: 1966-09-19 }
+    - { name: 解学恭, title: 第一书记, from: 1971-05, to: 1978-06 }
+    - { name: 林乎加, title: 第一书记, from: 1978-06, to: 1978-10 }
+    - { name: 陈伟达, title: 第一书记, from: 1978-10, to: 1984 }
+    - { name: 倪志福, title: 书记, from: 1984, to: 1987 }
+    - { name: 李瑞环, title: 书记, from: 1987, to: 1989-08 }
+    - { name: 谭绍文, title: 书记, from: 1989-08 }
+
+- id: tj-revcom
+  name: 天津市革命委员会
+  aliases: [天津市革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-12-06
+  to: 1979-12
+  places: [{ at: tianjin }]
+  links: [{ org: tj-committee, kind: takeover, date: 1967-12-06, verify: true }]
+  summary: 1967 年 12 月 6 日成立，解学恭任主任。
+  verify: true
+  leaders:
+    - { name: 解学恭, title: 主任, from: 1967-12-06, to: 1978-06 }
+    - { name: 林乎加, title: 主任, from: 1978-06, to: 1978-10 }
+    - { name: 陈伟达, title: 主任, from: 1978-10, to: 1979-12 }
+
+- id: shanxi-committee
+  name: 中共山西省委员会
+  short: 山西省委
+  aliases: [中共山西省委]
+  kind: party
+  level: provincial
+  from: 1949-09
+  under: [{ org: cc }]
+  suspended: [{ from: 1967-03-18, to: 1971-04, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: taiyuan }]
+  summary: 1967 年 1 月 12 日山西造反派夺权，是全国最早的省级夺权之一；第一书记卫恒同月被迫害致死。
+  verify: true
+  leaders:
+    - { name: 程子华, title: 书记, from: 1949-09, to: 1951 }
+    - { name: 赖若愚, title: 书记, from: 1951, to: 1952 }
+    - { name: 陶鲁笳, title: 书记、第一书记, from: 1952, to: 1965 }
+    - { name: 卫恒, title: 第一书记, from: 1965, to: 1967-01-29 }
+    - { name: 谢振华, title: 第一书记, from: 1971-04, to: 1975 }
+    - { name: 王谦, title: 第一书记, from: 1975, to: 1980 }
+    - { name: 霍士廉, title: 第一书记、书记, from: 1980, to: 1983 }
+    - { name: 李立功, title: 书记, from: 1983 }
+
+- id: shanxi-revcom
+  name: 山西省革命委员会
+  aliases: [山西省革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-03-18
+  to: 1979-12
+  places: [{ at: taiyuan }]
+  links: [{ org: shanxi-committee, kind: takeover, date: 1967-03-18, verify: true }]
+  summary: 1967 年 3 月 18 日成立，刘格平任主任；此后长期派性斗争，1969 年中央为山西专门下发“七二三布告”。
+  verify: true
+  leaders:
+    - { name: 刘格平, title: 主任, from: 1967-03-18, to: 1971 }
+    - { name: 谢振华, title: 主任, from: 1971, to: 1975 }
+    - { name: 王谦, title: 主任, from: 1975, to: 1979-12 }
+
+- id: nmg-committee
+  name: 中共内蒙古自治区委员会
+  short: 内蒙古党委
+  aliases: [中共内蒙古自治区委员会, 内蒙古党委, 中共内蒙古党委]
+  kind: party
+  level: provincial
+  from: 1947-05
+  under: [{ org: cc }]
+  suspended: [{ from: 1967-11-01, to: 1971-05, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: hohhot }]
+  summary: 乌兰夫自建区起主政近二十年，1966 年华北局前门饭店会议上被打倒；1968 年起的“挖新内人党”冤案波及数十万人。
+  verify: true
+  leaders:
+    - { name: 乌兰夫, title: 书记、第一书记, from: 1947-05, to: 1966-08 }
+    - { name: 解学恭, title: 代理第一书记, from: 1966-08, to: 1967-04 }
+    - { name: 尤太忠, title: 第一书记, from: 1971-05, to: 1978-10 }
+    - { name: 周惠, title: 第一书记, from: 1978-10, to: 1986 }
+    - { name: 张曙光, title: 书记, from: 1986, to: 1987 }
+    - { name: 王群, title: 书记, from: 1987 }
+
+- id: nmg-revcom
+  name: 内蒙古自治区革命委员会
+  aliases: [内蒙古自治区革命委员会, 内蒙古革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-11-01
+  to: 1979-12
+  places: [{ at: hohhot }]
+  links: [{ org: nmg-committee, kind: takeover, date: 1967-11-01, verify: true }]
+  summary: 北京军区副司令员滕海清任主任，主持“挖肃”运动；1969 年后内蒙古东部划归东北三省，1979 年恢复。
+  verify: true
+  leaders:
+    - { name: 滕海清, title: 主任, from: 1967-11-01, to: 1971-05 }
+    - { name: 尤太忠, title: 主任, from: 1971-05, to: 1978-10 }
+
+# ── 东北 ──
+- id: ln-committee
+  name: 中共辽宁省委员会
+  short: 辽宁省委
+  aliases: [中共辽宁省委]
+  kind: party
+  level: provincial
+  from: 1954-08
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-05-10, to: 1971-01, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: shenyang }]
+  summary: 1954 年由辽东、辽西两省和沈阳等市合并设立。1970 年代毛远新在此任职，张志新案即发生在辽宁。
+  verify: true
+  leaders:
+    - { name: 黄火青, title: 第一书记, from: 1954-08, to: 1958 }
+    - { name: 黄欧东, title: 第一书记, from: 1958, to: 1967 }
+    - { name: 陈锡联, title: 第一书记, from: 1971-01, to: 1973-12 }
+    - { name: 曾绍山, title: 第一书记, from: 1973-12, to: 1978 }
+    - { name: 任仲夷, title: 第一书记, from: 1978, to: 1980-11 }
+    - { name: 郭峰, title: 第一书记、书记, from: 1980-11, to: 1985 }
+    - { name: 李贵鲜, title: 书记, from: 1985, to: 1986 }
+    - { name: 全树仁, title: 书记, from: 1986 }
+
+- id: ln-revcom
+  name: 辽宁省革命委员会
+  aliases: [辽宁省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-05-10
+  to: 1979-12
+  places: [{ at: shenyang }]
+  links: [{ org: ln-committee, kind: takeover, date: 1968-05-10, verify: true }]
+  summary: 沈阳军区司令员陈锡联兼任主任；毛远新 1968 年起任副主任。
+  verify: true
+  leaders:
+    - { name: 陈锡联, title: 主任, from: 1968-05-10, to: 1973-12 }
+    - { name: 曾绍山, title: 主任, from: 1973-12, to: 1978 }
+    - { name: 任仲夷, title: 主任, from: 1978, to: 1979-12 }
+
+- id: jl-committee
+  name: 中共吉林省委员会
+  short: 吉林省委
+  aliases: [中共吉林省委]
+  kind: party
+  level: provincial
+  from: 1949-04
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-03-06, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: changchun }]
+  summary: 1954 年省会由吉林市迁长春。吴德 1955–1966 年任第一书记。
+  verify: true
+  leaders:
+    - { name: 刘锡五, title: 书记, from: 1949-04, to: 1952 }
+    - { name: 李梦龄, title: 书记, from: 1952, to: 1955 }
+    - { name: 吴德, title: 第一书记, from: 1955, to: 1966-06 }
+    - { name: 赵林, title: 第一书记, from: 1966-06, to: 1967 }
+    - { name: 王淮湘, title: 第一书记, from: 1971, to: 1977 }
+    - { name: 王恩茂, title: 第一书记, from: 1977, to: 1981 }
+    - { name: 强晓初, title: 第一书记、书记, from: 1981, to: 1985 }
+    - { name: 高狄, title: 书记, from: 1985, to: 1988 }
+    - { name: 何竹康, title: 书记, from: 1988 }
+
+- id: jl-revcom
+  name: 吉林省革命委员会
+  aliases: [吉林省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-03-06
+  to: 1979-12
+  places: [{ at: changchun }]
+  links: [{ org: jl-committee, kind: takeover, date: 1968-03-06, verify: true }]
+  summary: 1968 年 3 月 6 日成立，吉林省军区司令员王淮湘任主任。
+  verify: true
+  leaders:
+    - { name: 王淮湘, title: 主任, from: 1968-03-06, to: 1977 }
+    - { name: 王恩茂, title: 主任, from: 1977, to: 1979-12 }
+
+- id: hlj-committee
+  name: 中共黑龙江省委员会
+  short: 黑龙江省委
+  aliases: [中共黑龙江省委]
+  kind: party
+  level: provincial
+  from: 1954-08
+  under: [{ org: cc }]
+  suspended: [{ from: 1967-01-31, to: 1971-06, note: 第一书记潘复生率先“造反夺权”，革委会成立后由其行使党政职权 }]
+  places: [{ at: harbin }]
+  summary: 1954 年与松江省合并。1967 年 1 月第一书记潘复生与造反派联合“夺权”，成立全国第一个省级革命委员会。
+  verify: true
+  leaders:
+    - { name: 欧阳钦, title: 第一书记, from: 1954-08, to: 1966 }
+    - { name: 潘复生, title: 第一书记, from: 1966, to: 1967-01-31 }
+    - { name: 汪家道, title: 第一书记, from: 1971-06, to: 1974 }
+    - { name: 刘光涛, title: 第一书记, from: 1974, to: 1977-12 }
+    - { name: 杨易辰, title: 第一书记, from: 1977-12, to: 1983-06 }
+    - { name: 李力安, title: 书记, from: 1983-06, to: 1985 }
+    - { name: 孙维本, title: 书记, from: 1985 }
+
+- id: hlj-revcom
+  name: 黑龙江省革命委员会
+  aliases: [黑龙江省革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-01-31
+  to: 1979-12
+  places: [{ at: harbin }]
+  links: [{ org: hlj-committee, kind: takeover, date: 1967-01-31, verify: true }]
+  summary: 全国第一个省级革命委员会，1967 年 1 月 31 日成立，潘复生任主任，《人民日报》发社论《东北的新曙光》。
+  verify: true
+  leaders:
+    - { name: 潘复生, title: 主任, from: 1967-01-31, to: 1971-06 }
+    - { name: 汪家道, title: 主任, from: 1971-06, to: 1974 }
+    - { name: 刘光涛, title: 主任, from: 1974, to: 1977-12 }
+    - { name: 杨易辰, title: 主任, from: 1977-12, to: 1979-12 }
+
+# ── 西北 ──
+- id: sn-committee
+  name: 中共陕西省委员会
+  short: 陕西省委
+  aliases: [中共陕西省委]
+  kind: party
+  level: provincial
+  from: 1950-01
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-05-01, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: xian }]
+  summary: 1964–1965 年胡耀邦一度任代理第一书记。
+  verify: true
+  leaders:
+    - { name: 马明方, title: 书记, from: 1950-01, to: 1952 }
+    - { name: 潘自力, title: 书记, from: 1952, to: 1954 }
+    - { name: 张德生, title: 第一书记, from: 1954, to: 1964-11 }
+    - { name: 胡耀邦, title: 代理第一书记, from: 1964-11, to: 1965-06 }
+    - { name: 霍士廉, title: 第一书记, from: 1965-06, to: 1967 }
+    - { name: 李瑞山, title: 第一书记, from: 1971, to: 1978-02 }
+    - { name: 王任重, title: 第一书记, from: 1978-02, to: 1978-12 }
+    - { name: 马文瑞, title: 第一书记、书记, from: 1978-12, to: 1984 }
+    - { name: 白纪年, title: 书记, from: 1984, to: 1987 }
+    - { name: 张勃兴, title: 书记, from: 1987 }
+
+- id: sn-revcom
+  name: 陕西省革命委员会
+  aliases: [陕西省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-05-01
+  to: 1979-12
+  places: [{ at: xian }]
+  links: [{ org: sn-committee, kind: takeover, date: 1968-05-01, verify: true }]
+  summary: 1968 年 5 月 1 日成立，李瑞山任主任。
+  verify: true
+  leaders:
+    - { name: 李瑞山, title: 主任, from: 1968-05-01, to: 1978-02 }
+    - { name: 王任重, title: 主任, from: 1978-02, to: 1978-12 }
+    - { name: 马文瑞, title: 主任, from: 1978-12, to: 1979-12 }
+
+- id: gs-committee
+  name: 中共甘肃省委员会
+  short: 甘肃省委
+  aliases: [中共甘肃省委]
+  kind: party
+  level: provincial
+  from: 1949-08
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-01-24, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: lanzhou }]
+  summary: 第一书记张仲良任内发生大饥荒（通渭等地），1961 年初被撤职，西北局派汪锋接任。
+  verify: true
+  leaders:
+    - { name: 张德生, title: 书记, from: 1949-08, to: 1954 }
+    - { name: 张仲良, title: 第一书记, from: 1954, to: 1961-01 }
+    - { name: 汪锋, title: 第一书记, from: 1961-01, to: 1967 }
+    - { name: 冼恒汉, title: 第一书记, from: 1971, to: 1977-06 }
+    - { name: 宋平, title: 第一书记, from: 1977-06, to: 1981-03 }
+    - { name: 冯纪新, title: 第一书记、书记, from: 1981-03, to: 1983 }
+    - { name: 李子奇, title: 书记, from: 1983 }
+
+- id: gs-revcom
+  name: 甘肃省革命委员会
+  aliases: [甘肃省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-01-24
+  to: 1979-12
+  places: [{ at: lanzhou }]
+  links: [{ org: gs-committee, kind: takeover, date: 1968-01-24, verify: true }]
+  summary: 兰州军区政委冼恒汉任主任。
+  verify: true
+  leaders:
+    - { name: 冼恒汉, title: 主任, from: 1968-01-24, to: 1977-06 }
+    - { name: 宋平, title: 主任, from: 1977-06, to: 1979-12 }
+
+- id: nx-committee
+  name: 中共宁夏回族自治区委员会
+  short: 宁夏区党委
+  aliases: [中共宁夏回族自治区委员会, 宁夏区党委]
+  kind: party
+  level: provincial
+  from: 1958-10
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-04-10, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: yinchuan }]
+  summary: 1958 年 10 月宁夏回族自治区成立时设立。
+  verify: true
+  leaders:
+    - { name: 汪锋, title: 第一书记, from: 1958-10, to: 1960-12, note: 首任人选待核 }
+    - { name: 杨静仁, title: 第一书记, from: 1960-12, to: 1967 }
+    - { name: 康健民, title: 第一书记, from: 1971, to: 1977 }
+    - { name: 霍士廉, title: 第一书记, from: 1977, to: 1979 }
+    - { name: 李学智, title: 第一书记、书记, from: 1979, to: 1986 }
+    - { name: 沈达人, title: 书记, from: 1986 }
+
+- id: nx-revcom
+  name: 宁夏回族自治区革命委员会
+  aliases: [宁夏回族自治区革命委员会, 宁夏革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-04-10
+  to: 1979-12
+  places: [{ at: yinchuan }]
+  links: [{ org: nx-committee, kind: takeover, date: 1968-04-10, verify: true }]
+  summary: 1968 年 4 月 10 日成立，宁夏军区司令员康健民任主任。
+  verify: true
+  leaders:
+    - { name: 康健民, title: 主任, from: 1968-04-10, to: 1977 }
+    - { name: 霍士廉, title: 主任, from: 1977, to: 1979-12 }
+
+- id: qh-committee
+  name: 中共青海省委员会
+  short: 青海省委
+  aliases: [中共青海省委]
+  kind: party
+  level: provincial
+  from: 1949-09
+  under: [{ org: cc }]
+  suspended: [{ from: 1967-08-12, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: xining }]
+  summary: 1967 年 2 月 23 日青海省军区副司令员赵永夫下令向占据《青海日报》社的群众组织开枪（“二二三事件”），中央随后对青海实行军管。
+  verify: true
+  leaders:
+    - { name: 张仲良, title: 书记, from: 1949-09, to: 1954 }
+    - { name: 高峰, title: 第一书记, from: 1954, to: 1961 }
+    - { name: 王昭, title: 代理第一书记, from: 1961, to: 1962 }
+    - { name: 杨植霖, title: 第一书记, from: 1962, to: 1967 }
+    - { name: 刘贤权, title: 第一书记, from: 1971, to: 1971 }
+    - { name: 张江霖, title: 第一书记, from: 1971, to: 1977 }
+    - { name: 谭启龙, title: 第一书记, from: 1977, to: 1979 }
+    - { name: 梁步庭, title: 第一书记, from: 1979, to: 1983 }
+    - { name: 赵海峰, title: 书记, from: 1983, to: 1985 }
+    - { name: 尹克升, title: 书记, from: 1985 }
+
+- id: qh-revcom
+  name: 青海省革命委员会
+  aliases: [青海省革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-08-12
+  to: 1979-12
+  places: [{ at: xining }]
+  links: [{ org: qh-committee, kind: takeover, date: 1967-08-12, verify: true }]
+  summary: 1967 年 8 月 12 日成立，刘贤权任主任。
+  verify: true
+  leaders:
+    - { name: 刘贤权, title: 主任, from: 1967-08-12, to: 1971 }
+    - { name: 张江霖, title: 主任, from: 1971, to: 1977 }
+    - { name: 谭启龙, title: 主任, from: 1977, to: 1979-12 }
+
+- id: xj-committee
+  name: 中共新疆维吾尔自治区委员会
+  short: 新疆区党委
+  aliases: [中共新疆维吾尔自治区委员会, 新疆区党委, 中共中央新疆分局]
+  kind: party
+  level: provincial
+  from: 1949-10
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-09-05, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: urumqi }]
+  summary: 1955 年自治区成立前为中共中央新疆分局。王恩茂主政十余年，1968 年被调离。
+  verify: true
+  leaders:
+    - { name: 王震, title: 新疆分局书记, from: 1949-10, to: 1952-06 }
+    - { name: 王恩茂, title: 书记、第一书记, from: 1952-06, to: 1968 }
+    - { name: 龙书金, title: 第一书记, from: 1971, to: 1972 }
+    - { name: 赛福鼎, title: 第一书记, from: 1972, to: 1978-01 }
+    - { name: 汪锋, title: 第一书记, from: 1978-01, to: 1981-10 }
+    - { name: 王恩茂, title: 第一书记、书记, from: 1981-10, to: 1985-10 }
+    - { name: 宋汉良, title: 书记, from: 1985-10 }
+
+- id: xj-revcom
+  name: 新疆维吾尔自治区革命委员会
+  aliases: [新疆维吾尔自治区革命委员会, 新疆革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-09-05
+  to: 1979-12
+  places: [{ at: urumqi }]
+  links: [{ org: xj-committee, kind: takeover, date: 1968-09-05, verify: true }]
+  summary: 与西藏同日成立，标志“全国山河一片红”（全国 29 个省级革命委员会全部建立）。
+  verify: true
+  leaders:
+    - { name: 龙书金, title: 主任, from: 1968-09-05, to: 1972 }
+    - { name: 赛福鼎, title: 主任, from: 1972, to: 1978-01 }
+    - { name: 汪锋, title: 主任, from: 1978-01, to: 1979-12 }
+
+- id: xz-committee
+  name: 中共西藏自治区委员会
+  short: 西藏区党委
+  aliases: [中共西藏自治区委员会, 西藏区党委, 中共西藏工作委员会, 西藏工委]
+  kind: party
+  level: provincial
+  from: 1951
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-09-05, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: lhasa }]
+  summary: 1965 年 9 月自治区成立前为中共西藏工作委员会。
+  verify: true
+  leaders:
+    - { name: 张经武, title: 西藏工委书记, from: 1951, to: 1965-09 }
+    - { name: 张国华, title: 第一书记, from: 1965-09, to: 1967 }
+    - { name: 任荣, title: 第一书记, from: 1971, to: 1980 }
+    - { name: 阴法唐, title: 第一书记、书记, from: 1980, to: 1985 }
+    - { name: 伍精华, title: 书记, from: 1985, to: 1988-12 }
+    - { name: 胡锦涛, title: 书记, from: 1988-12 }
+
+- id: xz-revcom
+  name: 西藏自治区革命委员会
+  aliases: [西藏自治区革命委员会, 西藏革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-09-05
+  to: 1979-12
+  places: [{ at: lhasa }]
+  links: [{ org: xz-committee, kind: takeover, date: 1968-09-05, verify: true }]
+  summary: 1968 年 9 月 5 日成立，西藏军区副司令员曾雍雅任主任。
+  verify: true
+  leaders:
+    - { name: 曾雍雅, title: 主任, from: 1968-09-05, to: 1971 }
+    - { name: 任荣, title: 主任, from: 1971, to: 1979-12 }
+
+# ── 华东 ──
+- id: sd-committee
+  name: 中共山东省委员会
+  short: 山东省委
+  aliases: [中共山东省委]
+  kind: party
+  level: provincial
+  from: 1954
+  under: [{ org: cc }]
+  suspended: [{ from: 1967-02-03, to: 1971-03, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: jinan }]
+  summary: 1954 年由山东分局改设。第一书记舒同 1960 年因大饥荒被撤职，华东局第一书记曾希圣一度兼任。
+  verify: true
+  leaders:
+    - { name: 舒同, title: 第一书记, from: 1954, to: 1960-10 }
+    - { name: 曾希圣, title: 第一书记（兼）, from: 1961-02, to: 1961-10 }
+    - { name: 谭启龙, title: 第一书记, from: 1961-10, to: 1967-02 }
+    - { name: 杨得志, title: 第一书记, from: 1971-03, to: 1974 }
+    - { name: 白如冰, title: 第一书记, from: 1974, to: 1982 }
+    - { name: 苏毅然, title: 第一书记、书记, from: 1982, to: 1985 }
+    - { name: 梁步庭, title: 书记, from: 1985, to: 1988 }
+    - { name: 姜春云, title: 书记, from: 1988 }
+
+- id: sd-revcom
+  name: 山东省革命委员会
+  aliases: [山东省革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-02-03
+  to: 1979-12
+  places: [{ at: jinan }]
+  links: [{ org: sd-committee, kind: takeover, date: 1967-02-03, verify: true }]
+  summary: 1967 年 2 月 3 日成立，青岛市副市长王效禹任主任；王效禹 1971 年被撤职。
+  verify: true
+  leaders:
+    - { name: 王效禹, title: 主任, from: 1967-02-03, to: 1971-03 }
+    - { name: 杨得志, title: 主任, from: 1971-03, to: 1974 }
+    - { name: 白如冰, title: 主任, from: 1974, to: 1979-12 }
+
+- id: js-committee
+  name: 中共江苏省委员会
+  short: 江苏省委
+  aliases: [中共江苏省委]
+  kind: party
+  level: provincial
+  from: 1952-11
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-03-23, to: 1970-12, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: nanjing }]
+  summary: 1952 年由苏南、苏北两行署区合并设省。江渭清长期主政。
+  verify: true
+  leaders:
+    - { name: 柯庆施, title: 书记, from: 1952-11, to: 1954 }
+    - { name: 江渭清, title: 书记、第一书记, from: 1954, to: 1967 }
+    - { name: 许世友, title: 第一书记, from: 1970-12, to: 1974 }
+    - { name: 彭冲, title: 第一书记, from: 1974, to: 1976-10 }
+    - { name: 许家屯, title: 第一书记, from: 1977, to: 1983 }
+    - { name: 韩培信, title: 书记, from: 1983, to: 1989 }
+    - { name: 沈达人, title: 书记, from: 1989 }
+
+- id: js-revcom
+  name: 江苏省革命委员会
+  aliases: [江苏省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-03-23
+  to: 1979-12
+  places: [{ at: nanjing }]
+  links: [{ org: js-committee, kind: takeover, date: 1968-03-23, verify: true }]
+  summary: 南京军区司令员许世友任主任。
+  verify: true
+  leaders:
+    - { name: 许世友, title: 主任, from: 1968-03-23, to: 1974 }
+    - { name: 彭冲, title: 主任, from: 1974, to: 1977 }
+    - { name: 许家屯, title: 主任, from: 1977, to: 1979-12 }
+
+- id: ah-committee
+  name: 中共安徽省委员会
+  short: 安徽省委
+  aliases: [中共安徽省委]
+  kind: party
+  level: provincial
+  from: 1952
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-04-18, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: hefei }]
+  summary: 曾希圣任内推行“责任田”，大饥荒中安徽死亡惨重，1962 年被撤职。1977 年后万里在此推开包产到户。
+  verify: true
+  leaders:
+    - { name: 曾希圣, title: 第一书记, from: 1952, to: 1962-02 }
+    - { name: 李葆华, title: 第一书记, from: 1962-02, to: 1967 }
+    - { name: 李德生, title: 第一书记, from: 1971, to: 1974 }
+    - { name: 宋佩璋, title: 第一书记, from: 1974, to: 1977-06 }
+    - { name: 万里, title: 第一书记, from: 1977-06, to: 1980-03 }
+    - { name: 张劲夫, title: 第一书记, from: 1980-03, to: 1982 }
+    - { name: 周子健, title: 第一书记, from: 1982, to: 1983 }
+    - { name: 黄璜, title: 书记, from: 1983, to: 1986 }
+    - { name: 李贵鲜, title: 书记, from: 1986, to: 1988 }
+    - { name: 卢荣景, title: 书记, from: 1988 }
+
+- id: ah-revcom
+  name: 安徽省革命委员会
+  aliases: [安徽省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-04-18
+  to: 1979-12
+  places: [{ at: hefei }]
+  links: [{ org: ah-committee, kind: takeover, date: 1968-04-18, verify: true }]
+  summary: 1968 年 4 月 18 日成立，第十二军军长李德生任主任。
+  verify: true
+  leaders:
+    - { name: 李德生, title: 主任, from: 1968-04-18, to: 1974 }
+    - { name: 宋佩璋, title: 主任, from: 1974, to: 1977-06 }
+    - { name: 万里, title: 主任, from: 1977-06, to: 1979-12 }
+
+- id: zj-committee
+  name: 中共浙江省委员会
+  short: 浙江省委
+  aliases: [中共浙江省委]
+  kind: party
+  level: provincial
+  from: 1949-05
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-03-24, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: hangzhou }]
+  summary: 江华 1950 年代起长期主政；文革中浙江两派武斗持续到 1970 年代中期。
+  verify: true
+  leaders:
+    - { name: 谭震林, title: 书记, from: 1949-05, to: 1952 }
+    - { name: 谭启龙, title: 书记, from: 1952, to: 1954 }
+    - { name: 江华, title: 书记、第一书记, from: 1954, to: 1967 }
+    - { name: 南萍, title: 第一书记, from: 1971, to: 1972 }
+    - { name: 谭启龙, title: 第一书记, from: 1973, to: 1977 }
+    - { name: 铁瑛, title: 第一书记, from: 1977, to: 1983 }
+    - { name: 王芳, title: 书记, from: 1983, to: 1987 }
+    - { name: 李泽民, title: 书记, from: 1988 }
+
+- id: zj-revcom
+  name: 浙江省革命委员会
+  aliases: [浙江省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-03-24
+  to: 1979-12
+  places: [{ at: hangzhou }]
+  links: [{ org: zj-committee, kind: takeover, date: 1968-03-24, verify: true }]
+  summary: 第二十军政委南萍任主任。
+  verify: true
+  leaders:
+    - { name: 南萍, title: 主任, from: 1968-03-24, to: 1972 }
+    - { name: 谭启龙, title: 主任, from: 1973, to: 1977 }
+    - { name: 铁瑛, title: 主任, from: 1977, to: 1979-12 }
+
+- id: fj-committee
+  name: 中共福建省委员会
+  short: 福建省委
+  kind: party
+  level: provincial
+  from: 1949-08
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-08-19, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: fuzhou }]
+  summary: 1949 年后的福建省委，与 1930 年代的省委分列。
+  verify: true
+  leaders:
+    - { name: 张鼎丞, title: 书记, from: 1949-08, to: 1954 }
+    - { name: 叶飞, title: 第一书记, from: 1954, to: 1967 }
+    - { name: 韩先楚, title: 第一书记, from: 1971, to: 1973-12 }
+    - { name: 廖志高, title: 第一书记, from: 1974, to: 1980 }
+    - { name: 项南, title: 第一书记、书记, from: 1981, to: 1986 }
+    - { name: 陈光毅, title: 书记, from: 1986 }
+
+- id: fj-revcom
+  name: 福建省革命委员会
+  aliases: [福建省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-08-19
+  to: 1979-12
+  places: [{ at: fuzhou }]
+  links: [{ org: fj-committee, kind: takeover, date: 1968-08-19, verify: true }]
+  summary: 福州军区司令员韩先楚任主任。
+  verify: true
+  leaders:
+    - { name: 韩先楚, title: 主任, from: 1968-08-19, to: 1973-12 }
+    - { name: 廖志高, title: 主任, from: 1974, to: 1979-12 }
+
+- id: jx-committee
+  name: 中共江西省委员会
+  short: 江西省委
+  aliases: [中共江西省委]
+  kind: party
+  level: provincial
+  from: 1949-06
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-01-05, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: nanchang }]
+  summary: 杨尚奎 1950 年代至 1967 年主政。邓小平 1969–1973 年下放南昌新建县。
+  verify: true
+  leaders:
+    - { name: 陈正人, title: 书记, from: 1949-06, to: 1953 }
+    - { name: 杨尚奎, title: 书记、第一书记, from: 1953, to: 1967 }
+    - { name: 程世清, title: 第一书记, from: 1971, to: 1972 }
+    - { name: 江渭清, title: 第一书记, from: 1974, to: 1979 }
+    - { name: 白栋材, title: 第一书记、书记, from: 1979, to: 1985 }
+    - { name: 万绍芬, title: 书记, from: 1985, to: 1988 }
+    - { name: 毛致用, title: 书记, from: 1988 }
+
+- id: jx-revcom
+  name: 江西省革命委员会
+  aliases: [江西省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-01-05
+  to: 1979-12
+  places: [{ at: nanchang }]
+  links: [{ org: jx-committee, kind: takeover, date: 1968-01-05, verify: true }]
+  summary: 1968 年 1 月 5 日成立，福州军区副政委程世清任主任；九一三事件后程世清以追随林彪受审查。
+  verify: true
+  leaders:
+    - { name: 程世清, title: 主任, from: 1968-01-05, to: 1972 }
+    - { name: 江渭清, title: 主任, from: 1974, to: 1979-12 }
+
+# ── 中南 ──
+- id: ha-committee
+  name: 中共河南省委员会
+  short: 河南省委
+  aliases: [中共河南省委]
+  kind: party
+  level: provincial
+  from: 1949-05
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-01-27, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: kaifeng, to: 1954-10 }, { at: zhengzhou, from: 1954-10 }]
+  summary: 1954 年省会由开封迁郑州。大跃进中吴芝圃主政，信阳事件后被调离。刘少奇 1969 年 11 月死于开封。
+  verify: true
+  leaders:
+    - { name: 张玺, title: 书记, from: 1949-05, to: 1952 }
+    - { name: 潘复生, title: 书记、第一书记, from: 1952, to: 1958 }
+    - { name: 吴芝圃, title: 第一书记, from: 1958, to: 1961 }
+    - { name: 刘建勋, title: 第一书记, from: 1961, to: 1967 }
+    - { name: 刘建勋, title: 第一书记, from: 1971, to: 1978-10 }
+    - { name: 段君毅, title: 第一书记, from: 1978-10, to: 1981 }
+    - { name: 刘杰, title: 第一书记、书记, from: 1981, to: 1985 }
+    - { name: 杨析综, title: 书记, from: 1985 }
+
+- id: ha-revcom
+  name: 河南省革命委员会
+  aliases: [河南省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-01-27
+  to: 1979-12
+  places: [{ at: zhengzhou }]
+  links: [{ org: ha-committee, kind: takeover, date: 1968-01-27, verify: true }]
+  summary: 原省委第一书记刘建勋支持造反派“二七公社”，革委会成立后任主任，是少数留任的省委第一书记之一。
+  verify: true
+  leaders:
+    - { name: 刘建勋, title: 主任, from: 1968-01-27, to: 1978-10 }
+    - { name: 段君毅, title: 主任, from: 1978-10, to: 1979-12 }
+
+- id: hubei-revcom
+  name: 湖北省革命委员会
+  aliases: [湖北省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-02-05
+  to: 1979-12
+  places: [{ at: wuhan }]
+  links: [{ org: hubei-committee, kind: takeover, date: 1968-02-05, verify: true }]
+  summary: 七二〇事件后陈再道被撤职，新任武汉军区司令员曾思玉任主任。
+  verify: true
+  leaders:
+    - { name: 曾思玉, title: 主任, from: 1968-02-05, to: 1973-12 }
+    - { name: 赵辛初, title: 主任, from: 1975, to: 1978-08 }
+    - { name: 陈丕显, title: 主任, from: 1978-08, to: 1979-12 }
+
+- id: hn-committee
+  name: 中共湖南省委员会
+  short: 湖南省委
+  aliases: [中共湖南省委]
+  kind: party
+  level: provincial
+  from: 1949-08
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-04-08, to: 1970-12, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: changsha }]
+  summary: 周小舟 1959 年庐山会议后被打成“反党集团”成员；华国锋 1970 年代初主政后调中央。
+  verify: true
+  leaders:
+    - { name: 黄克诚, title: 书记, from: 1949-08, to: 1952 }
+    - { name: 周小舟, title: 书记、第一书记, from: 1953, to: 1959-08 }
+    - { name: 张平化, title: 第一书记, from: 1959-08, to: 1966-08 }
+    - { name: 王延春, title: 代理第一书记, from: 1966-08, to: 1967 }
+    - { name: 华国锋, title: 第一书记, from: 1970-12, to: 1977-02 }
+    - { name: 张平化, title: 第一书记, from: 1977-02, to: 1977-10 }
+    - { name: 毛致用, title: 第一书记、书记, from: 1977-10, to: 1988 }
+    - { name: 熊清泉, title: 书记, from: 1988 }
+
+- id: hn-revcom
+  name: 湖南省革命委员会
+  aliases: [湖南省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-04-08
+  to: 1979-12
+  places: [{ at: changsha }]
+  links: [{ org: hn-committee, kind: takeover, date: 1968-04-08, verify: true }]
+  summary: 第四十七军军长黎原任主任，华国锋任副主任。成立前后杨曦光的《中国向何处去？》被中央点名批判。
+  verify: true
+  leaders:
+    - { name: 黎原, title: 主任, from: 1968-04-08, to: 1970-12 }
+    - { name: 华国锋, title: 主任, from: 1970-12, to: 1977-02 }
+    - { name: 毛致用, title: 主任, from: 1977-10, to: 1979-12 }
+
+- id: guangdong-revcom
+  name: 广东省革命委员会
+  aliases: [广东省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-02-21
+  to: 1979-12
+  places: [{ at: guangzhou }]
+  links: [{ org: guangdong-committee, kind: takeover, date: 1968-02-21, verify: true }]
+  summary: 广州军区司令员黄永胜任主任，一个月后调任总参谋长。
+  verify: true
+  leaders:
+    - { name: 黄永胜, title: 主任, from: 1968-02-21, to: 1969 }
+    - { name: 刘兴元, title: 主任, from: 1969, to: 1972 }
+    - { name: 丁盛, title: 主任, from: 1972, to: 1974-04 }
+    - { name: 赵紫阳, title: 主任, from: 1974-04, to: 1975-10 }
+    - { name: 韦国清, title: 主任, from: 1975-10, to: 1978-12 }
+    - { name: 习仲勋, title: 主任, from: 1978-12, to: 1979-12 }
+
+- id: gx-committee
+  name: 中共广西壮族自治区委员会
+  short: 广西区党委
+  aliases: [中共广西壮族自治区委员会, 广西区党委, 中共广西省委]
+  kind: party
+  level: provincial
+  from: 1949-12
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-08-26, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: nanning }]
+  summary: 1958 年广西省改为壮族自治区。1968 年“七三布告”后的大规模镇压和屠杀是文革最严重的地方暴力之一。
+  verify: true
+  leaders:
+    - { name: 张云逸, title: 书记, from: 1949-12, to: 1955 }
+    - { name: 陈漫远, title: 第一书记, from: 1955, to: 1957 }
+    - { name: 刘建勋, title: 第一书记, from: 1957, to: 1961 }
+    - { name: 韦国清, title: 第一书记, from: 1961, to: 1975-10 }
+    - { name: 安平生, title: 第一书记, from: 1975-10, to: 1977 }
+    - { name: 乔晓光, title: 第一书记、书记, from: 1977, to: 1985 }
+    - { name: 陈辉光, title: 书记, from: 1985, to: 1988 }
+    - { name: 赵富林, title: 书记, from: 1988 }
+
+- id: gx-revcom
+  name: 广西壮族自治区革命委员会
+  aliases: [广西壮族自治区革命委员会, 广西革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-08-26
+  to: 1979-12
+  places: [{ at: nanning }]
+  links: [{ org: gx-committee, kind: takeover, date: 1968-08-26, verify: true }]
+  summary: 原区党委第一书记韦国清任主任，依靠“联指”一派镇压“四二二”。
+  verify: true
+  leaders:
+    - { name: 韦国清, title: 主任, from: 1968-08-26, to: 1975-10 }
+    - { name: 安平生, title: 主任, from: 1975-10, to: 1977 }
+    - { name: 乔晓光, title: 主任, from: 1977, to: 1979-12 }
+
+# ── 西南 ──
+- id: sc-committee
+  name: 中共四川省委员会
+  short: 四川省委
+  aliases: [中共四川省委]
+  kind: party
+  level: provincial
+  from: 1952-09
+  under: [{ org: cc }]
+  suspended: [{ from: 1968-05-31, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: chengdu }]
+  summary: 1952 年由川东、川西、川南、川北四行署区合并设省。李井泉长期主政，1965 年专任西南局第一书记。
+  verify: true
+  leaders:
+    - { name: 李井泉, title: 第一书记, from: 1952-09, to: 1965 }
+    - { name: 廖志高, title: 第一书记, from: 1965, to: 1967 }
+    - { name: 张国华, title: 第一书记, from: 1971, to: 1972-02-21 }
+    - { name: 刘兴元, title: 第一书记, from: 1972, to: 1975-12 }
+    - { name: 赵紫阳, title: 第一书记, from: 1975-12, to: 1980-03 }
+    - { name: 谭启龙, title: 第一书记、书记, from: 1980-03, to: 1985 }
+    - { name: 杨汝岱, title: 书记, from: 1985 }
+
+- id: sc-revcom
+  name: 四川省革命委员会
+  aliases: [四川省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-05-31
+  to: 1979-12
+  places: [{ at: chengdu }]
+  links: [{ org: sc-committee, kind: takeover, date: 1968-05-31, verify: true }]
+  summary: 成都军区第一政委张国华任主任，刘结挺、张西挺任副主任。
+  verify: true
+  leaders:
+    - { name: 张国华, title: 主任, from: 1968-05-31, to: 1972-02-21 }
+    - { name: 刘兴元, title: 主任, from: 1972, to: 1975-12 }
+    - { name: 赵紫阳, title: 主任, from: 1975-12, to: 1979-12 }
+
+- id: gz-committee
+  name: 中共贵州省委员会
+  short: 贵州省委
+  aliases: [中共贵州省委]
+  kind: party
+  level: provincial
+  from: 1949-11
+  under: [{ org: cc }]
+  suspended: [{ from: 1967-02-13, to: 1971, note: 革委会成立后由其行使党政职权 }]
+  places: [{ at: guiyang }]
+  summary: 1964 年四清运动中省委被认定“烂掉了”，第一书记周林被撤职，西南局派李大章、贾启允接管。
+  verify: true
+  leaders:
+    - { name: 苏振华, title: 书记, from: 1949-11, to: 1954 }
+    - { name: 周林, title: 第一书记, from: 1954, to: 1964-10 }
+    - { name: 李大章, title: 代理第一书记, from: 1964-10, to: 1965 }
+    - { name: 贾启允, title: 第一书记, from: 1965, to: 1967-02 }
+    - { name: 蓝亦农, title: 第一书记, from: 1971, to: 1973 }
+    - { name: 鲁瑞林, title: 第一书记, from: 1973, to: 1977 }
+    - { name: 马力, title: 第一书记, from: 1977, to: 1985-07 }
+    - { name: 胡锦涛, title: 书记, from: 1985-07, to: 1988-12 }
+    - { name: 刘正威, title: 书记, from: 1988-12 }
+
+- id: gz-revcom
+  name: 贵州省革命委员会
+  aliases: [贵州省革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-02-13
+  to: 1979-12
+  places: [{ at: guiyang }]
+  links: [{ org: gz-committee, kind: takeover, date: 1967-02-13, verify: true }]
+  summary: 全国第三个省级革命委员会，贵州省军区副政委李再含任主任。
+  verify: true
+  leaders:
+    - { name: 李再含, title: 主任, from: 1967-02-13, to: 1971 }
+    - { name: 蓝亦农, title: 主任, from: 1971, to: 1973 }
+    - { name: 鲁瑞林, title: 主任, from: 1973, to: 1977 }
+    - { name: 马力, title: 主任, from: 1977, to: 1979-12 }
+
+- id: yunnan-revcom
+  name: 云南省革命委员会
+  aliases: [云南省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-08-13
+  to: 1979-12
+  places: [{ at: kunming }]
+  links: [{ org: yunnan-committee, kind: takeover, date: 1968-08-13, verify: true }]
+  summary: 昆明军区政委谭甫仁任主任，1970 年 12 月在家中遇刺身亡。
+  verify: true
+  leaders:
+    - { name: 谭甫仁, title: 主任, from: 1968-08-13, to: 1970-12-17 }
+    - { name: 周兴, title: 主任, from: 1971, to: 1975 }
+    - { name: 贾启允, title: 主任, from: 1975, to: 1977 }
+    - { name: 安平生, title: 主任, from: 1977, to: 1979-12 }

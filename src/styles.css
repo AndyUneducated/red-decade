@@ -1444,10 +1444,16 @@ h2.sec {
   transform: translateY(-3px);
 }
 .org-row .cnt {
+  overflow: hidden;
   color: var(--muted);
   font-size: 11.5px;
   text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   font-variant-numeric: tabular-nums;
+}
+.org-row .cnt [data-person] {
+  color: var(--ink-2);
 }
 .orglink {
   color: inherit;
@@ -1512,8 +1518,18 @@ h2.sec {
 .tenure:not([data-on]) .tt {
   color: var(--muted);
 }
-.tenure[data-on] button {
+.tenure[data-on] button,
+.tenure[data-on] .nolink {
   font-weight: 600;
+}
+.tenure .nolink {
+  overflow: hidden;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.succession {
+  margin: 4px 0 12px;
+  font-family: var(--sans);
 }
 .muted-note {
   margin: 6px 0 0;

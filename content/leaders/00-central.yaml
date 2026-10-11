@@ -1,0 +1,766 @@
+# Heads of orgs in content/orgs/00-central.yaml: org id → succession, founding to 1989 where known.
+# Written from general reference (组织史资料 and standard chronologies); no entry here has been checked
+# against a primary source yet, so all count as 待核. People not in people.yaml are listed by name only.
+# Overlapping entries are allowed (e.g. a nominal chair and the vice-chair who ran daily work).
+
+cc:
+  - { name: 陈独秀, title: 中央局书记, from: 1921-07, to: 1922-07 }
+  - { name: 陈独秀, title: 中央执行委员会委员长, from: 1922-07, to: 1925-01 }
+  - { name: 陈独秀, title: 中央执行委员会总书记, from: 1925-01, to: 1927-07 }
+  - { name: 瞿秋白, title: 中央临时政治局常委（主持工作）, from: 1927-08, to: 1928-06 }
+  - { name: 向忠发, title: 中央政治局主席、常委会主席, from: 1928-07, to: 1931-06, note: 期间李立三、王明先后实际主持中央工作 }
+  - { name: 李立三, title: 中央政治局常委、宣传部长（实际主持工作）, from: 1928-11, to: 1930-09 }
+  - { name: 王明, title: 中央政治局常委（实际主持工作）, from: 1931-01, to: 1931-10 }
+  - { name: 博古, title: 临时中央负总责, from: 1931-09, to: 1935-01, note: 本名秦邦宪 }
+  - { name: 张闻天, title: 中央负总责, from: 1935-02, to: 1943-03 }
+  - { name: 毛泽东, title: 中央政治局主席、中央书记处主席, from: 1943-03, to: 1945-06 }
+  - { name: 毛泽东, title: 中央委员会主席, from: 1945-06, to: 1976-09-09 }
+  - { name: 华国锋, title: 中央委员会主席, from: 1976-10-07, to: 1981-06-29 }
+  - { name: 胡耀邦, title: 中央委员会主席, from: 1981-06-29, to: 1982-09-12 }
+  - { name: 胡耀邦, title: 中央委员会总书记, from: 1982-09-12, to: 1987-01-16 }
+  - { name: 赵紫阳, title: 中央委员会代理总书记, from: 1987-01-16, to: 1987-11-02 }
+  - { name: 赵紫阳, title: 中央委员会总书记, from: 1987-11-02, to: 1989-06-24 }
+  - { name: 江泽民, title: 中央委员会总书记, from: 1989-06-24 }
+
+politburo:
+  - { name: 瞿秋白, title: 临时政治局常委（主持工作）, from: 1927-08, to: 1928-06 }
+  - { name: 向忠发, title: 政治局主席, from: 1928-07, to: 1931-06 }
+  - { name: 博古, title: 临时中央政治局负总责, from: 1931-09, to: 1935-01 }
+  - { name: 张闻天, title: 中央负总责, from: 1935-02, to: 1943-03 }
+  - { name: 毛泽东, title: 政治局主席, from: 1943-03, to: 1976-09-09, note: 1945 年起为中央委员会主席，主持政治局 }
+  - { name: 华国锋, title: 中央委员会主席（主持政治局）, from: 1976-10-07, to: 1981-06-29 }
+  - { name: 胡耀邦, title: 中央委员会主席、总书记（主持政治局）, from: 1981-06-29, to: 1987-01-16 }
+  - { name: 赵紫阳, title: 代理总书记、总书记（主持政治局）, from: 1987-01-16, to: 1989-06-24 }
+  - { name: 江泽民, title: 总书记（主持政治局）, from: 1989-06-24 }
+
+psc:
+  - { name: 向忠发, title: 常委会主席, from: 1928-07, to: 1931-06 }
+  - { name: 博古, title: 负总责, from: 1931-09, to: 1934-01, note: 1934 年起常委会由书记处代行 }
+  - { name: 毛泽东, title: 中央委员会主席（主持常委会）, from: 1956-09, to: 1976-09-09 }
+  - { name: 华国锋, title: 中央委员会主席（主持常委会）, from: 1976-10-07, to: 1981-06-29 }
+  - { name: 胡耀邦, title: 主席、总书记（主持常委会）, from: 1981-06-29, to: 1987-01-16 }
+  - { name: 赵紫阳, title: 代理总书记、总书记（主持常委会）, from: 1987-01-16, to: 1989-06-24 }
+  - { name: 江泽民, title: 总书记（主持常委会）, from: 1989-06-24 }
+
+secretariat:
+  - { name: 博古, title: 中央书记处负总责, from: 1934-01, to: 1935-01 }
+  - { name: 张闻天, title: 中央书记处负总责, from: 1935-02, to: 1943-03 }
+  - { name: 毛泽东, title: 中央书记处主席, from: 1943-03, to: 1956-09 }
+  - { name: 邓小平, title: 中央委员会总书记（书记处）, from: 1956-09-28, to: 1966-08 }
+  - { name: 胡耀邦, title: 中央委员会总书记（书记处）, from: 1980-02-29, to: 1987-01-16 }
+  - { name: 赵紫阳, title: 代理总书记、总书记, from: 1987-01-16, to: 1989-06-24 }
+  - { name: 江泽民, title: 总书记, from: 1989-06-24 }
+
+cmc:
+  - { name: 朱德, title: 中华苏维埃共和国中央革命军事委员会主席, from: 1931-11, to: 1936-12, note: 1933–1935 年作战指挥实际由博古、李德掌握 }
+  - { name: 毛泽东, title: 中华苏维埃共和国中央革命军事委员会主席, from: 1936-12, to: 1937-08 }
+  - { name: 毛泽东, title: 中共中央革命军事委员会主席, from: 1937-08, to: 1976-09-09, note: 1949–1954 年同时为中央人民政府人民革命军事委员会主席 }
+  - { name: 彭德怀, title: 军委副主席（主持日常工作）, from: 1952-07, to: 1959-09 }
+  - { name: 林彪, title: 军委副主席（主持日常工作）, from: 1959-09, to: 1971-09-13 }
+  - { name: 叶剑英, title: 军委副主席（主持日常工作）, from: 1971-10, to: 1977-07 }
+  - { name: 华国锋, title: 中央军委主席, from: 1976-10-07, to: 1981-06-29 }
+  - { name: 邓小平, title: 中央军委主席, from: 1981-06-29, to: 1989-11-09 }
+  - { name: 江泽民, title: 中央军委主席, from: 1989-11-09 }
+
+cmc-office:
+  - { name: 吴法宪, title: 组长, from: 1967-08, to: 1968-03 }
+  - { name: 黄永胜, title: 组长, from: 1968-03, to: 1971-09-13 }
+
+lin-office:
+  - { name: 叶群, title: 主任, to: 1971-09-13 }
+
+general-office:
+  - { name: 杨尚昆, title: 主任, from: 1945-10, to: 1965-11 }
+  - { name: 汪东兴, title: 主任, from: 1965-11, to: 1978-12 }
+  - { name: 姚依林, title: 主任, from: 1978-12, to: 1982-04 }
+  - { name: 胡启立, title: 主任, from: 1982-04, to: 1983-06 }
+  - { name: 乔石, title: 主任, from: 1983-06, to: 1984-04 }
+  - { name: 王兆国, title: 主任, from: 1984-04, to: 1986-04 }
+  - { name: 温家宝, title: 主任, from: 1986-04 }
+
+propaganda:
+  - { name: 蔡和森, title: 部长, from: 1924-05, to: 1925-01 }
+  - { name: 彭述之, title: 部长, from: 1925-01, to: 1927-04 }
+  - { name: 蔡和森, title: 部长, from: 1927-05, to: 1927-08 }
+  - { name: 李立三, title: 部长, from: 1928-11, to: 1930-09 }
+  - { name: 张闻天, title: 部长, from: 1931, to: 1935, note: 1931–1935 年任职起止待考 }
+  - { name: 张闻天, title: 部长（兼）, from: 1937, to: 1943 }
+  - { name: 凯丰, title: 代理部长, from: 1943, to: 1945 }
+  - { name: 陆定一, title: 部长, from: 1945, to: 1966-05 }
+  - { name: 陶铸, title: 部长, from: 1966-06, to: 1967-01 }
+  - { name: 张平化, title: 部长, from: 1977-10, to: 1978-12, note: 1967–1977 年停止运转，无部长 }
+  - { name: 胡耀邦, title: 部长, from: 1978-12, to: 1980-02 }
+  - { name: 王任重, title: 部长, from: 1980-02, to: 1982-04 }
+  - { name: 邓力群, title: 部长, from: 1982-04, to: 1985-07 }
+  - { name: 朱厚泽, title: 部长, from: 1985-07, to: 1987-01 }
+  - { name: 王忍之, title: 部长, from: 1987-01 }
+
+org-dept:
+  - { name: 张国焘, title: 组织部主任、部长, from: 1925-01, to: 1927-07 }
+  - { name: 周恩来, title: 部长, from: 1928-11, to: 1931-12 }
+  - { name: 康生, title: 部长（临时中央）, from: 1932, to: 1933-07 }
+  - { name: 李维汉, title: 部长, from: 1933, to: 1935, note: 化名罗迈 }
+  - { name: 陈云, title: 部长, from: 1937-12, to: 1944-03 }
+  - { name: 彭真, title: 代理部长、部长, from: 1944-03, to: 1953-01, note: 1945 年后长期在东北、北京，部务由副部长主持 }
+  - { name: 饶漱石, title: 部长, from: 1953-01, to: 1954-03 }
+  - { name: 邓小平, title: 部长, from: 1954-04, to: 1956-11 }
+  - { name: 安子文, title: 部长, from: 1956-11, to: 1967 }
+  - { name: 郭玉峰, title: 中组部业务组组长、部长, from: 1969, to: 1977-12, note: 1975 年起称部长 }
+  - { name: 胡耀邦, title: 部长, from: 1977-12, to: 1978-12 }
+  - { name: 宋任穷, title: 部长, from: 1978-12, to: 1983-03 }
+  - { name: 陈野苹, title: 部长, from: 1983-03, to: 1984-07 }
+  - { name: 乔石, title: 部长, from: 1984-07, to: 1985-09 }
+  - { name: 尉健行, title: 部长, from: 1985-09, to: 1987-03 }
+  - { name: 宋平, title: 部长, from: 1987-03, to: 1989-11 }
+  - { name: 吕枫, title: 部长, from: 1989-11 }
+
+liaison:
+  - { name: 王稼祥, title: 部长, from: 1951-01, to: 1966 }
+  - { name: 耿飚, title: 部长, from: 1971-01, to: 1979-01, note: 1966–1971 年无部长，康生分管 }
+  - { name: 姬鹏飞, title: 部长, from: 1979-01, to: 1982-04 }
+  - { name: 乔石, title: 部长, from: 1982-04, to: 1983-06 }
+  - { name: 钱李仁, title: 部长, from: 1983-06, to: 1985-06 }
+  - { name: 朱良, title: 部长, from: 1985-06 }
+
+social-dept:
+  - { name: 康生, title: 部长, from: 1939-02, to: 1946 }
+  - { name: 李克农, title: 部长, from: 1946, to: 1949 }
+
+comintern-delegation:
+  - { name: 瞿秋白, title: 团长, from: 1928-07, to: 1930-07 }
+  - { name: 王明, title: 团长, from: 1931-11, to: 1937-11 }
+  - { name: 王稼祥, title: 团长, from: 1937-11, to: 1938-03 }
+  - { name: 任弼时, title: 团长, from: 1938-03, to: 1940-03 }
+
+ccrg:
+  - { name: 陈伯达, title: 组长, from: 1966-05-28, to: 1969-04 }
+  - { name: 江青, title: 第一副组长（代理组长）, from: 1966-05-28, to: 1969-04, note: 1966 年 8 月陈伯达病中起代理组长 }
+
+five-man:
+  - { name: 彭真, title: 组长, from: 1964-07, to: 1966-05-16 }
+
+red-flag:
+  - { name: 陈伯达, title: 总编辑, from: 1958-06, to: 1970-08 }
+  - { name: 姚文元, title: 主管, from: 1970-08, to: 1976-10-06, note: 庐山会议后由姚文元掌管 }
+  - { name: 熊复, title: 总编辑, from: 1977, to: 1988-06 }
+
+peoples-daily:
+  - { name: 张磐石, title: 社长, from: 1948-06, to: 1949-08 }
+  - { name: 邓拓, title: 总编辑（1954 年起兼社长）, from: 1948-06, to: 1958-08 }
+  - { name: 胡乔木, title: 社长, from: 1949-08, to: 1950 }
+  - { name: 吴冷西, title: 总编辑（1958 年起兼社长）, from: 1957-06, to: 1966-05 }
+  - { name: 陈伯达, title: 工作组组长（接管报社）, from: 1966-05-31, to: 1966-08 }
+  - { name: 唐平铸, title: 代理总编辑, from: 1966-07, to: 1967-01 }
+  - { name: 鲁瑛, title: 报社领导小组负责人, from: 1972, to: 1976-10 }
+  - { name: 胡绩伟, title: 总编辑（1982 年起任社长）, from: 1977, to: 1983 }
+  - { name: 秦川, title: 总编辑、社长, from: 1982, to: 1985 }
+  - { name: 钱李仁, title: 社长, from: 1985, to: 1989-07 }
+  - { name: 谭文瑞, title: 总编辑, from: 1986, to: 1989-07 }
+  - { name: 高狄, title: 社长, from: 1989-07 }
+  - { name: 邵华泽, title: 总编辑, from: 1989-07 }
+
+jiefang-yanan:
+  - { name: 博古, title: 社长, from: 1941-05, to: 1946-04-08 }
+  - { name: 杨松, title: 总编辑, from: 1941-05, to: 1942 }
+  - { name: 陆定一, title: 总编辑, from: 1942, to: 1945 }
+  - { name: 余光生, title: 总编辑, from: 1945, to: 1947-03 }
+  - { name: 廖承志, title: 社长, from: 1946-04, to: 1947-03 }
+
+advisory:
+  - { name: 邓小平, title: 主任, from: 1982-09, to: 1987-11 }
+  - { name: 陈云, title: 主任, from: 1987-11, to: 1992-10 }
+
+politics-law:
+  - { name: 彭真, title: 书记, from: 1980-01, to: 1982 }
+  - { name: 陈丕显, title: 书记, from: 1982, to: 1985-07 }
+  - { name: 乔石, title: 书记（1988 年起为中央政法领导小组组长）, from: 1985-07 }
+
+party-history:
+  - { name: 胡乔木, title: 中央党史领导小组组长, from: 1980 }
+  - { name: 胡绳, title: 主任, from: 1982 }
+
+special-procuratorate:
+  - { name: 黄火青, title: 厅长, from: 1980-09-29, to: 1981-01 }
+
+north-bureau:
+  - { name: 刘少奇, title: 书记, from: 1936, to: 1938-11 }
+  - { name: 杨尚昆, title: 书记, from: 1938-11, to: 1942 }
+  - { name: 彭德怀, title: 代理书记, from: 1942, to: 1943-09 }
+  - { name: 邓小平, title: 代理书记, from: 1943-09, to: 1945-08 }
+
+jcj-bureau:
+  - { name: 彭真, title: 书记, from: 1938, to: 1941 }
+  - { name: 聂荣臻, title: 书记, from: 1941, to: 1948-05 }
+
+central-plains:
+  - { name: 刘少奇, title: 书记, from: 1938-11, to: 1942 }
+  - { name: 邓小平, title: 第一书记, from: 1947, to: 1949-05, note: 1941–1947 年中原局并入华中局，1947 年重建 }
+
+south-bureau:
+  - { name: 周恩来, title: 书记, from: 1939-01, to: 1947-01 }
+
+soviet-bureau:
+  - { name: 项英, title: 代理书记, from: 1931-01, to: 1931-12 }
+  - { name: 周恩来, title: 书记, from: 1931-12, to: 1933-01 }
+  - { name: 博古, title: 书记（临时中央迁入后）, from: 1933-01, to: 1934-10 }
+
+nanchang-front:
+  - { name: 周恩来, title: 书记, from: 1927-07, to: 1927-10 }
+
+huaihai-front:
+  - { name: 邓小平, title: 书记, from: 1948-11, to: 1949-05 }
+
+ganyue-bureau:
+  - { name: 项英, title: 书记, from: 1934-10, to: 1937 }
+
+southwest-bureau:
+  - { name: 邓小平, title: 第一书记, from: 1949-11, to: 1952-07 }
+  - { name: 贺龙, title: 第二书记（主持）, from: 1952-07, to: 1954 }
+  - { name: 李井泉, title: 第一书记, from: 1960-11, to: 1967, note: 1954–1960 年撤销，1960 年重建 }
+
+central-south:
+  - { name: 林彪, title: 第一书记, from: 1949-12, to: 1954 }
+  - { name: 邓子恢, title: 第三书记（主持）, from: 1949-12, to: 1954, note: 林彪养病，邓子恢主持日常工作 }
+  - { name: 陶铸, title: 第一书记, from: 1961-01, to: 1966-06, note: 1954–1960 年撤销 }
+  - { name: 王任重, title: 第二书记（主持）, from: 1966-06, to: 1967 }
+
+north-china:
+  - { name: 刘少奇, title: 第一书记, from: 1948-05, to: 1949 }
+  - { name: 薄一波, title: 第一书记, from: 1949, to: 1954 }
+  - { name: 李雪峰, title: 第一书记, from: 1960-11, to: 1967, note: 1954–1960 年撤销 }
+
+northeast-bureau:
+  - { name: 彭真, title: 书记, from: 1945-09, to: 1946-06 }
+  - { name: 林彪, title: 书记, from: 1946-06, to: 1949-03 }
+  - { name: 高岗, title: 书记, from: 1949-03, to: 1954-08 }
+
+south-china-bureau:
+  - { name: 叶剑英, title: 第一书记, from: 1949-10, to: 1952 }
+  - { name: 陶铸, title: 代理第一书记, from: 1952, to: 1955 }
+
+manchuria-committee:
+  - { name: 陈为人, title: 书记, from: 1927-10, to: 1928-12 }
+  - { name: 刘少奇, title: 书记, from: 1929-06, to: 1929-08 }
+  - { name: 罗登贤, title: 书记, from: 1931, to: 1932 }
+
+shandong-bureau:
+  - { name: 郭洪涛, title: 书记, from: 1938-12, to: 1939 }
+  - { name: 朱瑞, title: 书记, from: 1940, to: 1943 }
+  - { name: 罗荣桓, title: 书记, from: 1943, to: 1945 }
+  - { name: 饶漱石, title: 书记（华东局）, from: 1945, to: 1949, note: 1945 年改为华东局，1949 年后复设山东分局 }
+  - { name: 康生, title: 书记, from: 1949, to: 1950 }
+  - { name: 向明, title: 第二书记（主持）, from: 1950, to: 1954 }
+
+bj-committee:
+  - { name: 彭真, title: 书记、第一书记, from: 1948-12, to: 1966-05 }
+  - { name: 李雪峰, title: 第一书记, from: 1966-05, to: 1967-04 }
+  - { name: 谢富治, title: 第一书记（市革委会党的核心小组组长）, from: 1971-03, to: 1972-03, note: 1967–1971 年市委停止活动 }
+  - { name: 吴德, title: 第一书记, from: 1972-10, to: 1978-10 }
+  - { name: 林乎加, title: 第一书记, from: 1978-10, to: 1981-01 }
+  - { name: 段君毅, title: 第一书记, from: 1981-01, to: 1984-06 }
+  - { name: 李锡铭, title: 书记, from: 1984-06 }
+
+bj-government:
+  - { name: 叶剑英, title: 市长, from: 1949-02, to: 1949-11 }
+  - { name: 聂荣臻, title: 市长, from: 1949-11, to: 1951-02 }
+  - { name: 彭真, title: 市长, from: 1951-02, to: 1966-05 }
+  - { name: 吴德, title: 代理市长, from: 1966-05, to: 1967-04-20 }
+  - { name: 林乎加, title: 市长, from: 1979-12, to: 1981-03, note: 1967–1979 年由市革委会代行 }
+  - { name: 焦若愚, title: 市长, from: 1981-03, to: 1983-04 }
+  - { name: 陈希同, title: 市长, from: 1983-04 }
+
+bj-revcom:
+  - { name: 谢富治, title: 主任, from: 1967-04-20, to: 1972-03-26 }
+  - { name: 吴德, title: 主任, from: 1972-10, to: 1978-10 }
+  - { name: 林乎加, title: 主任, from: 1978-10, to: 1979-12 }
+
+sh-committee:
+  - { name: 饶漱石, title: 第一书记, from: 1949-05, to: 1950 }
+  - { name: 陈毅, title: 第一书记, from: 1950, to: 1954 }
+  - { name: 柯庆施, title: 第一书记, from: 1954, to: 1965-04-09 }
+  - { name: 陈丕显, title: 第一书记, from: 1965-11, to: 1967-01 }
+  - { name: 张春桥, title: 第一书记（市革委会党的核心小组组长）, from: 1971-01, to: 1976-10-06, note: 1967–1971 年市委停止活动 }
+  - { name: 苏振华, title: 第一书记, from: 1976-10, to: 1979-02 }
+  - { name: 彭冲, title: 第一书记, from: 1979-02, to: 1980-04 }
+  - { name: 陈国栋, title: 第一书记, from: 1980-04, to: 1985-06 }
+  - { name: 芮杏文, title: 书记, from: 1985-06, to: 1987-11 }
+  - { name: 江泽民, title: 书记, from: 1987-11, to: 1989-08 }
+  - { name: 朱镕基, title: 书记, from: 1989-08 }
+
+sh-government:
+  - { name: 陈毅, title: 市长, from: 1949-05-28, to: 1958-11 }
+  - { name: 柯庆施, title: 市长, from: 1958-11, to: 1965-04-09 }
+  - { name: 曹荻秋, title: 市长, from: 1965-11, to: 1967-01 }
+  - { name: 汪道涵, title: 市长, from: 1981-04, to: 1985-07, note: 1967–1979 年由市革委会代行，1979–1981 年彭冲、苏振华后为市长待考 }
+  - { name: 江泽民, title: 市长, from: 1985-07, to: 1988-04 }
+  - { name: 朱镕基, title: 市长, from: 1988-04 }
+
+sh-commune:
+  - { name: 张春桥, title: 临时委员会主任, from: 1967-02-05, to: 1967-02-24 }
+
+sh-revcom:
+  - { name: 张春桥, title: 主任, from: 1967-02-24, to: 1976-10-06 }
+  - { name: 苏振华, title: 主任, from: 1976-10, to: 1979-02 }
+  - { name: 彭冲, title: 主任, from: 1979-02, to: 1979-12 }
+
+hubei-committee:
+  - { name: 李先念, title: 书记, from: 1949-05, to: 1954 }
+  - { name: 王任重, title: 第一书记, from: 1954, to: 1966-12 }
+  - { name: 张体学, title: 第二书记（主持）, from: 1966-12, to: 1967 }
+  - { name: 曾思玉, title: 第一书记（省革委会主任兼）, from: 1971-03, to: 1973-12 }
+  - { name: 赵辛初, title: 第一书记, from: 1975, to: 1978-08 }
+  - { name: 陈丕显, title: 第一书记, from: 1978-08, to: 1982-12 }
+  - { name: 关广富, title: 书记, from: 1983-03 }
+
+guangdong-committee:
+  - { name: 叶剑英, title: 第一书记, from: 1949-10, to: 1955 }
+  - { name: 陶铸, title: 第一书记, from: 1955, to: 1965-02 }
+  - { name: 赵紫阳, title: 第一书记, from: 1965-02, to: 1967 }
+  - { name: 刘兴元, title: 第一书记（省革委会主任兼）, from: 1971, to: 1972 }
+  - { name: 丁盛, title: 第一书记, from: 1972, to: 1974 }
+  - { name: 赵紫阳, title: 第一书记, from: 1974-04, to: 1975-10 }
+  - { name: 韦国清, title: 第一书记, from: 1975-10, to: 1978-12 }
+  - { name: 习仲勋, title: 第一书记, from: 1978-12, to: 1980-11 }
+  - { name: 任仲夷, title: 第一书记, from: 1980-11, to: 1985-07 }
+  - { name: 林若, title: 书记, from: 1985-07 }
+
+hebei-committee:
+  - { name: 林铁, title: 第一书记, from: 1949, to: 1966 }
+  - { name: 刘子厚, title: 第一书记, from: 1966, to: 1967 }
+  - { name: 刘子厚, title: 第一书记（省革委会主任兼）, from: 1971, to: 1979 }
+  - { name: 金明, title: 第一书记, from: 1979, to: 1982 }
+  - { name: 高扬, title: 第一书记、书记, from: 1982, to: 1985 }
+  - { name: 邢崇智, title: 书记, from: 1985 }
+
+hebei-revcom:
+  - { name: 李雪峰, title: 主任, from: 1968-02, to: 1971 }
+  - { name: 刘子厚, title: 主任, from: 1971, to: 1979-12 }
+
+yunnan-committee:
+  - { name: 宋任穷, title: 书记, from: 1950, to: 1952 }
+  - { name: 谢富治, title: 书记, from: 1952, to: 1959 }
+  - { name: 阎红彦, title: 第一书记, from: 1959, to: 1967-01-08, note: 被迫害致死 }
+  - { name: 谭甫仁, title: 第一书记（省革委会主任兼）, from: 1970, to: 1970-12-17, note: 遇刺身亡 }
+  - { name: 周兴, title: 第一书记, from: 1971, to: 1975 }
+  - { name: 贾启允, title: 第一书记, from: 1975, to: 1977 }
+  - { name: 安平生, title: 第一书记, from: 1977, to: 1985 }
+  - { name: 普朝柱, title: 书记, from: 1985 }
+
+chongqing-government:
+  - { name: 陈锡联, title: 市长, from: 1949-12, to: 1950 }
+  - { name: 曹荻秋, title: 市长, from: 1950, to: 1955 }
+  - { name: 任白戈, title: 市长, from: 1955, to: 1967 }
+
+central-government:
+  - { name: 毛泽东, title: 中央人民政府主席, from: 1949-10-01, to: 1954-09 }
+
+state-council:
+  - { name: 周恩来, title: 政务院总理、国务院总理, from: 1949-10-01, to: 1976-01-08 }
+  - { name: 华国锋, title: 代总理、总理, from: 1976-02, to: 1980-09 }
+  - { name: 赵紫阳, title: 总理, from: 1980-09, to: 1987-11 }
+  - { name: 李鹏, title: 代总理、总理, from: 1987-11 }
+
+prc-chair:
+  - { name: 毛泽东, title: 主席, from: 1954-09-27, to: 1959-04-27 }
+  - { name: 刘少奇, title: 主席, from: 1959-04-27, to: 1968-10 }
+  - { name: 董必武, title: 代主席, from: 1972-02, to: 1975-01, note: 1975 年宪法取消国家主席 }
+  - { name: 李先念, title: 主席, from: 1983-06, to: 1988-04, note: 1982 年宪法恢复 }
+  - { name: 杨尚昆, title: 主席, from: 1988-04 }
+
+npc:
+  - { name: 刘少奇, title: 委员长, from: 1954-09, to: 1959-04 }
+  - { name: 朱德, title: 委员长, from: 1959-04, to: 1976-07-06 }
+  - { name: 叶剑英, title: 委员长, from: 1978-03, to: 1983-06 }
+  - { name: 彭真, title: 委员长, from: 1983-06, to: 1988-04 }
+  - { name: 万里, title: 委员长, from: 1988-04 }
+
+cppcc:
+  - { name: 毛泽东, title: 主席, from: 1949-10, to: 1954-12 }
+  - { name: 周恩来, title: 主席, from: 1954-12, to: 1976-01-08 }
+  - { name: 邓小平, title: 主席, from: 1978-03, to: 1983-06 }
+  - { name: 邓颖超, title: 主席, from: 1983-06, to: 1988-04 }
+  - { name: 李先念, title: 主席, from: 1988-04 }
+
+foreign:
+  - { name: 周恩来, title: 部长, from: 1949-10, to: 1958-02 }
+  - { name: 陈毅, title: 部长, from: 1958-02, to: 1972-01-06, note: 1967 年后实际不能主持工作 }
+  - { name: 姬鹏飞, title: 代理部长、部长, from: 1971, to: 1974-11 }
+  - { name: 乔冠华, title: 部长, from: 1974-11, to: 1976-12 }
+  - { name: 黄华, title: 部长, from: 1976-12, to: 1982-11 }
+  - { name: 吴学谦, title: 部长, from: 1982-11, to: 1988-04 }
+  - { name: 钱其琛, title: 部长, from: 1988-04 }
+
+public-security:
+  - { name: 罗瑞卿, title: 部长, from: 1949-10, to: 1959-09 }
+  - { name: 谢富治, title: 部长, from: 1959-09, to: 1972-03-26 }
+  - { name: 李震, title: 部长, from: 1972, to: 1973-10 }
+  - { name: 华国锋, title: 部长, from: 1973, to: 1977-03 }
+  - { name: 赵苍璧, title: 部长, from: 1977-03, to: 1983-04 }
+  - { name: 刘复之, title: 部长, from: 1983-04, to: 1985-09 }
+  - { name: 阮崇武, title: 部长, from: 1985-09, to: 1987-04 }
+  - { name: 王芳, title: 部长, from: 1987-04 }
+
+defense:
+  - { name: 彭德怀, title: 部长, from: 1954-09, to: 1959-09 }
+  - { name: 林彪, title: 部长, from: 1959-09, to: 1971-09-13 }
+  - { name: 叶剑英, title: 部长, from: 1975-01, to: 1978-03 }
+  - { name: 徐向前, title: 部长, from: 1978-03, to: 1981-03 }
+  - { name: 耿飚, title: 部长, from: 1981-03, to: 1982-11 }
+  - { name: 张爱萍, title: 部长, from: 1982-11, to: 1988-04 }
+  - { name: 秦基伟, title: 部长, from: 1988-04 }
+
+culture-ministry:
+  - { name: 沈雁冰, title: 部长, from: 1949-10, to: 1965-01, note: 笔名茅盾 }
+  - { name: 陆定一, title: 部长（兼）, from: 1965-01, to: 1966-05 }
+  - { name: 萧望东, title: 代部长, from: 1966, to: 1967 }
+  - { name: 于会泳, title: 部长, from: 1975-01, to: 1976-10 }
+  - { name: 黄镇, title: 部长, from: 1977-12, to: 1981-03 }
+  - { name: 周巍峙, title: 代部长, from: 1981-03, to: 1982-05 }
+  - { name: 朱穆之, title: 部长, from: 1982-05, to: 1986-06 }
+  - { name: 王蒙, title: 部长, from: 1986-06, to: 1989-09 }
+  - { name: 贺敬之, title: 代部长, from: 1989-09 }
+
+railways:
+  - { name: 滕代远, title: 部长, from: 1949-10, to: 1965-01 }
+  - { name: 吕正操, title: 部长, from: 1965-01, to: 1967 }
+  - { name: 万里, title: 部长, from: 1975-01, to: 1976-04 }
+  - { name: 段君毅, title: 部长, from: 1976-12, to: 1978-10 }
+  - { name: 郭维城, title: 部长, from: 1978-10, to: 1981-03 }
+  - { name: 刘建章, title: 部长, from: 1981-03, to: 1982-05 }
+  - { name: 陈璞如, title: 部长, from: 1982-05, to: 1985-06 }
+  - { name: 丁关根, title: 部长, from: 1985-06, to: 1988-04 }
+  - { name: 李森茂, title: 部长, from: 1988-04 }
+
+education-ministry:
+  - { name: 马叙伦, title: 部长, from: 1949-10, to: 1952-11 }
+  - { name: 张奚若, title: 部长, from: 1952-11, to: 1958-02 }
+  - { name: 杨秀峰, title: 部长, from: 1958-02, to: 1964 }
+  - { name: 何伟, title: 部长, from: 1964, to: 1966 }
+  - { name: 周荣鑫, title: 部长, from: 1975-01, to: 1976-04-13, note: 1966–1975 年先后由国务院科教组代行 }
+  - { name: 刘西尧, title: 部长, from: 1976-10, to: 1979-02 }
+  - { name: 蒋南翔, title: 部长, from: 1979-02, to: 1982-05 }
+  - { name: 何东昌, title: 部长, from: 1982-05, to: 1985-06 }
+
+state-education:
+  - { name: 李鹏, title: 主任, from: 1985-06, to: 1988-04 }
+  - { name: 李铁映, title: 主任, from: 1988-04 }
+
+seventh-ministry:
+  - { name: 王秉璋, title: 部长, from: 1965-01, to: 1970 }
+  - { name: 宋任穷, title: 部长, from: 1977, to: 1978 }
+  - { name: 郑天翔, title: 部长, from: 1978, to: 1981 }
+  - { name: 张钧, title: 部长, from: 1981, to: 1982-05 }
+
+sports:
+  - { name: 贺龙, title: 主任, from: 1952-11, to: 1967 }
+  - { name: 王猛, title: 主任, from: 1974, to: 1981, note: 1967–1974 年由军队军管 }
+  - { name: 李梦华, title: 主任, from: 1981, to: 1988 }
+  - { name: 伍绍祖, title: 主任, from: 1988 }
+
+family-planning:
+  - { name: 陈慕华, title: 主任, from: 1981-03, to: 1982-05 }
+  - { name: 钱信忠, title: 主任, from: 1982-05, to: 1983-12 }
+  - { name: 王伟, title: 主任, from: 1983-12, to: 1988-01 }
+  - { name: 彭珮云, title: 主任, from: 1988-01 }
+
+broadcasting:
+  - { name: 吴冷西, title: 部长, from: 1982-05, to: 1986-01 }
+
+supreme-court:
+  - { name: 沈钧儒, title: 院长, from: 1949-10, to: 1954-09 }
+  - { name: 董必武, title: 院长, from: 1954-09, to: 1959-04 }
+  - { name: 谢觉哉, title: 院长, from: 1959-04, to: 1965-01 }
+  - { name: 杨秀峰, title: 院长, from: 1965-01, to: 1975-01 }
+  - { name: 江华, title: 院长, from: 1975-01, to: 1983-06 }
+  - { name: 郑天翔, title: 院长, from: 1983-06, to: 1988-04 }
+  - { name: 任建新, title: 院长, from: 1988-04 }
+
+special-court:
+  - { name: 江华, title: 庭长, from: 1980-09-29, to: 1981-01-25 }
+
+procuratorate:
+  - { name: 罗荣桓, title: 检察长, from: 1949-10, to: 1954-09 }
+  - { name: 张鼎丞, title: 检察长, from: 1954-09, to: 1975-01, note: 1975 年宪法撤销检察机关 }
+  - { name: 黄火青, title: 检察长, from: 1978-03, to: 1983-06 }
+  - { name: 杨易辰, title: 检察长, from: 1983-06, to: 1988-04 }
+  - { name: 刘复之, title: 检察长, from: 1988-04 }
+
+xinhua:
+  - { name: 胡乔木, title: 社长, from: 1949, to: 1950 }
+  - { name: 陈克寒, title: 社长, from: 1950, to: 1952 }
+  - { name: 吴冷西, title: 社长, from: 1952, to: 1966-05 }
+  - { name: 朱穆之, title: 社长, from: 1972, to: 1977 }
+  - { name: 曾涛, title: 社长, from: 1977, to: 1982 }
+  - { name: 穆青, title: 社长, from: 1982 }
+
+cas:
+  - { name: 郭沫若, title: 院长, from: 1949-11, to: 1978-06-12 }
+  - { name: 方毅, title: 院长, from: 1979-01, to: 1981-05 }
+  - { name: 卢嘉锡, title: 院长, from: 1981-05, to: 1987-01 }
+  - { name: 周光召, title: 院长, from: 1987-01 }
+
+cass:
+  - { name: 胡乔木, title: 院长, from: 1977-05, to: 1982-05 }
+  - { name: 马洪, title: 院长, from: 1982-05, to: 1985-04 }
+  - { name: 胡绳, title: 院长, from: 1985-04 }
+
+third-front:
+  - { name: 李井泉, title: 主任, from: 1965, to: 1967 }
+  - { name: 彭德怀, title: 第三副主任, from: 1965-11, to: 1966-12 }
+
+military-mediation:
+  - { name: 叶剑英, title: 中共方面委员, from: 1946-01, to: 1947-02 }
+
+red-army:
+  - { name: 朱德, title: 总司令, from: 1930-08, to: 1937-08, note: 1930 年 8 月红一方面军成立起称总司令 }
+  - { name: 毛泽东, title: 总政治委员, from: 1930-08, to: 1932-10 }
+  - { name: 周恩来, title: 总政治委员, from: 1933-05, to: 1935-01 }
+
+red-4th:
+  - { name: 朱德, title: 军长, from: 1928-04, to: 1930-06 }
+  - { name: 毛泽东, title: 党代表、前委书记, from: 1928-04, to: 1930-06, note: 1929 年 6 月至 11 月由陈毅代理前委书记 }
+
+red-5th:
+  - { name: 彭德怀, title: 军长, from: 1928-07, to: 1930-06 }
+  - { name: 滕代远, title: 党代表, from: 1928-07, to: 1930-06 }
+
+red-7th:
+  - { name: 张云逸, title: 军长, from: 1929-12, to: 1931 }
+  - { name: 邓小平, title: 政治委员、前委书记, from: 1929-12, to: 1931 }
+  - { name: 李明瑞, title: 总指挥, from: 1929-12, to: 1931 }
+
+red-1st-corps:
+  - { name: 朱德, title: 总指挥, from: 1930-08, to: 1931-11 }
+  - { name: 林彪, title: 军团长, from: 1932-03, to: 1935-11 }
+  - { name: 聂荣臻, title: 政治委员, from: 1932-03, to: 1937-08 }
+  - { name: 左权, title: 代军团长, from: 1936, to: 1937-08 }
+
+red-3rd-corps:
+  - { name: 彭德怀, title: 军团长, from: 1930-06, to: 1937-08 }
+  - { name: 滕代远, title: 政治委员, from: 1930-06, to: 1932 }
+  - { name: 杨尚昆, title: 政治委员, from: 1933, to: 1937-08 }
+
+red-2nd-corps:
+  - { name: 贺龙, title: 总指挥、军团长, from: 1930-07, to: 1936-07 }
+  - { name: 周逸群, title: 政治委员, from: 1930-07, to: 1931 }
+  - { name: 任弼时, title: 政治委员, from: 1934-10, to: 1936-07 }
+
+red-2nd-front:
+  - { name: 贺龙, title: 总指挥, from: 1936-07, to: 1937-08 }
+  - { name: 任弼时, title: 政治委员, from: 1936-07, to: 1937-08 }
+
+kangda:
+  - { name: 林彪, title: 校长, from: 1936-06, to: 1938-03 }
+  - { name: 罗瑞卿, title: 教育长、代校长, from: 1938-03, to: 1939 }
+  - { name: 徐向前, title: 代校长, from: 1942, to: 1944 }
+  - { name: 何长工, title: 代校长, from: 1944, to: 1945 }
+
+huangpu:
+  - { name: 蒋介石, title: 校长, from: 1924-06 }
+  - { name: 廖仲恺, title: 党代表, from: 1924-06, to: 1925-08-20 }
+
+eighth-route:
+  - { name: 朱德, title: 总指挥、总司令, from: 1937-08, to: 1947 }
+  - { name: 彭德怀, title: 副总指挥、副总司令, from: 1937-08, to: 1947 }
+
+div-115:
+  - { name: 林彪, title: 师长, from: 1937-08, to: 1938-03 }
+  - { name: 聂荣臻, title: 副师长, from: 1937-08, to: 1937-11 }
+  - { name: 陈光, title: 代师长, from: 1938-03, to: 1943 }
+  - { name: 罗荣桓, title: 政治委员、代师长, from: 1938, to: 1945 }
+
+div-120:
+  - { name: 贺龙, title: 师长, from: 1937-08, to: 1945 }
+  - { name: 关向应, title: 政治委员, from: 1937-08, to: 1945 }
+
+div-129:
+  - { name: 刘伯承, title: 师长, from: 1937-08, to: 1945 }
+  - { name: 张浩, title: 政治委员, from: 1937-08, to: 1938-01 }
+  - { name: 邓小平, title: 政治委员, from: 1938-01, to: 1945 }
+
+new-fourth:
+  - { name: 叶挺, title: 军长, from: 1937-10, to: 1941-01 }
+  - { name: 项英, title: 副军长, from: 1937-10, to: 1941-03 }
+  - { name: 陈毅, title: 代军长, from: 1941-01, to: 1947-01 }
+  - { name: 刘少奇, title: 政治委员, from: 1941-01, to: 1942 }
+  - { name: 饶漱石, title: 代政治委员、政治委员, from: 1942, to: 1947-01 }
+
+pla:
+  - { name: 朱德, title: 总司令, from: 1947, to: 1954-09 }
+
+field-1:
+  - { name: 彭德怀, title: 司令员兼政治委员, from: 1947-07, to: 1950 }
+
+field-2:
+  - { name: 刘伯承, title: 司令员, from: 1949-02, to: 1950 }
+  - { name: 邓小平, title: 政治委员, from: 1949-02, to: 1950 }
+
+field-3:
+  - { name: 陈毅, title: 司令员兼政治委员, from: 1947-01, to: 1950 }
+  - { name: 粟裕, title: 副司令员（代司令员）, from: 1948, to: 1950 }
+
+field-4:
+  - { name: 林彪, title: 司令员, from: 1946-01, to: 1950 }
+  - { name: 罗荣桓, title: 政治委员, from: 1946-01, to: 1950 }
+
+general-staff:
+  - { name: 徐向前, title: 总参谋长, from: 1949-10, to: 1950 }
+  - { name: 聂荣臻, title: 代总参谋长, from: 1950, to: 1954 }
+  - { name: 粟裕, title: 总参谋长, from: 1954, to: 1958-10 }
+  - { name: 黄克诚, title: 总参谋长, from: 1958-10, to: 1959-09 }
+  - { name: 罗瑞卿, title: 总参谋长, from: 1959-09, to: 1965-12 }
+  - { name: 杨成武, title: 代总参谋长, from: 1966-08, to: 1968-03 }
+  - { name: 黄永胜, title: 总参谋长, from: 1968-03, to: 1971-09-13 }
+  - { name: 邓小平, title: 总参谋长, from: 1975-01, to: 1976-04-07 }
+  - { name: 邓小平, title: 总参谋长, from: 1977-07, to: 1980-02 }
+  - { name: 杨得志, title: 总参谋长, from: 1980-02, to: 1987-11 }
+  - { name: 迟浩田, title: 总参谋长, from: 1987-11 }
+
+general-political:
+  - { name: 罗荣桓, title: 主任, from: 1950-04, to: 1956-12 }
+  - { name: 谭政, title: 主任, from: 1956-12, to: 1961 }
+  - { name: 罗荣桓, title: 主任, from: 1961, to: 1963-12-16 }
+  - { name: 萧华, title: 主任, from: 1964, to: 1967 }
+  - { name: 李德生, title: 主任, from: 1970, to: 1974 }
+  - { name: 张春桥, title: 主任, from: 1975-01, to: 1976-10-06 }
+  - { name: 韦国清, title: 主任, from: 1977, to: 1982-09 }
+  - { name: 余秋里, title: 主任, from: 1982-09, to: 1987-11 }
+  - { name: 杨白冰, title: 主任, from: 1987-11 }
+
+air-force:
+  - { name: 刘亚楼, title: 司令员, from: 1949-11, to: 1965-05-07 }
+  - { name: 吴法宪, title: 司令员, from: 1965-05, to: 1971-09 }
+  - { name: 马宁, title: 司令员, from: 1973, to: 1977 }
+  - { name: 张廷发, title: 司令员, from: 1977, to: 1985 }
+  - { name: 王海, title: 司令员, from: 1985 }
+
+pla-cr:
+  - { name: 刘志坚, title: 组长, from: 1966-08, to: 1967-01 }
+  - { name: 徐向前, title: 组长, from: 1967-01, to: 1967-08 }
+
+northwest-mr:
+  - { name: 彭德怀, title: 司令员, from: 1949, to: 1955-02 }
+  - { name: 贺龙, title: 司令员（主持）, from: 1949, to: 1950 }
+
+southwest-mr:
+  - { name: 贺龙, title: 司令员, from: 1949-12, to: 1955-04 }
+  - { name: 邓小平, title: 政治委员, from: 1949-12, to: 1952 }
+
+cpv:
+  - { name: 彭德怀, title: 司令员兼政治委员, from: 1950-10, to: 1954 }
+  - { name: 邓华, title: 代司令员、司令员, from: 1954, to: 1955 }
+  - { name: 杨得志, title: 司令员, from: 1955, to: 1955 }
+  - { name: 杨勇, title: 司令员, from: 1955, to: 1958-10 }
+
+nra-20th:
+  - { name: 贺龙, title: 军长, to: 1927-10 }
+
+ccyl:
+  - { name: 施存统, title: 中央执行委员会书记, from: 1922-05, to: 1923 }
+  - { name: 任弼时, title: 书记, from: 1925, to: 1927 }
+  - { name: 冯文彬, title: 中央委员会书记, from: 1949-04, to: 1953 }
+  - { name: 胡耀邦, title: 第一书记, from: 1953-07, to: 1966-08 }
+  - { name: 王兴, title: 中央委员会书记（核心小组）, from: 1973, to: 1978 }
+  - { name: 韩英, title: 第一书记, from: 1978-10, to: 1982-12 }
+  - { name: 王兆国, title: 第一书记, from: 1982-12, to: 1984-12 }
+  - { name: 胡锦涛, title: 第一书记, from: 1984-12, to: 1985-07 }
+  - { name: 宋德福, title: 第一书记, from: 1985-07 }
+
+acwf:
+  - { name: 蔡畅, title: 主席, from: 1949-03, to: 1978-09 }
+  - { name: 康克清, title: 主席, from: 1978-09, to: 1988-09 }
+  - { name: 陈慕华, title: 主席, from: 1988-09 }
+
+acftu:
+  - { name: 林伟民, title: 委员长, from: 1925-05, to: 1927 }
+  - { name: 苏兆征, title: 委员长, from: 1927, to: 1929-02-25 }
+  - { name: 陈云, title: 主席, from: 1948-08, to: 1953 }
+  - { name: 赖若愚, title: 主席, from: 1953, to: 1958-05 }
+  - { name: 刘宁一, title: 主席, from: 1958, to: 1966 }
+  - { name: 倪志福, title: 主席, from: 1978-10, to: 1993 }
+
+hubei-unions:
+  - { name: 向忠发, title: 委员长, to: 1927-07 }
+
+cflac:
+  - { name: 郭沫若, title: 主席, from: 1949-07, to: 1978-06-12 }
+  - { name: 周扬, title: 主席, from: 1979-11, to: 1988 }
+  - { name: 曹禺, title: 主席, from: 1988 }
+
+writers:
+  - { name: 茅盾, title: 主席, from: 1949-07, to: 1981-03-27 }
+  - { name: 巴金, title: 主席, from: 1984 }
+
+bj-cflac:
+  - { name: 老舍, title: 主席, from: 1950-05, to: 1966-08-24 }
+
+left-league:
+  - { name: 周扬, title: 党团书记, from: 1933, to: 1936 }
+
+democratic-league:
+  - { name: 黄炎培, title: 主席, from: 1941-03, to: 1941-10 }
+  - { name: 张澜, title: 主席, from: 1941-10, to: 1955-02 }
+  - { name: 沈钧儒, title: 主席, from: 1956, to: 1963-06 }
+  - { name: 杨明轩, title: 代主席, from: 1963, to: 1967 }
+  - { name: 胡愈之, title: 代主席, from: 1979, to: 1986-01 }
+  - { name: 楚图南, title: 主席, from: 1987-01 }
+
+sansi:
+  - { name: 蒯大富, title: 主要负责人, from: 1966-09-06, to: 1967-02-22 }
+
+hongdaihui:
+  - { name: 聂元梓, title: 核心组组长, from: 1967-02-22, to: 1968-12 }
+
+jinggangshan:
+  - { name: 蒯大富, title: 总部负责人, from: 1966-12-19, to: 1968-07 }
+
+wgs:
+  - { name: 王洪文, title: 司令, from: 1966-11-09, to: 1976-10 }
+
+chiweidui:
+  - { name: 王玉玺, title: 总部负责人, from: 1966-12, to: 1966-12-30 }
+
+pku-crc:
+  - { name: 聂元梓, title: 主任, from: 1966-09, to: 1969-09 }
+
+pku-workteam:
+  - { name: 张承先, title: 组长, from: 1966-06-03, to: 1966-07-28 }
+
+qinghua-workteam:
+  - { name: 叶林, title: 组长, from: 1966-06-09, to: 1966-07-28 }
+  - { name: 王光美, title: 顾问, from: 1966-06-19, to: 1966-07-28 }
+
+pku:
+  - { name: 马寅初, title: 校长, from: 1951-06, to: 1960-03 }
+  - { name: 陆平, title: 党委书记兼校长, from: 1960-03, to: 1966-06 }
+  - { name: 周培源, title: 革委会副主任、校长, from: 1972, to: 1981-03 }
+  - { name: 张龙翔, title: 校长, from: 1981-03, to: 1984-03 }
+  - { name: 丁石孙, title: 校长, from: 1984-03, to: 1989-08 }
+  - { name: 吴树青, title: 校长, from: 1989-08 }
+
+qinghua:
+  - { name: 蒋南翔, title: 校长兼党委书记, from: 1952-12, to: 1966-06 }
+  - { name: 刘达, title: 校长, from: 1977, to: 1983 }
+  - { name: 高景德, title: 校长, from: 1983, to: 1988 }
+  - { name: 张孝文, title: 校长, from: 1988 }
+
+bnu-girls:
+  - { name: 卞仲耘, title: 副校长、党总支书记（主持校务）, to: 1966-08-05 }
+
+lianda:
+  - { name: 梅贻琦, title: 常委会主席, from: 1938-04, to: 1946-07, note: 三校校长蒋梦麟、梅贻琦、张伯苓组成常委会，梅贻琦主持 }
+
+luyi:
+  - { name: 毛泽东, title: 院董, from: 1938-04, to: 1945 }
+  - { name: 周扬, title: 副院长（主持）, from: 1939, to: 1945 }
+
+jiefang-shanghai:
+  - { name: 范长江, title: 社长, from: 1949-05, to: 1950 }
+  - { name: 张春桥, title: 社长、总编辑, from: 1950, to: 1958 }
+
+jcj-daily:
+  - { name: 邓拓, title: 社长兼总编辑, from: 1937-12, to: 1948-06 }
+
+jiuwang-daily:
+  - { name: 郭沫若, title: 社长, from: 1937-08, to: 1941-02 }
+  - { name: 夏衍, title: 总编辑, from: 1937-08, to: 1941-02 }

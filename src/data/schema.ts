@@ -112,6 +112,18 @@ export type OrgLink = keyof typeof ORG_LINKS
 
 const Span = { from: PartialDate.optional(), to: PartialDate.optional() }
 
+// A head of an org, including people not in people.yaml (shown without a link); person is filled at
+// build time when name matches someone in the atlas. title is the exact title (第一书记、主任、司令员…).
+// Entries without cite come from general reference and count as 待核.
+export const LeaderSchema = z.object({
+  name: z.string(),
+  person: z.string().optional(),
+  title: z.string(),
+  ...Span,
+  note: z.string().optional(),
+  cite: Cite.optional(),
+})
+
 // aliases are matched against positions.orgName (and the start of positions.title) at build time,
 // so positions need not name the org id explicitly
 export const OrgSchema = z.object({
@@ -140,22 +152,8 @@ export const OrgSchema = z.object({
     )
     .default([]),
   factions: z.array(z.string()).default([]),
-  // Succession of heads, including people not in people.yaml (shown without a link). person is filled
-  // by build-data when name matches a person in the atlas. title is the head's exact title (第一书记、主任…).
-  leaders: z
-    .array(
-      z.object({
-        name: z.string(),
-        person: z.string().optional(),
-        title: z.string(),
-        ...Span,
-        acting: z.boolean().optional(),
-        note: z.string().optional(),
-        cite: Cite.optional(),
-        verify: z.boolean().optional(),
-      }),
-    )
-    .default([]),
+  // Succession of heads; usually kept in content/leaders/*.yaml (org id → list) and merged at build.
+  leaders: z.array(LeaderSchema).default([]),
   summary: z.string(),
   cites: z.array(Cite).default([]),
   verify: z.boolean().optional(),

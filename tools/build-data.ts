@@ -11,6 +11,7 @@ import {
   DocumentSchema,
   EventSchema,
   FactionSchema,
+  LeaderSchema,
   OrgSchema,
   PersonSchema,
   PlaceSchema,
@@ -79,7 +80,13 @@ const relations = load(RelationSchema, read('content', 'relations.yaml'), 'relat
 const concepts = load(ConceptSchema, read('content', 'concepts.yaml'), 'concepts')
 const documents = load(DocumentSchema, read('content', 'documents.yaml'), 'documents')
 const claims = load(ClaimSchema, read('research', 'claims.yaml'), 'claims')
-const orgs = load(OrgSchema, read('content', 'orgs.yaml'), 'orgs')
+const orgs = yamlFiles('content', 'orgs').flatMap((p) => load(OrgSchema, read(...p), p.join('/')))
+for (const p of yamlFiles('content', 'leaders'))
+  for (const [id, list] of Object.entries((read(...p) ?? {}) as Record<string, unknown>)) {
+    const o = orgs.find((o) => o.id === id)
+    if (!o) errors.push(`${p.join('/')}: unknown org "${id}"`)
+    else o.leaders.push(...load(LeaderSchema, list, `${p.join('/')} ${id}`))
+  }
 const places = load(PlaceSchema, read('content', 'places.yaml'), 'places')
 
 // ── derived links: positions → orgs, birth/death strings → places ──
@@ -232,12 +239,10 @@ for (const o of orgs) {
     if (l.person) need(ids.person, l.person, `${where} leader ${l.name}`)
     needCite(l.cite, `${where} leader ${l.name}`)
     span(l, `leader ${l.name}`)
-    if (!l.cite && !l.verify && !o.cites.length) errors.push(`${where} leader ${l.name}: no cite and not marked verify`)
+    if (o.from && l.from && after(o.from, l.from)) errors.push(`${where} leader ${l.name}: starts ${l.from} before the org (${o.from})`)
+    if (o.to && l.to && after(l.to, o.to)) errors.push(`${where} leader ${l.name}: ends ${l.to} after the org (${o.to})`)
   }
-  for (let i = 1; i < o.leaders.length; i++) {
-    const a = o.leaders[i - 1].from, b = o.leaders[i].from
-    if (a && b && after(a, b)) errors.push(`${where}: leaders out of order at ${o.leaders[i].name}`)
-  }
+  o.leaders.sort((a, b) => (a.from ?? o.from ?? '').localeCompare(b.from ?? o.from ?? ''))
 }
 for (const e of events) {
   e.people.forEach((id) => need(ids.person, id, `event ${e.id}`))
@@ -359,6 +364,7 @@ console.log(
     `people     ${people.length}  (${people.filter((p) => p.life.length >= 3).length} full bios, avg ${(people.reduce((s, p) => s + p.fate.length, 0) / people.length).toFixed(1)} fate nodes)`,
     `factions   ${factions.length}`,
     `orgs       ${orgs.length}  (${verified(orgs)} sourced; ${positionsLinked}/${positionsAll} positions linked)`,
+    `leaders    ${orgs.reduce((n, o) => n + o.leaders.length, 0)} in ${orgs.filter((o) => o.leaders.length).length} orgs  (${orgs.reduce((n, o) => n + o.leaders.filter((l) => l.person).length, 0)} linked to people, ${orgs.reduce((n, o) => n + o.leaders.filter((l) => l.cite).length, 0)} sourced)`,
     `places     ${places.length}  (birth ${people.filter((p) => p.birthAt).length}/${people.filter((p) => p.birthplace).length}, death ${people.filter((p) => p.deathAt).length}/${people.filter((p) => p.deathPlace).length} resolved)`,
     `events     ${events.length}  (${verified(events)} sourced, ${events.length - verified(events)} 待核)`,
     `relations  ${relations.length}`,
