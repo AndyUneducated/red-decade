@@ -4086,62 +4086,297 @@
 
 - id: cao-diqiu
   name: 曹荻秋
+  pinyin: Cáo Díqiū
+  gender: m
+  ethnicity: 汉族
+  birthplace: 四川资阳
+  origin: 四川资阳
   born: 1909
   died: 1976-03-29
-  death: 被迫害致死
+  deathKind: persecuted
+  deathPlace: 上海
+  party: 中国共产党
+  positions:
+    - { title: 重庆市市长, orgName: 重庆市人民政府, from: 1952, to: 1954, verify: true }
+    - { title: 中共上海市委书记处书记, orgName: 中共上海市委, from: 1955, to: 1967-01, verify: true }
+    - { title: 上海市市长, orgName: 上海市人民委员会, from: 1965-11, to: 1967-01, cite: ws-1982-xu-jingxian-case, verify: true }
+  rehab:
+    - { date: 1978, text: 中共上海市委为曹荻秋平反昭雪，举行追悼会, verify: true }
   tier: 3
   role1966: 上海市长、市委书记
-  bio: 1966 年 4 月 1 日深夜接到彭真两次电话（官方大事记）。1980 年起诉书：1968 年被张春桥、姚文元诬为“叛徒”，“被迫害致死”。
+  bio: 四川资阳人，早年参加革命，建国后任重庆市长，1955 年调上海，1965 年起任上海市长。1966 年 4 月 1 日深夜接到彭真两次电话。1966 年底在安亭事件、康平路事件中处于造反派与赤卫队之间，1967 年 1 月上海“一月夺权”中被宣布“不再承认”为市长，此后被诬为“叛徒”，长期关押批斗，1976 年 3 月被迫害致死。1980 年起诉书和 1981 年判决书把他与副市长金仲华列为上海被迫害致死的领导干部。
+  life:
+    - h: 早年
+      from: 1909
+      to: 1949
+      text: |
+        1909 年生于四川资阳。1920 年代末参加革命并入党，1930 年代曾被国民党当局逮捕，抗战时期在新四军和华中根据地工作（待核）。1972 年以后上海方面审查他的历史，正是以这段被捕经历把他定为“叛徒”。
+      verify: true
+    - h: 重庆与上海
+      from: 1949
+      to: 1966-05
+      text: |
+        建国后在西南工作，1952 年任重庆市市长；1955 年调上海，任市委书记处书记、副市长，1965 年柯庆施去世后任上海市市长（待核）。据《五·一六通知》附件大事记，1966 年 4 月 1 日“彭真同志在深夜向上海市委书记曹荻秋同志打了两次电话”，大事记说彭真“不是根据毛主席的指示向上海市委道歉，而是编造一套谎言”。
+      verify: true
+      cites: [ws-1966-05-16-notice-attachment@1966-04-01]
+    - h: 安亭、康平路与一月夺权
+      from: 1966-11
+      to: 1967-02
+      text: |
+        1966 年 11 月上海工人造反派在安亭卧轨拦车，市委拒绝承认“工总司”，张春桥到场后签字同意其要求；12 月下旬，以老工人、党团员为主体的“工人赤卫队”也要求市委签字，曹荻秋签字后又被迫收回，两派在康平路市委机关前对峙（待核）。据 1982 年徐景贤案起诉书，12 月 18 日徐景贤等召开大会，“诬陷上海市委‘蓄意把群众打成反革命’”，又与王洪文等制造攻打“工人赤卫队”的“康平路事件”，“打伤九十一人”。12 月聂元梓到上海时也说，“打倒常是打开陈、曹……的一个缺口”。
+
+        1967 年 1 月至 2 月，徐景贤、王洪文等两次召开大会，诬陷“曹荻秋是‘叛徒’”，宣布“彻底打倒”上海市委，“不再承认曹荻秋为上海市委书记、上海市市长”，并将陈丕显、曹荻秋等非法监禁。
+      verify: true
+      cites: [ws-1982-xu-jingxian-case, ws-1982-10-05-nie-yuanzi-case]
+    - h: 批斗、“叛徒”结论与死亡
+      from: 1967-03
+      to: 1976-03-29
+      text: |
+        1968 年 1 月张春桥、姚文元诬陷他是“叛徒”（1980 年起诉书）。据王秀珍案起诉书，1968 年 6 月 28 日王秀珍主持全市电视批斗大会，“诬陷曹荻秋是‘叛徒’，进行人身迫害”；1973 年 3 月在全市区、县、局负责人会议上宣布《审查情况》，诬陷陈丕显、曹荻秋“被捕叛变”；9 月审定的《审查报告》称他是“埋藏在党内的可耻叛徒”。徐景贤案起诉书则说，1972 年 7 月审定他的审查报告时称其是“出卖了同志、出卖了组织”的“叛徒”。1975 年 1 月，马天水、徐景贤、王秀珍等“扣压曹荻秋写给党中央的申诉信”。1976 年 3 月他“被迫害致死”。
+      cites: [ws-1980-indictment, ws-1982-08-21-wang-xiuzhen-case, ws-1982-xu-jingxian-case]
+  assess:
+    - { voice: judicial1980, text: 在张春桥、姚文元的指使、策动下，夺取了上海市的领导权，上海市领导干部十二人遭到诬陷迫害，市长曹荻秋、副市长金仲华被迫害致死（1981 年特别法庭判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 一九七五年一月，徐景贤和马天水、王秀珍等人，扣压曹荻秋写给党中央的申诉信（1982 年徐景贤案起诉书）, cite: ws-1982-xu-jingxian-case, quote: true }
   factions: [shanghai]
   fate:
-    - { date: 1965, s: power }
-    - { date: 1966-12, s: attacked, verify: true }
-    - { date: 1967-01, s: purged, verify: true }
-    - { date: 1976-03-29, s: dead, cite: ws-1980-indictment }
-  cites: [ws-1966-05-16-notice-attachment@1966-04-01, ws-1980-indictment]
+    - { date: 1952, s: power, note: 任重庆市长, verify: true }
+    - { date: 1965-11, s: power, note: 任上海市长, verify: true }
+    - { date: 1966-12-18, s: attacked, note: 徐景贤等召开大会诬陷市委, cite: ws-1982-xu-jingxian-case }
+    - { date: 1967-01, s: purged, note: 造反派宣布“不再承认”其市长职务, cite: ws-1982-xu-jingxian-case }
+    - { date: 1967-02, s: detained, note: 被非法监禁, cite: ws-1982-xu-jingxian-case, verify: true }
+    - { date: 1968-06-28, s: attacked, note: 全市电视批斗大会, cite: ws-1982-08-21-wang-xiuzhen-case }
+    - { date: 1973-09, s: detained, note: 审查报告定为“叛徒”, cite: ws-1982-08-21-wang-xiuzhen-case }
+    - { date: 1976-03-29, s: dead, note: 被迫害致死, cite: ws-1982-xu-jingxian-case }
+  cites: [ws-1966-05-16-notice-attachment@1966-04-01, ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case, ws-1982-10-05-nie-yuanzi-case]
 
 - id: chen-pixian
   name: 陈丕显
+  pinyin: Chén Pīxiǎn
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西上犹
+  origin: 江西上犹
   born: 1916-03-20
   died: 1995-08-22
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1931
+  positions:
+    - { title: 中共上海市委第一书记, orgName: 中共上海市委, from: 1965, to: 1967-01, cite: ws-1982-xu-jingxian-case, verify: true }
+    - { title: 中共湖北省委第一书记, orgName: 中共湖北省委, from: 1977, to: 1982, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1982-09, to: 1987-11, verify: true }
+    - { title: 中央政法委员会书记, orgName: 中共中央政法委员会, from: 1982, to: 1985, verify: true }
+    - { title: 全国人大常委会副委员长, orgName: 全国人大常委会, from: 1988-04, to: 1993-03, verify: true }
   tier: 3
   role1966: 上海市委第一书记
-  bio: 1980 年起诉书：被张春桥、姚文元诬为“一个极其狡猾极其阴险的反革命两面派”。
+  bio: 少年参加红军，长期在华中、苏中地区工作，建国后在上海任职，1965 年柯庆施去世后任上海市委第一书记。1966 年下半年在病中主持市委，1967 年 1 月上海“一月夺权”中被宣布“不再承认”为第一书记，此后被诬为“老反革命”“叛徒”，长期监禁。1975 年后恢复自由，1977 年复出任湖北省委第一书记，后任中央书记处书记、全国人大常委会副委员长。
+  life:
+    - h: 红军与新四军
+      from: 1916
+      to: 1949
+      text: |
+        1916 年生于江西上犹，少年参加红军和共青团，1931 年入党。三年游击战争时期留在赣粤边，后在新四军和苏中根据地工作，历任苏中区党委书记等职（待核）。
+      verify: true
+      cites: [chen-pixian-memoir]
+    - h: 上海
+      from: 1949
+      to: 1966-05
+      text: |
+        建国后先在苏南、后到上海，1950 年代任上海市委书记处书记；1965 年柯庆施去世后任上海市委第一书记（待核）。1982 年徐景贤、王秀珍案起诉书都称他为“中共上海市委第一书记”。
+      verify: true
+      cites: [chen-pixian-memoir, ws-1982-xu-jingxian-case]
+    - h: 一月夺权
+      from: 1966-11
+      to: 1967-02
+      text: |
+        1966 年他患病休养，下半年回到市委主持工作，在安亭事件中主张不承认“工总司”（待核）。据徐景贤案起诉书，12 月 18 日徐景贤等召开大会“对陈丕显、曹荻秋等党政领导干部，进行人身迫害，煽动夺上海市领导权”。1967 年 1 月至 2 月，徐景贤、王洪文等两次召开大会，诬陷“陈丕显‘进行反革命复辟活动’”，宣布“不再承认陈丕显为中共上海市委第一书记”，并将陈丕显、曹荻秋等非法监禁。
+      verify: true
+      cites: [ws-1982-xu-jingxian-case, chen-pixian-memoir]
+    - h: “老反革命”与长期关押
+      from: 1967-03
+      to: 1975
+      text: |
+        据 1980 年起诉书，1968 年 1 月张春桥、姚文元诬陷他“是一个极其狡猾极其阴险的反革命两面派”，“是无产阶级最危险的敌人”。徐景贤案起诉书说，1967 年 3 月至 1968 年 10 月徐景贤、王秀珍等“多次组织、主持全市批斗大会，诬陷陈丕显是‘黑小鬼’、‘老反革命’”；1968 年 2 月徐景贤审定文章，公开称他是用“反革命两面派手法斗争了几十年的老反革命分子”；1970 年 11 月审定的审查报告又说他是“叛徒”、“现行反革命分子”。1971 年 2 月，新华书店职工罗元芬因“反对张春桥等人诬陷迫害陈丕显”被拘留关押、劳动教养三年。1973 年 3 月宣布的《审查情况》还诬陷他“对中央负责同志进行反革命侦控”。1975 年前后解除关押（待核）。
+      verify: true
+      cites: [ws-1980-indictment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case]
+    - h: 复出
+      from: 1977
+      to: 1995
+      text: |
+        1977 年复出，任中共湖北省委第一书记；1982 年十二大后任中央书记处书记，主管政法工作；1988 年任全国人大常委会副委员长（待核）。2005 年出版回忆录《在“一月风暴”的中心》。1995 年 8 月 22 日在北京去世。
+      verify: true
+      cites: [chen-pixian-memoir]
+  assess:
+    - { voice: judicial1980, text: 诬陷上海市委第一书记陈丕显“是一个极其狡猾极其阴险的反革命两面派”，“是无产阶级最危险的敌人”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 致使陈丕显长期遭受迫害，曹荻秋被长期折磨致死（1982 年王秀珍案判决书）, cite: ws-1982-08-21-wang-xiuzhen-case, quote: true }
+    - { voice: witness, text: 本人回忆录从市委一方叙述 1966 年 11 月到 1967 年 1 月上海的经过，需与徐景贤等人的回忆对照（待核）。, cite: chen-pixian-memoir }
+  works:
+    - { title: 陈丕显回忆录——在“一月风暴”的中心, date: 2005, cite: chen-pixian-memoir }
   factions: [shanghai]
   fate:
-    - { date: 1965, s: power }
-    - { date: 1967-01, s: purged, verify: true }
-    - { date: 1977, s: restored, verify: true }
+    - { date: 1931, s: normal, note: 入党, verify: true }
+    - { date: 1965, s: power, note: 任上海市委第一书记, verify: true }
+    - { date: 1966-12-18, s: attacked, note: 徐景贤等召开大会诬陷市委, cite: ws-1982-xu-jingxian-case }
+    - { date: 1967-01, s: purged, note: 造反派宣布“不再承认”其第一书记职务, cite: ws-1982-xu-jingxian-case }
+    - { date: 1967-02, s: detained, note: 被非法监禁, cite: ws-1982-xu-jingxian-case, verify: true }
+    - { date: 1970-11, s: detained, note: 审查报告定为“叛徒”“现行反革命”, cite: ws-1982-xu-jingxian-case }
+    - { date: 1975, s: sidelined, note: 解除关押, verify: true }
+    - { date: 1977, s: restored, note: 任湖北省委第一书记, verify: true }
     - { date: 1995-08-22, s: dead }
-  cites: [ws-1980-indictment]
+  cites: [ws-1980-indictment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case]
 
 # ── 林彪系 ──────────────────────────────────────────────────
 - id: ye-qun
   name: 叶群
+  pinyin: Yè Qún
+  aka:
+    - { kind: original, name: 叶静宜 }
+  gender: f
+  ethnicity: 汉族
+  birthplace: 福建闽侯
+  origin: 福建闽侯
   born: 1917
   died: 1971-09-13
+  deathKind: accident
+  deathPlace: 蒙古温都尔汗附近
+  party: 中国共产党
+  positions:
+    - { title: 林彪办公室主任, orgName: 林彪办公室, from: 1965, to: 1971-09-13, verify: true }
+    - { title: 中央军委办事组成员, orgName: 中央军委办事组, from: 1967-08, to: 1971-09-13, verify: true }
+    - { title: 中共第九届中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1971-09-13, cite: ws-1969-04-28-9th-cc-plenum }
   tier: 2
   role1966: 林彪办公室主任
-  bio: 1980 年起诉书：1966 年 8 月 11、12 日两次找雷英夫口授诬陷刘少奇的材料；8–9 月授意宋治国编写诬陷贺龙的材料，叮嘱“以你主动向我反映情况的口气写”。
+  bio: 林彪之妻，1960 年代任林彪办公室主任，文革中代林彪联络、传话，1969 年进入中央政治局。1980 年起诉书列举她 1966 年口授诬陷刘少奇、贺龙的材料，同江青一起指使江腾蛟抄上海文艺界人士的家；1970 年庐山会议上在中南组“大讲要设国家主席和‘天才’问题”，此后与林立果策划政变。1971 年 9 月 13 日随林彪乘三叉戟出逃，在蒙古温都尔汗附近坠机身亡。
+  life:
+    - h: 早年与延安
+      from: 1917
+      to: 1949
+      text: |
+        1917 年生于福建闽侯，原名叶静宜。1930 年代中期在北平读书，参加一二·九运动，抗战爆发后到延安。1942 年与林彪结婚（待核）。
+      verify: true
+    - h: 林彪办公室
+      from: 1949
+      to: 1966-07
+      text: |
+        建国后随林彪生活和工作，1960 年代林彪主持军委日常工作后任林彪办公室主任，替林彪处理文件、联络各方（待核）。1966 年 5 月中央政治局扩大会议期间，林彪为她的历史和婚前“清白”写过书面“证明”，起因是陆定一之妻严慰冰的匿名信（待核）。
+      verify: true
+    - h: 文革初期的诬陷材料
+      from: 1966-08
+      to: 1968
+      text: |
+        据 1980 年起诉书，1966 年 8 月 11 日、12 日，林彪指使她两次找总参作战部副部长雷英夫，“把林彪、叶群捏造的诬陷刘少奇的材料口授给雷英夫”；8 月下旬到 9 月初，她把诬陷贺龙的材料口授给军委办公厅警卫处处长宋治国，叮嘱“以你主动向我反映情况的口气写，不要以我指示叫你了解的口气写”。1966 年 10 月，江青勾结叶群，经吴法宪找来江腾蛟，要他搜查郑君里、顾而已、赵丹、童芷苓等五人的家，“凡是书信、日记本、笔记本之类的东西都拿来”，搜得的东西“分两次送北京叶群住处”。1967 年 4 月，“在叶群的授意下”，蒯大富派人收集诬陷徐向前、叶剑英的材料；1968 年 6 月黄永胜把诬陷叶剑英“密谋发动反革命政变”的材料交给她。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+    - h: 政治局与庐山
+      from: 1969-04
+      to: 1970-10
+      text: |
+        1969 年 4 月 28 日九届一中全会选举她为中央政治局委员。据 1971 年、1972 年中共中央的林彪集团材料，1970 年她对吴法宪说：“如果不设国家主席，林彪怎么办，往那里摆？”8 月庐山九届二中全会前，她嘱咐陈伯达、吴法宪、李作鹏、邱会作“在小组会上要含着眼泪发言”；24 日下午在中南组，按林彪定的口径讲“天才，领袖，指针”，“大讲要设国家主席和‘天才’问题”。会后她不肯交出从会议记录中撕下的自己的发言记录。林立果对林彪的秘书说：“翻车了，倒大霉了，都是他妈的主任（指叶群）搞的”。10 月 15 日毛泽东在她的书面检讨上批评她“爱吹不爱批，爱听小道消息，经不起风浪”。
+      cites: [ws-1969-04-28-9th-cc-plenum, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3]
+    - h: 政变密谋与出逃
+      from: 1970-10
+      to: 1971-09-13
+      text: |
+        据 1980 年起诉书，1970 年 10 月林立果的“调研小组”组成“联合舰队”，“叶群为周宇驰、王飞等规定了人名代号”；1972 年材料影印了她亲笔写的代号单。1971 年 2 月林彪、叶群、林立果在苏州密谋后，派林立果到上海制订“《五七一工程》纪要”。9 月 5 日、6 日，她先后得到周宇驰、黄永胜关于毛泽东南巡谈话的密报；9 月 10 日黄永胜与她“五次通电话，最长的两次分别达九十分钟和一百三十五分钟”。
+
+        9 月 12 日深夜，林彪、叶群、林立果得知周恩来追查飞机，乘车赶往山海关机场，“于九月十三日零点卅二分强行起飞外逃”。9 月 18 日中共中央通知：三叉戟“已于蒙古境内温都尔汗附近坠毁。林彪、叶群、林立果等全部烧死”。揭发林彪、叶群、林立果“私调飞机、阴谋叛国投敌”的，是他们的女儿林立衡。
+      cites: [ws-1980-indictment, ws-1972-lin-material-3, ws-1971-09-18-notice]
+  assess:
+    - { voice: doc, text: 爱吹不爱批，爱听小道消息，经不起风浪（毛泽东 1970 年 10 月 15 日批叶群检讨，据 1971 年中央材料）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 林彪、叶群、林立果等全部烧死，成为死有余辜的叛徒卖国贼（1971 年 9 月 18 日中共中央通知）, cite: ws-1971-09-18-notice, quote: true }
+    - { voice: judicial1980, text: 叶群（原中共第九届中央政治局委员，林彪之妻）……都是林彪、江青反革命集团案的主犯（1981 年特别法庭判决书；因已死亡不再追究刑事责任）, cite: ws-1981-01-25-judgment }
   factions: [lin]
   fate:
-    - { date: 1965, s: power }
-    - { date: 1971-09-13, s: dead }
-  cites: [ws-1980-indictment]
+    - { date: 1965, s: power, note: 林彪办公室主任, verify: true }
+    - { date: 1966-08-11, s: power, note: 向雷英夫口授诬陷刘少奇的材料, cite: ws-1980-indictment }
+    - { date: 1967-08, s: power, note: 军委办事组成员, verify: true }
+    - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1970-10-15, s: attacked, note: 毛泽东批评其书面检讨, cite: ws-1971-12-lin-chen-material-1 }
+    - { date: 1971-09-13, s: dead, note: 随林彪出逃，坠机身亡, cite: ws-1971-09-18-notice }
+  cites: [ws-1969-04-28-9th-cc-plenum, ws-1971-09-18-notice, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: wu-faxian
   name: 吴法宪
+  pinyin: Wú Fǎxiàn
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西永丰
+  origin: 江西永丰
   born: 1915-03
   died: 2004-10-17
+  deathKind: natural
+  deathPlace: 山东济南
+  party: 中国共产党
+  joinedParty: 1932
+  positions:
+    - { title: 空军政治委员, orgName: 中国人民解放军空军, from: 1957, to: 1965-05, verify: true }
+    - { title: 空军司令员, orgName: 中国人民解放军空军, from: 1965-05, to: 1971-09, cite: ws-1981-01-25-judgment, verify: true }
+    - { title: 中央军委办事组副组长, orgName: 中央军委办事组, from: 1967-08, to: 1971-09, verify: true }
+    - { title: 副总参谋长, orgName: 中国人民解放军总参谋部, from: 1968-03, to: 1971-09, cite: ws-1981-01-25-judgment, verify: true }
+    - { title: 中共第九届中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1971-09, cite: ws-1969-04-28-9th-cc-plenum }
+  rank: { rank: 中将, date: 1955-09 }
   tier: 3
   role1966: 空军司令员
-  bio: 1980 年起诉书：1966 年 8 月受林彪指使编造诬陷贺龙“在空军阴谋夺权”的材料，9 月 3 日送林彪。
+  bio: 红军出身的政治工作干部，1955 年授中将，1965 年起任空军司令员，文革中任军委办事组副组长、副总参谋长，1969 年进入中央政治局。1966 年受林彪指使编造诬陷贺龙的材料；1969 年 10 月把“空军的一切指挥权、调动权交给林立果”；1970 年庐山会议上在西南组宣讲“天才”和设国家主席。九一三事件后离职反省、被关押，1981 年特别法庭以组织、领导反革命集团罪等判处有期徒刑十七年。晚年在济南居住，2004 年去世，身后出版回忆录。
+  life:
+    - h: 红军与解放战争
+      from: 1915
+      to: 1949
+      text: |
+        1915 年生于江西永丰，1930 年参加红军，1932 年入党，长期做政治工作；抗战时期在八路军一一五师，解放战争中随林彪的东北野战军南下（待核）。
+      verify: true
+      cites: [wu-faxian-memoir]
+    - h: 空军
+      from: 1949
+      to: 1966-07
+      text: |
+        建国后调空军，历任空军政治委员等职，1955 年授中将军衔；1965 年 5 月空军司令员刘亚楼去世后接任空军司令员（待核）。1966 年 4 月批判罗瑞卿的报告提到，刘亚楼临死前说受了罗瑞卿的骗，“杨成武、吴法宪同志也听刘亚楼同志在临死前说过”。
+      verify: true
+      cites: [ws-1966-04-luo-report]
+    - h: 诬陷贺龙与整肃空军
+      from: 1966-08
+      to: 1969-04
+      text: |
+        据 1981 年判决书，1966 年 8 月他受林彪指使，9 月 3 日写了“诬陷贺龙在空军阴谋夺权的材料”送给林彪；1968 年 8 月伙同黄永胜捏造事实，诬陷罗瑞卿是“罪大恶极的反革命分子”。他在空军诬陷一些领导干部要“夺权”，“批准关押、迫害空军干部和群众一百七十四人，致使南京部队空军司令部参谋长顾前和空军学院副教育长刘善本被迫害致死”。1980 年起诉书还说，他和陈伯达、谢富治借 1967 年天津“中共中央非常委员会”传单案追查“后台”，说“还不是第二个大走资派”。1967 年 8 月起任军委办事组副组长，1968 年 3 月兼副总参谋长（待核）。
+      verify: true
+      cites: [ws-1981-01-25-judgment, ws-1980-indictment]
+    - h: 林立果与庐山
+      from: 1969-04
+      to: 1971-09
+      text: |
+        1969 年 4 月 28 日当选中央政治局委员。10 月 17 日，在林彪口授“第一个号令”的同一天，他任命林立果为空军司令部办公室副主任兼作战部副部长；次日对林立果、王飞、周宇驰等说：“空军的一切都要向立果同志汇报，都可以由立果同志调动、指挥。”1981 年判决书认定，他“把空军的一切指挥权、调动权交给林立果，使林立果得以组成……‘联合舰队’”。1970 年 8 月 13 日修改宪法小组会上，他借“天才”问题向中央领导人发难，叶群转告他：“林彪说，你这次干得好。”24 日在庐山西南组宣讲“天才”和设国家主席，并要求简报“把气氛写得足一些”。10 月 14 日毛泽东在他的书面检讨上批道：“作为一个共产党人，为什么这样缺乏正大光明的气概。”
+      cites: [ws-1969-04-28-9th-cc-plenum, ws-1972-lin-material-3, ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-12-lin-chen-material-1]
+    - h: 九一三之后
+      from: 1971-09
+      to: 2004
+      text: |
+        1971 年 9 月 13 日林彪出逃前，周恩来下令 256 号专机须有周恩来、黄永胜、吴法宪、李作鹏“四个人一起下命令才能飞行”。事后他销毁了与林彪、叶群来往的信件、笔记本、照片等。9 月 24 日被隔离审查（待核）；29 日中共中央通知说，黄永胜、吴法宪、李作鹏、邱会作“陷入很深，实难继续现任工作，已令他们离职反省，彻底交代”。1973 年十大开除党籍（待核）。
+
+        1980 年 11 月作为林彪、江青反革命集团案主犯受审。1981 年 1 月 25 日特别法庭认定他犯组织、领导反革命集团罪、阴谋颠覆政府罪、诬告陷害罪，“判处被告人吴法宪有期徒刑十七年，剥夺政治权利五年”；判决书说他“供认了自己的犯罪事实”，并“揭发了林彪、江青等同案犯的犯罪事实”。此后保外就医，在济南居住（待核）。2004 年 10 月 17 日在济南去世；2006 年回忆录《岁月艰难》在香港出版。
+      verify: true
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-29-notice, wu-faxian-memoir]
+  assess:
+    - { voice: doc, text: 作为一个共产党人，为什么这样缺乏正大光明的气概（毛泽东 1970 年 10 月 14 日批吴法宪检讨，据 1971 年中央材料）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 黄永胜、吴法宪、李作鹏、邱会作四同志参加林、陈反党集团的宗派活动，陷入很深，实难继续现任工作，已令他们离职反省，彻底交代（1971 年 9 月 29 日中共中央通知）, cite: ws-1971-09-29-notice, quote: true }
+    - { voice: judicial1980, text: 一九六九年十月，吴法宪把空军的一切指挥权、调动权交给林立果，使林立果得以组成林彪反革命集团谋杀毛泽东主席、策动武装政变的骨干力量“联合舰队”（1981 年特别法庭判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: witness, text: 回忆录否认事先知道林立果的政变计划，并对庐山会议分组发言作了与中央材料不同的解释（本人回忆，待核）。, cite: wu-faxian-memoir }
+  works:
+    - { title: 做无产阶级革命派的坚强后盾, date: 1967-09-17, cite: ws-1967-red-flag-index }
+    - { title: 岁月艰难——吴法宪回忆录, date: 2006, cite: wu-faxian-memoir }
   factions: [lin]
   fate:
-    - { date: 1965, s: power }
-    - { date: 1971-09-24, s: detained, verify: true }
+    - { date: 1932, s: normal, note: 入党, verify: true }
+    - { date: 1965-05, s: power, note: 任空军司令员, verify: true }
+    - { date: 1966-09-03, s: power, note: 送林彪诬陷贺龙的材料, cite: ws-1981-01-25-judgment }
+    - { date: 1967-08, s: power, note: 军委办事组副组长, verify: true }
+    - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1969-10-17, s: power, note: 任命林立果, cite: ws-1972-lin-material-3 }
+    - { date: 1970-10-14, s: attacked, note: 毛泽东批评其书面检讨, cite: ws-1971-12-lin-chen-material-1 }
+    - { date: 1971-09-24, s: detained, note: 隔离审查, verify: true }
+    - { date: 1971-09-29, s: purged, note: 中央通知离职反省, cite: ws-1971-09-29-notice }
+    - { date: 1981-01-25, s: detained, note: 判处有期徒刑十七年, cite: ws-1981-01-25-judgment }
     - { date: 2004-10-17, s: dead }
-  cites: [ws-1980-indictment]
+  cites: [ws-1966-04-luo-report, ws-1967-red-flag-index, ws-1969-04-28-9th-cc-plenum, ws-1971-09-29-notice, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: xie-fuzhi
   name: 谢富治
@@ -4227,62 +4462,263 @@
 # ── 知识分子与受难者 ────────────────────────────────────────
 - id: jian-bozan
   name: 翦伯赞
+  pinyin: Jiǎn Bózàn
+  gender: m
+  ethnicity: 维吾尔族
+  birthplace: 湖南桃源
+  origin: 湖南桃源
   born: 1898-04-14
   died: 1968-12-18
-  death: 与妻子一同自杀
+  deathKind: suicide
+  deathPlace: 北京大学燕东园
+  party: 中国共产党
+  joinedParty: 1937
+  positions:
+    - { title: 北京大学历史系主任, orgName: 北京大学, from: 1952, to: 1966, verify: true }
+    - { title: 北京大学副校长, orgName: 北京大学, from: 1962, to: 1966, verify: true }
+  rehab:
+    - { date: 1978-09, text: 中共中央批准为翦伯赞平反昭雪, verify: true }
   tier: 2
   role1966: 北京大学副校长、历史学家
-  bio: 1966 年 3 月 25 日《红旗》刊出戚本禹、林杰、阎长贵《翦伯赞同志的历史观点应当批判》；毛泽东 3 月称“吴晗和翦伯赞等人是共产党员，也反共，实际上是国民党”（官方大事记）。1980 年起诉书列为被迫害致死的著名教授。
+  bio: 维吾尔族历史学家，湖南桃源人，1937 年秘密入党，著有《历史哲学教程》《中国史纲》，建国后任北京大学历史系主任、副校长，主编高校教材《中国史纲要》。1960 年代主张“历史主义”与阶级观点相结合，1965 年 12 月起被戚本禹等不点名、继而点名批判；1966 年 3 月毛泽东说“吴晗和翦伯赞等人是共产党员，也反共，实际上是国民党”，6 月《红旗》社论称其为“反共老手”。1968 年 12 月在刘少奇专案组追逼下与妻子戴淑婉一同服药自尽，1978 年平反。
+  life:
+    - h: 早年与史学
+      from: 1898
+      to: 1949
+      text: |
+        1898 年生于湖南桃源的维吾尔族家庭，1920 年代曾赴美国加州大学学习经济，回国后参加国民革命军工作。1937 年秘密加入中国共产党，在长沙、重庆从事统战和学术工作，1938 年出版《历史哲学教程》，1940 年代写成《中国史纲》前两卷（待核）。
+      verify: true
+    - h: 北大历史系
+      from: 1949
+      to: 1965-11
+      text: |
+        建国后任燕京大学教授，1952 年院系调整后任北京大学历史系主任，1962 年任副校长；主编高校教材《中国史纲要》。1960 年代初批评史学研究中的简单化倾向，主张把阶级观点和“历史主义”结合起来（待核）。
+      verify: true
+    - h: 被批判
+      from: 1965-12
+      to: 1966-12
+      text: |
+        据《五·一六通知》附件大事记，1965 年 12 月 8 日《红旗》发表戚本禹《为革命而研究历史》，“批评了以翦伯赞、吴晗为代表的反动的历史观，但没有指名”。1966 年 3 月 17 日至 20 日政治局常委扩大会议上，毛泽东说：“吴晗和翦伯赞等人是共产党员，也反共，实际上是国民党。”3 月 25 日《红旗》发表戚本禹、林杰、阎长贵的《翦伯赞同志的历史观点应当批判》。6 月 8 日《红旗》社论说史学界资产阶级代表人物“其中，有些人是反共老手。吴晗、翦伯赞就是这样的人物”。12 月 13 日《红旗》第十五期再发戚本禹、林杰、阎长贵的《反共知识分子翦伯赞的真面目》。
+      cites: [ws-1966-05-16-notice-attachment@1965-12-08, ws-1966-05-16-notice-attachment@1966-03-17, ws-1966-05-16-notice-attachment@1966-03-25, ws-1966-06-red-flag-long-live, ws-1966-red-flag-index]
+    - h: 抄家、专案与自尽
+      from: 1967
+      to: 1968-12-18
+      text: |
+        此后在北大被抄家、批斗，夫妇被赶出燕东园住所（待核）。1968 年 10 月八届十二中全会上毛泽东说对翦伯赞这样的学者“要给出路”，他和妻子一度搬回燕东园（待核）。同年 12 月，刘少奇专案组人员多次提审他，逼他证明刘少奇 1930 年代在国共谈判中有“叛变”问题；12 月 18 日夜他与妻子戴淑婉一同服安眠药自尽（待核）。1980 年起诉书和 1981 年判决书都把他列为被“迫害致死”的著名教授。
+      verify: true
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+    - h: 平反
+      from: 1978
+      text: |
+        1978 年 9 月中共中央批准北京大学党委为翦伯赞平反昭雪的报告，1979 年 2 月举行追悼会（待核）。
+      verify: true
+  assess:
+    - { voice: doc, text: 吴晗和翦伯赞等人是共产党员，也反共，实际上是国民党（毛泽东 1966 年 3 月，据五一六通知附件）, cite: ws-1966-05-16-notice-attachment@1966-03-17, quote: true }
+    - { voice: official1966, text: 其中，有些人是反共老手。吴晗、翦伯赞就是这样的人物（1966 年 6 月 8 日《红旗》社论）, cite: ws-1966-06-red-flag-long-live, quote: true }
+    - { voice: judicial1980, text: 著名教授熊庆来、翦伯赞、何思敬、王守融、顾毓珍、李广田、饶毓泰、刘盼遂、马特等被迫害致死（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  works:
+    - { title: 历史哲学教程, date: 1938 }
+    - { title: 中国史纲（第一、二卷）, date: 1943 }
+    - { title: 中国史纲要（主编）, date: 1962 }
   factions: [academics]
   fate:
-    - { date: 1952, s: normal }
-    - { date: 1966-03-25, s: attacked, cite: ws-1966-05-16-notice-attachment@1966-03-25 }
+    - { date: 1937, s: normal, note: 秘密入党, verify: true }
+    - { date: 1952, s: power, note: 任北大历史系主任, verify: true }
+    - { date: 1965-12-08, s: attacked, note: 戚本禹文章不点名批判, cite: ws-1966-05-16-notice-attachment@1965-12-08 }
+    - { date: 1966-03-25, s: attacked, note: 《红旗》点名批判, cite: ws-1966-05-16-notice-attachment@1966-03-25 }
     - { date: 1966-06-08, s: purged, note: 《红旗》社论点名为“反共老手”, cite: ws-1966-06-red-flag-long-live }
-    - { date: 1968-12-18, s: dead, cite: ws-1980-indictment }
-  cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
+    - { date: 1968-10, s: sidelined, note: 毛泽东称“要给出路”, verify: true }
+    - { date: 1968-12-18, s: dead, note: 与妻子一同服药自尽, cite: ws-1980-indictment }
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-06-red-flag-long-live, ws-1966-red-flag-index, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: lao-she
   name: 老舍
+  pinyin: Lǎo Shě
+  aka:
+    - { kind: original, name: 舒庆春 }
+    - { kind: courtesy, name: 舍予 }
+  gender: m
+  ethnicity: 满族
+  birthplace: 北京
+  origin: 北京
   born: 1899-02-03
   died: 1966-08-24
-  death: 投太平湖
+  deathKind: suicide
+  deathPlace: 北京太平湖
+  positions:
+    - { title: 北京市文学艺术界联合会主席, orgName: 北京市文联, from: 1950, to: 1966-08, verify: true }
+    - { title: 中国作家协会副主席, orgName: 中国作家协会, from: 1953, to: 1966-08, verify: true }
+  rehab:
+    - { date: 1978-06-03, text: 北京市在八宝山革命公墓为老舍举行骨灰安放仪式，为其平反, verify: true }
   tier: 2
   role1966: 北京市文联主席、作家
-  bio: 1966 年 8 月 23 日在北京市文联被红卫兵押往国子监孔庙焚烧戏装现场遭殴打，次日投太平湖。1980 年起诉书列为被迫害致死的作家首位。
+  bio: 满族作家，原名舒庆春，字舍予，北京人。1920 年代在伦敦教书时开始写小说，1936 年发表《骆驼祥子》；抗战时期主持中华全国文艺界抗敌协会。1949 年底回国，以话剧《龙须沟》获北京市“人民艺术家”称号，1957 年写成《茶馆》，任北京市文联主席、中国作协副主席。1966 年 8 月 23 日被红卫兵押到国子监孔庙批斗殴打，次日在太平湖投水身亡。1980 年起诉书把他列为被迫害致死的作家、艺术家首位。
+  life:
+    - h: 北京、伦敦与抗战
+      from: 1899
+      to: 1949
+      text: |
+        1899 年生于北京一个满族旗兵家庭，父亲在八国联军入侵北京时阵亡。1918 年北京师范学校毕业，1924 年到伦敦大学东方学院任汉语讲师，写出《老张的哲学》《赵子曰》《二马》。回国后在齐鲁大学、山东大学任教，1936 年发表《骆驼祥子》。抗战时期在武汉、重庆主持中华全国文艺界抗敌协会的日常工作，写成《四世同堂》前两部。1946 年赴美讲学（待核）。
+      verify: true
+    - h: 人民艺术家
+      from: 1949-12
+      to: 1966-05
+      text: |
+        1949 年底应邀回国，1951 年因话剧《龙须沟》被北京市人民政府授予“人民艺术家”称号；1957 年写成话剧《茶馆》。历任北京市文联主席、中国文联副主席、中国作家协会副主席（待核）。
+      verify: true
+    - h: 八月二十三日与太平湖
+      from: 1966-08-23
+      to: 1966-08-24
+      text: |
+        1966 年 8 月 23 日，他在北京市文联与萧军、骆宾基等二十余位作家、艺术家一起被红卫兵押往国子监孔庙，在焚烧京剧戏装的火堆旁挨打，头部受伤，深夜被送往派出所，由家人接回。次日他离家出走，8 月 24 日夜在城西北的太平湖投水身亡（待核）。这几天正是“红八月”北京红卫兵打人最集中的时候。1980 年起诉书把他列在被迫害致死的“著名作家、艺术家”首位；1981 年判决书也列入“社会各界知名人士被迫害致死的”名单。
+      verify: true
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, wang-youqin-victims]
+    - h: 平反
+      from: 1978
+      text: |
+        1978 年 6 月 3 日北京市在八宝山革命公墓为他举行骨灰安放仪式，宣布平反；因当年未留骨灰，盒中放的是他用过的眼镜、钢笔和毛笔（待核）。
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 著名作家、艺术家老舍、赵树理、周信芳、盖叫天、潘天寿、应云卫、郑君里、孙维世等迫害致死（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: witness, text: 王友琴的寻访把老舍之死放在 1966 年 8 月北京红卫兵暴力的整体中考察，记录了 8 月 23 日孔庙批斗在场者的证词（待核）。, cite: wang-youqin-victims }
+  works:
+    - { title: 骆驼祥子, date: 1936 }
+    - { title: 四世同堂, date: 1944 }
+    - { title: 龙须沟, date: 1950 }
+    - { title: 茶馆, date: 1957 }
   factions: [academics]
   fate:
-    - { date: 1950, s: normal }
-    - { date: 1966-08-23, s: attacked, verify: true }
-    - { date: 1966-08-24, s: dead, note: 起诉书列为“迫害致死”，但未给日期, cite: ws-1980-indictment, verify: true }
-  cites: [ws-1980-indictment]
+    - { date: 1949-12, s: normal, note: 回国, verify: true }
+    - { date: 1951-12, s: rise, note: 获“人民艺术家”称号, verify: true }
+    - { date: 1966-08-23, s: attacked, note: 孔庙批斗殴打, verify: true }
+    - { date: 1966-08-24, s: dead, note: 投太平湖；起诉书列为“迫害致死”，未给日期, cite: ws-1980-indictment, verify: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: bian-zhongyun
   name: 卞仲耘
+  pinyin: Biàn Zhòngyún
+  gender: f
+  ethnicity: 汉族
+  birthplace: 安徽无为
+  origin: 安徽无为
   born: 1916
   died: 1966-08-05
-  death: 被学生殴打致死
+  deathKind: killed
+  deathPlace: 北京师范大学附属女子中学
+  party: 中国共产党
+  joinedParty: 1941
+  positions:
+    - { title: 北京师范大学附属女子中学副校长、党总支书记, orgName: 北京师范大学附属女子中学, from: 1950, to: 1966-08-05, verify: true }
   tier: 3
   role1966: 北京师范大学女附中副校长
-  bio: 1966 年 8 月 5 日下午在校内被红卫兵学生批斗殴打致死，被认为是文革中北京第一位被学生打死的教育工作者。同一天毛泽东写下《炮打司令部》。
+  bio: 北京师范大学附属女子中学副校长、党总支书记，该校当时没有正校长，她是实际负责人。1966 年 6 月学生贴大字报批判校领导，工作组撤出后，8 月 5 日下午她在校内被红卫兵学生批斗殴打，当天死亡，年五十岁，被认为是文革中北京第一位被学生打死的教育工作者。同一天毛泽东写下《炮打司令部》。她的丈夫王晶垚保存了遗体照片和当时的材料。本站尚无直接记载她的入库原文，全传待核。
+  life:
+    - h: 早年
+      from: 1916
+      to: 1949
+      text: |
+        1916 年生于安徽无为，1941 年在晋察冀根据地入党，抗战和解放战争时期从事教育和宣传工作（待核）。
+      verify: true
+      cites: [wang-youqin-victims]
+    - h: 师大女附中
+      from: 1949
+      to: 1966-05
+      text: |
+        1949 年起在北京师范大学附属女子中学工作，后任副校长、党总支书记；学校没有正校长，她主持日常工作。这所学校的学生中有很多高级干部的女儿（待核）。
+      verify: true
+      cites: [wang-youqin-victims]
+    - h: 八月五日
+      from: 1966-06
+      to: 1966-08-05
+      text: |
+        1966 年 6 月初，宋彬彬、刘进等学生贴出学校第一张大字报，批判校领导；工作组进校后，她被停职批判。7 月底工作组撤出，学校由学生组织主持。8 月 5 日下午，她和其他几位校领导被学生押着游斗、劳动，遭到木棍、皮带殴打，傍晚倒在校内，送往医院时已经死亡（待核）。她是文革中北京第一位被学生打死的教育工作者。同一天毛泽东写下《炮打司令部——我的一张大字报》。
+      verify: true
+      cites: [wang-youqin-victims, ws-1967-08-bombard-anniv]
+    - h: 身后
+      from: 1966-08
+      text: |
+        她的丈夫王晶垚当天拍下遗体照片，此后数十年持续收集材料、为她申冤（待核）。1978 年后为她平反。她的死因与参与者的责任，至今仍是当年在场者争论的焦点；2014 年宋彬彬等人公开道歉（待核）。
+      verify: true
+      cites: [wang-youqin-victims]
+  assess:
+    - { voice: witness, text: 王友琴据当年师生的口述，确认 8 月 5 日的殴打发生在校内学生组织主持的批斗中，并把卞仲耘列为北京第一位被打死的教育工作者（待核，需对照原书）。, cite: wang-youqin-victims }
   factions: [academics]
   fate:
-    - { date: 1949, s: normal }
-    - { date: 1966-06, s: attacked, verify: true }
-    - { date: 1966-08-05, s: dead, verify: true }
+    - { date: 1941, s: normal, note: 入党, verify: true }
+    - { date: 1950, s: power, note: 任师大女附中副校长, verify: true }
+    - { date: 1966-06, s: attacked, note: 学生大字报批判校领导, verify: true }
+    - { date: 1966-08-05, s: dead, note: 被学生殴打致死, verify: true }
+  cites: [wang-youqin-victims]
   verify: true
 
 - id: yu-luoke
   name: 遇罗克
+  pinyin: Yù Luókè
+  gender: m
+  ethnicity: 汉族
+  birthplace: 北京
+  origin: 北京
+  classOrigin: 资本家
+  classNote: 1970 年死刑判决书记载“家庭出身资本家，本人成份学生”，并写明“父母系右派分子，其父是反革命分子”；1979 年无罪判决书照录出身、成份，删去了关于父母的一句。
   born: 1942-05-01
   died: 1970-03-05
-  death: 被处决
+  deathKind: executed
+  deathPlace: 北京
+  positions:
+    - { title: 北京人民机器厂徒工, orgName: 北京人民机器厂, from: 1965, to: 1968-01, cite: ws-1970-yu-luoke-death-sentence }
+  rehab:
+    - { date: 1979, text: 北京市中级人民法院再审：原判“从认定的事实和适用法律上都是错误的”，宣告遇罗克无罪, cite: ws-1979-yu-luoke-acquittal }
   tier: 2
   role1966: 北京人民机器厂学徒工
-  bio: 1967 年 1 月 18 日在《中学文革报》发表《出身论》，以“毛主席提出的革命接班人的五项条件，有出身这一条吗？”和十六条本身反驳血统论；指出“斗争的矛头主要是指向党内走资本主义道路的当权派”，血统论是“偷换了概念”。1968 年被捕，1970 年被处决，1979 年平反。
+  bio: 北京人，父母都是右派，因家庭出身两次考大学未被录取，做过农场工人、代课教师，1965 年起在北京人民机器厂当学徒工。1967 年 1 月 18 日以“北京家庭出身问题研究小组”名义在《中学文革报》发表《出身论》，反驳“老子英雄儿好汉，老子反动儿混蛋”的血统论。1968 年 1 月被捕，1970 年 3 月 5 日以“现行反革命”罪被判处死刑，立即执行，年二十七岁。1979 年北京市中级人民法院再审，宣告无罪。
+  life:
+    - h: 出身与求学
+      from: 1942
+      to: 1965
+      text: |
+        1942 年 5 月 1 日生于北京。父亲遇崇基是水利工程师，母亲王秋琳办过工厂，1957 年两人都被划为右派（待核）。1960 年他从北京第六十五中学毕业，因家庭出身两次报考大学都未被录取，先后在农场劳动、当代课教师，业余写作（待核）。据 1970 年判决书，他“家庭出身资本家，本人成份学生”。
+      verify: true
+      cites: [ws-1970-yu-luoke-death-sentence]
+    - h: 与姚文元商榷
+      from: 1965
+      to: 1966-12
+      text: |
+        1965 年起在北京人民机器厂当学徒工。1966 年 2 月 13 日在上海《文汇报》发表《和机械唯物论进行斗争——与姚文元同志商榷》，对姚文元批判《海瑞罢官》的方法提出异议（待核）。
+      verify: true
+    - h: 《出身论》
+      from: 1967-01
+      to: 1967-04
+      text: |
+        1966 年夏秋，“老子英雄儿好汉，老子反动儿混蛋”的对联在北京中学流行，1966 年 10 月陈伯达讲话和 1967 年 1 月 1 日两报一刊社论都批评它是“剥削阶级的反动的血统论”。1967 年 1 月 18 日，遇罗克以“北京家庭出身问题研究小组”的名义，在他和弟弟遇罗文等人办的《中学文革报》创刊号上发表《出身论》，从这副对联谈起：“辩论这幅对联的过程，就是对出身不好的青年侮辱的过程。”文章写道，在文革初期“出身不好不仅低人一等，甚至被剥夺了背叛自己的家庭、保卫党中央、保卫毛主席、参加红卫兵的权利”，“有多少无辜青年，死于非命，溺死于唯出身论的深渊之中”。报纸在街头被争抢，此后他又写了多篇续文。1967 年 4 月中央文革小组成员戚本禹宣布《出身论》是“大毒草”，《中学文革报》停刊（待核）。
+      verify: true
+      cites: [ws-1967-yu-origin-theory, web-1966-10-16-chen-speech, ws-1967-01-01-to-the-end]
+    - h: 被捕与处决
+      from: 1968-01
+      to: 1970-03-05
+      text: |
+        1968 年 1 月被捕（待核）。死刑判决书说他“自1963年以来，散布大量反动言论，书写数万字的反动信件、诗词和日记”，“在无产阶级文化大革命中又书写反动文章十余篇，印发全国各地，大造反革命舆论”，还“网罗本市和外地的反、坏分子十余人，策划组织反革命集团，并扬言进行阴谋暗杀活动”；“遇犯在押期间，反革命气焰仍很嚣张”。判决“经中国人民解放军北京市公、法军事管制委员会和最高人民法院批准”，“判处现行反革命分子遇罗克死刑，立即执行”。1970 年 3 月 5 日在北京工人体育场的公判大会后被枪决（待核）。
+      verify: true
+      cites: [ws-1970-yu-luoke-death-sentence]
+    - h: 宣告无罪
+      from: 1978-11
+      to: 1979
+      text: |
+        据 1979 年北京市中级人民法院判决书，1978 年 11 月 1 日起他的父亲遇崇基多次申诉；再审查明，“原判以遇罗克犯反革命罪，判处死刑，从认定的事实和适用法律上都是错误的”，判决撤销北京市公检法军管会“（70）刑字第30号判决书”，“宣告遇罗克无罪”。无罪判决书称他“1968年1月以‘现行反革命’罪”被判处死刑，与原判的案号“（70）”不一致，1968 年 1 月应是被捕时间。1980 年 7 月《光明日报》发表长篇通讯《划破夜幕的陨星》（待核）。
+      verify: true
+      cites: [ws-1979-yu-luoke-acquittal]
+  assess:
+    - { voice: doc, text: 出身不好不仅低人一等，甚至被剥夺了背叛自己的家庭、保卫党中央、保卫毛主席、参加红卫兵的权利（《出身论》，1967 年 1 月）, cite: ws-1967-yu-origin-theory, quote: true }
+    - { voice: official1966, text: 遇犯罪大恶极，民愤极大（1970 年死刑判决书）, cite: ws-1970-yu-luoke-death-sentence, quote: true }
+    - { voice: officialLater, text: 原判以遇罗克犯反革命罪，判处死刑，从认定的事实和适用法律上都是错误的，应予纠正（1979 年北京市中级人民法院再审判决书）, cite: ws-1979-yu-luoke-acquittal, quote: true }
+  works:
+    - { title: 和机械唯物论进行斗争——与姚文元同志商榷, date: 1966-02-13 }
+    - { title: 出身论（署名北京家庭出身问题研究小组）, date: 1967-01-18, cite: ws-1967-yu-origin-theory }
   factions: [dissent]
   fate:
-    - { date: 1965, s: normal }
-    - { date: 1967-01-18, s: rise, cite: ws-1967-yu-origin-theory }
-    - { date: 1968-01-05, s: detained, verify: true }
-    - { date: 1970-03-05, s: dead, verify: true }
-  cites: [ws-1967-yu-origin-theory]
+    - { date: 1965, s: normal, note: 进厂当学徒工, cite: ws-1970-yu-luoke-death-sentence, verify: true }
+    - { date: 1967-01-18, s: rise, note: 发表《出身论》, cite: ws-1967-yu-origin-theory }
+    - { date: 1967-04, s: attacked, note: 戚本禹宣布《出身论》是“大毒草”, verify: true }
+    - { date: 1968-01, s: detained, note: 被捕, cite: ws-1979-yu-luoke-acquittal, verify: true }
+    - { date: 1970-03-05, s: dead, note: 以“现行反革命”罪被判处死刑，立即执行, cite: ws-1970-yu-luoke-death-sentence }
+  cites: [ws-1967-yu-origin-theory, ws-1970-yu-luoke-death-sentence, ws-1979-yu-luoke-acquittal, web-1966-10-16-chen-speech, ws-1967-01-01-to-the-end]
+

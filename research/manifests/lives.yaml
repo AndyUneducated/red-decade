@@ -209,3 +209,23 @@ wikisource:
     date: 1971-09-29
     author: 中共中央
     kind: party-doc
+  - id: ws-1971-09-18-notice
+    title: 中共中央通知 (1971年9月18日)
+    date: 1971-09-18
+    author: 中共中央
+    kind: party-doc
+  - id: ws-1969-04-28-9th-cc-plenum
+    title: 中国共产党第九届中央委员会第一次全体会议公报
+    date: 1969-04-28
+    author: 中共九届一中全会
+    kind: party-doc
+  - id: ws-1970-yu-luoke-death-sentence
+    title: 遇羅克死刑判決書
+    date: 1970
+    author: 北京市中级人民法院
+    kind: judicial
+  - id: ws-1979-yu-luoke-acquittal
+    title: 遇羅克无罪判決書
+    date: 1979
+    author: 北京市中级人民法院
+    kind: judicial
