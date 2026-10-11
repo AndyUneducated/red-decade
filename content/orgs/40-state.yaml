@@ -322,3 +322,232 @@
     - { name: 廖承志, title: 局长, from: 1949-06, to: 1952 }
     - { name: 梅益, title: 局长, from: 1952, to: 1966 }
     - { name: 张香山, title: 局长, from: 1977, to: 1982-05 }
+
+# ── added with the 350-org expansion ──
+- id: agriculture
+  name: 农业部
+  aliases: [农业部, 中华人民共和国农业部]
+  kind: state
+  level: central
+  from: 1949-10
+  to: 1970-06
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1970 年与林业部、农垦部等合并为农林部，1979 年重设农业部，1982 年改为农牧渔业部。
+  verify: true
+  leaders:
+    - { name: 李书城, title: 部长, from: 1949-10, to: 1954-09 }
+    - { name: 廖鲁言, title: 部长, from: 1954-09, to: 1970-06, note: 文革中已无法工作，1972 年去世 }
+
+- id: nongken
+  name: 农垦部
+  aliases: [农垦部]
+  kind: state
+  level: central
+  from: 1956-05
+  to: 1970-06
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管国营农场与“北大荒”开发，1958 年组织十万转业官兵开赴黑龙江垦荒。1970 年并入农林部。
+  verify: true
+  leaders:
+    - { name: 王震, title: 部长, from: 1956-05, to: 1970-06, note: 离任时间待核 }
+
+- id: coal
+  name: 煤炭工业部
+  aliases: [煤炭工业部, 煤炭部]
+  kind: state
+  level: central
+  from: 1955-07
+  to: 1988-04
+  suspended: [{ from: 1970-06, to: 1975-01, note: 并入燃料化学工业部 }]
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 部长张霖之 1967 年 1 月在批斗中死亡，是文革中第一位死于非命的在任部长。
+  verify: true
+  leaders:
+    - { name: 陈郁, title: 部长, from: 1955-07, to: 1957-02 }
+    - { name: 张霖之, title: 部长, from: 1957-02, to: 1967-01-22 }
+    - { name: 徐今强, title: 部长, from: 1975-01, to: 1978 }
+    - { name: 高扬文, title: 部长, from: 1982, to: 1985 }
+    - { name: 于洪恩, title: 部长, from: 1985, to: 1988-04 }
+
+- id: metallurgy
+  name: 冶金工业部
+  aliases: [冶金工业部, 冶金部]
+  kind: state
+  level: central
+  from: 1956-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 由重工业部分出。1958 年“以钢为纲”“1070 万吨钢”指标下组织全民大炼钢铁。
+  verify: true
+  leaders:
+    - { name: 王鹤寿, title: 部长, from: 1956-05, to: 1967 }
+    - { name: 唐克, title: 部长, from: 1977, to: 1981 }
+    - { name: 李东冶, title: 部长, from: 1981, to: 1985 }
+    - { name: 戚元靖, title: 部长, from: 1985 }
+
+- id: first-machine
+  name: 第一机械工业部
+  short: 一机部
+  aliases: [第一机械工业部, 一机部]
+  kind: state
+  level: central
+  from: 1952-08
+  to: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管民用机械制造，“一五”时期苏联援建的汽车、拖拉机、机床项目归其管辖。
+  verify: true
+  leaders:
+    - { name: 黄敬, title: 部长, from: 1952-08, to: 1958-02-10 }
+    - { name: 段君毅, title: 部长, from: 1960, to: 1967, note: 起止待核 }
+    - { name: 周子健, title: 部长, from: 1978, to: 1982-05 }
+
+- id: geology
+  name: 地质部
+  aliases: [地质部, 地质矿产部]
+  kind: state
+  level: central
+  from: 1952-08
+  suspended: [{ from: 1970-06, to: 1975, note: 并入国家计委，设地质局 }]
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1952 年成立，李四光任部长近二十年，主持石油普查（“陆相生油”）与铀矿勘探。1982 年改为地质矿产部。
+  verify: true
+  leaders:
+    - { name: 李四光, title: 部长, from: 1952-08, to: 1971-04-29 }
+    - { name: 孙大光, title: 部长, from: 1975, to: 1982 }
+
+- id: transport
+  name: 交通部
+  aliases: [交通部, 中华人民共和国交通部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 首任部长是民主党派人士章伯钧，1957 年被划为“头号右派”，次年免职。
+  verify: true
+  leaders:
+    - { name: 章伯钧, title: 部长, from: 1949-10, to: 1958-02 }
+    - { name: 王首道, title: 部长, from: 1958-02, to: 1964, note: 止点待核 }
+    - { name: 叶飞, title: 部长, from: 1975-01, to: 1979 }
+    - { name: 钱永昌, title: 部长, from: 1985, to: 1991 }
+
+- id: posts
+  name: 邮电部
+  aliases: [邮电部]
+  kind: state
+  level: central
+  from: 1949-11
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 首任部长是工运领袖、民革人士朱学范，任职近二十年。
+  verify: true
+  leaders:
+    - { name: 朱学范, title: 部长, from: 1949-11, to: 1967 }
+    - { name: 杨泰芳, title: 部长, from: 1984, to: 1993 }
+
+- id: water-power
+  name: 水利部 / 水利电力部
+  aliases: [水利部, 水利电力部, 水电部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1958 年水利部与电力工业部合并为水利电力部，1979 年分开，1982 年再合并。主持治淮、三门峡（1957 年开工，后因泥沙淤积改建）等工程。
+  verify: true
+  leaders:
+    - { name: 傅作义, title: 部长, from: 1949-10, to: 1972, note: 1958 年起为水利电力部部长 }
+    - { name: 钱正英, title: 部长, from: 1975-01, to: 1988-04, note: 1979–1982 年为水利部部长 }
+
+- id: statistics
+  name: 国家统计局
+  aliases: [国家统计局]
+  kind: state
+  level: central
+  from: 1952-08
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1958 年大跃进中统计工作被“下放”，出现大量浮夸数字；1960 年代初重建统计系统。
+  verify: true
+  leaders:
+    - { name: 薛暮桥, title: 局长, from: 1952-08, to: 1958 }
+
+- id: overseas-chinese
+  name: 华侨事务委员会 / 国务院侨务办公室
+  short: 侨委
+  aliases: [华侨事务委员会, 侨务委员会, 国务院侨务办公室, 侨办]
+  kind: state
+  level: central
+  from: 1949-10
+  suspended: [{ from: 1970, to: 1978, note: 撤销，1978 年设国务院侨务办公室 }]
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管华侨与归侨事务。文革中归侨普遍被怀疑有“海外关系”，侨委 1970 年撤销。
+  verify: true
+  leaders:
+    - { name: 何香凝, title: 主任委员, from: 1949-10, to: 1959-04 }
+    - { name: 廖承志, title: 主任委员, from: 1959-04, to: 1970 }
+    - { name: 廖承志, title: 主任, from: 1978, to: 1983-06-10 }
+
+- id: hk-macao-office
+  name: 国务院港澳事务办公室
+  short: 港澳办
+  aliases: [国务院港澳事务办公室, 港澳办]
+  kind: state
+  level: central
+  from: 1978-08
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1982–1984 年中英谈判、1984 年《中英联合声明》和其后《香港基本法》起草的主管机构。
+  verify: true
+  leaders:
+    - { name: 廖承志, title: 主任, from: 1978-08, to: 1983-06-10 }
+    - { name: 姬鹏飞, title: 主任, from: 1983, to: 1990 }
+
+- id: state-security
+  name: 国家安全部
+  aliases: [国家安全部]
+  kind: state
+  level: central
+  from: 1983-07
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1983 年由中央调查部与公安部的反间谍部门合并组建。
+  verify: true
+  leaders:
+    - { name: 凌云, title: 部长, from: 1983-07, to: 1985-09 }
+    - { name: 贾春旺, title: 部长, from: 1985-09 }
+  links:
+    - { org: investigation, kind: replace, date: 1983-07, verify: true }
+
+- id: press-publication
+  name: 新闻出版署
+  aliases: [新闻出版署]
+  kind: state
+  level: central
+  from: 1987-01
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1987 年反资产阶级自由化运动中设立，主管报刊登记与出版审查；首任署长杜导正 1989 年后去职。
+  verify: true
+  leaders:
+    - { name: 杜导正, title: 署长, from: 1987-01, to: 1989-08 }
+    - { name: 宋木文, title: 署长, from: 1989-08 }
+
+- id: citic
+  name: 中国国际信托投资公司
+  short: 中信
+  aliases: [中国国际信托投资公司, 中信公司]
+  kind: unit
+  level: central
+  from: 1979-10
+  places: [{ at: beijing }]
+  summary: 邓小平支持下由原上海工商业者荣毅仁创办，引进外资和技术的窗口。
+  verify: true
+  leaders:
+    - { name: 荣毅仁, title: 董事长, from: 1979-10, to: 1993 }

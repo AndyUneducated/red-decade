@@ -102,6 +102,27 @@
 - { id: taoyuan, name: 桃源, names: [桃源], lat: 28.90, lon: 111.48 }
 - { id: wuwei, name: 无为, names: [无为], lat: 31.30, lon: 117.90 }
 
+# ── prefectures, counties, communes, bases (added with the org expansion) ──
+- { id: xinyang, name: 信阳, names: [信阳], lat: 32.13, lon: 114.07 }
+- { id: xushui, name: 徐水, names: [徐水], lat: 39.02, lon: 115.65 }
+- { id: suiping, name: 遂平（嵖岈山）, names: [遂平, 嵖岈山], lat: 33.15, lon: 114.01 }
+- { id: xinxiang, name: 新乡, names: [新乡, 七里营], lat: 35.30, lon: 113.93 }
+- { id: fengyang, name: 凤阳, names: [凤阳, 小岗], lat: 32.87, lon: 117.56 }
+- { id: chuzhou, name: 滁县（今滁州）, names: [滁县, 滁州], lat: 32.30, lon: 118.32 }
+- { id: xiyang, name: 昔阳（大寨）, names: [昔阳, 大寨], lat: 37.61, lon: 113.71 }
+- { id: linxian, name: 林县（今林州）, names: [林县, 林州, 红旗渠], lat: 36.08, lon: 113.82 }
+- { id: baodi, name: 宝坻（小靳庄）, names: [宝坻, 小靳庄], lat: 39.72, lon: 117.31 }
+- { id: guanghan, name: 广汉, names: [广汉], lat: 30.98, lon: 104.28 }
+- { id: tongwei, name: 通渭, names: [通渭], lat: 35.21, lon: 105.24 }
+- { id: shenzhen, name: 深圳, names: [深圳, 宝安], lat: 22.54, lon: 114.06 }
+- { id: anshan, name: 鞍山, names: [鞍山], lat: 41.11, lon: 122.99 }
+- { id: jiuquan-base, name: 酒泉卫星发射中心（额济纳）, names: [酒泉卫星发射中心, 东风基地], lat: 40.96, lon: 100.28 }
+- { id: malan, name: 马兰（罗布泊核试验场）, names: [马兰基地, 罗布泊], lat: 41.70, lon: 88.40 }
+- { id: qingan, name: 庆安（柳河）, names: [庆安, 柳河五七], lat: 46.88, lon: 127.51 }
+- { id: chaoyang-ln, name: 辽宁朝阳, names: [辽宁朝阳], lat: 41.57, lon: 120.45 }
+- { id: jiamusi, name: 佳木斯, names: [佳木斯], lat: 46.80, lon: 130.32 }
+- { id: shihezi, name: 石河子, names: [石河子], lat: 44.31, lon: 86.03 }
+
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
 - { id: hoechang, name: 朝鲜桧仓（志愿军总部）, names: [桧仓], lat: 39.37, lon: 126.33 }

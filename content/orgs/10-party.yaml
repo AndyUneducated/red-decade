@@ -328,3 +328,119 @@
   leaders:
     - { name: 胡耀邦, title: 主任, from: 1983-10, to: 1987-01 }
     - { name: 薄一波, title: 常务副主任（主持日常工作）, from: 1983-10, to: 1987-05 }
+
+# ── added with the 350-org expansion ──
+- id: southeast-bureau
+  name: 中共中央东南局
+  aliases: [中共中央东南局, 东南局]
+  kind: party
+  level: regional
+  from: 1937-12
+  to: 1941-05
+  places: [{ at: nanchang, to: 1938-08 }]
+  summary: 领导南方各省党组织和新四军，书记项英。1941 年 1 月皖南事变中新四军军部覆没，项英 3 月遇害，东南局撤销，工作并入华中局。
+  verify: true
+  leaders:
+    - { name: 项英, title: 书记, from: 1937-12, to: 1941-03-14 }
+  links:
+    - { org: central-china-bureau, kind: merge, date: 1941-05, verify: true }
+
+- id: capital-work-group
+  name: 首都工作组
+  aliases: [首都工作组]
+  kind: party
+  level: central
+  from: 1966-05
+  to: 1966-08
+  places: [{ at: beijing }]
+  summary: 1966 年 5 月政治局扩大会议期间成立，负责北京的保卫和警备（“防止政变”），调两个师进京加强卫戍；彭真、罗瑞卿等被批判期间运转，八届十一中全会后不再见于记载。
+  verify: true
+  leaders:
+    - { name: 叶剑英, title: 组长, from: 1966-05, to: 1966-08 }
+
+- id: state-politics-research
+  name: 国务院政治研究室
+  aliases: [国务院政治研究室]
+  kind: state
+  level: central
+  from: 1975-07
+  to: 1977
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  factions: [frontline]
+  summary: 邓小平 1975 年主持整顿时设立，胡乔木、吴冷西、胡绳、于光远、邓力群等组成，起草《论全党全国各项工作的总纲》等文件，1976 年被“四人帮”称为“三株大毒草”的炮制者而批判。
+  verify: true
+  leaders:
+    - { name: 胡乔木, title: 负责人, from: 1975-07, to: 1976-04 }
+
+- id: mao-works-committee
+  name: 毛泽东主席著作编辑出版委员会
+  aliases: [毛泽东主席著作编辑出版委员会, 毛主席著作编辑出版委员会]
+  kind: party
+  level: central
+  from: 1976-10
+  to: 1980
+  places: [{ at: beijing }]
+  summary: 毛泽东逝世后成立，1977 年 4 月出版《毛泽东选集》第五卷；所收文章有删改，1980 年代后不再作为定本使用。
+  verify: true
+  leaders:
+    - { name: 华国锋, title: 主任, from: 1976-10, to: 1980 }
+
+- id: rural-policy
+  name: 中共中央书记处农村政策研究室（国务院农村发展研究中心）
+  short: 农研室
+  aliases: [中央书记处农村政策研究室, 中央农村政策研究室, 农村政策研究室, 国务院农村发展研究中心, 农研室]
+  kind: party
+  level: central
+  from: 1982-04
+  to: 1989-12
+  places: [{ at: beijing }]
+  summary: 两块牌子一套人马。1982–1986 年连续起草五个关于农村工作的中央一号文件，确认包产到户、废除统购派购；1989 年底撤销。
+  verify: true
+  leaders:
+    - { name: 杜润生, title: 主任, from: 1982-04, to: 1989-12 }
+
+- id: polreform-group
+  name: 中央政治体制改革研讨小组
+  aliases: [中央政治体制改革研讨小组, 中央政治体制改革研究室, 政治体制改革研讨小组]
+  kind: party
+  level: central
+  from: 1986-09
+  to: 1989-06
+  places: [{ at: beijing }]
+  summary: 1986 年 9 月根据邓小平提议设立，起草十三大报告中的政治体制改革部分（党政分开等）；1987 年改设中央政治体制改革研究室。1989 年 5 月研究室主任鲍彤被拘押，机构撤销。
+  verify: true
+  leaders:
+    - { name: 赵紫阳, title: 组长, from: 1986-09, to: 1987-11 }
+    - { name: 鲍彤, title: 办公室主任、研究室主任, from: 1986-09, to: 1989-05-28 }
+
+- id: soviet-government
+  name: 中华苏维埃共和国临时中央政府
+  short: 苏维埃中央政府
+  aliases: [中华苏维埃共和国临时中央政府, 中华苏维埃共和国中央执行委员会, 中华苏维埃共和国人民委员会, 苏维埃临时中央政府]
+  kind: state
+  level: central
+  from: 1931-11-07
+  to: 1937-09
+  places: [{ at: ruijin, to: 1934-10 }, { at: yanan, from: 1935-10 }]
+  summary: 1931 年 11 月在瑞金成立，管辖中央苏区；长征后到陕北，1937 年 9 月改为陕甘宁边区政府。
+  verify: true
+  leaders:
+    - { name: 毛泽东, title: 中央执行委员会主席, from: 1931-11-07, to: 1937-09 }
+    - { name: 毛泽东, title: 人民委员会主席, from: 1931-11-07, to: 1934-02 }
+    - { name: 张闻天, title: 人民委员会主席, from: 1934-02, to: 1937-09 }
+
+- id: shaanganning
+  name: 陕甘宁边区政府
+  aliases: [陕甘宁边区政府, 陕甘宁边区]
+  kind: state
+  level: regional
+  from: 1937-09
+  to: 1950-01
+  places: [{ at: yanan, to: 1947-03 }, { at: xian, from: 1949-05 }]
+  summary: 抗战时期中共中央所在地的边区政府，名义上属国民政府，实行“三三制”。1947 年 3 月胡宗南进攻延安时撤出，1950 年撤销。
+  verify: true
+  leaders:
+    - { name: 林伯渠, title: 主席, from: 1937-09, to: 1948, note: 止点待核 }
+  links:
+    - { org: soviet-government, kind: replace, date: 1937-09, verify: true }

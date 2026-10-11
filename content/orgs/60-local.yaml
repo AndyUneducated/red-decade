@@ -1,0 +1,173 @@
+# Prefecture- and county-level bodies, people's communes and production brigades that stand for a
+# national campaign (大跃进、大饥荒、学大寨、包产到户、经济特区). From general reference, verify.
+# Leader lists here are short: county records (县志、组织史资料) are needed to fill them in.
+
+# ── 大跃进与大饥荒 ──
+- id: xinyang-prefecture
+  name: 中共信阳地委
+  short: 信阳地委
+  aliases: [中共信阳地委, 信阳地委]
+  kind: party
+  level: local
+  from: 1949
+  under: [{ org: ha-committee }]
+  places: [{ at: xinyang }]
+  summary: 河南信阳专区的党委。1959–1960 年“反瞒产”、浮夸征购与封锁外逃，造成大规模饿死（“信阳事件”），死亡人数各方估计从数十万到百万以上，口径不一。1960 年底中央派工作组处理，地委主要负责人被撤职。
+  verify: true
+  leaders:
+    - { name: 路宪文, title: 地委第一书记, from: 1958, to: 1960-11, note: 1960 年底被撤职，任职起点待核 }
+
+- id: xushui-county
+  name: 中共徐水县委
+  short: 徐水县委
+  aliases: [中共徐水县委, 徐水县委, 徐水县]
+  kind: party
+  level: local
+  from: 1949
+  under: [{ org: hebei-committee }]
+  places: [{ at: xushui }]
+  summary: 河北徐水县 1958 年被树为“共产主义试点县”，大办公共食堂、军事化编组、虚报亩产；毛泽东 1958 年 8 月视察。1959 年试点停止。
+  verify: true
+  leaders:
+    - { name: 张国忠, title: 县委第一书记, from: 1958, to: 1959 }
+
+- id: chayashan-commune
+  name: 嵖岈山卫星人民公社
+  short: 嵖岈山公社
+  aliases: [嵖岈山卫星人民公社, 嵖岈山公社, 卫星人民公社]
+  kind: unit
+  level: basic
+  from: 1958-04
+  to: 1984
+  under: [{ org: xinyang-prefecture }]
+  places: [{ at: suiping }]
+  summary: 河南遂平县由数十个高级社合并而成，通常被称为全国第一个人民公社。1958 年 9 月《人民日报》刊登其试行简章，被各地照搬。1984 年政社分开后撤销。
+  verify: true
+
+- id: qiliying-commune
+  name: 新乡县七里营人民公社
+  short: 七里营公社
+  aliases: [七里营人民公社, 七里营公社]
+  kind: unit
+  level: basic
+  from: 1958-08
+  to: 1984
+  places: [{ at: xinxiang }]
+  summary: 1958 年 8 月 6 日毛泽东视察时说“人民公社这个名字好”，随后“人民公社化”在全国铺开。
+  verify: true
+
+- id: tongwei-county
+  name: 中共通渭县委
+  short: 通渭县委
+  aliases: [中共通渭县委, 通渭县委]
+  kind: party
+  level: local
+  from: 1949
+  under: [{ org: gs-committee }]
+  places: [{ at: tongwei }]
+  summary: 甘肃通渭县 1959–1960 年饥荒死亡率在全国最高之列（“通渭问题”），县委负责人 1960 年后被撤职查办。
+  verify: true
+  leaders:
+    - { name: 席道隆, title: 县委书记, from: 1958, to: 1960 }
+
+# ── 学大寨与典型 ──
+- id: xiyang-county
+  name: 中共昔阳县委
+  short: 昔阳县委
+  aliases: [中共昔阳县委, 昔阳县委, 昔阳县革命委员会]
+  kind: party
+  level: local
+  from: 1945
+  under: [{ org: shanxi-committee }]
+  places: [{ at: xiyang }]
+  summary: 大寨所在县。1967 年陈永贵主持县革委会后以“大寨经验”治县，“学大寨，赶昔阳”成为口号；1980 年中央批转山西省委报告，指出昔阳虚报产量、推行极左做法。
+  verify: true
+  leaders:
+    - { name: 陈永贵, title: 县革委会主任、县委书记, from: 1967, to: 1975, note: 1975 年任国务院副总理后仍兼管昔阳，止点待核 }
+
+- id: linxian-county
+  name: 中共林县县委
+  short: 林县县委
+  aliases: [中共林县县委, 林县县委]
+  kind: party
+  level: local
+  from: 1945
+  under: [{ org: ha-committee }]
+  places: [{ at: linxian }]
+  summary: 河南林县 1960–1969 年在太行山腰修建红旗渠，被树为“自力更生”的典型。
+  verify: true
+  leaders:
+    - { name: 杨贵, title: 县委书记, from: 1954, to: 1975, note: 文革初期一度被夺权，止点待核 }
+
+- id: xiaojinzhuang
+  name: 宝坻县小靳庄大队
+  short: 小靳庄
+  aliases: [小靳庄大队, 小靳庄]
+  kind: unit
+  level: basic
+  from: 1958
+  places: [{ at: baodi }]
+  factions: [ccrg]
+  summary: 天津宝坻县的生产大队。1974 年 6 月江青来此，将其树为“批林批孔”的典型，推广“赛诗会”“政治夜校”；1976 年 10 月后被批判为“四人帮”的黑典型。
+  verify: true
+
+# ── 包产到户与特区 ──
+- id: fengyang-county
+  name: 中共凤阳县委
+  short: 凤阳县委
+  aliases: [中共凤阳县委, 凤阳县委]
+  kind: party
+  level: local
+  from: 1949
+  under: [{ org: chuxian-prefecture }]
+  places: [{ at: fengyang }]
+  summary: 安徽凤阳县 1959–1961 年饥荒严重。1978 年冬小岗生产队秘密“大包干”，次年县委书记陈庭元予以默许并向上反映。
+  verify: true
+  leaders:
+    - { name: 赵玉书, title: 县委第一书记, from: 1958, to: 1961 }
+    - { name: 陈庭元, title: 县委书记, from: 1978, to: 1983 }
+  links:
+    - { org: xiaogang, kind: lead, date: 1979, verify: true }
+
+- id: chuxian-prefecture
+  name: 中共滁县地委
+  short: 滁县地委
+  aliases: [中共滁县地委, 滁县地委]
+  kind: party
+  level: local
+  from: 1949
+  under: [{ org: ah-committee }]
+  places: [{ at: chuzhou }]
+  summary: 1978–1979 年在第一书记王郁昭主持下默许并推广包产到户、大包干，经万里支持后成为安徽农村改革的发源地。
+  verify: true
+  leaders:
+    - { name: 王郁昭, title: 地委第一书记, from: 1977, to: 1982 }
+
+- id: guanghan-xiangyang
+  name: 广汉县向阳人民公社
+  short: 向阳公社
+  aliases: [向阳人民公社, 向阳公社]
+  kind: unit
+  level: basic
+  from: 1958
+  to: 1980-06
+  under: [{ org: sc-committee }]
+  places: [{ at: guanghan }]
+  summary: 四川广汉县的公社，1980 年在省委第一书记赵紫阳支持下率先摘下“人民公社”牌子，改为乡人民政府，比全国政社分开早数年。
+  verify: true
+
+- id: shenzhen-committee
+  name: 中共深圳市委员会
+  short: 深圳市委
+  aliases: [中共深圳市委员会, 中共深圳市委, 深圳市委, 深圳经济特区]
+  kind: party
+  level: local
+  from: 1979-03
+  under: [{ org: guangdong-committee }]
+  places: [{ at: shenzhen }]
+  summary: 1979 年 3 月宝安县改为深圳市，1980 年 8 月全国人大常委会批准设立深圳经济特区。1984 年 1 月邓小平视察并题词，1992 年再次南巡。
+  verify: true
+  leaders:
+    - { name: 吴南生, title: 市委第一书记, from: 1980, to: 1981-03, note: 时兼广东省委书记 }
+    - { name: 梁湘, title: 市委第一书记、书记, from: 1981-03, to: 1985-08 }
+    - { name: 李灏, title: 市委书记, from: 1985-08 }

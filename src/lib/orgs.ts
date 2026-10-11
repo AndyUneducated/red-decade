@@ -33,7 +33,7 @@ export const parentAt = (o: Org, t: number) => nearest(o.under, t)?.org
 export const placeAt = (o: Org, t: number) => nearest(o.places, t)?.at
 
 export const KIND_ORDER = ['party', 'state', 'army', 'mass', 'popular', 'unit'] as const
-export const LEVEL_ORDER = ['central', 'regional', 'provincial', 'basic'] as const
+export const LEVEL_ORDER = ['central', 'regional', 'provincial', 'local', 'basic'] as const
 
 // verbs for a dated link, read from this org's side and from the other org's side
 export const LINK_OUT: Record<OrgLink, string> = {

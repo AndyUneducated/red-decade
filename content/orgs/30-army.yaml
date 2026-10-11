@@ -475,3 +475,146 @@
   leaders:
     - { name: 牛怀龙, title: 师长, from: 1966, to: 1967-07 }
     - { name: 蔡炳臣, title: 政治委员, from: 1966, to: 1967-07 }
+
+# ── added with the 350-org expansion ──
+- id: autumn-harvest
+  name: 工农革命军第一军第一师（秋收起义）
+  short: 秋收起义部队
+  aliases: [工农革命军第一军第一师, 工农革命军第一师, 秋收起义部队]
+  kind: army
+  level: regional
+  from: 1927-09
+  to: 1928-05
+  places: [{ at: liuyang, to: 1927-10 }, { at: jinggangshan, from: 1927-10 }]
+  summary: 1927 年 9 月湘赣边秋收起义的部队，进攻长沙失利后在文家市转向，经三湾改编（“支部建在连上”）上井冈山，1928 年与朱德、陈毅部会师后编为红四军。
+  verify: true
+  leaders:
+    - { name: 毛泽东, title: 前敌委员会书记, from: 1927-09, to: 1928-05 }
+    - { name: 卢德铭, title: 总指挥, from: 1927-09, to: 1927-09-25 }
+    - { name: 余洒度, title: 师长, from: 1927-09, to: 1927-10 }
+  links:
+    - { org: red-4th, kind: merge, date: 1928-04, verify: true }
+
+- id: red-1st-front
+  name: 中国工农红军第一方面军
+  short: 红一方面军
+  aliases: [中国工农红军第一方面军, 红一方面军, 中央红军]
+  kind: army
+  level: regional
+  from: 1930-08
+  to: 1937-08
+  under: [{ org: red-army }]
+  places: [{ at: ruijin, to: 1934-10 }, { at: yanan, from: 1935-10 }]
+  summary: 由红一、红三军团合编，即“中央红军”；1934 年 10 月开始长征，1935 年 10 月到达陕北，1937 年改编为八路军一一五师等部。
+  verify: true
+  leaders:
+    - { name: 朱德, title: 总司令, from: 1930-08, to: 1934-10 }
+    - { name: 毛泽东, title: 总政治委员, from: 1930-08, to: 1932-10 }
+    - { name: 彭德怀, title: 司令员, from: 1935-11, to: 1937-08, note: 到陕北后恢复番号 }
+  links:
+    - { org: eighth-route, kind: merge, date: 1937-08, verify: true }
+
+- id: red-4th-front
+  name: 中国工农红军第四方面军
+  short: 红四方面军
+  aliases: [中国工农红军第四方面军, 红四方面军]
+  kind: army
+  level: regional
+  from: 1931-11
+  to: 1937-08
+  under: [{ org: red-army }]
+  summary: 鄂豫皖苏区的主力，后转战川陕。1935 年 6 月与中央红军会师后，张国焘反对北上并另立“中央”；1936 年 10 月三大主力会师，其一部组成西路军，1937 年 3 月在河西走廊失败。
+  verify: true
+  leaders:
+    - { name: 徐向前, title: 总指挥, from: 1931-11, to: 1937-03 }
+    - { name: 陈昌浩, title: 政治委员, from: 1931-11, to: 1937-03 }
+    - { name: 张国焘, title: 中共中央鄂豫皖分局书记、西北军委主席, from: 1931-11, to: 1936-12, note: 方面军的实际最高领导 }
+  links:
+    - { org: red-1st-front, kind: oppose, date: 1935-09, note: 张国焘南下另立中央, verify: true }
+
+- id: jcj-mr
+  name: 晋察冀军区
+  aliases: [晋察冀军区]
+  kind: army
+  level: regional
+  from: 1937-11
+  to: 1948-05
+  places: [{ at: fuping }]
+  summary: 八路军一一五师一部在五台山区开辟的第一个敌后抗日根据地的军区，1948 年 5 月与晋冀鲁豫军区合并为华北军区。
+  verify: true
+  leaders:
+    - { name: 聂荣臻, title: 司令员兼政治委员, from: 1937-11, to: 1948-05 }
+  links:
+    - { org: north-china-mr, kind: merge, date: 1948-05, verify: true }
+
+- id: jjly-mr
+  name: 晋冀鲁豫军区
+  aliases: [晋冀鲁豫军区]
+  kind: army
+  level: regional
+  from: 1945-08
+  to: 1948-05
+  places: [{ at: shexian }]
+  summary: 以一二九师为主体组建，下辖野战军即后来的中原野战军、第二野战军。
+  verify: true
+  leaders:
+    - { name: 刘伯承, title: 司令员, from: 1945-08, to: 1948-05 }
+    - { name: 邓小平, title: 政治委员, from: 1945-08, to: 1948-05 }
+  links:
+    - { org: north-china-mr, kind: merge, date: 1948-05, verify: true }
+
+- id: army-38
+  name: 中国人民解放军第三十八军
+  short: 三十八军
+  aliases: [中国人民解放军第三十八军, 第三十八军, 三十八军, 38军]
+  kind: army
+  level: basic
+  from: 1949-03
+  under: [{ org: field-4, to: 1950 }, { org: beijing-mr, from: 1967 }]
+  places: [{ at: changchun, to: 1967 }, { at: baoding, from: 1967 }]
+  summary: 由东北野战军第一纵队改编，朝鲜战争中因第二次战役被称为“万岁军”。1967 年调驻保定，在河北“支左”中与当地一派冲突；1989 年 5 月军长徐勤先拒绝执行戒严命令而被撤职审查，部队随后由他人率领进京。
+  verify: true
+  leaders:
+    - { name: 李天佑, title: 军长, from: 1949-03, to: 1950 }
+    - { name: 梁兴初, title: 军长, from: 1950, to: 1954 }
+    - { name: 徐勤先, title: 军长, from: 1985, to: 1989-05 }
+
+- id: martial-law-command
+  name: 首都戒严部队指挥部
+  aliases: [首都戒严部队指挥部, 戒严部队指挥部, 戒严部队]
+  kind: army
+  level: central
+  from: 1989-05-20
+  to: 1990-01-11
+  places: [{ at: beijing }]
+  summary: 1989 年 5 月 20 日国务院总理李鹏宣布北京部分地区戒严后设立，统一指挥从各大军区调来的部队；6 月 3 日夜至 4 日清晨部队开枪进入天安门广场，死亡人数各方说法差距很大。1990 年 1 月 11 日解除戒严。
+  verify: true
+
+- id: united-fleet
+  name: “联合舰队”
+  aliases: [联合舰队, 林立果小舰队, 小舰队]
+  kind: army
+  level: basic
+  from: 1970-10
+  to: 1971-09-13
+  under: [{ org: air-force }]
+  places: [{ at: beijing }]
+  factions: [lin]
+  summary: 林立果以空军党委办公室“调研小组”为基础组成的小团体，1971 年 3 月起草《“五七一工程”纪要》。九一三事件后被定为反革命集团，骨干周宇驰等自杀或被捕。
+  verify: true
+  leaders:
+    - { name: 林立果, title: 负责人（时任空军司令部办公室副主任兼作战部副部长）, from: 1970-10, to: 1971-09-13, faction: lin }
+    - { name: 周宇驰, title: 骨干（时任空军党委办公室副主任）, from: 1970-10, to: 1971-09-13, faction: lin }
+
+- id: ndu
+  name: 中国人民解放军国防大学
+  short: 国防大学
+  aliases: [中国人民解放军国防大学, 国防大学]
+  kind: army
+  level: central
+  from: 1985-12
+  places: [{ at: beijing }]
+  summary: 1985 年由军事学院、政治学院、后勤学院合并而成，培养军以上指挥员。
+  verify: true
+  leaders:
+    - { name: 张震, title: 校长, from: 1985-12, to: 1992 }

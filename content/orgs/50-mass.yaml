@@ -355,6 +355,230 @@
   summary: 北京工人造反组织的联合机构，与红代会同时期成立。
   verify: true
 
+- id: shoudu-516
+  name: 首都五一六红卫兵团
+  aliases: [首都五一六红卫兵团, 五一六兵团, 五一六红卫兵团]
+  kind: popular
+  level: basic
+  from: 1967-06
+  to: 1967-09
+  places: [{ at: beijing }]
+  factions: [rebels]
+  summary: 以北京钢铁学院学生张建旗等为首的小组织，散发传单“炮打”周恩来，1967 年 8 月被中央定为反革命组织。此后“清查五一六”运动持续到 1970 年代初，被审查者数以百万计，远超这个组织本身的规模，许多人与它并无关系。
+  verify: true
+  leaders:
+    - { name: 张建旗, title: 负责人, from: 1967-06, to: 1967-09, faction: rebels }
+
+- id: js-hongzong
+  name: 江苏省红色造反总司令部
+  short: 红总
+  aliases: [江苏省红色造反总司令部, 江苏红总, 红总]
+  kind: popular
+  level: provincial
+  from: 1966-12
+  to: 1968-03
+  places: [{ at: nanjing }]
+  factions: [rebels]
+  summary: 南京工人与学生造反组织联合体，与“八二七”对立；1967 年得到南京军区许世友一方支持，1968 年江苏省革委会成立后解散。
+  verify: true
+  links:
+    - { org: nanjing-827, kind: oppose, date: 1967, verify: true }
+
+- id: henan-27
+  name: 河南“二七公社”
+  short: 二七公社
+  aliases: [二七公社, 河南二七公社, 郑州二七公社]
+  kind: popular
+  level: provincial
+  from: 1967-01
+  to: 1968-01
+  places: [{ at: zhengzhou }]
+  factions: [rebels]
+  summary: 郑州造反派联合组织。1967 年春被河南省军区定为“反动组织”镇压，与“十大总部”等派武斗；1967 年 7 月中央表态支持二七公社，省军区负责人检讨。
+  verify: true
+  links:
+    - { org: henan-shida, kind: oppose, date: 1967, verify: true }
+
+- id: henan-shida
+  name: 河南“十大总部”
+  short: 十大总部
+  aliases: [十大总部, 河南十大总部]
+  kind: popular
+  level: provincial
+  from: 1967-02
+  to: 1967-08
+  places: [{ at: zhengzhou }]
+  summary: 得到河南省军区支持的一派，与二七公社对立，1967 年 7 月中央表态后瓦解。
+  verify: true
+
+- id: ah-haopai
+  name: 安徽“好派”
+  short: 好派
+  aliases: [好派, 安徽好派]
+  kind: popular
+  level: provincial
+  from: 1967-01
+  to: 1968-04
+  places: [{ at: hefei }]
+  factions: [rebels]
+  summary: 因赞成 1967 年 1 月 26 日合肥造反派夺取省委权力“好得很”得名，反对者称“好个屁”而被叫作“屁派”。两派武斗持续到 1968 年安徽省革委会成立。
+  verify: true
+  links:
+    - { org: ah-pipai, kind: oppose, date: 1967-01-26, verify: true }
+
+- id: ah-pipai
+  name: 安徽“屁派”
+  short: 屁派
+  aliases: [屁派, 安徽屁派]
+  kind: popular
+  level: provincial
+  from: 1967-01
+  to: 1968-04
+  places: [{ at: hefei }]
+  factions: [rebels]
+  summary: 反对 1 月 26 日夺权的造反派，得名于“好个屁”；后来得到驻军支持。
+  verify: true
+
+- id: sc-826
+  name: 四川大学八二六战斗团
+  short: 川大八二六
+  aliases: [川大八二六, 八二六战斗团, 八二六派]
+  kind: popular
+  level: provincial
+  from: 1966-08-26
+  to: 1968
+  places: [{ at: chengdu }]
+  factions: [rebels]
+  summary: 成都造反派的核心组织，与“红卫兵成都部队”（红成）对立，1967 年 5 月中央处理四川问题的“红十条”后占上风，两派武斗至 1968 年。
+  verify: true
+  links:
+    - { org: hongcheng, kind: oppose, date: 1967, verify: true }
+
+- id: hongcheng
+  name: 红卫兵成都部队
+  short: 红成
+  aliases: [红卫兵成都部队, 红成]
+  kind: popular
+  level: provincial
+  from: 1966-12
+  to: 1968
+  places: [{ at: chengdu }]
+  factions: [rebels]
+  summary: 与八二六派对立的成都红卫兵联合组织。
+  verify: true
+
+- id: gx-422
+  name: 广西“四二二”
+  short: 四二二
+  aliases: [四二二, 广西四二二, 四二二派]
+  kind: popular
+  level: provincial
+  from: 1967-04-22
+  to: 1968-08
+  places: [{ at: nanning }]
+  factions: [rebels]
+  summary: 反对韦国清的造反派联合组织。1968 年 7 月 3 日中央发布“七三布告”后，在军队和“联指”围剿下被消灭，各地屠杀、甚至吃人事件中遇害者大量是“四二二”成员与“四类分子”，人数争议很大。
+  verify: true
+  links:
+    - { org: gx-lianzhi, kind: oppose, date: 1967-04-22, verify: true }
+
+- id: gx-lianzhi
+  name: 广西“联指”
+  short: 联指
+  aliases: [联指, 广西联指, 广西无产阶级革命派联合指挥部]
+  kind: popular
+  level: provincial
+  from: 1967-05
+  to: 1968-09
+  places: [{ at: nanning }]
+  summary: 支持韦国清和广西军区的一派。1968 年“七三布告”后与军队联合围剿“四二二”，广西革委会 8 月成立后以其为骨干。
+  verify: true
+
+# ── 1978–1989 年的民间刊物与组织 ──
+- id: tansuo
+  name: 《探索》
+  aliases: [《探索》, 探索杂志]
+  kind: popular
+  level: basic
+  from: 1979-01
+  to: 1979-03-29
+  places: [{ at: beijing }]
+  factions: [dissent]
+  summary: 西单民主墙时期的民间刊物，魏京生在此发表《第五个现代化》，1979 年 3 月贴出《要民主还是要新的独裁》后被捕，同年 10 月以“反革命罪”判刑 15 年。
+  verify: true
+  leaders:
+    - { name: 魏京生, title: 主编, from: 1979-01, to: 1979-03-29 }
+
+- id: siwu-luntan
+  name: 《四五论坛》
+  aliases: [《四五论坛》, 四五论坛]
+  kind: popular
+  level: basic
+  from: 1978-11
+  to: 1980
+  places: [{ at: beijing }]
+  factions: [dissent]
+  summary: 民主墙时期影响较大的民间刊物，主张在宪法框架内改革；1981 年编者徐文立被捕。
+  verify: true
+  leaders:
+    - { name: 徐文立, title: 主编, from: 1978-11, to: 1980 }
+
+- id: jintian
+  name: 《今天》
+  aliases: [《今天》, 今天文学杂志]
+  kind: popular
+  level: basic
+  from: 1978-12
+  to: 1980-09
+  places: [{ at: beijing }]
+  factions: [dissent]
+  summary: 油印民间文学刊物，北岛、芒克创办，首期贴在西单民主墙；“朦胧诗”的发源地，1980 年被勒令停刊。
+  verify: true
+  leaders:
+    - { name: 北岛, title: 主编, from: 1978-12, to: 1980-09, note: 本名赵振开 }
+    - { name: 芒克, title: 主编, from: 1978-12, to: 1980-09, note: 本名姜世伟 }
+
+- id: bj-gaozilian
+  name: 北京高校学生自治联合会
+  short: 高自联
+  aliases: [北京高校学生自治联合会, 高自联, 北高联]
+  kind: popular
+  level: provincial
+  from: 1989-04
+  to: 1989-06
+  places: [{ at: beijing }]
+  summary: 1989 年 4 月胡耀邦去世后北京各高校学生自发成立的联合组织，组织 4 月 27 日大游行，主席、常委多次轮换；6 月 13 日公安部通缉的 21 名学生领袖多数出自这里。
+  verify: true
+
+- id: tiananmen-command
+  name: 保卫天安门广场指挥部
+  short: 广场指挥部
+  aliases: [保卫天安门广场指挥部, 天安门广场指挥部, 广场指挥部]
+  kind: popular
+  level: basic
+  from: 1989-05
+  to: 1989-06-04
+  places: [{ at: beijing }]
+  summary: 1989 年 5 月绝食团与各校代表组成的广场学生指挥机构，6 月 4 日凌晨经与戒严部队交涉后组织学生撤离广场。
+  verify: true
+  leaders:
+    - { name: 柴玲, title: 总指挥, from: 1989-05, to: 1989-06-04 }
+    - { name: 封从德, title: 副总指挥, from: 1989-05, to: 1989-06-04 }
+
+- id: bj-gongzilian
+  name: 北京工人自治联合会
+  short: 工自联
+  aliases: [北京工人自治联合会, 工自联]
+  kind: popular
+  level: provincial
+  from: 1989-05
+  to: 1989-06
+  places: [{ at: beijing }]
+  summary: 1989 年 5 月在天安门广场西侧成立的工人组织，戒严后被宣布为非法组织，参与者遭到比学生更重的判刑。
+  verify: true
+  leaders:
+    - { name: 韩东方, title: 负责人, from: 1989-05, to: 1989-06 }
+
 # ── 单位 ──
 - id: buaa
   name: 北京航空学院
@@ -487,6 +711,8 @@
   places: [{ at: harbin }]
   summary: 1960 年石油会战发现开发，1964 年毛泽东号召“工业学大庆”，王进喜被树为“铁人”。
   verify: true
+  leaders:
+    - { name: 康世恩, title: 石油会战领导小组组长, from: 1960-02, to: 1964, note: 时任石油工业部副部长；部长余秋里统筹会战 }
 
 - id: dazhai
   name: 大寨大队
@@ -494,7 +720,8 @@
   kind: unit
   level: basic
   from: 1953
-  places: [{ at: taiyuan }]
+  under: [{ org: xiyang-county }]
+  places: [{ at: xiyang }]
   summary: 山西昔阳县的生产大队，1964 年起“农业学大寨”成为全国运动，支部书记陈永贵后任国务院副总理；1980 年中央否定“学大寨”运动。
   verify: true
   leaders:
@@ -516,6 +743,7 @@
   aliases: [小岗生产队, 小岗村, 小岗]
   kind: unit
   level: basic
-  places: [{ at: hefei }]
+  under: [{ org: fengyang-county }]
+  places: [{ at: fengyang }]
   summary: 1978 年冬 18 户农民秘密签约“分田到户”，被后来的官方叙述视为农村改革的起点。
   verify: true

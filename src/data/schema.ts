@@ -97,7 +97,7 @@ export const ORG_KINDS = {
 } as const
 export type OrgKind = keyof typeof ORG_KINDS
 
-export const ORG_LEVELS = { central: '中央', regional: '大区', provincial: '省市', basic: '基层' } as const
+export const ORG_LEVELS = { central: '中央', regional: '大区', provincial: '省市', local: '地县', basic: '基层' } as const
 
 // a link points from this org to another: this org 领导/设立/… that org
 export const ORG_LINKS = {

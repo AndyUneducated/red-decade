@@ -1,0 +1,568 @@
+# Universities, newspapers and journals, writing groups, factories, bases and production-construction
+# corps not in 50-mass.yaml. From general reference, verify. Heads are 校长 / 主编 / 厂长 / 司令员; party
+# secretaries are added where they, not the nominal head, ran the unit.
+
+# ── 延安与根据地学校 ──
+- id: shanbei-gongxue
+  name: 陕北公学
+  aliases: [陕北公学]
+  kind: unit
+  level: basic
+  from: 1937-09
+  to: 1941-08
+  places: [{ at: yanan }]
+  summary: 抗战初期在延安招收各地青年的干部学校，1939 年部分迁往敌后组建华北联合大学，1941 年与其他学校合并为延安大学。
+  verify: true
+  leaders:
+    - { name: 成仿吾, title: 校长, from: 1937-09, to: 1939-07 }
+  links:
+    - { org: huabei-lianda, kind: found, date: 1939-07, verify: true }
+
+- id: huabei-lianda
+  name: 华北联合大学
+  short: 华北联大
+  aliases: [华北联合大学, 华北联大]
+  kind: unit
+  level: basic
+  from: 1939-07
+  to: 1948-08
+  places: [{ at: fuping }]
+  summary: 由陕北公学、鲁艺等校部分师生在晋察冀边区组建，1948 年与北方大学合并为华北大学。
+  verify: true
+  leaders:
+    - { name: 成仿吾, title: 校长, from: 1939-07, to: 1948-08 }
+  links:
+    - { org: huabei-univ, kind: merge, date: 1948-08, verify: true }
+
+- id: huabei-univ
+  name: 华北大学
+  aliases: [华北大学]
+  kind: unit
+  level: basic
+  from: 1948-08
+  to: 1950-10
+  places: [{ at: beijing, from: 1949-03 }]
+  summary: 1948 年由华北联合大学与北方大学合并而成，1950 年在此基础上成立中国人民大学。
+  verify: true
+  leaders:
+    - { name: 吴玉章, title: 校长, from: 1948-08, to: 1950-10 }
+  links:
+    - { org: ruc, kind: merge, date: 1950-10, verify: true }
+
+- id: marx-lenin-institute
+  name: 延安马列学院
+  aliases: [马列学院, 马克思列宁学院, 延安马列学院]
+  kind: party
+  level: central
+  from: 1938-05
+  to: 1941-07
+  places: [{ at: yanan }]
+  summary: 中共中央在延安办的第一所培养理论干部的高级学校，1941 年改组为马列研究院，旋改称中央研究院。
+  verify: true
+  leaders:
+    - { name: 张闻天, title: 院长, from: 1938-05, to: 1941-07 }
+  links:
+    - { org: yanan-research, kind: replace, date: 1941-08, verify: true }
+
+- id: yanan-research
+  name: 中共中央研究院（延安）
+  short: 中央研究院
+  aliases: [中共中央研究院, 延安中央研究院]
+  kind: party
+  level: central
+  from: 1941-08
+  to: 1943-05
+  places: [{ at: yanan }]
+  summary: 由马列学院改组。研究员王实味 1942 年在《解放日报》发表《野百合花》，整风中被批判为“托派”，1947 年被处决；1943 年研究院并入中央党校。
+  verify: true
+  leaders:
+    - { name: 张闻天, title: 院长, from: 1941-08, to: 1943-05 }
+    - { name: 李维汉, title: 副院长（主持日常工作）, from: 1941-08, to: 1943-05, note: 本名罗迈 }
+  links:
+    - { org: party-school, kind: merge, date: 1943-05, verify: true }
+
+# ── 高校 ──
+- id: nju
+  name: 南京大学
+  short: 南大
+  aliases: [南京大学, 南大]
+  kind: unit
+  level: basic
+  from: 1950-10
+  places: [{ at: nanjing }]
+  summary: 前身为中央大学，1950 年改名。1976 年 3 月南大学生在南京街头刷标语悼念周恩来、点名反对张春桥，是四五运动的先声；1978 年哲学系教师胡福明执笔《实践是检验真理的唯一标准》初稿。
+  verify: true
+  leaders:
+    - { name: 匡亚明, title: 校长兼党委书记, from: 1963-05, to: 1966 }
+    - { name: 匡亚明, title: 校长兼党委书记, from: 1978-05, to: 1982 }
+    - { name: 曲钦岳, title: 校长, from: 1984 }
+
+- id: zju
+  name: 浙江大学
+  short: 浙大
+  aliases: [浙江大学, 浙大]
+  kind: unit
+  level: basic
+  from: 1928
+  places: [{ at: hangzhou }]
+  summary: 竺可桢长校十三年，抗战中西迁贵州遵义、湄潭。1952 年院系调整后成为以工科为主的大学。
+  verify: true
+  leaders:
+    - { name: 竺可桢, title: 校长, from: 1936-04, to: 1949-04 }
+    - { name: 马寅初, title: 校长, from: 1949-08, to: 1951-06 }
+
+- id: whu
+  name: 武汉大学
+  short: 武大
+  aliases: [武汉大学, 武大]
+  kind: unit
+  level: basic
+  from: 1928
+  places: [{ at: wuhan }]
+  summary: 校长李达是中共一大代表，1966 年 6 月被湖北省委点名为“三家村”式的“反党分子”，8 月 24 日死于迫害，1980 年平反。1981–1988 年校长刘道玉推行学分制、转系自由等改革。
+  verify: true
+  leaders:
+    - { name: 李达, title: 校长, from: 1953-02, to: 1966-08-24 }
+    - { name: 刘道玉, title: 校长, from: 1981-08, to: 1988-02 }
+
+- id: nankai
+  name: 南开大学
+  short: 南开
+  aliases: [南开大学]
+  kind: unit
+  level: basic
+  from: 1919
+  places: [{ at: tianjin }]
+  summary: 张伯苓创办。1966 年底南开大学红卫兵调查 1936 年薄一波等人出狱一事，材料经康生上报，成为“六十一人叛徒集团”案的来源之一。
+  verify: true
+  leaders:
+    - { name: 张伯苓, title: 校长, from: 1919, to: 1948 }
+    - { name: 杨石先, title: 校长, from: 1957, to: 1981 }
+    - { name: 滕维藻, title: 校长, from: 1981, to: 1986 }
+    - { name: 母国光, title: 校长, from: 1986 }
+
+- id: xjtu
+  name: 交通大学 / 西安交通大学
+  short: 西安交大
+  aliases: [西安交通大学, 西安交大, 交通大学]
+  kind: unit
+  level: basic
+  from: 1896
+  places: [{ at: shanghai, to: 1956 }, { at: xian, from: 1956 }]
+  summary: 1956 年起主体西迁西安，1959 年分为西安交通大学和上海交通大学。校长兼党委书记彭康 1968 年 3 月在批斗中去世。
+  verify: true
+  leaders:
+    - { name: 彭康, title: 校长兼党委书记, from: 1952-11, to: 1968-03-28 }
+
+- id: ustc
+  name: 中国科学技术大学
+  short: 科大
+  aliases: [中国科学技术大学, 中国科大, 科大]
+  kind: unit
+  level: basic
+  from: 1958-09
+  places: [{ at: beijing, to: 1970 }, { at: hefei, from: 1970 }]
+  summary: 中国科学院创办，1970 年迁往合肥。1986 年 12 月学潮从这里开始，1987 年 1 月校长管惟炎、第一副校长方励之被免职，方励之随后被开除党籍。
+  verify: true
+  leaders:
+    - { name: 郭沫若, title: 校长, from: 1958-09, to: 1978-06-12 }
+    - { name: 严济慈, title: 校长, from: 1980, to: 1984 }
+    - { name: 管惟炎, title: 校长, from: 1984, to: 1987-01 }
+    - { name: 谷超豪, title: 校长, from: 1988 }
+
+- id: lzu
+  name: 兰州大学
+  short: 兰大
+  aliases: [兰州大学, 兰大]
+  kind: unit
+  level: basic
+  from: 1946
+  places: [{ at: lanzhou }]
+  summary: 校长江隆基原任北大副校长，1959 年调来；1966 年 6 月被省委工作组定为“黑帮”，6 月 25 日自杀。1960 年兰大右派学生张春元、顾雁等与北大右派学生林昭等合办油印刊物《星火》，批评大跃进与饥荒，参与者相继被捕。
+  verify: true
+  leaders:
+    - { name: 江隆基, title: 校长兼党委书记, from: 1959, to: 1966-06-25 }
+
+- id: xmu
+  name: 厦门大学
+  short: 厦大
+  aliases: [厦门大学, 厦大]
+  kind: unit
+  level: basic
+  from: 1921
+  places: [{ at: xiamen }]
+  summary: 陈嘉庚创办。王亚南任校长近二十年，与郭大力合译《资本论》全译本。
+  verify: true
+  leaders:
+    - { name: 林文庆, title: 校长, from: 1921, to: 1937 }
+    - { name: 王亚南, title: 校长, from: 1950, to: 1969-11 }
+
+- id: cupl
+  name: 北京政法学院 / 中国政法大学
+  short: 政法大学
+  aliases: [北京政法学院, 中国政法大学, 政法大学]
+  kind: unit
+  level: basic
+  from: 1952-11
+  suspended: [{ from: 1970, to: 1978, note: 停办 }]
+  places: [{ at: beijing }]
+  summary: 院系调整中由北大、清华等校法律、政治系合并而成，首任院长钱端升 1957 年被划为右派。1983 年改建为中国政法大学，校长江平 1990 年被免职。
+  verify: true
+  leaders:
+    - { name: 钱端升, title: 院长, from: 1952-11, to: 1957 }
+    - { name: 刘复之, title: 校长, from: 1983, to: 1984 }
+    - { name: 江平, title: 校长, from: 1988, to: 1990 }
+
+# ── 报刊 ──
+- id: xin-qingnian
+  name: 《新青年》
+  aliases: [新青年, 《新青年》, 青年杂志]
+  kind: unit
+  level: central
+  from: 1915-09
+  to: 1926-07
+  places: [{ at: shanghai, to: 1917 }, { at: beijing, from: 1917, to: 1920 }, { at: shanghai, from: 1920, to: 1923 }, { at: guangzhou, from: 1923 }]
+  summary: 原名《青年杂志》，新文化运动的主阵地；1920 年 9 月起成为上海共产主义小组的刊物，1923 年改为中共中央理论季刊。
+  verify: true
+  leaders:
+    - { name: 陈独秀, title: 主编, from: 1915-09, to: 1922-07 }
+    - { name: 瞿秋白, title: 主编（季刊）, from: 1923-06, to: 1926-07 }
+
+- id: xiangdao
+  name: 《向导》周报
+  aliases: [向导, 《向导》, 向导周报]
+  kind: party
+  level: central
+  from: 1922-09
+  to: 1927-07
+  places: [{ at: shanghai }]
+  summary: 中共中央第一份公开发行的政治机关报，宣传“打倒列强、除军阀”的国民革命纲领。
+  verify: true
+  leaders:
+    - { name: 蔡和森, title: 主编, from: 1922-09, to: 1925-10 }
+    - { name: 彭述之, title: 主编, from: 1925-10, to: 1927 }
+
+- id: xiangjiang-review
+  name: 《湘江评论》
+  aliases: [湘江评论, 《湘江评论》]
+  kind: unit
+  level: basic
+  from: 1919-07
+  to: 1919-08
+  places: [{ at: changsha }]
+  summary: 湖南学生联合会的刊物，毛泽东主编，只出了五期即被湖南督军张敬尧查封，创刊宣言提出“民众的大联合”。
+  verify: true
+  leaders:
+    - { name: 毛泽东, title: 主编, from: 1919-07, to: 1919-08 }
+
+- id: dagongbao
+  name: 《大公报》
+  aliases: [大公报, 《大公报》]
+  kind: unit
+  level: central
+  from: 1902-06
+  to: 1966-09
+  places: [{ at: tianjin, to: 1937 }, { at: chongqing, from: 1938, to: 1945 }, { at: shanghai, from: 1945, to: 1956 }, { at: beijing, from: 1956 }]
+  summary: 1926 年新记公司接办后提出“不党、不卖、不私、不盲”，1941 年获美国密苏里大学新闻奖。1949 年后改为财经报纸，1966 年 9 月改名《前进报》，年底停刊；香港《大公报》继续出版。
+  verify: true
+  leaders:
+    - { name: 张季鸾, title: 总编辑, from: 1926-09, to: 1941-09-06 }
+    - { name: 王芸生, title: 总编辑、社长, from: 1941-09, to: 1966-09 }
+
+- id: wenyibao
+  name: 《文艺报》
+  aliases: [文艺报, 《文艺报》]
+  kind: unit
+  level: central
+  from: 1949-09
+  suspended: [{ from: 1966-06, to: 1978-07, note: 停刊 }]
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 全国文联的机关刊物。1954 年因压制李希凡、蓝翎批评俞平伯的文章被毛泽东批评，主编冯雪峰检讨去职；1957 年丁玲、陈企霞被定为“反党集团”，刊物成为反右的战场。
+  verify: true
+  leaders:
+    - { name: 丁玲, title: 主编, from: 1949-09, to: 1952 }
+    - { name: 冯雪峰, title: 主编, from: 1952, to: 1954-12 }
+    - { name: 张光年, title: 主编, from: 1957, to: 1966 }
+    - { name: 冯牧, title: 主编, from: 1978-07, to: 1984 }
+
+- id: renmin-wenxue
+  name: 《人民文学》
+  aliases: [人民文学, 《人民文学》]
+  kind: unit
+  level: central
+  from: 1949-10
+  suspended: [{ from: 1966-06, to: 1976-01, note: 停刊 }]
+  under: [{ org: writers }]
+  places: [{ at: beijing }]
+  summary: 中国作协的文学月刊。1956 年发表王蒙《组织部新来的青年人》、刘宾雁《在桥梁工地上》，次年两人都被划为右派。1977 年 11 月发表刘心武《班主任》，被视为“伤痕文学”的开端。
+  verify: true
+  leaders:
+    - { name: 茅盾, title: 主编, from: 1949-10, to: 1953 }
+    - { name: 王蒙, title: 主编, from: 1983, to: 1986 }
+    - { name: 刘心武, title: 主编, from: 1987, to: 1990 }
+
+- id: wjdb
+  name: 《世界经济导报》
+  aliases: [世界经济导报, 《世界经济导报》]
+  kind: unit
+  level: provincial
+  from: 1980-06
+  to: 1989-05
+  places: [{ at: shanghai }]
+  summary: 上海社会科学院世界经济研究所等合办的周报，1980 年代讨论政治、经济改革最大胆的报纸之一。1989 年 4 月因刊登悼念胡耀邦座谈会纪要，被上海市委停止总编辑职务并派工作组整顿，引发新闻界声援。
+  verify: true
+  leaders:
+    - { name: 钦本立, title: 总编辑, from: 1980-06, to: 1989-04-26 }
+
+- id: xinguancha
+  name: 《新观察》
+  aliases: [新观察, 《新观察》]
+  kind: unit
+  level: central
+  from: 1950-07
+  suspended: [{ from: 1960-05, to: 1980-07, note: 停刊 }]
+  to: 1989
+  places: [{ at: beijing }]
+  summary: 综合性半月刊。1957 年主编戈扬被划为右派，1980 年复刊后她重任主编；1989 年 4 月与《世界经济导报》合办悼念胡耀邦座谈会，年内停刊。
+  verify: true
+  leaders:
+    - { name: 戈扬, title: 主编, from: 1950-07, to: 1957 }
+    - { name: 戈扬, title: 主编, from: 1980-07, to: 1989 }
+
+# ── 写作组 ──
+- id: liangxiao
+  name: 北京大学、清华大学大批判组
+  short: 梁效
+  aliases: [梁效, 北大清华大批判组, 两校大批判组]
+  kind: unit
+  level: central
+  from: 1973-10
+  to: 1976-10
+  places: [{ at: beijing }]
+  factions: [ccrg]
+  summary: 笔名“梁效”（两校）。江青授意组建，由迟群、谢静宜掌握，冯友兰、周一良、魏建功、林庚等教授被调入；批林批孔、评法批儒、批邓期间在两报一刊发表文章两百余篇。1976 年 10 月后成员被隔离审查。
+  verify: true
+  leaders:
+    - { name: 迟群, title: 负责人, from: 1973-10, to: 1976-10, faction: ccrg, note: 时任清华大学党委书记 }
+    - { name: 谢静宜, title: 负责人, from: 1973-10, to: 1976-10, faction: ccrg, note: 时任北京市委书记 }
+
+- id: sh-writing-group
+  name: 中共上海市委写作组
+  short: 上海写作组
+  aliases: [上海市委写作组, 罗思鼎, 丁学雷, 石一歌]
+  kind: unit
+  level: provincial
+  from: 1964
+  to: 1976-10
+  places: [{ at: shanghai }]
+  factions: [ccrg]
+  summary: 1964 年由张春桥在上海市委宣传系统组建，先后以“丁学雷”“罗思鼎”“石一歌”等笔名发文，1973 年起主办《学习与批判》《朝霞》，是张春桥、姚文元在舆论上的主要工具。
+  verify: true
+  leaders:
+    - { name: 徐景贤, title: 负责人, from: 1964, to: 1967-02, note: 1967 年后任上海市革委会副主任，仍分管写作组 }
+    - { name: 朱永嘉, title: 负责人, from: 1971, to: 1976-10, faction: ccrg }
+
+- id: chulan
+  name: 文化部写作组
+  short: 初澜
+  aliases: [初澜, 文化部写作组]
+  kind: unit
+  level: central
+  from: 1974
+  to: 1976-10
+  under: [{ org: culture-ministry }]
+  places: [{ at: beijing }]
+  factions: [ccrg]
+  summary: 笔名“初澜”，于会泳任文化部长后组建，发表批“黑画”、评“晋剧《三上桃峰》”、批《创业》等文章，替江青的文艺路线造势。
+  verify: true
+
+# ── 工厂、基地 ──
+- id: anshan-steel
+  name: 鞍山钢铁公司
+  short: 鞍钢
+  aliases: [鞍山钢铁公司, 鞍钢]
+  kind: unit
+  level: basic
+  from: 1948-12
+  places: [{ at: anshan }]
+  summary: 新中国第一个钢铁基地，“一五”计划的重点。1960 年 3 月毛泽东批转鞍山市委报告，把“两参一改三结合”称为“鞍钢宪法”，与苏联“马钢宪法”（一长制）对立。
+  verify: true
+
+- id: faw
+  name: 第一汽车制造厂
+  short: 一汽
+  aliases: [第一汽车制造厂, 长春第一汽车制造厂, 一汽]
+  kind: unit
+  level: basic
+  from: 1953-07
+  places: [{ at: changchun }]
+  summary: 苏联援建的 156 项工程之一，1956 年 7 月第一辆解放牌卡车下线，1958 年试制红旗牌轿车。
+  verify: true
+  leaders:
+    - { name: 饶斌, title: 厂长, from: 1953, to: 1960 }
+
+- id: shmachine-721
+  name: 上海机床厂七二一工人大学
+  short: 七二一大学
+  aliases: [七二一工人大学, 七二一大学, 上海机床厂]
+  kind: unit
+  level: basic
+  from: 1968-09
+  to: 1980
+  places: [{ at: shanghai }]
+  summary: 1968 年 7 月 21 日毛泽东就上海机床厂培养技术人员的调查批示“大学还是要办的……从有实践经验的工人农民中间选拔学生”，厂里随即办起七二一工人大学，各地仿效，1970 年代达数万所。
+  verify: true
+
+- id: chaoyang-agri
+  name: 朝阳农学院
+  short: 朝农
+  aliases: [朝阳农学院, 朝农]
+  kind: unit
+  level: basic
+  from: 1970
+  to: 1978
+  places: [{ at: chaoyang-ln }]
+  factions: [ccrg]
+  summary: 沈阳农学院迁到辽宁朝阳后改名，推行“几上几下”“社来社去”，1974 年在毛远新推动下被树为教育革命典型（“朝农经验”）；1978 年迁回沈阳。
+  verify: true
+
+- id: liuhe-57
+  name: 黑龙江省柳河五七干校
+  short: 柳河五七干校
+  aliases: [柳河五七干校, 柳河五七干部学校]
+  kind: unit
+  level: provincial
+  from: 1968-05-07
+  to: 1979
+  under: [{ org: hlj-revcom }]
+  places: [{ at: qingan }]
+  summary: 黑龙江省革委会在庆安县柳河办的第一所“五七干校”。1968 年 10 月《人民日报》刊登其经验并发表毛泽东批示“广大干部下放劳动，这对干部是一种重新学习的极好机会”，各级机关随即大办干校，下放干部达数百万。
+  verify: true
+
+- id: jiuquan-base
+  name: 酒泉卫星发射中心（东风基地）
+  short: 东风基地
+  aliases: [酒泉卫星发射中心, 东风基地, 二十基地, 酒泉导弹试验基地]
+  kind: army
+  level: basic
+  from: 1958-10
+  under: [{ org: nstc-defense }]
+  places: [{ at: jiuquan-base }]
+  summary: 中国第一个导弹、卫星试验场。1966 年 10 月在此进行导弹核武器“两弹结合”试验，1970 年 4 月 24 日发射第一颗人造卫星东方红一号。
+  verify: true
+  leaders:
+    - { name: 孙继先, title: 司令员, from: 1958-10, to: 1966, note: 止点待核 }
+
+- id: malan-base
+  name: 中国人民解放军核试验基地（马兰）
+  short: 马兰基地
+  aliases: [核试验基地, 马兰基地, 罗布泊核试验基地]
+  kind: army
+  level: basic
+  from: 1959
+  under: [{ org: nstc-defense }]
+  places: [{ at: malan }]
+  summary: 1964 年 10 月 16 日在罗布泊进行第一次原子弹试验，1967 年 6 月 17 日第一次氢弹空投试验。
+  verify: true
+  leaders:
+    - { name: 张蕴钰, title: 司令员, from: 1959, to: 1972 }
+
+- id: bj-zhenzhi
+  name: 北京针织总厂
+  aliases: [北京针织总厂]
+  kind: unit
+  level: basic
+  places: [{ at: beijing }]
+  summary: “六厂二校”之一。1968 年起八三四一部队（中央警卫团）派人进驻，其“清理阶级队伍”“落实政策”的经验由中央转发全国。
+  verify: true
+
+- id: bj-chem3
+  name: 北京化工三厂
+  aliases: [北京化工三厂]
+  kind: unit
+  level: basic
+  places: [{ at: beijing }]
+  summary: “六厂二校”之一，八三四一部队蹲点单位，其“清理阶级队伍”报告 1969 年由中央转发。
+  verify: true
+
+- id: bj-beijiao
+  name: 北京北郊木材厂
+  aliases: [北郊木材厂, 北京北郊木材厂]
+  kind: unit
+  level: basic
+  places: [{ at: beijing }]
+  summary: “六厂二校”之一，八三四一部队蹲点单位，1969 年中央转发其“对敌斗争”经验。
+  verify: true
+
+- id: nankou-rail
+  name: 南口机车车辆机械厂
+  aliases: [南口机车车辆机械厂, 南口机车厂]
+  kind: unit
+  level: basic
+  places: [{ at: beijing }]
+  summary: “六厂二校”之一，八三四一部队蹲点单位。
+  verify: true
+
+- id: erqi-rail
+  name: 北京二七机车车辆厂
+  aliases: [二七机车车辆厂, 北京二七机车车辆厂, 二七厂]
+  kind: unit
+  level: basic
+  from: 1897
+  places: [{ at: beijing }]
+  summary: 前身为长辛店机车厂，1923 年“二七大罢工”的发源地之一；“六厂二校”之一，八三四一部队蹲点单位。
+  verify: true
+
+# ── 生产建设兵团 ──
+- id: xpcc
+  name: 新疆生产建设兵团
+  short: 兵团
+  aliases: [新疆生产建设兵团, 新疆兵团]
+  kind: army
+  level: provincial
+  from: 1954-10
+  suspended: [{ from: 1975-03, to: 1981-12, note: 撤销，1981 年恢复 }]
+  under: [{ org: xinjiang-mr, to: 1975-03 }, { org: xj-committee, from: 1981-12 }]
+  places: [{ at: urumqi }, { at: shihezi }]
+  summary: 由驻新疆的解放军部队和起义的国民党部队就地转业组成，屯垦戍边。文革中接收大量知识青年，1975 年撤销，1981 年恢复。
+  verify: true
+  leaders:
+    - { name: 陶峙岳, title: 司令员, from: 1954-10, to: 1966 }
+    - { name: 王恩茂, title: 第一政治委员, from: 1954-10, to: 1967, note: 时任新疆分局 / 自治区党委第一书记 }
+
+- id: hlj-corps
+  name: 黑龙江生产建设兵团
+  aliases: [黑龙江生产建设兵团]
+  kind: army
+  level: provincial
+  from: 1968-06
+  to: 1976-02
+  under: [{ org: shenyang-mr }]
+  places: [{ at: jiamusi }]
+  summary: 1968 年以北大荒国营农场为基础组建，属沈阳军区，接收北京、上海、天津、哈尔滨等地知识青年四十多万人；1976 年改回农场体制。
+  verify: true
+
+- id: nmg-corps
+  name: 内蒙古生产建设兵团
+  aliases: [内蒙古生产建设兵团]
+  kind: army
+  level: provincial
+  from: 1969-05
+  to: 1975
+  under: [{ org: beijing-mr }]
+  places: [{ at: hohhot }]
+  summary: 属北京军区，接收北京、天津、上海等地知识青年十余万人，1975 年撤销。
+  verify: true
+
+- id: yunnan-corps
+  name: 云南生产建设兵团
+  aliases: [云南生产建设兵团]
+  kind: army
+  level: provincial
+  from: 1970-03
+  to: 1974-10
+  under: [{ org: kunming-mr }]
+  places: [{ at: kunming }]
+  summary: 以西双版纳等地国营农场为基础组建，接收北京、上海、成都、重庆知识青年十万余人；1978 年底这里的知青罢工、请愿要求回城，成为知青返城潮的起点。
+  verify: true
