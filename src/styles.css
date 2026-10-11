@@ -312,6 +312,7 @@ kbd {
   color: var(--focus);
 }
 .voice[data-voice='official1981'] b,
+.voice[data-voice='officialLater'] b,
 .voice[data-voice='judicial1980'] b {
   color: #6b4f9e;
 }
