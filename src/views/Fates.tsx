@@ -181,7 +181,7 @@ export function Fates() {
                     height={ROW - 4}
                     fill={statusColor(s.s)}
                     opacity={s.s === 'normal' ? 0.55 : 1}
-                    stroke={s.verify ? '#8a5a00' : 'none'}
+                    stroke={s.verify ? 'var(--warn)' : 'none'}
                     strokeDasharray="2 2"
                     strokeWidth={0.8}
                     style={{ cursor: 'pointer' }}
@@ -211,7 +211,7 @@ export function Fates() {
           <g pointerEvents="none">
             <line x1={x(t)} x2={x(t)} y1={0} y2={height} stroke="var(--accent)" strokeWidth={1.4} />
             <rect x={x(t) - 50} y={SUMMARY_H + 2} width={100} height={16} rx={3} fill="var(--accent)" />
-            <text x={x(t)} y={SUMMARY_H + 14} textAnchor="middle" fontSize={11} fill="#fff">
+            <text x={x(t)} y={SUMMARY_H + 14} textAnchor="middle" fontSize={11} fill="var(--on-accent)">
               {fmtT(t)}
             </text>
           </g>

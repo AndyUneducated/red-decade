@@ -312,7 +312,7 @@ export function River() {
                     cy={m.cy}
                     r={m.p.id === selPerson ? 3.6 : 2.4}
                     fill={statusColor(m.s)}
-                    stroke={m.verify ? '#8a5a00' : 'var(--paper)'}
+                    stroke={m.verify ? 'var(--warn)' : 'var(--paper)'}
                     strokeWidth={m.verify ? 1 : 0.6}
                     style={{ cursor: 'pointer' }}
                     onClick={() => select({ type: 'person', id: m.p.id })}
@@ -363,7 +363,7 @@ export function River() {
             <g pointerEvents="none">
               <line x1={x(t)} x2={x(t)} y1={24} y2={height} stroke="var(--accent)" strokeWidth={1.4} />
               <rect x={x(t) - 50} y={RIVER_H + 2} width={100} height={16} rx={3} fill="var(--accent)" />
-              <text x={x(t)} y={RIVER_H + 14} textAnchor="middle" fontSize={11} fill="#fff">
+              <text x={x(t)} y={RIVER_H + 14} textAnchor="middle" fontSize={11} fill="var(--on-accent)">
                 {fmtT(t)}
               </text>
             </g>

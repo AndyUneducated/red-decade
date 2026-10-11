@@ -8,14 +8,14 @@ import { useApp } from '../state'
 export const statusColor = (s?: Status) => (s ? `var(--s-${s})` : 'transparent')
 
 export const RELATION_STYLE: Record<string, { color: string; dash?: string; width: number }> = {
-  spouse: { color: '#8a857b', dash: '2 3', width: 1.5 },
-  patron: { color: '#2a9d8f', width: 1.6 },
-  protect: { color: '#2a9d8f', dash: '5 3', width: 1.6 },
-  ally: { color: '#a8a296', width: 1.2 },
-  subordinate: { color: '#c4beb2', width: 1 },
-  attack: { color: '#d4582f', width: 1.6 },
-  persecute: { color: '#9e1b32', width: 2.2 },
-  link: { color: '#6b7280', dash: '1 3', width: 1.4 },
+  spouse: { color: 'var(--muted)', dash: '2 3', width: 1.5 },
+  patron: { color: 'var(--s-restored)', width: 1.6 },
+  protect: { color: 'var(--s-restored)', dash: '5 3', width: 1.6 },
+  ally: { color: 'var(--rel-ally)', width: 1.2 },
+  subordinate: { color: 'var(--rel-subordinate)', width: 1 },
+  attack: { color: 'var(--rel-attack)', width: 1.6 },
+  persecute: { color: 'var(--s-power)', width: 2.2 },
+  link: { color: 'var(--s-purged)', dash: '1 3', width: 1.4 },
 }
 
 export function Entity({ refTo, children, dot }: { refTo: Ref; children?: ReactNode; dot?: string }) {

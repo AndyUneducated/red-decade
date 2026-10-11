@@ -227,7 +227,7 @@ export function Timeline() {
                     y={0}
                     width={Math.max(0, x(b) - x(a))}
                     height={pulseTop + PULSE_H}
-                    fill={name === '文化大革命' ? '#b3122e' : i % 2 ? '#000' : 'transparent'}
+                    fill={name === '文化大革命' ? 'var(--accent)' : i % 2 ? 'var(--ink)' : 'transparent'}
                     opacity={name === '文化大革命' ? 0.035 : 0.018}
                   />
                   {fits && (
@@ -369,7 +369,7 @@ export function Timeline() {
           <g clipPath="url(#plot)" pointerEvents="none">
             <line x1={cursorX} x2={cursorX} y1={lanesTop - 4} y2={pulseTop + PULSE_H} stroke="var(--accent)" strokeWidth={1.4} />
             <rect x={cursorX - 52} y={pulseTop + PULSE_H + 1} width={104} height={16} rx={3} fill="var(--accent)" />
-            <text x={cursorX} y={pulseTop + PULSE_H + 13} fontSize={11} fill="#fff" textAnchor="middle">
+            <text x={cursorX} y={pulseTop + PULSE_H + 13} fontSize={11} fill="var(--on-accent)" textAnchor="middle">
               {fmtT(t)}
             </text>
           </g>

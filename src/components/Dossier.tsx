@@ -9,7 +9,7 @@ import { LifeStrip } from './LifeStrip'
 
 // ── 职务时间带: the life strip plus one swimlane per system, on one time axis ──
 
-const SYS_COLOR: Record<Sys, string> = { party: '#9e1b32', gov: '#2f5d8a', army: '#4d6b35', other: '#7a7468' }
+const SYS_COLOR: Record<Sys, string> = { party: 'var(--sys-party)', gov: 'var(--sys-gov)', army: 'var(--sys-army)', other: 'var(--sys-other)' }
 const ROW = 12
 const ROW_GAP = 2
 const LANE_GAP = 7
@@ -100,7 +100,7 @@ export function ProfileTimeline({ p, x, width, end, ticks }: { p: Person; x: Sca
                         </title>
                       </rect>
                       {label && (
-                        <text x={4} y={ROW - 2.5} fontSize={10} fill={on ? '#fff' : SYS_COLOR[l.sys]} pointerEvents="none">
+                        <text x={4} y={ROW - 2.5} fontSize={10} fill={on ? 'var(--card)' : SYS_COLOR[l.sys]} pointerEvents="none">
                           {label}
                         </text>
                       )}
@@ -220,7 +220,7 @@ function Glyph({ kind, p }: { kind: string; p: Person }) {
       return (
         <g>
           <circle cx={13} cy={13} r={9} fill="var(--s-dead)" />
-          <path d={mark} stroke="#fff" strokeWidth={2} strokeLinecap="round" />
+          <path d={mark} stroke="var(--card)" strokeWidth={2} strokeLinecap="round" />
         </g>
       )
     }
@@ -358,7 +358,7 @@ export function AgeRuler({ p }: { p: Person }) {
             return (
               <g key={i}>
                 <line x1={x0} x2={x0} y1={base - 4} y2={y - 9} stroke={color[m.tone]} strokeWidth={m.tone === 'accent' ? 1.4 : 1} strokeDasharray={m.label === '身后平反' ? '2 2' : undefined} />
-                <circle cx={x0} cy={base} r={2.6} fill={m.label === '身后平反' ? '#fff' : color[m.tone]} stroke={color[m.tone]} />
+                <circle cx={x0} cy={base} r={2.6} fill={m.label === '身后平反' ? 'var(--card)' : color[m.tone]} stroke={color[m.tone]} />
                 <text x={m.left} y={y} fontSize={11} fill={color[m.tone]}>
                   <title>{`${m.label}：${fmtDate(m.date)}，${Math.floor(m.age + 1e-6)} 周岁`}</title>
                   {m.text}

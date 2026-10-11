@@ -1,5 +1,6 @@
 import * as d3 from 'd3'
 import { useMemo, useRef, useState } from 'react'
+import { useTheme } from '../lib/theme'
 import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
 
@@ -29,7 +30,9 @@ export function Ideas() {
   const gridW = docs.length * colW + 40
   const bodyH = concepts.length * ROW + 12
   const max = d3.max(ix.concepts.flatMap((c) => c.hits.map((h) => h.count))) ?? 1
-  const color = d3.scaleSequentialSqrt(d3.interpolate('#f7e3e3', '#8e0f25')).domain([1, max])
+  const dark = useTheme() === 'dark'
+  const color = d3.scaleSequentialSqrt(dark ? d3.interpolate('#3a2226', '#ef6a7c') : d3.interpolate('#f7e3e3', '#8e0f25')).domain([1, max])
+  const hotText = dark ? '#1b1a18' : '#fff'
 
   const focus = sel?.type === 'concept' ? sel.id : undefined
   const pickedDoc = sel?.type === 'concept' ? sel.sub : undefined
@@ -135,7 +138,7 @@ export function Ideas() {
                           strokeWidth={picked ? 2.5 : 1.2}
                         />
                         {h && colW > 24 && (
-                          <text x={colX(j) + colW / 2} y={y + 17} textAnchor="middle" fontSize={10.5} fill={h.count > max * 0.18 ? '#fff' : 'var(--ink)'} pointerEvents="none">
+                          <text x={colX(j) + colW / 2} y={y + 17} textAnchor="middle" fontSize={10.5} fill={h.count > max * 0.18 ? hotText : 'var(--ink)'} pointerEvents="none">
                             {h.count}
                           </text>
                         )}

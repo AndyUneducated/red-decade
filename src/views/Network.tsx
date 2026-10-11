@@ -262,7 +262,7 @@ export function Network() {
                 >
                   {selected && <circle r={n.r + 7} fill="none" stroke="var(--accent)" strokeWidth={2} />}
                   <circle r={n.r} fill={statusColor(s ?? 'normal')} stroke={f?.color} strokeWidth={n.p.tier === 1 ? 3.5 : 2.5} style={{ transition: 'fill .3s' }} />
-                  {gone && <path d={`M${-n.r * 0.5},${-n.r * 0.5}L${n.r * 0.5},${n.r * 0.5}M${n.r * 0.5},${-n.r * 0.5}L${-n.r * 0.5},${n.r * 0.5}`} stroke="#fff" strokeWidth={1.4} />}
+                  {gone && <path d={`M${-n.r * 0.5},${-n.r * 0.5}L${n.r * 0.5},${n.r * 0.5}M${n.r * 0.5},${-n.r * 0.5}L${-n.r * 0.5},${n.r * 0.5}`} stroke="var(--card)" strokeWidth={1.4} />}
                   <text
                     y={n.r + 13}
                     textAnchor="middle"

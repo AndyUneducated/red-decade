@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Drawer } from './components/Drawer'
 import { Search } from './components/Search'
+import { setTheme, useTheme } from './lib/theme'
 import { useApp, VIEWS, type View } from './state'
 import { Docs } from './views/Docs'
 import { Fates } from './views/Fates'
@@ -22,6 +23,25 @@ const COMPONENTS: Record<View, () => React.ReactNode> = {
   narratives: Narratives,
   docs: Docs,
   research: Research,
+}
+
+function ThemeButton() {
+  const theme = useTheme()
+  const next = theme === 'dark' ? 'light' : 'dark'
+  return (
+    <button className="themebtn" onClick={() => setTheme(next)} title={next === 'dark' ? '暗夜模式' : '日间模式'} aria-label={next === 'dark' ? '切换到暗夜模式' : '切换到日间模式'}>
+      <svg width={16} height={16} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round">
+        {theme === 'dark' ? (
+          <>
+            <circle cx={8} cy={8} r={3} />
+            <path d="M8 1.5v1.5M8 13v1.5M1.5 8H3M13 8h1.5M3.4 3.4l1 1M11.6 11.6l1 1M3.4 12.6l1-1M11.6 4.4l1-1" />
+          </>
+        ) : (
+          <path d="M13.5 9.6A5.8 5.8 0 0 1 6.4 2.5a5.8 5.8 0 1 0 7.1 7.1z" />
+        )}
+      </svg>
+    </button>
+  )
 }
 
 export default function App() {
@@ -60,6 +80,7 @@ export default function App() {
         <button className="searchbtn" onClick={() => setSearching(true)}>
           搜索人物、事件、概念、文献 <kbd>Ctrl K</kbd>
         </button>
+        <ThemeButton />
       </header>
       <main className="main">
         <Current />

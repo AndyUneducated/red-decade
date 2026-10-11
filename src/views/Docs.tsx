@@ -124,7 +124,7 @@ function Reader({ id }: { id: string }) {
           {text && <span>{text.length.toLocaleString()} 字</span>}
         </div>
         {s.excerpt && (
-          <div className="significance" style={{ borderLeftColor: '#8a5a00', background: '#fbf3e3' }}>
+          <div className="significance excerpt">
             节录：原作者为个人，著作权尚在保护期内，本站只收录用于评论的段落（不计入思想谱系词频）。全文见上方链接。
           </div>
         )}
@@ -145,7 +145,7 @@ function Reader({ id }: { id: string }) {
           </div>
         )}
         {rebuttedBy.map((d) => (
-          <div className="significance" key={d.id} style={{ borderLeftColor: 'var(--accent)', background: '#fbeceb' }}>
+          <div className="significance rebut" key={d.id}>
             本文被{' '}
             <button className="linklike" style={{ fontWeight: 600 }} onClick={() => openDoc(d.id)}>
               {d.source.alias ? `《${d.source.alias}》` : d.source.title}

@@ -9,14 +9,14 @@ import { useApp } from '../state'
 // Ordered by when the voice was written: at the time → witnesses → the verdicts → later study.
 const COLS: Voice[] = ['doc', 'official1966', 'witness', 'judicial1980', 'official1981', 'officialLater', 'scholar', 'editor']
 export const VOICE_COLOR: Record<Voice, string> = {
-  doc: '#4a4741',
-  official1966: '#b3122e',
-  witness: '#d97706',
-  judicial1980: '#4b5563',
-  official1981: '#6b4f9e',
-  officialLater: '#9a7cc4',
-  scholar: '#2a7f62',
-  editor: '#1f5fbf',
+  doc: 'var(--v-doc)',
+  official1966: 'var(--v-official1966)',
+  witness: 'var(--v-witness)',
+  judicial1980: 'var(--v-judicial1980)',
+  official1981: 'var(--v-official1981)',
+  officialLater: 'var(--v-officialLater)',
+  scholar: 'var(--v-scholar)',
+  editor: 'var(--v-editor)',
 }
 const VERDICT: Voice[] = ['judicial1980', 'official1981', 'officialLater']
 const THEN: Voice[] = ['doc', 'official1966']
