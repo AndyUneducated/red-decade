@@ -1257,6 +1257,7 @@
     - { title: 中共中央办公厅秘书室干部（信访组组长）, orgName: 中共中央办公厅, from: 1950, to: 1963, verify: true }
     - { title: 《红旗》杂志历史组组长, orgName: 红旗杂志, from: 1963, to: 1968-01, verify: true }
     - { title: 中央文化革命小组组员, orgName: 中央文革小组, from: 1966-05-28, to: 1968-01, cite: ws-1966-05-ccrg-list }
+    - { title: 中共中央办公厅秘书局副局长, orgName: 中共中央办公厅, from: 1966, to: 1968-01, cite: ws-1983-11-02-qi-benyu-case, verify: true }
   bio: 中央办公厅秘书室出身的年轻历史写作者。1963 年《评〈李秀成自述〉》引起轩然大波，受到毛泽东赏识；1965 年 12 月发表《为革命而研究历史》，毛泽东称“很好，我看了三遍，缺点是没有点名”。1966 年进入中央文革小组，是批判刘少奇、组织群众冲击中央领导人最积极的成员之一：1967 年组织批斗刘少奇大会，指使红卫兵揪斗彭德怀、贴“打倒朱德”标语。1968 年 1 月被隔离审查，1983 年被判处有期徒刑十八年。晚年在上海出版回忆录，2016 年去世。
   life:
     - h: 早年与中南海
@@ -1283,9 +1284,9 @@
       from: 1968-01
       to: 2016
       text: |
-        王力、关锋倒台后，1968 年 1 月 13 日他也被隔离审查，关押于秦城监狱。1983 年 11 月北京市中级人民法院以反革命宣传煽动罪、诬告陷害罪、聚众打砸抢罪判处其有期徒刑十八年（待核），1986 年刑满释放，此后在上海居住，从事图书和保健品工作。2016 年在香港出版《戚本禹回忆录》，坚持为文革和毛泽东辩护。2016 年 4 月 20 日在上海去世。
+        王力、关锋倒台后，1968 年 1 月 13 日他也被隔离审查，关押于秦城监狱（待核）。1980 年 7 月 14 日被依法逮捕。北京市人民检察院分院起诉书列举他 1967 年 1 月 12 日在钓鱼台召集中办人员说“中南海冷冷清清，外面轰轰烈烈”，当晚中办秘书局七八十人闯进刘少奇、邓小平、陶铸住处围斗；7 月 18 日凌晨布置“有的搞刘少奇，有的搞邓小平，有的搞陶铸。王光美、卓琳也要搞”。1983 年 11 月 2 日北京市中级人民法院“判处被告人戚本禹有期徒刑十八年，剥夺政治权利四年”。1986 年刑满释放（待核），此后在上海居住。2016 年在香港出版《戚本禹回忆录》，坚持为文革和毛泽东辩护。2016 年 4 月 20 日在上海去世。
       verify: true
-      cites: [qi-benyu-memoir]
+      cites: [ws-1983-11-02-qi-benyu-case, qi-benyu-memoir]
   assess:
     - { voice: doc, text: 戚本禹的文章很好，我看了三遍，缺点是没有点名（毛泽东 1965 年 12 月 21 日，据五一六通知附件）, cite: ws-1966-05-16-notice-attachment, quote: true }
     - { voice: judicial1980, text: 一九六七年七月，“中央文化革命小组”成员戚本禹在康生同意下，指使北京航空学院学生韩爱晶组织实施对中共中央政治局委员彭德怀的人身迫害，致使彭德怀被打断肋骨，造成重伤, cite: ws-1981-01-25-judgment, quote: true }
@@ -1305,10 +1306,11 @@
     - { date: 1965-12-21, s: rise, note: 毛泽东点名称赞, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
     - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
     - { date: 1968-01-13, s: detained, verify: true }
-    - { date: 1983-11, s: detained, note: 判处有期徒刑十八年, verify: true }
+    - { date: 1980-07-14, s: detained, note: 依法逮捕, cite: ws-1983-11-02-qi-benyu-case }
+    - { date: 1983-11-02, s: detained, note: 判处有期徒刑十八年, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1986, s: normal, note: 刑满释放, verify: true }
     - { date: 2016-04-20, s: dead }
-  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-07-09-liu-jiangong-review, ws-1967-08-09-renegades, ws-1980-indictment, ws-1981-01-25-judgment]
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-07-09-liu-jiangong-review, ws-1967-08-09-renegades, ws-1980-indictment, ws-1981-01-25-judgment, ws-1983-11-02-qi-benyu-case]
 
 - id: wang-renzhong
   name: 王任重
@@ -3447,116 +3449,566 @@
 # ── 一线与工作组 ────────────────────────────────────────────
 - id: wang-guangmei
   name: 王光美
+  pinyin: Wáng Guāngměi
+  gender: f
+  ethnicity: 汉族
+  birthplace: 北京
+  origin: 天津
   born: 1921-09-26
   died: 2006-10-13
+  deathKind: natural
+  deathPlace: 北京
+  education:
+    - { school: 辅仁大学物理系（研究生）, to: 1945, verify: true }
+  party: 中国共产党
+  joinedParty: 1948
+  positions:
+    - { title: 北平军事调处执行部中共方面翻译, orgName: 北平军事调处执行部, from: 1946, to: 1946-11, verify: true }
+    - { title: 刘少奇秘书, orgName: 中共中央办公厅, from: 1949, to: 1966, verify: true }
+    - { title: 清华大学工作组顾问, orgName: 清华大学工作组, from: 1966-06, to: 1966-08, cite: ws-1966-10-liu-self-criticism, verify: true }
+    - { title: 中国社会科学院外事局局长, orgName: 中国社会科学院, from: 1979, verify: true }
+    - { title: 全国政协常委, orgName: 全国政协, from: 1983, to: 2006, verify: true }
+  rehab:
+    - { date: 1979-03, text: 中共中央组织部复查结论：王光美同志的政治历史清楚，没有问题, cite: ws-1980-02-29-liu-rehab }
   tier: 2
-  role1966: 清华大学工作组顾问
-  bio: 刘少奇妻子。刘少奇检讨：“我过问过的，王光美同志参加过的清华大学前一段文化革命运动中所犯的错误，是这一错误路线的典型例子。”又提及其 1964 年“桃园蹲点”经验。
+  role1966: 刘少奇夫人、清华大学工作组顾问
+  bio: 出身北京的官员家庭，辅仁大学物理系研究生，1946 年在北平军调处任中共方面翻译，后到解放区，1948 年与刘少奇结婚。1963–64 年在河北抚宁桃园大队蹲点，“桃园经验”1964 年 9 月由中央批发全国。1966 年 6 月参与清华大学工作组，刘少奇检讨时把这段运动称为错误路线的“典型例子”。1967 年被批斗、逮捕，专案组把她定为“美特”，关押到 1979 年；同年中组部结论“政治历史清楚，没有问题”。晚年发起扶助贫困母亲的“幸福工程”，2006 年去世。
+  life:
+    - h: 家世与求学
+      from: 1921
+      to: 1946
+      text: |
+        1921 年 9 月 26 日生于北京，祖籍天津。父亲王槐青曾在北洋政府农商部任职，家中兄弟姐妹众多。1939 年入辅仁大学物理系，1945 年读完研究生（待核）。
+      verify: true
+      cites: [huang-zheng-wang-guangmei]
+    - h: 军调处与西柏坡
+      from: 1946
+      to: 1949
+      text: |
+        1946 年国共停战期间在北平军事调处执行部担任中共方面的英文翻译，年底到延安，在中央军委外事组工作。1948 年 8 月在西柏坡与刘少奇结婚，同年入党（待核）。建国后长期担任刘少奇的秘书。
+      verify: true
+      cites: [huang-zheng-wang-guangmei]
+    - h: 桃园蹲点
+      from: 1963-11
+      to: 1964-09
+      text: |
+        据 1967 年造反派的调查材料，1963 年 11 月到 1964 年 4 月她在河北省抚宁县的桃园大队“搞了五个月的四清”，1964 年 7 月在河北省委工作会议上作了“长达十万余字的报告”。9 月 1 日中共中央把这份《关于一个大队的社会主义教育运动的经验总结》批发全国，批语说它“是王光美同志在河北省委工作会议上的报告记录”，“桃园大队的经验是有普遍意义的”。
+
+        刘少奇 1966 年 10 月检讨说，他“过份相信王光美同志在一个大队蹲点的经验，让她在几个地方作了介绍”，“后来又把她的讲话记录批发到全国”。1967 年的调查材料则把“桃园四清经验”说成“修正主义的四清，经济主义的四清”。
+      cites: [ws-1964-09-01-taoyuan-endorse, ws-1966-10-liu-self-criticism, ws-1967-taoyuan-survey]
+    - h: 清华工作组
+      from: 1966-06
+      to: 1966-10
+      text: |
+        1966 年 6 月刘少奇、邓小平向北京各大学派出工作组，清华大学工作组组长为叶林，王光美以顾问身份参加（待核）。据 1967 年反工作组一方的调查报告，工作组从 6 月下旬起组织“反蒯”，把反对工作组的学生蒯大富当作重点，并利用干部急于“下楼”的心情动员他们参与；7 月中旬起又对校内“黑帮”大搞批判斗争，直到 8 月初撤出。
+
+        10 月刘少奇在中央工作会议上检讨：“我过问过的，王光美同志参加过的清华大学前一段文化革命运动中所犯的错误，是这一错误路线的典型例子。”
+      verify: true
+      cites: [ws-1966-qinghua-workteam-survey, ws-1966-10-liu-self-criticism]
+    - h: 批斗、专案与关押
+      from: 1967
+      to: 1979
+      text: |
+        1967 年 4 月 10 日清华大学井冈山兵团召开批斗她的大会，强迫她穿上出访印尼时的旗袍、戴乒乓球串成的“项链”（待核）。据 1983 年戚本禹案起诉书，7 月 18 日凌晨戚本禹在人民大会堂布置“有的搞刘少奇，有的搞邓小平，有的搞陶铸。王光美、卓琳也要搞”，当天中南海三百余人“批斗了刘少奇、王光美，强迫低头弯腰”。
+
+        据 1980 年起诉书，江青直接控制并伙同康生、谢富治指挥“刘少奇、王光美专案组”，“诬陷刘少奇、王光美是‘叛徒’、‘特务’、‘反革命’”。为了坐实她是“特务”，专案组对她在辅仁大学的老师杨承祚、张重一逼供，两人先后被迫害致死。1968 年的审查报告写道，刘少奇“同北平美国战略情报处派往延安的美特王光美结合起来”。她本人 1967 年 9 月被逮捕，关押在秦城监狱，1979 年才获释（待核）。
+      verify: true
+      cites: [huang-zheng-wang-guangmei, ws-1983-11-02-qi-benyu-case, ws-1980-indictment, ws-1981-01-25-judgment, ws-1968-liu-case-report]
+    - h: 平反与晚年
+      from: 1979
+      to: 2006
+      text: |
+        1979 年 3 月中共中央组织部复查后作出结论：“王光美同志的政治历史清楚，没有问题。”1980 年 2 月十一届五中全会为刘少奇平反的决议，逐条否定了 1968 年审查报告的罪名，称“同美特王光美结合”“是妄加的罪名”。此后任中国社会科学院外事局局长、全国政协常委。1995 年发起帮助贫困母亲的“幸福工程”（待核）。2006 年 10 月 13 日在北京去世。
+      verify: true
+      cites: [ws-1980-02-29-liu-rehab, huang-zheng-wang-guangmei]
+  assess:
+    - { voice: doc, text: 我过问过的，王光美同志参加过的清华大学前一段文化革命运动中所犯的错误，是这一错误路线的典型例子（刘少奇 1966 年 10 月检讨）, cite: ws-1966-10-liu-self-criticism, quote: true }
+    - { voice: official1966, text: 一九四七年二月，刘少奇同北平美国战略情报处派往延安的美特王光美结合起来（1968 年刘少奇案审查报告）, cite: ws-1968-liu-case-report, quote: true }
+    - { voice: officialLater, text: 王光美同志的政治历史清楚，没有问题（中组部 1979 年结论，据 1980 年平反决议）, cite: ws-1980-02-29-liu-rehab, quote: true }
+    - { voice: witness, text: 晚年口述回忆了桃园蹲点、清华工作组和狱中十二年，是了解她本人说法的主要来源，需与同期文献对照。, cite: huang-zheng-wang-guangmei }
+  works:
+    - { title: 关于一个大队的社会主义教育运动的经验总结, date: 1964-07, cite: ws-1964-09-01-taoyuan-endorse }
+    - { title: 王光美访谈录（黄峥执笔）, date: 2006, cite: huang-zheng-wang-guangmei }
   factions: [frontline, workteams]
   fate:
-    - { date: 1963, s: normal }
-    - { date: 1966-06, s: power, note: 进驻清华；刘少奇检讨称“王光美同志参加过的清华大学前一段文化革命运动”, cite: ws-1966-10-liu-self-criticism }
-    - { date: 1966-08, s: attacked, cite: ws-1966-10-liu-self-criticism }
-    - { date: 1967-09, s: detained, verify: true }
-    - { date: 1978-12, s: restored, verify: true }
+    - { date: 1948, s: normal, note: 与刘少奇结婚、入党, verify: true }
+    - { date: 1963-11, s: normal, note: 桃园蹲点, cite: ws-1967-taoyuan-survey }
+    - { date: 1964-09-01, s: rise, note: 桃园经验由中央批发全国, cite: ws-1964-09-01-taoyuan-endorse }
+    - { date: 1966-06, s: power, note: 清华工作组顾问, cite: ws-1966-10-liu-self-criticism, verify: true }
+    - { date: 1966-08, s: attacked, note: 工作组撤出, cite: ws-1966-qinghua-workteam-survey }
+    - { date: 1967-07-18, s: attacked, note: 中南海批斗, cite: ws-1983-11-02-qi-benyu-case }
+    - { date: 1967-09, s: detained, note: 逮捕关押, verify: true }
+    - { date: 1979-03, s: restored, note: 中组部结论“政治历史清楚，没有问题”, cite: ws-1980-02-29-liu-rehab }
     - { date: 2006-10-13, s: dead }
-  cites: [ws-1966-10-liu-self-criticism, ws-1980-indictment]
+  cites: [ws-1964-09-01-taoyuan-endorse, ws-1966-10-liu-self-criticism, ws-1966-qinghua-workteam-survey, ws-1967-taoyuan-survey, ws-1968-liu-case-report, ws-1980-indictment, ws-1981-01-25-judgment, ws-1980-02-29-liu-rehab, ws-1983-11-02-qi-benyu-case]
 
 - id: zhang-chengxian
   name: 张承先
+  pinyin: Zhāng Chéngxiān
+  gender: m
+  ethnicity: 汉族
   born: 1915
   died: 2006
+  deathKind: natural
+  party: 中国共产党
+  positions:
+    - { title: 中共河北省委书记处书记, orgName: 中共河北省委, to: 1966-06, verify: true }
+    - { title: 北京大学工作组组长, orgName: 北京大学工作组, from: 1966-06-03, to: 1966-07, cite: rmrb-1966-06-04-pku-committee }
   tier: 3
   role1966: 北京大学工作组组长
-  bio: 北大工作组 6 月 18 日处理“乱斗现象”，刘少奇主持的会议将北大简报第九号批发全国，“把革命师生群众的革命行动，说成是反革命事件，这就给全国定了一种基调”（刘少奇检讨）。
+  bio: 1966 年 6 月 3 日北京新市委派往北京大学的工作组组长，工作组代行北大党委职权。他领导的工作组把 6 月 18 日校内的乱斗定为“反革命事件”，刘少奇主持批发的北大简报第九号据此“给全国定了一种基调”；7 月底工作组撤出后，这一处理成了“资产阶级反动路线”的典型。此前在河北主管文教，晚年回忆过北大工作组的经过。
+  life:
+    - h: 早年与河北
+      from: 1915
+      to: 1966-05
+      text: |
+        1915 年生，抗战时期参加革命并入党，建国后长期在河北工作，1966 年前任中共河北省委书记处书记、主管文教（待核）。
+      verify: true
+    - h: 北大工作组
+      from: 1966-06
+      to: 1966-07
+      text: |
+        聂元梓大字报广播后，6 月 3 日新改组的北京市委决定：“派以张承先为首的工作组到北京大学对社会主义文化大革命进行领导”，同时撤销陆平、彭珮云的一切职务，“在北京大学党委改组期间，由工作组代行党委的职权”。
+
+        6 月 18 日，北大一些学生在校内揪斗干部、教师，给他们戴高帽、抹黑脸（待核）。工作组出面制止，把事件写进《北京大学文化革命简报》第九号上报。刘少奇 1966 年 10 月检讨说，他主持的中央会议“批发了北京大学文化革命简报第九号到各地党委，认为北大工作组六月十八日处理乱斗现象的办法是正确的，及时的”，“把革命师生群众的革命行动，说成是反革命事件，这就给全国定了一种基调”。1967 年 8 月两报一刊编辑部文章说，刘少奇“批转北京大学工作组的一期简报，把革命事件说成是反革命事件，并且要全国仿效办理”。
+
+        7 月下旬江青、陈伯达、康生等到北大，在全校大会上批评工作组；7 月底北京市委宣布撤销各大专院校的工作组（待核）。
+      verify: true
+      cites: [rmrb-1966-06-04-pku-committee, ws-1966-10-liu-self-criticism, ws-1967-07-09-liu-jiangong-review, ws-1967-08-15-socialist-road]
+    - h: 此后
+      from: 1966-08
+      to: 2006
+      text: |
+        工作组撤出后他受到批判，回河北后被打倒（待核）。文革后复出，在教育部门任职，晚年撰文回忆北大工作组的经过（待核）。2006 年去世。
+      verify: true
+  assess:
+    - { voice: doc, text: 批发了北京大学文化革命简报第九号到各地党委，认为北大工作组六月十八日处理乱斗现象的办法是正确的，及时的（刘少奇 1966 年 10 月检讨）, cite: ws-1966-10-liu-self-criticism, quote: true }
+    - { voice: official1966, text: 他批转北京大学工作组的一期简报，把革命事件说成是反革命事件，并且要全国仿效办理（1967 年 8 月两报一刊编辑部文章，“他”指刘少奇）, cite: ws-1967-08-15-socialist-road, quote: true }
   factions: [workteams]
   fate:
-    - { date: 1966-06-03, s: power, verify: true }
-    - { date: 1966-07-26, s: purged, verify: true }
-  cites: [ws-1966-10-liu-self-criticism]
+    - { date: 1966-06-03, s: power, note: 任北大工作组组长并代行党委职权, cite: rmrb-1966-06-04-pku-committee }
+    - { date: 1966-06-18, s: power, note: 处理北大乱斗, cite: ws-1966-10-liu-self-criticism }
+    - { date: 1966-07-26, s: attacked, note: 中央文革在北大大会上批评工作组, verify: true }
+    - { date: 1966-07-28, s: sidelined, note: 工作组撤出, verify: true }
+    - { date: 2006, s: dead }
+  cites: [rmrb-1966-06-04-pku-committee, ws-1966-10-liu-self-criticism, ws-1967-07-09-liu-jiangong-review, ws-1967-08-15-socialist-road]
 
 # ── 学校与群众组织 ──────────────────────────────────────────
 - id: nie-yuanzi
   name: 聂元梓
+  pinyin: Niè Yuánzǐ
+  gender: f
+  ethnicity: 汉族
+  birthplace: 河南滑县
+  origin: 河南滑县
   born: 1921-04-05
   died: 2019-08-28
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 中共北京大学哲学系总支书记, orgName: 北京大学, from: 1964, to: 1966-09, cite: ws-1982-10-05-nie-yuanzi-case, verify: true }
+    - { title: 北京大学文化革命委员会主任, orgName: 北京大学, from: 1966-09, to: 1969, cite: ws-1982-10-05-nie-yuanzi-case, verify: true }
+    - { title: 北京市革命委员会副主任, orgName: 北京市革命委员会, from: 1967-04-20, to: 1971, cite: ws-1982-10-05-nie-yuanzi-case, verify: true }
+    - { title: 中共第九届中央委员会候补委员, orgName: 中共中央委员会, from: 1969-04, to: 1973-08, cite: ws-1982-10-05-nie-yuanzi-case }
   tier: 2
   role1966: 北京大学哲学系党总支书记
-  bio: 1966 年 5 月 25 日与另六人贴出《宋硕、陆平、彭佩云在文化革命中究竟干些什么？》。6 月 1 日经毛泽东批示由中央人民广播电台播出，次日《人民日报》发表评论员文章《欢呼北大的一张大字报》。《炮打司令部》称之为“全国第一张马列主义的大字报”。
+  bio: 北京大学哲学系总支书记。1966 年 5 月 25 日与哲学系另六人贴出《宋硕、陆平、彭珮云在文化革命中究竟干些什么？》，6 月 1 日经毛泽东决定广播，被称为“全国第一张马列主义的大字报”。此后任北大校文革主任、北京市革委会副主任，奉中央文革之命到上海煽动打倒常溪萍，受康生之托追查彭真“叛徒”问题，在北大设“监改大院”关押陆平等百余人。1978 年被捕，1983 年以反革命宣传煽动罪、诬告陷害罪被判有期徒刑十七年。晚年在香港出版回忆录，2019 年去世。
+  life:
+    - h: 早年
+      from: 1921
+      to: 1963
+      text: |
+        1921 年生于河南滑县，兄弟姐妹多人参加革命。抗战初期到延安，1938 年入党。建国后在哈尔滨工作，1963 年调北京大学（待核）。
+      verify: true
+      cites: [nie-yuanzi-memoir]
+    - h: 北大社教
+      from: 1964
+      to: 1966-05
+      text: |
+        1964 年任北京大学哲学系总支书记。同年北大社会主义教育运动中，她站在以张磐石为首、常溪萍任党委副书记的社教工作队一边批评校党委书记陆平；1965 年中央书记处和北京市委纠正了工作队的做法，她受到批评（待核）。这段对立直接延续到 1966 年的大字报和她对常溪萍的报复。
+      verify: true
+      cites: [nie-yuanzi-memoir]
+    - h: 第一张大字报
+      from: 1966-05-25
+      to: 1966-08
+      text: |
+        1966 年 5 月 25 日下午两点多，她和哲学系宋一秀、夏剑豸、杨克明、赵正义、高云鹏、李醒尘共七人，在大饭厅东墙上贴出《宋硕、陆平、彭珮云在文化革命中究竟干些什么？》，矛头指向北京市委大学部副部长宋硕 5 月 14 日要求的“加强领导，坚守岗位”。大字报的起草与康生之妻曹轶欧到北大“调查”有关（待核）。
+
+        6 月 1 日晚，大字报经毛泽东决定由中央人民广播电台播出，次日《人民日报》全文刊登，并配发评论员文章《欢呼北大的一张大字报》。1967 年的《红旗》社论说，毛泽东“把北京大学的全国第一张马列主义的大字报称为二十世纪六十年代的北京人民公社宣言”。8 月 5 日毛泽东写《炮打司令部》，开头即说：“全国第一张马列主义的大字报和人民日报评论员的评论，写得何等好呵！”8 月 18 日第一次接见红卫兵大会上，她作为“北京大学的代表”讲话。
+      verify: true
+      cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, ws-1967-02-seize-power, ws-1967-08-bombard-anniv, rmrb-1966-08-19-first-rally]
+    - h: 校文革与上海之行
+      from: 1966-09
+      to: 1967-04
+      text: |
+        1966 年 9 月北京大学文化革命委员会成立，她任主任。据 1982 年起诉书和 1983 年判决书，11 月 15 日王力把她秘密接到花园村“中央文革”记者站，江青、陈伯达、姚文元、王力、关锋、戚本禹等密谋后派她去上海“造反”。19 日她带领孙蓬一等到上海，与张春桥单独密谈，定下以“打倒常溪萍为突破口”、进而夺取上海市领导权的策略，召集“工总司”“上三司”等造反派头头开会，要他们“把矛头对准上海市委”，又煽动华东师范大学的学生“打进市委机关去，让市委后院起火”。12 月 16 日离沪，孙蓬一留下继续活动。
+
+        常溪萍是 1964 年北大社教工作队党委副书记，1966 年 7 月和 9 月她两次写大字报诬其为“镇压北大社教运动的刽子手”，交江青转到上海张贴。常溪萍此后遭到“极其残酷的折磨”，1968 年 5 月 25 日“含冤去世”。
+
+        1967 年 1 月，她得知戚本禹说“朱是反毛的”，即批准“新北大公社”与作家协会“革命造反团”组成“联合批判班子”批判《朱德将军传》，文章登在《新北大》报上，“印五十多万份，发往全国”。
+      verify: true
+      cites: [ws-1982-10-05-nie-yuanzi-case]
+    - h: 揪叛徒与监改大院
+      from: 1967-04
+      to: 1969
+      text: |
+        1967 年 4 月 14 日康生亲笔写信，要她“组织调査组”，“系统地调查彭真、刘仁的问题”。她随即成立北京大学“揪叛徒兵团”，向康生、谢富治报告进展，经谢富治支持到全国各地查阅档案。兵团的报告诬陷“彭真、薄一波、安子文与胡仁奎、李伦狼狈为奸”，经康生批交“彭真专案组”；1968 年 7 月专案组以此为重要根据认定彭真是“大特务”。4 月 20 日北京市革命委员会成立，她任副主任（待核）。
+
+        1967 年起北大分裂为拥护她的“新北大公社”和反对她的“井冈山兵团”，1968 年春两派武斗（待核）。据判决书，1968 年 4 月 7 日起“新北大公社”制造“反革命小集团”冤案，把邓朴方、邓楠等十余名师生绑架到校严刑拷打，邓朴方“下身瘫痪，终身残废”；5 月在她主持下建立“监改大院”，“对陆平、彭珮云等干部、学生和教师共一百余人集中监禁”。1967 年 7 月戚本禹在会上对“聂元梓、蒯大富、韩爱晶、王大宾、谭厚兰”等诬陷刘少奇、邓小平等人，这五人后来被称为首都红卫兵“五大领袖”；1968 年 7 月 28 日毛泽东召见五人后，工宣队、军宣队进驻北大（待核）。1969 年 4 月九大上她当选中央候补委员。
+      verify: true
+      cites: [ws-1982-10-05-nie-yuanzi-case, ws-1983-11-02-qi-benyu-case]
+    - h: 审查、判刑与晚年
+      from: 1969
+      to: 2019
+      text: |
+        1969 年后在北京新华印刷厂等处接受审查、劳动，1971 年被隔离审查（待核）。1978 年 4 月 19 日由北京市公安局逮捕。1982 年 10 月 5 日北京市人民检察院分院起诉；1983 年 3 月 10 日北京市中级人民法院认定她“已构成反革命宣传煽动罪、诬告陷害罪”，“判处被告人聂元梓有期徒刑十七年，剥夺政治权利四年”。判决书说，她在庭审中“供认了部分事实，但不承认是犯罪”。1984 年保外就医（待核）。2005 年在香港出版《聂元梓回忆录》。2019 年 8 月 28 日在北京去世，年九十八岁。
+      verify: true
+      cites: [ws-1982-10-05-nie-yuanzi-case, nie-yuanzi-memoir]
+  assess:
+    - { voice: official1966, text: 聂元梓等同志的大字报，揭穿了“三家村”黑帮分子的一个大阴谋！（1966 年 6 月 2 日《人民日报》评论员文章）, cite: ws-1966-06-02-hail-pku, quote: true }
+    - { voice: doc, text: 全国第一张马列主义的大字报和人民日报评论员的评论，写得何等好呵！（毛泽东《炮打司令部》，1966 年 8 月 5 日）, cite: ws-1967-08-bombard-anniv, quote: true }
+    - { voice: judicial1980, text: 诬陷、迫害党和国家领导人以及干部、群众，已构成反革命宣传煽动罪、诬告陷害罪（1983 年北京市中级人民法院判决书）, cite: ws-1982-10-05-nie-yuanzi-case, quote: true }
+    - { voice: witness, text: 本人回忆录对起诉书所列多项事实提出异议，并称自己在许多事情上是奉命行事（待核，需逐条对照判决书）。, cite: nie-yuanzi-memoir }
+  works:
+    - { title: 宋硕、陆平、彭珮云在文化革命中究竟干些什么？（与宋一秀等六人合写）, date: 1966-05-25, cite: rmrb-1966-06-02-nie-dazibao }
+    - { title: 聂元梓回忆录, date: 2005, cite: nie-yuanzi-memoir }
   factions: [rebels]
   fate:
-    - { date: 1964, s: normal }
-    - { date: 1966-05-25, s: rise, cite: rmrb-1966-06-02-nie-dazibao }
+    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1964, s: normal, note: 任北大哲学系总支书记, verify: true }
+    - { date: 1966-05-25, s: rise, note: 贴出大字报, cite: rmrb-1966-06-02-nie-dazibao }
+    - { date: 1966-06-01, s: rise, note: 毛泽东决定广播大字报, cite: ws-1967-01-16-rebels-unite }
     - { date: 1966-09, s: power, note: 北大校文革主任, verify: true }
-    - { date: 1971, s: detained, verify: true }
+    - { date: 1967-04-20, s: power, note: 北京市革委会副主任, verify: true }
+    - { date: 1969-04, s: power, note: 九届中央候补委员, cite: ws-1982-10-05-nie-yuanzi-case, verify: true }
+    - { date: 1971, s: detained, note: 隔离审查, verify: true }
+    - { date: 1978-04-19, s: detained, note: 逮捕, cite: ws-1982-10-05-nie-yuanzi-case }
+    - { date: 1983-03-10, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-10-05-nie-yuanzi-case }
+    - { date: 1984, s: normal, note: 保外就医, verify: true }
     - { date: 2019-08-28, s: dead }
-  cites: [ws-1966-06-02-hail-pku, ws-1967-08-bombard-anniv]
+  cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, ws-1967-01-16-rebels-unite, ws-1967-02-seize-power, ws-1967-08-bombard-anniv, rmrb-1966-08-19-first-rally, ws-1982-10-05-nie-yuanzi-case, ws-1983-11-02-qi-benyu-case]
 
 - id: lu-ping
   name: 陆平
+  pinyin: Lù Píng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 吉林长春
+  origin: 吉林长春
   born: 1914
   died: 2002-01-02
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1936
+  positions:
+    - { title: 铁道部副部长, orgName: 铁道部, from: 1954, to: 1957, verify: true }
+    - { title: 北京大学党委第一书记, orgName: 北京大学, from: 1957-10, to: 1966-06-03, cite: rmrb-1966-06-04-pku-committee, verify: true }
+    - { title: 北京大学校长, orgName: 北京大学, from: 1960, to: 1966-06-03, cite: rmrb-1966-06-02-nie-dazibao, verify: true }
+    - { title: 第七机械工业部副部长, orgName: 第七机械工业部, from: 1978, verify: true }
+  rehab:
+    - { date: 1979, text: 中共中央批准为陆平平反, verify: true }
   tier: 3
   role1966: 北京大学校长、党委书记
-  bio: 聂元梓大字报的主要批判对象。6 月 1 日大字报广播后即被撤职。
+  bio: 一二·九运动时期的北大学生，建国后任铁道部副部长，1957 年起主政北京大学。1964 年北大社教中受工作队批判，1965 年被纠正。1966 年 5 月 25 日聂元梓大字报的主要批判对象，6 月 3 日被撤销一切职务，此后被称为“陆平反党集团”，1968 年被关进北大“监改大院”。文革后复出，任七机部副部长，2002 年去世。
+  life:
+    - h: 早年
+      from: 1914
+      to: 1949
+      text: |
+        1914 年生于吉林长春。1930 年代在北京大学读书，参加一二·九运动，1936 年入党；抗战时期在晋察冀边区工作（待核）。
+      verify: true
+    - h: 铁道部与北大
+      from: 1949
+      to: 1964
+      text: |
+        建国后历任铁道部副部长等职，1957 年调北京大学任党委第一书记，1960 年兼任校长（待核）。1966 年的大字报称他为“北京大学校长、党委书记”。
+      verify: true
+      cites: [rmrb-1966-06-02-nie-dazibao]
+    - h: 北大社教
+      from: 1964
+      to: 1966-05
+      text: |
+        1964 年北京大学社会主义教育运动中，以张磐石为首的工作队把北大党委当作重点，陆平受到批判；1965 年 3 月起中央书记处和北京市委纠正了工作队的做法，在国际饭店召开会议，为北大党委恢复名誉（待核）。工作队一边的常溪萍、聂元梓等人从此与他对立，这一分歧延续到文革。
+      verify: true
+    - h: 大字报与撤职
+      from: 1966-05
+      to: 1966-06
+      text: |
+        据聂元梓等人的大字报，5 月 14 日他“急急忙忙的传达了宋硕（北京市委大学部副部长）在市委大学部紧急会议上的‘指示’”，要求学校党组织“加强领导，坚守岗位”。6 月 2 日《人民日报》评论员文章说：“为陆平、彭珮云等人多年把持的北京大学，是‘三家村’黑帮的一个重要据点”。6 月 3 日新改组的北京市委决定撤销陆平、彭珮云“一切职务”，由张承先工作组代行党委职权。6 月 5 日《人民日报》社论说北大师生“推翻了以陆平为首的资产阶级保皇派的统治”。
+      cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, rmrb-1966-06-04-pku-committee, ws-1966-06-05-royalist]
+    - h: 批斗与监禁
+      from: 1966-06
+      to: 1975
+      text: |
+        此后长期被批斗。1967 年 1 月《红旗》评论员文章说，广播大字报“就是支持北京大学的无产阶级革命派，在一个大学的范围内，从陆平反党集团手里夺权的斗争”。据 1983 年聂元梓案判决书，1968 年 5 月在聂元梓主持下建立“监改大院”，对陆平、彭珮云等一百余人集中监禁，被关押者受到“挂黑牌游斗”、烟头烫、铁棍和钢丝鞭毒打。此后下放劳动，1970 年代中期获释（待核）。
+      verify: true
+      cites: [ws-1967-01-16-rebels-unite, ws-1982-10-05-nie-yuanzi-case]
+    - h: 复出
+      from: 1978
+      to: 2002
+      text: |
+        1978 年后复出，任第七机械工业部副部长；1979 年中共中央批准为他平反（待核）。2002 年 1 月 2 日在北京去世。
+      verify: true
+  assess:
+    - { voice: official1966, text: 陆平等这一小撮保皇党，顽固地执行前北京市委的修正主义路线，在北京大学实行资产阶级专政（1966 年 6 月 5 日《人民日报》社论）, cite: ws-1966-06-05-royalist, quote: true }
+    - { voice: judicial1980, text: 一九六八年五月，在聂元梓主持下，建立“监改大院”，对陆平、彭珮云等干部、学生和教师共一百余人集中监禁（1983 年聂元梓案判决书）, cite: ws-1982-10-05-nie-yuanzi-case, quote: true }
   factions: [bjcommittee, academics]
   fate:
-    - { date: 1960, s: power }
-    - { date: 1966-06-02, s: purged, note: 《人民日报》评论员文章称北大为“三家村”黑帮的“重要据点”，点名为“车马”, cite: ws-1966-06-02-hail-pku }
+    - { date: 1936, s: normal, note: 入党, verify: true }
+    - { date: 1957-10, s: power, note: 任北大党委第一书记, verify: true }
+    - { date: 1964-07, s: attacked, note: 北大社教中受批判, verify: true }
+    - { date: 1965-03, s: power, note: 社教纠偏后恢复工作, verify: true }
+    - { date: 1966-05-25, s: attacked, note: 聂元梓大字报点名, cite: rmrb-1966-06-02-nie-dazibao }
+    - { date: 1966-06-03, s: purged, note: 撤销一切职务, cite: rmrb-1966-06-04-pku-committee }
+    - { date: 1968-05, s: detained, note: 关入“监改大院”, cite: ws-1982-10-05-nie-yuanzi-case }
     - { date: 1978, s: restored, verify: true }
     - { date: 2002-01-02, s: dead }
-  cites: [ws-1966-06-02-hail-pku]
+  cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, rmrb-1966-06-04-pku-committee, ws-1966-06-05-royalist, ws-1967-01-16-rebels-unite, ws-1982-10-05-nie-yuanzi-case]
 
 - id: song-shuo
   name: 宋硕
+  pinyin: Sòng Shuò
+  gender: m
+  party: 中国共产党
+  positions:
+    - { title: 中共北京市委大学科学工作部副部长, orgName: 中共北京市委, to: 1966-06, cite: rmrb-1966-06-02-nie-dazibao }
   tier: 3
   role1966: 北京市委大学部副部长
-  bio: 聂元梓大字报标题点名者之一。《欢呼北大的一张大字报》称其主持的会议“布置”了“坚守岗位”。
+  bio: 中共北京市委大学科学工作部副部长，分管高校。1966 年 5 月 14 日在市委大学部紧急会议上要求学校党组织“加强领导，坚守岗位”，被聂元梓等人的大字报列在标题首位。6 月 2 日《人民日报》评论员文章称他为“‘三家村’反党集团分子”，此后随北京市委一同倒台。本站尚未找到记载他早年经历和文革后结局的原文。
+  life:
+    - h: 北京市委大学部
+      to: 1966-05
+      text: |
+        1950–60 年代在中共北京市委大学科学工作部工作，1966 年时任副部长，分管北京高校的党务（据大字报所署职务）。生卒年、籍贯和早年经历本站尚无原文记载（待核）。
+      verify: true
+      cites: [rmrb-1966-06-02-nie-dazibao]
+    - h: 五月十四日的“指示”
+      from: 1966-05-14
+      to: 1966-05-25
+      text: |
+        据聂元梓等人的大字报，5 月 8 日何明、高炬批判“三家村”的文章发表后，5 月 14 日他在市委大学部紧急会议上说，现在运动“急切需要加强领导，要求学校党组织加强领导，坚守岗位”，“群众起来了要引导到正确的道路上去”。陆平随即在北大传达。5 月 25 日的大字报以此为靶子，题目把他列在首位：《宋硕、陆平、彭珮云在文化革命中究竟干些什么？》。
+      cites: [rmrb-1966-06-02-nie-dazibao]
+    - h: 被点名之后
+      from: 1966-06
+      text: |
+        6 月 2 日《人民日报》评论员文章称他为“‘三家村’反党集团分子”，说“宋硕的‘加强领导’，‘坚守岗位’，这是一个信号”。1967 年 6 月 1 日纪念大字报广播一周年的两报一刊社论，仍把“陆平、宋硕、彭珮云之流”作为“挂着无产阶级专政的招牌，实行的是资产阶级专政”的例子。此后的遭遇和平反情况本站尚无原文记载（待核）。
+      verify: true
+      cites: [ws-1966-06-02-hail-pku, ws-1967-06-01-strategic]
+  assess:
+    - { voice: official1966, text: 宋硕的“加强领导”，“坚守岗位”，这是一个信号（1966 年 6 月 2 日《人民日报》评论员文章）, cite: ws-1966-06-02-hail-pku, quote: true }
+    - { voice: official1966, text: 北京大学第一张马列主义的大字报揭露出来的陆平、宋硕、彭珮云之流，就是这样干的（1967 年 6 月 1 日社论）, cite: ws-1967-06-01-strategic, quote: true }
   factions: [bjcommittee]
   fate:
-    - { date: 1964, s: power }
-    - { date: 1966-06-02, s: purged, note: 《人民日报》评论员文章称北大为“三家村”黑帮的“重要据点”，点名为“车马”, cite: ws-1966-06-02-hail-pku }
-  cites: [ws-1966-06-02-hail-pku]
+    - { date: 1964, s: power, note: 北京市委大学部副部长, verify: true }
+    - { date: 1966-05-25, s: attacked, note: 聂元梓大字报点名, cite: rmrb-1966-06-02-nie-dazibao }
+    - { date: 1966-06-02, s: purged, note: 《人民日报》称其为“三家村”反党集团分子, cite: ws-1966-06-02-hail-pku }
+  cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, ws-1967-06-01-strategic]
+  verify: true
 
 - id: peng-peiyun
   name: 彭珮云
+  pinyin: Péng Pèiyún
+  gender: f
+  ethnicity: 汉族
+  birthplace: 湖南浏阳
+  origin: 湖南浏阳
   born: 1929-12
+  party: 中国共产党
+  joinedParty: 1946
+  positions:
+    - { title: 北京大学党委副书记, orgName: 北京大学, from: 1964, to: 1966-06-03, cite: rmrb-1966-06-04-pku-committee }
+    - { title: 教育部副部长, orgName: 教育部, from: 1982, to: 1985, verify: true }
+    - { title: 国家教育委员会副主任, orgName: 国家教育委员会, from: 1985, to: 1988, verify: true }
+    - { title: 国家计划生育委员会主任, orgName: 国家计划生育委员会, from: 1988, to: 1998, verify: true }
+    - { title: 国务委员, orgName: 国务院, from: 1993-03, to: 1998-03, verify: true }
+    - { title: 全国人大常委会副委员长, orgName: 全国人大常委会, from: 1998-03, to: 2003-03, verify: true }
+    - { title: 全国妇联主席, orgName: 中华全国妇女联合会, from: 1998, to: 2003, verify: true }
   tier: 3
   role1966: 北京大学党委副书记
-  bio: 聂元梓大字报标题点名者之一。改革时期任国家计生委主任、国务委员。
+  bio: 北京大学党委副书记，聂元梓大字报标题点名的三人之一。1966 年 6 月 2 日《人民日报》评论员文章称她是“一个神秘人物”，6 月 3 日被撤销一切职务，1968 年被关进北大“监改大院”。改革时期任国家计生委主任、国务委员、全国人大常委会副委员长。
+  life:
+    - h: 早年
+      from: 1929
+      to: 1949
+      text: |
+        1929 年 12 月生于湖南浏阳。1946 年在昆明西南联合大学读书时入党，参加学生运动，后随校北返，在清华大学继续从事学生工作（待核）。
+      verify: true
+    - h: 清华、市委大学部与北大
+      from: 1949
+      to: 1966-05
+      text: |
+        建国后在清华大学和中共北京市委大学部做党的工作，1964 年起任北京大学党委副书记（待核）。1966 年 6 月 3 日北京市委的决定称她为北京大学党委“副书记”。
+      verify: true
+      cites: [rmrb-1966-06-04-pku-committee]
+    - h: 被点名与撤职
+      from: 1966-05
+      to: 1966-06
+      text: |
+        5 月 25 日聂元梓等人的大字报题为《宋硕、陆平、彭珮云在文化革命中究竟干些什么？》。6 月 2 日《人民日报》评论员文章说：“彭珮云是一个神秘人物，上窜下跳，拉线搭桥。在这个事件中，她转入地下活动，来往于北京大学历史系住地十三陵和宋硕、陆平之间，出谋划策，秘密指挥。”6 月 3 日新北京市委决定撤销陆平、彭珮云的一切职务。
+      cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, rmrb-1966-06-04-pku-committee]
+    - h: 监改大院
+      from: 1966-06
+      to: 1977
+      text: |
+        此后长期被批斗。据 1982 年聂元梓案起诉书，聂元梓掌权期间北大建立“监改大院”，“对陆平、彭佩云等一百余人非法监禁”，被监禁者遭到“挂黑牌游斗”、“烟头烫”、“铁棍、钢丝鞭毒打”。此后下放劳动（待核）。
+      verify: true
+      cites: [ws-1982-10-05-nie-yuanzi-case]
+    - h: 改革时期
+      from: 1978
+      text: |
+        1978 年后复出，先后在清华大学、中共北京市委科教部门工作，1982 年任教育部副部长，1985 年任国家教委副主任，1988 年起任国家计划生育委员会主任，1993 年兼国务委员，1998 年任全国人大常委会副委员长、全国妇联主席（待核）。
+      verify: true
+  assess:
+    - { voice: official1966, text: 彭珮云是一个神秘人物，上窜下跳，拉线搭桥（1966 年 6 月 2 日《人民日报》评论员文章）, cite: ws-1966-06-02-hail-pku, quote: true }
+    - { voice: judicial1980, text: 对陆平、彭佩云等一百余人非法监禁（1982 年聂元梓案起诉书）, cite: ws-1982-10-05-nie-yuanzi-case, quote: true }
   factions: [bjcommittee]
   fate:
-    - { date: 1964, s: power }
-    - { date: 1966-06-02, s: purged, note: 《人民日报》评论员文章称北大为“三家村”黑帮的“重要据点”，点名为“车马”, cite: ws-1966-06-02-hail-pku }
+    - { date: 1946, s: normal, note: 入党, verify: true }
+    - { date: 1964, s: power, note: 任北大党委副书记, verify: true }
+    - { date: 1966-05-25, s: attacked, note: 聂元梓大字报点名, cite: rmrb-1966-06-02-nie-dazibao }
+    - { date: 1966-06-03, s: purged, note: 撤销一切职务, cite: rmrb-1966-06-04-pku-committee }
+    - { date: 1968-05, s: detained, note: 关入“监改大院”, cite: ws-1982-10-05-nie-yuanzi-case }
     - { date: 1978, s: restored, verify: true }
-  cites: [ws-1966-06-02-hail-pku]
+    - { date: 1988, s: power, note: 国家计生委主任, verify: true }
+  cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, rmrb-1966-06-04-pku-committee, ws-1982-10-05-nie-yuanzi-case]
   verify: true
 
 - id: kuai-dafu
   name: 蒯大富
+  pinyin: Kuǎi Dàfù
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江苏滨海
+  origin: 江苏滨海
   born: 1945-09
+  education:
+    - { school: 清华大学工程化学系, from: 1963, to: 1968-12, verify: true }
+  positions:
+    - { title: 清华大学井冈山兵团总负责人, orgName: 清华大学井冈山兵团, from: 1966-12, to: 1968-07, cite: ws-1982-12-kuai-dafu-case }
+    - { title: 首都大专院校红代会核心组副组长, orgName: 首都大专院校红卫兵代表大会, from: 1967-02, to: 1968, cite: ws-1982-12-kuai-dafu-case }
+    - { title: 北京市革命委员会常委, orgName: 北京市革命委员会, from: 1967-04-20, to: 1968, cite: ws-1982-12-kuai-dafu-case }
+    - { title: 宁夏三〇四厂工人, orgName: 宁夏三〇四厂, from: 1968-12, to: 1978-04, cite: ws-1982-12-kuai-dafu-case }
   tier: 2
   role1966: 清华大学化工系学生
-  bio: 1966 年 6 月反对王光美参与的清华工作组，被打成“反革命”；工作组撤出后成为清华井冈山兵团领袖。1980 年起诉书：12 月 18 日张春桥单独接见他后，12 月 25 日他组织游行，“公开煽动'打倒刘少奇！''打倒邓小平！'”。
+  bio: 清华大学工程化学系学生。1966 年 6 月反对王光美参与的清华工作组，被打成“反革命”；工作组撤出后成为清华井冈山兵团领袖。12 月 18 日张春桥单独召见他，25 日他带领五千余人上街，“把‘打倒刘少奇’的口号首先推向社会”；1967 年 7 月又带头“打倒徐向前”。1968 年挑起清华武斗，7 月 27 日武力对抗工宣队，造成五人死亡、七百三十一人受伤。1978 年被捕，1983 年以反革命宣传煽动罪、杀人罪、诬告陷害罪被判有期徒刑十七年。
+  life:
+    - h: 早年
+      from: 1945
+      to: 1966-05
+      text: |
+        1945 年生于江苏滨海的农民家庭，1963 年考入清华大学工程化学系（待核）。
+      verify: true
+    - h: 反工作组
+      from: 1966-06
+      to: 1966-08
+      text: |
+        1966 年 6 月清华工作组进校后，他贴大字报质疑工作组，提出要向工作组“夺权”（待核）。据 1967 年反工作组一方的调查报告，工作组从 6 月下旬起组织“反蒯”，他所在的化902班有十七名学生组成“十七人小组”批判他；工作组还对干部说“反蒯”是“触及灵魂”、“将功赎罪”的“大好机会”，“反蒯有功”就能“下楼”。他被定为“反革命”，绝食抗议（待核）。8 月初工作组撤出后获平反，成为清华造反派的头头。10 月刘少奇检讨，把“王光美同志参加过的清华大学前一段文化革命运动”作为错误路线的典型。
+      verify: true
+      cites: [ws-1966-qinghua-workteam-survey, ws-1966-10-liu-self-criticism]
+    - h: “打倒刘少奇”与“打倒徐向前”
+      from: 1966-12
+      to: 1967-08
+      text: |
+        据 1980 年起诉书，1966 年 12 月 18 日下午张春桥在中南海西门传达室单独接见他，说“中央那一两个提出资产阶级反动路线的人至今仍不投降”，“你们革命小将应该联合起来，发扬彻底革命精神，痛打落水狗，把他们搞臭，不要半途而废”。25 日他带领清华五千余人上街游行，在天安门广场、王府井、西单、北京站等处张贴标语、大字报，判决书说他由此“把‘打倒刘少奇’的口号首先推向社会”。1967 年他任首都大专院校红代会核心组副组长、北京市革委会常委；4 月 10 日井冈山兵团在清华召开批斗王光美的大会（待核）。
+
+        1980 年起诉书说，1967 年 4 月“在叶群的授意下”，他派人收集编造诬陷徐向前、叶剑英的材料。7 月 25 日他在天安门城楼听到林彪要在军队问题上“大做文章”，当场向王力探明底细；27 日指使“井冈山兵团军事动态组”在军事领导机关附近贴出“打倒徐向前”的大标语，随后派人抄了徐向前的住所和办公室，抢走装有绝密、机密文件的档案箱五个；30 日召开有全国大部分省市造反派头头参加的“全国形势讨论会”，“把‘打倒徐向前’的活动推向全国”。
+      verify: true
+      cites: [ws-1980-indictment, ws-1982-12-kuai-dafu-case]
+    - h: 清华武斗
+      from: 1967-04
+      to: 1968-07
+      text: |
+        1967 年春清华井冈山分裂为蒯大富一方的“团派”和反对他的“四一四派”，1968 年 4 月起两派在校内长期武斗（待核）。据判决书，1968 年 5 月 29 日他召开“井冈山兵团文攻武卫总指挥部”头头会，决定 30 日凌晨三时攻打东区浴室楼，亲自下令拉闸断电、发出进攻信号，“造成学生卞雨林、许恭生，工人段洪水死亡”；7 月初又决定武力“封锁”科学馆，对进出的人可以开枪，学生杨志军被打死。他还派人制造、搜集枪支弹药。
+
+        他把原清华党委干部罗征启、李康、文学宓、刘承娴、饶慰慈诬为“蒋南翔的第二套班子”、“反革命小集团”，1968 年 1 月和 4 月先后抓起来刑讯，亲自参与对文学宓的逼供。刘承娴被迫害致死，饶慰慈一度精神失常，罗征启之弟罗征敷“被用棉丝堵嘴而窒息死亡”。
+      verify: true
+      cites: [ws-1982-12-kuai-dafu-case]
+    - h: 七二七与“五大领袖”
+      from: 1968-07
+      to: 1968-12
+      text: |
+        1968 年 7 月 27 日上午，“工农毛泽东思想宣传队”进入清华，宣传制止武斗、收缴武器。他与任传仲等紧急策划，决定“抵抗、还击”，下午在静斋楼道拔出手枪，叫嚷要和工人“拼了”；宣传队员王松林、张旭涛、潘志宏、韩忠现、李文元被杀害，“七百三十一人受伤”。7 月 28 日凌晨毛泽东在人民大会堂召见他和聂元梓、韩爱晶、谭厚兰、王大宾，要求结束武斗（待核）。12 月他被分配到宁夏三〇四厂当工人。
+      verify: true
+      cites: [ws-1982-12-kuai-dafu-case]
+    - h: 清查与判刑
+      from: 1970
+      text: |
+        1970 年起在清查“五一六”中被隔离审查（待核）。1978 年 4 月 19 日被北京市公安局逮捕。北京市中级人民法院认定他“已构成反革命宣传煽动罪、杀人罪、诬告陷害罪”，考虑到“其能主动揭发张春桥罪行的情节”，“判处被告人蒯大富有期徒刑十七年，剥夺政治权利四年”；判决书说他在庭审中“供认了大部分事实，但不承认是犯反革命罪”（判决书无落款日，一般记为 1983 年）。1987 年刑满释放，此后在外地经商（待核）。
+      verify: true
+      cites: [ws-1982-12-kuai-dafu-case]
+  assess:
+    - { voice: doc, text: 工作组利用干部急于要“下楼”、“解放”的心情，鼓动干部“反蒯”（1967 年反工作组一方的调查报告）, cite: ws-1966-qinghua-workteam-survey, quote: true }
+    - { voice: judicial1980, text: 在张春桥的指使下，蒯大富于十二月二十五日在北京组织游行示威，张贴标语、大字报，散发传单，呼喊口号，公开煽动“打倒刘少奇！”“打倒邓小平！”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 煽动打倒党和国家领导人，并策划组织武斗，武力对抗宣传队，诬陷迫害干部、群众，后果严重，已构成反革命宣传煽动罪、杀人罪、诬告陷害罪（北京市中级人民法院判决书）, cite: ws-1982-12-kuai-dafu-case, quote: true }
+    - { voice: scholar, text: 魏昂德把北京高校造反派的分裂追溯到工作组时期的站队和对干部的不同态度，清华“团派”与“四一四派”是主要例证（待核）。, cite: walder-fractured }
   factions: [rebels]
   fate:
-    - { date: 1966-01, s: normal }
+    - { date: 1963-09, s: normal, note: 入清华, verify: true }
     - { date: 1966-06-24, s: attacked, note: 清华工作组开始“反蒯”（据 1967 年反工作组一方的调查报告）, cite: ws-1966-qinghua-workteam-survey }
-    - { date: 1966-08, s: rise, verify: true }
-    - { date: 1966-12-18, s: power, note: 张春桥接见, cite: ws-1980-indictment }
-    - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖后, verify: true }
-  cites: [ws-1980-indictment, ws-1966-10-liu-self-criticism]
+    - { date: 1966-08, s: rise, note: 工作组撤出后获平反, verify: true }
+    - { date: 1966-12-18, s: power, note: 张春桥单独接见, cite: ws-1980-indictment }
+    - { date: 1967-04-20, s: power, note: 北京市革委会常委, cite: ws-1982-12-kuai-dafu-case, verify: true }
+    - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖, verify: true }
+    - { date: 1968-12, s: sidelined, note: 分配到宁夏三〇四厂, cite: ws-1982-12-kuai-dafu-case }
+    - { date: 1970, s: detained, note: 清查“五一六”, verify: true }
+    - { date: 1978-04-19, s: detained, note: 逮捕, cite: ws-1982-12-kuai-dafu-case }
+    - { date: 1983, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-12-kuai-dafu-case, verify: true }
+    - { date: 1987, s: normal, note: 刑满释放, verify: true }
+  cites: [ws-1966-qinghua-workteam-survey, ws-1966-10-liu-self-criticism, ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-12-kuai-dafu-case]
 
 - id: song-binbin
   name: 宋彬彬
+  pinyin: Sòng Bīnbīn
+  aka:
+    - { kind: other, name: 宋要武 }
+    - { kind: other, name: 宋岩 }
+  gender: f
+  ethnicity: 汉族
+  origin: 湖南浏阳
   born: 1947
   tier: 3
   role1966: 北京师范大学女附中学生
-  bio: 8 月 18 日在天安门城楼为毛泽东戴上红卫兵袖章，毛泽东问其名后说“要武嘛”，随后见报的署名文章题为《我给毛主席戴上了红袖章》。其在卞仲耘之死中的角色，晚年本人与当事人之间存在争议。
+  bio: 中共将领宋任穷之女，北京师范大学附属女子中学学生。1966 年 8 月 18 日在天安门城楼为毛泽东戴上红卫兵袖章，据说毛泽东问其名后说“要武嘛”，随后见报的署名文章题为《我给毛主席戴上了红袖章》，署名“宋要武”。8 月 5 日该校副校长卞仲耘被学生打死，她当时是学校学生负责人之一，其责任至今有争议。2014 年公开向卞仲耘等老师道歉。本站尚无直接记载她的入库原文，全传待核。
+  life:
+    - h: 家世与中学
+      from: 1947
+      to: 1966-05
+      text: |
+        1947 年生，父亲宋任穷是中共高级将领，1966 年时任中共中央东北局第一书记。就读北京师范大学附属女子中学（待核）。
+      verify: true
+    - h: 师大女附中与八月五日
+      from: 1966-06
+      to: 1966-08-05
+      text: |
+        1966 年 6 月初，她与同学刘进等贴出学校第一张大字报，矛头指向校领导。工作组撤出后，学校由学生组织主持，副校长卞仲耘等校领导被批斗；8 月 5 日卞仲耘在批斗中被学生殴打致死，是北京第一位被红卫兵打死的教育工作者（待核）。她当时是学校革命师生代表会的负责人之一，她在事件中的角色，王友琴等寻访者与宋本人及部分同学的说法存在分歧（待核）。
+      verify: true
+      cites: [wang-youqin-victims]
+    - h: 天安门城楼
+      from: 1966-08-18
+      to: 1966-08
+      text: |
+        8 月 18 日第一次接见红卫兵大会上，新华社电讯写道：“在大会进行中，师大女附中一个‘红卫兵’，登上天安门城楼给毛主席戴上了‘红卫兵’的袖章。毛主席和她亲切握手。”电讯没有点名。据后来的报道，毛泽东问她的名字，听说是“彬彬”后说“要武嘛”；几天后报上刊出署名“宋要武”的文章《我给毛主席戴上了红袖章》，师大女附中随后改名“红色要武中学”（待核）。
+      verify: true
+      cites: [rmrb-1966-08-19-first-rally]
+    - h: 此后
+      from: 1968
+      text: |
+        此后到内蒙古插队，1970 年代就读长春地质学院，1980 年代赴美留学，获地球化学博士，改名宋岩（待核）。2014 年 1 月她在母校（今北京师范大学附属实验中学）的聚会上公开道歉，表示对卞仲耘等老师的悼念和歉意（待核）。
+      verify: true
+  assess:
+    - { voice: official1966, text: 在大会进行中，师大女附中一个“红卫兵”，登上天安门城楼给毛主席戴上了“红卫兵”的袖章（1966 年 8 月 18 日新华社电）, cite: rmrb-1966-08-19-first-rally, quote: true }
+    - { voice: witness, text: 王友琴的寻访认为卞仲耘之死是学校学生领导者主持的批斗所致，宋彬彬作为当时的负责人之一不能免责；宋本人晚年否认参与殴打，并称曾试图劝阻（待核，需对照原书）。, cite: wang-youqin-victims }
+  works:
+    - { title: 我给毛主席戴上了红袖章（署名宋要武）, date: 1966-08 }
   factions: [oldrg]
   fate:
-    - { date: 1966-01, s: normal }
+    - { date: 1966-06, s: rise, note: 贴出学校第一张大字报, verify: true }
     - { date: 1966-08-18, s: rise, note: 新华社当日电只说“师大女附中一个‘红卫兵’”，未点名, cite: rmrb-1966-08-19-first-rally, verify: true }
+    - { date: 1968, s: normal, note: 下乡插队, verify: true }
+  cites: [rmrb-1966-08-19-first-rally, wang-youqin-victims]
   verify: true
 
 - id: wang-hongwen

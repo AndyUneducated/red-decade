@@ -153,3 +153,59 @@ wikisource:
     date: 1967
     author: 红旗杂志
     kind: index
+  # 第五、六批
+  - id: ws-1982-10-05-nie-yuanzi-case
+    title: 聂元梓反革命案北京市人民检察院分院起诉书
+    date: 1982-10-05
+    author: 北京市人民检察院分院
+    kind: judicial
+    note: 聂元梓案起诉书（1982-10-05），附公诉发言（1982-10-29）、辩护词和北京市中级人民法院判决书（1983-03-10，有期徒刑十七年）
+  - id: ws-1982-12-kuai-dafu-case
+    title: 蒯大富反革命案北京市人民检察院分院起诉书
+    date: 1982-12
+    author: 北京市人民检察院分院
+    kind: judicial
+    note: 蒯大富案起诉书（无落款日），附公诉发言（1982-12-11、12）、辩护词和判决书（有期徒刑十七年，无落款日）
+  - id: ws-1983-11-02-qi-benyu-case
+    title: 戚本禹反革命案北京市人民检察院分院起诉书
+    date: 1983-11-02
+    author: 北京市人民检察院分院
+    kind: judicial
+    note: 戚本禹案起诉书（无落款日）和北京市中级人民法院判决书（1983-11-02，有期徒刑十八年）
+  - id: ws-1964-09-01-taoyuan-endorse
+    title: 中央转发《关于一个大队的社会主义教育运动的经验总结》的批示
+    date: 1964-09-01
+    author: 中共中央
+    kind: party-doc
+  - id: ws-1967-taoyuan-survey
+    title: 桃园调查纪实——揭露刘少奇、王光美在社教运动中反党反社会主义反毛泽东思想的滔天罪行
+    date: 1967
+    author: 北京政法学院政法公社《红旗兵》战斗队等
+    kind: redguard
+  - id: ws-1966-06-05-royalist
+    title: 做无产阶级革命派，还是做资产阶级保皇派？
+    date: 1966-06-05
+    author: 《人民日报》社论
+    kind: editorial
+  - id: ws-1982-xu-jingxian-case
+    title: 徐景贤反革命案上海市人民检察院起诉书
+    date: 1982
+    author: 上海市人民检察院
+    kind: judicial
+    note: 徐景贤案起诉书和上海市高级人民法院判决书（有期徒刑十八年），均无落款日
+  - id: ws-1982-08-21-wang-xiuzhen-case
+    title: 王秀珍反革命案上海市人民检察院起诉书
+    date: 1982-08-21
+    author: 上海市人民检察院
+    kind: judicial
+    note: 王秀珍案起诉书（(82)沪检刑诉字第三号）和上海市高级人民法院判决书（有期徒刑十七年，1982-08-21 发出）
+  - id: ws-1972-lin-material-3
+    title: 粉碎林彪反党集团反革命政变的斗争（材料之三）
+    date: 1972
+    author: 中共中央
+    kind: party-doc
+  - id: ws-1971-09-29-notice
+    title: 中共中央通知 (1971年9月29日)
+    date: 1971-09-29
+    author: 中共中央
+    kind: party-doc
