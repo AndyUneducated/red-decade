@@ -51,7 +51,7 @@ export const VOICES = {
   official1981: '1981 决议',
   // later official verdicts other than the 1981 resolution: 1977 plenum, rehabilitation notices, obituaries
   officialLater: '后来官方',
-  judicial1980: '1980–81 审判',
+  judicial1980: '1980 年代审判',
   witness: '亲历者',
   scholar: '学术研究',
   editor: '本站研究',
