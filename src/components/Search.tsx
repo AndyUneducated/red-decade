@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Ref } from '../data/atlas'
+import { ISM_KINDS } from '../data/schema'
 import { fmtDate, toT } from '../lib/dates'
 import { useApp } from '../state'
 
 type Item = { ref: Ref; type: string; title: string; sub: string; hay: string; date?: string }
 
-const TYPE_LABEL = { person: '人物', event: '事件', concept: '概念', doc: '文献', faction: '派系', claim: '结论', org: '机构' }
+const TYPE_LABEL = { person: '人物', event: '事件', concept: '概念', doc: '文献', faction: '派系', claim: '结论', org: '机构', ism: '主义' }
 
 export function Search({ onClose }: { onClose: () => void }) {
   const { ix, select, setT } = useApp()
@@ -60,6 +61,14 @@ export function Search({ onClose }: { onClose: () => void }) {
         title: o.name,
         sub: o.short ?? '',
         hay: [o.name, o.short ?? '', ...o.aliases, o.summary].join(' '),
+      })),
+      ...ix.isms.map((m) => ({
+        ref: { type: 'ism' as const, id: m.id },
+        type: TYPE_LABEL.ism,
+        title: m.name,
+        sub: `${ISM_KINDS[m.kind]} · ${m.from.slice(0, 4)}${m.to ? `–${m.to.slice(0, 4)}` : ' 起'}`,
+        hay: [m.name, m.short ?? '', ...m.terms, ...m.carriers.map((c) => c.name), m.summary].join(' '),
+        date: m.from,
       })),
       ...ix.claims.map((c) => ({
         ref: { type: 'claim' as const, id: c.id },

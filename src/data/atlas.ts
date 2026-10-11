@@ -3,12 +3,13 @@ import type { Atlas, Event, Faction, Org, Person, Place, Relation, Status } from
 
 export type Position = Person['positions'][number]
 export type Tenure = { person: Person; pos: Position }
+export type Ism = Atlas['isms'][number]
 export type OrgEdge = { org: Org; from?: string; to?: string }
 export type OrgLinkIn = { org: Org; link: Org['links'][number] }
 
 // Drawer vs. full page (see research/progress.md, “抽屉与全屏的界限”): person, org and doc also have a
 // full page; the drawer card for them is a preview that links to it.
-export type EntityType = 'person' | 'event' | 'concept' | 'doc' | 'faction' | 'claim' | 'org'
+export type EntityType = 'person' | 'event' | 'concept' | 'doc' | 'faction' | 'claim' | 'org' | 'ism'
 // sub narrows a selection, e.g. a concept within one source document
 export type Ref = { type: EntityType; id: string; sub?: string }
 
@@ -21,6 +22,10 @@ export type Index = Atlas & {
   source: Map<string, Atlas['sources'][number]>
   claim: Map<string, Atlas['claims'][number]>
   org: Map<string, Org>
+  ism: Map<string, Ism>
+  // isms listing this one as a parent, and those formulated against it
+  ismChildren: Map<string, Ism[]>
+  ismOpposed: Map<string, Ism[]>
   place: Map<string, Place>
   eventsByPerson: Map<string, Event[]>
   relationsByPerson: Map<string, Relation[]>
@@ -75,6 +80,12 @@ export async function loadAtlas(): Promise<Index> {
     }
     for (const id of hit) push(eventsByOrg, id, e)
   }
+  const ismChildren = new Map<string, Ism[]>()
+  const ismOpposed = new Map<string, Ism[]>()
+  for (const m of atlas.isms) {
+    for (const p of m.parents) push(ismChildren, p, m)
+    for (const a of m.against) push(ismOpposed, a, m)
+  }
   return {
     ...atlas,
     person: by(atlas.people),
@@ -85,6 +96,9 @@ export async function loadAtlas(): Promise<Index> {
     source: by(atlas.sources),
     claim: by(atlas.claims),
     org,
+    ism: by(atlas.isms),
+    ismChildren,
+    ismOpposed,
     place: by(atlas.places),
     eventsByPerson,
     relationsByPerson,
@@ -139,5 +153,7 @@ export function label(ix: Index, ref: Ref): string {
       return ref.id
     case 'org':
       return ix.org.get(ref.id)?.short ?? ix.org.get(ref.id)?.name ?? ref.id
+    case 'ism':
+      return ix.ism.get(ref.id)?.short ?? ix.ism.get(ref.id)?.name ?? ref.id
   }
 }

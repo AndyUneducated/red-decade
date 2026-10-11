@@ -316,6 +316,35 @@ export const ConceptSchema = z.object({
   notes: z.array(Voiced).default([]),
 })
 
+// A doctrine, line or label (主义). `pos` places it on the two-axis spectrum at given moments; the
+// positions are editorial judgments of relative stance, not measurements.
+export const ISM_KINDS = {
+  core: '正统',
+  line: '党内路线',
+  heterodox: '民间异端',
+  foreign: '外来 · 对立面',
+  label: '罪名 · 标签',
+} as const
+export const IsmSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  short: z.string().optional(),
+  kind: z.enum(Object.keys(ISM_KINDS) as [IsmKind, ...IsmKind[]]),
+  from: PartialDate,
+  to: PartialDate.optional(),
+  parents: z.array(z.string()).default([]),
+  against: z.array(z.string()).default([]),
+  terms: z.array(z.string()).default([]),
+  carriers: z.array(z.string()).default([]),
+  concepts: z.array(z.string()).default([]),
+  summary: z.string(),
+  pos: z.array(z.object({ at: PartialDate, x: z.number().min(-1).max(1), y: z.number().min(-1).max(1), note: z.string().optional() })).default([]),
+  notes: z.array(Voiced).default([]),
+  cites: z.array(Cite).default([]),
+})
+
+export const LinePointSchema = z.object({ at: PartialDate, x: z.number().min(-1).max(1), y: z.number().min(-1).max(1), label: z.string(), note: z.string().optional() })
+
 export const DocumentSchema = z.object({
   id: z.string(),
   summary: z.string(),
@@ -393,6 +422,9 @@ export type Source = z.infer<typeof SourceSchema>
 export type Claim = z.infer<typeof ClaimSchema>
 export type Place = z.infer<typeof PlaceSchema>
 export type Org = z.infer<typeof OrgSchema>
+export type Ism = z.infer<typeof IsmSchema>
+export type IsmKind = keyof typeof ISM_KINDS
+export type LinePoint = z.infer<typeof LinePointSchema>
 
 export type ConceptHit = { source: string; date: string; count: number; context: string }
 
@@ -405,6 +437,11 @@ export type Atlas = {
   events: Event[]
   relations: Relation[]
   concepts: (Concept & { hits: ConceptHit[] })[]
+  // carriers resolved: `person` is set when the name is in people.yaml
+  isms: (Omit<Ism, 'carriers'> & { carriers: { name: string; person?: string }[]; hits: ConceptHit[] })[]
+  line: LinePoint[]
+  // characters of dated text per year, the denominator for term frequencies
+  corpus: { year: number; chars: number; docs: number }[]
   documents: (DocumentMeta & { source: Source })[]
   sources: Source[]
   claims: Claim[]

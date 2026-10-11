@@ -1,0 +1,562 @@
+# Doctrines, lines and labels (主义). kind: core | line | heterodox | foreign | label
+# parents: what it grew out of; against: what it was formulated against.
+# terms are matched verbatim against the corpus, like concepts.
+# pos: editorial placement on two axes, each from -1 to 1, at given moments:
+#   x 经济：指令计划、公有化、平均主义 (-1) ↔ 市场、多种所有制、物质刺激 (+1)
+#   y 政治：阶级斗争、群众动员、集中 (-1) ↔ 宽松、制度化、多元 (+1)
+# For a label (罪名), pos is where its accusers placed the accused, not where they stood.
+
+- id: marxism-leninism
+  name: 马克思列宁主义
+  short: 马列主义
+  kind: core
+  from: 1921-07
+  terms: [马克思列宁主义, 马列主义]
+  carriers: []
+  summary: 中共建党时的指导思想，1945 年七大党章并列为“马克思列宁主义的理论与中国革命的实践之统一的思想——毛泽东思想”的来源。1949–1989 年间各派都以它为合法性来源，争的是谁“坚持”、谁“背叛”。
+  cites: [ws-1969-04-constitution]
+
+- id: stalin-model
+  name: 苏联模式（斯大林模式）
+  short: 苏联模式
+  kind: foreign
+  from: 1949-06
+  to: 1956-04
+  parents: [marxism-leninism]
+  terms: [斯大林]
+  summary: 1949 年 6 月《论人民民主专政》宣布“一边倒”，此后第一个五年计划照搬苏联的指令计划、重工业优先和一长制。1956 年 4 月《论十大关系》提出“以苏联为鉴戒”，开始寻求不同道路。
+  pos:
+    - { at: 1953, x: -0.85, y: -0.3, note: 指令计划、重工业优先，政治上是官僚集中而非群众动员 }
+
+- id: new-democracy
+  name: 新民主主义
+  kind: core
+  from: 1940-01
+  to: 1953-06
+  parents: [marxism-leninism]
+  terms: [新民主主义]
+  carriers: [毛泽东, 刘少奇]
+  summary: 毛泽东 1940 年《新民主主义论》：革命分两步，先建立各革命阶级联合专政、允许私人资本存在的新民主主义社会。1953 年 6 月毛泽东批评“确立新民主主义社会秩序”的提法，转向过渡时期总路线。
+  pos:
+    - { at: 1949, x: 0.3, y: 0.25, note: 《共同纲领》下的五种经济成分并存、多党合作 }
+    - { at: 1952, x: 0.15, y: 0.1 }
+
+- id: mao-thought
+  name: 毛泽东思想
+  kind: core
+  from: 1945-06
+  parents: [marxism-leninism]
+  terms: [毛泽东思想]
+  carriers: [毛泽东, 林彪, 刘少奇]
+  concepts: [mao-thought]
+  summary: 1945 年七大写入党章，提法出自刘少奇的修改党章报告；1956 年八大党章未写，1969 年九大党章恢复并冠以“顶峰”之意。1981 年决议把它界定为“党的集体智慧的结晶”，并与毛泽东晚年的错误“区别开来”。它在光谱上的位置随谁解释它而变。
+  pos:
+    - { at: 1949, x: 0.0, y: 0.1 }
+    - { at: 1958, x: -0.8, y: -0.5, note: 大跃进时期 }
+    - { at: 1966, x: -0.8, y: -1.0, note: 林彪“顶峰论”下的解释 }
+    - { at: 1981, x: -0.1, y: 0.2, note: 1981 年决议重新界定 }
+  notes:
+    - { voice: official1981, text: 毛泽东思想是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命的正确的理论原则和经验总结，是中国共产党集体智慧的结晶。, cite: ws-1981-resolution }
+  cites: [ws-1981-resolution]
+
+- id: transition-line
+  name: 过渡时期总路线（社会主义改造）
+  short: 过渡时期总路线
+  kind: line
+  from: 1953-06
+  to: 1956-12
+  parents: [mao-thought, stalin-model]
+  against: [new-democracy]
+  terms: [过渡时期总路线, 社会主义改造]
+  carriers: [毛泽东]
+  summary: “在一个相当长的时期内，逐步实现国家的社会主义工业化，并逐步实现国家对农业、手工业和资本主义工商业的社会主义改造。”原定十五年左右，实际 1956 年底基本完成。
+  pos:
+    - { at: 1953, x: -0.4, y: -0.1 }
+    - { at: 1956, x: -0.8, y: -0.2, note: 合作化与公私合营高潮 }
+
+- id: eighth-congress
+  name: 八大路线
+  kind: line
+  from: 1956-09
+  to: 1957-10
+  parents: [mao-thought]
+  against: [stalin-model]
+  carriers: [刘少奇, 邓小平, 周恩来, 陈云]
+  summary: 八大决议称国内主要矛盾已是“人民对于建立先进的工业国的要求同落后的农业国的现实之间的矛盾”，阶级斗争不再是主要任务；周恩来、陈云主张反冒进，经济上“既反保守又反冒进”。1957 年 10 月八届三中全会上毛泽东改称无产阶级和资产阶级的矛盾仍是主要矛盾。
+  pos:
+    - { at: 1956-09, x: -0.3, y: 0.45 }
+
+- id: hundred-flowers
+  name: 双百方针（百花齐放、百家争鸣）
+  short: 双百方针
+  kind: line
+  from: 1956-05
+  to: 1957-06
+  parents: [mao-thought]
+  terms: [百花齐放, 百家争鸣]
+  carriers: [毛泽东, 陆定一]
+  summary: 1956 年 5 月陆定一《百花齐放，百家争鸣》报告正式提出。1957 年整风“大鸣大放”，鼓励党外人士提意见；6 月 8 日《这是为什么？》社论后转为反右。
+  pos:
+    - { at: 1956-05, x: -0.3, y: 0.65 }
+    - { at: 1957-05, x: -0.3, y: 0.85, note: 整风鸣放高潮 }
+
+- id: rightist
+  name: 资产阶级右派
+  short: 右派
+  kind: label
+  from: 1957-06
+  to: 1978-09
+  parents: [mao-thought]
+  against: [hundred-flowers]
+  terms: [资产阶级右派, 右派分子]
+  summary: 反右运动的罪名。官方后来公布划定右派 55 万余人；1978 年中央决定全部摘帽，随后绝大多数予以改正，仅保留章伯钧、罗隆基等极少数不改正。
+  pos:
+    - { at: 1957-07, x: 0.2, y: 0.9, note: 批判者描述的“右派”：要“轮流坐庄”、“党天下” }
+  notes:
+    - { voice: official1981, text: 反右派斗争被严重地扩大化了，把一批知识分子、爱国人士和党内干部错划为“右派分子”，造成了不幸的后果。, cite: ws-1981-resolution }
+
+- id: three-red-banners
+  name: 三面红旗（总路线、大跃进、人民公社）
+  short: 三面红旗
+  kind: line
+  from: 1958-05
+  to: 1962-01
+  parents: [mao-thought]
+  against: [eighth-congress]
+  terms: [三面红旗, 大跃进]
+  carriers: [毛泽东, 刘少奇]
+  summary: 1958 年 5 月八大二次会议通过“鼓足干劲、力争上游、多快好省地建设社会主义”的总路线；8 月北戴河会议决定普遍建立人民公社。1962 年 1 月七千人大会后实际退却，但名义上直到 1978 年后才放弃。
+  pos:
+    - { at: 1958-08, x: -1.0, y: -0.65, note: 公社化、“共产风” }
+
+- id: right-opportunism
+  name: 右倾机会主义
+  kind: label
+  from: 1959-08
+  to: 1978-12
+  parents: [three-red-banners]
+  terms: [右倾机会主义]
+  carriers: [彭德怀]
+  summary: 1959 年庐山会议后加给彭德怀、黄克诚、张闻天、周小舟的罪名，随后全党“反右倾”，又在下层打出一批“右倾机会主义分子”。1978 年十一届三中全会为彭德怀平反。
+  pos:
+    - { at: 1959-08, x: 0.1, y: 0.15, note: 批判者描述的彭德怀意见书：反对浮夸、“小资产阶级狂热性” }
+  cites: [ws-1959-08-16-peng-resolution]
+
+- id: adjustment
+  name: 调整方针与“三自一包”
+  short: 调整与三自一包
+  kind: line
+  from: 1961-01
+  to: 1965-12
+  parents: [eighth-congress]
+  against: [three-red-banners]
+  terms: [三自一包, 包产到户]
+  carriers: [刘少奇, 陈云, 邓小平, 周恩来]
+  summary: 1961 年 1 月八届九中全会通过“调整、巩固、充实、提高”八字方针。各地出现包产到户、自留地、自由市场；1967 年后被归纳为刘少奇的“三自一包”（自留地、自由市场、自负盈亏、包产到户）加以批判。
+  pos:
+    - { at: 1961-06, x: 0.0, y: 0.15 }
+    - { at: 1962-06, x: 0.35, y: 0.25, note: 包产到户在安徽等地推开 }
+
+- id: khrushchev-revisionism
+  name: 现代修正主义（赫鲁晓夫修正主义）
+  short: 现代修正主义
+  kind: foreign
+  from: 1956-02
+  to: 1976-10
+  parents: [marxism-leninism]
+  terms: [现代修正主义, 苏修]
+  carriers: []
+  concepts: [revisionism, khrushchev]
+  summary: 1956 年苏共二十大赫鲁晓夫秘密报告后，中共先是保留意见，1960 年起公开论战，1963–1964 年“九评”系统批判“全民国家”“全民党”“和平过渡”与物质刺激。1966 年起“修正主义”转指党内对象。
+  pos:
+    - { at: 1964, x: 0.3, y: 0.25, note: 中共批判文本中描述的苏共路线 }
+
+- id: anti-revisionism
+  name: 反修防修
+  kind: line
+  from: 1960-04
+  to: 1976-10
+  parents: [mao-thought]
+  against: [khrushchev-revisionism]
+  terms: [反修防修]
+  carriers: [毛泽东, 康生]
+  concepts: [class-struggle, revisionism]
+  summary: 1960 年 4 月《红旗》《列宁主义万岁》开始公开论战；1962 年 9 月十中全会“千万不要忘记阶级斗争”把反修引向国内；“九评”最后一篇提出防止“出修正主义”的接班人问题，成为文革的理论前提。
+  pos:
+    - { at: 1963, x: -0.55, y: -0.6 }
+
+- id: unite-two-into-one
+  name: 合二而一
+  kind: label
+  from: 1964-05
+  to: 1979-01
+  parents: [marxism-leninism]
+  terms: [合二而一]
+  carriers: []
+  summary: 中央党校校长杨献珍 1964 年讲授辩证法时提出“合二而一”，被批为与毛泽东“一分为二”对抗、为“阶级调和”与“三和一少”提供哲学根据。一场哲学讨论被定性为政治斗争的先例。
+  against: [anti-revisionism]
+
+- id: lin-peak
+  name: “顶峰论”与“四个第一”
+  short: 顶峰论
+  kind: line
+  from: 1960-10
+  to: 1971-09
+  parents: [mao-thought]
+  terms: [顶峰, 最高最活, 四个第一]
+  carriers: [林彪]
+  summary: 1960 年 10 月林彪主持的军委扩大会议提出“四个第一”；1966 年称毛泽东思想是“当代马克思列宁主义的顶峰”“最高最活”。1970 年 12 月毛泽东对斯诺说“四个伟大”讨嫌；九一三事件后“顶峰论”被列为林彪的罪状。
+  pos:
+    - { at: 1966, x: -0.6, y: -1.0 }
+  cites: [ws-1966-05-18-lin-speech]
+
+- id: genius-theory
+  name: 天才论
+  kind: label
+  from: 1970-08
+  to: 1971-09
+  parents: [lin-peak]
+  terms: [天才论]
+  carriers: [林彪, 陈伯达]
+  summary: 1970 年 8 月九届二中全会（庐山）上林彪讲话、陈伯达编语录论证毛泽东是“天才”，并主张设国家主席。毛泽东 8 月 31 日写《我的一点意见》批陈伯达，此后“天才论”成为批陈、批林的罪名。
+
+- id: paris-commune
+  name: 巴黎公社原则
+  kind: line
+  from: 1966-08
+  to: 1967-02
+  parents: [marxism-leninism]
+  terms: [巴黎公社]
+  carriers: [张春桥]
+  concepts: [paris-commune, mass-democracy]
+  summary: 《十六条》要求文化革命委员会“象巴黎公社那样”实行全面选举、可以随时撤换。1967 年 2 月 5 日上海成立“上海人民公社”；毛泽东认为不妥，2 月 24 日改称上海市革命委员会，选举制从此不再提。
+  pos:
+    - { at: 1966-08, x: -0.8, y: -0.3 }
+    - { at: 1967-02, x: -0.8, y: -0.45, note: 上海人民公社 }
+  cites: [ws-1966-08-08-sixteen-points, ws-1967-02-05-shanghai-commune]
+
+- id: continuous-revolution
+  name: 无产阶级专政下继续革命的理论
+  short: 继续革命论
+  kind: line
+  from: 1967-11
+  to: 1978-12
+  parents: [anti-revisionism, mao-thought]
+  against: [khrushchev-revisionism]
+  terms: [继续革命]
+  carriers: [毛泽东, 张春桥, 姚文元]
+  concepts: [continuous-revolution]
+  summary: 1967 年 11 月 6 日两报一刊社论《沿着十月社会主义革命开辟的道路前进》首次归纳为六点；1969 年九大报告定为党的基本理论。1981 年决议称它“不符合马克思列宁主义，也不符合中国实际”。
+  pos:
+    - { at: 1967-11, x: -0.9, y: -1.0 }
+  cites: [ws-1967-11-06-october-road, ws-1969-04-ninth-report, ws-1981-resolution]
+
+- id: economism
+  name: 经济主义
+  kind: label
+  from: 1966-12
+  to: 1967-03
+  parents: [anti-revisionism]
+  terms: [经济主义]
+  summary: 1966 年底上海等地工人、临时工要求补发工资、转正，市委一度让步；1967 年 1 月 11 日中共中央发出反对经济主义的通知，次日《人民日报》社论称之为“资产阶级反动路线的新反扑”。
+  cites: [ws-1967-01-12-anti-economism]
+
+- id: productive-forces
+  name: 唯生产力论
+  kind: label
+  from: 1966-08
+  to: 1978-12
+  parents: [anti-revisionism]
+  against: [adjustment]
+  terms: [唯生产力论]
+  carriers: [刘少奇, 邓小平]
+  summary: 批判刘少奇、邓小平“只抓生产、不抓革命”的罪名，1976 年“反击右倾翻案风”中再次加给邓小平。
+  pos:
+    - { at: 1967, x: 0.45, y: 0.0, note: 批判者描述 }
+
+- id: docile-tool
+  name: 驯服工具论
+  kind: label
+  from: 1967-04
+  to: 1980-02
+  parents: [anti-revisionism]
+  terms: [驯服工具]
+  carriers: [刘少奇]
+  summary: 批判刘少奇《论共产党员的修养》要党员做党的“驯服工具”、不讲阶级斗争和夺取政权。1980 年 2 月刘少奇平反后不再提。
+  cites: [ws-1967-04-xiuyang]
+
+- id: bloodline
+  name: 血统论
+  kind: heterodox
+  from: 1966-08
+  to: 1967-01
+  terms: [血统论, 老子英雄儿好汉]
+  carriers: [谭力夫]
+  concepts: [bloodline]
+  summary: 1966 年 8 月北京老红卫兵中流行“老子英雄儿好汉，老子反动儿混蛋”。10 月陈伯达在中央工作会议上点名批判，称之为“剥削阶级的反动的血统论”。
+  cites: [web-1966-10-16-chen-speech]
+
+- id: origin-theory
+  name: 出身论
+  kind: heterodox
+  from: 1967-01
+  to: 1970-03
+  against: [bloodline]
+  terms: [出身论, 重在表现]
+  carriers: [遇罗克]
+  concepts: [bloodline]
+  summary: 遇罗克 1967 年 1 月发表于《中学文革报》，用“重在表现”反驳血统论，主张出身不同的青年政治权利平等。1968 年遇罗克被捕，1970 年 3 月被处决，1979 年宣告无罪。
+  pos:
+    - { at: 1967-01, x: -0.4, y: 0.55, note: 以官方语言要求平等权利 }
+  cites: [ws-1967-yu-origin-theory, ws-1979-yu-luoke-acquittal]
+
+- id: shengwulian
+  name: 《中国向何处去？》（省无联）
+  short: 省无联思潮
+  kind: heterodox
+  from: 1968-01
+  to: 1968-06
+  parents: [paris-commune, continuous-revolution]
+  terms: [中国向何处去, 省无联]
+  carriers: [杨曦光]
+  summary: 湖南“省无联”成员杨曦光 1968 年初的文章，认为文革的对象是“红色资本家阶级”，主张推翻革委会、建立公社式的“中华人民公社”。1968 年 1 月康生、陈伯达等点名为“反动思潮”，组织被取缔。
+  pos:
+    - { at: 1968-01, x: -1.0, y: -0.15, note: 极左而反官僚 }
+
+- id: li-yizhe
+  name: 李一哲大字报（关于社会主义的民主与法制）
+  short: 李一哲
+  kind: heterodox
+  from: 1974-11
+  to: 1979-02
+  parents: [paris-commune]
+  against: [all-round-dictatorship]
+  terms: [李一哲]
+  carriers: [李正天, 陈一阳, 王希哲]
+  summary: 1974 年 11 月贴在广州北京路的大字报，署名“李一哲”，要求以法制保障人民的民主权利，批评“新贵族”与特权。作者被批判、关押，1979 年平反。
+  pos:
+    - { at: 1974-11, x: -0.45, y: 0.6 }
+
+- id: all-round-dictatorship
+  name: 对资产阶级的全面专政
+  short: 全面专政论
+  kind: line
+  from: 1975-02
+  to: 1976-10
+  parents: [continuous-revolution]
+  terms: [全面专政, 资产阶级法权]
+  carriers: [张春桥, 姚文元, 毛泽东]
+  summary: 1975 年初毛泽东谈“学习无产阶级专政理论”，称八级工资制、按劳分配、货币交换与旧社会“差不多”，要限制“资产阶级法权”。姚文元《论林彪反党集团的社会基础》、张春桥《论对资产阶级的全面专政》随后发表。
+  pos:
+    - { at: 1975-04, x: -1.0, y: -1.0 }
+
+- id: zhengdun
+  name: 1975 年整顿（“三项指示为纲”）
+  short: 1975 整顿
+  kind: line
+  from: 1975-01
+  to: 1975-11
+  parents: [adjustment]
+  against: [all-round-dictatorship]
+  terms: [三项指示为纲]
+  carriers: [邓小平, 周恩来, 叶剑英]
+  summary: 四届人大后邓小平主持日常工作，整顿铁路、钢铁、军队、科技，以毛泽东的三项指示（学理论反修防修、安定团结、把国民经济搞上去）“为纲”。11 月起被定为“右倾翻案风”。
+  pos:
+    - { at: 1975-06, x: 0.0, y: 0.1 }
+
+- id: right-deviation-reversal
+  name: 右倾翻案风
+  kind: label
+  from: 1975-11
+  to: 1977-07
+  parents: [all-round-dictatorship]
+  against: [zhengdun]
+  terms: [右倾翻案风]
+  carriers: [邓小平]
+  summary: 1975 年 11 月起“反击右倾翻案风”，指邓小平的整顿是要否定文革；1976 年 4 月天安门事件后邓小平被撤销一切职务。1977 年 7 月十届三中全会恢复其职务。
+  pos:
+    - { at: 1976-02, x: 0.25, y: 0.2, note: 批判者描述 }
+  cites: [ws-1977-07-tenth-third-plenum]
+
+- id: two-whatevers
+  name: 两个凡是
+  kind: line
+  from: 1977-02
+  to: 1978-12
+  parents: [mao-thought]
+  terms: [两个凡是, 凡是毛主席]
+  carriers: [华国锋, 汪东兴]
+  summary: 1977 年 2 月 7 日两报一刊社论《学好文件抓住纲》：“凡是毛主席作出的决策，我们都坚决维护；凡是毛主席的指示，我们都始终不渝地遵循。”1978 年真理标准讨论后被放弃。
+  pos:
+    - { at: 1977-02, x: -0.35, y: -0.3 }
+
+- id: practice-criterion
+  name: 实践是检验真理的唯一标准
+  short: 真理标准
+  kind: line
+  from: 1978-05
+  to: 1979-03
+  parents: [mao-thought]
+  against: [two-whatevers]
+  terms: [实践是检验真理]
+  carriers: [胡耀邦, 胡福明, 邓小平]
+  concepts: [equality-before-truth]
+  summary: 1978 年 5 月 11 日《光明日报》特约评论员文章，经胡耀邦主持的中央党校《理论动态》修改发出，引发全国讨论。邓小平以“实事求是”支持，为三中全会作了思想准备。
+  pos:
+    - { at: 1978-05, x: 0.1, y: 0.6 }
+  cites: [ws-1978-12-third-plenum]
+
+- id: reform-opening
+  name: 改革开放
+  kind: core
+  from: 1978-12
+  parents: [practice-criterion, adjustment, eighth-congress]
+  against: [continuous-revolution]
+  terms: [改革开放, 对外开放, 经济建设为中心]
+  carriers: [邓小平, 胡耀邦, 赵紫阳, 陈云]
+  summary: 十一届三中全会把工作重点转移到社会主义现代化建设。农村家庭联产承包、经济特区（1980）、城市改革（1984）、价格闯关（1988）。其内部一直有“放”与“收”的分歧。
+  pos:
+    - { at: 1979, x: 0.2, y: 0.4 }
+    - { at: 1984-10, x: 0.5, y: 0.45 }
+    - { at: 1988-06, x: 0.7, y: 0.35, note: 价格闯关 }
+  cites: [ws-1978-12-third-plenum]
+
+- id: democracy-wall
+  name: 民主墙与“第五个现代化”
+  short: 民主墙
+  kind: heterodox
+  from: 1978-11
+  to: 1979-12
+  parents: [li-yizhe, practice-criterion]
+  against: [two-whatevers]
+  terms: [民主墙, 第五个现代化]
+  carriers: [魏京生, 徐文立, 任畹町]
+  summary: 1978 年 11 月起北京西单墙上的大字报和民间刊物。魏京生 12 月贴出《第五个现代化》，要求民主。1979 年 3 月魏京生被捕，12 月北京市禁止在西单墙张贴。
+  pos:
+    - { at: 1979-01, x: 0.3, y: 1.0 }
+
+- id: four-principles
+  name: 四项基本原则
+  kind: core
+  from: 1979-03
+  parents: [marxism-leninism, mao-thought]
+  against: [democracy-wall]
+  terms: [四项基本原则]
+  carriers: [邓小平, 胡乔木]
+  summary: 1979 年 3 月 30 日邓小平在理论工作务虚会上提出：坚持社会主义道路、无产阶级专政（后改人民民主专政）、共产党的领导、马列主义毛泽东思想。1987 年十三大与改革开放并称“两个基本点”。
+  pos:
+    - { at: 1979-03, x: -0.1, y: -0.3 }
+
+- id: bird-cage
+  name: 计划经济为主、市场调节为辅（鸟笼经济）
+  short: 鸟笼经济
+  kind: line
+  from: 1979-03
+  parents: [adjustment]
+  terms: [计划经济为主, 市场调节为辅]
+  carriers: [陈云, 李先念, 姚依林]
+  summary: 陈云 1979 年提出，十二大写入报告；1982 年 12 月他以“鸟和笼子”比喻：搞活经济要在计划的笼子里。1984 年“有计划的商品经济”后退居少数，1989 年后一度回升。
+  pos:
+    - { at: 1982-09, x: -0.2, y: 0.05 }
+    - { at: 1989-09, x: -0.2, y: -0.3 }
+
+- id: chinese-characteristics
+  name: 建设有中国特色的社会主义
+  short: 中国特色社会主义
+  kind: core
+  from: 1982-09
+  parents: [reform-opening, four-principles]
+  terms: [中国特色]
+  carriers: [邓小平]
+  summary: 邓小平 1982 年 9 月十二大开幕词：“把马克思主义的普遍真理同我国的具体实际结合起来，走自己的道路，建设有中国特色的社会主义。”
+  pos:
+    - { at: 1982-09, x: 0.2, y: 0.1 }
+    - { at: 1987-10, x: 0.5, y: 0.2 }
+
+- id: humanism-alienation
+  name: 社会主义人道主义与异化论
+  short: 人道主义与异化
+  kind: heterodox
+  from: 1980-08
+  to: 1984-01
+  parents: [marxism-leninism]
+  against: [continuous-revolution]
+  terms: [社会主义人道主义, 异化]
+  carriers: [周扬, 王若水]
+  summary: 王若水等 1980 年起讨论社会主义社会中的异化；1983 年 3 月周扬在纪念马克思逝世百年报告中提出。1984 年 1 月胡乔木发表《关于人道主义和异化问题》批判，周扬作检讨。
+  pos:
+    - { at: 1983-03, x: 0.2, y: 0.8 }
+
+- id: spiritual-pollution
+  name: 清除精神污染
+  kind: line
+  from: 1983-10
+  to: 1984-02
+  parents: [four-principles]
+  against: [humanism-alienation]
+  terms: [精神污染]
+  carriers: [邓小平, 邓力群, 胡乔木]
+  summary: 1983 年 10 月十二届二中全会邓小平提出“思想战线不能搞精神污染”，各地扩大到服饰、发型；因影响改革和外资，胡耀邦、赵紫阳等出面收束，不久即停止。
+  pos:
+    - { at: 1983-11, x: -0.1, y: -0.5 }
+
+- id: planned-commodity
+  name: 有计划的商品经济
+  kind: line
+  from: 1984-10
+  parents: [reform-opening]
+  against: [bird-cage]
+  terms: [有计划的商品经济]
+  carriers: [赵紫阳, 胡耀邦]
+  summary: 1984 年 10 月十二届三中全会《关于经济体制改革的决定》，突破“计划经济为主”的提法，城市改革由此展开。
+  pos:
+    - { at: 1984-10, x: 0.5, y: 0.3 }
+
+- id: liberalization
+  name: 资产阶级自由化
+  kind: label
+  from: 1980-12
+  parents: [four-principles]
+  terms: [资产阶级自由化]
+  carriers: [方励之, 刘宾雁, 王若望]
+  summary: 邓小平 1980 年 12 月中央工作会议起使用。1986 年底学潮后发动“反对资产阶级自由化”，1987 年 1 月方励之、刘宾雁、王若望被开除党籍，胡耀邦辞去总书记。1989 年后再度成为主要罪名。
+  pos:
+    - { at: 1987-01, x: 0.7, y: 0.9, note: 批判者描述的“全盘西化” }
+
+- id: primary-stage
+  name: 社会主义初级阶段
+  short: 初级阶段论
+  kind: core
+  from: 1987-10
+  parents: [chinese-characteristics, planned-commodity]
+  terms: [初级阶段]
+  carriers: [赵紫阳]
+  summary: 1987 年 10 月十三大报告：中国正处于并将长期处于社会主义初级阶段，为多种所有制和市场找到理论根据；提出“一个中心、两个基本点”和政治体制改革（党政分开）。
+  pos:
+    - { at: 1987-10, x: 0.6, y: 0.45 }
+
+- id: neo-authoritarianism
+  name: 新权威主义
+  kind: heterodox
+  from: 1986-06
+  to: 1989-06
+  parents: [reform-opening]
+  against: [liberalization]
+  carriers: [吴稼祥, 萧功秦, 张炳九]
+  summary: 1986–1989 年间一部分青年学者主张由强有力的改革领导人以集中权威推行市场化，民主化放在后面。1988–1989 年与主张政治民主化的一方公开论战。
+  pos:
+    - { at: 1988-06, x: 0.9, y: -0.3 }
+
+- id: new-enlightenment
+  name: 新启蒙与西化思潮
+  short: 新启蒙
+  kind: heterodox
+  from: 1986-01
+  to: 1989-06
+  parents: [humanism-alienation, democracy-wall]
+  against: [four-principles]
+  terms: [河殇, 新启蒙]
+  carriers: [方励之, 刘宾雁, 苏晓康]
+  summary: 1980 年代中后期知识界的“文化热”：反思传统、主张民主与科学，方励之在大学演讲。1988 年 6 月电视片《河殇》以“蓝色文明”对照“黄色文明”，1989 年后被批判。
+  pos:
+    - { at: 1988-06, x: 0.75, y: 0.9 }

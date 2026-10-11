@@ -53,6 +53,11 @@
   --org-mass: #9a6a1c;
   --org-popular: #c05621;
   --org-unit: var(--sys-other);
+  --ism-core: #9e1b32;
+  --ism-line: #c2410c;
+  --ism-heterodox: #1f7a8c;
+  --ism-foreign: #5b5b8a;
+  --ism-label: #7a7468;
   --v-doc: #4a4741;
   --v-official1966: #b3122e;
   --v-witness: #d97706;
@@ -131,6 +136,11 @@
   --sys-other: #a39c8f;
   --org-mass: #d2a45a;
   --org-popular: #e8865a;
+  --ism-core: #d9566b;
+  --ism-line: #e8865a;
+  --ism-heterodox: #4fb3c4;
+  --ism-foreign: #9a9ad2;
+  --ism-label: #a39c8f;
   --v-doc: #bab3a5;
   --v-official1966: #e0475d;
   --v-witness: #f0a145;
@@ -1457,6 +1467,96 @@ h2.sec {
 }
 .org-row .cnt .status-dot {
   margin-right: 4px;
+}
+.canvas.spectrum {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 12px 20px;
+  overflow: auto;
+}
+.spectrum-side {
+  flex: 1;
+  min-width: 220px;
+  max-width: 340px;
+  font-size: 12.5px;
+}
+.spectrum-side h3 {
+  margin: 4px 0 6px;
+  font-family: var(--serif);
+  font-size: 18px;
+}
+.spectrum-side h4 {
+  margin: 14px 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+.spectrum-side ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.spectrum-side li {
+  padding: 4px 0;
+  border-top: 1px solid var(--rule);
+}
+.spectrum-side li .linklike {
+  font-weight: 500;
+}
+.spectrum-side li .linklike[aria-pressed='true'] {
+  color: var(--accent);
+}
+.spectrum-side li small {
+  display: block;
+  color: var(--muted);
+}
+.spectrum-side .status-dot {
+  margin-right: 5px;
+}
+.ism-rel {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 8px;
+  align-items: baseline;
+  margin: 6px 0;
+}
+.ism-rel > span {
+  color: var(--muted);
+  font-size: 12px;
+}
+.ism-rel .chips {
+  margin: 0;
+}
+.chip.nolink {
+  cursor: default;
+  color: var(--ink-2);
+}
+.ism-pos {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.ism-pos .mini-spectrum {
+  flex: none;
+}
+.ism-pos ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12.5px;
+}
+.ism-pos li {
+  margin-bottom: 6px;
+}
+.ism-pos time {
+  color: var(--muted);
+  margin-right: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.ism-pos small {
+  display: block;
+  color: var(--muted);
 }
 .control-bar {
   display: flex;

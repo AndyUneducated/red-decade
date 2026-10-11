@@ -11,7 +11,9 @@ import {
   DocumentSchema,
   EventSchema,
   FactionSchema,
+  IsmSchema,
   LeaderSchema,
+  LinePointSchema,
   OrgSchema,
   PersonSchema,
   PlaceSchema,
@@ -88,6 +90,8 @@ for (const p of yamlFiles('content', 'leaders'))
     else o.leaders.push(...load(LeaderSchema, list, `${p.join('/')} ${id}`))
   }
 const places = load(PlaceSchema, read('content', 'places.yaml'), 'places')
+const isms = load(IsmSchema, read('content', 'isms.yaml'), 'isms')
+const line = load(LinePointSchema, read('content', 'line.yaml'), 'line')
 
 // ── derived links: positions → orgs, birth/death strings → places ──
 // A position without org takes the org whose name or alias equals its orgName; failing that, the org
@@ -262,6 +266,23 @@ for (const c of concepts) {
   c.related.forEach((id) => need(ids.concept, id, `concept ${c.id}`))
   c.notes.forEach((n) => needCite(n.cite, `concept ${c.id}`))
 }
+const ismIds = new Set(isms.map((m) => m.id))
+if (ismIds.size !== isms.length) errors.push('isms: duplicate id')
+for (const m of isms) {
+  const where = `ism ${m.id}`
+  ;[...m.parents, ...m.against].forEach((id) => (need(ismIds, id, where), id === m.id && errors.push(`${where}: refers to itself`)))
+  for (const id of m.parents) {
+    const p = isms.find((x) => x.id === id)
+    if (p && after(p.from, m.from)) errors.push(`${where}: starts (${m.from}) before its parent ${id} (${p.from})`)
+  }
+  m.concepts.forEach((id) => need(ids.concept, id, where))
+  m.cites.forEach((c) => needCite(c, where))
+  m.notes.forEach((n) => needCite(n.cite, where))
+  if (m.to && after(m.from, m.to)) errors.push(`${where}: ends (${m.to}) before it starts (${m.from})`)
+  for (const p of m.pos) if (after(m.from, p.at) || (m.to && after(p.at, m.to))) errors.push(`${where}: pos ${p.at} outside ${m.from}–${m.to ?? ''}`)
+  for (let i = 1; i < m.pos.length; i++) if (after(m.pos[i - 1].at, m.pos[i].at)) errors.push(`${where}: pos out of order at ${m.pos[i].at}`)
+}
+for (let i = 1; i < line.length; i++) if (after(line[i - 1].at, line[i].at)) errors.push(`line: out of order at ${line[i].at}`)
 for (const d of documents) {
   if (!sourceById.has(d.id)) errors.push(`document ${d.id}: no source record`)
   d.people.forEach((id) => need(ids.person, id, `document ${d.id}`))
@@ -310,6 +331,12 @@ const datedTexts = [...texts.entries()]
   .filter((t) => t.source.kind !== 'index' && !t.source.excerpt)
   .sort((a, b) => a.source.date.localeCompare(b.source.date))
 
+function groupBy<T, K>(xs: T[], key: (x: T) => K) {
+  const m = new Map<K, T[]>()
+  for (const x of xs) m.set(key(x), [...(m.get(key(x)) ?? []), x])
+  return m
+}
+
 function hitsFor(terms: string[]): ConceptHit[] {
   const hits: ConceptHit[] = []
   for (const t of datedTexts) {
@@ -347,6 +374,9 @@ const atlas: Atlas = {
   events: events.sort((a, b) => a.date.localeCompare(b.date)),
   relations,
   concepts: concepts.map((c) => ({ ...c, hits: hitsFor(c.terms) })),
+  isms: isms.map((m) => ({ ...m, carriers: m.carriers.map((name) => ({ name, person: personByName.get(name) })), hits: hitsFor(m.terms) })),
+  line,
+  corpus: [...groupBy(datedTexts, (t) => Number(t.source.date.slice(0, 4)))].map(([year, ts]) => ({ year, docs: ts.length, chars: ts.reduce((n, t) => n + t.body.length, 0) })),
   documents: documents.map((d) => ({ ...d, source: sourceById.get(d.id)! })),
   sources,
   claims,
@@ -370,6 +400,7 @@ console.log(
     `events     ${events.length}  (${verified(events)} sourced, ${events.length - verified(events)} 待核)`,
     `relations  ${relations.length}`,
     `concepts   ${concepts.length}`,
+    `isms       ${isms.length}  (${isms.filter((m) => m.pos.length).length} placed on the spectrum, ${isms.reduce((n, m) => n + m.carriers.length, 0)} carriers; line ${line.length} points)`,
     `documents  ${documents.length}`,
     `sources    ${sources.length}  (${texts.size} with text)`,
     `claims     ${claims.length}`,

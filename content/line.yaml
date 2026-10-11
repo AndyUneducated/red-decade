@@ -1,0 +1,31 @@
+# Where the party centre's working line stood, on the same two axes as content/isms.yaml.
+# Editorial judgment of relative stance, one point per turn; drawn as the reference trajectory.
+- { at: 1949-10, x: 0.3, y: 0.2, label: 共同纲领 }
+- { at: 1953-06, x: -0.35, y: -0.05, label: 过渡时期总路线 }
+- { at: 1956-01, x: -0.75, y: -0.2, label: 改造高潮 }
+- { at: 1956-09, x: -0.35, y: 0.45, label: 八大 }
+- { at: 1957-05, x: -0.35, y: 0.6, label: 整风鸣放 }
+- { at: 1957-07, x: -0.45, y: -0.45, label: 反右 }
+- { at: 1958-08, x: -1.0, y: -0.7, label: 大跃进 · 公社化 }
+- { at: 1959-08, x: -0.9, y: -0.8, label: 庐山 · 反右倾 }
+- { at: 1961-01, x: -0.2, y: 0.0, label: 调整 }
+- { at: 1962-03, x: 0.1, y: 0.2, label: 七千人大会后 }
+- { at: 1962-09, x: -0.2, y: -0.4, label: 十中全会 }
+- { at: 1964-09, x: -0.4, y: -0.65, label: 四清 }
+- { at: 1966-08, x: -0.8, y: -1.0, label: 文革发动 }
+- { at: 1968-10, x: -0.85, y: -0.95, label: 清理阶级队伍 }
+- { at: 1972-01, x: -0.55, y: -0.5, label: 批极左 }
+- { at: 1974-01, x: -0.75, y: -0.8, label: 批林批孔 }
+- { at: 1975-03, x: -0.3, y: -0.3, label: 整顿 }
+- { at: 1976-04, x: -0.85, y: -0.95, label: 反击右倾翻案风 }
+- { at: 1977-02, x: -0.4, y: -0.3, label: 两个凡是 }
+- { at: 1978-12, x: 0.0, y: 0.3, label: 三中全会 }
+- { at: 1979-04, x: 0.05, y: 0.05, label: 四项基本原则 }
+- { at: 1981-06, x: 0.15, y: 0.25, label: 历史决议 }
+- { at: 1983-11, x: 0.2, y: -0.15, label: 清除精神污染 }
+- { at: 1984-10, x: 0.5, y: 0.35, label: 城市改革 }
+- { at: 1986-09, x: 0.6, y: 0.45, label: 政治体制改革讨论 }
+- { at: 1987-01, x: 0.5, y: 0.0, label: 反自由化 }
+- { at: 1987-10, x: 0.6, y: 0.4, label: 十三大 }
+- { at: 1988-09, x: 0.35, y: 0.3, label: 治理整顿 }
+- { at: 1989-06, x: 0.25, y: -0.45, label: 六四之后 }
