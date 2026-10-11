@@ -146,6 +146,11 @@
 - { id: fengrun, name: 丰润, names: [丰润], lat: 39.83, lon: 118.16 }
 - { id: jiaocheng, name: 交城, names: [交城], lat: 37.55, lon: 112.16 }
 - { id: rushan, name: 乳山, names: [乳山], lat: 36.92, lon: 121.54 }
+# batch 4
+- { id: fengxian, name: 奉贤, names: [奉贤], lat: 30.92, lon: 121.47 }
+- { id: liaoyang, name: 辽阳, names: [辽阳], lat: 41.27, lon: 123.17 }
+- { id: tangxian, name: 唐县, names: [唐县], lat: 38.75, lon: 114.98 }
+- { id: xinzhou-hb, name: 新洲, names: [新洲], lat: 30.84, lon: 114.80 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

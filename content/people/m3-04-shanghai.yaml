@@ -1,0 +1,328 @@
+# M3 people, batch 4: the Shanghai group around 张春桥 and 王洪文 (徐景贤, 王秀珍, 马天水, 朱永嘉, 耿金章) and the
+# East China Bureau leader they persecuted (魏文伯). 潘国平 deferred: no corpus text and dates unsettled.
+# Death dates not settled here are left out (the UI then shows 卒年未录). Careers from general reference, verify.
+
+- id: xu-jingxian
+  name: 徐景贤
+  born: 1933
+  died: 2007
+  tier: 2
+  role1966: 中共上海市委写作班党支部书记
+  pinyin: Xú Jǐngxián
+  gender: m
+  ethnicity: 汉族
+  birthplace: 上海奉贤
+  origin: 上海奉贤
+  deathKind: natural
+  deathPlace: 上海
+  party: 中国共产党
+  positions:
+    - { title: 写作班党支部书记, orgName: 中共上海市委写作组, from: 1964, to: 1967-02, cite: ws-1982-xu-jingxian-case }
+    - { title: 副主任, orgName: 上海市革命委员会, from: 1967-02-24, to: 1976-10, cite: ws-1982-xu-jingxian-case }
+    - { title: 书记, orgName: 中共上海市委员会, from: 1971-01, to: 1976-10, cite: ws-1982-xu-jingxian-case }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1973-08, to: 1977-08, verify: true }
+  bio: 上海奉贤人，1950 年代在上海市委宣传部门做文艺工作，1964 年起任市委写作班党支部书记，是张春桥、姚文元在上海的笔杆子。1966 年底从市委机关内部造反，与王洪文里应外合夺取上海市领导权，此后十年任市革委会副主任、市委书记，主管宣传、文教和专案。1976 年 10 月“四人帮”被拘禁后与王秀珍策划武装叛乱未遂。1982 年被上海市高级人民法院判处有期徒刑十八年。晚年写有回忆录，2007 年在上海去世。
+  life:
+    - h: 写作班
+      from: 1933
+      to: 1966
+      text: |
+        1933 年生于上海奉贤。建国初参加工作，在上海市委宣传部文艺处工作，写过剧本和评论。1964 年张春桥在上海市委宣传系统组建写作班，他任党支部书记，写作班以“丁学雷”等笔名发表文章。1982 年的判决书称他“原是中共上海市委员会写作班支部书记”。
+      verify: true
+      cites: [ws-1982-xu-jingxian-case, macfarquhar-schoenhals]
+    - h: 从市委内部夺权
+      from: 1966-12
+      to: 1967-02
+      text: |
+        按 1982 年的起诉书，1966 年 12 月他“伙同王承龙、朱永嘉等人密谋策划，里应外合”，在市委机关内部制造“心脏爆炸，后院起火事件”，配合王洪文的工总司夺权。12 月 30 日的康平路事件中，他传达张春桥的电话，与王洪文、耿金章攻打“工人赤卫队”，九十一人受伤。1967 年 1 月至 2 月两次召开大会，宣布“彻底打倒”上海市委，“不再承认”陈丕显、曹荻秋的职务，将他们非法监禁。2 月 24 日上海市革委会成立，任副主任。
+      cites: [ws-1982-xu-jingxian-case, ws-1980-indictment]
+    - h: 上海十年
+      from: 1967
+      to: 1976-09
+      text: |
+        1968 年 2 月他组织文章称陈丕显是“老反革命”，3 月审定发表《旧华东局机关有鬼》，多次诬陷华东局书记处书记魏文伯是“大叛徒”。同年把京剧演员周信芳定为“反革命分子”关押，周被迫害致死；又诬陷上海音乐学院院长贺绿汀组织“翻案集团”。1969 年煤气公司技术员桑伟川写文章反驳“丁学雷”对小说《上海的早晨》的批判，被定为“现行反革命”判刑七年。他还参与指挥张春桥直接操纵的“游雪涛小组”从事跟踪、绑架和搜集情报。1971 年上海市委恢复，任书记，1973 年十大当选中央委员。1976 年 4 月在全市万人大会上称邓小平“必然合乎规律地变成走资派”。
+      cites: [ws-1982-xu-jingxian-case]
+      verify: true
+    - h: 十月叛乱与审判
+      from: 1976-10
+      to: 2007
+      text: |
+        1976 年 10 月 8 日得知江青等人被拘禁，他与王秀珍决定发动武装叛乱，设立“一号”“二号”指挥点，他坐镇丁香花园的“一号指挥点”负总责，下令调集“二千五百人集中，三万一千民兵待命”。因中央派人召集上海负责人进京、上海军民抵制，叛乱未能发动。随后被隔离审查。1982 年 6 月上海市人民检察院起诉，7 月 13 日至 8 月 21 日公开审理，以积极参加反革命集团、阴谋颠覆政府、策动武装叛乱等罪判处有期徒刑十八年。刑满后在上海居住，2000 年代在香港出版回忆录《十年一梦》，2007 年去世。
+      cites: [ws-1982-xu-jingxian-case]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 被告人徐景贤是上述共同犯罪活动中的组织者、策划者之一，严重地危害了国家和人民的利益（1982 年上海市高级人民法院判决）, cite: ws-1982-xu-jingxian-case, quote: true }
+    - { voice: judicial1980, text: 判处被告人徐景贤有期徒刑十八年，剥夺政治权利四年, cite: ws-1982-xu-jingxian-case, quote: true }
+    - { voice: judicial1980, text: 张春桥指使上海市革命委员会副主任马天水、徐景贤在上海召开的万人大会上，诬陷重新出来工作的领导干部“从资产阶级民主派变成走资派”（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: editor, text: 他晚年写有回忆录《十年一梦》，回忆录未入语料；本条事实以起诉书和判决书为准。 }
+  factions: [ccrg]
+  fate:
+    - { date: 1964, s: normal, note: 写作班党支部书记, verify: true }
+    - { date: 1966-12, s: rise, note: 从市委内部造反, cite: ws-1982-xu-jingxian-case }
+    - { date: 1967-02-24, s: power, note: 市革委会副主任, cite: ws-1982-xu-jingxian-case }
+    - { date: 1976-10, s: detained, note: 8 日策划武装叛乱未遂，随后被隔离审查, cite: ws-1982-xu-jingxian-case }
+    - { date: 1982-08-21, s: detained, note: 判处有期徒刑十八年, cite: ws-1982-xu-jingxian-case }
+    - { date: 2007, s: dead, verify: true }
+  cites: [ws-1982-xu-jingxian-case, ws-1980-indictment, ws-1981-01-25-judgment]
+
+- id: wang-xiuzhen
+  name: 王秀珍
+  born: 1935
+  tier: 3
+  role1966: 上海第三十棉纺织厂技术员，工总司负责人之一
+  pinyin: Wáng Xiùzhēn
+  gender: f
+  ethnicity: 汉族
+  birthplace: 辽宁辽阳
+  origin: 辽宁辽阳
+  party: 中国共产党
+  positions:
+    - { title: 负责人之一, orgName: 上海工人革命造反总司令部, from: 1966-11-09, to: 1967-02, verify: true }
+    - { title: 副主任, orgName: 上海市革命委员会, from: 1967-02-24, to: 1976-10, cite: ws-1982-08-21-wang-xiuzhen-case }
+    - { title: 书记, orgName: 中共上海市委员会, from: 1971-01, to: 1976-10, cite: ws-1982-08-21-wang-xiuzhen-case }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1973-08, to: 1977-08, verify: true }
+  bio: 辽宁辽阳人，纺织学校毕业后分配到上海第三十棉纺织厂当技术员。1966 年 11 月参与组建工总司，是王洪文最倚重的助手之一，1967 年起任上海市革委会副主任，后任市委书记，主管工会、民兵与组织工作。1967 年 8 月参与指挥围攻上海柴油机厂。1976 年 10 月与徐景贤策划武装叛乱，坐镇“二号指挥点”。1982 年 8 月 21 日被判处有期徒刑十七年。卒年未查实。
+  life:
+    - h: 从辽阳到国棉三十厂
+      from: 1935
+      to: 1966
+      text: |
+        1935 年生于辽宁辽阳，1950 年代在东北读纺织技术学校，毕业后分配到上海第三十棉纺织厂，任技术员，入党。1982 年的起诉书写她“原是上海第三十棉纺织厂技术员”。
+      verify: true
+      cites: [ws-1982-08-21-wang-xiuzhen-case]
+    - h: 工总司与柴油机厂
+      from: 1966-11
+      to: 1967-08
+      text: |
+        1966 年 11 月参与组建上海工人革命造反总司令部，成为王洪文身边的骨干，一月夺权后进入上海市革委会。1967 年 7 月至 8 月，她在王洪文直接指挥下多次参与密谋围攻上海柴油机厂“联司”，按起诉书，8 月 4 日“王秀珍在秘密指挥点，负责联络指挥”，这次事件“关押、伤残六百五十人”。
+      cites: [ws-1982-08-21-wang-xiuzhen-case, ws-1980-indictment]
+      verify: true
+    - h: 民兵与专案
+      from: 1968
+      to: 1976-09
+      text: |
+        1968 年 6 月 28 日主持全市电视批斗大会，称陈丕显是“老反革命”、曹荻秋是“叛徒”。同年 9 月参与部署对二十六所大专院校非法搜查“炮打张春桥的黑材料”，仅三校就查抄一万三千五百多人。1973 年 5 月参与审定魏文伯的审查报告，称他是“罪恶累累的叛徒”。1972 年后按王洪文“民兵的指挥权要掌握在市委手里”的意思，先后指派施尚英等控制市民兵指挥部。1973 年十大当选中央委员。
+      cites: [ws-1982-08-21-wang-xiuzhen-case, ws-1980-indictment]
+      verify: true
+    - h: 二号指挥点与审判
+      from: 1976-10
+      to: 1982
+      text: |
+        1976 年 10 月 8 日与徐景贤决定发动武装叛乱，深夜进入市民兵指挥部的“二号指挥点”，召集陈阿大、叶昌明等人，称中央发生了“右派政变”，要“对着干”，部署用钢锭堵塞机场跑道、沉船封锁吴淞口。叛乱未能发动，随即被隔离审查。1982 年 8 月 21 日上海市高级人民法院判处有期徒刑十七年。此后经历未录。
+      cites: [ws-1982-08-21-wang-xiuzhen-case]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 八月四日，王秀珍在秘密指挥点，负责联络指挥（1982 年起诉书）, cite: ws-1982-08-21-wang-xiuzhen-case, quote: true }
+    - { voice: judicial1980, text: 判处被告人王秀珍有期徒刑十七年，剥夺政治权利四年, cite: ws-1982-08-21-wang-xiuzhen-case, quote: true }
+    - { voice: judicial1980, text: 一九七三年九月，王洪文对王秀珍说：“要建立全国民兵总指挥部，由我亲自来抓。”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 她从工厂技术员到市委书记只用了五年，几乎所有职务和行动都在王洪文的直接授意下进行，是工总司骨干转入新权力机构的典型。 }
+  factions: [rebels, ccrg]
+  fate:
+    - { date: 1966-11-09, s: rise, note: 参与组建工总司, verify: true }
+    - { date: 1967-02-24, s: power, note: 市革委会副主任, verify: true }
+    - { date: 1967-08-04, s: power, note: 围攻上海柴油机厂, cite: ws-1982-08-21-wang-xiuzhen-case }
+    - { date: 1976-10, s: detained, note: 8 日坐镇“二号指挥点”未遂，随后被隔离审查, cite: ws-1982-08-21-wang-xiuzhen-case }
+    - { date: 1982-08-21, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-08-21-wang-xiuzhen-case }
+  cites: [ws-1982-08-21-wang-xiuzhen-case, ws-1980-indictment]
+
+- id: ma-tianshui
+  name: 马天水
+  born: 1912
+  died: 1988
+  tier: 2
+  role1966: 中共上海市委书记处书记
+  pinyin: Mǎ Tiānshuǐ
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河北唐县
+  origin: 河北唐县
+  deathKind: natural
+  party: 中国共产党
+  positions:
+    - { title: 书记处书记, orgName: 中共上海市委员会, from: 1958, to: 1967-01, verify: true }
+    - { title: 副主任, orgName: 上海市革命委员会, from: 1967-02-24, to: 1976-10, cite: ws-1981-01-25-judgment }
+    - { title: 书记, orgName: 中共上海市委员会, from: 1971-01, to: 1976-10, cite: ws-1982-xu-jingxian-case }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1973-08, to: 1977-08, verify: true }
+  bio: 河北唐县人，抗战时期在晋察冀、冀中做党的工作，1949 年随军南下上海，长期主管工业，1960 年代任上海市委书记处书记。一月夺权后是上海原市委领导中第一个被张春桥“解放”并结合进市革委会的老干部，此后十年任市革委会副主任、市委书记，主管经济。1976 年 8 月亲笔批准向民兵突击发枪七万余支。“四人帮”被捕后被隔离审查，审查中精神失常，未被起诉。1988 年去世。
+  life:
+    - h: 晋察冀与南下
+      from: 1912
+      to: 1949
+      text: |
+        1912 年生于河北唐县，1930 年代入党，抗战时期在晋察冀边区、冀中做地方党和工会工作。1949 年随军南下上海。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 上海的工业书记
+      from: 1949
+      to: 1966
+      text: |
+        建国后历任上海市委工业部长、副市长等职，1958 年前后任上海市委书记处书记，分管工业和计划，在柯庆施、陈丕显手下多年主持上海的工业生产。
+      verify: true
+      cites: [ccp-figures-bios, chen-pixian-memoir]
+    - h: 投靠张春桥
+      from: 1967
+      to: 1976-09
+      text: |
+        1967 年 1 月上海夺权后，原市委书记处中只有他被张春桥“解放”，以“革命领导干部”身份结合进 2 月 24 日成立的上海市革委会，任副主任，主管工业生产。按 1982 年的起诉书，“张春桥、王洪文、马天水等人还以莫须有的罪名，诬陷、迫害中共地下党领导人和党员”。1971 年任上海市委书记，1973 年十大当选中央委员。1976 年按张春桥的意思在万人大会上称复出的老干部“从资产阶级民主派变成走资派”。8 月丁盛到上海说附近的部队“我指挥不动”，他随即批准向民兵发枪。
+      cites: [ws-1982-xu-jingxian-case, ws-1981-01-25-judgment, ws-1980-indictment]
+      verify: true
+    - h: 进京与审查
+      from: 1976-10
+      to: 1988
+      text: |
+        1976 年 10 月“四人帮”被拘禁后，被中央召到北京开会，随后被隔离审查。审查期间出现精神病症状，经鉴定后没有和徐景贤、王秀珍一起被起诉。1988 年去世。
+      verify: true
+      cites: [macfarquhar-schoenhals]
+  assess:
+    - { voice: judicial1980, text: 马天水随即决定由他们所控制的武器仓库中发给“民兵”枪七万四千二百二十支，炮三百门，各种弹药一千多万发（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 张春桥、王洪文、马天水等人还以莫须有的罪名，诬陷、迫害中共地下党领导人和党员（1982 年徐景贤案起诉书）, cite: ws-1982-xu-jingxian-case, quote: true }
+    - { voice: editor, text: 他是“三结合”中“革命领导干部”一方在上海的代表：上海原市委书记处只有他留在新政权里，主管生产，并在 1976 年亲笔批准发枪。 }
+  factions: [shanghai, ccrg]
+  memberships:
+    - { f: ccrg, from: 1967-01, note: 被张春桥“解放”并结合进市革委会 }
+  fate:
+    - { date: 1958, s: normal, note: 上海市委书记处书记, verify: true }
+    - { date: 1967-01, s: attacked, note: 一月夺权中被揪斗, verify: true }
+    - { date: 1967-02-24, s: power, note: 市革委会副主任, verify: true }
+    - { date: 1976-08, s: power, note: 批准向民兵发枪, cite: ws-1981-01-25-judgment }
+    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
+    - { date: 1988, s: dead, verify: true }
+  cites: [ws-1981-01-25-judgment, ws-1982-xu-jingxian-case, ws-1980-indictment]
+
+- id: zhu-yongjia
+  name: 朱永嘉
+  tier: 3
+  role1966: 复旦大学历史系教师，上海市委写作班成员
+  pinyin: Zhū Yǒngjiā
+  gender: m
+  ethnicity: 汉族
+  party: 中国共产党
+  positions:
+    - { title: 负责人, orgName: 中共上海市委写作组, from: 1971, to: 1976-10, cite: ws-1980-indictment }
+  bio: 复旦大学历史系教师，1960 年代进入上海市委写作班，以“罗思鼎”等笔名写历史评论。1966 年底参与徐景贤从市委内部造反。1970 年代任上海写作组负责人，主持《学习与批判》《朝霞》等刊物，1974 年按江青等人的意图组织批“周公”“宰相”的文章。1976 年 10 月参与上海叛乱的舆论准备，提出“还我江青”等口号。此后被审查判刑，生卒年未查实。
+  life:
+    - h: 复旦与写作班
+      from: 1950
+      to: 1966
+      text: |
+        复旦大学历史系毕业后留校任教，研究明清史。1960 年代被抽调进上海市委写作班，写作班历史组以“罗思鼎”为笔名发表文章。1966 年 12 月，按 1982 年的起诉书，徐景贤“伙同王承龙、朱永嘉等人密谋策划，里应外合”，在市委机关内部造反。
+      verify: true
+      cites: [ws-1982-xu-jingxian-case, macfarquhar-schoenhals]
+    - h: 上海写作组
+      from: 1971
+      to: 1976-09
+      text: |
+        1971 年后负责上海写作组，主办《学习与批判》《朝霞》。1974 年批林批孔中，按 1980 年起诉书，江青、张春桥、姚文元指使迟群、谢静宜、鲁瑛和“上海写作组负责人朱永嘉等利用舆论工具”，批“现代大儒”、批“宰相”、批“周公”，影射周恩来。1976 年春与徐景贤一起指挥写作班子发表“从民主派到走资派”一类文章。
+      cites: [ws-1980-indictment, ws-1982-xu-jingxian-case]
+      verify: true
+    - h: 十月
+      from: 1976-10
+      to: 1976-10
+      text: |
+        1976 年 10 月 8 日夜参加徐景贤、王秀珍的紧急密谋，随后“去写作组为武装叛乱作舆论准备”。10 月 12 日晚与王少庸、陈阿大等开会策划停产罢工、游行示威，与王知常提出“还我江青”“还我春桥”“还我文元”“还我洪文”的口号，要“决一死战”。叛乱未发动，随后被隔离审查，后被判刑。
+      cites: [ws-1982-xu-jingxian-case, ws-1981-01-25-judgment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 江青、张春桥、姚文元指使清华大学党委书记迟群、中共北京市委书记谢静宜、“人民日报”总编辑鲁瑛和上海写作组负责人朱永嘉等利用舆论工具（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 当晚，上海市革命委员会副主任王少庸、上海写作组负责人朱永嘉、上海市革命委员会工交组负责人陈阿大等人开会，策划停产罢工、游行示威（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 朱永嘉去写作组为武装叛乱作舆论准备（1982 年徐景贤案判决）, cite: ws-1982-xu-jingxian-case, quote: true }
+  factions: [ccrg]
+  fate:
+    - { date: 1966-12, s: rise, note: 参与从市委内部造反, cite: ws-1982-xu-jingxian-case }
+    - { date: 1971, s: power, note: 上海写作组负责人, verify: true }
+    - { date: 1974, s: power, note: 组织批“周公”文章, cite: ws-1980-indictment }
+    - { date: 1976-10, s: detained, note: 12 日策划罢工与“还我江青”口号未遂，随后被隔离审查, cite: ws-1981-01-25-judgment }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-xu-jingxian-case]
+
+- id: geng-jinzhang
+  name: 耿金章
+  tier: 3
+  role1966: 上海工人造反派头头，工总司“二兵团”司令
+  pinyin: Gěng Jīnzhāng
+  gender: m
+  ethnicity: 汉族
+  positions:
+    - { title: “北上返沪第二兵团”司令, orgName: 上海工人革命造反总司令部, from: 1966-12, to: 1967-02, verify: true }
+  bio: 上海工人，1966 年 11 月安亭事件后成为工总司中实力最大的“二兵团”头头。12 月 30 日与王洪文一起指挥攻打“工人赤卫队”的康平路事件，九十一人受伤。1967 年初因争夺权力与王洪文分裂，另立组织，后被压服。1980 年的起诉书称他为“打砸抢罪犯”。生卒年与后来经历未查实。
+  life:
+    - h: 二兵团
+      from: 1966-11
+      to: 1967-02
+      text: |
+        1966 年 11 月工总司成立、安亭卧轨后，他带领北上返沪的工人组成“第二兵团”，是工总司中人数最多的一支。12 月 30 日，张春桥从北京打电话说“胜利果实不能被赤卫队夺去，要告诉造反派不能置之不理”，经徐景贤传达，王洪文与他组织群众攻打驻康平路市委机关的“工人赤卫队”，按起诉书“伤残九十一人”。一月夺权后他与王洪文争夺新政权中的位置，双方分裂，二兵团最终被王洪文压服。
+      verify: true
+      cites: [ws-1980-indictment, ws-1982-xu-jingxian-case, macfarquhar-schoenhals]
+  assess:
+    - { voice: judicial1980, text: 王洪文伙同打砸抢罪犯耿金章，组织指挥一些不明真相的群众，攻打“工人赤卫队”，伤残九十一人（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 又紧密配合王洪文、耿金章一伙攻打“工人赤卫队”，制造了“康平路事件”，致使九十一人受伤（1982 年徐景贤案判决）, cite: ws-1982-xu-jingxian-case, quote: true }
+    - { voice: editor, text: 他是上海工人造反派中与王洪文争权失败的一支，说明工总司并非铁板一块；可靠的生平资料很少，此条只写判决书和起诉书提到的部分。 }
+  factions: [rebels]
+  fate:
+    - { date: 1966-11, s: rise, note: 二兵团头头, verify: true }
+    - { date: 1966-12-30, s: power, note: 康平路事件, cite: ws-1980-indictment }
+    - { date: 1967-02, s: sidelined, note: 与王洪文分裂后被压服, verify: true }
+  cites: [ws-1980-indictment, ws-1982-xu-jingxian-case]
+
+- id: wei-wenbo
+  name: 魏文伯
+  born: 1905
+  died: 1987
+  tier: 3
+  role1966: 中共中央华东局第二书记
+  pinyin: Wèi Wénbó
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖北新洲
+  origin: 湖北新洲
+  deathKind: natural
+  party: 中国共产党
+  joinedParty: 1926
+  positions:
+    - { title: 书记处书记, orgName: 中共中央华东局, from: 1961-01, to: 1965-04, verify: true }
+    - { title: 第二书记（主持）, orgName: 中共中央华东局, from: 1965-04, to: 1967, verify: true }
+    - { title: 部长, orgName: 司法部, from: 1979-09, to: 1982-05, verify: true }
+    - { title: 委员, orgName: 中央顾问委员会, from: 1982-09, to: 1987, verify: true }
+  bio: 湖北新洲人，1926 年入党，抗战中在新四军和淮南根据地工作。建国后在华东、上海任司法和党务领导，1961 年华东局重建后任书记处书记，1965 年柯庆施去世后主持华东局。1966 年 3 月参加毛泽东批判“二月提纲”的谈话。1967 年被打倒，徐景贤等称他为“大叛徒”“老反革命”，长期被审查。1979 年恢复司法部后任首任部长，主持重建司法行政，1987 年去世。
+  life:
+    - h: 新四军与淮南
+      from: 1905
+      to: 1949
+      text: |
+        1905 年生于湖北新洲，1926 年大革命中入党，大革命失败后从事秘密工作。抗战中参加新四军，在淮南、皖中根据地任地方党政负责人，解放战争中任华东局有关部门领导。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 华东局
+      from: 1949
+      to: 1966-05
+      text: |
+        建国后任华东军政委员会司法部长、上海市委书记处书记等职。1961 年华东局重建，任书记处书记，协助柯庆施；1965 年柯庆施去世后以第二书记主持华东局。1966 年 3 月 28 日至 30 日，按《五一六通知》附件的大事记，毛泽东“同康生、赵毅敏、魏文伯、江青、张春桥等同志谈了一次话”，批判彭真主持的“二月提纲”。
+      verify: true
+      cites: [ws-1966-05-16-notice-attachment, ccp-org-history]
+    - h: 打倒与审查
+      from: 1967
+      to: 1978
+      text: |
+        1967 年上海一月夺权后华东局瘫痪，他被打倒。按 1982 年的判决书，1967 年至 1975 年徐景贤、王承龙等“多次诬陷中共中央华东局书记处书记魏文伯是‘大叛徒’、‘老反革命’”，1968 年 3 月发表《旧华东局机关有鬼》，华东局一批干部被迫害致死；1973 年 5 月王秀珍等在审查报告中称他是“罪恶累累的叛徒”。1980 年的起诉书把他列入被诬陷迫害的省级以上负责人名单。
+      cites: [ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case, ws-1980-indictment]
+    - h: 重建司法部
+      from: 1979
+      to: 1987
+      text: |
+        1979 年 9 月司法部在撤销二十年后恢复，他任部长，主持恢复律师、公证和法学教育等司法行政工作。1982 年改任中央顾问委员会委员，1987 年去世。
+      verify: true
+      cites: [ccp-org-history]
+  assess:
+    - { voice: official1966, text: 然后又同康生、赵毅敏、魏文伯、江青、张春桥等同志谈了一次话（1966 年《五一六通知》附件）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: judicial1980, text: 徐景贤伙同王承龙等多次诬陷中共中央华东局书记处书记魏文伯是“大叛徒”、“老反革命”（1982 年徐景贤案判决）, cite: ws-1982-xu-jingxian-case, quote: true }
+    - { voice: judicial1980, text: 诬陷中共中央华东局书记魏文伯是“罪恶累累的叛徒”（1982 年王秀珍案起诉书）, cite: ws-1982-08-21-wang-xiuzhen-case, quote: true }
+  factions: [shanghai]
+  fate:
+    - { date: 1926, s: normal, note: 入党, verify: true }
+    - { date: 1961-01, s: normal, note: 华东局书记处书记, verify: true }
+    - { date: 1965-04, s: power, note: 主持华东局, verify: true }
+    - { date: 1966-03-28, s: power, note: 参加毛泽东批“二月提纲”的谈话, cite: ws-1966-05-16-notice-attachment }
+    - { date: 1967, s: purged, note: 被打倒, verify: true }
+    - { date: 1968-03, s: attacked, note: 《旧华东局机关有鬼》, cite: ws-1982-xu-jingxian-case }
+    - { date: 1979-09, s: restored, note: 司法部长, verify: true }
+    - { date: 1987, s: dead, verify: true }
+  cites: [ws-1966-05-16-notice-attachment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case, ws-1980-indictment]
