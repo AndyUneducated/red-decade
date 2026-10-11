@@ -8,6 +8,7 @@ import type { Tenure } from '../data/atlas'
 import { ORG_KINDS, ORG_LEVELS, type Org, type OrgKind, type OrgLink, type Person } from '../data/schema'
 import { fmtDate, fmtRange, fmtT, toT } from '../lib/dates'
 import { existsAt, isHead, KIND_ORDER, LEVEL_ORDER, parentAt, placeAt, segments, suspendedAt, within } from '../lib/orgs'
+import { CONTROL_FROM, CONTROL_TO, controlAt, controlRuns, type Run } from '../lib/control'
 import { heldAt } from '../lib/positions'
 import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
@@ -87,14 +88,18 @@ function tree(list: Org[], t: number) {
   }).filter((g) => g.rows.length)
 }
 
-function OrgBar({ o, x, width, t, height = 10 }: { o: Org; x: ScaleLinear<number, number>; width: number; t: number; height?: number }) {
+function OrgBar({ o, x, width, t, height = 10, runs }: { o: Org; x: ScaleLinear<number, number>; width: number; t: number; height?: number; runs?: Run[] }) {
+  const { ix } = useApp()
   const [lo, hi] = x.domain()
   const a = o.from ? toT(o.from) : lo
   const b = o.to ? toT(o.to, true) : hi
-  const c = orgColor(o.kind)
+  const c = runs ? 'var(--muted)' : orgColor(o.kind)
   return (
     <svg width={width} height={height} style={{ display: 'block', overflow: 'visible' }}>
-      <rect x={x(a)} width={Math.max(2, x(b) - x(a))} height={height} rx={2} fill={c} fillOpacity={0.8} />
+      <rect x={x(a)} width={Math.max(2, x(b) - x(a))} height={height} rx={2} fill={c} fillOpacity={runs ? 0.22 : 0.8} />
+      {runs?.map((r, i) => (
+        <rect key={i} x={x(r.a)} width={Math.max(1, x(r.b) - x(r.a))} height={height} fill={ix.faction.get(r.f)?.color} fillOpacity={r.by ? 0.9 : 0.55} />
+      ))}
       {!o.from && <rect x={x(lo)} width={Math.min(14, x(b) - x(lo))} height={height} fill="url(#org-fade)" />}
       {o.suspended.map((s, i) => {
         const sa = Math.max(a, toT(s.from))
@@ -113,6 +118,8 @@ function Directory() {
   const [kind, setKind] = useState<OrgKind | 'all'>('all')
   const [now, setNow] = useState(true)
   const [q, setQ] = useState('')
+  const [byFaction, setByFaction] = useState(false)
+  const [fac, setFac] = useState<string>()
 
   const narrow = width > 0 && width < 760
   const nameW = narrow ? 190 : 320
@@ -120,11 +127,19 @@ function Directory() {
   const stripW = Math.max(160, width - nameW - countW - 84)
   const x = useMemo(() => d3.scaleLinear().domain([T0, T1]).range([0, stripW]).clamp(true), [stripW])
 
+  const control = useMemo(() => (byFaction ? new Map(ix.orgs.map((o) => [o.id, controlAt(ix, o, t)])) : undefined), [ix, t, byFaction])
+  const heldBy = control && d3.rollup([...control.values()].filter((c) => !!c), (v) => v.length, (c) => c!.f)
+  const facOn = byFaction && fac && heldBy?.has(fac) ? fac : undefined
   const list = ix.orgs.filter(
-    (o) => (kind === 'all' || o.kind === kind) && (!now || existsAt(o, t)) && (!q || [o.name, o.short ?? '', ...o.aliases].some((s) => s.includes(q))),
+    (o) =>
+      (kind === 'all' || o.kind === kind) &&
+      (!now || existsAt(o, t)) &&
+      (!q || [o.name, o.short ?? '', ...o.aliases].some((s) => s.includes(q))) &&
+      (!facOn || control!.get(o.id)?.f === facOn),
   )
   const groups = tree(list, t)
   const alive = ix.orgs.filter((o) => existsAt(o, t)).length
+  const inWindow = t >= CONTROL_FROM && t < CONTROL_TO
 
   return (
     <div className="view">
@@ -150,9 +165,36 @@ function Directory() {
               {ORG_KINDS[k]}
             </button>
           ))}
+          <button className="chip" aria-pressed={byFaction} onClick={() => setByFaction((v) => !v)} title="色条改为按负责人所属派系着色">
+            按派系着色
+          </button>
         </div>
       </div>
       <Scrubber min={T0} max={T1} marks={LONG_MARKS} />
+      {byFaction && (
+        <div className="control-bar">
+          {inWindow ? (
+            <>
+              <span className="muted-note">{fmtT(t, 'month')}掌握的机构：</span>
+              {ix.factions
+                .filter((f) => heldBy!.has(f.id))
+                .map((f) => (
+                  <button key={f.id} className="chip" aria-pressed={facOn === f.id} onClick={() => setFac(facOn === f.id ? undefined : f.id)}>
+                    <i style={{ background: f.color }} />
+                    {f.name} <b>{heldBy!.get(f.id)}</b>
+                  </button>
+                ))}
+              <span className="muted-note">
+                以此刻负责人的派系计（同时有几位负责人时取最后上任者，如主持日常工作的副主席）；没有负责人记录的机构（多为群众组织），取机构本身的派系标注，色浅；负责人不属于任何派系的不计。派系只按 1965–1966 年的格局划分，因此只计算 {Math.floor(CONTROL_FROM)}–{Math.floor(CONTROL_TO)} 年。
+              </span>
+            </>
+          ) : (
+            <span className="muted-note">
+              派系只按 1965–1966 年的格局划分，掌控只计算 {Math.floor(CONTROL_FROM)} 年庐山会议后至 {Math.floor(CONTROL_TO)} 年历史决议；把时间轴移到这段时间内。
+            </span>
+          )}
+        </div>
+      )}
       <div className="canvas people-list" ref={wrap}>
         <svg width={0} height={0} style={{ position: 'absolute' }} aria-hidden>
           <defs>
@@ -183,6 +225,7 @@ function Directory() {
               const sus = suspendedAt(o, t)
               const off = !existsAt(o, t)
               const head = o.leaders.filter((l) => within(l, t)).pop()
+              const c = control?.get(o.id)
               return (
                 <button
                   key={o.id}
@@ -201,9 +244,10 @@ function Directory() {
                     </small>
                   </span>
                   <span className="strip">
-                    <OrgBar o={o} x={x} width={stripW} t={t} />
+                    <OrgBar o={o} x={x} width={stripW} t={t} runs={byFaction ? controlRuns(ix, o) : undefined} />
                   </span>
                   <span className="cnt" title={head ? `${head.name} · ${head.title}` : tenures.length ? `库中此刻在任 ${held} / 共 ${tenures.length}` : undefined}>
+                    {c && <i className="status-dot" style={{ background: ix.faction.get(c.f)?.color }} title={ix.faction.get(c.f)?.name} />}
                     {head ? <span data-person={head.person ? '' : undefined}>{head.name}</span> : tenures.length ? `${held} / ${tenures.length}` : ''}
                   </span>
                 </button>

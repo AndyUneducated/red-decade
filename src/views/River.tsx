@@ -2,8 +2,10 @@ import * as d3 from 'd3'
 import { useMemo, useRef, useState } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
 import { factionAt, statusAt } from '../data/atlas'
-import { STATUSES, type Faction, type Person, type Status } from '../data/schema'
+import { ORG_LEVELS, STATUSES, type Faction, type Org, type Person, type Status } from '../data/schema'
+import { controlRuns, type Run } from '../lib/control'
 import { fmtDate, fmtT, toT } from '../lib/dates'
+import { LEVEL_ORDER } from '../lib/orgs'
 import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
 
@@ -14,6 +16,10 @@ const UNIT = 5.5
 const LANE_MIN = 26
 const MARK_H = 14
 const GAP = 10
+const CTRL_H = 110
+const CTRL_HEAD = 22
+const CTRL_ROW = 14
+const CTRL_FOLD = 12
 const ORDER: Status[] = ['power', 'rise', 'restored', 'normal', 'sidelined', 'attacked', 'purged', 'detained', 'dead']
 const STANDING = new Set<Status>(['power', 'rise', 'restored', 'normal'])
 const FALL = new Set<Status>(['attacked', 'purged', 'detained', 'dead'])
@@ -136,7 +142,57 @@ export function River() {
     [lanes, months, x, T0, T1],
   )
 
-  const height = lanes.bottom + 10
+  const [open, setOpen] = useState<Set<string>>(new Set())
+  const control = useMemo(() => {
+    const keys = ix.factions.map((f) => f.id)
+    const all = ix.orgs.map((o) => ({ o, runs: controlRuns(ix, o).filter((r) => r.b > T0 && r.a < T1) })).filter((x) => x.runs.length)
+    const data = months.map((tt) => {
+      const r: Record<string, number> = { t: tt }
+      for (const k of keys) r[k] = 0
+      for (const { runs } of all) {
+        const hit = runs.find((u) => u.a <= tt && tt < u.b)
+        if (hit) r[hit.f]++
+      }
+      return r
+    })
+    const series = d3.stack<Record<string, number>>().keys(keys)(data)
+    const top0 = lanes.bottom + 34
+    const y = d3
+      .scaleLinear()
+      .domain([0, d3.max(series, (s) => d3.max(s, (d) => d[1]))! || 1])
+      .range([top0 + CTRL_H, top0])
+      .nice()
+    const area = d3
+      .area<d3.SeriesPoint<Record<string, number>>>()
+      .x((d) => x(d.data.t))
+      .y0((d) => y(d[0]))
+      .y1((d) => y(d[1]))
+      .curve(d3.curveStepAfter)
+    const shapes = series.map((s) => ({ f: ix.faction.get(s.key)!, d: area(s) ?? '', at: (tt: number) => s[Math.max(0, Math.min(s.length - 1, Math.round((tt - T0) * 12)))] }))
+
+    let top = top0 + CTRL_H + 30
+    const groups: { f: Faction; top: number; rows: { o: Org; runs: Run[]; top: number }[]; hidden: number }[] = []
+    for (const f of ix.factions) {
+      const orgs = all
+        .map(({ o, runs }) => ({ o, runs: runs.filter((r) => r.f === f.id) }))
+        .filter((x) => x.runs.length)
+        .sort((u, v) => u.runs[0].a - v.runs[0].a || LEVEL_ORDER.indexOf(u.o.level) - LEVEL_ORDER.indexOf(v.o.level))
+      if (!orgs.length) continue
+      const shown = open.has(f.id) ? orgs : orgs.slice(0, CTRL_FOLD)
+      const g = { f, top, rows: [] as { o: Org; runs: Run[]; top: number }[], hidden: orgs.length - shown.length }
+      top += CTRL_HEAD
+      for (const r of shown) {
+        g.rows.push({ ...r, top })
+        top += CTRL_ROW
+      }
+      if (orgs.length > CTRL_FOLD) top += CTRL_ROW
+      groups.push(g)
+      top += GAP
+    }
+    return { y, top0, shapes, groups, bottom: top, total: all.length }
+  }, [ix, months, x, T0, T1, lanes.bottom, open])
+
+  const height = control.bottom + 10
   const tip_ = (e: React.MouseEvent, content: React.ReactNode) => {
     const rect = wrap.current!.getBoundingClientRect()
     setTip({ x: e.clientX - rect.left, y: e.clientY - rect.top + wrap.current!.scrollTop, content })
@@ -174,7 +230,7 @@ export function River() {
       <div className="viewhead">
         <div>
           <h1>派系河流</h1>
-          <p>上方河流的宽度是每个派系仍“在位”（未受批判、靠边、打倒、关押或死亡）的人数，按每人的第一归属计。下方每条带子是一个派系全体成员的状态构成；带子下方的点是成员遭难的时刻。</p>
+          <p>上方河流的宽度是每个派系仍“在位”（未受批判、靠边、打倒、关押或死亡）的人数，按每人的第一归属计。下方每条带子是一个派系全体成员的状态构成；带子下方的点是成员遭难的时刻。最下方是各派系掌控的机构：按此刻负责人的派系计，色浅的是没有负责人记录、按机构本身的派系标注计的（多为群众组织）。</p>
         </div>
         <div className="spacer" />
         <div className="legend">
@@ -334,6 +390,121 @@ export function River() {
               </g>
             )
           })}
+
+          <g>
+            <line x1={0} x2={LABEL_W + plotW + 8} y1={control.top0 - 30} y2={control.top0 - 30} stroke="var(--rule-2)" />
+            <text x={16} y={control.top0 - 10} fontSize={13} fontWeight={600} fill="var(--ink)">
+              派系掌控的机构
+            </text>
+            <text x={16} y={control.top0 + 12} fontSize={10.5} fill="var(--muted)">
+              {control.total} 个机构 · 按负责人派系
+            </text>
+            {control.y.ticks(3).map((v) => (
+              <text key={v} x={LABEL_W + plotW + 4} y={control.y(v) + 3} fontSize={9.5} fill="var(--muted)">
+                {v}
+              </text>
+            ))}
+            {control.shapes.map((s) => {
+              const dim = selFaction && selFaction !== s.f.id
+              return (
+                <path
+                  key={s.f.id}
+                  d={s.d}
+                  fill={s.f.color}
+                  fillOpacity={dim ? 0.2 : 0.8}
+                  stroke="var(--paper)"
+                  strokeWidth={0.4}
+                  style={{ cursor: 'pointer' }}
+                  onClick={(e) => {
+                    setT(tAt(e))
+                    select({ type: 'faction', id: s.f.id })
+                  }}
+                  onMouseMove={(e) => {
+                    const tt = tAt(e)
+                    const d = s.at(tt)
+                    tip_(
+                      e,
+                      <>
+                        <b>{s.f.name}</b>
+                        <small>
+                          {fmtT(tt, 'month')} · 掌握 {Math.round(d[1] - d[0])} 个机构
+                        </small>
+                      </>,
+                    )
+                  }}
+                />
+              )
+            })}
+            {control.groups.map((g) => (
+              <g key={g.f.id}>
+                <g style={{ cursor: 'pointer' }} onClick={() => select({ type: 'faction', id: g.f.id })}>
+                  <rect x={8} y={g.top + 4} width={4} height={12} fill={g.f.color} rx={1} />
+                  <text x={18} y={g.top + 14} fontSize={12} fontWeight={600} fill="var(--ink)">
+                    {g.f.name}
+                    <tspan fontSize={10.5} fontWeight={400} fill="var(--muted)" dx={6}>
+                      {g.rows.length + g.hidden} 个机构
+                    </tspan>
+                  </text>
+                </g>
+                <line x1={LABEL_W} x2={LABEL_W + plotW} y1={g.top + CTRL_HEAD - 3} y2={g.top + CTRL_HEAD - 3} stroke="var(--rule)" />
+                {g.rows.map((r) => {
+                  const on = sel?.type === 'org' && sel.id === r.o.id
+                  const name = r.o.short ?? r.o.name
+                  return (
+                    <g key={r.o.id} style={{ cursor: 'pointer' }} onClick={() => select({ type: 'org', id: r.o.id })}>
+                      <rect x={0} y={r.top} width={LABEL_W + plotW + 8} height={CTRL_ROW} fill={on ? 'var(--accent-soft)' : 'transparent'} />
+                      <text x={18} y={r.top + 10.5} fontSize={11} fill={on ? 'var(--accent)' : 'var(--ink-2)'}>
+                        {name.length > 11 ? `${name.slice(0, 10)}…` : name}
+                      </text>
+                      {r.runs.map((u, i) => (
+                        <rect
+                          key={i}
+                          x={x(Math.max(T0, u.a))}
+                          y={r.top + 2.5}
+                          width={Math.max(1.5, x(Math.min(T1, u.b)) - x(Math.max(T0, u.a)))}
+                          height={CTRL_ROW - 5}
+                          rx={1.5}
+                          fill={g.f.color}
+                          fillOpacity={u.by ? 0.9 : 0.45}
+                          onMouseMove={(e) =>
+                            tip_(
+                              e,
+                              <>
+                                <b>{r.o.name}</b>
+                                <small>
+                                  {ORG_LEVELS[r.o.level]} · {fmtT(u.a, 'month')}–{fmtT(u.b - 1 / 12, 'month')}
+                                </small>
+                                <div style={{ marginTop: 4 }}>{u.by ? `${u.by} · ${u.title}` : '没有负责人记录；按机构本身的派系标注'}</div>
+                              </>,
+                            )
+                          }
+                        />
+                      ))}
+                    </g>
+                  )
+                })}
+                {(g.hidden > 0 || open.has(g.f.id)) && (
+                  <text
+                    x={18}
+                    y={g.top + CTRL_HEAD + g.rows.length * CTRL_ROW + 10.5}
+                    fontSize={10.5}
+                    fill="var(--accent)"
+                    style={{ cursor: 'pointer' }}
+                    onClick={() =>
+                      setOpen((s) => {
+                        const n = new Set(s)
+                        if (n.has(g.f.id)) n.delete(g.f.id)
+                        else n.add(g.f.id)
+                        return n
+                      })
+                    }
+                  >
+                    {g.hidden > 0 ? `展开其余 ${g.hidden} 个 ▾` : '收起 ▴'}
+                  </text>
+                )}
+              </g>
+            ))}
+          </g>
 
           {ix.events
             .filter((ev) => ev.weight === 3 && toT(ev.date) >= T0 && toT(ev.date) <= T1)
