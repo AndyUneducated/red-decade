@@ -78,7 +78,7 @@ export function PersonFacts({ p }: { p: Person }) {
 
 // Positions in date order; the ones held at time t are marked.
 export function PositionList({ p, t }: { p: Person; t: number }) {
-  const { ix, openOrg } = useApp()
+  const { ix, select } = useApp()
   if (!p.positions.length) return null
   const held = (x: Person['positions'][number]) => heldAt(x, t)
   const list = [...p.positions].sort((a, b) => (a.from ?? '').localeCompare(b.from ?? ''))
@@ -91,8 +91,8 @@ export function PositionList({ p, t }: { p: Person; t: number }) {
             {x.orgName && !x.title.includes(x.orgName) ? `${x.orgName} ${x.title}` : x.title}
           </span>
           {x.org && ix.org.get(x.org) && (
-            <button className="linklike orglink posorg" title={`机构页：${ix.org.get(x.org)!.name}`} onClick={() => openOrg(x.org)}>
-              {ix.org.get(x.org)!.short ?? ix.org.get(x.org)!.name} →
+            <button className="linklike orglink posorg" title={ix.org.get(x.org)!.name} onClick={() => select({ type: 'org', id: x.org! })}>
+              {ix.org.get(x.org)!.short ?? ix.org.get(x.org)!.name}
             </button>
           )}
           {x.note && <span style={{ color: 'var(--ink-2)' }}> · {x.note}</span>} <Cite cite={x.cite} />

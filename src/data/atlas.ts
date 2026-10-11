@@ -6,7 +6,9 @@ export type Tenure = { person: Person; pos: Position }
 export type OrgEdge = { org: Org; from?: string; to?: string }
 export type OrgLinkIn = { org: Org; link: Org['links'][number] }
 
-export type EntityType = 'person' | 'event' | 'concept' | 'doc' | 'faction' | 'claim'
+// Drawer vs. full page (see research/progress.md, “抽屉与全屏的界限”): person, org and doc also have a
+// full page; the drawer card for them is a preview that links to it.
+export type EntityType = 'person' | 'event' | 'concept' | 'doc' | 'faction' | 'claim' | 'org'
 // sub narrows a selection, e.g. a concept within one source document
 export type Ref = { type: EntityType; id: string; sub?: string }
 
@@ -135,5 +137,7 @@ export function label(ix: Index, ref: Ref): string {
       return ix.faction.get(ref.id)?.name ?? ref.id
     case 'claim':
       return ref.id
+    case 'org':
+      return ix.org.get(ref.id)?.short ?? ix.org.get(ref.id)?.name ?? ref.id
   }
 }

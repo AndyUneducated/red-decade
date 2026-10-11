@@ -36,7 +36,7 @@ export function PersonChip({ id }: { id: string }) {
 }
 
 export function Cite({ cite }: { cite?: string }) {
-  const { ix, openDoc } = useApp()
+  const { ix, select } = useApp()
   if (!cite) return null
   const [id, loc] = cite.split('@')
   const s = ix.source.get(id)
@@ -49,8 +49,7 @@ export function Cite({ cite }: { cite?: string }) {
       title={`${s.title}（${fmtDate(s.date)}）${loc ? ` · ${loc}` : ''}`}
       onClick={(e) => {
         e.stopPropagation()
-        if (s.hasText) openDoc(id)
-        else if (s.url) window.open(s.url, '_blank')
+        select({ type: 'doc', id, sub: loc })
       }}
     >
       ¶ {short}

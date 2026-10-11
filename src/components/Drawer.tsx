@@ -1,23 +1,52 @@
-import { relationActive, statusAt } from '../data/atlas'
-import { LANES, RELATION_TYPES, STATUSES, type Person } from '../data/schema'
-import { fmtDate, fmtRange, lifespan, toT } from '../lib/dates'
+import { useEffect, useRef, useState } from 'react'
+import { label, relationActive, statusAt, type Ref } from '../data/atlas'
+import { LANES, ORG_KINDS, ORG_LEVELS, RELATION_TYPES, SOURCE_KINDS, STATUSES, type Person } from '../data/schema'
+import { fmtDate, fmtRange, fmtT, lifespan, toT } from '../lib/dates'
+import { existsAt, isHead, parentAt, suspendedAt, within } from '../lib/orgs'
 import { useApp } from '../state'
 import { Cite, Entity, PersonChip, StatusDot, Verify, Voices } from './bits'
 import { PersonFacts, PositionList } from './PersonFacts'
 
+const same = (a: Ref, b: Ref) => a.type === b.type && a.id === b.id && a.sub === b.sub
+
 export function Drawer() {
   const { ix, sel, select } = useApp()
+  // cards opened from inside the drawer stack up, so a citation followed from a person can lead back
+  const [stack, setStack] = useState<Ref[]>([])
+  const prev = useRef<Ref>(undefined)
+  const backing = useRef(false)
+  useEffect(() => {
+    const p = prev.current
+    prev.current = sel
+    if (!sel) setStack([])
+    else if (backing.current) backing.current = false
+    else if (p && !same(p, sel)) setStack((s) => [...s.slice(-9), p])
+  }, [sel])
   if (!sel) return null
+  const back = stack[stack.length - 1]
   return (
     <aside className="drawer" aria-label="详情">
-      <button className="close" onClick={() => select(undefined)} aria-label="关闭">
+      <button className="close" onClick={() => select(undefined)} aria-label="关闭" title="关闭（Esc）">
         ×
       </button>
+      {back && (
+        <button
+          className="drawer-back"
+          onClick={() => {
+            backing.current = true
+            setStack((s) => s.slice(0, -1))
+            select(back, true)
+          }}
+        >
+          ← {label(ix, back)}
+        </button>
+      )}
       {sel.type === 'person' && <PersonCard id={sel.id} />}
       {sel.type === 'event' && <EventCard id={sel.id} />}
       {sel.type === 'concept' && <ConceptCard id={sel.id} doc={sel.sub} />}
       {sel.type === 'faction' && <FactionCard id={sel.id} />}
-      {sel.type === 'doc' && <DocCard id={sel.id} />}
+      {sel.type === 'doc' && <DocCard id={sel.id} loc={sel.sub} />}
+      {sel.type === 'org' && <OrgCard id={sel.id} />}
       {sel.type === 'claim' && ix.claim.get(sel.id) && <ClaimCard id={sel.id} />}
     </aside>
   )
@@ -295,7 +324,7 @@ function ConceptCard({ id, doc }: { id: string; doc?: string }) {
 }
 
 function FactionCard({ id }: { id: string }) {
-  const { ix, t, openOrg } = useApp()
+  const { ix, t } = useApp()
   const f = ix.faction.get(id)
   if (!f) return null
   const members = ix.people.filter((p) => p.factions.includes(id))
@@ -323,9 +352,7 @@ function FactionCard({ id }: { id: string }) {
           <h3>相关机构</h3>
           <div className="chips">
             {orgs.map((o) => (
-              <button key={o.id} className="chip" title={o.name} onClick={() => openOrg(o.id)}>
-                {o.short ?? o.name} →
-              </button>
+              <Entity key={o.id} refTo={{ type: 'org', id: o.id }} dot={`var(--org-${o.kind})`} />
             ))}
           </div>
         </section>
@@ -345,28 +372,118 @@ function FactionCard({ id }: { id: string }) {
   )
 }
 
-function DocCard({ id }: { id: string }) {
+const TIER_LABEL: Record<number, string> = { 1: '一手文献', 2: '官方整理', 3: '亲历者', 4: '研究与资料库' }
+const ACCESS = { unread: '未读', partial: '读了一部分', read: '已读' }
+
+// Preview of a source: bibliographic facts, the summary, and the opening of the text; the full text
+// is a page of its own (文献 view).
+function DocCard({ id, loc }: { id: string; loc?: string }) {
   const { ix, openDoc } = useApp()
   const s = ix.source.get(id)
   const d = ix.doc.get(id)
+  const [head, setHead] = useState<string>()
+  useEffect(() => {
+    setHead(undefined)
+    if (!s?.hasText) return
+    let live = true
+    fetch(`${import.meta.env.BASE_URL}data/texts/${id}.txt`)
+      .then((r) => (r.ok ? r.text() : ''))
+      .then((t) => live && setHead(t.replace(/\s+/g, ' ').trim().slice(0, 200) || undefined))
+    return () => {
+      live = false
+    }
+  }, [id, s?.hasText])
   if (!s) return null
   return (
     <>
       <header>
-        <div className="kicker">原始文献</div>
+        <div className="kicker">
+          {TIER_LABEL[s.tier] ?? '文献'} · {SOURCE_KINDS[s.kind as keyof typeof SOURCE_KINDS] ?? s.kind}
+        </div>
         <h2>{s.alias ? `《${s.alias}》` : s.title}</h2>
+        <div className="meta">{[fmtDate(s.date), s.author, s.publisher, loc && `引用位置 ${loc}`].filter(Boolean).join(' · ')}</div>
+      </header>
+      <section>
+        {s.alias && <p className="sub-note">{s.title}</p>}
+        {d && <p>{d.summary}</p>}
+        {head && <p className="excerpt-head">{head}……</p>}
+        {s.note && <p className="sub-note">{s.note}</p>}
+        <div className="chips">
+          {s.hasText && (
+            <button className="chip" onClick={() => openDoc(id)}>
+              打开全文 →
+            </button>
+          )}
+          {s.url && (
+            <a className="chip" href={s.url} target="_blank" rel="noreferrer">
+              来源网页 ↗
+            </a>
+          )}
+        </div>
+        {!s.hasText && <p className="sub-note">本站未收全文{s.access ? `（阅读状态：${ACCESS[s.access]}）` : ''}。</p>}
+      </section>
+    </>
+  )
+}
+
+function OrgCard({ id }: { id: string }) {
+  const { ix, t, openOrg } = useApp()
+  const o = ix.org.get(id)
+  if (!o) return null
+  const leaders = o.leaders.filter((l) => within(l, t))
+  const held = (ix.tenuresByOrg.get(id) ?? []).filter((x) => within(x.pos, t) && isHead(x.pos.title, o))
+  const parent = parentAt(o, t)
+  const state = !existsAt(o, t) ? (o.from && t < toT(o.from) ? '尚未成立' : '已撤销或改组') : suspendedAt(o, t) ? '停止活动' : '存在'
+  return (
+    <>
+      <header>
+        <div className="kicker">
+          机构 · {ORG_KINDS[o.kind]} · {ORG_LEVELS[o.level]}
+        </div>
+        <h2>
+          {o.name} {o.verify && <Verify />}
+        </h2>
         <div className="meta">
-          {fmtDate(s.date)} · {s.author}
+          {[o.from && o.to ? fmtRange(o.from, o.to) : o.from ? `${fmtDate(o.from)}起` : '', `${fmtT(t, 'month')}${state}`].filter(Boolean).join(' · ')}
+          {' · '}
+          <button className="linklike" onClick={() => openOrg(id)}>
+            机构页 →
+          </button>
         </div>
       </header>
       <section>
-        {d && <p>{d.summary}</p>}
-        {s.hasText && (
-          <button className="chip" onClick={() => openDoc(id)}>
-            打开全文 →
-          </button>
-        )}
+        <p>{o.summary}</p>
+        <div className="chips">
+          {o.cites.map((c) => (
+            <Cite key={c} cite={c} />
+          ))}
+        </div>
       </section>
+      {(leaders.length > 0 || held.length > 0) && (
+        <section>
+          <h3>此刻负责人</h3>
+          <ul className="minilist">
+            {leaders.map((l, i) => (
+              <li key={`l${i}`}>
+                {l.person ? <PersonChip id={l.person} /> : <b style={{ fontWeight: 500 }}>{l.name}</b>} <span style={{ color: 'var(--ink-2)' }}>{l.title}</span>
+              </li>
+            ))}
+            {held
+              .filter((x) => !leaders.some((l) => l.person === x.person.id))
+              .map((x, i) => (
+                <li key={`h${i}`}>
+                  <PersonChip id={x.person.id} /> <span style={{ color: 'var(--ink-2)' }}>{x.pos.title}</span>
+                </li>
+              ))}
+          </ul>
+        </section>
+      )}
+      {parent && (
+        <section>
+          <h3>上级</h3>
+          <Entity refTo={{ type: 'org', id: parent }} />
+        </section>
+      )}
     </>
   )
 }

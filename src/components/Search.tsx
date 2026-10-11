@@ -3,13 +3,12 @@ import type { Ref } from '../data/atlas'
 import { fmtDate, toT } from '../lib/dates'
 import { useApp } from '../state'
 
-// orgs open their own page instead of the drawer, so they carry org rather than a drawer ref
-type Item = { ref: Ref; type: string; title: string; sub: string; hay: string; date?: string; org?: string }
+type Item = { ref: Ref; type: string; title: string; sub: string; hay: string; date?: string }
 
 const TYPE_LABEL = { person: '人物', event: '事件', concept: '概念', doc: '文献', faction: '派系', claim: '结论', org: '机构' }
 
 export function Search({ onClose }: { onClose: () => void }) {
-  const { ix, select, setT, openDoc, openOrg } = useApp()
+  const { ix, select, setT } = useApp()
   const [q, setQ] = useState('')
   const [cursor, setCursor] = useState(0)
   const input = useRef<HTMLInputElement>(null)
@@ -56,8 +55,7 @@ export function Search({ onClose }: { onClose: () => void }) {
         hay: [f.name, f.summary].join(' '),
       })),
       ...ix.orgs.map((o) => ({
-        ref: { type: 'faction' as const, id: `org:${o.id}` },
-        org: o.id,
+        ref: { type: 'org' as const, id: o.id },
         type: TYPE_LABEL.org,
         title: o.name,
         sub: o.short ?? '',
@@ -90,9 +88,7 @@ export function Search({ onClose }: { onClose: () => void }) {
   }, [q, items])
 
   const choose = (item: Item) => {
-    if (item.org) openOrg(item.org)
-    else if (item.ref.type === 'doc') openDoc(item.ref.id)
-    else select(item.ref)
+    select(item.ref, true)
     if (item.date) setT(toT(item.date))
     onClose()
   }

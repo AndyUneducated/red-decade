@@ -123,6 +123,9 @@ for (const p of people) {
 }
 if (existsSync(join(ROOT, '.probe'))) writeFileSync(join(ROOT, '.probe', 'org-links.txt'), orgReport.join('\n'))
 
+// leaders lists name people by their usual name; those in the atlas get linked
+const personByName = new Map(people.map((p) => [p.name, p.id]))
+
 // ── referential integrity ────────────────────────────────
 const ids = {
   person: new Set(people.map((p) => p.id)),
@@ -224,6 +227,17 @@ for (const o of orgs) {
   o.factions.forEach((f) => need(ids.faction, f, where))
   o.cites.forEach((c) => needCite(c, where))
   if (!o.cites.length && !o.verify) errors.push(`${where}: no cites and not marked verify`)
+  for (const l of o.leaders) {
+    l.person ??= personByName.get(l.name)
+    if (l.person) need(ids.person, l.person, `${where} leader ${l.name}`)
+    needCite(l.cite, `${where} leader ${l.name}`)
+    span(l, `leader ${l.name}`)
+    if (!l.cite && !l.verify && !o.cites.length) errors.push(`${where} leader ${l.name}: no cite and not marked verify`)
+  }
+  for (let i = 1; i < o.leaders.length; i++) {
+    const a = o.leaders[i - 1].from, b = o.leaders[i].from
+    if (a && b && after(a, b)) errors.push(`${where}: leaders out of order at ${o.leaders[i].name}`)
+  }
 }
 for (const e of events) {
   e.people.forEach((id) => need(ids.person, id, `event ${e.id}`))

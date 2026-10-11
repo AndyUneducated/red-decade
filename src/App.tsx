@@ -62,6 +62,22 @@ export default function App() {
     return () => removeEventListener('keydown', onKey)
   }, [sel, searching, select])
 
+  // A click on blank space closes the drawer. Anything interactive (buttons, links, fields, or SVG marks
+  // drawn with a pointer cursor) is left to its own handler, as is a click that ends a text selection.
+  useEffect(() => {
+    if (!sel) return
+    const onClick = (e: MouseEvent) => {
+      const el = e.target as Element
+      if (!el.isConnected || searching) return
+      if (el.closest('.drawer, .palette, .topbar, button, a, input, select, textarea, label, [role="button"]')) return
+      if (getComputedStyle(el).cursor === 'pointer') return
+      if (getSelection()?.toString()) return
+      select(undefined)
+    }
+    document.addEventListener('click', onClick)
+    return () => document.removeEventListener('click', onClick)
+  }, [sel, searching, select])
+
   const Current = COMPONENTS[view]
   return (
     <div className="shell">

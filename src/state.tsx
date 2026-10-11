@@ -47,7 +47,9 @@ function toHash(s: State): string {
 type Ctx = State & {
   ix: Index
   go: (view: View, doc?: string) => void
-  select: (ref?: Ref) => void
+  // selecting what the drawer already shows closes it, so a second click on a link works as a toggle;
+  // force keeps it open (search results, programmatic jumps)
+  select: (ref?: Ref, force?: boolean) => void
   setT: (t: number) => void
   openDoc: (id: string) => void
   // full profile page (#/people/<id>); the drawer closes so the same person is not shown twice
@@ -80,7 +82,10 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
       ...state,
       ix,
       go: (view, doc) => update({ view, doc }),
-      select: (sel) => update({ sel }),
+      select: (sel, force) =>
+        update({
+          sel: !force && sel && state.sel && sel.type === state.sel.type && sel.id === state.sel.id && sel.sub === state.sel.sub ? undefined : sel,
+        }),
       setT: (t) => update({ t }, false),
       openDoc: (id) => update({ view: 'docs', doc: id }),
       openPerson: (id) => update({ view: 'people', doc: id, sel: undefined }),

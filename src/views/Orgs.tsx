@@ -362,7 +362,7 @@ function OrgTimeline({ o, x, width }: { o: Org; x: ScaleLinear<number, number>; 
 }
 
 function TenureBands({ list, x, width, end }: { list: Tenure[]; x: ScaleLinear<number, number>; width: number; end: number }) {
-  const { ix, t, openPerson } = useApp()
+  const { ix, t, select } = useApp()
   const [lo, hi] = x.domain()
   return (
     <div className="tenures">
@@ -373,7 +373,7 @@ function TenureBands({ list, x, width, end }: { list: Tenure[]; x: ScaleLinear<n
         const c = ix.primaryFaction(person)?.color ?? 'var(--muted)'
         return (
           <div key={i} className="tenure" data-on={on || undefined}>
-            <button className="linklike" onClick={() => openPerson(person.id)}>
+            <button className="linklike" onClick={() => select({ type: 'person', id: person.id })}>
               {person.name}
             </button>
             <span className="tt" title={pos.title}>

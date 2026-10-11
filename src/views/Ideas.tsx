@@ -11,7 +11,7 @@ export const shortTitle = (s: { title: string; alias?: string }) =>
   (s.alias ?? s.title.replace(/[（(][^)）]*[)）]/g, '').replace(/^《|》$/g, '')).trim()
 
 export function Ideas() {
-  const { ix, sel, select, openDoc } = useApp()
+  const { ix, sel, select } = useApp()
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
   const [hoverCol, setHoverCol] = useState<string | null>(null)
@@ -71,7 +71,7 @@ export function Ideas() {
                     fill={d.id === pickedDoc ? 'var(--focus)' : 'var(--ink)'}
                     fontWeight={d.id === pickedDoc ? 600 : 400}
                     style={{ cursor: 'pointer' }}
-                    onClick={() => openDoc(d.id)}
+                    onClick={() => select({ type: 'doc', id: d.id })}
                     onMouseEnter={() => setHoverCol(d.id)}
                     onMouseLeave={() => setHoverCol(null)}
                   >

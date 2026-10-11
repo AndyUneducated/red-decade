@@ -140,6 +140,22 @@ export const OrgSchema = z.object({
     )
     .default([]),
   factions: z.array(z.string()).default([]),
+  // Succession of heads, including people not in people.yaml (shown without a link). person is filled
+  // by build-data when name matches a person in the atlas. title is the head's exact title (第一书记、主任…).
+  leaders: z
+    .array(
+      z.object({
+        name: z.string(),
+        person: z.string().optional(),
+        title: z.string(),
+        ...Span,
+        acting: z.boolean().optional(),
+        note: z.string().optional(),
+        cite: Cite.optional(),
+        verify: z.boolean().optional(),
+      }),
+    )
+    .default([]),
   summary: z.string(),
   cites: z.array(Cite).default([]),
   verify: z.boolean().optional(),

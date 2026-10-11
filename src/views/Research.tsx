@@ -8,7 +8,7 @@ const TIERS = ['', '原文', '官方', '亲历', '研究']
 const ACCESS = { unread: '未读', partial: '部分', read: '已读' }
 
 export function Research() {
-  const { ix, openDoc, select } = useApp()
+  const { ix, select } = useApp()
   const sourced = ix.events.filter((e) => !e.verify).length
   const fateTotal = ix.people.reduce((n, p) => n + p.fate.length, 0)
   const fateVerify = ix.people.reduce((n, p) => n + p.fate.filter((f) => f.verify).length, 0)
@@ -71,7 +71,7 @@ export function Research() {
                   <tr key={s.id}>
                     <td className="num">{s.date}</td>
                     <td>
-                      <button className="linklike" onClick={() => openDoc(s.id)}>
+                      <button className="linklike" onClick={() => select({ type: 'doc', id: s.id })}>
                         {s.alias ? `《${s.alias}》` : shortTitle(s)}
                       </button>
                     </td>
