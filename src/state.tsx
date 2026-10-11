@@ -6,6 +6,7 @@ import type { EntityType, Index, Ref } from './data/atlas'
 export const VIEWS = {
   timeline: '时间线',
   people: '人物',
+  orgs: '机构',
   network: '人物网络',
   fates: '命运矩阵',
   river: '派系河流',
@@ -16,7 +17,7 @@ export const VIEWS = {
 } as const
 export type View = keyof typeof VIEWS
 
-// doc is the second path segment: a document id in docs, a person id in people
+// doc is the second path segment: a document id in docs, a person id in people, an org id in orgs
 type State = { view: View; sel?: Ref; t: number; doc?: string }
 
 const DEFAULT_T = 1966 + 7.5 / 12
@@ -51,6 +52,7 @@ type Ctx = State & {
   openDoc: (id: string) => void
   // full profile page (#/people/<id>); the drawer closes so the same person is not shown twice
   openPerson: (id?: string) => void
+  openOrg: (id?: string) => void
 }
 
 const AppCtx = createContext<Ctx | null>(null)
@@ -82,6 +84,7 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
       setT: (t) => update({ t }, false),
       openDoc: (id) => update({ view: 'docs', doc: id }),
       openPerson: (id) => update({ view: 'people', doc: id, sel: undefined }),
+      openOrg: (id) => update({ view: 'orgs', doc: id, sel: undefined }),
     }),
     [state, ix, update],
   )

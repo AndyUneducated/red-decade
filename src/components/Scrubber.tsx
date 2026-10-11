@@ -13,7 +13,16 @@ const MARKS: [number, string][] = [
   [1978 + 11.6 / 12, '三中全会'],
 ]
 
-export function Scrubber({ min = 1965, max = 1981 }: { min?: number; max?: number }) {
+// for spans of several decades, where the 1966–1978 marks would overlap
+export const LONG_MARKS: [number, string][] = [
+  [1921 + 6.7 / 12, '中共一大'],
+  [1937 + 6.2 / 12, '全面抗战'],
+  [1949 + 9 / 12, '建国'],
+  [1966 + 4.5 / 12, '五一六'],
+  [1976 + 9.2 / 12, '粉碎四人帮'],
+]
+
+export function Scrubber({ min = 1965, max = 1981, marks = MARKS }: { min?: number; max?: number; marks?: [number, string][] }) {
   const { t, setT } = useApp()
   const [playing, setPlaying] = useState(false)
 
@@ -45,7 +54,7 @@ export function Scrubber({ min = 1965, max = 1981 }: { min?: number; max?: numbe
           aria-label="时间"
         />
         <div className="marks">
-          {MARKS.filter(([m]) => m >= min && m <= max).map(([m, l]) => (
+          {marks.filter(([m]) => m >= min && m <= max).map(([m, l]) => (
             <button
               key={l}
               onClick={() => setT(m)}

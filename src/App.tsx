@@ -8,6 +8,7 @@ import { Fates } from './views/Fates'
 import { Ideas } from './views/Ideas'
 import { Narratives } from './views/Narratives'
 import { Network } from './views/Network'
+import { Orgs } from './views/Orgs'
 import { People } from './views/People'
 import { Research } from './views/Research'
 import { River } from './views/River'
@@ -16,6 +17,7 @@ import { Timeline } from './views/Timeline'
 const COMPONENTS: Record<View, () => React.ReactNode> = {
   timeline: Timeline,
   people: People,
+  orgs: Orgs,
   network: Network,
   fates: Fates,
   river: River,

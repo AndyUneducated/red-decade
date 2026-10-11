@@ -23,6 +23,7 @@ export type Index = Atlas & {
   eventsByPerson: Map<string, Event[]>
   relationsByPerson: Map<string, Relation[]>
   tenuresByOrg: Map<string, Tenure[]>
+  eventsByOrg: Map<string, Event[]>
   childrenOf: Map<string, OrgEdge[]>
   linksInto: Map<string, OrgLinkIn[]>
   orgsByFaction: Map<string, Org[]>
@@ -53,6 +54,25 @@ export async function loadAtlas(): Promise<Index> {
     for (const link of o.links) push(linksInto, link.org, { org: o, link })
     for (const f of o.factions) push(orgsByFaction, f, o)
   }
+  // Events mention an org when its name, short name or an alias occurs in the title or summary. Each
+  // position in the text credits only the longest name starting there, so 中共中央文革小组 does not also
+  // count for 中共中央. Two-character names are accepted only for mass organisations (西纠、联动).
+  const names = new Map<string, { name: string; org: string }[]>()
+  for (const o of atlas.orgs)
+    for (const name of new Set([o.name, o.short, ...o.aliases]))
+      if (name && (name.length >= 3 || (o.kind === 'popular' && name.length === 2))) push(names, name[0], { name, org: o.id })
+  for (const list of names.values()) list.sort((a, b) => b.name.length - a.name.length)
+  const eventsByOrg = new Map<string, Event[]>()
+  for (const e of atlas.events) {
+    const text = e.title + '\n' + e.summary
+    const hit = new Set<string>()
+    for (let i = 0; i < text.length; ) {
+      const m = names.get(text[i])?.find((n) => text.startsWith(n.name, i))
+      if (m) hit.add(m.org)
+      i += m ? m.name.length : 1
+    }
+    for (const id of hit) push(eventsByOrg, id, e)
+  }
   return {
     ...atlas,
     person: by(atlas.people),
@@ -67,6 +87,7 @@ export async function loadAtlas(): Promise<Index> {
     eventsByPerson,
     relationsByPerson,
     tenuresByOrg,
+    eventsByOrg,
     childrenOf,
     linksInto,
     orgsByFaction,

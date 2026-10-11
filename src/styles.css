@@ -47,6 +47,12 @@
   --sys-gov: #2f5d8a;
   --sys-army: #4d6b35;
   --sys-other: #7a7468;
+  --org-party: var(--sys-party);
+  --org-state: var(--sys-gov);
+  --org-army: var(--sys-army);
+  --org-mass: #9a6a1c;
+  --org-popular: #c05621;
+  --org-unit: var(--sys-other);
   --v-doc: #4a4741;
   --v-official1966: #b3122e;
   --v-witness: #d97706;
@@ -123,6 +129,8 @@
   --sys-gov: #6f9fd2;
   --sys-army: #8fb46b;
   --sys-other: #a39c8f;
+  --org-mass: #d2a45a;
+  --org-popular: #e8865a;
   --v-doc: #bab3a5;
   --v-official1966: #e0475d;
   --v-witness: #f0a145;
@@ -1345,6 +1353,102 @@ h2.sec {
 }
 .ageruler {
   overflow: hidden;
+}
+
+/* ── orgs ──────────────────────────────────────────── */
+.org-row[data-off] {
+  opacity: 0.5;
+}
+.org-row .nm {
+  position: relative;
+  overflow: hidden;
+}
+.org-row .nm b {
+  font-size: 13.5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.org-branch {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  margin-left: -12px;
+  margin-right: -4px;
+  border-left: 1px solid var(--rule-2);
+  border-bottom: 1px solid var(--rule-2);
+  transform: translateY(-3px);
+}
+.org-row .cnt {
+  color: var(--muted);
+  font-size: 11.5px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.orglink {
+  color: inherit;
+  border-bottom: 1px dotted var(--rule-2);
+}
+.orglink:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.posorg {
+  margin-left: 6px;
+  font-size: 11.5px;
+  color: var(--muted);
+}
+.kind-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 6px;
+  border-radius: 2px;
+  vertical-align: 1px;
+}
+.chron {
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.chron time {
+  display: inline-block;
+  min-width: 108px;
+}
+.tenure-h {
+  margin: 14px 0 4px;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.tenures {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+.tenure {
+  display: grid;
+  grid-template-columns: 64px 160px auto;
+  gap: 8px;
+  align-items: center;
+  padding: 3px 0;
+  border-top: 1px solid var(--rule);
+}
+.tenure:first-child {
+  border-top: 0;
+}
+.tenure .tt {
+  color: var(--ink-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tenure:not([data-on]) .tt {
+  color: var(--muted);
+}
+.tenure[data-on] button {
+  font-weight: 600;
 }
 .muted-note {
   margin: 6px 0 0;

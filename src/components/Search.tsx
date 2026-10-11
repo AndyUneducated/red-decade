@@ -3,12 +3,13 @@ import type { Ref } from '../data/atlas'
 import { fmtDate, toT } from '../lib/dates'
 import { useApp } from '../state'
 
-type Item = { ref: Ref; type: string; title: string; sub: string; hay: string; date?: string }
+// orgs open their own page instead of the drawer, so they carry org rather than a drawer ref
+type Item = { ref: Ref; type: string; title: string; sub: string; hay: string; date?: string; org?: string }
 
-const TYPE_LABEL = { person: '人物', event: '事件', concept: '概念', doc: '文献', faction: '派系', claim: '结论' }
+const TYPE_LABEL = { person: '人物', event: '事件', concept: '概念', doc: '文献', faction: '派系', claim: '结论', org: '机构' }
 
 export function Search({ onClose }: { onClose: () => void }) {
-  const { ix, select, setT, openDoc } = useApp()
+  const { ix, select, setT, openDoc, openOrg } = useApp()
   const [q, setQ] = useState('')
   const [cursor, setCursor] = useState(0)
   const input = useRef<HTMLInputElement>(null)
@@ -54,6 +55,14 @@ export function Search({ onClose }: { onClose: () => void }) {
         sub: '',
         hay: [f.name, f.summary].join(' '),
       })),
+      ...ix.orgs.map((o) => ({
+        ref: { type: 'faction' as const, id: `org:${o.id}` },
+        org: o.id,
+        type: TYPE_LABEL.org,
+        title: o.name,
+        sub: o.short ?? '',
+        hay: [o.name, o.short ?? '', ...o.aliases, o.summary].join(' '),
+      })),
       ...ix.claims.map((c) => ({
         ref: { type: 'claim' as const, id: c.id },
         type: TYPE_LABEL.claim,
@@ -81,7 +90,8 @@ export function Search({ onClose }: { onClose: () => void }) {
   }, [q, items])
 
   const choose = (item: Item) => {
-    if (item.ref.type === 'doc') openDoc(item.ref.id)
+    if (item.org) openOrg(item.org)
+    else if (item.ref.type === 'doc') openDoc(item.ref.id)
     else select(item.ref)
     if (item.date) setT(toT(item.date))
     onClose()
@@ -106,7 +116,7 @@ export function Search({ onClose }: { onClose: () => void }) {
         <input
           ref={input}
           value={q}
-          placeholder="搜索人物、事件、概念、文献…  如：彭真、五十多天、造反"
+          placeholder="搜索人物、事件、概念、文献、机构…  如：彭真、五十多天、工总司"
           onChange={(e) => {
             setQ(e.target.value)
             setCursor(0)

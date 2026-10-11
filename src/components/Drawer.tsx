@@ -295,10 +295,11 @@ function ConceptCard({ id, doc }: { id: string; doc?: string }) {
 }
 
 function FactionCard({ id }: { id: string }) {
-  const { ix, t } = useApp()
+  const { ix, t, openOrg } = useApp()
   const f = ix.faction.get(id)
   if (!f) return null
   const members = ix.people.filter((p) => p.factions.includes(id))
+  const orgs = ix.orgsByFaction.get(id) ?? []
   return (
     <>
       <header>
@@ -317,6 +318,18 @@ function FactionCard({ id }: { id: string }) {
           ))}
         </div>
       </section>
+      {orgs.length > 0 && (
+        <section>
+          <h3>相关机构</h3>
+          <div className="chips">
+            {orgs.map((o) => (
+              <button key={o.id} className="chip" title={o.name} onClick={() => openOrg(o.id)}>
+                {o.short ?? o.name} →
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
       <section>
         <h3>成员（{members.length}）· 此刻状态</h3>
         <ul className="minilist">
