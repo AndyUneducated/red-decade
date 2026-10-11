@@ -154,6 +154,16 @@
 # batch 5
 - { id: wangcheng, name: 望城, names: [望城], lat: 28.35, lon: 112.82 }
 - { id: dunhua, name: 敦化, names: [敦化], lat: 43.37, lon: 128.23 }
+# batch 6
+- { id: wanan, name: 万安, names: [万安], lat: 26.46, lon: 114.79 }
+- { id: xinfeng, name: 信丰, names: [信丰], lat: 25.39, lon: 114.92 }
+- { id: mianchi, name: 渑池, names: [渑池], lat: 34.77, lon: 111.76 }
+- { id: pingyi, name: 平邑, names: [平邑], lat: 35.51, lon: 117.64 }
+- { id: huaibin, name: 淮滨, names: [淮滨], lat: 32.47, lon: 115.42 }
+- { id: linchuan, name: 临川, names: [临川], lat: 27.98, lon: 116.36 }
+- { id: donglan, name: 东兰, names: [东兰], lat: 24.51, lon: 107.37 }
+- { id: jinzhai, name: 金寨, names: [金寨], lat: 31.73, lon: 115.93 }
+- { id: tumed-left, name: 土默特左旗, names: [土默特], lat: 40.72, lon: 111.15 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

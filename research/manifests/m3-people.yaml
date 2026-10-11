@@ -1,0 +1,68 @@
+# M3-2 人物扩充第 6–10 批用的维基文库原文（逐题检索命中的页面）。日期取自页面头部或正文落款，见 note。
+wikisource:
+  - id: ws-1982-liu-zhang-case
+    title: 刘结挺、张西挺反革命案四川省人民检察院起诉书
+    date: 1982-03-24
+    author: 四川省人民检察院、四川省高级人民法院、最高人民法院
+    kind: judicial
+    alias: 刘结挺张西挺案
+    note: 页面含起诉书、四川省高级人民法院判决书（1982-03-24 落款）和最高人民法院 1982-04-20 裁定书。
+  - id: ws-1967-04-04-yibin-rehab
+    title: 中共中央关于四川省宜宾地区刘结挺等同志平反的通知
+    date: 1967-04-04
+    author: 中共中央
+    kind: party-doc
+    alias: 宜宾平反通知
+    note: 中发〔67〕154号。
+  - id: ws-1968-04-26-neirendang-report
+    title: 内蒙古自治区革命委员会关于“内蒙古人民革命党”叛国案件的报告
+    date: 1968-04-26
+    author: 内蒙古自治区革命委员会
+    kind: party-doc
+    alias: 内人党案报告
+    note: 内革发〔68〕38号，页面头部 1968-04-26；致中央并北京军区“请转滕、吴”（滕海清、吴涛）。
+  - id: ws-1967-11-18-guangxi-decision
+    title: 中共中央、国务院、中央军委、中央文革小组关于广西问题的决定
+    date: 1967-11-18
+    author: 中共中央、国务院、中央军委、中央文革
+    kind: party-doc
+    alias: 广西问题决定
+    note: 中发〔67〕353号，日期据中央文件目录。
+  - id: ws-1974-05-21-hubei-instructions
+    title: 中央领导同志关于湖北问题的指示要点
+    date: 1974-05-21
+    author: 中共中央
+    kind: party-doc
+    alias: 湖北问题指示要点
+    note: 批林批孔中关于湖北的指示，中共湖北省委办公厅 1974-05-23 印发。
+  - id: ws-1968-04-19-lin-zhao-death-sentence
+    title: 林昭死刑判決書
+    date: 1968-04-19
+    author: 上海市中级人民法院
+    kind: judicial
+    alias: 林昭死刑判决书
+    note: 页面头部 1968-04-19。
+  - id: ws-1982-wang-weiguo-case
+    title: 王维国积极参加反革命集团、策动叛乱案中国人民解放军军事检察院起诉书
+    date: 1982
+    author: 中国人民解放军军事检察院
+    kind: judicial
+    alias: 王维国案
+  - id: ws-1982-chi-qun-case
+    title: 迟群反革命案北京市人民检察院分院起诉书
+    date: 1982
+    author: 北京市人民检察院分院
+    kind: judicial
+    alias: 迟群案
+  - id: ws-1967-12-21-shengwulian-decision
+    title: 省无联关于目前湖南无产阶级文化大革命中的若干问题的决定
+    date: 1967-12-21
+    author: 湖南省无产阶级革命派大联合委员会
+    kind: mass
+    alias: 省无联决定
+  - id: ws-1971-03-02-tian-han-critique
+    title: 评田汉的一个反革命策略
+    date: 1971-03-02
+    kind: press
+    alias: 评田汉
+    note: 页面头部 1971-03-02。

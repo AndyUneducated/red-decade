@@ -1,0 +1,638 @@
+# M3 people, batch 6: regional leaders. Wuhan (钟汉华, 曾思玉, 刘丰), Sichuan (李井泉, 刘结挺, 张西挺),
+# Inner Mongolia (乌兰夫, 滕海清), Guangxi (韦国清) and Jiangxi (程世清).
+# Dates that sources disagree on are cut to the month or year. Careers from general reference, verify.
+
+- id: zhong-hanhua
+  name: 钟汉华
+  born: 1909-01-30
+  died: 1987-01-02
+  tier: 3
+  role1966: 武汉军区第二政治委员
+  pinyin: Zhōng Hànhuá
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西万安
+  origin: 江西万安
+  deathKind: natural
+  deathPlace: 四川成都
+  party: 中国共产党
+  positions:
+    - { title: 武汉军区政治委员、第二政治委员, orgName: 武汉军区, from: 1955-12, to: 1967-07, verify: true }
+    - { title: 成都军区政治委员, orgName: 成都军区, from: 1979, to: 1982, verify: true }
+  rank: { rank: 中将, date: 1955-09 }
+  bio: 江西万安人，红三军团出身，抗战和解放战争中在一二九师、二野做政治工作，1949 年后在川东、西南军区任职。1955 年起在武汉军区任政委，1963 年任第二政委，与司令员陈再道一起主持“支左”。1967 年七二〇事件后与陈再道同被撤职批斗。1972 年后复出，任广州军区副政委、装甲兵政委，1979–1982 年任成都军区政委，1987 年在成都去世。
+  life:
+    - h: 红军与二野
+      from: 1909
+      to: 1955
+      text: |
+        1909 年生于江西万安，1926 年入团，后转为共产党员，参加万安暴动。1930 年代在红三军团做宣传和组织工作，参加长征。抗战中任一二九师先遣纵队政委、新编第七旅政委，解放战争中任晋冀鲁豫野战军第二纵队副政委、二野第十一军副政委、第三兵团政治部副主任，随军进入四川。1949 年后任川东军区副政委、西南军区政治部副主任。
+      verify: true
+    - h: 武汉军区与七二〇事件
+      from: 1955-12
+      to: 1967-07
+      text: |
+        1955 年 12 月任武汉军区政委，其间兼任最高人民法院军事审判庭庭长，1963 年 12 月起任第二政委（第一政委由湖北省委第一书记王任重兼任）。1967 年军区在武汉两派之争中支持“百万雄师”，7 月 20 日谢富治、王力住地被冲击。7 月 26 日军区公告把陈再道定为“罪魁祸首”，27 日中央撤销陈再道、钟汉华的职务，由曾思玉、刘丰接任。
+      cites: [ws-1967-07-26-wuhan-notice]
+      verify: true
+    - h: 批斗与复出
+      from: 1967-08
+      to: 1987
+      text: |
+        撤职后在北京被批斗、审查。1980 年起诉书把他与陈再道、杨秀山等一起列入被林彪、江青集团诬陷迫害的军队干部。1972 年后任广州军区副政委，后任装甲兵政委，1979 年任成都军区政委，1982 年后任中顾委委员。1987 年 1 月 2 日在成都去世。
+      cites: [ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 傅崇碧、庄田、晏福生、陈再道、钟汉华、杨秀山、唐金龙（1980 年起诉书所列被诬陷迫害的军队干部）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 1967 年 7 月 26 日的武汉军区公告只点了王任重和陈再道的名，没有点他；他是作为军区主要负责人之一被一并撤职的。, cite: ws-1967-07-26-wuhan-notice }
+  factions: [provincial]
+  fate:
+    - { date: 1955-12, s: power, note: 武汉军区政委, verify: true }
+    - { date: 1967-07-20, s: attacked, note: 七二〇事件, cite: ws-1967-07-26-wuhan-notice }
+    - { date: 1967-07-27, s: purged, note: 被撤职, verify: true }
+    - { date: 1972, s: restored, note: 任广州军区副政委, verify: true }
+    - { date: 1979, s: power, note: 成都军区政委, verify: true }
+    - { date: 1987-01-02, s: dead, verify: true }
+  cites: [ws-1967-07-26-wuhan-notice, ws-1980-indictment]
+
+- id: zeng-siyu
+  name: 曾思玉
+  born: 1911
+  died: 2012-12-31
+  tier: 2
+  role1966: 沈阳军区副司令员
+  pinyin: Zēng Sīyù
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 曾世裕 }
+  birthplace: 江西信丰
+  origin: 江西信丰
+  deathKind: natural
+  deathPlace: 辽宁大连
+  party: 中国共产党
+  positions:
+    - { title: 武汉军区司令员, orgName: 武汉军区, from: 1967-07, to: 1973-12, verify: true }
+    - { title: 湖北省革委会主任, orgName: 湖北省革命委员会, from: 1968-02-05, to: 1973-12, verify: true }
+    - { title: 中共湖北省委第一书记, orgName: 中共湖北省委, from: 1971-03, to: 1973-12, verify: true }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1982-09, verify: true }
+    - { title: 济南军区司令员, orgName: 济南军区, from: 1973-12, to: 1980-01, verify: true }
+  rank: { rank: 中将, date: 1955-09 }
+  bio: 江西信丰人，中央苏区的红军老兵，抗战中在一一五师和冀鲁豫军区，解放战争中任华北野战军第四纵队司令员、第六十四军军长。1967 年七二〇事件后从沈阳军区副司令员调任武汉军区司令员，1968 年任湖北省革委会主任。1971 年 9 月毛泽东南巡谈话后，他没有像政委刘丰那样向林彪方面泄露，事后被中央定为“好人犯错误”。1973 年底八大军区司令员对调时调任济南军区司令员，1980 年后任南京军区顾问。2012 年在大连去世，年 101 岁。
+  life:
+    - h: 红军到六十四军
+      from: 1911
+      to: 1966
+      text: |
+        1911 年生于江西信丰的农民家庭，原名曾世裕，1928 年参加信丰农民暴动，1930 年参加红军，1931 年入党，参加中央苏区反“围剿”和长征。抗战中任一一五师六八六团政治处主任、鲁西军区政治部主任、冀鲁豫军区分区司令员。解放战争中任冀热察军区司令员、华北野战军第四纵队司令员、第六十四军军长，后率部入朝。1955 年授中将，1960 年代任沈阳军区参谋长、副司令员。
+      verify: true
+    - h: 接掌武汉
+      from: 1967-07
+      to: 1971-08
+      text: |
+        1967 年 7 月 27 日中央撤销陈再道、钟汉华的职务，他调任武汉军区司令员，原武汉空军副司令员刘丰任政委。军区随即改为支持“钢工总”“钢二司”等造反派。1968 年 2 月 5 日湖北省革委会成立，他任主任，1969 年当选九届中央委员，1971 年 3 月湖北省委恢复后任第一书记。
+      cites: [ws-1967-07-26-wuhan-notice]
+      verify: true
+    - h: 九一三前后
+      from: 1971-08
+      to: 1974-05
+      text: |
+        1971 年 8 月毛泽东南巡到武汉，同刘丰谈话，叮嘱不要外传。据后来的回忆，刘丰 9 月 1 日把谈话内容告诉了刚从大连疗养回来的他，他没有再对任何人讲；而刘丰在 9 月初把内容透露给了陪外宾来武汉的李作鹏。1974 年 5 月中央关于湖北问题的指示要点说他“在第十次路线斗争中犯了严重错误，本人检查较好”，“刘丰是林彪死党，曾思玉同志是好人犯错误，这是两类不同性质的矛盾”。
+      cites: [ws-1974-05-21-hubei-instructions, ws-1980-indictment]
+      verify: true
+    - h: 济南与晚年
+      from: 1973-12
+      to: 2012
+      text: |
+        1973 年 12 月毛泽东主持八大军区司令员对调，他调任济南军区司令员，1980 年 1 月任南京军区顾问，1983 年离休。连任九至十一届中央委员。2012 年 12 月 31 日在大连去世。
+      verify: true
+  assess:
+    - { voice: official1966, text: 曾思玉同志在第十次路线斗争中犯了严重错误，本人检查较好，毛主席、党中央比较满意（1974 年中央关于湖北问题的指示要点）, cite: ws-1974-05-21-hubei-instructions, quote: true }
+    - { voice: official1966, text: 刘丰是林彪死党，曾思玉同志是好人犯错误，这是两类不同性质的矛盾，应严格加以区别, cite: ws-1974-05-21-hubei-instructions, quote: true }
+    - { voice: editor, text: 1974 年的指示要点出自批林批孔运动，湖北造反派借此要求“揭盖子”，中央在这份文件里同时保了曾思玉、压了“翻七二〇案”的要求。 }
+  factions: [provincial]
+  fate:
+    - { date: 1967-07, s: rise, note: 调任武汉军区司令员, verify: true }
+    - { date: 1968-02-05, s: power, note: 湖北省革委会主任, verify: true }
+    - { date: 1969-04, s: power, note: 九届中央委员, verify: true }
+    - { date: 1973-12, s: power, note: 调任济南军区司令员, verify: true }
+    - { date: 1974-05-21, s: attacked, note: 中央指示称其犯了严重错误、是“好人犯错误”, cite: ws-1974-05-21-hubei-instructions }
+    - { date: 1980-01, s: sidelined, note: 改任南京军区顾问, verify: true }
+    - { date: 2012-12-31, s: dead, verify: true }
+  cites: [ws-1974-05-21-hubei-instructions, ws-1967-07-26-wuhan-notice]
+
+- id: liu-feng
+  name: 刘丰
+  born: 1915
+  died: 1993-03-09
+  tier: 3
+  role1966: 武汉军区空军副司令员
+  pinyin: Liú Fēng
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 刘有锋 }
+  birthplace: 河南渑池
+  origin: 河南渑池
+  deathKind: natural
+  deathPlace: 湖北武汉
+  party: 中国共产党
+  positions:
+    - { title: 武汉军区政治委员, orgName: 武汉军区, from: 1967-07, to: 1971-11, verify: true }
+    - { title: 湖北省革委会副主任, orgName: 湖北省革命委员会, from: 1968-02-05, to: 1972-02, verify: true }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1972-02, verify: true }
+    - { title: 中央军委委员, orgName: 中共中央军事委员会, from: 1969-04, to: 1971-11, verify: true }
+    - { title: 中共湖北省委第二书记, orgName: 中共湖北省委, from: 1971-03, to: 1972-02, verify: true }
+  rank: { rank: 少将, date: 1955-09 }
+  bio: 河南渑池人，宁都起义参加红军，1949 年后转入空军，任空军第三军军长、武汉军区空军副司令员。1967 年七二〇事件后升任武汉军区政委，次年任湖北省革委会副主任，1969 年进入九届中委和中央军委。1971 年 9 月初把毛泽东南巡时在武汉的谈话内容透露给李作鹏，被 1980 年起诉书列为林彪下决心行动的情报来源之一。九一三事件后被撤职审查，1973 年被开除党籍，1974 年中央文件称他是“林彪死党”。1982 年退出现役，1993 年在武汉去世。
+  life:
+    - h: 宁都起义到空军
+      from: 1915
+      to: 1967-07
+      text: |
+        1915 年生于河南渑池农家，原名刘有锋。少年时加入地方武装，被冯玉祥部收编，后属孙连仲第二十六路军，1931 年 12 月随宁都起义参加红军，1934 年入党，参加长征和西路军。1950 年任新组建的空军第八师师长，后任航空学校校长、空军第三军军长，1955 年授少将，1957 年任武汉军区空军副司令员。
+      verify: true
+    - h: 武汉军区政委
+      from: 1967-07
+      to: 1971-08
+      text: |
+        1967 年 7 月 27 日陈再道、钟汉华被撤职后，他升任武汉军区政委、军区临时党委书记，1968 年 2 月任湖北省革委会副主任。1969 年 4 月当选九届中央委员、中央军委委员，1971 年 3 月任湖北省委第二书记。
+      verify: true
+    - h: 泄密与九一三
+      from: 1971-08
+      to: 1971-11
+      text: |
+        1971 年 8 月中旬毛泽东南巡到武汉，同他和湖北负责人谈话，矛头指向林彪，叮嘱不要外传。按 1980 年起诉书，9 月 6 日“李作鹏在武汉得到武汉部队政治委员刘丰关于毛泽东主席在武汉同一些负责人谈话内容的密报”，当天回京告诉黄永胜、邱会作，黄永胜连夜电话告诉叶群；林彪、叶群据此“下决心采取行动杀害毛泽东主席”。11 月他被免职审查，其间自杀未遂。
+      cites: [ws-1980-indictment]
+    - h: 开除党籍
+      from: 1972-02
+      to: 1993
+      text: |
+        1972 年 2 月被撤销党内外一切职务，1973 年被开除党籍。1974 年 5 月中央关于湖北问题的指示要点说他“参与了林彪反党集团策动反革命政变的阴谋活动，是林彪反党集团在湖北的代理人”。他没有受到刑事起诉，1982 年经中央军委批准退出现役，按师级待遇安置，1993 年 3 月 9 日在武汉去世。
+      cites: [ws-1974-05-21-hubei-instructions]
+      verify: true
+  assess:
+    - { voice: official1966, text: 刘丰参与了林彪反党集团策动反革命政变的阴谋活动，是林彪反党集团在湖北的代理人（1974 年中央关于湖北问题的指示要点）, cite: ws-1974-05-21-hubei-instructions, quote: true }
+    - { voice: judicial1980, text: 六日，李作鹏在武汉得到武汉部队政治委员刘丰关于毛泽东主席在武汉同一些负责人谈话内容的密报（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 起诉书把这次泄密写成林彪下决心行动的直接诱因之一，但刘丰本人没有被列为被告，此后也没有受审。 }
+  factions: [lin, provincial]
+  fate:
+    - { date: 1967-07, s: rise, note: 升任武汉军区政委, verify: true }
+    - { date: 1969-04, s: power, note: 九届中央委员、中央军委委员, verify: true }
+    - { date: 1971-09-06, s: power, note: 向李作鹏透露毛泽东南巡谈话, cite: ws-1980-indictment }
+    - { date: 1971-11, s: purged, note: 免职审查, verify: true }
+    - { date: 1973, s: purged, note: 开除党籍, verify: true }
+    - { date: 1974-05-21, s: attacked, note: 中央文件称其“林彪死党”, cite: ws-1974-05-21-hubei-instructions }
+    - { date: 1993-03-09, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1974-05-21-hubei-instructions]
+
+- id: li-jingquan
+  name: 李井泉
+  born: 1909-11-01
+  died: 1989-04-24
+  tier: 2
+  role1966: 中共中央西南局第一书记、政治局委员
+  pinyin: Lǐ Jǐngquán
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西临川
+  origin: 江西临川
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 中共四川省委第一书记, orgName: 中共四川省委员会, from: 1952-09, to: 1965, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1958-05, to: 1969-04, verify: true }
+    - { title: 中共中央西南局第一书记, orgName: 中共中央西南局, from: 1960-11, to: 1967, verify: true }
+    - { title: 全国人大常委会副委员长, orgName: 全国人民代表大会常务委员会, from: 1965-01, to: 1967, cite: ws-1982-liu-zhang-case }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1973-08, to: 1982-09, verify: true }
+    - { title: 全国人大常委会副委员长, orgName: 全国人民代表大会常务委员会, from: 1983-06, to: 1988-04, verify: true }
+  bio: 江西临川人，红军老干部，抗战中率大青山支队开辟绥远根据地，后任晋绥军区政委。1952 年起主政四川十余年，1958 年进政治局，1960 年任西南局第一书记，四川大饥荒期间仍大量外调粮食。文革中被刘结挺、张西挺和四川造反派称为“刘、邓埋在大西南的一颗定时炸弹”，1967 年 4 月中央通知把宜宾案定为他“一手制造”的冤案，他被打倒、批斗、关押。妻子肖里死于关押中，次子李明清 1967 年在北航被殴打后死去。1973 年当选十届中委，1983 年任全国人大常委会副委员长，1989 年在北京去世。
+  life:
+    - h: 红军到晋绥
+      from: 1909
+      to: 1949
+      text: |
+        1909 年生于江西临川，在江西省立第三师范读书时接触革命思想，1927 年入党，参加中央苏区和长征，长征中在红四方面军和红二方面军之间做政治工作。抗战中任八路军一二〇师大青山支队司令员兼政委，开辟绥远大青山根据地，后任晋绥军区政委、中共晋绥分局副书记，与贺龙长期共事。1949 年随贺龙南下入川。
+      verify: true
+    - h: 主政四川
+      from: 1949-12
+      to: 1966
+      text: |
+        1952 年四川合省后任省委第一书记，1958 年 5 月八届五中全会增选为政治局委员，1960 年西南局重建后任第一书记，1965 年任全国人大常委会副委员长、成都军区第一政委。大跃进和三年困难时期四川饿死人数在各省中居前列，同时仍大量外调粮食支援京津沪；1960 年代主持三线建设。1962 年宜宾地委书记刘结挺、市委书记张西挺夫妇因“违法乱纪”被审查，1963 年撤职，1965 年经中央批准开除党籍。
+      verify: true
+    - h: 宜宾案翻案与打倒
+      from: 1966-08
+      to: 1967-04
+      text: |
+        文革开始后刘结挺、张西挺上京申诉，经王力接见。1967 年 1 月起二人编印散发十万多份《反革命修正主义分子李井泉罪行录》，称他“是刘、邓埋在大西南的一颗定时炸弹，是在西南开辟反革命复辟根据地的罪魁祸首”。4 月 4 日中共中央通知宣布：宜宾案“是党内走资本主义道路当权派李井泉一手制造的，经邓小平、彭真、杨尚昆批准的冤案，完全颠倒了黑白”。他随即被打倒，在成都、北京被批斗、关押。
+      cites: [ws-1982-liu-zhang-case, ws-1967-04-04-yibin-rehab]
+    - h: 家破人亡
+      from: 1967-08
+      to: 1973
+      text: |
+        1967 年 8 月 24 日，在北京航空学院读书的次子李明清因前一年与几个干部子弟联名写大字报批评中央文革，被北航红旗部分成员拉去批斗殴打，当夜在宿舍死去。妻子肖里被关押，1969 年死于关押中。1980 年起诉书把他列入被诬陷的政治局委员和“中共中央局第一书记”名单。1973 年 8 月十大上当选中央委员，恢复名誉。
+      cites: [ws-1980-indictment]
+      verify: true
+    - h: 晚年
+      from: 1978
+      to: 1989
+      text: |
+        1978 年北京市公安局抓获殴打李明清的两名学生，征求他的意见，他表示不追究。1983 年 6 月任六届全国人大常委会副委员长。1989 年 4 月 24 日在北京去世。
+      verify: true
+  assess:
+    - { voice: official1966, text: 这个案件是党内走资本主义道路当权派李井泉一手制造的，经邓小平、彭真、杨尚昆批准的冤案，完全颠倒了黑白（1967 年 4 月 4 日中共中央通知）, cite: ws-1967-04-04-yibin-rehab, quote: true }
+    - { voice: judicial1980, text: 诬陷“李井泉是刘、邓埋在大西南的一颗定时炸弹，是在西南开辟反革命复辟根据地的罪魁祸首”（1982 年刘结挺、张西挺案起诉书）, cite: ws-1982-liu-zhang-case, quote: true }
+    - { voice: judicial1980, text: 中共中央局第一书记：宋任穷、刘澜涛、李井泉、王任重（1980 年起诉书所列被诬陷者）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 1967 年的中央通知和 1982 年的判决对宜宾案的结论正好相反：前者说刘、张是“坚持党的原则的好同志”，后者说他们 1963 年就因“严重违法乱纪、打击陷害干部群众”被撤职。他本人在大饥荒中的责任，两份文件都没有涉及。 }
+  factions: [provincial]
+  fate:
+    - { date: 1952-09, s: power, note: 四川省委第一书记, verify: true }
+    - { date: 1958-05, s: power, note: 增选为政治局委员, verify: true }
+    - { date: 1960-11, s: power, note: 西南局第一书记, verify: true }
+    - { date: 1967-01, s: attacked, note: 刘结挺、张西挺散发《李井泉罪行录》, cite: ws-1982-liu-zhang-case }
+    - { date: 1967-04-04, s: purged, note: 中央通知定为“走资本主义道路当权派”, cite: ws-1967-04-04-yibin-rehab }
+    - { date: 1973-08, s: restored, note: 当选十届中央委员, verify: true }
+    - { date: 1983-06, s: power, note: 全国人大常委会副委员长, verify: true }
+    - { date: 1989-04-24, s: dead, verify: true }
+  cites: [ws-1967-04-04-yibin-rehab, ws-1982-liu-zhang-case, ws-1980-indictment]
+
+- id: liu-jieting
+  name: 刘结挺
+  born: 1920-01
+  died: 1993-11-08
+  tier: 3
+  role1966: 原中共宜宾地委书记（1963 年撤职、1965 年开除党籍）
+  pinyin: Liú Jiétǐng
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 刘瑞新 }
+  birthplace: 山东平邑
+  origin: 山东平邑
+  deathKind: natural
+  deathPlace: 河南郑州
+  party: 中国共产党
+  positions:
+    - { title: 成都军区副政治委员, orgName: 成都军区, from: 1967-07, to: 1971, verify: true }
+    - { title: 四川省革委会副主任, orgName: 四川省革命委员会, from: 1968-05-31, to: 1971, cite: ws-1982-liu-zhang-case }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1973-08, cite: ws-1982-liu-zhang-case }
+  bio: 山东平邑人，1938 年入党，1950 年代任宜宾地委书记，与妻子、宜宾市委第一书记张西挺一起在 1963 年因“严重违法乱纪、打击陷害干部群众”被撤职，1965 年被开除党籍。文革中夫妇二人上京申诉，得到王力等中央文革成员支持，1967 年 4 月中央通知为他们平反，宜宾案被改定为李井泉制造的冤案。此后二人任四川省革委会副主任，他还任成都军区副政委、九届中央委员，在四川两派武斗中支持一派。1970 年代初失势，1978 年被捕，1982 年被判有期徒刑二十年。1993 年保外就医后在郑州去世。
+  life:
+    - h: 宜宾地委书记
+      from: 1920
+      to: 1965
+      text: |
+        1920 年生于山东平邑，原名刘瑞新，1938 年参加八路军并入党，1948 年与张西挺结婚。1949 年随军入川，历任江安、宜宾县委书记，1955 年任宜宾地委书记兼军分区政委。1962 年四川省委对宜宾地区工作进行甄别，他和张西挺被审查，1963 年撤职，1965 年 2 月经中央批准开除党籍。
+      cites: [ws-1982-liu-zhang-case]
+      verify: true
+    - h: 翻案与夺权
+      from: 1966-06
+      to: 1967-04
+      text: |
+        按 1982 年起诉书，二人 1966 年 6 月、8 月先后到北京，“通过送诬告材料，串通‘中央文革’的王力”，12 月 30 日受王力接见。1967 年 1 月 7 日与宜宾地委副书记王茂聚联名写信给宜宾造反派，提出“大造反、大夺权”，同时编印散发十万多份《反革命修正主义分子李井泉罪行录》。4 月 4 日中共中央通知宣布刘结挺案应予平反，“受陷害的刘结挺、张西挺、王茂聚、郭林川、李良等是坚持党的原则的好同志”。
+      cites: [ws-1982-liu-zhang-case, ws-1967-04-04-yibin-rehab]
+    - h: 四川省革委会
+      from: 1967-05
+      to: 1971
+      text: |
+        1967 年 5 月中央批准成立四川省革筹，他和张西挺进入领导层，控制了省革筹（委）办事组、政工组；1968 年 5 月 31 日省革委会成立后任副主任，1969 年当选九届中央委员。起诉书称，1968 年 4 月他对宜宾学员说“对立面不但要打隆昌、内江、自贡、宜宾，还要打成都”，此后李良、王茂聚调集十个县五千余人于 7 月武装进攻泸州等地，“打死二百七十四人”。
+      cites: [ws-1982-liu-zhang-case]
+    - h: 失势与判刑
+      from: 1971
+      to: 1993
+      text: |
+        1970 年代初在批陈整风、批林整风中失势，被撤销职务、再次开除党籍。1978 年 6 月 24 日被逮捕，1982 年 3 月 6 日至 20 日四川省高级人民法院公开审理，以阴谋颠覆政府罪、反革命宣传煽动罪、诬告陷害罪判处有期徒刑二十年，剥夺政治权利五年；4 月最高人民法院驳回上诉。1993 年保外就医，同年 11 月在郑州去世。
+      cites: [ws-1982-liu-zhang-case]
+      verify: true
+  assess:
+    - { voice: official1966, text: 受陷害的刘结挺、张西挺、王茂聚、郭林川、李良等是坚持党的原则的好同志（1967 年 4 月 4 日中共中央通知）, cite: ws-1967-04-04-yibin-rehab, quote: true }
+    - { voice: judicial1980, text: 在江青、康生一伙的支持下，刘结挺、张西挺篡夺了四川省的部分领导权，控制了省革筹（委）办事组、政工组和宜宾地区的领导权（1982 年起诉书）, cite: ws-1982-liu-zhang-case, quote: true }
+    - { voice: judicial1980, text: 刘结挺、张西挺上诉无理，予以驳回（1982 年最高人民法院裁定）, cite: ws-1982-liu-zhang-case, quote: true }
+  factions: [rebels]
+  fate:
+    - { date: 1955-05, s: power, note: 宜宾地委书记, verify: true }
+    - { date: 1963, s: purged, note: 撤职，1965 年开除党籍, cite: ws-1982-liu-zhang-case }
+    - { date: 1967-01-07, s: rise, note: 《一·七信件》“大造反、大夺权”, cite: ws-1982-liu-zhang-case }
+    - { date: 1967-04-04, s: restored, note: 中央通知平反, cite: ws-1967-04-04-yibin-rehab }
+    - { date: 1968-05-31, s: power, note: 四川省革委会副主任, cite: ws-1982-liu-zhang-case }
+    - { date: 1978-06-24, s: detained, note: 被逮捕, cite: ws-1982-liu-zhang-case }
+    - { date: 1982-03, s: detained, note: 判处有期徒刑二十年, cite: ws-1982-liu-zhang-case }
+    - { date: 1993-11-08, s: dead, verify: true }
+  cites: [ws-1982-liu-zhang-case, ws-1967-04-04-yibin-rehab]
+
+- id: zhang-xiting
+  name: 张西挺
+  died: 1993-07
+  tier: 3
+  role1966: 原中共宜宾市委第一书记（1963 年撤职、1965 年开除党籍）
+  pinyin: Zhāng Xītǐng
+  gender: f
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 简玉霞 }
+  birthplace: 河南淮滨
+  origin: 河南淮滨
+  deathKind: natural
+  deathPlace: 四川成都
+  party: 中国共产党
+  positions:
+    - { title: 四川省革委会副主任, orgName: 四川省革命委员会, from: 1968-05-31, to: 1971, cite: ws-1982-liu-zhang-case }
+    - { title: 候补中央委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1973-08, cite: ws-1982-liu-zhang-case }
+  bio: 刘结挺之妻，河南人（起诉书作淮滨，另有息县一说），原名简玉霞，1941 年入党，1950 年代任宜宾市委第一书记。1963 年与刘结挺一起撤职，1965 年开除党籍；1967 年 4 月中央通知为二人平反。1968 年任四川省革委会副主任，1969 年当选九届候补中央委员。1978 年被捕，1982 年被判有期徒刑十七年，1993 年保外就医，同年 7 月在成都去世。生年有 1926、1927 两说，未录。
+  life:
+    - h: 宜宾市委
+      from: 1941
+      to: 1965
+      text: |
+        1941 年入党，1948 年与刘结挺结婚，改名张西挺，1949 年随军入川。1956 年起任宜宾市委第一书记。1963 年与刘结挺同时被撤职，1965 年 2 月被开除党籍。
+      cites: [ws-1982-liu-zhang-case]
+      verify: true
+    - h: 平反与掌权
+      from: 1966
+      to: 1971
+      text: |
+        与刘结挺一起上京申诉、写《一·七信件》、编印《打李小册子》，1967 年 4 月 4 日中央通知为二人平反。此后任四川省革筹、省革委会副主任，1969 年当选候补中央委员。起诉书记她在 1968 年 4 月说：“我如果是革命委员会的主任，我就有自卫的权利。”
+      cites: [ws-1982-liu-zhang-case, ws-1967-04-04-yibin-rehab]
+    - h: 判刑与去世
+      from: 1978
+      to: 1993
+      text: |
+        1978 年 6 月 24 日与刘结挺同日被捕，1982 年 3 月被四川省高级人民法院判处有期徒刑十七年，剥夺政治权利五年，最高人民法院驳回上诉。1993 年 5 月保外就医，7 月在成都去世。
+      cites: [ws-1982-liu-zhang-case]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 张西挺说：我如果是革命委员会的主任，我就有自卫的权利（1982 年起诉书）, cite: ws-1982-liu-zhang-case, quote: true }
+    - { voice: editor, text: 起诉书和判决书都把她与刘结挺并列为共同被告，现有材料很难把二人的行为分开叙述。 }
+  factions: [rebels]
+  fate:
+    - { date: 1956, s: power, note: 宜宾市委第一书记, verify: true }
+    - { date: 1963, s: purged, note: 撤职，1965 年开除党籍, cite: ws-1982-liu-zhang-case }
+    - { date: 1967-04-04, s: restored, note: 中央通知平反, cite: ws-1967-04-04-yibin-rehab }
+    - { date: 1968-05-31, s: power, note: 四川省革委会副主任, cite: ws-1982-liu-zhang-case }
+    - { date: 1978-06-24, s: detained, note: 被逮捕, cite: ws-1982-liu-zhang-case }
+    - { date: 1982-03, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-liu-zhang-case }
+    - { date: 1993-07, s: dead, verify: true }
+  cites: [ws-1982-liu-zhang-case, ws-1967-04-04-yibin-rehab]
+
+- id: ulanhu
+  name: 乌兰夫
+  born: 1906-12-23
+  died: 1988-12-08
+  tier: 2
+  role1966: 内蒙古自治区党委第一书记、华北局第二书记、国务院副总理
+  pinyin: Wūlánfū
+  gender: m
+  ethnicity: 蒙古族
+  aka:
+    - { kind: original, name: 云泽 }
+  birthplace: 内蒙古土默特左旗
+  origin: 内蒙古土默特左旗
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 内蒙古党委书记、第一书记, orgName: 中共内蒙古自治区委员会, from: 1947-05, to: 1966-08, verify: true }
+    - { title: 国家民委主任, orgName: 国家民族事务委员会, from: 1954-10, to: 1967, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1954-09, to: 1967, verify: true }
+    - { title: 中共中央政治局候补委员, orgName: 中共中央政治局, from: 1956-09, to: 1969-04, verify: true }
+    - { title: 中央统战部部长, orgName: 中共中央统一战线工作部, from: 1977-05, to: 1982-04, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1977-08, to: 1987-11, verify: true }
+    - { title: 国家副主席, orgName: 中华人民共和国主席, from: 1983-06, to: 1988-04, verify: true }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 内蒙古土默特旗蒙古族人，1925 年入党，留学莫斯科中山大学，1947 年创建内蒙古自治区并主政近二十年，兼任国家民委主任、国务院副总理、华北局第二书记，1955 年授上将。1966 年 5 月至 7 月华北局前门饭店会议上被批判为搞“民族分裂”“修正主义”，撤销职务。1967 年 4 月中央决定称他为“党内走资本主义道路当权派”，此后内蒙古“挖乌兰夫黑线、肃乌兰夫流毒”演变为“内人党”冤案。1973 年复出，1977 年任统战部长、政治局委员，1983 年任国家副主席，1988 年在北京去世。
+  life:
+    - h: 云泽
+      from: 1906
+      to: 1946
+      text: |
+        1906 年 12 月 23 日生于土默特旗塔布赛村，原名云泽。1923 年入北京蒙藏学校，1925 年入党，同年赴莫斯科中山大学，1929 年回国，在绥远做秘密工作，参与 1936 年百灵庙暴动和蒙旗保安部队的组建。抗战后期在延安负责民族工作。
+      verify: true
+    - h: 内蒙古自治区
+      from: 1947
+      to: 1966-04
+      text: |
+        1947 年 5 月内蒙古自治政府成立，他任主席和中共内蒙古分局书记，此后长期任自治区党委第一书记、政府主席、军区司令员兼政委。1954 年起兼任国务院副总理、国家民委主任，1956 年八大当选政治局候补委员，1960 年任华北局第二书记。在牧区推行“不分、不斗、不划阶级”等温和政策，强调蒙古族干部和蒙古语文。
+      verify: true
+    - h: 前门饭店会议
+      from: 1966-05
+      to: 1967-04
+      text: |
+        1966 年 5 月下旬至 7 月下旬，华北局在北京前门饭店开工作会议，内蒙古代表一百余人参加，会上集中批判他“反对毛泽东思想”“搞民族分裂”“搞独立王国”，8 月撤销其党政军职务，由解学恭代理第一书记。1967 年 4 月 13 日中共中央关于处理内蒙问题的决定说：“党内走资本主义道路当权派乌兰夫问题，要在内蒙公开揭露。”他被软禁在北京。
+      cites: [ws-1967-04-13-inner-mongolia]
+      verify: true
+    - h: 内人党冤案
+      from: 1968
+      to: 1969
+      text: |
+        1968 年 4 月 26 日内蒙古革委会给中央的报告说，“在挖乌兰夫黑线、清乌兰夫流毒的斗争中”揪出了“内蒙古人民革命党”的骨干，指称这个党在乌兰夫等人包庇下长期存在。此后的“挖肃”运动在全区大规模刑讯逼供。1980 年起诉书说，内蒙古因“内人党”等冤案“有三十四万六千多名干部、群众遭到诬陷、迫害，一万六千二百二十二人被迫害致死”。
+      cites: [ws-1968-04-26-neirendang-report, ws-1980-indictment]
+    - h: 复出
+      from: 1973
+      to: 1988
+      text: |
+        1973 年 8 月十大当选中央委员，1975 年任全国人大常委会副委员长。1977 年 5 月任中央统战部部长，8 月十一大当选政治局委员。1983 年 6 月当选国家副主席。1988 年 12 月 8 日在北京去世。
+      verify: true
+  assess:
+    - { voice: official1966, text: 党内走资本主义道路当权派乌兰夫问题，要在内蒙公开揭露（1967 年 4 月 13 日中共中央决定）, cite: ws-1967-04-13-inner-mongolia, quote: true }
+    - { voice: official1966, text: 在挖乌兰夫黑线、清乌兰夫流毒的斗争中，广大群众起来，揪出了“内蒙人民革命党”的一些骨干（1968 年内蒙古革委会报告）, cite: ws-1968-04-26-neirendang-report, quote: true }
+    - { voice: judicial1980, text: 中共中央政治局委员和候补委员：刘少奇、朱德、邓小平、彭真、陈毅、彭德怀、贺龙、李先念、谭震林、李井泉、陶铸、徐向前、聂荣臻、叶剑英、乌兰夫（1980 年起诉书所列被诬陷者）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 打倒他的前门饭店会议是刘少奇、邓小平主持中央时召开的；1980 年起诉书只追究了此后康生、谢富治在“内人党”案中的责任。 }
+  factions: [provincial]
+  fate:
+    - { date: 1947-05, s: power, note: 内蒙古自治政府主席, verify: true }
+    - { date: 1966-05, s: attacked, note: 前门饭店会议受批判, verify: true }
+    - { date: 1966-08, s: purged, note: 撤销内蒙古党政军职务, verify: true }
+    - { date: 1967-04-13, s: purged, note: 中央决定公开揭露, cite: ws-1967-04-13-inner-mongolia }
+    - { date: 1973-08, s: restored, note: 当选十届中央委员, verify: true }
+    - { date: 1977-05, s: power, note: 中央统战部部长, verify: true }
+    - { date: 1983-06, s: power, note: 国家副主席, verify: true }
+    - { date: 1988-12-08, s: dead, verify: true }
+  cites: [ws-1967-04-13-inner-mongolia, ws-1968-04-26-neirendang-report, ws-1980-indictment]
+
+- id: teng-haiqing
+  name: 滕海清
+  born: 1909-03-02
+  died: 1997-10-26
+  tier: 3
+  role1966: 北京军区副司令员
+  pinyin: Téng Hǎiqīng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 安徽金寨
+  origin: 安徽金寨
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 内蒙古自治区革委会主任, orgName: 内蒙古自治区革命委员会, from: 1967-11-01, to: 1971-05, verify: true }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1973-08, verify: true }
+    - { title: 济南军区副司令员, orgName: 济南军区, from: 1975, to: 1980, verify: true }
+  rank: { rank: 中将, date: 1955-09 }
+  bio: 安徽金寨人，鄂豫皖红军出身，抗战和解放战争中在新四军四师、华东野战军任旅长、纵队司令员、第二十一军军长。1960 年代任北京军区副司令员。1967 年 4 月中央处理内蒙问题后被派往内蒙古，11 月任自治区革委会主任，主持“挖乌兰夫黑线、肃乌兰夫流毒”，由此酿成“内人党”冤案。1969 年后受到批评，1971 年离开内蒙古。中央认定他负有直接领导责任，但不予追究刑事责任。1975–1980 年任济南军区副司令员，1997 年在北京去世。
+  life:
+    - h: 红军到二十一军
+      from: 1909
+      to: 1966
+      text: |
+        1909 年 3 月 2 日生于安徽金寨，1930 年参加红军，1931 年入党，随红四方面军入川、长征。抗战中在新四军第四师任旅长，解放战争中任华东野战军第二纵队司令员、第三野战军第二十一军军长，参加孟良崮、淮海、渡江等战役。1955 年授中将，后任军事学院高级系副主任、石家庄高级步兵学校校长、北京军区副司令员。
+      verify: true
+    - h: 内蒙古革委会
+      from: 1967-04
+      to: 1968-04
+      text: |
+        1967 年 4 月 13 日中央决定处理内蒙问题后，他以北京军区副司令员身份到内蒙古，主持军区工作并对公安机关实行军管。11 月 1 日内蒙古自治区革委会成立，他任主任。1968 年 4 月 26 日内蒙古革委会给中央的报告抬头写“北京军区（请转滕、吴）”，报告说“此案昨日（25日）上午初步突破。证明‘内蒙古人民革命党’是存在的”，并决定对鲍荫扎布等人“立即采取拘留、隔离的手段”。
+      cites: [ws-1967-04-13-inner-mongolia, ws-1968-04-26-neirendang-report]
+    - h: 挖肃
+      from: 1968-04
+      to: 1971-05
+      text: |
+        1968 年下半年起，“挖肃”在全区展开，大批蒙古族干部群众被指为“内人党”成员，刑讯逼供普遍。1980 年起诉书把责任归于康生、谢富治的唆使，称全区“有三十四万六千多名干部、群众遭到诬陷、迫害，一万六千二百二十二人被迫害致死”；研究者的估计更高。1969 年 5 月中央要求纠正扩大化，12 月起内蒙古实行全面军管，他的实际权力被削弱，1971 年 5 月由尤太忠接任革委会主任。
+      cites: [ws-1980-indictment]
+      verify: true
+    - h: 处理与晚年
+      from: 1971-05
+      to: 1997
+      text: |
+        离开内蒙古后接受审查。文革后中央认为他对“内人党”冤案负有直接领导责任，但考虑到历史背景，不予追究刑事责任。1975–1980 年任济南军区副司令员，1988 年获一级红星功勋荣誉章，1997 年 10 月 26 日在北京去世。
+      verify: true
+  assess:
+    - { voice: official1966, text: 此案昨日（25日）上午初步突破。证明“内蒙古人民革命党”是存在的（1968 年 4 月内蒙古革委会给中央的报告）, cite: ws-1968-04-26-neirendang-report, quote: true }
+    - { voice: judicial1980, text: 在康生、谢富治的唆使下，内蒙古自治区因“内人党”等冤案，有三十四万六千多名干部、群众遭到诬陷、迫害，一万六千二百二十二人被迫害致死（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 起诉书把内人党案的责任归于康生、谢富治，没有点他的名；他是在地方主持这场运动的人，最终没有受审。 }
+  factions: [provincial]
+  fate:
+    - { date: 1967-04, s: rise, note: 奉命到内蒙古主持军区, verify: true }
+    - { date: 1967-11-01, s: power, note: 内蒙古革委会主任, verify: true }
+    - { date: 1968-04-26, s: power, note: 向中央报告“内人党”案“初步突破”, cite: ws-1968-04-26-neirendang-report }
+    - { date: 1971-05, s: sidelined, note: 离开内蒙古，接受审查, verify: true }
+    - { date: 1975, s: restored, note: 济南军区副司令员, verify: true }
+    - { date: 1997-10-26, s: dead, verify: true }
+  cites: [ws-1968-04-26-neirendang-report, ws-1980-indictment]
+
+- id: wei-guoqing
+  name: 韦国清
+  born: 1913-09-02
+  died: 1989-06-14
+  tier: 2
+  role1966: 广西壮族自治区党委第一书记、中南局第二书记
+  pinyin: Wéi Guóqīng
+  gender: m
+  ethnicity: 壮族
+  aka:
+    - { kind: original, name: 韦邦宽 }
+  birthplace: 广西东兰
+  origin: 广西东兰
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 广西区党委第一书记, orgName: 中共广西壮族自治区委员会, from: 1961-07, to: 1975-10, verify: true }
+    - { title: 广州军区第一政治委员, orgName: 广州军区, from: 1966-11, to: 1980-01, verify: true }
+    - { title: 广西壮族自治区革委会主任, orgName: 广西壮族自治区革命委员会, from: 1968-08-26, to: 1975-10, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1973-08, to: 1985-09, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 广东省革委会主任, orgName: 广东省革命委员会, from: 1975-10, to: 1978-12, verify: true }
+    - { title: 总政治部主任, orgName: 中国人民解放军总政治部, from: 1977-08, to: 1982-09, verify: true }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 广西东兰壮族人，百色起义参加红军，抗战中任新四军第四师副师长，解放战争中任华东野战军第二纵队司令员。1950 年代率军事顾问团援越抗法，此后主政广西二十年。文革中被造反派“四二二”攻击，1967 年 11 月中央决定肯定他“态度是好的”，让他主持广西革筹。1968 年 7 月“七三布告”后依靠“联指”和军队镇压“四二二”，广西各地发生大规模屠杀。1968 年 8 月任广西革委会主任，1973 年进政治局，1975 年调主广东，1977 年任总政治部主任。1989 年在北京去世。
+  life:
+    - h: 百色起义到援越
+      from: 1913
+      to: 1955
+      text: |
+        1913 年 9 月 2 日生于广西东兰，原名韦邦宽，1929 年 12 月参加百色起义编入红七军，1931 年入党，到中央苏区，参加长征。抗战中任抗大一分校副校长、新四军第三师第九旅旅长、第四师副师长，解放战争中任华东野战军第二纵队司令员兼政委、苏北兵团司令员。1950 年起任中国驻越南军事顾问团团长，参与指挥奠边府战役。1955 年授上将。
+      verify: true
+    - h: 主政广西
+      from: 1955
+      to: 1966
+      text: |
+        1955 年任广西省省长，1958 年广西改设壮族自治区后任自治区人民委员会主席，1961 年任区党委第一书记，1966 年任中南局第二书记、广州军区第一政委。主持修建防城港等援越工程。
+      verify: true
+    - h: 四二二与联指
+      from: 1967
+      to: 1968-08
+      text: |
+        1967 年广西群众组织分成攻击他的“四二二”和支持他的“联指”。11 月 18 日中央关于广西问题的决定说：“韦国清同志在这次无产阶级文化大革命中虽然犯了一些错误，但是，他不坚持错误，能够诚恳地检查错误，态度是好的”，并建立以他为首的广西革委会筹备小组。1968 年 7 月 3 日中央发布针对广西的“七三布告”，此后“联指”和部分驻军、民兵对“四二二”和所谓“四类分子”大规模围剿，多地发生集体屠杀甚至吃人事件，死亡人数说法不一。
+      cites: [ws-1967-11-18-guangxi-decision, ws-1968-07-24-notice]
+      verify: true
+    - h: 广西革委会到总政
+      from: 1968-08-26
+      to: 1985
+      text: |
+        1968 年 8 月 26 日广西革委会成立，他任主任，1971 年起兼区党委第一书记。1973 年 8 月十大当选政治局委员。1975 年 10 月调任广东省委第一书记、省革委会主任，1977 年 8 月任总政治部主任，在 1977 年十届三中全会公报中列为政治局委员。1982 年 9 月卸任总政治部主任，1985 年退出政治局。1989 年 6 月 14 日在北京去世。
+      cites: [ws-1977-07-tenth-third-plenum]
+      verify: true
+  assess:
+    - { voice: official1966, text: 韦国清同志在这次无产阶级文化大革命中虽然犯了一些错误，但是，他不坚持错误，能够诚恳地检查错误，态度是好的（1967 年中央关于广西问题的决定）, cite: ws-1967-11-18-guangxi-decision, quote: true }
+    - { voice: officialLater, text: 中共中央政治局委员李先念、陈锡联、纪登奎、汪东兴、吴德、许世友、韦国清、李德生、陈永贵同志（1977 年十届三中全会公报）, cite: ws-1977-07-tenth-third-plenum, quote: true }
+    - { voice: editor, text: 1980 年代的审判没有涉及广西的屠杀，他一直任高职到 1985 年；文革后广西的调查和处理主要在地方进行，结论多年未公开。 }
+  factions: [provincial]
+  fate:
+    - { date: 1961-07, s: power, note: 广西区党委第一书记, verify: true }
+    - { date: 1967, s: attacked, note: 被“四二二”攻击, verify: true }
+    - { date: 1967-11-18, s: power, note: 中央决定肯定其检查，主持广西革筹, cite: ws-1967-11-18-guangxi-decision }
+    - { date: 1968-08-26, s: power, note: 广西革委会主任, verify: true }
+    - { date: 1973-08, s: power, note: 当选政治局委员, verify: true }
+    - { date: 1977-08, s: power, note: 总政治部主任, verify: true }
+    - { date: 1989-06-14, s: dead, verify: true }
+  cites: [ws-1967-11-18-guangxi-decision, ws-1977-07-tenth-third-plenum]
+
+- id: cheng-shiqing
+  name: 程世清
+  born: 1918
+  died: 2008-04-29
+  tier: 3
+  role1966: 第二十六军政治委员
+  pinyin: Chéng Shìqīng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河南新县
+  origin: 河南新县
+  deathKind: natural
+  deathPlace: 江西南昌
+  party: 中国共产党
+  positions:
+    - { title: 江西省革委会主任, orgName: 江西省革命委员会, from: 1968-01-05, to: 1972, verify: true }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1973-08, verify: true }
+    - { title: 中共江西省委第一书记, orgName: 中共江西省委员会, from: 1971, to: 1972, verify: true }
+  rank: { rank: 少将, date: 1955-09 }
+  bio: 河南新县人，1929 年参加红军，1949 年后在装甲兵任干部部长、政治部主任，1963 年任第二十六军政委。1967 年率部到江西“支左”，8 月中央改组江西军区，任命他为福州军区副政委兼江西省军区政委，1968 年任江西省革委会主任。在任时邓小平、陈云下放江西。1970 年庐山会议期间往来于毛泽东和林彪之间，九一三事件后以与林彪关系密切被撤职审查、开除党籍，1978 年被捕，后免予起诉。2008 年在南昌去世。
+  life:
+    - h: 红军到装甲兵
+      from: 1918
+      to: 1966
+      text: |
+        1918 年生于河南新县（原属光山），1929 年参加红军，1935 年入党，参加长征。抗战胜利后赴东北，在东北民主联军和第四野战军中任团长、师政治部主任、师政委。1949 年后任军委装甲兵干部部部长、政治部主任，1955 年授少将，1963 年任第二十六军政委。
+      verify: true
+    - h: 江西支左
+      from: 1967
+      to: 1970
+      text: |
+        1967 年江西两派武斗激烈，他奉命率第二十六军一部和坦克团进入江西。8 月 10 日中共中央关于处理江西问题的若干决定批评江西省军区“支持了保守派，镇压了革命派”，决定改组江西军区，任命他为福州军区副政委兼江西省军区政委，并以他为主组成江西省革筹。1968 年 1 月 5 日江西省革委会成立，他任主任，1969 年当选九届中央委员。1969 年 10 月邓小平夫妇被下放到南昌新建县，他曾去看望；陈云也在南昌“蹲点”。
+      cites: [song-yongyi-database]
+      verify: true
+    - h: 庐山与九一三
+      from: 1970-08
+      to: 1982
+      text: |
+        1970 年 8 月庐山九届二中全会期间曾在毛泽东和林彪之间传话，此前发表过《在林彪副主席家作客》一文。据他晚年的说法，九一三事件前曾向毛泽东报告“林彪可能要逃跑”。事件后被认为“上了林彪的贼船”，1971 年撤职隔离审查，后被开除党籍，1978 年被逮捕，1982 年获释，免予起诉。
+      verify: true
+    - h: 晚年
+      from: 1982
+      to: 2008
+      text: |
+        获释后作离休处理，长期在南昌居住，2008 年 4 月 29 日去世。
+      verify: true
+  assess:
+    - { voice: official1966, text: 1967 年 8 月中央关于处理江西问题的决定批评原江西军区某些领导人“支持了保守派，镇压了革命派”，改组军区，任命程世清为福州军区副政委兼江西省军区政委。, cite: song-yongyi-database }
+    - { voice: editor, text: 本站语料中暂无江西决定原文，上条据宋永毅主编的《中国文化大革命文库》所收文本概括；他在九一三事件前后的作用主要来自他晚年的自述，未见官方文件印证。 }
+  factions: [lin, provincial]
+  fate:
+    - { date: 1967-08-10, s: rise, note: 中央任命为江西省军区政委, cite: song-yongyi-database }
+    - { date: 1968-01-05, s: power, note: 江西省革委会主任, verify: true }
+    - { date: 1969-04, s: power, note: 九届中央委员, verify: true }
+    - { date: 1971, s: purged, note: 九一三事件后撤职审查, verify: true }
+    - { date: 1978-10, s: detained, note: 被逮捕, verify: true }
+    - { date: 1982-01, s: restored, note: 获释，免予起诉, verify: true }
+    - { date: 2008-04-29, s: dead, verify: true }
+  cites: [song-yongyi-database]

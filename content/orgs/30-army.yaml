@@ -112,7 +112,8 @@
   verify: true
   leaders:
     - { name: 杨得志, title: 司令员, from: 1955-02, to: 1973-12 }
-    - { name: 曾思玉, title: 司令员, from: 1973-12, to: 1985 }
+    - { name: 曾思玉, title: 司令员, from: 1973-12, to: 1980-01 }
+    - { name: 饶守坤, title: 司令员, from: 1980-01, to: 1985 }
     - { name: 李九龙, title: 司令员, from: 1985 }
 
 - id: nanjing-mr
