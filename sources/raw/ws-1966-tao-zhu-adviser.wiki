@@ -1,0 +1,17 @@
+{{Header
+| title = 
+| noauthor = 中国共产党第八届中央委员会
+| year = 1966
+| month = 8
+| day = 2
+| 发文字号 = 中发〔66〕392号
+| type = 中国共产党第八届中央委员会的决定
+| theme = 文化大革命
+| theme2 = 劳动、人事、监察\人事工作
+| previous = 
+| from = 
+| notes = 
+}}
+　　中央决定陶铸同志兼任中央文化革命小组顾问。特此通知。
+
+{{PD-PRC-CPC}}
