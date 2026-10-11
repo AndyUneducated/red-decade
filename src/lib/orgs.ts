@@ -19,6 +19,16 @@ function nearest<T extends Span>(xs: T[], t: number): T | undefined {
   return first.from && t < toT(first.from) ? first : xs.reduce((a, b) => (toT(a.from ?? '0') >= toT(b.from ?? '0') ? a : b))
 }
 
+// Spans laid end to end: an open end runs to the next entry's start, or to hi.
+export type Seg<T> = { s: T; a: number; b: number }
+export function segments<T extends Span>(xs: T[], lo: number, hi: number): Seg<T>[] {
+  const sorted = [...xs].sort((u, v) => (u.from ? toT(u.from) : lo) - (v.from ? toT(v.from) : lo))
+  return sorted.map((s, i) => {
+    const next = sorted[i + 1]?.from
+    return { s, a: s.from ? toT(s.from) : lo, b: s.to ? toT(s.to, true) : next ? toT(next) : hi }
+  })
+}
+
 export const parentAt = (o: Org, t: number) => nearest(o.under, t)?.org
 export const placeAt = (o: Org, t: number) => nearest(o.places, t)?.at
 

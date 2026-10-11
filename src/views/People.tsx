@@ -3,6 +3,7 @@ import { useMemo, useRef, useState } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
 import { AgeRuler, IdCard, ProfileTimeline } from '../components/Dossier'
 import { ClaimLinks, EventList, FateLine, RelationList } from '../components/Drawer'
+import { Footprint } from '../components/Footprint'
 import { LifeStrip } from '../components/LifeStrip'
 import { PersonFacts, PositionList } from '../components/PersonFacts'
 import { statusAt } from '../data/atlas'
@@ -239,6 +240,12 @@ function Profile({ id }: { id: string }) {
                 <h3>年龄标尺</h3>
                 <AgeRuler p={p} />
               </section>
+              {(p.birthAt || p.deathAt || p.positions.some((x) => x.org)) && (
+                <section>
+                  <h3>足迹地图</h3>
+                  <Footprint p={p} />
+                </section>
+              )}
               {p.positions.length > 0 && (
                 <section>
                   <h3>职务</h3>

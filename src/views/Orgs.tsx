@@ -7,7 +7,7 @@ import { LONG_MARKS, Scrubber } from '../components/Scrubber'
 import type { Tenure } from '../data/atlas'
 import { ORG_KINDS, ORG_LEVELS, type Org, type OrgKind, type OrgLink } from '../data/schema'
 import { fmtDate, fmtRange, fmtT, toT } from '../lib/dates'
-import { existsAt, isHead, KIND_ORDER, LEVEL_ORDER, parentAt, placeAt, suspendedAt, within } from '../lib/orgs'
+import { existsAt, isHead, KIND_ORDER, LEVEL_ORDER, parentAt, placeAt, segments, suspendedAt, within } from '../lib/orgs'
 import { heldAt } from '../lib/positions'
 import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
@@ -214,15 +214,6 @@ function Directory() {
 }
 
 // ── org page ─────────────────────────────────────────────
-
-type Seg<T> = { s: T; a: number; b: number }
-function segments<T extends { from?: string; to?: string }>(xs: T[], lo: number, hi: number): Seg<T>[] {
-  const sorted = [...xs].sort((u, v) => (u.from ? toT(u.from) : lo) - (v.from ? toT(v.from) : lo))
-  return sorted.map((s, i) => {
-    const next = sorted[i + 1]?.from
-    return { s, a: s.from ? toT(s.from) : lo, b: s.to ? toT(s.to, true) : next ? toT(next) : hi }
-  })
-}
 
 const ROW = 13
 const LBL = 40

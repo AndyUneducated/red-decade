@@ -246,10 +246,10 @@
     - { title: 在中央工作会议上的检讨, date: 1966-10-23, cite: ws-1966-10-liu-self-criticism }
   factions: [frontline]
   fate:
-    - { date: 1921, s: normal, note: 在莫斯科加入中国共产党, cite: ws-1980-02-29-liu-rehab }
-    - { date: 1925-12, s: detained, note: 在长沙被赵恒惕逮捕, cite: ws-1980-02-29-liu-rehab }
+    - { date: 1921, s: normal, note: 在莫斯科加入中国共产党, place: moscow, cite: ws-1980-02-29-liu-rehab }
+    - { date: 1925-12, s: detained, note: 在长沙被赵恒惕逮捕, place: changsha, cite: ws-1980-02-29-liu-rehab }
     - { date: 1926-01-16, s: normal, note: 经各方营救获释，转赴广州, cite: ws-1980-02-29-liu-rehab }
-    - { date: 1929-08-22, s: detained, note: 在沈阳奉天纱厂被捕, cite: ws-1980-02-29-liu-rehab }
+    - { date: 1929-08-22, s: detained, note: 在沈阳奉天纱厂被捕, place: shenyang, cite: ws-1980-02-29-liu-rehab }
     - { date: 1929-09, s: normal, note: 关押半个多月后取保释放, cite: ws-1980-02-29-liu-rehab }
     - { date: 1936, s: rise, note: 以中央代表身份主持北方局, verify: true }
     - { date: 1943-03, s: power, note: 中央书记处书记，党内地位仅次于毛, verify: true }
@@ -258,7 +258,7 @@
     - { date: 1966-12-25, s: purged, note: 清华蒯大富等在张春桥授意下公开喊出“打倒刘少奇”, cite: ws-1980-indictment }
     - { date: 1967-07, s: detained, note: 江青、康生、陈伯达决定剥夺其行动自由（平反决议则说 1966 年冬已被隔离）, cite: ws-1981-01-25-judgment }
     - { date: 1968-10, s: purged, note: 八届十二中全会“永远开除出党”, cite: ws-1980-02-29-liu-rehab }
-    - { date: 1969-10, s: detained, note: 重病中被押送开封“监护”, cite: ws-1980-02-29-liu-rehab }
+    - { date: 1969-10, s: detained, note: 重病中被押送开封“监护”, place: kaifeng, cite: ws-1980-02-29-liu-rehab }
     - { date: 1969-11-12, s: dead, cite: ws-1980-02-29-liu-rehab }
   cites: [ws-1966-10-liu-self-criticism, ws-1968-liu-case-report, ws-1980-02-29-liu-rehab, ws-1980-indictment, ws-1981-01-25-judgment, ws-1981-resolution]
 
@@ -368,7 +368,7 @@
     - { title: 政府工作报告（四届人大）, date: 1975-01-13 }
   factions: [premier]
   fate:
-    - { date: 1920-01, s: detained, note: 天津请愿被捕，关押半年, verify: true }
+    - { date: 1920-01, s: detained, note: 天津请愿被捕，关押半年, place: tianjin, verify: true }
     - { date: 1921, s: normal, note: 在巴黎加入共产主义小组, verify: true }
     - { date: 1924-11, s: rise, note: 黄埔军校政治部主任, verify: true }
     - { date: 1927-08-01, s: rise, note: 领导南昌起义, verify: true }
@@ -623,7 +623,7 @@
     - { date: 1956-09, s: power, note: 政治局常委、总书记 }
     - { date: 1966-10-23, s: attacked, note: 中央工作会议上作检讨, verify: true }
     - { date: 1966-12-06, s: purged, note: 林彪称其“黑帮分子”, cite: ws-1980-indictment }
-    - { date: 1969-10, s: detained, note: 下放江西新建县, verify: true }
+    - { date: 1969-10, s: detained, note: 下放江西新建县, place: nanchang-xinjian, verify: true }
     - { date: 1973-03, s: restored, note: 恢复国务院副总理职务, cite: ws-1997-02-19-deng-message }
     - { date: 1975-01, s: power, note: 主持党政军日常工作，开展整顿, cite: ws-1997-02-19-deng-message }
     - { date: 1976-04-07, s: purged, note: 天安门事件后再次被撤销一切职务, cite: ws-1981-resolution }
@@ -709,8 +709,8 @@
     - { title: 无产阶级文化大革命中的两条路线, date: 1966-10-16 }
   factions: [ccrg]
   fate:
-    - { date: 1927, s: normal, note: 入党，赴莫斯科学习, verify: true }
-    - { date: 1931, s: detained, note: 在北平被捕，次年获释, cite: ws-1971-12-lin-chen-material-1, verify: true }
+    - { date: 1927, s: normal, note: 入党，赴莫斯科学习, place: moscow, verify: true }
+    - { date: 1931, s: detained, note: 在北平被捕，次年获释, place: beijing, cite: ws-1971-12-lin-chen-material-1, verify: true }
     - { date: 1932, s: normal, note: 获释后在北平任教, verify: true }
     - { date: 1939, s: rise, note: 任毛泽东政治秘书, verify: true }
     - { date: 1956-09, s: rise, note: 八大政治局候补委员, verify: true }
@@ -906,9 +906,9 @@
   factions: [ccrg]
   fate:
     - { date: 1933, s: normal, note: 在青岛入党, verify: true }
-    - { date: 1934-10, s: detained, note: 在上海被捕，数月后出狱, verify: true }
+    - { date: 1934-10, s: detained, note: 在上海被捕，数月后出狱, place: shanghai, verify: true }
     - { date: 1935, s: normal, note: 出狱后在上海演剧, verify: true }
-    - { date: 1937-08, s: normal, note: 到延安, verify: true }
+    - { date: 1937-08, s: normal, note: 到延安, place: yanan, verify: true }
     - { date: 1963, s: rise, note: 介入京剧改革, verify: true }
     - { date: 1965-11-10, s: rise, note: 组织写作的姚文元文章发表, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
     - { date: 1966-02-02, s: rise, note: 主持部队文艺工作座谈会, cite: ws-1966-05-16-notice-attachment@1966-02-02 }
@@ -1378,7 +1378,7 @@
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
     - { date: 1966-07-16, s: power, note: 陪同毛泽东畅游长江, cite: rmrb-1966-07-25-yangtze }
     - { date: 1966-12, s: purged, verify: true }
-    - { date: 1967-07-26, s: purged, note: 武汉军区公告定为七二〇事件“罪魁祸首”, cite: ws-1967-07-26-wuhan-notice }
+    - { date: 1967-07-26, s: purged, note: 武汉军区公告定为七二〇事件“罪魁祸首”, place: wuhan, cite: ws-1967-07-26-wuhan-notice }
     - { date: 1978, s: restored, note: 陕西省委第一书记, verify: true }
     - { date: 1978-12-22, s: restored, note: 增补为中央委员, cite: ws-1978-12-third-plenum }
     - { date: 1992-03-16, s: dead }
@@ -1533,7 +1533,7 @@
   fate:
     - { date: 1926, s: normal, note: 入党，入黄埔军校, verify: true }
     - { date: 1927-12, s: normal, note: 参加广州起义, verify: true }
-    - { date: 1933, s: detained, note: 在上海被捕，关押南京, verify: true }
+    - { date: 1933, s: detained, note: 在上海被捕，关押南京, place: nanjing, verify: true }
     - { date: 1937, s: normal, note: 国共合作后获释, verify: true }
     - { date: 1945, s: rise, note: 赴东北任省委书记, verify: true }
     - { date: 1955, s: power, note: 广东省委第一书记, verify: true }
@@ -1541,7 +1541,7 @@
     - { date: 1966-06, s: rise, note: 调任中宣部部长, verify: true }
     - { date: 1966-08, s: power, note: 政治局常委，排名第四, cite: ws-1966-tao-zhu-adviser }
     - { date: 1967-01-04, s: purged, note: 陈伯达、江青公开宣布其为“保皇派”, verify: true }
-    - { date: 1969-10, s: detained, note: 病中被押送合肥, verify: true }
+    - { date: 1969-10, s: detained, note: 病中被押送合肥, place: hefei, verify: true }
     - { date: 1969-11-30, s: dead }
   cites: [ws-1966-tao-zhu-adviser, ws-1978-12-third-plenum, ws-1981-resolution]
 
@@ -1642,7 +1642,7 @@
   factions: [plly, bjcommittee]
   fate:
     - { date: 1923, s: normal, note: 在太原入党, verify: true }
-    - { date: 1929-06, s: detained, note: 在天津被捕, verify: true }
+    - { date: 1929-06, s: detained, note: 在天津被捕, place: tianjin, verify: true }
     - { date: 1935, s: normal, note: 刑满出狱，协助北方局工作, verify: true }
     - { date: 1938, s: rise, note: 晋察冀分局书记, verify: true }
     - { date: 1945-06, s: power, note: 七大当选政治局委员, verify: true }
@@ -1910,7 +1910,7 @@
     - { voice: officialLater, text: 伟大的无产阶级革命家、政治家、军事家，坚定的马克思主义者，党、国家和人民军队的卓越领导人（1998 年讣告）, cite: ws-1998-09-yang-shangkun-obituary, quote: true }
   factions: [plly]
   fate:
-    - { date: 1926, s: normal, note: 入党，赴莫斯科中山大学, cite: ws-1998-09-yang-shangkun-obituary }
+    - { date: 1926, s: normal, note: 入党，赴莫斯科中山大学, place: moscow, cite: ws-1998-09-yang-shangkun-obituary }
     - { date: 1931, s: rise, note: 回国任中宣部长, cite: ws-1998-09-yang-shangkun-obituary }
     - { date: 1934-01, s: rise, note: 红三军团政委、中央候补委员, cite: ws-1998-09-yang-shangkun-obituary }
     - { date: 1937-11, s: power, note: 北方局书记, cite: ws-1998-09-yang-shangkun-obituary }
@@ -2036,8 +2036,8 @@
     - { date: 1950-10, s: power, note: 志愿军司令员, verify: true }
     - { date: 1954-09, s: power, note: 国防部长 }
     - { date: 1959-08-16, s: purged, note: 八届八中全会定为“反党集团”头子, cite: ws-1959-08-16-peng-resolution }
-    - { date: 1965-11, s: sidelined, note: 调往成都三线, verify: true }
-    - { date: 1966-12, s: detained, note: 被北京红卫兵从成都揪回, verify: true }
+    - { date: 1965-11, s: sidelined, note: 调往成都三线, place: chengdu, verify: true }
+    - { date: 1966-12, s: detained, note: 被北京红卫兵从成都揪回, place: beijing, verify: true }
     - { date: 1974-11-29, s: dead, cite: ws-1980-indictment }
   cites: [ws-1959-08-16-peng-resolution, ws-1966-05-16-notice-attachment@1965-12-21, ws-1967-08-16-peng-dehuai, ws-1978-12-third-plenum, ws-1980-indictment, ws-1981-resolution]
 
@@ -2242,7 +2242,7 @@
   factions: [marshals]
   fate:
     - { date: 1909, s: normal, note: 入云南陆军讲武堂, verify: true }
-    - { date: 1911-10, s: normal, note: 参加昆明重九起义, verify: true }
+    - { date: 1911-10, s: normal, note: 参加昆明重九起义, place: kunming, verify: true }
     - { date: 1916, s: rise, note: 护国战争，升任滇军旅长, verify: true }
     - { date: 1922-11, s: normal, note: 柏林入党, verify: true }
     - { date: 1927-08-01, s: rise, note: 参加南昌起义, verify: true }
@@ -2355,7 +2355,7 @@
     - { date: 1958-02, s: power }
     - { date: 1967-02, s: attacked, note: “二月逆流”, cite: ws-1981-resolution }
     - { date: 1967-08-07, s: attacked, note: 王力称“揪陈毅大方向当然对”, cite: ws-1980-indictment }
-    - { date: 1969-10, s: sidelined, note: 疏散到石家庄, verify: true }
+    - { date: 1969-10, s: sidelined, note: 疏散到石家庄, place: shijiazhuang, verify: true }
     - { date: 1972-01-06, s: dead }
   cites: [ws-1980-indictment, ws-1981-resolution]
 
@@ -2637,7 +2637,7 @@
   factions: [bjcommittee]
   fate:
     - { date: 1930, s: normal, note: 在上海入党, verify: true }
-    - { date: 1933, s: detained, note: 在上海被捕, verify: true }
+    - { date: 1933, s: detained, note: 在上海被捕, place: shanghai, verify: true }
     - { date: 1938, s: rise, note: 主持《抗敌报》, verify: true }
     - { date: 1949, s: power, note: 《人民日报》总编辑, verify: true }
     - { date: 1957-04, s: attacked, note: 毛泽东批评《人民日报》“死人办报”, cite: ws-1968-09-01-news-front }
@@ -3952,7 +3952,7 @@
     - { date: 1966-12-18, s: power, note: 张春桥单独接见, cite: ws-1980-indictment }
     - { date: 1967-04-20, s: power, note: 北京市革委会常委, cite: ws-1982-12-kuai-dafu-case, verify: true }
     - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖, verify: true }
-    - { date: 1968-12, s: sidelined, note: 分配到宁夏三〇四厂, cite: ws-1982-12-kuai-dafu-case }
+    - { date: 1968-12, s: sidelined, note: 分配到宁夏三〇四厂, place: yinchuan, cite: ws-1982-12-kuai-dafu-case }
     - { date: 1970, s: detained, note: 清查“五一六”, verify: true }
     - { date: 1978-04-19, s: detained, note: 逮捕, cite: ws-1982-12-kuai-dafu-case }
     - { date: 1983, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-12-kuai-dafu-case, verify: true }

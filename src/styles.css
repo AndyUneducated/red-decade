@@ -1355,6 +1355,46 @@ h2.sec {
   overflow: hidden;
 }
 
+.fp-map {
+  display: block;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+.fp-list {
+  margin-top: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+  font-size: 12.5px;
+}
+.fp-list button {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+.fp-list time {
+  min-width: 92px;
+}
+.fp-list b {
+  font-weight: 500;
+}
+.fp-list li[data-now] b {
+  color: var(--accent);
+  font-weight: 600;
+}
+.fp-list .far {
+  color: var(--muted);
+  font-size: 11.5px;
+}
+.fp-what {
+  padding-left: 100px;
+  color: var(--ink-2);
+  font-size: 11.5px;
+}
+.fp-what em {
+  font-style: normal;
+  color: var(--muted);
+}
+
 /* ── orgs ──────────────────────────────────────────── */
 .org-row[data-off] {
   opacity: 0.5;
