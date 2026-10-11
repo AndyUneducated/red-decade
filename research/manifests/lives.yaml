@@ -142,3 +142,14 @@ wikisource:
     kind: essay
     alias: 燕山夜话·第五集
     note: 1961–1962 年《北京晚报》专栏结集的第五集，收《说大话的故事》《为李三才辩护》《燕山碧血》等 28 篇；《伟大的空话》不在本集。1966 年 5 月起整部《燕山夜话》被定为“反党反社会主义”的“黑话”。
+  # 中宣部、新闻界（第四批）
+  - id: ws-1968-09-01-news-front
+    title: 把新闻战线的大革命进行到底
+    date: 1968-09-01
+    author: 《人民日报》、《红旗》杂志、《解放军报》编辑部
+    kind: editorial
+  - id: ws-1967-red-flag-index
+    title: 红旗/1967年
+    date: 1967
+    author: 红旗杂志
+    kind: index

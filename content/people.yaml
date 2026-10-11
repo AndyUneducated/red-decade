@@ -2599,9 +2599,9 @@
       from: 1949
       to: 1958
       text: |
-        1949 年起任《人民日报》总编辑，后兼社长。1957 年春整风前后，毛泽东批评《人民日报》对最高国务会议讲话宣传不力，是“书生办报”乃至“死人办报”；1958 年调离（待核）。
+        1949 年起任《人民日报》总编辑，后兼社长。1957 年 4 月，毛泽东批评《人民日报》不登宣传工作会议的消息、不为最高国务会议发社论：“过去说是书生办报，现在应当说是死人办报。”（据 1968 年两报一刊文章所引，该文称邓拓“在党报上封锁毛主席的声音”。）1958 年调离（待核）。
       verify: true
-      cites: [ccp-figures-bios]
+      cites: [ccp-figures-bios, ws-1968-09-01-news-front]
     - h: 《燕山夜话》与《三家村札记》
       from: 1958
       to: 1965
@@ -2638,7 +2638,7 @@
     - { date: 1933, s: detained, note: 在上海被捕, verify: true }
     - { date: 1938, s: rise, note: 主持《抗敌报》, verify: true }
     - { date: 1949, s: power, note: 《人民日报》总编辑, verify: true }
-    - { date: 1957-04, s: attacked, note: 毛泽东批评“书生办报”, verify: true }
+    - { date: 1957-04, s: attacked, note: 毛泽东批评《人民日报》“死人办报”, cite: ws-1968-09-01-news-front }
     - { date: 1958, s: power, note: 调任北京市委书记处书记, verify: true }
     - { date: 1966-04-16, s: attacked, note: 《北京日报》三版材料, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
     - { date: 1966-05-10, s: purged, note: 姚文元《评“三家村”》, cite: ws-1966-05-16-notice-attachment@1966-05-10 }
@@ -2963,104 +2963,485 @@
 # ── 中宣部“阎王殿” ──────────────────────────────────────────
 - id: zhou-yang
   name: 周扬
+  pinyin: Zhōu Yáng
+  aka:
+    - { kind: original, name: 周起应 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖南益阳
+  origin: 湖南益阳
   born: 1908-11-07
   died: 1989-07-31
+  deathKind: natural
+  deathPlace: 北京
+  education:
+    - { school: 上海大夏大学, from: 1925, to: 1928, verify: true }
+  party: 中国共产党
+  joinedParty: 1927
+  positions:
+    - { title: 中国左翼作家联盟党团书记, orgName: 左联, from: 1933, to: 1936, verify: true }
+    - { title: 鲁迅艺术学院副院长、院长, orgName: 鲁迅艺术学院, from: 1939, to: 1945, verify: true }
+    - { title: 中共中央宣传部副部长（主管文艺）, orgName: 中共中央宣传部, from: 1949, to: 1966-07, verify: true, note: 1965 年 11 月大事记称“中宣部副部长周扬” }
+    - { title: 中国社会科学院副院长, orgName: 中国社会科学院, from: 1977, to: 1982, verify: true }
+    - { title: 中国文学艺术界联合会主席, orgName: 中国文联, from: 1979-11, to: 1988, verify: true }
   tier: 2
   role1966: 中宣部副部长、文艺界主管
-  bio: 1966 年 1 月仍在《红旗》发表文章；7 月《红旗》刊出《周扬颠倒历史的一支暗箭》，被定为“文艺黑线”代表人物。《海瑞上疏》“是周扬同志亲自向上海京剧院布置的”（官方大事记）。
+  bio: 1930 年代上海左联的党内负责人，与鲁迅关系紧张，提出“国防文学”口号引发“两个口号”论争。延安时期主持鲁迅艺术学院，建国后任中宣部副部长十七年，是文艺界的实际主管。1966 年 7 月《红旗》点名后被定为“文艺黑线”的代表人物，1967 年 1 月姚文元发表《评反革命两面派周扬》。关押近九年，1975 年获释，复出后任社科院副院长、文联主席。1983 年因讨论“异化”与人道主义受批评，此后卧病，1989 年去世。
+  life:
+    - h: 益阳、上海与左联
+      from: 1908
+      to: 1937
+      text: |
+        1908 年 11 月 7 日生于湖南益阳，原名周起应。1925 年入上海大夏大学，1927 年入党，1928 年赴日本留学。回国后参加中国左翼作家联盟，1933 年起任左联党团书记，与鲁迅关系日渐紧张。1936 年提出“国防文学”口号，鲁迅等人提出“民族革命战争的大众文学”，形成“两个口号”论争（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 延安与鲁艺
+      from: 1937
+      to: 1949
+      text: |
+        1937 年到延安，任陕甘宁边区教育厅厅长，后任鲁迅艺术学院副院长、院长。1944 年编成《马克思主义与文艺》，按毛泽东《在延安文艺座谈会上的讲话》的精神选编经典作家论文艺的言论（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 文艺界主管
+      from: 1949
+      to: 1965
+      text: |
+        建国后任中宣部副部长，兼文化部副部长、中国文联副主席等职，主持胡风批判、文艺界反右等历次运动（待核）。1963–1964 年毛泽东对文艺工作两次批示后，主持文艺界整风（待核）。
+
+        据《五·一六通知》附件大事记，1965 年 11 月 28 日彭真开会讨论北京报纸转载姚文元文章时，中宣部副部长周扬在座；大事记还说京剧《海瑞上疏》“是周扬同志亲自向上海京剧院布置的”。1966 年 1 月 1 日《红旗》第一期仍刊出他的文章《高举毛泽东思想红旗 做又会劳动又会创作的文艺战士》。
+      verify: true
+      cites: [ccp-figures-bios, ws-1966-05-16-notice-attachment@1965-11-28, ws-1966-05-16-notice-attachment@1966-01-02, ws-1966-red-flag-index]
+    - h: “文艺黑线”的代表
+      from: 1966
+      to: 1967
+      text: |
+        1966 年 4 月中央批发的《部队文艺工作座谈会纪要》称“国防文学”是“资产阶级的口号”，未点名地指向周扬。7 月 1 日《红旗》第九期同时刊出《周扬颠倒历史的一支暗箭》和《“国防文学”是王明右倾机会主义路线的口号》，周扬被公开点名；此后《红旗》又刊出许广平《不许周扬攻击和诬蔑鲁迅》。11 月《红旗》纪念鲁迅的社论说鲁迅“不顾周扬们的欺骗攻击，他始终坚定地跟着毛主席走”。
+
+        1967 年 1 月 1 日《红旗》第一期发表姚文元《评反革命两面派周扬》。5 月《红旗》社论称京剧界长期处于“以周扬、齐燕铭、夏衍、林默涵为代表的文艺界反革命修正主义路线的统治之下”。1980 年起诉书把他列入被诬陷的中共中央委员、候补中央委员和全国政协常委名单。
+      cites: [ws-1966-03-army-arts, ws-1966-red-flag-index, ws-1966-11-01-luxun, ws-1967-red-flag-index, ws-1967-05-10-opera, ws-1980-indictment]
+    - h: 关押与复出
+      from: 1966
+      to: 1982
+      text: |
+        1966 年底被关押，后囚于秦城监狱；1975 年 7 月经毛泽东批示获释（待核）。1977 年起任中国社会科学院副院长，1979 年第四次文代会上当选中国文联主席，并任中宣部顾问（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: “异化”讨论与晚年
+      from: 1983
+      to: 1989
+      text: |
+        1983 年 3 月在纪念马克思逝世一百周年学术报告会上作《关于马克思主义的几个理论问题的探讨》，讨论社会主义社会中的“异化”和人道主义，同年秋在“清除精神污染”中受批评并作检讨（待核）。此后卧病，1989 年 7 月 31 日在北京去世。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: official1966, text: 《海瑞上疏》的创作，是周扬同志亲自向上海京剧院布置的（《五·一六通知》附件大事记）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: official1966, text: 不顾周扬们的欺骗攻击，他始终坚定地跟着毛主席走（1966 年 11 月《红旗》社论《纪念我们的文化革命先驱鲁迅》）, cite: ws-1966-11-01-luxun, quote: true }
+    - { voice: official1966, text: 反革命修正主义分子陆定一、周扬和当时的中央宣传部常务副部长胡××等（1967 年 4 月戚本禹《爱国主义还是卖国主义？》）, cite: rmrb-1967-04-01-qi-benyu, quote: true }
+    - { voice: official1966, text: 以周扬、齐燕铭、夏衍、林默涵为代表的文艺界反革命修正主义路线（1967 年 5 月《红旗》社论《欢呼京剧革命的伟大胜利》）, cite: ws-1967-05-10-opera, quote: true }
+  works:
+    - { title: 马克思主义与文艺（编）, date: 1944 }
+    - { title: 高举毛泽东思想红旗 做又会劳动又会创作的文艺战士, date: 1966-01-01, cite: ws-1966-red-flag-index }
+    - { title: 关于马克思主义的几个理论问题的探讨, date: 1983-03 }
   factions: [propdept]
   fate:
-    - { date: 1949, s: power }
-    - { date: 1966-07-01, s: purged, cite: ws-1966-red-flag-index }
+    - { date: 1927, s: normal, note: 入党, verify: true }
+    - { date: 1933, s: rise, note: 左联党团书记, verify: true }
+    - { date: 1949, s: power, note: 中宣部副部长, verify: true }
+    - { date: 1966-07-01, s: purged, note: 《红旗》点名, cite: ws-1966-red-flag-index }
     - { date: 1966-12, s: detained, verify: true }
-    - { date: 1975-07, s: restored, verify: true }
+    - { date: 1975-07, s: restored, note: 获释, verify: true }
+    - { date: 1979-11, s: power, note: 中国文联主席, verify: true }
+    - { date: 1983-11, s: attacked, note: “清除精神污染”中受批评, verify: true }
     - { date: 1989-07-31, s: dead }
-  cites: [ws-1966-red-flag-index, ws-1966-05-16-notice-attachment@1966-01-02]
+  cites: [ws-1966-03-army-arts, ws-1966-05-16-notice-attachment, ws-1966-red-flag-index, ws-1966-11-01-luxun, ws-1967-red-flag-index, rmrb-1967-04-01-qi-benyu, ws-1967-05-10-opera, ws-1980-indictment]
 
 - id: xu-liqun
   name: 许立群
+  pinyin: Xǔ Lìqún
+  gender: m
   born: 1917
   died: 2000
+  deathKind: natural
+  party: 中国共产党
+  positions:
+    - { title: 中共中央宣传部副部长, orgName: 中共中央宣传部, from: 1961, to: 1966-05, verify: true, note: 1965 年 11 月大事记称“中宣部副部长” }
+    - { title: 文化革命五人小组办公室主任, orgName: 文化革命五人小组, from: 1966-02, to: 1966-05-16, cite: ws-1966-02-outline }
   tier: 3
   role1966: 中宣部副部长、五人小组办公室主任
-  bio: 与姚溱在钓鱼台起草《二月提纲》。1966 年 1 月 17 日召集三报三刊会议，要求“有领导地造成'一场混战'”。
+  bio: 中宣部副部长，《二月提纲》的两位执笔者之一。据《五·一六通知》附件大事记，1966 年 1 月他召集三报三刊会议，按彭真指示把学术批判“管起来”，压下关锋、戚本禹批判《海瑞罢官》“要害”的文章；2 月 4 日与姚溱在钓鱼台起草《二月提纲》，并任五人小组办公室主任；毛泽东在 2 月 8 日的汇报中当面驳回他对关锋的攻击。5 月随中宣部被打倒。早年和晚年经历待核。
+  life:
+    - h: 早年与中宣部
+      from: 1917
+      to: 1965
+      text: |
+        1917 年生。早年参加学生运动和青年工作，建国后长期在中共中央宣传部工作，1960 年代初任副部长，分管理论宣传（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 压稿与“一场混战”
+      from: 1965
+      to: 1966
+      text: |
+        据《五·一六通知》附件大事记：1965 年 11 月 28 日彭真开会讨论转载姚文元文章，许立群在座。1966 年 1 月 13 日《人民日报》刊出思彤（王若水）提到“要害是罢官”的文章，几天后许立群责问为什么要讲庐山会议和要害问题。1 月 17 日他召集《人民日报》《光明日报》《北京日报》《红旗》《前线》《新建设》六个编辑部开会，称根据彭真指示要把三报三刊的学术批判“管起来”，并主张同时讨论历史人物、道德继承等问题，“有领导地造成‘一场混战’”。1 月 18 日至 27 日戚本禹问批判要害的文章能否发表，他答：“攻要害的文章不止你一篇，别人还有，现在都不能发表。”
+      cites: [ws-1966-05-16-notice-attachment@1965-11-28, ws-1966-05-16-notice-attachment@1966-01-13, ws-1966-05-16-notice-attachment@1966-01-17]
+    - h: 起草《二月提纲》
+      from: 1966
+      to: 1966
+      text: |
+        1966 年 2 月 3 日五人小组扩大会后，彭真要许立群和姚溱起草汇报提纲。2 月 4 日两人在钓鱼台“关起门来”起草，连同住一楼的五人小组成员康生、吴冷西也不知情。2 月 5 日政治局常委会和 2 月 8 日向毛泽东汇报时，都由许立群口头汇报；大事记称，他攻击关锋的杂文时，毛泽东说：“写点杂文有什么关系。”提纲规定五人小组设办公室，“许立群同志为主任”。
+
+        2 月 18 日他与胡绳在北京召集学术界和报刊负责人传达提纲，3 月 1 日以本人名义发出《学术批判问题座谈会讨论简况》，称提纲是“学术界兴无灭资的纲领性文件”。3 月 11 日彭真让他打电话给上海市委宣传部长杨永直，说“学阀没有具体指是什么人”。
+      cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-02-04, ws-1966-05-16-notice-attachment@1966-02-08, ws-1966-05-16-notice-attachment@1966-02-18, ws-1966-05-16-notice-attachment@1966-03-01, ws-1966-05-16-notice-attachment@1966-03-11]
+    - h: 倒台与晚年
+      from: 1966
+      to: 2000
+      text: |
+        1966 年 5 月《五·一六通知》撤销《二月提纲》和五人小组后，随中宣部一同被打倒，长期受审查（待核）。文革后恢复工作，2000 年去世（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: doc, text: 办公室由许立群、胡绳、吴冷西、姚溱、王力、范若愚等同志组成。许立群同志为主任，胡绳同志负责主持学术方面的工作（《二月提纲》）, cite: ws-1966-02-outline, quote: true }
+    - { voice: official1966, text: 许立群同志答复：攻要害的文章不止你一篇，别人还有，现在都不能发表（《五·一六通知》附件大事记）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: official1966, text: 当许立群同志攻击关锋同志的杂文时，毛主席明确地顶了回去，说：“写点杂文有什么关系。”（同上）, cite: ws-1966-05-16-notice-attachment, quote: true }
   factions: [propdept]
   fate:
-    - { date: 1960, s: power }
+    - { date: 1961, s: power, note: 中宣部副部长, verify: true }
+    - { date: 1966-02-04, s: power, note: 起草《二月提纲》, cite: ws-1966-05-16-notice-attachment@1966-02-04 }
     - { date: 1966-05, s: purged, verify: true }
-    - { date: 2000, s: dead }
-  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-01-17]
+    - { date: 2000, s: dead, verify: true }
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment]
 
 - id: yao-zhen
   name: 姚溱
+  pinyin: Yáo Zhēn
+  gender: m
   born: 1921
   died: 1966-07-23
-  death: 自杀
+  deathKind: suicide
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 中共中央宣传部副部长, orgName: 中共中央宣传部, from: 1961, to: 1966-05, verify: true, note: 1965 年 11 月大事记称“中宣部副部长” }
+    - { title: 文化革命五人小组办公室成员, orgName: 文化革命五人小组, from: 1966-02, to: 1966-05-16, cite: ws-1966-02-outline }
   tier: 3
   role1966: 中宣部副部长
-  bio: 二月提纲起草者之一。官方大事记指其转达彭真意见，使《光明日报》晚三天转载姚文元文章。
+  bio: 中宣部副部长，《二月提纲》的两位执笔者之一。解放战争时期在上海以“秦上校”等笔名写军事评论（待核），建国后在中宣部主管国际宣传，参与中苏论战文章的写作（待核）。据《五·一六通知》附件大事记，他转达彭真的意见使《光明日报》晚三天转载姚文元文章，又把关锋 1962 年的杂文送给彭真“整”关锋。1966 年 7 月 23 日自杀。
+  life:
+    - h: 上海与“秦上校”
+      from: 1921
+      to: 1949
+      text: |
+        1921 年生，青年时期在上海参加地下党工作。解放战争时期以“秦上校”等笔名在上海报刊发表军事评论，分析内战战局，颇有影响（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 中宣部
+      from: 1949
+      to: 1965
+      text: |
+        建国后在中宣部工作，主管国际宣传，1960 年代初任副部长；参加钓鱼台写作班子，参与起草中苏论战的系列文章（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 转载、陈贾与《二月提纲》
+      from: 1965
+      to: 1966
+      text: |
+        据《五·一六通知》附件大事记：1965 年 12 月 2 日《光明日报》转载姚文元文章，比《北京日报》迟了三天，“这是根据姚溱同志转达的彭真同志的意见，说不能同时转载，以免震动太大。”1966 年 1 月 8 日，他把 1962 年《宣教动态》第 88 期上关锋（署名庆云）的杂文《从陈贾说起》送给彭真，“为彭真同志整关锋同志提供材料”。2 月 4 日与许立群在钓鱼台起草《二月提纲》。提纲列他为五人小组办公室成员。
+      cites: [ws-1966-05-16-notice-attachment@1965-12-02, ws-1966-05-16-notice-attachment@1966-01-08, ws-1966-05-16-notice-attachment@1966-02-04, ws-1966-02-outline]
+    - h: 自杀
+      from: 1966
+      text: |
+        5 月中宣部被定为“阎王殿”后受批斗，1966 年 7 月 23 日自杀（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: official1966, text: 这是根据姚溱同志转达的彭真同志的意见，说不能同时转载，以免震动太大（《五·一六通知》附件大事记）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: official1966, text: 送给彭真同志，为彭真同志整关锋同志提供材料（同上，记 1966 年 1 月 8 日）, cite: ws-1966-05-16-notice-attachment, quote: true }
   factions: [propdept]
   fate:
-    - { date: 1960, s: power }
+    - { date: 1961, s: power, note: 中宣部副部长, verify: true }
+    - { date: 1966-02-04, s: power, note: 起草《二月提纲》, cite: ws-1966-05-16-notice-attachment@1966-02-04 }
     - { date: 1966-05, s: purged, verify: true }
-    - { date: 1966-07-23, s: dead, verify: true }
-  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1965-12-02]
+    - { date: 1966-07-23, s: dead, note: 自杀, verify: true }
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment]
 
 - id: hu-sheng
   name: 胡绳
+  pinyin: Hú Shéng
+  aka:
+    - { kind: original, name: 项志逖 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江苏苏州
   born: 1918-01-11
   died: 2000-11-05
+  deathKind: natural
+  deathPlace: 北京
+  education:
+    - { school: 北京大学哲学系, from: 1934, to: 1935, verify: true }
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 《红旗》杂志副总编辑, orgName: 红旗杂志社, from: 1958, to: 1966, verify: true }
+    - { title: 文化革命五人小组办公室成员（主持学术方面）, orgName: 文化革命五人小组, from: 1966-02, to: 1966-05-16, cite: ws-1966-02-outline }
+    - { title: 中国社会科学院院长, orgName: 中国社会科学院, from: 1985, to: 1998, verify: true }
+    - { title: 中共中央党史研究室主任, orgName: 中共中央党史研究室, from: 1988, to: 1998, verify: true }
+    - { title: 全国政协副主席, orgName: 全国政协, from: 1988-04, to: 1998-03, verify: true }
   tier: 3
   role1966: 五人小组办公室成员
-  bio: 1966 年 1 月 2 日传达毛泽东谈话时“有意隐瞒了毛主席指出的《海瑞罢官》的要害是罢官”（官方大事记）。
+  bio: 马克思主义史学家、理论宣传干部。少年成名，抗战时期在武汉、重庆编辑进步刊物，1948 年出版《帝国主义与中国政治》。建国后长期在中宣部、《红旗》杂志工作。1966 年任五人小组办公室成员、主持学术方面；据官方大事记，他传达毛泽东谈话时“有意隐瞒”了“罢官”这一要害，又按彭真意思对张春桥说不能联系庐山会议。文革后写成《从鸦片战争到五四运动》，任社科院院长、中央党史研究室主任，主持编写《中国共产党的七十年》。
+  life:
+    - h: 早年与抗战编辑
+      from: 1918
+      to: 1949
+      text: |
+        1918 年 1 月 11 日生于苏州，原名项志逖。1934 年入北京大学哲学系，次年回上海从事写作，1938 年入党。抗战期间在武汉、襄樊、重庆编辑《新华日报》、《读书月报》等报刊，后到香港；1948 年出版《帝国主义与中国政治》（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 中宣部与《红旗》
+      from: 1949
+      to: 1965
+      text: |
+        建国后任中宣部秘书长等职，参加《毛泽东选集》编辑工作；1958 年《红旗》创刊后任副总编辑（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 五人小组办公室
+      from: 1966
+      to: 1966
+      text: |
+        据《五·一六通知》附件大事记：1966 年 1 月 2 日彭真召集三十多人开会，“首先由胡绳同志传达毛主席同陈伯达等同志的谈话，他在传达时，有意隐瞒了毛主席指出的《海瑞罢官》的要害是罢官”。《二月提纲》规定由他“负责主持学术方面的工作”。2 月 12 日至 14 日，彭真指定他同张春桥谈话，他说“不能讲吴晗反党反社会主义，不能联系庐山会议”，并说是彭真要他这样讲的。2 月 18 日他与许立群在北京传达提纲，随后随彭真到三线参观。
+      cites: [ws-1966-05-16-notice-attachment@1966-01-02, ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-02-12, ws-1966-05-16-notice-attachment@1966-02-18]
+    - h: 受批判
+      from: 1966
+      to: 1977
+      text: |
+        五人小组撤销后受批判，下放劳动（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 史学与党史
+      from: 1978
+      to: 2000
+      text: |
+        1981 年出版《从鸦片战争到五四运动》。1985 年起任中国社会科学院院长，1988 年起任中共中央党史研究室主任、全国政协副主席，主持编写《中国共产党的七十年》（1991）。2000 年 11 月 5 日在北京去世（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: official1966, text: 首先由胡绳同志传达毛主席同陈伯达等同志的谈话，他在传达时，有意隐瞒了毛主席指出的《海瑞罢官》的要害是罢官（《五·一六通知》附件大事记）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: official1966, text: 胡绳同志说，不能讲吴晗反党反社会主义，不能联系庐山会议，并且硬说是毛主席的意见（同上）, cite: ws-1966-05-16-notice-attachment, quote: true }
+  works:
+    - { title: 帝国主义与中国政治, date: 1948 }
+    - { title: 从鸦片战争到五四运动, date: 1981 }
+    - { title: 中国共产党的七十年（主编）, date: 1991 }
   factions: [propdept]
   fate:
-    - { date: 1960, s: power }
+    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1958, s: rise, note: 《红旗》副总编辑, verify: true }
+    - { date: 1966-02, s: power, note: 五人小组办公室, cite: ws-1966-02-outline }
     - { date: 1966-05, s: attacked, verify: true }
+    - { date: 1985, s: power, note: 社科院院长, verify: true }
     - { date: 2000-11-05, s: dead }
-  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-01-02]
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment]
 
 - id: wu-lengxi
   name: 吴冷西
+  pinyin: Wú Lěngxī
+  gender: m
+  ethnicity: 汉族
+  birthplace: 广东新会
+  origin: 广东新会
   born: 1919-12
   died: 2002-06-16
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 新华通讯社社长, orgName: 新华社, from: 1952, to: 1966-05, verify: true }
+    - { title: 《人民日报》总编辑, orgName: 人民日报社, from: 1957, to: 1966-05, verify: true }
+    - { title: 文化革命五人小组成员, orgName: 文化革命五人小组, from: 1964-07, to: 1966-05-16, verify: true, note: 《二月提纲》列为参加人“冷西”；任职起始时间待核 }
+    - { title: 广播电视部部长, orgName: 广播电视部, from: 1982, to: 1986, verify: true }
   tier: 3
   role1966: 人民日报社社长、新华社社长、五人小组成员
-  bio: 五人小组成员（“冷西”）。1966 年 5 月 31 日陈伯达率工作组进驻人民日报后失去职权。
+  bio: 建国后新闻界的首脑之一：1952 年起任新华社社长，1957 年接替邓拓主持《人民日报》，同时任中宣部副部长，参加钓鱼台写作班子起草中苏论战文章（待核）。1964 年起为文化革命五人小组成员。《二月提纲》起草时被彭真瞒过，但仍随五人小组一同倒台；1966 年 5 月 31 日陈伯达率工作组进驻人民日报后失去职权（待核）。1968 年两报一刊文章点名他与邓拓、梅益“具体策划”1956 年的报纸改版，并“亲自动手”开设《长短录》专栏。复出后任广播电视部部长，晚年写回忆录《忆毛主席》《十年论战》。
+  life:
+    - h: 延安与新华社
+      from: 1919
+      to: 1956
+      text: |
+        1919 年 12 月生于广东新会。1937 年到延安，1938 年入党，在《解放日报》国际部、新华社工作。1952 年任新华社社长（待核）。
+      verify: true
+      cites: [ccp-figures-bios, wu-lengxi-memoir]
+    - h: 主持《人民日报》
+      from: 1957
+      to: 1965
+      text: |
+        1957 年毛泽东批评《人民日报》“书生办报”“死人办报”后，接替邓拓任总编辑，兼任中宣部副部长；参加中央写作班子，起草中苏论战的“九评”等文章（待核）。1964 年 7 月起为文化革命五人小组成员（待核）。
+      verify: true
+      cites: [wu-lengxi-memoir, ws-1968-09-01-news-front]
+    - h: 五人小组与《二月提纲》
+      from: 1966
+      to: 1966
+      text: |
+        1966 年 2 月 3 日出席五人小组扩大会，《二月提纲》列他为参加人（“冷西”）和办公室成员。据《五·一六通知》附件大事记，2 月 4 日许立群、姚溱在钓鱼台起草提纲时，“连对同住在一个楼里的所谓五人小组成员康生、吴冷西两位同志也严密封锁，不透露一点消息”。
+      cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-02-04]
+    - h: 1968 年两报一刊的指控
+      from: 1968
+      to: 1968
+      text: |
+        1968 年 9 月 1 日两报一刊编辑部文章《把新闻战线的大革命进行到底》说，1956 年刘少奇对新华社三次讲话后，“经过反革命修正主义分子邓拓、吴冷西、梅益之流的具体策划”，报纸、广播、通讯社进行了“改版”；1961 年后“吴冷西亲自动手，在党报上开辟了以所谓‘匡正时弊’为宗旨的《长短录》专栏”。文章所引“工农兵学习毛主席著作是不能立竿见影的”“学习毛主席著作不提‘高潮’”等语，注释注明出自吴冷西 1964–1966 年的讲话（维基文库本的注号显示为问号，对应关系按顺序推定）。
+      cites: [ws-1968-09-01-news-front]
+    - h: 倒台、复出与回忆录
+      from: 1966
+      to: 2002
+      text: |
+        1966 年 5 月 31 日陈伯达率工作组进驻人民日报，吴冷西失去职权，此后受审查、下放（待核）。1980 年起诉书把他列入被诬陷的全国人大常委会委员名单。复出后任广东省委书记，1982–1986 年任广播电视部部长（待核）。晚年写成《忆毛主席》（1995）、《十年论战》（1999）。2002 年 6 月 16 日在北京去世。
+      verify: true
+      cites: [ws-1980-indictment, wu-lengxi-memoir]
+  assess:
+    - { voice: official1966, text: 经过反革命修正主义分子邓拓、吴冷西、梅益之流的具体策划，报纸、广播、通讯社就进行了一系列的所谓“改版”或“改革”（1968 年两报一刊《把新闻战线的大革命进行到底》）, cite: ws-1968-09-01-news-front, quote: true }
+    - { voice: official1966, text: 吴冷西亲自动手，在党报上开辟了以所谓“匡正时弊”为宗旨的《长短录》专栏（同上）, cite: ws-1968-09-01-news-front, quote: true }
+    - { voice: official1966, text: 连对同住在一个楼里的所谓五人小组成员康生、吴冷西两位同志也严密封锁，不透露一点消息（《五·一六通知》附件大事记）, cite: ws-1966-05-16-notice-attachment, quote: true }
+  works:
+    - { title: 忆毛主席——我亲身经历的若干重大历史事件片断, date: 1995, cite: wu-lengxi-memoir }
+    - { title: 十年论战, date: 1999 }
   factions: [propdept]
   fate:
-    - { date: 1958, s: power }
-    - { date: 1966-05-31, s: purged, verify: true }
+    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1952, s: rise, note: 新华社社长, verify: true }
+    - { date: 1957, s: power, note: 《人民日报》总编辑, verify: true }
+    - { date: 1966-05-31, s: purged, note: 陈伯达率工作组进驻人民日报, verify: true }
+    - { date: 1979, s: restored, verify: true }
     - { date: 2002-06-16, s: dead }
-  cites: [ws-1966-02-outline]
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment, ws-1968-09-01-news-front, ws-1980-indictment, wu-lengxi-memoir]
 
 - id: lin-mohan
   name: 林默涵
+  pinyin: Lín Mòhán
+  gender: m
+  ethnicity: 汉族
+  birthplace: 福建武平
+  origin: 福建武平
   born: 1913-01
   died: 2008-01-17
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 中共中央宣传部副部长, orgName: 中共中央宣传部, from: 1959, to: 1966-07, verify: true, note: 1966 年 4 月大事记称“中宣部副部长” }
+    - { title: 文化部副部长, orgName: 文化部, from: 1977, to: 1982, verify: true }
   tier: 3
   role1966: 中宣部副部长
-  bio: 官方大事记指其 1966 年 4 月 7 日在全国创作会议上“全面地剽窃了《纪要》的内容，并且作了严重的歪曲”。
+  bio: 文艺理论家，周扬在中宣部主管文艺的主要助手。1930 年代在上海参加左翼文化运动，抗战中到延安，建国后任中宣部文艺处处长、副部长（待核）。据官方大事记，1966 年 4 月 7 日他在全国创作会议上的报告“全面地剽窃了《纪要》的内容，并且作了严重的歪曲”；1967 年《红旗》社论把他列为“文艺界反革命修正主义路线”的代表之一。关押多年，复出后任文化部副部长。
+  life:
+    - h: 早年与延安
+      from: 1913
+      to: 1949
+      text: |
+        1913 年 1 月生于福建武平。1930 年代在上海参加左翼文化运动，1938 年到延安并入党，在《解放日报》等处从事文艺编辑工作；抗战胜利后到重庆、香港参与编辑《群众》等刊物（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 中宣部文艺处
+      from: 1949
+      to: 1965
+      text: |
+        建国后在中宣部主管文艺工作，历任文艺处处长、副部长，协助周扬领导文艺界（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 创作会议报告与点名
+      from: 1966
+      to: 1967
+      text: |
+        据《五·一六通知》附件大事记：1966 年 4 月 7 日，中宣部副部长林默涵在全国创作会议上作报告，“在中央尚未正式批准《林彪同志委托江青同志召开的部队文艺工作座谈会纪要》之前，全面地剽窃了《纪要》的内容，并且作了严重的歪曲，为所谓三十年代的错误的文艺路线辩护”。
+
+        1967 年 5 月《红旗》社论《欢呼京剧革命的伟大胜利》称京剧界长期处于“以周扬、齐燕铭、夏衍、林默涵为代表的文艺界反革命修正主义路线的统治之下”，并说彭真“伙同”周扬、齐燕铭、夏衍、林默涵、田汉、张庚“利用旧京戏，进行资本主义反革命复辟活动”。
+      cites: [ws-1966-05-16-notice-attachment@1966-04-07, ws-1967-05-10-opera]
+    - h: 关押与复出
+      from: 1966
+      to: 2008
+      text: |
+        1966 年 7 月随中宣部被打倒，此后被关押多年，1975 年获释（待核）。1977 年后任文化部副部长、中国文联副主席等职（待核）。2008 年 1 月 17 日在北京去世。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: official1966, text: 全面地剽窃了《纪要》的内容，并且作了严重的歪曲，为所谓三十年代的错误的文艺路线辩护（《五·一六通知》附件大事记）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: official1966, text: 以周扬、齐燕铭、夏衍、林默涵为代表的文艺界反革命修正主义路线（1967 年 5 月《红旗》社论《欢呼京剧革命的伟大胜利》）, cite: ws-1967-05-10-opera, quote: true }
   factions: [propdept]
   fate:
-    - { date: 1960, s: power }
+    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1959, s: power, note: 中宣部副部长, verify: true }
+    - { date: 1966-04-07, s: power, note: 全国创作会议报告, cite: ws-1966-05-16-notice-attachment@1966-04-07 }
     - { date: 1966-07, s: purged, verify: true }
+    - { date: 1977, s: restored, note: 文化部副部长, verify: true }
     - { date: 2008-01-17, s: dead }
-  cites: [ws-1966-05-16-notice-attachment@1966-04-07]
+  cites: [ws-1966-05-16-notice-attachment, ws-1967-05-10-opera]
 
 - id: tian-jiaying
   name: 田家英
+  pinyin: Tián Jiāyīng
+  aka:
+    - { kind: original, name: 曾正昌 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 四川成都
+  origin: 四川成都
   born: 1922-01
   died: 1966-05-23
-  death: 自杀
+  deathKind: suicide
+  deathPlace: 北京中南海
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 毛泽东秘书, orgName: 中共中央办公厅, from: 1948, to: 1966-05-22, verify: true }
+    - { title: 中共中央办公厅副主任, orgName: 中共中央办公厅, from: 1961, to: 1966-05-22, verify: true }
+  rehab:
+    - { date: 1980, text: 中共中央为田家英平反昭雪，举行追悼会, verify: true }
   tier: 3
   role1966: 毛泽东秘书、中央办公厅副主任
-  bio: 担任毛泽东秘书 18 年。1966 年 5 月被停职审查后自杀，是文革中最早死亡的中央机关干部之一。
+  bio: 担任毛泽东秘书十八年，参与编辑《毛泽东选集》、起草 1954 年宪法和八大文件。1961 年为毛泽东到浙江、湖南做农村调查，1962 年主张包产到户，此后逐渐失去信任。1965 年 12 月 21 日毛泽东在杭州谈《海瑞罢官》“要害问题是‘罢官’”时在座，据说整理记录时删去了这段话。1966 年 5 月 22 日被停职审查，次日在中南海自尽，年四十四岁。本站尚无直接记载他的入库原文，全传待核。
+  life:
+    - h: 成都与延安
+      from: 1922
+      to: 1948
+      text: |
+        1922 年 1 月生于成都，原名曾正昌，少年丧父，当过药铺学徒，靠自学读书。1937 年到延安，1938 年入党，先后在陕北公学、马列学院学习和工作，在《解放日报》发表杂文（待核）。
+      verify: true
+      cites: [dong-bian-tian-jiaying]
+    - h: 毛泽东秘书
+      from: 1948
+      to: 1960
+      text: |
+        1948 年起任毛泽东秘书，管理毛的图书和文稿，参与编辑《毛泽东选集》第一至四卷，参加 1954 年宪法草案和八大文件的起草，后任中共中央办公厅副主任（待核）。
+      verify: true
+      cites: [dong-bian-tian-jiaying]
+    - h: 农村调查与包产到户
+      from: 1961
+      to: 1964
+      text: |
+        1961 年受毛泽东委派带调查组到浙江、湖南农村调查，为《农村人民公社工作条例》提供材料。1962 年夏主张在困难地区实行包产到户，受到毛泽东批评，此后逐渐失去信任（待核）。
+      verify: true
+      cites: [dong-bian-tian-jiaying]
+    - h: 杭州谈话与停职
+      from: 1965
+      to: 1966
+      text: |
+        据《五·一六通知》附件大事记，1965 年 12 月 21 日毛泽东同陈伯达、艾思奇、关锋等谈话，说姚文元的文章“没有打中要害。要害问题是‘罢官’”；大事记没有列出田家英的名字。据后来的回忆，他也在座，整理谈话记录时删去了关于《海瑞罢官》的这段话（待核）。
+
+        1966 年 5 月 22 日，安子文、王力、戚本禹到他家宣布停职审查，令其交出全部文件；次日他在中南海住处自尽（待核）。
+      verify: true
+      cites: [ws-1966-05-16-notice-attachment@1965-12-21, dong-bian-tian-jiaying]
+    - h: 平反
+      from: 1980
+      text: |
+        1980 年中共中央为田家英平反昭雪，举行追悼会（待核）。1989 年董边等编成《毛泽东和他的秘书田家英》。
+      verify: true
+      cites: [dong-bian-tian-jiaying]
   factions: [mao]
   fate:
-    - { date: 1948, s: power }
-    - { date: 1966-05-22, s: purged, verify: true }
-    - { date: 1966-05-23, s: dead, verify: true }
+    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1948, s: power, note: 任毛泽东秘书, verify: true }
+    - { date: 1962-07, s: attacked, note: 主张包产到户受毛泽东批评, verify: true }
+    - { date: 1966-05-22, s: purged, note: 停职审查, verify: true }
+    - { date: 1966-05-23, s: dead, note: 自尽, verify: true }
+  cites: [dong-bian-tian-jiaying, ws-1966-05-16-notice-attachment]
   verify: true
 
 # ── 一线与工作组 ────────────────────────────────────────────
