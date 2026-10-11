@@ -62,7 +62,7 @@
 | MP-0 | 人物标准化字段（schema + 构建校验） | ✔ 字段与写法见下方“人物字段”；抽屉显示档案表与职务 |
 | MP-1 | “人物”视图：目录 + 完整传记页 | ✔ `src/views/People.tsx`：目录按派系、出生年代、结局分组，每人一条一生色带（1880–2010 同一时间轴）；`#/people/<id>` 是传记页（正文 + 档案、职务、命运、关系、事件）；抽屉加“完整传记 →” |
 | MP-2 | 56 人传记重写 + 命运轨迹覆盖一生 | ✔ 56/56，分六批（决策核心 10、元帅与彭罗陆杨等 12、王关戚与北京市委 11、中宣部与田家英 7、北大清华与工作组 8、上海林彪集团与受难者 8）。298 段生平中 258 段含待核句、标 `verify`；522 个命运节点中 290 个待核；134 条评价引语逐字核对通过。5 人整条待核（田家英、宋硕、彭珮云、宋彬彬、卞仲耘）。见 `log/2026-10-10-mp2.md` 末尾的总结 |
-| MP-2b | 档案可视化：职务时间带、档案卡、年龄标尺 | |
+| MP-2b | 档案可视化：职务时间带、档案卡、年龄标尺 | ✔ `src/components/Dossier.tsx`。职务时间带放在传记页头部一生色带正下方，共用同一比例尺，党/政/军/其他分道（分类见 `src/lib/positions.ts`），点击色带或职务带移动全站时刻，此刻在任的职务实心显示。档案卡六格固定：性别、民族、家庭出身、军衔、结局、平反。年龄标尺统一 0–100 岁。见 `log/2026-10-10-mp2b.md` |
 | MP-3 | 机构模型 `orgs.yaml` + “机构”视图（含人物足迹地图） | |
 | MP-4 | 人物照片（双色调管线 + 文字头像兜底） | |
 | MP-5 | 移动端基础层 | |
@@ -70,8 +70,9 @@
 **人物字段（MP-0 起，`src/data/schema.ts` PersonSchema）：**
 - 身份：`pinyin`；`aka`（字符串，或 `{kind: original|courtesy|art|pen|cover|other, name}`）；`gender`（m/f）；`ethnicity`；`birthplace`（出生地）；`origin`（籍贯）。
 - 背景：`classOrigin`（家庭出身）、`classNote`；`education: [{school, from, to, note, cite}]`。
-- 履历：`party`（默认中国共产党）、`joinedParty`、`joinedRevolution`；`positions: [{title, org?, orgName?, from, to, note, cite}]`；`rank: {rank, date, cite}`。
+- 履历：`party`（默认中国共产党）、`joinedParty`、`joinedRevolution`；`positions: [{title, org?, orgName?, sys?, from, to, note, cite}]`；`rank: {rank, date, cite}`。
   - `org` 填 `content/orgs.yaml` 的 id，MP-3 之前不要填，用 `orgName`。
+  - `sys`（party|gov|army|other）只在职务时间带分错道时填，默认由 `systemOf()` 按机构名和头衔第一项推断。目前只有叶群“林彪办公室主任”填了 `army`。
 - 结局：`deathKind`（natural|suicide|persecuted|executed|killed|accident|war|unknown）、`deathPlace`、`deathContested`；`rehab: [{date, text, cite}]`；`afterlife: [{date, text, cite}]`。
 - 外部标识：`ids: {wikidata, cbdb}`。
 - 传记（MP-2）：`bio` 是概述；`life: [{h, from, to, text, cites}]` 是分段生平，每段必须有出处或标 `verify`；`assess` 是评价（多声部，`quote: true` 的逐字核对）；`works` 是著述。
