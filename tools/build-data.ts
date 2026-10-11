@@ -75,7 +75,13 @@ const texts = new Map<string, string>()
 for (const s of sources) if (s.hasText) texts.set(s.id, readFileSync(join(textDir, `${s.id}.txt`), 'utf8'))
 
 // ── content ──────────────────────────────────────────────
-const people = load(PersonSchema, read('content', 'people.yaml'), 'people')
+// people.yaml holds the 1966 cast; later batches live in content/people/*.yaml
+const people = [
+  ...load(PersonSchema, read('content', 'people.yaml'), 'people'),
+  ...(existsSync(join(ROOT, 'content', 'people'))
+    ? yamlFiles('content', 'people').flatMap((p) => load(PersonSchema, read(...p), p.join('/')))
+    : []),
+]
 const factions = load(FactionSchema, read('content', 'factions.yaml'), 'factions')
 const events = yamlFiles('content', 'events').flatMap((p) => load(EventSchema, read(...p), p.join('/')))
 const relations = load(RelationSchema, read('content', 'relations.yaml'), 'relations')

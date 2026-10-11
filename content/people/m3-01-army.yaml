@@ -1,0 +1,621 @@
+# M3 people, batch 1: the Lin Biao group's army chiefs and the commanders they purged or fought
+# (黄吴李邱 without 吴法宪, who is in people.yaml; 杨余傅; 陈再道; 许世友).
+# Same format as people.yaml (MP-2). Quotes in assess with quote: true are checked verbatim at build.
+# Early careers come from general reference (Klein & Clark, 中共党史人物传) and are marked verify.
+
+- id: huang-yongsheng
+  name: 黄永胜
+  born: 1910-11
+  died: 1983-04-26
+  tier: 2
+  role1966: 广州军区司令员
+  pinyin: Huáng Yǒngshèng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖北咸宁
+  origin: 湖北咸宁
+  deathKind: natural
+  deathPlace: 山东青岛
+  party: 中国共产党
+  joinedParty: 1927
+  joinedRevolution: 1927-09
+  positions:
+    - { title: 广州军区司令员, orgName: 广州军区, from: 1955-02, to: 1968-03, verify: true }
+    - { title: 广东省革命委员会主任, orgName: 广东省革命委员会, from: 1968-02-21, to: 1969, verify: true }
+    - { title: 中国人民解放军总参谋长, orgName: 中国人民解放军总参谋部, from: 1968-03, to: 1971-09, cite: ws-1980-indictment }
+    - { title: 中央军委办事组组长, orgName: 中央军委办事组, from: 1968-03, to: 1971-09, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1971-09, cite: ws-1980-indictment }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 秋收起义出身的红军将领，长期在林彪指挥的部队中任职，1955 年授上将，此后任广州军区司令员十三年。文革中主持广东军管，制造“广东地下党”等冤案。1968 年 3 月杨余傅事件后接任总参谋长、军委办事组组长，九大进入政治局，是林彪集团“黄吴李邱”之首。九一三事件后被隔离审查，1981 年被特别法庭以组织、领导反革命集团等罪判处有期徒刑十八年，1983 年在青岛病死。
+  life:
+    - h: 早年与红军
+      from: 1910
+      to: 1937
+      text: |
+        1910 年生于湖北咸宁的农民家庭。1927 年参加秋收起义，随部队上井冈山，同年入党。在红四军、红一军团中历任连长、团长、师长，参加中央苏区历次反“围剿”和长征。到陕北后入红军大学学习。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 抗战、东北与华南
+      from: 1937
+      to: 1955
+      text: |
+        抗战时期在晋察冀军区任团长、军分区司令员。抗战胜利后到东北，任东北民主联军纵队司令员，属林彪指挥的第四野战军系统；1949 年随四野南下，任兵团司令员，后在华南军区任职。1955 年授上将军衔，任广州军区司令员。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 广州军区与广东军管
+      from: 1955
+      to: 1968-03
+      text: |
+        任广州军区司令员十三年。文革中广州两派对立，军区支持“东风派”。据 1980 年起诉书，1967 年 6 月 23 日他批准广州市公安局军管会负责人报送的“关于揪叛徒调查工作的请示”和所附调查叶剑英的“第一号调查方案”；“一九六七年十月，黄永胜伙同广州部队政治委员刘兴元等提出对中共广东地下党进行‘审查’”，制造“广东地下党”冤案，“使七千一百多人遭到诬陷、迫害，林锵云等八十五人被迫害致死”。又从 1967 年 5 月到 1970 年 11 月在广州部队制造“反革命集团”冤案，诬陷副司令员文年生等“夺权搞政变”，株连七百多名干部。1968 年 2 月广东省革委会成立，他任主任。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+    - h: 总参谋长与九大
+      from: 1968-03
+      to: 1971-09
+      text: |
+        1968 年 3 月杨成武、余立金、傅崇碧被撤职后，调任总参谋长、军委办事组组长，1969 年 4 月九届一中全会当选政治局委员。据起诉书，1968 年 4 月他在总参说：“总参出了不少坏人，有黄克诚、罗瑞卿、张爱萍、王尚荣”等，“他们是不能翻案的，不能翻天的”；同年 11 月诽谤聂荣臻“这一辈子也没有干什么好事”。1970 年 11 月 3 日审批“同意”彭德怀专案组的报告，该报告提出要“撤销彭德怀党内外一切职务，永远开除党籍，判处无期徒刑，终身剥夺公民权利”。1969 年 10 月 18 日“林副主席指示第一个号令”由他以总参名义下达。1970 年庐山九届二中全会期间他留守北京，让人起草了支持林彪的发言稿，上山后见势不妙又销毁。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1972-lin-material-3, ws-1971-12-lin-chen-material-1]
+    - h: 九一三与受审
+      from: 1971-09
+      to: 1983
+      text: |
+        据判决书，“一九七一年九月六日，黄永胜向林彪密报了毛泽东主席察觉林彪在密谋夺权的谈话”。起诉书说 9 月 10 日“黄永胜叶群频繁联系，五次通电话”，林彪还托人带给他一封亲笔信。林彪出逃后，他与吴法宪、邱会作等销毁了与林彪、叶群往来的信件和笔记本。9 月 24 日被隔离审查，29 日中共中央通知他与吴、李、邱“离职反省，彻底交代”。1980 年 11 月作为主犯受审，判决书说他只“供认了自己的部分犯罪事实”。1981 年 1 月 25 日被判处有期徒刑十八年、剥夺政治权利五年。1983 年 4 月 26 日因肝癌在青岛去世（死因、地点待核）。
+      cites: [ws-1981-01-25-judgment, ws-1980-indictment, ws-1971-09-29-notice]
+      verify: true
+  assess:
+    - { voice: official1966, text: 黄永胜、吴法宪、李作鹏、邱会作四同志参加林、陈反党集团的宗派活动，陷入很深，实难继续现任工作，已令他们离职反省，彻底交代（1971 年 9 月 29 日中共中央通知）, cite: ws-1971-09-29-notice, quote: true }
+    - { voice: judicial1980, text: 被告人黄永胜，以推翻人民民主专政为目的，组织、领导反革命集团，是反革命集团案的主犯（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 判处被告人黄永胜有期徒刑十八年，剥夺政治权利五年, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: scholar, text: 研究者多认为黄永胜等“四大金刚”效忠的是林彪、叶群个人，但对“五七一工程”的谋杀计划是否知情，判决书只认定他 9 月 6 日的密报，学界和本人家属的说法有出入。, cite: macfarquhar-schoenhals }
+  factions: [lin]
+  fate:
+    - { date: 1927-09, s: normal, note: 参加秋收起义, verify: true }
+    - { date: 1955-02, s: power, note: 广州军区司令员, verify: true }
+    - { date: 1967-06-23, s: power, note: 批准调查叶剑英的“第一号调查方案”, cite: ws-1980-indictment }
+    - { date: 1968-02-21, s: power, note: 广东省革委会主任, verify: true }
+    - { date: 1968-03-24, s: rise, note: 接任总参谋长, verify: true }
+    - { date: 1969-04-28, s: power, note: 九届一中全会当选政治局委员, cite: ws-1980-indictment }
+    - { date: 1971-09-24, s: detained, note: 隔离审查, verify: true }
+    - { date: 1971-09-29, s: purged, note: 中共中央通知“离职反省”, cite: ws-1971-09-29-notice }
+    - { date: 1981-01-25, s: detained, note: 判处有期徒刑十八年, cite: ws-1981-01-25-judgment }
+    - { date: 1983-04-26, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-29-notice, ws-1972-lin-material-3, ws-1971-12-lin-chen-material-1]
+
+- id: li-zuopeng
+  name: 李作鹏
+  born: 1914-04
+  died: 2009-01-03
+  tier: 2
+  role1966: 海军副司令员
+  pinyin: Lǐ Zuòpéng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西吉安
+  origin: 江西吉安
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1932
+  joinedRevolution: 1930
+  positions:
+    - { title: 海军副司令员, orgName: 中国人民解放军海军, from: 1962, to: 1967, verify: true }
+    - { title: 海军第一政治委员, orgName: 中国人民解放军海军, from: 1967, to: 1971-09, cite: ws-1980-indictment }
+    - { title: 中央军委办事组成员, orgName: 中央军委办事组, from: 1967-08, to: 1971-09, verify: true }
+    - { title: 中国人民解放军副总参谋长, orgName: 中国人民解放军总参谋部, from: 1968, to: 1971-09, cite: ws-1980-indictment }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1971-09, cite: ws-1980-indictment }
+  rank: { rank: 中将, date: 1955-09 }
+  bio: 江西吉安人，1930 年参加红军，长期在林彪身边做作战参谋工作，解放战争中在四野任纵队、军的指挥员。1955 年授中将，1962 年任海军副司令员。文革中借林彪支持在海军夺权，1967 年起任海军第一政委，进入军委办事组，1969 年当选政治局委员。九一三之夜他两次篡改周恩来关于 256 号专机的命令，事后又改动记录。1981 年被判处有期徒刑十七年，2009 年在北京去世。
+  life:
+    - h: 早年与林彪的参谋
+      from: 1914
+      to: 1949
+      text: |
+        1914 年生于江西吉安。1930 年参加红军，1932 年入党，在红一军团做参谋工作，参加长征。抗战时期在八路军一一五师和延安的军事院校任职；解放战争中在东北任林彪总部作战部门负责人，后任纵队司令员、第四野战军第四十三军军长，参加辽沈、平津和渡海作战海南岛。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 海军
+      from: 1950
+      to: 1967
+      text: |
+        建国后任中南军区、军事院校的领导职务，1955 年授中将军衔。1962 年调海军，任副司令员。1966 年后在海军批判萧劲光、苏振华等，1967 年起任海军第一政治委员，与第二政委王宏坤、政治部主任张秀川一起掌握海军党委（俗称“李王张”）。
+      verify: true
+      cites: [klein-clark-1971, macfarquhar-schoenhals]
+    - h: 军委办事组与九大
+      from: 1967-08
+      to: 1971-09
+      text: |
+        1967 年 8 月军委办事组成立后为成员，1968 年任副总参谋长，1969 年 4 月当选政治局委员。据起诉书，“一九六八年四月三日，李作鹏伙同海军的第二政治委员王宏坤、海军政治部主任张秀川写材料，诬陷‘贺、叶配合刘、邓、陶企图篡军反党’”；1968 年 1 月他提出专案工作是“共产党打国民党”，10 月又说要“猛打、猛冲、猛追”，直接诬陷、迫害一百二十人，雷永通等三人被迫害致死。1970 年庐山会议上与叶群、吴法宪、邱会作一起在小组会上支持设国家主席、称“天才”。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-12-lin-chen-material-1]
+    - h: 九一三之夜与受审
+      from: 1971-09
+      to: 2009
+      text: |
+        据判决书，“一九七一年九月十二日晚十一时三十五分和十三日零时六分，在林彪、叶群叛逃前，李作鹏两次篡改了周恩来总理的命令”；起诉书说他把须由周恩来、黄永胜、吴法宪、李作鹏“四个人一起下命令才能飞行”的命令改为“四个首长其中一个首长指示放飞才放飞”。13 日零时二十分山海关场站请示飞机强行起飞怎么办，他“没有采取阻止起飞的任何措施”，事后修改电话报告记录。1971 年 9 月 24 日被隔离审查；1981 年 1 月被判处有期徒刑十七年、剥夺政治权利五年。刑满后住北京，晚年写有回忆录（2011 年在香港出版），对“篡改命令”的认定提出异议。2009 年 1 月 3 日在北京去世。
+      cites: [ws-1981-01-25-judgment, ws-1980-indictment, ws-1972-lin-material-3]
+      verify: true
+  assess:
+    - { voice: official1966, text: 李作鹏在向驻山海关机场某部下达命令时，竟两次篡改中央命令（1972 年中共中央林彪集团材料之三）, cite: ws-1972-lin-material-3, quote: true }
+    - { voice: judicial1980, text: 李作鹏没有采取阻止起飞的任何措施，致使林彪得以乘飞机叛逃, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 判处被告人李作鹏有期徒刑十七年，剥夺政治权利五年, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: witness, text: 李作鹏晚年回忆录称自己对林彪出逃事先不知情，转述命令时并无篡改之意（本人回忆，未入库，需对照）。 }
+  factions: [lin]
+  fate:
+    - { date: 1930, s: normal, note: 参加红军, verify: true }
+    - { date: 1955-09, s: normal, note: 授中将, verify: true }
+    - { date: 1962, s: rise, note: 海军副司令员, verify: true }
+    - { date: 1967, s: power, note: 海军第一政委, cite: ws-1980-indictment }
+    - { date: 1968-04-03, s: power, note: 写材料诬陷贺龙、叶剑英, cite: ws-1980-indictment }
+    - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1980-indictment }
+    - { date: 1971-09-13, s: power, note: 两次篡改关于 256 号专机的命令, cite: ws-1981-01-25-judgment }
+    - { date: 1971-09-29, s: detained, note: 离职反省，隔离审查, cite: ws-1971-09-29-notice }
+    - { date: 1981-01-25, s: detained, note: 判处有期徒刑十七年, cite: ws-1981-01-25-judgment }
+    - { date: 1988, s: normal, note: 刑满，住北京, verify: true }
+    - { date: 2009-01-03, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-29-notice, ws-1972-lin-material-3]
+
+- id: qiu-huizuo
+  name: 邱会作
+  born: 1914-03
+  died: 2002-07-18
+  tier: 2
+  role1966: 总后勤部部长
+  pinyin: Qiū Huìzuò
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西兴国
+  origin: 江西兴国
+  deathKind: natural
+  deathPlace: 陕西西安
+  party: 中国共产党
+  joinedParty: 1932
+  joinedRevolution: 1929
+  positions:
+    - { title: 总后勤部部长, orgName: 中国人民解放军总后勤部, from: 1959-09, to: 1971-09, cite: ws-1980-indictment }
+    - { title: 中央军委办事组成员, orgName: 中央军委办事组, from: 1967-08, to: 1971-09, verify: true }
+    - { title: 中国人民解放军副总参谋长, orgName: 中国人民解放军总参谋部, from: 1968, to: 1971-09, cite: ws-1980-indictment }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1971-09, cite: ws-1980-indictment }
+  rank: { rank: 中将, date: 1955-09 }
+  bio: 江西兴国人，红军时期做后勤和政治工作，长期在林彪的东北、四野系统，1959 年起任总后勤部部长。1967 年初被总后造反派揪斗，经林彪、叶群出面保护后成为林彪的亲信，进入军委办事组、任副总参谋长，九大当选政治局委员。在总后“私设监狱，刑讯逼供”，直接迫害四百六十二人。九一三后受审，1981 年被判处有期徒刑十六年；判决书认定他揭发了同案犯。2002 年在西安去世。
+  life:
+    - h: 早年与后勤工作
+      from: 1914
+      to: 1949
+      text: |
+        1914 年生于江西兴国。1929 年参加红军，1932 年入党，在中央红军总供给部、红一方面军做后勤和政治工作，参加长征。抗战时期在中央军委总供给部、八路军留守兵团任职；解放战争中到东北，在东北民主联军、第四野战军做政治工作。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 总后勤部
+      from: 1950
+      to: 1966
+      text: |
+        建国后在中南军区和总后勤部任职，1955 年授中将军衔，1959 年 9 月林彪主持军委工作后接任总后勤部部长，兼政治委员（待核）。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 被揪斗与投靠林彪
+      from: 1967
+      to: 1971-09
+      text: |
+        1967 年 1 月被总后机关造反派揪斗，林彪、叶群出面保护后获解脱（据各方回忆，细节待核）。此后成为林彪的亲信，8 月进入军委办事组，1968 年兼副总参谋长，1969 年当选政治局委员。据起诉书，他诬陷总政治部“和国民党的特务机关差不多”，并在总后“伙同总后勤部副部长陈庞等在总后勤部私设监狱，刑讯逼供。邱会作说要‘狠斗’、‘狠审’、‘狠专’”。判决书列出被迫害致死的八人：“汤平、周长庚、顾子庄、张树森、申茂兴、王述臣、张凌斗、华迪平”。1970 年庐山会议上随叶群、吴法宪发言。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-12-lin-chen-material-1]
+      verify: true
+    - h: 受审与晚年
+      from: 1971-09
+      to: 2002
+      text: |
+        林彪出逃后销毁了与林彪、叶群往来的材料，9 月 24 日被隔离审查。1981 年 1 月被判处有期徒刑十六年、剥夺政治权利五年；判决书说他“揭发了林彪、江青等同案犯的犯罪事实”。服刑期间保外就医，刑满后住西安（待核）。晚年口述回忆录由其子整理，2011 年在香港出版。2002 年 7 月 18 日在西安去世。
+      cites: [ws-1981-01-25-judgment, ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 一九六七年至一九七一年，邱会作在总后勤部私设监狱，刑讯逼供，直接诬陷迫害了干部和群众四百六十二人, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 判处被告人邱会作有期徒刑十六年，剥夺政治权利五年, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: witness, text: 邱会作的口述回忆录强调自己 1967 年先是造反派的受害者，对林彪的谋杀计划毫不知情（本人回忆，未入库，需对照）。 }
+  factions: [lin]
+  fate:
+    - { date: 1929, s: normal, note: 参加红军, verify: true }
+    - { date: 1955-09, s: normal, note: 授中将, verify: true }
+    - { date: 1959-09, s: power, note: 总后勤部部长, verify: true }
+    - { date: 1967-01, s: attacked, note: 被总后造反派揪斗, verify: true }
+    - { date: 1967-08, s: power, note: 进入军委办事组, verify: true }
+    - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1980-indictment }
+    - { date: 1971-09-29, s: detained, note: 离职反省，隔离审查, cite: ws-1971-09-29-notice }
+    - { date: 1981-01-25, s: detained, note: 判处有期徒刑十六年, cite: ws-1981-01-25-judgment }
+    - { date: 1987, s: normal, note: 刑满，住西安, verify: true }
+    - { date: 2002-07-18, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-29-notice, ws-1971-12-lin-chen-material-1]
+
+- id: lin-liguo
+  name: 林立果
+  aka: [{ kind: other, name: 老虎 }]
+  born: 1945
+  died: 1971-09-13
+  tier: 2
+  role1966: 北京大学物理系学生
+  pinyin: Lín Lìguǒ
+  gender: m
+  ethnicity: 汉族
+  origin: 湖北黄冈
+  deathKind: accident
+  deathPlace: 蒙古温都尔汗
+  party: 中国共产党
+  joinedParty: 1967
+  education:
+    - { school: 北京大学物理系, from: 1963, to: 1967, verify: true }
+  positions:
+    - { title: 空军党委办公室秘书, orgName: 中国人民解放军空军, from: 1967-03, to: 1969-10, verify: true }
+    - { title: 空军司令部办公室副主任兼作战部副部长, orgName: 中国人民解放军空军, from: 1969-10-17, to: 1971-09-13, cite: ws-1971-12-lin-chen-material-1 }
+    - { title: “联合舰队”负责人, orgName: 联合舰队, from: 1970-10, to: 1971-09-13, cite: ws-1980-indictment }
+  bio: 林彪、叶群之子，小名“老虎”。1967 年从北京大学进入空军，1969 年 10 月被吴法宪任命为空军司令部办公室副主任兼作战部副部长，吴法宪宣布“空军的一切都可以由立果同志调动”。1970 年作“讲用报告”被捧为“超天才”。同年以空军“调研小组”为基础组成“联合舰队”，1971 年 3 月主持制订《“571 工程”纪要》，9 月策划在毛泽东南巡途中谋杀毛泽东。计划败露后随林彪、叶群乘 256 号专机出逃，9 月 13 日在蒙古温都尔汗坠机身亡，年二十六岁。
+  life:
+    - h: 早年与北大
+      from: 1945
+      to: 1967-03
+      text: |
+        1945 年生，林彪与叶群之子，小名“老虎”（出生地说法不一）。1963 年考入北京大学物理系（待核）。
+      verify: true
+      cites: [ding-kaiwen-lin]
+    - h: 进入空军与“讲用报告”
+      from: 1967-03
+      to: 1970-09
+      text: |
+        1967 年 3 月进入空军党委办公室工作并入党。1969 年 2 月 16 日林彪写信给空军党委办公室的周宇驰、刘沛丰，要他们“让老虎多单独行动”，“以便锻炼他”。1969 年 10 月 17 日，“在林彪的指使下，吴法宪任命林彪的儿子林立果为空军司令部办公室副主任兼作战部副部长”。1970 年 7 月 31 日在空军司令部干部大会上宣读“讲用报告”，林彪听录音后说：“不仅思想象我的，语言也象我的”；吴法宪等吹捧他是“伟大的天才，全才，全局之才”，并宣称“空军的一切都可以由立果同志调动，空军的一切都可以由立果同志指挥”。庐山九届二中全会时随林彪、叶群上山，在山下联络王维国、陈励耘。
+      cites: [ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3, ws-1980-indictment]
+    - h: “联合舰队”与《“571 工程”纪要》
+      from: 1970-10
+      to: 1971-09-11
+      text: |
+        据起诉书，1970 年 5 月 3 日周宇驰、王飞等“共推林立果为‘头’”，“一九七零年十月，林立果为头的‘调研小组’组成为‘联合舰队’”。他在北京、上海、广州建立十多处秘密据点。1971 年 2 月林彪、叶群、林立果在苏州密谋后，他到上海，3 月 21 日至 24 日与周宇驰、于新野、李伟信制订“《五七一工程》纪要”，提出“军事上先发制人”；3 月 31 日召集江腾蛟、王维国、陈励耘、周建平开会，指定南京、上海、杭州的“头”。9 月 7 日向“联合舰队”下达一级战备命令，8 日起传达林彪手令“盼照立果、宇驰同志传达的命令办”，部署用火焰喷射器、炸铁路桥等手段在途中谋杀毛泽东。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1972-lin-material-3]
+    - h: 出逃与坠机
+      from: 1971-09-11
+      to: 1971-09-13
+      text: |
+        9 月 11 日晚得知毛泽东已离开上海北返，计划破产，转而准备南逃广州“另立中央”。12 日晚周恩来追查 256 号专机，他与林彪、叶群、刘沛丰等赶到山海关机场，13 日零点三十二分强行起飞，飞机在蒙古温都尔汗坠毁，机上九人全部死亡。其姐林立衡（林豆豆）当晚向八三四一部队报告了出逃动向。1980 年特别检察厅以他已死亡为由不再追究刑事责任。
+      cites: [ws-1980-indictment, ws-1971-09-18-notice, ws-1972-lin-material-3]
+  assess:
+    - { voice: official1966, text: 林彪反革命别动队的头目、法西斯分子林立果（1971 年中共中央林陈反党集团材料之一）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: judicial1980, text: 一九七零年十月，林立果为头的“调研小组”组成为“联合舰队”, cite: ws-1980-indictment, quote: true }
+    - { voice: scholar, text: 多数研究认为“571 工程”纪要出自林立果和他的小圈子之手，林彪本人参与谋杀计划到什么程度是争议焦点；也有研究者认为林立果的计划多停留在纸面。, cite: macfarquhar-schoenhals }
+  factions: [lin]
+  fate:
+    - { date: 1967-03, s: normal, note: 进入空军党委办公室, verify: true }
+    - { date: 1969-10-17, s: rise, note: 空军司令部办公室副主任兼作战部副部长, cite: ws-1971-12-lin-chen-material-1 }
+    - { date: 1970-07-31, s: rise, note: “讲用报告”, cite: ws-1971-12-lin-chen-material-1 }
+    - { date: 1970-10, s: power, note: 组成“联合舰队”, cite: ws-1980-indictment }
+    - { date: 1971-03-24, s: power, note: 制订《“571 工程”纪要》, cite: ws-1980-indictment }
+    - { date: 1971-09-13, s: dead, note: 温都尔汗坠机, place: ondorkhaan, cite: ws-1971-09-18-notice }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-18-notice, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3]
+
+- id: yang-chengwu
+  name: 杨成武
+  born: 1914-10-27
+  died: 2004-02-14
+  tier: 2
+  role1966: 代总参谋长
+  pinyin: Yáng Chéngwǔ
+  gender: m
+  ethnicity: 汉族
+  birthplace: 福建长汀
+  origin: 福建长汀
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1930
+  joinedRevolution: 1929
+  positions:
+    - { title: 红一军团第二师第四团政治委员, orgName: 中国工农红军第一军团, from: 1934, to: 1935, verify: true }
+    - { title: 北京军区司令员, orgName: 北京军区, from: 1955-02, to: 1958, verify: true }
+    - { title: 中国人民解放军副总参谋长, orgName: 中国人民解放军总参谋部, from: 1959, to: 1966-08, verify: true }
+    - { title: 中国人民解放军代总参谋长, orgName: 中国人民解放军总参谋部, from: 1966-08, to: 1968-03-24, verify: true }
+    - { title: 中国人民解放军副总参谋长, orgName: 中国人民解放军总参谋部, from: 1974, to: 1977, verify: true }
+    - { title: 福州军区司令员, orgName: 福州军区, from: 1977, to: 1980, verify: true }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 福建长汀人，长征中任红一军团第四团政委，参与强渡大渡河、飞夺泸定桥；抗战中是晋察冀军区的主要指挥员。1955 年授上将。1965 年底罗瑞卿倒台后主持总参工作，1966 年 8 月任代总参谋长，是文革初期林彪倚重的军队干部，1967 年发表《大树特树伟大统帅毛主席的绝对权威》。1968 年 3 月与空军政委余立金、北京卫戍区司令员傅崇碧同时被撤职（“杨余傅事件”），关押六年。1974 年平反，后任福州军区司令员、全国政协副主席。
+  life:
+    - h: 红军与长征
+      from: 1914
+      to: 1937
+      text: |
+        1914 年生于福建长汀。1929 年参加闽西农民暴动，1930 年入党，在红四军、红一军团做政治工作。长征中任红一军团第二师第四团政治委员，与团长王开湘率部强渡大渡河、夺取泸定桥、攻打腊子口。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 晋察冀与华北
+      from: 1937
+      to: 1955
+      text: |
+        抗战时期任八路军一一五师独立团团长、晋察冀军区第一军分区司令员，1939 年 11 月黄土岭战斗中击毙日军中将阿部规秀。解放战争中任晋察冀野战军、华北第三兵团、第二十兵团司令员，1950 年率二十兵团入朝作战。1955 年授上将军衔，任北京军区司令员。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 主持总参
+      from: 1959
+      to: 1968-03
+      text: |
+        1959 年后任副总参谋长。1965 年底到 1966 年 4 月参与批判罗瑞卿，据 1966 年 4 月关于罗瑞卿问题的报告，彭真在会上的态度“有关事实有叶剑英、肖华、杨成武、刘志坚四同志，另写一信报毛主席和党中央”。1965 年 12 月 22 日毛泽东与彭真、康生、杨成武等谈话，再次说“要害是‘罢官’”。1966 年 8 月起任代总参谋长，8 月 18 日出席第一次接见红卫兵大会，兼任军委办事组组长（待核）。1967 年 7 月随毛泽东南巡，在武汉七二〇事件中负责毛泽东的安全转移（待核）。11 月 3 日在《人民日报》发表《大树特树伟大统帅毛主席的绝对权威，大树特树伟大的毛泽东思想的绝对权威》。
+      cites: [ws-1966-04-luo-report, ws-1966-05-16-notice-attachment, rmrb-1966-08-19-first-rally, ws-1967-red-flag-index]
+      verify: true
+    - h: 杨余傅事件
+      from: 1968-03
+      to: 1974
+      text: |
+        1968 年 3 月 24 日，林彪在人民大会堂接见军队干部时宣布撤销杨成武、余立金、傅崇碧的职务，罪名包括杨成武与余立金“要夺空军的权”、傅崇碧“带人冲击钓鱼台”，并称杨成武搞“山头主义”。事件的起因各方说法不一：一说是杨成武与吴法宪、林彪方面在空军人事上的冲突，一说与他向江青方面提供的材料有关。此后被关押约六年，1980 年起诉书把他列入“被诬陷的中共中央委员、候补中央委员”。
+      cites: [ws-1980-indictment, macfarquhar-schoenhals]
+      verify: true
+    - h: 平反与晚年
+      from: 1974
+      to: 2004
+      text: |
+        1974 年 7 月毛泽东表示“杨余傅”案是听了林彪的一面之词，中央随即为三人平反（待核）。复任副总参谋长，1977 年任福州军区司令员，1980 年后任军委副秘书长、全国人大常委会副委员长，1988 年起任全国政协副主席。2004 年 2 月 14 日在北京去世。
+      verify: true
+      cites: [klein-clark-1971]
+  assess:
+    - { voice: doc, text: 有关事实有叶剑英、肖华、杨成武、刘志坚四同志，另写一信报毛主席和党中央（1966 年 4 月关于罗瑞卿问题的报告）, cite: ws-1966-04-luo-report, quote: true }
+    - { voice: doc, text: 大树特树伟大统帅毛主席的绝对权威，大树特树伟大的毛泽东思想的绝对权威, cite: ws-1967-red-flag-index, quote: true }
+    - { voice: scholar, text: 杨余傅事件通常被看作林彪借机清除总参、空军、北京卫戍区中不属于自己系统的人，同时也是江青与林彪合作的一次交易；黄永胜随即取代杨成武。, cite: macfarquhar-schoenhals }
+  works:
+    - { title: 大树特树伟大统帅毛主席的绝对权威，大树特树伟大的毛泽东思想的绝对权威, date: 1967-11-03, cite: ws-1967-red-flag-index }
+  factions: [lin, marshals]
+  memberships:
+    - { f: marshals, from: 1968-03-24, note: 杨余傅事件后被林彪方面打倒 }
+  fate:
+    - { date: 1929, s: normal, note: 参加闽西暴动, verify: true }
+    - { date: 1935-05, s: normal, note: 飞夺泸定桥, verify: true }
+    - { date: 1955-02, s: power, note: 北京军区司令员, verify: true }
+    - { date: 1966-08, s: rise, note: 代总参谋长, verify: true }
+    - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
+    - { date: 1968-03-24, s: purged, note: 杨余傅事件, verify: true }
+    - { date: 1968-03-25, s: detained, verify: true }
+    - { date: 1974-07, s: restored, note: 平反，复任副总参谋长, verify: true }
+    - { date: 1977, s: power, note: 福州军区司令员, verify: true }
+    - { date: 2004-02-14, s: dead, verify: true }
+  cites: [ws-1966-04-luo-report, ws-1966-05-16-notice-attachment, rmrb-1966-08-19-first-rally, ws-1967-red-flag-index, ws-1980-indictment]
+
+- id: yu-lijin
+  name: 余立金
+  born: 1913
+  died: 1978-06
+  tier: 3
+  role1966: 空军政治委员
+  pinyin: Yú Lìjīn
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖北大冶
+  origin: 湖北大冶
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1931
+  joinedRevolution: 1930
+  positions:
+    - { title: 空军政治委员, orgName: 中国人民解放军空军, from: 1965, to: 1968-03-24, verify: true }
+    - { title: 南京军区副政治委员, orgName: 南京军区, from: 1975, to: 1978, verify: true }
+  rank: { rank: 中将, date: 1955-09 }
+  bio: 湖北大冶人，红三军团出身的政治工作干部，1955 年授中将，1965 年起任空军政委，与司令员吴法宪共事。1968 年 3 月在“杨余傅事件”中被林彪宣布撤职，罪名是与杨成武“要夺空军的权”，此后关押多年。1974 年平反，后任南京军区副政委，1978 年病逝。
+  life:
+    - h: 早年
+      from: 1913
+      to: 1949
+      text: |
+        1913 年生于湖北大冶。1930 年参加红军，1931 年入党，在红三军团做政治工作，参加长征。抗战时期在新四军、华中根据地任团政委、军分区政委；解放战争中在华东野战军任政治部主任、纵队政委。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 空军
+      from: 1950
+      to: 1968-03
+      text: |
+        建国后调空军，历任军区空军政委、空军副政委，1955 年授中将军衔，1965 年任空军政治委员。1966 年 8 月 18 日出席第一次接见红卫兵大会。
+      verify: true
+      cites: [rmrb-1966-08-19-first-rally, klein-clark-1971]
+    - h: 杨余傅事件与平反
+      from: 1968-03
+      to: 1978
+      text: |
+        1968 年 3 月 24 日与杨成武、傅崇碧一起被林彪宣布撤职，被指“勾结杨成武，要夺空军的权”（说法见各方回忆，待核）。此后被关押审查。1974 年随杨余傅案平反，1975 年任南京军区副政治委员。1978 年 6 月在北京病逝（日期待核）。
+      verify: true
+      cites: [macfarquhar-schoenhals]
+  factions: [marshals]
+  fate:
+    - { date: 1930, s: normal, note: 参加红军, verify: true }
+    - { date: 1955-09, s: normal, note: 授中将, verify: true }
+    - { date: 1965, s: power, note: 空军政委, verify: true }
+    - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
+    - { date: 1968-03-24, s: purged, note: 杨余傅事件, verify: true }
+    - { date: 1968-03-25, s: detained, verify: true }
+    - { date: 1974-07, s: restored, note: 平反, verify: true }
+    - { date: 1975, s: normal, note: 南京军区副政委, verify: true }
+    - { date: 1978-06, s: dead, verify: true }
+  cites: [rmrb-1966-08-19-first-rally]
+
+- id: fu-chongbi
+  name: 傅崇碧
+  born: 1916-01
+  died: 2003-01-17
+  tier: 3
+  role1966: 北京卫戍区司令员
+  pinyin: Fù Chóngbì
+  gender: m
+  ethnicity: 汉族
+  birthplace: 四川通江
+  origin: 四川通江
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1933
+  joinedRevolution: 1932
+  positions:
+    - { title: 第六十三军军长, orgName: 中国人民志愿军, from: 1951, to: 1953, verify: true }
+    - { title: 北京卫戍区司令员, orgName: 北京卫戍区, from: 1966-05, to: 1968-03-24, verify: true }
+    - { title: 北京卫戍区司令员, orgName: 北京卫戍区, from: 1979, to: 1985, verify: true }
+  rank: { rank: 少将, date: 1955-09 }
+  bio: 四川通江人，红四方面军出身，朝鲜战争中任六十三军军长，指挥铁原阻击战。1966 年 5 月首都工作组调兵加强北京卫戍时任卫戍区司令员，文革初期奉周恩来之命保护被冲击的干部和中南海。1968 年 3 月以“带兵冲击钓鱼台”的罪名与杨成武、余立金同被撤职，关押至 1974 年。平反后复任北京卫戍区司令员，后任中央军委纪委第二书记。
+  life:
+    - h: 早年与红四方面军
+      from: 1916
+      to: 1949
+      text: |
+        1916 年生于四川通江。1932 年红四方面军入川后参加红军，1933 年入党，参加长征。抗战时期在晋察冀根据地任团政委、军分区司令员；解放战争中在华北任旅长、师长。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 朝鲜与北京卫戍区
+      from: 1950
+      to: 1968-03
+      text: |
+        1951 年任志愿军第十九兵团第六十三军军长，在铁原一带阻击“联合国军”。1955 年授少将军衔。1966 年 5 月任北京卫戍区司令员（首都工作组成立、调兵加强北京卫戍之际），8 月 18 日出席第一次接见红卫兵大会。此后按周恩来的安排保护受冲击的中央和地方干部，在 1967 年多次与要求“揪斗”干部的群众组织交涉。
+      verify: true
+      cites: [rmrb-1966-08-19-first-rally, klein-clark-1971]
+    - h: 杨余傅事件与平反
+      from: 1968-03
+      to: 2003
+      text: |
+        1968 年 3 月 24 日被林彪宣布撤职，罪名是“带人冲击钓鱼台”（中央文革驻地）；据各方回忆，起因是他为送材料进入钓鱼台未按程序通报，被江青指为冲击（待核）。此后关押六年，1980 年起诉书把他列入被诬陷、迫害的军队高级干部。1974 年平反，任北京军区副司令员，1979 年复任北京卫戍区司令员，1985 年后任中央军委纪律检查委员会第二书记。2003 年 1 月 17 日在北京去世。
+      verify: true
+      cites: [ws-1980-indictment, macfarquhar-schoenhals]
+  factions: [marshals]
+  fate:
+    - { date: 1932, s: normal, note: 参加红军, verify: true }
+    - { date: 1951, s: normal, note: 六十三军军长, verify: true }
+    - { date: 1966-05, s: power, note: 北京卫戍区司令员, verify: true }
+    - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
+    - { date: 1968-03-24, s: purged, note: 杨余傅事件, verify: true }
+    - { date: 1968-03-25, s: detained, verify: true }
+    - { date: 1974, s: restored, note: 平反，北京军区副司令员, verify: true }
+    - { date: 1979, s: power, note: 复任北京卫戍区司令员, verify: true }
+    - { date: 2003-01-17, s: dead, verify: true }
+  cites: [rmrb-1966-08-19-first-rally, ws-1980-indictment]
+
+- id: chen-zaidao
+  name: 陈再道
+  born: 1909-01-24
+  died: 1993-04-06
+  tier: 2
+  role1966: 武汉军区司令员
+  pinyin: Chén Zàidào
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖北麻城
+  origin: 湖北麻城
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1928
+  joinedRevolution: 1927-11
+  positions:
+    - { title: 武汉军区司令员, orgName: 武汉军区, from: 1955-02, to: 1967-07, verify: true }
+    - { title: 铁道兵司令员, orgName: 中国人民解放军铁道兵, from: 1977, to: 1982, verify: true }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 湖北麻城人，黄麻起义出身，红四方面军的师长、军长，抗战中在冀南开辟根据地，解放战争中任晋冀鲁豫野战军第二纵队司令员。1955 年授上将，任武汉军区司令员十二年。1967 年武汉两派对立中军区支持“百万雄师”，七二〇事件后被定为“罪魁祸首”，撤职批斗、关押。1972 年后恢复工作，1977 年任铁道兵司令员，1978 年十一届三中全会增补为中央委员。
+  life:
+    - h: 黄麻起义与红四方面军
+      from: 1909
+      to: 1937
+      text: |
+        1909 年生于湖北麻城的农民家庭。1927 年 11 月参加黄麻起义，1928 年入党。在鄂豫皖、川陕根据地的红四方面军中历任团长、师长、第四军军长，参加长征。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 冀南与中原
+      from: 1937
+      to: 1955
+      text: |
+        抗战时期任八路军一二九师三八六旅副旅长、东进纵队司令员，开辟冀南抗日根据地，后任冀南军区司令员。解放战争中任晋冀鲁豫野战军（后中原野战军、第二野战军）第二纵队司令员，后任河南军区司令员。1955 年授上将军衔，任武汉军区司令员。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 七二〇事件
+      from: 1966
+      to: 1967-07
+      text: |
+        1967 年武汉群众组织分为“百万雄师”和“工人总部”等造反派两大派，军区在“支左”中支持“百万雄师”，3 月宣布取缔“工人总部”。7 月谢富治、王力到武汉处理，表态支持造反派，20 日其住地被“百万雄师”群众和部分军人冲击，王力被绑架。武汉军区 7 月 26 日的公告说：“王任重和陈再道则是上述事件的罪魁祸首”，“陈再道罪责难逃，我们坚决同陈再道划清界限，坚决把他打倒”。他被调到北京，在京西宾馆遭到批斗殴打，随后撤职审查。
+      cites: [ws-1967-07-26-wuhan-notice, macfarquhar-schoenhals]
+      verify: true
+    - h: 关押、复出与晚年
+      from: 1967-08
+      to: 1993
+      text: |
+        此后被关押审查，1980 年起诉书把他列入被林彪、江青集团诬陷、迫害的军队高级干部。1972 年后恢复工作，1973 年任福州军区副司令员（待核），1977 年任铁道兵司令员。1978 年 12 月十一届三中全会决定增补“黄克诚、宋任穷、胡乔木、习仲勋、王任重、黄火青、陈再道、韩光、周惠九同志为中央委员”。1982 年后任中顾委委员，1993 年 4 月 6 日在北京去世。
+      cites: [ws-1980-indictment, ws-1978-12-third-plenum]
+      verify: true
+  assess:
+    - { voice: official1966, text: 陈再道罪责难逃，我们坚决同陈再道划清界限，坚决把他打倒（1967 年 7 月 26 日武汉军区公告）, cite: ws-1967-07-26-wuhan-notice, quote: true }
+    - { voice: officialLater, text: 增补黄克诚、宋任穷、胡乔木、习仲勋、王任重、黄火青、陈再道、韩光、周惠九同志为中央委员（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
+    - { voice: scholar, text: 研究者一般认为七二〇事件是地方军队与中央文革在“支左”问题上的正面冲突，事后毛泽东先是保护陈再道，随后在林彪、江青方面的推动下全国掀起“揪军内一小撮”。, cite: macfarquhar-schoenhals }
+  factions: [marshals]
+  fate:
+    - { date: 1927-11, s: normal, note: 黄麻起义, verify: true }
+    - { date: 1955-02, s: power, note: 武汉军区司令员, verify: true }
+    - { date: 1967-03, s: power, note: 武汉军区宣布取缔“工人总部”, verify: true }
+    - { date: 1967-07-20, s: power, note: 七二〇事件, cite: ws-1967-07-26-wuhan-notice }
+    - { date: 1967-07-26, s: purged, note: 军区公告定为“罪魁祸首”, cite: ws-1967-07-26-wuhan-notice }
+    - { date: 1967-08, s: detained, note: 在京西宾馆遭批斗，隔离审查, verify: true }
+    - { date: 1972, s: restored, note: 恢复工作, verify: true }
+    - { date: 1977, s: power, note: 铁道兵司令员, verify: true }
+    - { date: 1978-12, s: power, note: 增补为中央委员, cite: ws-1978-12-third-plenum }
+    - { date: 1993-04-06, s: dead, verify: true }
+  cites: [ws-1967-07-26-wuhan-notice, ws-1978-12-third-plenum, ws-1980-indictment]
+
+- id: xu-shiyou
+  name: 许世友
+  born: 1905-02-28
+  died: 1985-10-22
+  tier: 2
+  role1966: 南京军区司令员
+  pinyin: Xǔ Shìyǒu
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河南新县
+  origin: 河南新县
+  deathKind: natural
+  deathPlace: 江苏南京
+  party: 中国共产党
+  joinedParty: 1927
+  joinedRevolution: 1926
+  positions:
+    - { title: 红四方面军第四军军长, orgName: 中国工农红军第四方面军, from: 1933, to: 1935, verify: true }
+    - { title: 南京军区司令员, orgName: 南京军区, from: 1955-02, to: 1973-12, verify: true }
+    - { title: 江苏省革命委员会主任, orgName: 江苏省革命委员会, from: 1968-03-23, to: 1974, verify: true }
+    - { title: 中共江苏省委第一书记, orgName: 中共江苏省委员会, from: 1970-12, to: 1974, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1982-09, cite: ws-1969-04-28-9th-cc-plenum }
+    - { title: 广州军区司令员, orgName: 广州军区, from: 1973-12, to: 1980-01, verify: true }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 河南新县人，少年时在少林寺习武的传说流传很广。黄麻起义后在红四方面军任军长，抗战中任胶东军区司令员，解放战争中指挥济南战役。1955 年授上将，任南京军区司令员十八年。文革初期一度遭造反派冲击，得毛泽东保护，1968 年兼江苏省革委会主任，九大当选政治局委员。1973 年底八大军区司令员对调时改任广州军区司令员，1979 年指挥对越作战东线。1985 年在南京去世，经特许土葬于家乡。
+  life:
+    - h: 少年与红四方面军
+      from: 1905
+      to: 1937
+      text: |
+        1905 年生于河南光山县（今新县）的贫苦农家，少年时到河南登封少林寺做杂役、习武（细节多为传说）。1926 年参加北伐军，1927 年参加黄麻起义并入党。在鄂豫皖、川陕根据地的红四方面军中历任团长、师长、第四军军长，参加长征。1937 年在延安抗大学习期间因不满对张国焘的批判，与王建安等人密谋出走，被捕后经毛泽东过问获释（待核）。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 胶东与济南
+      from: 1938
+      to: 1955
+      text: |
+        抗战时期任八路军一二九师副旅长、山东纵队第三旅旅长、胶东军区司令员。解放战争中任华东野战军第九纵队司令员、山东兵团司令员，1948 年 9 月指挥攻克济南。建国后任山东军区司令员、华东军区副司令员，1955 年授上将军衔，任南京军区司令员。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 南京军区与江苏
+      from: 1966
+      to: 1973-12
+      text: |
+        1967 年初南京造反派冲击军区，他一度离开南京到大别山躲避，毛泽东表示要保护他（待核）。南京两派中军区支持“红总”，与“八二七”对立。1968 年 3 月江苏省革委会成立，他任主任，1970 年 12 月任江苏省委第一书记。1969 年 4 月九届一中全会当选政治局委员。1974 年上海的徐景贤、王秀珍等策动他人到南京军区机关贴大字报，据 1982 年对徐景贤的判决，内容是“诬陷前南京军区司令员许世友”等“残酷镇压军内外群众”。
+      cites: [ws-1969-04-28-9th-cc-plenum, ws-1982-xu-jingxian-case, macfarquhar-schoenhals]
+      verify: true
+    - h: 广州军区、对越作战与身后
+      from: 1973-12
+      to: 1985
+      text: |
+        1973 年 12 月毛泽东主持八大军区司令员对调，他与广州军区司令员丁盛对调。1976 年后支持粉碎“四人帮”，1977 年 7 月十届三中全会时仍为政治局委员。1979 年 2 月对越作战中任东线指挥。1980 年 1 月卸任，1982 年任中顾委副主任。1985 年 10 月 22 日在南京去世，生前要求土葬，经邓小平特许葬于河南新县家乡。
+      cites: [ws-1977-07-tenth-third-plenum]
+      verify: true
+  assess:
+    - { voice: doc, text: 叶　群　叶剑英　刘伯承　江　青　朱　德　许世友（1969 年九届一中全会政治局委员名单）, cite: ws-1969-04-28-9th-cc-plenum, quote: true }
+    - { voice: judicial1980, text: 诬陷前南京军区司令员许世友（1982 年对徐景贤的判决）, cite: ws-1982-xu-jingxian-case, quote: true }
+    - { voice: scholar, text: 许世友在文革中的地位来自毛泽东的个人信任；他既反对冲击军队的造反派，又与林彪集团保持距离，九一三后成为稳定南方军队的人物。, cite: macfarquhar-schoenhals }
+  factions: [marshals]
+  fate:
+    - { date: 1927-11, s: normal, note: 黄麻起义, verify: true }
+    - { date: 1948-09, s: normal, note: 指挥济南战役, verify: true }
+    - { date: 1955-02, s: power, note: 南京军区司令员, verify: true }
+    - { date: 1967-01, s: attacked, note: 造反派冲击军区，一度离开南京, verify: true }
+    - { date: 1968-03-23, s: power, note: 江苏省革委会主任, verify: true }
+    - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1973-12, s: power, note: 调任广州军区司令员, verify: true }
+    - { date: 1979-02, s: power, note: 对越作战东线指挥, verify: true }
+    - { date: 1982-09, s: normal, note: 中顾委副主任, verify: true }
+    - { date: 1985-10-22, s: dead, verify: true }
+  cites: [ws-1969-04-28-9th-cc-plenum, ws-1977-07-tenth-third-plenum, ws-1982-xu-jingxian-case]
