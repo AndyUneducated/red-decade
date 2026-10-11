@@ -4242,7 +4242,7 @@
   deathPlace: 蒙古温都尔汗附近
   party: 中国共产党
   positions:
-    - { title: 林彪办公室主任, orgName: 林彪办公室, from: 1965, to: 1971-09-13, verify: true }
+    - { title: 林彪办公室主任, orgName: 林彪办公室, sys: army, from: 1965, to: 1971-09-13, verify: true }
     - { title: 中央军委办事组成员, orgName: 中央军委办事组, from: 1967-08, to: 1971-09-13, verify: true }
     - { title: 中共第九届中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1971-09-13, cite: ws-1969-04-28-9th-cc-plenum }
   tier: 2

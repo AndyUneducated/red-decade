@@ -144,7 +144,18 @@ export const PersonSchema = z.object({
   joinedParty: PartialDate.optional(),
   joinedRevolution: PartialDate.optional(),
   // org: id in content/orgs.yaml (MP-3); orgName when the body is not modelled
-  positions: z.array(z.object({ title: z.string(), org: z.string().optional(), orgName: z.string().optional(), ...Dated })).default([]),
+  // sys overrides the lane (党/政/军/其他) guessed by systemOf in src/lib/positions.ts
+  positions: z
+    .array(
+      z.object({
+        title: z.string(),
+        org: z.string().optional(),
+        orgName: z.string().optional(),
+        sys: z.enum(['party', 'gov', 'army', 'other']).optional(),
+        ...Dated,
+      }),
+    )
+    .default([]),
   rank: z.object({ rank: z.string(), date: PartialDate, cite: Cite.optional() }).optional(),
   rehab: z.array(z.object({ date: PartialDate, text: z.string(), cite: Cite.optional(), verify: z.boolean().optional() })).default([]),
   afterlife: z.array(z.object({ date: PartialDate, text: z.string(), cite: Cite.optional(), verify: z.boolean().optional() })).default([]),

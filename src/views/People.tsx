@@ -1,6 +1,7 @@
 import * as d3 from 'd3'
 import { useMemo, useRef, useState } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
+import { AgeRuler, IdCard, ProfileTimeline } from '../components/Dossier'
 import { ClaimLinks, EventList, FateLine, RelationList } from '../components/Drawer'
 import { LifeStrip } from '../components/LifeStrip'
 import { PersonFacts, PositionList } from '../components/PersonFacts'
@@ -180,7 +181,7 @@ function Profile({ id }: { id: string }) {
               ))}
             </div>
             <div style={{ marginTop: 16 }}>
-              <LifeStrip p={p} x={x} T1={end} width={mainW} height={14} ticks={ticks} mark={1966} />
+              <ProfileTimeline p={p} x={x} width={mainW} end={end} ticks={ticks} />
             </div>
           </header>
           <div className="profile-grid">
@@ -231,7 +232,12 @@ function Profile({ id }: { id: string }) {
             <aside className="profile-side">
               <section>
                 <h3>档案</h3>
+                <IdCard p={p} />
                 <PersonFacts p={p} />
+              </section>
+              <section>
+                <h3>年龄标尺</h3>
+                <AgeRuler p={p} />
               </section>
               {p.positions.length > 0 && (
                 <section>

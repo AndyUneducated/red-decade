@@ -1,5 +1,6 @@
 import { ALIAS_KINDS, DEATH_KINDS, type Person } from '../data/schema'
-import { fmtDate, fmtRange, toT } from '../lib/dates'
+import { fmtDate, fmtRange } from '../lib/dates'
+import { heldAt } from '../lib/positions'
 import { Cite, Verify } from './bits'
 
 const when = (s: { from?: string; to?: string }) =>
@@ -77,7 +78,7 @@ export function PersonFacts({ p }: { p: Person }) {
 // Positions in date order; the ones held at time t are marked.
 export function PositionList({ p, t }: { p: Person; t: number }) {
   if (!p.positions.length) return null
-  const held = (x: Person['positions'][number]) => (!x.from || toT(x.from) <= t) && (!x.to || t <= toT(x.to, true))
+  const held = (x: Person['positions'][number]) => heldAt(x, t)
   const list = [...p.positions].sort((a, b) => (a.from ?? '').localeCompare(b.from ?? ''))
   return (
     <ul className="minilist">
@@ -85,8 +86,7 @@ export function PositionList({ p, t }: { p: Person; t: number }) {
         <li key={i} style={{ opacity: held(x) ? 1 : 0.7 }}>
           <time>{when(x)}</time>
           <span style={{ fontWeight: held(x) ? 600 : 400 }}>
-            {x.orgName ?? ''}
-            {x.title}
+            {x.orgName && !x.title.includes(x.orgName) ? `${x.orgName} ${x.title}` : x.title}
           </span>
           {x.note && <span style={{ color: 'var(--ink-2)' }}> · {x.note}</span>} <Cite cite={x.cite} />
           {x.verify && <Verify />}
