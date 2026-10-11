@@ -55,7 +55,7 @@
     - { voice: judicial1980, text: 判处被告人徐景贤有期徒刑十八年，剥夺政治权利四年, cite: ws-1982-xu-jingxian-case, quote: true }
     - { voice: judicial1980, text: 张春桥指使上海市革命委员会副主任马天水、徐景贤在上海召开的万人大会上，诬陷重新出来工作的领导干部“从资产阶级民主派变成走资派”（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
     - { voice: editor, text: 他晚年写有回忆录《十年一梦》，回忆录未入语料；本条事实以起诉书和判决书为准。 }
-  factions: [ccrg]
+  factions: [shgang]
   fate:
     - { date: 1964, s: normal, note: 写作班党支部书记, verify: true }
     - { date: 1966-12, s: rise, note: 从市委内部造反, cite: ws-1982-xu-jingxian-case }
@@ -116,7 +116,7 @@
     - { voice: judicial1980, text: 判处被告人王秀珍有期徒刑十七年，剥夺政治权利四年, cite: ws-1982-08-21-wang-xiuzhen-case, quote: true }
     - { voice: judicial1980, text: 一九七三年九月，王洪文对王秀珍说：“要建立全国民兵总指挥部，由我亲自来抓。”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
     - { voice: editor, text: 她从工厂技术员到市委书记只用了五年，几乎所有职务和行动都在王洪文的直接授意下进行，是工总司骨干转入新权力机构的典型。 }
-  factions: [rebels, ccrg]
+  factions: [rebels, shgang]
   fate:
     - { date: 1966-11-09, s: rise, note: 参与组建工总司, verify: true }
     - { date: 1967-02-24, s: power, note: 市革委会副主任, verify: true }
@@ -177,9 +177,9 @@
     - { voice: judicial1980, text: 马天水随即决定由他们所控制的武器仓库中发给“民兵”枪七万四千二百二十支，炮三百门，各种弹药一千多万发（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
     - { voice: judicial1980, text: 张春桥、王洪文、马天水等人还以莫须有的罪名，诬陷、迫害中共地下党领导人和党员（1982 年徐景贤案起诉书）, cite: ws-1982-xu-jingxian-case, quote: true }
     - { voice: editor, text: 他是“三结合”中“革命领导干部”一方在上海的代表：上海原市委书记处只有他留在新政权里，主管生产，并在 1976 年亲笔批准发枪。 }
-  factions: [shanghai, ccrg]
+  factions: [shanghai, shgang]
   memberships:
-    - { f: ccrg, from: 1967-01, note: 被张春桥“解放”并结合进市革委会 }
+    - { f: shgang, from: 1967-01, note: 被张春桥“解放”并结合进市革委会 }
   fate:
     - { date: 1958, s: normal, note: 上海市委书记处书记, verify: true }
     - { date: 1967-01, s: attacked, note: 一月夺权中被揪斗, verify: true }
@@ -226,7 +226,7 @@
     - { voice: judicial1980, text: 江青、张春桥、姚文元指使清华大学党委书记迟群、中共北京市委书记谢静宜、“人民日报”总编辑鲁瑛和上海写作组负责人朱永嘉等利用舆论工具（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
     - { voice: judicial1980, text: 当晚，上海市革命委员会副主任王少庸、上海写作组负责人朱永嘉、上海市革命委员会工交组负责人陈阿大等人开会，策划停产罢工、游行示威（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
     - { voice: judicial1980, text: 朱永嘉去写作组为武装叛乱作舆论准备（1982 年徐景贤案判决）, cite: ws-1982-xu-jingxian-case, quote: true }
-  factions: [ccrg]
+  factions: [shgang]
   fate:
     - { date: 1966-12, s: rise, note: 参与从市委内部造反, cite: ws-1982-xu-jingxian-case }
     - { date: 1971, s: power, note: 上海写作组负责人, verify: true }

@@ -356,12 +356,12 @@
   from: 1964
   to: 1976-10
   places: [{ at: shanghai }]
-  factions: [ccrg]
+  factions: [shgang]
   summary: 1964 年由张春桥在上海市委宣传系统组建，先后以“丁学雷”“罗思鼎”“石一歌”等笔名发文，1973 年起主办《学习与批判》《朝霞》，是张春桥、姚文元在舆论上的主要工具。
   verify: true
   leaders:
     - { name: 徐景贤, title: 负责人, from: 1964, to: 1967-02, note: 1967 年后任上海市革委会副主任，仍分管写作组 }
-    - { name: 朱永嘉, title: 负责人, from: 1971, to: 1976-10, faction: ccrg }
+    - { name: 朱永嘉, title: 负责人, from: 1971, to: 1976-10 }
 
 - id: chulan
   name: 文化部写作组

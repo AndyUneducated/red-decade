@@ -85,6 +85,14 @@
   color: '#577590'
   summary: 第一书记陈丕显、市长曹荻秋。1965 年发表姚文元文章的地方；1966 年底与“工总司”冲突，1967 年“一月风暴”中被夺权。
   cites: [ws-1980-indictment]
+- id: shgang
+  name: 上海帮
+  kind: group
+  color: '#a8456b'
+  from: 1966-12
+  to: 1976-10-06
+  summary: 张春桥、王洪文在上海的班底：马天水、徐景贤、王秀珍，以及陈阿大、叶昌明、王少庸、朱永嘉等。1967 年起控制上海市革委会和恢复后的市委，1976 年 10 月策划武装叛乱未遂。1982 年的起诉书称他们“都是江青反革命集团在上海的重要骨干”。
+  cites: [ws-1982-xu-jingxian-case, ws-1981-01-25-judgment]
 - id: marshals
   name: 军队元老
   kind: institution
