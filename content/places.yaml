@@ -140,6 +140,12 @@
 - { id: qingpu, name: 青浦（练塘）, names: [青浦, 练塘], lat: 31.01, lon: 121.04 }
 - { id: dingxiang, name: 定襄, names: [定襄], lat: 38.47, lon: 112.96 }
 - { id: zizhou, name: 子洲（原属绥德）, names: [子洲, 绥德], lat: 37.61, lon: 110.03 }
+# batch 3
+- { id: yiyang-jx, name: 弋阳, names: [弋阳], lat: 28.40, lon: 117.43 }
+- { id: wuxiang, name: 武乡, names: [武乡], lat: 36.84, lon: 112.86 }
+- { id: fengrun, name: 丰润, names: [丰润], lat: 39.83, lon: 118.16 }
+- { id: jiaocheng, name: 交城, names: [交城], lat: 37.55, lon: 112.16 }
+- { id: rushan, name: 乳山, names: [乳山], lat: 36.92, lon: 121.54 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

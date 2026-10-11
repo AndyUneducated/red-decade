@@ -1,0 +1,648 @@
+# M3 people, batch 3: those who rose at or after the Ninth Congress (1969) and the Tenth (1973) and held
+# the centre between Lin Biao's fall and 1978 (汪东兴, 纪登奎, 吴德, 李德生, 陈锡联, 华国锋, 于会泳, 陈永贵, 苏振华).
+# 迟群 and 谢静宜 moved to batch 9: their death dates are not settled here yet.
+# Same format as people.yaml; quote: true is checked verbatim at build. Careers from general reference, verify.
+
+- id: wang-dongxing
+  name: 汪东兴
+  born: 1916-01-09
+  died: 2015-08-21
+  tier: 2
+  role1966: 中共中央办公厅主任
+  pinyin: Wāng Dōngxīng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西弋阳
+  origin: 江西弋阳
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1932
+  positions:
+    - { title: 公安部副部长, orgName: 公安部, from: 1955, to: 1958, verify: true }
+    - { title: 中共中央办公厅主任, orgName: 中共中央办公厅, from: 1965-11, to: 1978-12, cite: ws-1967-07-09-liu-jiangong-review }
+    - { title: 中共中央政治局候补委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1973-08, cite: ws-1969-04-28-9th-cc-plenum }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1973-08, to: 1980-02, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 中共中央副主席, orgName: 中国共产党中央委员会, from: 1977-08, to: 1980-02, cite: ws-1978-12-third-plenum }
+    - { title: 中共中央政治局常委, orgName: 中共中央政治局常务委员会, from: 1977-08, to: 1980-02, verify: true }
+  bio: 江西弋阳人，红军出身，1947 年起长期负责毛泽东的警卫，建国后任中办警卫局长、公安部副部长。1965 年接替杨尚昆任中共中央办公厅主任，掌管中南海与中央警卫团（八三四一部队），文革中是毛泽东身边最贴近的执行者。1976 年 10 月 6 日指挥八三四一部队拘捕“四人帮”，次年任中共中央副主席。1978 年中央工作会议上因坚持“两个凡是”、主管专案阻挠平反而受批评，1980 年辞职。2015 年在北京去世。
+  life:
+    - h: 红军与毛泽东的警卫
+      from: 1916
+      to: 1949
+      text: |
+        1916 年生于江西弋阳的农民家庭，1929 年参加红军，1932 年入党，在红一方面军做卫生、政治工作，参加长征。抗战时期在八路军总部、延安的卫生和保卫部门任职。1947 年胡宗南进攻延安、中央转战陕北时，任中央警卫部队负责人，此后一直负责毛泽东的安全。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 中办警卫局与江西
+      from: 1949
+      to: 1965
+      text: |
+        1949 年后任中共中央办公厅警卫局局长、中央警卫师师长兼政委，1955 年兼任公安部副部长。1958 年下放江西，任江西省副省长、省委书记处书记，负责垦殖场工作。1965 年 11 月杨尚昆被调离后，回京任中共中央办公厅主任。
+      verify: true
+      cites: [klein-clark-1971, ccp-org-history]
+    - h: 文革中的中南海
+      from: 1966
+      to: 1976
+      text: |
+        文革中负责中南海与中央领导人的警卫，向被批斗的刘少奇等传达中央意见，1967 年 7 月 4 日按中央意见通知刘少奇向北京建工学院“新八一”写检查。1966 年 4 月批判罗瑞卿的报告专门记录他为毛泽东作证。1967 年夏中央办公厅秘书局的人写信给他和周恩来，要求当面批判刘少奇，信被戚本禹转给江青、康生、陈伯达，随后发生中南海内的批斗和抄家。1968 年 7 月他派八三四一部队参加进驻清华、北大的工人宣传队，“六厂二校”的经验由此推向全国。1969 年九大当选政治局候补委员。1970 年庐山会议上他在华北组发言赞成设国家主席，后作检讨。1976 年 10 月 6 日晚在怀仁堂指挥八三四一部队对王洪文、张春桥、姚文元实施隔离，同时在中南海拘捕江青。
+      cites: [ws-1967-07-09-liu-jiangong-review, ws-1966-04-luo-report, ws-1983-11-02-qi-benyu-case, ws-1969-04-28-9th-cc-plenum]
+      verify: true
+    - h: 副主席与辞职
+      from: 1977
+      to: 2015
+      text: |
+        1977 年 8 月十一大当选中共中央副主席、政治局常委，兼管中央专案和《毛泽东选集》编辑。1978 年 11 月中央工作会议上被批评支持“两个凡是”、压制真理标准讨论、阻挠为天安门事件和老干部平反，12 月中办主任一职由姚依林接任。1980 年 2 月十一届五中全会同意他与纪登奎、吴德、陈锡联辞去中央领导职务。此后任中顾委委员，晚年写有关于毛泽东与林彪集团斗争的回忆录。2015 年 8 月 21 日在北京去世。
+      verify: true
+      cites: [ws-1978-12-third-plenum, vogel-deng]
+  assess:
+    - { voice: doc, text: 汪东兴同志证明，毛主席根本没讲过这话（1966 年批判罗瑞卿报告）, cite: ws-1966-04-luo-report, quote: true }
+    - { voice: judicial1980, text: 中共中央秘书局的某些人写信给汪东兴并周恩来总理，要求开会当面批判刘少奇，戚本禹却把信送给了江青、康生、陈伯达（1983 年戚本禹案判决）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
+    - { voice: officialLater, text: 副主席叶剑英、邓小平、李先念、陈云、汪东兴出席了会议（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
+    - { voice: scholar, text: 傅高义等认为汪东兴在 1977–1978 年是华国锋最重要的支持者，他对专案材料和宣传口的控制是邓小平复出后首先要解决的问题。, cite: vogel-deng }
+  factions: [mao]
+  fate:
+    - { date: 1932, s: normal, note: 入党, verify: true }
+    - { date: 1947, s: normal, note: 负责毛泽东警卫, verify: true }
+    - { date: 1958, s: sidelined, note: 下放江西, verify: true }
+    - { date: 1965-11, s: power, note: 中共中央办公厅主任, verify: true }
+    - { date: 1969-04-28, s: rise, note: 政治局候补委员, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1976-10-06, s: power, note: 指挥拘捕“四人帮”, verify: true }
+    - { date: 1977-08, s: power, note: 中共中央副主席, verify: true }
+    - { date: 1978-12, s: sidelined, note: 卸任中办主任, verify: true }
+    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞职, verify: true }
+    - { date: 2015-08-21, s: dead, verify: true }
+  cites: [ws-1966-04-luo-report, ws-1967-07-09-liu-jiangong-review, ws-1983-11-02-qi-benyu-case, ws-1969-04-28-9th-cc-plenum, ws-1978-12-third-plenum]
+
+- id: ji-dengkui
+  name: 纪登奎
+  born: 1923-03-17
+  died: 1988-07-13
+  tier: 2
+  role1966: 中共河南省委书记处书记
+  pinyin: Jì Dēngkuí
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西武乡
+  origin: 山西武乡
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 中共河南省委书记处书记, orgName: 中共河南省委员会, from: 1958, to: 1967, verify: true }
+    - { title: 河南省革命委员会副主任, orgName: 河南省革命委员会, from: 1968-01, to: 1969, verify: true }
+    - { title: 中共中央政治局候补委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1973-08, cite: ws-1969-04-28-9th-cc-plenum }
+    - { title: 北京军区第一政治委员, orgName: 北京军区, from: 1971-01, to: 1980, cite: ws-1971-12-lin-chen-material-1 }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1973-08, to: 1980-02, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 国务院副总理, orgName: 国务院, from: 1975-01, to: 1980-04, verify: true }
+    - { title: 中央政法小组组长, orgName: 中央政法小组, from: 1978-06, to: 1980-01, verify: true }
+  bio: 山西武乡人，抗战中入党，建国后在河南许昌、洛阳任地委书记、厂党委书记，1950 年代受毛泽东赏识，后任河南省委书记处书记。文革初在河南被造反派揪斗，毛泽东点名保他，1969 年九大越级进入政治局候补委员，参与中央组织宣传组工作；1971 年华北会议后任北京军区第一政委。1975 年任国务院副总理，1980 年与汪东兴等辞去中央领导职务，改任农村发展研究中心研究员，1988 年病逝。
+  life:
+    - h: 武乡与冀鲁豫
+      from: 1923
+      to: 1949
+      text: |
+        1923 年生于山西武乡，1937 年参加抗日救亡活动，1938 年入党，在太行、冀鲁豫根据地做地方党的工作，任区委书记、县委书记。解放战争中随军南下河南。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 许昌与毛泽东的赏识
+      from: 1949
+      to: 1966
+      text: |
+        建国后任中共许昌地委书记、洛阳矿山机器厂党委书记、洛阳地委第一书记。1950 年代毛泽东在河南视察时听过他的汇报，此后多次提到他。1958 年起任河南省委书记处书记，经历了信阳事件前后的河南大跃进。
+      verify: true
+      cites: [ccp-figures-bios, yang-jisheng-overturn]
+    - h: 九大越级
+      from: 1966
+      to: 1976
+      text: |
+        1967 年河南两派对立，他被“二七公社”一方揪斗，毛泽东表示要保他，被接到北京。1968 年 1 月河南省革委会成立，任副主任。1969 年 4 月九届一中全会越级当选政治局候补委员，参与中央组织宣传组，主管干部审查。1971 年初华北会议批判陈伯达，按 1971 年中央材料，会上“宣布了中央关于李德生、谢富治、纪登奎等同志在北京军区任职的决定”，他任北京军区第一政委。1973 年十大当选政治局委员，1975 年任国务院副总理，分管农业与政法。
+      cites: [ws-1969-04-28-9th-cc-plenum, ws-1971-12-lin-chen-material-1, ws-1977-07-tenth-third-plenum]
+      verify: true
+    - h: 辞职与晚年
+      from: 1977
+      to: 1988
+      text: |
+        1978 年任中央政法小组组长。1980 年 2 月十一届五中全会同意他与汪东兴、吴德、陈锡联辞去中央领导职务（当时被并称“小四人帮”或“凡是派”）。此后到国务院农村发展研究中心任研究员，参加农村改革调研。1988 年 7 月 13 日在北京病逝。
+      verify: true
+      cites: [vogel-deng]
+  assess:
+    - { voice: official1966, text: 宣布了中央关于李德生、谢富治、纪登奎等同志在北京军区任职的决定（1971 年中共中央林陈反党集团材料之一）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 纪登奎　李雪峰　李德生　汪东兴（1969 年九届一中全会政治局候补委员名单）, cite: ws-1969-04-28-9th-cc-plenum, quote: true }
+    - { voice: scholar, text: 纪登奎是文革中靠毛泽东个人提拔、从省级越过数级进入中央的典型；研究者认为他在 1970 年代主管的干部审查既有执行“左”的政策的一面，也为一些老干部“解放”做过安排。, cite: macfarquhar-schoenhals }
+  factions: [mao]
+  fate:
+    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1958, s: rise, note: 河南省委书记处书记, verify: true }
+    - { date: 1967, s: attacked, note: 河南造反派揪斗, verify: true }
+    - { date: 1968-01, s: restored, note: 河南省革委会副主任, verify: true }
+    - { date: 1969-04-28, s: rise, note: 政治局候补委员, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1971-01, s: power, note: 北京军区第一政委, cite: ws-1971-12-lin-chen-material-1 }
+    - { date: 1975-01, s: power, note: 国务院副总理, verify: true }
+    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞职, verify: true }
+    - { date: 1988-07-13, s: dead, verify: true }
+  cites: [ws-1969-04-28-9th-cc-plenum, ws-1971-12-lin-chen-material-1, ws-1977-07-tenth-third-plenum]
+
+- id: wu-de
+  name: 吴德
+  born: 1913
+  died: 1995-11-29
+  tier: 2
+  role1966: 中共北京市委第二书记
+  pinyin: Wú Dé
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河北丰润
+  origin: 河北丰润
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1933
+  positions:
+    - { title: 中共吉林省委第一书记, orgName: 中共吉林省委员会, from: 1955, to: 1966-06, cite: rmrb-1966-06-04-new-committee }
+    - { title: 中共北京市委第二书记, orgName: 中共北京市委员会, from: 1966-06-03, to: 1972-10, cite: rmrb-1966-06-04-new-committee }
+    - { title: 北京市代理市长, orgName: 北京市人民政府, from: 1966-05, to: 1967-04-20, verify: true }
+    - { title: 北京市革命委员会副主任, orgName: 北京市革命委员会, from: 1967-04-20, to: 1972-10, verify: true }
+    - { title: 国务院文化组组长, orgName: 国务院文化组, from: 1971-05, to: 1975-01, verify: true }
+    - { title: 中共北京市委第一书记, orgName: 中共北京市委员会, from: 1972-10, to: 1978-10, verify: true }
+    - { title: 北京市革命委员会主任, orgName: 北京市革命委员会, from: 1972-10, to: 1978-10, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1973-08, to: 1980-02, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 全国人大常委会副委员长, orgName: 全国人民代表大会常务委员会, from: 1975-01, to: 1978-03, verify: true }
+  bio: 河北丰润人，开滦煤矿工运出身，抗战中在平津做地下工作，建国后任燃料工业部副部长、吉林省委第一书记。1966 年 6 月 3 日改组北京市委时调任第二书记，此后十二年主持北京日常工作，1972 年起任市委第一书记、市革委会主任。1976 年 4 月 5 日晚在天安门广场广播讲话，宣布群众悼念活动是“反革命事件”。1976 年 10 月参与粉碎“四人帮”的部署。1978 年 10 月离开北京市，1980 年辞去中央职务，1995 年病逝。
+  life:
+    - h: 开滦与平津地下党
+      from: 1913
+      to: 1949
+      text: |
+        1913 年生于河北丰润。早年在唐山开滦煤矿做工人运动，1933 年入党，1938 年参与组织冀东抗日暴动。抗战时期和解放战争中长期在平津地区做城市地下工作，任中共平津唐点线委员会书记等职。
+      verify: true
+      cites: [wu-de-memoir, ccp-figures-bios]
+    - h: 天津、燃料部与吉林
+      from: 1949
+      to: 1966
+      text: |
+        1949 年后任天津市委副书记、副市长，1952 年调中央任燃料工业部副部长，1955 年起任中共吉林省委第一书记。
+      verify: true
+      cites: [wu-de-memoir]
+    - h: 北京十二年
+      from: 1966-06
+      to: 1978-10
+      text: |
+        1966 年 6 月 3 日新华社宣布：“调中共吉林省委第一书记吴德同志任北京市委第二书记，对北京市委进行改组”，第一书记由华北局李雪峰兼任。他随即主持北京派工作组，8 月后随运动转向检讨。1967 年 4 月北京市革委会成立，谢富治任主任，他任副主任；1971 年起兼国务院文化组组长，主管“样板戏”和出版。1972 年谢富治死后任市委第一书记、市革委会主任。1976 年 4 月 5 日晚，他按政治局决定在天安门广场发表广播讲话，要求群众离开，随后首都民兵和警卫部队清场。10 月粉碎“四人帮”前后负责北京卫戍和市内安排。
+      cites: [rmrb-1966-06-04-new-committee, wu-de-memoir, ws-1977-07-tenth-third-plenum]
+      verify: true
+    - h: 离开北京
+      from: 1978-10
+      to: 1995
+      text: |
+        1978 年 10 月中央改组北京市委，林乎加接任第一书记，他离开北京市领导岗位，11 月 14 日北京市委宣布天安门事件“完全是革命行动”。1980 年 2 月十一届五中全会同意他辞去政治局委员。晚年口述回忆录《十年风雨纪事》，记述了 1966–1976 年北京的决策过程。1995 年 11 月 29 日在北京病逝。
+      verify: true
+      cites: [wu-de-memoir, ws-1978-12-third-plenum]
+  assess:
+    - { voice: doc, text: 调中共吉林省委第一书记吴德同志任北京市委第二书记，对北京市委进行改组（1966 年 6 月 4 日《人民日报》）, cite: rmrb-1966-06-04-new-committee, quote: true }
+    - { voice: witness, text: 吴德晚年回忆说，4 月 5 日的广播讲话稿是政治局会议讨论定稿后由他宣读，他本人对清场负有责任但并非决策者（本人回忆转述）。, cite: wu-de-memoir }
+    - { voice: scholar, text: 研究者把吴德看作文革中“不倒”的地方大员：既执行了 1966 年派工作组和 1976 年清场两项后来被否定的决定，又在 1976 年 10 月站到了华国锋、叶剑英一边。, cite: macfarquhar-schoenhals }
+  factions: [mao]
+  fate:
+    - { date: 1933, s: normal, note: 入党, verify: true }
+    - { date: 1955, s: power, note: 吉林省委第一书记, verify: true }
+    - { date: 1966-06-03, s: rise, note: 调任北京市委第二书记, cite: rmrb-1966-06-04-new-committee }
+    - { date: 1967-04-20, s: power, note: 北京市革委会副主任, verify: true }
+    - { date: 1972-10, s: power, note: 北京市委第一书记, verify: true }
+    - { date: 1976-04-05, s: power, note: 天安门广场广播讲话, verify: true }
+    - { date: 1978-10, s: sidelined, note: 离开北京市, verify: true }
+    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞职, verify: true }
+    - { date: 1995-11-29, s: dead, verify: true }
+  cites: [rmrb-1966-06-04-new-committee, ws-1977-07-tenth-third-plenum, wu-de-memoir]
+
+- id: li-desheng
+  name: 李德生
+  born: 1916-04
+  died: 2011-05-08
+  tier: 2
+  role1966: 第十二军军长
+  pinyin: Lǐ Déshēng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河南新县
+  origin: 河南新县
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1932
+  positions:
+    - { title: 安徽省革命委员会主任, orgName: 安徽省革命委员会, from: 1968-04-18, to: 1974, verify: true }
+    - { title: 中共中央政治局候补委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1973-08, cite: ws-1969-04-28-9th-cc-plenum }
+    - { title: 中国人民解放军总政治部主任, orgName: 中国人民解放军总政治部, from: 1970, to: 1974, verify: true }
+    - { title: 中共安徽省委第一书记, orgName: 中共安徽省委员会, from: 1971, to: 1974, verify: true }
+    - { title: 北京军区司令员, orgName: 北京军区, from: 1971-01, to: 1973-12, cite: ws-1971-12-lin-chen-material-1 }
+    - { title: 中共中央副主席, orgName: 中国共产党中央委员会, from: 1973-08, to: 1975-01, verify: true }
+    - { title: 中共中央政治局常委, orgName: 中共中央政治局常务委员会, from: 1973-08, to: 1975-01, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1973-08, to: 1985-09, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 沈阳军区司令员, orgName: 沈阳军区, from: 1973-12, to: 1985, verify: true }
+    - { title: 国防大学政治委员, orgName: 中国人民解放军国防大学, from: 1985-12, to: 1990, verify: true }
+  rank: { rank: 少将, date: 1955-09 }
+  bio: 河南新县人，红四方面军出身，朝鲜战争中任第十二军副军长参加上甘岭战役，后任军长。1967 年率十二军进驻安徽支左，1968 年任安徽省革委会主任，九大进入政治局候补委员，1970 年任总政治部主任。1970 年庐山会议后毛泽东称军委办事组中只有他没有跟林彪走，1971 年调任北京军区司令员。1973 年十大当选中共中央副主席，同年底与陈锡联等八大军区司令员对调到沈阳。1985 年任国防大学政委，2011 年在北京去世。
+  life:
+    - h: 红四方面军与刘邓部队
+      from: 1916
+      to: 1949
+      text: |
+        1916 年生于河南光山（今新县）的贫农家庭，1930 年参加红军，1932 年入党，在红四方面军中参加长征。抗战时期在一二九师任营长、团长，解放战争中在刘邓大军第三兵团任旅长、师长，参加挺进大别山、淮海、渡江和进军西南。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 上甘岭与十二军
+      from: 1950
+      to: 1966
+      text: |
+        1951 年入朝作战，任志愿军第十二军副军长，1952 年 10 月上甘岭战役中指挥十二军部队接替十五军坚守阵地。1955 年授少将，后任十二军军长，部队驻南京军区。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 安徽、总政与庐山
+      from: 1967
+      to: 1973
+      text: |
+        1967 年安徽两派武斗，十二军奉命进驻支左，他任安徽省军管会主任，1968 年 4 月 18 日任安徽省革委会主任。1969 年九大越级当选政治局候补委员，1970 年调任总政治部主任，进入军委办事组。1970 年庐山会议后，毛泽东在吴法宪的书面检讨上批示，说“办事组各同志（除个别同志如李德生外）忘记了九大通过的党章”。1971 年 1 月华北会议后，中央宣布他任北京军区司令员，取代郑维山。
+      cites: [ws-1971-12-lin-chen-material-1, ws-1969-04-28-9th-cc-plenum]
+      verify: true
+    - h: 副主席与沈阳
+      from: 1973
+      to: 2011
+      text: |
+        1973 年 8 月十大当选中共中央副主席、政治局常委，与王洪文同时进入最高层；12 月毛泽东调换八大军区司令员，他到沈阳军区。1975 年 1 月十届二中全会准许他辞去副主席，仍为政治局委员。1985 年 9 月退出政治局，12 月任国防大学首任政委，1990 年离休。2011 年 5 月 8 日在北京去世。
+      verify: true
+      cites: [ws-1977-07-tenth-third-plenum, klein-clark-1971]
+  assess:
+    - { voice: official1966, text: 办事组各同志（除个别同志如李德生外）忘记了九大通过的党章（1970 年毛泽东批示，见 1971 年中共中央林陈反党集团材料之一）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 宣布了中央关于李德生、谢富治、纪登奎等同志在北京军区任职的决定, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: scholar, text: 研究者认为毛泽东在 1970–1973 年提拔李德生，是要在林彪的军委办事组和此后的军队高层中安插一个不属于四野系统的可靠人物；十大后他与王洪文同为副主席，但实际影响有限。, cite: macfarquhar-schoenhals }
+  factions: [mao]
+  fate:
+    - { date: 1932, s: normal, note: 入党, verify: true }
+    - { date: 1952-10, s: normal, note: 上甘岭战役, verify: true }
+    - { date: 1968-04-18, s: power, note: 安徽省革委会主任, verify: true }
+    - { date: 1969-04-28, s: rise, note: 政治局候补委员, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1970, s: power, note: 总政治部主任, verify: true }
+    - { date: 1971-01, s: power, note: 北京军区司令员, cite: ws-1971-12-lin-chen-material-1 }
+    - { date: 1973-08, s: rise, note: 中共中央副主席, verify: true }
+    - { date: 1975-01, s: normal, note: 辞去副主席, verify: true }
+    - { date: 1985-12, s: normal, note: 国防大学政委, verify: true }
+    - { date: 2011-05-08, s: dead, verify: true }
+  cites: [ws-1971-12-lin-chen-material-1, ws-1969-04-28-9th-cc-plenum, ws-1977-07-tenth-third-plenum]
+
+- id: chen-xilian
+  name: 陈锡联
+  born: 1915-01-04
+  died: 1999-06-10
+  tier: 2
+  role1966: 沈阳军区司令员
+  pinyin: Chén Xīlián
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖北黄安（今红安）
+  origin: 湖北黄安
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1930
+  positions:
+    - { title: 重庆市市长, orgName: 重庆市人民政府, from: 1949-12, to: 1950, verify: true }
+    - { title: 中国人民解放军炮兵司令员, orgName: 中国人民解放军炮兵, from: 1950-08, to: 1959-09, verify: true }
+    - { title: 沈阳军区司令员, orgName: 沈阳军区, from: 1959-09, to: 1973-12, verify: true }
+    - { title: 辽宁省革命委员会主任, orgName: 辽宁省革命委员会, from: 1968-05-10, to: 1973-12, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1980-02, cite: ws-1969-04-28-9th-cc-plenum }
+    - { title: 中共辽宁省委第一书记, orgName: 中共辽宁省委员会, from: 1971-01, to: 1973-12, verify: true }
+    - { title: 北京军区司令员, orgName: 北京军区, from: 1973-12, to: 1980-01, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1975-01, to: 1980-04, verify: true }
+    - { title: 中央军委常委（主持日常工作）, orgName: 中共中央军事委员会, from: 1976-02, to: 1977-07, verify: true }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 湖北黄安人，十四岁参加红军，抗战初率七六九团夜袭阳明堡机场而知名，解放战争中任第三兵团司令员，1955 年授上将。1959 年起任沈阳军区司令员十四年，文革中兼辽宁省革委会主任，九大进入政治局。1973 年底与李德生对调任北京军区司令员，1975 年任国务院副总理，1976 年邓小平再次被打倒后主持军委日常工作。1980 年与汪东兴等辞去中央领导职务，1999 年病逝。
+  life:
+    - h: 红军与阳明堡
+      from: 1915
+      to: 1945
+      text: |
+        1915 年生于湖北黄安，1929 年参加红军，1930 年入党，在红四方面军中由战士升至团政委，参加长征。抗战初任一二九师七六九团团长，1937 年 10 月夜袭山西代县阳明堡日军机场，烧毁飞机二十余架。后任三八五旅旅长、太行军区分区司令员。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 第三兵团与炮兵
+      from: 1945
+      to: 1959
+      text: |
+        解放战争中任晋冀鲁豫野战军第三纵队司令员，后任第二野战军第三兵团司令员，参加挺进大别山、淮海、渡江和进军西南，1949 年 12 月任重庆市长。1950 年起任炮兵司令员近十年，1955 年授上将。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 沈阳与辽宁
+      from: 1959
+      to: 1973
+      text: |
+        1959 年任沈阳军区司令员。文革中沈阳军区支左，1968 年 5 月辽宁省革委会成立，他任主任，毛远新任副主任；辽宁的“清理阶级队伍”和后来张志新案都发生在他主政期间（张志新案的直接审理由辽宁省革委会负责，他个人的责任待核）。1969 年九届一中全会当选政治局委员。
+      cites: [ws-1969-04-28-9th-cc-plenum]
+      verify: true
+    - h: 北京与辞职
+      from: 1973-12
+      to: 1999
+      text: |
+        1973 年 12 月毛泽东调换八大军区司令员，他与李德生对调到北京军区。1975 年 1 月任国务院副总理。1976 年 2 月邓小平再次被打倒后，毛泽东指定他主持军委日常工作。1976 年 10 月他参与了粉碎“四人帮”的部署，十一大后仍为政治局委员。1980 年 1 月卸任北京军区司令员，2 月十一届五中全会同意他辞去政治局委员、副总理。此后任中顾委常委。1999 年 6 月 10 日在北京病逝。
+      verify: true
+      cites: [ws-1977-07-tenth-third-plenum, vogel-deng]
+  assess:
+    - { voice: official1966, text: 陈锡联　　　李先念　李作鹏（1969 年九届一中全会政治局委员名单）, cite: ws-1969-04-28-9th-cc-plenum, quote: true }
+    - { voice: official1966, text: 中共中央政治局委员李先念、陈锡联、纪登奎、汪东兴、吴德、许世友、韦国清、李德生、陈永贵同志（1977 年十届三中全会公报）, cite: ws-1977-07-tenth-third-plenum, quote: true }
+    - { voice: scholar, text: 1980 年辞职的汪东兴、纪登奎、吴德、陈锡联四人被当时的非正式说法称为“小四人帮”；研究者指出这一说法夸大了四人的同质性，陈锡联的主要身份始终是军队将领。, cite: vogel-deng }
+  factions: [mao]
+  fate:
+    - { date: 1930, s: normal, note: 入党, verify: true }
+    - { date: 1937-10, s: normal, note: 夜袭阳明堡机场, verify: true }
+    - { date: 1955-09, s: normal, note: 授上将, verify: true }
+    - { date: 1959-09, s: power, note: 沈阳军区司令员, verify: true }
+    - { date: 1968-05-10, s: power, note: 辽宁省革委会主任, verify: true }
+    - { date: 1969-04-28, s: rise, note: 政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1973-12, s: power, note: 北京军区司令员, verify: true }
+    - { date: 1976-02, s: power, note: 主持军委日常工作, verify: true }
+    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞职, verify: true }
+    - { date: 1999-06-10, s: dead, verify: true }
+  cites: [ws-1969-04-28-9th-cc-plenum, ws-1977-07-tenth-third-plenum]
+
+- id: hua-guofeng
+  name: 华国锋
+  born: 1921-02-16
+  died: 2008-08-20
+  tier: 1
+  role1966: 中共湖南省委书记处书记
+  pinyin: Huà Guófēng
+  aka:
+    - { kind: original, name: 苏铸 }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西交城
+  origin: 山西交城
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 中共湖南省委书记处书记, orgName: 中共湖南省委员会, from: 1959, to: 1967, verify: true }
+    - { title: 湖南省革命委员会主任, orgName: 湖南省革命委员会, from: 1970-12, to: 1977-02, verify: true }
+    - { title: 中共湖南省委第一书记, orgName: 中共湖南省委员会, from: 1970-12, to: 1977-02, verify: true }
+    - { title: 公安部部长, orgName: 公安部, from: 1973, to: 1977-03, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1973-08, to: 1982-09, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1975-01, to: 1976-02, verify: true }
+    - { title: 国务院代总理、总理, orgName: 国务院, from: 1976-02, to: 1980-09, cite: ws-1976-10-18-notice }
+    - { title: 中共中央第一副主席, orgName: 中国共产党中央委员会, from: 1976-04-07, to: 1976-10-07, cite: ws-1976-10-18-notice }
+    - { title: 中共中央主席, orgName: 中国共产党中央委员会, from: 1976-10-07, to: 1981-06-29, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 中央军委主席, orgName: 中共中央军事委员会, from: 1976-10-07, to: 1981-06-29, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 毛泽东主席著作编辑出版委员会主任, orgName: 毛泽东主席著作编辑出版委员会, from: 1976-10, to: 1980, verify: true }
+    - { title: 中共中央党校校长, orgName: 中共中央党校, from: 1977-03, to: 1982, verify: true }
+    - { title: 中共中央副主席, orgName: 中国共产党中央委员会, from: 1981-06-29, to: 1982-09, verify: true }
+  bio: 山西交城人，原名苏铸，抗战中参加游击队、入党，1949 年随军南下湖南，在毛泽东家乡湘潭任县委、地委书记，1959 年庐山会议后进入湖南省委书记处。文革中先被冲击，1970 年起主政湖南，1973 年调中央任公安部长。1976 年毛泽东先后提议他任国务院代总理、中共中央第一副主席兼总理；毛泽东去世后他与叶剑英、汪东兴等决定拘捕“四人帮”，任中共中央主席、军委主席。此后坚持“两个凡是”，1980–1981 年先后辞去总理和主席职务，2008 年在北京去世。
+  life:
+    - h: 交城游击队
+      from: 1921
+      to: 1949
+      text: |
+        1921 年生于山西交城，原名苏铸。1936 年参加牺盟会，1938 年入党，在晋绥根据地交城、文水一带任县委书记，取“中华抗日救国先锋”之意改名华国锋（说法待核）。解放战争中任交城、阳曲县委书记。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 湘阴、湘潭与湖南省委
+      from: 1949
+      to: 1966
+      text: |
+        1949 年随军南下，任中共湘阴县委书记，1952 年调湘潭县委书记，后任湘潭地委书记，毛泽东回乡视察时多次听他汇报。1959 年庐山会议后周小舟被打倒，他进入湖南省委书记处，主管文教、农业，在韶山修建灌区和纪念馆。
+      verify: true
+      cites: [ccp-figures-bios, klein-clark-1971]
+    - h: 从湖南到中央
+      from: 1966
+      to: 1976-02
+      text: |
+        1967 年湖南“湘江风雷”等造反派冲击省委，他被揪斗，后被周恩来点名参加湖南省革委会筹备，1968 年任副主任。1970 年 12 月任湖南省委第一书记、省革委会主任。1971 年九一三事件后参与林彪专案，1973 年十大当选政治局委员，任公安部长，1975 年任国务院副总理。
+      verify: true
+      cites: [ccp-figures-bios, macfarquhar-schoenhals]
+    - h: 1976 年
+      from: 1976-02
+      to: 1976-10
+      text: |
+        1976 年 1 月周恩来去世后，毛泽东提议他任国务院代总理，2 月中央一号文件发布；据 1976 年 10 月中共中央通知，张春桥当天写了《一九七六年二月三日有感》，“疯狂反对伟大领袖毛主席亲自提议华国锋同志为国务院代总理”。4 月天安门事件后，4 月 7 日政治局根据毛泽东提议，任命他为中共中央第一副主席、国务院总理。9 月 9 日毛泽东去世。通知说，10 月 2 日他在一份文件上批示，指出毛泽东亲笔写的是“照过去方针办”，“‘按既定方针办’六个字错了三个”。10 月 6 日他与叶剑英等决定对王洪文、张春桥、江青、姚文元实行隔离审查，次日政治局决定由他任中共中央主席、中央军委主席。
+      cites: [ws-1976-10-18-notice, ws-1980-indictment, ws-1977-07-tenth-third-plenum]
+      verify: true
+    - h: “两个凡是”与下台
+      from: 1976-10
+      to: 2008
+      text: |
+        1977 年 7 月十届三中全会追认他任中央主席、军委主席，同时恢复邓小平职务。1977 年 2 月 7 日两报一刊社论提出“凡是毛主席作出的决策，我们都坚决维护，凡是毛主席的指示，我们都始终不渝地遵循”。1978 年真理标准讨论和十一届三中全会后，他的路线受到批评；1980 年 9 月辞去国务院总理，1981 年 6 月十一届六中全会接受他辞去中央主席、军委主席，改任副主席，1982 年十二大后只任中央委员（至 2002 年）。2008 年 8 月 20 日在北京去世。
+      cites: [ws-1977-07-tenth-third-plenum, ws-1978-12-third-plenum, ws-1981-resolution]
+      verify: true
+  assess:
+    - { voice: official1966, text: 华国锋同志是毛主席的好学生、好接班人，是我们的好领袖、好统帅（1977 年十届三中全会公报）, cite: ws-1977-07-tenth-third-plenum, quote: true }
+    - { voice: official1966, text: 十月二日，华国锋同志在一个文件上的批示中指出，毛主席一九七六年四月三十日亲笔写的指示是“照过去方针办”，“按既定方针办”六个字错了三个（1976 年 10 月中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1981, text: 他在粉碎江青反革命集团的斗争中有功，以后也做了有益的工作, cite: ws-1981-resolution, quote: true }
+    - { voice: official1981, text: 很明显，由他来领导纠正党内的左倾错误特别是恢复党的优良传统，是不可能的, cite: ws-1981-resolution, quote: true }
+    - { voice: scholar, text: 傅高义等指出，华国锋在 1977–1978 年已开始推动引进外资和平反部分冤案，他与邓小平的差别更多在于权力基础和对毛泽东遗产的姿态，而不全在经济政策。, cite: vogel-deng }
+  factions: [mao]
+  fate:
+    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1949, s: normal, note: 南下湖南, verify: true }
+    - { date: 1959, s: rise, note: 湖南省委书记处书记, verify: true }
+    - { date: 1967, s: attacked, note: 湖南造反派揪斗, verify: true }
+    - { date: 1970-12, s: power, note: 湖南省委第一书记, verify: true }
+    - { date: 1973, s: rise, note: 公安部长、政治局委员, verify: true }
+    - { date: 1976-02, s: rise, note: 国务院代总理, cite: ws-1976-10-18-notice }
+    - { date: 1976-04-07, s: rise, note: 中共中央第一副主席、国务院总理, cite: ws-1976-10-18-notice }
+    - { date: 1976-10-07, s: power, note: 中共中央主席、军委主席, cite: ws-1977-07-tenth-third-plenum }
+    - { date: 1980-09, s: sidelined, note: 辞去国务院总理, verify: true }
+    - { date: 1981-06-29, s: sidelined, note: 辞去中央主席, cite: ws-1981-resolution }
+    - { date: 2008-08-20, s: dead, verify: true }
+  cites: [ws-1976-10-18-notice, ws-1977-07-tenth-third-plenum, ws-1981-resolution, ws-1980-indictment, ws-1978-12-third-plenum]
+
+- id: yu-huiyong
+  name: 于会泳
+  born: 1925
+  died: 1977-08-28
+  tier: 3
+  role1966: 上海音乐学院教师
+  pinyin: Yú Huìyǒng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山东乳山
+  origin: 山东乳山
+  deathKind: suicide
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 国务院文化组副组长, orgName: 国务院文化组, from: 1971-05, to: 1975-01, verify: true }
+    - { title: 文化部部长, orgName: 文化部, from: 1975-01, to: 1976-10, verify: true }
+  bio: 山东乳山人，胶东文工团出身，后在上海音乐学院研究和教授民族音乐。1960 年代中期参与京剧现代戏音乐设计，受到江青赏识，是《智取威虎山》《海港》等“样板戏”的主要音乐设计者，1968 年在《文汇报》提出被称为“三突出”的创作原则。1971 年任国务院文化组副组长，1975 年任文化部长。1976 年 10 月被隔离审查，1977 年 8 月在关押中服毒自杀。本条生平全部来自一般参考，待核。
+  life:
+    - h: 胶东与上海音乐学院
+      from: 1925
+      to: 1964
+      text: |
+        1925 年生于山东乳山的农民家庭，1946 年参加胶东文协文工团。1949 年进入上海的中央音乐学院华东分院（后上海音乐学院）学习，留校任教，研究民歌和曲艺音乐，著有《民歌与说唱音乐》等，在民族音乐理论方面有一定成就。
+      verify: true
+      cites: [macfarquhar-schoenhals]
+    - h: 样板戏与“三突出”
+      from: 1965
+      to: 1970
+      text: |
+        1965 年在《文汇报》发表关于京剧音乐改革的文章，引起江青注意，参加上海京剧院《智取威虎山》《海港》的音乐设计。1968 年 5 月 23 日在《文汇报》发表《让文艺舞台永远成为宣传毛泽东思想的阵地》，提出“在所有人物中突出正面人物，在正面人物中突出英雄人物，在英雄人物中突出主要英雄人物”，后由姚文元概括为“三突出”，成为样板戏时期的官方创作公式。
+      verify: true
+      cites: [macfarquhar-schoenhals, wang-nianyi-turmoil]
+    - h: 文化部长与自杀
+      from: 1971
+      to: 1977
+      text: |
+        1971 年 5 月国务院文化组成立，任副组长（组长吴德），实际主持日常工作；1975 年 1 月四届人大任文化部长，与浩亮（钱浩梁）、刘庆棠、刘春桥等掌握文艺界。1976 年 10 月“四人帮”被捕后被隔离审查，1977 年 8 月服毒自杀（日期与细节待核）。
+      verify: true
+      cites: [wang-nianyi-turmoil]
+  assess:
+    - { voice: scholar, text: 研究者评价于会泳是文革中少有的真正懂专业的文艺官员：他在京剧唱腔和配器上的创新被音乐界普遍承认，而他总结的“三突出”则成了压制其他创作的教条。, cite: macfarquhar-schoenhals }
+  factions: [ccrg]
+  fate:
+    - { date: 1946, s: normal, note: 参加胶东文工团, verify: true }
+    - { date: 1965, s: rise, note: 受江青注意，参与样板戏音乐设计, verify: true }
+    - { date: 1968-05-23, s: rise, note: 《文汇报》文章提出“三突出”, verify: true }
+    - { date: 1971-05, s: power, note: 国务院文化组副组长, verify: true }
+    - { date: 1975-01, s: power, note: 文化部长, verify: true }
+    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
+    - { date: 1977-08-28, s: dead, note: 服毒自杀, verify: true }
+  cites: [macfarquhar-schoenhals, wang-nianyi-turmoil]
+
+- id: chen-yonggui
+  name: 陈永贵
+  born: 1915-02-14
+  died: 1986-03-26
+  tier: 2
+  role1966: 大寨大队党支部书记
+  pinyin: Chén Yǒngguì
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西昔阳
+  origin: 山西昔阳
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1948
+  positions:
+    - { title: 大寨大队党支部书记, orgName: 大寨大队, from: 1953, to: 1973, verify: true }
+    - { title: 昔阳县革委会主任、县委书记, orgName: 昔阳县委, from: 1967, to: 1975, verify: true }
+    - { title: 山西省革命委员会副主任, orgName: 山西省革命委员会, from: 1967-03, to: 1980, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1973-08, to: 1982-09, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 国务院副总理, orgName: 国务院, from: 1975-01, to: 1980-09, verify: true }
+  bio: 山西昔阳贫农，幼年逃荒、扛长工，1948 年入党，1953 年起任大寨党支部书记。1963 年洪灾后大寨“自力更生”重建，1964 年毛泽东号召“农业学大寨”，他成为全国农业典型。文革中掌握昔阳县和山西省的权力，1973 年进入政治局，1975 年任国务院副总理主管农业，主持两次全国农业学大寨会议。1980 年辞去副总理，同年中央批转文件否定大寨经验中的“左”的做法。1986 年在北京病逝。
+  life:
+    - h: 长工与支书
+      from: 1915
+      to: 1963
+      text: |
+        1915 年生于山西昔阳的贫农家庭，幼年随父逃荒到大寨，给地主扛长工。抗战时期昔阳被日军占领，他曾被迫在村里的伪组织中任职，这段经历在 1960–1970 年代成为反复被提出又被压下的问题（细节待核）。1945 年昔阳解放后参加互助组，1948 年入党，1953 年任大寨村党支部书记，组织治理“七沟八梁一面坡”。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: “农业学大寨”
+      from: 1963
+      to: 1966
+      text: |
+        1963 年 8 月大寨遭特大洪灾，他提出不要国家救济、自力更生重建，受到山西省委和中央表彰。1964 年毛泽东发出“农业学大寨”的号召，12 月三届人大周恩来的政府工作报告把大寨经验概括为“政治挂帅、思想领先”“自力更生、艰苦奋斗”“爱国家、爱集体”。1966 年八届十一中全会公报列入“关于工业学大庆，农业学大寨，全国学人民解放军，加强政治思想工作的号召”。
+      cites: [ws-1966-08-12-plenum-communique]
+      verify: true
+    - h: 从昔阳到中央
+      from: 1967
+      to: 1980
+      text: |
+        1967 年 1 月他在昔阳夺权，3 月任山西省革委会副主任，《红旗》杂志当年刊出他署名的《大寨在毛泽东思想的光辉照耀下前进》。此后昔阳全县推行“大寨式”的大队核算、取消自留地和家庭副业，并在“学大寨”中开展大规模的阶级斗争。1969 年九大当选中央委员，1973 年十大当选政治局委员，1975 年 1 月任国务院副总理，9 月在昔阳主持第一次全国农业学大寨会议。
+      cites: [ws-1967-red-flag-index, ws-1977-07-tenth-third-plenum]
+      verify: true
+    - h: 大寨的否定
+      from: 1978
+      to: 1986
+      text: |
+        十一届三中全会后包产到户兴起，大寨经验受到质疑。1980 年 9 月他辞去国务院副总理，11 月中共中央批转山西省委关于农业学大寨问题的检查报告，认定大寨和昔阳的许多做法是“左”的。1982 年十二大后不再任政治局委员，1983 年到北京东郊农场任顾问。1986 年 3 月 26 日在北京病逝。
+      verify: true
+      cites: [vogel-deng]
+  assess:
+    - { voice: doc, text: 大寨在毛泽东思想的光辉照耀下前进（1967 年《红旗》杂志，署名大寨大队党支部书记陈永贵）, cite: ws-1967-red-flag-index, quote: true }
+    - { voice: official1966, text: 关于工业学大庆，农业学大寨，全国学人民解放军，加强政治思想工作的号召（1966 年八届十一中全会公报）, cite: ws-1966-08-12-plenum-communique, quote: true }
+    - { voice: scholar, text: 研究者指出大寨在 1960 年代的成绩含有国家投入和数字夸大，文革中的“学大寨”更多是推行集体化与阶级斗争的政治运动；陈永贵本人则是毛泽东“农民当副总理”象征的产物。, cite: yang-jisheng-overturn }
+  factions: [mao]
+  fate:
+    - { date: 1948, s: normal, note: 入党, verify: true }
+    - { date: 1953, s: normal, note: 大寨党支部书记, verify: true }
+    - { date: 1964, s: rise, note: “农业学大寨”, verify: true }
+    - { date: 1967-03, s: power, note: 山西省革委会副主任, verify: true }
+    - { date: 1973-08, s: rise, note: 政治局委员, cite: ws-1977-07-tenth-third-plenum }
+    - { date: 1975-01, s: power, note: 国务院副总理, verify: true }
+    - { date: 1980-09, s: sidelined, note: 辞去副总理, verify: true }
+    - { date: 1983, s: normal, note: 北京东郊农场顾问, verify: true }
+    - { date: 1986-03-26, s: dead, verify: true }
+  cites: [ws-1966-08-12-plenum-communique, ws-1967-red-flag-index, ws-1977-07-tenth-third-plenum]
+
+- id: su-zhenhua
+  name: 苏振华
+  born: 1912-06-03
+  died: 1979-02-07
+  tier: 3
+  role1966: 海军第一政治委员
+  pinyin: Sū Zhènhuá
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖南平江
+  origin: 湖南平江
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1930
+  positions:
+    - { title: 中共贵州省委书记, orgName: 中共贵州省委员会, from: 1949-11, to: 1954, verify: true }
+    - { title: 海军第一政治委员, orgName: 中国人民解放军海军, from: 1957, to: 1967, verify: true }
+    - { title: 海军第一政治委员, orgName: 中国人民解放军海军, from: 1972, to: 1979-02, verify: true }
+    - { title: 中共中央政治局候补委员, orgName: 中共中央政治局, from: 1973-08, to: 1977-08, cite: ws-1977-07-tenth-third-plenum }
+    - { title: 中共上海市委第一书记, orgName: 中共上海市委员会, from: 1976-10, to: 1979-02, verify: true }
+    - { title: 上海市革命委员会主任, orgName: 上海市革命委员会, from: 1976-10, to: 1979-02, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1977-08, to: 1979-02, verify: true }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 湖南平江人，平江起义后参加红军，长征中任团政委，抗战和解放战争中在山东、刘邓部队任政委，1949 年后主政贵州，1957 年起任海军第一政委。文革中被林彪方面的李作鹏等打倒，1972 年恢复职务，1973 年十大进入政治局候补委员。1976 年 10 月粉碎“四人帮”后率中央工作组接管上海，任上海市委第一书记，1977 年当选政治局委员，1979 年在北京病逝。
+  life:
+    - h: 平江起义与红军
+      from: 1912
+      to: 1937
+      text: |
+        1912 年生于湖南平江的贫农家庭，1928 年参加彭德怀领导的平江起义，进入红五军，1930 年入党。在红三军团、红一军团任连、营、团政委，参加长征。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 鲁西与第五兵团
+      from: 1937
+      to: 1954
+      text: |
+        抗战时期在一一五师三四三旅任政委，开辟鲁西根据地。解放战争中任冀鲁豫军区政委、第二野战军第五兵团政委，1949 年随军进入贵州，任中共贵州省委书记、贵州军区政委。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 海军与文革
+      from: 1954
+      to: 1976
+      text: |
+        1954 年调总政治部任副主任，1955 年授上将，1957 年任海军第一政委，与司令员萧劲光主持海军。文革开始后，林彪方面的李作鹏、王宏坤、张秀川在海军夺权，他被打倒、关押，1980 年起诉书把他列入被诬陷的中央委员。1972 年林彪集团垮台后恢复海军第一政委，1973 年十大当选政治局候补委员。
+      cites: [ws-1980-indictment, ws-1977-07-tenth-third-plenum]
+      verify: true
+    - h: 接管上海
+      from: 1976-10
+      to: 1979
+      text: |
+        1976 年 10 月“四人帮”被捕后，与倪志福、彭冲率中央工作组到上海，制止上海民兵武装暴动的策划，接任市委第一书记、市革委会主任，清查“四人帮”在上海的帮派体系。1977 年 8 月十一大当选政治局委员。1979 年 2 月 7 日在北京病逝。
+      verify: true
+      cites: [ws-1977-07-tenth-third-plenum]
+  assess:
+    - { voice: judicial1980, text: 黄火青、陈漫远、苏振华、冯白驹（1980 年起诉书被诬陷的中共中央委员名单）, cite: ws-1980-indictment, quote: true }
+    - { voice: official1966, text: 政治局候补委员吴桂贤、苏振华、倪志福、赛福鼎同志出席了会议（1977 年十届三中全会公报）, cite: ws-1977-07-tenth-third-plenum, quote: true }
+    - { voice: scholar, text: 研究者指出 1976 年 10 月中央派苏振华而非地方干部接管上海，是因为上海民兵当时掌握大量武器，需要一位有军队背景、又曾遭林彪集团打击的人选。, cite: macfarquhar-schoenhals }
+  factions: [marshals]
+  fate:
+    - { date: 1928, s: normal, note: 平江起义, verify: true }
+    - { date: 1930, s: normal, note: 入党, verify: true }
+    - { date: 1955-09, s: normal, note: 授上将, verify: true }
+    - { date: 1957, s: power, note: 海军第一政委, verify: true }
+    - { date: 1967, s: purged, note: 被李作鹏等打倒、关押, verify: true }
+    - { date: 1972, s: restored, note: 恢复海军第一政委, verify: true }
+    - { date: 1973-08, s: rise, note: 政治局候补委员, cite: ws-1977-07-tenth-third-plenum }
+    - { date: 1976-10, s: power, note: 接管上海, verify: true }
+    - { date: 1979-02-07, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1977-07-tenth-third-plenum]
