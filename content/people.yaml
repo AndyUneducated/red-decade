@@ -2453,99 +2453,512 @@
 # ── 北京市委与“三家村” ──────────────────────────────────────
 - id: wu-han
   name: 吴晗
+  pinyin: Wú Hán
+  aka:
+    - { kind: original, name: 吴春晗 }
+    - { kind: courtesy, name: 辰伯 }
+    - { kind: pen, name: 吴南星（与邓拓、廖沫沙合用） }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 浙江义乌苦竹塘村
+  origin: 浙江义乌
   born: 1909-08-11
   died: 1969-10-11
-  death: 被迫害致死
+  deathKind: persecuted
+  deathPlace: 北京（关押中）
+  education:
+    - { school: 上海中国公学, from: 1928, to: 1931, verify: true }
+    - { school: 清华大学史学系, from: 1931, to: 1934, verify: true }
+  party: 中国共产党
+  joinedParty: 1957
+  positions:
+    - { title: 云南大学、西南联合大学教授, orgName: 西南联合大学, from: 1937, to: 1946, verify: true }
+    - { title: 清华大学教授、历史系主任, orgName: 清华大学, from: 1946, to: 1949-11, verify: true }
+    - { title: 北京市副市长, orgName: 北京市人民政府, from: 1949-11, to: 1966-05, verify: true, note: 1980 年起诉书以此职列为被诬陷者 }
+    - { title: 中国民主同盟中央副主席, orgName: 中国民主同盟, from: 1958, to: 1966, verify: true, note: 起诉书列为“中国民主同盟中央副主席” }
+  rehab:
+    - { date: 1979, text: 中共北京市委为吴晗及“三家村”冤案平反，恢复名誉, verify: true }
   tier: 2
   role1966: 北京市副市长、明史学者
-  bio: 京剧《海瑞罢官》作者。1965 年 12 月 27 日在《北京日报》发表《关于〈海瑞罢官〉的自我批评》，自陈该剧以《论海瑞》为基础，而《论海瑞》“是根据庐山会议精神反对右倾机会主义的”——官方大事记认为这“自己暴露了自己的要害”。1966 年 3 月被北京市委派去参加四清工作队，化名“老李”。
+  bio: 明史学者、北京市副市长、民盟中央副主席，京剧《海瑞罢官》作者。出身农家，由胡适提携入清华治明史，抗战中在昆明成为民主运动中的知名教授。建国后任副市长十七年。1965 年 11 月 10 日姚文元《评新编历史剧〈海瑞罢官〉》发表，揭开文革序幕；12 月 27 日他发表自我批评，自陈《论海瑞》“是根据庐山会议精神反对右倾机会主义的”，官方大事记称这“自己暴露了自己的要害”。1966 年 4 月被北京市委公开点名，与邓拓、廖沫沙合称“三家村”。1968 年被捕，1969 年 10 月 11 日死于关押中，起诉书与判决书均列为“被迫害致死”。1979 年平反。
+  life:
+    - h: 农家子与清华明史
+      from: 1909
+      to: 1937
+      text: |
+        1909 年 8 月 11 日生于浙江义乌苦竹塘村，原名吴春晗，字辰伯。1928 年入上海中国公学，受校长胡适赏识；1931 年经胡适推荐入清华大学史学系，专攻明史，1934 年毕业后留校任教。
+      verify: true
+      cites: [su-wang-wuhan-bio, ccp-figures-bios]
+    - h: 昆明与民主运动
+      from: 1937
+      to: 1949
+      text: |
+        1937 年到昆明任云南大学教授，1940 年转西南联合大学。1943 年加入中国民主同盟，在昆明的民主运动中成为知名的左翼教授，并写成朱元璋传记的初稿。1946 年随清华复员回北平，1948 年进入华北解放区。
+      verify: true
+      cites: [su-wang-wuhan-bio]
+    - h: 学者副市长与《海瑞罢官》
+      from: 1949
+      to: 1964
+      text: |
+        1949 年 11 月任北京市副市长，分管文教，兼民盟领导职务；1957 年秘密入党（待核）。1959 年响应毛泽东提倡“海瑞精神”的号召，先后写《海瑞骂皇帝》《论海瑞》，年底着手写京剧《海瑞罢官》，1961 年由北京京剧团上演。
+      verify: true
+      cites: [su-wang-wuhan-bio, ws-1966-05-16-notice-attachment@1966-01-02]
+    - h: 姚文元文章与“自我批评”
+      from: 1965
+      to: 1966
+      text: |
+        据 1966 年《五·一六通知》附件大事记：1965 年 11 月 10 日姚文元文章在上海发表后，北京各报刊十八天不转载；11 月 28 日彭真开会时问“吴晗现在怎样？”，邓拓答“吴晗很紧张，因为他知道这次批判有来头。”
+
+        12 月 27 日《北京日报》发表他的《关于〈海瑞罢官〉的自我批评》，称剧本以《论海瑞》为基础，而《论海瑞》“是根据庐山会议精神反对右倾机会主义的”，大事记认为这“自己暴露了自己的要害”。1966 年 1 月 2 日彭真召集的会议上，康生说吴晗 1959 年“六月写了《海瑞骂皇帝》，九月写了《论海瑞》，年底，也就是彭德怀罢官以后，开始着手写《海瑞罢官》”，要害是“罢官”。3 月，北京市委派他化名“老李”下乡参加四清工作队。
+      cites: [ws-1966-05-16-notice-attachment@1965-11-28, ws-1966-05-16-notice-attachment@1966-01-02, ws-1966-05-16-notice-attachment@1965-12-27, ws-1966-05-16-notice-attachment@1966-03-02]
+    - h: 点名、关押与死亡
+      from: 1966
+      to: 1969
+      text: |
+        1966 年 4 月 16 日，北京市委在《北京日报》以三个版发表吴晗、邓拓、廖沫沙的材料。5 月 18 日林彪在政治局扩大会议上说：“大大小小的邓拓、吴晗、廖沫沙，大大小小的‘三家村’，不少哩！”6 月《红旗》社论称吴晗、翦伯赞是史学界的“反共老手”；1967 年批彭德怀的文章称他为“资产阶级司令部的座上客”。
+
+        此后被反复批斗，1968 年 3 月被捕关押（待核），1969 年 10 月 11 日死于关押中；妻子袁震已先于同年去世（待核）。1980 年起诉书列他为被诬陷的北京市副市长和民盟中央副主席之一，“刘仁、邓拓、吴晗、乐松生被迫害致死”。
+      verify: true
+      cites: [ws-1966-05-16-notice-attachment@1966-04-16, ws-1966-05-18-lin-speech, ws-1966-06-red-flag-long-live, ws-1967-08-16-peng-dehuai, ws-1980-indictment, su-wang-wuhan-bio]
+    - h: 平反
+      from: 1979
+      text: |
+        1979 年中共北京市委为“三家村”冤案平反，为吴晗恢复名誉并举行追悼会（待核）。1984 年苏双碧、王宏志出版《吴晗传》。
+      verify: true
+      cites: [su-wang-wuhan-bio]
+  assess:
+    - { voice: official1966, text: 吴晗的《海瑞罢官》同庐山会议联系起来，这就自己暴露了自己的要害（《五·一六通知》附件大事记）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: official1966, text: 其中，有些人是反共老手。吴晗、翦伯赞就是这样的人物（1966 年 6 月《红旗》社论《无产阶级文化大革命万岁》）, cite: ws-1966-06-red-flag-long-live, quote: true }
+    - { voice: official1966, text: 美蒋反动派的御用文人，资产阶级司令部的座上客吴晗（1967 年 8 月《从彭德怀的失败到中国赫鲁晓夫的破产》）, cite: ws-1967-08-16-peng-dehuai, quote: true }
+    - { voice: judicial1980, text: 刘仁、邓拓、吴晗、乐松生被迫害致死（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  works:
+    - { title: 朱元璋传, date: 1949 }
+    - { title: 海瑞骂皇帝, date: 1959-06, cite: ws-1966-05-16-notice-attachment@1966-01-02 }
+    - { title: 论海瑞, date: 1959-09, cite: ws-1966-05-16-notice-attachment@1966-01-02 }
+    - { title: 海瑞罢官（京剧）, date: 1961 }
+    - { title: 关于《海瑞罢官》的自我批评, date: 1965-12-27, cite: ws-1966-05-16-notice-attachment@1965-12-27 }
   factions: [bjcommittee, academics]
   fate:
-    - { date: 1949, s: power }
-    - { date: 1965-11-10, s: attacked, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
+    - { date: 1931, s: normal, note: 入清华大学史学系, verify: true }
+    - { date: 1943, s: normal, note: 加入民盟, verify: true }
+    - { date: 1949-11, s: power, note: 北京市副市长, verify: true }
+    - { date: 1965-11-10, s: attacked, note: 姚文元文章发表, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
     - { date: 1966-04-16, s: purged, note: 《北京日报》三版材料, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
     - { date: 1968-03, s: detained, verify: true }
-    - { date: 1969-10-11, s: dead, cite: ws-1980-indictment }
-  cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
+    - { date: 1969-10-11, s: dead, note: 起诉书列为“被迫害致死”, cite: ws-1980-indictment }
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-18-lin-speech, ws-1966-06-red-flag-long-live, ws-1967-08-16-peng-dehuai, ws-1980-indictment, ws-1981-01-25-judgment, su-wang-wuhan-bio]
 
 - id: deng-tuo
   name: 邓拓
-  aka: [马南邨, 向阳生]
+  pinyin: Dèng Tuò
+  aka:
+    - { kind: original, name: 邓子健 }
+    - { kind: pen, name: 邓云特 }
+    - { kind: pen, name: 马南邨 }
+    - { kind: pen, name: 向阳生 }
+    - { kind: pen, name: 吴南星（与吴晗、廖沫沙合用） }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 福建福州
+  origin: 福建闽侯
   born: 1912-02-26
   died: 1966-05-18
-  death: 自杀
+  deathKind: suicide
+  deathPlace: 北京
+  education:
+    - { school: 上海光华大学, from: 1929, to: 1930, verify: true }
+    - { school: 河南大学经济系, from: 1934, to: 1937, verify: true }
+  party: 中国共产党
+  joinedParty: 1930
+  positions:
+    - { title: 《抗敌报》（后改《晋察冀日报》）社长兼总编辑, orgName: 晋察冀日报社, from: 1938, to: 1948, verify: true }
+    - { title: 《人民日报》总编辑、社长, orgName: 人民日报社, from: 1949, to: 1958, verify: true }
+    - { title: 中共北京市委书记处书记, orgName: 中共北京市委, from: 1958, to: 1966-05, verify: true, note: 1965 年 11 月大事记称“北京市委书记邓拓” }
+    - { title: 《前线》杂志主编, orgName: 中共北京市委, from: 1958, to: 1966-05, verify: true }
+  rehab:
+    - { date: 1979, text: 中共北京市委为“三家村”冤案平反，恢复邓拓名誉, verify: true }
   tier: 2
   role1966: 北京市委书记处书记
-  bio: 《燕山夜话》作者、“三家村”之一。1965 年 12 月以“向阳生”之名发表《从〈海瑞罢官〉谈到“道德继承论”》，官方大事记称系彭真“亲自指导”。1966 年 5 月 10 日姚文元《评“三家村”》发表，8 天后自杀。
+  bio: 报人、杂文家、史学者。抗战中在晋察冀游击区主持《晋察冀日报》，1944 年主编最早的《毛泽东选集》；建国后任《人民日报》总编辑，1957 年因该报宣传受毛泽东批评“书生办报”，1958 年调北京市委书记处书记。1961–1962 年以“马南邨”之名在《北京晚报》写《燕山夜话》，又与吴晗、廖沫沙在《前线》合写《三家村札记》。1965 年底以“向阳生”之名发表把海瑞问题引向“道德继承”的文章，彭真称“是我叫他那样写的”。1966 年 5 月被定为“三家村”黑店的“掌柜”，5 月 18 日自杀；起诉书与判决书均列为“被迫害致死”。
+  life:
+    - h: 书香子弟与左翼青年
+      from: 1912
+      to: 1937
+      text: |
+        1912 年 2 月 26 日生于福州，原名邓子健。1929 年入上海光华大学，1930 年入党，参加左翼社会科学家联盟；1933 年在上海被捕，后获释（待核）。1934 年入河南大学经济系，1937 年以“邓云特”之名出版《中国救荒史》。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 晋察冀办报
+      from: 1937
+      to: 1949
+      text: |
+        1937 年到晋察冀边区，1938 年起主持《抗敌报》，后改名《晋察冀日报》，在游击环境中坚持出报。1944 年主持编辑五卷本《毛泽东选集》，是最早的毛选版本之一。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 《人民日报》总编辑
+      from: 1949
+      to: 1958
+      text: |
+        1949 年起任《人民日报》总编辑，后兼社长。1957 年春整风前后，毛泽东批评《人民日报》对最高国务会议讲话宣传不力，是“书生办报”乃至“死人办报”；1958 年调离（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 《燕山夜话》与《三家村札记》
+      from: 1958
+      to: 1965
+      text: |
+        1958 年任北京市委书记处书记，分管文教，主编市委理论刊物《前线》。1961 年 3 月起以“马南邨”之名在《北京晚报》开设《燕山夜话》专栏，至 1962 年 9 月结束，后结集五册（待核）；本站已收第五集全文，内有《说大话的故事》《为李三才辩护》《燕山碧血》等 28 篇。《说大话的故事》引管子“言不能过其实”，劝人“不要说大话，不要吹牛”。1961 年秋起又与吴晗、廖沫沙在《前线》合写《三家村札记》，三人合署“吴南星”。
+      verify: true
+      cites: [ws-1962-deng-tuo-yanshan-5, ccp-figures-bios]
+    - h: “向阳生”与“三家村”
+      from: 1965
+      to: 1966
+      text: |
+        据《五·一六通知》附件大事记：1965 年 11 月 28 日彭真开会时问起吴晗，邓拓答“吴晗很紧张，因为他知道这次批判有来头。”12 月 12 日他以“向阳生”之名在《北京日报》《前线》发表《从〈海瑞罢官〉谈到“道德继承论”》，大事记称此文“企图把对吴晗的批判，从政治问题拉到所谓道德继承的‘学术’问题上去”，并由彭真亲自指导。12 月下旬彭真对上海市委的人说：“邓拓是左派，他署名向阳生的文章是我叫他那样写的。”1966 年 2 月 3 日的五人小组扩大会上，彭真又要刘仁、郑天翔证明“邓拓是拥护三面红旗的”。
+
+        4 月 16 日北京市委在《北京日报》发表吴晗、邓拓、廖沫沙的材料。5 月 9 日《解放军报》《光明日报》发表《邓拓的〈燕山夜话〉是反党反社会主义的黑话》，5 月 10 日姚文元《评“三家村”》在上海发表，次日全国转载。
+      cites: [ws-1966-05-16-notice-attachment@1965-11-28, ws-1966-05-16-notice-attachment@1965-12-12, ws-1966-05-16-notice-attachment@1965-12-26, ws-1966-05-16-notice-attachment@1966-02-03, ws-1966-05-16-notice-attachment@1966-04-16, ws-1966-05-16-notice-attachment@1966-05-10]
+    - h: 自杀与身后
+      from: 1966
+      text: |
+        1966 年 5 月 18 日在家中自杀，留下致北京市委的遗书（待核）。同日林彪在政治局扩大会议上点名“大大小小的邓拓、吴晗、廖沫沙”。6 月 2 日《人民日报》评论员文章称：“‘三家村’黑店的掌柜邓拓被揭露出来了”。1980 年起诉书与 1981 年判决书均把他列为被迫害致死的北京市委书记。1979 年北京市委为“三家村”平反（待核）。
+      verify: true
+      cites: [ws-1966-05-18-lin-speech, ws-1966-06-02-hail-pku, ws-1980-indictment, ws-1981-01-25-judgment]
+  assess:
+    - { voice: doc, text: 这就是告诫人们千万不要说大话，不要吹牛，遇事要采取慎重的态度，话要说得少些，事情要做得多些，名声更要小一些（《说大话的故事》，1962）, cite: ws-1962-deng-tuo-yanshan-5, quote: true }
+    - { voice: official1966, text: “三家村”黑店的掌柜邓拓被揭露出来了（1966 年 6 月 2 日《人民日报》评论员《欢呼北大的一张大字报》）, cite: ws-1966-06-02-hail-pku, quote: true }
+    - { voice: official1966, text: 大大小小的邓拓、吴晗、廖沫沙，大大小小的“三家村”，不少哩（林彪 1966 年 5 月 18 日讲话）, cite: ws-1966-05-18-lin-speech, quote: true }
+    - { voice: judicial1980, text: 北京市领导干部十三人遭到诬陷迫害，市委书记刘仁、邓拓和副市长吴晗、乐松生被迫害致死（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
+  works:
+    - { title: 中国救荒史（署名邓云特）, date: 1937 }
+    - { title: 燕山夜话（第五集）, date: 1962, cite: ws-1962-deng-tuo-yanshan-5 }
+    - { title: 从《海瑞罢官》谈到“道德继承论”（署名向阳生）, date: 1965-12-12, cite: ws-1966-05-16-notice-attachment@1965-12-12 }
   factions: [bjcommittee]
   fate:
-    - { date: 1958, s: power }
-    - { date: 1966-04-16, s: attacked, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
-    - { date: 1966-05-10, s: purged, cite: ws-1966-05-16-notice-attachment@1966-05-10 }
-    - { date: 1966-05-18, s: dead, note: 起诉书列为“迫害致死”，但未给日期, cite: ws-1980-indictment, verify: true }
-  cites: [ws-1966-05-16-notice-attachment, ws-1980-indictment]
+    - { date: 1930, s: normal, note: 在上海入党, verify: true }
+    - { date: 1933, s: detained, note: 在上海被捕, verify: true }
+    - { date: 1938, s: rise, note: 主持《抗敌报》, verify: true }
+    - { date: 1949, s: power, note: 《人民日报》总编辑, verify: true }
+    - { date: 1957-04, s: attacked, note: 毛泽东批评“书生办报”, verify: true }
+    - { date: 1958, s: power, note: 调任北京市委书记处书记, verify: true }
+    - { date: 1966-04-16, s: attacked, note: 《北京日报》三版材料, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
+    - { date: 1966-05-10, s: purged, note: 姚文元《评“三家村”》, cite: ws-1966-05-16-notice-attachment@1966-05-10 }
+    - { date: 1966-05-18, s: dead, note: 自杀；起诉书列为“被迫害致死”但未给日期, cite: ws-1980-indictment, verify: true }
+  cites: [ws-1962-deng-tuo-yanshan-5, ws-1966-05-16-notice-attachment, ws-1966-05-18-lin-speech, ws-1966-06-02-hail-pku, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: liao-mosha
   name: 廖沫沙
+  pinyin: Liào Mòshā
+  aka:
+    - { kind: original, name: 廖家权 }
+    - { kind: pen, name: 繁星 }
+    - { kind: pen, name: 吴南星（与吴晗、邓拓合用） }
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖南长沙
+  origin: 湖南长沙
   born: 1907-01-15
   died: 1990-12-27
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1930
+  positions:
+    - { title: 《救亡日报》《华商报》等报编辑、主笔, orgName: 救亡日报, from: 1938, to: 1949, verify: true }
+    - { title: 中共北京市委宣传部副部长、教育部部长、统战部部长, orgName: 中共北京市委, from: 1949, to: 1966-05, verify: true }
+  rehab:
+    - { date: 1979, text: 中共北京市委为“三家村”冤案平反, verify: true }
   tier: 3
   role1966: 北京市委统战部部长
-  bio: “三家村”之一（笔名繁星）。1966 年 4 月 16 日《北京日报》三版材料点名。
+  bio: 杂文家、报人，“三家村”中唯一活过文革的人。1930 年入党，在上海从事左翼文化活动，抗战中在桂林、香港等地办报。建国后历任北京市委宣传部副部长、教育部长、统战部长。1961 年以“繁星”之名写《有鬼无害论》为昆曲《李慧娘》辩护（待核），同年起与邓拓、吴晗合写《三家村札记》。1966 年 4 月 16 日被《北京日报》点名，此后批斗、关押、下放十余年，1979 年平反，1990 年病逝。
+  life:
+    - h: 长沙与上海
+      from: 1907
+      to: 1937
+      text: |
+        1907 年 1 月 15 日生于湖南长沙，原名廖家权。1920 年代后期到上海，1930 年入党，参加左翼文化运动，以杂文写作为主（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 抗战报人
+      from: 1937
+      to: 1949
+      text: |
+        抗战爆发后在长沙、桂林参与编辑《救亡日报》等报，后到香港参与《华商报》，长期以报纸评论和杂文为业（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 北京市委与《三家村札记》
+      from: 1949
+      to: 1965
+      text: |
+        建国后到北京市委工作，历任宣传部副部长、教育部长、统战部长。1961 年以“繁星”之名在《北京晚报》发表《有鬼无害论》，为孟超的昆曲《李慧娘》辩护；同年秋起与邓拓、吴晗在《前线》合写《三家村札记》，三人合署“吴南星”（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 点名与关押
+      from: 1966
+      to: 1978
+      text: |
+        据《五·一六通知》附件大事记，1966 年 4 月 10 日至 15 日彭真连续召集北京市委常委会，要各级党组织批判吴晗、邓拓、廖沫沙；4 月 16 日《北京日报》以三个版发表三人的材料。5 月 18 日林彪讲话点名“邓拓、吴晗、廖沫沙”；6 月《红旗》社论质问“邓拓、廖沫沙之流的反党反社会主义的黑话，究竟有什么学术？”
+
+        此后被长期批斗、关押，1970 年代中期下放江西（待核）。
+      verify: true
+      cites: [ws-1966-05-16-notice-attachment@1966-04-10, ws-1966-05-16-notice-attachment@1966-04-16, ws-1966-05-18-lin-speech, ws-1966-06-red-flag-long-live]
+    - h: 平反与晚年
+      from: 1979
+      to: 1990
+      text: |
+        1979 年北京市委为“三家村”冤案平反，廖沫沙恢复工作，后任北京市政协主席（待核）。1990 年 12 月 27 日在北京病逝。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: official1966, text: 吴晗的《海瑞骂皇帝》、《海瑞罢官》，邓拓、廖沫沙之流的反党反社会主义的黑话，究竟有什么学术（1966 年 6 月《红旗》社论《无产阶级文化大革命万岁》）, cite: ws-1966-06-red-flag-long-live, quote: true }
+    - { voice: official1966, text: 无论是彭真、陆定一、罗瑞卿、杨尚昆、邓拓、吴晗、廖沫沙等等，都是这样（林彪 1966 年 5 月 18 日讲话）, cite: ws-1966-05-18-lin-speech, quote: true }
+  works:
+    - { title: 有鬼无害论（署名繁星）, date: 1961 }
+    - { title: 三家村札记（与邓拓、吴晗合写）, date: 1961 }
   factions: [bjcommittee]
   fate:
-    - { date: 1958, s: power }
-    - { date: 1966-04-16, s: attacked, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
+    - { date: 1930, s: normal, note: 入党, verify: true }
+    - { date: 1949, s: power, note: 北京市委宣传部副部长, verify: true }
+    - { date: 1966-04-16, s: attacked, note: 《北京日报》三版材料, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
     - { date: 1966-05, s: purged, verify: true }
     - { date: 1979, s: restored, verify: true }
     - { date: 1990-12-27, s: dead }
-  cites: [ws-1966-05-16-notice-attachment]
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-18-lin-speech, ws-1966-06-red-flag-long-live]
 
 - id: liu-ren
   name: 刘仁
+  pinyin: Liú Rén
+  gender: m
+  ethnicity: 土家族
+  birthplace: 四川酉阳（今属重庆）
+  origin: 四川酉阳
   born: 1909
   died: 1973-10-26
-  death: 被迫害致死（狱中）
+  deathKind: persecuted
+  deathPlace: 北京秦城监狱
+  party: 中国共产党
+  joinedParty: 1927
+  positions:
+    - { title: 中共晋察冀分局城市工作部部长, orgName: 中共晋察冀分局, from: 1943, to: 1948, verify: true }
+    - { title: 中共北京市委副书记、第二书记, orgName: 中共北京市委, from: 1949, to: 1966-05, verify: true, note: 1966 年 2 月大事记称“北京市委第二书记” }
+  rehab:
+    - { date: 1979, text: 中共中央为刘仁平反昭雪，举行追悼会, verify: true }
   tier: 3
   role1966: 北京市委第二书记
-  bio: 2 月 3 日五人小组扩大会上被彭真要求“证明邓拓是拥护三面红旗的”。1980 年起诉书：1968 年 1 月康生批示对其“铐起来，进行严厉地突击地审讯”。
+  bio: 北平地下党的主要领导人。抗战和解放战争期间主持晋察冀分局（后华北局）城市工作部，经营北平地下组织和学生运动（待核）。建国后长期任北京市委第二书记，是彭真在北京的主要助手。1966 年 2 月出席五人小组扩大会，被彭真要求证明邓拓“拥护三面红旗”；6 月北京市委改组后被打倒。1968 年 1 月康生诬陷他“出卖党政军核心机密，叛党叛国”，批示“铐起来”审讯；1973 年 10 月 26 日死于秦城监狱。
+  life:
+    - h: 早年
+      from: 1909
+      to: 1937
+      text: |
+        1909 年生于四川酉阳，土家族。1927 年入党，此后在四川、北方等地从事地下工作，多次被捕（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 城工部与北平地下党
+      from: 1937
+      to: 1949
+      text: |
+        抗战期间在晋察冀边区，1943 年前后任晋察冀分局城市工作部部长，领导北平、天津等城市的地下党组织；解放战争中继续主持华北局城工部，组织北平学生运动，参与北平和平解放的地下工作（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 北京市委第二书记
+      from: 1949
+      to: 1965
+      text: |
+        建国后任北京市委副书记，后为第二书记，协助彭真主持市委日常工作（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 二月提纲会议与倒台
+      from: 1966
+      to: 1967
+      text: |
+        1966 年 2 月 3 日出席文化革命五人小组扩大会，《二月提纲》所列十一名参加人中有刘仁、郑天翔。据《五·一六通知》附件大事记，会上“彭真同志还要北京市委第二书记刘仁同志和北京市委书记郑天翔同志证明，邓拓是拥护三面红旗的，长期以来是坚定的。”6 月 3 日中共中央改组北京市委，由李雪峰、吴德接掌。
+      cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-02-03, rmrb-1966-06-04-new-committee]
+    - h: 关押与死亡
+      from: 1968
+      to: 1973
+      text: |
+        据 1980 年起诉书，1968 年 1 月康生诬陷刘仁和副市长冯基平、崔月犁等“出卖党政军核心机密，叛党叛国”，批示“对他们不能用一般对犯人的方法对待”，“应将他们铐起来，进行严厉地突击地审讯工作”；5 月康生、谢富治又制造“旧北京市公安局反革命集团”冤案。1973 年 10 月 26 日死于秦城监狱（日期待核）。起诉书和判决书均列他为被迫害致死的北京市委书记。
+      verify: true
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+    - h: 平反
+      from: 1979
+      text: |
+        1979 年中共中央为刘仁平反昭雪，举行追悼会（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: official1966, text: 彭真同志还要北京市委第二书记刘仁同志和北京市委书记郑天翔同志证明，邓拓是拥护三面红旗的，长期以来是坚定的（《五·一六通知》附件大事记）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: judicial1980, text: 一九六八年一月，康生诬陷刘仁和副市长冯基平、崔月犁等，“出卖党政军核心机密，叛党叛国”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 北京市领导干部十三人遭到诬陷迫害，市委书记刘仁、邓拓和副市长吴晗、乐松生被迫害致死（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
   factions: [bjcommittee]
   fate:
-    - { date: 1955, s: power }
-    - { date: 1966-05, s: purged, verify: true }
-    - { date: 1968-01, s: detained, cite: ws-1980-indictment }
-    - { date: 1973-10-26, s: dead, cite: ws-1980-indictment }
-  cites: [ws-1966-02-outline, ws-1980-indictment]
+    - { date: 1927, s: normal, note: 入党, verify: true }
+    - { date: 1943, s: rise, note: 晋察冀分局城工部部长, verify: true }
+    - { date: 1949, s: power, note: 北京市委副书记, verify: true }
+    - { date: 1966-06-03, s: purged, note: 北京市委改组, cite: rmrb-1966-06-04-new-committee }
+    - { date: 1968-01, s: detained, note: 康生批示“铐起来”, cite: ws-1980-indictment }
+    - { date: 1973-10-26, s: dead, note: 起诉书列为“被迫害致死”但未给日期, cite: ws-1980-indictment, verify: true }
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment, rmrb-1966-06-04-new-committee, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: zheng-tianxiang
   name: 郑天翔
+  pinyin: Zhèng Tiānxiáng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 绥远凉城（今属内蒙古）
+  origin: 内蒙古凉城
   born: 1914-01
   died: 2013-10-10
+  deathKind: natural
+  deathPlace: 北京
+  education:
+    - { school: 清华大学, from: 1935, to: 1937, verify: true }
+  party: 中国共产党
+  joinedParty: 1936
+  positions:
+    - { title: 中共北京市委秘书长、书记处书记, orgName: 中共北京市委, from: 1952, to: 1966-05, verify: true, note: 1966 年 2 月大事记称“北京市委书记” }
+    - { title: 第七机械工业部部长, orgName: 第七机械工业部, from: 1977, to: 1981, verify: true }
+    - { title: 最高人民法院院长, orgName: 最高人民法院, from: 1983-06, to: 1988-04, verify: true }
   tier: 3
   role1966: 北京市委书记处书记
-  bio: 二月提纲会议参加者之一。1980 年起诉书列北京市委书记“刘仁、郑天翔、万里、邓拓等七人”全部被诬陷。
+  bio: 一二·九运动出身的知识分子干部。抗战和解放战争期间在晋绥、绥远工作（待核），1952 年调北京市委，任秘书长、书记处书记，主管城市规划与工业（待核）。1966 年 2 月出席五人小组扩大会，被彭真要求为邓拓作证；6 月北京市委改组后被打倒，起诉书列为被诬陷的北京市委书记之一。1977 年后复出任七机部部长，1983–1988 年任最高人民法院院长。2013 年去世，终年九十九岁。
+  life:
+    - h: 清华与一二·九
+      from: 1914
+      to: 1937
+      text: |
+        1914 年 1 月生于绥远凉城。1935 年在清华大学读书，参加一二·九运动，1936 年入党（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 晋绥与绥远
+      from: 1937
+      to: 1952
+      text: |
+        抗战爆发后到晋绥根据地，从事宣传和地方党务工作；解放战争后期及建国初在绥远、包头一带任职（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 北京市委
+      from: 1952
+      to: 1965
+      text: |
+        1952 年调北京市委任秘书长，1955 年前后任书记处书记，主管首都城市总体规划和工业建设（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 二月提纲会议与倒台
+      from: 1966
+      to: 1966
+      text: |
+        1966 年 2 月 3 日出席文化革命五人小组扩大会，为《二月提纲》所列十一名参加人之一。据《五·一六通知》附件大事记，彭真在会上要刘仁和郑天翔“证明，邓拓是拥护三面红旗的，长期以来是坚定的”。6 月 3 日北京市委改组。1980 年起诉书称，北京市委书记“刘仁、郑天翔、万里、邓拓等七人”全部被诬陷为“特务”“叛徒”“反革命修正主义分子”等。
+      cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment@1966-02-03, rmrb-1966-06-04-new-committee, ws-1980-indictment]
+    - h: 复出
+      from: 1977
+      to: 1988
+      text: |
+        文革后期获“解放”，1977 年起任第七机械工业部部长（待核）。1983 年 6 月当选最高人民法院院长，任职至 1988 年 4 月。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 晚年
+      from: 1988
+      text: |
+        1988 年卸任后退休，2013 年 10 月 10 日在北京去世。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: doc, text: 参加人有彭真、定一、康生、冷西，以及许立群、胡绳、姚溱、王力、范若愚、刘仁、郑天翔。共十一个同志（《二月提纲》）, cite: ws-1966-02-outline, quote: true }
+    - { voice: judicial1980, text: 中共北京市委书记刘仁、郑天翔、万里、邓拓等七人和北京市副市长吴晗、乐松等六人全部被分别诬陷为“特务”、“叛徒”、“反革命修正主义分子”、“反动资本家”、“反动学术权威”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
   factions: [bjcommittee]
   fate:
-    - { date: 1955, s: power }
-    - { date: 1966-05, s: purged, cite: ws-1980-indictment }
-    - { date: 1977, s: restored, verify: true }
+    - { date: 1936, s: normal, note: 入党, verify: true }
+    - { date: 1952, s: power, note: 北京市委秘书长, verify: true }
+    - { date: 1966-06-03, s: purged, note: 北京市委改组, cite: rmrb-1966-06-04-new-committee }
+    - { date: 1977, s: restored, note: 七机部部长, verify: true }
+    - { date: 1983-06, s: power, note: 最高人民法院院长, verify: true }
+    - { date: 1988-04, s: normal, note: 卸任退休, verify: true }
     - { date: 2013-10-10, s: dead }
-  cites: [ws-1966-02-outline, ws-1980-indictment]
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment, rmrb-1966-06-04-new-committee, ws-1980-indictment]
 
 - id: li-xuefeng
   name: 李雪峰
+  pinyin: Lǐ Xuěfēng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西永济
+  origin: 山西永济
   born: 1907
   died: 2003-03-18
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1933
+  positions:
+    - { title: 中共太行区党委书记, orgName: 中共太行区党委, from: 1940, to: 1945, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1956-09, to: 1966-08, verify: true }
+    - { title: 中共中央华北局第一书记, orgName: 中共中央华北局, from: 1963, to: 1966, verify: true, note: 1966 年 6 月新华社电称“华北局第一书记” }
+    - { title: 中共北京市委第一书记（兼）, orgName: 中共北京市委, from: 1966-06-03, to: 1967-04, cite: rmrb-1966-06-04-new-committee, note: 截止于北京市革命委员会成立（待核） }
+    - { title: 河北省革命委员会主任, orgName: 河北省革命委员会, from: 1968-02, to: 1971-01, verify: true }
+  rehab:
+    - { date: 1982, text: 中共中央为李雪峰恢复党籍, verify: true }
   tier: 3
   role1966: 华北局第一书记、新北京市委第一书记
-  bio: 1966 年 6 月 3 日接替彭真主持北京市委，7 月 28 日以新市委名义宣布撤销各大专学校工作组。
+  bio: 长期主政华北的干部。抗战时期在太行根据地任区党委书记（待核），1956 年起任中央书记处书记，1963 年起任华北局第一书记。1966 年 6 月 3 日接替彭真兼任北京市委第一书记，新市委随即向北大等校派出工作组，7 月 28 日又以新市委名义宣布撤销工作组；8 月陪同刘少奇到建工学院。九大后任政治局候补委员（待核）。1970 年夏陪陈伯达在华北各地活动，九届二中全会上“华北组第六号简报”经他之手发出；1971 年 1 月华北会议上周恩来代表中央指出他“在政治上所犯的方向、路线的严重错误”，此后被撤职审查。1982 年恢复党籍（待核）。
+  life:
+    - h: 早年与太行
+      from: 1907
+      to: 1949
+      text: |
+        1907 年生于山西永济。1933 年入党，在山西、北平等地从事地下工作；抗战期间在太行根据地，任太行区党委书记等职（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 中央书记处与华北局
+      from: 1949
+      to: 1965
+      text: |
+        建国后在中南、中央工业部门工作，1956 年八大当选中央委员和中央书记处书记，主管工业（待核）。1963 年起任中共中央华北局第一书记。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 新北京市委与工作组
+      from: 1966
+      to: 1966
+      text: |
+        1966 年 6 月 3 日新华社电：“由中共中央华北局第一书记李雪峰同志兼任北京市委第一书记，调中共吉林省委第一书记吴德同志任北京市委第二书记”。同日新市委决定派以张承先为首的工作组进驻北京大学，撤销陆平、彭珮云的一切职务。7 月 28 日新市委发布《关于撤销各大专学校工作组的决定》，称派工作组的办法“经验证明，已不适应上述的革命要求”。
+
+        据刘少奇 1967 年 7 月的检讨，1966 年 8 月 1 日他“到李雪峰同志处同北京新市委的同志一起研究”，决定去建筑工业学院，“李雪峰同志也决定一同去”；8 月 3 日晚他与李雪峰、谷牧、戚本禹再到该院。
+      cites: [rmrb-1966-06-04-new-committee, rmrb-1966-06-04-pku-committee, ws-1966-07-withdraw-workteams, ws-1967-07-09-liu-jiangong-review]
+    - h: 河北与九大
+      from: 1966
+      to: 1970
+      text: |
+        八届十一中全会上当选政治局候补委员（待核）。1967 年北京市革命委员会成立后不再主持北京市委，1968 年 2 月任河北省革命委员会主任，1969 年九大再次当选政治局候补委员（待核）。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 华北组简报与华北会议
+      from: 1970
+      to: 1971
+      text: |
+        据 1971 年 12 月中央下发的林陈反党集团罪证材料之一：1970 年 6 月中旬至 7 月下旬，陈伯达“窜到华北各地乱跑乱说，拉拢和联络李雪峰、郑维山等人”，7 月中旬在李雪峰、郑维山陪同下到中蒙边境接见驻军。九届二中全会期间，“八月二十五日，陈伯达通过李雪峰炮制的华北组第六号简报抢先出笼”。1971 年 1 月 24 日周恩来在华北会议上代表中央讲话，“指出了李雪峰、郑维山在政治上所犯的方向、路线的严重错误”，北京军区随即改组。
+      cites: [ws-1971-12-lin-chen-material-1]
+    - h: 审查与晚年
+      from: 1971
+      to: 2003
+      text: |
+        华北会议后被撤销职务、隔离审查，1973 年被开除党籍（待核）。1982 年中共中央为其恢复党籍（待核）。2003 年 3 月 18 日在北京去世。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: official1966, text: 由中共中央华北局第一书记李雪峰同志兼任北京市委第一书记（1966 年 6 月 3 日新华社电）, cite: rmrb-1966-06-04-new-committee, quote: true }
+    - { voice: doc, text: 目前所采取的在大专院校派工作组的办法，经验证明，已不适应上述的革命要求（新北京市委 1966 年 7 月 28 日决定）, cite: ws-1966-07-withdraw-workteams, quote: true }
+    - { voice: official1966, text: 八月二十五日，陈伯达通过李雪峰炮制的华北组第六号简报抢先出笼（1971 年林陈反党集团材料之一）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 指出了李雪峰、郑维山在政治上所犯的方向、路线的严重错误（同上，记 1971 年 1 月 24 日华北会议）, cite: ws-1971-12-lin-chen-material-1, quote: true }
   factions: [frontline]
   fate:
-    - { date: 1963, s: power }
-    - { date: 1966-06-03, s: rise, verify: true }
-    - { date: 1971-01, s: purged, note: 华北会议后, verify: true }
+    - { date: 1933, s: normal, note: 入党, verify: true }
+    - { date: 1956-09, s: rise, note: 中央书记处书记, verify: true }
+    - { date: 1963, s: power, note: 华北局第一书记, verify: true }
+    - { date: 1966-06-03, s: power, note: 兼北京市委第一书记, cite: rmrb-1966-06-04-new-committee }
+    - { date: 1971-01-24, s: purged, note: 华北会议上被点名, cite: ws-1971-12-lin-chen-material-1 }
+    - { date: 1982, s: restored, note: 恢复党籍, verify: true }
     - { date: 2003-03-18, s: dead }
-  cites: [ws-1966-07-withdraw-workteams]
+  cites: [rmrb-1966-06-04-new-committee, rmrb-1966-06-04-pku-committee, ws-1966-07-withdraw-workteams, ws-1967-07-09-liu-jiangong-review, ws-1971-12-lin-chen-material-1]
 
 # ── 中宣部“阎王殿” ──────────────────────────────────────────
 - id: zhou-yang
