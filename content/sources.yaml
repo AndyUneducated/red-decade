@@ -210,6 +210,32 @@
     - 中央文革小组内部、《红旗》1966 年第 13–14 期社论的起草（C011）
   note: 书目信息待以版权页核对。
 
+- id: qi-benyu-memoir
+  title: 戚本禹回忆录
+  author: 戚本禹
+  publisher: 中国文革历史出版社（香港）
+  date: 2016
+  kind: memoir
+  tier: 3
+  locator: 页
+  access: unread
+  want:
+    - 中央办公厅秘书室、《评李秀成自述》、1966–1967 年中央文革小组内部、1968 年被隔离审查的经过（本人自述，需与判决书、他人回忆对照）
+  note: 书目信息待以版权页核对。
+
+- id: su-wang-wuhan-bio
+  title: 吴晗传
+  author: 苏双碧、王宏志
+  publisher: 北京出版社
+  date: 1984
+  kind: monograph
+  tier: 2
+  locator: 页
+  access: unread
+  want:
+    - 吴晗早年、清华与西南联大时期、北京副市长任内、1965–1969 年被批判与关押的经过
+  note: 书目信息待以版权页核对。
+
 - id: nie-yuanzi-memoir
   title: 聂元梓回忆录
   author: 聂元梓

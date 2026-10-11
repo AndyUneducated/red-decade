@@ -1106,14 +1106,69 @@
   died: 1996-10-21
   tier: 2
   role1966: 《红旗》副总编、中央文革小组组员
-  bio: 既是二月提纲所列“五人小组办公室”成员，又被列入中央文革小组。1966 年 12 月与贾一学、李鑫合写《无产阶级专政和无产阶级文化大革命》。1967 年 8 月被隔离审查。
+  pinyin: Wáng Lì
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江苏淮安
+  origin: 江苏淮安
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1939
+  positions:
+    - { title: 《红旗》杂志编委、副总编辑, orgName: 红旗杂志, from: 1958, to: 1967-08, cite: ws-1967-07-26-wuhan-notice, note: 武汉军区公告称其为“《红旗》杂志第一副总编辑” }
+    - { title: 中共中央对外联络部副部长, orgName: 中共中央对外联络部, from: 1964, to: 1967-08, verify: true }
+    - { title: 文化革命五人小组办公室成员, orgName: 文化革命五人小组, from: 1966-02, to: 1966-05, cite: ws-1966-02-outline }
+    - { title: 中央文化革命小组组员, orgName: 中央文革小组, from: 1966-05-28, to: 1967-08-30, cite: ws-1966-05-ccrg-list }
+  bio: 党内理论写作班子出身，长期在《红旗》杂志和中联部工作，参与起草 1963–1964 年批判苏共的“九评”。1966 年 2 月是“五人小组办公室”成员，5 月又被列入中央文革小组。1967 年 1 月与关锋提出“彻底揭穿军内一小撮走资本主义道路的当权派”的口号，经林彪批示“完全同意”；7 月在武汉被群众组织“百万雄师”和部分军人绑架，回京后被当作英雄迎接；8 月 7 日讲话鼓动夺外交部的权。8 月 30 日被隔离审查，此后关押十四年，1982 年获释并被开除党籍。
+  life:
+    - h: 早年与理论写作
+      from: 1921
+      to: 1965
+      text: |
+        1921 年生于江苏淮安。抗战初期参加革命，1939 年入党，在山东抗日根据地做宣传和报刊工作。建国后在华东、中央机关从事理论宣传，1958 年《红旗》杂志创刊后任编委，后为副总编辑。1960 年代初参加康生主持的反修文件写作班子，执笔“九评”的部分篇章，1964 年起任中联部副部长。
+      verify: true
+      cites: [wang-li-memoir, klein-clark-1971]
+    - h: 从“五人小组”到中央文革
+      from: 1966
+      to: 1966
+      text: |
+        1966 年 2 月 3 日参加彭真召集的五人小组扩大会，二月提纲规定的五人小组“办公室由许立群、胡绳、吴冷西、姚溱、王力、范若愚等同志组成”。三个月后二月提纲被撤销，他却被列入 5 月 28 日成立的中央文化革命小组，是少数从彭真的班子转到中央文革的人。12 月与贾一学、李鑫合写《红旗》社论《无产阶级专政和无产阶级文化大革命》。
+      cites: [ws-1966-02-outline, ws-1966-05-ccrg-list, ws-1966-red-flag-index]
+    - h: 揪“军内一小撮”与七二〇事件
+      from: 1967-01
+      to: 1967-08
+      text: |
+        据 1980 年起诉书，“一九六七年一月，林彪亲笔批示‘完全同意’‘中央文化革命小组’成员关锋、王力等提出的‘彻底揭穿军内一小撮走资本主义道路的当权派’的口号”。7 月与谢富治到武汉处理两派冲突，表态支持“工人总部”等造反派，20 日其住地被“百万雄师”群众和部分军人冲击，他本人被绑架、殴打。武汉军区 7 月 26 日的公告称这是“明目张胆地反对我们的伟大的领袖毛主席”的“叛变行动”，把王任重和陈再道定为“罪魁祸首”。王力回到北京时受到盛大欢迎。8 月 1 日《红旗》社论提出要把“军内一小撮走资本主义道路当权派揭露出来”。
+      cites: [ws-1980-indictment, ws-1967-07-26-wuhan-notice, ws-1967-08-01-gun]
+      verify: true
+    - h: 八七讲话与倒台
+      from: 1967-08
+      to: 1982
+      text: |
+        8 月 7 日接见外交部造反派，据起诉书说：“揪陈毅大方向当然对”，“打倒刘、邓、陈的口号为什么不能喊”？外交部随即被造反派夺权，英国驻华代办处 8 月 22 日被焚。8 月底毛泽东表示王力、关锋“是坏人”，30 日两人被隔离审查，此后长期关押于秦城监狱。1982 年 1 月获释，被开除党籍，没有受审。晚年写成《王力反思录》，为自己在 1967 年的言行辩解，认为“八七讲话”是奉命行事。1996 年 10 月 21 日在北京去世。
+      cites: [ws-1980-indictment, wang-li-memoir]
+      verify: true
+  assess:
+    - { voice: doc, text: 办公室由许立群、胡绳、吴冷西、姚溱、王力、范若愚等同志组成（二月提纲）, cite: ws-1966-02-outline, quote: true }
+    - { voice: official1966, text: 中央文革小组成员、《红旗》杂志第一副总编辑王力同志（1967 年武汉军区公告）, cite: ws-1967-07-26-wuhan-notice, quote: true }
+    - { voice: judicial1980, text: 一九六七年八月七日，“中央文革小组”成员王力说：“揪陈毅大方向当然对”, cite: ws-1980-indictment, quote: true }
+    - { voice: witness, text: 王力晚年自述把 1967 年的“揪军内一小撮”和“八七讲话”说成是执行毛泽东、中央文革的意图，自己成了替罪羊（本人回忆，需对照）。, cite: wang-li-memoir }
+  works:
+    - { title: 无产阶级专政和无产阶级文化大革命（与贾一学、李鑫合写）, date: 1966-12, cite: ws-1966-red-flag-index }
+    - { title: 王力反思录, date: 2001 }
   factions: [ccrg, propdept]
   fate:
+    - { date: 1939, s: normal, note: 入党, verify: true }
+    - { date: 1958, s: rise, note: 《红旗》编委, verify: true }
     - { date: 1965-01, s: power }
+    - { date: 1966-02-03, s: power, note: 五人小组办公室成员, cite: ws-1966-02-outline }
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
+    - { date: 1967-07-20, s: attacked, note: 在武汉被绑架, cite: ws-1967-07-26-wuhan-notice }
     - { date: 1967-08-30, s: detained, note: 王力、关锋被隔离审查, verify: true }
+    - { date: 1982-01, s: normal, note: 获释，开除党籍, verify: true }
     - { date: 1996-10-21, s: dead }
-  cites: [ws-1966-02-outline, ws-1966-05-ccrg-list]
+  cites: [ws-1966-02-outline, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-07-26-wuhan-notice, ws-1967-08-01-gun, ws-1980-indictment]
 
 - id: guan-feng
   name: 关锋
@@ -1122,14 +1177,66 @@
   died: 2005-03-03
   tier: 2
   role1966: 《红旗》副总编、中央文革小组组员
-  bio: 彭真、许立群在 1966 年初收集其杂文作为“整左派”的材料；毛泽东 2 月 8 日当面回护：“写点杂文有什么关系。”4 月 5 日与林杰在《红旗》发表批判吴晗的文章。
+  pinyin: Guān Fēng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山东庆云
+  origin: 山东庆云
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1933
+  positions:
+    - { title: 《红旗》杂志编委、副总编辑, orgName: 红旗杂志, from: 1958, to: 1967-08, verify: true }
+    - { title: 中央文化革命小组组员, orgName: 中央文革小组, from: 1966-05-28, to: 1967-08-30, cite: ws-1966-05-ccrg-list }
+    - { title: 解放军总政治部副主任（兼）, orgName: 总政治部, from: 1967, to: 1967-08, verify: true }
+  bio: 哲学和党史写作者，笔名何明、庆云，1958 年起在《红旗》杂志任编委。1966 年初彭真、许立群收集他的杂文作为“整左派”的材料，毛泽东 2 月 8 日当面回护：“写点杂文有什么关系。”4 月 5 日与林杰在《红旗》发表批判吴晗的文章，5 月 9 日以“何明”之名在《光明日报》发文，5 月 28 日进入中央文革小组。1967 年 1 月与王力提出揪“军内一小撮”的口号；8 月 30 日与王力一起被隔离审查，关押至 1982 年，开除党籍。
+  life:
+    - h: 早年
+      from: 1919
+      to: 1958
+      text: |
+        1919 年生于山东庆云，原名周玉峰（待核）。1933 年入党，抗战期间在山东根据地做地方党务和宣传工作。建国后在山东分局、中共中央马列主义学院等处工作，研究中国哲学史，以庄子、先秦诸子研究著称。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 《红旗》与“左派”笔杆子
+      from: 1958
+      to: 1966-05
+      text: |
+        1958 年《红旗》杂志创刊后任编委，后任副总编辑，以“何明”“庆云”等笔名写杂文。1966 年 1 月 8 日，据五一六通知附件，姚溱把“庆云（即关锋）的一篇杂文《从陈贾说起》”送给彭真，“为彭真同志整关锋同志提供材料”。1 月中旬他和戚本禹写成两篇批判《海瑞罢官》“要害问题”的文章，被中宣部压下。2 月 8 日彭真等向毛泽东汇报时，许立群攻击关锋的杂文，毛泽东说：“写点杂文有什么关系。”“何明（即关锋）的文章我早就看过，还不错。”4 月 5 日与林杰在《红旗》发表《〈海瑞骂皇帝〉和〈海瑞罢官〉是反党反社会主义的两株大毒草》，5 月 9 日以“何明”之名在《光明日报》发表《擦亮眼睛，辨别真伪》。
+      cites: [ws-1966-05-16-notice-attachment, ws-1966-red-flag-index]
+    - h: 中央文革小组
+      from: 1966-05
+      to: 1967-08
+      text: |
+        1966 年 5 月 28 日被列为中央文化革命小组组员，主管《红旗》日常工作，1967 年兼任总政治部副主任（待核）。据 1980 年起诉书，1967 年 1 月林彪批示“完全同意”关锋、王力等提出的“彻底揭穿军内一小撮走资本主义道路的当权派”的口号。1967 年 8 月 1 日《红旗》社论再次提出揪“军内一小撮”，引起各地冲击军队，一般认为由他主持定稿（待核）。
+      cites: [ws-1966-05-ccrg-list, ws-1980-indictment, ws-1967-08-01-gun]
+      verify: true
+    - h: 倒台与晚年
+      from: 1967-08
+      text: |
+        1967 年 8 月底，毛泽东决定处理王力、关锋，两人于 8 月 30 日被隔离审查，此后关押于秦城监狱。1982 年获释，被开除党籍，没有受审。晚年继续研究先秦哲学和《庄子》，2005 年 3 月 3 日在北京去世。
+      verify: true
+      cites: [macfarquhar-schoenhals]
+  assess:
+    - { voice: doc, text: 写点杂文有什么关系（毛泽东 1966 年 2 月 8 日，据五一六通知附件）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: judicial1980, text: 一九六七年一月，林彪亲笔批示“完全同意”“中央文革小组”成员关锋、王力等提出的“彻底揭穿军内一小撮走资本主义道路的当权派”的口号，阴谋搞乱军队, cite: ws-1980-indictment, quote: true }
+  works:
+    - { title: 从陈贾说起（署名庆云）, date: 1962 }
+    - { title: 《海瑞骂皇帝》和《海瑞罢官》是反党反社会主义的两株大毒草（与林杰合写）, date: 1966-04-05, cite: ws-1966-red-flag-index }
+    - { title: 擦亮眼睛，辨别真伪（署名何明）, date: 1966-05-09, cite: ws-1966-05-16-notice-attachment }
   factions: [ccrg]
   fate:
+    - { date: 1933, s: normal, note: 入党, verify: true }
+    - { date: 1958, s: rise, note: 《红旗》编委, verify: true }
     - { date: 1965-01, s: normal }
+    - { date: 1966-01-08, s: attacked, note: 杂文被送给彭真作为“整左派”的材料, cite: ws-1966-05-16-notice-attachment@1966-01-08 }
+    - { date: 1966-02-08, s: rise, note: 毛泽东当面回护, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
     - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
     - { date: 1967-08-30, s: detained, verify: true }
+    - { date: 1982, s: normal, note: 获释，开除党籍, verify: true }
     - { date: 2005-03-03, s: dead }
-  cites: [ws-1966-05-16-notice-attachment@1966-02-08, ws-1966-05-ccrg-list]
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-08-01-gun, ws-1980-indictment]
 
 - id: qi-benyu
   name: 戚本禹
@@ -1137,15 +1244,71 @@
   died: 2016-04-20
   tier: 2
   role1966: 《红旗》历史组组长、中央文革小组组员
-  bio: 1965 年 12 月发表《为革命而研究历史》，毛泽东称“很好，我看了三遍，缺点是没有点名”。1966 年 3 月与林杰、阎长贵批判翦伯赞。
+  pinyin: Qī Běnyǔ
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山东威海
+  origin: 山东威海
+  deathKind: natural
+  deathPlace: 上海
+  party: 中国共产党
+  joinedParty: 1949
+  positions:
+    - { title: 中共中央办公厅秘书室干部（信访组组长）, orgName: 中共中央办公厅, from: 1950, to: 1963, verify: true }
+    - { title: 《红旗》杂志历史组组长, orgName: 红旗杂志, from: 1963, to: 1968-01, verify: true }
+    - { title: 中央文化革命小组组员, orgName: 中央文革小组, from: 1966-05-28, to: 1968-01, cite: ws-1966-05-ccrg-list }
+  bio: 中央办公厅秘书室出身的年轻历史写作者。1963 年《评〈李秀成自述〉》引起轩然大波，受到毛泽东赏识；1965 年 12 月发表《为革命而研究历史》，毛泽东称“很好，我看了三遍，缺点是没有点名”。1966 年进入中央文革小组，是批判刘少奇、组织群众冲击中央领导人最积极的成员之一：1967 年组织批斗刘少奇大会，指使红卫兵揪斗彭德怀、贴“打倒朱德”标语。1968 年 1 月被隔离审查，1983 年被判处有期徒刑十八年。晚年在上海出版回忆录，2016 年去世。
+  life:
+    - h: 早年与中南海
+      from: 1931
+      to: 1963
+      text: |
+        1931 年生于山东威海，少年时在上海读书，1949 年入党。1950 年调入中共中央办公厅秘书室，长期处理人民来信，任信访组组长，由此接触毛泽东身边的工作。业余研究历史，在《历史研究》等刊物发表文章。
+      verify: true
+      cites: [qi-benyu-memoir]
+    - h: 《评〈李秀成自述〉》与《为革命而研究历史》
+      from: 1963
+      to: 1966-05
+      text: |
+        1963 年发表《评〈李秀成自述〉》，把太平天国忠王李秀成被俘后的自述定性为“投降变节”，引起史学界争论，周扬等人一度要求批评，毛泽东批示支持他。1967 年 8 月《人民日报》《红旗》社论在批判“叛徒集团”时还专门提到“一九六三年戚本禹同志的《评〈李秀成自述〉》一文发表时所引起的一场轩然大波”。此后调《红旗》任历史组组长。1965 年 12 月 8 日在《红旗》发表《为革命而研究历史》，“批评了以翦伯赞、吴晗为代表的反动的历史观，但没有指名”；12 月 21 日毛泽东说：“戚本禹的文章很好，我看了三遍，缺点是没有点名。”1966 年 1 月他写成批判《海瑞罢官》“要害问题”的文章，被许立群压下；3 月与林杰、阎长贵在《红旗》发表《翦伯赞同志的历史观点应当批判》，5 月发表《评〈前线〉〈北京日报〉的资产阶级立场》。
+      cites: [ws-1966-05-16-notice-attachment, ws-1966-red-flag-index, ws-1967-08-09-renegades]
+    - h: 中央文革小组
+      from: 1966-05
+      to: 1968-01
+      text: |
+        1966 年 5 月 28 日被列为中央文化革命小组组员，8 月作为中央文革代表与刘少奇、李雪峰一起去北京建筑工业学院。1967 年 4 月 1 日发表《爱国主义还是卖国主义？》，第一次在报刊上不点名地把刘少奇称为“党内最大的走资本主义道路当权派”（待核）。据 1980 年起诉书：1967 年 1 月底“在戚本禹的策动下，中国人民大学的一些人在北京街头贴出了‘打倒朱德’的大标语”；7 月 18 日由他“组织召开‘批斗刘少奇大会’，进行抄家，对刘少奇、王光美进行人身迫害”；7、8 月间与康生、谢富治等“煽动组织‘揪刘火线’围困中南海”。据 1981 年判决书，1967 年 7 月他“在康生同意下，指使北京航空学院学生韩爱晶组织实施对中共中央政治局委员彭德怀的人身迫害，致使彭德怀被打断肋骨，造成重伤”。
+      cites: [ws-1966-05-ccrg-list, ws-1967-07-09-liu-jiangong-review, ws-1980-indictment, ws-1981-01-25-judgment]
+      verify: true
+    - h: 倒台、判刑与晚年
+      from: 1968-01
+      to: 2016
+      text: |
+        王力、关锋倒台后，1968 年 1 月 13 日他也被隔离审查，关押于秦城监狱。1983 年 11 月北京市中级人民法院以反革命宣传煽动罪、诬告陷害罪、聚众打砸抢罪判处其有期徒刑十八年（待核），1986 年刑满释放，此后在上海居住，从事图书和保健品工作。2016 年在香港出版《戚本禹回忆录》，坚持为文革和毛泽东辩护。2016 年 4 月 20 日在上海去世。
+      verify: true
+      cites: [qi-benyu-memoir]
+  assess:
+    - { voice: doc, text: 戚本禹的文章很好，我看了三遍，缺点是没有点名（毛泽东 1965 年 12 月 21 日，据五一六通知附件）, cite: ws-1966-05-16-notice-attachment, quote: true }
+    - { voice: judicial1980, text: 一九六七年七月，“中央文化革命小组”成员戚本禹在康生同意下，指使北京航空学院学生韩爱晶组织实施对中共中央政治局委员彭德怀的人身迫害，致使彭德怀被打断肋骨，造成重伤, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: witness, text: 戚本禹晚年回忆录坚持认为文革是正确的，把自己 1968 年的倒台归因于中央文革内部的权力斗争（本人回忆，需对照）。, cite: qi-benyu-memoir }
+  works:
+    - { title: 评《李秀成自述》, date: 1963 }
+    - { title: 为革命而研究历史, date: 1965-12-08, cite: ws-1966-05-16-notice-attachment }
+    - { title: 翦伯赞同志的历史观点应当批判（与林杰、阎长贵合写）, date: 1966-03, cite: ws-1966-red-flag-index }
+    - { title: 爱国主义还是卖国主义？——评反动影片《清宫秘史》, date: 1967-04-01 }
+    - { title: 戚本禹回忆录, date: 2016 }
   factions: [ccrg]
   fate:
+    - { date: 1949, s: normal, note: 入党, verify: true }
+    - { date: 1950, s: normal, note: 调中央办公厅秘书室, verify: true }
+    - { date: 1963, s: rise, note: 《评〈李秀成自述〉》, verify: true }
     - { date: 1965-01, s: normal }
     - { date: 1965-12-21, s: rise, note: 毛泽东点名称赞, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
     - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
     - { date: 1968-01-13, s: detained, verify: true }
+    - { date: 1983-11, s: detained, note: 判处有期徒刑十八年, verify: true }
+    - { date: 1986, s: normal, note: 刑满释放, verify: true }
     - { date: 2016-04-20, s: dead }
-  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list]
+  cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-07-09-liu-jiangong-review, ws-1967-08-09-renegades, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: wang-renzhong
   name: 王任重
@@ -1153,15 +1316,71 @@
   died: 1992-03-16
   tier: 2
   role1966: 中南局第二书记、中央文革小组副组长
-  bio: 1966 年 4 月在《红旗》发表《突出政治，用毛泽东思想统帅一切》。5 月任中央文革小组副组长，年底遭冲击。
+  pinyin: Wáng Rènzhòng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河北景县
+  origin: 河北景县
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1933
+  positions:
+    - { title: 冀南区党委书记, orgName: 冀南区党委, from: 1945, to: 1949, verify: true }
+    - { title: 中共湖北省委第一书记, orgName: 中共湖北省委, from: 1954, to: 1966, cite: rmrb-1966-07-25-yangtze }
+    - { title: 中共中央中南局第二书记, orgName: 中共中央中南局, from: 1961, to: 1966, cite: rmrb-1966-07-25-yangtze }
+    - { title: 中央文化革命小组副组长, orgName: 中央文革小组, from: 1966-05-28, to: 1966-12, cite: ws-1966-05-ccrg-list }
+    - { title: 国务院副总理, orgName: 国务院, from: 1979, to: 1980, verify: true }
+    - { title: 中宣部部长, orgName: 中共中央宣传部, from: 1980-03, to: 1982-04, verify: true }
+    - { title: 全国政协副主席, orgName: 全国政协, from: 1983-06, to: 1992-03-16, verify: true }
+  bio: 长期主政湖北，是毛泽东在武汉的东道主，1966 年 7 月 16 日陪同毛泽东畅游长江。1966 年 4 月在《红旗》发表《突出政治，用毛泽东思想统帅一切》，5 月任中央文革小组副组长。因在工作组问题上和陶铸站在一起，年底被打倒；1967 年武汉军区公告把他和陈再道定为七二〇事件的“罪魁祸首”。1978 年复出，任国务院副总理、中宣部部长、全国政协副主席。
+  life:
+    - h: 早年与冀南
+      from: 1917
+      to: 1949
+      text: |
+        1917 年生于河北景县，1933 年入党，抗战时期在冀南根据地工作，历任冀南区党委宣传部长、书记等职，解放战争中随刘邓大军南下。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 主政湖北
+      from: 1949
+      to: 1966-05
+      text: |
+        建国后在湖北工作，1954 年任湖北省委第一书记，1961 年兼中南局第二书记，与第一书记陶铸搭档。毛泽东常住武汉东湖，王任重是主要接待者之一，“大跃进”期间湖北的高产卫星和公共食堂都有他的推动。1966 年 4 月在《红旗》第五期发表《突出政治，用毛泽东思想统帅一切》。
+      cites: [ws-1966-red-flag-index]
+      verify: true
+    - h: 中央文革副组长与倒台
+      from: 1966-05
+      to: 1978
+      text: |
+        1966 年 5 月 28 日被列为中央文化革命小组副组长，但多数时间仍在武汉。7 月 16 日陪同毛泽东在武汉横渡长江，《人民日报》报道他向毛泽东汇报青少年游泳活动。8 月 18 日出席第一次接见红卫兵大会。他和陶铸一样在工作组、保护省委问题上与中央文革小组意见相左，1966 年底在武汉被造反派揪斗，失去职务。1967 年 7 月 26 日武汉军区公告称七二〇事件“是在部队内和‘百万雄师’内极少数别有用心的人的煽动下进行的。而王任重和陈再道则是上述事件的罪魁祸首”，结尾高呼“打倒王任重！”。此后长期被关押、下放。
+      cites: [ws-1966-05-ccrg-list, rmrb-1966-07-25-yangtze, rmrb-1966-08-19-first-rally, ws-1967-07-26-wuhan-notice]
+      verify: true
+    - h: 复出
+      from: 1978
+      text: |
+        1978 年复出任陕西省委第一书记，12 月十一届三中全会增补为中央委员。1979 年任国务院副总理，1980 年起任中宣部部长，1982 年在批判电影《苦恋》等问题上被认为过于宽松而离任（待核）。1983 年起任全国政协副主席。1992 年 3 月 16 日在北京去世。
+      cites: [ws-1978-12-third-plenum]
+      verify: true
+  assess:
+    - { voice: official1966, text: 王任重和陈再道则是上述事件的罪魁祸首（1967 年武汉军区公告）, cite: ws-1967-07-26-wuhan-notice, quote: true }
+    - { voice: judicial1980, text: 1980 年起诉书把他列为被林彪、江青集团诬陷的“中共中央局第一书记”之一。, cite: ws-1980-indictment }
+  works:
+    - { title: 突出政治，用毛泽东思想统帅一切, date: 1966-04, cite: ws-1966-red-flag-index }
   factions: [ccrg]
   fate:
+    - { date: 1933, s: normal, note: 入党, verify: true }
+    - { date: 1945, s: rise, note: 冀南区党委书记, verify: true }
+    - { date: 1954, s: power, note: 湖北省委第一书记, verify: true }
     - { date: 1965-01, s: power }
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
+    - { date: 1966-07-16, s: power, note: 陪同毛泽东畅游长江, cite: rmrb-1966-07-25-yangtze }
     - { date: 1966-12, s: purged, verify: true }
-    - { date: 1978, s: restored, verify: true }
+    - { date: 1967-07-26, s: purged, note: 武汉军区公告定为七二〇事件“罪魁祸首”, cite: ws-1967-07-26-wuhan-notice }
+    - { date: 1978, s: restored, note: 陕西省委第一书记, verify: true }
+    - { date: 1978-12-22, s: restored, note: 增补为中央委员, cite: ws-1978-12-third-plenum }
     - { date: 1992-03-16, s: dead }
-  cites: [ws-1966-05-ccrg-list, ws-1966-red-flag-index]
+  cites: [rmrb-1966-07-25-yangtze, rmrb-1966-08-19-first-rally, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-07-26-wuhan-notice, ws-1978-12-third-plenum, ws-1980-indictment]
 
 - id: liu-zhijian
   name: 刘志坚
@@ -1169,13 +1388,63 @@
   died: 2006
   tier: 3
   role1966: 总政治部副主任、中央文革小组副组长
-  bio: 参加江青主持的部队文艺座谈会；为《纪要》代中央起草批语，第二稿被彭真压下（1966 年官方大事记）。中央文革小组副组长，1967 年初被打倒。
+  pinyin: Liú Zhìjiān
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖南平江
+  origin: 湖南平江
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1930
+  positions:
+    - { title: 总政治部副主任, orgName: 总政治部, from: 1957, to: 1967-01, verify: true }
+    - { title: 中央文化革命小组副组长, orgName: 中央文革小组, from: 1966-05-28, to: 1967-01, cite: ws-1966-05-ccrg-list }
+    - { title: 全军文化革命小组组长, orgName: 全军文化革命小组, from: 1966, to: 1967-01, verify: true }
+  rank: { rank: 中国人民解放军中将, date: 1955-09-27 }
+  bio: 红军时期就做政治工作的军队政工干部，1957 年起任总政治部副主任，1955 年授中将衔。1966 年 2 月作为林彪派出的代表参加江青在上海召开的部队文艺工作座谈会，3–4 月两次代中央为《纪要》起草批语，5 月成为中央文革小组中唯一来自军队的副组长，并任全军文革小组组长。1967 年 1 月被江青等点名批判、打倒，关押多年，1978 年后恢复名誉。
+  life:
+    - h: 早年与军队政工
+      from: 1912
+      to: 1965
+      text: |
+        1912 年生于湖南平江，1930 年参加红军并入党，长征中在红四方面军做政治工作。抗战中任八路军一二九师政治部副主任等职，解放战争中任中原军区、第二野战军兵团政治部主任，抗美援朝中任志愿军第三兵团政委。1955 年授中将衔，1957 年起任总政治部副主任，分管宣传、文化工作。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 部队文艺座谈会与《纪要》
+      from: 1966-02
+      to: 1966-04
+      text: |
+        1966 年 2 月 2 日至 20 日，“江青同志根据林彪同志的委托，在上海邀请刘志坚、谢镗忠、李曼村、陈亚丁四位同志，就部队文艺工作的若干问题进行了座谈”。《纪要》记载，来上海之前林彪对刘志坚指示：“江青同志昨天和我谈了话。她对文艺工作方面在政治上很强，在艺术上也是内行，她有很多宝贵的意见，你们要很好重视。”江青在给林彪的信中说，她“先后同刘志坚同志个别交谈八次”。据五一六通知附件，3 月 31 日他根据彭真的意见代中央为《纪要》起草批语，4 月 3 日觉得“太一般化”，又起草了第二稿，增加了“社会主义文化大革命的意义和重要性”。同月，他与叶剑英、肖华、杨成武联名就罗瑞卿问题另写一信报毛泽东和中央。
+      cites: [ws-1966-03-army-arts, ws-1966-05-16-notice-attachment, ws-1966-04-luo-report]
+    - h: 中央文革副组长与倒台
+      from: 1966-05
+      to: 1978
+      text: |
+        1966 年 5 月 28 日被列为中央文化革命小组副组长，是小组中唯一来自军队系统的副组长，同时主持全军文化革命小组。1966 年底至 1967 年初，在军队院校运动问题上与中央文革意见不合，1967 年 1 月被江青、陈伯达等点名批判、打倒，全军文革小组随即改组。此后被关押审查多年。1980 年起诉书把他列入被林彪、江青集团诬陷的中央委员、候补中央委员名单。
+      cites: [ws-1980-indictment]
+      verify: true
+    - h: 平反与晚年
+      from: 1978
+      text: |
+        1978 年后恢复名誉和工作，1982 年起任中央顾问委员会委员（待核）。2006 年在北京去世。
+      verify: true
+      cites: [ccp-figures-bios]
+  assess:
+    - { voice: doc, text: 江青同志根据林彪同志的委托，在上海邀请刘志坚、谢镗忠、李曼村、陈亚丁四位同志，就部队文艺工作的若干问题进行了座谈（《纪要》）, cite: ws-1966-03-army-arts, quote: true }
+    - { voice: official1966, text: 总政治部刘志坚同志根据彭真同志的意见，于三月三十一日，代中央为《林彪同志委托江青同志召开的部队文艺工作座谈会纪要》起草了一个批语（五一六通知附件）, cite: ws-1966-05-16-notice-attachment, quote: true }
   factions: [ccrg, lin]
   fate:
+    - { date: 1930, s: normal, note: 参加红军、入党, verify: true }
+    - { date: 1955-09-27, s: rise, note: 授中将衔, verify: true }
+    - { date: 1957, s: power, note: 总政治部副主任, verify: true }
     - { date: 1965-01, s: power }
+    - { date: 1966-02-02, s: power, note: 参加部队文艺工作座谈会, cite: ws-1966-03-army-arts }
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
     - { date: 1967-01, s: purged, verify: true }
-  cites: [ws-1966-05-16-notice-attachment@1966-04-03, ws-1966-05-ccrg-list]
+    - { date: 1978, s: restored, verify: true }
+    - { date: 2006, s: dead, verify: true }
+  cites: [ws-1966-03-army-arts, ws-1966-04-luo-report, ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1980-indictment]
 
 - id: tao-zhu
   name: 陶铸
