@@ -11,7 +11,9 @@ import {
   DocumentSchema,
   EventSchema,
   FactionSchema,
+  OrgSchema,
   PersonSchema,
+  PlaceSchema,
   RelationSchema,
   SourceSchema,
   type Atlas,
@@ -77,6 +79,49 @@ const relations = load(RelationSchema, read('content', 'relations.yaml'), 'relat
 const concepts = load(ConceptSchema, read('content', 'concepts.yaml'), 'concepts')
 const documents = load(DocumentSchema, read('content', 'documents.yaml'), 'documents')
 const claims = load(ClaimSchema, read('research', 'claims.yaml'), 'claims')
+const orgs = load(OrgSchema, read('content', 'orgs.yaml'), 'orgs')
+const places = load(PlaceSchema, read('content', 'places.yaml'), 'places')
+
+// ── derived links: positions → orgs, birth/death strings → places ──
+// A position without org takes the org whose name or alias equals its orgName; failing that, the org
+// with the longest alias that begins its title. Written to .probe/org-links.txt for review, with a
+// mark where the position falls outside the org's lifespan.
+const aliasList = orgs.flatMap((o) => [o.name, ...o.aliases].map((a) => ({ a, o })))
+const orgReport: string[] = []
+for (const p of people)
+  for (const x of p.positions) {
+    if (!x.org) {
+      const byName = aliasList.find(({ a }) => a === x.orgName)
+      const byTitle = aliasList.filter(({ a }) => x.title.startsWith(a)).sort((m, n) => n.a.length - m.a.length)[0]
+      // 中共中央政治局常委 under orgName 中共中央政治局 belongs to the sub-body the title names
+      const child = byName && byTitle && byTitle.o.under.some((u) => u.org === byName.o.id)
+      x.org = (child ? byTitle : (byName ?? byTitle))?.o.id
+    }
+    const o = orgs.find((o) => o.id === x.org)
+    const outside = o && ((o.from && x.to && o.from.slice(0, 4) > x.to.slice(0, 4)) || (o.to && x.from && x.from.slice(0, 4) > o.to.slice(0, 4)))
+    orgReport.push(`${(x.org ?? '-').padEnd(22)} ${outside ? '!' : ' '} ${p.id.padEnd(16)} ${x.from ?? '?'}–${x.to ?? ''} ${x.title} | ${x.orgName ?? ''}`)
+  }
+// Names in parentheses are notes (今属…), not the place itself; the longest name wins, ties go to the
+// later (more specific) one, so 湖南湘潭韶山 resolves to 韶山.
+function placeOf(text: string | undefined) {
+  if (!text) return undefined
+  const s = text.replace(/（[^）]*）/g, '')
+  let best: { id: string; len: number; at: number } | undefined
+  for (const pl of places)
+    for (const n of [pl.name, ...pl.names]) {
+      const at = s.lastIndexOf(n)
+      if (at < 0) continue
+      if (!best || n.length > best.len || (n.length === best.len && at > best.at)) best = { id: pl.id, len: n.length, at }
+    }
+  return best?.id
+}
+for (const p of people) {
+  p.birthAt ??= placeOf(p.birthplace)
+  p.deathAt ??= placeOf(p.deathPlace)
+  orgReport.push(`@birth ${(p.birthAt ?? '-').padEnd(14)} ${p.id.padEnd(16)} ${p.birthplace ?? ''}`)
+  if (p.died) orgReport.push(`@death ${(p.deathAt ?? '-').padEnd(14)} ${p.id.padEnd(16)} ${p.deathPlace ?? ''}`)
+}
+if (existsSync(join(ROOT, '.probe'))) writeFileSync(join(ROOT, '.probe', 'org-links.txt'), orgReport.join('\n'))
 
 // ── referential integrity ────────────────────────────────
 const ids = {
@@ -84,10 +129,17 @@ const ids = {
   faction: new Set(factions.map((f) => f.id)),
   concept: new Set(concepts.map((c) => c.id)),
   event: new Set(events.map((e) => e.id)),
-  // institutions arrive in MP-3 (content/orgs.yaml); until then any position.org is an error
-  org: new Set<string>(),
+  org: new Set(orgs.map((o) => o.id)),
+  place: new Set(places.map((p) => p.id)),
 }
-for (const [kind, list] of [['person', people], ['faction', factions], ['event', events], ['concept', concepts]] as const) {
+for (const [kind, list] of [
+  ['person', people],
+  ['faction', factions],
+  ['event', events],
+  ['concept', concepts],
+  ['org', orgs],
+  ['place', places],
+] as const) {
   const seen = new Set<string>()
   for (const { id } of list) {
     if (seen.has(id)) errors.push(`duplicate ${kind} id ${id}`)
@@ -107,7 +159,9 @@ for (const p of people) {
   }
   p.factions.forEach((f) => need(ids.faction, f, `person ${p.id}`))
   p.cites.forEach((c) => needCite(c, `person ${p.id}`))
-  p.fate.forEach((f) => needCite(f.cite, `person ${p.id} fate`))
+  p.fate.forEach((f) => (needCite(f.cite, `person ${p.id} fate`), f.place && need(ids.place, f.place, `person ${p.id} fate`)))
+  if (p.birthAt) need(ids.place, p.birthAt, `person ${p.id} birthAt`)
+  if (p.deathAt) need(ids.place, p.deathAt, `person ${p.id} deathAt`)
   for (let i = 1; i < p.fate.length; i++)
     if (p.fate[i].date < p.fate[i - 1].date) errors.push(`person ${p.id}: fate out of order at ${p.fate[i].date}`)
   checkPersonFacts(p)
@@ -157,6 +211,20 @@ function checkPersonFacts(p: (typeof people)[number]) {
   p.works.forEach((w) => needCite(w.cite, `${where} works`))
 }
 for (const f of factions) f.cites.forEach((c) => needCite(c, `faction ${f.id}`))
+for (const o of orgs) {
+  const where = `org ${o.id}`
+  const span = (s: { from?: string; to?: string }, what: string) => {
+    if (s.from && s.to && after(s.from, s.to)) errors.push(`${where}: ${what} ends (${s.to}) before it starts (${s.from})`)
+  }
+  span(o, 'lifespan')
+  o.suspended.forEach((s) => span(s, 'suspended'))
+  o.under.forEach((u) => (need(ids.org, u.org, `${where} under`), span(u, `under ${u.org}`), u.org === o.id && errors.push(`${where}: under itself`)))
+  o.places.forEach((pl) => (need(ids.place, pl.at, `${where} places`), span(pl, `place ${pl.at}`)))
+  o.links.forEach((l) => (need(ids.org, l.org, `${where} links`), needCite(l.cite, `${where} links`)))
+  o.factions.forEach((f) => need(ids.faction, f, where))
+  o.cites.forEach((c) => needCite(c, where))
+  if (!o.cites.length && !o.verify) errors.push(`${where}: no cites and not marked verify`)
+}
 for (const e of events) {
   e.people.forEach((id) => need(ids.person, id, `event ${e.id}`))
   e.concepts.forEach((id) => need(ids.concept, id, `event ${e.id}`))
@@ -254,6 +322,8 @@ const atlas: Atlas = {
   builtAt: new Date().toISOString(),
   people,
   factions,
+  orgs,
+  places,
   events: events.sort((a, b) => a.date.localeCompare(b.date)),
   relations,
   concepts: concepts.map((c) => ({ ...c, hits: hitsFor(c.terms) })),
@@ -268,10 +338,14 @@ writeFileSync(join(out, 'atlas.json'), JSON.stringify(atlas))
 for (const id of texts.keys()) copyFileSync(join(textDir, `${id}.txt`), join(out, 'texts', `${id}.txt`))
 
 const verified = (xs: { verify?: boolean }[]) => xs.filter((x) => !x.verify).length
+const positionsAll = people.reduce((s, p) => s + p.positions.length, 0)
+const positionsLinked = people.reduce((s, p) => s + p.positions.filter((x) => x.org).length, 0)
 console.log(
   [
     `people     ${people.length}  (${people.filter((p) => p.life.length >= 3).length} full bios, avg ${(people.reduce((s, p) => s + p.fate.length, 0) / people.length).toFixed(1)} fate nodes)`,
     `factions   ${factions.length}`,
+    `orgs       ${orgs.length}  (${verified(orgs)} sourced; ${positionsLinked}/${positionsAll} positions linked)`,
+    `places     ${places.length}  (birth ${people.filter((p) => p.birthAt).length}/${people.filter((p) => p.birthplace).length}, death ${people.filter((p) => p.deathAt).length}/${people.filter((p) => p.deathPlace).length} resolved)`,
     `events     ${events.length}  (${verified(events)} sourced, ${events.length - verified(events)} 待核)`,
     `relations  ${relations.length}`,
     `concepts   ${concepts.length}`,

@@ -64,7 +64,7 @@
 | MP-2 | 56 人传记重写 + 命运轨迹覆盖一生 | ✔ 56/56，分六批（决策核心 10、元帅与彭罗陆杨等 12、王关戚与北京市委 11、中宣部与田家英 7、北大清华与工作组 8、上海林彪集团与受难者 8）。298 段生平中 258 段含待核句、标 `verify`；522 个命运节点中 290 个待核；134 条评价引语逐字核对通过。5 人整条待核（田家英、宋硕、彭珮云、宋彬彬、卞仲耘）。见 `log/2026-10-10-mp2.md` 末尾的总结 |
 | MP-2b | 档案可视化：职务时间带、档案卡、年龄标尺 | ✔ `src/components/Dossier.tsx`。职务时间带放在传记页头部一生色带正下方，共用同一比例尺，党/政/军/其他分道（分类见 `src/lib/positions.ts`），点击色带或职务带移动全站时刻，此刻在任的职务实心显示。档案卡六格固定：性别、民族、家庭出身、军衔、结局、平反。年龄标尺统一 0–100 岁。见 `log/2026-10-10-mp2b.md` |
 | 插入 | 全站暗夜模式（2026-10-10 用户提出） | ✔ 顶栏右侧切换按钮，选择存 `localStorage`（`rd-theme`），未选过则跟随系统；`index.html` 在首帧前设好 `data-theme`，不闪白。见下方“配色约定” |
-| MP-3 | 机构模型 `orgs.yaml` + “机构”视图（含人物足迹地图） | |
+| MP-3 | 机构模型 `orgs.yaml` + “机构”视图（含人物足迹地图） | 进行中。a 数据层 ✔：`content/orgs.yaml` 140 个机构（党 / 政 / 军 / 群团 / 群众组织 / 单位），含存续期、停止活动期、驻地变迁、隶属关系（随时间）、机构间关系（领导、设立、对立、并入、夺权接管、取代）、关联派系；`content/places.yaml` 84 个地点（近似坐标）。构建时按机构别名自动把 280 条职务全部挂上机构，把出生地 51/51、去世地 49/49 解析成地点。b 机构视图、c 足迹地图待做 |
 | MP-4 | 人物照片（双色调管线 + 文字头像兜底） | |
 | MP-5 | 移动端基础层 | |
 
@@ -79,7 +79,11 @@
 - 身份：`pinyin`；`aka`（字符串，或 `{kind: original|courtesy|art|pen|cover|other, name}`）；`gender`（m/f）；`ethnicity`；`birthplace`（出生地）；`origin`（籍贯）。
 - 背景：`classOrigin`（家庭出身）、`classNote`；`education: [{school, from, to, note, cite}]`。
 - 履历：`party`（默认中国共产党）、`joinedParty`、`joinedRevolution`；`positions: [{title, org?, orgName?, sys?, from, to, note, cite}]`；`rank: {rank, date, cite}`。
-  - `org` 填 `content/orgs.yaml` 的 id，MP-3 之前不要填，用 `orgName`。
+  - `org` 一般不填：构建时先找名称或别名等于 `orgName` 的机构，找不到再找头衔开头最长的别名；如果头衔指向 `orgName` 机构的下属（如“中共中央政治局常委”），取下属。匹配结果写到 `.probe/org-links.txt`，职务时间落在机构存续期外的行标 `!`。只有自动匹配错了才显式填 `org`。
+  - `birthAt` / `deathAt`（地点 id）一般也不填，由 `birthplace` / `deathPlace` 自动解析（去掉括号注释，取最长的地名）。
+  - 命运节点可加 `place`（地点 id），用于足迹地图上的关押、下放地点。
+
+**机构字段（MP-3 起，`OrgSchema`）：** `kind`（party|state|army|mass|popular|unit）、`level`（central|regional|provincial|basic）、`from`/`to`、`suspended`（名义存在但停止运转的时段）、`places`（驻地随时间）、`under`（上级，随时间）、`links`（本机构 → 对方：lead 领导、found 设立、oppose 对立、merge 并入、takeover 夺权接管、replace 取代）、`factions`、`summary`、`cites`。没有出处的必须标 `verify`。摘要里加引号的字句必须能在所引原文里找到。
   - `sys`（party|gov|army|other）只在职务时间带分错道时填，默认由 `systemOf()` 按机构名和头衔第一项推断。目前只有叶群“林彪办公室主任”填了 `army`。
 - 结局：`deathKind`（natural|suicide|persecuted|executed|killed|accident|war|unknown）、`deathPlace`、`deathContested`；`rehab: [{date, text, cite}]`；`afterlife: [{date, text, cite}]`。
 - 外部标识：`ids: {wikidata, cbdb}`。

@@ -66,11 +66,82 @@ const Voiced = z.object({
   quote: z.boolean().optional(),
 })
 
+// place: id in content/places.yaml, for detention and exile on the footprint map
 export const FateSchema = z.object({
   date: PartialDate,
   s: z.enum(Object.keys(STATUSES) as [Status, ...Status[]]),
   note: z.string().optional(),
+  place: z.string().optional(),
   cite: Cite.optional(),
+  verify: z.boolean().optional(),
+})
+
+// Coordinates are approximate county-seat or city-centre values (about 0.1°).
+// names are matched against birthplace/deathPlace strings; far places are listed but not drawn.
+export const PlaceSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  names: z.array(z.string()).default([]),
+  lat: z.number(),
+  lon: z.number(),
+  far: z.boolean().optional(),
+})
+
+export const ORG_KINDS = {
+  party: '党',
+  state: '政',
+  army: '军',
+  mass: '群团',
+  popular: '群众组织',
+  unit: '单位',
+} as const
+export type OrgKind = keyof typeof ORG_KINDS
+
+export const ORG_LEVELS = { central: '中央', regional: '大区', provincial: '省市', basic: '基层' } as const
+
+// a link points from this org to another: this org 领导/设立/… that org
+export const ORG_LINKS = {
+  lead: '领导',
+  found: '设立',
+  oppose: '对立',
+  merge: '并入',
+  takeover: '夺权 / 接管',
+  replace: '取代',
+} as const
+export type OrgLink = keyof typeof ORG_LINKS
+
+const Span = { from: PartialDate.optional(), to: PartialDate.optional() }
+
+// aliases are matched against positions.orgName (and the start of positions.title) at build time,
+// so positions need not name the org id explicitly
+export const OrgSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  short: z.string().optional(),
+  aliases: z.array(z.string()).default([]),
+  kind: z.enum(Object.keys(ORG_KINDS) as [OrgKind, ...OrgKind[]]),
+  level: z.enum(Object.keys(ORG_LEVELS) as [keyof typeof ORG_LEVELS, ...(keyof typeof ORG_LEVELS)[]]),
+  ...Span,
+  // periods when the body existed on paper but did not function (e.g. party committees after the 1967 power seizures)
+  suspended: z.array(z.object({ from: PartialDate, to: PartialDate.optional(), note: z.string().optional() })).default([]),
+  places: z.array(z.object({ at: z.string(), ...Span })).default([]),
+  under: z.array(z.object({ org: z.string(), ...Span })).default([]),
+  links: z
+    .array(
+      z.object({
+        org: z.string(),
+        kind: z.enum(Object.keys(ORG_LINKS) as [OrgLink, ...OrgLink[]]),
+        date: PartialDate.optional(),
+        to: PartialDate.optional(),
+        note: z.string().optional(),
+        cite: Cite.optional(),
+        verify: z.boolean().optional(),
+      }),
+    )
+    .default([]),
+  factions: z.array(z.string()).default([]),
+  summary: z.string(),
+  cites: z.array(Cite).default([]),
   verify: z.boolean().optional(),
 })
 
@@ -136,6 +207,9 @@ export const PersonSchema = z.object({
   death: z.string().optional(),
   deathKind: z.enum(Object.keys(DEATH_KINDS) as [DeathKind, ...DeathKind[]]).optional(),
   deathPlace: z.string().optional(),
+  // place ids for the footprint map; derived from birthplace/deathPlace by build-data when omitted
+  birthAt: z.string().optional(),
+  deathAt: z.string().optional(),
   // the cause itself is disputed (e.g. suicide vs. killed); the dispute belongs in life/assess voices
   deathContested: z.boolean().optional(),
   education: z.array(z.object({ school: z.string(), ...Dated })).default([]),
@@ -301,6 +375,8 @@ export type Concept = z.infer<typeof ConceptSchema>
 export type DocumentMeta = z.infer<typeof DocumentSchema>
 export type Source = z.infer<typeof SourceSchema>
 export type Claim = z.infer<typeof ClaimSchema>
+export type Place = z.infer<typeof PlaceSchema>
+export type Org = z.infer<typeof OrgSchema>
 
 export type ConceptHit = { source: string; date: string; count: number; context: string }
 
@@ -308,6 +384,8 @@ export type Atlas = {
   builtAt: string
   people: Person[]
   factions: Faction[]
+  orgs: Org[]
+  places: Place[]
   events: Event[]
   relations: Relation[]
   concepts: (Concept & { hits: ConceptHit[] })[]

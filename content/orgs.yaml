@@ -1,0 +1,1737 @@
+# Formal bodies (正式建制), as opposed to factions (political groupings, factions.yaml).
+# kind: party | state | army | mass (官方群团) | popular (红卫兵、造反派等群众组织) | unit (院校、报社、工厂、科研)
+# level: central | regional | provincial | basic
+# under: hierarchy, time-scoped. links: this org → that org (lead, found, oppose, merge, takeover, replace).
+# suspended: existed on paper but did not function. places: seat over time (ids in places.yaml).
+# aliases: matched against people.yaml positions.orgName / the start of positions.title at build time.
+# Dates and seats without a cite come from general reference and are marked verify.
+
+# ── 中共中央 ────────────────────────────────────────────
+- id: cc
+  name: 中国共产党中央委员会
+  short: 中共中央
+  aliases: [中共中央, 中共中央委员会]
+  kind: party
+  level: central
+  from: 1921-07
+  places: &central
+    - { at: shanghai, to: 1933-01 }
+    - { at: ruijin, from: 1933-01, to: 1934-10 }
+    - { at: yanan, from: 1935-10, to: 1947-03 }
+    - { at: beijing, from: 1949-03 }
+  factions: [mao]
+  summary: 党的最高领导机关，全国代表大会闭会期间由中央委员会领导全党工作；1966 年 8 月八届十一中全会改组中央领导机构。
+  cites: [ws-1966-08-12-plenum-communique]
+  verify: true
+
+- id: politburo
+  name: 中共中央政治局
+  aliases: [中共中央政治局, 中央政治局]
+  kind: party
+  level: central
+  from: 1927-05
+  under: [{ org: cc }]
+  places: *central
+  summary: 中央委员会全体会议闭会期间行使其职权。1966 年 5 月政治局扩大会议通过《五一六通知》。
+  cites: [ws-1966-05-16-notice]
+  verify: true
+
+- id: psc
+  name: 中共中央政治局常务委员会
+  short: 政治局常委
+  aliases: [政治局常委, 中央政治局常委, 中共中央政治局常委]
+  kind: party
+  level: central
+  from: 1928-07
+  under: [{ org: politburo }]
+  places: *central
+  summary: 政治局的常设核心。1966 年 5 月起中央文化革命小组“隶属于政治局常委之下”。
+  cites: [ws-1966-05-16-notice]
+  verify: true
+
+- id: secretariat
+  name: 中共中央书记处
+  aliases: [中共中央书记处]
+  kind: party
+  level: central
+  from: 1934-01
+  under: [{ org: cc }]
+  suspended: [{ from: 1966-08, to: 1980-02, note: 八届十一中全会后停止活动，1980 年十一届五中全会恢复 }]
+  places: *central
+  summary: 1956 年八大后在政治局及其常委领导下处理日常工作，总书记邓小平。文革中停止活动。
+  verify: true
+
+- id: cmc
+  name: 中共中央军事委员会
+  short: 中央军委
+  aliases: [中共中央军委, 中央军委, 中共中央军事委员会]
+  kind: party
+  level: central
+  from: 1931-11
+  under: [{ org: cc }]
+  places:
+    - { at: ruijin, from: 1931-11, to: 1934-10 }
+    - { at: yanan, from: 1935-10, to: 1947-03 }
+    - { at: beijing, from: 1949-03 }
+  summary: 党领导军队的最高机关。1931 年在瑞金称中华苏维埃共和国中央革命军事委员会，此后几经改组；1959 年起林彪主持日常工作。
+  verify: true
+
+- id: cmc-office
+  name: 中央军委办事组
+  aliases: [中央军委办事组]
+  kind: army
+  level: central
+  from: 1967-08
+  to: 1971-10
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  factions: [lin]
+  summary: 1967 年 8 月成立，黄永胜、吴法宪、叶群、李作鹏、邱会作先后主事，实际取代军委常委会处理日常工作。1970 年后毛泽东“掺沙子”派人参加办事组；九一三事件后撤销。
+  cites: [ws-1971-12-lin-chen-material-1]
+  verify: true
+
+- id: lin-office
+  name: 林彪办公室
+  short: 林办
+  aliases: [林彪办公室]
+  kind: army
+  level: central
+  to: 1971-09-13
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  factions: [lin]
+  summary: 林彪的办事机构，叶群任主任。
+  verify: true
+
+- id: general-office
+  name: 中共中央办公厅
+  aliases: [中共中央办公厅]
+  kind: party
+  level: central
+  under: [{ org: cc }]
+  places: [{ at: beijing, from: 1949-03 }]
+  summary: 中央的综合办事机构，含秘书局、机要局等。1965 年 11 月杨尚昆被免去主任职务，汪东兴接任。
+  verify: true
+
+- id: propaganda
+  name: 中共中央宣传部
+  short: 中宣部
+  aliases: [中共中央宣传部, 中宣部]
+  kind: party
+  level: central
+  from: 1924-05
+  under: [{ org: cc }]
+  suspended: [{ from: 1966-07, to: 1977, note: 被称为“阎王殿”，部长陆定一、继任者陶铸相继被打倒后停止运转 }]
+  places: *central
+  factions: [propdept]
+  summary: 党的宣传与文教主管部门。1966 年毛泽东称其为“阎王殿”，号召“打倒阎王，解放小鬼”。
+  cites: [ws-1966-05-16-notice-attachment]
+  verify: true
+
+- id: org-dept
+  name: 中共中央组织部
+  aliases: [中共中央组织部]
+  kind: party
+  level: central
+  from: 1924-05
+  under: [{ org: cc }]
+  places: *central
+  summary: 主管干部与组织。1980 年特别检察厅起诉书指控林彪、江青集团诬陷历任部长，并提出把中共中央组织部“彻底解散，宣布撤销”。
+  cites: [ws-1980-indictment]
+
+- id: liaison
+  name: 中共中央对外联络部
+  short: 中联部
+  aliases: [中共中央对外联络部]
+  kind: party
+  level: central
+  from: 1951-01
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 主管与各国共产党的联系。1960 年代中苏论战期间王力等在此起草反修文章。
+  verify: true
+
+- id: social-dept
+  name: 中共中央社会部
+  aliases: [中共中央社会部]
+  kind: party
+  level: central
+  from: 1939-02
+  to: 1949
+  under: [{ org: cc }]
+  places: [{ at: yanan, to: 1947-03 }]
+  summary: 延安时期的情报与保卫机关，康生任部长。
+  verify: true
+
+- id: comintern-delegation
+  name: 中共驻共产国际代表团
+  aliases: [中共驻共产国际代表团]
+  kind: party
+  level: central
+  to: 1943-05
+  under: [{ org: cc }]
+  places: [{ at: moscow }]
+  summary: 驻莫斯科的代表机构，王明、康生曾任正副团长；共产国际 1943 年解散。
+  verify: true
+
+- id: ccrg
+  name: 中央文化革命小组
+  short: 中央文革小组
+  aliases: [中央文革小组, 中央文化革命小组]
+  kind: party
+  level: central
+  from: 1966-05-28
+  to: 1969-04
+  under: [{ org: psc, from: 1966-05-28 }]
+  places: [{ at: beijing }]
+  links:
+    - { org: five-man, kind: replace, date: 1966-05-16, note: 《五一六通知》撤销五人小组，“重新设立文化革命小组，隶属于政治局常委之下”, cite: ws-1966-05-16-notice }
+    - { org: pla-cr, kind: lead, date: 1967-01, note: 改组后的全军文革由江青任顾问, verify: true }
+    - { org: hongdaihui, kind: lead, date: 1967-02, verify: true }
+  factions: [ccrg]
+  summary: 1966 年 5 月 28 日设立，组长陈伯达，顾问康生，副组长江青、王任重、刘志坚、张春桥。1967 年后逐步取代政治局和书记处处理日常工作，1969 年九大后停止活动。
+  cites: [ws-1966-05-ccrg-list, ws-1966-05-16-notice]
+
+- id: five-man
+  name: 文化革命五人小组
+  aliases: [文化革命五人小组]
+  kind: party
+  level: central
+  from: 1964-07
+  to: 1966-05-16
+  under: [{ org: politburo }]
+  places: [{ at: beijing }]
+  factions: [plly, bjcommittee]
+  summary: 组长彭真，成员陆定一、康生、周扬、吴冷西。1966 年 2 月起草《二月提纲》，5 月 16 日被撤销“及其办事机构”。
+  cites: [ws-1966-02-outline, ws-1966-05-16-notice]
+
+- id: special-case
+  name: 中央专案审查小组
+  short: 中央专案组
+  kind: party
+  level: central
+  from: 1966-12
+  to: 1978-12
+  under: [{ org: politburo }]
+  places: [{ at: beijing }]
+  summary: 审查刘少奇、贺龙等人的专案机构。1968 年 10 月提出刘少奇审查报告，1974 年 9 月又提出为贺龙恢复名誉的报告。
+  cites: [ws-1968-liu-case-report, ws-1974-he-long-name]
+  verify: true
+
+- id: red-flag
+  name: 《红旗》杂志社
+  aliases: [红旗杂志, 红旗杂志社]
+  kind: party
+  level: central
+  from: 1958-06
+  to: 1988-06
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  factions: [ccrg]
+  summary: 中共中央理论刊物，陈伯达任总编辑。1966–1967 年王力、关锋、戚本禹在此撰写大批判文章。
+  cites: [ws-1966-red-flag-index, ws-1967-red-flag-index]
+
+- id: peoples-daily
+  name: 人民日报社
+  aliases: [人民日报社]
+  kind: party
+  level: central
+  from: 1948-06
+  under: [{ org: cc }]
+  places: [{ at: beijing, from: 1949-03 }]
+  summary: 中共中央机关报。1966 年 5 月 31 日陈伯达率工作组接管，次日发表社论《横扫一切牛鬼蛇神》。
+  cites: [ws-1966-06-01-sweep]
+  verify: true
+
+- id: jiefang-yanan
+  name: 《解放日报》（延安）
+  aliases: [解放日报（延安）]
+  kind: party
+  level: central
+  from: 1941-05
+  to: 1947-03
+  under: [{ org: cc }]
+  places: [{ at: yanan }]
+  summary: 延安时期的中共中央机关报。
+  verify: true
+
+- id: advisory
+  name: 中央顾问委员会
+  short: 中顾委
+  aliases: [中央顾问委员会]
+  kind: party
+  level: central
+  from: 1982-09
+  to: 1992-10
+  places: [{ at: beijing }]
+  summary: 十二大设立，安置退出一线的老干部，邓小平任主任。
+  verify: true
+
+- id: politics-law
+  name: 中共中央政法委员会
+  short: 中央政法委
+  aliases: [中央政法委, 中共中央政法委员会]
+  kind: party
+  level: central
+  from: 1980-01
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 1980 年恢复设立，彭真、陈丕显先后任书记。
+  verify: true
+
+- id: party-history
+  name: 中共中央党史研究室
+  aliases: [中共中央党史研究室]
+  kind: party
+  level: central
+  from: 1980
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 编写官方党史的机构，胡绳曾任主任。
+  verify: true
+
+- id: special-procuratorate
+  name: 最高人民检察院特别检察厅
+  kind: state
+  level: central
+  from: 1980-09-29
+  to: 1981-01
+  under: [{ org: procuratorate }]
+  places: [{ at: beijing }]
+  summary: 与特别法庭同日决定成立，起诉林彪、江青反革命集团案十名主犯。
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+
+# ── 中央局与地方党委 ────────────────────────────────────
+- id: north-bureau
+  name: 中共中央北方局
+  aliases: [中共中央北方局]
+  kind: party
+  level: regional
+  from: 1936
+  to: 1945-08
+  under: [{ org: cc }]
+  places:
+    - { at: tianjin, from: 1936, to: 1937-07 }
+    - { at: shexian, from: 1939, to: 1945-08 }
+  summary: 1936 年刘少奇任书记，在天津主持白区工作；抗战中驻太行山区。
+  verify: true
+
+- id: jcj-bureau
+  name: 中共中央晋察冀分局
+  aliases: [中共晋察冀分局, 中共中央北方分局]
+  kind: party
+  level: regional
+  from: 1938
+  to: 1948-05
+  under: [{ org: cc }]
+  places: [{ at: fuping }]
+  summary: 晋察冀边区的党的领导机关，彭真曾任书记；1948 年并入华北局。
+  verify: true
+
+- id: central-plains
+  name: 中共中央中原局
+  aliases: [中共中央中原局]
+  kind: party
+  level: regional
+  from: 1938-11
+  to: 1949-05
+  under: [{ org: cc }]
+  places:
+    - { at: queshan, from: 1938-11, to: 1941 }
+    - { at: kaifeng, from: 1948-05, to: 1949-05 }
+  summary: 1938 年刘少奇任书记，驻河南确山竹沟；1948 年重建，邓小平任第一书记。
+  verify: true
+
+- id: south-bureau
+  name: 中共中央南方局
+  aliases: [中共中央南方局]
+  kind: party
+  level: regional
+  from: 1939-01
+  to: 1947-01
+  under: [{ org: cc }]
+  places: [{ at: chongqing }]
+  summary: 抗战期间驻重庆，周恩来任书记，领导国统区与南方各省工作。
+  verify: true
+
+- id: soviet-bureau
+  name: 中共苏区中央局
+  aliases: [中共苏区中央局]
+  kind: party
+  level: regional
+  from: 1931-01
+  to: 1934-10
+  under: [{ org: cc }]
+  places: [{ at: ruijin }]
+  summary: 中央苏区的党的领导机关，周恩来 1931 年底到瑞金后任书记。
+  verify: true
+
+- id: nanchang-front
+  name: 中共前敌委员会（南昌起义）
+  aliases: [中共前敌委员会]
+  kind: party
+  level: regional
+  from: 1927-07
+  to: 1927-10
+  under: [{ org: cc }]
+  places: [{ at: nanchang }]
+  summary: 南昌起义的领导机关，周恩来任书记。
+  verify: true
+
+- id: huaihai-front
+  name: 淮海战役总前敌委员会
+  short: 总前委
+  aliases: [总前委]
+  kind: party
+  level: regional
+  from: 1948-11
+  to: 1949-05
+  under: [{ org: cmc }]
+  places: [{ at: xuzhou }]
+  summary: 统一指挥中原、华东两野战军，邓小平任书记，成员刘伯承、陈毅、粟裕、谭震林。
+  verify: true
+
+- id: ganyue-bureau
+  name: 中共中央分局（赣粤边）
+  aliases: [中共中央分局]
+  kind: party
+  level: regional
+  from: 1934-10
+  to: 1937
+  under: [{ org: cc }]
+  places: [{ at: dayu }]
+  summary: 中央红军长征后留在中央苏区的领导机关，陈毅等在赣粤边坚持三年游击战争。
+  verify: true
+
+- id: southwest-bureau
+  name: 中共中央西南局
+  aliases: [中共中央西南局]
+  kind: party
+  level: regional
+  from: 1949-11
+  to: 1967
+  under: [{ org: cc }]
+  suspended: [{ from: 1954-08, to: 1960-09, note: 大区一级撤销，1960 年重建 }]
+  places:
+    - { at: chongqing, from: 1949-11, to: 1954-08 }
+    - { at: chengdu, from: 1960-09 }
+  summary: 1949–1954 年邓小平任第一书记；1960 年重建，李井泉任第一书记。
+  verify: true
+
+- id: central-south
+  name: 中共中央中南局
+  aliases: [中共中央中南局]
+  kind: party
+  level: regional
+  from: 1949-12
+  to: 1967
+  under: [{ org: cc }]
+  suspended: [{ from: 1954-08, to: 1960-09, note: 大区一级撤销，1960 年重建 }]
+  places:
+    - { at: wuhan, from: 1949-12, to: 1954-08 }
+    - { at: guangzhou, from: 1960-09 }
+  summary: 1960 年重建后陶铸任第一书记、王任重任第二书记。
+  verify: true
+
+- id: north-china
+  name: 中共中央华北局
+  aliases: [中共中央华北局]
+  kind: party
+  level: regional
+  from: 1948-05
+  to: 1967
+  under: [{ org: cc }]
+  suspended: [{ from: 1954-08, to: 1960-09, note: 大区一级撤销，1960 年重建 }]
+  places: [{ at: beijing, from: 1949-03 }]
+  summary: 1960 年重建后李雪峰任第一书记；1966 年 6 月李雪峰兼任改组后的北京市委第一书记。
+  cites: [rmrb-1966-06-04-new-committee]
+  verify: true
+
+- id: northeast-bureau
+  name: 中共中央东北局
+  aliases: [中共中央东北局]
+  kind: party
+  level: regional
+  from: 1945-09
+  to: 1954-08
+  under: [{ org: cc }]
+  places:
+    - { at: harbin, from: 1946-04, to: 1948-11 }
+    - { at: shenyang, from: 1948-11 }
+  summary: 抗战胜利后为争夺东北设立，彭真、林彪、高岗先后主持。1960 年重建（宋任穷），此处未单列。
+  verify: true
+
+- id: south-china-bureau
+  name: 中共中央华南分局
+  aliases: [中共中央华南分局]
+  kind: party
+  level: regional
+  from: 1949-10
+  to: 1955
+  under: [{ org: central-south }]
+  places: [{ at: guangzhou }]
+  summary: 叶剑英任第一书记兼广州市长。
+  verify: true
+
+- id: manchuria-committee
+  name: 中共满洲省委
+  aliases: [中共满洲省委]
+  kind: party
+  level: provincial
+  from: 1927-10
+  to: 1936
+  under: [{ org: cc }]
+  places: [{ at: shenyang }]
+  summary: 东北地区的地下党领导机关，刘少奇 1929 年任书记期间在奉天被捕。
+  verify: true
+
+- id: shandong-bureau
+  name: 中共中央山东分局
+  aliases: [中共山东分局]
+  kind: party
+  level: regional
+  from: 1938-12
+  to: 1954
+  under: [{ org: north-bureau, to: 1945-08 }]
+  places: [{ at: linyi, to: 1948-09 }, { at: jinan, from: 1948-09 }]
+  summary: 山东抗日根据地的党的领导机关，1949 年后隶属华东局；康生 1949–1950 年任书记。
+  verify: true
+
+- id: jinan-district
+  name: 中共冀南区党委
+  aliases: [冀南区党委]
+  kind: party
+  level: provincial
+  under: [{ org: north-bureau }]
+  places: [{ at: nangong }]
+  summary: 冀南抗日根据地的党委，王任重曾任书记。
+  verify: true
+
+- id: taihang-district
+  name: 中共太行区党委
+  aliases: [中共太行区党委]
+  kind: party
+  level: provincial
+  under: [{ org: north-bureau }]
+  places: [{ at: shexian }]
+  summary: 太行抗日根据地的党委，李雪峰曾任书记。
+  verify: true
+
+- id: bj-committee
+  name: 中共北京市委员会
+  short: 北京市委
+  aliases: [中共北京市委]
+  kind: party
+  level: provincial
+  from: 1948-12
+  under: [{ org: cc }]
+  suspended: [{ from: 1967-04-20, to: 1971-03, note: 革委会成立后由其行使党政职权，此后重建市委 }]
+  places: [{ at: beijing }]
+  links:
+    - { org: pku-workteam, kind: found, date: 1966-06-03, note: 新改组的市委决定派张承先工作组进驻北大, cite: rmrb-1966-06-04-pku-committee }
+  factions: [bjcommittee]
+  summary: 彭真长期任第一书记，邓拓、刘仁、郑天翔等任书记处书记。1966 年 6 月 3 日中共中央决定改组，李雪峰兼第一书记、吴德任第二书记。
+  cites: [rmrb-1966-06-04-new-committee]
+
+- id: bj-government
+  name: 北京市人民政府
+  aliases: [北京市人民政府, 北京市人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-02
+  suspended: [{ from: 1967-04-20, to: 1979-12, note: 由北京市革命委员会取代 }]
+  places: [{ at: beijing }]
+  summary: 1955–1967 年称北京市人民委员会。彭真兼市长，吴晗任副市长。
+  verify: true
+
+- id: bj-revcom
+  name: 北京市革命委员会
+  aliases: [北京市革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-04-20
+  to: 1979-12
+  places: [{ at: beijing }]
+  links:
+    - { org: bj-government, kind: replace, date: 1967-04-20 }
+    - { org: bj-committee, kind: takeover, date: 1967-04-20, note: 统一行使党政职权, verify: true }
+  summary: 1967 年 4 月 20 日成立，谢富治任主任，聂元梓、蒯大富等群众组织领袖进入领导层。
+  cites: [ws-1967-red-flag-index, ws-1982-10-05-nie-yuanzi-case]
+
+- id: sh-committee
+  name: 中共上海市委员会
+  short: 上海市委
+  aliases: [中共上海市委]
+  kind: party
+  level: provincial
+  from: 1949-05
+  under: [{ org: cc }]
+  suspended: [{ from: 1967-01, to: 1971-01, note: 一月夺权后瘫痪，此后由张春桥等重建 }]
+  places: [{ at: shanghai }]
+  factions: [shanghai]
+  summary: 1966 年第一书记陈丕显、书记处书记曹荻秋（兼市长）。一月夺权中被造反派宣布“砸烂”。
+  cites: [ws-1967-02-05-shanghai-commune]
+  verify: true
+
+- id: sh-government
+  name: 上海市人民政府
+  aliases: [上海市人民政府, 上海市人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-05-28
+  suspended: [{ from: 1967-02-05, to: 1979-12, note: 由上海人民公社、上海市革命委员会取代 }]
+  places: [{ at: shanghai }]
+  summary: 1955–1967 年称上海市人民委员会（“市人委”）。陈毅、柯庆施、曹荻秋先后任市长。
+  verify: true
+
+- id: sh-commune
+  name: 上海人民公社
+  kind: state
+  level: provincial
+  from: 1967-02-05
+  to: 1967-02-24
+  places: [{ at: shanghai }]
+  links:
+    - { org: sh-committee, kind: takeover, date: 1967-02-05, note: 宣言称“旧上海市委、市人委被我们砸烂了”, cite: ws-1967-02-05-shanghai-commune }
+    - { org: sh-government, kind: replace, date: 1967-02-05, cite: ws-1967-02-05-shanghai-commune }
+  factions: [rebels]
+  summary: 自称“新型的无产阶级专政的地方国家机构”，张春桥、姚文元主持。存在不到三周，按毛泽东意见改称上海市革命委员会。
+  cites: [ws-1967-02-05-shanghai-commune]
+
+- id: sh-revcom
+  name: 上海市革命委员会
+  aliases: [上海市革命委员会]
+  kind: state
+  level: provincial
+  from: 1967-02-24
+  to: 1979-12
+  places: [{ at: shanghai }]
+  links: [{ org: sh-commune, kind: replace, date: 1967-02-24, verify: true }]
+  summary: 张春桥任主任，姚文元、王洪文任副主任；1981 年判决书列为三人原任职务。
+  cites: [ws-1981-01-25-judgment]
+
+- id: hubei-committee
+  name: 中共湖北省委
+  aliases: [中共湖北省委]
+  kind: party
+  level: provincial
+  from: 1949-05
+  under: [{ org: cc }]
+  places: [{ at: wuhan }]
+  summary: 王任重 1954–1966 年任第一书记。
+  verify: true
+
+- id: guangdong-committee
+  name: 中共广东省委
+  aliases: [中共广东省委]
+  kind: party
+  level: provincial
+  from: 1949-10
+  under: [{ org: cc }]
+  places: [{ at: guangzhou }]
+  summary: 陶铸 1955–1965 年任第一书记。
+  verify: true
+
+- id: hebei-committee
+  name: 中共河北省委
+  aliases: [中共河北省委]
+  kind: party
+  level: provincial
+  under: [{ org: cc }]
+  places:
+    - { at: baoding, to: 1958-04 }
+    - { at: tianjin, from: 1958-04, to: 1966-04 }
+    - { at: shijiazhuang, from: 1968-02 }
+  summary: 1958–1966 年省会在天津。张承先曾任书记处书记，1966 年 6 月调任北大工作组组长。
+  verify: true
+
+- id: hebei-revcom
+  name: 河北省革命委员会
+  aliases: [河北省革命委员会]
+  kind: state
+  level: provincial
+  from: 1968-02
+  to: 1979-12
+  places: [{ at: shijiazhuang }]
+  summary: 李雪峰任主任，1970 年庐山会议后被撤职。
+  verify: true
+
+- id: yunnan-committee
+  name: 中共云南省委
+  aliases: [中共云南省委]
+  kind: party
+  level: provincial
+  under: [{ org: cc }]
+  places: [{ at: kunming }]
+  summary: 谢富治 1950 年代任第一书记兼昆明军区政委。
+  verify: true
+
+- id: fujian-committee
+  name: 中共福建省委（1930 年代）
+  aliases: [中共福建省委]
+  kind: party
+  level: provincial
+  under: [{ org: cc }]
+  places: [{ at: xiamen }]
+  summary: 陶铸 1930 年代在此任秘书长、军委书记。
+  verify: true
+
+- id: chongqing-government
+  name: 重庆市人民政府
+  aliases: [重庆市人民政府]
+  kind: state
+  level: provincial
+  from: 1949-12
+  places: [{ at: chongqing }]
+  summary: 曹荻秋 1950 年代任市长。
+  verify: true
+
+# ── 国家机构 ────────────────────────────────────────────
+- id: central-government
+  name: 中央人民政府
+  aliases: [中央人民政府]
+  kind: state
+  level: central
+  from: 1949-10-01
+  to: 1954-09
+  places: [{ at: beijing }]
+  summary: 1949–1954 年的国家政权机关，毛泽东任主席，下设政务院。1954 年宪法后由国家主席、全国人大和国务院取代。
+  verify: true
+
+- id: state-council
+  name: 国务院
+  aliases: [国务院, 政务院]
+  kind: state
+  level: central
+  from: 1949-10-01
+  places: [{ at: beijing }]
+  links: [{ org: central-government, kind: replace, date: 1954-09 }]
+  factions: [premier]
+  summary: 1949–1954 年称政务院，周恩来任总理至 1976 年去世。文革中各部委多数瘫痪，周恩来以国务院维持经济运转。
+  verify: true
+
+- id: prc-chair
+  name: 中华人民共和国主席
+  short: 国家主席
+  aliases: [中华人民共和国, 国家主席, 国家副主席]
+  kind: state
+  level: central
+  from: 1954-09
+  suspended: [{ from: 1975-01, to: 1983-06, note: 1975 年宪法取消国家主席，1982 年宪法恢复 }]
+  places: [{ at: beijing }]
+  summary: 毛泽东、刘少奇先后任主席。1980 年平反决议称文革中“实际上撤销了他的国家主席的职务”。
+  cites: [ws-1980-02-29-liu-rehab]
+
+- id: npc
+  name: 全国人民代表大会常务委员会
+  short: 全国人大常委会
+  aliases: [全国人大常委会]
+  kind: state
+  level: central
+  from: 1954-09
+  places: [{ at: beijing }]
+  links:
+    - { org: special-court, kind: found, date: 1980-09-29, note: 五届人大常委会第十六次会议决定成立特别检察厅和特别法庭, cite: ws-1981-01-25-judgment }
+  summary: 刘少奇、朱德、叶剑英、彭真先后任委员长。
+  verify: true
+
+- id: cppcc
+  name: 中国人民政治协商会议全国委员会
+  short: 全国政协
+  aliases: [全国政协]
+  kind: state
+  level: central
+  from: 1949-09
+  places: [{ at: beijing }]
+  summary: 统一战线组织，1949 年代行全国人大职权。毛泽东、周恩来、邓小平先后任主席。
+  verify: true
+
+- id: foreign
+  name: 外交部
+  aliases: [外交部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 周恩来、陈毅先后任部长。1967 年 8 月造反派一度夺权，同月发生火烧英国代办处事件。
+  verify: true
+
+- id: public-security
+  name: 公安部
+  aliases: [公安部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 罗瑞卿、谢富治先后任部长。1967 年 1 月中共中央、国务院发布《关于在无产阶级文化大革命中加强公安工作的若干规定》（公安六条）。
+  cites: [ws-1967-01-13-public-security]
+  verify: true
+
+- id: defense
+  name: 国防部
+  aliases: [国防部]
+  kind: state
+  level: central
+  from: 1954-09
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 彭德怀、林彪、叶剑英先后任部长。实际军事领导权在中央军委。
+  verify: true
+
+- id: culture-ministry
+  name: 文化部
+  aliases: [文化部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  suspended: [{ from: 1966-07, to: 1975-01, note: 被称为“帝王将相部”“才子佳人部”，文革中停止运转 }]
+  places: [{ at: beijing }]
+  summary: 1965 年陆定一兼任部长。
+  verify: true
+
+- id: railways
+  name: 铁道部
+  aliases: [铁道部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 陆平 1950 年代任副部长，后调任北京大学。
+  verify: true
+
+- id: education-ministry
+  name: 教育部
+  aliases: [教育部]
+  kind: state
+  level: central
+  from: 1949-10
+  to: 1985-06
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1985 年改组为国家教育委员会。
+  verify: true
+
+- id: state-education
+  name: 国家教育委员会
+  short: 国家教委
+  aliases: [国家教育委员会]
+  kind: state
+  level: central
+  from: 1985-06
+  to: 1998-03
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  links: [{ org: education-ministry, kind: replace, date: 1985-06 }]
+  summary: 由教育部改组而来，彭珮云曾任副主任。
+  verify: true
+
+- id: seventh-ministry
+  name: 第七机械工业部
+  short: 七机部
+  aliases: [第七机械工业部]
+  kind: state
+  level: central
+  from: 1965-01
+  to: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管导弹与航天工业，文革中派性武斗激烈。
+  verify: true
+
+- id: sports
+  name: 国家体育运动委员会
+  short: 国家体委
+  aliases: [国家体育运动委员会]
+  kind: state
+  level: central
+  from: 1952-11
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 贺龙长期兼任主任。
+  verify: true
+
+- id: family-planning
+  name: 国家计划生育委员会
+  aliases: [国家计划生育委员会]
+  kind: state
+  level: central
+  from: 1981-03
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 彭珮云 1988 年起任主任。
+  verify: true
+
+- id: broadcasting
+  name: 广播电视部
+  aliases: [广播电视部]
+  kind: state
+  level: central
+  from: 1982-05
+  to: 1986-01
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 吴冷西任部长。
+  verify: true
+
+- id: supreme-court
+  name: 最高人民法院
+  aliases: [最高人民法院]
+  kind: state
+  level: central
+  from: 1949-10
+  places: [{ at: beijing }]
+  summary: 郑天翔 1983–1988 年任院长。
+  verify: true
+
+- id: special-court
+  name: 最高人民法院特别法庭
+  aliases: [最高人民法院特别法庭]
+  kind: state
+  level: central
+  from: 1980-09-29
+  to: 1981-01-25
+  under: [{ org: supreme-court }]
+  places: [{ at: beijing }]
+  summary: 依五届人大常委会 1980 年 9 月 29 日决定成立，任务是“审判林彪、江青反革命集团案主犯”，庭长江华。1981 年 1 月 25 日宣判。
+  cites: [ws-1981-01-25-judgment]
+
+- id: procuratorate
+  name: 最高人民检察院
+  kind: state
+  level: central
+  from: 1949-10
+  suspended: [{ from: 1975-01, to: 1978-06, note: 1975 年宪法取消检察机关，由公安机关行使职权 }]
+  places: [{ at: beijing }]
+  summary: 1978 年重建。
+  verify: true
+
+- id: xinhua
+  name: 新华通讯社
+  short: 新华社
+  aliases: [新华社]
+  kind: unit
+  level: central
+  from: 1931-11
+  under: [{ org: state-council, from: 1949-10 }]
+  places:
+    - { at: ruijin, to: 1934-10 }
+    - { at: yanan, from: 1937-01, to: 1947-03 }
+    - { at: beijing, from: 1949-03 }
+  summary: 前身为红色中华通讯社，1937 年改今名。吴冷西 1952–1966 年任社长。
+  verify: true
+
+- id: cas
+  name: 中国科学院
+  aliases: [中国科学院]
+  kind: unit
+  level: central
+  from: 1949-11
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 陈伯达曾任副院长。
+  verify: true
+
+- id: cass
+  name: 中国社会科学院
+  aliases: [中国社会科学院]
+  kind: unit
+  level: central
+  from: 1977-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 由中国科学院哲学社会科学部独立而来，胡乔木、胡绳先后任院长，周扬任副院长。
+  verify: true
+
+- id: third-front
+  name: 西南三线建设委员会
+  aliases: [西南三线建设委员会]
+  kind: state
+  level: regional
+  from: 1965
+  places: [{ at: chengdu }]
+  summary: 统筹西南三线建设，彭德怀 1965 年 11 月起任第三副主任，1966 年 12 月在成都被红卫兵揪回北京。
+  verify: true
+
+- id: military-mediation
+  name: 北平军事调处执行部
+  short: 军调部
+  aliases: [北平军事调处执行部]
+  kind: state
+  level: central
+  from: 1946-01
+  to: 1947-02
+  places: [{ at: beijing }]
+  summary: 国、共、美三方监督停战的机构，叶剑英任中共方面代表，王光美任中共方面翻译。
+  verify: true
+
+# ── 军队 ────────────────────────────────────────────────
+- id: red-army
+  name: 中国工农红军
+  aliases: [中国工农红军, 红军总政治部, 红军总参谋部]
+  kind: army
+  level: central
+  from: 1928-05
+  to: 1937-08
+  under: [{ org: cmc }]
+  places:
+    - { at: ruijin, from: 1931-11, to: 1934-10 }
+    - { at: yanan, from: 1935-10, to: 1937-08 }
+  summary: 1937 年改编为国民革命军第八路军和新四军。
+  verify: true
+
+- id: red-4th
+  name: 中国工农红军第四军
+  short: 红四军
+  aliases: [红四军]
+  kind: army
+  level: regional
+  from: 1928-04
+  to: 1930-06
+  under: [{ org: red-army }]
+  places: [{ at: jinggangshan, to: 1929-01 }]
+  summary: 朱德、毛泽东井冈山会师后组建，朱德任军长，陈毅任政治部主任。
+  verify: true
+
+- id: red-5th
+  name: 中国工农红军第五军
+  short: 红五军
+  aliases: [红五军]
+  kind: army
+  level: regional
+  from: 1928-07
+  to: 1930-06
+  under: [{ org: red-army }]
+  places: [{ at: pingjiang, to: 1928-12 }]
+  summary: 平江起义后组建，彭德怀任军长；1930 年扩编为红三军团。
+  verify: true
+
+- id: red-7th
+  name: 中国工农红军第七军
+  short: 红七军
+  aliases: [红七军]
+  kind: army
+  level: regional
+  from: 1929-12
+  to: 1933
+  under: [{ org: red-army }]
+  places: [{ at: baise, to: 1930-10 }]
+  summary: 百色起义后组建，邓小平任政治委员。
+  verify: true
+
+- id: red-1st-corps
+  name: 中国工农红军第一军团
+  short: 红一军团
+  aliases: [红一军团]
+  kind: army
+  level: regional
+  from: 1930-08
+  to: 1937-08
+  under: [{ org: red-army }]
+  places: [{ at: ruijin, from: 1931-11, to: 1934-10 }]
+  summary: 林彪任军团长，罗瑞卿任政治保卫局局长。
+  verify: true
+
+- id: red-3rd-corps
+  name: 中国工农红军第三军团
+  short: 红三军团
+  aliases: [红三军团]
+  kind: army
+  level: regional
+  from: 1930-06
+  to: 1937-08
+  under: [{ org: red-army }]
+  places: [{ at: ruijin, from: 1931-11, to: 1934-10 }]
+  links: [{ org: red-5th, kind: merge, date: 1930-06, note: 由红五军扩编, verify: true }]
+  summary: 彭德怀任军团长，杨尚昆任政治委员。
+  verify: true
+
+- id: red-2nd-corps
+  name: 中国工农红军第二军团
+  short: 红二军团
+  aliases: [红二军团, 红三军]
+  kind: army
+  level: regional
+  from: 1930-07
+  to: 1936-07
+  under: [{ org: red-army }]
+  places: [{ at: honghu, to: 1932-10 }, { at: sangzhi, from: 1935-01, to: 1935-11 }]
+  links: [{ org: red-2nd-front, kind: merge, date: 1936-07, verify: true }]
+  summary: 贺龙任总指挥，以湘鄂西洪湖为根据地；1931 年缩编为红三军，1934 年恢复红二军团番号，与红六军团会合后长征。
+  verify: true
+
+- id: red-2nd-front
+  name: 中国工农红军第二方面军
+  short: 红二方面军
+  aliases: [红二方面军]
+  kind: army
+  level: regional
+  from: 1936-07
+  to: 1937-08
+  under: [{ org: red-army }]
+  summary: 由红二、红六军团组成，贺龙任总指挥。
+  verify: true
+
+- id: kangda
+  name: 中国人民抗日军政大学
+  short: 抗大
+  aliases: [抗日军政大学, 红军大学]
+  kind: army
+  level: central
+  from: 1936-06
+  to: 1945
+  under: [{ org: cmc }]
+  places: [{ at: yanan }]
+  summary: 前身为 1936 年的中国人民抗日红军大学，林彪任校长，罗瑞卿任教育长。
+  verify: true
+
+- id: huangpu
+  name: 陆军军官学校（黄埔军校）
+  aliases: [黄埔军校]
+  kind: army
+  level: central
+  from: 1924-06
+  places: [{ at: guangzhou }]
+  summary: 国共合作时期创办，周恩来任政治部主任，叶剑英任教授部副主任。
+  verify: true
+
+- id: eighth-route
+  name: 国民革命军第八路军
+  short: 八路军
+  aliases: [八路军, 八路军总政治部]
+  kind: army
+  level: central
+  from: 1937-08
+  to: 1947
+  under: [{ org: cmc }]
+  places: [{ at: shexian, from: 1939, to: 1945-08 }]
+  links: [{ org: red-army, kind: replace, date: 1937-08, note: 由红军主力改编 }]
+  summary: 后改称第十八集团军，朱德任总司令、彭德怀任副总司令、叶剑英任参谋长。
+  verify: true
+
+- id: div-115
+  name: 八路军一一五师
+  aliases: [八路军一一五师]
+  kind: army
+  level: regional
+  from: 1937-08
+  to: 1945
+  under: [{ org: eighth-route }]
+  places: [{ at: linyi, from: 1939-03, to: 1945-08 }]
+  summary: 林彪任师长，1937 年 9 月平型关战斗。
+  verify: true
+
+- id: div-120
+  name: 八路军一二〇师
+  aliases: [八路军一二〇师]
+  kind: army
+  level: regional
+  from: 1937-08
+  to: 1945
+  under: [{ org: eighth-route }]
+  places: [{ at: xingxian, from: 1938, to: 1945-08 }]
+  summary: 贺龙任师长，开辟晋绥根据地。
+  verify: true
+
+- id: div-129
+  name: 八路军一二九师
+  aliases: [八路军一二九师]
+  kind: army
+  level: regional
+  from: 1937-08
+  to: 1945
+  under: [{ org: eighth-route }]
+  places: [{ at: shexian, from: 1938, to: 1945-08 }]
+  summary: 刘伯承任师长，邓小平任政治委员，开辟晋冀鲁豫根据地。
+  verify: true
+
+- id: new-fourth
+  name: 新四军
+  aliases: [新四军]
+  kind: army
+  level: central
+  from: 1937-10
+  to: 1947-01
+  under: [{ org: cmc }]
+  places: [{ at: yancheng, from: 1941-01, to: 1945-08 }]
+  links: [{ org: red-army, kind: replace, date: 1937-10, note: 由南方八省红军游击队改编 }]
+  summary: 1941 年皖南事变后在盐城重建军部，陈毅任代军长、刘少奇任政治委员。
+  verify: true
+
+- id: pla
+  name: 中国人民解放军
+  aliases: [中国人民解放军]
+  kind: army
+  level: central
+  from: 1947
+  under: [{ org: cmc }]
+  places: [{ at: beijing, from: 1949-03 }]
+  links:
+    - { org: eighth-route, kind: replace, date: 1947 }
+    - { org: new-fourth, kind: replace, date: 1947 }
+  factions: [marshals]
+  summary: 朱德任总司令。1967 年 1 月 23 日中央决定解放军“坚决支持和援助无产阶级革命左派”，此后全面介入地方“三支两军”。
+  cites: [ws-1967-01-23-pla-left]
+  verify: true
+
+- id: field-1
+  name: 第一野战军
+  aliases: [第一野战军, 西北野战军]
+  kind: army
+  level: regional
+  from: 1947-07
+  to: 1950
+  under: [{ org: pla }]
+  places: [{ at: xian, from: 1949-05 }]
+  summary: 前身西北野战军，彭德怀任司令员兼政委。
+  verify: true
+
+- id: field-2
+  name: 第二野战军
+  aliases: [第二野战军]
+  kind: army
+  level: regional
+  from: 1949-02
+  to: 1950
+  under: [{ org: pla }]
+  places:
+    - { at: nanjing, from: 1949-04, to: 1949-11 }
+    - { at: chongqing, from: 1949-11 }
+  summary: 刘伯承任司令员，邓小平任政委。
+  verify: true
+
+- id: field-3
+  name: 第三野战军
+  aliases: [第三野战军, 华东野战军]
+  kind: army
+  level: regional
+  from: 1947-01
+  to: 1950
+  under: [{ org: pla }]
+  places: [{ at: nanjing, from: 1949-04 }]
+  summary: 前身华东野战军，陈毅任司令员兼政委。
+  verify: true
+
+- id: field-4
+  name: 第四野战军
+  aliases: [第四野战军, 东北野战军, 东北民主联军]
+  kind: army
+  level: regional
+  from: 1946-01
+  to: 1950
+  under: [{ org: pla }]
+  places:
+    - { at: harbin, from: 1946-05, to: 1948-11 }
+    - { at: shenyang, from: 1948-11, to: 1949-05 }
+    - { at: wuhan, from: 1949-05 }
+  summary: 前身东北民主联军、东北野战军，林彪任司令员。
+  verify: true
+
+- id: general-staff
+  name: 中国人民解放军总参谋部
+  short: 总参谋部
+  aliases: [总参谋部, 中国人民解放军总参谋部]
+  kind: army
+  level: central
+  from: 1949-10
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  summary: 罗瑞卿（1959–1965）、杨成武（代）、黄永胜（1968–1971）、邓小平（1975）先后任总参谋长。
+  verify: true
+
+- id: general-political
+  name: 中国人民解放军总政治部
+  short: 总政治部
+  aliases: [总政治部]
+  kind: army
+  level: central
+  from: 1949-10
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  summary: 1967 年 1 月刘志坚（副主任）被打倒，萧华 7 月被冲击；1975 年张春桥兼任主任。
+  verify: true
+
+- id: air-force
+  name: 中国人民解放军空军
+  aliases: [中国人民解放军空军]
+  kind: army
+  level: central
+  from: 1949-11
+  under: [{ org: pla }]
+  places: [{ at: beijing }]
+  factions: [lin]
+  summary: 吴法宪 1965 年起任司令员，林立果任作战部副部长。
+  verify: true
+
+- id: pla-cr
+  name: 全军文化革命小组
+  short: 全军文革
+  aliases: [全军文革小组, 全军文化革命小组]
+  kind: army
+  level: central
+  from: 1966-08
+  to: 1967-08
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  summary: 刘志坚任组长；1967 年 1 月改组，徐向前任组长、江青任顾问。
+  verify: true
+
+- id: northwest-mr
+  name: 西北军区
+  aliases: [西北军区]
+  kind: army
+  level: regional
+  from: 1949
+  to: 1955-02
+  under: [{ org: pla }]
+  places: [{ at: xian }]
+  summary: 1955 年改为兰州军区。
+  verify: true
+
+- id: southwest-mr
+  name: 西南军区
+  aliases: [西南军区]
+  kind: army
+  level: regional
+  from: 1949-12
+  to: 1955-04
+  under: [{ org: pla }]
+  places: [{ at: chongqing }]
+  summary: 贺龙任司令员。
+  verify: true
+
+- id: cpv
+  name: 中国人民志愿军
+  aliases: [中国人民志愿军]
+  kind: army
+  level: central
+  from: 1950-10
+  to: 1958-10
+  under: [{ org: cmc }]
+  places: [{ at: hoechang }]
+  summary: 彭德怀任司令员兼政委。
+  verify: true
+
+- id: yunnan-army
+  name: 滇军
+  aliases: [滇军]
+  kind: army
+  level: regional
+  places: [{ at: kunming }]
+  summary: 云南地方军，朱德早年在此任旅长。
+  verify: true
+
+- id: nra-20th
+  name: 国民革命军第二十军
+  aliases: [国民革命军第二十军]
+  kind: army
+  level: regional
+  to: 1927-10
+  places: [{ at: nanchang, from: 1927-07 }]
+  summary: 贺龙任军长，南昌起义主力之一。
+  verify: true
+
+# ── 群团 ────────────────────────────────────────────────
+- id: ccyl
+  name: 中国共产主义青年团中央委员会
+  short: 共青团中央
+  aliases: [共青团中央]
+  kind: mass
+  level: central
+  from: 1922-05
+  suspended: [{ from: 1966-08, to: 1978-10, note: 红卫兵兴起后停止活动，1978 年十大恢复 }]
+  places:
+    - { at: shanghai, to: 1933 }
+    - { at: beijing, from: 1949 }
+  summary: 1957 年前称青年团。陆定一 1920 年代任宣传部长。
+  verify: true
+
+- id: kim
+  name: 青年共产国际
+  aliases: [青年共产国际]
+  kind: mass
+  level: central
+  from: 1919
+  to: 1943
+  places: [{ at: moscow }]
+  summary: 共产国际的青年组织。
+  verify: true
+
+- id: acwf
+  name: 中华全国妇女联合会
+  short: 全国妇联
+  aliases: [中华全国妇女联合会, 全国妇联]
+  kind: mass
+  level: central
+  from: 1949-03
+  suspended: [{ from: 1966, to: 1978-09 }]
+  places: [{ at: beijing }]
+  summary: 彭珮云 1990 年代任主席。
+  verify: true
+
+- id: acftu
+  name: 中华全国总工会
+  short: 全国总工会
+  aliases: [中华全国总工会, 全国总工会]
+  kind: mass
+  level: central
+  from: 1925-05
+  suspended: [{ from: 1966-12, to: 1978-10 }]
+  places: [{ at: beijing, from: 1949 }]
+  summary: 1966 年底各地工会被造反组织冲垮。
+  verify: true
+
+- id: hubei-unions
+  name: 湖北省总工会（1927）
+  aliases: [湖北省总工会]
+  kind: mass
+  level: provincial
+  to: 1927-07
+  places: [{ at: wuhan }]
+  summary: 大革命时期的工会，刘少奇任秘书长。
+  verify: true
+
+- id: cflac
+  name: 中国文学艺术界联合会
+  short: 中国文联
+  aliases: [中国文联]
+  kind: mass
+  level: central
+  from: 1949-07
+  suspended: [{ from: 1966, to: 1978-05 }]
+  places: [{ at: beijing }]
+  summary: 周扬 1979 年起任主席。
+  verify: true
+
+- id: writers
+  name: 中国作家协会
+  aliases: [中国作家协会]
+  kind: mass
+  level: central
+  from: 1949-07
+  suspended: [{ from: 1966, to: 1978-05 }]
+  places: [{ at: beijing }]
+  factions: [academics]
+  summary: 1953 年前称全国文协。老舍任副主席。
+  verify: true
+
+- id: bj-cflac
+  name: 北京市文学艺术界联合会
+  short: 北京市文联
+  aliases: [北京市文联]
+  kind: mass
+  level: provincial
+  from: 1950-05
+  places: [{ at: beijing }]
+  factions: [academics]
+  summary: 老舍任主席。1966 年 8 月 23 日老舍在文联被批斗，次日投太平湖。
+  verify: true
+
+- id: left-league
+  name: 中国左翼作家联盟
+  short: 左联
+  aliases: [左联]
+  kind: mass
+  level: central
+  from: 1930-03
+  to: 1936
+  places: [{ at: shanghai }]
+  summary: 周扬任党团书记。1966 年《部队文艺工作座谈会纪要》称文艺黑线是资产阶级、修正主义文艺思想“和所谓三十年代文艺的结合”，左联出身的周扬等人首当其冲。
+  cites: [ws-1966-03-army-arts]
+  verify: true
+
+- id: democratic-league
+  name: 中国民主同盟
+  short: 民盟
+  aliases: [中国民主同盟]
+  kind: mass
+  level: central
+  from: 1941-03
+  places: [{ at: beijing, from: 1949 }]
+  summary: 民主党派。吴晗任中央副主席。
+  verify: true
+
+# ── 群众组织（1966–1968） ────────────────────────────────
+- id: qhfz-rg
+  name: 清华大学附属中学红卫兵
+  short: 清华附中红卫兵
+  kind: popular
+  level: basic
+  from: 1966-05-29
+  under: [{ org: qinghua }]
+  places: [{ at: beijing }]
+  factions: [oldrg]
+  summary: 1966 年 5 月 29 日秘密成立，最早以“红卫兵”为名；6–7 月贴出《无产阶级的革命造反精神万岁》三论，8 月 1 日毛泽东复信支持。
+  cites: [ws-1966-06-qhfz-rebel-1, ws-1966-07-qhfz-rebel-2]
+  verify: true
+
+- id: xicheng
+  name: 首都红卫兵纠察队西城分队
+  short: 西纠
+  kind: popular
+  level: basic
+  from: 1966-08-25
+  to: 1966-12
+  places: [{ at: beijing }]
+  factions: [oldrg]
+  summary: 以干部子弟为主，成立宣言自称有权“扣押假红卫兵和流氓”。后发《一定要坚持文斗》等通令。
+  cites: [ws-1966-08-xicheng-founding, ws-1966-08-xicheng-4]
+
+- id: liandong
+  name: 首都红卫兵联合行动委员会
+  short: 联动
+  kind: popular
+  level: basic
+  from: 1966-12-05
+  to: 1967-01
+  places: [{ at: beijing }]
+  links: [{ org: ccrg, kind: oppose, date: 1966-12, note: 矛头指向中央文革，1967 年初被定为反动组织, verify: true }]
+  factions: [oldrg]
+  summary: 1966 年 12 月 5 日发表宣言。1967 年 2 月《红旗》社论把“联合行动委员会”列为反革命组织。
+  cites: [ws-1966-12-liandong, ws-1967-02-seize-power]
+
+- id: sansi
+  name: 首都大专院校红卫兵革命造反司令部（第三司令部）
+  short: 首都三司
+  kind: popular
+  level: basic
+  from: 1966-09-06
+  to: 1967-02-22
+  places: [{ at: beijing }]
+  links: [{ org: hongdaihui, kind: merge, date: 1967-02-22, verify: true }]
+  factions: [rebels]
+  summary: 北京高校造反派的联合组织，与中央文革关系密切，蒯大富的井冈山是主力之一。
+  verify: true
+
+- id: hongdaihui
+  name: 首都大专院校红卫兵代表大会
+  short: 红代会
+  aliases: [首都大专院校红卫兵代表大会]
+  kind: popular
+  level: basic
+  from: 1967-02-22
+  to: 1968-12
+  places: [{ at: beijing }]
+  factions: [rebels]
+  summary: 合并一司、二司、三司而成，聂元梓任核心组组长，蒯大富任副组长。
+  cites: [ws-1982-12-kuai-dafu-case]
+  verify: true
+
+- id: jinggangshan
+  name: 清华大学井冈山兵团
+  aliases: [清华大学井冈山兵团]
+  kind: popular
+  level: basic
+  from: 1966-12-19
+  to: 1968-07
+  under: [{ org: qinghua }, { org: hongdaihui, from: 1967-02-22 }]
+  places: [{ at: beijing }]
+  factions: [rebels]
+  summary: 蒯大富任总负责人。1967 年分裂为“团派”和“四一四”，1968 年春夏武斗不断。
+  cites: [ws-1982-12-kuai-dafu-case]
+  verify: true
+
+- id: workers-team
+  name: 首都工人毛泽东思想宣传队
+  short: 工宣队
+  kind: popular
+  level: basic
+  from: 1968-07-27
+  places: [{ at: beijing }]
+  links:
+    - { org: qinghua, kind: takeover, date: 1968-07-27, note: 进驻清华大学制止武斗，此后长期领导学校, verify: true }
+    - { org: jinggangshan, kind: oppose, date: 1968-07-27, note: 井冈山兵团武力抵抗，工人死伤, verify: true }
+  summary: 1968 年 7 月 27 日进驻清华大学，标志红卫兵运动结束，此后工宣队、军宣队进驻各校。
+  verify: true
+
+- id: wgs
+  name: 上海工人革命造反总司令部
+  short: 工总司
+  aliases: [上海工人革命造反总司令部]
+  kind: popular
+  level: basic
+  from: 1966-11-09
+  places: [{ at: shanghai }]
+  links:
+    - { org: chiweidui, kind: oppose, date: 1966-12-30, note: 康平路事件，攻打“工人赤卫队”，“伤残九十一人”, cite: ws-1980-indictment }
+    - { org: sh-committee, kind: takeover, date: 1967-01, note: 《紧急通告》“责令市委、公安局照此执行”, cite: ws-1967-01-shanghai-urgent }
+  factions: [rebels]
+  summary: 1966 年 11 月 9 日成立，王洪文任司令。1967 年 1 月中共中央等四机构致电上海工总司等三十二个组织，肯定其《紧急通告》“好得很”。
+  cites: [ws-1966-11-shanghai-wgs, ws-1967-01-11-cc-telegram]
+
+- id: chiweidui
+  name: 捍卫毛泽东思想工人赤卫队上海总部
+  short: 工人赤卫队
+  kind: popular
+  level: basic
+  from: 1966-12
+  to: 1966-12-30
+  places: [{ at: shanghai }]
+  factions: [shanghai]
+  summary: 以老工人、党团员为主，支持上海市委；1966 年 12 月 30 日康平路事件后瓦解。1982 年起诉书称其“为保卫党、保卫社会主义秩序”进行了斗争。
+  cites: [ws-1980-indictment, ws-1982-xu-jingxian-case]
+  verify: true
+
+- id: pku-crc
+  name: 北京大学文化革命委员会
+  aliases: [北京大学文化革命委员会]
+  kind: popular
+  level: basic
+  from: 1966-09
+  to: 1969-09
+  under: [{ org: pku }]
+  places: [{ at: beijing }]
+  factions: [rebels]
+  summary: 工作组撤出后由全校选举产生，聂元梓任主任。
+  cites: [ws-1982-10-05-nie-yuanzi-case]
+  verify: true
+
+- id: pku-workteam
+  name: 北京大学工作组
+  aliases: [北京大学工作组]
+  kind: party
+  level: basic
+  from: 1966-06-03
+  to: 1966-07-28
+  under: [{ org: bj-committee }]
+  places: [{ at: beijing }]
+  links:
+    - { org: pku, kind: takeover, date: 1966-06-03, note: “在北京大学党委改组期间，由工作组代行党委的职权”, cite: rmrb-1966-06-04-pku-committee }
+  factions: [workteams]
+  summary: 张承先任组长。7 月 28 日北京市委决定撤销各大专学校的工作组。
+  cites: [rmrb-1966-06-04-pku-committee, ws-1966-07-withdraw-workteams]
+
+- id: qinghua-workteam
+  name: 清华大学工作组
+  aliases: [清华大学工作组]
+  kind: party
+  level: basic
+  from: 1966-06-09
+  to: 1966-07-28
+  under: [{ org: bj-committee }]
+  places: [{ at: beijing }]
+  links: [{ org: qinghua, kind: takeover, date: 1966-06-09, verify: true }]
+  factions: [workteams]
+  summary: 叶林任组长，王光美任顾问。1967 年清华井冈山的调查称其“打击一大片，保护一小撮”。
+  cites: [ws-1966-qinghua-workteam-survey, ws-1966-07-withdraw-workteams]
+  verify: true
+
+# ── 单位 ────────────────────────────────────────────────
+- id: pku
+  name: 北京大学
+  aliases: [北京大学]
+  kind: unit
+  level: basic
+  from: 1898
+  places: [{ at: beijing }]
+  summary: 1966 年 5 月 25 日聂元梓等贴出大字报，6 月 1 日经毛泽东批示全国广播。陆平任校长兼党委第一书记。
+  cites: [ws-1966-05-25-nie-dazibao, rmrb-1966-06-04-pku-committee]
+
+- id: qinghua
+  name: 清华大学
+  aliases: [清华大学]
+  kind: unit
+  level: basic
+  from: 1911
+  places: [{ at: beijing }]
+  summary: 校长蒋南翔。文革中先后经历工作组、井冈山兵团、工宣队。
+  verify: true
+
+- id: bnu-girls
+  name: 北京师范大学附属女子中学
+  short: 北师大女附中
+  aliases: [北京师范大学附属女子中学]
+  kind: unit
+  level: basic
+  places: [{ at: beijing }]
+  summary: 1966 年 8 月 5 日副校长卞仲耘被学生殴打致死，是北京第一位被打死的教育工作者。
+  verify: true
+
+- id: lianda
+  name: 国立西南联合大学
+  aliases: [西南联合大学]
+  kind: unit
+  level: basic
+  from: 1938-04
+  to: 1946-07
+  places: [{ at: kunming }]
+  summary: 抗战期间北大、清华、南开在昆明合办，吴晗曾任教授。
+  verify: true
+
+- id: luyi
+  name: 鲁迅艺术学院
+  short: 鲁艺
+  aliases: [鲁迅艺术学院]
+  kind: unit
+  level: basic
+  from: 1938-04
+  to: 1945
+  places: [{ at: yanan }]
+  summary: 延安的文艺院校，周扬任副院长、院长。
+  verify: true
+
+- id: jiefang-shanghai
+  name: 《解放日报》（上海）
+  aliases: [解放日报社, 解放日报]
+  kind: unit
+  level: provincial
+  from: 1949-05
+  under: [{ org: sh-committee }]
+  places: [{ at: shanghai }]
+  summary: 中共上海市委机关报，张春桥曾任社长，姚文元任编委。1966 年 11 月底造反派围困报社，史称“解放日报事件”。
+  cites: [ws-1982-xu-jingxian-case]
+  verify: true
+
+- id: jcj-daily
+  name: 《晋察冀日报》
+  aliases: [晋察冀日报社]
+  kind: unit
+  level: regional
+  from: 1937-12
+  to: 1948-06
+  under: [{ org: jcj-bureau }]
+  places: [{ at: fuping }]
+  summary: 前身《抗敌报》，邓拓任社长兼总编辑，1944 年主持编印第一部《毛泽东选集》。
+  verify: true
+
+- id: jiuwang-daily
+  name: 《救亡日报》
+  aliases: [救亡日报]
+  kind: unit
+  level: basic
+  from: 1937-08
+  to: 1941-02
+  places: [{ at: shanghai, to: 1937-11 }]
+  summary: 抗战初期在上海创办，后迁广州、桂林，廖沫沙任编辑。
+  verify: true
+
+- id: cotton-17
+  name: 上海国棉十七厂
+  aliases: [上海国棉十七厂]
+  kind: unit
+  level: basic
+  places: [{ at: shanghai }]
+  summary: 王洪文任保卫科干事，1966 年 6 月在厂内贴出大字报。
+  verify: true
+
+- id: plant-304
+  name: 宁夏三〇四厂
+  aliases: [宁夏三〇四厂]
+  kind: unit
+  level: basic
+  places: [{ at: yinchuan }]
+  summary: 蒯大富 1968 年 12 月分配至此做工人（地点按宁夏首府近似标注）。
+  cites: [ws-1982-12-kuai-dafu-case]
+  verify: true
+
+- id: bj-machine
+  name: 北京人民机器厂
+  aliases: [北京人民机器厂]
+  kind: unit
+  level: basic
+  places: [{ at: beijing }]
+  summary: 遇罗克 1965 年起在此当学徒工。
+  verify: true

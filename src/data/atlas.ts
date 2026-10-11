@@ -1,5 +1,10 @@
 import { toT } from '../lib/dates'
-import type { Atlas, Event, Faction, Person, Relation, Status } from './schema'
+import type { Atlas, Event, Faction, Org, Person, Place, Relation, Status } from './schema'
+
+export type Position = Person['positions'][number]
+export type Tenure = { person: Person; pos: Position }
+export type OrgEdge = { org: Org; from?: string; to?: string }
+export type OrgLinkIn = { org: Org; link: Org['links'][number] }
 
 export type EntityType = 'person' | 'event' | 'concept' | 'doc' | 'faction' | 'claim'
 // sub narrows a selection, e.g. a concept within one source document
@@ -13,10 +18,18 @@ export type Index = Atlas & {
   doc: Map<string, Atlas['documents'][number]>
   source: Map<string, Atlas['sources'][number]>
   claim: Map<string, Atlas['claims'][number]>
+  org: Map<string, Org>
+  place: Map<string, Place>
   eventsByPerson: Map<string, Event[]>
   relationsByPerson: Map<string, Relation[]>
+  tenuresByOrg: Map<string, Tenure[]>
+  childrenOf: Map<string, OrgEdge[]>
+  linksInto: Map<string, OrgLinkIn[]>
+  orgsByFaction: Map<string, Org[]>
   primaryFaction: (p: Person) => Faction | undefined
 }
+
+const push = <K, V>(m: Map<K, V[]>, k: K, v: V) => m.set(k, [...(m.get(k) ?? []), v])
 
 export async function loadAtlas(): Promise<Index> {
   const res = await fetch(`${import.meta.env.BASE_URL}data/atlas.json`)
@@ -29,6 +42,17 @@ export async function loadAtlas(): Promise<Index> {
   const relationsByPerson = new Map<string, Relation[]>()
   for (const r of atlas.relations)
     for (const p of [r.a, r.b]) relationsByPerson.set(p, [...(relationsByPerson.get(p) ?? []), r])
+  const org = by(atlas.orgs)
+  const tenuresByOrg = new Map<string, Tenure[]>()
+  for (const person of atlas.people) for (const pos of person.positions) if (pos.org) push(tenuresByOrg, pos.org, { person, pos })
+  const childrenOf = new Map<string, OrgEdge[]>()
+  const linksInto = new Map<string, OrgLinkIn[]>()
+  const orgsByFaction = new Map<string, Org[]>()
+  for (const o of atlas.orgs) {
+    for (const u of o.under) push(childrenOf, u.org, { org: o, from: u.from, to: u.to })
+    for (const link of o.links) push(linksInto, link.org, { org: o, link })
+    for (const f of o.factions) push(orgsByFaction, f, o)
+  }
   return {
     ...atlas,
     person: by(atlas.people),
@@ -38,8 +62,14 @@ export async function loadAtlas(): Promise<Index> {
     doc: by(atlas.documents),
     source: by(atlas.sources),
     claim: by(atlas.claims),
+    org,
+    place: by(atlas.places),
     eventsByPerson,
     relationsByPerson,
+    tenuresByOrg,
+    childrenOf,
+    linksInto,
+    orgsByFaction,
     primaryFaction: (p) => faction.get(p.factions[0]),
   }
 }

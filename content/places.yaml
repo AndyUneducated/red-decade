@@ -1,0 +1,96 @@
+# Places for the footprint map and org locations.
+# Coordinates are approximate county-seat or city-centre values (about 0.1°), from general gazetteer knowledge.
+# names: substrings matched against people.yaml birthplace / deathPlace (parenthesised notes are ignored;
+# the longest match wins, ties go to the later, more specific one). far: listed but outside the map.
+
+# ── cities and seats of central bodies ──
+- { id: beijing, name: 北京, names: [北京, 北平], lat: 39.90, lon: 116.40 }
+- { id: shanghai, name: 上海, names: [上海], lat: 31.23, lon: 121.47 }
+- { id: tianjin, name: 天津, names: [天津], lat: 39.13, lon: 117.20 }
+- { id: chongqing, name: 重庆, names: [重庆], lat: 29.56, lon: 106.55 }
+- { id: wuhan, name: 武汉, names: [武汉, 汉口, 武昌], lat: 30.59, lon: 114.30 }
+- { id: guangzhou, name: 广州, names: [广州, 黄埔], lat: 23.13, lon: 113.26 }
+- { id: nanjing, name: 南京, names: [南京], lat: 32.06, lon: 118.80 }
+- { id: shenyang, name: 沈阳, names: [沈阳, 奉天], lat: 41.80, lon: 123.43 }
+- { id: harbin, name: 哈尔滨, names: [哈尔滨], lat: 45.80, lon: 126.53 }
+- { id: xian, name: 西安, names: [西安], lat: 34.27, lon: 108.95 }
+- { id: chengdu, name: 成都, names: [成都], lat: 30.66, lon: 104.07 }
+- { id: kunming, name: 昆明, names: [昆明], lat: 25.04, lon: 102.71 }
+- { id: nanchang, name: 南昌, names: [南昌], lat: 28.68, lon: 115.86 }
+- { id: changsha, name: 长沙, names: [长沙], lat: 28.23, lon: 112.94 }
+- { id: hefei, name: 合肥, names: [合肥], lat: 31.82, lon: 117.23 }
+- { id: jinan, name: 济南, names: [济南], lat: 36.65, lon: 117.12 }
+- { id: kaifeng, name: 开封, names: [开封], lat: 34.80, lon: 114.31 }
+- { id: xuzhou, name: 徐州, names: [徐州], lat: 34.26, lon: 117.18 }
+- { id: baoding, name: 保定, names: [保定], lat: 38.87, lon: 115.46 }
+- { id: shijiazhuang, name: 石家庄, names: [石家庄], lat: 38.04, lon: 114.51 }
+- { id: xiamen, name: 厦门, names: [厦门], lat: 24.48, lon: 118.09 }
+- { id: fuzhou, name: 福州, names: [福州], lat: 26.07, lon: 119.30 }
+- { id: changchun, name: 长春, names: [长春], lat: 43.88, lon: 125.32 }
+- { id: yinchuan, name: 银川, names: [银川, 宁夏], lat: 38.49, lon: 106.23 }
+- { id: suzhou, name: 苏州, names: [苏州], lat: 31.30, lon: 120.62 }
+- { id: wuxi, name: 无锡, names: [无锡], lat: 31.57, lon: 120.30 }
+- { id: nanchang-xinjian, name: 南昌新建, names: [新建], lat: 28.69, lon: 115.82 }
+
+# ── revolutionary bases ──
+- { id: yanan, name: 延安, names: [延安, 保安, 瓦窑堡], lat: 36.60, lon: 109.49 }
+- { id: ruijin, name: 瑞金, names: [瑞金], lat: 25.89, lon: 116.03 }
+- { id: jinggangshan, name: 井冈山, names: [井冈山], lat: 26.57, lon: 114.17 }
+- { id: shexian, name: 涉县（太行）, names: [涉县, 太行, 麻田], lat: 36.57, lon: 113.67 }
+- { id: fuping, name: 阜平（晋察冀）, names: [阜平, 晋察冀], lat: 38.85, lon: 114.20 }
+- { id: xingxian, name: 兴县（晋绥）, names: [兴县, 晋绥], lat: 38.46, lon: 111.12 }
+- { id: linyi, name: 临沂（山东根据地）, names: [临沂, 沂蒙], lat: 35.10, lon: 118.35 }
+- { id: yancheng, name: 盐城, names: [盐城], lat: 33.35, lon: 120.16 }
+- { id: nangong, name: 南宫（冀南）, names: [南宫, 冀南], lat: 37.36, lon: 115.39 }
+- { id: queshan, name: 确山竹沟, names: [确山, 竹沟], lat: 32.80, lon: 114.03 }
+- { id: dayu, name: 大余（赣粤边）, names: [大余, 油山], lat: 25.40, lon: 114.36 }
+- { id: honghu, name: 洪湖（湘鄂西）, names: [洪湖, 湘鄂西], lat: 29.81, lon: 113.47 }
+- { id: baise, name: 百色, names: [百色], lat: 23.90, lon: 106.62 }
+
+# ── birthplaces (county seats) ──
+- { id: shaoshan, name: 湘潭韶山, names: [韶山], lat: 27.92, lon: 112.53 }
+- { id: xiangtan, name: 湘潭, names: [湘潭], lat: 27.83, lon: 112.94 }
+- { id: ningxiang, name: 宁乡, names: [宁乡], lat: 28.25, lon: 112.55 }
+- { id: huaian, name: 淮安, names: [淮安], lat: 33.50, lon: 119.15 }
+- { id: huanggang, name: 黄冈, names: [黄冈], lat: 30.45, lon: 114.87 }
+- { id: guangan, name: 广安, names: [广安], lat: 30.47, lon: 106.63 }
+- { id: huian, name: 惠安, names: [惠安], lat: 25.03, lon: 118.80 }
+- { id: jiaoxian, name: 胶县, names: [胶县, 胶州], lat: 36.28, lon: 120.03 }
+- { id: zhucheng, name: 诸城, names: [诸城], lat: 35.99, lon: 119.41 }
+- { id: juye, name: 巨野, names: [巨野], lat: 35.40, lon: 116.09 }
+- { id: zhuji, name: 诸暨, names: [诸暨], lat: 29.71, lon: 120.24 }
+- { id: qingyun, name: 庆云, names: [庆云], lat: 37.78, lon: 117.39 }
+- { id: weihai, name: 威海, names: [威海], lat: 37.51, lon: 122.12 }
+- { id: jingxian, name: 景县, names: [景县], lat: 37.69, lon: 116.27 }
+- { id: pingjiang, name: 平江, names: [平江], lat: 28.70, lon: 113.58 }
+- { id: qiyang, name: 祁阳, names: [祁阳], lat: 26.58, lon: 111.84 }
+- { id: quwo, name: 曲沃, names: [曲沃], lat: 35.64, lon: 111.48 }
+- { id: nanchong, name: 南充, names: [南充], lat: 30.84, lon: 106.11 }
+- { id: tongnan, name: 潼南, names: [潼南], lat: 30.19, lon: 105.84 }
+- { id: sangzhi, name: 桑植, names: [桑植], lat: 29.40, lon: 110.16 }
+- { id: yilong, name: 仪陇, names: [仪陇], lat: 31.27, lon: 106.30 }
+- { id: lezhi, name: 乐至, names: [乐至], lat: 30.28, lon: 105.03 }
+- { id: meixian, name: 梅县, names: [梅县], lat: 24.29, lon: 116.12 }
+- { id: yiwu, name: 义乌, names: [义乌], lat: 29.31, lon: 120.07 }
+- { id: minhou, name: 闽侯, names: [闽侯], lat: 26.15, lon: 119.13 }
+- { id: youyang, name: 酉阳, names: [酉阳], lat: 28.84, lon: 108.77 }
+- { id: liangcheng, name: 凉城, names: [凉城], lat: 40.53, lon: 112.50 }
+- { id: yongji, name: 永济, names: [永济], lat: 34.87, lon: 110.45 }
+- { id: yiyang, name: 益阳, names: [益阳], lat: 28.55, lon: 112.36 }
+- { id: xinhui, name: 新会, names: [新会], lat: 22.52, lon: 113.03 }
+- { id: wuping, name: 武平, names: [武平], lat: 25.10, lon: 116.10 }
+- { id: huaxian, name: 滑县, names: [滑县], lat: 35.58, lon: 114.52 }
+- { id: liuyang, name: 浏阳, names: [浏阳], lat: 28.16, lon: 113.64 }
+- { id: binhai, name: 滨海, names: [滨海], lat: 34.00, lon: 119.83 }
+- { id: ziyang, name: 资阳, names: [资阳], lat: 30.13, lon: 104.63 }
+- { id: shangyou, name: 上犹, names: [上犹], lat: 25.79, lon: 114.55 }
+- { id: yongfeng, name: 永丰, names: [永丰], lat: 27.32, lon: 115.42 }
+- { id: hongan, name: 黄安（今红安）, names: [黄安, 红安], lat: 31.29, lon: 114.62 }
+- { id: taoyuan, name: 桃源, names: [桃源], lat: 28.90, lon: 111.48 }
+- { id: wuwei, name: 无为, names: [无为], lat: 31.30, lon: 117.90 }
+
+# ── outside China ──
+- { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
+- { id: hoechang, name: 朝鲜桧仓（志愿军总部）, names: [桧仓], lat: 39.37, lon: 126.33 }
+- { id: moscow, name: 莫斯科, names: [莫斯科], lat: 55.75, lon: 37.62, far: true }
+- { id: heidelberg, name: 联邦德国海德堡, names: [海德堡], lat: 49.40, lon: 8.67, far: true }
