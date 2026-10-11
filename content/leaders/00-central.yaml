@@ -64,7 +64,7 @@ cmc:
 
 cmc-office:
   - { name: 吴法宪, title: 组长, from: 1967-08, to: 1968-03 }
-  - { name: 黄永胜, title: 组长, from: 1968-03, to: 1971-09-13 }
+  - { name: 黄永胜, title: 组长, from: 1968-03, to: 1971-09-13, faction: lin }
 
 lin-office:
   - { name: 叶群, title: 主任, to: 1971-09-13 }
@@ -151,7 +151,7 @@ peoples-daily:
   - { name: 吴冷西, title: 总编辑（1958 年起兼社长）, from: 1957-06, to: 1966-05 }
   - { name: 陈伯达, title: 工作组组长（接管报社）, from: 1966-05-31, to: 1966-08 }
   - { name: 唐平铸, title: 代理总编辑, from: 1966-07, to: 1967-01 }
-  - { name: 鲁瑛, title: 报社领导小组负责人, from: 1972, to: 1976-10 }
+  - { name: 鲁瑛, title: 报社领导小组负责人, from: 1972, to: 1976-10, faction: ccrg }
   - { name: 胡绩伟, title: 总编辑（1982 年起任社长）, from: 1977, to: 1983 }
   - { name: 秦川, title: 总编辑、社长, from: 1982, to: 1985 }
   - { name: 钱李仁, title: 社长, from: 1985, to: 1989-07 }
@@ -413,7 +413,7 @@ culture-ministry:
   - { name: 沈雁冰, title: 部长, from: 1949-10, to: 1965-01, note: 笔名茅盾 }
   - { name: 陆定一, title: 部长（兼）, from: 1965-01, to: 1966-05 }
   - { name: 萧望东, title: 代部长, from: 1966, to: 1967 }
-  - { name: 于会泳, title: 部长, from: 1975-01, to: 1976-10 }
+  - { name: 于会泳, title: 部长, from: 1975-01, to: 1976-10, faction: ccrg }
   - { name: 黄镇, title: 部长, from: 1977-12, to: 1981-03 }
   - { name: 周巍峙, title: 代部长, from: 1981-03, to: 1982-05 }
   - { name: 朱穆之, title: 部长, from: 1982-05, to: 1986-06 }
@@ -610,7 +610,7 @@ general-staff:
   - { name: 黄克诚, title: 总参谋长, from: 1958-10, to: 1959-09 }
   - { name: 罗瑞卿, title: 总参谋长, from: 1959-09, to: 1965-12 }
   - { name: 杨成武, title: 代总参谋长, from: 1966-08, to: 1968-03 }
-  - { name: 黄永胜, title: 总参谋长, from: 1968-03, to: 1971-09-13 }
+  - { name: 黄永胜, title: 总参谋长, from: 1968-03, to: 1971-09-13, faction: lin }
   - { name: 邓小平, title: 总参谋长, from: 1975-01, to: 1976-04-07 }
   - { name: 邓小平, title: 总参谋长, from: 1977-07, to: 1980-02 }
   - { name: 杨得志, title: 总参谋长, from: 1980-02, to: 1987-11 }

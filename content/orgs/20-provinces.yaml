@@ -659,7 +659,7 @@
   leaders:
     - { name: 陈正人, title: 书记, from: 1949-06, to: 1953 }
     - { name: 杨尚奎, title: 书记、第一书记, from: 1953, to: 1967 }
-    - { name: 程世清, title: 第一书记, from: 1971, to: 1972 }
+    - { name: 程世清, title: 第一书记, from: 1971, to: 1972, faction: lin }
     - { name: 江渭清, title: 第一书记, from: 1974, to: 1979 }
     - { name: 白栋材, title: 第一书记、书记, from: 1979, to: 1985 }
     - { name: 万绍芬, title: 书记, from: 1985, to: 1988 }
@@ -677,7 +677,7 @@
   summary: 1968 年 1 月 5 日成立，福州军区副政委程世清任主任；九一三事件后程世清以追随林彪受审查。
   verify: true
   leaders:
-    - { name: 程世清, title: 主任, from: 1968-01-05, to: 1972 }
+    - { name: 程世清, title: 主任, from: 1968-01-05, to: 1972, faction: lin }
     - { name: 江渭清, title: 主任, from: 1974, to: 1979-12 }
 
 # ── 中南 ──

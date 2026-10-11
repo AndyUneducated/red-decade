@@ -120,6 +120,8 @@ export const LeaderSchema = z.object({
   person: z.string().optional(),
   title: z.string(),
   ...Span,
+  // faction during this tenure, for heads not in people.yaml (those in it use their memberships)
+  faction: z.string().optional(),
   note: z.string().optional(),
   cite: Cite.optional(),
 })

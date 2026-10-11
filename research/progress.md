@@ -79,7 +79,7 @@
 |---|---|
 | 抽屉交互与“抽屉 / 全屏”界限 | ✔ 见下方“抽屉与全屏的界限”；`.probe/drawer-test.mjs` 自动检查开关行为 |
 | MP-3 收尾（日志） | ✔ `log/2026-10-11-mp3.md` |
-| 机构扩充与完整负责人名单 | |
+| 机构扩充与完整负责人名单 | ✔ 140 → 292 个机构，1038 条负责人任职（265 个机构有名单，187 条链接到本站人物）。机构拆成 `content/orgs/*.yaml`（中央、党务、省级、军队、国家机构、群团与单位），既有机构的名单在 `content/leaders/00-central.yaml`。机构页新增“历任负责人”：一条接任色带（重叠的是名义负责人与主持日常工作者）+ 逐人色带，本站未收录的人灰色无链接；目录右栏改为此刻负责人。名单全部据通行史实整理、没有出处，均属待核 |
 | 派系掌控机构的可视化 | |
 | 思想谱系扩充 | |
 | MP-4 照片 | |
@@ -111,6 +111,7 @@
   - 命运节点可加 `place`（地点 id），用于足迹地图上的关押、下放地点。
 
 **机构字段（MP-3 起，`OrgSchema`）：** `kind`（party|state|army|mass|popular|unit）、`level`（central|regional|provincial|basic）、`from`/`to`、`suspended`（名义存在但停止运转的时段）、`places`（驻地随时间）、`under`（上级，随时间）、`links`（本机构 → 对方：lead 领导、found 设立、oppose 对立、merge 并入、takeover 夺权接管、replace 取代）、`factions`、`summary`、`cites`。没有出处的必须标 `verify`。摘要里加引号的字句必须能在所引原文里找到。
+  - 负责人名单 `leaders: [{name, title, from, to, person?, faction?, note?, cite?}]`，可以写在机构条目里，也可以写在 `content/leaders/*.yaml`（机构 id → 名单），构建时合并并按起始时间排序。`person` 不用填，构建时按姓名匹配本站人物；`faction` 只给本站未收录、但属于某派系的负责人填（如黄永胜、邱会作、李作鹏、程世清标 `lin`，于会泳、迟群、刘湘屏、鲁瑛标 `ccrg`），供派系掌控图使用。没有 `cite` 的条目一律视为待核。构建检查：任期不早于机构成立、不晚于撤销，人物和派系 id 存在。
   - `sys`（party|gov|army|other）只在职务时间带分错道时填，默认由 `systemOf()` 按机构名和头衔第一项推断。目前只有叶群“林彪办公室主任”填了 `army`。
 - 结局：`deathKind`（natural|suicide|persecuted|executed|killed|accident|war|unknown）、`deathPlace`、`deathContested`；`rehab: [{date, text, cite}]`；`afterlife: [{date, text, cite}]`。
 - 外部标识：`ids: {wikidata, cbdb}`。

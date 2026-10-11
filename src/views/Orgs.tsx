@@ -412,15 +412,26 @@ function TenureBands({ list, x, width, end, from }: { list: Band[]; x: ScaleLine
 function Succession({ list, x, width }: { list: Band[]; x: ScaleLinear<number, number>; width: number }) {
   const { ix, t, select } = useApp()
   const [lo, hi] = x.domain()
-  const lanes: number[] = []
+  // a lane is free once its last head has left; year-only dates (“1965–” after “–1965”) count as a
+  // hand-over, not an overlap, and the earlier bar is clipped at the later one's start
+  const lanes: { end: number; loose: boolean; item?: { b: number } }[] = []
   const placed = list.map((r, i) => {
     const a = r.from ? toT(r.from) : lo
     const next = list.slice(i + 1).find((n) => n.from && toT(n.from) > a)
     const b = r.to ? toT(r.to, true) : r.person?.died ? Math.min(hi, toT(r.person.died, true), next?.from ? toT(next.from) : hi) : next?.from ? toT(next.from) : hi
-    let lane = lanes.findIndex((end) => end <= a + 0.01)
-    if (lane < 0) lane = lanes.push(b) - 1
-    else lanes[lane] = b
-    return { r, a, b, lane }
+    const loose = !!r.to && r.to.length === 4
+    const fromLoose = !!r.from && r.from.length === 4
+    let lane = lanes.findIndex((l) => l.end <= a + (fromLoose || l.loose ? 1 : 0.01))
+    const item = { r, a, b, lane: 0 }
+    if (lane < 0) lane = lanes.push({ end: b, loose }) - 1
+    else {
+      if (lanes[lane].item && lanes[lane].item!.b > a) lanes[lane].item!.b = a
+      lanes[lane].end = b
+      lanes[lane].loose = loose
+    }
+    lanes[lane].item = item
+    item.lane = lane
+    return item
   })
   const H = 22
   return (

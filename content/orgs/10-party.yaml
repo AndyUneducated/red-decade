@@ -1,0 +1,330 @@
+# Central party bodies not in 00-central.yaml: departments, regional bureaus of the war years and of
+# 1961–1967, leading groups. From general reference, verify.
+
+- id: ccc
+  name: 中共中央监察委员会
+  short: 中央监委
+  aliases: [中共中央监察委员会, 中央监察委员会, 中央监委]
+  kind: party
+  level: central
+  from: 1955-03
+  to: 1969-04
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 1955 年由中央纪律检查委员会改设，九大党章取消监察机关。
+  verify: true
+  leaders:
+    - { name: 董必武, title: 书记, from: 1955-03, to: 1966 }
+
+- id: cdi
+  name: 中共中央纪律检查委员会
+  short: 中央纪委
+  aliases: [中共中央纪律检查委员会, 中央纪律检查委员会, 中央纪委]
+  kind: party
+  level: central
+  from: 1978-12
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 十一届三中全会选举产生，首要任务之一是复查历史冤假错案，1980 年主持刘少奇平反的复查。
+  verify: true
+  leaders:
+    - { name: 陈云, title: 第一书记, from: 1978-12, to: 1987-11 }
+    - { name: 乔石, title: 书记, from: 1987-11 }
+
+- id: united-front
+  name: 中共中央统一战线工作部
+  short: 中央统战部
+  aliases: [中共中央统一战线工作部, 中央统战部, 统战部]
+  kind: party
+  level: central
+  from: 1948-09
+  under: [{ org: cc }]
+  suspended: [{ from: 1966-08, to: 1972, note: 文革中被指为“投降主义”而瘫痪 }]
+  places: [{ at: beijing }]
+  summary: 李维汉 1964 年被指为“投降主义”撤职。文革中部机关瘫痪，1970 年代后恢复。
+  verify: true
+  leaders:
+    - { name: 李维汉, title: 部长, from: 1948-09, to: 1964-12 }
+    - { name: 徐冰, title: 部长, from: 1964-12, to: 1966-08 }
+    - { name: 乌兰夫, title: 部长, from: 1977-05, to: 1982-04 }
+    - { name: 杨静仁, title: 部长, from: 1982-04, to: 1985-11 }
+    - { name: 阎明复, title: 部长, from: 1985-11 }
+
+- id: investigation
+  name: 中共中央调查部
+  short: 中央调查部
+  aliases: [中共中央调查部, 中央调查部]
+  kind: party
+  level: central
+  from: 1955-07
+  to: 1983-07
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 党的情报机关，康生长期分管；1983 年与公安部部分机构合并为国家安全部。
+  verify: true
+  leaders:
+    - { name: 李克农, title: 部长, from: 1955-07, to: 1962-02-09 }
+    - { name: 孔原, title: 部长, from: 1962, to: 1967 }
+    - { name: 罗青长, title: 部长, from: 1973, to: 1983-07 }
+
+- id: party-school
+  name: 中共中央党校
+  short: 中央党校
+  aliases: [中共中央党校, 中央党校, 中共中央高级党校, 中央高级党校, 马列学院]
+  kind: party
+  level: central
+  from: 1933-03
+  under: [{ org: cc }]
+  suspended: [{ from: 1966-06, to: 1977-03, note: 文革中停办，1977 年 3 月复校 }]
+  places:
+    - { at: ruijin, from: 1933-03, to: 1934-10 }
+    - { at: yanan, from: 1935-11, to: 1947-03 }
+    - { at: beijing, from: 1949 }
+  summary: 前身是 1933 年瑞金的马克思共产主义学校。1964 年校长杨献珍因“合二而一”论受批判。1977 年复校后胡耀邦主持校务，1978 年组织发表《实践是检验真理的唯一标准》。
+  verify: true
+  leaders:
+    - { name: 任弼时, title: 校长, from: 1933-03, to: 1934-10 }
+    - { name: 毛泽东, title: 校长, from: 1943-03, to: 1947-03 }
+    - { name: 刘少奇, title: 马列学院院长, from: 1948-11, to: 1953 }
+    - { name: 杨献珍, title: 校长, from: 1955, to: 1961 }
+    - { name: 王从吾, title: 校长, from: 1961, to: 1963 }
+    - { name: 林枫, title: 校长, from: 1963, to: 1966-06 }
+    - { name: 华国锋, title: 校长, from: 1977-03, to: 1982 }
+    - { name: 胡耀邦, title: 副校长（主持日常工作）, from: 1977-03, to: 1978-12 }
+    - { name: 王震, title: 校长, from: 1982, to: 1987 }
+    - { name: 高扬, title: 校长, from: 1987, to: 1989 }
+    - { name: 乔石, title: 校长, from: 1989 }
+
+- id: rural-work
+  name: 中共中央农村工作部
+  aliases: [中共中央农村工作部, 中央农村工作部]
+  kind: party
+  level: central
+  from: 1952-11
+  to: 1962-11
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 部长邓子恢 1955 年因主张合作化放慢速度被毛泽东批评为“小脚女人”，1962 年又因支持包产到户被撤销该部。
+  verify: true
+  leaders:
+    - { name: 邓子恢, title: 部长, from: 1952-11, to: 1962-11 }
+
+- id: finance-group
+  name: 中央财经领导小组
+  short: 中央财经小组
+  aliases: [中央财经小组, 中央财经领导小组]
+  kind: party
+  level: central
+  from: 1958-06
+  under: [{ org: cc }]
+  suspended: [{ from: 1966, to: 1980-03 }]
+  places: [{ at: beijing }]
+  summary: 大跃进中设立，陈云任组长；1980 年重建，赵紫阳任组长。
+  verify: true
+  leaders:
+    - { name: 陈云, title: 组长, from: 1958-06, to: 1962 }
+    - { name: 赵紫阳, title: 组长, from: 1980-03, to: 1987 }
+    - { name: 李鹏, title: 组长, from: 1987 }
+
+- id: politics-law-group
+  name: 中央政法小组
+  aliases: [中央政法小组]
+  kind: party
+  level: central
+  from: 1958-06
+  to: 1980-01
+  under: [{ org: cc }]
+  suspended: [{ from: 1966-05, to: 1978-06 }]
+  places: [{ at: beijing }]
+  summary: 1958 年设立，彭真任组长；1980 年改为中央政法委员会。
+  verify: true
+  leaders:
+    - { name: 彭真, title: 组长, from: 1958-06, to: 1966-05 }
+    - { name: 纪登奎, title: 组长, from: 1978-06, to: 1980-01 }
+
+- id: culture-edu-group
+  name: 中央文教小组
+  aliases: [中央文教小组]
+  kind: party
+  level: central
+  from: 1958-06
+  to: 1966-05
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 与政法、财经等小组同时设立，陆定一任组长，康生为副组长。
+  verify: true
+  leaders:
+    - { name: 陆定一, title: 组长, from: 1958-06, to: 1966-05 }
+
+- id: org-prop-group
+  name: 中央组织宣传组
+  aliases: [中央组织宣传组]
+  kind: party
+  level: central
+  from: 1970-11
+  to: 1973-08
+  under: [{ org: politburo }]
+  places: [{ at: beijing }]
+  factions: [ccrg]
+  summary: 九届二中全会后设立，统管中组部、中联部、新华社、人民日报、红旗等，康生任组长，江青、张春桥、姚文元为成员。
+  verify: true
+  leaders:
+    - { name: 康生, title: 组长, from: 1970-11, to: 1973-08 }
+
+- id: two-cases-group
+  name: 中央两案审理领导小组
+  aliases: [中央两案审理领导小组, 两案审理领导小组]
+  kind: party
+  level: central
+  from: 1980-03
+  to: 1987
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 负责审理林彪、江青两个反革命集团案（“两案”），指导特别检察厅、特别法庭的工作及各地清理。
+  verify: true
+  leaders:
+    - { name: 彭真, title: 组长, from: 1980-03, to: 1983 }
+
+- id: east-china-bureau
+  name: 中共中央华东局
+  short: 华东局
+  aliases: [中共中央华东局, 华东局]
+  kind: party
+  level: regional
+  from: 1945-10
+  to: 1967
+  under: [{ org: cc }]
+  suspended: [{ from: 1954-08, to: 1961-01, note: 1954 年撤销大区，1961 年重建 }]
+  places: [{ at: linyi, to: 1949-05 }, { at: shanghai, from: 1949-05 }]
+  summary: 1961 年重建后柯庆施任第一书记，提出“大写十三年”；柯庆施 1965 年病逝。
+  verify: true
+  leaders:
+    - { name: 饶漱石, title: 书记、第一书记, from: 1945-10, to: 1954-08 }
+    - { name: 柯庆施, title: 第一书记, from: 1961-01, to: 1965-04-09 }
+    - { name: 魏文伯, title: 第二书记（主持）, from: 1965-04, to: 1967 }
+
+- id: northwest-bureau
+  name: 中共中央西北局
+  short: 西北局
+  aliases: [中共中央西北局, 西北局]
+  kind: party
+  level: regional
+  from: 1941-05
+  to: 1967
+  under: [{ org: cc }]
+  suspended: [{ from: 1954-08, to: 1960-11, note: 1954 年撤销大区，1960 年重建 }]
+  places: [{ at: yanan, to: 1949-05 }, { at: xian, from: 1949-05 }]
+  summary: 延安时期的陕甘宁边区党的领导机关，高岗、习仲勋先后主持；1960 年重建后刘澜涛任第一书记。
+  verify: true
+  leaders:
+    - { name: 高岗, title: 书记, from: 1941-05, to: 1945-10 }
+    - { name: 习仲勋, title: 书记, from: 1945-10, to: 1949-05 }
+    - { name: 彭德怀, title: 第一书记, from: 1949-05, to: 1952 }
+    - { name: 习仲勋, title: 第二书记（主持）, from: 1952, to: 1954-08 }
+    - { name: 刘澜涛, title: 第一书记, from: 1960-11, to: 1967 }
+
+- id: northeast-bureau-61
+  name: 中共中央东北局（1961 年重建）
+  short: 东北局（1961）
+  kind: party
+  level: regional
+  from: 1961-01
+  to: 1967
+  under: [{ org: cc }]
+  places: [{ at: shenyang }]
+  summary: 1961 年 1 月八届九中全会决定重建六个中央局之一。
+  verify: true
+  leaders:
+    - { name: 宋任穷, title: 第一书记, from: 1961-01, to: 1967 }
+
+- id: yangtze-bureau
+  name: 中共中央长江局
+  short: 长江局
+  aliases: [中共中央长江局, 长江局]
+  kind: party
+  level: regional
+  from: 1937-12
+  to: 1938-10
+  under: [{ org: cc }]
+  places: [{ at: wuhan }]
+  summary: 王明自莫斯科回国后在武汉主持，与延安分庭抗礼；1938 年六届六中全会后撤销，分设南方局、中原局。
+  verify: true
+  leaders:
+    - { name: 王明, title: 书记, from: 1937-12, to: 1938-10 }
+
+- id: central-china-bureau
+  name: 中共中央华中局
+  short: 华中局
+  aliases: [中共中央华中局, 华中局]
+  kind: party
+  level: regional
+  from: 1941-05
+  to: 1945-10
+  under: [{ org: cc }]
+  places: [{ at: yancheng }]
+  summary: 皖南事变后由中原局、东南局合并组成，领导新四军和华中根据地；1945 年改为华东局。
+  verify: true
+  leaders:
+    - { name: 刘少奇, title: 书记, from: 1941-05, to: 1942-03 }
+    - { name: 饶漱石, title: 代理书记、书记, from: 1942-03, to: 1945-10 }
+  links:
+    - { org: east-china-bureau, kind: merge, date: 1945-10, verify: true }
+
+- id: special-branch
+  name: 中共中央特别行动科
+  short: 中央特科
+  aliases: [中央特科, 中共中央特科]
+  kind: party
+  level: central
+  from: 1927-11
+  to: 1935
+  under: [{ org: cc }]
+  places: [{ at: shanghai }]
+  summary: 在上海负责情报、保卫和惩治叛徒。1931 年负责人顾顺章被捕叛变，周恩来、陈云组织中央机关紧急转移。
+  verify: true
+  leaders:
+    - { name: 周恩来, title: 主持, from: 1927-11, to: 1931-12 }
+    - { name: 陈云, title: 负责人, from: 1931-04, to: 1933 }
+    - { name: 康生, title: 负责人, from: 1931, to: 1933-07, note: 与陈云的分工待核 }
+
+- id: secretariat-research
+  name: 中共中央书记处研究室
+  aliases: [中共中央书记处研究室, 中央书记处研究室]
+  kind: party
+  level: central
+  from: 1980
+  to: 1987
+  under: [{ org: secretariat }]
+  places: [{ at: beijing }]
+  summary: 邓力群任主任，起草大量中央文件，1987 年撤销。
+  verify: true
+  leaders:
+    - { name: 邓力群, title: 主任, from: 1980, to: 1987 }
+
+- id: literature-research
+  name: 中共中央文献研究室
+  aliases: [中共中央文献研究室, 中央文献研究室]
+  kind: party
+  level: central
+  from: 1980-05
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 编辑出版毛泽东、周恩来、刘少奇等人的文集、年谱和传记，是“官方后来”叙述的主要编纂机构之一。
+  verify: true
+  leaders:
+    - { name: 李琦, title: 主任, from: 1980-05, to: 1991 }
+
+- id: rectification-commission
+  name: 中央整党工作指导委员会
+  aliases: [中央整党工作指导委员会]
+  kind: party
+  level: central
+  from: 1983-10
+  to: 1987-05
+  under: [{ org: cc }]
+  places: [{ at: beijing }]
+  summary: 十二届二中全会决定全面整党，清理“三种人”（追随林彪、江青集团造反起家的人、帮派思想严重的人、打砸抢分子）。
+  verify: true
+  leaders:
+    - { name: 胡耀邦, title: 主任, from: 1983-10, to: 1987-01 }
+    - { name: 薄一波, title: 常务副主任（主持日常工作）, from: 1983-10, to: 1987-05 }

@@ -1,0 +1,324 @@
+# State Council commissions, ministries and Cultural Revolution-era groups not in 00-central.yaml.
+# From general reference, verify. Gaps of 1966–1975 are where ministries were under military control
+# (军管) or merged; the note says so where known.
+
+- id: state-planning
+  name: 国家计划委员会
+  short: 国家计委
+  aliases: [国家计划委员会, 国家计委]
+  kind: state
+  level: central
+  from: 1952-11
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1964 年毛泽东另组以余秋里为首的“小计委”主持三线建设规划，取代李富春主持的计委日常工作。
+  verify: true
+  leaders:
+    - { name: 高岗, title: 主席, from: 1952-11, to: 1954-09 }
+    - { name: 李富春, title: 主任, from: 1954-09, to: 1970 }
+    - { name: 余秋里, title: 主任, from: 1970, to: 1980-08, note: 1965 年起实际主持 }
+    - { name: 姚依林, title: 主任, from: 1980-08, to: 1983-06 }
+    - { name: 宋平, title: 主任, from: 1983-06, to: 1987-06 }
+    - { name: 姚依林, title: 主任, from: 1987-06, to: 1989-12 }
+    - { name: 邹家华, title: 主任, from: 1989-12 }
+
+- id: state-economic
+  name: 国家经济委员会
+  short: 国家经委
+  aliases: [国家经济委员会, 国家经委]
+  kind: state
+  level: central
+  from: 1956-05
+  to: 1988-04
+  under: [{ org: state-council }]
+  suspended: [{ from: 1967, to: 1978-03 }]
+  places: [{ at: beijing }]
+  summary: 薄一波长期任主任，1966 年底被打成“六十一人叛徒集团”成员。1988 年撤销。
+  verify: true
+  leaders:
+    - { name: 薄一波, title: 主任, from: 1956-05, to: 1966-12 }
+    - { name: 康世恩, title: 主任, from: 1978-03, to: 1981 }
+    - { name: 袁宝华, title: 主任, from: 1981, to: 1982 }
+    - { name: 张劲夫, title: 主任, from: 1982, to: 1985 }
+    - { name: 吕东, title: 主任, from: 1985, to: 1988-04 }
+
+- id: finance
+  name: 财政部
+  aliases: [财政部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 李先念 1954–1975 年任部长，文革中是少数一直在职的经济部门领导人。
+  verify: true
+  leaders:
+    - { name: 薄一波, title: 部长, from: 1949-10, to: 1953-09 }
+    - { name: 邓小平, title: 部长, from: 1953-09, to: 1954-06 }
+    - { name: 李先念, title: 部长, from: 1954-06, to: 1975-01 }
+    - { name: 张劲夫, title: 部长, from: 1975-01, to: 1979-08 }
+    - { name: 吴波, title: 部长, from: 1979-08, to: 1980-08 }
+    - { name: 王丙乾, title: 部长, from: 1980-08 }
+
+- id: foreign-trade
+  name: 对外贸易部
+  short: 外贸部
+  aliases: [对外贸易部, 外贸部, 对外经济贸易部]
+  kind: state
+  level: central
+  from: 1952-08
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1982 年与对外经济联络部等合并为对外经济贸易部。
+  verify: true
+  leaders:
+    - { name: 叶季壮, title: 部长, from: 1952-08, to: 1967-06 }
+    - { name: 白相国, title: 部长, from: 1970, to: 1973 }
+    - { name: 李强, title: 部长, from: 1973, to: 1981-09 }
+    - { name: 郑拓彬, title: 部长, from: 1981-09, to: 1982-03 }
+    - { name: 陈慕华, title: 部长, from: 1982-03, to: 1985-03 }
+    - { name: 郑拓彬, title: 部长, from: 1985-03 }
+
+- id: second-ministry
+  name: 第二机械工业部
+  short: 二机部
+  aliases: [第二机械工业部, 二机部]
+  kind: state
+  level: central
+  from: 1958-02
+  to: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管核工业，1964 年第一颗原子弹爆炸；1982 年改为核工业部。
+  verify: true
+  leaders:
+    - { name: 宋任穷, title: 部长, from: 1958-02, to: 1960-09 }
+    - { name: 刘杰, title: 部长, from: 1960-09, to: 1967 }
+    - { name: 刘西尧, title: 部长, from: 1975, to: 1977 }
+    - { name: 刘伟, title: 部长, from: 1977, to: 1982-05 }
+
+- id: petroleum
+  name: 石油工业部
+  short: 石油部
+  aliases: [石油工业部, 石油部]
+  kind: state
+  level: central
+  from: 1955-07
+  to: 1988-04
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 余秋里任部长时组织大庆石油会战；1970 年代形成以余秋里、康世恩为核心的“石油帮”。
+  verify: true
+  leaders:
+    - { name: 李聚奎, title: 部长, from: 1955-07, to: 1958-02 }
+    - { name: 余秋里, title: 部长, from: 1958-02, to: 1965-01 }
+    - { name: 康世恩, title: 部长, from: 1975-01, to: 1978-03 }
+    - { name: 宋振明, title: 部长, from: 1978-03, to: 1980-08, note: 渤海二号钻井船事故后被免职 }
+    - { name: 唐克, title: 部长, from: 1981-02, to: 1985-06 }
+    - { name: 王涛, title: 部长, from: 1985-06, to: 1988-04 }
+
+- id: health
+  name: 卫生部
+  aliases: [卫生部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1965 年毛泽东批评其为“城市老爷卫生部”，提出“把医疗卫生工作的重点放到农村去”。1973–1976 年部长刘湘屏为谢富治之妻。
+  verify: true
+  leaders:
+    - { name: 李德全, title: 部长, from: 1949-10, to: 1965-01 }
+    - { name: 钱信忠, title: 部长, from: 1965-01, to: 1968 }
+    - { name: 刘湘屏, title: 部长, from: 1973, to: 1976-10, faction: ccrg }
+    - { name: 江一真, title: 部长, from: 1977, to: 1979 }
+    - { name: 钱信忠, title: 部长, from: 1979, to: 1982-05 }
+    - { name: 崔月犁, title: 部长, from: 1982-05, to: 1987-04 }
+    - { name: 陈敏章, title: 部长, from: 1987-04 }
+
+- id: higher-education
+  name: 高等教育部
+  short: 高教部
+  aliases: [高等教育部, 高教部]
+  kind: state
+  level: central
+  from: 1952-11
+  to: 1966-07
+  under: [{ org: state-council }]
+  suspended: [{ from: 1958-02, to: 1964-07, note: 并入教育部 }]
+  places: [{ at: beijing }]
+  summary: 两度设立；1964 年复设后清华校长蒋南翔兼任部长，1966 年 6 月蒋南翔被打倒，次月并入教育部。
+  verify: true
+  leaders:
+    - { name: 马叙伦, title: 部长, from: 1952-11, to: 1954-11 }
+    - { name: 杨秀峰, title: 部长, from: 1954-11, to: 1958-02 }
+    - { name: 蒋南翔, title: 部长, from: 1965-01, to: 1966-06 }
+
+- id: civil-affairs
+  name: 内务部 / 民政部
+  short: 民政部
+  aliases: [内务部, 民政部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  suspended: [{ from: 1969-01, to: 1978-05, note: 内务部撤销，1978 年设民政部 }]
+  places: [{ at: beijing }]
+  summary: 1969 年内务部撤销，1978 年以民政部名义恢复。
+  verify: true
+  leaders:
+    - { name: 谢觉哉, title: 内务部长, from: 1949-10, to: 1959-04 }
+    - { name: 钱瑛, title: 内务部长, from: 1959-04, to: 1969-01 }
+    - { name: 程子华, title: 民政部长, from: 1978-05, to: 1982-05 }
+    - { name: 崔乃夫, title: 民政部长, from: 1982-05 }
+
+- id: justice
+  name: 司法部
+  aliases: [司法部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  suspended: [{ from: 1959-04, to: 1979-09, note: 1959 年撤销，1979 年恢复 }]
+  places: [{ at: beijing }]
+  summary: 首任部长史良是民盟领导人；1959 年撤销，二十年后恢复。
+  verify: true
+  leaders:
+    - { name: 史良, title: 部长, from: 1949-10, to: 1959-04 }
+    - { name: 魏文伯, title: 部长, from: 1979-09, to: 1982-05 }
+    - { name: 刘复之, title: 部长, from: 1982-05, to: 1983-04 }
+    - { name: 邹瑜, title: 部长, from: 1983-04, to: 1988-04 }
+    - { name: 蔡诚, title: 部长, from: 1988-04 }
+
+- id: science-commission
+  name: 国家科学技术委员会
+  short: 国家科委
+  aliases: [国家科学技术委员会, 国家科委]
+  kind: state
+  level: central
+  from: 1958-11
+  under: [{ org: state-council }]
+  suspended: [{ from: 1970-07, to: 1977-09, note: 并入中国科学院 }]
+  places: [{ at: beijing }]
+  summary: 1970 年并入中国科学院，1977 年恢复。
+  verify: true
+  leaders:
+    - { name: 聂荣臻, title: 主任, from: 1958-11, to: 1970-07 }
+    - { name: 方毅, title: 主任, from: 1977-09, to: 1984-09 }
+    - { name: 宋健, title: 主任, from: 1984-09 }
+
+- id: pboc
+  name: 中国人民银行
+  aliases: [中国人民银行]
+  kind: state
+  level: central
+  from: 1948-12
+  under: [{ org: state-council }]
+  places: [{ at: shijiazhuang, to: 1949-02 }, { at: beijing, from: 1949-02 }]
+  summary: 1969–1978 年并入财政部，1978 年恢复独立。
+  verify: true
+  leaders:
+    - { name: 南汉宸, title: 行长, from: 1948-12, to: 1954-10 }
+    - { name: 曹菊如, title: 行长, from: 1954-10, to: 1964 }
+    - { name: 胡立教, title: 行长, from: 1964, to: 1966 }
+    - { name: 陈希愈, title: 行长, from: 1973, to: 1978 }
+    - { name: 李葆华, title: 行长, from: 1978, to: 1982-05 }
+    - { name: 吕培俭, title: 行长, from: 1982-05, to: 1985-03 }
+    - { name: 陈慕华, title: 行长, from: 1985-03, to: 1988-04 }
+    - { name: 李贵鲜, title: 行长, from: 1988-04 }
+
+- id: ethnic-affairs
+  name: 国家民族事务委员会
+  short: 国家民委
+  aliases: [国家民族事务委员会, 国家民委, 中央民族事务委员会]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  suspended: [{ from: 1970-06, to: 1978-03, note: 撤销，1978 年恢复 }]
+  places: [{ at: beijing }]
+  summary: 乌兰夫长期兼任主任；文革中民族工作被指为“投降主义”，委员会撤销。
+  verify: true
+  leaders:
+    - { name: 李维汉, title: 主任, from: 1949-10, to: 1954-10 }
+    - { name: 乌兰夫, title: 主任, from: 1954-10, to: 1967 }
+    - { name: 杨静仁, title: 主任, from: 1978-03, to: 1986-06 }
+    - { name: 司马义·艾买提, title: 主任, from: 1986-06 }
+
+- id: business-group
+  name: 国务院业务组
+  aliases: [国务院业务组]
+  kind: state
+  level: central
+  from: 1967-03
+  to: 1975-01
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 周恩来在各部委瘫痪后组织的小班子，李先念、余秋里、谷牧等维持国民经济运转。
+  verify: true
+  leaders:
+    - { name: 周恩来, title: 主持, from: 1967-03, to: 1975-01 }
+    - { name: 李先念, title: 组长, from: 1967-03, to: 1975-01 }
+
+- id: sci-edu-group
+  name: 国务院科教组
+  aliases: [国务院科教组]
+  kind: state
+  level: central
+  from: 1970-07
+  to: 1975-01
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 代行教育部、国家科委职权，1973 年张铁生“白卷”事件后推动“反回潮”。
+  verify: true
+  leaders:
+    - { name: 刘西尧, title: 组长, from: 1970-07, to: 1975-01 }
+    - { name: 迟群, title: 副组长, from: 1970-07, to: 1975-01, faction: ccrg }
+
+- id: culture-group
+  name: 国务院文化组
+  aliases: [国务院文化组]
+  kind: state
+  level: central
+  from: 1971-05
+  to: 1975-01
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  factions: [ccrg]
+  summary: 代行文化部职权，主管样板戏的创作与推广，于会泳、浩亮、刘庆棠等主事。
+  verify: true
+  leaders:
+    - { name: 吴德, title: 组长, from: 1971-05, to: 1975-01 }
+    - { name: 于会泳, title: 副组长, from: 1971-05, to: 1975-01, faction: ccrg }
+
+- id: reform-commission
+  name: 国家经济体制改革委员会
+  short: 国家体改委
+  aliases: [国家经济体制改革委员会, 国家体改委]
+  kind: state
+  level: central
+  from: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 由总理兼任主任，统筹经济体制改革方案。
+  verify: true
+  leaders:
+    - { name: 赵紫阳, title: 主任, from: 1982-05, to: 1987-11 }
+    - { name: 李铁映, title: 主任, from: 1987-11, to: 1988-04 }
+    - { name: 李鹏, title: 主任, from: 1988-04 }
+
+- id: broadcast-admin
+  name: 中央广播事业局
+  aliases: [中央广播事业局, 广播事业局]
+  kind: state
+  level: central
+  from: 1949-06
+  to: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管中央人民广播电台和全国广播；1982 年改为广播电视部。
+  verify: true
+  leaders:
+    - { name: 廖承志, title: 局长, from: 1949-06, to: 1952 }
+    - { name: 梅益, title: 局长, from: 1952, to: 1966 }
+    - { name: 张香山, title: 局长, from: 1977, to: 1982-05 }

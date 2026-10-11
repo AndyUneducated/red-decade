@@ -1,0 +1,477 @@
+# Army: the greater military regions of 1949–1955 and 1955–1985, services and arms, general
+# departments, and units that figure in the Cultural Revolution. Heads are 司令员 (or the post that
+# ran the body) unless the title says otherwise; all from general reference, verify.
+# faction on a leader marks heads outside people.yaml who were tried or purged as part of the
+# Lin Biao group (lin); people in people.yaml get their faction from their own memberships.
+
+# ── 1949–1955 大军区 ──
+- id: north-china-mr
+  name: 华北军区
+  aliases: [华北军区]
+  kind: army
+  level: regional
+  from: 1948-05
+  to: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: beijing, from: 1949 }]
+  summary: 1948 年由晋察冀、晋冀鲁豫两军区合并组成，1955 年改为北京军区。
+  verify: true
+  leaders:
+    - { name: 聂荣臻, title: 司令员, from: 1948-05, to: 1955-02 }
+
+- id: northeast-mr
+  name: 东北军区
+  aliases: [东北军区]
+  kind: army
+  level: regional
+  from: 1948-01
+  to: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: shenyang }]
+  summary: 抗美援朝的后方基地，1955 年改为沈阳军区。
+  verify: true
+  leaders:
+    - { name: 林彪, title: 司令员, from: 1948-01, to: 1949-05 }
+    - { name: 高岗, title: 司令员兼政治委员, from: 1949-05, to: 1954-02 }
+    - { name: 贺晋年, title: 代司令员, from: 1954-02, to: 1955-02 }
+
+- id: east-china-mr
+  name: 华东军区
+  aliases: [华东军区]
+  kind: army
+  level: regional
+  from: 1949-03
+  to: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: nanjing }]
+  summary: 由第三野战军机关兼领，1955 年改为南京军区。
+  verify: true
+  leaders:
+    - { name: 陈毅, title: 司令员, from: 1949-03, to: 1955-02 }
+
+- id: central-south-mr
+  name: 中南军区
+  aliases: [中南军区]
+  kind: army
+  level: regional
+  from: 1949-05
+  to: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: wuhan }]
+  summary: 由第四野战军机关兼领，1955 年分为广州、武汉两军区。
+  verify: true
+  leaders:
+    - { name: 林彪, title: 司令员, from: 1949-05, to: 1954 }
+    - { name: 叶剑英, title: 代司令员, from: 1954, to: 1955-02 }
+
+# ── 1955–1985 大军区 ──
+- id: beijing-mr
+  name: 北京军区
+  aliases: [北京军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  summary: 拱卫首都的军区。1971 年华北会议后司令员郑维山、政委李雪峰因庐山会议问题被撤职。
+  verify: true
+  leaders:
+    - { name: 杨成武, title: 司令员, from: 1955-02, to: 1958 }
+    - { name: 杨勇, title: 司令员, from: 1958, to: 1966-08 }
+    - { name: 郑维山, title: 代司令员, from: 1967, to: 1971-01 }
+    - { name: 李德生, title: 司令员, from: 1971-01, to: 1973-12 }
+    - { name: 陈锡联, title: 司令员, from: 1973-12, to: 1980-01 }
+    - { name: 秦基伟, title: 司令员, from: 1980-01, to: 1987 }
+    - { name: 周衣冰, title: 司令员, from: 1987 }
+
+- id: shenyang-mr
+  name: 沈阳军区
+  aliases: [沈阳军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: shenyang }]
+  summary: 邓华 1959 年因庐山会议受牵连被撤职，陈锡联继任十四年。
+  verify: true
+  leaders:
+    - { name: 邓华, title: 司令员, from: 1955-02, to: 1959-09 }
+    - { name: 陈锡联, title: 司令员, from: 1959-09, to: 1973-12 }
+    - { name: 李德生, title: 司令员, from: 1973-12, to: 1985 }
+    - { name: 刘精松, title: 司令员, from: 1985 }
+
+- id: jinan-mr
+  name: 济南军区
+  aliases: [济南军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: jinan }]
+  summary: 杨得志任司令员十八年，1973 年底八大军区司令员对调时调往武汉。
+  verify: true
+  leaders:
+    - { name: 杨得志, title: 司令员, from: 1955-02, to: 1973-12 }
+    - { name: 曾思玉, title: 司令员, from: 1973-12, to: 1985 }
+    - { name: 李九龙, title: 司令员, from: 1985 }
+
+- id: nanjing-mr
+  name: 南京军区
+  aliases: [南京军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: nanjing }]
+  summary: 许世友任司令员近二十年，兼任江苏省革委会主任。
+  verify: true
+  leaders:
+    - { name: 许世友, title: 司令员, from: 1955-02, to: 1973-12 }
+    - { name: 丁盛, title: 司令员, from: 1973-12, to: 1977 }
+    - { name: 聂凤智, title: 司令员, from: 1977, to: 1982 }
+    - { name: 向守志, title: 司令员, from: 1982 }
+
+- id: guangzhou-mr
+  name: 广州军区
+  aliases: [广州军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: guangzhou }]
+  summary: 黄永胜 1955–1968 年任司令员，1968 年调任总参谋长后，广州军区被视为林彪系的基地之一。
+  verify: true
+  leaders:
+    - { name: 黄永胜, title: 司令员, from: 1955-02, to: 1968-03, faction: lin }
+    - { name: 丁盛, title: 司令员, from: 1968-03, to: 1973-12 }
+    - { name: 许世友, title: 司令员, from: 1973-12, to: 1980-01 }
+    - { name: 吴克华, title: 司令员, from: 1980-01, to: 1982 }
+    - { name: 尤太忠, title: 司令员, from: 1982, to: 1987 }
+    - { name: 张万年, title: 司令员, from: 1987 }
+
+- id: wuhan-mr
+  name: 武汉军区
+  aliases: [武汉军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  to: 1985-06
+  under: [{ org: cmc }]
+  places: [{ at: wuhan }]
+  summary: 1967 年七二〇事件中，司令员陈再道被指支持“百万雄师”，随即被撤职；1985 年精简整编时撤销。
+  verify: true
+  leaders:
+    - { name: 陈再道, title: 司令员, from: 1955-02, to: 1967-07 }
+    - { name: 曾思玉, title: 司令员, from: 1967-07, to: 1973-12 }
+    - { name: 杨得志, title: 司令员, from: 1973-12, to: 1979-01 }
+    - { name: 张才千, title: 司令员, from: 1979-01, to: 1982 }
+    - { name: 周世忠, title: 司令员, from: 1982, to: 1985-06 }
+
+- id: chengdu-mr
+  name: 成都军区
+  aliases: [成都军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: chengdu }]
+  summary: 四川武斗最烈时期由军区“支左”；1985 年与昆明军区合并为新的成都军区。
+  verify: true
+  leaders:
+    - { name: 贺炳炎, title: 司令员, from: 1955-02, to: 1960-07-01 }
+    - { name: 黄新廷, title: 司令员, from: 1960, to: 1967 }
+    - { name: 梁兴初, title: 司令员, from: 1970, to: 1973-12 }
+    - { name: 秦基伟, title: 司令员, from: 1973-12, to: 1975, note: 1975–1985 年间人选待核 }
+    - { name: 傅全有, title: 司令员, from: 1985 }
+
+- id: kunming-mr
+  name: 昆明军区
+  aliases: [昆明军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  to: 1985-06
+  under: [{ org: cmc }]
+  places: [{ at: kunming }]
+  summary: 政委谭甫仁 1970 年遇刺；1979 年对越作战的西线由昆明军区承担；1985 年并入成都军区。
+  verify: true
+  leaders:
+    - { name: 秦基伟, title: 司令员, from: 1957, to: 1967 }
+    - { name: 王必成, title: 司令员, from: 1971, to: 1974 }
+    - { name: 杨得志, title: 司令员, from: 1979-01, to: 1980-01, note: 1979 年 2 月对越作战中指挥西线 }
+    - { name: 张铚秀, title: 司令员, from: 1982, to: 1985-06 }
+
+- id: lanzhou-mr
+  name: 兰州军区
+  aliases: [兰州军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  under: [{ org: cmc }]
+  places: [{ at: lanzhou }]
+  summary: 1985 年与乌鲁木齐军区合并为新的兰州军区。
+  verify: true
+  leaders:
+    - { name: 张达志, title: 司令员, from: 1955-02, to: 1967 }
+    - { name: 皮定均, title: 司令员, from: 1969, to: 1973-12 }
+    - { name: 韩先楚, title: 司令员, from: 1973-12, to: 1980 }
+    - { name: 杜义德, title: 司令员, from: 1980, to: 1982 }
+    - { name: 郑维山, title: 司令员, from: 1983, to: 1985 }
+    - { name: 赵先顺, title: 司令员, from: 1985 }
+
+- id: xinjiang-mr
+  name: 新疆军区
+  aliases: [新疆军区, 乌鲁木齐军区]
+  kind: army
+  level: regional
+  from: 1955-02
+  to: 1985-06
+  under: [{ org: cmc }]
+  places: [{ at: urumqi }]
+  summary: 1979 年改称乌鲁木齐军区，1985 年并入兰州军区（新疆军区降为省级军区）。
+  verify: true
+  leaders:
+    - { name: 王恩茂, title: 司令员（兼）, from: 1955-02, to: 1968 }
+    - { name: 龙书金, title: 司令员, from: 1968, to: 1972 }
+    - { name: 杨勇, title: 司令员, from: 1973, to: 1977 }
+    - { name: 萧全夫, title: 司令员, from: 1980, to: 1985-06 }
+
+- id: fuzhou-mr
+  name: 福州军区
+  aliases: [福州军区]
+  kind: army
+  level: regional
+  from: 1956-04
+  to: 1985-06
+  under: [{ org: cmc }]
+  places: [{ at: fuzhou }]
+  summary: 对台前线军区，1985 年并入南京军区。司令员皮定均 1976 年因飞机失事殉职。
+  verify: true
+  leaders:
+    - { name: 叶飞, title: 司令员, from: 1956-04, to: 1957 }
+    - { name: 韩先楚, title: 司令员, from: 1957, to: 1973-12 }
+    - { name: 皮定均, title: 司令员, from: 1973-12, to: 1976-07-07 }
+    - { name: 杨成武, title: 司令员, from: 1977, to: 1980 }
+    - { name: 江拥辉, title: 司令员, from: 1980, to: 1985-06 }
+
+- id: beijing-garrison
+  name: 北京卫戍区
+  aliases: [北京卫戍区]
+  kind: army
+  level: provincial
+  from: 1959
+  under: [{ org: beijing-mr }]
+  places: [{ at: beijing }]
+  summary: 负责首都警卫。1966–1968 年司令员傅崇碧负责保护被冲击的干部，1968 年“杨余傅事件”中被撤职。
+  verify: true
+  leaders:
+    - { name: 傅崇碧, title: 司令员, from: 1966-05, to: 1968-03 }
+    - { name: 温玉成, title: 司令员, from: 1968-03, to: 1970 }
+    - { name: 吴忠, title: 司令员, from: 1970, to: 1977 }
+
+- id: central-guard
+  name: 中央警卫团（八三四一部队）
+  short: 八三四一部队
+  aliases: [中央警卫团, 八三四一部队, 8341部队]
+  kind: army
+  level: central
+  from: 1953
+  under: [{ org: general-office }]
+  places: [{ at: beijing }]
+  summary: 担负中南海与中央领导人警卫，归中央办公厅警卫局领导；1968 年派人参加清华、北大等“六厂二校”的工人宣传队；1976 年 10 月参与逮捕“四人帮”。
+  verify: true
+  leaders:
+    - { name: 张耀祠, title: 团长, from: 1953, to: 1980 }
+
+# ── 军兵种 ──
+- id: navy
+  name: 中国人民解放军海军
+  short: 海军
+  aliases: [海军]
+  kind: army
+  level: central
+  from: 1950-04
+  under: [{ org: pla }]
+  places: [{ at: beijing }]
+  summary: 萧劲光任司令员三十年；1967–1971 年第一政委李作鹏实际掌控海军，九一三事件后受审。
+  verify: true
+  leaders:
+    - { name: 萧劲光, title: 司令员, from: 1950-04, to: 1980-01 }
+    - { name: 苏振华, title: 第一政治委员, from: 1957, to: 1967 }
+    - { name: 李作鹏, title: 第一政治委员, from: 1967, to: 1971-09-13, faction: lin }
+    - { name: 苏振华, title: 第一政治委员, from: 1972, to: 1979-02 }
+    - { name: 叶飞, title: 司令员, from: 1980-01, to: 1982-08 }
+    - { name: 刘华清, title: 司令员, from: 1982-08, to: 1988-01 }
+    - { name: 张连忠, title: 司令员, from: 1988-01 }
+
+- id: second-artillery
+  name: 中国人民解放军第二炮兵
+  short: 第二炮兵
+  aliases: [第二炮兵, 二炮]
+  kind: army
+  level: central
+  from: 1966-07
+  under: [{ org: pla }]
+  places: [{ at: beijing }]
+  summary: 战略导弹部队，1966 年 7 月组建。
+  verify: true
+  leaders:
+    - { name: 向守志, title: 司令员, from: 1967, to: 1975 }
+    - { name: 李水清, title: 司令员, from: 1985 }
+
+- id: armored-corps
+  name: 中国人民解放军装甲兵
+  short: 装甲兵
+  aliases: [装甲兵]
+  kind: army
+  level: central
+  from: 1950-09
+  to: 1985
+  under: [{ org: pla }]
+  places: [{ at: beijing }]
+  summary: 大将许光达长期任司令员，文革中被诬为“贺龙同伙”，1969 年去世。
+  verify: true
+  leaders:
+    - { name: 许光达, title: 司令员, from: 1950-09, to: 1967 }
+
+- id: artillery-corps
+  name: 中国人民解放军炮兵
+  short: 炮兵
+  aliases: [炮兵]
+  kind: army
+  level: central
+  from: 1950-08
+  to: 1985
+  under: [{ org: pla }]
+  places: [{ at: beijing }]
+  summary: 陈锡联首任司令员。
+  verify: true
+  leaders:
+    - { name: 陈锡联, title: 司令员, from: 1950-08, to: 1959-09 }
+    - { name: 吴克华, title: 司令员, from: 1962, to: 1967 }
+
+- id: engineer-corps
+  name: 中国人民解放军工程兵
+  short: 工程兵
+  aliases: [工程兵]
+  kind: army
+  level: central
+  from: 1952-03
+  to: 1985
+  under: [{ org: pla }]
+  places: [{ at: beijing }]
+  summary: 陈士榘长期任司令员。
+  verify: true
+  leaders:
+    - { name: 陈士榘, title: 司令员, from: 1952-03, to: 1975 }
+
+- id: railway-corps
+  name: 中国人民解放军铁道兵
+  short: 铁道兵
+  aliases: [铁道兵]
+  kind: army
+  level: central
+  from: 1953-09
+  to: 1984-01
+  under: [{ org: pla }]
+  places: [{ at: beijing }]
+  summary: 修筑成昆、襄渝等三线铁路；1984 年集体转业并入铁道部。
+  verify: true
+  leaders:
+    - { name: 王震, title: 司令员, from: 1953-09, to: 1956 }
+    - { name: 李寿轩, title: 司令员, from: 1956, to: 1958 }
+    - { name: 吕正操, title: 第一政治委员, from: 1975, to: 1982 }
+    - { name: 陈再道, title: 司令员, from: 1977, to: 1982, note: 1958–1977 年间司令员人选待核 }
+
+- id: logistics
+  name: 中国人民解放军总后勤部
+  short: 总后勤部
+  aliases: [总后勤部, 总后]
+  kind: army
+  level: central
+  from: 1950-07
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  summary: 邱会作 1959–1971 年任部长，九一三事件后作为林彪集团主犯受审。
+  verify: true
+  leaders:
+    - { name: 杨立三, title: 部长, from: 1950-07, to: 1954-11 }
+    - { name: 黄克诚, title: 部长, from: 1954-11, to: 1956 }
+    - { name: 洪学智, title: 部长, from: 1956, to: 1959-09 }
+    - { name: 邱会作, title: 部长, from: 1959-09, to: 1971-09-13, faction: lin }
+    - { name: 张宗逊, title: 部长, from: 1972, to: 1980 }
+    - { name: 洪学智, title: 部长, from: 1980, to: 1987-11 }
+    - { name: 赵南起, title: 部长, from: 1987-11 }
+
+- id: ams
+  name: 中国人民解放军军事科学院
+  short: 军事科学院
+  aliases: [军事科学院]
+  kind: army
+  level: central
+  from: 1958-03
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  summary: 叶剑英首任院长兼政委。
+  verify: true
+  leaders:
+    - { name: 叶剑英, title: 院长, from: 1958-03, to: 1972 }
+    - { name: 宋时轮, title: 院长, from: 1972, to: 1985 }
+    - { name: 郑文翰, title: 院长, from: 1985 }
+
+- id: nstc-defense
+  name: 国防科学技术委员会
+  short: 国防科委
+  aliases: [国防科委, 国防科学技术委员会]
+  kind: army
+  level: central
+  from: 1958-10
+  to: 1982-05
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  summary: 主管“两弹一星”研制，1982 年与国防工办等合并为国防科工委。
+  verify: true
+  leaders:
+    - { name: 聂荣臻, title: 主任, from: 1958-10, to: 1970 }
+    - { name: 张爱萍, title: 主任, from: 1975, to: 1982-05 }
+
+- id: costind
+  name: 国防科学技术工业委员会
+  short: 国防科工委
+  aliases: [国防科工委]
+  kind: army
+  level: central
+  from: 1982-05
+  under: [{ org: cmc }]
+  places: [{ at: beijing }]
+  summary: 1982 年由国防科委、国防工办、军委科装委合并组成。
+  verify: true
+  leaders:
+    - { name: 陈彬, title: 主任, from: 1982-05, to: 1985 }
+    - { name: 丁衡高, title: 主任, from: 1985 }
+
+- id: pla-daily
+  name: 解放军报社
+  aliases: [解放军报, 解放军报社]
+  kind: unit
+  level: central
+  from: 1956-01
+  under: [{ org: general-political }]
+  places: [{ at: beijing }]
+  summary: 总政治部机关报。1960 年代率先在报头刊登毛泽东语录，文革初期与《人民日报》《红旗》并称“两报一刊”。
+  verify: true
+
+- id: wuhan-8201
+  name: 武汉军区独立师（八二〇一部队）
+  short: 八二〇一部队
+  aliases: [八二〇一部队, 8201部队]
+  kind: army
+  level: basic
+  from: 1966
+  under: [{ org: wuhan-mr }]
+  places: [{ at: wuhan }]
+  summary: 1967 年七二〇事件中部分官兵与“百万雄师”冲入东湖宾馆揪斗王力，事后被定为“叛乱”部队调离武汉。
+  verify: true
+  leaders:
+    - { name: 牛怀龙, title: 师长, from: 1966, to: 1967-07 }
+    - { name: 蔡炳臣, title: 政治委员, from: 1966, to: 1967-07 }

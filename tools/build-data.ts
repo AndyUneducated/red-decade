@@ -237,6 +237,7 @@ for (const o of orgs) {
   for (const l of o.leaders) {
     l.person ??= personByName.get(l.name)
     if (l.person) need(ids.person, l.person, `${where} leader ${l.name}`)
+    if (l.faction) need(ids.faction, l.faction, `${where} leader ${l.name}`)
     needCite(l.cite, `${where} leader ${l.name}`)
     span(l, `leader ${l.name}`)
     if (o.from && l.from && after(o.from, l.from)) errors.push(`${where} leader ${l.name}: starts ${l.from} before the org (${o.from})`)
