@@ -551,3 +551,80 @@
   verify: true
   leaders:
     - { name: 荣毅仁, title: 董事长, from: 1979-10, to: 1993 }
+
+# ── added with M3 people batch 2 (二月逆流与国务院) ──
+- id: state-construction
+  name: 国家基本建设委员会
+  short: 国家建委
+  aliases: [国家基本建设委员会, 国家建委, 国家基本建设革命委员会]
+  kind: state
+  level: central
+  from: 1965-03
+  to: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1965 年为三线建设重设，谷牧任主任；1970 年与建工部等合并为“国家基本建设革命委员会”，1982 年并入国家计委。1954–1958 年另有一个由薄一波等主持的国家建设委员会。
+  verify: true
+  leaders:
+    - { name: 谷牧, title: 主任, from: 1965-03, to: 1979, note: 1967–1969 年靠边，1970 年后为国家基本建设革命委员会 }
+    - { name: 韩光, title: 主任, from: 1979, to: 1982-05 }
+
+- id: agri-forestry-office
+  name: 国务院农林办公室
+  short: 农林办
+  aliases: [国务院农林办公室, 农林办公室]
+  kind: state
+  level: central
+  from: 1959-09
+  to: 1970
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 由国务院第七办公室改组，归口管理农业、林业、水利、农垦、气象等部门。主任谭震林 1967 年“二月逆流”后被打倒，办公室随国务院机构精简撤销。
+  verify: true
+  leaders:
+    - { name: 谭震林, title: 主任, from: 1962, to: 1967-03 }
+
+- id: finance-trade-office
+  name: 国务院财贸办公室
+  short: 财贸办
+  aliases: [国务院财贸办公室, 财贸办公室]
+  kind: state
+  level: central
+  from: 1959-09
+  to: 1970
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 由国务院第五办公室改组，归口管理财政、商业、银行、外贸等部门，李先念长期主持。
+  verify: true
+  leaders:
+    - { name: 李先念, title: 主任, from: 1959-09, to: 1967 }
+
+- id: finance-econ-1979
+  name: 国务院财政经济委员会
+  short: 财经委
+  aliases: [国务院财政经济委员会, 国务院财经委员会]
+  kind: state
+  level: central
+  from: 1979-03
+  to: 1981-03
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 十一届三中全会后为“调整、改革、整顿、提高”设立的经济决策机构，陈云任主任、李先念任副主任；1980 年后由中央财经领导小组接替。
+  verify: true
+  leaders:
+    - { name: 陈云, title: 主任, from: 1979-03, to: 1981-03 }
+    - { name: 李先念, title: 副主任, from: 1979-03, to: 1981-03 }
+
+- id: import-export
+  name: 国家进出口管理委员会
+  aliases: [国家进出口管理委员会, 外国投资管理委员会]
+  kind: state
+  level: central
+  from: 1979-07
+  to: 1982-03
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 与外国投资管理委员会两块牌子一套班子，主管对外开放、引进外资和经济特区筹建；1982 年并入对外经济贸易部。
+  verify: true
+  leaders:
+    - { name: 谷牧, title: 主任, from: 1979-07, to: 1982-03 }

@@ -132,6 +132,14 @@
 - { id: tongjiang, name: 通江, names: [通江], lat: 31.91, lon: 107.25 }
 - { id: macheng, name: 麻城, names: [麻城], lat: 31.17, lon: 115.03 }
 - { id: xinxian-henan, name: 河南新县, names: [新县], lat: 31.63, lon: 114.88 }
+# batch 2
+- { id: youxian, name: 攸县, names: [攸县], lat: 27.00, lon: 113.34 }
+- { id: wutai, name: 五台, names: [五台], lat: 38.73, lon: 113.25 }
+- { id: jiangjin, name: 江津, names: [江津], lat: 29.29, lon: 106.26 }
+- { id: rongcheng, name: 荣成, names: [荣成], lat: 37.16, lon: 122.42 }
+- { id: qingpu, name: 青浦（练塘）, names: [青浦, 练塘], lat: 31.01, lon: 121.04 }
+- { id: dingxiang, name: 定襄, names: [定襄], lat: 38.47, lon: 112.96 }
+- { id: zizhou, name: 子洲（原属绥德）, names: [子洲, 绥德], lat: 37.61, lon: 110.03 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

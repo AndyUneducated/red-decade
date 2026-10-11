@@ -1,0 +1,742 @@
+# M3 people, batch 2: the "February Adverse Current" (二月逆流) vice-premiers and marshals, and the
+# State Council economic leadership (谭震林, 李富春, 李先念, 徐向前, 聂荣臻, 余秋里, 谷牧, 陈云, 薄一波, 安子文).
+# 陈毅 and 叶剑英 are in people.yaml. Same format as people.yaml; quote: true is checked verbatim at build.
+# Early careers and post-1976 offices come from general reference and are marked verify.
+
+- id: tan-zhenlin
+  name: 谭震林
+  born: 1902-04-24
+  died: 1983-09-30
+  tier: 2
+  role1966: 国务院副总理、中央书记处书记
+  pinyin: Tán Zhènlín
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖南攸县
+  origin: 湖南攸县
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1926
+  positions:
+    - { title: 中共浙江省委书记, orgName: 中共浙江省委员会, from: 1949-05, to: 1952, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1956-09, to: 1966-08, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1958-05, to: 1969-04, cite: ws-1980-indictment }
+    - { title: 国务院副总理, orgName: 国务院, from: 1959-04, to: 1969-04, cite: ws-1980-indictment }
+    - { title: 国务院农林办公室主任, orgName: 国务院农林办公室, from: 1962, to: 1967-03, verify: true }
+    - { title: 全国人大常委会副委员长, orgName: 全国人民代表大会常务委员会, from: 1975-01, to: 1983-06, verify: true }
+    - { title: 中央顾问委员会副主任, orgName: 中央顾问委员会, from: 1982-09, to: 1983-09, verify: true }
+  bio: 湖南攸县人，店员出身，1926 年入党，参加湘赣边秋收暴动后上井冈山，长期在闽西、新四军和华东战场任职，1949 年后主政浙江，1959 年起任国务院副总理主管农业。1967 年 2 月 16 日怀仁堂碰头会上当面痛斥张春桥，是“二月逆流”中言辞最激烈的一个，此后被打倒，九大落选中央委员，1969 年疏散到桂林。1973 年十大恢复中央委员，1975 年任全国人大常委会副委员长，1983 年在北京病逝。
+  life:
+    - h: 店员与井冈山
+      from: 1902
+      to: 1937
+      text: |
+        1902 年生于湖南攸县，少年时在书店当学徒、店员，参加工人运动，1926 年入党。1927 年参加湘赣边秋收暴动，次年上井冈山，在红四军中任党代表、政治部主任。后到闽西任红十二军政委、福建军区司令员。1934 年主力长征后留在闽西坚持三年游击战争。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 新四军、华东与浙江
+      from: 1938
+      to: 1954
+      text: |
+        抗战时期任新四军第三支队副司令员、第六师师长兼政委，在苏南、苏中作战。解放战争中任华东野战军副政委，参加淮海、渡江战役，淮海战役总前委五位成员之一。1949 年 5 月起任中共浙江省委书记、浙江军区政委，1952 年调华东局。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 主管农业
+      from: 1954
+      to: 1966
+      text: |
+        1954 年调中央，1956 年八大当选中央书记处书记，1958 年 5 月增选政治局委员，1959 年 4 月任国务院副总理，后兼国务院农林办公室主任，是大跃进中农业“高产”宣传的主要组织者之一，也在 1960 年后参与农村政策调整。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 怀仁堂与“二月逆流”
+      from: 1967-01
+      to: 1973
+      text: |
+        1967 年 1 月农林口各部被造反派夺权，他本人被揪斗。2 月 16 日周恩来在怀仁堂主持政治局碰头会，他当着张春桥的面质问陈丕显为何被揪，据多种记述说：“你们的目的，就是要整掉老干部”，并起身要退出会场，被陈毅劝住（转述，原话以王年一、MacFarquhar 等引述为准）。次日他写信给林彪表示要“斗争到底”。2 月 18 日毛泽东召集会议严厉批评这次“大闹怀仁堂”，此后他被停职检讨，成为“二月逆流”的头号人物。1981 年历史决议把这次抗争列为对“文化大革命”错误作法的“强烈的批评”。九大未被选为中央委员，1969 年 10 月按“一号命令”疏散到广西桂林。
+      cites: [ws-1981-resolution, ws-1969-04-ninth-report, wang-nianyi-turmoil, macfarquhar-schoenhals]
+      verify: true
+    - h: 复出
+      from: 1973
+      to: 1983
+      text: |
+        1973 年 8 月十大上重新当选中央委员，1975 年 1 月四届人大当选全国人大常委会副委员长。1980 年的起诉书称，上海方面曾“搜集、编造了诬陷叶剑英、李先念、陈云、陈毅、聂荣臻、李富春、谭震林等的材料共七十六份”。1982 年任中央顾问委员会副主任，1983 年 9 月 30 日在北京病逝。
+      cites: [ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: official1966, text: 这股逆流，矛头对着以毛主席为首的无产阶级司令部（1969 年九大报告）, cite: ws-1969-04-ninth-report, quote: true }
+    - { voice: official1981, text: 一九六七年二月前后，谭震林、陈毅、叶剑英、李富春、李先念、徐向前、聂荣臻等政治局和军委的领导同志，在不同的会议上对“文化大革命”的错误作法提出了强烈的批评，但被诬为“二月逆流”而受到压制和打击（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+    - { voice: judicial1980, text: 搜集、编造了诬陷叶剑英、李先念、陈云、陈毅、聂荣臻、李富春、谭震林等的材料共七十六份，一千一百六十三页（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: scholar, text: 研究者多把怀仁堂冲突看作老干部唯一一次在正式会议上集体正面反对中央文革；毛泽东的震怒使此后几年政治局实际停摆，由中央文革碰头会取代。, cite: macfarquhar-schoenhals }
+  factions: [premier]
+  fate:
+    - { date: 1926, s: normal, note: 入党, verify: true }
+    - { date: 1959-04, s: power, note: 国务院副总理, verify: true }
+    - { date: 1967-01, s: attacked, note: 农林口造反派揪斗, verify: true }
+    - { date: 1967-02-16, s: attacked, note: 怀仁堂碰头会上痛斥张春桥, verify: true }
+    - { date: 1967-03, s: sidelined, note: 停职检讨, verify: true }
+    - { date: 1969-04, s: sidelined, note: 九大落选中央委员, verify: true }
+    - { date: 1973-08, s: restored, note: 十大恢复中央委员, verify: true }
+    - { date: 1975-01, s: normal, note: 全国人大常委会副委员长, verify: true }
+    - { date: 1983-09-30, s: dead, verify: true }
+  cites: [ws-1981-resolution, ws-1969-04-ninth-report, ws-1980-indictment]
+
+- id: li-fuchun
+  name: 李富春
+  born: 1900-05-22
+  died: 1975-01-09
+  tier: 2
+  role1966: 国务院副总理、国家计委主任
+  pinyin: Lǐ Fùchūn
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖南长沙
+  origin: 湖南长沙
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1922
+  positions:
+    - { title: 国家计划委员会主任, orgName: 国家计划委员会, from: 1954-09, to: 1970, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1954-09, to: 1975-01, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1956-09, to: 1969-04, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1962-09, to: 1966-08, verify: true }
+    - { title: 中共中央政治局常委, orgName: 中共中央政治局常务委员会, from: 1966-08, to: 1969-04, verify: true }
+  bio: 长沙人，1919 年赴法勤工俭学，在法国入党，与蔡畅结为夫妇。回国后从事军队政治工作，长征后任中央财经部门负责人，建国后长期主持国家计委，是第一个五年计划的主要制定者。1966 年八届十一中全会进入政治局常委，1967 年 2 月因参加对中央文革的抗争被归入“二月逆流”，九大后退出政治局。1975 年 1 月四届人大召开前夕在北京病逝。
+  life:
+    - h: 勤工俭学
+      from: 1900
+      to: 1925
+      text: |
+        1900 年生于长沙。1919 年赴法国勤工俭学，1922 年加入旅欧中国少年共产党并转为中共党员，与周恩来、赵世炎、邓小平等同在旅欧支部。1923 年与蔡畅结婚。后转莫斯科学习，1925 年回国。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 军队政治工作与中央苏区
+      from: 1925
+      to: 1945
+      text: |
+        北伐时任国民革命军第二军副党代表兼政治部主任。大革命失败后在上海、江西做地下工作，1931 年后在中央苏区任江西省委书记、红军总政治部代主任，参加长征。到陕北后历任中央组织部副部长、中央财政经济部部长，主持延安大生产运动的经济工作。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 东北与计委
+      from: 1945
+      to: 1966
+      text: |
+        抗战胜利后到东北，任东北局副书记，主管后方工业与财经。1952 年参与筹建国家计委，1954 年 9 月任国务院副总理兼国家计委主任，主持编制第一、第二个五年计划。1964 年毛泽东另组以余秋里为首的“小计委”，计委日常工作逐步移交。
+      verify: true
+      cites: [klein-clark-1971, ccp-org-history]
+    - h: 二月逆流与晚年
+      from: 1966-08
+      to: 1975
+      text: |
+        1966 年 8 月八届十一中全会上进入政治局常委。1967 年 2 月在京西宾馆、怀仁堂的会议上与谭震林、陈毅、叶剑英等一同批评中央文革，被列入“二月逆流”。1968 年谢富治等炮制的“中国（马列）共产党”假案中，他被诬为这个子虚乌有的党的“总理”。九大只当选中央委员，退出政治局；1973 年十大再次当选中央委员。1975 年 1 月 9 日病逝，四届人大没有再提名他。
+      cites: [ws-1981-resolution, ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: official1981, text: 一九六七年二月前后，谭震林、陈毅、叶剑英、李富春、李先念、徐向前、聂荣臻等政治局和军委的领导同志，在不同的会议上对“文化大革命”的错误作法提出了强烈的批评, cite: ws-1981-resolution, quote: true }
+    - { voice: judicial1980, text: 诬陷朱德是“中国（马列）共产党”中央的“书记”，陈毅是“副书记兼国防部长”，李富春是“总理”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: scholar, text: 李富春在怀仁堂冲突中发言不多，研究者通常把他视为“二月逆流”中被牵连的温和者；他在 1967 年后仍名义上保留副总理、计委主任，实际经济工作转到李先念主持的国务院业务组。, cite: macfarquhar-schoenhals }
+  factions: [premier]
+  fate:
+    - { date: 1922, s: normal, note: 在法国入党, verify: true }
+    - { date: 1954-09, s: power, note: 国务院副总理、国家计委主任, verify: true }
+    - { date: 1966-08, s: rise, note: 进入政治局常委, verify: true }
+    - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
+    - { date: 1968-12, s: attacked, note: “中国（马列）共产党”假案中被诬为“总理”, cite: ws-1980-indictment }
+    - { date: 1969-04, s: sidelined, note: 九大退出政治局, verify: true }
+    - { date: 1975-01-09, s: dead, verify: true }
+  cites: [ws-1981-resolution, ws-1980-indictment]
+
+- id: li-xiannian
+  name: 李先念
+  born: 1909-06-23
+  died: 1992-06-21
+  tier: 2
+  role1966: 国务院副总理、财政部长
+  pinyin: Lǐ Xiānniàn
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖北黄安（今红安）
+  origin: 湖北黄安
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1927
+  positions:
+    - { title: 中共湖北省委书记, orgName: 中共湖北省委, from: 1949-05, to: 1954, verify: true }
+    - { title: 财政部部长, orgName: 财政部, from: 1954-06, to: 1975-01, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1954-09, to: 1980-09, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1956-09, to: 1987-11, cite: ws-1969-04-28-9th-cc-plenum }
+    - { title: 国务院财贸办公室主任, orgName: 国务院财贸办公室, from: 1959-09, to: 1967, verify: true }
+    - { title: 国务院业务组组长, orgName: 国务院业务组, from: 1967-03, to: 1975-01, verify: true }
+    - { title: 中共中央副主席, orgName: 中国共产党中央委员会, from: 1977-08, to: 1982-09, verify: true }
+    - { title: 中共中央政治局常委, orgName: 中共中央政治局常务委员会, from: 1977-08, to: 1987-11, verify: true }
+    - { title: 国务院财政经济委员会副主任, orgName: 国务院财政经济委员会, from: 1979-03, to: 1981-03, verify: true }
+    - { title: 中华人民共和国主席, orgName: 中华人民共和国主席, from: 1983-06, to: 1988-04, verify: true }
+    - { title: 全国政协主席, orgName: 中国人民政治协商会议全国委员会, from: 1988-04, to: 1992-06, verify: true }
+  bio: 湖北黄安木匠出身，红四方面军将领，西路军失败后突围到新疆。抗战时创建鄂豫边根据地，1946 年率中原军区部队突围。建国后主政湖北，1954 年起任财政部长二十年。文革中虽被列入“二月逆流”，却是少数一直在台上的经济领导人，与周恩来一起维持国务院运转。1976 年参与粉碎“四人帮”，后任中共中央副主席、国家主席、全国政协主席。1992 年在北京病逝。
+  life:
+    - h: 木匠与红四方面军
+      from: 1909
+      to: 1937
+      text: |
+        1909 年生于湖北黄安的贫农家庭，学过木匠。1927 年参加黄麻起义前后入党，后在红四方面军中历任团政委、师政委、第三十军政委。1936 年冬随西路军西渡黄河，1937 年西路军在河西走廊失败，他率残部经祁连山突围到新疆。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 中原与湖北
+      from: 1938
+      to: 1954
+      text: |
+        抗战时期回到鄂豫边区，任新四军第五师师长兼政委，创建鄂豫边抗日根据地。1946 年 6 月任中原军区司令员时率部突围，打响全面内战第一仗。1949 年 5 月起任中共湖北省委书记、湖北省人民政府主席、武汉市长。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 财政部长与国务院业务组
+      from: 1954
+      to: 1976
+      text: |
+        1954 年调中央任国务院副总理兼财政部长，主管财贸，1956 年八大当选政治局委员。1967 年 2 月他在怀仁堂会议上批评“红旗”社论引发全国揪斗，被归入“二月逆流”，但毛泽东没有让他离开岗位。1967 年 3 月起协助周恩来主持国务院业务组，是文革期间国民经济计划的实际操作者之一。九大、十大均连任政治局委员。1980 年起诉书和 1982 年徐景贤案判决都提到上海方面搜集诬陷他的材料。
+      cites: [ws-1969-04-28-9th-cc-plenum, ws-1981-resolution, ws-1980-indictment, ws-1982-xu-jingxian-case]
+      verify: true
+    - h: 粉碎“四人帮”与国家主席
+      from: 1976
+      to: 1992
+      text: |
+        1976 年 9 月毛泽东去世后，他在华国锋与叶剑英之间传话，参与决定 10 月 6 日对“四人帮”采取行动。1977 年 8 月十一大当选中共中央副主席、政治局常委，1979 年起与陈云共同主持国务院财经委员会的经济调整。1983 年 6 月当选 1982 年宪法恢复后的第一任国家主席，1988 年起任全国政协主席。1989 年支持戒严。1992 年 6 月 21 日在北京病逝。
+      cites: [ws-1981-resolution, ws-1977-07-tenth-third-plenum, ws-1978-12-third-plenum]
+      verify: true
+  assess:
+    - { voice: official1966, text: 李先念　李作鹏　吴法宪（1969 年九届一中全会政治局委员名单）, cite: ws-1969-04-28-9th-cc-plenum, quote: true }
+    - { voice: official1981, text: 在粉碎江青反革命集团的斗争中，华国锋、叶剑英、李先念等同志起了重要作用, cite: ws-1981-resolution, quote: true }
+    - { voice: judicial1980, text: 还捜集编造了诬陷叶剑英、陈云、李先念、聂荣臻、李富春、谭震林等党和国家领导人的材料（1982 年徐景贤案判决）, cite: ws-1982-xu-jingxian-case, quote: true }
+    - { voice: scholar, text: 研究者认为李先念在文革中靠周恩来的庇护和经济工作的不可替代性留在台上，因而在“二月逆流”诸人中受冲击最轻；改革时期他又是对市场化步伐持保留态度的元老之一。, cite: macfarquhar-schoenhals }
+  factions: [premier]
+  fate:
+    - { date: 1927, s: normal, note: 入党, verify: true }
+    - { date: 1954-06, s: power, note: 财政部长, verify: true }
+    - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
+    - { date: 1967-03, s: power, note: 国务院业务组组长, verify: true }
+    - { date: 1969-04-28, s: power, note: 九届政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1976-10-06, s: power, note: 参与粉碎“四人帮”, cite: ws-1981-resolution }
+    - { date: 1977-08, s: rise, note: 中共中央副主席, verify: true }
+    - { date: 1983-06, s: power, note: 国家主席, verify: true }
+    - { date: 1992-06-21, s: dead, verify: true }
+  cites: [ws-1981-resolution, ws-1969-04-28-9th-cc-plenum, ws-1980-indictment, ws-1982-xu-jingxian-case]
+
+- id: xu-xiangqian
+  name: 徐向前
+  born: 1901-11-08
+  died: 1990-09-21
+  tier: 2
+  role1966: 中央军委副主席
+  pinyin: Xú Xiàngqián
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西五台
+  origin: 山西五台
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1927
+  positions:
+    - { title: 红四方面军总指挥, orgName: 中国工农红军第四方面军, from: 1931-11, to: 1937-03, verify: true }
+    - { title: 中国人民解放军总参谋长, orgName: 中国人民解放军总参谋部, from: 1949-10, to: 1950, verify: true }
+    - { title: 中央军委副主席, orgName: 中共中央军事委员会, from: 1966, to: 1987-11, cite: ws-1980-indictment }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1966-08, to: 1969-04, cite: ws-1980-indictment }
+    - { title: 全军文化革命小组组长, orgName: 全军文化革命小组, from: 1967-01, to: 1967-08, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1977-08, to: 1985-09, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1978-03, to: 1980-09, verify: true }
+    - { title: 国防部部长, orgName: 国防部, from: 1978-03, to: 1981-03, verify: true }
+  rank: { rank: 中华人民共和国元帅, date: 1955-09-27 }
+  bio: 山西五台人，黄埔一期，1927 年入党，红四方面军总指挥，十大元帅之一。1967 年 1 月临危受命任全军文革小组组长，在京西宾馆军委会议上拍案反对冲击军队，被列入“二月逆流”；同年 7 月武汉事件后清华井冈山公开提出“打倒徐向前”，抄他的住所。九大后退出政治局。1977 年恢复政治局委员，1978 年任国防部长，1990 年在北京病逝。
+  life:
+    - h: 黄埔与鄂豫皖
+      from: 1901
+      to: 1937
+      text: |
+        1901 年生于山西五台，师范毕业后当小学教员。1924 年考入黄埔军校第一期，参加东征、北伐。1927 年入党，参加广州起义。1929 年到鄂豫皖苏区，1931 年起任红四方面军总指挥，与张国焘、陈昌浩共同领导红四方面军。长征中在川西北与中央红军会合，1936 年冬率西路军西渡黄河，次年失败后只身回到延安。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 抗战与山西
+      from: 1937
+      to: 1955
+      text: |
+        抗战时期任八路军一二九师副师长，开辟冀南、鲁西根据地；1942 年回延安，曾代理抗大校长。解放战争中任华北军区第一兵团司令员，指挥晋中战役和太原战役，1949 年攻克太原。建国后任总参谋长，因病长期休养，1955 年授元帅衔。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 全军文革与“打倒徐向前”
+      from: 1966
+      to: 1969
+      text: |
+        1966 年 8 月八届十一中全会当选政治局委员，同年任中央军委副主席。1967 年 1 月刘志坚被打倒后接任全军文化革命小组组长，与叶剑英一起在京西宾馆的军委会议上拍桌子反对造反派冲击军事机关，二月被归入“二月逆流”。据 1980 年起诉书，1967 年 4 月在叶群授意下，蒯大富派人编造诬陷他的材料，发表“炮轰徐向前，打倒拿枪杆子的刘、邓──徐向前”；6 月邱会作指使总后编印传单称他是“一颗大定时炸弹”。7 月武汉事件后，据 1983 年蒯大富案判决，蒯大富“具体提出了‘打倒’……徐向前的反革命口号”，29 日派人抄他的住所和办公室并企图绑架，抢走五箱机密文件。九大只当选中央委员，1969 年 10 月疏散到河南开封。
+      cites: [ws-1980-indictment, ws-1982-12-kuai-dafu-case, ws-1981-resolution]
+      verify: true
+    - h: 国防部长与晚年
+      from: 1977
+      to: 1990
+      text: |
+        1977 年 8 月十一大重新当选政治局委员，1978 年 3 月任国务院副总理兼国防部长，1981 年辞去部长。1985 年 9 月与叶剑英、聂荣臻等一批老同志退出政治局，1987 年卸任军委副主席。1990 年 9 月 21 日在北京病逝。
+      verify: true
+      cites: [klein-clark-1971]
+  assess:
+    - { voice: judicial1980, text: 诬陷徐向前是埋藏在党内、军内的“一颗大定时炸弹，是个标准的个人野心家和阴谋家”，提出“打倒徐向前”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 具体提出了“打倒”中共中央政治局委员、中共中央军委副主席徐向前的反革命口号（1983 年蒯大富案判决）, cite: ws-1982-12-kuai-dafu-case, quote: true }
+    - { voice: official1981, text: 谭震林、陈毅、叶剑英、李富春、李先念、徐向前、聂荣臻等政治局和军委的领导同志，在不同的会议上对“文化大革命”的错误作法提出了强烈的批评, cite: ws-1981-resolution, quote: true }
+    - { voice: scholar, text: 红四方面军和西路军的历史使徐向前在延安以后长期处于边缘，研究者认为这也是他在文革中容易被造反派当作“军内走资派”靶子的原因之一。, cite: macfarquhar-schoenhals }
+  factions: [marshals]
+  fate:
+    - { date: 1927, s: normal, note: 入党, verify: true }
+    - { date: 1931-11, s: power, note: 红四方面军总指挥, verify: true }
+    - { date: 1955-09-27, s: normal, note: 授元帅衔, verify: true }
+    - { date: 1966-08, s: rise, note: 政治局委员, verify: true }
+    - { date: 1967-01, s: power, note: 全军文革小组组长, verify: true }
+    - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
+    - { date: 1967-07-29, s: attacked, note: 清华井冈山抄家、企图绑架, cite: ws-1982-12-kuai-dafu-case }
+    - { date: 1969-04, s: sidelined, note: 九大退出政治局, verify: true }
+    - { date: 1977-08, s: restored, note: 重新当选政治局委员, verify: true }
+    - { date: 1978-03, s: power, note: 国防部长, verify: true }
+    - { date: 1990-09-21, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1982-12-kuai-dafu-case, ws-1981-resolution]
+
+- id: nie-rongzhen
+  name: 聂荣臻
+  born: 1899-12-29
+  died: 1992-05-14
+  tier: 2
+  role1966: 国务院副总理、国防科委主任
+  pinyin: Niè Róngzhēn
+  gender: m
+  ethnicity: 汉族
+  birthplace: 四川江津（今属重庆）
+  origin: 四川江津
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1923
+  positions:
+    - { title: 红一军团政治委员, orgName: 中国工农红军第一军团, from: 1932-03, to: 1937-08, verify: true }
+    - { title: 晋察冀军区司令员兼政治委员, orgName: 晋察冀军区, from: 1937-11, to: 1948-05, verify: true }
+    - { title: 华北军区司令员, orgName: 华北军区, from: 1948-05, to: 1955-02, verify: true }
+    - { title: 北京市市长, orgName: 北京市人民政府, from: 1949-11, to: 1951-02, verify: true }
+    - { title: 中国人民解放军代总参谋长, orgName: 中国人民解放军总参谋部, from: 1950, to: 1954, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1956-11, to: 1975-01, cite: ws-1980-indictment }
+    - { title: 国防科学技术委员会主任, orgName: 国防科学技术委员会, from: 1958-10, to: 1970, verify: true }
+    - { title: 国家科学技术委员会主任, orgName: 国家科学技术委员会, from: 1958-11, to: 1970-07, verify: true }
+    - { title: 中央军委副主席, orgName: 中共中央军事委员会, from: 1959-09, to: 1987-11, cite: ws-1980-indictment }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1966-08, to: 1969-04, cite: ws-1980-indictment }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1977-08, to: 1985-09, verify: true }
+  rank: { rank: 中华人民共和国元帅, date: 1955-09-27 }
+  bio: 四川江津人，留法勤工俭学时入党，黄埔军校政治教官，红一军团政委，抗战中创建晋察冀根据地。建国后主管国防科技，领导“两弹一星”。1967 年 2 月参与对中央文革的抗争，被列入“二月逆流”；1968 年林彪、江青借“华北山头主义”批判打击他，1969 年疏散到邯郸。1977 年恢复政治局委员，1992 年在北京病逝，是最后一位去世的元帅。
+  life:
+    - h: 留法与黄埔
+      from: 1899
+      to: 1927
+      text: |
+        1899 年生于四川江津的农户家庭。1919 年赴法勤工俭学，在工厂做工，1922 年加入旅欧中国少年共产党，1923 年转为中共党员，后到莫斯科东方大学和红军学校学习。1925 年回国任黄埔军校政治部秘书兼政治教官，1927 年参加南昌起义、广州起义。据 1980 年刘少奇平反报告，南昌起义前他曾受周恩来派遣到庐山向刘少奇传达起义决定。
+      verify: true
+      cites: [klein-clark-1971, ws-1980-02-29-liu-rehab]
+    - h: 红一军团与晋察冀
+      from: 1931
+      to: 1949
+      text: |
+        1932 年起任红一军团政委，与军团长林彪搭档，参加长征。抗战初任八路军一一五师副师长，平型关战役后率部留在五台山区，创建晋察冀军区并任司令员兼政委十一年。解放战争中任华北军区司令员，指挥平津战役中的华北部队。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 国防科技
+      from: 1949
+      to: 1966
+      text: |
+        建国后任华北军区司令员、北京市长、代总参谋长。1956 年 11 月任国务院副总理，1958 年起兼国防科委和国家科委主任，主管导弹和原子弹研制。1964 年 10 月第一颗原子弹爆炸，1966 年 10 月导弹核武器试验成功。1966 年 4 月批判罗瑞卿的报告专门提到，罗瑞卿“否认聂荣臻同志直接领导的国防科委所取得的重大成就”。
+      cites: [ws-1966-04-luo-report]
+      verify: true
+    - h: 二月逆流与“华北山头主义”
+      from: 1966-08
+      to: 1976
+      text: |
+        1966 年 8 月当选政治局委员。1967 年初在军委会议上与叶剑英、徐向前一同反对冲击军队，后被列入“二月逆流”。据起诉书，1968 年 4 月林彪指令北京部队召开党委扩大会，批判所谓“华北山头主义”，“江青、陈伯达诬陷聂荣臻是‘华北山头主义’的后台，阴谋打倒聂荣臻”；11 月黄永胜说他“这一辈子也没有干什么好事”；1971 年 1 月江青又说华北是“坏人当了道”。九大只当选中央委员，1969 年 10 月疏散到河北邯郸。九一三事件后回京，参加军委工作。
+      cites: [ws-1980-indictment, ws-1981-resolution]
+      verify: true
+    - h: 晚年
+      from: 1977
+      to: 1992
+      text: |
+        1977 年 8 月十一大重新当选政治局委员，1985 年 9 月退出，1987 年卸任军委副主席。1989 年春与徐向前联名表态，要求军队不对群众开枪，此后又表示支持戒严（两次表态的措辞与先后以当时报道为准）。1992 年 5 月 14 日在北京病逝。
+      verify: true
+      cites: [vogel-deng]
+  assess:
+    - { voice: doc, text: 林彪、聂荣臻同志不同意罗瑞卿提出的在国防工业中马上取消军代表的主张（1966 年批判罗瑞卿报告）, cite: ws-1966-04-luo-report, quote: true }
+    - { voice: judicial1980, text: 江青、陈伯达诬陷聂荣臻是“华北山头主义”的后台，阴谋打倒聂荣臻（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: official1981, text: 谭震林、陈毅、叶剑英、李富春、李先念、徐向前、聂荣臻等政治局和军委的领导同志，在不同的会议上对“文化大革命”的错误作法提出了强烈的批评, cite: ws-1981-resolution, quote: true }
+    - { voice: scholar, text: 国防科委系统在文革中受到的冲击比其他部门轻，研究者多归因于周恩来和聂荣臻对“两弹”项目的特别保护，但七机部等单位的派性武斗仍造成研制停顿。, cite: macfarquhar-schoenhals }
+  factions: [marshals]
+  fate:
+    - { date: 1923, s: normal, note: 入党, verify: true }
+    - { date: 1937-11, s: power, note: 晋察冀军区司令员, verify: true }
+    - { date: 1955-09-27, s: normal, note: 授元帅衔, verify: true }
+    - { date: 1958-10, s: power, note: 国防科委主任, verify: true }
+    - { date: 1966-08, s: rise, note: 政治局委员, verify: true }
+    - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
+    - { date: 1968-04, s: attacked, note: “华北山头主义”批判, cite: ws-1980-indictment }
+    - { date: 1969-04, s: sidelined, note: 九大退出政治局, verify: true }
+    - { date: 1977-08, s: restored, note: 重新当选政治局委员, verify: true }
+    - { date: 1992-05-14, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1981-resolution, ws-1966-04-luo-report, ws-1980-02-29-liu-rehab]
+
+- id: yu-qiuli
+  name: 余秋里
+  born: 1914-11-15
+  died: 1999-02-03
+  tier: 3
+  role1966: 国家计委副主任（主持日常工作）
+  pinyin: Yú Qiūlǐ
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西吉安
+  origin: 江西吉安
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1931
+  positions:
+    - { title: 石油工业部部长, orgName: 石油工业部, from: 1958-02, to: 1965-01, verify: true }
+    - { title: 国家计委副主任（主持日常工作）, orgName: 国家计划委员会, from: 1965-01, to: 1970, verify: true }
+    - { title: 国家计委主任, orgName: 国家计划委员会, from: 1970, to: 1980-08, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1975-01, to: 1982-05, verify: true }
+    - { title: 中共中央政治局委员, orgName: 中共中央政治局, from: 1977-08, to: 1987-11, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1980-02, to: 1987-11, verify: true }
+    - { title: 中国人民解放军总政治部主任, orgName: 中国人民解放军总政治部, from: 1982-09, to: 1987-11, verify: true }
+  rank: { rank: 中将, date: 1955-09 }
+  bio: 江西吉安人，红军时期失去左臂的“独臂将军”。1958 年任石油部长，组织大庆石油会战；1964 年底被毛泽东点名组建“小计委”，取代李富春主持国家计委，负责三线建设规划。文革初期被造反派揪斗，靠周恩来保护很快回到工作岗位，在“中国（马列）共产党”假案中被列为“成员”。1970–1980 年任计委主任，其后任总政治部主任，1999 年在北京病逝。
+  life:
+    - h: 独臂将军
+      from: 1914
+      to: 1949
+      text: |
+        1914 年生于江西吉安的贫农家庭，1929 年参加红军，1931 年入党。1936 年长征途中在乌蒙山区作战时左臂负重伤，后截肢。抗战时期在一二〇师任团政委，解放战争中任西北野战军第一纵队政委、第一野战军后勤部长。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 大庆会战与“小计委”
+      from: 1950
+      to: 1966
+      text: |
+        1955 年授中将，任总后勤部政委、财务部长。1958 年 2 月转任石油工业部长，1960 年组织大庆石油会战，次年大庆基本建成。1964 年毛泽东批评计委工作，年底另组以他为首的“小计委”，1965 年 1 月他任计委副主任主持日常工作，编制以三线建设为中心的第三个五年计划。
+      verify: true
+      cites: [klein-clark-1971, ccp-org-history]
+    - h: 文革
+      from: 1966
+      to: 1976
+      text: |
+        1967 年初石油部、计委造反派揪斗他，周恩来出面保护，不久即回到计委工作，参加国务院业务组。据 1980 年起诉书，1968 年 12 月谢富治等制造的“中国（马列）共产党”假案中，他与董必武、叶剑英、李先念、徐向前、聂荣臻、谭震林等一起被诬为“参加的”人，罪名是“里通外国”“准备武装叛乱”。1970 年起任计委主任，1975 年任国务院副总理。
+      cites: [ws-1980-indictment]
+      verify: true
+    - h: “石油帮”与总政
+      from: 1977
+      to: 1999
+      text: |
+        1977 年十一大当选政治局委员，主持“工业学大庆”和 1978 年的“洋跃进”计划，与康世恩等被称为“石油帮”。1979 年后调整中计划指标被批评过高，1980 年 8 月计委主任由姚依林接任，他改任国家能源委员会主任、书记处书记。1982 年 9 月任总政治部主任，1987 年退休。1999 年 2 月 3 日在北京病逝。
+      verify: true
+      cites: [vogel-deng]
+  assess:
+    - { voice: judicial1980, text: 参加的有董必武、叶剑英、李先念、贺龙、刘伯承、徐向前、聂荣臻、谭震林、余秋里、王震、廖承志等，诬陷他们“里通外国”，“准备武装叛乱”，要搞“政变”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: scholar, text: 研究者常把余秋里看作毛泽东“三线建设”和“大庆模式”的执行人；他在 1978 年主持的十年规划因引进规模过大，被陈云等人批评为“洋跃进”。, cite: vogel-deng }
+  factions: [premier]
+  fate:
+    - { date: 1931, s: normal, note: 入党, verify: true }
+    - { date: 1958-02, s: power, note: 石油工业部长, verify: true }
+    - { date: 1965-01, s: rise, note: 主持国家计委（“小计委”）, verify: true }
+    - { date: 1967-01, s: attacked, note: 造反派揪斗, verify: true }
+    - { date: 1967-03, s: power, note: 回到计委、参加国务院业务组, verify: true }
+    - { date: 1968-12, s: attacked, note: “中国（马列）共产党”假案, cite: ws-1980-indictment }
+    - { date: 1975-01, s: power, note: 国务院副总理, verify: true }
+    - { date: 1980-08, s: normal, note: 卸任计委主任, verify: true }
+    - { date: 1999-02-03, s: dead, verify: true }
+  cites: [ws-1980-indictment]
+
+- id: gu-mu
+  name: 谷牧
+  born: 1914-09-28
+  died: 2009-11-06
+  tier: 3
+  role1966: 国家建委主任
+  pinyin: Gǔ Mù
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山东荣成
+  origin: 山东荣成
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1932
+  positions:
+    - { title: 国家基本建设委员会主任, orgName: 国家基本建设委员会, from: 1965-03, to: 1979, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1975-01, to: 1982-05, verify: true }
+    - { title: 国家进出口管理委员会主任, orgName: 国家进出口管理委员会, from: 1979-07, to: 1982-03, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1980-02, to: 1982-09, verify: true }
+    - { title: 国务委员, orgName: 国务院, from: 1982-05, to: 1988-04, verify: true }
+  bio: 山东荣成人，1932 年入党，抗战时期在山东做统战和根据地工作。建国后长期在国家建委、经委主持基本建设，1965 年任国家建委主任，负责三线建设施工。文革初陪同刘少奇到北京建筑工业学院，后被揪斗，1969 年复出。1975 年任国务院副总理；1978 年率团考察西欧五国，此后主管对外开放和经济特区筹建，是改革开放初期对外经济工作的主要负责人。2009 年在北京病逝。
+  life:
+    - h: 早年
+      from: 1914
+      to: 1949
+      text: |
+        1914 年生于山东荣成，在北平参加左联活动，1932 年入党。抗战时期在东北军和山东从事统战、兵运工作，后任鲁南区党委书记等职；解放战争中任中共滨海地委书记、新海连特区工委书记等。1949 年后任济南市委书记兼市长。
+      verify: true
+      cites: [ccp-figures-bios]
+    - h: 基本建设
+      from: 1952
+      to: 1966
+      text: |
+        1952 年调上海任市委宣传部长、秘书长，1954 年调中央任国家建委副主任，后任国家经委副主任。1965 年 3 月国家基本建设委员会重设，他任主任，负责三线建设的施工组织。
+      verify: true
+      cites: [ccp-org-history]
+    - h: 文革
+      from: 1966
+      to: 1975
+      text: |
+        1966 年 8 月刘少奇到北京建筑工业学院听取两派意见，因建材部归口国家建委，他也被派到该院；刘少奇 1967 年的检讨说：“由于建筑材料工业部是归口由国家建委领导的，所以谷牧同志也到你们学院参加文化大革命”。1967 年他被造反派揪斗，1980 年起诉书把他列入被诬陷、迫害的国务院各部委主要负责人。1969 年起回到国家建委工作，1970 年后主持国家基本建设革命委员会。
+      cites: [ws-1967-07-09-liu-jiangong-review, ws-1980-indictment]
+      verify: true
+    - h: 对外开放
+      from: 1975
+      to: 2009
+      text: |
+        1975 年 1 月四届人大任国务院副总理。1978 年 5–6 月率中国政府代表团考察法国、瑞士、比利时、丹麦、联邦德国，回国后的报告促成了大规模引进外资和设备的决策。1979 年起任国家进出口管理委员会、外国投资管理委员会主任，主管广东、福建两省的特殊政策和深圳等经济特区的筹建；1984 年主持十四个沿海开放城市的部署。1982 年任国务委员，1988 年退休。2009 年 11 月 6 日在北京病逝。
+      verify: true
+      cites: [vogel-deng]
+  assess:
+    - { voice: doc, text: 由于建筑材料工业部是归口由国家建委领导的，所以谷牧同志也到你们学院参加文化大革命（1967 年刘少奇检讨）, cite: ws-1967-07-09-liu-jiangong-review, quote: true }
+    - { voice: scholar, text: 傅高义认为 1978 年谷牧的西欧考察报告是中国高层第一次系统认识到与西方的经济差距，为十一届三中全会前后的开放决策提供了依据。, cite: vogel-deng }
+  factions: [premier]
+  fate:
+    - { date: 1932, s: normal, note: 入党, verify: true }
+    - { date: 1965-03, s: power, note: 国家建委主任, verify: true }
+    - { date: 1966-08, s: normal, note: 到北京建筑工业学院, cite: ws-1967-07-09-liu-jiangong-review }
+    - { date: 1967, s: attacked, note: 被揪斗, verify: true }
+    - { date: 1969, s: restored, note: 回到国家建委, verify: true }
+    - { date: 1975-01, s: power, note: 国务院副总理, verify: true }
+    - { date: 1979-07, s: power, note: 主管对外开放与经济特区, verify: true }
+    - { date: 1988-04, s: normal, note: 退休, verify: true }
+    - { date: 2009-11-06, s: dead, verify: true }
+  cites: [ws-1967-07-09-liu-jiangong-review, ws-1980-indictment]
+
+- id: chen-yun
+  name: 陈云
+  born: 1905-06-13
+  died: 1995-04-10
+  tier: 2
+  role1966: 中共中央副主席（1962 年起养病）
+  pinyin: Chén Yún
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江苏青浦练塘（今属上海）
+  origin: 江苏青浦
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1925
+  positions:
+    - { title: 中共中央组织部部长, orgName: 中共中央组织部, from: 1937-12, to: 1944-03, verify: true }
+    - { title: 中华全国总工会主席, orgName: 中华全国总工会, from: 1948-08, to: 1953, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1954-09, to: 1975-01, cite: ws-1980-indictment }
+    - { title: 中共中央副主席, orgName: 中国共产党中央委员会, from: 1956-09, to: 1966-08, verify: true }
+    - { title: 中共中央政治局常委, orgName: 中共中央政治局常务委员会, from: 1956-09, to: 1969-04, verify: true }
+    - { title: 中央财经小组组长, orgName: 中央财经领导小组, from: 1958-06, to: 1962, cite: ws-1966-10-liu-self-criticism }
+    - { title: 中共中央副主席, orgName: 中国共产党中央委员会, from: 1978-12, to: 1982-09, cite: ws-1978-12-third-plenum }
+    - { title: 中共中央政治局常委, orgName: 中共中央政治局常务委员会, from: 1978-12, to: 1987-11, cite: ws-1978-12-third-plenum }
+    - { title: 中央纪律检查委员会第一书记, orgName: 中共中央纪律检查委员会, from: 1978-12, to: 1987-11, cite: ws-1978-12-third-plenum }
+    - { title: 国务院财政经济委员会主任, orgName: 国务院财政经济委员会, from: 1979-03, to: 1981-03, verify: true }
+    - { title: 国务院副总理, orgName: 国务院, from: 1979-07, to: 1980-09, verify: true }
+    - { title: 中央顾问委员会主任, orgName: 中央顾问委员会, from: 1987-11, to: 1992-10, verify: true }
+  bio: 上海青浦人，商务印书馆学徒出身，1925 年入党，遵义会议后赴莫斯科，延安时期任中组部长。建国后主管财经，是计划经济的主要设计者，1956 年起为中共中央副主席。1957 年“反冒进”和 1962 年主张包产到户、估计“非常时期”受毛泽东批评，此后长期养病，文革中失去副主席职务，1969 年疏散到南昌。1978 年十一届三中全会复出任中央副主席、中纪委第一书记，主持经济调整，此后是改革时期主张“计划为主”的元老，1995 年在北京病逝。
+  life:
+    - h: 学徒与工运
+      from: 1905
+      to: 1934
+      text: |
+        1905 年生于江苏青浦练塘镇，幼年父母双亡，由舅父抚养。1919 年到上海商务印书馆当学徒、店员，1925 年参加五卅运动和商务印书馆罢工，同年入党。后在青浦组织农民暴动，1931 年起参与中央特科工作，任中华全国总工会党团书记，1933 年进入中央苏区。
+      verify: true
+      cites: [klein-clark-1971, ccp-figures-bios]
+    - h: 长征、莫斯科与中组部
+      from: 1934
+      to: 1949
+      text: |
+        长征中参加遵义会议，会后奉命到上海恢复地下党，转赴莫斯科任中共驻共产国际代表团成员。1937 年回国，同年 12 月起任中央组织部部长近七年。抗战胜利后到东北，任东北局副书记、北满分局书记，主持东北财经。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 财经总管
+      from: 1949
+      to: 1966
+      text: |
+        1949 年任中央财经委员会主任，主持统一财经、平抑物价和粮食统购统销。1954 年任国务院副总理，1956 年八大当选中共中央副主席、政治局常委。1956–1957 年与周恩来一起“反冒进”，1958 年南宁会议上受毛泽东批评。大跃进失败后，1962 年 2 月在国务院会议上提出经济处于“非常时期”，主张大幅调整，并在私下支持包产到户。刘少奇 1966 年的检讨说：“由于我当时过份信任陈云同志，并且偏听他的意见……所以我向中央和毛主席推荐陈云同志作中央财经小组的组长”。此后他以养病为由退出一线。
+      cites: [ws-1966-10-liu-self-criticism, ws-1981-resolution]
+      verify: true
+    - h: 文革
+      from: 1966
+      to: 1977
+      text: |
+        1966 年 8 月八届十一中全会上不再任中央副主席，仍名列政治局常委末位。1967 年“二月逆流”后受到批判，1981 年决议说“朱德、陈云同志也受到错误的批判”；1968 年康生指使郭玉峰诬陷历任中组部长张闻天、陈云、彭真、邓小平、安子文是“叛徒”“特务”。九大只当选中央委员，1969 年 10 月疏散到江西南昌，在一家化工石油机械厂“蹲点”近三年。1972 年回京，协助周恩来研究外贸问题。
+      cites: [ws-1981-resolution, ws-1980-indictment]
+      verify: true
+    - h: 复出与“鸟笼”
+      from: 1978
+      to: 1995
+      text: |
+        1978 年 11 月中央工作会议上首先提出为“六十一人案”、天安门事件、彭德怀等平反，十一届三中全会增选为中央副主席、政治局常委，并任中纪委第一书记。1979 年起主持国务院财经委员会，提出“调整、改革、整顿、提高”，压缩基建与引进规模。此后主张“计划经济为主、市场调节为辅”，以“鸟笼经济”比喻搞活与计划的关系。1987 年任中顾委主任，1989 年支持戒严。1995 年 4 月 10 日在北京病逝。
+      verify: true
+      cites: [ws-1978-12-third-plenum, vogel-deng]
+  assess:
+    - { voice: doc, text: 由于我当时过份信任陈云同志，并且偏听他的意见，在思想上同他有共同性，所以我向中央和毛主席推荐陈云同志作中央财经小组的组长（1966 年刘少奇检讨）, cite: ws-1966-10-liu-self-criticism, quote: true }
+    - { voice: officialLater, text: 全会增选陈云同志为中央政治局委员、政治局常务委员、中央委员会副主席（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
+    - { voice: official1981, text: 陈云同志提出了计划指标必须切合实际，建设规模必须同国力相适应，人民生活和国家建设必须兼顾，制定计划必须做好物资、财政、信贷平衡等观点, cite: ws-1981-resolution, quote: true }
+    - { voice: official1981, text: 朱德、陈云同志也受到错误的批判, cite: ws-1981-resolution, quote: true }
+    - { voice: scholar, text: 傅高义把陈云描述为邓小平之外改革时期最有分量的元老：既推动平反和经济调整，又以平衡与计划为原则限制改革速度，两人的分歧贯穿 1980 年代。, cite: vogel-deng }
+  factions: [premier]
+  fate:
+    - { date: 1925, s: normal, note: 入党, verify: true }
+    - { date: 1937-12, s: power, note: 中组部长, verify: true }
+    - { date: 1956-09, s: power, note: 中共中央副主席, verify: true }
+    - { date: 1962-03, s: sidelined, note: 受毛泽东批评后养病, verify: true }
+    - { date: 1966-08, s: sidelined, note: 不再任副主席, verify: true }
+    - { date: 1967-02, s: attacked, note: 受到批判, cite: ws-1981-resolution }
+    - { date: 1969-10, s: sidelined, note: 疏散到南昌, verify: true }
+    - { date: 1972, s: normal, note: 回京, verify: true }
+    - { date: 1978-12, s: restored, note: 十一届三中全会增选为中央副主席, cite: ws-1978-12-third-plenum }
+    - { date: 1987-11, s: power, note: 中顾委主任, verify: true }
+    - { date: 1995-04-10, s: dead, verify: true }
+  cites: [ws-1966-10-liu-self-criticism, ws-1978-12-third-plenum, ws-1981-resolution, ws-1980-indictment]
+
+- id: bo-yibo
+  name: 薄一波
+  born: 1908-02-17
+  died: 2007-01-15
+  tier: 2
+  role1966: 国务院副总理、国家经委主任
+  pinyin: Bó Yībō
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西定襄
+  origin: 山西定襄
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1925
+  positions:
+    - { title: 中共中央华北局第一书记, orgName: 中共中央华北局, from: 1949, to: 1954, verify: true }
+    - { title: 财政部部长, orgName: 财政部, from: 1949-10, to: 1953-09, verify: true }
+    - { title: 国家经济委员会主任, orgName: 国家经济委员会, from: 1956-05, to: 1966-12, verify: true }
+    - { title: 中共中央政治局候补委员, orgName: 中共中央政治局, from: 1956-09, to: 1966-12, cite: ws-1980-indictment }
+    - { title: 国务院副总理, orgName: 国务院, from: 1956, to: 1966-12, cite: ws-1980-indictment }
+    - { title: 国务院副总理, orgName: 国务院, from: 1979-07, to: 1982-05, verify: true }
+    - { title: 中央顾问委员会常务副主任, orgName: 中央顾问委员会, from: 1982-09, to: 1992-10, verify: true }
+    - { title: 中央整党工作指导委员会常务副主任, orgName: 中央整党工作指导委员会, from: 1983-10, to: 1987-05, verify: true }
+  bio: 山西定襄人，1925 年入党，1931 年被捕，1936 年按北方局决定办理出狱手续，抗战初在山西组建决死队。建国后任财政部长、国家经委主任、国务院副总理。文革中被定为“六十一人叛徒集团”首要成员，关押近十二年。1978 年平反，后任国务院副总理、中顾委常务副主任，在 1987 年胡耀邦下台和 1989 年戒严中站在元老一方。2007 年在北京病逝。
+  life:
+    - h: 草岚子监狱
+      from: 1908
+      to: 1937
+      text: |
+        1908 年生于山西定襄，在太原读书时参加学生运动，1925 年入党，在山西、天津从事兵运和地下工作。1931 年在北平被捕，关押在草岚子监狱。1936 年中共中央北方局（刘少奇主持）为保存干部，决定狱中党员按国民党要求登报发表“反共启事”出狱，他与刘澜涛、安子文等六十一人照此出狱。这一经过在文革中被定为“集体叛变”。
+      verify: true
+      cites: [klein-clark-1971, ws-1968-liu-case-report, ws-1980-02-29-liu-rehab]
+    - h: 决死队与晋冀鲁豫
+      from: 1937
+      to: 1949
+      text: |
+        出狱后回山西，利用阎锡山的“牺牲救国同盟会”组建山西青年抗敌决死队第一纵队，任政委，是“新军”的主要创建者。1941 年后任太岳军区政委、中共中央晋冀鲁豫中央局副书记、晋冀鲁豫军区副政委，后任华北局第一书记、华北军区政委。
+      verify: true
+      cites: [klein-clark-1971]
+    - h: 财政部长与国家经委
+      from: 1949
+      to: 1966
+      text: |
+        1949 年 10 月任财政部长，1953 年因推行“新税制”在全国财经会议上受毛泽东批评，同年离开财政部。1956 年 5 月任国家经委主任，同年八大当选政治局候补委员，任国务院副总理，主管工业和交通。
+      verify: true
+      cites: [klein-clark-1971, ccp-org-history]
+    - h: “六十一人叛徒集团”
+      from: 1966
+      to: 1978
+      text: |
+        1966 年下半年康生等重提草岚子出狱旧案，年底他在广州养病时被北京红卫兵揪回批斗。1967 年 3 月中共中央批转关于“六十一人自首叛变”的材料，他与刘澜涛、安子文、杨献珍等被定为叛徒，此后关押近十二年。1968 年刘少奇专案审查报告说：“刘少奇指使薄一波、刘澜涛、安子文等六十一个叛徒，公开发表‘反共启事’，投降国民党，叛变共产党。”聂元梓等人还捏造“彭真、薄一波、安子文——胡仁奎、李伦特务案”。
+      cites: [ws-1968-liu-case-report, ws-1982-10-05-nie-yuanzi-case, ws-1980-indictment]
+      verify: true
+    - h: 平反与元老
+      from: 1978
+      to: 2007
+      text: |
+        1978 年 12 月中共中央以 75 号文件否定“六十一人案”，十一届三中全会公报说会议“纠正了过去对彭德怀、陶铸、薄一波、杨尚昆等同志所作的错误结论”。1979 年任国务院副总理，1982 年任中顾委常务副主任，1983 年起主持整党。1987 年 1 月在批评胡耀邦的“党内生活会”上发言激烈，1989 年支持戒严。晚年著有《若干重大决策与事件的回顾》。2007 年 1 月 15 日在北京病逝。
+      cites: [ws-1978-12-third-plenum, ws-1980-02-29-liu-rehab]
+      verify: true
+  assess:
+    - { voice: official1966, text: 刘少奇指使薄一波、刘澜涛、安子文等六十一个叛徒，公开发表“反共启事”，投降国民党，叛变共产党（1968 年刘少奇专案审查报告）, cite: ws-1968-liu-case-report, quote: true }
+    - { voice: officialLater, text: 指使薄一波、刘澜涛、安子文等六十一人“投降国民党、叛变共产党”的问题，已由中共中央一九七八年十二月十六日中发75号文件予以否定（1980 年刘少奇平反报告）, cite: ws-1980-02-29-liu-rehab, quote: true }
+    - { voice: officialLater, text: 会议审查和纠正了过去对彭德怀、陶铸、薄一波、杨尚昆等同志所作的错误结论，肯定了他们对党和人民的贡献（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
+    - { voice: scholar, text: 研究者指出六十一人出狱是经中共中央批准的组织决定，文革中把它定为叛变的主要目的是坐实刘少奇“招降纳叛”；薄一波本人复出后则成为 1980 年代政治上最保守的元老之一。, cite: macfarquhar-schoenhals }
+  factions: [frontline]
+  fate:
+    - { date: 1925, s: normal, note: 入党, verify: true }
+    - { date: 1931, s: detained, note: 在北平被捕, verify: true }
+    - { date: 1936, s: normal, note: 按北方局决定出狱, verify: true }
+    - { date: 1956-05, s: power, note: 国家经委主任, verify: true }
+    - { date: 1966-12, s: attacked, note: 被红卫兵从广州揪回北京, verify: true }
+    - { date: 1967-03, s: detained, note: 定为“六十一人叛徒集团”，关押, verify: true }
+    - { date: 1978-12, s: restored, note: 平反, cite: ws-1978-12-third-plenum }
+    - { date: 1979-07, s: power, note: 国务院副总理, verify: true }
+    - { date: 1982-09, s: power, note: 中顾委常务副主任, verify: true }
+    - { date: 2007-01-15, s: dead, verify: true }
+  cites: [ws-1968-liu-case-report, ws-1980-02-29-liu-rehab, ws-1978-12-third-plenum, ws-1982-10-05-nie-yuanzi-case]
+
+- id: an-ziwen
+  name: 安子文
+  born: 1909-10-15
+  died: 1980-01-25
+  tier: 3
+  role1966: 中共中央组织部部长
+  pinyin: Ān Zǐwén
+  gender: m
+  ethnicity: 汉族
+  birthplace: 陕西子洲（原属绥德）
+  origin: 陕西绥德
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1927
+  positions:
+    - { title: 中共中央组织部副部长, orgName: 中共中央组织部, from: 1949, to: 1956-11, verify: true }
+    - { title: 中共中央组织部部长, orgName: 中共中央组织部, from: 1956-11, to: 1967, verify: true }
+  bio: 陕北绥德人，1927 年入党，1931 年在天津被捕，1936 年作为“六十一人”之一出狱。抗战时期在太岳区工作，建国后主持中组部日常工作近十八年，1956 年任部长。1953 年他私拟政治局名单被高岗利用，受毛泽东批评。文革中被定为“叛徒”，关押多年，1978 年平反，1980 年病逝。
+  life:
+    - h: 被捕与出狱
+      from: 1909
+      to: 1937
+      text: |
+        1909 年生于陕西绥德（今子洲县），在绥德师范读书时参加学生运动，1927 年入党。1931 年在天津被捕，关押在北平草岚子监狱，1936 年按北方局决定与薄一波等一同办理出狱手续。
+      verify: true
+      cites: [klein-clark-1971, ws-1968-liu-case-report]
+    - h: 太岳与中组部
+      from: 1937
+      to: 1956
+      text: |
+        出狱后在山西参加牺盟会和决死队工作，任太岳区党委书记等职。1949 年后任中央组织部副部长，主持日常工作，兼任中央人事部部长。1953 年全国财经会议期间，他私下草拟了一份政治局委员名单，被高岗拿去散布，毛泽东为此批评了他，此事成为高饶事件的一个环节。
+      verify: true
+      cites: [klein-clark-1971, macfarquhar-schoenhals]
+    - h: 部长与“叛徒”
+      from: 1956-11
+      to: 1980
+      text: |
+        1956 年 11 月任中央组织部部长。1966 年被康生点名，1967 年随“六十一人案”被定为叛徒，被撤职关押。据起诉书，1968 年 1 月康生指使郭玉峰诬陷 1937 年以后历任中组部长“张闻天、陈云、彭真、邓小平、安子文是‘叛徒’、‘特务’、‘三反分子’或是‘双料货’”，并提出把中组部“彻底解散，宣布撤销”。1967 年起的大批判文章还称他为“大叛徒安子文”。1978 年 12 月 75 号文件否定“六十一人案”，他获平反，1980 年 1 月 25 日在北京病逝。
+      cites: [ws-1980-indictment, ws-1967-11-24-countryside, ws-1980-02-29-liu-rehab]
+      verify: true
+  assess:
+    - { voice: official1966, text: 一九五○年一月，他在对大叛徒安子文的黑“指示”中（1967 年《红旗》社论）, cite: ws-1967-11-24-countryside, quote: true }
+    - { voice: judicial1980, text: 诬陷一九三七年以后历任中共中央组织部部长的张闻天、陈云、彭真、邓小平、安子文是“叛徒”、“特务”、“三反分子”或是“双料货”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: officialLater, text: 指使薄一波、刘澜涛、安子文等六十一人“投降国民党、叛变共产党”的问题，已由中共中央一九七八年十二月十六日中发75号文件予以否定, cite: ws-1980-02-29-liu-rehab, quote: true }
+  factions: [frontline]
+  fate:
+    - { date: 1927, s: normal, note: 入党, verify: true }
+    - { date: 1931, s: detained, note: 在天津被捕, verify: true }
+    - { date: 1936, s: normal, note: 按北方局决定出狱, verify: true }
+    - { date: 1956-11, s: power, note: 中组部长, verify: true }
+    - { date: 1967, s: detained, note: 定为叛徒，关押, verify: true }
+    - { date: 1968-01, s: attacked, note: 康生指使诬陷历任中组部长, cite: ws-1980-indictment }
+    - { date: 1978-12, s: restored, note: “六十一人案”平反, cite: ws-1980-02-29-liu-rehab }
+    - { date: 1980-01-25, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1968-liu-case-report, ws-1980-02-29-liu-rehab, ws-1967-11-24-countryside]
