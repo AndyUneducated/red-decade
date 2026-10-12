@@ -434,3 +434,184 @@
   concepts: [paris-commune]
   cites: [ws-1967-12-21-shengwulian-decision]
   verify: true
+
+# ── E1 补充：1967 年上半年（夺权、军队介入、革委会、六六通令）────────────
+- id: 1967-01-16-rebels-unite
+  date: 1967-01-16
+  title: 《红旗》评论员：“无产阶级革命派联合起来”夺权
+  lane: ideology
+  weight: 2
+  summary: 《红旗》杂志评论员文章把上海造反派的经验“集中到一点”：联合起来向“党内一小撮走资本主义道路的当权派”夺权，说毛泽东决定广播《告上海全市人民书》和《紧急通告》，是继 1966 年广播北大大字报之后“又一个伟大的战略措施”。全国各地造反派随即掀起夺权浪潮。
+  people: [mao-zedong, wang-hongwen, zhang-chunqiao]
+  concepts: [rebellion, capitalist-roaders]
+  voices:
+    - { voice: official1966, text: 无产阶级文化大革命的中心任务，归根结底，就是无产阶级从党内一小撮走资本主义道路当权派手中夺权的斗争。（《红旗》评论员，1967 年 1 月）, cite: ws-1967-01-16-rebels-unite, quote: true }
+  cites: [ws-1967-01-16-rebels-unite, ws-1967-01-rebel-justified]
+
+- id: 1967-01-23-harbin
+  date: 1967-01-23
+  title: 哈尔滨驻军出动“镇压反革命”
+  lane: army
+  weight: 1
+  place: 哈尔滨友谊宫
+  summary: 1 月 23 日晚，被定为“反动组织”的“荣复军”三百余人冲击红色造反团驻地友谊宫，驻军某部出动包围现场、缴械，协同公安接管委员会开“控诉大会”，首要分子被公安局逮捕。《解放军报》《人民日报》把它作为军队“坚决支持无产阶级革命派”的样板报道，当天中央刚作出解放军支持左派的决定。
+  people: [pan-fusheng]
+  voices:
+    - { voice: official1966, text: 在无产阶级革命造反派遭到反动组织围攻的紧急关头，他们立即出动，坚决地站在无产阶级革命造反派一边，镇压了反革命组织的首恶分子。（1967 年新华社报道）, cite: rmrb-1967-01-26-harbin, quote: true }
+    - { voice: editor, text: 报道里“反动组织”“首恶分子”都是事先定性，没有说明“荣复军”是什么人组成、为什么冲击。五天后的军委八条才规定“不允许无命令自由抓人”。, cite: rmrb-1967-01-26-harbin }
+  cites: [rmrb-1967-01-26-harbin]
+
+- id: 1967-01-28-eight-orders
+  date: 1967-01-28
+  title: 军委“八条命令”
+  lane: army
+  weight: 2
+  summary: 中央军委发布八条命令，毛泽东批“所定八条，很好，照发”：宣布“军队必须改变过去不介入地方文化大革命的规定”，坚决支持“真正的无产阶级革命派”、对反革命组织“坚决采取专政措施”；同时规定军内不许无命令抓人、抄家、体罚，今后“一律不许冲击”军事领导机关，高级干部要严格管教子女。2 月 21 日中共中央通知把除第七条以外的各条推广到地方。
+  people: [mao-zedong, lin-biao, ye-jianying, xu-xiangqian]
+  concepts: [verbal-struggle]
+  voices:
+    - { voice: doc, text: 不允许用对待敌人的方法来处理人民内部矛盾，不允许无命令自由抓人，不允许任意抄家、封门，不允许体罚和变相体罚（军委八条命令）, cite: ws-1967-01-28-eight-orders, quote: true }
+    - { voice: doc, text: 这个命令，除第七条关于军队的文化大革命的部署外，其他各条，都适用于地方。（1967 年 2 月 21 日中共中央通知）, cite: ws-1967-02-21-cc-notice-eight-orders, quote: true }
+  cites: [ws-1967-01-28-eight-orders, ws-1967-02-21-cc-notice-eight-orders]
+
+- id: 1967-01-30-zhejiang-decision
+  date: 1967-01-30
+  title: 中央关于浙江事件的决定
+  lane: local
+  weight: 1
+  place: 杭州
+  summary: 浙江造反派要求追查“黑材料”、交出高干子弟，与浙江党政军当局冲突，1 月 20 日后进驻军区大院。中共中央、国务院、中央军委作出决定，宣布造反派的斗争“是革命行动，中央予以支持”，责任“应完全由浙江省委，部分由军区某些领导人来负”，派南京军区政委杜平等到杭州查办。
+  voices:
+    - { voice: doc, text: 其责任应完全由浙江省委，部分由军区某些领导人来负。（1967 年中央关于浙江事件的决定）, cite: ws-1967-zhejiang-decision, quote: true }
+  cites: [ws-1967-zhejiang-decision]
+
+- id: 1967-02-03-shandong-revcom
+  date: 1967-02-03
+  title: 山东省革命委员会成立
+  lane: local
+  weight: 2
+  place: 济南
+  summary: 前青岛市副市长王效禹到济南领导夺权，2 月 3 日近十万人在济南开夺权大会，宣布夺取省委、省人委的一切大权，成立山东省革命委员会，王效禹任主任。这是继黑龙江之后的又一个省级革委会，3 月 2 日《人民日报》头版报道。
+  people: [wang-xiaoyu]
+  voices:
+    - { voice: official1966, text: 二月三日，近十万无产阶级革命者在济南举行了盛大的夺权大会，宣告了新的临时权力机构——山东省革命委员会的诞生。（1967 年新华社报道）, cite: rmrb-1967-03-02-shandong-revcom, quote: true }
+  cites: [rmrb-1967-03-02-shandong-revcom]
+
+- id: 1967-03-07-resume-classes
+  date: 1967-03-07
+  title: “中小学复课闹革命”
+  lane: culture
+  weight: 1
+  summary: 《人民日报》社论要求停课半年多的中小学师生回校“复课闹革命”：上课主要是学毛主席著作和文革文件、批判旧教材，“同时，应该用必要的时间”复习数理外语；在运动初期被打成“反革命”“小牛鬼蛇神”的学生和教职工“必须认真平反”。各地复课多半有名无实，直到 1967 年 10 月中央再发通知要求大中小学一律开学。
+  voices:
+    - { voice: official1966, text: 复课闹革命，复的是毛泽东思想的课，上的是无产阶级文化大革命的课。（1967 年《人民日报》社论）, cite: ws-1967-03-07-resume-classes, quote: true }
+  cites: [ws-1967-03-07-resume-classes]
+  verify: true
+
+- id: 1967-03-31-cadre-line
+  date: 1967-03-31
+  title: 《红旗》批“打击一大片，保护一小撮”
+  lane: ideology
+  weight: 1
+  summary: 《红旗》杂志评论员文章以清华大学工作组对待干部的调查为“典型”，说“提出资产阶级反动路线的几个人”在四清和文革初期都“打击一大片，保护一小撮”，矛头指向刘少奇、王光美。文章同时重申“干部大多数是好的和比较好的”，为夺权中“解放”部分干部、组织“三结合”铺路。
+  people: [liu-shaoqi, wang-guangmei]
+  concepts: [two-lines]
+  voices:
+    - { voice: official1966, text: “打击一大片，保护一小撮”，是资产阶级反动路线的一个组成部分。（《红旗》评论员，1967 年 3 月）, cite: ws-1967-03-31-cadre-line, quote: true }
+  cites: [ws-1967-03-31-cadre-line]
+
+- id: 1967-04-20-beijing-revcom
+  date: 1967-04-20
+  title: 北京市革命委员会成立
+  lane: local
+  weight: 2
+  place: 北京工人体育场
+  summary: 北京市革委会在工人体育场十万人大会上宣告成立，谢富治任主任，吴德、郑维山、傅崇碧、聂元梓任副主任。周恩来代表中央宣布批准，江青代表中央文革讲话，张春桥代表“五省市革命委员会”代表团讲话。社论称这是“我国无产阶级革命派夺权斗争中具有重大意义的伟大胜利”。
+  people: [xie-fuzhi, wu-de, fu-chongbi, nie-yuanzi, zhou-enlai, jiang-qing, zhang-chunqiao, chen-boda, kang-sheng]
+  voices:
+    - { voice: official1966, text: 北京市革命委员会主任委员是谢富治同志，副主任委员是吴德、郑维山、傅崇碧、聂元梓四位同志。（1967 年新华社报道）, cite: rmrb-1967-04-21-beijing-revcom, quote: true }
+  cites: [rmrb-1967-04-21-beijing-revcom, ws-1967-04-21-hail-beijing-revcom]
+
+- id: 1967-04-28-army-people
+  date: 1967-04-28
+  title: “拥军爱民”号召
+  lane: army
+  weight: 1
+  summary: 《红旗》社论传达毛泽东“拥军爱民”的号召，说这一方面是群众正确对待解放军，另一方面是解放军正确对待群众。此前各地军队“支左”中抓人、把群众组织打成反革命的事件频发（四川、青海、内蒙古等），中央随后以军委十条和各地决定纠正。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 毛主席最近提出拥军爱民的号召。（《红旗》1967 年第 6 期社论）, cite: ws-1967-04-28-army-people, quote: true }
+  cites: [ws-1967-04-28-army-people, ws-1967-04-06-ten-orders]
+
+- id: 1967-05-01-may-day
+  date: 1967-05-01
+  title: 天安门“五一”：三百万人与新贵上城楼
+  lane: mass
+  weight: 1
+  place: 北京天安门
+  summary: 毛泽东、林彪同首都“三百万”群众过“五一”，在城楼上接见北京市革委会和上海、山西革委会代表团，陈永贵与北京郊区贫下中农联欢；从印尼回国的外交官姚登山、徐仁和作家金敬迈也上了城楼。报道一半篇幅是群众表忠心的话，名单显示了夺权后新上升的人物。
+  people: [mao-zedong, lin-biao, chen-yonggui, yao-dengshan, jin-jingmai]
+  voices:
+    - { voice: official1966, text: 在天安门城楼上的，还有从印尼光荣归来的红色外交战士姚登山和徐仁。（1967 年新华社报道）, cite: rmrb-1967-05-02-may-day, quote: true }
+  cites: [rmrb-1967-05-02-may-day, chinawriter-2014-jin-jingmai]
+
+- id: 1967-05-07-sichuan-decision
+  date: 1967-05-07
+  title: 中央关于处理四川问题的决定
+  lane: local
+  weight: 2
+  place: 成都
+  summary: 中共中央撤销李井泉西南局第一书记和成都军区第一政委职务；批评成都军区“个别负责人”二月下旬以来把“工人造反兵团”“川大八·二六”打成反革命组织、大量逮捕，在宜宾、万县镇压群众。决定由张国华、梁兴初和刚平反的刘结挺、张西挺组成省革委会筹备小组，被打成“反革命”的组织和群众“一律平反，一律释放”；5 月 6 日成都流血事件作专案处理。
+  people: [li-jingquan, liu-jieting, zhang-xiting, mao-zedong]
+  voices:
+    - { voice: doc, text: 四川捉人太多，把大量群众组织宣布为反动组织，这些是错了，但他们改正也快（毛泽东批语，引自 1967 年中央决定）, cite: ws-1967-05-07-sichuan-decision, quote: true }
+    - { voice: editor, text: 决定把镇压归于军区“个别负责人”的“方向路线错误”，平反的一方此后成为四川造反派主力；刘结挺、张西挺夫妇 1970 年代再次被定为“反革命”。, cite: ws-1967-05-07-sichuan-decision }
+  cites: [ws-1967-05-07-sichuan-decision, ws-1967-04-04-yibin-rehab]
+
+- id: 1967-05-17-notice-published
+  date: 1967-05-17
+  title: 《五一六通知》公开发表
+  lane: center
+  weight: 2
+  summary: 1966 年 5 月 16 日政治局扩大会议通过的《通知》在一周年时全文登上《人民日报》头版。《通知》撤销《二月提纲》和“五人小组”，重设隶属政治局常委的文化革命小组，并写有“赫鲁晓夫那样的人物，他们现正睡在我们的身旁”——一年后读者都知道这指刘少奇。两报一刊随后发表《伟大的历史文件》等文章。
+  people: [mao-zedong, peng-zhen, liu-shaoqi, kang-sheng, chen-boda]
+  concepts: [khrushchev, bourgeois-hq]
+  voices:
+    - { voice: doc, text: 有些正在受到我们信用，被培养为我们的接班人，例如赫鲁晓夫那样的人物，他们现正睡在我们的身旁，各级党委必须充分注意这一点。（《五一六通知》）, cite: rmrb-1967-05-17-notice, quote: true }
+  cites: [rmrb-1967-05-17-notice, ws-1967-05-20-main-contradiction, ws-1967-05-great-document]
+
+- id: 1967-05-23-yanan-talks-25
+  date: 1967-05-23
+  title: 延安文艺座谈会讲话二十五周年
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 纪念《在延安文艺座谈会上的讲话》二十五周年，陈伯达在纪念大会上说世界“正在进入一个完全崭新的历史时代”，即“以毛泽东思想为伟大旗帜的新时代”；八个“样板戏”此时正在北京会演。纪念活动把讲话定为文艺界“两条路线斗争”的总纲，周扬等被批为“文艺黑线”。
+  people: [chen-boda, jiang-qing, zhou-yang]
+  concepts: [black-line]
+  voices:
+    - { voice: official1966, text: 现在世界正在进入一个完全崭新的历史时代。（陈伯达，1967 年 5 月）, cite: rmrb-1967-05-24-yanan-talks, quote: true }
+  cites: [rmrb-1967-05-24-yanan-talks, ws-1967-05-10-opera]
+
+- id: 1967-06-01-strategic
+  date: 1967-06-01
+  title: 北大大字报一周年：“掌握斗争的大方向”
+  lane: ideology
+  weight: 1
+  summary: 《红旗》《人民日报》社论《伟大的战略措施》纪念广播北大第一张大字报一周年，强调要“掌握斗争的大方向”，批评“带长字的靠边站”“上揪下扫”“矛头向上”等口号“都是错误的”，要求群众组织联合起来夺权、在“大批判”中实现大联合。此时各地派性武斗正迅速升级。
+  people: [nie-yuanzi, mao-zedong]
+  voices:
+    - { voice: official1966, text: 如果大方向错了，那就一切都错了。（1967 年 6 月 1 日社论）, cite: ws-1967-06-01-strategic, quote: true }
+  cites: [ws-1967-06-01-strategic]
+
+- id: 1967-06-06-tongling
+  date: 1967-06-06
+  title: “六六通令”：禁止打砸抢抄抓
+  lane: center
+  weight: 2
+  summary: 中共中央、国务院、中央军委、中央文革联名发布通令，纠正“打，砸，抢，抄，抓的歪风”：除专政机关外任何团体和个人不准抓人、私设公堂、搜查抄家，严禁武斗，并授权卫戍部队和驻军逮捕“打死和打伤人的凶手”。通令在城乡广泛张贴，但夏季各地武斗反而升级，7 月武汉发生“七二〇事件”，江青提出“文攻武卫”。
+  concepts: [verbal-struggle]
+  voices:
+    - { voice: doc, text: 除国家专政机关奉命依法执行必要的逮捕拘留任务外，任何团体和个人，都不准抓人，都不准私设公堂和变相地私设公堂。（“六六通令”）, cite: ws-1967-06-06-tongling, quote: true }
+  cites: [ws-1967-06-06-tongling]
+  verify: true
