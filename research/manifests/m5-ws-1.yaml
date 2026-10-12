@@ -1,0 +1,180 @@
+# M5-1 中文原文（维基文库）第 1 批：1950–1964 年的法令、中央文件、全会公报与报告。
+# date 先按文件通过或发布日登记，抓取后按正文落款核对；正文只有年份的只记年份。
+# 繁体标题的页面正文也是繁体，照原样保存与引用。
+# 已核对：日期均按页面 header 的年月日与正文题注。未收：《关于目前农村工作中若干问题的决定（草案）》
+# 页面正文有脱字，且文末混入百科评述，待找可靠文本。
+wikisource:
+  - id: ws-1950-06-14-liu-land-report
+    title: 關於土地改革問題的報告
+    date: 1950-06-14
+    author: 刘少奇
+    kind: speech
+    alias: 刘少奇《关于土地改革问题的报告》（1950）
+  - id: ws-1950-06-30-land-reform-law
+    title: 中華人民共和國土地改革法
+    date: 1950-06-30
+    author: 中央人民政府
+    kind: party-doc
+    alias: 中华人民共和国土地改革法（1950）
+  - id: ws-1950-10-10-suppress-directive
+    title: 中共中央关于镇压反革命活动的指示
+    date: 1950-10-10
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于镇压反革命活动的指示（双十指示，1950）
+  - id: ws-1951-02-20-counterrev-regulations
+    title: 中華人民共和國懲治反革命條例
+    date: 1951-02-20
+    author: 中央人民政府
+    kind: party-doc
+    alias: 中华人民共和国惩治反革命条例（1951）
+  - id: ws-1951-02-20-peng-zhen-counterrev
+    title: 关于镇压反革命和惩治反革命条例问题的报告
+    date: 1951-02-20
+    author: 彭真
+    kind: speech
+    alias: 彭真关于镇压反革命和惩治反革命条例问题的报告（1951）
+  - id: ws-1951-12-15-mutual-aid
+    title: 关于农业生产互助合作的决议（草案）
+    date: 1951-12-15
+    author: 中共中央
+    kind: party-doc
+    alias: 关于农业生产互助合作的决议（草案）（1951）
+  - id: ws-1954-09-20-constitution
+    title: 中華人民共和國憲法 (1954年)
+    date: 1954-09-20
+    author: 第一届全国人民代表大会第一次会议
+    kind: party-doc
+    alias: 1954 年宪法
+  - id: ws-1954-09-23-zhou-report
+    title: 1954年中華人民共和國中央人民政府政務院政府工作報告
+    date: 1954-09-23
+    author: 周恩来
+    kind: speech
+    alias: 周恩来政府工作报告（1954）
+  - id: ws-1955-10-11-coop-resolution
+    title: 关于农业合作化问题的决议
+    date: 1955-10-11
+    author: 中共七届六中全会
+    kind: party-doc
+    alias: 关于农业合作化问题的决议（七届六中全会，1955）
+  - id: ws-1956-09-15-eighth-report
+    title: 中国共产党中央委员会向第八次全国代表大会的政治报告
+    date: 1956-09-15
+    author: 刘少奇
+    kind: speech
+    alias: 八大政治报告（刘少奇，1956）
+  - id: ws-1956-09-27-eighth-resolution
+    title: 中国共产党第八次全国代表大会关于政治报告的决議
+    date: 1956-09-27
+    author: 中共八大
+    kind: party-doc
+    alias: 八大关于政治报告的决议（1956）
+  - id: ws-1957-04-27-rectification
+    title: 中国共产党中央委员会关于整风运动的指示
+    date: 1957-04-27
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于整风运动的指示（1957）
+  - id: ws-1957-06-08-counter-rightists
+    title: 中共中央关于组织力量准备反击右派分子进攻的指示
+    date: 1957-06-08
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于组织力量准备反击右派分子进攻的指示（1957）
+  - id: ws-1957-10-15-rightist-criteria
+    title: 中共中央关于《划分右派分子的标准》的通知
+    date: 1957-10-15
+    author: 中共中央
+    kind: party-doc
+    alias: 划分右派分子的标准（1957）
+  - id: ws-1957-09-04-no-rightists-workers
+    title: 中共中央关于在工人、农民中不划右派分子的通知
+    date: 1957-09-04
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于在工人、农民中不划右派分子的通知（1957）
+  - id: ws-1958-08-29-commune-resolution
+    title: 中共中央关于在农村建立人民公社问题的决议
+    date: 1958-08-29
+    author: 中共中央政治局扩大会议
+    kind: party-doc
+    alias: 关于在农村建立人民公社问题的决议（北戴河，1958）
+  - id: ws-1958-12-10-commune-questions
+    title: 关于人民公社若干问题的决议
+    date: 1958-12-10
+    author: 中共八届六中全会
+    kind: party-doc
+    alias: 关于人民公社若干问题的决议（武昌，1958）
+  - id: ws-1958-12-10-sixth-plenum
+    title: 中国共产党第八届中央委员会第六次全体会议公报
+    date: 1958-12-10
+    author: 中共八届六中全会
+    kind: party-doc
+    alias: 八届六中全会公报（1958）
+  - id: ws-1959-04-05-seventh-plenum
+    title: 中国共产党第八届中央委员会第七次全体会议公报
+    date: 1959-04-05
+    author: 中共八届七中全会
+    kind: party-doc
+    alias: 八届七中全会公报（1959）
+  - id: ws-1959-08-16-defend-general-line
+    title: 为保卫党的总路线、反对右倾机会主义而斗争
+    date: 1959-08-16
+    author: 中共八届八中全会
+    kind: party-doc
+    alias: 为保卫党的总路线、反对右倾机会主义而斗争（八届八中全会，1959）
+  - id: ws-1959-08-16-thrift-resolution
+    title: 关于开展增产节约运动的决议
+    date: 1959-08-16
+    author: 中共八届八中全会
+    kind: party-doc
+    alias: 关于开展增产节约运动的决议（八届八中全会，1959）
+  - id: ws-1961-01-18-ninth-plenum
+    title: 中国共产党第八届中央委员会第九次全体会议公报
+    date: 1961-01-18
+    author: 中共八届九中全会
+    kind: party-doc
+    alias: 八届九中全会公报（1961）
+  - id: ws-1962-01-27-liu-7000
+    title: 在扩大的中央工作会议上的报告 (1962年1月27日)
+    date: 1962-01-27
+    author: 刘少奇
+    kind: speech
+    alias: 刘少奇在七千人大会上的书面报告（1962）
+  - id: ws-1962-09-27-tenth-plenum
+    title: 中国共产党第八届中央委员会第十次全体会议公报
+    date: 1962-09-27
+    author: 中共八届十中全会
+    kind: party-doc
+    alias: 八届十中全会公报（1962）
+  - id: ws-1962-09-27-sixty-articles
+    title: 农村人民公社工作条例修正草案
+    date: 1962-09-27
+    author: 中共八届十中全会
+    kind: party-doc
+    alias: 农村人民公社工作条例修正草案（“六十条”，1962）
+  - id: ws-1963-03-01-five-anti
+    title: 中共中央关于厉行增产节约和反对贪污盗窃、反对投机倒把、反对铺张浪费、反对分散主义、反对官僚主义运动的指示
+    date: 1963-03-01
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于“五反”运动的指示（1963）
+  - id: ws-1963-06-14-general-line
+    title: 关于国际共产主义运动总路线的建议
+    date: 1963-06-14
+    author: 中共中央
+    kind: party-doc
+    alias: 关于国际共产主义运动总路线的建议（1963）
+  - id: ws-1963-09-13-stalin
+    title: 关于斯大林问题
+    date: 1963-09-13
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 关于斯大林问题（二评，1963）
+  - id: ws-1964-07-14-ninth-comment
+    title: 关于赫鲁晓夫的假共产主义及其在世界历史上的教训
+    date: 1964-07-14
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 关于赫鲁晓夫的假共产主义及其在世界历史上的教训（九评，1964）
