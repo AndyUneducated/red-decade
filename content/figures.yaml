@@ -217,32 +217,68 @@
   title: 广西 1967–1968 年武斗与屠杀
   period: 1967–1968
   region: 广西
-  summary: 1968 年“七·三布告”针对广西。各县的死亡数字见于 1980 年代“处遗”文件与县志，均未入库。
-  events: [1968-07-03-notice]
-  need: 广西文革“处遗”档案、县志
+  summary: 1968 年“七·三布告”针对广西。1987 年各地委、县委整党办依据“处遗”档案编写《“文革”大事件》《大事记》，各自给出本地区、本县的死亡总数。这里列六个地区的总数，按县的数字见下方“按县登记”。
+  events: [1967-11-18-guangxi-decision, 1968-07-03-notice, 1968-08-28-guangxi-revcom]
+  counts:
+    - { measure: deaths, what: 被杀害和迫害致死, scope: 南宁地区，十年, value: 18642, voice: officialLater, cite: ccrd-1987-gx-nanning-pref-43, quote: 被杀害和迫害致死18642人 }
+    - { measure: deaths, what: 被乱打死、迫害致死, scope: 桂林地区，1967–1968 年非武斗，不含临桂、阳朔, value: 9878, voice: officialLater, cite: ccrd-1987-gx-guilin-pref-177, quote: 全地区被乱打死、迫害致死9878人 }
+    - { measure: deaths, what: 被打死、被迫害致死, scope: 河池地区, value: 8333, voice: officialLater, cite: ccrd-1987-gx-hechi-pref-178, quote: 全地区被打死、被迫害致死的干部群众8333人 }
+    - { measure: deaths, what: 被迫害致死, scope: 柳州地区，1985 年 12 月统计, value: 6323, voice: officialLater, cite: ccrd-1987-gx-liuzhou-pref-47, quote: 全地区在“文革”中被迫害致死的6323人 }
+    - { measure: deaths, what: 被迫害致死, scope: 梧州地区, value: 5379, voice: officialLater, cite: ccrd-1987-gx-wuzhou-pref-212, quote: 全地区在“文革”期间被迫害致死的有5379人 }
+    - { measure: deaths, what: 被打死、逼死（含失踪）, scope: 百色地区《大事件》, value: 4199, voice: officialLater, cite: ccrd-1987-gx-baise-pref-68, quote: 无辜被打死、逼死（含失踪）共4199人 }
+    - { measure: deaths, what: 被打死、逼死（含失踪）, scope: 百色地区《大事记》, value: 4149, voice: officialLater, cite: ccrd-1987-gx-baise-pref-158, quote: 无辜被打死、逼死（含失踪）的干部群众共有4149人, note: 同一编者的两份文件差 50 人。 }
+  caveats: 玉林、钦州两地区的文件不给全地区总数，六个地区的数字也不宜相加：口径有“十年”“1967–1968 年”“非武斗”之分，桂林地区明说不含两县。1980 年特别检察厅起诉书和 1981 年判决书都没有提到广西。
+
 - id: daoxian
   title: 湖南道县 1967 年 8 月
-  period: 1967-08
+  period: 1967-08–10
   region: 湖南零陵地区
-  summary: 1967 年 8–10 月道县及周边各县的屠杀。数字见于 1980 年代零陵地区“处遗”工作报告，未入库。
-  need: 零陵地区处遗报告、《道县志》
+  summary: 1967 年 8 月 13 日至 10 月 17 日道县杀害“四类分子”及其子女，波及零陵地区其他各县。1984 年起地区“处遗”调查，1987 年道县县委写出总结报告。
+  counts:
+    - { measure: deaths, what: 被杀和被迫自杀（道县）, scope: 1967 年 8 月 13 日至 10 月 17 日, value: 4509, voice: officialLater, cite: ccrd-1987-hn-daoxian-15, quote: 全县共死亡 4509 人，其中被杀 4070 人，被迫自杀 439 人 }
+    - { measure: deaths, what: 被杀和被迫自杀（道县）, value: 4519, voice: witness, cite: yhcqw-xie-chengnian-daoxian, quote: 共被杀和被迫自杀4519人, note: 作者是地区“处遗”调查的执笔人，自述凭记忆写作，时间写作“1967年7～9月间”。 }
+    - { measure: deaths, what: 被杀和自杀（零陵全地区）, value: 9323, voice: witness, cite: yhcqw-xie-chengnian-daoxian, quote: 造成全区共被杀和自杀9323人 }
+    - { measure: injured, what: 致伤致残（零陵全地区）, value: 2146, voice: witness, cite: yhcqw-xie-chengnian-daoxian, quote: 另外致伤致残2146人 }
+    - { measure: none, what: 地委的处理原则, voice: officialLater, cite: ccrd-1985-hn-lingling-daoxian-13, quote: 坚持宜粗不宜细，宜宽不宜严，宜少不宜多的原则, note: 1985 年 3 月零陵地委给省委的报告。 }
+    - { measure: none, what: 1980 年胡耀邦视察零陵, voice: witness, cite: yhcqw-xie-chengnian-daoxian, quote: 这样的事情不要声张了，处理完了就算了，慢慢让它平息下去 }
+  caveats: 道县县委报告与谢承年的回忆差 10 人，起止时间也不同。零陵其他各县的数字见“按县登记”。1980 年起诉书和 1981 年判决书都没有提到道县。
+
 - id: daxing
   title: 北京大兴 1966 年 8 月
   period: 1966-08
   region: 北京大兴
-  summary: 1966 年 8 月下旬大兴县各公社对“四类分子”及家属的杀戮。一手文本未入库。
-  need: 北京市或大兴县的调查材料
+  summary: 1966 年 8 月 31 日起几天之内，大兴县 13 个公社打杀“四类分子”及其家属子女。1986 年大兴县委核查“三种人”领导小组写出调查处理始末。
+  events: [1966-08-27-daxing]
+  counts:
+    - { measure: deaths, what: 打杀致死“四类分子”及家属子女, value: 324, voice: officialLater, cite: ccrd-1986-bj-daxing-0, quote: 共打杀致死“四类分子”及其家属子女324人 }
+  caveats: 1980 年起诉书和 1981 年判决书都没有提到大兴。
+
 - id: red-august
   title: 北京“红八月”
   period: 1966-08–09
   region: 北京
-  summary: 1966 年 8–9 月北京城区红卫兵打死的人数。本库只有个案（卞仲耘、老舍等），没有全市数字的一手文本。
-  events: [1966-08-05-bian-zhongyun]
-  need: 北京市 1980 年代的统计材料
+  summary: 1966 年 8–9 月北京的打人、抄家。1987 年《北京市“文化大革命”大事记》征求意见稿给出两个月的全市数字。
+  events: [1966-08-red-august, 1966-08-05-bian-zhongyun]
+  counts:
+    - { measure: deaths, what: 被打死（全市）, scope: 1966 年 8、9 月, value: 1772, voice: officialLater, cite: ccrd-1987-bj-chronology-192, quote: 北京市被打死1772人 }
+    - { measure: cases, what: 被抄家（全市）, scope: 1966 年 8、9 月, value: 33695, unit: 户, voice: officialLater, cite: ccrd-1987-bj-chronology-192, quote: 被抄家的33695户 }
+  caveats: 大事记是征求意见稿，不注统计来源；是否包含大兴县的 324 人，原文没有说明。
+
+- id: clean-ranks-beijing
+  title: 北京的清理阶级队伍
+  period: 1968–1969
+  region: 北京
+  summary: 1968 年 9 月北京市革委会向中央报告“揪出”的人数；1987 年的大事记给出清队期间全市的死亡数。
+  events: [1968-05-clean-ranks]
+  counts:
+    - { measure: persecuted, what: “揪出的各种坏人”, scope: 截至 1968 年 8 月 28 日, value: 68123, voice: officialLater, cite: ccrd-1987-bj-chronology-192, quote: 全市揪出的各种坏人已达68123人, note: 大事记转引市革委会 1968 年 9 月 2 日给中央的报告。 }
+    - { measure: deaths, what: 被打死和被迫害而自杀身死, scope: 1968 年 1 月至 1969 年 5 月底, value: 3731, voice: officialLater, cite: ccrd-1987-bj-chronology-192, quote: 被打死和被迫害而自杀身死的干部和群众共3731人(自杀3512人，打死219人) }
+  caveats: 原文分列自杀 3512 人、打死 219 人；“红八月”的 1772 人原文只写“被打死”。
+
 - id: clean-ranks-national
   title: 清理阶级队伍的全国规模
   period: 1968–1969
   region: 全国
-  summary: 1969 年湖北检讨承认“扩大化现象”，1974 年中央承认湖北“搞过了一点”，但全国范围的立案与死亡数字没有任何一手文本。
+  summary: 1969 年湖北检讨承认“扩大化现象”，1974 年中央承认湖北“搞过了一点”。北京一市的数字见上方“北京的清理阶级队伍”，全国范围的立案与死亡数字没有任何一手文本。
   events: [1968-05-clean-ranks]
   need: 中央组织部或各省落实政策的统计

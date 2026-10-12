@@ -1,0 +1,30 @@
+# M3-6 补：数字争议中待补的道县、大兴、红八月、清队四案（CCRD 镜像与《炎黄春秋》转录，只保留给数字的段落）
+web:
+  - id: ccrd-1987-bj-chronology-192
+    title: 北京市“文化大革命”大事记(1965年11月——1976年10月)[征求意见稿]
+    date: 1987-05
+    author: 《北京市“文化大革命”大事记》编写小组
+    kind: local-record
+    url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000192.htm
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: [北京市被打死1772人, 全市在“清理阶级队伍”期间, 全市揪出的各种坏人已达68123人]
+  - id: ccrd-1985-hn-lingling-daoxian-13
+    title: 中共零陵地委关于道县“文化大革命”中杀人问题处理意见的报告
+    date: 1985-03-28
+    author: 中共零陵地委
+    kind: local-record
+    url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/21/000013.htm
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: [一、道县在“文革”中出现的杀人问题]
+  - id: yhcqw-xie-chengnian-daoxian
+    title: 道县“文革”杀人遗留问题处理经过
+    date: 2009-09
+    author: 谢承年
+    kind: memoir
+    url: https://web.archive.org/web/20190531033655id_/http://www.yhcqw.com/33/8101.html
+    via: 《炎黄春秋》2009 年第 9 期，炎黄春秋网（Wayback Machine 2019-05-31 快照）
+    excerpt: true
+    keep: [湖南零陵地区, 我作为调查处理这一事件的参与者, 1980年12月6日, 1985年10月中下旬的一天]
+    note: 作者是零陵地区“处遗”调查的参与者和文字综合执笔人，自述资料已散失，文中数字凭记忆。
