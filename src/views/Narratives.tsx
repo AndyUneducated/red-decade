@@ -7,10 +7,11 @@ import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
 
 // Ordered by when the voice was written: at the time → witnesses → the verdicts → later study.
-const COLS: Voice[] = ['doc', 'official1966', 'witness', 'judicial1980', 'official1981', 'officialLater', 'scholar', 'editor']
+const COLS: Voice[] = ['doc', 'official1966', 'foreign', 'witness', 'judicial1980', 'official1981', 'officialLater', 'scholar', 'editor']
 export const VOICE_COLOR: Record<Voice, string> = {
   doc: 'var(--v-doc)',
   official1966: 'var(--v-official1966)',
+  foreign: 'var(--v-foreign)',
   witness: 'var(--v-witness)',
   judicial1980: 'var(--v-judicial1980)',
   official1981: 'var(--v-official1981)',

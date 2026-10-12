@@ -1,0 +1,565 @@
+# Events, 1970–1976（M4 第一批）：卫星与“五·二〇声明”、林彪事件的逐级传达、中美接近、十大、批林批孔、四届人大与七五宪法、
+# 理论问题指示与《水浒》评论、反击右倾翻案风、1976 年的悼念、唐山地震与毛泽东追悼会、十月的决定与庆祝。
+# Sources: 当时的《人民日报》、中共中央文件与会议文献（维基文库），美国《对外关系文件》（FRUS 1969–1976 第十七、十八卷）。
+# 当时的官方说法用 official1966；美国政府当时的谈话记录、报告与情报评估用 foreign，只代表美方当时的观察与判断。
+
+- id: 1970-04-24-dongfanghong-1
+  date: 1970-04-24
+  title: 第一颗人造地球卫星“东方红一号”发射
+  lane: econ
+  weight: 2
+  place: 发射地点当时未公布
+  summary: 新华社 4 月 25 日公报宣布，4 月 24 日中国成功发射第一颗人造地球卫星，重 173 公斤，播送《东方红》乐曲。报道把它归功于“以毛主席为首、林副主席为副的党中央”，称之为“无产阶级文化大革命的又一丰硕成果”。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: doc, text: 一九七○年四月二十四日，我国成功地发射了第一颗人造地球卫星（1970 年新华社新闻公报）, cite: rmrb-1970-04-26-satellite, quote: true }
+    - { voice: doc, text: 卫星重一百七十三公斤，用二○·○○九兆周的频率，播送《东方红》乐曲（同日《人民日报》标题）, cite: rmrb-1970-04-26-satellite, quote: true }
+    - { voice: official1966, text: 是毛主席无产阶级革命路线的伟大胜利，是无产阶级文化大革命的又一丰硕成果（同日《人民日报》）, cite: rmrb-1970-04-26-satellite, quote: true }
+  cites: [rmrb-1970-04-26-satellite]
+- id: 1970-05-20-mao-statement
+  date: 1970-05-20
+  title: 毛泽东“五·二〇声明”：“当前世界的主要倾向是革命”
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 美军进入柬埔寨后，毛泽东以个人名义发表声明，支持西哈努克和印度支那三国人民，号召“全世界人民团结起来，打败美国侵略者及其一切走狗”。声明中“当前世界的主要倾向是革命”一句，此后被 1972 年元旦社论等反复引用。美国情报部门同月的评估认为，北京借柬埔寨局势削弱苏联在印度支那的影响。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 新的世界大战的危险依然存在，各国人民必须有所准备。但是，当前世界的主要倾向是革命（毛泽东 1970 年 5 月 20 日声明）, cite: rmrb-1970-05-21-mao-statement, quote: true }
+    - { voice: official1966, text: 我热烈支持柬埔寨国家元首诺罗敦·西哈努克亲王反对美帝及其走狗的斗争精神（同一声明）, cite: rmrb-1970-05-21-mao-statement, quote: true }
+    - { voice: foreign, text: 'Peking’s careful campaign to exploit Sihanouk, recently emphasized in a major pronouncement by Mao himself, is also intended to diminish Soviet influence in Indochina（1970 年 5 月美国情报评估）', cite: frus-v17-d82, quote: true }
+  cites: [rmrb-1970-05-21-mao-statement, frus-v17-d82, ws-1972-01-01-editorial]
+
+- id: 1971-04-14-pingpong
+  date: 1971-04-14
+  title: 乒乓外交：周恩来会见美国等国乒乓球队
+  lane: intl
+  weight: 2
+  place: 北京人民大会堂
+  summary: 参加第三十一届世乒赛后，加拿大、哥伦比亚、英格兰、尼日利亚和美国的乒乓球代表团应邀访华。4 月 14 日周恩来同时会见五国代表团，新华社把美国代表团同其他四国并列报道。三个月后基辛格秘密访华。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 中华人民共和国国务院总理周恩来今天下午会见了应邀前来我国进行访问的加拿大、哥伦比亚、英格兰、尼日利亚和美国的乒乓球代表团全体成员（1971 年 4 月 14 日新华社）, cite: rmrb-1971-04-15-pingpong, quote: true }
+    - { voice: official1966, text: 各国运动员通过友好往来，交流经验，互相学习，必将进一步增进各国人民之间的友谊（同日《人民日报》标题）, cite: rmrb-1971-04-15-pingpong, quote: true }
+  cites: [rmrb-1971-04-15-pingpong]
+- id: 1971-07-09-kissinger-secret
+  date: 1971-07-09
+  end: 1971-07-11
+  title: 基辛格秘密访华，7 月 16 日公告尼克松将访华
+  lane: intl
+  weight: 3
+  place: 北京
+  summary: 基辛格 7 月 9 日至 11 日在北京同周恩来会谈，叶剑英在座。7 月 16 日双方同时发表公告：周恩来代表中国政府邀请尼克松于 1972 年 5 月以前访华，尼克松“愉快地接受了这一邀请”。美方会谈记录里，周恩来向基辛格谈起文化大革命，基辛格回国后向尼克松报告这次会谈“为你和毛泽东翻开历史新的一页打下了基础”。
+  people: [zhou-enlai, ye-jianying, mao-zedong]
+  voices:
+    - { voice: doc, text: 周恩来总理和尼克松总统的国家安全事务助理基辛格博士，于一九七一年七月九日至十一日在北京进行了会谈（1971 年 7 月 16 日公告）, cite: rmrb-1971-07-16-nixon-announcement, quote: true }
+    - { voice: doc, text: 周恩来总理代表中华人民共和国政府邀请尼克松总统于一九七二年五月以前的适当时间访问中国（同一公告）, cite: rmrb-1971-07-16-nixon-announcement, quote: true }
+    - { voice: foreign, text: 'He appeared to be genuinely anguished when talking about the difficulties which had cropped up during the Cultural Revolution（美方 7 月 10 日会谈记录，记周恩来谈文革）', cite: frus-v17-d140, quote: true }
+    - { voice: foreign, text: 'We have laid the groundwork for you and Mao to turn a page in history（基辛格 7 月 14 日给尼克松的访华报告）', cite: frus-v17-d144, quote: true }
+  cites: [rmrb-1971-07-16-nixon-announcement, frus-v17-d139, frus-v17-d140, frus-v17-d144]
+
+- id: 1971-10-06-huang-wu-li-qiu
+  date: 1971-10-06
+  title: 中央通知：黄永胜、吴法宪、李作鹏、邱会作离职反省
+  lane: army
+  weight: 2
+  place: 北京
+  summary: 林彪出逃后，中央 9 月 18 日、28 日两次发通知，先在地、师以上党委传达。10 月 6 日的通知说，中央已决定黄永胜、吴法宪、李作鹏、邱会作“离职反省、彻底交代”，军委各总部、各军兵种开始揭发批判。美国方面此后的评估把这看作对军队高层的清洗，认为它改变了毛泽东的接班前景，文职领导人此后仍在设法削减军人的政治权力。
+  people: [huang-yongsheng, wu-faxian, li-zuopeng, qiu-huizuo, lin-biao, mao-zedong]
+  voices:
+    - { voice: official1966, text: 中央决定黄永胜、吴法宪、李作鹏、邱会作离职反省、彻底交代以后，军委各总部、各军兵种党组织也开始对黄、吴、李、邱揭发批判（1971 年 10 月 6 日中共中央通知）, cite: ws-1971-10-06-notice, quote: true }
+    - { voice: foreign, text: 'The purge has obviously altered the prospects for the succession to Mao Tse-tung（1972 年 7 月美国国家情报评估）', cite: frus-v17-d240, quote: true }
+    - { voice: foreign, text: 'The civilian leaders now find the military reluctant to relinquish their authority, even in the wake of Lin’s death while fleeing toward the Soviet Union（1973 年 3 月美国国务院分析）', cite: frus-v18-d23, quote: true }
+  cites: [ws-1971-10-06-notice, frus-v17-d240, frus-v18-d23]
+
+- id: 1971-10-20-kissinger-second
+  date: 1971-10-20
+  title: 基辛格第二次访华，筹备尼克松之行
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 基辛格率团再次访华，为尼克松访问商定具体安排。他在给尼克松的报告里记下了一个细节：沿途一些标语被涂掉，随员认为其中一些是新近涂的。基辛格在京期间，联合国大会于 10 月 25 日表决恢复中国席位。
+  people: [zhou-enlai]
+  voices:
+    - { voice: foreign, text: 'my staff assures me that at least some of the blotted-out slogans looked freshly done（基辛格给尼克松的访华报告）', cite: frus-v17-d163, quote: true }
+  cites: [frus-v17-d163, frus-v17-d156]
+- id: 1971-10-24-lin-affair-public
+  date: 1971-10-24
+  title: 林彪事件向全国工农兵传达
+  lane: mass
+  weight: 2
+  place: 全国
+  summary: 中央通知把林彪事件的传达范围扩大到全体党员、战士、职工、社员和大中学生，限 11 月底以前传达完毕。传达文件包括毛泽东的《我的一点意见》。“地、富、反、坏、右”、正在受审查的人和外国人都不能听传达。
+  people: [lin-biao, mao-zedong]
+  voices:
+    - { voice: official1966, text: 中央决定：各地、各单位自接到通知之日起，将林彪叛党叛国事件，向全国广大工农兵群众传达（1971 年 10 月 24 日中共中央通知）, cite: ws-1971-10-24-notice, quote: true }
+    - { voice: doc, text: 地、富、反、坏、右、资本家，有严重政治历史问题和正在进行审查的人，都不能听传达。外国人也不能听传达（同一通知）, cite: ws-1971-10-24-notice, quote: true }
+    - { voice: doc, text: 但最迟应在十一月底以前传达完毕（同一通知）, cite: ws-1971-10-24-notice, quote: true }
+  cites: [ws-1971-10-24-notice, ws-1971-10-06-notice]
+
+- id: 1971-11-14-571-notice
+  date: 1971-11-14
+  title: 中央通报查获《“571工程”纪要》
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 中央通知说，在林立果设在空军学院的秘密据点查获了《“571工程”纪要》，证明政变“早有预谋”。通知概括其内容：国内要实行“地主买办资产阶级的法西斯专政”，国际上要“投降苏修社会帝国主义”。两个月后《纪要》原文作为“材料之二”下发，要求逐条批判。
+  people: [lin-biao, lin-liguo]
+  voices:
+    - { voice: official1966, text: 从林彪的儿子林立果在北京空军学院的秘密据点里，查获了林彪一伙制定的反革命政变纲领《“571工程”纪要》（1971 年 11 月中共中央通知）, cite: ws-1971-11-14-notice, quote: true }
+    - { voice: official1966, text: 在国际，他们要投降苏修社会帝国主义，联苏联美反共反华反革命（同一通知）, cite: ws-1971-11-14-notice, quote: true }
+  cites: [ws-1971-11-14-notice]
+
+- id: 1971-12-11-lin-material-1
+  date: 1971-12-11
+  title: 林陈集团“材料之一”下发，批林整风展开
+  lane: center
+  weight: 1
+  place: 全国
+  summary: 中央下发专案组整理的《粉碎林陈反党集团反革命政变的斗争》（材料之一），按上一通知的范围组织传达讨论。此后“材料之二”（1972 年 1 月）、“材料之三”（1972 年 7 月）陆续下发，“批林整风”成为 1972 年的主要运动。
+  people: [lin-biao, chen-boda]
+  voices:
+    - { voice: official1966, text: 现将中央专案组整理的《粉碎林陈反党集团反革命政变的斗争》（材料之一）发给你们，请你们立即组织传达和讨论（1971 年 12 月中共中央通知）, cite: ws-1971-12-11-notice, quote: true }
+  cites: [ws-1971-12-11-notice, ws-1971-12-lin-chen-material-1]
+
+- id: 1972-01-01-tianxia-daluan
+  date: 1972-01-01
+  title: 1972 年元旦社论：世界形势“天下大乱”
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 元旦社论引用毛泽东“五·二〇声明”，用“乱”字概括国际形势，并把恢复联合国席位、同十五个国家建交列为过去一年的外交胜利。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 今日世界形势的特点，可以用一个字来概括，就是“乱”，或者叫“天下大乱”（1972 年元旦社论）, cite: ws-1972-01-01-editorial, quote: true }
+    - { voice: official1966, text: 我国又同十五个国家建立了外交关系，特别是我国在联合国的合法权利得到恢复（同一社论）, cite: ws-1972-01-01-editorial, quote: true }
+  cites: [ws-1972-01-01-editorial]
+- id: 1972-01-10-chen-yi-memorial
+  date: 1972-01-10
+  title: 陈毅追悼会，毛泽东出席
+  lane: center
+  weight: 2
+  place: 北京八宝山革命公墓
+  summary: 陈毅 1 月 6 日因肠癌去世，终年七十一岁。10 日在八宝山开追悼会，毛泽东出席，并慰问陈毅的夫人张茜和子女；周恩来致悼词，西哈努克夫妇应邀参加。
+  people: [chen-yi, mao-zedong, zhou-enlai, jiang-qing, ye-jianying, zhang-chunqiao, li-xiannian]
+  voices:
+    - { voice: doc, text: 因患肠癌，治疗无效，于一九七二年一月六日在北京不幸逝世。终年七十一岁（1972 年 1 月 10 日新华社）, cite: rmrb-1972-01-11-chenyi-memorial, quote: true }
+    - { voice: official1966, text: 我们的伟大领袖毛主席参加了追悼会，并向陈毅同志的家属张茜同志及其子女亲切慰问（同一报道）, cite: rmrb-1972-01-11-chenyi-memorial, quote: true }
+  cites: [rmrb-1972-01-11-chenyi-memorial]
+- id: 1972-01-13-lin-material-2
+  date: 1972-01-13
+  title: “材料之二”下发：逐条批判《“571工程”纪要》
+  lane: center
+  weight: 2
+  place: 全国
+  summary: 中央同日发两个通知：一是扩大“材料之一”的发放，工矿发到班组、农村发到生产队、军队发到排；二是下发“材料之二”，内容是《“571工程”纪要》的出笼经过和原文，要求先在干部中、再向群众传达，“逐条逐段地批判”。《纪要》称毛泽东为“当代的秦始皇”，这些话由此传到了全国的生产队。
+  people: [lin-biao, lin-liguo, ye-qun, mao-zedong]
+  voices:
+    - { voice: official1966, text: 传达讨论的重点是批判林彪一伙炮制的《“571工程”纪要》反革命纲领（1972 年 1 月 13 日中共中央通知）, cite: ws-1972-01-13-notice-4, quote: true }
+    - { voice: doc, text: 农村发至生产队，三十户以下的发两份，三十户至五十户的发三份（同日另一通知）, cite: ws-1972-01-13-notice-3, quote: true }
+    - { voice: doc, text: 打倒当代的秦始皇——Ｂ－５２，推翻挂着社会主义招牌的封建王朝（《“571工程”纪要》原文，录自“材料之二”）, cite: ws-1972-lin-material-2, quote: true }
+  cites: [ws-1972-01-13-notice-3, ws-1972-01-13-notice-4, ws-1972-lin-material-2]
+
+- id: 1972-02-21-mao-nixon
+  date: 1972-02-21
+  title: 毛泽东会见尼克松
+  lane: intl
+  weight: 3
+  place: 北京中南海
+  summary: 尼克松到京当天下午，毛泽东在中南海会见他，基辛格、周恩来在座。新华社只说进行了“认真、坦率的谈话”。美方记录显示，毛泽东在谈话中提到了林彪出逃。访问前基辛格给尼克松的备忘录说，去年秋天的神秘事件说明毛、周接近美国冒了很大风险。
+  people: [mao-zedong, zhou-enlai]
+  voices:
+    - { voice: doc, text: 毛泽东主席今天下午在中南海会见美国总统理查德·尼克松，同他进行了认真、坦率的谈话（1972 年 2 月 21 日新华社）, cite: rmrb-1972-02-22-mao-nixon, quote: true }
+    - { voice: foreign, text: 'In our country also there is a reactionary group which is opposed to our contact with you.……The result was that they got on an airplane and fled abroad（美方谈话记录，毛泽东语）', cite: frus-v17-d194, quote: true }
+    - { voice: foreign, text: 'the mysterious events last fall and the alleged Lin Piao challenge underline the great gamble Mao and Chou have taken in dealing with us and inviting you（基辛格 2 月 19 日给尼克松的备忘录）', cite: frus-v17-d193, quote: true }
+  cites: [rmrb-1972-02-22-mao-nixon, frus-v17-d194, frus-v17-d193]
+
+- id: 1972-02-27-shanghai-communique
+  date: 1972-02-27
+  title: 中美上海公报
+  lane: intl
+  weight: 2
+  place: 上海
+  summary: 尼克松访华（2 月 21–28 日）期间访问北京、杭州、上海，27 日在上海达成联合公报。公报采取双方各自表述立场的写法，中方部分以“哪里有压迫，哪里就有反抗”开头。
+  people: [zhou-enlai, mao-zedong, ji-pengfei]
+  voices:
+    - { voice: doc, text: 中华人民共和国和美利坚合众国领导人经过这么多年一直没有接触之后，现在有机会坦率地互相介绍彼此对各种问题的观点（1972 年 2 月 27 日联合公报）, cite: rmrb-1972-02-28-shanghai-communique, quote: true }
+    - { voice: official1966, text: 中国方面声明：哪里有压迫，哪里就有反抗（同一公报）, cite: rmrb-1972-02-28-shanghai-communique, quote: true }
+  cites: [rmrb-1972-02-28-shanghai-communique, frus-v17-d203]
+
+- id: 1972-07-02-lin-material-3
+  date: 1972-07-02
+  title: “材料之三”下发，以毛泽东南巡谈话为武器批林整风
+  lane: center
+  weight: 1
+  place: 全国
+  summary: 中央下发“材料之三”，即专案组选印的《林彪反党集团反革命政变的罪证》，要求以 3 月印发的《毛主席在外地巡视期间同沿途各地负责同志的谈话纪要》为武器，深入批林整风，并译成蒙、藏、维、哈、朝文字下发。
+  people: [lin-biao, mao-zedong]
+  voices:
+    - { voice: official1966, text: 要以《毛主席在外地巡视期间同沿途各地负责同志的谈话纪要》为武器，深入进行批林整风运动（1972 年 7 月中共中央通知）, cite: ws-1972-07-02-notice-24, quote: true }
+  cites: [ws-1972-07-02-notice-24, ws-1972-03-17-notice]
+
+- id: 1972-09-25-tanaka
+  date: 1972-09-25
+  end: 1972-09-30
+  title: 田中角荣访华，中日邦交正常化
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 日本首相田中角荣访华，毛泽东 9 月 27 日会见他，29 日两国政府发表联合声明，结束“不正常状态”，建立外交关系。日方在声明中表示对战争给中国人民造成的重大损害“深刻的反省”。
+  people: [zhou-enlai, mao-zedong, ji-pengfei]
+  voices:
+    - { voice: doc, text: 日本方面痛感日本国过去由于战争给中国人民造成的重大损害的责任，表示深刻的反省（1972 年中日联合声明）, cite: rmrb-1972-09-30-japan-statement, quote: true }
+    - { voice: doc, text: 毛泽东主席于九月二十七日会见了田中角荣总理大臣（同一声明）, cite: rmrb-1972-09-30-japan-statement, quote: true }
+  cites: [rmrb-1972-09-30-japan-statement]
+
+- id: 1973-01-01-pi-xiu-zhengfeng
+  date: 1973-01-01
+  title: 1973 年元旦社论：“批修整风”
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 元旦社论总结 1972 年，用的是“批修整风”，批判对象写作“刘少奇一类骗子”，没有点林彪的名。社论说过去一年党的“各项无产阶级政策得到更好的落实”。
+  people: []
+  voices:
+    - { voice: official1966, text: 批修整风运动在全国更加深入扎实地开展，保卫和发展了无产阶级文化大革命的丰硕成果（1973 年元旦社论）, cite: ws-1973-01-01-editorial, quote: true }
+    - { voice: official1966, text: 开展对刘少奇一类骗子的革命大批判（同一社论）, cite: ws-1973-01-01-editorial, quote: true }
+  cites: [ws-1973-01-01-editorial]
+
+- id: 1973-04-12-deng-reappears
+  date: 1973-04-12
+  title: 邓小平重新出现在公开场合
+  lane: center
+  weight: 2
+  place: 北京人民大会堂
+  summary: 周恩来设宴欢迎西哈努克从柬埔寨解放区回到北京，新华社公布的作陪名单中有邓小平。美国方面把邓小平复出看作毛泽东、周恩来加强文职领导的信号，1975 年的简报认为复出出自毛泽东本人。
+  people: [deng-xiaoping, zhou-enlai, mao-zedong, ye-jianying, zhang-chunqiao, yao-wenyuan, wang-hongwen, hua-guofeng, ji-pengfei, wu-de]
+  voices:
+    - { voice: doc, text: 邓小平、姬鹏飞、耿飚、方毅、吴德出席作陪（1973 年 4 月 12 日新华社）, cite: rmrb-1973-04-13-sihanouk-banquet, quote: true }
+    - { voice: foreign, text: 'the rehabilitation of Teng Hsiao-p’ing suggest that the Chairman and Premier are strengthening the return to regularized, civilian leadership（1974 年 2 月美国国家安全委员会备忘录）', cite: frus-v18-d69, quote: true }
+    - { voice: foreign, text: 'We believe that Chairman Mao was responsible for the 1973 political rehabilitation of Teng Hsiao-p’ing（1975 年 11 月基辛格给福特的简报）', cite: frus-v18-d132, quote: true }
+  cites: [rmrb-1973-04-13-sihanouk-banquet, frus-v18-d69, frus-v18-d132]
+
+- id: 1973-08-07-zhiqing-editorial
+  date: 1973-08-07
+  title: 《人民日报》社论：进一步做好知识青年上山下乡工作
+  lane: mass
+  weight: 1
+  place: 北京
+  summary: 社论称几年来“几百万青年学生”下乡，树邢燕子、侯隽为典型，要求各地继续做好安置工作。1975 年周恩来政府工作报告说“近千万知识青年上山下乡”。
+  people: []
+  voices:
+    - { voice: official1966, text: 几年来，几百万青年学生满怀革命豪情，奔向祖国的农村、边疆（1973 年 8 月 7 日社论）, cite: rmrb-1973-08-07-zhiqing-editorial, quote: true }
+    - { voice: official1966, text: 近千万知识青年上山下乡（1975 年政府工作报告）, cite: ws-1975-01-13-zhou-report, quote: true }
+  cites: [rmrb-1973-08-07-zhiqing-editorial, ws-1975-01-13-zhou-report]
+
+- id: 1973-08-24-tenth-congress
+  date: 1973-08-24
+  end: 1973-08-28
+  title: 中共十大：王洪文作修改党章报告，“反潮流”写入党章
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 十大在林彪事件两年后召开，周恩来作政治报告，王洪文作修改党章的报告，大会选周恩来、王洪文、康生、叶剑英、李德生为主席团副主席，张春桥为秘书长。新党章写入“敢于反潮流的革命精神”，王洪文的报告把它解释为“不怕撤职，不怕开除党籍，不怕坐牢，不怕杀头，不怕离婚”。
+  people: [mao-zedong, zhou-enlai, wang-hongwen, kang-sheng, ye-jianying, li-desheng, zhang-chunqiao, jiang-qing, yao-wenyuan]
+  voices:
+    - { voice: doc, text: 大会一致通过毛主席为主席团主席，周恩来、王洪文、康生、叶剑英、李德生同志为主席团副主席，张春桥同志为主席团秘书长（1973 年十大公报）, cite: ws-1973-08-29-congress-communique, quote: true }
+    - { voice: official1966, text: 反对刘少奇的修正主义，掩盖着林彪的修正主义（周恩来政治报告）, cite: ws-1973-08-24-zhou-report, quote: true }
+    - { voice: official1966, text: 不怕撤职，不怕开除党籍，不怕坐牢，不怕杀头，不怕离婚，敢于反潮流（王洪文修改党章的报告）, cite: ws-1973-08-24-wang-report, quote: true }
+    - { voice: foreign, text: 'the groups which seemed to be forming an alliance of convenience last summer to defend themselves against the Mao/Chou mainstream in advance of the Tenth Party Congress（1974 年 2 月美国国家安全委员会备忘录）', cite: frus-v18-d69, quote: true }
+  cites: [ws-1973-08-29-congress-communique, ws-1973-08-24-zhou-report, ws-1973-08-24-wang-report, ws-1973-party-constitution, frus-v18-d69]
+- id: 1974-01-01-newyear
+  date: 1974-01-01
+  title: 1974 年元旦社论：工农业总产值增长“百分之八以上”
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 两报一刊元旦社论总结十大以后的形势，说批林整风推动了生产，工农业总产值比 1972 年增长百分之八以上，农业连续十二年丰收。
+  people: []
+  voices:
+    - { voice: official1966, text: 工农业总产值比一九七二年增长百分之八以上。农业连续十二年丰收（1974 年元旦社论）, cite: rmrb-1974-01-01-newyear-editorial, quote: true }
+    - { voice: official1966, text: 工农兵和革命知识分子向资产阶级和一切剥削阶级的意识形态展开了新的进攻（同一社论）, cite: rmrb-1974-01-01-newyear-editorial, quote: true }
+  cites: [rmrb-1974-01-01-newyear-editorial]
+
+- id: 1974-01-19-xisha
+  date: 1974-01-19
+  title: 西沙海战
+  lane: army
+  weight: 2
+  place: 西沙群岛
+  summary: 新华社说，1 月 15 日起南越西贡当局出动军舰、飞机进入西沙海域，17 日占金银岛、甘泉岛，19 日企图强占琛航岛，向中国渔民开枪，中国渔民和海军舰艇“被迫进行自卫还击”。
+  people: []
+  voices:
+    - { voice: official1966, text: 一月十九日上午七时许，西贡当局的军队又企图强占我琛航岛（1974 年 1 月 19 日新华社）, cite: rmrb-1974-01-20-xisha, quote: true }
+    - { voice: official1966, text: 我渔民、舰艇被迫进行自卫还击（同日《人民日报》标题）, cite: rmrb-1974-01-20-xisha, quote: true }
+  cites: [rmrb-1974-01-20-xisha]
+
+- id: 1974-02-02-pilin-pikong
+  date: 1974-02-02
+  title: 《人民日报》社论推开批林批孔运动
+  lane: ideology
+  weight: 3
+  place: 北京
+  summary: 社论宣布“一场群众性的深入批林批孔的政治斗争”在各方面展开，称林彪是“孔老二的信徒”，“尊孔反法，攻击秦始皇”。美国国家安全委员会的分析认为，这标志着运动进入公开阶段，并预计会有高层领导人倒台；国务院此前也注意到批孔带有批判知识界的成分。
+  people: [lin-biao, mao-zedong, jiang-qing]
+  voices:
+    - { voice: official1966, text: 一场群众性的深入批林批孔的政治斗争，正在各个方面展开（1974 年 2 月 2 日社论）, cite: ws-1974-02-02-editorial, quote: true }
+    - { voice: official1966, text: 资产阶级野心家、阴谋家、两面派、叛徒、卖国贼林彪，就是一个地地道道的孔老二的信徒（同一社论）, cite: ws-1974-02-02-editorial, quote: true }
+    - { voice: foreign, text: 'It thus seems clear that high leaders are likely to fall during this new phase of mass criticism（1974 年 2 月美国国家安全委员会备忘录）', cite: frus-v18-d69, quote: true }
+    - { voice: foreign, text: 'the current debate in the PRC about Confucius has a strong element of criticism of the intellectual community（1973 年 12 月美方备忘录）', cite: frus-v18-d65, quote: true }
+  cites: [ws-1974-02-02-editorial, frus-v18-d69, frus-v18-d65]
+
+- id: 1974-11-eight-years-enough
+  date: 1974-11-18
+  title: 美方报告：毛泽东称八年文革“已经够了”
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 美国驻北京联络处主任布什报告，三个城市传来几乎相同的消息，说中央最近一份指示引用毛泽东的话：文化大革命八年已经够了。报告认为批林批孔中“反潮流”的号召重新揭开了文革的旧伤，春夏的派性斗争和大字报很快被中央制止；邓小平看来已经代行总理职责。
+  people: [mao-zedong, deng-xiaoping, zhou-enlai]
+  voices:
+    - { voice: foreign, text: 'Almost identical reports from three cities in China describe a recent Central Committee directive which quote no less than Chairman Mao as saying that eight years of the Cultural Revolution is enough（1974 年 11 月布什报告）', cite: frus-v18-d91, quote: true }
+    - { voice: foreign, text: 'Apparently it was agreed that China could not afford another Cultural Revolution at this time（同一报告）', cite: frus-v18-d91, quote: true }
+    - { voice: foreign, text: 'Teng Hsiao-ping now seems clearly to have moved into the Acting Premier’s role（同一报告）', cite: frus-v18-d91, quote: true }
+  cites: [frus-v18-d91]
+
+- id: 1975-01-01-newyear
+  date: 1975-01-01
+  title: 1975 年元旦社论：批林批孔“胜利地进行”
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 两报一刊元旦社论宣布过去一年“胜利地进行了批林批孔运动”，同时强调农业丰收、市场繁荣，与资本主义世界的经济危机对比。两周后四届人大召开。
+  people: []
+  voices:
+    - { voice: official1966, text: 在伟大领袖毛主席亲自发动和领导下，过去的一年，我们胜利地进行了批林批孔运动（1975 年元旦社论）, cite: rmrb-1975-01-01-newyear-editorial, quote: true }
+    - { voice: official1966, text: 农业在连续十二年丰收的基础上，又获得全面丰收（同一社论）, cite: rmrb-1975-01-01-newyear-editorial, quote: true }
+  cites: [rmrb-1975-01-01-newyear-editorial]
+
+- id: 1975-01-17-constitution
+  date: 1975-01-17
+  title: 四届人大通过 1975 年宪法：不设国家主席，写入“四大”和罢工自由
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 张春桥代表中共中央作修宪报告。新宪法不设国家主席，规定全国人大是“在中国共产党领导下的最高国家权力机关”、党中央主席统率全国武装力量；写入“大鸣、大放、大辩论、大字报”，并根据毛泽东的建议增加了罢工自由。美国国务院注意到，新宪法肯定了文革中左派用来攻击“修正主义者”的大字报。
+  people: [zhang-chunqiao, mao-zedong, zhou-enlai, zhu-de]
+  voices:
+    - { voice: official1966, text: 由于不设国家主席，草案对一九五四年宪法关于国家机构的规定，作了相应的修改（张春桥关于修改宪法的报告）, cite: ws-1975-01-13-zhang-report, quote: true }
+    - { voice: official1966, text: 根据毛主席的建议，草案第二十八条增加了公民有罢工自由的内容（同一报告）, cite: ws-1975-01-13-zhang-report, quote: true }
+    - { voice: doc, text: 这些矛盾，只能靠无产阶级专政下继续革命的理论和实践来解决（1975 年宪法序言）, cite: ws-1975-constitution, quote: true }
+    - { voice: foreign, text: 'the new state constitution affirms the legitimacy of mass debates via big character posters（1975 年 1 月美国国务院报告）', cite: frus-v18-d103, quote: true }
+  cites: [ws-1975-constitution, ws-1975-01-13-zhang-report, ws-1975-npc-communique, frus-v18-d103]
+
+- id: 1975-02-22-theory-instructions
+  date: 1975-02-22
+  title: 公布毛泽东关于理论问题的指示：学习无产阶级专政理论
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 《人民日报》《红旗》编者按公布毛泽东“最近”关于理论问题的指示：要搞清楚“对资产阶级专政”的问题；八级工资制、按劳分配、货币交换“跟旧社会没有多少差别”，只能在无产阶级专政下加以限制；“林彪一类如上台，搞资本主义制度很容易”。随后姚文元、张春桥发表长文，全国开展学习无产阶级专政理论运动。
+  people: [mao-zedong, yao-wenyuan, zhang-chunqiao]
+  voices:
+    - { voice: official1966, text: 列宁为什么说对资产阶级专政，这个问题要搞清楚。这个问题不搞清楚，就会变修正主义。要使全国知道（毛泽东指示，1975 年 2 月 22 日公布）, cite: rmrb-1975-02-22-marx-dictatorship, quote: true }
+    - { voice: official1966, text: 现在还实行八级工资制，按劳分配，货币交换，这些跟旧社会没有多少差别（同一指示）, cite: rmrb-1975-02-22-marx-dictatorship, quote: true }
+  cites: [rmrb-1975-02-22-marx-dictatorship]
+
+- id: 1975-03-01-yao-social-basis
+  date: 1975-03-01
+  title: 姚文元《论林彪反党集团的社会基础》
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 姚文元从毛泽东“林彪一类如上台，搞资本主义制度很容易”一语出发，追问“林彪一类”的阶级本质和社会基础，是理论学习运动的第一篇长文。
+  people: [yao-wenyuan, lin-biao, mao-zedong]
+  voices:
+    - { voice: official1966, text: 林彪反党集团代表了被打倒的地主资产阶级的利益（姚文元文章）, cite: rmrb-1975-03-01-yao-social-basis, quote: true }
+  cites: [rmrb-1975-03-01-yao-social-basis]
+- id: 1975-04-01-zhang-dictatorship
+  date: 1975-04-01
+  title: 张春桥《论对资产阶级的全面专政》
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 张春桥的长文接着姚文元，称能不能坚持无产阶级专政是“头等大事”，并说经过文化大革命“摧毁了刘少奇、林彪两个资产阶级司令部”。他在四届人大修宪报告里已经提出要在上层建筑各领域实行“全面的专政”。
+  people: [zhang-chunqiao, mao-zedong]
+  voices:
+    - { voice: official1966, text: 能不能始终坚持无产阶级专政，是关系我国发展前途的头等大事（张春桥文章）, cite: rmrb-1975-04-01-zhang-dictatorship, quote: true }
+  cites: [rmrb-1975-04-01-zhang-dictatorship, ws-1975-01-13-zhang-report]
+
+- id: 1975-04-30-saigon
+  date: 1975-04-30
+  title: 西贡解放，毛泽东、朱德、周恩来致电祝贺
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 4 月 30 日南越政权垮台，毛泽东、朱德、周恩来当天致电越南南北双方领导人，祝贺“解放西贡的伟大胜利”。
+  people: [mao-zedong, zhu-de, zhou-enlai]
+  voices:
+    - { voice: official1966, text: 越南南方军民经过长期的英勇奋战，彻底摧毁了南越傀儡政权，终于解放了西贡（1975 年 4 月 30 日贺电）, cite: rmrb-1975-05-01-saigon, quote: true }
+  cites: [rmrb-1975-05-01-saigon]
+
+- id: 1975-09-04-shuihu
+  date: 1975-09-04
+  title: 评《水浒》运动：“《水浒》这部书，好就好在投降”
+  lane: culture
+  weight: 2
+  place: 北京
+  summary: 《人民日报》社论公布毛泽东关于《水浒》的谈话，号召开展评论：宋江“投降，搞修正主义”，“屏晁盖于一百○八人之外”。评《水浒》成为 1975 年秋的全国性运动。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 《水浒》这部书，好就好在投降。做反面教材，使人民都知道投降派（毛泽东语，1975 年 9 月 4 日社论公布）, cite: rmrb-1975-09-04-shuihu, quote: true }
+    - { voice: official1966, text: 《水浒》只反贪官，不反皇帝。屏晁盖于一百○八人之外（同一社论引毛泽东语）, cite: rmrb-1975-09-04-shuihu, quote: true }
+  cites: [rmrb-1975-09-04-shuihu]
+
+- id: 1975-10-21-mao-kissinger
+  date: 1975-10-21
+  title: 毛泽东会见基辛格：“我们都死了以后，你们还活着”
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 基辛格为福特访华做准备，邓小平陪同见毛泽东。美方记录里，毛泽东指着邓小平说他七十一岁，又说自己、邓小平、周恩来、叶剑英都死了以后，基辛格还会活着。基辛格向福特报告，毛泽东说大问题是国际形势、小问题是台湾。
+  people: [mao-zedong, deng-xiaoping, zhou-enlai, ye-jianying]
+  voices:
+    - { voice: foreign, text: 'And after we’re all dead, myself, him (Teng), Chou En-lai, and Yeh Chien-ying, you will still be alive（美方谈话记录，毛泽东语）', cite: frus-v18-d124, quote: true }
+    - { voice: foreign, text: 'he said that the big issue is the international situation and the small issue is Taiwan（1975 年 11 月基辛格给福特的简报）', cite: frus-v18-d132, quote: true }
+  cites: [frus-v18-d124, frus-v18-d132]
+
+- id: 1975-12-01-ford
+  date: 1975-12-01
+  title: 福特访华，邓小平主持接待
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 美国总统福特到京，周恩来委托邓小平主持欢迎宴会；12 月 2 日毛泽东会见福特。基辛格行前给福特的简报说，已有迹象表明邓小平可能面临政治挑战。两天后北大清华大批判组的文章见报。
+  people: [deng-xiaoping, zhou-enlai, mao-zedong, li-xiannian, wu-de, qiao-guanhua]
+  voices:
+    - { voice: doc, text: 邓小平副总理代表中国政府和周恩来总理对美国客人来访表示欢迎（1975 年 12 月 1 日新华社）, cite: rmrb-1975-12-02-ford, quote: true }
+    - { voice: foreign, text: 'we have other indications that Teng may be the object of a political challenge（1975 年 11 月基辛格给福特的简报）', cite: frus-v18-d132, quote: true }
+    - { voice: foreign, text: 'And Teng Hsiao-p’ing does not like the Soviet Union either（美方 12 月 2 日毛泽东—福特谈话记录）', cite: frus-v18-d134, quote: true }
+  cites: [rmrb-1975-12-02-ford, frus-v18-d132, frus-v18-d134]
+
+- id: 1975-12-04-education-direction
+  date: 1975-12-04
+  title: 北大清华大批判组《教育革命的方向不容篡改》
+  lane: culture
+  weight: 2
+  place: 北京
+  summary: 文章不点名地批判教育界要把教育革命“扭”回去的说法，把争论定性为是坚持教育革命还是“为修正主义教育路线翻案”。
+  people: []
+  voices:
+    - { voice: official1966, text: 说什么文化大革命以来，教育革命这也不行，那也不是，教育革命的方向“总没有解决好”，因而“就是要扭”（北京大学、清华大学大批判组文章）, cite: rmrb-1975-12-04-education-direction, quote: true }
+    - { voice: official1966, text: 是坚持教育要革命的方向，把无产阶级教育革命进行到底，还是为修正主义教育路线翻案（同一文章）, cite: rmrb-1975-12-04-education-direction, quote: true }
+  cites: [rmrb-1975-12-04-education-direction]
+- id: 1976-01-01-mao-poems
+  date: 1976-01-01
+  title: 发表毛泽东词二首：《重上井冈山》《鸟儿问答》
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 《人民日报》元旦转载《诗刊》1 月号发表的毛泽东 1965 年两首词。《念奴娇·鸟儿问答》讽刺“订了三家条约”和“土豆烧熟了，再加牛肉”，结句为“不须放屁，试看天地翻覆”。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 还有吃的，土豆烧熟了，再加牛肉。不须放屁，试看天地翻覆（毛泽东《念奴娇·鸟儿问答》）, cite: rmrb-1976-01-01-mao-poems, quote: true }
+  cites: [rmrb-1976-01-01-mao-poems]
+
+- id: 1976-01-15-zhou-memorial
+  date: 1976-01-15
+  title: 周恩来追悼大会，邓小平致悼词
+  lane: center
+  weight: 2
+  place: 北京人民大会堂
+  summary: 追悼大会由王洪文主持，邓小平致悼词，五千多人参加。按周恩来遗言，骨灰撒在江河和土地上。美国方面次日的评估认为邓小平最有可能接任总理，但没有周恩来居间协调，他的处境会更难。
+  people: [zhou-enlai, deng-xiaoping, wang-hongwen, mao-zedong]
+  voices:
+    - { voice: official1966, text: 周恩来同志的一生，是为共产主义事业光辉战斗的一生，是坚持继续革命的一生（邓小平悼词）, cite: rmrb-1976-01-16-zhou-memorial, quote: true }
+    - { voice: doc, text: 遵照周恩来同志生前的遗言，周恩来同志的骨灰撒在祖国的江河里和土地上（同日《人民日报》标题）, cite: rmrb-1976-01-16-zhou-memorial, quote: true }
+    - { voice: foreign, text: 'Teng Hsiao-p’ing is the odds-on favorite to move up to the premiership（1976 年 1 月 16 日美方评估）', cite: frus-v18-d140, quote: true }
+    - { voice: foreign, text: 'Without Chou’s authority, prestige, and special talents, Teng may find the going even tougher（同一评估）', cite: frus-v18-d140, quote: true }
+  cites: [rmrb-1976-01-16-zhou-memorial, frus-v18-d140]
+
+- id: 1976-04-07-hua-deng-resolutions
+  date: 1976-04-07
+  title: 政治局两项决议：华国锋任第一副主席、总理，撤销邓小平一切职务
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 天安门广场事件两天后，政治局根据毛泽东提议通过两项决议：华国锋任中共中央第一副主席、国务院总理；认定邓小平问题“已经变为对抗性的矛盾”，撤销其党内外一切职务，“保留党籍，以观后效”。1981 年历史决议认为这是错误的。
+  people: [hua-guofeng, deng-xiaoping, mao-zedong]
+  voices:
+    - { voice: official1966, text: 根据伟大领袖毛主席提议，中共中央政治局一致通过，华国锋同志任中国共产党中央委员会第一副主席，中华人民共和国国务院总理（1976 年 4 月 7 日决议）, cite: ws-1976-04-07-hua-resolution, quote: true }
+    - { voice: official1966, text: 认为邓小平问题的性质已经变为对抗性的矛盾（同日另一决议）, cite: ws-1976-04-07-deng-resolution, quote: true }
+    - { voice: official1966, text: 撤销邓小平党内外一切职务，保留党籍，以观后效（同一决议）, cite: ws-1976-04-07-deng-resolution, quote: true }
+    - { voice: official1981, text: 并且错误地撤销了邓小平同志的党内外一切职务（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1976-04-07-hua-resolution, ws-1976-04-07-deng-resolution, ws-1981-resolution]
+
+- id: 1976-07-28-tangshan
+  date: 1976-07-28
+  title: 唐山大地震
+  lane: local
+  weight: 3
+  place: 河北唐山、丰南
+  summary: 7 月 28 日 3 时 42 分，唐山—丰南一带发生 7.5 级地震（当时测定），天津、北京有较强震感。新华社当天只说震中地区“遭到不同程度的损失”；中共中央慰问电承认唐山“破坏和损失极其严重”，同时号召灾区“以阶级斗争为纲，深入批邓”。这两篇报道都没有提伤亡人数。
+  people: []
+  voices:
+    - { voice: doc, text: 我国河北省冀东地区的唐山—丰南一带，七月二十八日三时四十二分发生强烈地震（1976 年 7 月 28 日新华社）, cite: rmrb-1976-07-29-tangshan, quote: true }
+    - { voice: official1966, text: 尤其是唐山市遭到的破坏和损失极其严重（中共中央慰问电）, cite: rmrb-1976-07-29-tangshan-condolence, quote: true }
+    - { voice: official1966, text: 以阶级斗争为纲，深入批邓，团结起来，向严重的自然灾害进行斗争（同一慰问电）, cite: rmrb-1976-07-29-tangshan-condolence, quote: true }
+  cites: [rmrb-1976-07-29-tangshan, rmrb-1976-07-29-tangshan-condolence]
+
+- id: 1976-09-16-jiding-fangzhen
+  date: 1976-09-16
+  title: 两报一刊社论：“按既定方针办”
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 毛泽东去世一周后，两报一刊社论《毛主席永远活在我们心中》公布毛泽东“嘱咐”：“按既定方针办”，并要求把批邓、反击右倾翻案风继续深入下去。这句话在 9 月 18 日追悼大会的报道中再次出现。一个月后，中央通知说这是“四人帮”伪造的临终嘱咐：毛泽东 4 月 30 日的手书是“照过去方针办”，华国锋 10 月 2 日已在批示中指出。
+  people: [mao-zedong, deng-xiaoping, hua-guofeng, wang-hongwen, zhang-chunqiao, jiang-qing, yao-wenyuan]
+  voices:
+    - { voice: official1966, text: 毛主席嘱咐我们：“按既定方针办”（1976 年 9 月 16 日两报一刊社论）, cite: rmrb-1976-09-16-mao-editorial, quote: true }
+    - { voice: official1966, text: 当前，要把毛主席亲自发动的批判邓小平、反击右倾翻案风的斗争继续深入地开展下去（同一社论）, cite: rmrb-1976-09-16-mao-editorial, quote: true }
+    - { voice: official1966, text: 他们有计划有预谋地伪造了一个“按既定方针办”的所谓毛主席的临终嘱咐，在九月十六日的两报一刊社论中发表（1976 年 10 月 18 日中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1966, text: 毛主席一九七六年四月三十日亲笔写的指示是“照过去方针办”，“按既定方针办”六个字错了三个（同一通知）, cite: ws-1976-10-18-notice, quote: true }
+  cites: [rmrb-1976-09-16-mao-editorial, rmrb-1976-09-19-mao-memorial, ws-1976-10-18-notice]
+- id: 1976-09-18-mao-memorial
+  date: 1976-09-18
+  title: 毛泽东追悼大会
+  lane: center
+  weight: 2
+  place: 北京天安门广场
+  summary: 中央规定 9 月 11–17 日在人民大会堂吊唁，18 日下午三时在天安门广场开追悼大会，全国县以上地区同时开会收听实况。大会由王洪文主持，华国锋致悼词，全国默哀三分钟。
+  people: [mao-zedong, hua-guofeng, wang-hongwen, ye-jianying, zhang-chunqiao, jiang-qing, yao-wenyuan]
+  voices:
+    - { voice: doc, text: 九月十八日北京时间下午三时，在天安门广场举行隆重的追悼大会（中共中央等关于悼念活动的决定）, cite: ws-1976-09-mao-funeral-notice, quote: true }
+    - { voice: doc, text: 全国县以上地区，要在九月十八日下午三时召开有工农兵以及其他各界代表参加的追悼会（同一决定）, cite: ws-1976-09-mao-funeral-notice, quote: true }
+    - { voice: official1966, text: 首都参加大会的百万群众和全国八亿人民肃立，默哀三分钟（1976 年 9 月 18 日新华社）, cite: rmrb-1976-09-19-mao-memorial, quote: true }
+  cites: [ws-1976-09-mao-funeral-notice, rmrb-1976-09-19-mao-memorial]
+
+- id: 1976-10-08-memorial-hall
+  date: 1976-10-08
+  title: 决定建毛主席纪念堂、出版《毛泽东选集》第五卷
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 拘押“四人帮”两天后，中央、人大常委会、国务院、军委联合决定在北京建毛主席纪念堂，安放遗体供瞻仰；中共中央另决定尽快出版《毛泽东选集》第五卷，筹备《毛泽东全集》，编辑出版工作由“以华国锋同志为首的中共中央政治局直接领导”。
+  people: [hua-guofeng, mao-zedong]
+  voices:
+    - { voice: official1966, text: 在首都北京建立伟大的领袖和导师毛泽东主席纪念堂（1976 年 10 月 8 日决定）, cite: rmrb-1976-10-09-memorial-hall, quote: true }
+    - { voice: official1966, text: 出版《毛泽东选集》和《毛泽东全集》的工作，由以华国锋同志为首的中共中央政治局直接领导（中共中央同日决定）, cite: rmrb-1976-10-09-mao-works, quote: true }
+  cites: [rmrb-1976-10-09-memorial-hall, rmrb-1976-10-09-mao-works]
+
+- id: 1976-10-21-celebrations
+  date: 1976-10-21
+  end: 1976-10-24
+  title: 首都庆祝游行与百万人大会：庆祝华国锋任主席、粉碎“四人帮”
+  lane: mass
+  weight: 2
+  place: 北京天安门广场
+  summary: 10 月 21 日北京一百五十万军民游行，24 日天安门广场百万人大会，华国锋出席，吴德讲话。声讨“四人帮”用的是“党内资产阶级的典型代表”“不肯改悔的正在走的走资派”，同半年前批邓时的说法一样。
+  people: [hua-guofeng, wu-de, ye-jianying, li-xiannian, wang-dongxing, chen-xilian, wang-hongwen, zhang-chunqiao, jiang-qing, yao-wenyuan]
+  voices:
+    - { voice: official1966, text: 今天，首都一百五十万军民欢欣鼓舞，豪情满怀，举行声势浩大的庆祝游行（1976 年 10 月 21 日新华社）, cite: rmrb-1976-10-22-parade, quote: true }
+    - { voice: official1966, text: 指出他们是党内资产阶级的典型代表，是不肯改悔的正在走的走资派（同一报道）, cite: rmrb-1976-10-22-parade, quote: true }
+    - { voice: official1966, text: 首都一百万军民，今天欢欣鼓舞，豪情满怀，在雄伟庄严的天安门广场举行隆重、盛大的庆祝大会（1976 年 10 月 24 日新华社）, cite: rmrb-1976-10-25-rally, quote: true }
+    - { voice: official1966, text: 妄图扭转批判不肯改悔的走资派邓小平的修正主义路线，反击右倾翻案风的大方向（半年前，1976 年 4 月 5 日吴德广播讲话）, cite: rmrb-1976-04-08-wude, quote: true }
+  cites: [rmrb-1976-10-22-parade, rmrb-1976-10-25-rally, rmrb-1976-04-08-wude]

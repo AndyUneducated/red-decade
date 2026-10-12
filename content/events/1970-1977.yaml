@@ -14,7 +14,10 @@
   voices:
     - { voice: official1966, text: 在九届二中全会以前，第一个坚持设国家主席、阴谋策划向党进攻的是林彪（1971 年 9 月中共中央通知）, cite: ws-1971-09-18-notice, quote: true }
     - { voice: official1966, text: 明确指出一九七零年庐山会议的斗争是两条路线、两个司令部的斗争（1972 年中共中央印发毛泽东南巡谈话纪要）, cite: ws-1972-03-17-notice, quote: true }
-  cites: [ws-1971-09-18-notice, ws-1972-03-17-notice, ws-1971-12-lin-chen-material-1]
+    - { voice: doc, text: 毛主席和他的亲密战友林彪副主席在会上讲了话（1970 年 9 月九届二中全会公报）, cite: ws-1970-09-plenum-communique, quote: true }
+    - { voice: doc, text: 我国各族人民的伟大领袖毛泽东主席是中华人民共和国的缔造者（全会讨论的宪法修改草案序言）, cite: ws-1970-constitution-draft, quote: true }
+    - { voice: official1966, text: 这些反革命谬论，是林彪提出的“要设国家主席”的反党纲领的继续和发展（1972 年中央专案组“材料之二”）, cite: ws-1972-lin-material-2, quote: true }
+  cites: [ws-1970-09-plenum-communique, ws-1970-constitution-draft, ws-1971-09-18-notice, ws-1972-03-17-notice, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-2]
 
 - id: 1971-09-13-lin-biao
   date: 1971-09-13
@@ -29,7 +32,9 @@
     - { voice: official1966, text: 根据确实消息，出境的三叉戟飞机已于蒙古境内温都尔汗附近坠毁（同一通知）, cite: ws-1971-09-18-notice, quote: true }
     - { voice: judicial1980, text: 一九七一年三月，林立果、周宇驰等人在上海制订了武装政变计划，取名为《“571工程”纪要》（1981 年特别法庭判决）, cite: ws-1981-01-25-judgment, quote: true }
     - { voice: judicial1980, text: 正当林彪反革命集团紧张地策动武装政变的时候，毛泽东主席对他们的阴谋有所警觉，突然改变行程，于九月十二日安全回到北京（同一判决）, cite: ws-1981-01-25-judgment, quote: true }
-  cites: [ws-1971-09-18-notice, ws-1971-09-29-notice, ws-1971-12-lin-chen-material-1, ws-1981-01-25-judgment]
+    - { voice: foreign, text: 'Since September 12 there has been a suspension of almost all Chinese military aircraft flight activity（1971 年 9 月 22 日基辛格给尼克松的备忘录）', cite: frus-v17-d157, quote: true }
+    - { voice: foreign, text: 'Conceivably, Mao’s chosen successor, Lin Piao, may be ill or dead（同一备忘录，列举的几种可能之一）', cite: frus-v17-d157, quote: true }
+  cites: [ws-1971-09-18-notice, ws-1971-09-29-notice, ws-1971-12-lin-chen-material-1, ws-1981-01-25-judgment, frus-v17-d157]
 
 - id: 1971-10-25-un-seat
   date: 1971-10-25
@@ -40,8 +45,10 @@
   summary: 第二十六届联大以 76 票对 35 票通过阿尔巴尼亚等国提案（2758 号决议），恢复中华人民共和国在联合国的席位，台湾当局代表退出。基辛格当时正在北京为尼克松访华做准备。11 月乔冠华率代表团出席联大，15 日发言。次年 2 月尼克松访华，发表上海公报。
   people: [qiao-guanhua, zhou-enlai, mao-zedong, ji-pengfei]
   voices:
+    - { voice: doc, text: 大会以七十六票赞成、三十五票反对、十七票弃权的压倒多数（1971 年 10 月 26 日新华社）, cite: rmrb-1971-10-27-un-seat, quote: true }
+    - { voice: official1966, text: 这是毛主席无产阶级革命外交路线的胜利（1971 年 10 月 29 日中国政府声明）, cite: ws-1971-10-29-un-statement, quote: true }
     - { voice: official1966, text: 一九七一年十月二十五日，本届联合国大会以压倒多数通过决议，决定恢复中华人民共和国在联合国的一切合法权利（乔冠华 1971 年联大发言）, cite: rmrb-1971-11-17-qiao-un, quote: true }
-  cites: [rmrb-1971-11-17-qiao-un]
+  cites: [rmrb-1971-10-27-un-seat, ws-1971-10-29-un-statement, rmrb-1971-11-17-qiao-un]
 
 - id: 1975-01-fourth-npc
   date: 1975-01-13
@@ -54,8 +61,11 @@
   people: [zhou-enlai, deng-xiaoping, zhang-chunqiao, wang-hongwen, jiang-qing, mao-zedong, ji-dengkui, hua-guofeng]
   voices:
     - { voice: official1966, text: 一九七四年十月，“四人帮”背着中央政治局，私自派王洪文去见毛主席，告周恩来总理的状，妄图利用十届二中全会和四届人大组织他们的“内阁”，遭到毛主席的痛斥（1976 年 10 月中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1966, text: 第二步，在本世纪内，全面实现农业、工业、国防和科学技术的现代化，使我国国民经济走在世界的前列（周恩来政府工作报告）, cite: ws-1975-01-13-zhou-report, quote: true }
     - { voice: official1981, text: 一九七五年，周恩来同志病重，邓小平同志在毛泽东同志支持下主持中央日常工作（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
-  cites: [rmrb-1975-01-19-state-council-list, rmrb-1975-01-19-npc-sc-list, ws-1976-10-18-notice, ws-1981-resolution]
+    - { voice: foreign, text: 'elevated Vice Premier Teng Hsiao-p’ing to membership in the Politburo’s Standing Committee and to a Party Vice Chairmanship（1975 年 1 月美国国务院报告，记会前的十届二中全会）', cite: frus-v18-d103, quote: true }
+    - { voice: foreign, text: 'Mao’s wife Chiang Ch’ing, the young Shanghai leader Wang Hung-wen, and the propagandist Yao Wen-yuan, are noticeable in their absence from posts in the state administration（同一报告）', cite: frus-v18-d103, quote: true }
+  cites: [ws-1975-npc-communique, ws-1975-01-13-zhou-report, ws-1975-npc-resolution, rmrb-1975-01-19-state-council-list, rmrb-1975-01-19-npc-sc-list, ws-1976-10-18-notice, ws-1981-resolution, frus-v18-d103]
 
 - id: 1976-01-08-zhou-death
   date: 1976-01-08
@@ -68,7 +78,8 @@
   voices:
     - { voice: official1966, text: 因患癌症，于一九七六年一月八日九时五十七分在北京逝世，终年七十八岁（1976 年讣告）, cite: ws-1976-01-09-zhou-obituary, quote: true }
     - { voice: official1981, text: 他在“文化大革命”中处于非常困难的地位（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1976-01-09-zhou-obituary, ws-1981-resolution]
+    - { voice: foreign, text: 'Teng, with the evident backing of Mao and Chou, has been moving cautiously but steadily to tidy up the political mess left by the Cultural Revolution（1976 年 1 月 16 日美方评估）', cite: frus-v18-d140, quote: true }
+  cites: [ws-1976-01-09-zhou-obituary, ws-1981-resolution, frus-v18-d140]
 
 - id: 1976-04-05-tiananmen
   date: 1976-04-05
@@ -81,7 +92,10 @@
   voices:
     - { voice: officialLater, text: 一九七六年四月五日的天安门事件完全是革命行动（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
     - { voice: official1981, text: 当时，中央政治局和毛泽东同志对天安门事件的性质作出了错误的判断，并且错误地撤销了邓小平同志的党内外一切职务（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1978-12-third-plenum, ws-1981-resolution]
+    - { voice: official1966, text: 猖狂地叫嚣“秦始皇时代已经过去”，公开打出拥护邓小平的旗号（1976 年 4 月 8 日《人民日报》报道）, cite: rmrb-1976-04-08-tiananmen, quote: true }
+    - { voice: official1966, text: 广场上人最多时，估计近十万人。这当中除极少数制造事端的坏人外，绝大多数是过路围观的群众（同一报道）, cite: rmrb-1976-04-08-tiananmen, quote: true }
+    - { voice: official1966, text: 革命群众应立即离开广场，不要受他们的蒙蔽（4 月 5 日吴德广播讲话）, cite: rmrb-1976-04-08-wude, quote: true }
+  cites: [rmrb-1976-04-08-tiananmen, rmrb-1976-04-08-wude, ws-1976-04-07-deng-resolution, ws-1978-12-third-plenum, ws-1981-resolution]
 
 - id: 1976-07-06-zhu-death
   date: 1976-07-06
@@ -93,7 +107,9 @@
   people: [zhu-de]
   voices:
     - { voice: official1966, text: 因病医治无效，于一九七六年七月六日下午三时一分在北京逝世，终年九十岁（1976 年讣告）, cite: ws-1976-07-07-zhu-obituary, quote: true }
-  cites: [ws-1976-07-07-zhu-obituary]
+    - { voice: foreign, text: 'probably enhances the strength of the two Shanghai leftist leaders in the Standing Committee, Chang Ch’ung-ch’iao and Wang Hung-wen（1976 年 7 月斯考克罗夫特给福特的备忘录）', cite: frus-v18-d151, quote: true }
+    - { voice: foreign, text: 'The political structure in the PRC is probably more fragile today than it has ever been—including during the Cultural Revolution（同一备忘录）', cite: frus-v18-d151, quote: true }
+  cites: [ws-1976-07-07-zhu-obituary, frus-v18-d151]
 
 - id: 1976-09-09-mao-death
   date: 1976-09-09
@@ -120,7 +136,9 @@
     - { voice: official1966, text: 他们结成“四人帮”，进行分裂党、篡党夺权的宗派活动（1976 年 10 月 18 日中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
     - { voice: official1981, text: 同年十月上旬，中央政治局执行党和人民的意志，毅然粉碎了江青反革命集团，结束了“文化大革命”这场灾难（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
     - { voice: official1981, text: 在粉碎江青反革命集团的斗争中，华国锋、叶剑英、李先念等同志起了重要作用（同一决议）, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1976-10-18-notice, ws-1981-resolution, ws-1977-07-tenth-third-plenum]
+    - { voice: foreign, text: 'At least two of the ideologues— Chiang Ching and Yao Wen-yuan—are intensely disliked by government functionaries and probably within the party and army as well（1976 年 6 月美国情报评估，早于逮捕）', cite: frus-v18-d148, quote: true }
+    - { voice: foreign, text: 'Those regarded as moderates—such as Party First Vice Chairman and Premier Hua Kuo-feng, the military leader Yeh Chien-ying, and Foreign Minister Chiao Kuan-hua—probably will come to dominate the successor leadership（同一评估）', cite: frus-v18-d148, quote: true }
+  cites: [ws-1976-10-18-notice, ws-1981-resolution, ws-1977-07-tenth-third-plenum, frus-v18-d148]
 
 - id: 1977-07-tenth-third-plenum
   date: 1977-07-16

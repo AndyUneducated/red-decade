@@ -41,15 +41,6 @@ web:
     url: https://cn.govopendata.com/renminribao/1971/10/27/1/
     via: "《人民日报》1971-10-27 第 1 版（govopendata 转录）"
     article: "联大以压倒多数通过恢复我在联合国合法权利"
-  - id: rmrb-1971-11-17-qiao-un
-    title: "中华人民共和国代表团团长乔冠华在联合国大会上的发言"
-    date: 1971-11-17
-    author: "乔冠华"
-    kind: speech
-    alias: "乔冠华在联合国大会上的发言（1971）"
-    url: https://cn.govopendata.com/renminribao/1971/11/17/1/
-    via: "《人民日报》1971-11-17 第 1 版（govopendata 转录）"
-    article: "中华人民共和国代表团团长乔冠华在联合国大会上的发言"
   - id: rmrb-1972-01-11-chenyi-memorial
     title: "首都隆重举行追悼陈毅同志大会　伟大领袖毛主席参加了追悼会"
     date: 1972-01-11

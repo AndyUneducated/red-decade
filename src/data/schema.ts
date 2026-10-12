@@ -48,6 +48,8 @@ export type RelationType = keyof typeof RELATION_TYPES
 export const VOICES = {
   doc: '原始文件',
   official1966: '当时官方',
+  // contemporary foreign government records: FRUS memoranda of conversation, intelligence estimates
+  foreign: '外国档案',
   official1981: '1981 决议',
   // later official verdicts other than the 1981 resolution: 1977 plenum, rehabilitation notices, obituaries
   officialLater: '后来官方',

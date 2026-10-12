@@ -110,12 +110,6 @@ wikisource:
     author: 《人民日报》社论
     kind: editorial
     alias: 社论《把批林批孔的斗争进行到底》（1974）
-  - id: ws-1974-05-21-hubei
-    title: 中央领导同志关于湖北问题的指示要点
-    date: 1974-05-21
-    author: 中共中央
-    kind: party-doc
-    alias: 中央领导同志关于湖北问题的指示要点（1974）
   - id: ws-1975-01-13-zhou-report
     title: 1975年中华人民共和国国务院政府工作报告
     date: 1975-01-13
@@ -146,12 +140,6 @@ wikisource:
     author: 第四届全国人民代表大会第一次会议秘书处
     kind: news
     alias: 四届人大一次会议新闻公报（1975）
-  - id: ws-1976-zhou-obituary
-    title: 中共中央、人大常委会、国务院讣告 周恩来同志逝世
-    date: 1976-01
-    author: 中共中央、全国人大常委会、国务院
-    kind: party-doc
-    alias: 周恩来逝世讣告（1976）
   - id: ws-1976-04-07-hua-resolution
     title: 中共中央关于华国锋同志任中共中央第一副主席、国务院总理的决议
     date: 1976-04-07
@@ -164,12 +152,6 @@ wikisource:
     author: 中共中央
     kind: party-doc
     alias: 中共中央关于撤销邓小平党内外一切职务的决议（1976）
-  - id: ws-1976-zhu-obituary
-    title: 中共中央、人大常委会、国务院讣告 朱德同志逝世
-    date: 1976-07
-    author: 中共中央、全国人大常委会、国务院
-    kind: party-doc
-    alias: 朱德逝世讣告（1976）
   - id: ws-1976-09-mao-funeral-notice
     title: 中国共产党中央委员会、中华人民共和国全国人民代表大会常务委员会、中华人民共和国国务院、中国共产党中央军事委员会公告
     date: 1976-09
