@@ -624,3 +624,60 @@
   places: [{ at: kunming }]
   summary: 以西双版纳等地国营农场为基础组建，接收北京、上海、成都、重庆知识青年十万余人；1978 年底这里的知青罢工、请愿要求回城，成为知青返城潮的起点。
   verify: true
+
+# ── batch 20: 文化学术二 ──
+
+- id: bjry
+  name: 北京人民艺术剧院
+  short: 北京人艺
+  aliases: [北京人民艺术剧院, 北京人艺, 人艺]
+  kind: unit
+  level: basic
+  from: 1952-06
+  places: [{ at: beijing }]
+  summary: 话剧院，曹禺任院长，剧场为首都剧场。1973 年下半年军宣队、工宣队进驻，称要占领“反革命修正主义文艺黑线桥头堡”；1978 年 6 月北京市文化局为曹禺平反，恢复院长职务。
+  verify: true
+  leaders:
+    - { name: 曹禺, title: 院长, from: 1952-06, to: 1966 }
+    - { name: 曹禺, title: 院长, from: 1978-06-30, to: 1996-12-13 }
+
+- id: cas-igp
+  name: 中国科学院地球物理研究所
+  short: 地球物理所
+  aliases: [中国科学院地球物理研究所, 地球物理研究所, 地球物理所]
+  kind: unit
+  level: basic
+  from: 1950
+  under: [{ org: cas }]
+  places: [{ at: beijing }]
+  summary: 赵九章任第一任所长。文革中赵九章在所里“靠边站”、写检查，1968 年 10 月去世。
+  verify: true
+  leaders:
+    - { name: 赵九章, title: 所长, from: 1950, to: 1966 }
+
+- id: cas-math
+  name: 中国科学院数学研究所
+  short: 数学所
+  aliases: [中国科学院数学研究所, 数学研究所, 数学所]
+  kind: unit
+  level: basic
+  from: 1952
+  under: [{ org: cas }]
+  places: [{ at: beijing }]
+  summary: 华罗庚任所长。
+  verify: true
+  leaders:
+    - { name: 华罗庚, title: 所长, from: 1952, to: 1966 }
+
+- id: cas-satellite
+  name: 中国科学院卫星设计院
+  aliases: [中国科学院卫星设计院, 卫星设计研究院, 卫星设计院, 651 设计院]
+  kind: unit
+  level: basic
+  from: 1966
+  under: [{ org: cas }]
+  places: [{ at: beijing }]
+  summary: 为研制第一颗人造卫星新成立，赵九章任院长。他 1968 年 10 月去世，1970 年 4 月“东方红一号”发射。
+  verify: true
+  leaders:
+    - { name: 赵九章, title: 院长, from: 1966, to: 1968-10-26 }

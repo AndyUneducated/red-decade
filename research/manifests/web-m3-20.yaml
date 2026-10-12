@@ -1,0 +1,179 @@
+# M3 人物第 20 批（文化学术二）：郭沫若、巴金、曹禺、夏衍、阳翰笙、梁漱溟、马寅初、赵九章、华罗庚、冯友兰。
+# tools/fetch-web.ts。未满 50 年的网页只保留 keep 段落。
+web:
+  - id: rmrb-1966-05-05-guo-moruo
+    title: 向工农兵群众学习 为工农兵群众服务
+    date: 1966-05-05
+    author: 郭沫若
+    kind: speech
+    alias: 郭沫若《向工农兵群众学习，为工农兵群众服务》（1966 年 4 月 14 日人大常委会发言）
+    url: https://cn.govopendata.com/renminribao/1966/5/5/2/
+    via: 《人民日报》1966-05-05 第 2 版（govopendata 转录）
+    article: 向工农兵群众学习
+    note: 4 月 14 日在全国人大常委会第三十次会议上听石西民报告后的即席发言，4 月 28 日《光明日报》首发。
+  - id: rmrb-1978-06-19-guo-moruo
+    title: 在郭沫若同志追悼会上 邓小平副主席致悼词
+    date: 1978-06-19
+    author: 邓小平（新华社北京 6 月 18 日电）
+    kind: obituary
+    alias: 1978 年邓小平在郭沫若追悼会上的悼词
+    url: https://cn.govopendata.com/renminribao/1978/6/19/2/
+    via: 《人民日报》1978-06-19 第 2 版（govopendata 转录）
+    article: 在郭沫若同志追悼会上
+    excerpt: true
+    keep: [郭沫若同志和我们永别了, 一九七八年六月十二日十六时五十分, 郭沫若同志是四川省乐山县人, 郭沫若同志是我国杰出的作家, 郭沫若同志是中国共产党的优秀党员, 在郭沫若同志的晚年]
+    note: 只保留开头、生平和评价几段。
+  - id: xinhua-2005-ba-jin
+    title: 巴金同志生平
+    date: 2005-10-24
+    author: 新华社
+    kind: obituary
+    alias: 新华社《巴金同志生平》
+    url: http://news.sina.com.cn/c/2005-10-24/19577252555s.shtml
+    via: 新浪新闻转载新华网上海 2005-10-24 电
+    excerpt: true
+    keep: [新华网上海10月24日电, 04年11月25日出生于四川成都, 新中国成立后，巴金同志历任, 在他年近八旬的时候, 巴金同志是中国共产党的亲密朋友]
+    note: 只保留开头、早年、1949 年以后任职、创作和政治评价几段。全文没有提到文化大革命。原页把出生年份“1904”断在两行。
+  - id: rmrb-1985-06-22-hua-luogeng
+    title: 华罗庚同志生平介绍
+    date: 1985-06-22
+    author: 新华社
+    kind: obituary
+    alias: 新华社《华罗庚同志生平介绍》
+    url: https://cn.govopendata.com/renminribao/1985/6/22/3/
+    via: 《人民日报》1985-06-22 第 3 版（govopendata 转录）
+    article: 华罗庚同志生平介绍
+    excerpt: true
+    keep: [中国共产党优秀党员、中国民主同盟卓越领导人, 华罗庚同志1910年11月12日, 华罗庚同志也是我国最早把数学理论, 华罗庚同志是一位经历过新旧两个不同时代, 华罗庚同志还是一位著名的社会活动家]
+    note: 只保留开头、出身、“双法”、政治经历和社会职务五段。
+  - id: rmrb-1982-05-23-ma-yinchu
+    title: 人大常委委员、我党真挚诤友、著名经济学家马寅初同志遗体在北京火化
+    date: 1982-05-23
+    author: 新华社
+    kind: obituary
+    alias: 《人民日报》1982 年马寅初遗体火化消息
+    url: https://cn.govopendata.com/renminribao/1982/5/23/2/
+    via: 《人民日报》1982-05-23 第 2 版（govopendata 转录）
+    article: 人大常委委员、我党真挚诤友
+    excerpt: true
+    keep: [据新华社北京5月22日电, 全国人大常委会委员、政协全国委员会常务委员, 在抗日战争中, 马寅初同志拥护党的领导, “孤军作战”, 党的三中全会后]
+    note: 只保留火化、评价、抗战、“新人口论”受批判、平反几段。按遗愿不开追悼会，没有单独的生平。
+  - id: kxb-2019-zhao-jiuzhang
+    title: 赵九章：最是那一抹东方红
+    date: 2019-09-12
+    author: 《中国科学报》
+    kind: article
+    alias: 《中国科学报》2019 年《赵九章：最是那一抹东方红》
+    url: https://www.nssc.ac.cn/ztzl2015/zgkjkxzl2015/mtbd/202005/t20200518_5581568.html
+    via: 中国科学院国家空间科学中心网站 2020 年转载
+    excerpt: true
+    keep: [赵九章，浙江吴兴人, 出身中医世家, 赵九章是中国人造卫星事业的倡导者, 接着便是攻坚克难的研制征途, 潘厚任还记得赵九章生命的最后时光, 1978年，经邓小平批示, ●1907年10月15日, ●1944年经竺可桢推荐, ●1949年参与组织, ●1950年被任命为, ●1955年被聘为, ●1958年任中科院“581”组副组长, ●1966年任新成立, ●1966年在“文革”中, ●1968年10月26日被迫害致死, ●1978年得到平反昭雪]
+    note: 只保留简介、文革中的最后时光、平反和年表几条。
+  - id: chinawriter-cao-yu
+    title: 曹禺生平
+    date: 2012-08-31
+    author: 刘宝昌（《甘肃社会科学》）
+    kind: obituary
+    alias: 中国作家网《曹禺生平》
+    url: https://www.chinawriter.com.cn/2012/2012-07-27/136229.html
+    via: 中国作家网转载《甘肃社会科学》
+    excerpt: true
+    keep: [曹禺同志, 作为一位戏剧教育家]
+    note: 只保留出身与早年、1949 年以后两段。这份生平同样不提文革。
+  - id: chinanews-2010-cao-yu
+    title: “文革”中的曹禺
+    date: 2010-08-23
+    author: 梁秉堃
+    kind: article
+    alias: 梁秉堃《“文革”中的曹禺》
+    url: http://www.chinanews.com.cn/kong/2010/08-23/2484744.shtml
+    via: 中新网转载《中华文摘》（摘自《南方人物周刊》）
+    excerpt: true
+    keep: [大约是在1973年下半年, 很快，在北京人艺院长曹禺师住宅的大门上, “打倒反动权威、反革命文人曹禺！”, 当时根据上级的指示, 由我代笔的“认罪检查”报告, 后来，曹禺师由于受到长期折磨, 一直到“文革”结束后, “反动呀！反动文人, 一直到了1978年6月30日]
+    note: 作者是北京人艺编剧，在曹禺身边工作 42 年。只保留军宣队进驻、写认罪检查、看传达室、本人回忆和平反几段。
+  - id: thepaper-2016-xia-yan
+    title: 夏衍的“文革”岁月：烧焦火柴头写下“不白之冤”
+    date: 2016-04-01
+    author: 沈轶伦（原载《档案春秋》）
+    kind: article
+    alias: 沈轶伦《夏衍的“文革”岁月》
+    url: https://www.thepaper.cn/newsDetail_forward_1438554
+    via: 澎湃新闻“私家历史”
+    excerpt: true
+    keep: [1975年，“文革”进入第九个年头, 1965年初，文化部整风结束, 这一年的6月16日, 8月14日，夏衍和齐燕铭, 但即便是在这些时日, 1968年12月22日, 1972年9月7日上午, 蔡淑馨连忙在一边安慰说, 1975年6月3日, 6月17日，在江西丰城]
+    note: 只保留免职、批斗、被抓走监护、致残、递出“不白之冤”、解除监护几段。
+  - id: chinawriter-yang-hansheng
+    title: 阳翰笙
+    date: 2019
+    author: 沐定胜（中国作家网“现代作家辞典”）
+    kind: chronology
+    alias: 中国作家网“现代作家辞典”阳翰笙条
+    url: https://web.archive.org/web/20190824180914/http://www.chinawriter.com.cn/xdzj/71.shtml
+    via: 中国作家网（Internet Archive 2019 年存档）
+    excerpt: true
+    keep: [原名欧阳本义, 全国解放后，先后担任]
+    note: 辞典条写于阳翰笙生前，没有卒年。
+  - id: pku-feng-youlan
+    title: 历史上的北大今天：学者冯友兰逝世
+    date: 2006-11-26
+    author: 北京大学新闻网（转自网易历史）
+    kind: obituary
+    alias: 北京大学新闻网《学者冯友兰逝世》
+    url: http://news.pku.edu.cn/info/7921/3143461.htm
+    via: 北京大学新闻网
+    excerpt: true
+    keep: [1990年11月26日晚, 冯友兰，字芝生]
+  - id: aisixiang-chen-xiaoping-liang-feng
+    title: 梁漱溟与冯友兰的最后一次见面及其他——对有关冯友兰的一桩历史公案之澄清
+    date: 2017-06-19
+    author: 陈晓平（华南师范大学）
+    kind: article
+    alias: 陈晓平《梁漱溟与冯友兰的最后一次见面及其他》
+    url: https://www.aisixiang.com/data/100459.html
+    via: 爱思想网
+    excerpt: true
+    keep: [1985年12月4日, 9 月 8 日，周总理给会议, 9 月 12 日，毛主席即席讲话, 在次日（17日）的大会上, 梁漱溟仍然不服, 在梁漱溟顶撞毛泽东之后的二、三天里, 据梁漱溟回忆，他只是在1966年8月, 相比之下，冯友兰在“文革”中, 1971年5月，作为北大、清华两校领导, 1973年秋天，北大校党委, 1974年6月，冯友兰接到通知, 在粉碎“四人帮”之后，这两句诗, 冯友兰对自己在“批林批孔”运动, 冯友兰与毛泽东的第一次直接接触, 1957年4月，冯友兰与周谷城]
+    note: 作者为冯友兰辩护。只保留 1953 年政协会议、文革中两人境遇、梁效与《咏史》、冯与毛泽东的交往、1985 年会面几段。
+  - id: ifeng-ba-jin-xiao-shan
+    title: 她是我生命的一部分，是我最亲爱的朋友——巴金纪念妻子萧珊
+    date: 2020-08-13
+    author: 凤凰网读书（节选巴金《怀念萧珊》）
+    kind: memoir
+    alias: 巴金《怀念萧珊》（凤凰网读书节选）
+    url: https://culture.ifeng.com/c/7ytjbPmMa24
+    via: 凤凰网读书（节选自《巴金散文：怀念萧珊》，浙江文艺出版社 2014）
+    excerpt: true
+    keep: [1936年，作家巴金与上海女学生, 今天是萧珊逝世的六周年纪念日, 六年过去了。林彪, 我说“日子难过”, 她住院后的半个月是一九六六年八月以来]
+    note: 《怀念萧珊》写于 1978 年，收入《随想录》。只保留编者按和四段。
+  - id: gmw-2004-liang-shuming-shengping
+    title: 起草《梁漱溟生平》稿始末
+    date: 2004-01-18
+    author: 胡治安（口述，《文摘报》摘自《人民政协报》）
+    kind: memoir
+    alias: 胡治安《起草〈梁漱溟生平〉稿始末》
+    url: https://www.gmw.cn/01wzb/2004-01/18/06-97291968A6D314B648256E1F0003B7C9.htm
+    via: 光明网《文摘报》
+    excerpt: true
+    keep: [在1月8日的《人民政协报]
+    note: 作者是中央统战部干部局副局长，1988 年起草梁漱溟生平。
+  - id: gpnu-liang-shuming
+    title: 近代大儒系列——梁漱溟
+    date: 2020
+    author: 广东技术师范大学大学生文化素质教育网
+    kind: chronology
+    alias: 广东技术师范大学《近代大儒系列——梁漱溟》
+    url: https://whsz.gpnu.edu.cn/info/1022/1229.htm
+    via: 广东技术师范大学
+    excerpt: true
+    keep: [梁漱溟（1893.10.18-1988.6.23）, 1966年，“文化大革命”开始, 1974年1月，写作, 期间，自1950年初应邀来北京, 1988年6月23日，在北京逝世]
+  - id: rujia-gan-chunsong-liang-shuming
+    title: 梁漱溟在批林批孔运动中的真儒气质
+    date: 2014-11-26
+    author: 干春松
+    kind: article
+    alias: 干春松《梁漱溟在批林批孔运动中的真儒气质》
+    url: https://www.rujiazg.com/index.php/article/4563
+    via: 儒家网（原载《儒家大风》）
+    excerpt: true
+    keep: [1973年10月，批林批孔运动开始, 但是，在当时异常的政治环境之下, 据悉，某教授五四时代, 其实，梁先生本不欲成为运动的对立面, 与“批林批孔”运动相联系]
+    note: 只保留 1973–1974 年政协学习组批判梁漱溟的几段，引文出自梁漱溟本人的回忆。

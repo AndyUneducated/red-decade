@@ -198,3 +198,21 @@
 - { a: zhou-enlai, b: su-yu, type: subordinate, from: 1967, note: 国务院业务组成员，在周恩来领导下分管交通、港口, cite: rmrb-1984-02-14-su-yu }
 - { a: jiang-qing, b: xiao-hua, type: link, from: 1966-02, note: 部队文艺工作座谈会纪要称他“指示我们一定要按照江青同志的意见办”, cite: ws-1966-03-army-arts }
 - { a: yang-shangkun, b: yang-baibing, type: link, note: 兄弟（杨尚昆是他的五哥）, cite: xinhua-2013-yang-baibing }
+# batch 20
+- { a: deng-xiaoping, b: guo-moruo, type: link, from: 1978-06-18, note: 在追悼会上致悼词, cite: rmrb-1978-06-19-guo-moruo }
+- { a: guo-moruo, b: yang-hansheng, type: subordinate, from: 1938, note: 共同筹组军委会政治部第三厅，阳翰笙任主任秘书, cite: chinawriter-yang-hansheng }
+- { a: zhou-enlai, b: hua-luogeng, type: protect, from: 1966, note: 文革中“挺身而出”保护他，支持推广“双法”, cite: rmrb-1985-06-22-hua-luogeng }
+- { a: kang-sheng, b: hua-luogeng, type: attack, from: 1968-08-27, note: 关于三届人大常委委员政治情况的报告把他列入被诬陷的六十人, cite: ws-1980-indictment }
+- { a: kang-sheng, b: zhao-jiuzhang, type: attack, from: 1968-08-27, note: 关于三届人大常委委员政治情况的报告把他列入被诬陷的六十人, cite: ws-1980-indictment }
+- { a: deng-xiaoping, b: zhao-jiuzhang, type: protect, from: 1978, note: 批示为他平反昭雪, cite: kxb-2019-zhao-jiuzhang }
+- { a: zhou-enlai, b: xia-yan, type: protect, from: 1966-12, note: 被红卫兵抓走后下令干预，改由卫戍区“监护”, cite: thepaper-2016-xia-yan }
+- { a: mao-zedong, b: xia-yan, type: protect, from: 1975-07-02, note: 批示“周扬一案，似可从宽处理”，随即解除监护, cite: thepaper-2016-xia-yan }
+- { a: zhou-yang, b: xia-yan, type: link, note: 同属“周扬一案”，并称“四条汉子”, cite: thepaper-2016-xia-yan }
+- { a: tian-han, b: yang-hansheng, type: link, note: 1971 年批田汉文章把他们与周扬、夏衍并称“四条汉子”, cite: ws-1971-03-02-tian-han-critique }
+- { a: mao-zedong, b: liang-shuming, type: attack, from: 1953-09, note: 政协会议上当众斥为“以笔杀人”“伪君子”, cite: aisixiang-chen-xiaoping-liang-feng }
+- { a: jiang-qing, b: liang-shuming, type: attack, from: 1974-01, note: 在首都体育馆批林批孔大会上点名“梁漱溟何许人也”, cite: rujia-gan-chunsong-liang-shuming, verify: true }
+- { a: kang-sheng, b: ma-yinchu, type: attack, from: 1958, note: 与陈伯达“策划鼓动”批判新人口论, cite: rmrb-1982-05-23-ma-yinchu, verify: true }
+- { a: chen-boda, b: ma-yinchu, type: attack, from: 1958, note: 与康生“策划鼓动”批判新人口论, cite: rmrb-1982-05-23-ma-yinchu, verify: true }
+- { a: xie-jingyi, b: feng-youlan, type: subordinate, from: 1973, note: 两校大批判组“梁效”负责人之一，他任顾问；1971 年曾登门转达毛泽东问候, cite: aisixiang-chen-xiaoping-liang-feng }
+- { a: chi-qun, b: feng-youlan, type: subordinate, from: 1973, note: 两校大批判组“梁效”负责人之一，他任顾问, cite: aisixiang-chen-xiaoping-liang-feng }
+- { a: liang-shuming, b: feng-youlan, type: link, from: 1985-12, note: 来信说他“曾谄媚江青”，读过《三松堂自序》后见面, cite: aisixiang-chen-xiaoping-liang-feng }

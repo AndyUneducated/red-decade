@@ -1,0 +1,566 @@
+# M3 people round 2, batch 20: 文化学术二。郭沫若（自我否定后留在高位）、巴金、曹禺、夏衍、阳翰笙（文艺界被批斗关押者），
+# 梁漱溟、马寅初（1950 年代就被批判的“诤友”），赵九章（被迫害致死的科学家）、华罗庚、冯友兰（梁效顾问）。
+# Texts: 1966 年郭沫若人大常委会发言，1978 年邓小平悼词，1966 年五一六通知附件，1967 年《红旗》京剧社论，1971 年批田汉文章，
+# 1980 年起诉书，1981 年判决书；《人民日报》1982 年马寅初、1985 年华罗庚生平；新华社巴金生平；巴金《怀念萧珊》；
+# 中国作家网曹禺生平、阳翰笙条；梁秉堃、沈轶伦、陈晓平、干春松文；胡治安回忆起草梁漱溟生平；《中国科学报》赵九章文。
+
+- id: guo-moruo
+  name: 郭沫若
+  born: 1892-11-16
+  died: 1978-06-12
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 全国人大常委会副委员长、中国科学院院长、中国文联主席
+  pinyin: Guō Mòruò
+  gender: m
+  aka:
+    - { kind: original, name: 郭开贞 }
+  birthplace: 四川乐山
+  party: 中国共产党
+  positions:
+    - { title: 院长, orgName: 中国科学院, from: 1949-11, to: 1978-06-12, cite: rmrb-1978-06-19-guo-moruo, verify: true }
+    - { title: 主席, orgName: 中国文学艺术界联合会, from: 1949-07, to: 1978-06-12, cite: rmrb-1978-06-19-guo-moruo }
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1954-09, to: 1978-06-12, cite: rmrb-1978-06-19-guo-moruo }
+    - { title: 校长, orgName: 中国科学技术大学, from: 1958-09, to: 1978-06-12, cite: rmrb-1978-06-19-guo-moruo }
+  bio: 四川乐山人，诗人、剧作家、历史学家、古文字学家。1920 年代创办创造社，1927 年参加南昌起义并入党，1928 年后旅居日本研究古代史和甲骨金文；抗战中在周恩来领导下组织国统区文化界。1949 年后任政务院副总理、中国科学院院长、全国文联主席、全国人大常委会副委员长。1966 年 4 月他在人大常委会上说自己以前写的东西“应该全部把它烧掉”，此后一直留在高位，是九届、十届中央委员。1978 年在北京去世，邓小平致悼词。
+  life:
+    - h: 创造社与南昌起义
+      from: 1892-11-16
+      to: 1949-10
+      text: |
+        早年建立文学团体“创造社”。1926 年参加北伐，任国民革命军总政治部副主任；蒋介石清党后写讨蒋檄文《请看今日之蒋介石》。1927 年参加南昌起义，同年 8 月入党。1928 年起旅居日本研究中国古代史和古文字学。抗战爆发后回国，在周恩来领导下组织国统区进步文化人士，写了许多历史剧。
+      cites: [rmrb-1978-06-19-guo-moruo]
+    - h: 科学院与文联
+      from: 1949-10
+      to: 1966-04
+      text: |
+        1949 年被选为全国文联主席，此后历任中央人民政府委员、政务院副总理兼文化教育委员会主任、中国科学院院长、中国科学技术大学校长，第一至第五届全国人大常委会副委员长。他也是文化界的门面：1966 年 2 月 3 日五人小组扩大会上，彭真为“学术批判不要过头”辩护时，说的是“象郭沫若这样的人都很紧张了”。
+      cites: [rmrb-1978-06-19-guo-moruo, ws-1966-05-16-notice-attachment]
+    - h: “全部把它烧掉”
+      from: 1966-04
+      to: 1976-10
+      text: |
+        1966 年 4 月 14 日，全国人大常委会第三十次会议听取石西民关于社会主义文化革命的报告，他即席发言：自己写了几百万字，“拿今天的标准来讲，我以前所写的东西，严格地说，应该全部把它烧掉，没有一点价值”；又说工农兵学毛主席著作“比我们这些知识分子学得好得多”。发言 5 月 5 日由《人民日报》转载。此后他当选九届、十届、十一届中央委员，1975 年继续任四届全国人大常委会副委员长。
+      cites: [rmrb-1966-05-05-guo-moruo, rmrb-1978-06-19-guo-moruo, rmrb-1975-01-19-npc-sc-list]
+    - h: 晚年
+      from: 1976-10
+      to: 1978-06-12
+      text: |
+        1976 年 10 月写诗欢呼“大快人心事，揪出‘四人帮’”。1978 年春抱病参加全国科学大会，“欢呼我国科学的春天的到来”。6 月 12 日在北京去世，终年 86 岁，邓小平在追悼会上致悼词。
+      cites: [rmrb-1978-06-19-guo-moruo]
+  assess:
+    - { voice: doc, text: 拿今天的标准来讲，我以前所写的东西，严格地说，应该全部把它烧掉，没有一点价值。（1966 年 4 月 14 日人大常委会发言）, cite: rmrb-1966-05-05-guo-moruo, quote: true }
+    - { voice: officialLater, text: 他是继鲁迅之后，在中国共产党领导下，在毛泽东思想指引下，我国文化战线上又一面光辉的旗帜。（1978 年邓小平悼词）, cite: rmrb-1978-06-19-guo-moruo, quote: true }
+    - { voice: officialLater, text: 他坚持无产阶级专政下继续革命，在党内历次路线斗争中，在思想文化界反对资产阶级的斗争中，在国际反帝反修斗争中，立场坚定，旗帜鲜明，坚决站在毛主席革命路线一边。（同上）, cite: rmrb-1978-06-19-guo-moruo, quote: true }
+    - { voice: editor, text: 1978 年 6 月的悼词仍用“无产阶级专政下继续革命”“第十一次路线斗争”这类华国锋时期的说法，对他 1966 年的自我否定和文革中的表态都没有提。, cite: rmrb-1978-06-19-guo-moruo }
+  factions: [academics]
+  fate:
+    - { date: 1949-11, s: normal, note: 中国科学院院长, verify: true }
+    - { date: 1966-04-14, s: normal, note: 在人大常委会上全盘否定自己的著作, cite: rmrb-1966-05-05-guo-moruo }
+    - { date: 1969-04, s: normal, note: 九届中央委员, cite: rmrb-1978-06-19-guo-moruo }
+    - { date: 1978-06-12, s: dead, cite: rmrb-1978-06-19-guo-moruo }
+  cites: [rmrb-1966-05-05-guo-moruo, rmrb-1978-06-19-guo-moruo, ws-1966-05-16-notice-attachment, rmrb-1975-01-19-npc-sc-list]
+
+- id: ba-jin
+  name: 巴金
+  born: 1904-11-25
+  died: 2005-10-17
+  deathKind: natural
+  deathPlace: 上海
+  tier: 3
+  role1966: 中国作家协会副主席、上海市作家协会主席
+  pinyin: Bā Jīn
+  gender: m
+  aka:
+    - { kind: original, name: 李尧棠 }
+    - { kind: courtesy, name: 芾甘 }
+  birthplace: 四川成都
+  positions:
+    - { title: 委员, orgName: 全国人民代表大会常务委员会, from: 1978-03, to: 1983-06, cite: xinhua-2005-ba-jin }
+    - { title: 副主席, orgName: 中国人民政治协商会议全国委员会, from: 1983-06, to: 2005-10-17, cite: xinhua-2005-ba-jin }
+    - { title: 主席, orgName: 中国作家协会, from: 1984, to: 2005-10-17, cite: xinhua-2005-ba-jin, verify: true }
+  bio: 四川成都人，原名李尧棠。1929 年以“巴金”笔名发表《灭亡》，1930 年代写成《家》《春》《秋》，是五四以来影响最大的小说家之一。1949 年后任上海文联、作协领导，与靳以创办《收获》。文革中被关进上海作协的“牛棚”，劳动、写交代、被拉出去“示众”；妻子萧珊因为是他的妻子也被关进“牛棚”、扫马路，患病得不到治疗，1972 年去世。晚年写成五卷《随想录》。1983 年起任全国政协副主席，后任中国作家协会主席。2005 年在上海去世，终年 101 岁。
+  life:
+    - h: 《家》
+      from: 1904-11-25
+      to: 1949-10
+      text: |
+        受五四运动影响开始阅读《新青年》，1922 年发表诗作。1927 年赴巴黎，写成第一部长篇《灭亡》，1929 年第一次以“巴金”笔名在《小说月报》发表。回国后写出《家》《春》《秋》、“爱情的三部曲”，主持文化生活出版社。抗战中任郭沫若主持的《救亡日报》编委，写《火》《憩园》《寒夜》。1949 年出席第一届全国政协。
+      cites: [xinhua-2005-ba-jin]
+    - h: 上海文坛
+      from: 1949-10
+      to: 1966-08
+      text: |
+        1949 年后历任平明出版社总编辑，《文艺月报》《收获》《上海文学》主编，上海市文联副主席、上海市作家协会主席、中国作家协会副主席，第一至第三届全国人大代表。两次去朝鲜战场，根据他的小说《团圆》改编的电影《英雄儿女》影响很大。
+      cites: [xinhua-2005-ba-jin]
+    - h: 牛棚
+      from: 1966-08
+      to: 1976-10
+      text: |
+        据他 1978 年写的《怀念萧珊》，他每天在作协上海分会的“牛棚”里劳动、学习、写交代、写检查、写思想汇报，外地来串联的人可以随意点名叫他出去“示众”、自报罪行，任何人都可以闯进他家拿走东西。萧珊也被关进“牛棚”、挂上“牛鬼蛇神”的小纸牌、扫马路；她患了病得不到治疗，逝世前三个星期才靠开后门住进医院，肠癌已转成肝癌。1972 年 8 月 13 日去世，向遗体告别的只有二三十人。
+      cites: [ifeng-ba-jin-xiao-shan]
+    - h: 《随想录》
+      from: 1976-10
+      to: 2005-10-17
+      text: |
+        1978 年 3 月当选第五届全国人大常委会委员。年近八旬时写完五卷《随想录》，《怀念萧珊》是其中一篇。1983 年起连任第六至第十届全国政协副主席，后任中国作家协会主席。2005 年 10 月 17 日在上海去世，享年 101 岁。
+      cites: [xinhua-2005-ba-jin, ifeng-ba-jin-xiao-shan]
+  assess:
+    - { voice: witness, text: 我想，这是多不公平！她究竟犯了什么罪？她也给关进“牛棚”，挂上“牛鬼蛇神”的小纸牌，还扫过马路。究竟为什么？理由很简单，她是我的妻子。（巴金《怀念萧珊》，1978）, cite: ifeng-ba-jin-xiao-shan, quote: true }
+    - { voice: officialLater, text: 几十年来，他与中国共产党肝胆相照、风雨同舟。（2005 年新华社生平）, cite: xinhua-2005-ba-jin, quote: true }
+    - { voice: editor, text: 新华社生平从“新中国成立后”的任职直接写到“进入改革开放新时期后”，全文没有提到文化大革命；而他晚年最有名的作品《随想录》写的正是文革。, cite: xinhua-2005-ba-jin }
+  factions: [academics]
+  fate:
+    - { date: 1966-08, s: attacked, note: 关进作协上海分会“牛棚”, cite: ifeng-ba-jin-xiao-shan }
+    - { date: 1978-03, s: restored, note: 当选五届全国人大常委会委员, cite: xinhua-2005-ba-jin }
+    - { date: 1983-06, s: normal, note: 全国政协副主席, cite: xinhua-2005-ba-jin }
+    - { date: 2005-10-17, s: dead, cite: xinhua-2005-ba-jin }
+  cites: [xinhua-2005-ba-jin, ifeng-ba-jin-xiao-shan]
+
+- id: cao-yu
+  name: 曹禺
+  born: 1910-09-24
+  died: 1996-12-13
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 北京人民艺术剧院院长
+  pinyin: Cáo Yú
+  gender: m
+  aka:
+    - { kind: original, name: 万家宝 }
+    - { kind: courtesy, name: 小石 }
+  birthplace: 天津
+  origin: 湖北潜江
+  party: 中国共产党
+  positions:
+    - { title: 院长, orgName: 北京人民艺术剧院, from: 1952-06, to: 1966, verify: true }
+    - { title: 院长, orgName: 北京人民艺术剧院, from: 1978-06-30, to: 1996-12-13, cite: chinanews-2010-cao-yu }
+  bio: 原籍湖北潜江，生于天津，原名万家宝。1934 年发表《雷雨》，随后写出《日出》《原野》《北京人》，是中国现代话剧的奠基者之一。1949 年后参与创建中央戏剧学院和北京人民艺术剧院，任人艺院长。文革中作为“反动权威”被关押、劳动，1973 年后被逼一遍遍写“认罪检查”，又被派去首都剧场和人艺宿舍看传达室。1978 年 6 月平反，恢复院长职务。1996 年在北京去世。
+  life:
+    - h: 《雷雨》
+      from: 1910-09-24
+      to: 1949-02
+      text: |
+        1923 年考入南开中学，1925 年加入南开新剧团。1930 年转入清华大学西洋文学系，1934 年在《文学季刊》发表《雷雨》，1936 年发表《日出》，1937 年发表《原野》。抗战中随国立剧专迁往四川，写了《蜕变》《北京人》，改编巴金的《家》。1949 年 2 月经香港到北平，参加新政协筹备会。
+      cites: [chinawriter-cao-yu]
+    - h: 北京人艺
+      from: 1949-02
+      to: 1966
+      text: |
+        参与创建中央戏剧学院和北京人民艺术剧院，任人艺院长。
+      cites: [chinawriter-cao-yu]
+      verify: true
+    - h: 看大门
+      from: 1966
+      to: 1978-06-30
+      text: |
+        据他自己后来说，他“被关了几年，后来又劳动”。1973 年下半年军宣队、工宣队进驻人艺，称要占领“反革命修正主义文艺黑线桥头堡”，他家大门上被贴了“打倒反动权威、反革命文人曹禺！”的标语。上级要他写出“上纲上线”的认罪检查才能“解放”，他被特准不参加劳动专写检查，却一次次被军宣队政委以“认识不深刻”打回；后来由编剧梁秉堃代笔，套用“两报一刊”社论的语言写成，他对承认“反革命”三个字仍有顾虑。长期折磨之后他住进协和医院，出院后被派到首都剧场传达室看大门、打扫院子，因日本剧团来访怕被外宾看见，又被转到史家胡同人艺宿舍传达室，传呼电话、倒垃圾。
+      cites: [chinanews-2010-cao-yu]
+    - h: 平反与晚年
+      from: 1978-06-30
+      to: 1996-12-13
+      text: |
+        1978 年 6 月 30 日北京市文化局发文为他平反落实政策，恢复北京人艺院长职务。1996 年冬去世。
+      cites: [chinanews-2010-cao-yu]
+      verify: true
+  assess:
+    - { voice: witness, text: 他们逼着你招供，供了以后不但别人相信，甚至连你自己也相信，觉得自己是个大坏蛋，不能生存于这个世界，造成自卑感，觉得自己犯了大错误，不要写戏了，情愿去扫街。（曹禺文革后答赵浩生问，梁秉堃转引）, cite: chinanews-2010-cao-yu, quote: true }
+    - { voice: editor, text: 中国作家网转载的《曹禺生平》从 1949 年直接写到他和同事“经过四十多年的奋斗”建成北京人艺，同样不提文革；他在文革中的遭遇主要靠梁秉堃等同事的回忆。, cite: chinawriter-cao-yu }
+  factions: [academics]
+  fate:
+    - { date: 1952-06, s: normal, note: 北京人艺院长, verify: true }
+    - { date: 1966, s: attacked, note: 被打成“反动权威”, cite: chinanews-2010-cao-yu, verify: true }
+    - { date: 1978-06-30, s: restored, note: 平反，恢复院长职务, cite: chinanews-2010-cao-yu }
+    - { date: 1996-12-13, s: dead, verify: true }
+  cites: [chinawriter-cao-yu, chinanews-2010-cao-yu]
+
+- id: xia-yan
+  name: 夏衍
+  born: 1900-10-30
+  died: 1995-02-06
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 前文化部副部长（1965 年免职）
+  pinyin: Xià Yǎn
+  gender: m
+  aka:
+    - { kind: original, name: 沈乃熙 }
+    - { kind: courtesy, name: 端先 }
+  birthplace: 浙江杭州
+  party: 中国共产党
+  positions:
+    - { title: 副部长, orgName: 文化部, from: 1955-07, to: 1965, cite: thepaper-2016-xia-yan, verify: true }
+  bio: 浙江杭州人，原名沈乃熙，剧作家、电影编剧，1930 年代上海左翼文艺和电影运动的组织者之一。1949 年后任上海市委宣传部长，1955 年起任文化部副部长分管电影，1965 年文化部整风后被免职。文革中作为“四条汉子”之一被批斗，1966 年 12 月被红卫兵抓走，随后由卫戍区“监护”，1968 年被看守踢断右腿致残，1975 年 7 月才从秦城获释，前后失去自由八年七个月。1977 年后复出，1995 年在北京去世。
+  life:
+    - h: 左翼文艺
+      from: 1900-10-30
+      to: 1949-05
+      text: |
+        1920 年代留学日本，回国后在上海从事左翼文艺和电影工作，写过话剧《上海屋檐下》；抗战中办《救亡日报》，在桂林、香港、重庆做统战工作。
+      verify: true
+    - h: 文化部
+      from: 1949-05
+      to: 1966-06
+      text: |
+        1949 年随军进入上海，任上海市委宣传部长，后调任文化部副部长分管电影。1965 年初文化部整风结束，他被正式免去副部长职务，赋闲在家；1966 年 2 月赴山西介休参加四清，不久因病回家。
+      cites: [thepaper-2016-xia-yan]
+      verify: true
+    - h: 阎王殿与监护
+      from: 1966-06
+      to: 1975-07-12
+      text: |
+        1966 年 6 月 16 日与中宣部、文化部被称为“阎王殿”的一批人一起被集中到社会主义学院；8 月 12 日在北京工人体育场万人批斗大会上被挂上“反革命文艺黑线大头目、电影界祖师爷”的牌子。8 月 14 日起关在文化部机关“大庙”。12 月 4 日深夜被红卫兵从家中拖走，周恩来下令干预后被送到卫戍区营地“监护”。1968 年 12 月 22 日因走得慢被看守踢倒，右腿骨折，没有及时医治，落下终身残疾。1972 年 9 月第一次见家属时，偷偷递给女儿一张用烧焦的火柴头写着“不白之冤”的厕纸。1975 年 6 月转押秦城，7 月 2 日毛泽东在林默涵信上批示“周扬一案，似可从宽处理”，7 月 12 日解除监护。
+      cites: [thepaper-2016-xia-yan]
+    - h: 复出
+      from: 1975-07-12
+      to: 1995-02-06
+      text: |
+        获释时专案组没有给结论，只说“敌我矛盾作人民内部矛盾处理”。1977 年后复出，1979 年任中国电影家协会主席，1982 年进入中央顾问委员会。1995 年在北京去世。
+      cites: [thepaper-2016-xia-yan]
+      verify: true
+  assess:
+    - { voice: official1966, text: 长期以来，在以周扬、齐燕铭、夏衍、林默涵为代表的文艺界反革命修正主义路线的统治之下，毛主席的革命路线在京剧艺术中得不到贯彻。（1967 年《红旗》社论）, cite: ws-1967-05-10-opera, quote: true }
+    - { voice: witness, text: 我倒真的觉得自己的过去百无一是，真的是应该‘低头认罪了’，这不单是对淫威的屈服，也还有一种思想上的压力，这就是对无上权威的迷信。（夏衍回忆 1966 年被游斗）, cite: thepaper-2016-xia-yan, quote: true }
+    - { voice: witness, text: 关了8年半，批斗了几年，要解除监护，得给我一个审查的结论。（夏衍回忆 1975 年 7 月 12 日获释时对专案组说）, cite: thepaper-2016-xia-yan, quote: true }
+  factions: [propdept, academics]
+  fate:
+    - { date: 1965, s: sidelined, note: 文化部整风后免去副部长, cite: thepaper-2016-xia-yan }
+    - { date: 1966-06-16, s: attacked, note: 作为“阎王殿”成员被集中批斗, cite: thepaper-2016-xia-yan }
+    - { date: 1966-12-04, s: detained, note: 被红卫兵抓走，后由卫戍区“监护”, cite: thepaper-2016-xia-yan }
+    - { date: 1975-07-12, s: normal, note: 解除监护，没有结论, cite: thepaper-2016-xia-yan }
+    - { date: 1977, s: restored, verify: true }
+    - { date: 1995-02-06, s: dead, verify: true }
+  cites: [thepaper-2016-xia-yan, ws-1967-05-10-opera, ws-1971-03-02-tian-han-critique]
+
+- id: yang-hansheng
+  name: 阳翰笙
+  born: 1902-11-07
+  died: 1993-06-07
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 中国文联党组书记
+  pinyin: Yáng Hànshēng
+  gender: m
+  aka:
+    - { kind: original, name: 欧阳本义 }
+    - { kind: courtesy, name: 继修 }
+    - { kind: pen, name: 华汉 }
+  birthplace: 四川高县
+  party: 中国共产党
+  positions:
+    - { title: 党组书记, orgName: 中国文学艺术界联合会, from: 1953, to: 1966, cite: chinawriter-yang-hansheng, verify: true }
+    - { title: 副主席, orgName: 中国文学艺术界联合会, from: 1979, to: 1993-06-07, cite: chinawriter-yang-hansheng, verify: true }
+  bio: 四川高县人，原名欧阳本义，笔名华汉。1925 年入党，参加南昌起义，1929 年后任“左联”党团书记，1930 年代转入电影界写剧本；抗战中与郭沫若筹组军委会政治部第三厅并任主任秘书，写了《天国春秋》等历史剧。1949 年后任中国文联党组书记。文革中与周扬、夏衍、田汉一起被称为“四条汉子”，被关押九年，1979 年平反，后任文联副主席。1993 年在北京去世。
+  life:
+    - h: 左联与第三厅
+      from: 1902-11-07
+      to: 1949
+      text: |
+        1924 年入上海大学，1925 年 3 月入党。北伐时在第六军、第四军做政治工作，南昌起义后任叶挺部二十四师党代表。1929 年后参与发起“左联”并任党团书记、中共上海局文委书记。1932 年起写电影剧本，转入电影戏剧界。1935 年被捕软禁于南京。第二次国共合作后与郭沫若筹组国民政府军委会政治部第三厅，任主任秘书。写有《李秀成之死》《塞上风云》《天国春秋》等。
+      cites: [chinawriter-yang-hansheng]
+    - h: 文联
+      from: 1949
+      to: 1966
+      text: |
+        1949 年后先后任全国影协主席、国务院文化工作委员会机关党组书记、中国文联党组书记。1958 年写话剧《三人行》，获文化部优秀剧本一等奖。1964 年他编剧的电影《北国江南》被公开批判，新华月报编辑部编印了批判专集。
+      cites: [chinawriter-yang-hansheng]
+      verify: true
+    - h: 四条汉子
+      from: 1966
+      to: 1979
+      text: |
+        “文革”中被非法囚禁 9 年之久。1971 年 3 月 2 日《人民日报》批判田汉的文章把他和田汉、周扬、夏衍并称“四条汉子”，还说他曾向演员透露：“关汉卿就是写的田汉自己，就照田汉来演吧。”1979 年平反。
+      cites: [chinawriter-yang-hansheng, ws-1971-03-02-tian-han-critique]
+    - h: 晚年
+      from: 1979
+      to: 1993-06-07
+      text: |
+        平反后任中国文联副主席、全国政协常委，出版回忆录《风雨五十年》。1993 年在北京去世。
+      cites: [chinawriter-yang-hansheng]
+      verify: true
+  assess:
+    - { voice: official1966, text: 反革命分子田汉和周扬、夏衍、阳翰笙这“四条汉子”从文化艺术阵地向我们发动进攻（1971 年 3 月 2 日《人民日报》）, cite: ws-1971-03-02-tian-han-critique, quote: true }
+    - { voice: scholar, text: “文革”中惨遭四人帮迫害，被非法囚禁9年之久。1979年平反。（中国作家网“现代作家辞典”）, cite: chinawriter-yang-hansheng, quote: true }
+    - { voice: editor, text: 1971 年这篇文章把他和田汉一起批判时，田汉已于 1968 年 12 月死在关押中，他本人也还被关着。 }
+  factions: [propdept, academics]
+  fate:
+    - { date: 1964, s: attacked, note: 电影《北国江南》被批判, verify: true }
+    - { date: 1966, s: detained, note: 被关押九年, cite: chinawriter-yang-hansheng }
+    - { date: 1979, s: restored, note: 平反, cite: chinawriter-yang-hansheng }
+    - { date: 1993-06-07, s: dead, verify: true }
+  cites: [chinawriter-yang-hansheng, ws-1971-03-02-tian-han-critique]
+
+- id: liang-shuming
+  name: 梁漱溟
+  born: 1893-10-18
+  died: 1988-06-23
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 全国政协委员
+  pinyin: Liáng Shùmíng
+  gender: m
+  ethnicity: 蒙古族
+  aka:
+    - { kind: original, name: 梁焕鼎 }
+    - { kind: courtesy, name: 寿铭 }
+  birthplace: 北京
+  positions:
+    - { title: 委员, orgName: 中国人民政治协商会议全国委员会, from: 1950, to: 1978-02, cite: gpnu-liang-shuming, verify: true }
+    - { title: 常委, orgName: 中国人民政治协商会议全国委员会, from: 1978-03, to: 1988-06-23, cite: gpnu-liang-shuming }
+  bio: 生于北京，原名焕鼎，祖上是元朝梁王，蒙古族。1917 年起在北京大学讲印度哲学，1921 年出版《东西文化及其哲学》，1930 年代在山东邹平主持乡村建设运动，抗战中参与发起民盟。1950 年应邀到北京，长期任全国政协委员。1953 年 9 月在会上说工人生活“在九天”、农民“在九地”，被毛泽东当众斥为“以笔杀人”“伪君子”。1966 年 8 月被红卫兵抄家。1973–1974 年批林批孔中他公开表示只批林、不批孔，在政协学习组被批判半年多，答以“三军可夺帅也匹夫不可夺志”。1978 年起任第五、六届全国政协常委。1988 年在北京去世。
+  life:
+    - h: 北大与乡村建设
+      from: 1893-10-18
+      to: 1950-01
+      text: |
+        1917 年应蔡元培之聘在北京大学讲印度哲学，毛泽东当时是北大图书馆职员，两人在杨昌济家见过面。1924 年辞去北大教职，到河南、山东办乡村建设，1930 年代在邹平主持山东乡村建设研究院。1938 年和 1946 年两次访问延安，与毛泽东长谈。
+      cites: [aisixiang-chen-xiaoping-liang-feng, gpnu-liang-shuming]
+      verify: true
+    - h: 九天九地
+      from: 1950-01
+      to: 1966-08
+      text: |
+        1950 年初应邀来北京，任全国政协委员。1953 年 9 月 11 日，他在讨论过渡时期总路线的会上说，有人说如今工人的生活在九天，农民的生活在九地。次日毛泽东即席讲话，说照顾农民是“小仁政”，有人“班门弄斧”。17 日周恩来讲话称他一贯反动，毛泽东插话：“你虽没有以刀杀人，却是以笔杀人的。”18 日他再次发言，要看毛泽东“有无雅量”，毛泽东答：“你要的这个雅量，我大概不会有。”他被表决赶下讲台，几天后写检讨，此后会议“通知照发，但参不参加自便”，政协委员没有撤销。
+      cites: [aisixiang-chen-xiaoping-liang-feng]
+    - h: 只批林不批孔
+      from: 1966-08
+      to: 1976-10
+      text: |
+        1966 年 8 月被红卫兵赶出居室、抄家批斗约二十天，此后在小屋里写《儒佛异同论》。1973 年 10 月批林批孔开始，他在政协直属学习组一直沉默，被人指责“保持沉默本身就是一种态度”；江青在首都体育馆的大会上也点了他的名。1974 年 2 月 22 日至 25 日，他用两个半天作了《今天我们应该如何评价孔子》等长篇发言，说自己“只批林不批孔”。此后政协各学习小组批判他半年多，9 月 19 日至 21 日连开三天大会，23 日召集人问他感想，他答“三军可夺帅也匹夫不可夺志”。
+      cites: [aisixiang-chen-xiaoping-liang-feng, gpnu-liang-shuming, rujia-gan-chunsong-liang-shuming]
+    - h: 晚年
+      from: 1976-10
+      to: 1988-06-23
+      text: |
+        任第五、六届全国政协常委；1980 年后相继任宪法修改委员会委员、中国文化书院院务委员会主席。1985 年 12 月冯友兰九十寿辰前，他写信说冯“曾谄媚江青”，不愿赴寿宴，读了冯寄来的《三松堂自序》后同意相见。1988 年 6 月 23 日在北京去世。官方生平的起草者原想写他 1953 年“受到不实事求是的批判”，中央书记处改为“受到批评”，家属拒绝，最后整段删去。
+      cites: [gpnu-liang-shuming, aisixiang-chen-xiaoping-liang-feng, gmw-2004-liang-shuming-shengping]
+  assess:
+    - { voice: scholar, text: 其间毛主席频频插话，分量很重，如：“你虽没有以刀杀人，却是以笔杀人的。”“人家说你是好人，我说你是伪君子。”（陈晓平概述 1953 年 9 月 17 日会议）, cite: aisixiang-chen-xiaoping-liang-feng, quote: true }
+    - { voice: witness, text: 至于林彪是不是要走孔子的路，行孔孟之道，我却不敢相信。我不认为林彪受害于孔子。（梁漱溟 1974 年在政协学习组的发言，干春松转引）, cite: rujia-gan-chunsong-liang-shuming, quote: true }
+    - { voice: witness, text: 在本组23日会上，召集人曾征问我对大会有何感想，我答云：‘三军可夺帅也匹夫不可夺志’。（梁漱溟回忆 1974 年 9 月，干春松转引）, cite: rujia-gan-chunsong-liang-shuming, quote: true }
+    - { voice: witness, text: 7月6日，中央书记处批回《生平》稿，把“受到不实事求是的批判”改为“受到批评”。（胡治安回忆 1988 年起草梁漱溟生平）, cite: gmw-2004-liang-shuming-shengping, quote: true }
+    - { voice: editor, text: 1988 年的官方生平最后对 1953 年一字不提：起草者想写“不实事求是”，中央书记处只肯写“批评”，家属宁可不提。他一生最出名的一件事，就这样从盖棺论定里消失了。, cite: gmw-2004-liang-shuming-shengping }
+  factions: [academics]
+  fate:
+    - { date: 1950-01, s: normal, note: 应邀到北京任政协委员, cite: gpnu-liang-shuming }
+    - { date: 1953-09, s: attacked, note: 被毛泽东当众批判, cite: aisixiang-chen-xiaoping-liang-feng }
+    - { date: 1966-08, s: attacked, note: 抄家批斗, cite: aisixiang-chen-xiaoping-liang-feng }
+    - { date: 1974-02, s: attacked, note: 批林批孔中在政协学习组被批判半年多, cite: rujia-gan-chunsong-liang-shuming }
+    - { date: 1980, s: restored, note: 宪法修改委员会委员, cite: gpnu-liang-shuming }
+    - { date: 1988-06-23, s: dead, cite: gpnu-liang-shuming }
+  cites: [aisixiang-chen-xiaoping-liang-feng, rujia-gan-chunsong-liang-shuming, gpnu-liang-shuming, gmw-2004-liang-shuming-shengping]
+
+- id: ma-yinchu
+  name: 马寅初
+  born: 1882-06-24
+  died: 1982-05-10
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 前北京大学校长（1960 年辞职）
+  pinyin: Mǎ Yínchū
+  gender: m
+  birthplace: 浙江嵊县
+  positions:
+    - { title: 校长, orgName: 北京大学, from: 1951-06, to: 1960-03, cite: rmrb-1982-05-23-ma-yinchu, verify: true }
+    - { title: 名誉校长, orgName: 北京大学, from: 1979, to: 1982-05-10, cite: rmrb-1982-05-23-ma-yinchu, verify: true }
+  bio: 浙江嵊县人，经济学家、教育家。抗战中抨击官僚资本，被国民党关进集中营数年。1951 年任北京大学校长。1950 年代中期提出以节制生育为中心的“新人口论”，主张计划生育、推迟结婚年龄，随后在康生、陈伯达策动下被扣上“中国的马尔萨斯”“反党反社会主义”的帽子，被迫辞去北大校长，离开全国人大常委会，此后二十年默默无闻。1979 年后平反，任北大名誉校长。1982 年在北京去世，按遗愿不开追悼会。
+  life:
+    - h: 民主战士
+      from: 1882-06-24
+      to: 1949-10
+      text: |
+        抗战中写文章、作讲演，反对官僚资本主义和通货膨胀，被国民党监禁到集中营数年；出狱后继续呼吁“打倒官僚资本”。
+      cites: [rmrb-1982-05-23-ma-yinchu]
+    - h: 新人口论
+      from: 1949-10
+      to: 1979
+      text: |
+        1950 年代中期提出“新人口论”，认为人口“增殖太快”，“影响积累、影响工业化”，主张“实行计划生育”“推迟结婚年龄”；又主张国民经济综合平衡，不能片面强调重工业。随后在康生、陈伯达策动下受到批判，被扣上“资产阶级代表人物”“中国的马尔萨斯”“反党反社会主义”等帽子。他“孤军作战”，不肯检讨，最后辞去北大校长职务，随后离开人大常委会。此后二十年默默无闻；1960 年代曾上书中央领导，就学习毛泽东思想、防止个人崇拜等问题直言。
+      cites: [rmrb-1982-05-23-ma-yinchu]
+    - h: 平反
+      from: 1979
+      to: 1982-05-10
+      text: |
+        十一届三中全会后彻底平反，新人口论和综合平衡理论被肯定为正确，恢复职务和名誉，任全国人大常委、政协常委、北大名誉校长。1981 年举行了百岁寿辰活动。1982 年 5 月去世，按遗愿不开追悼会，骨灰一部分安放八宝山，一部分归葬嵊县。
+      cites: [rmrb-1982-05-23-ma-yinchu]
+  assess:
+    - { voice: officialLater, text: 在康生、陈伯达的策划鼓动下，开展了对马寅初同志的“批判”，把正确的说成为错误的，把学术问题，说成是政治问题。（1982 年新华社）, cite: rmrb-1982-05-23-ma-yinchu, quote: true }
+    - { voice: officialLater, text: 对学术问题，他敢于坚持自己认定的真理，舌战名家，不曾却阵，为我国学术争鸣创一代新风，为后来学人树光辉榜样。（同上）, cite: rmrb-1982-05-23-ma-yinchu, quote: true }
+    - { voice: editor, text: 1982 年的消息把批判归于康生、陈伯达的“策划鼓动”，没有提毛泽东；也没有写他辞去北大校长的年份，本站用的 1960 年 3 月来自北大校长名录，需要核对。, cite: rmrb-1982-05-23-ma-yinchu }
+  factions: [academics]
+  fate:
+    - { date: 1951-06, s: normal, note: 北京大学校长, verify: true }
+    - { date: 1958, s: attacked, note: “新人口论”被批判, verify: true }
+    - { date: 1960-03, s: sidelined, note: 辞去北大校长, verify: true }
+    - { date: 1979, s: restored, note: 平反, cite: rmrb-1982-05-23-ma-yinchu }
+    - { date: 1982-05-10, s: dead, verify: true }
+  cites: [rmrb-1982-05-23-ma-yinchu]
+
+- id: zhao-jiuzhang
+  name: 赵九章
+  born: 1907-10-15
+  died: 1968-10-26
+  deathKind: persecuted
+  deathPlace: 北京
+  tier: 3
+  role1966: 中国科学院卫星设计院院长、地球物理研究所所长
+  pinyin: Zhào Jiǔzhāng
+  gender: m
+  birthplace: 河南开封
+  origin: 浙江吴兴
+  positions:
+    - { title: 所长, orgName: 中国科学院地球物理研究所, from: 1950, to: 1966, cite: kxb-2019-zhao-jiuzhang }
+    - { title: 院长, orgName: 中国科学院卫星设计院, from: 1966, to: 1968-10-26, cite: kxb-2019-zhao-jiuzhang, verify: true }
+  bio: 浙江吴兴人，生于河南开封，气象学家、地球物理学家。1938 年获柏林大学博士，1944 年起主持中央研究院气象研究所，1949 年参与组织气象所拒迁台湾。1950 年起任中科院地球物理所所长，1955 年当选学部委员。1958 年起主持人造卫星预研，1966 年任中科院卫星设计院院长。文革中被“靠边站”、写检查，1968 年 10 月 26 日去世；1980 年起诉书把他列为被迫害致死的科学家之一。1970 年“东方红一号”发射时他已去世 18 个月。1978 年平反，1999 年追授“两弹一星”功勋奖章。
+  life:
+    - h: 气象所
+      from: 1907-10-15
+      to: 1949-10
+      text: |
+        出身中医世家，五四运动后改学科学。1933 年清华大学物理系毕业，1938 年获德国柏林大学博士，回国后在西南联大任教。1944 年经竺可桢推荐任中央研究院气象研究所代所长，1949 年参与组织气象所拒迁台湾。
+      cites: [kxb-2019-zhao-jiuzhang]
+    - h: 地球物理所与卫星
+      from: 1949-10
+      to: 1966-06
+      text: |
+        1950 年任中科院地球物理研究所第一任所长，1955 年当选学部委员。从 1957 年起倡议发展中国自己的人造卫星，1958 年任中科院“581”组副组长，主持卫星和探空火箭预研。1966 年任新成立的中科院卫星设计院院长。
+      cites: [kxb-2019-zhao-jiuzhang]
+    - h: 靠边站
+      from: 1966-06
+      to: 1968-10-26
+      text: |
+        文革中不断受到冲击，被“靠边站”。同事潘厚任回忆，他在地球物理所小楼的门堂里，以大木箱当桌、小木箱当凳，佝偻着身子写“检查”。1968 年 8 月康生指使中组部编造的《关于三届人大常委委员政治情况的报告》把他列入被诬陷的六十名人大常委之中。1968 年 10 月 26 日清晨去世，年 61 岁。
+      cites: [kxb-2019-zhao-jiuzhang, ws-1980-indictment]
+  rehab:
+    - { date: 1978, text: 经邓小平批示，中国科学院为他平反昭雪，在八宝山举行骨灰安放仪式, cite: kxb-2019-zhao-jiuzhang }
+  assess:
+    - { voice: judicial1980, text: 著名地球物理学家赵九章、冶金学家叶渚沛、理论物理学家张宗燧、昆虫学家刘崇乐、植物分类学家陈焕镛、冶金陶瓷学家周仁等被迫害致死。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: witness, text: 年轻人自行车轮胎破了，在门口修理，他也过去看看。看得出他很想帮忙，但形势所迫，他无法多言。（潘厚任回忆，《中国科学报》2019）, cite: kxb-2019-zhao-jiuzhang, quote: true }
+    - { voice: editor, text: 本站所引材料都只写他“去世”或“被迫害致死”，没有写具体死因。, cite: kxb-2019-zhao-jiuzhang }
+  factions: [academics]
+  fate:
+    - { date: 1950, s: normal, note: 地球物理所所长, cite: kxb-2019-zhao-jiuzhang }
+    - { date: 1966, s: attacked, note: 靠边站、写检查, cite: kxb-2019-zhao-jiuzhang }
+    - { date: 1968-10-26, s: dead, cite: kxb-2019-zhao-jiuzhang }
+  cites: [kxb-2019-zhao-jiuzhang, ws-1980-indictment, ws-1981-01-25-judgment]
+
+- id: hua-luogeng
+  name: 华罗庚
+  born: 1910-11-12
+  died: 1985-06-12
+  deathKind: natural
+  deathPlace: 日本东京
+  tier: 3
+  role1966: 中国科学院数学研究所所长、中国科学技术大学副校长
+  pinyin: Huà Luógēng
+  gender: m
+  birthplace: 江苏金坛
+  party: 中国共产党
+  positions:
+    - { title: 所长, orgName: 中国科学院数学研究所, from: 1952, to: 1966, cite: rmrb-1985-06-22-hua-luogeng, verify: true }
+    - { title: 委员, orgName: 全国人民代表大会常务委员会, from: 1954-09, to: 1985-06-12, cite: rmrb-1985-06-22-hua-luogeng }
+    - { title: 副主席, orgName: 中国人民政治协商会议全国委员会, from: 1983-06, to: 1985-06-12, cite: rmrb-1985-06-22-hua-luogeng }
+  bio: 江苏金坛人，只有初中文凭，靠自学成为数学家。经熊庆来推荐 1931 年进清华，后赴剑桥，抗战中在西南联大写成《堆垒素数论》，1946 年赴美，任伊利诺大学终身教授。1950 年回国，任中科院数学所所长、中国科大数学系主任和副校长。1950 年代末起推广“优选法”“统筹法”。文革中受迫害，手稿被盗，周恩来出面保护；他一直是全国人大常委会委员。1979 年入党，1985 年 6 月 12 日在东京作学术报告时心脏病发作去世。
+  life:
+    - h: 自学成才
+      from: 1910-11-12
+      to: 1950
+      text: |
+        出身金坛城市贫民家庭，初中毕业后读了一年职业学校，因家贫在父亲的杂货铺当学徒，业余自学数学。论文受到清华大学数学系主任熊庆来重视，1931 年经推荐到清华工作，从管理员做到讲师，又到剑桥研究。1938 年任西南联大教授，写成《堆垒素数论》。1946 年秋赴美，任普林斯顿高等研究院研究员、伊利诺大学终身教授。
+      cites: [rmrb-1985-06-22-hua-luogeng]
+    - h: 数学所与双法
+      from: 1950
+      to: 1966-06
+      text: |
+        1950 年回国，先后任清华大学教授、中国科学院数学研究所所长、中国数学会理事长、中国科学技术大学数学系主任和副校长。1950 年代末起走出书斋推广“优选法”“统筹法”，1964、1965 年毛泽东两次写信勉励他。
+      cites: [rmrb-1985-06-22-hua-luogeng]
+    - h: 身处逆境
+      from: 1966-06
+      to: 1976-10
+      text: |
+        据 1985 年的生平，他文革中受到林彪、江青集团迫害，周恩来出面保护，支持他继续推广“双法”；他的手稿在“十年浩劫”中被盗走。1968 年 8 月康生指使中组部编造的报告把他列入被诬陷的六十名人大常委之中。1975 年 1 月他仍被列为第四届全国人大常委会委员。
+      cites: [rmrb-1985-06-22-hua-luogeng, ws-1980-indictment, rmrb-1975-01-19-npc-sc-list]
+    - h: 入党与去世
+      from: 1976-10
+      to: 1985-06-12
+      text: |
+        1979 年入党。用近三年时间凭记忆重写被盗的手稿，写成《计划经济大范围最优化的数学理论》。任中国科学院副院长、民盟副主席，1983 年起任全国政协副主席。1985 年 6 月 12 日晚在日本东京逝世，终年 74 岁。
+      cites: [rmrb-1985-06-22-hua-luogeng]
+  assess:
+    - { voice: officialLater, text: 十年动乱期间，当华罗庚同志受到林彪、江青反革命集团迫害时，周恩来同志以大无畏的精神挺身而出，保护华罗庚同志，支持他继续从事“双法”的研究和推广工作。（1985 年新华社生平）, cite: rmrb-1985-06-22-hua-luogeng, quote: true }
+    - { voice: judicial1980, text: 一百一十五名全国人大常委会委员，有六十人被分别诬陷为“叛徒”、“叛徒嫌疑”、“特务”、“特务嫌疑”、“反革命修正主义分子、走资派、三反分子”、“有严重问题”。（1980 年起诉书，名单中有华罗庚、赵九章）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 生平说他文革中“身处逆境”、手稿“被盗走”，但没有写是怎样被迫害的；同一时期他一直保留全国人大常委会委员的名义。, cite: rmrb-1985-06-22-hua-luogeng }
+  factions: [academics]
+  fate:
+    - { date: 1950, s: normal, note: 回国, cite: rmrb-1985-06-22-hua-luogeng }
+    - { date: 1966, s: attacked, note: 受迫害，手稿被盗, cite: rmrb-1985-06-22-hua-luogeng }
+    - { date: 1975-01, s: normal, note: 四届全国人大常委会委员, cite: rmrb-1975-01-19-npc-sc-list }
+    - { date: 1985-06-12, s: dead, note: 在东京作学术报告时去世, cite: rmrb-1985-06-22-hua-luogeng }
+  cites: [rmrb-1985-06-22-hua-luogeng, ws-1980-indictment, rmrb-1975-01-19-npc-sc-list]
+
+- id: feng-youlan
+  name: 冯友兰
+  born: 1895-12-04
+  died: 1990-11-26
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 北京大学哲学系教授
+  pinyin: Féng Yǒulán
+  gender: m
+  aka:
+    - { kind: courtesy, name: 芝生 }
+  birthplace: 河南唐河
+  positions:
+    - { title: 教授, orgName: 北京大学, from: 1952, to: 1990-11-26, cite: pku-feng-youlan, verify: true }
+    - { title: 常委, orgName: 中国人民政治协商会议全国委员会, from: 1983-06, to: 1990-11-26, cite: pku-feng-youlan }
+  bio: 河南唐河人，哲学家，1918 年毕业于北大哲学系，1923 年获哥伦比亚大学博士，1930 年代写成两卷本《中国哲学史》，长期任清华文学院院长。1949 年后任北大哲学系教授。文革初被抄家、批斗、关进“牛棚”，1968 年秋获释。1973 年批林批孔中发表批孔和自我批判的发言，被《光明日报》转载，同年秋成为“梁效”顾问，1974 年写《咏史》诗，其中有“则天敢于做皇帝”句。晚年自承当时“有哗众取宠之心”，口述完成七卷本《中国哲学史新编》。1990 年在北京去世。
+  life:
+    - h: 中国哲学史
+      from: 1895-12-04
+      to: 1949-10
+      text: |
+        1918 年毕业于北京大学哲学系，1920 年赴美，1923 年获哥伦比亚大学哲学博士。回国后历任中州大学、广州大学、燕京大学教授，清华大学哲学系主任和文学院院长，西南联大教授。1930 年代初写成两卷本《中国哲学史》。1948 年任清华大学校务会议代主席。
+      cites: [pku-feng-youlan]
+    - h: 改造
+      from: 1949-10
+      to: 1966-07
+      text: |
+        1949 年 10 月写信给毛泽东，表示过去讲的是封建哲学，要用五年时间以马克思主义观点重写中国哲学史；毛泽东回信说“不必急于求效，可以慢慢地改，总以采取老实态度为宜”。此后任北大哲学系教授。1957 年 4 月应邀到毛泽东家做客，毛泽东说“好好的鸣吧，百家争鸣，你就是一家嘛”。
+      cites: [aisixiang-chen-xiaoping-liang-feng, pku-feng-youlan]
+    - h: 牛棚
+      from: 1966-07
+      to: 1973
+      text: |
+        1966 年 7 月燕南园的家被查封，工资降到最少每月 24 元，子女也被批斗。病中开刀做了一半就被赶出医院，第二天拖着尿瓶挨批斗。工宣队进驻后被关进“牛棚”，1968 年秋获释，据说是因为毛泽东说过“北京大学有一个冯友兰，是讲唯心主义哲学的”。1971 年 5 月谢静宜来家转达毛泽东的问候，他写了感谢信和诗。
+      cites: [aisixiang-chen-xiaoping-liang-feng]
+    - h: 梁效顾问
+      from: 1973
+      to: 1976-10
+      text: |
+        1973 年批林批孔中，他在校内作了两次批孔和批判自己尊孔思想的发言，刊于《北京大学学报》，《光明日报》等全文转载并加编者按。同年秋迟群、谢静宜在清华开会成立北大、清华两校大批判组，笔名“梁效”，他任顾问。1974 年 6 月参加江青到会的大批判组会议，随后在天津住院时写了《咏史》二十五首，其中有“则天敢于做皇帝，亘古中华一女雄”。
+      cites: [aisixiang-chen-xiaoping-liang-feng]
+    - h: 新编
+      from: 1976-10
+      to: 1990-11-26
+      text: |
+        四人帮倒台后，“则天敢于做皇帝”两句被批为吹捧江青。他在《三松堂自序》里说自己当时“确有哗众取宠之心”。1985 年 12 月九十寿辰前，梁漱溟来信说他“曾谄媚江青”，读过《三松堂自序》后两人见面。他从 1980 年起口述写作七卷本《中国哲学史新编》，1990 年 7 月完成，11 月 26 日在北京友谊医院去世。
+      cites: [aisixiang-chen-xiaoping-liang-feng, pku-feng-youlan]
+  assess:
+    - { voice: witness, text: 我当时自以为是跟着毛主席、党中央走的，鼓励我的那些群众也是这样想的，至少也是这样说的。可是我当时也确有哗众取宠之心。（冯友兰《三松堂自序》，陈晓平转引）, cite: aisixiang-chen-xiaoping-liang-feng, quote: true }
+    - { voice: witness, text: 某教授的文章我拜读过了，我与他相熟，前不久还碰见他呢。我怀疑他文章所说的是否是他内心要说的真话。（梁漱溟回忆 1973 年政协学习会上的发言，干春松转引）, cite: rujia-gan-chunsong-liang-shuming, quote: true }
+    - { voice: scholar, text: 冯友兰成为“梁效”的顾问，主要任务是查阅一些成语、典故的出处。（陈晓平，据《三松堂自序》）, cite: aisixiang-chen-xiaoping-liang-feng, quote: true }
+    - { voice: editor, text: 他在梁效里到底做了什么，说法分歧很大。本站收的陈晓平一文为他辩护，说他只是查典故；批评者则把《咏史》中“则天敢于做皇帝”一类诗句看作迎合江青。本站只收录了辩护一方的文本和他本人的检讨。, cite: aisixiang-chen-xiaoping-liang-feng }
+  factions: [academics]
+  fate:
+    - { date: 1966-07, s: attacked, note: 抄家、批斗、关“牛棚”, cite: aisixiang-chen-xiaoping-liang-feng }
+    - { date: 1968, s: normal, note: 秋天放出“牛棚”, cite: aisixiang-chen-xiaoping-liang-feng }
+    - { date: 1973, s: rise, note: 任“梁效”顾问, cite: aisixiang-chen-xiaoping-liang-feng }
+    - { date: 1990-11-26, s: dead, cite: pku-feng-youlan }
+  cites: [pku-feng-youlan, aisixiang-chen-xiaoping-liang-feng, rujia-gan-chunsong-liang-shuming]

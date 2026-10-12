@@ -226,6 +226,13 @@
 - { id: huitong, name: 湖南会同, names: [会同], lat: 26.89, lon: 109.72 }
 - { id: daxian, name: 四川达县, names: [达县], lat: 31.21, lon: 107.47 }
 - { id: shishou, name: 湖北石首, names: [石首], lat: 29.72, lon: 112.43 }
+# batch 20
+- { id: leshan, name: 四川乐山, names: [乐山], lat: 29.55, lon: 103.77 }
+- { id: gaoxian, name: 四川高县, names: [高县], lat: 28.44, lon: 104.52 }
+- { id: shengxian, name: 浙江嵊县, names: [嵊县], lat: 29.59, lon: 120.82 }
+- { id: jintan, name: 江苏金坛, names: [金坛], lat: 31.74, lon: 119.57 }
+- { id: tanghe, name: 河南唐河, names: [唐河], lat: 32.68, lon: 112.83 }
+- { id: tokyo, name: 日本东京, names: [东京], lat: 35.68, lon: 139.69, far: true }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

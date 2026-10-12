@@ -7,6 +7,13 @@ an-ziwen:
   author: 政協秘書處
   license: Public domain
   date: "1949"
+ba-jin:
+  qid: Q13005
+  file: 巴金1938.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E5%B7%B4%E9%87%911938.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1938"
 bao-tong:
   qid: Q2529263
   file: Chinese ex-official Bao Tong at home (cropped).jpg
@@ -38,6 +45,13 @@ cao-diqiu:
   author: Unknown author Unknown author
   license: Public domain
   date: 1956-10-11
+cao-yu:
+  qid: Q353783
+  file: Young Cao Yu.jpg
+  url: https://commons.wikimedia.org/wiki/File:Young_Cao_Yu.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1930s  -1940s
 chen-boda:
   qid: Q47677
   pick: 陳伯達.jpg
@@ -186,6 +200,13 @@ fei-xiaotong:
   author: Unknown author Unknown author
   license: Public domain
   date: 1920s  -1930s
+feng-youlan:
+  qid: Q557220
+  file: Feng Youlan.jpg
+  url: https://commons.wikimedia.org/wiki/File:Feng_Youlan.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: before 1925
 fu-chongbi:
   qid: Q11970472
   file: Fu Chongbi.jpg
@@ -223,6 +244,13 @@ gu-zhun:
 guan-feng:
   qid: Q8340936
   why: Wikidata item has no image (P18)
+guo-moruo:
+  qid: Q357821
+  file: 郭开贞.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E9%83%AD%E5%BC%80%E8%B4%9E.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 摄于1940年代至1960年代
 han-aijing:
   why: no Wikidata item with matching birth year
 he-long:
@@ -270,6 +298,13 @@ hua-guofeng:
   author: Bibliothèque de l'Hôtel de Ville - Bibliothèques spécialisées de la Ville de Paris
   license: Public domain
   date: 1979-10-16
+hua-luogeng:
+  qid: Q590111
+  file: Hua Luogeng 1956.jpg
+  url: https://commons.wikimedia.org/wiki/File:Hua_Luogeng_1956.jpg
+  author: 牛畏予
+  license: Public domain
+  date: "1956"
 huang-kecheng:
   qid: Q717035
   file: Huang Kecheng.jpg
@@ -415,6 +450,13 @@ li-zuopeng:
   author: 中华人民共和国
   license: Public domain
   date: "1955"
+liang-shuming:
+  qid: Q1167488
+  file: Liang Shuming.jpg
+  url: https://commons.wikimedia.org/wiki/File:Liang_Shuming.jpg
+  author: Unknown; scanned by 天竺鼠 ( talk )
+  license: Public domain
+  date: No later than 1936; scan created on 19 N
 liao-hansheng:
   qid: Q8293144
   file: Liaohansheng1959.jpg
@@ -535,6 +577,11 @@ luo-ruiqing:
   zoom: 1.5
 ma-tianshui:
   why: no Wikidata item with matching birth year
+ma-yinchu:
+  qid: Q706349
+  file: Ma Yinchu.jpg
+  url: https://commons.wikimedia.org/wiki/File:Ma_Yinchu.jpg
+  license: Public domain
 mao-yuanxin:
   qid: Q211388
   why: Wikidata item has no image (P18)
@@ -825,6 +872,13 @@ xi-zhongxun:
   author: Anonymous Unknown author
   license: Public domain
   date: "1946"
+xia-yan:
+  qid: Q619051
+  file: Xia Yan.jpg
+  url: https://commons.wikimedia.org/wiki/File:Xia_Yan.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 2011-11-07
 xiao-hua:
   qid: Q8314185
   file: Xiaohua.jpg
@@ -903,6 +957,13 @@ yang-chengwu:
   author: 中国人民解放军防空军
   license: Public domain
   date: 1955-09
+yang-hansheng:
+  qid: Q9076136
+  file: 陽翰笙.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E9%99%BD%E7%BF%B0%E7%AC%99.jpg
+  author: 政協秘書處
+  license: Public domain
+  date: "1949"
 yang-shangkun:
   qid: Q377935
   file: Yang Shangkun 2.jpg
@@ -1041,6 +1102,13 @@ zhao-dan:
   author: Unknown author Unknown author
   license: Public domain
   date: before 1961
+zhao-jiuzhang:
+  qid: Q5956190
+  file: Zhao jiu zhang in 1933.jpg
+  url: https://commons.wikimedia.org/wiki/File:Zhao_jiu_zhang_in_1933.jpg
+  author: Open source picture
+  license: Public domain
+  date: "1933"
 zhao-shuli:
   skip: true
   why: Commons 上唯一的照片是赵树理、老舍、杨朔三人合影，无法确定哪一位是赵树理
