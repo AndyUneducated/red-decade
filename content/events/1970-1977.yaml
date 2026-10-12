@@ -66,7 +66,9 @@
     - { voice: official1981, text: 一九七五年，周恩来同志病重，邓小平同志在毛泽东同志支持下主持中央日常工作（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
     - { voice: foreign, text: 'elevated Vice Premier Teng Hsiao-p’ing to membership in the Politburo’s Standing Committee and to a Party Vice Chairmanship（1975 年 1 月美国国务院报告，记会前的十届二中全会）', cite: frus-v18-d103, quote: true }
     - { voice: foreign, text: 'Mao’s wife Chiang Ch’ing, the young Shanghai leader Wang Hung-wen, and the propagandist Yao Wen-yuan, are noticeable in their absence from posts in the state administration（同一报告）', cite: frus-v18-d103, quote: true }
-  cites: [ws-1975-npc-communique, ws-1975-01-13-zhou-report, ws-1975-npc-resolution, rmrb-1975-01-19-state-council-list, rmrb-1975-01-19-npc-sc-list, ws-1976-10-18-notice, ws-1981-resolution, frus-v18-d103]
+    - { voice: doc, text: 张春桥同志作《关于修改宪法的报告》（四届人大一次会议议程）, cite: ws-1975-npc-agenda, quote: true }
+    - { voice: doc, text: 在任命国务院总理的表决票上，只能表示同意或不同意，不能另提人选（四届人大一次会议选举和表决办法）, cite: ws-1975-npc-election, quote: true }
+  cites: [ws-1975-npc-communique, ws-1975-01-13-zhou-report, ws-1975-npc-resolution, rmrb-1975-01-19-state-council-list, rmrb-1975-01-19-npc-sc-list, ws-1976-10-18-notice, ws-1981-resolution, frus-v18-d103, ws-1975-npc-agenda, ws-1975-npc-election, ws-1975-npc-announce]
 
 - id: 1976-01-08-zhou-death
   date: 1976-01-08

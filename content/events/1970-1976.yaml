@@ -56,7 +56,8 @@
     - { voice: doc, text: 周恩来总理代表中华人民共和国政府邀请尼克松总统于一九七二年五月以前的适当时间访问中国（同一公告）, cite: rmrb-1971-07-16-nixon-announcement, quote: true }
     - { voice: foreign, text: 'He appeared to be genuinely anguished when talking about the difficulties which had cropped up during the Cultural Revolution（美方 7 月 10 日会谈记录，记周恩来谈文革）', cite: frus-v17-d140, quote: true }
     - { voice: foreign, text: 'We have laid the groundwork for you and Mao to turn a page in history（基辛格 7 月 14 日给尼克松的访华报告）', cite: frus-v17-d144, quote: true }
-  cites: [rmrb-1971-07-16-nixon-announcement, frus-v17-d139, frus-v17-d140, frus-v17-d144]
+    - { voice: foreign, text: 我们谋求同中华人民共和国建立新的关系的行动不会以牺牲我们老朋友们的利益为代价（尼克松宣布将访华的声明，中译）, cite: ws-1971-nixon-announce, quote: true }
+  cites: [rmrb-1971-07-16-nixon-announcement, frus-v17-d139, frus-v17-d140, frus-v17-d144, ws-1971-nixon-announce]
 
 - id: 1971-10-06-huang-wu-li-qiu
   date: 1971-10-06
@@ -293,7 +294,8 @@
     - { voice: official1966, text: 一月十九日上午七时许，西贡当局的军队又企图强占我琛航岛（1974 年 1 月 19 日新华社）, cite: rmrb-1974-01-20-xisha, quote: true }
     - { voice: official1966, text: 我渔民、舰艇被迫进行自卫还击（同日《人民日报》标题）, cite: rmrb-1974-01-20-xisha, quote: true }
     - { voice: official1966, text: 俘获入侵我国的南越西贡军队官兵范文红少校等四十八名，美国人一名（1974 年 1 月 29 日新华社受权公布，宣布分批遣返）, cite: rmrb-1974-01-30-repatriate, quote: true }
-  cites: [rmrb-1974-01-20-xisha, rmrb-1974-01-30-repatriate]
+    - { voice: official1966, text: 中华人民共和国政府重申，南沙群岛、西沙群岛、中沙群岛和东沙群岛，都是中国领土的一部分（1974 年 1 月 11 日外交部发言人声明，海战前八天）, cite: ws-1974-01-11-xisha-statement, quote: true }
+  cites: [rmrb-1974-01-20-xisha, rmrb-1974-01-30-repatriate, ws-1974-01-11-xisha-statement]
 
 - id: 1974-02-02-pilin-pikong
   date: 1974-02-02

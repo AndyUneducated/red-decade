@@ -1,0 +1,326 @@
+# 1969–1976 fourth batch: documents registered in research/manifests/m4-ws-3.yaml
+
+- id: 1969-11-05-telecom-army
+  date: 1969-11-05
+  title: 电信划归军队：邮电部拆分、气象局并入总参
+  lane: army
+  weight: 2
+  place: 全国
+  summary: 根据周恩来 1969 年 6 月 10 日的指示，邮电部从中央到基层拆开，电信划归军队、实行“半军事化管理”，邮政并入交通部门。划归军队的有近三万个单位、约二十万职工。一个月后，中央气象局与总参军事气象局合并，归总参谋部领导。1973 年 5 月这些安排被撤回。
+  people: [zhou-enlai, lin-biao]
+  voices:
+    - { voice: official1966, text: 邮电体制的改革，就是将邮电部的电信、邮政从中央到基层都分开，电信部分划归军队领导，邮政部分与铁道、交通部门合并（1969 年 11 月 5 日国务院、中央军委通知）, cite: ws-1970-post-reform, quote: true }
+    - { voice: doc, text: 划归军队领导的事业、企业单位近三万个，职工约二十万人（铁道部、交通部、邮电部军管会和通信兵部报告）, cite: ws-1970-post-reform, quote: true }
+    - { voice: official1966, text: 两局合并后仍称中央气象局，归总参谋部领导（1969 年 12 月 4 日国务院、中央军委通知）, cite: ws-1970-weather-merge, quote: true }
+  cites: [ws-1970-post-reform, ws-1970-weather-merge, ws-cat2-post]
+
+- id: 1970-small-steel
+  date: 1970
+  title: “五小”工业与“以钢为纲”：烟台“小钢联”
+  lane: econ
+  weight: 1
+  place: 山东烟台
+  summary: 《办好小钢铁》介绍烟台地区两年多里“土法上马”建成从采矿到轧钢的地方小型钢铁联合企业，称该地区县以上“五小”工业比 1966 年增加近一倍。次年另一篇长文把“以钢为纲”定为毛泽东为钢铁工业制定的方针。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 建成了一个较为完整的具有采矿、选矿、球团、烧结、炼铁、炼钢、轧钢的地方小型钢铁联合企业（1970 年《办好小钢铁》）, cite: ws-1970-small-steel, quote: true }
+    - { voice: official1966, text: 今年，这个地区县以上的“五小”工业比一九六六年增加了将近一倍（同一文章）, cite: ws-1970-small-steel, quote: true }
+    - { voice: official1966, text: 发展工业“以钢为纲”的伟大方针，正确阐明了钢铁工业和其它工业的辩证关系（1971 年《在毛泽东思想指引下发展我国钢铁工业》）, cite: ws-cat2-steel, quote: true }
+  cites: [ws-1970-small-steel, ws-cat2-steel]
+
+- id: 1970-zhiqing-reeducation
+  date: 1970
+  title: 知青“再教育”：“先抓人头，后抓锄头”
+  lane: mass
+  weight: 1
+  place: 全国
+  summary: 1970 年的两篇文章把知青下乡定为“培养和造就革命接班人的重要途径”，“不是单纯安置劳动力的临时措施”；一个大队的经验文章说，不能只看知青“脸晒黑了”，更要看“心炼红了没有”。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 知识青年到农村去，同贫下中农相结合，不是单纯安置劳动力的临时措施（1970 年《抓好下乡知识青年的工作》）, cite: ws-1970-zhiqing-work, quote: true }
+    - { voice: official1966, text: 不能光看他脸晒黑了，更重要的是看他心炼红了没有（1970 年《用一分为二的观点对知识青年进行再教育》）, cite: ws-1970-zhiqing-yifenwei, quote: true }
+  cites: [ws-1970-zhiqing-work, ws-1970-zhiqing-yifenwei]
+
+- id: 1970-chile
+  date: 1970
+  title: 中国与智利建交
+  lane: intl
+  weight: 1
+  place: 巴黎（两国驻法国大使签署）
+  summary: 两国驻法国大使黄镇和伯恩斯坦在巴黎签署协议建交。智利政府“注意到”中国关于台湾的声明，沿用了同年中加公报的写法。同年中国还与埃塞俄比亚建交。
+  people: []
+  voices:
+    - { voice: doc, text: 中国政府重申：台湾是中华人民共和国领土不可分割的一部分。智利政府注意到中国政府的这一声明（中智建交公报）, cite: ws-1970-chile, quote: true }
+    - { voice: doc, text: 中华人民共和国政府是代表全中国人民的唯一合法政府（中埃建交公报）, cite: ws-1970-ethiopia, quote: true }
+  cites: [ws-1970-chile, ws-1970-ethiopia, ws-1970-canada]
+
+- id: 1971-04-16-assets
+  date: 1971-04-16
+  title: 国务院部署清产核资：积压物资五十二亿元
+  lane: econ
+  weight: 1
+  place: 全国
+  summary: 国务院批转国家计委、财政部报告。报告说毛泽东 1968 年 12 月批示上海外贸积压浪费“似有普遍性”以后，各地清出积压物资 52 亿元；生产建设单位库存中积压物资约占 20%，设备利用率低于历史水平，要求两年内完成清产核资。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 各地区、各部门相继开展清仓查库工作，清出积压物资五十二亿元，已利用十六亿元（1971 年国家计委、财政部报告）, cite: ws-cat2-assets, quote: true }
+    - { voice: doc, text: 生产建设单位的库存物资中，积压物资占百分之二十左右（同一报告）, cite: ws-cat2-assets, quote: true }
+  cites: [ws-cat2-assets]
+
+- id: 1971-05-28-austria
+  date: 1971-05-28
+  title: 中国与奥地利建交
+  lane: intl
+  weight: 1
+  place: 原件未载签署地
+  summary: 中奥两国决定互相承认并建立外交关系。公报写明“中国政府尊重奥地利共和国的中立地位”。
+  people: []
+  voices:
+    - { voice: doc, text: 中国政府尊重奥地利共和国的中立地位（1971 年中奥建交公报）, cite: ws-1971-austria, quote: true }
+  cites: [ws-1971-austria]
+
+- id: 1971-06-08-farm-mech
+  date: 1971-06-08
+  title: 国务院召开农业机械化会议：1980 年基本实现农业机械化
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 国务院通知 8 月在北京召开全国农业机械化会议，要求制订“一九八〇年前基本上实现农业机械化”的规划，农机制造以地方为主、产品以中小型为主。这一目标 1975 年在农业学大寨会议上再次提出。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 在自力更生的基础上，制订出一九八〇年前基本上实现农业机械化的规划（1971 年 6 月 8 日国务院通知）, cite: ws-cat2-farm-mech, quote: true }
+  cites: [ws-cat2-farm-mech, rmrb-1975-10-21-dazhai-close]
+
+- id: 1971-08-02-seismology
+  date: 1971-08-02
+  title: 成立国家地震局
+  lane: econ
+  weight: 1
+  place: 全国
+  summary: 国务院通知调整中央地震工作小组，撤销其办公室，成立国家地震局，由中国科学院代管，提出“以预防为主”、专业队伍与群众业余队伍结合开展地震预报。五年后发生唐山大地震。
+  people: []
+  voices:
+    - { voice: official1966, text: 撤销中央地震工作小组办公室，成立国家地震局，作为中央地震工作小组的办事机构，由中国科学院代管（1971 年国务院通知）, cite: ws-cat2-seismology, quote: true }
+  cites: [ws-cat2-seismology]
+
+- id: 1971-10-25-belgium
+  date: 1971-10-25
+  title: 中国与比利时建交
+  lane: intl
+  weight: 1
+  place: 原件未载签署地
+  summary: 中比两国自 1971 年 10 月 25 日起建交，与联合国大会通过恢复中国席位的决议是同一天。比利时同样采用“注意到”台湾立场的写法。
+  people: []
+  voices:
+    - { voice: doc, text: 决定自一九七一年十月二十五日起，互相承认并建立外交关系，在三个月内互派大使（1971 年中比建交公报）, cite: ws-1971-belgium, quote: true }
+  cites: [ws-1971-belgium]
+
+- id: 1971-11-02-peru
+  date: 1971-11-02
+  title: 中国与秘鲁建交：承认二百浬海域主权
+  lane: intl
+  weight: 1
+  place: 渥太华
+  summary: 两国驻加拿大大使换文建交。公报中中国承认秘鲁对沿岸二百浬海域的主权；1972 年中阿公报也承认阿根廷的二百海里管辖权。
+  people: []
+  voices:
+    - { voice: doc, text: 中国政府承认秘鲁对邻接其海岸的二百浬范围以内的海域的主权（1971 年中秘建交公报）, cite: ws-1971-peru, quote: true }
+    - { voice: doc, text: 中华人民共和国承认阿根廷共和国对邻接其海岸的二百海里范围以内的海域的管辖权（1972 年中阿公报）, cite: ws-1972-argentina, quote: true }
+  cites: [ws-1971-peru, ws-1972-argentina]
+
+- id: 1971-recognitions
+  date: 1971
+  title: 1971 年的建交潮
+  lane: intl
+  weight: 2
+  place: 多国
+  summary: 1971 年中国先后与尼日利亚、科威特、奥地利、土耳其、伊朗、比利时、秘鲁等国建交。公报措辞因国而异：对非洲国家强调反殖民主义，对科威特写入“支持阿拉伯反对帝国主义和犹太复国主义”，对伊朗写入支持其“保护本国资源”。
+  people: []
+  voices:
+    - { voice: doc, text: 鉴于中华人民共和国支持阿拉伯反对帝国主义和犹太复国主义斗争的尊贵立场（中科建交公报）, cite: ws-1971-kuwait, quote: true }
+    - { voice: doc, text: 中华人民共和国政府坚决支持伊朗王国政府为维护民族独立和国家主权以及保护本国资源而进行的正义斗争（中伊建交公报）, cite: ws-1971-iran, quote: true }
+    - { voice: doc, text: 尼日利亚联邦共和国政府承认中华人民共和国政府为代表全中国人民的唯一合法政府（中尼建交公报）, cite: ws-1971-nigeria, quote: true }
+    - { voice: doc, text: 土耳其政府承认中华人民共和国政府为中国的唯一合法政府（中土建交公报）, cite: ws-1971-turkey, quote: true }
+  cites: [ws-1971-kuwait, ws-1971-iran, ws-1971-nigeria, ws-1971-turkey, ws-1971-austria, ws-1971-belgium, ws-1971-peru]
+
+- id: 1971-laos-statement
+  date: 1971
+  title: 工厂声明支持印度支那：反对美军侵入老挝
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 美军和南越军队大规模侵入老挝南部后，北京二七机车车辆工厂工人发表声明“坚决拥护我国政府的庄严声明”，支持西哈努克与越南、老挝领导人的联合声明。
+  people: []
+  voices:
+    - { voice: official1966, text: 最近，尼克松政府调动大量美伪军，大规模侵入老挝南部地区（1971 年北京二七机车车辆工厂工人声明）, cite: ws-cat2-support-statement, quote: true }
+  cites: [ws-cat2-support-statement]
+
+- id: 1971-12-indo-pak
+  date: 1971-12
+  title: 印巴战争：中国斥苏联支持印度、反对“伪孟加拉国”
+  lane: intl
+  weight: 2
+  place: 南亚
+  summary: 印度军队 11 月下旬起进攻巴基斯坦。中方文章驳斥苏联塔斯社 12 月 5 日的声明，称东巴问题“完全是巴基斯坦的内政”，指苏联支持印度“制造一个伪‘孟加拉国’”。中国到 1975 年 10 月才与孟加拉国建交。
+  people: []
+  voices:
+    - { voice: official1966, text: 他们这么干，就是明目张胆地支持印度反动派制造一个伪“孟加拉国”（1971 年 12 月《驳塔斯社声明》）, cite: ws-cat2-tass, quote: true }
+    - { voice: doc, text: 中华人民共和国政府和孟加拉人民共和国政府决定自一九七五年十月四日起建立外交关系并互派大使（1975 年中孟建交公报）, cite: ws-1975-bangladesh, quote: true }
+  cites: [ws-cat2-tass, ws-1975-bangladesh]
+
+- id: 1971-12-temp-workers
+  date: 1971-12
+  title: 临时工改固定工
+  lane: econ
+  weight: 1
+  place: 全国
+  summary: 国务院通知，常年性岗位一律使用固定工、不再招临时工，现有临时工经群众评议可改为固定工；同时批判刘少奇推行的“两种劳动制度”。通知还规定“擅自离开工作岗位，闹无政府主义的人”在改正前不能转正。
+  people: [liu-shaoqi]
+  voices:
+    - { voice: official1966, text: 常年性的生产、工作岗位，应该使用固定工，不得再招用临时工（1971 年国务院通知）, cite: ws-cat2-temp-workers, quote: true }
+    - { voice: official1966, text: 至今擅自离开工作岗位，闹无政府主义的人，在没有改正错误之前，不能改为固定工（同一通知）, cite: ws-cat2-temp-workers, quote: true }
+  cites: [ws-cat2-temp-workers]
+
+- id: 1971-zhiqing-line
+  date: 1971
+  title: 知青工作转向“路线教育”与“扎根农村”
+  lane: mass
+  weight: 1
+  place: 全国
+  summary: 1971 年的几篇经验文章显示知青工作的新问题：有的知青认为“路线斗争咱不管”，有的看到邻队搞“工分挂帅”就想效仿，有的城市居民区干部认为知青下乡后“就是贫下中农的事了”，个别知青“名义上下了乡，实际上却长期蹲在城里”。
+  people: []
+  voices:
+    - { voice: official1966, text: 好好劳动当社员，路线斗争咱不管（1971 年《加强党的路线教育　帮助知识青年扎根农村》所批评的看法）, cite: ws-cat2-zhiqing-line, quote: true }
+    - { voice: official1966, text: 邻近生产队有的人搞“工分挂帅”、“物质刺激”，几个知识青年看了以后，竟认为这种办法不错（1971 年《要重视知识青年的读书学习》）, cite: ws-cat2-zhiqing-study, quote: true }
+    - { voice: official1966, text: 个别知识青年名义上下了乡，实际上却长期蹲在城里吃闲饭（1971 年扬州琼花居民区经验）, cite: ws-cat2-zhiqing-rural, quote: true }
+  cites: [ws-cat2-zhiqing-line, ws-cat2-zhiqing-study, ws-cat2-zhiqing-rural]
+
+- id: 1972-capital-construction
+  date: 1972
+  title: 国务院整顿基本建设：“战线有些长，浪费大”
+  lane: econ
+  weight: 1
+  place: 全国
+  summary: 根据 1972 年全国计划会议纪要，国务院批转国家计委、建委、财政部的意见，承认基本建设“战线有些长，浪费大，制度松弛，贪大求洋”，规定一切基建纳入计划、“一律不准搞计划外工程”，并试点投资“大包干”。
+  people: []
+  voices:
+    - { voice: official1966, text: 主要是战线有些长，浪费大，制度松弛，贪大求洋的思想比较严重（1972 年国务院批转意见）, cite: ws-cat2-capital-construction, quote: true }
+    - { voice: official1966, text: 各地区、各部门，一律不准搞计划外工程（同一意见）, cite: ws-cat2-capital-construction, quote: true }
+  cites: [ws-cat2-capital-construction]
+
+- id: 1972-02-19-argentina
+  date: 1972-02-19
+  title: 中国与阿根廷建交
+  lane: intl
+  weight: 1
+  place: 原件未载签署地
+  summary: 尼克松访华前两天，中阿两国决定外交关系正常化；中国承认阿根廷对沿岸二百海里海域的管辖权。
+  people: []
+  voices:
+    - { voice: doc, text: 决定自一九七二年二月十九日起使外交关系正常化（1972 年中阿公报）, cite: ws-1972-argentina, quote: true }
+  cites: [ws-1972-argentina]
+
+- id: 1972-recognitions
+  date: 1972
+  title: 1972 年的建交与升格：墨西哥、荷兰、希腊、新西兰
+  lane: intl
+  weight: 1
+  place: 多国
+  summary: 1972 年中国还与墨西哥、希腊、新西兰等国建交，并与荷兰把外交关系升格为大使级。中墨公报写入中国支持拉丁美洲无核武器区；荷兰公报写入“结盟的”国家之间也应互不干涉内政，中方表示赞赏。
+  people: []
+  voices:
+    - { voice: doc, text: 中国政府支持墨西哥和其他拉丁美洲国家关于建立拉丁美洲无核武器区的正义立场（中墨建交公报）, cite: ws-1972-mexico, quote: true }
+    - { voice: doc, text: 结盟的并具有相同或相似的社会政治制度的国家之间也同样应该互不干涉内政（1972 年 5 月中荷联合公报）, cite: ws-1972-netherlands, quote: true }
+    - { voice: doc, text: 决定自一九七二年六月五日起，互相承认并建立外交关系（中希建交公报）, cite: ws-1972-greece, quote: true }
+    - { voice: doc, text: 台湾是中华人民共和国的一个省。新西兰政府承认中国政府的这一立场（1972 年 12 月中新建交公报）, cite: ws-1972-newzealand, quote: true }
+  cites: [ws-1972-mexico, ws-1972-netherlands, ws-1972-greece, ws-1972-newzealand]
+
+- id: 1972-10-13-xiangqian
+  date: 1972-10-13
+  title: 湘黔铁路接轨通车
+  lane: econ
+  weight: 1
+  place: 湖南、贵州
+  summary: 国务院、中央军委致电祝贺湘黔铁路经两年会战接轨通车，称其“有利于加速大三线建设”，并要求继续修建枝柳铁路。
+  people: []
+  voices:
+    - { voice: official1966, text: 湘黔铁路的通车，进一步密切了我国西南、华东和中南地区的联系，有利于加速大三线建设（1972 年国务院、中央军委贺电）, cite: ws-1972-telegram, quote: true }
+  cites: [ws-1972-telegram]
+
+- id: 1973-03-09-spain
+  date: 1973-03-09
+  title: 中国与西班牙建交
+  lane: intl
+  weight: 1
+  place: 原件未载签署地
+  summary: 中西两国决定建立大使馆级外交关系，西班牙承认台湾是中国的一个省，并在 4 月 10 日前从台湾撤走官方机构。
+  people: []
+  voices:
+    - { voice: doc, text: 并决定在一九七三年四月十日前从台湾撤走其官方代表机构（1973 年中西建交公报）, cite: ws-1973-spain, quote: true }
+  cites: [ws-1973-spain]
+
+- id: 1973-05-23-civil-restore
+  date: 1973-05-23
+  title: 恢复邮电部，气象、测绘回归政府
+  lane: army
+  weight: 2
+  place: 全国
+  summary: 林彪事件后，国务院、中央军委同日发出三个通知，执行中央 1973 年 3 月 6 日的批准：恢复邮电部，撤销电信总局，邮政、电信重新合并归地方；中央气象局划归国务院、由农林部领导；国务院重建国家测绘总局，任务移交后“军队测绘机构要作相应的缩减”。
+  people: []
+  voices:
+    - { voice: official1966, text: 关于恢复邮电部、调整邮电体制问题，中央已于一九七三年三月六日批准（1973 年 5 月 23 日国务院、中央军委通知）, cite: ws-cat2-post, quote: true }
+    - { voice: official1966, text: 决定中央气象局划归国务院建制，由农林部领导，并恢复总参谋部气象局（同日通知）, cite: ws-cat2-weather, quote: true }
+    - { voice: official1966, text: 任务移交后，军队测绘机构要作相应的缩减和调整（同日通知，测绘部门）, cite: ws-cat2-survey, quote: true }
+  cites: [ws-cat2-post, ws-cat2-weather, ws-cat2-survey, ws-1970-post-reform]
+
+- id: 1973-06-26-export-contracts
+  date: 1973-06-26
+  title: 国务院：出口合同只交货七成
+  lane: econ
+  weight: 1
+  place: 全国
+  summary: 国务院通知说外贸增长、春季广交会成交踊跃，但出口合同执行不好：11 个口岸一季度对资本主义市场的实际交货只占应交货的 73.7%，外商“已有强烈反映”，要求“重合同，守信用”。
+  people: []
+  voices:
+    - { voice: official1966, text: 今年一季度对资本主义市场出口，实际交货只占应交货的百分之七十三点七（1973 年 6 月 26 日国务院通知）, cite: ws-cat2-export, quote: true }
+    - { voice: official1966, text: 我们是社会主义国家，说了话应当算数（同一通知）, cite: ws-cat2-export, quote: true }
+  cites: [ws-cat2-export]
+
+- id: 1974-foreign-graves
+  date: 1974
+  title: 清理在华外国人坟墓
+  lane: intl
+  weight: 1
+  place: 全国
+  summary: 外国使馆不断要求查看在华外国人坟墓，外交部的请示说，据九省市调查，文革前夕在华外国人坟墓有五万多座，文革中被红卫兵摧毁，约六成已平毁、三成受损，近年对外国人察看坟墓的要求“一般均予婉拒”。
+  people: []
+  voices:
+    - { voice: doc, text: 文化大革命前夕，外国人坟墓约有5万多座（外交部请示，1974 年国务院批转）, cite: ws-cat3-foreign-graves, quote: true }
+    - { voice: doc, text: 文化大革命中，红卫兵和革命群众激于义愤，摧毁了帝国主义侵略者和一些其他外国人坟墓。目前，已平毁的外国人墓约60％（同一请示）, cite: ws-cat3-foreign-graves, quote: true }
+  cites: [ws-cat3-foreign-graves]
+
+- id: 1974-brazil-venezuela
+  date: 1974-06-28
+  title: 中国与委内瑞拉、巴西建交
+  lane: intl
+  weight: 1
+  place: 加拉加斯
+  summary: 1974 年 6 月 28 日两国代表在加拉加斯换文，中委建交；同年中国还与巴西建交，两份公报都沿用“注意到”台湾立场的写法。
+  people: []
+  voices:
+    - { voice: doc, text: 为此，由两国政府授权的代表于一九七四年六月二十八日在加拉加斯城互换了有关信件（中委建交公报）, cite: ws-1974-venezuela, quote: true }
+    - { voice: doc, text: 巴西联邦共和国政府注意到中国政府的这一立场（中巴建交公报）, cite: ws-1974-brazil, quote: true }
+  cites: [ws-1974-venezuela, ws-1974-brazil]
+
+- id: 1975-foreign-technicians
+  date: 1975
+  title: 接待西方技术人员：“崇洋迷外”的帽子
+  lane: econ
+  weight: 1
+  place: 全国
+  summary: 国务院批转国家建委、外贸部报告。报告说 1972 年以来从资本主义国家进口了一些成套设备并聘请外国技术人员，但有的单位把采纳外国技术人员的合理建议说成“崇洋迷外”，要求适当扩大他们的活动范围、改善生活条件。
+  people: []
+  voices:
+    - { voice: official1966, text: 一九七二年以来，我国从资本主义国家进口了一些成套设备（1975 年国家建委、外贸部报告）, cite: ws-cat3-foreign-technicians, quote: true }
+    - { voice: official1966, text: 有的单位不能正确对待外国技术人员的建议和意见，把采纳外国技术人员的合理建议，说成是“崇洋迷外”（同一报告）, cite: ws-cat3-foreign-technicians, quote: true }
+  cites: [ws-cat3-foreign-technicians]

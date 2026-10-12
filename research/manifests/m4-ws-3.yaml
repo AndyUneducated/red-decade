@@ -1,0 +1,268 @@
+# M4-2 第三批维基文库原文：建交公报、军管部门体制调整、知青社论、四届人大文件、纪念堂决定等。
+# 带 cat2/cat3 的 id 年份待读正文后核定（cat2 为 1971–73 分类页，cat3 为 1974–76）。
+wikisource:
+  - id: ws-1970-chile
+    title: 中华人民共和国政府和智利共和国政府关于中、智两国建立外交关系的联合公报
+    date: 1970
+    kind: party-doc
+    alias: 中华人民共和国政府和智利共和国政府关于中、智两国建立外交关系的联合公报
+  - id: ws-1970-ethiopia
+    title: 中华人民共和国政府和埃塞俄比亚帝国政府就中、埃两国建立外交关系发表的联合公报
+    date: 1970
+    kind: party-doc
+    alias: 中华人民共和国政府和埃塞俄比亚帝国政府就中、埃两国建立外交关系发表的联合公报
+  - id: ws-1970-zhiqing-yifenwei
+    title: 用一分为二的观点对知识青年进行再教育
+    date: 1970
+    kind: editorial
+    alias: 用一分为二的观点对知识青年进行再教育
+  - id: ws-1970-zhiqing-work
+    title: 抓好下乡知识青年的工作
+    date: 1970
+    kind: editorial
+    alias: 抓好下乡知识青年的工作
+  - id: ws-1970-small-steel
+    title: 办好小钢铁
+    date: 1970
+    kind: editorial
+    alias: 办好小钢铁
+  - id: ws-1970-railway
+    title: 毛泽东思想指引我们多快好省地修建铁路
+    date: 1970
+    kind: editorial
+    alias: 毛泽东思想指引我们多快好省地修建铁路
+  - id: ws-1970-post-reform
+    title: 国务院、中央军委转发铁道部、交通部、邮电部军管会、通信兵部关于邮电体制改革的意见
+    date: 1969-11-05
+    author: 国务院、中央军委
+    kind: party-doc
+    alias: 国务院、中央军委转发邮电体制改革意见（1969，电信划归军队）
+  - id: ws-1970-weather-merge
+    title: 国务院、中央军委关于总参军事气象局与中央气象局合并问题的通知
+    date: 1969-12-04
+    author: 国务院、中央军委
+    kind: party-doc
+    alias: 国务院、中央军委关于军事气象局与中央气象局合并的通知（1969）
+  - id: ws-1971-nixon-announce
+    title: 美国总统尼克松关于计划访问北京的声明
+    date: 1971-07
+    author: 尼克松
+    kind: news
+    alias: 尼克松宣布将访问中国的电视讲话（1971 年 7 月，中译）
+  - id: ws-cat2-tass
+    title: 驳塔斯社声明
+    date: 1971-12
+    kind: editorial
+    alias: 《驳塔斯社声明》（1971 年 12 月，印巴战争）
+  - id: ws-cat2-support-statement
+    title: 坚决拥护我国政府庄严声明
+    date: 1971
+    author: 北京二七机车车辆工厂工人
+    kind: editorial
+    alias: 二七机车车辆工厂工人《坚决拥护我国政府庄严声明》（1971）
+  - id: ws-cat2-temp-workers
+    title: 国务院关于改革临时工、轮换工制度的通知
+    date: 1971
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于改革临时工、轮换工制度的通知（1971）
+  - id: ws-cat2-seismology
+    title: 国务院关于加强中央地震工作小组和成立国家地震局的通知
+    date: 1971-08-02
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于成立国家地震局的通知（1971）
+  - id: ws-cat2-farm-mech
+    title: 国务院关于召开全国农业机械化会议的通知
+    date: 1971-06-08
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于召开全国农业机械化会议的通知（1971）
+  - id: ws-cat2-assets
+    title: 国务院批转国家计划革命委员会、财政部关于开展清产核资工作的报告
+    date: 1971-04-16
+    author: 国务院
+    kind: party-doc
+    alias: 国务院批转清产核资工作报告（1971）
+  - id: ws-cat2-zhiqing-line
+    title: 加强党的路线教育 帮助知识青年扎根农村
+    date: 1971
+    kind: editorial
+    alias: 《加强党的路线教育　帮助知识青年扎根农村》（1971）
+  - id: ws-cat2-zhiqing-study
+    title: 要重视知识青年的读书学习
+    date: 1971
+    kind: editorial
+    alias: 《要重视知识青年的读书学习》（1971）
+  - id: ws-cat2-zhiqing-rural
+    title: 配合农村做好知识青年再教育工作
+    date: 1971
+    kind: editorial
+    alias: 《配合农村做好知识青年再教育工作》（1971，扬州琼花居民区）
+  - id: ws-cat2-steel
+    title: 在毛泽东思想指引下发展我国钢铁工业
+    date: 1971
+    kind: editorial
+    alias: 《在毛泽东思想指引下发展我国钢铁工业》（1971）
+  - id: ws-1972-telegram
+    title: 国务院、中央军委贺电 (1972年)
+    date: 1972-10
+    author: 国务院、中央军委
+    kind: party-doc
+    alias: 国务院、中央军委祝贺湘黔铁路通车贺电（1972）
+  - id: ws-cat2-capital-construction
+    title: 国务院批转国家计委、国家建委、财政部关于加强基本建设管理的几项意见
+    date: 1972
+    author: 国务院
+    kind: party-doc
+    alias: 国务院批转关于加强基本建设管理的几项意见（1972）
+  - id: ws-cat2-post
+    title: 国务院、中央军委关于调整邮电体制问题的通知
+    date: 1973-05-23
+    author: 国务院、中央军委
+    kind: party-doc
+    alias: 国务院、中央军委关于调整邮电体制问题的通知（1973，恢复邮电部）
+  - id: ws-cat2-weather
+    title: 国务院、中央军委关于调整气象部门体制的通知
+    date: 1973-05-23
+    author: 国务院、中央军委
+    kind: party-doc
+    alias: 国务院、中央军委关于调整气象部门体制的通知（1973）
+  - id: ws-cat2-survey
+    title: 国务院、中央军委关于调整测绘部门体制的通知
+    date: 1973-05-23
+    author: 国务院、中央军委
+    kind: party-doc
+    alias: 国务院、中央军委关于调整测绘部门体制的通知（1973）
+  - id: ws-cat2-export
+    title: 国务院关于严格履行出口商品合同的通知
+    date: 1973-06-26
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于严格履行出口商品合同的通知（1973）
+  - id: ws-1973-spain
+    title: 中华人民共和国政府和西班牙国政府关于中、西两国建立外交关系的联合公报
+    date: 1973-03-09
+    author: 中西两国政府
+    kind: party-doc
+    alias: 中西建交联合公报（1973）
+  - id: ws-1971-iran
+    title: 中华人民共和国政府和伊朗王国政府关于中国和伊朗建立外交关系的联合公报
+    date: 1971
+    kind: party-doc
+    alias: 中华人民共和国政府和伊朗王国政府关于中国和伊朗建立外交关系的联合公报
+  - id: ws-1971-turkey
+    title: 中华人民共和国和土耳其共和国建立外交关系的联合公报
+    date: 1971
+    kind: party-doc
+    alias: 中华人民共和国和土耳其共和国建立外交关系的联合公报
+  - id: ws-1971-nigeria
+    title: 关于中华人民共和国和尼日利亚联邦共和国建立外交关系的联合公报
+    date: 1971
+    kind: party-doc
+    alias: 关于中华人民共和国和尼日利亚联邦共和国建立外交关系的联合公报
+  - id: ws-1971-austria
+    title: 中华人民共和国政府和奥地利共和国政府关于中、奥两国建立外交关系的联合公报
+    date: 1971-05-28
+    author: 中奥两国政府
+    kind: party-doc
+    alias: 中奥建交联合公报（1971）
+  - id: ws-1971-belgium
+    title: 中华人民共和国和比利时王国建立外交关系的联合公报
+    date: 1971-10-25
+    author: 中比两国政府
+    kind: party-doc
+    alias: 中比建交联合公报（1971）
+  - id: ws-1971-peru
+    title: 中华人民共和国政府和秘鲁共和国政府关于中国和秘鲁建立外交关系的联合公报
+    date: 1971-11-02
+    author: 中秘两国政府
+    kind: party-doc
+    alias: 中秘建交联合公报（1971）
+  - id: ws-1971-kuwait
+    title: 中华人民共和国政府和科威特国政府关于两国建立外交关系的联合公报
+    date: 1971
+    kind: party-doc
+    alias: 中华人民共和国政府和科威特国政府关于两国建立外交关系的联合公报
+  - id: ws-1972-mexico
+    title: 关于中华人民共和国和墨西哥合众国建立外交关系的联合公报
+    date: 1972
+    kind: party-doc
+    alias: 关于中华人民共和国和墨西哥合众国建立外交关系的联合公报
+  - id: ws-1972-argentina
+    title: 中华人民共和国政府和阿根廷共和国政府关于建立外交关系的联合公报
+    date: 1972-02-19
+    author: 中阿两国政府
+    kind: party-doc
+    alias: 中阿建交联合公报（1972）
+  - id: ws-1972-netherlands
+    title: 中华人民共和国政府和荷兰王国政府联合公报
+    date: 1972-05-18
+    author: 中荷两国政府
+    kind: party-doc
+    alias: 中荷联合公报（1972，升格为大使级）
+  - id: ws-1972-greece
+    title: 中华人民共和国政府和希腊王国政府关于建立外交关系的联合公报
+    date: 1972-06-05
+    author: 中希两国政府
+    kind: party-doc
+    alias: 中希建交联合公报（1972）
+  - id: ws-1972-newzealand
+    title: 关于中华人民共和国政府和新西兰政府建立外交关系的联合公报
+    date: 1972-12-22
+    author: 中新两国政府
+    kind: party-doc
+    alias: 中新建交联合公报（1972）
+  - id: ws-1974-brazil
+    title: 关于中华人民共和国和巴西联邦共和国建立外交关系的联合公报
+    date: 1974
+    kind: party-doc
+    alias: 关于中华人民共和国和巴西联邦共和国建立外交关系的联合公报
+  - id: ws-1974-venezuela
+    title: 关于中华人民共和国和委内瑞拉共和国建立外交关系的联合公报
+    date: 1974-06-28
+    author: 中委两国政府
+    kind: party-doc
+    alias: 中委建交联合公报（1974）
+  - id: ws-1974-01-11-xisha-statement
+    title: 中华人民共和国外交部发言人声明 (1974年1月11日)
+    date: 1974-01-11
+    author: 中国外交部发言人
+    kind: party-doc
+    alias: 外交部发言人声明（1974 年 1 月 11 日，南沙、西沙）
+  - id: ws-1975-npc-agenda
+    title: 第四届全国人民代表大会第一次会议议程
+    date: 1975-01
+    author: 四届人大一次会议
+    kind: party-doc
+    alias: 四届人大一次会议议程（1975）
+  - id: ws-1975-npc-election
+    title: 关于选举第四届全国人民代表大会常务委员会委员长、副委员长、委员和任命国务院总理的办法
+    date: 1975-01
+    author: 四届人大一次会议
+    kind: party-doc
+    alias: 四届人大一次会议选举和任命办法（1975）
+  - id: ws-1975-npc-announce
+    title: 中华人民共和国全国人民代表大会公告/1975年
+    date: 1975-01-17
+    author: 第四届全国人民代表大会第一次会议主席团
+    kind: party-doc
+    alias: 四届人大一次会议公告（1975，国务院组成人员）
+  - id: ws-cat3-foreign-graves
+    title: 国务院批转外交部关于清理在华外国人坟墓的请示
+    date: 1974
+    author: 国务院
+    kind: party-doc
+    alias: 国务院批转外交部关于清理在华外国人坟墓的请示（1974）
+  - id: ws-cat3-foreign-technicians
+    title: 国务院批转国家建委、外贸部关于接待资本主义国家技术人员工作中一些问题和意见的报告的通知
+    date: 1975
+    author: 国务院
+    kind: party-doc
+    alias: 国务院批转关于接待资本主义国家技术人员问题的报告（1975）
+  - id: ws-1975-bangladesh
+    title: 中华人民共和国和孟加拉人民共和国关于建立外交关系的联合公报
+    date: 1975-10-04
+    author: 中孟两国政府
+    kind: party-doc
+    alias: 中孟建交联合公报（1975）

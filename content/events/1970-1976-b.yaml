@@ -66,14 +66,15 @@
   voices:
     - { voice: official1966, text: 建成了具有重要战略意义的成昆铁路（1970 年中共中央贺电）, cite: ws-1970-chengkun, quote: true }
     - { voice: official1966, text: 为了加强战备，加速社会主义建设，我们必须修建更多的铁路（同一贺电）, cite: ws-1970-chengkun, quote: true }
-  cites: [ws-1970-chengkun]
+    - { voice: official1966, text: 二十一年来，特别是无产阶级文化大革命以来，铁路建设有了突飞猛进的发展，取得了巨大的成就（1970 年文章《毛泽东思想指引我们多快好省地修建铁路》）, cite: ws-1970-railway, quote: true }
+  cites: [ws-1970-chengkun, ws-1970-railway]
 
 - id: 1970-10-13-canada
   date: 1970-10-13
   title: 中国与加拿大建交
   lane: intl
   weight: 2
-  place: 渥太华
+  place: 原件未载签署地
   summary: 中加两国政府决定互相承认并建立外交关系。公报中，中国政府重申台湾是中国领土不可分割的一部分，加拿大政府“注意到”这一立场。一个月后的中意建交公报采用了同样的写法。
   people: []
   voices:
@@ -86,7 +87,7 @@
   title: 中国与意大利建交
   lane: intl
   weight: 1
-  place: 北京
+  place: 原件未载签署地
   summary: 中意两国政府决定互相承认并建立外交关系，三个月内互派大使。意大利政府承认中华人民共和国政府为中国的唯一合法政府。
   people: []
   voices:
@@ -178,7 +179,7 @@
   title: 中英外交关系升格为大使级
   lane: intl
   weight: 1
-  place: 北京
+  place: 原件未载签署地
   summary: 两国把派驻对方首都的外交代表由代办升格为大使。英国政府承认中国关于台湾是中国一个省的立场，并于同日撤销在台湾的官方代表机构。
   people: []
   voices:
@@ -240,7 +241,7 @@
   title: 中国与澳大利亚建交
   lane: intl
   weight: 1
-  place: 北京
+  place: 原件未载签署地
   summary: 中澳两国决定互相承认并建立外交关系。澳大利亚承认中国政府关于台湾是中国一个省的立场，并决定于 1973 年 1 月 25 日前从台湾撤走官方代表机构。
   people: []
   voices:
@@ -381,7 +382,7 @@
   title: 中国与马来西亚建交
   lane: intl
   weight: 1
-  place: 北京
+  place: 中国（拉扎克访华期间）
   summary: 马来西亚总理拉扎克 5 月 28 日至 6 月 2 日访华，会见毛泽东，与周恩来签署联合公报建交。公报规定已加入马来西亚国籍的华人自动失去中国国籍。
   people: [zhou-enlai, mao-zedong, li-xiannian]
   voices:
@@ -486,7 +487,7 @@
   title: 中国与菲律宾建交
   lane: intl
   weight: 1
-  place: 北京
+  place: 原件未载签署地
   summary: 中菲两国政府联合公报宣布建立大使级外交关系，菲律宾一个月内从台湾撤走官方机构；双方商定取得对方国籍的本国公民自动失去原国籍。
   people: []
   voices:
@@ -498,7 +499,7 @@
   title: 中国与泰国建交
   lane: intl
   weight: 1
-  place: 北京
+  place: 原件未载签署地
   summary: 中泰两国自 7 月 1 日起建交。公报中中国政府宣布不承认双重国籍，并说对取得泰国国籍的华人不再视为中国公民。
   people: []
   voices:
