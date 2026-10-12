@@ -2025,7 +2025,7 @@
   works:
     - { title: 给毛泽东的信（庐山意见书）, date: 1959-07-14 }
     - { title: 彭德怀自述, date: 1981 }
-  factions: [marshals]
+  factions: [marshals, lushan]
   fate:
     - { date: 1916, s: normal, note: 入湘军当兵, verify: true }
     - { date: 1928-04, s: normal, note: 加入中国共产党, verify: true }

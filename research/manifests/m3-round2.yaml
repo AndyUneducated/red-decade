@@ -21,6 +21,62 @@ wikisource:
     kind: party-doc
     alias: 1958 年罢免右派分子职务的建议
     note: 提交一届人大五次会议（1958 年 2 月）；日期以页面为准。
+  - id: ws-1962-07-10-lu-xianwen-punishment
+    title: 关于路宪文在“信阳事件”中所犯罪恶的处分决定（草稿）
+    date: 1962-07-10
+    author: 中共信阳地委
+    kind: party-doc
+    alias: 路宪文处分决定（草稿）
+    note: 地委常委 1962-07-06 决定开除党籍并建议判刑。文中“第一节记”应为“第一书记”。
+  - id: ws-1960-04-04-xinyang-deaths-report
+    title: 关于发生浮肿病、紫疳病和其他疫病造成死人情况的检查报告
+    date: 1960-04-04
+    author: 中共信阳地委
+    kind: party-doc
+    alias: 1960 年 4 月信阳地委死人情况检查报告
+    note: 即 1962 年处分决定中说的“只报11月以来……死亡71658人”的那份报告。
+  - id: ws-1961-04-29-xinyang-cadres-disposal
+    title: 关于对原信阳地委书记处书记等人员初步处理和安排意见的请示
+    date: 1961-04-29
+    author: 中共信阳地委
+    kind: party-doc
+    alias: 原信阳地委书记处书记处理意见
+    note: 王达夫、延炳玉、武建华、石富荣等十人的初步处理意见。
+  - id: ws-1971-01-09-philosophy-struggle
+    title: 哲学战线上的一场严重斗争
+    date: 1971-01-09
+    author: 中央党校革命大批判写作组
+    kind: editorial
+    alias: 1971 年《人民日报》批杨献珍“思维与存在的同一性”
+    note: 载《人民日报》。
+  - id: ws-1971-03-29-heer-reactionary
+    title: “合二而一论”是复辟资本主义的反动哲学
+    date: 1971-03-29
+    author: 中央党校革命大批判写作组
+    kind: editorial
+    alias: 1971 年《红旗》批“合二而一论”
+    note: 载《红旗》。
+  - id: ws-1970-02-24-sun-yefang-critique
+    title: 对孙冶方的批判和经济战线的斗批改
+    date: 1970-02-24
+    author: 北京针织总厂工人革命大批判组、纺织工业部革命大批判写作小组
+    kind: editorial
+    alias: 1970 年《人民日报》批孙冶方
+    note: 载《人民日报》。
+  - id: ws-1967-08-16-peng-failure
+    title: 从彭德怀的失败到中国赫鲁晓夫的破产
+    date: 1967-08-16
+    author: 《红旗》杂志社论
+    kind: editorial
+    alias: 1967 年《红旗》社论《从彭德怀的失败到中国赫鲁晓夫的破产》
+    note: 《红旗》1967 年第十三期社论，配合八届八中全会决议（摘要）首次公开发表。
+  - id: ws-1972-03-17-notice
+    title: 中共中央通知 (1972年3月17日)
+    date: 1972-03-17
+    author: 中共中央
+    kind: party-doc
+    alias: 中发〔1972〕12号
+    note: 转发毛泽东 1971 年南巡谈话纪要，列举“十次路线斗争”。
   - id: ws-1980-ufwd-rightist-review
     title: 中央统一战线工作部关于爱国人士中的右派复查问题的请示报告
     date: 1980

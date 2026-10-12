@@ -247,7 +247,7 @@
     - { voice: official1966, text: 把彭德怀和黄克诚、张闻天、周小舟等调离国防、外交、省委第一书记等工作岗位是完全必要的（1959 年八届八中全会决议）, cite: ws-1959-08-16-peng-resolution, quote: true }
     - { voice: judicial1980, text: 诬陷一九三七年以后历任中共中央组织部部长的张闻天、陈云、彭真、邓小平、安子文是“叛徒”、“特务”、“三反分子”或是“双料货”, cite: ws-1980-indictment, quote: true }
     - { voice: official1981, text: 八届八中全会关于所谓“彭德怀、黄克诚、张闻天、周小舟反党集团”的决议是完全错误的, cite: ws-1981-resolution, quote: true }
-  factions: [dissent]
+  factions: [lushan, dissent]
   fate:
     - { date: 1956-09, s: power, note: 政治局候补委员, verify: true }
     - { date: 1959-08-16, s: purged, note: 八届八中全会定为“反党集团”, cite: ws-1959-08-16-peng-resolution }

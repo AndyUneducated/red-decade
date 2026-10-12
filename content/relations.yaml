@@ -123,3 +123,8 @@
 - { a: mou-zhijing, b: yu-luoke, type: link, from: 1967-01-18, note: 在《中学文革报》刊出《出身论》, cite: mou-zhijing-chushenlun }
 - { a: pan-guoping, b: zhang-chunqiao, type: attack, from: 1966-11-12, note: 安亭谈判，逼其签字承认工总司, cite: bjzc-1996-09-pan-guoping }
 - { a: wang-hongwen, b: pan-guoping, type: attack, from: 1969, note: 以核心小组名义决定其下厂劳动（潘国平自述）, cite: bjzc-1996-09-pan-guoping }
+- { a: peng-dehuai, b: huang-kecheng, type: ally, from: 1959-07, to: 1959-08-16, note: 庐山会议上同被定为“反党集团”，决议称二人“早就同高岗形成了反党的联盟”, cite: ws-1959-08-16-peng-resolution }
+- { a: peng-dehuai, b: zhou-xiaozhou, type: ally, from: 1959-07, to: 1959-08-16, note: 庐山会议上同被定为“反党集团”, cite: ws-1959-08-16-peng-resolution }
+- { a: huang-kecheng, b: zhou-xiaozhou, type: ally, from: 1959-07, to: 1959-08-16, note: 庐山会议上同被定为“反党集团”, cite: ws-1959-08-16-peng-resolution }
+- { a: liu-shaoqi, b: deng-zihui, type: link, from: 1962-02, note: 中央会议上未反驳其“责任田”主张（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism }
+- { a: bo-yibo, b: sun-yefang, type: link, note: 1970 年批判文章称薄一波为其《社会主义经济论》“撑腰”, cite: ws-1970-02-24-sun-yefang-critique }

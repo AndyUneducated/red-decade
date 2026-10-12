@@ -196,6 +196,11 @@
 - { id: zhaotong, name: 昭通, names: [昭通], lat: 27.34, lon: 103.72 }
 - { id: rongxian, name: 广西容县, names: [容县], lat: 22.86, lon: 110.56 }
 - { id: qichun, name: 蕲春, names: [蕲春], lat: 30.23, lon: 115.44 }
+# batch 13
+- { id: yongxing, name: 湖南永兴, names: [永兴], lat: 26.13, lon: 113.11 }
+- { id: lingchuan, name: 陵川, names: [陵川], lat: 35.78, lon: 113.28 }
+- { id: longyan, name: 龙岩, names: [龙岩], lat: 25.08, lon: 117.02 }
+- { id: yunxian, name: 湖北郧县, names: [郧县], lat: 32.83, lon: 110.81 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
