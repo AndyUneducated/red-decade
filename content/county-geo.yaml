@@ -1,0 +1,163 @@
+# Map positions for the county register: the point coordinate (P625) of the Wikidata item for the unit's
+# present-day successor. A unit that has since been renamed or merged is placed by the successor named in `as`;
+# a prefecture (地区) is placed at its seat city. These are positions for drawing, not historical boundaries.
+bj-daxing: { lon: 116.335, lat: 39.725, wd: Q393445, as: 大兴区 }
+gx-baise: { lon: 106.618, lat: 23.901, wd: Q1357953, as: 右江区 }
+gx-baise-pref: { lon: 106.619, lat: 23.901, wd: Q571949, as: 百色市 }
+gx-bama: { lon: 107.248, lat: 24.142, wd: Q176403 }
+gx-beihai-city: { lon: 109.1, lat: 21.467, wd: Q210365 }
+gx-binyang: { lon: 108.32, lat: 22.54, wd: Q864098 }
+gx-cangwu: { lon: 111.25, lat: 23.75, wd: Q1033232 }
+gx-cenxi: { lon: 111.019, lat: 22.93, wd: Q1054501, as: 岑溪市 }
+gx-chongzuo: { lon: 107.35, lat: 22.417, wd: Q1357934, as: 江州区 }
+gx-daxin: { lon: 107.2, lat: 22.836, wd: Q60082 }
+gx-debao: { lon: 106.617, lat: 23.333, wd: Q1181380 }
+gx-donglan: { lon: 107.367, lat: 24.517, wd: Q72517 }
+gx-fengshan: { lon: 107.042, lat: 24.546, wd: Q72421 }
+gx-fusui: { lon: 107.904, lat: 22.635, wd: Q552093 }
+gx-gongcheng: { lon: 110.817, lat: 24.833, wd: Q1342102, as: 恭城瑶族自治县 }
+gx-guanyang: { lon: 111.155, lat: 25.493, wd: Q1342700 }
+gx-guilin-city: { lon: 110.283, lat: 25.267, wd: Q189633 }
+gx-guilin-pref: { lon: 110.283, lat: 25.267, wd: Q189633, as: 桂林市 }
+gx-hechi-city: { lon: 108.037, lat: 24.69, wd: Q1342717, as: 金城江区 }
+gx-hechi-pref: { lon: 108.085, lat: 24.693, wd: Q572089, as: 河池市 }
+gx-hengxian: { lon: 109.267, lat: 22.69, wd: Q1355002, as: 横州市 }
+gx-hepu: { lon: 109.2, lat: 21.667, wd: Q1268277 }
+gx-hexian: { lon: 111.547, lat: 24.415, wd: Q543588, as: 八步区 }
+gx-huanjiang: { lon: 108.25, lat: 24.833, wd: Q1201707 }
+gx-jingxi: { lon: 106.417, lat: 23.133, wd: Q1342058, as: 靖西市 }
+gx-jinxiu: { lon: 110.183, lat: 24.117, wd: Q1355174 }
+gx-laibin: { lon: 109.235, lat: 23.727, wd: Q1342138, as: 兴宾区 }
+gx-lingchuan: { lon: 110.32, lat: 25.412, wd: Q1343778 }
+gx-lingshan: { lon: 109.283, lat: 22.433, wd: Q1355319 }
+gx-lingui: { lon: 110.2, lat: 25.2, wd: Q1342223 }
+gx-lipu: { lon: 110.39, lat: 24.494, wd: Q283300, as: 荔浦市 }
+gx-liuzhou-city: { lon: 109.428, lat: 24.326, wd: Q38968 }
+gx-liuzhou-pref: { lon: 109.428, lat: 24.326, wd: Q38968, as: 柳州市 }
+gx-longan: { lon: 107.687, lat: 23.175, wd: Q1023898 }
+gx-longlin: { lon: 105.433, lat: 24.717, wd: Q1355184 }
+gx-longsheng: { lon: 110.005, lat: 25.798, wd: Q1355119 }
+gx-longzhou: { lon: 106.854, lat: 22.345, wd: Q59923 }
+gx-luchuan: { lon: 110.25, lat: 22.35, wd: Q1259594 }
+gx-luocheng: { lon: 108.903, lat: 24.788, wd: Q1342198 }
+gx-luzhai: { lon: 109.738, lat: 24.487, wd: Q1355342 }
+gx-mashan: { lon: 108.169, lat: 23.713, wd: Q1023901 }
+gx-mengshan: { lon: 110.522, lat: 24.203, wd: Q568108 }
+gx-nanning-city: { lon: 108.315, lat: 22.819, wd: Q179608 }
+gx-nanning-pref: { lon: 108.315, lat: 22.819, wd: Q179608, as: 南宁市 }
+gx-ningming: { lon: 107.07, lat: 22.14, wd: Q59927 }
+gx-pingle: { lon: 110.641, lat: 24.635, wd: Q955348 }
+gx-pubei: { lon: 109.55, lat: 22.267, wd: Q1342748 }
+gx-qinzhou: { lon: 108.617, lat: 21.95, wd: Q571766, as: 钦州市 }
+gx-quanzhou: { lon: 111.067, lat: 25.931, wd: Q1343801 }
+gx-rongan: { lon: 109.4, lat: 25.218, wd: Q1342775 }
+gx-rongshui: { lon: 109.249, lat: 25.073, wd: Q1028273 }
+gx-sanjiang: { lon: 109.6, lat: 25.783, wd: Q1209098 }
+gx-shanglin: { lon: 108.6, lat: 23.435, wd: Q1209053 }
+gx-tengxian: { lon: 110.924, lat: 23.377, wd: Q1314049 }
+gx-tiandeng: { lon: 107.067, lat: 23.083, wd: Q59775 }
+gx-tiandong: { lon: 107.133, lat: 23.6, wd: Q1342081 }
+gx-tiane: { lon: 107.167, lat: 25, wd: Q72417 }
+gx-tianyang: { lon: 106.9, lat: 23.75, wd: Q1342048, as: 田阳区 }
+gx-wuming: { lon: 108.273, lat: 23.159, wd: Q1019538, as: 武鸣区 }
+gx-wuxuan: { lon: 109.65, lat: 23.6, wd: Q1341883 }
+gx-wuzhou-city: { lon: 111.317, lat: 23.483, wd: Q571652 }
+gx-wuzhou-pref: { lon: 111.317, lat: 23.483, wd: Q571652, as: 梧州市 }
+gx-xiangzhou: { lon: 109.751, lat: 24.025, wd: Q1355157 }
+gx-xilin: { lon: 105.093, lat: 24.494, wd: Q392081 }
+gx-xincheng: { lon: 108.662, lat: 24.068, wd: Q1355133 }
+gx-xingan: { lon: 110.667, lat: 25.617, wd: Q1355534 }
+gx-yishan: { lon: 108.583, lat: 24.467, wd: Q1028080 }
+gx-yongfu: { lon: 109.983, lat: 24.983, wd: Q1342071 }
+gx-yulin-city: { lon: 110.151, lat: 22.629, wd: Q571918 }
+gx-zhongshan: { lon: 111.297, lat: 24.532, wd: Q197906 }
+gx-ziyuan: { lon: 110.642, lat: 26.04, wd: Q207046 }
+hn-daoxian: { lon: 111.586, lat: 25.518, wd: Q1165386 }
+hn-dongan: { lon: 111.298, lat: 26.4, wd: Q1199543 }
+hn-jianghua: { lon: 111.572, lat: 25.184, wd: Q212233 }
+hn-jiangyong: { lon: 111.348, lat: 25.267, wd: Q940347 }
+hn-lanshan: { lon: 112.19, lat: 25.379, wd: Q1199634 }
+hn-lengshuitan-city: { lon: 111.587, lat: 26.465, wd: Q678927, as: 冷水滩区 }
+hn-ningyuan: { lon: 111.938, lat: 25.588, wd: Q540493 }
+hn-qiyang: { lon: 111.848, lat: 26.589, wd: Q1199641 }
+hn-shuangpai: { lon: 111.658, lat: 25.96, wd: Q1199418 }
+hn-xintian: { lon: 112.21, lat: 25.912, wd: Q1199448 }
+hn-yongzhou-city: { lon: 111.595, lat: 26.451, wd: Q266014 }
+sd-anqiu: { lon: 119.107, lat: 36.362, wd: Q568514, as: 安丘市 }
+sd-binzhou: { lon: 118.013, lat: 37.381, wd: Q373687 }
+sd-binzhou-pref: { lon: 118.013, lat: 37.381, wd: Q373687, as: 滨州市 }
+sd-boshan: { lon: 117.863, lat: 36.494, wd: Q894428 }
+sd-boxing: { lon: 118.226, lat: 37.178, wd: Q895684 }
+sd-cangshan: { lon: 118.044, lat: 34.851, wd: Q1033215, as: 兰陵县 }
+sd-changle: { lon: 118.75, lat: 36.7, wd: Q1062070 }
+sd-changwei-pref: { lon: 119.1, lat: 36.717, wd: Q217698, as: 潍坊市 }
+sd-chiping: { lon: 116.261, lat: 36.564, wd: Q1074561, as: 茌平区 }
+sd-dezhou: { lon: 116.31, lat: 37.451, wd: Q162880 }
+sd-dezhou-pref: { lon: 116.31, lat: 37.451, wd: Q162880, as: 德州市 }
+sd-donge: { lon: 116.25, lat: 36.333, wd: Q1198286 }
+sd-dongming: { lon: 115.005, lat: 35.233, wd: Q1198294 }
+sd-dongping: { lon: 116.3, lat: 35.908, wd: Q1198276 }
+sd-feicheng: { lon: 116.772, lat: 36.186, wd: Q1198379, as: 肥城市 }
+sd-feixian: { lon: 117.967, lat: 35.267, wd: Q1197998 }
+sd-fushan: { lon: 121.263, lat: 37.497, wd: Q1197949 }
+sd-gaoqing: { lon: 117.827, lat: 37.171, wd: Q1197981 }
+sd-guanxian: { lon: 115.438, lat: 36.479, wd: Q1198245 }
+sd-haiyang: { lon: 121.168, lat: 36.779, wd: Q1337641, as: 海阳市 }
+sd-hanting: { lon: 119.209, lat: 36.77, wd: Q1198197 }
+sd-huantai: { lon: 118.1, lat: 36.96, wd: Q633692 }
+sd-jinan-shizhong: { lon: 116.992, lat: 36.651, wd: Q598098 }
+sd-jining: { lon: 116.567, lat: 35.4, wd: Q372791 }
+sd-jining-shizhong: { lon: 116.6, lat: 35.407, wd: Q1198271, as: 任城区 }
+sd-juancheng: { lon: 115.5, lat: 35.567, wd: Q86776 }
+sd-juxian: { lon: 118.834, lat: 35.577, wd: Q1198076 }
+sd-laiyang: { lon: 120.714, lat: 36.976, wd: Q371640 }
+sd-laizhou: { lon: 119.933, lat: 37.179, wd: Q666700 }
+sd-liangshan: { lon: 116.103, lat: 35.813, wd: Q1190853 }
+sd-liaocheng: { lon: 115.983, lat: 36.45, wd: Q373564 }
+sd-licheng: { lon: 117.059, lat: 36.68, wd: Q1337346, as: 历城区 }
+sd-lingxian: { lon: 116.567, lat: 37.333, wd: Q1198429, as: 陵城区 }
+sd-linqu: { lon: 118.542, lat: 36.512, wd: Q1198208 }
+sd-linshu: { lon: 118.651, lat: 34.92, wd: Q1198396 }
+sd-linyi-pref: { lon: 118.35, lat: 35.104, wd: Q373346, as: 临沂市 }
+sd-linyixian: { lon: 116.861, lat: 37.19, wd: Q373461 }
+sd-mengyin: { lon: 118, lat: 35.739, wd: Q1198263 }
+sd-ningjin: { lon: 116.8, lat: 37.642, wd: Q1197955 }
+sd-penglai: { lon: 120.733, lat: 37.817, wd: Q1357774, as: 蓬莱区 }
+sd-pingyi: { lon: 117.64, lat: 35.506, wd: Q1198297 }
+sd-qihe: { lon: 116.74, lat: 36.799, wd: Q1198234 }
+sd-qingyun: { lon: 117.385, lat: 37.775, wd: Q777503 }
+sd-qingzhou: { lon: 118.48, lat: 36.697, wd: Q1360781 }
+sd-qixia: { lon: 120.828, lat: 37.306, wd: Q1359073, as: 栖霞市 }
+sd-qufu: { lon: 116.983, lat: 35.6, wd: Q210287 }
+sd-rencheng: { lon: 116.6, lat: 35.407, wd: Q1198271 }
+sd-rizhao: { lon: 119.433, lat: 35.416, wd: Q373101 }
+sd-shanxian: { lon: 116.079, lat: 34.79, wd: Q1198232 }
+sd-shenxian: { lon: 115.573, lat: 36.211, wd: Q921293 }
+sd-shouguang: { lon: 118.733, lat: 36.883, wd: Q1357984, as: 寿光市 }
+sd-sishui: { lon: 117.313, lat: 35.651, wd: Q745725 }
+sd-taian-pref: { lon: 117.081, lat: 36.2, wd: Q217681, as: 泰安市 }
+sd-tancheng: { lon: 118.222, lat: 34.651, wd: Q1198314 }
+sd-tengxian: { lon: 117.15, lat: 35.083, wd: Q1207076, as: 滕州市 }
+sd-tianqiao: { lon: 116.987, lat: 36.678, wd: Q1337190 }
+sd-weicheng: { lon: 119.106, lat: 36.714, wd: Q669533 }
+sd-weishan: { lon: 117.124, lat: 34.807, wd: Q1198070 }
+sd-wendeng: { lon: 122.05, lat: 37.2, wd: Q1207049, as: 文登区 }
+sd-wenshang: { lon: 116.489, lat: 35.733, wd: Q1198224 }
+sd-wucheng: { lon: 116.076, lat: 37.212, wd: Q263106 }
+sd-wudi: { lon: 117.612, lat: 37.744, wd: Q1198189 }
+sd-xiajin: { lon: 116, lat: 36.948, wd: Q1197959 }
+sd-xuecheng: { lon: 117.251, lat: 34.774, wd: Q777960 }
+sd-yanggu: { lon: 115.785, lat: 36.114, wd: Q290059 }
+sd-yanzhou: { lon: 116.833, lat: 35.55, wd: Q246791, as: 兖州区 }
+sd-yinan: { lon: 118.467, lat: 35.549, wd: Q1337609 }
+sd-yishui: { lon: 118.627, lat: 35.79, wd: Q1198349 }
+sd-yucheng: { lon: 116.64, lat: 36.933, wd: Q1198528, as: 禹城市 }
+sd-yuncheng: { lon: 115.95, lat: 35.6, wd: Q1186021 }
+sd-yutai: { lon: 116.65, lat: 35, wd: Q1198559 }
+sd-zhangdian: { lon: 118.018, lat: 36.806, wd: Q197368 }
+sd-zhaoyuan: { lon: 120.396, lat: 37.359, wd: Q197524 }
+sd-zhoucun: { lon: 117.868, lat: 36.804, wd: Q198053 }
+sd-zhucheng: { lon: 119.417, lat: 36, wd: Q198184 }
+sd-zibo: { lon: 118.05, lat: 36.783, wd: Q198370 }
+sd-zoucheng: { lon: 116.45, lat: 35.367, wd: Q227034 }
+sd-zouping: { lon: 117.742, lat: 36.862, wd: Q227061, as: 邹平市 }

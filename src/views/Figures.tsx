@@ -14,7 +14,7 @@ const pct = (v: number) => (Math.log10(Math.max(v, 1)) / LOG_MAX) * 100
 const tickLabel = (v: number) => (v >= 1e4 ? `${v / 1e4} 万` : v >= 1e3 ? `${v / 1e3} 千` : String(v))
 
 const SUFFIX = new Set(['余', '多'])
-function fmtValue(c: Count) {
+export function fmtValue(c: Count) {
   if (c.value === undefined) return c.approx ?? '—'
   const n = c.value >= 1e4 ? `${+(c.value / 1e4).toFixed(c.value % 1e4 ? 1 : 0)} 万` : c.value.toLocaleString('en-US')
   if (!c.approx) return n

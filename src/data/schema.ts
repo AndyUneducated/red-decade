@@ -477,6 +477,8 @@ export const CountySchema = z.object({
   // founding of the county revolutionary committee, as the source dates it
   revcom: z.object({ date: PartialDate, cite: Cite, quote: z.string() }).optional(),
   note: z.string().optional(),
+  // drawing position, merged at build from county-geo.yaml
+  geo: z.object({ lon: z.number(), lat: z.number(), wd: z.string(), as: z.string().optional() }).optional(),
 })
 
 // Provincial revolutionary committees, one row per province, dated as the contemporary report dates them.

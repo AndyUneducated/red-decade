@@ -2,10 +2,11 @@ import * as d3 from 'd3'
 import type { FeatureCollection, Geometry } from 'geojson'
 import { useEffect, useRef, useState } from 'react'
 import { Cite } from '../components/bits'
-import { LANES, REVCOM_DATES, type Revcom } from '../data/schema'
+import { COUNTY_KINDS, LANES, REVCOM_DATES, type County, type Revcom } from '../data/schema'
 import { fmtDate, fmtT, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
+import { fmtValue } from './Figures'
 
 type Basemap = FeatureCollection<Geometry, { n: string; k: 'p' | 'c' }>
 let basemap: Promise<Basemap> | undefined
@@ -21,6 +22,55 @@ const FRESH = 1.5 / 12
 const short = (n: string) => n.replace(/(壮族|回族|维吾尔)?自治区$|省$|市$/, '')
 // labels that would sit on top of a neighbour, nudged in screen pixels
 const NUDGE: Record<string, [number, number]> = { 北京市: [-14, -8], 天津市: [16, 4], 上海市: [20, 2], 河北省: [-14, 18], 香港: [0, 0], 澳门: [0, 0] }
+
+// the county register covers these areas; each view is fitted to the province, or to the points for 零陵
+const REGIONS = [
+  { id: 'all', label: '全国' },
+  { id: '广西', label: '广西', fit: '广西壮族自治区' },
+  { id: '湖南', label: '湖南零陵', fit: undefined },
+  { id: '山东', label: '山东', fit: '山东省' },
+] as const
+type RegionId = (typeof REGIONS)[number]['id']
+
+// A unit's largest death figure; sources disagree and the register keeps every figure, never a sum.
+const deathsOf = (u: County) => u.counts.filter((c) => c.measure === 'deaths' && c.value !== undefined).map((c) => c.value!)
+
+function CountyCard({ u, onClose }: { u: County; onClose: () => void }) {
+  return (
+    <div className="map-card">
+      <header>
+        <b>{u.name}</b>
+        <span>
+          {u.province}
+          {u.prefecture ? ` · ${u.prefecture}` : ''}
+          {u.kind !== 'county' ? ` · ${COUNTY_KINDS[u.kind]}` : ''}
+        </span>
+        <button className="linklike" onClick={onClose}>
+          关闭
+        </button>
+      </header>
+      {u.counts.map((c, i) => (
+        <div key={i} className="map-card-row">
+          <span className="map-card-val">{fmtValue(c)}</span>
+          <span>
+            {c.what}
+            {c.scope ? `（${c.scope}）` : ''}
+          </span>
+          <q className="fig-quote">{c.quote}</q> <Cite cite={c.cite} />
+        </div>
+      ))}
+      {u.revcom && (
+        <div className="map-card-row">
+          <span className="map-card-val">{fmtDate(u.revcom.date)}</span>
+          <span>革命委员会成立</span>
+          <q className="fig-quote">{u.revcom.quote}</q> <Cite cite={u.revcom.cite} />
+        </div>
+      )}
+      {u.note && <p className="muted-note">{u.note}</p>}
+      {u.geo?.as && <p className="muted-note">图上位置按今{u.geo.as}。</p>}
+    </div>
+  )
+}
 
 function Played({ t, setT }: { t: number; setT: (t: number) => void }) {
   const [playing, setPlaying] = useState(false)
@@ -148,14 +198,42 @@ export function MapView() {
     loadBasemap().then(setMap)
   }, [])
 
+  const [region, setRegion] = useState<RegionId>('all')
+  const [picked, setPicked] = useState<string>()
   const revcoms = ix.revcoms
   const byProv = new Map(revcoms.map((r) => [r.province, r]))
   const done = revcoms.filter((r) => toT(r.date) <= t)
   const W = Math.max(300, width)
   const H = Math.round(W * 0.8)
+  const zoomed = region !== 'all'
   const proj = d3.geoConicEqualArea().parallels([25, 47]).rotate([-105, 0])
-  if (map) proj.fitExtent([[8, 8], [W - 8, H - 8]], { type: 'FeatureCollection', features: map.features.filter((f) => f.properties.k === 'p') })
+  const fitTo = REGIONS.find((r) => r.id === region)
+  if (map) {
+    const pad = zoomed ? W * 0.06 : 8
+    const extent: [[number, number], [number, number]] = [[pad, pad], [W - pad, H - pad]]
+    if (!zoomed) proj.fitExtent(extent, { type: 'FeatureCollection', features: map.features.filter((f) => f.properties.k === 'p') })
+    else if (fitTo && 'fit' in fitTo && fitTo.fit) proj.fitExtent(extent, map.features.find((f) => f.properties.n === fitTo.fit)!)
+    else {
+      const pts = ix.counties.filter((u) => u.province === region && u.geo).map((u) => [u.geo!.lon, u.geo!.lat])
+      proj.fitExtent([[W * 0.2, H * 0.15], [W * 0.8, H * 0.85]], { type: 'MultiPoint', coordinates: pts })
+    }
+  }
   const path = d3.geoPath(proj)
+
+  // prefectures and their seat cities share a point and the prefecture figure contains the counties, so only
+  // counties and cities are drawn; the prefecture figures stay in the register
+  const units = ix.counties
+    .filter((u) => u.geo && u.kind !== 'prefecture')
+    .map((u) => {
+      const [x, y] = proj([u.geo!.lon, u.geo!.lat]) ?? [0, 0]
+      const d = deathsOf(u)
+      return { u, x, y, max: d.length ? Math.max(...d) : 0, min: d.length ? Math.min(...d) : 0, rev: u.revcom ? toT(u.revcom.date) : undefined }
+    })
+    .filter(({ x, y }) => x > -40 && y > -40 && x < W + 40 && y < H + 40)
+    .sort((a, b) => b.max - a.max)
+  const maxDeaths = Math.max(...units.map((p) => p.max), 1)
+  const rScale = d3.scaleSqrt([0, maxDeaths], [0, zoomed ? W / 26 : W / 90])
+  const pickedUnit = ix.counties.find((u) => u.id === picked)
 
   const events = ix.events
     .filter((e) => e.at && !ix.place.get(e.at)?.far)
@@ -169,11 +247,19 @@ export function MapView() {
           <div>
             <h1>革委会地图</h1>
             <p>
-              1967 年 1 月黑龙江到 1968 年 9 月西藏、新疆，29 个省级革命委员会依次建立，“全国山河一片红”用了一年零八个月。日期一律照当时《人民日报》报道正文；多数报道只写庆祝大会之日，单独标出。圆点是此前半年内有地点的事件，逐渐淡出，点开看详情。
+              1967 年 1 月黑龙江到 1968 年 9 月西藏、新疆，29 个省级革命委员会依次建立，“全国山河一片红”用了一年零八个月。日期一律照当时《人民日报》报道正文；多数报道只写庆祝大会之日，单独标出。黑点是此前半年内有地点的事件，逐渐淡出；空心圆是县志和处遗记录所载的死亡人数，方块是山东各县革委会。点开看原文。
             </p>
           </div>
         </div>
         <Played t={t} setT={setT} />
+        <div className="map-regions" role="group" aria-label="范围">
+          {REGIONS.map((r) => (
+            <button key={r.id} className="chip" aria-pressed={region === r.id} onClick={() => (setRegion(r.id), setPicked(undefined))}>
+              {r.label}
+            </button>
+          ))}
+          <span className="muted-note">县级登记现有广西、湖南零陵、山东三处；死亡人数多是 1980 年代的事后统计，口径各异，不随时间轴变化</span>
+        </div>
         <div className="map-grid">
           <div className="map-canvas" ref={wrap}>
             <svg width={W} height={H} role="img" aria-label="省级革命委员会成立地图">
@@ -188,7 +274,7 @@ export function MapView() {
                     key={i}
                     d={path(f) ?? ''}
                     fill={f.properties.k === 'c' ? 'var(--paper)' : on ? 'var(--accent)' : 'var(--paper-2)'}
-                    fillOpacity={on ? (fresh ? 0.85 : 0.42) : 1}
+                    fillOpacity={on ? (fresh ? 0.85 : zoomed ? 0.2 : 0.42) : 1}
                     stroke={fresh ? 'var(--accent)' : 'var(--rule-2)'}
                     strokeWidth={fresh ? 1.6 : f.properties.k === 'p' ? 0.6 : 0.4}
                     strokeDasharray={on && r?.kind === 'seized' ? '3 2' : undefined}
@@ -223,6 +309,27 @@ export function MapView() {
                     </text>
                   )
                 })}
+              {units.map(({ u, x, y, max, min, rev }) => {
+                const on = rev !== undefined && rev <= t
+                const fresh = on && t - rev < FRESH
+                const s = zoomed ? (fresh ? 9 : 6) : fresh ? 5 : 3
+                const label = `${u.name}${max ? `：死亡 ${min === max ? max : `${min}–${max}`} 人（各说）` : ''}${rev !== undefined ? `；革委会 ${fmtDate(u.revcom!.date)}` : ''}`
+                return (
+                  <g key={u.id} transform={`translate(${x},${y})`} className="map-unit" data-picked={u.id === picked || undefined} onClick={() => setPicked(u.id)}>
+                    <title>{label}</title>
+                    {max > 0 && <circle r={Math.max(1.5, rScale(max))} className="map-death" />}
+                    {rev !== undefined && (
+                      <rect x={-s / 2} y={-s / 2} width={s} height={s} className="map-crev" data-on={on || undefined} data-fresh={fresh || undefined} />
+                    )}
+                    {!max && rev === undefined && <circle r={zoomed ? 2.5 : 1.2} className="map-nonum" />}
+                    {zoomed && (region === '湖南' || max >= 1500) && (
+                      <text y={-Math.max(rScale(max), 4) - 3} textAnchor="middle" fontSize={10} className="map-unit-label">
+                        {u.name.replace(/(各族|瑶族|苗族|侗族|毛南族|仫佬族)?自治县$|(?<=..)县$/, '')}
+                      </text>
+                    )}
+                  </g>
+                )
+              })}
               {events.map(({ e, t0 }) => {
                 const pl = ix.place.get(e.at!)!
                 const [x, y] = proj([pl.lon, pl.lat]) ?? [0, 0]
@@ -235,9 +342,31 @@ export function MapView() {
                 )
               })}
               <text x={W - 10} y={H - 10} textAnchor="end" fontSize={10} fill="var(--muted)">
-                底图为今日省界，只作定位
+                底图为今日省界，县点按今治所，只作定位
               </text>
             </svg>
+            <div className="legend map-legend">
+              <span>
+                <svg width={34} height={18} aria-hidden>
+                  <circle cx={9} cy={9} r={Math.min(8, rScale(1000))} className="map-death" />
+                  <circle cx={26} cy={9} r={Math.min(8, rScale(100))} className="map-death" />
+                </svg>
+                县志、处遗记录所载死亡人数（面积，取各说中最大者）
+              </span>
+              <span>
+                <svg width={12} height={12} aria-hidden>
+                  <rect x={2} y={2} width={8} height={8} className="map-crev" data-on />
+                </svg>
+                县革委会已成立（山东，据县志）
+              </span>
+              <span>
+                <svg width={12} height={12} aria-hidden>
+                  <circle cx={6} cy={6} r={4} fill="var(--ink)" fillOpacity={0.6} />
+                </svg>
+                半年内的事件
+              </span>
+            </div>
+            {pickedUnit && <CountyCard u={pickedUnit} onClose={() => setPicked(undefined)} />}
           </div>
           <aside className="map-side">
             <div className="map-count">

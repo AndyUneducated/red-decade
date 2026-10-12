@@ -337,7 +337,15 @@ for (const f of figures) {
     if (u.revcom) needCite(u.revcom.cite, `county ${u.id} revcom`)
     if (!u.counts.length && !u.revcom) errors.push(`county ${u.id}: no counts and no revcom`)
   }
+  for (const [id, g] of Object.entries((read('content', 'county-geo.yaml') ?? {}) as Record<string, unknown>)) {
+    const u = counties.find((u) => u.id === id)
+    const r = CountySchema.shape.geo.safeParse(g)
+    if (!u) errors.push(`county-geo: unknown county ${id}`)
+    else if (!r.success) errors.push(`county-geo ${id}: ${r.error.issues[0].message}`)
+    else u.geo = r.data
+  }
 }
+const unplaced = counties.filter((u) => !u.geo).map((u) => u.id)
 // revcom rows are drawn on the basemap by province name; the org's own `from` is general reference and may differ
 const provinceNames = new Set(
   (JSON.parse(readFileSync(join(ROOT, 'public', 'geo', 'basemap.json'), 'utf8')).features as { properties: { n: string; k: string } }[])
@@ -472,7 +480,7 @@ console.log(
     `sources    ${sources.length}  (${texts.size} with text)`,
     `claims     ${claims.length}`,
     `figures    ${figures.length}  (${figures.reduce((n, f) => n + f.counts.length, 0)} counts, ${figures.filter((f) => f.need).length} awaiting sources)`,
-    `counties   ${counties.length}  (${counties.reduce((n, u) => n + u.counts.length, 0)} counts, ${new Set(counties.flatMap((u) => u.counts.map((c) => c.cite))).size} sources)`,
+    `counties   ${counties.length}  (${counties.reduce((n, u) => n + u.counts.length, 0)} counts, ${new Set(counties.flatMap((u) => u.counts.map((c) => c.cite))).size} sources; ${counties.length - unplaced.length} placed${unplaced.length ? ', unplaced: ' + unplaced.join(' ') : ''})`,
     `revcoms    ${revcoms.length}  (${revcomDrift.length} org dates differ: ${revcomDrift.join(', ') || '—'})`,
   ].join('\n'),
 )

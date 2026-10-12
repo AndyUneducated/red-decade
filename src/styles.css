@@ -2658,6 +2658,96 @@ h2.sec {
 .map-cum svg {
   display: block;
 }
+.map-regions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 12px;
+}
+.map-regions .muted-note {
+  margin: 0 0 0 6px;
+}
+.map-unit {
+  cursor: pointer;
+}
+.map-death {
+  fill: var(--ink);
+  fill-opacity: 0.08;
+  stroke: var(--ink);
+  stroke-opacity: 0.7;
+  stroke-width: 0.9;
+}
+.map-unit:hover .map-death,
+.map-unit[data-picked] .map-death {
+  fill-opacity: 0.25;
+  stroke-width: 1.6;
+}
+.map-crev {
+  fill: var(--card);
+  stroke: var(--muted);
+  stroke-width: 0.8;
+}
+.map-crev[data-on] {
+  fill: var(--accent);
+  stroke: var(--card);
+}
+.map-crev[data-fresh] {
+  stroke: var(--ink);
+  stroke-width: 1.2;
+}
+.map-nonum {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 0.8;
+}
+.map-unit-label {
+  fill: var(--ink-2);
+  stroke: var(--card);
+  stroke-width: 2.5px;
+  paint-order: stroke;
+  pointer-events: none;
+}
+.map-legend {
+  margin-top: 8px;
+}
+.map-legend svg {
+  display: block;
+}
+.map-card {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--card);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.map-card header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.map-card header span {
+  color: var(--muted);
+  font-size: 12px;
+  flex: 1;
+}
+.map-card-row {
+  padding: 4px 0;
+  border-top: 1px solid var(--rule);
+}
+.map-card-val {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.map-card-row .fig-quote {
+  display: block;
+  font-size: 12px;
+  color: var(--ink-2);
+}
 @media (max-width: 900px) {
   .map-grid {
     grid-template-columns: minmax(0, 1fr);
