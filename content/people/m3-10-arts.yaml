@@ -1,0 +1,280 @@
+# M3 people, batch 10: film, theatre and opera people who died in, or barely survived, the 1966–68 purges
+# of the arts world. Texts: 1980 indictment and 1981 judgment (the 1966-10 Shanghai house searches and the
+# list of famous people persecuted to death), 赵丹's 1980 People's Daily article, the 上海电影志 entry on
+# 郑君里 (via 王友琴), and later press and memoir pieces kept as excerpts. Dates not in these texts are verify.
+
+- id: sun-weishi
+  name: 孙维世
+  died: 1968-10-14
+  tier: 3
+  role1966: 中央实验话剧院副院长兼总导演
+  pinyin: Sūn Wéishì
+  gender: f
+  ethnicity: 汉族
+  aka:
+    - { kind: other, name: 孙光英 }
+    - { kind: other, name: 李琳 }
+  birthplace: 四川南溪
+  origin: 四川南溪
+  deathKind: persecuted
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 副院长兼总导演, orgName: 中央实验话剧院, from: 1956-09, to: 1968-03, cite: dangshi-2012-sun-weishi }
+  bio: 中共早期党员孙炳文之女，孙炳文 1927 年被国民党杀害后，周恩来、邓颖超视她如女儿。1937 年到延安，在抗大和马列学院学习，与江青同在延安演过戏；1940 年代在苏联学戏剧。回国后导演《保尔·柯察金》等剧，1956 年提议并参与组建中央实验话剧院，任副院长兼总导演。1966 年被批为“反动学术权威”；1967 年 12 月丈夫金山入狱，她家被抄；1968 年 3 月 1 日以“苏修特务”罪名被关进北京市公安局看守所，10 月 14 日死在狱中，戴着手铐，尸体随即火化，不留骨灰。1977 年平反。生年有 1920、1921 两说，这里不录。
+  life:
+    - h: 烈士遗孤
+      from: 1920
+      to: 1946
+      text: |
+        生于四川南溪，父亲孙炳文是朱德的朋友、周恩来介绍入党的中共党员，1927 年在上海龙华被杀。1936 年化名李琳在上海演戏，认识了金山，也认识了当时叫蓝苹的江青。1937 年到武汉投奔周恩来，随后与母亲任锐同赴延安，进抗大、马列学院；1938 年与江青同演话剧《血祭上海》。此后去苏联学习戏剧。
+      verify: true
+    - h: 中央实验话剧院
+      from: 1946
+      to: 1966-05
+      text: |
+        1950 年代先后任中国青年艺术剧院导演、中央戏剧学院导演干部训练班主任。1956 年 9 月文化部按她的提议组建中央实验话剧院，欧阳予倩任院长，她任副院长兼总导演，导演《同甘共苦》《桃花扇》《一仆二主》《黑奴恨》《大雷雨》等剧。1960 年代初导演据柯切托夫小说改编的话剧《叶尔绍夫兄弟》，在人民大会堂小礼堂内部连演三个月。
+      cites: [dangshi-2012-sun-weishi]
+      verify: true
+    - h: 五角楼
+      from: 1966-06
+      to: 1968-10-14
+      text: |
+        1966 年文革开始后她被当作“反动学术权威”批判，但因出身背景，一时没有被关押。1967 年 9 月哥哥孙泱（中国人民大学副校长）被迫害致死；12 月丈夫金山以“特嫌”罪名被关进秦城，她家被抄，大量与中共高层往来的信件、照片被抄走。1968 年 3 月 1 日她以“苏修特务”罪名被捕，与林利、李莎同天被抓，作为所谓“李立三、李莎反革命集团”的同案犯。她被关在北京市公安局看守所的五角楼，10 月 14 日死在那里，死后手铐仍锁着双手。尸体在江青授意下被迅速火化，妹妹孙新世去要骨灰，得到的回答是“不留反革命的骨灰”。
+      cites: [dangshi-2012-sun-weishi]
+    - h: 平反
+      from: 1968-10
+      to: 1977-06
+      text: |
+        1975 年 10 月邓小平对孙新世的申诉批示，“如孙无问题，可以将骨灰放到八宝山”，不久邓小平下台，事情搁置。1977 年 6 月她被平反，6 月 9 日文化部艺术局在八宝山革命公墓为她举行遗像安放仪式。1980 年起诉书和 1981 年判决书都把她列为被迫害致死的著名艺术家。
+      cites: [ws-1981-01-25-judgment, ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 著名作家、艺术家老舍、赵树理、周信芳、盖叫天、潘天寿、应云卫、郑君里、孙维世等人（1981 年判决书所列被迫害致死的社会各界知名人士）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: officialLater, text: 1968年10月14日，孙维世死在五角楼，死后一副冰冷的手铐依旧锁着双手（2012 年人民网党史频道转载文章，转述 2008 年《党史纵横》）, cite: dangshi-2012-sun-weishi, quote: true }
+    - { voice: witness, text: 孙维世的脾气太直太爆了！不然她也不会死得那么惨（邓颖超语，同文转引）, cite: dangshi-2012-sun-weishi, quote: true }
+    - { voice: editor, text: 她被捕的直接原因，各种说法都指向江青和叶群，但没有公开的专案材料。1981 年判决书只把她列入被迫害致死的名单，没有写明由谁负责。, cite: ws-1981-01-25-judgment }
+  factions: [academics]
+  fate:
+    - { date: 1937, s: normal, note: 赴延安, verify: true }
+    - { date: 1956-09, s: normal, note: 中央实验话剧院副院长兼总导演, cite: dangshi-2012-sun-weishi }
+    - { date: 1966, s: attacked, note: 被批为“反动学术权威”, cite: dangshi-2012-sun-weishi }
+    - { date: 1967-12, s: attacked, note: 金山入狱，家被抄, cite: dangshi-2012-sun-weishi }
+    - { date: 1968-03-01, s: detained, note: 以“苏修特务”罪名被捕, cite: dangshi-2012-sun-weishi }
+    - { date: 1968-10-14, s: dead, note: 死在北京市公安局看守所, cite: dangshi-2012-sun-weishi }
+    - { date: 1977-06, s: restored, note: 平反，遗像安放仪式, verify: true }
+  cites: [dangshi-2012-sun-weishi, ws-1981-01-25-judgment, ws-1980-indictment]
+
+- id: zheng-junli
+  name: 郑君里
+  born: 1911-12-06
+  died: 1969-04-23
+  tier: 3
+  role1966: 上海电影制片厂导演
+  pinyin: Zhèng Jūnlǐ
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: other, name: 郑重 }
+    - { kind: other, name: 千里 }
+  birthplace: 上海
+  origin: 广东中山
+  deathKind: persecuted
+  deathPlace: 上海
+  positions:
+    - { title: 导演, orgName: 上海电影制片厂, from: 1949-11, to: 1967-11, cite: ywang-zheng-junli }
+  bio: 原籍广东中山，生于上海。南国社出身，1930 年代是联华公司的演员，抗战中参加救亡演剧队，战后在昆仑公司与蔡楚生合导《一江春水向东流》，独立导演《乌鸦与麻雀》。1949 年后任上海电影制片厂导演，拍了《林则徐》《聂耳》《枯木逢春》。1930 年代他与蓝苹（江青）、唐纳相熟。1966 年 10 月 9 日，江腾蛟按叶群的布置带人冒充红卫兵抄了他和赵丹等五家，要找江青当年的信件；1967 年 11 月他被隔离审查，1969 年 4 月 23 日在关押中病死，年 58 岁。
+  life:
+    - h: 从南国社到昆仑
+      from: 1911
+      to: 1949
+      text: |
+        1928 年进南国艺术剧院戏剧科学习，后加入田汉的南国社。1932 年起任联华影业公司演员，演过《新女性》《大路》《迷途的羔羊》。1937 年参加上海救亡演剧三队，后任抗敌剧团副团长。1946 年后任昆仑影业公司导演，与蔡楚生合导《一江春水向东流》，独立导演《乌鸦与麻雀》。
+      verify: true
+    - h: 抄家
+      from: 1949
+      to: 1967-11
+      text: |
+        1949 年后任上海电影制片厂导演，导演《林则徐》《聂耳》《枯木逢春》等片。据 1980 年起诉书，1966 年 10 月叶群对江腾蛟说“江青同志有一封信落在郑君里、顾而已他们手里”，要他“搜查一下郑君里、顾而已、赵丹、童芷芩等五个人的家，凡是书信、日记本、笔记本之类的东西都拿来”。10 月 9 日凌晨，江腾蛟组织的四十多人冒充红卫兵抄了这五家，抄得的东西分两次送到叶群在北京的住处；1967 年 1 月，在江青亲自监视下，其中有关江青的信件、照片被烧毁。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+    - h: 死于关押
+      from: 1967-11
+      to: 1969-04-23
+      text: |
+        1967 年 11 月起被隔离审查，此后一直关押，1969 年 4 月 23 日死去。《上海电影志》写作“在‘隔离审查’中倍受折磨，于1969年4月23日死于狱中”；另有记载说他患肝癌，在上海中山医院去世。1981 年判决书把他列为被迫害致死的著名艺术家，并写明 1966 年 10 月的搜查“致使他们受到人身迫害”。
+      cites: [ywang-zheng-junli, ws-1981-01-25-judgment]
+  assess:
+    - { voice: judicial1980, text: 江青勾结叶群，指使江腾蛟在上海非法搜查郑君里、赵丹、顾而已、童芷苓、陈鲤庭五人的家，致使他们受到人身迫害（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: officialLater, text: 郑君里在“隔离审查”中倍受折磨，于1969年4月23日死于狱中（《上海电影志》，1999）, cite: ywang-zheng-junli, quote: true }
+    - { voice: editor, text: 判决书只说搜查是为了江青的“一封信”，没有说信的内容。各种回忆都说那是江青 1930 年代在上海的旧信，郑君里早已把它烧掉，这一点无法从公开文书核实。, cite: ws-1980-indictment }
+  factions: [academics]
+  fate:
+    - { date: 1949-11, s: normal, note: 上海电影制片厂导演, verify: true }
+    - { date: 1966-10-09, s: attacked, note: 被冒充红卫兵的人抄家, cite: ws-1980-indictment }
+    - { date: 1967-11, s: detained, note: 隔离审查, verify: true }
+    - { date: 1969-04-23, s: dead, note: 死于关押中, cite: ywang-zheng-junli }
+    - { date: 1978, s: restored, note: 平反, verify: true }
+  cites: [ywang-zheng-junli, ws-1980-indictment, ws-1981-01-25-judgment]
+
+- id: zhao-dan
+  name: 赵丹
+  born: 1915-06-27
+  died: 1980-10-10
+  tier: 3
+  role1966: 上海电影制片厂演员
+  pinyin: Zhào Dān
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 赵凤翱 }
+  birthplace: 江苏扬州
+  origin: 山东肥城
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1957
+  positions:
+    - { title: 演员, orgName: 上海电影制片厂, from: 1949-11, to: 1967-12, verify: true }
+  bio: 生于扬州，长于南通。1930 年代以《十字街头》《马路天使》成名，1939 年去新疆演剧被盛世才关了五年。1949 年后在上海电影制片厂主演《武训传》《李时珍》《林则徐》《聂耳》，1957 年入党。1966 年 10 月 9 日他家是江腾蛟带人抄的五家之一；1967 年 12 月被关押，单独监禁五年多，狱中编号 139。出狱后长期没有角色，1978 年任全国政协委员。1980 年 10 月 8 日《人民日报》发表他在病床上写的《管得太具体 文艺没希望》，两天后他因胰腺癌在北京去世。
+  life:
+    - h: 从《马路天使》到新疆监狱
+      from: 1915
+      to: 1949
+      text: |
+        原名赵凤翱，1915 年生于扬州，祖籍山东肥城，两岁随家迁南通。1931 年考入上海美专学国画，1933 年参加左翼戏剧家联盟，进入电影界，主演《十字街头》《马路天使》。1938 年赴新疆开展戏剧工作，被军阀盛世才关押五年，1944 年获释。战后回上海，在昆仑公司主演《乌鸦与麻雀》等片。
+      verify: true
+    - h: 抄家与入狱
+      from: 1949
+      to: 1973
+      text: |
+        1949 年后主演《武训传》《李时珍》《林则徐》《聂耳》《烈火中永生》。1966 年 10 月 9 日凌晨，江腾蛟组织四十多人冒充红卫兵搜查了他和郑君里、童芷苓、陈鲤庭、顾而已的家。1967 年 11 月底他被上海青年话剧院的造反派批斗殴打，12 月被关押，长期单独监禁，五年多后才放回家。
+      cites: [ws-1980-indictment]
+      verify: true
+    - h: 遗言
+      from: 1978
+      to: 1980-10-10
+      text: |
+        1978 年任第五届全国政协委员。他从 1960 年起准备演鲁迅，后来又准备演周恩来，都没有拍成。1980 年 9 月他在病床上写《管得太具体　文艺没希望》，10 月 8 日刊于《人民日报》第五版，两天后病逝。文中说：“如果党管文艺管得太具体，文艺就没有希望，就完蛋了。”
+      cites: [rmrb-1980-10-08-zhao-dan]
+      verify: true
+  assess:
+    - { voice: doc, text: 文艺，是文艺家自己的事，如果党管文艺管得太具体，文艺就没有希望，就完蛋了（1980 年 10 月 8 日《人民日报》）, cite: rmrb-1980-10-08-zhao-dan, quote: true }
+    - { voice: doc, text: “四人帮”管文艺最具体，连演员身上一根腰带、一个补钉都管，管得八亿人民只剩下八个戏（同上）, cite: rmrb-1980-10-08-zhao-dan, quote: true }
+    - { voice: doc, text: 层层把关、审查审不出好作品，古往今来没有一个有生命力的好作品是审查出来的（同上）, cite: rmrb-1980-10-08-zhao-dan, quote: true }
+    - { voice: judicial1980, text: 搜查了赵丹、郑君里、童芷苓、陈鲤庭和顾而已的家（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  factions: [academics]
+  fate:
+    - { date: 1949-11, s: normal, note: 上海电影制片厂演员, verify: true }
+    - { date: 1966-10-09, s: attacked, note: 被冒充红卫兵的人抄家, cite: ws-1980-indictment }
+    - { date: 1967-12, s: detained, note: 被关押，单独监禁, verify: true }
+    - { date: 1973, s: sidelined, note: 放回家，没有工作, verify: true }
+    - { date: 1978, s: restored, note: 第五届全国政协委员, verify: true }
+    - { date: 1980-10-08, s: normal, note: 《人民日报》发表《管得太具体　文艺没希望》, cite: rmrb-1980-10-08-zhao-dan }
+    - { date: 1980-10-10, s: dead, note: 在北京病逝, verify: true }
+  cites: [rmrb-1980-10-08-zhao-dan, ws-1980-indictment, ws-1981-01-25-judgment]
+
+- id: shangguan-yunzhu
+  name: 上官云珠
+  born: 1920-03-02
+  died: 1968-11-23
+  tier: 3
+  role1966: 上海电影制片厂演员
+  pinyin: Shàngguān Yúnzhū
+  gender: f
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 韦均荦 }
+    - { kind: other, name: 韦亚君 }
+  birthplace: 江苏江阴
+  origin: 江苏江阴
+  deathKind: suicide
+  deathContested: true
+  deathPlace: 上海
+  positions:
+    - { title: 演员, orgName: 上海电影制片厂, from: 1955, to: 1968-11, verify: true }
+  bio: 江苏江阴长泾镇人，1937 年逃难到上海，在照相馆当营业员时进入影剧界。1940 年代在昆仑公司主演《一江春水向东流》《万家灯火》《丽人行》《乌鸦与麻雀》，1949 年后在上影主演《南岛风云》，又演《早春二月》《舞台姐妹》，1962 年被评为“新中国二十二大电影明星”之一。1956 年起多次受毛泽东接见。1965 年底查出乳腺癌，做了两次手术。文革中《早春二月》《舞台姐妹》被批，她被专案组反复审讯、殴打，1968 年 11 月 23 日凌晨从家中四楼跳下身亡，年 48 岁。1978 年 12 月上影为她平反。
+  life:
+    - h: 从照相馆到昆仑
+      from: 1920
+      to: 1949
+      text: |
+        1920 年 3 月 2 日生于江苏江阴长泾镇，原名韦均荦，后改名韦亚君。1936 年嫁给美术教员张大炎，1937 年“八一三”后一家逃到上海，她在何氏照相馆当营业员，由此进入华光戏剧学校和新华影片公司演员训练班，1940 年起用艺名上官云珠。战后加盟昆仑公司，主演《一江春水向东流》《万家灯火》《丽人行》《希望在人间》《乌鸦与麻雀》。
+      cites: [whb-2018-11-23-shangguan-yunzhu]
+      verify: true
+    - h: 上影
+      from: 1949
+      to: 1965
+      text: |
+        1955 年主演《南岛风云》，此后演《枯木逢春》《早春二月》《舞台姐妹》等片。1956 年 1 月 10 日毛泽东在上海中苏友好大厦接见了她，此后又多次接见。1962 年被评为“新中国二十二大电影明星”之一。
+      cites: [whb-2018-11-23-shangguan-yunzhu]
+      verify: true
+    - h: 四楼
+      from: 1965-12
+      to: 1968-11-23
+      text: |
+        1965 年底体检查出乳腺癌，手术后又发现颅内转移，再做脑外科手术。1966 年《早春二月》《舞台姐妹》被批判，她被赶出医院、回厂劳动、写交代、挨批斗，专案组追问她与毛泽东见面的情况。1968 年 11 月 23 日凌晨，她从家中四楼跳下身亡。另有一说认为她是受刑后被推下楼的，没有可靠证据。
+      cites: [whb-2018-11-23-shangguan-yunzhu]
+      verify: true
+  assess:
+    - { voice: officialLater, text: 1968年11月的一天，选择从自家四楼阳台上纵身跳下的方式，永远离去了（2018 年文汇网，摘自 2008 年《上海滩》）, cite: whb-2018-11-23-shangguan-yunzhu, quote: true }
+    - { voice: editor, text: 她的专案组属于上海，审问的重点与毛泽东有关，这一点只见于家属和知情人的回忆。死因有自杀和被害两说，后一说没有证据，这里按自杀记，并标为有争议。 }
+  factions: [academics]
+  fate:
+    - { date: 1940, s: normal, note: 用艺名上官云珠从影, verify: true }
+    - { date: 1956-01-10, s: normal, note: 受毛泽东接见, cite: whb-2018-11-23-shangguan-yunzhu }
+    - { date: 1966, s: attacked, note: 《早春二月》《舞台姐妹》被批, verify: true }
+    - { date: 1968-11-23, s: dead, note: 从家中四楼跳下身亡, cite: whb-2018-11-23-shangguan-yunzhu }
+    - { date: 1978-12, s: restored, note: 上影为她平反, verify: true }
+  cites: [whb-2018-11-23-shangguan-yunzhu]
+
+- id: yan-fengying
+  name: 严凤英
+  born: 1930-04-13
+  died: 1968-04-08
+  tier: 3
+  role1966: 安徽省黄梅戏剧团副团长
+  pinyin: Yán Fèngyīng
+  gender: f
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 严鸿六 }
+  birthplace: 安徽桐城
+  origin: 安徽桐城
+  deathKind: suicide
+  deathPlace: 合肥
+  party: 中国共产党
+  positions:
+    - { title: 演员、副团长, orgName: 安徽省黄梅戏剧团, from: 1953, to: 1968-04-08, verify: true }
+  bio: 安徽桐城人，黄梅戏旦角，十几岁唱红安庆一带。1953 年进安徽省黄梅戏剧团，1955 年以电影《天仙配》中的七仙女名满全国，1959 年又主演《女驸马》，后任剧团副团长、全国政协委员。文革中被指为“文艺黑线人物”，并被追究 1964 年的所谓“天津黑会”反江青；1968 年 4 月 5 日《红安徽》报点了她的名，连日逼供，搭档王少舫也贴出揭发她的大字报。4 月 7 日夜她服下大量安眠药，8 日清晨死去。剧团的军代表以“肚子里有发报机”为由，当众剖开了她的遗体。1978 年 5 月安徽省委为她平反。
+  life:
+    - h: 七仙女
+      from: 1930
+      to: 1965
+      text: |
+        原名严鸿六，1930 年生于桐城罗岭。十岁学唱黄梅调，因唱戏不容于家族，改艺名凤英，在桐城、怀宁、安庆唱红。1953 年调入安徽省黄梅戏剧团；1954 年在华东区戏曲观摩会演中以《天仙配》获演员一等奖，1955 年电影《天仙配》上映，1959 年主演电影《女驸马》，1963 年主演《牛郎织女》。
+      verify: true
+    - h: 《红安徽》点名
+      from: 1966
+      to: 1968-04-08
+      text: |
+        据她丈夫王冠亚 1988 年对苏晓康的口述，为追究 1964 年的“天津黑会”反江青，1968 年 4 月 5 日《红安徽》报点了她的名，省艺校造反派来逼供。王少舫贴出大字报揭发她，她极为伤心；4 月 7 日写了一夜材料反驳，又找柏龙驹作证被婉拒。当夜她服了大量安眠药、留下绝命书。王冠亚找来医生和军代表，军代表还要录口供，不让医生进门；送到医院后，她于 8 日早上五点死去。
+      cites: [su-xiaokang-yan-fengying]
+    - h: 剖腹
+      from: 1968-04-08
+      to: 1978-05
+      text: |
+        死后不到一小时，剧团领导以“有人检举她是国民党特务，是奉了上级命令自杀而死的”为由，要剖开遗体找“特务工具”。王冠亚拒绝签字。据他后来的文章，剖腹时军代表刘万泉站在下方监视，医生从咽部一直劈到耻骨，只找出一百多粒安眠药。王冠亚写道，江青“委实没到合肥来”，直接责任在剧团里整她的人，而刘万泉后来被评为学习毛泽东思想积极分子。1978 年 5 月 23 日安徽省委为她平反，8 月 21 日举行骨灰安放仪式。
+      cites: [su-xiaokang-yan-fengying]
+      verify: true
+  assess:
+    - { voice: witness, text: 我把医生找来，又去找军代表，但他来了以后还想搞口供，严还是讲自己不会反党，边讲边哭，他们还不让医生进来（王冠亚 1988 年口述，苏晓康记录）, cite: su-xiaokang-yan-fengying, quote: true }
+    - { voice: witness, text: 江青委实没到合肥来！更没有介入安徽省红梅戏剧团的文化大革命，直接责任是谁呢（王冠亚文，苏晓康转引）, cite: su-xiaokang-yan-fengying, quote: true }
+    - { voice: editor, text: 关于剖腹的经过，只有王冠亚一方的叙述。军代表刘万泉和剧团的说法没有公开过。 }
+  factions: [academics]
+  fate:
+    - { date: 1953, s: normal, note: 调入安徽省黄梅戏剧团, verify: true }
+    - { date: 1955, s: normal, note: 电影《天仙配》, verify: true }
+    - { date: 1968-04-05, s: attacked, note: 《红安徽》报点名，连日逼供, cite: su-xiaokang-yan-fengying }
+    - { date: 1968-04-08, s: dead, note: 服安眠药身亡，遗体被剖开, cite: su-xiaokang-yan-fengying }
+    - { date: 1978-05-23, s: restored, note: 安徽省委平反, verify: true }
+  cites: [su-xiaokang-yan-fengying]

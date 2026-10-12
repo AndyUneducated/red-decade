@@ -112,3 +112,9 @@
 - { a: jiang-qing, b: chi-qun, type: patron, from: 1974-01, to: 1976-10, note: 指派去马振扶中学, cite: ws-1982-chi-qun-case }
 - { a: chi-qun, b: deng-xiaoping, type: attack, from: 1975-09, to: 1976-10, note: 指挥两校写作班子批邓, cite: ws-1982-chi-qun-case }
 - { a: xie-jingyi, b: deng-xiaoping, type: attack, from: 1976-03-26, note: 与迟群当面围攻, cite: ws-1982-chi-qun-case }
+- { a: jiang-tengjiao, b: zheng-junli, type: persecute, from: 1966-10-09, note: 带人冒充红卫兵抄家, cite: ws-1980-indictment }
+- { a: jiang-tengjiao, b: zhao-dan, type: persecute, from: 1966-10-09, note: 带人冒充红卫兵抄家, cite: ws-1980-indictment }
+- { a: jiang-qing, b: zheng-junli, type: persecute, from: 1966-10, to: 1969-04-23, note: 勾结叶群指使搜查, cite: ws-1981-01-25-judgment }
+- { a: jiang-qing, b: sun-weishi, type: persecute, from: 1968-03-01, to: 1968-10-14, note: 加上“苏修特务”罪名, cite: dangshi-2012-sun-weishi }
+- { a: zhou-enlai, b: sun-weishi, type: protect, from: 1937, to: 1968-10-14, note: 烈士遗孤，视如女儿, cite: dangshi-2012-sun-weishi }
+- { a: zhao-dan, b: zheng-junli, type: link, from: 1966-10-09, note: 同被抄家，1967 年同被隔离审查, cite: ws-1980-indictment }

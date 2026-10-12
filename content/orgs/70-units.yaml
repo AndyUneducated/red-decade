@@ -148,6 +148,41 @@
   leaders:
     - { name: 周信芳, title: 院长, from: 1955-03, to: 1968-03 }
 
+- id: sh-film
+  name: 上海电影制片厂
+  short: 上影
+  aliases: [上海电影制片厂, 上影, 上影厂, 天马电影制片厂, 海燕电影制片厂]
+  kind: unit
+  level: basic
+  from: 1949-11
+  places: [{ at: shanghai }]
+  summary: 1949 年 11 月成立。1957 年改组为上海电影制片公司，下设江南、海燕、天马三厂，1960 年代后陆续并回。郑君里、赵丹、上官云珠都在这里工作。1966 年 10 月郑君里、赵丹等人被抄家，1967 年 11 月起一批编导演员被隔离审查。
+  verify: true
+
+- id: cnet
+  name: 中央实验话剧院
+  aliases: [中央实验话剧院]
+  kind: unit
+  level: central
+  from: 1956-09
+  under: [{ org: culture-ministry }]
+  places: [{ at: beijing }]
+  summary: 1956 年 9 月按孙维世的提议由文化部组建，欧阳予倩任院长，孙维世任副院长兼总导演。
+  cites: [dangshi-2012-sun-weishi]
+  leaders:
+    - { name: 欧阳予倩, title: 院长, from: 1956-09, to: 1962-09, verify: true }
+    - { name: 孙维世, title: 副院长兼总导演, from: 1956-09, to: 1968-03, verify: true }
+
+- id: anhui-huangmei
+  name: 安徽省黄梅戏剧团
+  aliases: [安徽省黄梅戏剧团, 红梅剧团, 安徽省红梅戏剧团]
+  kind: unit
+  level: provincial
+  from: 1953-04
+  places: [{ at: hefei }]
+  summary: 1953 年在合肥成立，严凤英、王少舫是台柱，《天仙配》《女驸马》都由该团排演。文革中改称“红梅剧团”，有军代表进驻。
+  verify: true
+
 - id: nankai
   name: 南开大学
   short: 南开

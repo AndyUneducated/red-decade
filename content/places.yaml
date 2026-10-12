@@ -182,6 +182,11 @@
 - { id: yudu, name: 于都, names: [于都], lat: 25.95, lon: 115.41 }
 - { id: shangqiu, name: 商丘, names: [商丘], lat: 34.41, lon: 115.65 }
 - { id: huairou, name: 怀柔, names: [怀柔], lat: 40.32, lon: 116.63 }
+# batch 10
+- { id: yangzhou, name: 扬州, names: [扬州], lat: 32.39, lon: 119.42 }
+- { id: jiangyin, name: 江阴, names: [江阴], lat: 31.92, lon: 120.28 }
+- { id: tongcheng, name: 桐城, names: [桐城], lat: 31.04, lon: 116.95 }
+- { id: nanxi, name: 南溪, names: [南溪], lat: 28.85, lon: 104.98 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
