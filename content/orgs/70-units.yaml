@@ -125,6 +125,18 @@
     - { name: 李达, title: 校长, from: 1953-02, to: 1966-08-24 }
     - { name: 刘道玉, title: 校长, from: 1981-08, to: 1988-02 }
 
+- id: sh-jingju
+  name: 上海京剧院
+  aliases: [上海京剧院]
+  kind: unit
+  level: basic
+  from: 1955-03
+  places: [{ at: shanghai }]
+  summary: 周信芳任院长。1959 年排演《海瑞上疏》，1965 年后被指与《海瑞罢官》“一根藤上的两个瓜”；文革中排演样板戏《智取威虎山》《海港》。
+  verify: true
+  leaders:
+    - { name: 周信芳, title: 院长, from: 1955-03, to: 1968-03 }
+
 - id: nankai
   name: 南开大学
   short: 南开

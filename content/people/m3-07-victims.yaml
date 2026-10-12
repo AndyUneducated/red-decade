@@ -1,0 +1,490 @@
+# M3 people, batch 7a: victims named in the 1980 indictment, the 1981 judgment and related case texts —
+# 张霖之, 李立三, 田汉, 阎红彦, 张闻天, 林昭, 李达, 赵树理, 周信芳, 容国团.
+# Quotes are checked against sources/text. Careers from general reference, verify. Uncertain dates are omitted.
+
+- id: zhang-linzhi
+  name: 张霖之
+  born: 1908
+  died: 1967-01-22
+  tier: 3
+  role1966: 煤炭工业部部长
+  pinyin: Zhāng Línzhī
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河北南宫
+  origin: 河北南宫
+  deathKind: persecuted
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 煤炭工业部部长, orgName: 煤炭工业部, from: 1957, to: 1967-01-22, verify: true }
+    - { title: 候补中央委员, orgName: 中国共产党中央委员会, from: 1956-09, to: 1967-01-22, verify: true }
+  bio: 河北南宫人，冀南根据地出身的老干部，1950 年代转入国务院工业部门，1957 年起任煤炭工业部部长。1966 年 12 月 14 日江青点名说他是“彭真死党”，19 日他被北京矿业学院的造反派扣押，1967 年 1 月 22 日在关押中被打成重伤致死，是文革中第一位死于非命的在任部长。
+  life:
+    - h: 冀南到煤炭部
+      from: 1908
+      to: 1966-11
+      text: |
+        1908 年生于河北南宫，1930 年代入党，抗战中在冀南根据地做地方党的工作。1949 年后在华北和中央工业部门任职，1957 年起任煤炭工业部部长，1956 年中共八大当选候补中央委员。
+      verify: true
+    - h: 被点名与致死
+      from: 1966-12
+      to: 1967-01-22
+      text: |
+        1966 年 12 月 14 日江青在一次群众大会上把他点为“彭真死党”。1983 年戚本禹案判决书写明，19 日他被北京矿业学院一些人非法扣押，此后被反复批斗。1981 年对林彪、江青集团的判决书认定他“被非法关押，并被打成重伤致死”。他死于 1967 年 1 月 22 日。
+      cites: [ws-1983-11-02-qi-benyu-case, ws-1981-01-25-judgment]
+  assess:
+    - { voice: official1966, text: 煤炭部部长张霖之是彭真死党。（1966 年 12 月江青语，见 1983 年戚本禹案判决书）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
+    - { voice: judicial1980, text: 一九六六年十二月十四日，江青点名诬陷张霖之，使他被非法关押，并被打成重伤致死。, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 一九六六年十二月十四日，江青诬陷“张霖之是彭真死党”。十九日，张霖之被北京矿业学院一些人非法扣押。（1983 年戚本禹案判决书）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
+  factions: [premier]
+  fate:
+    - { date: 1957, s: power, note: 煤炭工业部部长, verify: true }
+    - { date: 1966-12-14, s: attacked, note: 江青点名, cite: ws-1983-11-02-qi-benyu-case }
+    - { date: 1966-12-19, s: detained, note: 被北京矿业学院一些人扣押, cite: ws-1983-11-02-qi-benyu-case }
+    - { date: 1967-01-22, s: dead, note: 被打成重伤致死, cite: ws-1981-01-25-judgment }
+  cites: [ws-1983-11-02-qi-benyu-case, ws-1981-01-25-judgment]
+
+- id: li-lisan
+  name: 李立三
+  born: 1899-11-18
+  died: 1967-06-22
+  tier: 3
+  role1966: 中共中央华北局书记处书记
+  pinyin: Lǐ Lìsān
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 李隆郅 }
+  birthplace: 湖南醴陵
+  origin: 湖南醴陵
+  deathKind: suicide
+  deathContested: true
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1945-06, to: 1967-06-22, verify: true }
+    - { title: 中华全国总工会副主席, orgName: 中华全国总工会, from: 1948-08, to: 1953, verify: true }
+    - { title: 劳动部部长, orgName: 劳动部, from: 1949-11, to: 1954-09, verify: true }
+    - { title: 华北局书记处书记, orgName: 中共中央华北局, from: 1960, to: 1966, verify: true }
+  bio: 湖南醴陵人，早年留法勤工俭学，1920 年代领导安源路矿和上海工人运动。1930 年主持中共中央工作期间推行冒险计划，后来被党史定为“立三路线”，长期在苏联。1946 年回国，1949 年后任劳动部部长、全国总工会副主席，1960 年起任华北局书记处书记。文革开始后，他的“立三路线”历史和苏联籍妻子李莎都成了罪名，他被反复批斗，1967 年 6 月 22 日服大量安眠药死亡，药从何来至今说法不一。1980 年平反。
+  life:
+    - h: 立三路线
+      from: 1899
+      to: 1946
+      text: |
+        1899 年生于湖南醴陵，原名李隆郅。1919 年赴法勤工俭学，1921 年回国后入党，在安源组织路矿工人大罢工，1925 年参与领导五卅运动。1928 年中共六大后进入中央领导核心，1930 年主张以武汉、南京等中心城市暴动夺取一省或数省首先胜利，被批为“左”倾冒险，同年底去莫斯科检讨，此后在苏联十五年，1930 年代后期曾被苏方关押。九大报告和 1971 年中央通知都把“李立三的‘左’倾机会主义路线”列为党内十次路线斗争之一。
+      cites: [ws-1969-04-ninth-report, ws-1971-09-18-notice]
+      verify: true
+    - h: 劳动部与华北局
+      from: 1946
+      to: 1966-05
+      text: |
+        1946 年回国，在东北做工运和统战工作，1948 年任全国总工会副主席，1949 年 11 月任中央人民政府劳动部部长。1951 年因主张工会相对独立被批评，1954 年离开劳动部，转到中央工业部门任副职。1960 年起任中共中央华北局书记处书记。
+      verify: true
+    - h: 批斗与死亡
+      from: 1966-06
+      to: 1967-06-22
+      text: |
+        文革开始后，华北局和北京的造反派把他的历史问题与“里通外国”联系起来，妻子李莎（苏联籍）被关押。1967 年他在华北局、全国总工会等单位被多次批斗，6 月 22 日服大量安眠药死亡。药片来源和死前情形没有公开的官方文件说明。1980 年起诉书把他列入被诬陷迫害的人大常委、政协常委。1980 年 3 月中共中央为他举行追悼会，正式平反。
+      cites: [ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: official1966, text: 我们党战胜了陈独秀的右倾机会主义路线，战胜了瞿秋白、李立三的“左”倾机会主义路线（九大报告）, cite: ws-1969-04-ninth-report, quote: true }
+    - { voice: judicial1980, text: 安子文、楚图南、汪金祥、李立三、曾宪植（1980 年起诉书所列被诬陷迫害的人大常委、政协常委）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 他的死在 1967 年按自杀处理，药从何来、死前是否被逼都没有官方文件说明，这里标为有争议。 }
+  factions: [provincial]
+  fate:
+    - { date: 1949-11, s: power, note: 劳动部部长, verify: true }
+    - { date: 1954-09, s: sidelined, note: 离开劳动部, verify: true }
+    - { date: 1960, s: normal, note: 华北局书记处书记, verify: true }
+    - { date: 1967, s: attacked, note: 被多次批斗, verify: true }
+    - { date: 1967-06-22, s: dead, note: 服安眠药死亡, verify: true }
+    - { date: 1980-03, s: restored, note: 追悼会，平反, verify: true }
+  cites: [ws-1969-04-ninth-report, ws-1971-09-18-notice, ws-1980-indictment]
+
+- id: tian-han
+  name: 田汉
+  born: 1898-03-12
+  died: 1968-12-10
+  tier: 3
+  role1966: 中国戏剧家协会主席
+  pinyin: Tián Hàn
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 田寿昌 }
+    - { kind: cover, name: 李伍 }
+  birthplace: 湖南长沙
+  origin: 湖南长沙
+  deathKind: persecuted
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 主席, orgName: 中国戏剧家协会, from: 1949-07, to: 1966, verify: true }
+    - { title: 副主席, orgName: 中国文学艺术界联合会, from: 1949-07, to: 1966, verify: true }
+  bio: 湖南长沙人，剧作家，《义勇军进行曲》的词作者，1930 年代左翼戏剧运动的领导人之一。1949 年后任剧协主席、文联副主席。1964–1966 年他的京剧《谢瑶环》被批为“毒草”，他与周扬、夏衍、阳翰笙被鲁迅一句旧话牵连，成了“四条汉子”。1966 年 12 月被抓，1967 年起关押在秦城，1968 年 12 月 10 日以化名“李伍”死于解放军三〇一医院。1979 年平反。
+  life:
+    - h: 左翼戏剧与国歌
+      from: 1898
+      to: 1949
+      text: |
+        1898 年生于湖南长沙，留学日本，1920 年代创办南国社，1932 年入党，参加左翼戏剧家联盟。1935 年为电影《风云儿女》写主题歌歌词，由聂耳谱曲，即《义勇军进行曲》，1949 年被定为代国歌。抗战中在桂林、重庆组织戏剧演出。
+      verify: true
+    - h: 剧协与《谢瑶环》
+      from: 1949
+      to: 1966-05
+      text: |
+        1949 年后任文化部戏曲改进局局长、艺术事业管理局局长，剧协主席、文联副主席。1961 年写成京剧《谢瑶环》，1964 年后与《海瑞罢官》《李慧娘》一起被批判。1966 年 2 月江青在部队文艺工作座谈会上把 1930 年代的文艺称为“文艺黑线”，周扬、夏衍、田汉、阳翰笙被称为“四条汉子”。
+      cites: [ws-1967-05-10-opera]
+      verify: true
+    - h: 秦城与死亡
+      from: 1966-12
+      to: 1968-12-10
+      text: |
+        1966 年 12 月 4 日被抓，1967 年 2 月转押秦城监狱，以化名“李伍”病重转入三〇一医院，1968 年 12 月 10 日死亡。1971 年 3 月 2 日《人民日报》发表批判文章，仍称他为“反革命分子”。1979 年 4 月中共中央为他平反并举行追悼会。
+      cites: [ws-1971-03-02-tian-han-critique]
+      verify: true
+  assess:
+    - { voice: official1966, text: 反革命分子田汉和周扬、夏衍、阳翰笙这“四条汉子”（1971 年 3 月 2 日《人民日报》）, cite: ws-1971-03-02-tian-han-critique, quote: true }
+    - { voice: editor, text: 《人民日报》点他“反革命分子”时，他已在两年多前死于关押中；死讯当时没有公开。 }
+  factions: [propdept, academics]
+  fate:
+    - { date: 1949-07, s: normal, note: 剧协主席, verify: true }
+    - { date: 1964, s: attacked, note: 《谢瑶环》被批, verify: true }
+    - { date: 1966-12-04, s: detained, verify: true }
+    - { date: 1968-12-10, s: dead, note: 化名“李伍”死于三〇一医院, verify: true }
+    - { date: 1979-04, s: restored, note: 平反, verify: true }
+  cites: [ws-1971-03-02-tian-han-critique, ws-1967-05-10-opera]
+
+- id: yan-hongyan
+  name: 阎红彦
+  born: 1909
+  died: 1967-01-08
+  tier: 3
+  role1966: 中共云南省委第一书记、昆明军区第一政治委员
+  pinyin: Yán Hóngyàn
+  gender: m
+  ethnicity: 汉族
+  birthplace: 陕西子长
+  origin: 陕西子长
+  deathKind: suicide
+  deathPlace: 云南昆明
+  party: 中国共产党
+  positions:
+    - { title: 第一书记, orgName: 中共云南省委, from: 1959-08, to: 1967-01-08, verify: true }
+    - { title: 第一政治委员, orgName: 昆明军区, from: 1959, to: 1967-01-08, verify: true }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1956-09, to: 1967-01-08, verify: true }
+  rank: { rank: 上将, date: 1955-09 }
+  bio: 陕西子长（安定）人，陕北红军创建人之一，1955 年授上将，1959 年起任云南省委第一书记兼昆明军区第一政委。1966 年底云南造反派在中央文革支持下冲击省委，1967 年 1 月 8 日他在昆明服安眠药自杀。1978 年平反。
+  life:
+    - h: 陕北红军到云南
+      from: 1909
+      to: 1966-05
+      text: |
+        1909 年生于陕西安定（今子长），1920 年代入党，与谢子长、刘志丹创建陕北红军。抗战和解放战争中在一二九师、晋冀鲁豫和二野作战，1949 年后任川东军区、四川省的领导职务，1955 年授上将，1959 年 8 月任云南省委第一书记。
+      verify: true
+    - h: 冲击与自杀
+      from: 1966-06
+      to: 1967-01-08
+      text: |
+        1966 年下半年云南造反派冲击省委，他被批斗，并据说受到陈伯达电话指责。1967 年 1 月 8 日在昆明服安眠药死亡。1980 年起诉书把他与赵紫阳、吴芝圃、魏文伯等并列为被诬陷迫害的省级党政负责人。1978 年 1 月中共中央为他举行骨灰安放仪式，予以平反。
+      cites: [ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 赵紫阳、吴芝圃、阎红彦、魏文伯（1980 年起诉书所列被诬陷迫害的省级负责人）, cite: ws-1980-indictment, quote: true }
+  factions: [provincial]
+  fate:
+    - { date: 1959-08, s: power, note: 云南省委第一书记, verify: true }
+    - { date: 1966-12, s: attacked, note: 造反派冲击省委, verify: true }
+    - { date: 1967-01-08, s: dead, note: 服安眠药自杀, verify: true }
+    - { date: 1978-01, s: restored, note: 骨灰安放仪式，平反, verify: true }
+  cites: [ws-1980-indictment]
+
+- id: zhang-wentian
+  name: 张闻天
+  born: 1900-08-30
+  died: 1976-07-01
+  tier: 2
+  role1966: 中国科学院经济研究所特约研究员
+  pinyin: Zhāng Wéntiān
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: pen, name: 洛甫 }
+  birthplace: 江苏南汇
+  origin: 江苏南汇
+  deathKind: natural
+  deathPlace: 江苏无锡
+  party: 中国共产党
+  positions:
+    - { title: 中央政治局候补委员, orgName: 中共中央政治局, from: 1956-09, to: 1959-08, verify: true }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1945-06, to: 1969-04, verify: true }
+    - { title: 外交部第一副部长, orgName: 外交部, from: 1955, to: 1959-09, verify: true }
+  bio: 上海南汇人，1935–1938 年任中共中央总负责人。1949 年后任驻苏大使、外交部第一副部长。1959 年庐山会议上发言批评大跃进，与彭德怀、黄克诚、周小舟一起被定为“反党集团”，调离外交部，后在中国科学院经济研究所任特约研究员。文革中被关押，1969 年遣送广东肇庆，1975 年移居无锡，1976 年 7 月 1 日在无锡去世。1979 年平反，1981 年历史决议宣布八届八中全会的决议完全错误。
+  life:
+    - h: 中央总负责人
+      from: 1900
+      to: 1949
+      text: |
+        1900 年生于江苏南汇（今属上海），1925 年入党，1925–1930 年在莫斯科中山大学和红色教授学院学习。1931 年回国后进入中央，1935 年遵义会议后接替博古负责中央工作，到 1938 年六届六中全会。抗战中主持中央宣传和农村调查，1945 年后到东北，任合江、辽东省委书记。
+      verify: true
+    - h: 外交部与庐山会议
+      from: 1949
+      to: 1966-05
+      text: |
+        1951 年起任驻苏联大使，1955 年回国任外交部第一副部长，1956 年八大当选政治局候补委员。1959 年 7 月 21 日在庐山会议小组会上作长篇发言，批评大跃进的高指标和浮夸风。八届八中全会决议把他与彭德怀、黄克诚、周小舟定为“反党集团”，调离外交部，此后在中国科学院经济研究所任特约研究员。
+      cites: [ws-1959-08-16-peng-resolution]
+      verify: true
+    - h: 关押与流放
+      from: 1966-06
+      to: 1976-07-01
+      text: |
+        文革开始后被批斗，1968 年 5 月被“监护”关押。1969 年 10 月以战备疏散为名遣送广东肇庆，1975 年移居江苏无锡，1976 年 7 月 1 日去世。1980 年起诉书指控康生、江青等诬陷 1937 年以后历任中组部部长的张闻天、陈云、彭真、邓小平、安子文。1979 年 8 月中共中央为他举行追悼会；1981 年历史决议宣布八届八中全会的决议完全错误。
+      cites: [ws-1980-indictment, ws-1981-resolution]
+      verify: true
+  assess:
+    - { voice: official1966, text: 把彭德怀和黄克诚、张闻天、周小舟等调离国防、外交、省委第一书记等工作岗位是完全必要的（1959 年八届八中全会决议）, cite: ws-1959-08-16-peng-resolution, quote: true }
+    - { voice: judicial1980, text: 诬陷一九三七年以后历任中共中央组织部部长的张闻天、陈云、彭真、邓小平、安子文是“叛徒”、“特务”、“三反分子”或是“双料货”, cite: ws-1980-indictment, quote: true }
+    - { voice: official1981, text: 八届八中全会关于所谓“彭德怀、黄克诚、张闻天、周小舟反党集团”的决议是完全错误的, cite: ws-1981-resolution, quote: true }
+  factions: [dissent]
+  fate:
+    - { date: 1956-09, s: power, note: 政治局候补委员, verify: true }
+    - { date: 1959-08-16, s: purged, note: 八届八中全会定为“反党集团”, cite: ws-1959-08-16-peng-resolution }
+    - { date: 1959-09, s: sidelined, note: 调科学院经济所, verify: true }
+    - { date: 1968-05, s: detained, note: 被“监护”, verify: true }
+    - { date: 1969-10, s: sidelined, note: 遣送肇庆, verify: true }
+    - { date: 1976-07-01, s: dead, note: 在无锡去世, verify: true }
+    - { date: 1979-08, s: restored, note: 追悼会，平反, verify: true }
+  cites: [ws-1959-08-16-peng-resolution, ws-1980-indictment, ws-1981-resolution]
+
+- id: lin-zhao
+  name: 林昭
+  born: 1932
+  died: 1968-04-29
+  tier: 3
+  role1966: 上海提篮桥监狱在押犯
+  pinyin: Lín Zhāo
+  gender: f
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 彭令昭 }
+    - { kind: other, name: 许萍 }
+  birthplace: 江苏苏州
+  origin: 江苏苏州
+  deathKind: executed
+  deathPlace: 上海
+  education:
+    - { school: 北京大学, from: 1954, to: 1958, verify: true }
+  bio: 江苏苏州人，原名彭令昭，北京大学中文系学生，1957 年被划为右派。1960 年因参与张春元等人的油印刊物《星火》被捕，1965 年被判徒刑二十年。她在狱中用血写下大量文字，1968 年 4 月 19 日上海市公检法军管会改判死刑，4 月 29 日在上海执行。1980 年上海高级人民法院宣告她无罪。
+  life:
+    - h: 北大右派
+      from: 1932
+      to: 1959
+      text: |
+        1932 年生于江苏苏州，1954 年考入北京大学新闻专业（后并入中文系）。1957 年鸣放中为“右派”学生张元勋等辩护，被划为右派，留校监督劳动，后转到中国人民大学资料室。
+      verify: true
+    - h: 《星火》与狱中
+      from: 1960
+      to: 1968-04-29
+      text: |
+        1968 年死刑判决书称她 1959 年“积极参加以张春元为首组织的反革命集团”，1965 年 5 月 31 日由上海市静安区人民法院判处徒刑二十年；在狱中“大量书写反革命日记、诗歌和文章”，并用血涂写标语。1968 年 4 月 19 日改判死刑，立即执行，29 日在上海龙华执行。
+      cites: [ws-1968-04-19-lin-zhao-death-sentence]
+    - h: 宣告无罪
+      from: 1980
+      to: 1981
+      text: |
+        1980 年 8 月上海市高级人民法院复审撤销原判，1981 年 1 月正式宣告无罪。她在狱中写下的文字后来部分流传出来。
+      verify: true
+  assess:
+    - { voice: official1966, text: 判处反革命犯林昭死刑，立即执行。（1968 年 4 月 19 日判决书）, cite: ws-1968-04-19-lin-zhao-death-sentence, quote: true }
+    - { voice: editor, text: 判决书列出的罪状主要是她在狱中写下的文字和血书；判决依据是劳动改造条例和惩治反革命条例。, cite: ws-1968-04-19-lin-zhao-death-sentence }
+  factions: [dissent]
+  fate:
+    - { date: 1957, s: attacked, note: 划为右派, verify: true }
+    - { date: 1960-10, s: detained, note: 因《星火》被捕, verify: true }
+    - { date: 1965-05-31, s: detained, note: 判徒刑二十年, cite: ws-1968-04-19-lin-zhao-death-sentence }
+    - { date: 1968-04-29, s: dead, note: 被执行死刑, verify: true }
+    - { date: 1980-08, s: restored, note: 上海高院复审撤销原判, verify: true }
+  cites: [ws-1968-04-19-lin-zhao-death-sentence]
+
+- id: li-da
+  name: 李达
+  born: 1890-10-02
+  died: 1966-08-24
+  tier: 3
+  role1966: 武汉大学校长
+  pinyin: Lǐ Dá
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖南零陵
+  origin: 湖南零陵
+  deathKind: persecuted
+  deathPlace: 湖北武汉
+  party: 中国共产党
+  positions:
+    - { title: 校长, orgName: 武汉大学, from: 1953-02, to: 1966-08-24, verify: true }
+  bio: 湖南零陵人，中共创建人之一和一大代表，马克思主义理论家，著有《社会学大纲》。1923 年脱党，1949 年重新入党，1953 年起任武汉大学校长。1966 年 6 月湖北省委把他与武大党委副书记朱劭天、何定华定为“珞珈山三家村”，他被批斗，8 月 24 日病死于武汉。1980 年平反。
+  life:
+    - h: 一大与理论
+      from: 1890
+      to: 1953
+      text: |
+        1890 年生于湖南零陵，留学日本，1920 年参加上海共产主义小组，1921 年出席中共一大，任中央宣传主任。1923 年因与陈独秀意见不合脱党，此后在各地大学讲授马克思主义，1937 年出版《社会学大纲》。1949 年经毛泽东等介绍重新入党，任湖南大学校长。
+      verify: true
+    - h: 武大与“三家村”
+      from: 1953-02
+      to: 1966-08-24
+      text: |
+        1953 年 2 月任武汉大学校长。1966 年他对林彪“顶峰论”提出异议。6 月湖北省委把武大定为“三家村”式的“反党集团”，他被揪斗；8 月病重才送医院，24 日死亡。1980 年起诉书把他列入被诬陷迫害的人大常委。1980 年湖北省委为他平反。
+      cites: [ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 刘亚雄、李达、徐立清（1980 年起诉书所列被诬陷迫害的人大常委）, cite: ws-1980-indictment, quote: true }
+  factions: [academics]
+  fate:
+    - { date: 1953-02, s: normal, note: 武汉大学校长, verify: true }
+    - { date: 1966-06, s: attacked, note: 被定为“珞珈山三家村”, verify: true }
+    - { date: 1966-08-24, s: dead, verify: true }
+    - { date: 1980, s: restored, note: 平反, verify: true }
+  cites: [ws-1980-indictment]
+
+- id: zhao-shuli
+  name: 赵树理
+  born: 1906-09-24
+  died: 1970-09-23
+  tier: 3
+  role1966: 作家
+  pinyin: Zhào Shùlǐ
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西沁水
+  origin: 山西沁水
+  deathKind: persecuted
+  deathPlace: 山西太原
+  party: 中国共产党
+  positions:
+    - { title: 理事, orgName: 中国作家协会, from: 1953, to: 1966, verify: true }
+  bio: 山西沁水人，“山药蛋派”小说家，《小二黑结婚》《李有才板话》的作者。1960 年代初写农村的困难被批为“中间人物论”的代表。1966 年后被押回山西批斗，1970 年 9 月在太原的批斗会上被打伤，9 月 23 日死亡。1978 年平反。
+  life:
+    - h: 解放区作家
+      from: 1906
+      to: 1949
+      text: |
+        1906 年生于山西沁水，1937 年入党，在太行根据地办通俗报刊。1943 年发表《小二黑结婚》《李有才板话》，被解放区作为“赵树理方向”推广。
+      verify: true
+    - h: 中间人物论
+      from: 1949
+      to: 1966-05
+      text: |
+        1949 年后在北京任曲艺协会主席、作协理事，主编《说说唱唱》。1958 年《三里湾》后多次回山西农村，1959 年写信批评公社化和高指标，1962 年大连农村题材小说创作座谈会上被当作写“中间人物”的代表，1964 年起受批判。
+      verify: true
+    - h: 批斗致死
+      from: 1966-06
+      to: 1970-09-23
+      text: |
+        文革中被押回山西，在晋城、太原多次被批斗。1970 年 9 月在太原湖滨会堂的批斗会上被打断肋骨，9 月 23 日死亡。1980 年起诉书和 1981 年判决书把他与老舍、周信芳、盖叫天等一并列为被迫害致死的文艺界人士。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 老舍、赵树理、周信芳、盖叫天（1981 年判决书所列被迫害致死的文艺界人士）, cite: ws-1981-01-25-judgment, quote: true }
+  factions: [academics]
+  fate:
+    - { date: 1964, s: attacked, note: 被批为写“中间人物”, verify: true }
+    - { date: 1966, s: detained, note: 押回山西批斗, verify: true }
+    - { date: 1970-09-23, s: dead, note: 批斗中受伤致死, verify: true }
+    - { date: 1978, s: restored, note: 平反, verify: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+
+- id: zhou-xinfang
+  name: 周信芳
+  born: 1895-01-14
+  died: 1975-03-08
+  tier: 3
+  role1966: 上海京剧院院长
+  pinyin: Zhōu Xìnfāng
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: art, name: 麒麟童 }
+  birthplace: 江苏淮安清江浦
+  origin: 浙江慈溪
+  deathKind: persecuted
+  deathPlace: 上海
+  party: 中国共产党
+  positions:
+    - { title: 院长, orgName: 上海京剧院, from: 1955-03, to: 1968-03, verify: true }
+  bio: 京剧老生演员，艺名“麒麟童”，“麒派”创始人。1955 年起任上海京剧院院长。1959 年他主演的《海瑞上疏》在 1965 年后被说成与《海瑞罢官》同类，1966 年起被批斗。1968 年 3 月徐景贤等人把他定为“反共老手”并拘留，1970 年给他戴上“反革命分子”帽子、开除出党。妻子裘丽琳 1968 年死于关押中。1975 年 3 月 8 日在上海病逝，1978 年平反。
+  life:
+    - h: 麒派
+      from: 1895
+      to: 1955
+      text: |
+        1895 年生于江苏清江浦，祖籍浙江慈溪，七岁登台，艺名“麒麟童”，长期在上海演出，以《徐策跑城》《四进士》等戏创出“麒派”。抗战中在上海排演《明末遗恨》等戏，1949 年后任华东戏曲研究院院长，1955 年入党。
+      verify: true
+    - h: 《海瑞上疏》
+      from: 1955-03
+      to: 1966-05
+      text: |
+        1955 年任上海京剧院院长。1959 年响应毛泽东提倡“海瑞精神”，与京剧院同人排演《海瑞上疏》并主演。1966 年《五·一六通知》附件大事记称该戏“是周扬同志亲自向上海京剧院布置的”，此后上海报刊批判《海瑞上疏》。
+      cites: [ws-1966-05-16-notice-attachment]
+      verify: true
+    - h: 拘留与病逝
+      from: 1966-06
+      to: 1975-03-08
+      text: |
+        1982 年徐景贤案判决书写明，1968 年 3 月徐景贤和王少庸等人诬陷他是“反共老手”，将他拘留；1970 年 10 月给他戴上“反革命分子”帽子，永远开除出党。妻子裘丽琳 1968 年在关押中死亡。1975 年 3 月 8 日在上海病逝。1980 年起诉书和 1981 年判决书把他列为被迫害致死的文艺界人士。1978 年 8 月上海为他平反并举行骨灰安放仪式。
+      cites: [ws-1982-xu-jingxian-case, ws-1981-01-25-judgment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 一九六八年三月，徐景贤和王少庸等人，诬陷上海京剧院院长周信芳是“反共老手”，将周拘留。（1982 年徐景贤案判决书）, cite: ws-1982-xu-jingxian-case, quote: true }
+    - { voice: judicial1980, text: 老舍、赵树理、周信芳、盖叫天（1980 年起诉书所列被迫害致死的文艺界人士）, cite: ws-1980-indictment, quote: true }
+  factions: [academics]
+  fate:
+    - { date: 1955-03, s: normal, note: 上海京剧院院长, verify: true }
+    - { date: 1966, s: attacked, note: 《海瑞上疏》被批, verify: true }
+    - { date: 1968-03, s: detained, note: 被诬为“反共老手”拘留, cite: ws-1982-xu-jingxian-case }
+    - { date: 1970-10, s: purged, note: 戴“反革命分子”帽子，永远开除出党, cite: ws-1982-xu-jingxian-case }
+    - { date: 1975-03-08, s: dead, note: 在上海病逝, verify: true }
+    - { date: 1978-08, s: restored, note: 平反, verify: true }
+  cites: [ws-1982-xu-jingxian-case, ws-1980-indictment, ws-1981-01-25-judgment, ws-1966-05-16-notice-attachment]
+
+- id: rong-guotuan
+  name: 容国团
+  born: 1937-08-10
+  died: 1968-06-20
+  tier: 3
+  role1966: 国家乒乓球女队主教练
+  pinyin: Róng Guótuán
+  gender: m
+  ethnicity: 汉族
+  birthplace: 香港
+  origin: 广东中山
+  deathKind: suicide
+  deathPlace: 北京
+  positions:
+    - { title: 国家乒乓球女队主教练, orgName: 国家体育运动委员会, from: 1964, to: 1966, verify: true }
+  bio: 生于香港，祖籍广东中山（今珠海南屏），1957 年回内地，1959 年在多特蒙德获世界乒乓球锦标赛男子单打冠军，是中国第一个世界冠军。1965 年任女队主教练，带队首获考比伦杯。文革中国家体委的造反派把从香港回来的乒乓球人员审查为“特务”，1968 年 6 月 20 日他在北京龙潭湖自缢。与他同为香港回来的教练傅其芳、姜永宁也在同年死亡。1978 年平反。
+  life:
+    - h: 第一个世界冠军
+      from: 1937
+      to: 1966-05
+      text: |
+        1937 年生于香港，1957 年回广州，后入国家队。1959 年 4 月在联邦德国多特蒙德第二十五届世乒赛上获男子单打冠军。1961 年北京世乒赛上参与男团夺冠，1965 年任女队主教练，当年女队首获团体冠军。
+      verify: true
+    - h: 审查与死亡
+      from: 1966-06
+      to: 1968-06-20
+      text: |
+        1968 年清理阶级队伍中，国家体委把从香港回来的傅其芳、姜永宁、容国团等作为“特务嫌疑”隔离审查，三人先后死亡。容国团 1968 年 6 月 20 日在北京龙潭湖附近自缢。1980 年起诉书称三人“被迫害致死”。
+      cites: [ws-1980-indictment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 优秀教练傅其芳、容国团、姜永宁被迫害致死, cite: ws-1980-indictment, quote: true }
+  factions: [academics]
+  fate:
+    - { date: 1959-04, s: rise, note: 世乒赛男单冠军, verify: true }
+    - { date: 1968, s: detained, note: 隔离审查, verify: true }
+    - { date: 1968-06-20, s: dead, note: 自缢, verify: true }
+    - { date: 1978, s: restored, note: 平反, verify: true }
+  cites: [ws-1980-indictment]

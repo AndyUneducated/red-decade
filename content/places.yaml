@@ -164,6 +164,13 @@
 - { id: donglan, name: 东兰, names: [东兰], lat: 24.51, lon: 107.37 }
 - { id: jinzhai, name: 金寨, names: [金寨], lat: 31.73, lon: 115.93 }
 - { id: tumed-left, name: 土默特左旗, names: [土默特], lat: 40.72, lon: 111.15 }
+# batch 7
+- { id: liling, name: 醴陵, names: [醴陵], lat: 27.65, lon: 113.50 }
+- { id: zichang, name: 子长, names: [子长], lat: 37.14, lon: 109.68 }
+- { id: nanhui, name: 南汇, names: [南汇], lat: 31.05, lon: 121.76 }
+- { id: qinshui, name: 沁水, names: [沁水], lat: 35.69, lon: 112.19 }
+- { id: hongkong, name: 香港, names: [香港], lat: 22.28, lon: 114.16 }
+- { id: lingling, name: 零陵, names: [零陵], lat: 26.22, lon: 111.62 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

@@ -1418,6 +1418,21 @@
   summary: 1953 年前称全国文协。老舍任副主席。
   verify: true
 
+- id: dramatists
+  name: 中国戏剧家协会
+  short: 剧协
+  aliases: [中国戏剧家协会, 剧协, 中华全国戏剧工作者协会]
+  kind: mass
+  level: central
+  from: 1949-07
+  suspended: [{ from: 1966, to: 1978-05 }]
+  places: [{ at: beijing }]
+  factions: [academics]
+  summary: 1953 年前称中华全国戏剧工作者协会。田汉任主席，1966 年后与文联各协会一同停止活动。
+  verify: true
+  leaders:
+    - { name: 田汉, title: 主席, from: 1949-07, to: 1966 }
+
 - id: bj-cflac
   name: 北京市文学艺术界联合会
   short: 北京市文联

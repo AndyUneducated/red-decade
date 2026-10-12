@@ -353,6 +353,20 @@
   leaders:
     - { name: 王震, title: 部长, from: 1956-05, to: 1970-06, note: 离任时间待核 }
 
+- id: labor
+  name: 劳动部
+  aliases: [劳动部, 中央人民政府劳动部]
+  kind: state
+  level: central
+  from: 1949-11
+  to: 1970-06
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1949 年设中央人民政府劳动部，李立三任部长；1954 年后为国务院劳动部。1970 年与国家计委劳动局等合并。
+  verify: true
+  leaders:
+    - { name: 李立三, title: 部长, from: 1949-11, to: 1954-09 }
+
 - id: coal
   name: 煤炭工业部
   aliases: [煤炭工业部, 煤炭部]

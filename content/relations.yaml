@@ -92,3 +92,6 @@
 - { a: lu-ping, b: peng-peiyun, type: ally, to: 1966-06 }
 - { a: chen-pixian, b: cao-diqiu, type: ally, to: 1967-01 }
 - { a: peng-dehuai, b: he-long, type: ally }
+- { a: peng-dehuai, b: zhang-wentian, type: link, from: 1959-07, note: 庐山会议同被定为“反党集团”, cite: ws-1959-08-16-peng-resolution }
+- { a: jiang-qing, b: zhang-linzhi, type: persecute, from: 1966-12-14, note: 点名“彭真死党”, cite: ws-1981-01-25-judgment }
+- { a: xu-jingxian, b: zhou-xinfang, type: persecute, from: 1968-03, note: 诬为“反共老手”并拘留, cite: ws-1982-xu-jingxian-case }
