@@ -163,3 +163,14 @@
 - { a: chen-xitong, b: dai-qing, type: attack, from: 1989-06-30, note: 报告点名《紧急呼吁》, cite: ws-1989-06-30-chen-xitong-report }
 - { a: chen-xitong, b: wan-runnan, type: attack, from: 1989-06-30, note: 报告点名, cite: ws-1989-06-30-chen-xitong-report }
 - { a: chen-ziming, b: wei-jingsheng, type: link, from: 1978-12, note: 同为民主墙刊物的编者（《北京之春》《探索》）, verify: true }
+# batch 17
+- { a: ren-zhongyi, b: zhang-zhixin, type: protect, from: 1979-03-31, note: 主持辽宁省委为她平反，追认为烈士, cite: people-2014-ren-zhongyi-zhang-zhixin }
+- { a: hu-yaobang, b: zhang-zhixin, type: protect, from: 1979-05, note: 称她是“刘胡兰式的英雄人物”，同意《人民日报》刊登, cite: people-2014-ren-zhongyi-zhang-zhixin }
+- { a: hua-guofeng, b: zhang-zhixin, type: link, from: 1979, note: 在辽宁视察时未理睬为她题字的建议, cite: people-2014-ren-zhongyi-zhang-zhixin }
+- { a: xi-zhongxun, b: ren-zhongyi, type: link, from: 1980-11, note: 接替他任广东省委第一书记, verify: true }
+- { a: zhong-haiyuan, b: li-jiulian, type: protect, from: 1974, note: 散发传单声援她, cite: hyh-2024-blood-sacrifice-4 }
+- { a: hu-yaobang, b: li-jiulian, type: protect, from: 1980, note: 支持平反, cite: hyh-2024-blood-sacrifice-4 }
+- { a: hu-yaobang, b: zhong-haiyuan, type: protect, from: 1980, note: 支持平反, cite: hyh-2024-blood-sacrifice-4 }
+- { a: su-zhenhua, b: wang-shenyou, type: persecute, from: 1977-04, note: 时任上海市革委会主任；革委会一天内批准 56 个死刑案, cite: ywang-wang-shenyou }
+- { a: shi-yunfeng, b: liu-shaoqi, type: protect, from: 1974-10-26, note: 传单称刘少奇一案是“千古奇冤”, cite: hyh-2024-blood-sacrifice-4 }
+- { a: lu-lanxiu, b: liu-shaoqi, type: protect, from: 1967, note: 意见书反对打倒刘少奇, cite: hyh-2024-blood-sacrifice-4 }

@@ -1,0 +1,307 @@
+# M3 people round 2, batch 17: 因言论和文字被处死的“思想犯”。刘文辉、王佩英、陆兰秀、张志新、史云峰、李九莲、
+# 钟海源、王申酉，以及 1979 年主持为张志新平反的任仲夷。
+# Texts: 张志新 1969 年狱中答辩（人民日报 1979-06-11 摘录）、人民网 2014 年摘编《任仲夷画传》、
+# 何与怀 2024 年《血祭》第四部分（节选）、金凤回忆王申酉案（节选）。
+# 生年只在有把握时填写；其余经历来自通行资料的部分标 verify。
+
+- id: zhang-zhixin
+  name: 张志新
+  born: 1930-12-05
+  died: 1975-04-04
+  deathKind: executed
+  deathPlace: 辽宁沈阳
+  tier: 2
+  role1966: 中共辽宁省委宣传部文艺处干事
+  pinyin: Zhāng Zhìxīn
+  gender: f
+  birthplace: 天津
+  bio: 天津人，1955 年入党，在中共辽宁省委宣传部文艺处工作。文革中在批斗会上和交代材料里公开表示怀疑林彪、江青，不同意打倒刘少奇，也批评毛泽东晚年的错误。1969 年 9 月被捕，1970 年判无期徒刑，在狱中拒不认罪，1975 年 4 月加判死刑，4 日在沈阳被枪决，行刑前被割断喉管。1979 年 3 月中共辽宁省委为她平反并追认为烈士，《人民日报》等报刊随后连续报道，成为思想解放运动中最有名的冤案。
+  life:
+    - h: 省委宣传部
+      from: 1930-12-05
+      to: 1969-09-24
+      text: |
+        1930 年生于天津，“解放后参加革命，上了大学，参加过解放军， 1955年加入中国共产党，后来在中共辽宁省委宣传部文艺处工作”。文革开始后，她在一次次批斗会上责问：什么“一句顶一万句”？什么“不理解的也要执行”？她反感林彪的“顶峰论”，认为把接班人写进党章不好，认为武斗成灾是江青在搞名堂。按她自己的说法，这些看法“经过一定组织形式允许和运动中勒令作的交代”才说出来，“从未和任何人私下散布过（包括自己的爱人在内）”。
+      cites: [people-2014-ren-zhongyi-zhang-zhixin, hyh-2024-blood-sacrifice-4, rmrb-1979-06-11-zhang-zhixin]
+    - h: 狱中
+      from: 1969-09-24
+      to: 1975-04-04
+      text: |
+        1969 年 9 月 24 日被捕。10 月她在狱中写下长篇答辩，说“我之所以至今不能认罪，因为我对路线斗争及与之有关的一系列问题的疑问，起之有因、看法观点立之有据、坚持不改有理”，又说“我认为自己没有错，没有和广大人民为敌”。1970 年 8 月 24 日以现行反革命罪判处无期徒刑。在长期监禁中她仍不改口，被说成“装疯卖傻”“抗拒改造”。1975 年 4 月 3 日宣布加处死刑，4 日执行。临刑前，行刑者把她按倒在地割断喉咙，防止她喊口号。
+      cites: [rmrb-1979-06-11-zhang-zhixin, people-2014-ren-zhongyi-zhang-zhixin, hyh-2024-blood-sacrifice-4]
+    - h: 平反与宣传
+      from: 1979-01
+      to: 1979-06-16
+      text: |
+        1979 年 1 月案情在辽宁省委扩大会议上被揭露，新任省委第一书记任仲夷要求清查。3 月 31 日辽宁省委召开平反昭雪大会，追认她为革命烈士。平反只定性为“张志新是反对林彪、‘四人帮’ ”，她批评毛泽东的言论被“笼统地列入神志不清时所讲”。4 月 5 日《辽宁日报》发表长篇通讯《为真理而献身》；胡耀邦说她是“刘胡兰式的英雄人物”，5 月 25 日《人民日报》转载报道，6 月 11 日摘登她的狱中答辩，《光明日报》《中国青年报》相继跟进。
+      cites: [people-2014-ren-zhongyi-zhang-zhixin, rmrb-1979-06-11-zhang-zhixin]
+  assess:
+    - { voice: doc, text: 走自己的路，让人家去说吧！想要革命吗？你就应当是强者——这就是一个共产党员的宣言！（张志新 1969 年狱中答辩）, cite: rmrb-1979-06-11-zhang-zhixin, quote: true }
+    - { voice: officialLater, text: 张志新同志是一个很好的党员，坚持真理，坚持党性，坚持斗争，宁死不屈。（任仲夷 1979 年 3 月 9 日在辽宁省委常委会上）, cite: people-2014-ren-zhongyi-zhang-zhixin, quote: true }
+    - { voice: scholar, text: 特别是，她指明毛泽东是文革灾难的“总头子”。（何与怀）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+    - { voice: editor, text: 1979 年的平反和宣传都只说她反对林彪、“四人帮”；《人民日报》摘登的答辩里也没有出现毛泽东的名字。她被处死时林彪已死四年，人民网的叙述把加刑归于“‘四人帮’死党指令”，没有点名。, cite: people-2014-ren-zhongyi-zhang-zhixin }
+  factions: [dissent]
+  fate:
+    - { date: 1969-09-24, s: detained, note: 被捕, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1970-08-24, s: detained, note: 以现行反革命罪判处无期徒刑, cite: people-2014-ren-zhongyi-zhang-zhixin }
+    - { date: 1975-04-04, s: dead, note: 加判死刑后在沈阳枪决, cite: people-2014-ren-zhongyi-zhang-zhixin }
+  rehab:
+    - { date: 1979-03-31, text: 中共辽宁省委召开平反昭雪大会，宣读《关于为张志新同志彻底平反昭雪，追认她为革命烈士的决定》, cite: people-2014-ren-zhongyi-zhang-zhixin }
+  cites: [rmrb-1979-06-11-zhang-zhixin, people-2014-ren-zhongyi-zhang-zhixin, hyh-2024-blood-sacrifice-4]
+
+- id: ren-zhongyi
+  name: 任仲夷
+  born: 1914-09-05
+  died: 2005-11-15
+  deathKind: natural
+  deathPlace: 广东广州
+  tier: 2
+  role1966: 中共哈尔滨市委第一书记
+  pinyin: Rèn Zhòngyí
+  gender: m
+  birthplace: 河北威县
+  positions:
+    - { title: 第一书记, orgName: 中共辽宁省委员会, from: 1978, to: 1980-11, verify: true }
+    - { title: 第一书记, orgName: 中共广东省委员会, from: 1980-11, to: 1985-07, verify: true }
+  bio: 河北威县人，1936 年入党。文革前任中共哈尔滨市委第一书记，文革中被打倒。1977 年起先后主持旅大市委和辽宁省委，1979 年不经请示中央为张志新平反，追认为烈士。1980 年 11 月接替习仲勋任广东省委第一书记，主持经济特区初创时期的广东，1985 年退居二线。2005 年在广州去世。
+  life:
+    - h: 哈尔滨
+      from: 1914-09-05
+      to: 1977
+      text: |
+        河北威县人，抗战时期在冀南工作。1950 年代起在东北任职，文革前任中共哈尔滨市委第一书记，文革开始后被批斗打倒，后来恢复工作。
+      verify: true
+    - h: 辽宁：张志新案
+      from: 1978
+      to: 1980-11
+      text: |
+        他调到辽宁时张志新已死近两年。1979 年 1 月案情在省委扩大会议上被揭露，他要求“公安司法部门应抓紧清查这一案件”；3 月 9 日省委常委会听取复审汇报，他主张定为烈士、彻底平反、开追悼大会。为了平反能通过，他把定性限定为“张志新是反对林彪、‘四人帮’ ”。华国锋到辽宁视察时，他请华国锋给张志新题字，华国锋没有理睬；他对下属说“我们还是按省委的决定干”。被问到是否向中央请示，他说：“没有。有错必纠嘛，这是共产党人义不容辞的职责。”3 月 31 日省委召开平反昭雪大会。
+      cites: [people-2014-ren-zhongyi-zhang-zhixin]
+    - h: 广东
+      from: 1980-11
+      to: 1985-07
+      text: |
+        1980 年 11 月接替习仲勋任中共广东省委第一书记，正值深圳、珠海、汕头经济特区刚刚设立，1985 年离任。
+      verify: true
+  assess:
+    - { voice: doc, text: 没有。有错必纠嘛，这是共产党人义不容辞的职责。冤案有很多，没有必要就张志新一人的案子请示中央。（任仲夷）, cite: people-2014-ren-zhongyi-zhang-zhixin, quote: true }
+    - { voice: editor, text: 这段经过出自 2014 年人民出版社的画传，属于后来的纪念性叙述；他把张志新批评毛泽东的言论说成“神志不清时所讲”，是平反得以通过的条件。, cite: people-2014-ren-zhongyi-zhang-zhixin }
+  factions: [provincial, reform]
+  fate:
+    - { date: 1966, s: attacked, note: 哈尔滨市委第一书记任上被打倒, verify: true }
+    - { date: 1978, s: rise, note: 辽宁省委第一书记, verify: true }
+    - { date: 1979-03-31, s: rise, note: 主持为张志新平反, cite: people-2014-ren-zhongyi-zhang-zhixin }
+    - { date: 1980-11, s: rise, note: 广东省委第一书记, verify: true }
+    - { date: 1985-07, s: sidelined, note: 退居二线, verify: true }
+  cites: [people-2014-ren-zhongyi-zhang-zhixin]
+
+- id: liu-wenhui
+  name: 刘文辉
+  died: 1967-03-23
+  deathKind: executed
+  deathPlace: 上海
+  tier: 3
+  role1966: 上海工人
+  pinyin: Liú Wénhuī
+  gender: m
+  bio: 上海工人。1966 年 9 月 28 日深夜写成万言书《驳文化大革命十六条》，反对中央刚通过的文革纲领，随即被捕。1967 年 3 月 9 日被上海市中级人民法院判处死刑，23 日在文化广场的公判大会上示众后枪决，被认为是文革中第一个被公开处决的人。
+  life:
+    - h: 《驳文化大革命十六条》
+      from: 1966-09-28
+      to: 1967-03-23
+      text: |
+        “刘文辉撰写《驳文化大革命十六条》万言书是在1966年9月28日的深夜。”短短四个月后，1967 年 3 月 9 日，上海市中级人民法院以（1967 年度沪中刑〈一〉字第 3 号）判决书判处他死刑。3 月 23 日下午，在一场名为“坚决保卫无产阶级文化大革命，严厉镇压反革命”的大会之后，他在上海文化广场示众，随即枪决。
+      cites: [hyh-2024-blood-sacrifice-4]
+  assess:
+    - { voice: scholar, text: 刘文辉就在上海最大的文化广场示众后枪决！成为文革中第一个被公开杀害的人。（何与怀）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+  factions: [dissent]
+  fate:
+    - { date: 1967-03-09, s: detained, note: 判处死刑, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1967-03-23, s: dead, note: 在上海文化广场示众后枪决, cite: hyh-2024-blood-sacrifice-4 }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: wang-peiying
+  name: 王佩英
+  died: 1970-01-27
+  deathKind: executed
+  deathPlace: 北京
+  tier: 3
+  role1966: 北京职工，已公开要求退党
+  pinyin: Wáng Pèiyīng
+  gender: f
+  bio: 北京的一名普通职工，女。1964 年夏公开提出毛泽东应退出中央领导层，并要求退党。1964 年到 1968 年间书写散发标语一千九百余张、诗词三十余首，说中国共产党应退出历史舞台。1968 年 10 月被捕，1970 年 1 月 27 日被处决，时年五十四岁。1980 年 5 月 8 日平反。
+  life:
+    - h: 退党与标语
+      from: 1964
+      to: 1970-01-27
+      text: |
+        罪名是：“自1964年至1968年10月，书写并散发反革命标语一千九百余张，反动诗词三十余首。1964年夏，公然提出：毛泽东应退出中央领导层。同时提出退党。”文革中她进一步撰文说，以毛泽东为首的中国共产党已走向历史反面，应退出历史舞台。1968 年 10 月被捕，在酷刑下始终不改口。判处极刑后，因反抗被勒死于刑车。
+      cites: [hyh-2024-blood-sacrifice-4]
+  assess:
+    - { voice: scholar, text: 她在酷刑毒打与迫害之下，始终坚持信仰，多次公开表明自己理念。（何与怀）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+  factions: [dissent]
+  fate:
+    - { date: 1964, s: attacked, note: 提出毛泽东应退出中央领导层并要求退党, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1968-10, s: detained, note: 被捕, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1970-01-27, s: dead, note: 被处决, cite: hyh-2024-blood-sacrifice-4 }
+  rehab:
+    - { date: 1980-05-08, text: 平反, cite: hyh-2024-blood-sacrifice-4 }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: lu-lanxiu
+  name: 陆兰秀
+  died: 1970-07-04
+  deathKind: executed
+  deathPlace: 江苏苏州
+  tier: 3
+  role1966: 苏州市图书馆副馆长
+  pinyin: Lù Lánxiù
+  gender: f
+  bio: 江苏苏州人，女，文革前任苏州市图书馆副馆长。1967 年 5 月起失去人身自由，在监禁中写下十四万多字的文章和意见书，反对打倒刘少奇，从理论上批判文化大革命。1970 年 3 月正式逮捕，7 月 4 日以现行反革命罪枪决。1980 年 8 月平反。
+  life:
+    - h: 十四万字
+      from: 1967-05
+      to: 1970-07-04
+      text: |
+        “1967年5月开始失去人身自由，1970年3月18日被正式逮捕，同年7月4日被以‘现行反革命罪’枪杀。”她在监禁期间写了 14 万多字的文章、学习心得和意见书，反对毛泽东，反对打倒刘少奇，从理论上全面批判文化大革命。她的职务和籍贯来自通行资料。
+      verify: true
+      cites: [hyh-2024-blood-sacrifice-4]
+  assess:
+    - { voice: scholar, text: 她在监禁期间写了14万多字的文章、学习心得和意见书，反对毛泽东，反对打倒刘少奇，从理论上全面批判文化大革命。（何与怀）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+  factions: [dissent]
+  fate:
+    - { date: 1967-05, s: detained, note: 失去人身自由, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1970-07-04, s: dead, note: 以现行反革命罪枪决, cite: hyh-2024-blood-sacrifice-4 }
+  rehab:
+    - { date: 1980-08, text: 平反, cite: hyh-2024-blood-sacrifice-4 }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: shi-yunfeng
+  name: 史云峰
+  died: 1976-12-19
+  deathKind: executed
+  deathPlace: 吉林长春
+  tier: 3
+  role1966: 长春青年
+  pinyin: Shǐ Yúnfēng
+  gender: m
+  bio: 吉林长春的青年工人。1974 年 10 月 26 日散发标语传单，反对“四人帮”，说刘少奇一案是“千古奇冤”，要求全面审查文革中的错误。12 月被捕，“四人帮”垮台两个多月后的 1976 年 12 月 17 日仍被判处死刑，两天后枪决，时年二十七岁。1980 年 3 月平反。
+  life:
+    - h: “千古奇冤”
+      from: 1974-10-26
+      to: 1976-12-19
+      text: |
+        1974 年 10 月 26 日，他散发标语、传单，反对“四人帮”，为刘少奇等人鸣不平，指出刘少奇一案是“千古奇冤”，提出“全面审查文革中的错误”，“沿中共‘八大’路线前进”。12 月 24 日被捕。1976 年 10 月“四人帮”被捕后，他的案子没有改变：12 月 17 日判处死刑，两日后枪决。临刑前他的嘴被塞上纱布，用缝合线勒住。他是长春工人的说法来自通行资料。
+      verify: true
+      cites: [hyh-2024-blood-sacrifice-4]
+  assess:
+    - { voice: editor, text: 他反对的“四人帮”在 1976 年 10 月已经被捕，但他仍在两个月后以反革命罪被处决；他的罪名里还有为刘少奇鸣冤，而刘少奇直到 1980 年 2 月才平反。, cite: hyh-2024-blood-sacrifice-4 }
+  factions: [dissent]
+  fate:
+    - { date: 1974-12-24, s: detained, note: 被捕, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1976-12-19, s: dead, note: 判处死刑两日后枪决, cite: hyh-2024-blood-sacrifice-4 }
+  rehab:
+    - { date: 1980-03, text: 平反, cite: hyh-2024-blood-sacrifice-4 }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: li-jiulian
+  name: 李九莲
+  died: 1977-12
+  deathKind: executed
+  deathPlace: 江西赣州
+  tier: 3
+  role1966: 江西青年
+  pinyin: Lǐ Jiǔlián
+  gender: f
+  birthplace: 江西兴国
+  bio: 江西兴国人，女。1969 年因在信中怀疑文革和林彪、为刘少奇鸣冤被捕，判刑五年。林彪事件后获释，仍被定为“现行反革命性质”。1974 年贴出《反林彪无罪》等大字报，再次被捕，判刑十五年。1976 年 12 月在狱中写《我的政治态度》，被定为“恶毒攻击英明领袖华主席”，1977 年 12 月在赣州被处决，时年三十一岁。1980 年在胡耀邦支持下平反。
+  life:
+    - h: 两次被捕
+      from: 1969-05-15
+      to: 1977-12
+      text: |
+        1969 年 5 月 15 日被捕，“最初因怀疑文革、怀疑林彪、为刘少奇鸣冤被捕，判刑五年”。林彪倒台后获释，但结论仍是“现行反革命性质”。1974 年 3 月她在公园贴出《反林彪无罪》等六份大字报，4 月 19 日深夜被秘密逮捕，1975 年 5 月判刑十五年。1976 年 12 月她在狱中写下《我的政治态度》并当众念出，罪名升为攻击华国锋，被改判死刑。处决的具体日期各种记载不一，这里只记到月份。
+      cites: [hyh-2024-blood-sacrifice-4]
+  assess:
+    - { voice: scholar, text: 1976年12月，李九莲在狱中写下了《我的政治态度》，后还当众念出，犯了“恶毒攻击英明领袖华主席”的死罪。（何与怀）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+    - { voice: editor, text: 她的第一个罪名是怀疑林彪，林彪死后却没有因此撤销；最后的死罪是攻击华国锋，处决发生在文革结束一年多以后。, cite: hyh-2024-blood-sacrifice-4 }
+  factions: [dissent]
+  fate:
+    - { date: 1969-05-15, s: detained, note: 被捕，判刑五年, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1974-04-19, s: detained, note: 因《反林彪无罪》大字报再次被捕, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1977-12, s: dead, note: 在赣州被处决, cite: hyh-2024-blood-sacrifice-4 }
+  rehab:
+    - { date: 1980, text: 在胡耀邦支持下平反, cite: hyh-2024-blood-sacrifice-4 }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: zhong-haiyuan
+  name: 钟海源
+  died: 1978-04-30
+  deathKind: executed
+  deathPlace: 江西南昌
+  tier: 3
+  role1966: 江西青年
+  pinyin: Zhōng Hǎiyuán
+  gender: f
+  bio: 江西人，女。1974 年为声援李九莲，自己起草、刻印、散发《最最紧急呼吁》等传单，4 月被捕。1976 年四五事件后在狱中说“华国锋不如邓小平”，被判徒刑十二年。李九莲被处决四个月后，她也被判处死刑，1978 年 4 月 30 日执行，时年三十岁。1980 年平反。
+  life:
+    - h: 声援李九莲
+      from: 1974
+      to: 1978-04-30
+      text: |
+        “最初罪名是因声援李九莲，在家里起草了《最最紧急呼吁》等传单，自己刻，自己印，自己散发。”1974 年 4 月被捕。1976 年四五天安门事件后，她在监狱里公开说“华国锋不如邓小平”，被判处十二年有期徒刑。李九莲被杀四个月后，她被改判死刑，立即执行。据何与怀的记述，行刑时枪击未死，被活体摘取肾脏。
+      cites: [hyh-2024-blood-sacrifice-4]
+  assess:
+    - { voice: scholar, text: 她听完死刑判决后，毫不犹豫地签了名，然后把笔一甩，昂首离去。（何与怀）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+  factions: [dissent]
+  fate:
+    - { date: 1974-04, s: detained, note: 因声援李九莲被捕, cite: hyh-2024-blood-sacrifice-4 }
+    - { date: 1978-04-30, s: dead, note: 被处决, cite: hyh-2024-blood-sacrifice-4 }
+  rehab:
+    - { date: 1980, text: 在胡耀邦支持下平反, cite: hyh-2024-blood-sacrifice-4 }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: wang-shenyou
+  name: 王申酉
+  died: 1977-04
+  deathKind: executed
+  deathPlace: 上海
+  tier: 3
+  role1966: 华东师范大学物理系学生
+  pinyin: Wáng Shēnyǒu
+  gender: m
+  education:
+    - { school: 华东师范大学, from: 1963 }
+  bio: 上海工人家庭出身，1963 年考入华东师范大学物理系。文革初因日记中同情邓拓、吴晗被抄家、关押，此后留校监督劳动，自学多门外语，精读《资本论》。1976 年 9 月因一封写给女友的长信再次入狱，在狱中重写成六万字的“供状”，否定反右、反右倾和文化大革命，主张发展商品经济、对外开放。1977 年 4 月在卢湾区体育馆公审后枪决，时年三十一岁。1981 年平反。
+  life:
+    - h: 日记
+      from: 1963
+      to: 1976-09
+      text: |
+        “王申酉是工人家庭出身，1963年17岁时考入华东师范大学物理系”。1966 年 6 月他在日记里写下，这场动乱“将使国家倒退至少十年!”造反派抄了他的家，展览他从初中到大学的日记，用皮鞭抽打他，随后送进监狱。关了两年释放后，学校不分配工作，留校监督劳动。他在奉贤“五七”干校大量阅读马恩原著，精读《资本论》。
+      cites: [ywang-wang-shenyou]
+    - h: 六万字“供状”与六分钟
+      from: 1976-09
+      to: 1977-04
+      text: |
+        毛泽东去世时，监管他的工人要抢看他写给女友的长信，厮打之后他再次入狱。审判员要他把被撕毁的信重写出来，他在六天内写了六万字，内容包括“我的马克思主义世界观，关于苏联历史，关于中国历史，关于‘文化大革命’，关于毛主席”。1977 年春上海决定在“五一”前公审镇压一批反革命分子，区法院判“死缓”，市法院院长怕被认为“右倾”，改为“死刑，立即执行”。上海市革委会领导一天内同意了 56 个死刑判决，平均每 6 分钟一个。4 月他在卢湾区体育馆三万人的公审大会上第一次听到判决，随即枪决。
+      cites: [ywang-wang-shenyou]
+    - h: 平反
+      from: 1980
+      to: 1981
+      text: |
+        为他平反，上海市委常委先后开了 19 次会，有三种意见，最后采纳的是“王申酉应平反，但也不宜评价过高，他是勤奋学习热爱祖国的好青年”。1980 年秋多家报社记者组成联合采访组写出长篇通讯，中宣部以“牵涉到中央领导同志(指华国锋)”为由没有准许发表。平反的正式时间来自通行资料。
+      verify: true
+      cites: [ywang-wang-shenyou]
+  assess:
+    - { voice: witness, text: 市委常委会每次会算3小时，19次会57小时，3420分钟，是6分钟的570倍，人间的荒唐莫过于此!（金凤）, cite: ywang-wang-shenyou, quote: true }
+    - { voice: officialLater, text: 第三种意见认为王申酉应平反，但也不宜评价过高，他是勤奋学习热爱祖国的好青年。（陈国栋向记者转述的上海市委意见）, cite: ywang-wang-shenyou, quote: true }
+    - { voice: editor, text: 张志新的平反被大张旗鼓地宣传，王申酉案却因为处决发生在华国锋主持中央期间而没有公开报道。, cite: ywang-wang-shenyou }
+  factions: [dissent]
+  fate:
+    - { date: 1966-06, s: attacked, note: 日记被抄，关押两年, cite: ywang-wang-shenyou }
+    - { date: 1976-09, s: detained, note: 再次入狱, cite: ywang-wang-shenyou }
+    - { date: 1977-04, s: dead, note: 卢湾区体育馆公审后枪决, cite: ywang-wang-shenyou }
+  rehab:
+    - { date: 1981, text: 上海市委经 19 次常委会讨论后决定平反，评价为“勤奋学习热爱祖国的好青年”, verify: true }
+  cites: [ywang-wang-shenyou]

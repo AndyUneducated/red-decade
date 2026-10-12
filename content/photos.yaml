@@ -587,6 +587,10 @@ rao-shushi:
   author: Unknown author Unknown author
   license: Public domain
   date: 1940s
+ren-zhongyi:
+  qid: Q3424697
+  noCategory: true
+  why: category fallback picked a 1957 group photo of five men; which one is Ren cannot be told from the file
 rong-guotuan:
   qid: Q2061252
   file: Rongguotuan.jpg
@@ -944,6 +948,14 @@ zhang-wentian:
   author: Unknown author Unknown author
   license: Public domain
   date: "1951"
+zhang-zhixin:
+  qid: Q715418
+  file: Zhang Zhixin younger.jpg
+  via: category
+  url: https://commons.wikimedia.org/wiki/File:Zhang_Zhixin_younger.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: before 1960
 zhao-dan:
   qid: Q197431
   file: 赵丹.jpg

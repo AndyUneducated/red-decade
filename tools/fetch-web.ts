@@ -81,7 +81,7 @@ for (const e of entries) {
   // that does not end a sentence continues into the next one
   if (e.unwrap)
     paras = paras.reduce<string[]>((out, p) => {
-      if (out.length && !/[。！？：”）)]$/.test(out[out.length - 1])) out[out.length - 1] += p
+      if (out.length && !/[。！？：”）)!?]$/.test(out[out.length - 1])) out[out.length - 1] += p
       else out.push(p)
       return out
     }, [])

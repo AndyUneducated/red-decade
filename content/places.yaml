@@ -214,6 +214,9 @@
 - { id: new-jersey, name: 美国新泽西, names: [新泽西], lat: 40.29, lon: -74.55, far: true }
 - { id: new-york, name: 美国纽约, names: [纽约], lat: 40.71, lon: -74.01, far: true }
 - { id: haian, name: 江苏海安, names: [海安], lat: 32.53, lon: 120.47 }
+# batch 17
+- { id: weixian, name: 河北威县, names: [威县], lat: 36.98, lon: 115.27 }
+- { id: ganzhou, name: 赣州, names: [赣州], lat: 25.83, lon: 114.93 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
