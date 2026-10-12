@@ -259,6 +259,7 @@ textarea {
   padding: 0 12px;
   color: var(--ink-2);
   font-size: 13.5px;
+  white-space: nowrap;
 }
 .tabs button:hover {
   color: var(--ink);
@@ -282,6 +283,8 @@ textarea {
   align-items: center;
   gap: 10px;
   min-width: 260px;
+  flex: none;
+  white-space: nowrap;
   padding: 6px 10px;
   border: 1px solid var(--rule-2);
   border-radius: 6px;
@@ -290,6 +293,33 @@ textarea {
 }
 .searchbtn kbd {
   margin-left: auto;
+}
+@media (max-width: 1400px) and (min-width: 721px) {
+  .topbar {
+    gap: 20px;
+  }
+  .searchbtn {
+    min-width: 0;
+  }
+  .searchbtn .sb-long {
+    display: none;
+  }
+  .searchbtn .sb-short {
+    display: inline;
+  }
+}
+@media (max-width: 1180px) and (min-width: 721px) {
+  .brand span {
+    display: none;
+  }
+  .tabs button {
+    padding: 0 8px;
+    font-size: 13px;
+  }
+  .tabs button[aria-current='page']::after {
+    left: 8px;
+    right: 8px;
+  }
 }
 kbd {
   font-family: var(--mono);
