@@ -98,7 +98,10 @@ const concepts = load(ConceptSchema, read('content', 'concepts.yaml'), 'concepts
 const documents = load(DocumentSchema, read('content', 'documents.yaml'), 'documents')
 const claims = load(ClaimSchema, read('research', 'claims.yaml'), 'claims')
 const figures = load(FigureSchema, read('content', 'figures.yaml'), 'figures')
-const counties = load(CountySchema, read('content', 'counties.yaml'), 'counties')
+// counties.yaml holds the cleanup-record register; per-province gazetteer batches live in counties-*.yaml
+const counties = ['counties.yaml', ...readdirSync(join(ROOT, 'content')).filter((f) => /^counties-.+\.yaml$/.test(f)).sort()].flatMap((f) =>
+  load(CountySchema, read('content', f), f),
+)
 const orgs = yamlFiles('content', 'orgs').flatMap((p) => load(OrgSchema, read(...p), p.join('/')))
 for (const p of yamlFiles('content', 'leaders'))
   for (const [id, list] of Object.entries((read(...p) ?? {}) as Record<string, unknown>)) {

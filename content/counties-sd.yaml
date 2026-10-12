@@ -1,0 +1,518 @@
+# 山东各县（市、区）：县志所记革命委员会成立日期与文革死亡、平反数字。由 .probe/sd-gen.mjs 生成后人工复核。
+- id: sd-binzhou
+  name: 滨州市
+  province: 山东
+  prefecture: 滨州
+  kind: city
+  revcom: { date: 1967-03-16, cite: sdz-cd1-1-5, quote: "3月16日，在上海“一月风暴”全面夺权的影响下，滨县造反派联合夺了县委、县人委的大权，成立了滨县革命委员会，革委主任王世祥。" }
+  counts:
+    - { measure: cases, what: "平反冤假错案（反右至文革）", value: 798, unit: 起, voice: officialLater, cite: sdz-cd1-1-325, quote: "共平反冤假错案798起" }
+  note: "原文作“滨县革命委员会”。"
+- id: sd-binzhou-pref
+  name: 滨州地区
+  province: 山东
+  prefecture: 滨州
+  kind: prefecture
+  counts:
+    - { measure: cases, what: "纠正党政机关干部冤假错案", value: 4039, unit: 件, voice: officialLater, cite: sdz-bd-1-5, quote: "纠正党政机关干部冤假错案4039件" }
+- id: sd-boxing
+  name: 博兴县
+  province: 山东
+  prefecture: 滨州
+  counts:
+    - { measure: deaths, what: "在云南一平浪武斗中死亡的博兴县工役制工人", scope: "1968-01-27", value: 30, voice: officialLater, cite: sdz-cd6-1-5, quote: "1968年1月27日，离开下关返昆明，准备退役回山东，途经一平浪时，和另一派群众组织进行了武斗，博兴县工役制工人被卷入这次事件的百余人，死亡30人，致残10人。" }
+- id: sd-wudi
+  name: 无棣县
+  province: 山东
+  prefecture: 滨州
+  revcom: { date: 1967-03, cite: sdz-cd4-3-354, quote: "1967年3月，无棣县群众造反组织联合夺人民政府的权，成立无棣县革命委员会。" }
+  counts:
+    - { measure: deaths, what: "文革中非正常死亡案（复查后平反 4 起，按病故处理 10 起）", value: 14, unit: 起, voice: officialLater, cite: sdz-cd4-3-354, quote: "全县“文化大革命”中的案件共139起，经过认真复查，对原来定为敌我矛盾的19起，双开(开除公职、党籍) 的5起、开除公职的25起全部做了纠正; 对受刑事处分的7起，纠正了5起;对开除党籍的11起，恢复党籍4起; 男女作风和经济问题的案子58起，纠正26起;“文化大革命” 中非正常死亡的案子14起，平反昭雪4起，按病故处理10起，并先后为受株连的26名子女妥善安排了工作。" }
+- id: sd-zouping
+  name: 邹平县
+  province: 山东
+  prefecture: 滨州
+  revcom: { date: 1967-03-30, cite: sdz-cd7-2-3, quote: "3月30日，县内群众组织联合向县委、县人民委员会“夺权”，宣布成立军、干、群三结合的邹平县革命委员会。" }
+- id: sd-dezhou
+  name: 德州市
+  province: 山东
+  prefecture: 德州
+  kind: city
+  counts:
+    - { measure: cases, what: "平反冤假错案（文革及其他运动）", value: 1289, unit: 起, voice: officialLater, cite: sdz-ce1-1-311, quote: "从1979年5月至1984年，全市先后平反了“文化大革命”及其它政治运动中形成的冤假错案1289起，复查解决了1437起历史遗留问题。" }
+- id: sd-dezhou-pref
+  name: 德州地区
+  province: 山东
+  prefecture: 德州
+  kind: prefecture
+  revcom: { date: 1967-01-25, cite: sdz-be-1-382, quote: "1967年1月25日，群众造反组织夺了地委的权，建立了由造反派组织成立的德州地区革命委员会。" }
+  counts:
+    - { measure: deaths, what: "全区被迫害致死", value: 557, voice: officialLater, cite: sdz-be-1-3, quote: "全区有557人被迫害致死。" }
+- id: sd-lingxian
+  name: 陵县
+  province: 山东
+  prefecture: 德州
+  revcom: { date: 1967-03-01, cite: sdz-ce4-1-3, quote: "3月1日，第一次成立陵县革命委员会。" }
+- id: sd-linyixian
+  name: 临邑县
+  province: 山东
+  prefecture: 德州
+  revcom: { date: 1968-10, cite: sdz-ce9-1-295, quote: "1968年10月，临邑县革命委员会成立（基层革委会也随之成立）。" }
+  counts:
+    - { measure: cases, what: "平反纠正冤假错案", value: 455, unit: 起, voice: officialLater, cite: sdz-ce9-1-295, quote: "1978年党的十一届三中全会后，县委平反纠正了由左倾错误造成的冤假错案455起，给101名党员撤销了“处分”，为81人恢复了党籍，给894名知识分子落实了政策。" }
+- id: sd-ningjin
+  name: 宁津县
+  province: 山东
+  prefecture: 德州
+  counts:
+    - { measure: deaths, what: "包围县革委大院的武斗中打死", scope: "1968-12-18", value: 2, voice: officialLater, cite: sdz-cea-1-3, quote: "12月18日，凌晨，宁津县四大指挥部（即宁津工指、红指、贫指、红文司）领导下的部分群众组织，包围县革委大院和进驻县革委的另一派群众组织发生激烈武斗，持续一个多小时，在这次武斗中，打死2人，打伤10多人，还有30多人当了“俘虏”。" }
+- id: sd-qihe
+  name: 齐河县
+  province: 山东
+  prefecture: 德州
+  revcom: { date: 1967-03, cite: sdz-ce8-1-4, quote: "3月初，中国人民解放军驻齐河八七二二部队介入地方“文化大革命”，成立由驻军、群众组织、机关干部代表“三结合”的齐河县革命委员会。" }
+  counts:
+    - { measure: cases, what: "复议反右、四清、文革中受处分的党员干部案件", value: 5457, unit: 起, voice: officialLater, cite: sdz-ce8-1-277, quote: "审查复议了5457起在反右、“四清”和“文化大革命”中受处分的党员、干部案件和其它历史遗留案件，为1262人平反昭雪" }
+- id: sd-qingyun
+  name: 庆云县
+  province: 山东
+  prefecture: 德州
+  revcom: { date: 1967-02, cite: sdz-ceb-1-10, quote: "2月，群众组织联合夺了原县委、县人委的党、政、财、文大权，成立了“庆云县革命委员会”。" }
+- id: sd-wucheng
+  name: 武城县
+  province: 山东
+  prefecture: 德州
+  revcom: { date: 1968-09-03, cite: sdz-ce7-1-5, quote: "9月3日，成立武城县革命委员会，焦士杰任主任。" }
+- id: sd-xiajin
+  name: 夏津县
+  province: 山东
+  prefecture: 德州
+  counts:
+    - { measure: deaths, what: "化肥厂“叛国投敌反革命集团”冤案中摧残致死", scope: "1968-09，12 名青年工人", value: 1, voice: officialLater, cite: sdz-ce6-1-5, quote: "夏津县化肥厂12名青年工人被打成“叛国投敌反革命集团”。其中1人摧残致死" }
+    - { measure: none, what: "清理阶级队伍中含冤死去", voice: officialLater, cite: sdz-ce6-1-5, quote: "一些历史问题已作结论的干部群众，又被划为清理对象而遭迫害，致使有的含冤死去。" }
+- id: sd-yucheng
+  name: 禹城县
+  province: 山东
+  prefecture: 德州
+  revcom: { date: 1968-07-26, cite: sdz-ce3-1-3, quote: "7月26日，经省革命委员会批准，正式成立了禹城县革命委员会。" }
+  counts:
+    - { measure: cases, what: "纠正文革遗留冤假错案", value: 228, unit: 起, voice: officialLater, cite: sdz-ce3-1-3, quote: "同年，县委根据省、地委指示成立处理“文革”遗留问题领导小组，纠正冤、假、错案228起，其中为91人恢复了党籍。" }
+- id: sd-dongming
+  name: 东明县
+  province: 山东
+  prefecture: 菏泽
+  counts:
+    - { measure: cases, what: "平反文革中立案处理的冤假错案", value: 55, unit: 件, voice: officialLater, cite: sdz-ch9-1-41, quote: "县委对“文化大革命”运动中立案处理的55件冤假错案全部平反" }
+- id: sd-juancheng
+  name: 鄄城县
+  province: 山东
+  prefecture: 菏泽
+  revcom: { date: 1968-04-03, cite: sdz-ch8-1-5, quote: "4月3日，鄄城县革命委员会成立。" }
+  counts:
+    - { measure: cases, what: "平反纠正冤假错案", value: 462, unit: 件, voice: officialLater, cite: sdz-ch8-1-297, quote: "其中平反纠正冤、假、错案462件" }
+- id: sd-shanxian
+  name: 单县
+  province: 山东
+  prefecture: 菏泽
+  revcom: { date: 1967-03, cite: sdz-ch5-1-269, quote: "1967年3月，单县革命委员会成立，取代了县委。" }
+- id: sd-yuncheng
+  name: 郓城县
+  province: 山东
+  prefecture: 菏泽
+  revcom: { date: 1968-05, cite: sdz-ch7-1-382, quote: "1968年5月，成立了郓城县革命委员会，实行党政“一元化领导”，取代了党委。" }
+  counts:
+    - { measure: deaths, what: "两派武斗打死", scope: "1968-01-17", value: 1, voice: officialLater, cite: sdz-ch7-1-103, quote: "1968年1月17日，两派群众组织在县棉花一厂附近发生武斗，打死1人，解放军闻讯赶到才予以制止。" }
+- id: sd-jinan-shizhong
+  name: 市中区
+  province: 山东
+  prefecture: 济南
+  kind: district
+  revcom: { date: 1967-03, cite: sdz-c12-1-177, quote: "1967年3月， 济南市红旗区革命委员会成立， 各级党组织陷于瘫痪，区委机关停止工作。" }
+  note: "原文作“红旗区革命委员会”。"
+- id: sd-licheng
+  name: 历城县
+  province: 山东
+  prefecture: 济南
+  revcom: { date: 1967-02-18, cite: sdz-c15-1-2, quote: "2月18日 历城县革命委员会成立。" }
+  counts:
+    - { measure: none, what: "东郊区副区长刘铭被批斗致死", voice: officialLater, cite: sdz-c15-1-2, quote: "东郊区副区长刘铭被批斗致死。" }
+- id: sd-tianqiao
+  name: 天桥区
+  province: 山东
+  prefecture: 济南
+  kind: district
+  revcom: { date: 1968-11-11, cite: sdz-c14-1-315, quote: "11月11日 济南市向阳区革命委员会成立，陈海任主任。" }
+  counts:
+    - { measure: none, what: "许多人被关押，有的被迫害致残、致死", voice: officialLater, cite: sdz-c14-1-315, quote: "许多人被关押，有的被迫害致残、致死。" }
+  note: "原文作“济南市向阳区革命委员会”。"
+- id: sd-jining
+  name: 济宁市
+  province: 山东
+  prefecture: 济宁
+  kind: city
+  counts:
+    - { measure: deaths, what: "文革中非正常死亡的脱产干部", value: 143, voice: officialLater, cite: sdz-b8-1-628, quote: "“文化大革命”中非正常死亡的脱产干部143人， 已全部作出结论。" }
+- id: sd-jining-shizhong
+  name: 济宁市中区
+  province: 山东
+  prefecture: 济宁
+  kind: district
+  counts:
+    - { measure: cases, what: "平反冤假错案", value: 50, unit: 起, voice: officialLater, cite: sdz-c81-2-286, quote: "对“文化大革命”时期遗留的200起案件全部复议纠正，其中对50起冤假错案平反，恢复名誉。" }
+- id: sd-liangshan
+  name: 梁山县
+  province: 山东
+  prefecture: 济宁
+  revcom: { date: 1968-02, cite: sdz-c89-1-3, quote: "2月，经山东省革命委员会批准，正式成立了梁山县革命委员会（简称革委），于建进任主任。" }
+- id: sd-qufu
+  name: 曲阜市
+  province: 山东
+  prefecture: 济宁
+  kind: city
+  revcom: { date: 1967-04, cite: sdz-c8a-1-386, quote: "1967年4月，造反群众组织联合夺了县委、县人委的权，成立了曲阜县革命委员会。" }
+- id: sd-rencheng
+  name: 任城区
+  province: 山东
+  prefecture: 济宁
+  kind: district
+  revcom: { date: 1968-05, cite: sdz-c82-1-312, quote: "1968年5月，造反组织联合夺取县委、县人委领导权，成立济宁县革命委员会（简称县革委），实行一元化领导。" }
+  note: "原文作“济宁县革命委员会”。"
+- id: sd-sishui
+  name: 泗水县
+  province: 山东
+  prefecture: 济宁
+  revcom: { date: 1967-04-10, cite: sdz-c88-1-313, quote: "1967年4月10日，成立泗水县革命委员会（简称县革委）" }
+  counts:
+    - { measure: cases, what: "平反文革冤假错案", value: 280, unit: 起, voice: officialLater, cite: sdz-c88-1-316, quote: "对“文化大革命”中造成的280起冤、假、错案，逐一平反昭雪，予以妥善处理。" }
+  note: "同书记 1968 年 3 月 31 日“第二次成立泗水县革命委员会”。"
+- id: sd-weishan
+  name: 微山县
+  province: 山东
+  prefecture: 济宁
+  revcom: { date: 1967-02-26, cite: sdz-c83-1-5, quote: "在会上宣布夺取县委、县人委的权，同时宣布成立微山县革命委员会。" }
+  counts:
+    - { measure: deaths, what: "“7·29”事件武斗死亡", scope: "1967-07-29", value: 1, voice: officialLater, cite: sdz-c83-1-5, quote: "7月29日，学生与农民在微山一中发生武斗，死亡1人。" }
+- id: sd-wenshang
+  name: 汶上县
+  province: 山东
+  prefecture: 济宁
+  counts:
+    - { measure: deaths, what: "被迫害致死的干部（平反昭雪）", value: 8, voice: officialLater, cite: sdz-c87-1-69, quote: "至1981年，先后为247名在“文革”中受到错误处理和8名被迫害致死的干部平反昭雪，并妥善安置了其子女；" }
+- id: sd-yanzhou
+  name: 兖州市
+  province: 山东
+  prefecture: 济宁
+  kind: city
+  counts:
+    - { measure: deaths, what: "文革中被迫害致死（平反昭雪）", value: 10, voice: officialLater, cite: sdz-c8b-3-403, quote: "对在“文化大革命”中被迫害致死的10人，进行平反昭雪，重作结论；" }
+- id: sd-yutai
+  name: 鱼台县
+  province: 山东
+  prefecture: 济宁
+  revcom: { date: 1968-04-14, cite: sdz-c84-1-5, quote: "4月14日 鱼台县革命委员会成立。" }
+- id: sd-zoucheng
+  name: 邹城市
+  province: 山东
+  prefecture: 济宁
+  kind: city
+  revcom: { date: 1968-02-08, cite: sdz-c8c-3-3, quote: "2月8日，成立邹县革命委员会。" }
+  note: "原文作“邹县革命委员会”。"
+- id: sd-liaocheng
+  name: 聊城市
+  province: 山东
+  prefecture: 聊城
+  kind: city
+  revcom: { date: 1967-04-07, cite: sdz-bf-5-6, quote: "4月7日 聊城驻军和“造反组织”在新华广场召开聊城县革命委员会成立大会，原县委、县人委多数领导干部被打倒；" }
+  note: "原文作“聊城县革命委员会”。"
+- id: sd-chiping
+  name: 茌平县
+  province: 山东
+  prefecture: 聊城
+  revcom: { date: 1967-03-17, cite: sdz-cf5-1-243, quote: "1967年3月17日，在上海“一月风暴”影响下，群众造反组织错误地夺了县委、县人委的权，成立县革命委员会。" }
+  counts:
+    - { measure: none, what: "杜郎口区区委书记李孟礼被迫害致死", voice: officialLater, cite: sdz-cf5-1-243, quote: "县委书记王秀山等一大批党的负责干部被诬蔑为“反革命修正主义分子”、“死不悔改的走资派”，其间，杜郎口区区委书记李孟礼被迫害致死。" }
+- id: sd-donge
+  name: 东阿县
+  province: 山东
+  prefecture: 聊城
+  revcom: { date: 1967-03-02, cite: sdz-cf6-1-6, quote: "3月2日 东阿县革命委员会成立（以下简称县革委）。" }
+  counts:
+    - { measure: deaths, what: "受迫害致死的干部（平反昭雪）", value: 12, voice: officialLater, cite: sdz-cf6-1-328, quote: "报告指出：加强民主与法制，解决历史遗留问题，为在“文化大革命”中受迫害致死的12名干部进行平反昭雪，为在历次政治运动及各类案件中受错误处理的干部群众落实政策，纠正错误；" }
+- id: sd-guanxian
+  name: 冠县
+  province: 山东
+  prefecture: 聊城
+  revcom: { date: 1967-03, cite: sdz-cf7-1-318, quote: "1967年3月，在全国“夺权”风潮中，中共冠县县委与县人民委员会一起被“夺权”，成立“冠县革命委员会”，中断了县委的工作。" }
+  counts:
+    - { measure: deaths, what: "文革中非正常死亡（修正结论）", value: 176, voice: officialLater, cite: sdz-cf7-1-322, quote: "并对“文化大革命”中非正常死亡的176人修正了结论，做出正确评价。" }
+- id: sd-shenxian
+  name: 莘县
+  province: 山东
+  prefecture: 聊城
+  counts:
+    - { measure: none, what: "县委农村工作部部长刘道远被批斗致死", voice: officialLater, cite: sdz-cf4-1-21, quote: "3日 县委农村工作部部长刘道远在全县工交系统批斗会上被摧残致死。" }
+- id: sd-yanggu
+  name: 阳谷县
+  province: 山东
+  prefecture: 聊城
+  revcom: { date: 1967-03-20, cite: sdz-cf3-1-3, quote: "3月20日，县直各造反组织联合召开夺权大会，宣布夺取县委、县人委的权力，成立“革命群众、革命干部、解放军三结合”的临时权力机构——阳谷县革命委员会（下简称县革委），原县委、县人委的主要负责人多数被“打倒”或被迫“靠边站”。" }
+  counts:
+    - { measure: none, what: "原副县长葛舒斋在县革委学习班被迫害致死", voice: officialLater, cite: sdz-cf3-1-3, quote: "1月21日，原县人委副县长葛舒斋，在县革委举办的第四期“毛泽东思想学习班”上被迫害致死。" }
+- id: sd-linyi-pref
+  name: 临沂地区
+  province: 山东
+  prefecture: 临沂
+  kind: prefecture
+  revcom: { date: 1967-04-09, cite: sdz-bg-1-14, quote: "4月9日 上午，驻军指战员、工人、农民、干部计两万余人集会，庆祝临沂地区革命委员会成立，省革委特发电报以致祝贺。" }
+  counts:
+    - { measure: none, what: "“文攻武卫指挥部”设监狱刑讯，有的被摧残致死", scope: "1968", voice: officialLater, cite: sdz-bg-1-14, quote: "文攻武卫指挥部以“群众专政”的名义，设立监狱，大搞打、砸、抢、抄、抓，先后抓捕、刑讯许多无辜的老党员、老干部、知识分子和群众，有的被摧残致死。" }
+- id: sd-cangshan
+  name: 苍山县
+  province: 山东
+  prefecture: 临沂
+  counts:
+    - { measure: cases, what: "复议文革中的案件", value: 2537, unit: 起, voice: officialLater, cite: sdz-cg3-1-64, quote: "对文化大革命中的冤假错案进行复议和纠正，全县共复议案件2537起，给345人改变结论、平反纠正。" }
+- id: sd-feixian
+  name: 费县
+  province: 山东
+  prefecture: 临沂
+  revcom: { date: 1967-03-20, cite: sdz-cg8-1-6, quote: "3月20日 费县革命委员会成立，县武装部部长张兴山任主任，原县委副书记胡建隆、县武装部政委于世荣任副主任。" }
+- id: sd-linshu
+  name: 临沭县
+  province: 山东
+  prefecture: 临沂
+  revcom: { date: 1968-03-23, cite: sdz-cga-1-16, quote: "3月23日，临沭县革命委员会成立。" }
+  counts:
+    - { measure: none, what: "两派斗争中老干部被批斗致残、致死", scope: "1967", voice: officialLater, cite: sdz-cga-1-16, quote: "是年，临沭两派在你输我赢的斗争中，都把不支持自己一派的革命老干部诬为“走资派”、“特务”、“叛徒”、“假党员”，使他们受到残酷的批判、斗争，有的被致残、致死。" }
+    - { measure: cases, what: "平反冤假错案（至 1980 年 10 月）", value: 2362, unit: 起, voice: officialLater, cite: sdz-cga-1-17, quote: "10月统计，全县已平反冤、假、错案2362起，为3426名“四类分子” (反革命分子、地主分子、富农分子、坏分子)摘掉“帽子”。" }
+- id: sd-mengyin
+  name: 蒙阴县
+  province: 山东
+  prefecture: 临沂
+  revcom: { date: 1968-02, cite: sdz-cg6-1-369, quote: "1968年2月，成立“蒙阴县革命委员会”，实行“党政一元化领导”。" }
+- id: sd-pingyi
+  name: 平邑县
+  province: 山东
+  prefecture: 临沂
+  revcom: { date: 1968-03-30, cite: sdz-cg7-2-5, quote: "3月30日，平邑县革命委员会成立,全委41人,常委15人,刘亚东任主任,李守克、彭庆祥、李小兵任副主任。" }
+  note: "同书《县级组织机构沿革》作 1968 年 2 月成立。"
+- id: sd-tancheng
+  name: 郯城县
+  province: 山东
+  prefecture: 临沂
+  revcom: { date: 1968-02, cite: sdz-cg2-1-443, quote: "1968年2月，成立了由军代表、领导干部、群众组织代表组成的所谓“三结合”的县革命委员会，统揽全县党政财文大权，完全将“文化大革命”前之县委、县人委取代。" }
+  counts:
+    - { measure: none, what: "“六·二二”血案", scope: "1969-06-22，自江苏返回郯城的“八大”组织人员", voice: officialLater, cite: sdz-bg-1-14, quote: "先是3人被打死，绝大多数被打伤。继而有暴徒冲上前去将受伤的15人剖腹、挖眼残杀", note: "原文分述：3 人当场被打死，受伤的 15 人随后被残杀；不合计。" }
+- id: sd-yinan
+  name: 沂南县
+  province: 山东
+  prefecture: 临沂
+  counts:
+    - { measure: deaths, what: "文革中受迫害致死（恢复名誉）", value: 110, voice: officialLater, cite: sdz-cg9-2-76, quote: "其中为邓小平、刘少奇鸣不平16起，全部纠正，并为“文化大革命”中受迫害致死的110人恢复名誉。" }
+  note: "同书大事记 1968 年 3 月 18 日作“重新成立”县革委，首次成立日期未见。"
+- id: sd-yishui
+  name: 沂水县
+  province: 山东
+  prefecture: 临沂
+  revcom: { date: 1968-02-09, cite: sdz-cg5-4-6, quote: "2月9日 经山东省革命委员会批准，正式成立沂水县革命委员会。" }
+  counts:
+    - { measure: cases, what: "复议和改正冤假错案（含文革以前）", value: 3096, unit: 起, voice: officialLater, cite: sdz-cg5-4-422, quote: "纠正“文化大革命”中和以前的“左”的错误，复议和改正冤假错案3096起" }
+- id: sd-rizhao
+  name: 日照市
+  province: 山东
+  prefecture: 日照
+  kind: city
+  revcom: { date: 1968-03, cite: sdz-bb-7-381, quote: "1968年3月，由省革委主任王效禹支持的一派掌权的日照县革命委员会成立。" }
+- id: sd-juxian
+  name: 莒县
+  province: 山东
+  prefecture: 日照
+  revcom: { date: 1968-03-16, cite: sdz-cb3-1-10, quote: "3月16日 部分群众组织组成的联合作战部，在一中操场召开“莒县革命委员会”成立大会。" }
+  counts:
+    - { measure: none, what: "为被迫害致死者平反昭雪", voice: officialLater, cite: sdz-cb3-1-434, quote: "1976年10月粉碎“四人帮”以后，县委带领全县各级党组织认真贯彻中央的一系列指示，在全县范围内清查了与“四人帮”有牵连的人和事，摆脱了“两个凡是”方针的禁锢，开始全面拨乱反正，对“文化大革命”期间受错误处理的人重新做了结论，为被迫害致死的人平反昭雪，恢复名誉；" }
+- id: sd-taian-pref
+  name: 泰安地区
+  province: 山东
+  prefecture: 泰安
+  kind: prefecture
+  revcom: { date: 1967-03, cite: sdz-b9-2-559, quote: "3月，成立由军队代表、干部代表和群众组织代表“三结合”的泰安地区革命委员会" }
+  counts:
+    - { measure: none, what: "为被迫害致死和自杀者平反昭雪", voice: officialLater, cite: sdz-b9-2-587, quote: "“文化大革命”中被迫害致死和自杀的全部平反昭雪。" }
+- id: sd-dongping
+  name: 东平县
+  province: 山东
+  prefecture: 泰安
+  counts:
+    - { measure: deaths, what: "“文攻武卫指挥部”围攻王村大队打死", scope: "1968-07-23", value: 1, voice: officialLater, cite: sdz-c94-12-5, quote: "“文攻武卫指挥部”组织数百人围攻王村大队，打死1人，被迫自杀1人" }
+- id: sd-feicheng
+  name: 肥城县
+  province: 山东
+  prefecture: 泰安
+  counts:
+    - { measure: deaths, what: "县城大型武斗丧生", value: 13, voice: officialLater, cite: sdz-c96-1-6, quote: "群众组织抢了县人民武装部的枪支弹药，在县城发生了大型武斗，后蔓延至全县，13人丧生，26人重伤，11人致残。" }
+- id: sd-wendeng
+  name: 文登市
+  province: 山东
+  prefecture: 威海
+  kind: city
+  counts:
+    - { measure: deaths, what: "武斗致死", value: 3, voice: officialLater, cite: sdz-ca2-1-511, quote: "“武斗”致伤315人，残19人，死3人。" }
+- id: sd-changwei-pref
+  name: 昌潍地区
+  province: 山东
+  prefecture: 潍坊
+  kind: prefecture
+  revcom: { date: 1967-03-13, cite: sdz-b7-1-1071, quote: "1967年3月13日，在上海“一月风暴”的影响下， 各派群众组织篡夺了昌潍地区的党、政、财、文大权，成立了山东省昌潍地区革命委员会。" }
+  counts:
+    - { measure: deaths, what: "全区被逼致死", value: 188, voice: officialLater, cite: sdz-b7-1-18, quote: "“文化大革命”中全区有38500人遭毒打，188人被逼致死。" }
+  note: "出自《潍坊市志》，所引两句均指昌潍地区（1983 年改为潍坊市）。"
+- id: sd-anqiu
+  name: 安丘县
+  province: 山东
+  prefecture: 潍坊
+  revcom: { date: 1967-03, cite: sdz-c74-1-74, quote: "1967年3月，成立安丘县革命委员会，县委和各级党组织普遍被夺权，革委会取代了县委、县人委的职能。" }
+  counts:
+    - { measure: none, what: "原县委副书记刘玉先受摧残含冤而死", voice: officialLater, cite: sdz-c74-1-5, quote: "原县委副书记、县革委副主任刘玉先受严重摧残，含冤而死。" }
+- id: sd-changle
+  name: 昌乐县
+  province: 山东
+  prefecture: 潍坊
+  revcom: { date: 1968-05, cite: sdz-c76-1-38, quote: "1968年5月，正式成立“昌乐县革命委员会”，取代县委的领导。" }
+  counts:
+    - { measure: cases, what: "纠正文革冤假错案", value: 326, unit: 起, voice: officialLater, cite: sdz-c76-1-44, quote: "其中纠正“文化大革命”运动中冤、假、错案326起。" }
+- id: sd-hanting
+  name: 寒亭区
+  province: 山东
+  prefecture: 潍坊
+  kind: district
+  revcom: { date: 1967-03-22, cite: sdz-c72-1-434, quote: "1967年1月，上海“一月夺权”波及潍县，3月22日，大联合组织夺了县委、县人委的权，成立了“潍县革命委员会”。" }
+  counts:
+    - { measure: deaths, what: "1970 年以前因受揪斗、审查致死的干部群众", value: 20, voice: officialLater, cite: sdz-c72-1-434, quote: "仅在1970年以前因受揪斗、审查而致死的干部、群众就有20人。" }
+  note: "原文作“潍县革命委员会”。"
+- id: sd-linqu
+  name: 临朐县
+  province: 山东
+  prefecture: 潍坊
+  counts:
+    - { measure: cases, what: "复议和改正文革冤假错案", value: 2060, unit: 起, voice: officialLater, cite: sdz-c75-1-137, quote: "复议和改正“文化大革命”中的冤假错案2060起" }
+- id: sd-qingzhou
+  name: 青州市
+  province: 山东
+  prefecture: 潍坊
+  kind: city
+  revcom: { date: 1968-03-28, cite: sdz-c79-1-5, quote: "3月28日，成立由军队代表、“站起来”的干部和“造反派”代表三结合的“县革命委员会”。" }
+  counts:
+    - { measure: cases, what: "复议文革及其他运动的冤假错案", value: 523, unit: 起, voice: officialLater, cite: sdz-c79-1-261, quote: "从1979年4月至1984年，对“文化大革命”及其他政治运动中造成的523起冤假错案进行了复议评反。" }
+- id: sd-shouguang
+  name: 寿光县
+  province: 山东
+  prefecture: 潍坊
+  revcom: { date: 1967-04, cite: sdz-c7b-1-169, quote: "1967年4月，成立寿光县革命委员会，取代了中共寿光县委的领导" }
+- id: sd-weicheng
+  name: 潍城区
+  province: 山东
+  prefecture: 潍坊
+  kind: district
+  revcom: { date: 1967-03, cite: sdz-c71-1-410, quote: "1967年3月，市委、市政府被夺权，成立市革命委员会。" }
+- id: sd-zhucheng
+  name: 诸城市
+  province: 山东
+  prefecture: 潍坊
+  kind: city
+  counts:
+    - { measure: cases, what: "纠正冤假错案（1982–1987）", value: 1395, unit: 起, voice: officialLater, cite: sdz-c7a-1-379, quote: "1982～1987年，重点平反冤、假、错案，全县共纠正冤、假、错案1395起，3198人。" }
+- id: sd-fushan
+  name: 福山区
+  province: 山东
+  prefecture: 烟台
+  kind: district
+  revcom: { date: 1967-02-21, cite: sdz-c62-1-3, quote: "2月21日，县四大“造反派”组织联合在灯光球场召开夺权大会，宣布夺了县委、县人委的权，成立福山县革命委员会。" }
+- id: sd-haiyang
+  name: 海阳县
+  province: 山东
+  prefecture: 烟台
+  counts:
+    - { measure: deaths, what: "打死", scope: "至文革结束", value: 32, voice: officialLater, cite: sdz-c64-1-2, quote: "至“文化大革命”结束，打死打伤2100人，其中，打死32人、致死289人、重伤345人。" }
+    - { measure: deaths, what: "致死", scope: "至文革结束", value: 289, voice: officialLater, cite: sdz-c64-1-2, quote: "至“文化大革命”结束，打死打伤2100人，其中，打死32人、致死289人、重伤345人。" }
+- id: sd-laiyang
+  name: 莱阳市
+  province: 山东
+  prefecture: 烟台
+  kind: city
+  revcom: { date: 1967-03, cite: sdz-c68-1-379, quote: "第二阶段是从1967年3月县革命委员会成立到1970年12月中共莱阳县第四次代表大会召开。" }
+- id: sd-laizhou
+  name: 莱州市
+  province: 山东
+  prefecture: 烟台
+  kind: city
+  revcom: { date: 1967-02-28, cite: sdz-c69-1-5, quote: "会议确认1967年2月28日成立“三结合”的县革命委员会，为一届政府。" }
+- id: sd-penglai
+  name: 蓬莱县
+  province: 山东
+  prefecture: 烟台
+  revcom: { date: 1967-03-24, cite: sdz-c6a-1-113, quote: "1967年3月 24日，中共蓬莱县委和蓬莱县人民委员会被\"造反\"组织联合夺权，成立蓬莱县革命委员会。" }
+- id: sd-qixia
+  name: 栖霞县
+  province: 山东
+  prefecture: 烟台
+  counts:
+    - { measure: cases, what: "法院复查纠正文革冤假错案", value: 29, unit: 件, voice: officialLater, cite: sdz-c63-2-3, quote: "春，根据十一届三中全会精神，县法院对“文化大革命”中的冤、假、错案进行复查平反，至年底结束，共纠正冤、假、错案29件。" }
+- id: sd-zhaoyuan
+  name: 招远市
+  province: 山东
+  prefecture: 烟台
+  kind: city
+  revcom: { date: 1967-03-05, cite: sdz-c6b-1-543, quote: "1967年3月5日，群众造反组织联合夺取县委、县人委领导权，成立“三结合”的招远县革命委员会，原县委及各工作机构瘫痪。" }
+- id: sd-tengxian
+  name: 滕县
+  province: 山东
+  prefecture: 枣庄
+  revcom: { date: 1968-03-28, cite: sdz-c46-3-6, quote: "3月28日，山东省革命委员会批准成立滕县革命委员会(又称后革命委员会)。" }
+  counts:
+    - { measure: none, what: "学生、教师被打死，干部被打伤致残", voice: officialLater, cite: sdz-c46-3-6, quote: "县社队半数以上的干部被打被斗，有的被打伤致残，滕县一中学生张忠诚、二中教师甘成修被打死。" }
+- id: sd-xuecheng
+  name: 薛城区
+  province: 山东
+  prefecture: 枣庄
+  kind: district
+  counts:
+    - { measure: deaths, what: "被批斗人员自杀", scope: "1968-05", value: 14, voice: officialLater, cite: sdz-c42-1-4, quote: "批斗中，连续发生15起被批斗人员自杀事件，其中，死亡14人，自杀未遂1人。" }
+    - { measure: none, what: "“破四旧”中群众性打人致死（核查“三种人”时未作为问题提出）", voice: officialLater, cite: sdz-c42-1-45, quote: "此外，在“文化大革命”初期，年龄未满18岁的学生、红卫兵中，有些人由于政治上无知，受左的影响或受人指使犯错误，包括“破四旧”中群众性打人致死一类严重问题，后本人承认错误，确有认识，表现较好，这次核查中均未作为问题提出。" }
+- id: sd-zibo
+  name: 淄博市
+  province: 山东
+  prefecture: 淄博
+  kind: city
+  counts:
+    - { measure: deaths, what: "受审查的脱产干部中非正常死亡", value: 183, voice: officialLater, cite: sdz-b3-1-220, quote: "全市受审查的脱产干部3503人……非正常死亡的183人" }
+    - { measure: none, what: "副市长王树芝被批斗致死", voice: officialLater, cite: sdz-b3-1-219, quote: "结合到革委会的副市长王树芝被扣上“二月逆流的急先锋”的罪名, 撤销市革委常委职务,交群众批斗,直至迫害致死。" }
+- id: sd-boshan
+  name: 博山区
+  province: 山东
+  prefecture: 淄博
+  kind: district
+  revcom: { date: 1968-03-09, cite: sdz-c33-1-4, quote: "3月9日，博山区革命委员会成立。" }
+- id: sd-gaoqing
+  name: 高青县
+  province: 山东
+  prefecture: 淄博
+  revcom: { date: 1967-03-25, cite: sdz-c37-5-5, quote: "3月25日， “造反组织”召开夺权大会，成立所谓“军、干、群众”三结合的高青县革命委员会，取代了中共高青县委和县人委。" }
+- id: sd-huantai
+  name: 桓台县
+  province: 山东
+  prefecture: 淄博
+  revcom: { date: 1967-03, cite: sdz-c36-1-330, quote: "1967年3月，在上海“一月风暴”反革命夺权的影响下，一个有群众组织代表、驻军代表、机关干部代表组成的桓台县革命委员会成立，取代中共桓台县委员会职权。" }
+- id: sd-zhangdian
+  name: 张店区
+  province: 山东
+  prefecture: 淄博
+  kind: district
+  revcom: { date: 1967-03-15, cite: sdz-c32-1-3, quote: "3月15日， 在上海“一月风暴”全面夺权的影响下，张店区造反派联合夺取了中共张店区委和区人委的大权，成立了“张店区革命委员会”。" }
+  counts:
+    - { measure: cases, what: "复议平反文革冤假错案", value: 222, unit: 起, voice: officialLater, cite: sdz-c32-1-38, quote: "首先对“文化大革命”中的冤假错案进行了全面复议，经过复议，平反222起。" }
+- id: sd-zhoucun
+  name: 周村区
+  province: 山东
+  prefecture: 淄博
+  kind: district
+  revcom: { date: 1967-03-18, cite: sdz-c35-1-4, quote: "3月18日，周村区各级群众组织联合召开“夺权”大会，宣布成立周村区革命委员会。" }

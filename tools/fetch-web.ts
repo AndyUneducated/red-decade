@@ -67,7 +67,8 @@ for (const e of entries) {
     text = body.startsWith(heading.split('\n')[0]) ? body : `${heading}\n\n${body}`
   } else {
     // `breaks`: plain-text dumps inside <pre> mark paragraphs only by an indent run (a regex source)
-    const all = htmlToText(e.breaks ? html.replace(new RegExp(e.breaks, 'g'), '\n') : html)
+    // and wrap visual lines with a bare CR, which is dropped
+    const all = htmlToText(e.breaks ? html.replace(/\r(?!\n)/g, '').replace(new RegExp(e.breaks, 'g'), '\n') : html)
     const i = e.start ? all.indexOf(e.start) : 0
     const j = e.end ? all.indexOf(e.end, Math.max(0, i)) : -1
     if (i < 0 || (e.end && j < 0)) {

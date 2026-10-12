@@ -1,0 +1,1126 @@
+# M3-8 地方志：山东各县（市、区）志书，取自山东地情档案（山东省情网地情数据库的公开镜像，纯文本版）。
+# 由 .probe/sd-gen.mjs 生成，逐条人工复核。每条只摘录含引文的段落。
+web:
+  - id: sdz-b3-1-219
+    title: "淄博市志（1840-1985）·第二节干部工作"
+    date: 1994-10
+    kind: gazetteer
+    alias: "《淄博市志（1840-1985）》第二节干部工作"
+    url: https://shandong-chorography.org/database/b3/section/1/article/219/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "“文化大革命”运动几经反复，每次反复"
+  - id: sdz-b3-1-220
+    title: "淄博市志（1840-1985）·第三节落实干部及知识分子政策"
+    date: 1994-10
+    kind: gazetteer
+    alias: "《淄博市志（1840-1985）》第三节落实干部及知识分子政策"
+    url: https://shandong-chorography.org/database/b3/section/1/article/220/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "平反纠正“文化大革命”中的冤假错案。"
+  - id: sdz-b7-1-1071
+    title: "潍坊市志（1840—1990）·第二辑  发展"
+    date: 1994-09
+    kind: gazetteer
+    alias: "《潍坊市志（1840—1990）》第二辑  发展"
+    url: https://shandong-chorography.org/database/b7/section/1/article/1071/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1967年3月13日，在上海“一月风"
+  - id: sdz-b7-1-18
+    title: "潍坊市志（1840—1990）·第五个五年计划时期（1976－1980年）"
+    date: 1994-09
+    kind: gazetteer
+    alias: "《潍坊市志（1840—1990）》第五个五年计划时期（1976－1980年）"
+    url: https://shandong-chorography.org/database/b7/section/1/article/18/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "10月22日 中共昌潍地委召开全区有"
+  - id: sdz-b8-1-628
+    title: "济宁市志（1840-1990）·第八节重大活动与举措"
+    date: 2002-09
+    kind: gazetteer
+    alias: "《济宁市志（1840-1990）》第八节重大活动与举措"
+    url: https://shandong-chorography.org/database/b8/section/1/article/628/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "落实党的政策，平反冤假错案为全面彻底"
+  - id: sdz-b9-2-559
+    title: "泰安地区志·第四节  中共泰安地区委员会"
+    date: 1996-10
+    kind: gazetteer
+    alias: "《泰安地区志》第四节  中共泰安地区委员会"
+    url: https://shandong-chorography.org/database/b9/section/2/article/559/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年5月，开始“文化大革命”。"
+  - id: sdz-b9-2-587
+    title: "泰安地区志·四、干部审查"
+    date: 1996-10
+    kind: gazetteer
+    alias: "《泰安地区志》四、干部审查"
+    url: https://shandong-chorography.org/database/b9/section/2/article/587/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1978～1984年，根据党的实事求"
+  - id: sdz-bb-7-381
+    title: "日照市志·第一节  组织状况"
+    date: 1994-11
+    kind: gazetteer
+    alias: "《日照市志》第一节  组织状况"
+    url: https://shandong-chorography.org/database/bb/section/7/article/381/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "“文化大革命”由开始的动乱升级为“全"
+  - id: sdz-bd-1-5
+    title: "滨州地区志(1840-1985)·大事记（1968-1988年）"
+    date: 1985
+    kind: gazetteer
+    alias: "《滨州地区志(1840-1985)》大事记（1968-1988年）"
+    url: https://shandong-chorography.org/database/bd/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "12月， 惠民地区落实政策工作已取得"
+    note: "出版年未见于镜像；暂以书名所示记述下限（1985）标注，实际出版不早于此。"
+  - id: sdz-be-1-3
+    title: "德州地区志·大事记"
+    date: 1992-05
+    kind: gazetteer
+    alias: "《德州地区志》大事记"
+    url: https://shandong-chorography.org/database/be/section/1/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "是年，德州地区开展所谓“一打三反”运"
+  - id: sdz-be-1-382
+    title: "德州地区志·第二节 中共德州地委"
+    date: 1992-05
+    kind: gazetteer
+    alias: "《德州地区志》第二节 中共德州地委"
+    url: https://shandong-chorography.org/database/be/section/1/article/382/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年5月，“文化大革命”开始，"
+  - id: sdz-bf-5-6
+    title: "聊城市志·中华人民共和国—1985年"
+    date: 1998-03
+    kind: gazetteer
+    alias: "《聊城市志》中华人民共和国—1985年"
+    url: https://shandong-chorography.org/database/bf/section/5/article/6/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "4月7日 聊城驻军和“造反组织”在新"
+  - id: sdz-bg-1-14
+    title: "临沂地区志·1960～1969年"
+    date: 2001-11
+    kind: gazetteer
+    alias: "《临沂地区志》1960～1969年"
+    url: https://shandong-chorography.org/database/bg/section/1/article/14/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "4月9日 上午，驻军指战员、工人、农"
+      - "3月 根据江青在1967年7月提出“"
+      - "6月22日 6月20日，被赶往江苏省"
+  - id: sdz-c12-1-177
+    title: "市中区志·第二辑  区委机构"
+    date: 1997-05
+    kind: gazetteer
+    alias: "《市中区志》第二辑  区委机构"
+    url: https://shandong-chorography.org/database/c12/section/1/article/177/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年6月29日，中共济南市市中"
+  - id: sdz-c14-1-315
+    title: "天桥区志·第三辑    中华人民共和国(续)(1966-1986)"
+    date: 1986
+    kind: gazetteer
+    alias: "《天桥区志》第三辑    中华人民共和国(续)(1966-1986)"
+    url: https://shandong-chorography.org/database/c14/section/1/article/315/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "11月11日 济南市向阳区革命委员会"
+      - "4月21日 根据济南市统一部署， 向"
+    note: "出版年未见于镜像；暂以篇目所示记述下限（1986）标注，实际出版不早于此。"
+  - id: sdz-c15-1-2
+    title: "历城县志(1840-1985)·第二篇  大事记"
+    date: 1989-12
+    kind: gazetteer
+    alias: "《历城县志(1840-1985)》第二篇  大事记"
+    url: https://shandong-chorography.org/database/c15/section/1/article/2/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "2月18日 历城县革命委员会成立。 "
+      - "8月7日 县机关“造反派”召开批斗大"
+  - id: sdz-c32-1-3
+    title: "张店区志·第一卷 大事记"
+    date: 1989
+    kind: gazetteer
+    alias: "《张店区志》第一卷 大事记"
+    url: https://shandong-chorography.org/database/c32/section/1/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月15日， 在上海“一月风暴”全面"
+    note: "出版年未见于镜像；序称大事记迄于 1989 年，实际出版不早于此。"
+  - id: sdz-c32-1-38
+    title: "张店区志·第一类 中国共产党张店地方组织"
+    date: 1989
+    kind: gazetteer
+    alias: "《张店区志》第一类 中国共产党张店地方组织"
+    url: https://shandong-chorography.org/database/c32/section/1/article/38/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1979年恢复党的纪律检查工作后，组"
+    note: "出版年未见于镜像；序称大事记迄于 1989 年，实际出版不早于此。"
+  - id: sdz-c33-1-4
+    title: "博山区志·大事记"
+    date: 1989-12
+    kind: gazetteer
+    alias: "《博山区志》大事记"
+    url: https://shandong-chorography.org/database/c33/section/1/article/4/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月9日，博山区革命委员会成立。"
+    note: "日期据书前序署“一九八九年十二月十六日”。"
+  - id: sdz-c35-1-4
+    title: "周村区志·中华人民共和国"
+    date: 1995
+    kind: gazetteer
+    alias: "《周村区志》中华人民共和国"
+    url: https://shandong-chorography.org/database/c35/section/1/article/4/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月18日，周村区各级群众组织联合召"
+    note: "出版年未见于镜像；书中引及“九五”计划建议，实际出版不早于 1995 年。"
+  - id: sdz-c36-1-330
+    title: "桓台县志·第二辑  中共桓台县委"
+    date: 1990-12
+    kind: gazetteer
+    alias: "《桓台县志》第二辑  中共桓台县委"
+    url: https://shandong-chorography.org/database/c36/section/1/article/330/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年8月， “文化大革命” 在"
+  - id: sdz-c37-5-5
+    title: "高青县志（1840-1985）·中华人民共和国"
+    date: 1991-04
+    kind: gazetteer
+    alias: "《高青县志（1840-1985）》中华人民共和国"
+    url: https://shandong-chorography.org/database/c37/section/5/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月25日， “造反组织”召开夺权大"
+  - id: sdz-c42-1-4
+    title: "薛城区志·夏-1980年"
+    date: 1996-05
+    author: "薛城区地方志编纂委员会"
+    kind: gazetteer
+    alias: "《薛城区志》夏-1980年"
+    url: https://shandong-chorography.org/database/c42/section/1/article/4/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "5月，薛城区一些所谓“坏头头”、“走"
+  - id: sdz-c42-1-45
+    title: "薛城区志·第七节  中共薛城区纪律检查委员会"
+    date: 1996-05
+    author: "薛城区地方志编纂委员会"
+    kind: gazetteer
+    alias: "《薛城区志》第七节  中共薛城区纪律检查委员会"
+    url: https://shandong-chorography.org/database/c42/section/1/article/45/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "此外，在“文化大革命”初期，年龄未满"
+  - id: sdz-c46-3-6
+    title: "滕县志·1958年—1987年"
+    date: 1990-03
+    kind: gazetteer
+    alias: "《滕县志》1958年—1987年"
+    url: https://shandong-chorography.org/database/c46/section/3/article/6/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月28日，山东省革命委员会批准成立"
+      - "7月27－29日，山东省革命委员会主"
+  - id: sdz-c62-1-3
+    title: "福山区志·大事记"
+    date: 1989-10
+    kind: gazetteer
+    alias: "《福山区志》大事记"
+    url: https://shandong-chorography.org/database/c62/section/1/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "2月21日，县四大“造反派”组织联合"
+  - id: sdz-c63-2-3
+    title: "栖霞县志·大事记"
+    date: 1990-10
+    kind: gazetteer
+    alias: "《栖霞县志》大事记"
+    url: https://shandong-chorography.org/database/c63/section/2/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "春，根据十一届三中全会精神，县法院对"
+  - id: sdz-c64-1-2
+    title: "海阳县志·大 事 记"
+    date: 1987
+    kind: gazetteer
+    alias: "《海阳县志》大 事 记"
+    url: https://shandong-chorography.org/database/c64/section/1/article/2/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "6月上旬 全县两派的武斗，由棍棒刀鞭"
+    note: "出版年未见于镜像；书中记至 1987 年整党结束，实际出版不早于此。"
+  - id: sdz-c68-1-379
+    title: "莱阳市志·第一节  组织建设"
+    date: 1994-12
+    author: "莱阳市志编纂委员会"
+    kind: gazetteer
+    alias: "《莱阳市志》第一节  组织建设"
+    url: https://shandong-chorography.org/database/c68/section/1/article/379/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "第二阶段是从1967年3月县革命委员"
+  - id: sdz-c69-1-5
+    title: "莱州市志·1949年-1994年"
+    date: 1996-08
+    author: "莱州市史志编纂委员会"
+    kind: gazetteer
+    alias: "《莱州市志》1949年-1994年"
+    url: https://shandong-chorography.org/database/c69/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "5月3日，掖县第八届人民代表大会在掖"
+  - id: sdz-c6a-1-113
+    title: "蓬莱县志·主要活动"
+    date: 1991
+    kind: gazetteer
+    alias: "《蓬莱县志》主要活动"
+    url: https://shandong-chorography.org/database/c6a/section/1/article/113/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年下半年，\"文化大革命\"波及"
+    note: "出版年未见于镜像；据《新志编纂》，1991 年下限延至 1987 年的送审稿基本完成，此为不早于的年份。"
+  - id: sdz-c6b-1-543
+    title: "招远市志（1978-2002）·第一节  市委及其工作机构"
+    date: 1999-04
+    kind: gazetteer
+    alias: "《招远市志（1978-2002）》第一节  市委及其工作机构"
+    url: https://shandong-chorography.org/database/c6b/section/1/article/543/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年12月，在“文化大革命”冲"
+  - id: sdz-c71-1-410
+    title: "潍城区志·第二节　县（市、区）委工作机构"
+    date: 1992-09
+    author: "潍坊市潍城区史志编纂委员会"
+    kind: gazetteer
+    alias: "《潍城区志》第二节　县（市、区）委工作机构"
+    url: https://shandong-chorography.org/database/c71/section/1/article/410/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "中共潍坊市委机构沿革图 说明：195"
+  - id: sdz-c72-1-434
+    title: "寒亭区志·第六节  主要活动"
+    date: 1992-04
+    author: "寒亭区地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《寒亭区志》第六节  主要活动"
+    url: https://shandong-chorography.org/database/c72/section/1/article/434/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "寒亭区（潍县）党组织，自1926年创"
+  - id: sdz-c74-1-5
+    title: "安丘县志·1949年—1987年"
+    date: 1992-11
+    author: "安丘县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《安丘县志》1949年—1987年"
+    url: https://shandong-chorography.org/database/c74/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1967年 3月20日，在上海所谓“"
+  - id: sdz-c74-1-74
+    title: "安丘县志·第一节  组织建设"
+    date: 1992-11
+    author: "安丘县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《安丘县志》第一节  组织建设"
+    url: https://shandong-chorography.org/database/c74/section/1/article/74/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "自1943年9月至1953年8月，今"
+  - id: sdz-c75-1-137
+    title: "临朐县志·第一章  中国共产党临朐县地方组织"
+    date: 1989-10
+    author: "临朐县史志编纂委员会"
+    kind: gazetteer
+    alias: "《临朐县志》第一章  中国共产党临朐县地方组织"
+    url: https://shandong-chorography.org/database/c75/section/1/article/137/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1976年10月，党中央粉碎了江青反"
+  - id: sdz-c76-1-38
+    title: "昌乐县志·中共昌乐县委员会（一）"
+    date: 1991-08
+    author: "昌乐县史志编纂委员会"
+    kind: gazetteer
+    alias: "《昌乐县志》中共昌乐县委员会（一）"
+    url: https://shandong-chorography.org/database/c76/section/1/article/38/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "一、组织沿革 建国后至“文化大革命”"
+  - id: sdz-c76-1-44
+    title: "昌乐县志·第七节  纪律检查"
+    date: 1991-08
+    author: "昌乐县史志编纂委员会"
+    kind: gazetteer
+    alias: "《昌乐县志》第七节  纪律检查"
+    url: https://shandong-chorography.org/database/c76/section/1/article/44/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "一、机构沿革 1950年6月始设中共"
+  - id: sdz-c79-1-261
+    title: "青州市志·第二节　主要活动"
+    date: 1988-10
+    author: "青州市志编纂委员会"
+    kind: gazetteer
+    alias: "《青州市志》第二节　主要活动"
+    url: https://shandong-chorography.org/database/c79/section/1/article/261/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "党的创立和第一次国内革命战争时期 1"
+  - id: sdz-c79-1-5
+    title: "青州市志·大事记二"
+    date: 1988-10
+    author: "青州市志编纂委员会"
+    kind: gazetteer
+    alias: "《青州市志》大事记二"
+    url: https://shandong-chorography.org/database/c79/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月28日，成立由军队代表、“站起来"
+  - id: sdz-c7a-1-379
+    title: "诸城市志·第四节　统战"
+    date: 1992-02
+    author: "诸城市史志编纂委员会"
+    kind: gazetteer
+    alias: "《诸城市志》第四节　统战"
+    url: https://shandong-chorography.org/database/c7a/section/1/article/379/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1938年10月，县委设立统战部，具"
+  - id: sdz-c7b-1-169
+    title: "寿光县志·第一节　党的创建和组织建设"
+    date: 1991-09
+    author: "寿光县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《寿光县志》第一节　党的创建和组织建设"
+    url: https://shandong-chorography.org/database/c7b/section/1/article/169/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "┃┗━━━━┷━━━━━━━┷━━━"
+  - id: sdz-c81-2-286
+    title: "济宁市中区志·第七节  纪律检查"
+    date: 1999-08
+    kind: gazetteer
+    alias: "《济宁市中区志》第七节  纪律检查"
+    url: https://shandong-chorography.org/database/c81/section/2/article/286/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1950年8月，中共济宁市纪律检查委"
+  - id: sdz-c82-1-312
+    title: "任城区志·第三节  县级党组织及主要活动"
+    date: 1999-07
+    kind: gazetteer
+    alias: "《任城区志》第三节  县级党组织及主要活动"
+    url: https://shandong-chorography.org/database/c82/section/1/article/312/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年6月，《人民日报》发表《横"
+  - id: sdz-c83-1-5
+    title: "微山县志·大事记二"
+    date: 1997-08
+    author: "微山县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《微山县志》大事记二"
+    url: https://shandong-chorography.org/database/c83/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "2月26日，县驻地群众组织在县体育场"
+      - "7月29日，学生与农民在微山一中发生"
+  - id: sdz-c84-1-5
+    title: "鱼台县志·中华人民共和国成立至1990年"
+    date: 1995
+    author: "鱼台县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《鱼台县志》中华人民共和国成立至1990年"
+    url: https://shandong-chorography.org/database/c84/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "4月14日 鱼台县革命委员会成立。全"
+    note: "出版年未见于镜像；序言称附编下限断至 1995 年，实际出版不早于此。"
+  - id: sdz-c87-1-69
+    title: "汶上县志·第七节  开创社会主义现代化建设新局面时期（1976.10～1987.12）"
+    date: 1995-09
+    kind: gazetteer
+    alias: "《汶上县志》第七节  开创社会主义现代化建设新局面时期（1976.10～1987.12）"
+    url: https://shandong-chorography.org/database/c87/section/1/article/69/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1978年12月召开的党的十一届三中"
+  - id: sdz-c88-1-313
+    title: "泗水县志·第一节  组织建设"
+    date: 2005-08
+    kind: gazetteer
+    alias: "《泗水县志》第一节  组织建设"
+    url: https://shandong-chorography.org/database/c88/section/1/article/313/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966～1976年“文化大革命”期"
+  - id: sdz-c88-1-316
+    title: "泗水县志·第四节  纪律检查"
+    date: 2005-08
+    kind: gazetteer
+    alias: "《泗水县志》第四节  纪律检查"
+    url: https://shandong-chorography.org/database/c88/section/1/article/316/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1979年，重点受理来信来访350件"
+  - id: sdz-c89-1-3
+    title: "梁山县志·大事记"
+    date: 1997-06
+    kind: gazetteer
+    alias: "《梁山县志》大事记"
+    url: https://shandong-chorography.org/database/c89/section/1/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "2月，经山东省革命委员会批准，正式成"
+  - id: sdz-c8a-1-386
+    title: "曲阜市志·第二节中共曲阜市委员会"
+    date: 1993-04
+    kind: gazetteer
+    alias: "《曲阜市志》第二节中共曲阜市委员会"
+    url: https://shandong-chorography.org/database/c8a/section/1/article/386/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1956年5月召开中共曲阜县第一次代"
+  - id: sdz-c8b-3-403
+    title: "兖州市志·第九节  纪律检查"
+    date: 1996-12
+    kind: gazetteer
+    alias: "《兖州市志》第九节  纪律检查"
+    url: https://shandong-chorography.org/database/c8b/section/3/article/403/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1978～1981年，根据中央“有错"
+  - id: sdz-c8c-3-3
+    title: "邹城市志·大事记"
+    date: 1995-09
+    author: "邹城市地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《邹城市志》大事记"
+    url: https://shandong-chorography.org/database/c8c/section/3/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "2月8日，成立邹县革命委员会。下设政"
+  - id: sdz-c94-12-5
+    title: "东平县志·大事记（2）"
+    date: 1988-09
+    author: "东平县志编纂委员会"
+    kind: gazetteer
+    alias: "《东平县志》大事记（2）"
+    url: https://shandong-chorography.org/database/c94/section/12/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "7月23日，“文攻武卫指挥部”组织数"
+  - id: sdz-c96-1-6
+    title: "肥城县志·1950～1978年"
+    date: 1991-06
+    kind: gazetteer
+    alias: "《肥城县志》1950～1978年"
+    url: https://shandong-chorography.org/database/c96/section/1/article/6/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "6月14～20日， 省、地派性头头插"
+    note: "日期据书前序署“一九九一年六月”。"
+  - id: sdz-ca2-1-511
+    title: "文登市志·第八节   “文化大革命”运动"
+    date: 1995-02
+    kind: gazetteer
+    alias: "《文登市志》第八节   “文化大革命”运动"
+    url: https://shandong-chorography.org/database/ca2/section/1/article/511/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年夏到1976年10月的“文"
+  - id: sdz-cb3-1-10
+    title: "莒县志·1949年10月1日-1979年"
+    date: 1998-04
+    author: "莒县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《莒县志》1949年10月1日-1979年"
+    url: https://shandong-chorography.org/database/cb3/section/1/article/10/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月16日 部分群众组织组成的联合作"
+  - id: sdz-cb3-1-434
+    title: "莒县志·第一节  中共莒县地方党史综述"
+    date: 1998-04
+    author: "莒县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《莒县志》第一节  中共莒县地方党史综述"
+    url: https://shandong-chorography.org/database/cb3/section/1/article/434/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1976年10月粉碎“四人帮”以后，"
+  - id: sdz-cd1-1-325
+    title: "滨州市志·第二节  重要活动纪略"
+    date: 1993-10
+    kind: gazetteer
+    alias: "《滨州市志》第二节  重要活动纪略"
+    url: https://shandong-chorography.org/database/cd1/section/1/article/325/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "社会主义现代化建设新时期1978年1"
+  - id: sdz-cd1-1-5
+    title: "滨州市志·大事记1949—1990"
+    date: 1993-10
+    kind: gazetteer
+    alias: "《滨州市志》大事记1949—1990"
+    url: https://shandong-chorography.org/database/cd1/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月16日，在上海“一月风暴”全面夺"
+  - id: sdz-cd4-3-354
+    title: "无棣县志·第五辑  重要活动"
+    date: 1990
+    kind: gazetteer
+    alias: "《无棣县志》第五辑  重要活动"
+    url: https://shandong-chorography.org/database/cd4/section/3/article/354/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "建立人民政权 1938年2月， 中共"
+      - "平反冤、假、错案 中共十一届三中全会"
+    note: "出版年未见于镜像；书中记至 1990 年，实际出版不早于此。"
+  - id: sdz-cd6-1-5
+    title: "博兴县志·1953年-1985年"
+    date: 1993-11
+    author: "博兴县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《博兴县志》1953年-1985年"
+    url: https://shandong-chorography.org/database/cd6/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "12月25日，县召开处理“滇西挺进纵"
+  - id: sdz-cd7-2-3
+    title: "邹平县志·大事记"
+    date: 1991-09
+    author: "邹平县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《邹平县志》大事记"
+    url: https://shandong-chorography.org/database/cd7/section/2/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月30日，县内群众组织联合向县委、"
+  - id: sdz-ce1-1-311
+    title: "德州市志·第四节 主要活动"
+    date: 1996-12
+    author: "德州市德城区地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《德州市志》第四节 主要活动"
+    url: https://shandong-chorography.org/database/ce1/section/1/article/311/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1978年12月中共十一届三中全会召"
+  - id: sdz-ce3-1-3
+    title: "禹城县志·大事记"
+    date: 1994-10
+    kind: gazetteer
+    alias: "《禹城县志》大事记"
+    url: https://shandong-chorography.org/database/ce3/section/1/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "7月26日，经省革命委员会批准，正式"
+      - "同年，县委根据省、地委指示成立处理“"
+  - id: sdz-ce4-1-3
+    title: "陵县志·第一编 大事记"
+    date: 1986-08
+    kind: gazetteer
+    alias: "《陵县志》第一编 大事记"
+    url: https://shandong-chorography.org/database/ce4/section/1/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月1日，第一次成立陵县革命委员会。"
+  - id: sdz-ce6-1-5
+    title: "夏津县志·第一编 大事记"
+    date: 1989-11
+    kind: gazetteer
+    alias: "《夏津县志》第一编 大事记"
+    url: https://shandong-chorography.org/database/ce6/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "9月 夏津县化肥厂12名青年工人被打"
+      - "6月 全县开展清理阶级队伍运动。一些"
+  - id: sdz-ce7-1-5
+    title: "武城县志·第二编 大事记"
+    date: 1992-08
+    kind: gazetteer
+    alias: "《武城县志》第二编 大事记"
+    url: https://shandong-chorography.org/database/ce7/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "9月3日，成立武城县革命委员会，焦士"
+  - id: sdz-ce8-1-277
+    title: "齐河县志·第三节  县级组织"
+    date: 1989-05
+    kind: gazetteer
+    alias: "《齐河县志》第三节  县级组织"
+    url: https://shandong-chorography.org/database/ce8/section/1/article/277/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1976年10月，江青反革命集团被粉"
+  - id: sdz-ce8-1-4
+    title: "齐河县志·大事记（二）"
+    date: 1989-05
+    kind: gazetteer
+    alias: "《齐河县志》大事记（二）"
+    url: https://shandong-chorography.org/database/ce8/section/1/article/4/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月初，中国人民解放军驻齐河八七二二"
+  - id: sdz-ce9-1-295
+    title: "临邑县志·第一节 党的建立和发展"
+    date: 1992-10
+    kind: gazetteer
+    alias: "《临邑县志》第一节 党的建立和发展"
+    url: https://shandong-chorography.org/database/ce9/section/1/article/295/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年，“文化大革命”开始，县委"
+      - "1976年10月，党中央一举粉碎了江"
+  - id: sdz-cea-1-3
+    title: "宁津县志·大事记"
+    date: 1992-06
+    kind: gazetteer
+    alias: "《宁津县志》大事记"
+    url: https://shandong-chorography.org/database/cea/section/1/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "12月18日，凌晨，宁津县四大指挥部"
+  - id: sdz-ceb-1-10
+    title: "庆云县志·第四编  中华人民共和国成立以后（1949——1980）"
+    date: 1988-04
+    kind: gazetteer
+    alias: "《庆云县志》第四编  中华人民共和国成立以后（1949——1980）"
+    url: https://shandong-chorography.org/database/ceb/section/1/article/10/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "2月，群众组织联合夺了原县委、县人委"
+    note: "日期据后记署“一九八八年四月”，一九八八年版。"
+  - id: sdz-cf3-1-3
+    title: "阳谷县志·大事记"
+    date: 1990-02
+    kind: gazetteer
+    alias: "《阳谷县志》大事记"
+    url: https://shandong-chorography.org/database/cf3/section/1/article/3/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月20日，县直各造反组织联合召开夺"
+      - "1月21日，原县人委副县长葛舒斋，在"
+  - id: sdz-cf4-1-21
+    title: "莘县志·中华人民共和国"
+    date: 1997-08
+    author: "莘县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《莘县志》中华人民共和国"
+    url: https://shandong-chorography.org/database/cf4/section/1/article/21/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3日 县委农村工作部部长刘道远在全县"
+  - id: sdz-cf5-1-243
+    title: "茌平县志·第一节  组织建立和发展"
+    date: 1997-04
+    kind: gazetteer
+    alias: "《茌平县志》第一节  组织建立和发展"
+    url: https://shandong-chorography.org/database/cf5/section/1/article/243/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1966年“文化大革命”开始后，党组"
+  - id: sdz-cf6-1-328
+    title: "东阿县志·第三节  党的代表大会"
+    date: 1998-03
+    kind: gazetteer
+    alias: "《东阿县志》第三节  党的代表大会"
+    url: https://shandong-chorography.org/database/cf6/section/1/article/328/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1980年8月21日至26日召开，大"
+  - id: sdz-cf6-1-6
+    title: "东阿县志·中华人民共和国—中华人民共和国"
+    date: 1998-03
+    kind: gazetteer
+    alias: "《东阿县志》中华人民共和国—中华人民共和国"
+    url: https://shandong-chorography.org/database/cf6/section/1/article/6/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月2日 东阿县革命委员会成立（以下"
+  - id: sdz-cf7-1-318
+    title: "冠县志·第一节  组织沿革"
+    date: 2001-12
+    kind: gazetteer
+    alias: "《冠县志》第一节  组织沿革"
+    url: https://shandong-chorography.org/database/cf7/section/1/article/318/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "“文化大革命”开始后，1966年11"
+  - id: sdz-cf7-1-322
+    title: "冠县志·第五节  纪律检查"
+    date: 2001-12
+    kind: gazetteer
+    alias: "《冠县志》第五节  纪律检查"
+    url: https://shandong-chorography.org/database/cf7/section/1/article/322/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1981年，县委对“文化大革命”中受"
+  - id: sdz-cg2-1-443
+    title: "郯城县志·第一节  地方党史概述"
+    date: 2001-07
+    kind: gazetteer
+    alias: "《郯城县志》第一节  地方党史概述"
+    url: https://shandong-chorography.org/database/cg2/section/1/article/443/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1967年2月，全县上至县委，下至支"
+  - id: sdz-cg3-1-64
+    title: "苍山县志·第五节  纪律检查"
+    date: 1998-02
+    kind: gazetteer
+    alias: "《苍山县志》第五节  纪律检查"
+    url: https://shandong-chorography.org/database/cg3/section/1/article/64/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1979年7月苍山县正式恢复县纪律检"
+  - id: sdz-cg5-4-422
+    title: "沂水县志·第四节  沂水县党组织的工作"
+    date: 1990-01
+    author: "沂水县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《沂水县志》第四节  沂水县党组织的工作"
+    url: https://shandong-chorography.org/database/cg5/section/4/article/422/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "中共十一届三中全会后的改革、开放时期"
+  - id: sdz-cg5-4-6
+    title: "沂水县志·大事记(1949-1980)"
+    date: 1990-01
+    author: "沂水县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《沂水县志》大事记(1949-1980)"
+    url: https://shandong-chorography.org/database/cg5/section/4/article/6/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "2月9日 经山东省革命委员会批准，正"
+  - id: sdz-cg6-1-369
+    title: "蒙阴县志·第一节  组织机构"
+    date: 1992-11
+    author: "蒙阴县志编纂委员会"
+    kind: gazetteer
+    alias: "《蒙阴县志》第一节  组织机构"
+    url: https://shandong-chorography.org/database/cg6/section/1/article/369/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1953年，县委增设常委会。1956"
+  - id: sdz-cg7-2-5
+    title: "平邑县志·1949年—1988年"
+    date: 1997-01
+    author: "平邑县志编纂委员会"
+    kind: gazetteer
+    alias: "《平邑县志》1949年—1988年"
+    url: https://shandong-chorography.org/database/cg7/section/2/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月30日，平邑县革命委员会成立,全"
+  - id: sdz-cg8-1-6
+    title: "费县志·中华人民共和国成立后（1950——1988）"
+    date: 1989-08
+    kind: gazetteer
+    alias: "《费县志》中华人民共和国成立后（1950——1988）"
+    url: https://shandong-chorography.org/database/cg8/section/1/article/6/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月20日 费县革命委员会成立，县武"
+  - id: sdz-cg9-2-76
+    title: "沂南县志·第四节  纪律检查"
+    date: 1997-07
+    author: "沂南县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《沂南县志》第四节  纪律检查"
+    url: https://shandong-chorography.org/database/cg9/section/2/article/76/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1976年10月粉碎江青反党集团后，"
+  - id: sdz-cga-1-16
+    title: "临沭县志·1961-1970年"
+    date: 1991-10
+    kind: gazetteer
+    alias: "《临沭县志》1961-1970年"
+    url: https://shandong-chorography.org/database/cga/section/1/article/16/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "3月23日，临沭县革命委员会成立。张"
+      - "是年，临沭两派在你输我赢的斗争中，都"
+  - id: sdz-cga-1-17
+    title: "临沭县志·1971-1980年"
+    date: 1991-10
+    kind: gazetteer
+    alias: "《临沭县志》1971-1980年"
+    url: https://shandong-chorography.org/database/cga/section/1/article/17/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "10月统计，全县已平反冤、假、错案2"
+  - id: sdz-ch5-1-269
+    title: "单县志·第一节  组织沿革"
+    date: 1995-10
+    kind: gazetteer
+    alias: "《单县志》第一节  组织沿革"
+    url: https://shandong-chorography.org/database/ch5/section/1/article/269/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "700个，党员增加到12804人。是"
+  - id: sdz-ch7-1-103
+    title: "郓城县志·大事记"
+    date: 1992-11
+    kind: gazetteer
+    alias: "《郓城县志》大事记"
+    url: https://shandong-chorography.org/database/ch7/section/1/article/103/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "10月27日，红卫兵组织在县人委院内"
+  - id: sdz-ch7-1-382
+    title: "郓城县志·第一节  建立和发展"
+    date: 1992-11
+    kind: gazetteer
+    alias: "《郓城县志》第一节  建立和发展"
+    url: https://shandong-chorography.org/database/ch7/section/1/article/382/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "自1966年8月起，因受“文化大革命"
+  - id: sdz-ch8-1-297
+    title: "鄄城县志·第七节  统一战线"
+    date: 1996-05
+    author: "鄄城县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《鄄城县志》第七节  统一战线"
+    url: https://shandong-chorography.org/database/ch8/section/1/article/297/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "1979至1985年，县委统战部广泛"
+  - id: sdz-ch8-1-5
+    title: "鄄城县志·大事记二"
+    date: 1996-05
+    author: "鄄城县地方史志编纂委员会"
+    kind: gazetteer
+    alias: "《鄄城县志》大事记二"
+    url: https://shandong-chorography.org/database/ch8/section/1/article/5/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "4月3日，鄄城县革命委员会成立。下设"
+  - id: sdz-ch9-1-41
+    title: "东明县志·1979年"
+    date: 1990-11
+    kind: gazetteer
+    alias: "《东明县志》1979年"
+    url: https://shandong-chorography.org/database/ch9/section/1/article/41/index.txt
+    via: 山东地情档案（山东省情网地情数据库公开镜像）
+    excerpt: true
+    breaks: " {4,}"
+    keep:
+      - "县委对“文化大革命”运动中立案处理的"

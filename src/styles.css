@@ -2462,7 +2462,7 @@ h2.sec {
 }
 .cty-axis,
 .cty {
-  grid-template-columns: 92px 74px minmax(0, 1fr);
+  grid-template-columns: 92px 104px minmax(0, 1fr);
 }
 .cty-axis {
   display: grid;

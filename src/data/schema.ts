@@ -464,7 +464,7 @@ export const FigureSchema = z.object({
 })
 
 // The county register: one entry per county, city or prefecture, every count any source gives for it.
-export const COUNTY_KINDS = { county: '县', city: '市', prefecture: '地区' } as const
+export const COUNTY_KINDS = { county: '县', city: '市', district: '区', prefecture: '地区' } as const
 export const CountySchema = z.object({
   id: z.string(),
   name: z.string(),
