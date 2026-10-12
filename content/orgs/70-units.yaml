@@ -1219,3 +1219,195 @@
   places: [{ at: changzhi }]
   summary: 长治市人民代表大会的常设机关。申纪兰 1984–2017 年任副主任。
   verify: true
+
+# ── org expansion O4: more colleges and journals ──
+- id: sh-conservatory
+  name: 上海音乐学院
+  short: 上音
+  aliases: [上海音乐学院, 国立音乐院, 国立音专]
+  kind: unit
+  level: basic
+  from: 1927-11
+  places: [{ at: shanghai }]
+  summary: 1927 年蔡元培、萧友梅创办的国立音乐院。院长贺绿汀文革中在电视批斗会上当众抗辩，随后被关押，1979 年平反复职。
+  verify: true
+  leaders:
+    - { name: 萧友梅, title: 校长, from: 1927-11, to: 1940-12-31 }
+    - { name: 贺绿汀, title: 院长, from: 1949, to: 1966 }
+    - { name: 贺绿汀, title: 院长, from: 1979, to: 1984 }
+
+- id: cad
+  name: 中央戏剧学院
+  short: 中戏
+  aliases: [中央戏剧学院, 中戏]
+  kind: unit
+  level: basic
+  from: 1950-04
+  places: [{ at: beijing }]
+  summary: 1950 年以华北大学文艺学院戏剧系等为基础成立，欧阳予倩任首任院长。
+  verify: true
+  leaders:
+    - { name: 欧阳予倩, title: 院长, from: 1950-04, to: 1962-09-21 }
+
+- id: sta
+  name: 上海戏剧学院
+  short: 上戏
+  aliases: [上海戏剧学院, 上海市立实验戏剧学校, 上戏]
+  kind: unit
+  level: basic
+  from: 1945-12
+  places: [{ at: shanghai }]
+  summary: 前身为 1945 年创办的上海市立实验戏剧学校，熊佛西主持校务二十年。
+  verify: true
+  leaders:
+    - { name: 熊佛西, title: 校长、院长, from: 1945-12, to: 1965-10-26 }
+
+- id: bba
+  name: 北京广播学院
+  aliases: [北京广播学院]
+  kind: unit
+  level: basic
+  from: 1959-09
+  under: [{ org: broadcast-admin }]
+  places: [{ at: beijing }]
+  summary: 中央广播事业局所属，培养广播电视人员。
+  verify: true
+
+- id: bsu
+  name: 北京体育学院
+  aliases: [北京体育学院, 中央体育学院]
+  kind: unit
+  level: basic
+  from: 1953-11
+  under: [{ org: sports }]
+  places: [{ at: beijing }]
+  summary: 1953 年成立中央体育学院，1956 年改名北京体育学院。
+  verify: true
+
+- id: bjmu
+  name: 北京医学院
+  aliases: [北京医学院, 北京医科大学, 北京大学医学院]
+  kind: unit
+  level: basic
+  from: 1952
+  places: [{ at: beijing }]
+  summary: 1952 年院系调整时北大医学院独立建院，1985 年改名北京医科大学。
+  verify: true
+
+- id: bit
+  name: 北京工业学院
+  aliases: [北京工业学院, 北京理工大学, 延安自然科学院, 华北大学工学院]
+  kind: unit
+  level: basic
+  from: 1940-09
+  places: [{ at: yanan, to: 1947 }, { at: beijing, from: 1949 }]
+  summary: 前身是 1940 年在延安创办的自然科学院，1952 年定名北京工业学院，以兵器工业为主，1988 年改名北京理工大学。
+  verify: true
+
+- id: cau
+  name: 北京农业大学
+  aliases: [北京农业大学, 北农大]
+  kind: unit
+  level: basic
+  from: 1949-09
+  places: [{ at: beijing }]
+  summary: 1949 年由北大、清华、华北大学三校农学院合并而成。
+  verify: true
+
+- id: hust
+  name: 华中工学院
+  aliases: [华中工学院, 华中理工大学]
+  kind: unit
+  level: basic
+  from: 1953
+  places: [{ at: wuhan }]
+  summary: 1953 年院系调整中以中南地区多所大学的工科系组建，1988 年改名华中理工大学。
+  verify: true
+
+- id: nwu
+  name: 西北大学
+  aliases: [西北大学]
+  kind: unit
+  level: basic
+  from: 1902
+  places: [{ at: xian }]
+  summary: 西北地区历史最久的综合大学之一，抗战时由西北联合大学分出。
+  verify: true
+
+- id: sisu
+  name: 上海外国语学院
+  aliases: [上海外国语学院, 上海俄文专科学校, 上外]
+  kind: unit
+  level: basic
+  from: 1949-12
+  places: [{ at: shanghai }]
+  summary: 前身为 1949 年成立的上海俄文学校，培养俄语干部，1956 年改名上海外国语学院。
+  verify: true
+  leaders:
+    - { name: 姜椿芳, title: 校长, from: 1949-12, to: 1952, note: 止点待核 }
+
+- id: crafts-academy
+  name: 中央工艺美术学院
+  aliases: [中央工艺美术学院, 工艺美院]
+  kind: unit
+  level: basic
+  from: 1956-11
+  places: [{ at: beijing }]
+  summary: 1956 年成立，副院长庞薰琹 1957 年被划为右派。
+  verify: true
+
+- id: bupt
+  name: 北京邮电学院
+  aliases: [北京邮电学院]
+  kind: unit
+  level: basic
+  from: 1955
+  places: [{ at: beijing }]
+  summary: 1955 年成立，邮电部所属，1993 年改名北京邮电大学。
+  verify: true
+
+- id: jingji-yanjiu
+  name: 《经济研究》
+  aliases: [经济研究, 《经济研究》]
+  kind: unit
+  level: central
+  from: 1955-04
+  suspended: [{ from: 1966-06, to: 1978-01, note: 停刊 }]
+  under: [{ org: cas-econ }]
+  places: [{ at: beijing }]
+  summary: 经济研究所主办。1957 年刊出顾准论证社会主义制度下商品生产和价值规律仍然存在的文章，孙冶方的价值规律论文也多在此发表。
+  verify: true
+
+- id: zhexue-yanjiu
+  name: 《哲学研究》
+  aliases: [哲学研究, 《哲学研究》]
+  kind: unit
+  level: central
+  from: 1955
+  suspended: [{ from: 1966-06, to: 1978-01, note: 停刊 }]
+  under: [{ org: cas-phil }]
+  places: [{ at: beijing }]
+  summary: 哲学研究所主办的刊物，1966 年停刊，1978 年复刊。
+  verify: true
+
+- id: xingxing
+  name: 《星星》诗刊
+  aliases: [星星, 《星星》, 星星诗刊]
+  kind: unit
+  level: provincial
+  from: 1957-01
+  suspended: [{ from: 1960, to: 1979-10, note: 停刊 }]
+  places: [{ at: chengdu }]
+  summary: 四川省文联主办。创刊号发表流沙河的散文诗《草木篇》，随即遭到批判，编辑流沙河、石天河等人在反右中被划为右派。1979 年复刊。
+  verify: true
+
+- id: jfj-wenyi
+  name: 《解放军文艺》
+  aliases: [解放军文艺, 《解放军文艺》]
+  kind: unit
+  level: central
+  from: 1951-06
+  under: [{ org: general-political }]
+  places: [{ at: beijing }]
+  summary: 总政治部主办的文学刊物。
+  verify: true

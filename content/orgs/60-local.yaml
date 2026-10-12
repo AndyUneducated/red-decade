@@ -353,3 +353,53 @@
   factions: [rebels]
   summary: 上海中学红卫兵的联合组织。1968 年 12 月 21 日晚，常委金训华在红代会办公室听到“知识青年到农村去”的指示后提出“知识青年上山下乡的大动员”。
   verify: true
+
+# ── org expansion O4: special economic zones and Hainan ──
+- id: zhuhai-committee
+  name: 中共珠海市委员会
+  short: 珠海市委
+  aliases: [中共珠海市委员会, 珠海市委, 珠海经济特区]
+  kind: party
+  level: local
+  from: 1979-03
+  under: [{ org: guangdong-committee }]
+  places: [{ at: zhuhai }]
+  summary: 1979 年 3 月珠海县改为珠海市，1980 年 8 月与深圳、汕头一同获批设立经济特区。
+  verify: true
+
+- id: shantou-committee
+  name: 中共汕头市委员会
+  short: 汕头市委
+  aliases: [中共汕头市委员会, 汕头市委, 汕头经济特区]
+  kind: party
+  level: local
+  under: [{ org: guangdong-committee }]
+  places: [{ at: shantou }]
+  summary: 1980 年 8 月汕头获批设立经济特区，起初只划出龙湖一小块，1984 年后扩大。
+  verify: true
+
+- id: xiamen-committee
+  name: 中共厦门市委员会
+  short: 厦门市委
+  aliases: [中共厦门市委员会, 厦门市委, 厦门经济特区]
+  kind: party
+  level: local
+  from: 1949-10
+  under: [{ org: fj-committee }]
+  places: [{ at: xiamen }]
+  summary: 1980 年 10 月国务院批准设立厦门经济特区，起初只在湖里划出 2.5 平方公里，1984 年邓小平视察后扩大到全岛。
+  verify: true
+
+- id: hainan-committee
+  name: 中共海南省委员会
+  short: 海南省委
+  aliases: [中共海南省委员会, 中共海南省委, 海南省委]
+  kind: party
+  level: provincial
+  from: 1988-04
+  under: [{ org: cc }]
+  places: [{ at: haikou }]
+  summary: 1988 年建省时成立，此前海南由广东省领导，设海南区党委。首任书记许士杰。
+  verify: true
+  leaders:
+    - { name: 许士杰, title: 书记, from: 1988-04 }

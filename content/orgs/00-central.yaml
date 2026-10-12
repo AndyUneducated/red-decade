@@ -535,13 +535,14 @@
 
 - id: bj-government
   name: 北京市人民政府
-  aliases: [北京市人民政府, 北京市人民委员会]
+  aliases: [北京市人民政府, 北京市人民委员会, 北平市人民政府]
   kind: state
   level: provincial
   from: 1949-02
   suspended: [{ from: 1967-04-20, to: 1979-12, note: 由北京市革命委员会取代 }]
+  under: [{ org: state-council }]
   places: [{ at: beijing }]
-  summary: 1955–1967 年称北京市人民委员会。彭真兼市长，吴晗任副市长。
+  summary: 1955–1967 年称北京市人民委员会。彭真兼市长十五年，吴晗任副市长；1966 年 5 月彭真被打倒后由吴德代理，1967 年 4 月北京市革委会成立，1979 年恢复。1989 年 6 月 30 日市长陈希同向全国人大常委会作“平息反革命暴乱”的报告。
   verify: true
 
 - id: bj-revcom
@@ -580,8 +581,9 @@
   level: provincial
   from: 1949-05-28
   suspended: [{ from: 1967-02-05, to: 1979-12, note: 由上海人民公社、上海市革命委员会取代 }]
+  under: [{ org: state-council }]
   places: [{ at: shanghai }]
-  summary: 1955–1967 年称上海市人民委员会（“市人委”）。陈毅、柯庆施、曹荻秋先后任市长。
+  summary: 1955–1967 年称上海市人民委员会（“市人委”）。陈毅、柯庆施、曹荻秋先后任市长；1967 年“一月风暴”中造反派宣布不再承认曹荻秋。1979 年恢复后，汪道涵、江泽民、朱镕基相继任市长。
   verify: true
 
 - id: sh-commune
@@ -706,12 +708,12 @@
 
 - id: chongqing-government
   name: 重庆市人民政府
-  aliases: [重庆市人民政府]
+  aliases: [重庆市人民政府, 重庆市人民委员会]
   kind: state
   level: provincial
   from: 1949-12
   places: [{ at: chongqing }]
-  summary: 曹荻秋 1950 年代任市长。
+  summary: 1949–1954 年为中央直辖市和西南局驻地，1954 年改为四川省辖市。曹荻秋 1950 年代任市长。
   verify: true
 
 # ── 国家机构 ────────────────────────────────────────────

@@ -970,3 +970,73 @@
   places: [{ at: fengyang }]
   summary: 1978 年冬 18 户农民秘密签约“分田到户”，被后来的官方叙述视为农村改革的起点。
   verify: true
+
+# ── org expansion O4: arts associations ──
+- id: quyi-assoc
+  name: 中国曲艺家协会
+  short: 曲协
+  aliases: [中国曲艺家协会, 中国曲艺工作者协会, 中国曲协]
+  kind: mass
+  level: central
+  from: 1953-01
+  suspended: [{ from: 1966-06, to: 1978-05, note: 停止活动 }]
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 1953 年成立曲艺研究会，1958 年改为中国曲艺工作者协会，1987 年改今名。
+  verify: true
+
+- id: dance-assoc
+  name: 中国舞蹈家协会
+  short: 舞协
+  aliases: [中国舞蹈家协会, 中国舞蹈工作者协会, 中国舞协]
+  kind: mass
+  level: central
+  from: 1949-07
+  suspended: [{ from: 1966-06, to: 1978-05, note: 停止活动 }]
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 1949 年第一次文代会期间成立中华全国舞蹈工作者协会，吴晓邦任主席。
+  verify: true
+  leaders:
+    - { name: 吴晓邦, title: 主席, from: 1949-07, to: 1966 }
+
+- id: photo-assoc
+  name: 中国摄影家协会
+  short: 摄协
+  aliases: [中国摄影家协会, 中国摄影学会, 中国摄协]
+  kind: mass
+  level: central
+  from: 1956-12
+  suspended: [{ from: 1966-06, to: 1978-05, note: 停止活动 }]
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 1956 年成立中国摄影学会，1979 年改今名。
+  verify: true
+
+- id: calligraphy-assoc
+  name: 中国书法家协会
+  short: 书协
+  aliases: [中国书法家协会, 中国书协]
+  kind: mass
+  level: central
+  from: 1981-05
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 1981 年 5 月成立，舒同任首任主席。
+  verify: true
+  leaders:
+    - { name: 舒同, title: 主席, from: 1981-05, to: 1985 }
+
+- id: folk-lit-assoc
+  name: 中国民间文艺研究会
+  aliases: [中国民间文艺研究会, 中国民间文艺家协会]
+  kind: mass
+  level: central
+  from: 1950-03
+  suspended: [{ from: 1966-06, to: 1978-05, note: 停止活动 }]
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 1950 年成立，郭沫若任理事长，钟敬文等民俗学者参与。1987 年改为中国民间文艺家协会。
+  verify: true
+  leaders:
+    - { name: 郭沫若, title: 理事长, from: 1950-03, to: 1966 }

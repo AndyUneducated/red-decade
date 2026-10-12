@@ -927,46 +927,7 @@
 # ── org expansion O2: provincial people's governments ──
 # 1949–1954 人民政府（主席），1955–1967 人民委员会（省长），1967–1979 由革命委员会取代，1979 年底起恢复人民政府。
 # One body per province; the revolutionary-committee years are a suspension. Heads from general reference, verify.
-- id: bj-gov
-  name: 北京市人民政府
-  aliases: [北京市人民政府, 北京市人民委员会, 北平市人民政府]
-  kind: state
-  level: provincial
-  from: 1949-02
-  suspended: [{ from: 1967-04-20, to: 1979-12, note: 由北京市革命委员会取代 }]
-  under: [{ org: state-council }]
-  places: [{ at: beijing }]
-  summary: 彭真任市长十五年，1966 年 5 月被打倒后由吴德代理，1967 年 4 月北京市革委会成立。1979 年恢复。1989 年 6 月 30 日市长陈希同向全国人大常委会作“平息反革命暴乱”的报告。
-  verify: true
-  leaders:
-    - { name: 叶剑英, title: 市长, from: 1949-02, to: 1949-11 }
-    - { name: 聂荣臻, title: 市长, from: 1949-11, to: 1951-02 }
-    - { name: 彭真, title: 市长, from: 1951-02, to: 1966-05 }
-    - { name: 吴德, title: 代理市长, from: 1966-05, to: 1967-04-20 }
-    - { name: 林乎加, title: 市长, from: 1979-12, to: 1981-03 }
-    - { name: 焦若愚, title: 市长, from: 1981-03, to: 1983-04 }
-    - { name: 陈希同, title: 市长, from: 1983-04, to: 1993-01 }
-
-- id: sh-gov
-  name: 上海市人民政府
-  aliases: [上海市人民政府, 上海市人民委员会]
-  kind: state
-  level: provincial
-  from: 1949-05-28
-  suspended: [{ from: 1967-02-24, to: 1979-12, note: 1967 年 1 月被夺权，由上海市革命委员会取代 }]
-  under: [{ org: state-council }]
-  places: [{ at: shanghai }]
-  summary: 1967 年“一月风暴”中造反派宣布不再承认市长曹荻秋，2 月成立“上海人民公社”，旋改市革委会。1979 年恢复后，汪道涵、江泽民、朱镕基相继任市长。
-  verify: true
-  leaders:
-    - { name: 陈毅, title: 市长, from: 1949-05, to: 1958-11 }
-    - { name: 柯庆施, title: 市长, from: 1958-11, to: 1965-04-09 }
-    - { name: 曹荻秋, title: 市长, from: 1965-11, to: 1967-01 }
-    - { name: 彭冲, title: 市长, from: 1979-12, to: 1980-04 }
-    - { name: 汪道涵, title: 市长, from: 1981-04, to: 1985-07 }
-    - { name: 江泽民, title: 市长, from: 1985-07, to: 1988-04 }
-    - { name: 朱镕基, title: 市长, from: 1988-04 }
-
+# Beijing, Shanghai and Chongqing governments are in 00-central.yaml (bj-government, sh-government, chongqing-government).
 - id: tj-gov
   name: 天津市人民政府
   aliases: [天津市人民政府, 天津市人民委员会]
@@ -1435,16 +1396,3 @@
     - { name: 刘明辉, title: 省长, from: 1979-12, to: 1983 }
     - { name: 普朝柱, title: 省长, from: 1983, to: 1985 }
     - { name: 和志强, title: 省长, from: 1985 }
-
-- id: cq-gov
-  name: 重庆市人民政府
-  aliases: [重庆市人民政府, 重庆市人民委员会]
-  kind: state
-  level: local
-  from: 1949-12
-  places: [{ at: chongqing }]
-  summary: 1949–1954 年为中央直辖市和西南局驻地，1954 年改为四川省辖市。陈锡联、曹荻秋先后任市长。
-  verify: true
-  leaders:
-    - { name: 陈锡联, title: 市长, from: 1949-12, to: 1950 }
-    - { name: 曹荻秋, title: 市长, from: 1952, to: 1954 }

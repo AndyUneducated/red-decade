@@ -937,3 +937,182 @@
   places: [{ at: beijing }]
   summary: 1949 年成立时隶属人民革命军事委员会，1962 年后由空军代管，1980 年起脱离军队建制，改为国务院直属。
   verify: true
+
+# ── org expansion O4: banks, bureaus, 1980s bodies ──
+- id: icbc
+  name: 中国工商银行
+  short: 工商银行
+  aliases: [中国工商银行, 工商银行]
+  kind: state
+  level: central
+  from: 1984-01
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1984 年 1 月从中国人民银行分出，承接工商信贷和城镇储蓄业务；人民银行从此专门行使中央银行职能。
+  verify: true
+
+- id: boc
+  name: 中国银行
+  aliases: [中国银行]
+  kind: state
+  level: central
+  from: 1912-02
+  places: [{ at: beijing }]
+  summary: 1949 年后由人民政府接管，作为国家外汇专业银行，长期由中国人民银行领导，1979 年改为国务院直属。
+  verify: true
+
+- id: ccb
+  name: 中国人民建设银行
+  short: 建设银行
+  aliases: [中国人民建设银行, 建设银行]
+  kind: state
+  level: central
+  from: 1954-10
+  under: [{ org: finance }]
+  places: [{ at: beijing }]
+  summary: 1954 年设立，负责基本建设投资的拨款与监督，长期隶属财政部。
+  verify: true
+
+- id: abc
+  name: 中国农业银行
+  short: 农业银行
+  aliases: [中国农业银行, 农业银行]
+  kind: state
+  level: central
+  from: 1951
+  suspended: [{ from: 1957, to: 1963-11, note: 并入中国人民银行 }, { from: 1965-11, to: 1979-02, note: 再次并入中国人民银行 }]
+  places: [{ at: beijing }]
+  summary: 1950 年代起三立三撤，1979 年 2 月恢复，承担农村信贷业务。
+  verify: true
+
+- id: price-bureau
+  name: 国家物价局
+  aliases: [国家物价局, 国家物价总局]
+  kind: state
+  level: central
+  from: 1977-08
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1977 年设国家物价总局，1982 年改为国家物价局。1988 年“价格闯关”期间负责价格改革方案，同年夏抢购风潮后闯关中止。
+  verify: true
+
+- id: safe
+  name: 国家外汇管理局
+  aliases: [国家外汇管理局, 国家外汇管理总局]
+  kind: state
+  level: central
+  from: 1979-03
+  places: [{ at: beijing }]
+  summary: 1979 年 3 月设立，管理外汇收支和 1980 年起发行的外汇兑换券。
+  verify: true
+
+- id: tourism
+  name: 国家旅游局
+  aliases: [国家旅游局, 中国旅行游览事业管理局, 中国旅行游览事业管理总局]
+  kind: state
+  level: central
+  from: 1964-07
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1964 年设中国旅行游览事业管理局，1982 年改名国家旅游局。
+  verify: true
+
+- id: drc
+  name: 国务院发展研究中心
+  aliases: [国务院发展研究中心, 国务院经济技术社会发展研究中心]
+  kind: state
+  level: central
+  from: 1985-04
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1985 年由国务院经济研究中心、技术经济研究中心、价格研究中心合并成立，是 1980 年代改革方案的智囊机构之一。
+  verify: true
+  leaders:
+    - { name: 马洪, title: 总干事, from: 1985-04 }
+
+- id: archives
+  name: 国家档案局
+  aliases: [国家档案局]
+  kind: state
+  level: central
+  from: 1954-11
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1954 年 11 月设立，1959 年起与中央档案馆合署办公。
+  verify: true
+  leaders:
+    - { name: 曾三, title: 局长, from: 1954-11, to: 1966 }
+
+- id: meteorology
+  name: 中央气象局
+  aliases: [中央气象局, 国家气象局, 中央军委气象局]
+  kind: state
+  level: central
+  from: 1949-12
+  places: [{ at: beijing }]
+  summary: 1949 年 12 月在军委下设立，1953 年转入政府系统，1982 年改名国家气象局。
+  verify: true
+  leaders:
+    - { name: 涂长望, title: 局长, from: 1949-12, to: 1962-06-09 }
+
+- id: seismology
+  name: 国家地震局
+  aliases: [国家地震局, 中央地震工作小组]
+  kind: state
+  level: central
+  from: 1971-08
+  under: [{ org: cas, to: 1977 }, { org: state-council, from: 1977 }]
+  places: [{ at: beijing }]
+  summary: 1966 年邢台地震后周恩来要求开展地震预报，1969 年成立中央地震工作小组，1971 年改为国家地震局。1975 年 2 月海城地震前发出临震预报，1976 年 7 月唐山地震则未能预报。
+  verify: true
+
+- id: soa
+  name: 国家海洋局
+  aliases: [国家海洋局]
+  kind: state
+  level: central
+  from: 1964-07
+  places: [{ at: beijing }]
+  summary: 1964 年设立，初由海军代管。
+  verify: true
+
+- id: xinhua-hk
+  name: 新华通讯社香港分社
+  short: 新华社香港分社
+  aliases: [新华通讯社香港分社, 新华社香港分社]
+  kind: state
+  level: provincial
+  from: 1947-05
+  under: [{ org: xinhua }]
+  places: [{ at: hongkong }]
+  summary: 1949 年后名义上是新闻机构，实际是中共在香港的代表机关。1983 年起社长许家屯主持中英谈判后的香港工作，1990 年 4 月他出走美国。
+  verify: true
+  leaders:
+    - { name: 许家屯, title: 社长, from: 1983-06, to: 1990-01 }
+
+- id: hainan-district
+  name: 海南行政区人民政府
+  aliases: [海南行政区人民政府, 海南行政区]
+  kind: state
+  level: local
+  from: 1984-10
+  to: 1988-04
+  under: [{ org: gd-gov }]
+  places: [{ at: haikou }]
+  summary: 1984 年海南行政区设立人民政府，享有较大的自主权。1984–1985 年行政区大量进口汽车倒卖岛外，1985 年被中央通报，主任雷宇被撤职。1988 年 4 月建省后撤销。
+  verify: true
+  leaders:
+    - { name: 雷宇, title: 主任, from: 1984-10, to: 1985-08 }
+
+- id: hainan-gov
+  name: 海南省人民政府
+  aliases: [海南省人民政府, 海南省]
+  kind: state
+  level: provincial
+  from: 1988-04
+  under: [{ org: state-council }]
+  places: [{ at: haikou }]
+  summary: 1988 年 4 月七届人大一次会议决定建海南省并划为经济特区。首任省长梁湘 1989 年 9 月被撤职。
+  verify: true
+  leaders:
+    - { name: 梁湘, title: 省长, from: 1988-04, to: 1989-09 }

@@ -252,6 +252,10 @@
 - { id: zhengding, name: 河北正定, names: [正定], lat: 38.15, lon: 114.57 }
 # org expansion O2
 - { id: jilin-city, name: 吉林市, names: [吉林市], lat: 43.84, lon: 126.55 }
+# org expansion O4
+- { id: zhuhai, name: 珠海, names: [珠海], lat: 22.27, lon: 113.58 }
+- { id: shantou, name: 汕头, names: [汕头], lat: 23.35, lon: 116.68 }
+- { id: haikou, name: 海口, names: [海口], lat: 20.04, lon: 110.34 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
