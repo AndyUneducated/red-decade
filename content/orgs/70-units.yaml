@@ -125,6 +125,17 @@
     - { name: 李达, title: 校长, from: 1953-02, to: 1966-08-24 }
     - { name: 刘道玉, title: 校长, from: 1981-08, to: 1988-02 }
 
+- id: sysu
+  name: 中山大学
+  short: 中大
+  aliases: [中山大学, 中大, 岭南大学]
+  kind: unit
+  level: basic
+  from: 1924
+  places: [{ at: guangzhou }]
+  summary: 1952 年院系调整时与岭南大学合并，迁入康乐园。陈寅恪 1949 年起在岭南大学、1952 年后在中山大学任教，1969 年在校内去世。
+  verify: true
+
 - id: sh-jingju
   name: 上海京剧院
   aliases: [上海京剧院]

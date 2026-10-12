@@ -1,0 +1,47 @@
+# M3-2 第 7b 批：维基文库没有收录、只能从转录网页抓取的原文（tools/fetch-web.ts）。版权规则同 web-1966.yaml。
+web:
+  - id: fu-lei-1966-09-02-note
+    title: 傅雷、朱梅馥致朱人秀遗书
+    date: 1966-09-02
+    author: 傅雷、朱梅馥
+    kind: collected
+    alias: 傅雷遗书
+    url: https://zh.wikipedia.org/zh-cn/%E5%82%85%E9%9B%B7
+    via: 维基百科“傅雷”条目转录（二手转录，未注明底本）
+    start: 人秀：
+    end: 一九六六年九月二日夜
+    note: 第十三条“图书字画听候公家决定”在维基百科转录中脱去“定。”二字，与下一句连在一起，原样保留。
+  - id: chen-yinke-1953-12-01-reply
+    title: 对科学院的答复
+    date: 1953-12-01
+    author: 陈寅恪口述，汪篯记录
+    kind: speech
+    alias: 陈寅恪《对科学院的答复》
+    url: https://www.aisixiang.com/data/16826.html
+    via: 爱思想网转录，原载陆键东《陈寅恪的最后二十年》（副本存中山大学档案馆）
+    start: 我的思想，我的主张
+    end: 我的碑文已流传出去，不会湮没。
+  - id: cass-ie-gu-zhun
+    title: 顾准（中国社会科学院经济研究所所史·所之名家）
+    date: 2025-05-22
+    author: 胡家勇（中国社会科学院经济研究所）
+    kind: annals
+    alias: 经济所所史“顾准”
+    url: http://ie.cssn.cn/jjsss/szmj/202505/t20250522_5875118.shtml
+    via: 中国社会科学院经济研究所所史网站，转引自《经济所人文库——顾准卷》
+    start: 顾准，男，字哲云
+    end: 终年59岁。
+    excerpt: true
+    keep: [顾准生于上海一个小商人家庭, 在“文化大革命”中]
+    note: 作者在世，只保留生平和文革两段。
+  - id: gmrb-2017-02-20-xiong-shili
+    title: “为学，苦事也，亦乐事也”——熊十力的人格风范与哲学智慧
+    date: 2017-02-20
+    author: 郭齐勇
+    kind: news
+    alias: 《光明日报》2017 年熊十力专版
+    url: https://news.gmw.cn/2017-02/20/content_23765367.htm
+    via: 光明网（《光明日报》2017-02-20 第 16 版“光明学人”）
+    excerpt: true
+    keep: [湖北黄冈熊十力先生, 1966年“文革”开始不久, 1949年10月，移居广州]
+    note: 作者在世，只保留概述、1966 年遭遇和学人小传三段。1968 年的绝食、拒药等细节见于传记，不在此文中。
