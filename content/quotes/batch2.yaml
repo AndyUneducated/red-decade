@@ -1,0 +1,711 @@
+# Quotes, batch 2: people who had none after core.yaml. Same rules: verbatim from cite, checked at build time.
+tao-zhu:
+  - text: 我们大家都是一派，这一派叫做中国人民派，除了反革命分子以外，大家都要很亲切地团结起来
+    cite: rmrb-1967-09-08-tao-zhu-books
+    date: 1955-08
+    note: 姚文元《评陶铸的两本书》所引
+    voice: official1966
+  - text: 现在阶级已经基本消灭
+    cite: rmrb-1967-09-08-tao-zhu-books
+    date: 1957-05
+    note: 1957 年撰文，姚文元《评陶铸的两本书》所引
+    voice: official1966
+  - text: 陶铸所吹嘘的要“很亲切地”拥抱在一起的什么“中国人民派”，实际上就是反人民的资产阶级反动派
+    by: yao-wenyuan
+    cite: rmrb-1967-09-08-tao-zhu-books
+    date: 1967-09-08
+    note: 《评陶铸的两本书》
+    voice: official1966
+
+lu-dingyi:
+  - text: 我们党的报刊应适应包括资产阶级在内的各个阶级的需要
+    cite: ws-1968-09-01-news-front
+    note: 1968 年两报一刊编辑部文章所引
+    voice: official1966
+  - text: 交红卫兵审判
+    by: chen-boda
+    cite: ws-1980-indictment
+    note: 陈伯达提出，1980 年起诉书所述
+    voice: judicial1980
+
+yang-shangkun:
+  - text: 杨尚昆同志的一生，是光辉的、战斗的一生
+    by: 中共中央、全国人大常委会、国务院、全国政协、中央军委
+    cite: ws-1998-09-yang-shangkun-obituary
+    date: 1998-09-14
+    note: 讣告
+    voice: officialLater
+
+tan-zhenlin:
+  - &feb
+    text: 在不同的会议上对“文化大革命”的错误作法提出了强烈的批评，但被诬为“二月逆流”而受到压制和打击
+    by: 中共中央
+    cite: ws-1981-resolution
+    date: 1981-06-27
+    note: 《关于建国以来党的若干历史问题的决议》
+    voice: official1981
+li-fuchun:
+  - *feb
+li-xiannian:
+  - *feb
+xu-xiangqian:
+  - *feb
+  - text: 炮轰徐向前，打倒拿枪杆子的刘、邓──徐向前
+    by: kuai-dafu
+    cite: ws-1980-indictment
+    date: 1967-04
+    note: 蒯大富派人发表的文章，1980 年起诉书所述
+    voice: judicial1980
+nie-rongzhen:
+  - *feb
+  - text: 坏人当了道
+    by: jiang-qing
+    cite: ws-1980-indictment
+    date: 1971-01-05
+    note: 说聂荣臻等在华北，1980 年起诉书所述
+    voice: judicial1980
+chen-yi:
+  - *feb
+  - text: 投降帝修反
+    by: zhang-chunqiao
+    cite: ws-1980-indictment
+    date: 1968-11
+    note: 张春桥指使编造《陈毅反动言论集》，1980 年起诉书所述
+    voice: judicial1980
+ye-jianying:
+  - *feb
+  - text: 叶剑英同志在庆祝建国三十周年大会上的讲话，既充分肯定了建国以来党和人民所取得的伟大成就，又对党在过去工作中的错误作了自我批评
+    by: 中共中央
+    cite: ws-1981-resolution
+    date: 1981-06-27
+    note: 《关于建国以来党的若干历史问题的决议》
+    voice: official1981
+
+wu-han:
+  - text: 你错的就检讨，对的就坚持，坚持真理，修正错误
+    by: peng-zhen
+    cite: ws-1965-hairui-critique-index
+    note: 在北京市委工作会议上对吴晗说，五一六通知附件《大事记》所述
+    voice: official1966
+  - &sanjiacun
+    text: 大大小小的邓拓、吴晗、廖沫沙，大大小小的“三家村”，不少哩
+    by: lin-biao
+    cite: ws-1966-05-18-lin-speech
+    date: 1966-05-18
+    note: 在中央政治局扩大会议上
+    voice: official1966
+liao-mosha:
+  - *sanjiacun
+
+liu-ren:
+  - text: 对他们不能用一般对犯人的方法对待
+    by: kang-sheng
+    cite: ws-1980-indictment
+    date: 1968-01
+    note: 康生批示，1980 年起诉书所述
+    voice: judicial1980
+
+li-xuefeng:
+  - text: 我们的一切成就，一切胜利，都是在伟大舵手毛主席的英明领导下取得的
+    cite: rmrb-1968-02-05-hebei-revcom
+    date: 1968-02
+    note: 河北省革命委员会成立庆祝大会上
+    voice: official1966
+
+zhou-yang:
+  - &fourmen
+    text: 反革命分子田汉和周扬、夏衍、阳翰笙这“四条汉子”从文化艺术阵地向我们发动进攻
+    by: 《评田汉的一个反革命策略》
+    cite: ws-1971-03-02-tian-han-critique
+    date: 1971-03-02
+    note: 1971 年批判文章
+    voice: official1966
+  - text: 周扬一案，似可从宽处理，分配工作，有病的养起来并治病，久关不是办法，请讨论酌处
+    by: mao-zedong
+    cite: thepaper-2016-xia-yan
+    date: 1975-07-02
+    note: 在林默涵来信上的批语，《档案春秋》文章所引
+    voice: scholar
+xia-yan:
+  - *fourmen
+  - text: 不白之冤
+    cite: thepaper-2016-xia-yan
+    note: 关押期间用烧焦的火柴头写在厕纸上，递给女儿沈宁，《档案春秋》文章所述
+    voice: scholar
+yang-hansheng:
+  - *fourmen
+  - text: 关汉卿就是写的田汉自己，就照田汉来演吧
+    cite: ws-1971-03-02-tian-han-critique
+    note: 向演员透露，1971 年批判文章所引
+    voice: official1966
+
+lin-mohan:
+  - text: 全面地剽窃了《纪要》的内容，并且作了严重的歪曲，为所谓三十年代的错误的文艺路线辩护
+    by: 中共中央
+    cite: ws-1965-hairui-critique-index
+    date: 1966-05-16
+    note: 说林默涵在全国创作会议上的报告，五一六通知附件《大事记》
+    voice: official1966
+
+hu-sheng:
+  - text: 不能讲吴晗反党反社会主义，不能联系庐山会议
+    cite: ws-1965-hairui-critique-index
+    note: 传达“汇报提纲”时，五一六通知附件《大事记》所述
+    voice: official1966
+
+xu-liqun:
+  - text: 问题已经解决了，让他们讨论讨论就行了
+    cite: ws-1965-hairui-critique-index
+    note: 五一六通知附件《大事记》所述
+    voice: official1966
+
+lu-ping:
+  - &pku
+    text: 陆平、彭珮云等人多年把持的北京大学，是“三家村”黑帮的一个重要据点，是他们反党反社会主义的顽固堡垒
+    by: 人民日报评论员
+    cite: ws-1966-06-02-hail-pku
+    date: 1966-06-02
+    note: 《欢呼北大的一张大字报》
+    voice: official1966
+peng-peiyun:
+  - *pku
+song-shuo:
+  - text: 宋硕的“加强领导”，“坚守岗位”，这是一个信号
+    by: 人民日报评论员
+    cite: ws-1966-06-02-hail-pku
+    date: 1966-06-02
+    note: 《欢呼北大的一张大字报》
+    voice: official1966
+
+cao-diqiu:
+  - text: 埋藏在党内的可耻叛徒
+    by: 上海市革命委员会《审查报告》
+    cite: ws-1982-08-21-wang-xiuzhen-case
+    date: 1973-09
+    note: 王秀珍等审定，1982 年判决书所述
+    voice: judicial1980
+chen-pixian:
+  - text: 反革命两面派手法斗争了几十年的老反革命分子
+    by: xu-jingxian
+    cite: ws-1982-xu-jingxian-case
+    date: 1968-02
+    note: 徐景贤组织、审定的文章，1982 年判决书所述
+    voice: judicial1980
+wei-wenbo:
+  - text: 罪恶累累的叛徒
+    by: 上海市革命委员会《审查报告》
+    cite: ws-1982-08-21-wang-xiuzhen-case
+    date: 1973-05
+    note: 王秀珍等审定，1982 年判决书所述
+    voice: judicial1980
+zhou-xinfang:
+  - text: 反共老手
+    by: xu-jingxian
+    cite: ws-1982-xu-jingxian-case
+    date: 1968-03
+    note: 随后拘留周信芳，1982 年判决书所述
+    voice: judicial1980
+
+xu-shiyou:
+  - text: 狠抓革命，猛促生产，迅速掀起工农业生产的新高潮
+    cite: rmrb-1968-03-25-jiangsu-revcom
+    date: 1968-03
+    note: 江苏省革命委员会成立庆祝大会上
+    voice: official1966
+li-desheng:
+  - text: 革命委员会的成员要带头活学活用毛泽东思想，带头搞好思想革命化
+    cite: rmrb-1968-04-20-anhui-revcom
+    date: 1968-04
+    note: 安徽省革命委员会成立庆祝大会上
+    voice: official1966
+chen-xilian:
+  - text: 我们要彻底战胜阶级敌人，必须善于团结自己的阶级队伍，团结和争取绝大多数人
+    cite: rmrb-1968-05-12-liaoning-revcom
+    date: 1968-05
+    note: 辽宁省革命委员会成立庆祝大会上
+    voice: official1966
+teng-haiqing:
+  - text: 内蒙古是一个少数民族自治区，正确处理民族问题，具有重大的意义
+    cite: rmrb-1967-11-02-neimenggu-revcom
+    date: 1967-11
+    note: 内蒙古自治区革命委员会成立庆祝大会上
+    voice: official1966
+liu-jianxun:
+  - text: 夺权斗争胜利以后，依然存在着激烈的阶级斗争
+    cite: rmrb-1968-01-30-henan-revcom
+    date: 1968-01
+    note: 河南省革命委员会成立庆祝大会上
+    voice: official1966
+wang-xiaoyu:
+  - text: 这个大联合好得很
+    cite: rmrb-1967-03-02-shandong-revcom
+    date: 1967-03
+    note: 山东省革命委员会成立大会上
+    voice: official1966
+  - text: 你有力量，我就支持你
+    by: zhang-chunqiao
+    cite: ws-1980-indictment
+    note: 对王效禹说，1980 年起诉书所述
+    voice: judicial1980
+han-xianchu:
+  - text: 大海航行靠舵手，干革命靠毛泽东思想
+    cite: rmrb-1968-08-21-fujian-revcom
+    date: 1968-08
+    note: 福建省革命委员会成立庆祝大会上
+    voice: official1966
+  - text: 十年动乱中，韩先楚同志对林彪、“四人帮”反革命集团的倒行逆施十分痛恨
+    by: 新华社《韩先楚同志生平》
+    cite: rmrb-1986-10-12-han-xianchu
+    date: 1986-10-12
+    voice: officialLater
+ye-fei:
+  - text: 把中国赫鲁晓夫及其在福建的代理人叶飞之流的“独立王国”和反动的“多中心论”，批倒批臭
+    by: 新华社
+    cite: rmrb-1968-08-21-fujian-revcom
+    date: 1968-08-21
+    note: 福建省革命委员会成立的报道
+    voice: official1966
+  - text: 叶飞同志为福建省的社会主义革命和建设做出了卓越贡献，受到全省人民的爱戴
+    by: 新华社《叶飞同志生平》
+    cite: rmrb-1999-04-29-ye-fei
+    date: 1999-04-29
+    voice: officialLater
+wei-guoqing:
+  - text: 韦国清同志在这次无产阶级文化大革命中虽然犯了一些错误，但是，他不坚持错误，能够诚恳地检查错误，态度是好的
+    by: 中共中央、国务院、中央军委、中央文革
+    cite: ws-1967-11-18-guangxi-decision
+    date: 1967-11-18
+    note: 关于广西问题的决定
+    voice: official1966
+liu-feng:
+  - text: 那种所谓刘丰“影响不大”或“流毒已经肃清”的说法，是不符合实际情况的
+    by: 中共中央
+    cite: ws-1974-05-21-hubei-instructions
+    date: 1974-05-21
+    note: 关于湖北问题的指示
+    voice: official1966
+pan-fusheng:
+  - text: 无产阶级派性就是党性
+    cite: hljxxw-pan-fusheng
+    note: 黑龙江省地方志办公室《新中国人物志》所述
+    voice: officialLater
+  - text: 潘复生在“文化大革命”时间，确实迫害了一些领导干部和群众，造成一些冤假错案，错误是严重的
+    by: 中共中央
+    cite: hljxxw-pan-fusheng
+    date: 1982-04-23
+    note: 回电答复黑龙江省委，地方志所引
+    voice: officialLater
+jiang-weiqing:
+  - text: 我正在根据中央和总理最近指示，认错请罪，痛改前非，改过自新
+    cite: ccrd-1967-01-22-jiang-weiqing
+    date: 1967-01-22
+    note: 发给毛泽东的认罪电报
+    voice: doc
+
+zhang-linzhi:
+  - text: 要集中炮轰，狠狠地打击
+    by: qi-benyu
+    cite: ws-1983-11-02-qi-benyu-case
+    date: 1966-12-24
+    note: 在北京矿业学院群众大会上，1983 年判决书所述
+    voice: judicial1980
+guan-feng:
+  - text: 要彻底消除这个隐患
+    cite: ws-1983-11-02-qi-benyu-case
+    date: 1966-06-16
+    note: 与戚本禹联名致江青、康生、陈伯达的信，说彭德怀，1983 年判决书所述
+    voice: judicial1980
+li-jingquan:
+  - text: 是刘、邓埋在大西南的一颗定时炸弹，是在西南开辟反革命复辟根据地的罪魁祸首
+    by: liu-jieting
+    cite: ws-1982-liu-zhang-case
+    note: 刘结挺、张西挺诬陷李井泉，1982 年判决书所述
+    voice: judicial1980
+deng-zihui:
+  - text: 邓子恢同志在当年二月的一次中央会议上说过安徽“责任田”的好处，我没有加以反驳，这就使他取得合法地位
+    by: liu-shaoqi
+    cite: ws-1966-10-liu-self-criticism
+    date: 1966-10-23
+    note: 在中央工作会议上的检讨
+    voice: doc
+
+yao-dengshan:
+  - text: 这边是打倒陈姬乔
+    cite: zou-yimin-yao-dengshan
+    note: 在外交部群众大会上发言，回忆文章所述
+    voice: witness
+lin-liguo:
+  - text: 让老虎多单独行动
+    by: lin-biao
+    cite: ws-1972-lin-material-3
+    date: 1969-02-16
+    note: 给周宇驰、刘沛丰的信，1972 年中共中央下发的材料所引
+    voice: official1966
+wang-weiguo:
+  - text: 每一件工作、行动，都要考虑大局
+    cite: ws-1982-wang-weiguo-case
+    date: 1970-05
+    note: 整顿“上海小组”时，1982 年军事检察院起诉书所引
+    voice: judicial1980
+  - text: 王维国是林彪反革命集团重要成员，参与了林彪反革命集团武装政变的阴谋活动
+    by: 中国人民解放军军事检察院
+    cite: ws-1982-wang-weiguo-case
+    date: 1982
+    note: 起诉书
+    voice: judicial1980
+chen-liyun:
+  - text: 妄图“固守浙江”、把浙江变成反革命“根据地”
+    by: 中共中央
+    cite: ws-1972-pishi
+    date: 1972-04-25
+    note: 中共中央批语
+    voice: official1966
+mao-yuanxin:
+  - text: 崇洋媚外，出卖主权
+    cite: ws-1980-indictment
+    date: 1976-02-22
+    note: 对马天水、徐景贤等说邓小平，1980 年起诉书所述
+    voice: judicial1980
+
+zhang-bojun:
+  - text: 一个上帝，九百万清教徒，统治着五亿农民，非造反不可
+    cite: ws-1980-ufwd-rightist-review
+    date: 1956
+    note: 1980 年中央统战部右派复查报告所引
+    voice: officialLater
+chu-anping:
+  - text: 党天下
+    cite: ws-1980-ufwd-rightist-review
+    note: 1980 年中央统战部右派复查报告所引
+    voice: officialLater
+yang-xianzhen:
+  - text: 唯物主义是拿反映论来解决的，唯心主义是拿同一性来解决的
+    cite: ws-1971-01-09-philosophy-struggle
+    note: 中央党校革命大批判写作组 1971 年文章所引
+    voice: official1966
+  - text: 叛徒杨献珍在我国社会主义革命和社会主义建设的紧要关头都跳出来
+    by: 中央党校革命大批判写作组
+    cite: ws-1971-01-09-philosophy-struggle
+    date: 1971-01-09
+    note: 《哲学战线上的一场严重斗争》
+    voice: official1966
+
+xi-zhongxun:
+  - text: 习仲勋同志在这个历史进程中，表现出了解放思想、实事求是、开拓创新的革命胆略
+    by: 新华社《习仲勋同志生平》
+    cite: rmrb-2002-05-31-xi-zhongxun
+    date: 2002-05-30
+    note: 说他主政广东、办经济特区
+    voice: officialLater
+hu-qiaomu:
+  - text: 胡乔木同志的一生是革命的一生，是追求真理、献身于共产主义事业的光辉的一生
+    by: 新华社《胡乔木同志生平》
+    cite: rmrb-1992-10-04-hu-qiaomu
+    date: 1992-10-03
+    voice: officialLater
+yao-yilin:
+  - text: 姚依林同志是“一二·九”抗日爱国运动的主要领导人之一
+    by: 新华社《姚依林同志生平》
+    cite: rmrb-1994-12-19-yao-yilin
+    date: 1994-12-18
+    voice: officialLater
+liu-bocheng:
+  - text: 刘伯承同志在漫长的革命生涯中，兢兢业业，奋进不息，为中华民族和中国人民的解放事业，建立了不朽功勋
+    by: 新华社《刘伯承同志生平》
+    cite: rmrb-1986-10-17-liu-bocheng
+    date: 1986-10-17
+    voice: officialLater
+ba-jin:
+  - text: 巴金同志是我国“五四”新文化运动以来最有影响的文学大师之一
+    by: 新华社《巴金同志生平》
+    cite: xinhua-2005-ba-jin
+    date: 2005-10-24
+    voice: officialLater
+ma-yinchu:
+  - text: 马寅初同志是中国共产党的真挚诤友、坚强不屈的民主战士
+    by: 新华社
+    cite: rmrb-1982-05-23-ma-yinchu
+    date: 1982-05-23
+    voice: officialLater
+  - text: 把正确的说成为错误的，把学术问题，说成是政治问题
+    by: 新华社
+    cite: rmrb-1982-05-23-ma-yinchu
+    date: 1982-05-23
+    note: 说康生、陈伯达策划的对马寅初的“批判”
+    voice: officialLater
+hua-luogeng:
+  - text: 壮志凌云，可喜可贺
+    by: mao-zedong
+    cite: rmrb-1985-06-22-hua-luogeng
+    note: 1964、1965 年两次写信勉励华罗庚，新华社《生平介绍》所引
+    voice: officialLater
+  - text: 华罗庚同志是一位经历过新旧两个不同时代，从爱国主义者转变为共产主义战士的我国知识分子的优秀代表
+    by: 新华社《华罗庚同志生平介绍》
+    cite: rmrb-1985-06-22-hua-luogeng
+    date: 1985-06-22
+    voice: officialLater
+xu-guangda:
+  - text: 将军，你看演得象不象
+    by: jiang-qing
+    cite: rmrb-1979-07-09-xu-guangda
+    note: 看戏时拍着许光达的肩头问，1979 年《人民日报》记者顾雷所记
+    voice: witness
+  - text: 我没有见过，要是象就不是演戏了
+    cite: rmrb-1979-07-09-xu-guangda
+    note: 答江青，1979 年《人民日报》记者顾雷所记
+    voice: witness
+wei-heng:
+  - text: 谁好谁坏，人民最后是会作出判决的
+    cite: rmrb-1986-01-26-wei-heng
+    note: 对身边的同志说，1986 年《人民日报》怀念文章所述
+    voice: witness
+  - text: 我有错误甘愿向人民低头，决不向坏人低头
+    cite: rmrb-1986-01-26-wei-heng
+    note: 被揪斗时，1986 年《人民日报》怀念文章所述
+    voice: witness
+  - text: 纸笔千年会说话
+    cite: rmrb-1986-01-26-wei-heng
+    note: 回应造反派说他的讲话、文章“统统是修正主义”，同一文章所述
+    voice: witness
+bo-yibo:
+  - text: 省委对卫恒同志彻底平反昭雪的决定，我接到后，默默地读了两遍，很受感动
+    cite: rmrb-1986-01-26-wei-heng
+    note: 在山西省委决定上的批注，1986 年《人民日报》怀念卫恒文章所引
+    voice: witness
+
+li-peng:
+  - text: 李鹏下台，谢国安民
+    by: 1989 年游行标语
+    cite: ws-1989-06-30-chen-xitong-report
+    date: 1989
+    note: 陈希同报告所引
+    voice: officialLater
+yan-jiaqi:
+  - text: 废除戒严令，罢免李鹏总理职务
+    cite: ws-1989-06-30-chen-xitong-report
+    date: 1989
+    note: 与包遵信在香港《明报》发表《兼告李鹏书》，陈希同报告所引
+    voice: officialLater
+bao-zunxin:
+  - text: 目前宪法受到少数人的粗暴践踏
+    cite: ws-1989-06-30-chen-xitong-report
+    date: 1989
+    note: 与严家其等致电全国人大常委会领导人，陈希同报告所引
+    voice: officialLater
+wang-dan:
+  - text: 正好可以借戈尔巴乔夫访华压他们
+    cite: ws-1989-06-30-chen-xitong-report
+    date: 1989-05
+    note: 谈选在 13 日开始绝食，陈希同报告所引
+    voice: officialLater
+wan-runnan:
+  - text: 军队回去，戒严取消，李鹏下台，邓小平、杨尚昆退休，赵紫阳复出
+    cite: ws-1989-06-30-chen-xitong-report
+    date: 1989
+    note: 提出的退出天安门广场的六个条件，陈希同报告所引
+    voice: officialLater
+jin-guantao:
+  - text: 社会主义的尝试及其失败，是二十世纪人类的两大遗产之一
+    cite: ws-1989-06-30-chen-xitong-report
+    date: 1988-12-07
+    note: 在北京大学未来学会讨论会上，陈希同报告所引
+    voice: officialLater
+ge-yang:
+  - text: 金观涛对社会主义的否定不是太厉害了，而是客气了一点
+    cite: ws-1989-06-30-chen-xitong-report
+    note: 陈希同报告所引
+    voice: officialLater
+wei-jingsheng:
+  - text: 难道独裁就等于人民的幸福吗
+    cite: wjs-1978-fifth-modernization
+    date: 1978-12-05
+    note: 《第五个现代化》
+    voice: doc
+  - text: 让我们团结在这一伟大而真实的旗帜下，为谋求人民的安宁与幸福，为谋求人民的权利与自由，向社会制度的现代化进军吧
+    cite: wjs-1978-fifth-modernization
+    date: 1978-12-05
+    note: 《第五个现代化》结尾
+    voice: doc
+liu-binyan:
+  - text: 都是为了展示一个真理，就是中国共产党的腐败
+    cite: rmrb-1987-01-25-liu-binyan
+    note: 说《人妖之间》《千秋功罪》，人民日报社机关纪委开除其党籍的决定所引
+    voice: officialLater
+
+zhang-zhixin:
+  - text: 张志新同志是一个很好的党员，坚持真理，坚持党性，坚持斗争，宁死不屈
+    by: ren-zhongyi
+    cite: people-2014-ren-zhongyi-zhang-zhixin
+    date: 1979
+    note: 人民网党史文章所述
+    voice: officialLater
+  - text: 张志新是刘胡兰式的英雄人物，《人民日报》应该刊登
+    by: hu-yaobang
+    cite: people-2014-ren-zhongyi-zhang-zhixin
+    date: 1979
+    note: 人民网党史文章所述
+    voice: officialLater
+ren-zhongyi:
+  - text: 把这些说成是她的，是不公平的
+    cite: people-2014-ren-zhongyi-zhang-zhixin
+    date: 1979
+    note: 为张志新平反定调时说她批评毛泽东的言论，人民网党史文章所述
+    voice: officialLater
+shi-yunfeng:
+  - text: 全面审查文革中的错误
+    cite: hyh-2024-blood-sacrifice-4
+    date: 1974-10-26
+    note: 散发的标语、传单，何与怀文章所引
+    voice: scholar
+yan-fengying:
+  - text: 那些斗过严凤英，诬陷过严凤英，尤其是整过严凤英的人，没有一个敢承担责任
+    by: 苏晓康
+    cite: su-xiaokang-yan-fengying
+    note: 《我们的“七仙女”》
+    voice: witness
+feng-youlan:
+  - text: 我当时自以为是跟着毛主席、党中央走的，鼓励我的那些群众也是这样想的，至少也是这样说的
+    cite: aisixiang-chen-xiaoping-liang-feng
+    note: 反省自己在“批林批孔”中的表现，陈晓平文章所引
+    voice: scholar
+  - text: 不必急于求效，可以慢慢地改，总以采取老实态度为宜
+    by: mao-zedong
+    cite: aisixiang-chen-xiaoping-liang-feng
+    note: 给冯友兰的回信，陈晓平文章所引
+    voice: scholar
+yang-rongguo:
+  - text: 批判孔子的反动思想，对参加现实的阶级斗争，特别是对抓上层建筑意识形态领域的阶级斗争，是会有帮助的
+    cite: rmrb-1973-08-07-yang-rongguo
+    date: 1973-08-07
+    note: 《孔子——顽固地维护奴隶制的思想家》
+    voice: official1966
+  - text: 杨荣国同志在‘批林批孔’期间，为迎合‘四人帮’所谓‘儒法斗争’的需要，不惜歪曲事实，散布了不少错误观点
+    by: 中共广东省纪委
+    cite: ifeng-2007-yang-rongguo
+    date: 1982-06
+    note: 结论，凤凰网文章所引
+    voice: officialLater
+tang-yijie:
+  - text: 我该听谁的
+    cite: thepaper-2014-tang-yijie
+    note: 毛泽东去世、“四人帮”倒台后被隔离审查时，澎湃新闻所述
+    voice: scholar
+  - text: 当年因为是毛主席找的我们，我们都觉得特别骄傲
+    cite: pku-2014-tang-yijie
+    note: 说进入“梁效”
+    voice: scholar
+li-xifan:
+  - text: 当时详细情况我不了解，无非是毛主席对文艺界权威统治不太满意，他的思想是希望年轻人快快成长，不要挡住他们的路
+    cite: sdu-li-xifan
+    note: 晚年谈往事
+    voice: witness
+li-qinglin:
+  - text: 自失去自由，直至获释出狱生还家门，历时17个春秋，如此漫长的岁月，不堪回首
+    cite: jwb-2007-li-qinglin
+    note: 1994 年提前出狱后，《名人传记》所引
+    voice: witness
+mu-xin:
+  - text: 既不许见面，也不许写信，音讯杳然，生死未卜，格外悬念
+    cite: ipk-mu-xin-qincheng
+    note: 回忆秦城监狱中与家人隔绝
+    voice: witness
+jin-jingmai:
+  - text: 响鼓也用重锤敲，你写的这句话好啊
+    by: 巴金
+    cite: chinawriter-2014-jin-jingmai
+    note: 对金敬迈说，冯乔文章所述
+    voice: scholar
+qian-haoliang:
+  - text: 犯有严重政治错误，免于起诉
+    by: 审查结论
+    cite: thepaper-2020-qian-haoliang
+    date: 1981
+    note: 隔离审查五年后的定性，澎湃新闻所述
+    voice: scholar
+liu-qingtang:
+  - text: 邓小平是右倾翻案的总代表
+    cite: ws-1983-liu-qingtang-case
+    date: 1975
+    note: 在芭蕾舞剧团党委会上，1983 年起诉书所述
+    voice: judicial1980
+  - text: 要写表现走资派，而且是不肯改悔的走资派的作品
+    cite: ws-1983-liu-qingtang-case
+    note: 布置电影制片厂调整拍摄计划，1983 年起诉书所述
+    voice: judicial1980
+  - text: 被告人刘庆棠是江青反革命集团的重要骨干
+    by: 北京市人民检察院分院
+    cite: ws-1983-liu-qingtang-case
+    date: 1983-11-02
+    note: 起诉书
+    voice: judicial1980
+
+wang-jinxi:
+  - text: 石油工人一声吼，地球也要抖三抖
+    cite: rmrb-1972-01-27-wang-jinxi
+    note: 王进喜的诗，1972 年新华社通讯所引
+    voice: official1966
+  - text: 打井要跟天斗，跟地斗，也要跟阶级敌人斗，跟错误思想斗
+    cite: rmrb-1972-01-27-wang-jinxi
+    note: 1972 年新华社通讯所引
+    voice: official1966
+  - text: 你们的王队长可真是个铁人啊
+    by: 井场附近的老乡
+    cite: rmrb-1972-01-27-wang-jinxi
+    note: 1960 年大庆会战中，1972 年新华社通讯所述
+    voice: official1966
+shi-chuanxiang:
+  - text: 时传祥是工贼
+    by: jiang-qing
+    cite: rmrb-1978-07-06-shi-chuanxiang
+    note: 1978 年新华社平反报道所述
+    voice: officialLater
+  - text: 时传祥被资产阶级收买了
+    by: chen-boda
+    cite: rmrb-1978-07-06-shi-chuanxiang
+    note: 1978 年新华社平反报道所述
+    voice: officialLater
+  - text: 难道文化大革命是要打倒一个掏粪工人
+    by: zhou-enlai
+    cite: rmrb-1978-07-06-shi-chuanxiang
+    note: 听说时传祥受迫害时，1978 年新华社平反报道所述
+    voice: officialLater
+li-shunda:
+  - text: 共产党员一定要讲真话
+    cite: sxu-li-shunda
+    note: 他坚持的信条，行龙《劳动模范李顺达的个人生活史》所述
+    voice: scholar
+wang-guofan:
+  - text: 是我们整个国家的形象
+    by: mao-zedong
+    cite: thepaper-2024-wang-guofan
+    date: 1955
+    note: 为《中国农村的社会主义高潮》写的按语，说王国藩“穷棒子社”
+    voice: officialLater
+shi-laihe:
+  - text: 党领导人民走社会主义道路，就是让大家都过上好日子，如果群众一直过不上好日子，那就是咱共产党人没本事
+    cite: rmrb-2003-09-15-shi-laihe
+    note: 2003 年《人民日报》通讯所述
+    voice: officialLater
+  - text: 谁离开生产出外串联不记工分、不发盘缠；贴大字报，集体一分钱不报销
+    cite: rmrb-2003-09-15-shi-laihe
+    note: 文革中在村里群众大会上宣布，2003 年《人民日报》通讯所述
+    voice: officialLater
+jin-xunhua:
+  - text: 毛泽东思想时代的革命青年是不好侮的
+    cite: rmrb-1969-12-06-jin-xunhua
+    date: 1969-08-14
+    note: 生前最后一页日记，1969 年《人民日报》所引
+    voice: official1966
+  - text: 金训华不愧是毛主席的红卫兵
+    by: 《红旗》杂志评论员
+    cite: ws-1969-jin-xunhua
+    date: 1969-12-04
+    note: 《革命青年的榜样》
+    voice: official1966
+men-he:
+  - text: 无限忠于毛主席革命路线的好干部
+    by: 中共中央、中央军委、中央文革
+    cite: rmrb-1968-05-28-men-he
+    date: 1968-05-27
+    note: 追授的称号
+    voice: official1966
