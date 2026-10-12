@@ -923,3 +923,528 @@
     - { name: 周兴, title: 主任, from: 1971, to: 1975 }
     - { name: 贾启允, title: 主任, from: 1975, to: 1977 }
     - { name: 安平生, title: 主任, from: 1977, to: 1979-12 }
+
+# ── org expansion O2: provincial people's governments ──
+# 1949–1954 人民政府（主席），1955–1967 人民委员会（省长），1967–1979 由革命委员会取代，1979 年底起恢复人民政府。
+# One body per province; the revolutionary-committee years are a suspension. Heads from general reference, verify.
+- id: bj-gov
+  name: 北京市人民政府
+  aliases: [北京市人民政府, 北京市人民委员会, 北平市人民政府]
+  kind: state
+  level: provincial
+  from: 1949-02
+  suspended: [{ from: 1967-04-20, to: 1979-12, note: 由北京市革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 彭真任市长十五年，1966 年 5 月被打倒后由吴德代理，1967 年 4 月北京市革委会成立。1979 年恢复。1989 年 6 月 30 日市长陈希同向全国人大常委会作“平息反革命暴乱”的报告。
+  verify: true
+  leaders:
+    - { name: 叶剑英, title: 市长, from: 1949-02, to: 1949-11 }
+    - { name: 聂荣臻, title: 市长, from: 1949-11, to: 1951-02 }
+    - { name: 彭真, title: 市长, from: 1951-02, to: 1966-05 }
+    - { name: 吴德, title: 代理市长, from: 1966-05, to: 1967-04-20 }
+    - { name: 林乎加, title: 市长, from: 1979-12, to: 1981-03 }
+    - { name: 焦若愚, title: 市长, from: 1981-03, to: 1983-04 }
+    - { name: 陈希同, title: 市长, from: 1983-04, to: 1993-01 }
+
+- id: sh-gov
+  name: 上海市人民政府
+  aliases: [上海市人民政府, 上海市人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-05-28
+  suspended: [{ from: 1967-02-24, to: 1979-12, note: 1967 年 1 月被夺权，由上海市革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: shanghai }]
+  summary: 1967 年“一月风暴”中造反派宣布不再承认市长曹荻秋，2 月成立“上海人民公社”，旋改市革委会。1979 年恢复后，汪道涵、江泽民、朱镕基相继任市长。
+  verify: true
+  leaders:
+    - { name: 陈毅, title: 市长, from: 1949-05, to: 1958-11 }
+    - { name: 柯庆施, title: 市长, from: 1958-11, to: 1965-04-09 }
+    - { name: 曹荻秋, title: 市长, from: 1965-11, to: 1967-01 }
+    - { name: 彭冲, title: 市长, from: 1979-12, to: 1980-04 }
+    - { name: 汪道涵, title: 市长, from: 1981-04, to: 1985-07 }
+    - { name: 江泽民, title: 市长, from: 1985-07, to: 1988-04 }
+    - { name: 朱镕基, title: 市长, from: 1988-04 }
+
+- id: tj-gov
+  name: 天津市人民政府
+  aliases: [天津市人民政府, 天津市人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-01
+  suspended: [{ from: 1967-12-06, to: 1980, note: 由天津市革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: tianjin }]
+  summary: 1958–1967 年天津改为河北省辖市并作省会，1967 年恢复直辖。1982–1989 年李瑞环任市长。
+  verify: true
+  leaders:
+    - { name: 黄敬, title: 市长, from: 1949-01, to: 1952, note: 止点待核 }
+    - { name: 胡启立, title: 市长, from: 1980, to: 1982 }
+    - { name: 李瑞环, title: 市长, from: 1982, to: 1989 }
+    - { name: 聂璧初, title: 市长, from: 1989 }
+
+- id: hebei-gov
+  name: 河北省人民政府
+  aliases: [河北省人民政府, 河北省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-08
+  suspended: [{ from: 1968-02-03, to: 1979-12, note: 由河北省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places:
+    - { at: baoding, to: 1958-04 }
+    - { at: tianjin, from: 1958-04, to: 1966-04 }
+    - { at: shijiazhuang, from: 1968-02 }
+  summary: 省会三迁：保定、天津、石家庄。1963 年海河流域大水后，毛泽东题词“一定要根治海河”。
+  verify: true
+  leaders:
+    - { name: 杨秀峰, title: 主席, from: 1949-08, to: 1952, note: 止点待核 }
+    - { name: 刘子厚, title: 省长, from: 1958, to: 1968-02, note: 起点待核 }
+    - { name: 李尔重, title: 省长, from: 1979-12, to: 1982, note: 起止待核 }
+    - { name: 张曙光, title: 省长, from: 1983, to: 1986 }
+    - { name: 岳岐峰, title: 省长, from: 1988 }
+
+- id: shanxi-gov
+  name: 山西省人民政府
+  aliases: [山西省人民政府, 山西省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-09
+  suspended: [{ from: 1967-03-18, to: 1979-12, note: 由山西省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: taiyuan }]
+  summary: 卫恒任省长至 1965 年 6 月接任省委第一书记，副省长有 1959 年庐山会议后下放的黄克诚。1967 年 1 月卫恒被迫害致死，3 月省革委会成立。
+  verify: true
+  leaders:
+    - { name: 程子华, title: 主席, from: 1949-09, to: 1951 }
+    - { name: 裴丽生, title: 省长, from: 1951, to: 1956, note: 起止待核 }
+    - { name: 卫恒, title: 省长, from: 1958, to: 1965-06, note: 起点待核 }
+    - { name: 王谦, title: 省长, from: 1965-06, to: 1967-03 }
+    - { name: 罗贵波, title: 省长, from: 1979-12, to: 1982, note: 起止待核 }
+    - { name: 王森浩, title: 省长, from: 1983-04 }
+
+- id: nmg-gov
+  name: 内蒙古自治区人民政府
+  aliases: [内蒙古自治区人民政府, 内蒙古自治区人民委员会]
+  kind: state
+  level: provincial
+  from: 1947-05-01
+  suspended: [{ from: 1967-11-01, to: 1979-12, note: 由内蒙古自治区革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: hohhot }]
+  summary: 1947 年成立的第一个省级民族自治区。乌兰夫任主席二十年，1966 年 5 月华北局前门饭店会议上被打倒，此后“挖内人党”冤案波及数十万人。
+  verify: true
+  leaders:
+    - { name: 乌兰夫, title: 主席, from: 1947-05-01, to: 1966-08 }
+    - { name: 孔飞, title: 主席, from: 1979-12, to: 1982, note: 起止待核 }
+    - { name: 布赫, title: 主席, from: 1983 }
+
+- id: ln-gov
+  name: 辽宁省人民政府
+  aliases: [辽宁省人民政府, 辽宁省人民委员会]
+  kind: state
+  level: provincial
+  from: 1954-08
+  suspended: [{ from: 1968-05-10, to: 1979-12, note: 由辽宁省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: shenyang }]
+  summary: 1954 年由辽东、辽西两省合并而成，是重工业基地。
+  verify: true
+  leaders:
+    - { name: 杜者蘅, title: 省长, from: 1954-08, to: 1958 }
+    - { name: 黄欧东, title: 省长, from: 1958, to: 1968-05 }
+    - { name: 全树仁, title: 省长, from: 1983, to: 1986, note: 起止待核 }
+    - { name: 李长春, title: 省长, from: 1986, to: 1990, note: 起止待核 }
+
+- id: jl-gov
+  name: 吉林省人民政府
+  aliases: [吉林省人民政府, 吉林省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-05
+  suspended: [{ from: 1968-03-06, to: 1979-12, note: 由吉林省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: jilin-city, to: 1954 }, { at: changchun, from: 1954 }]
+  summary: 1954 年省会由吉林市迁到长春。
+  verify: true
+
+- id: hlj-gov
+  name: 黑龙江省人民政府
+  aliases: [黑龙江省人民政府, 黑龙江省人民委员会]
+  kind: state
+  level: provincial
+  from: 1954-08
+  suspended: [{ from: 1967-01-31, to: 1979-12, note: 由黑龙江省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: harbin }]
+  summary: 1954 年与松江省合并。1967 年 1 月 31 日成立“红色造反者革命委员会”，是全国第一个省级革委会；1983 年陈雷复任省长。
+  verify: true
+  leaders:
+    - { name: 陈雷, title: 省长, from: 1956, to: 1967-01, note: 起点待核 }
+    - { name: 陈雷, title: 省长, from: 1983, to: 1985 }
+    - { name: 侯捷, title: 省长, from: 1985, to: 1989 }
+    - { name: 邵奇惠, title: 省长, from: 1989 }
+
+- id: sn-gov
+  name: 陕西省人民政府
+  aliases: [陕西省人民政府, 陕西省人民委员会]
+  kind: state
+  level: provincial
+  from: 1950-01
+  suspended: [{ from: 1968-05-01, to: 1979-12, note: 由陕西省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: xian }]
+  summary: 1950 年代省长赵寿山原为西北军将领。1979 年恢复后于明涛任省长，后调任首任审计长。
+  verify: true
+  leaders:
+    - { name: 赵寿山, title: 省长, from: 1955, to: 1958, note: 起止待核 }
+    - { name: 李启明, title: 省长, from: 1964, to: 1967, note: 起止待核 }
+    - { name: 于明涛, title: 省长, from: 1979-12, to: 1983 }
+    - { name: 李庆伟, title: 省长, from: 1983, to: 1987 }
+    - { name: 侯宗宾, title: 省长, from: 1987 }
+
+- id: gs-gov
+  name: 甘肃省人民政府
+  aliases: [甘肃省人民政府, 甘肃省人民委员会]
+  kind: state
+  level: provincial
+  from: 1950-01
+  suspended: [{ from: 1968-01-24, to: 1979-12, note: 由甘肃省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: lanzhou }]
+  summary: 原国民党将领、北平和平谈判代表邓宝珊任省长近二十年，1968 年在文革中去世。大跃进时期甘肃饥荒严重，通渭等县大量饿死人。
+  verify: true
+  leaders:
+    - { name: 邓宝珊, title: 主席、省长, from: 1950-01, to: 1968-11-27 }
+    - { name: 冯纪新, title: 省长, from: 1979-12, to: 1981 }
+    - { name: 李登瀛, title: 省长, from: 1981, to: 1983 }
+    - { name: 陈光毅, title: 省长, from: 1983, to: 1986 }
+    - { name: 贾志杰, title: 省长, from: 1986 }
+
+- id: nx-gov
+  name: 宁夏回族自治区人民政府
+  aliases: [宁夏回族自治区人民政府, 宁夏回族自治区人民委员会]
+  kind: state
+  level: provincial
+  from: 1958-10-25
+  suspended: [{ from: 1968-04-10, to: 1979-12, note: 由宁夏回族自治区革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: yinchuan }]
+  summary: 1958 年 10 月成立。首任主席刘格平 1960 年被打成“地方民族主义”而撤职，文革中又出任山西省革委会主任。
+  verify: true
+  leaders:
+    - { name: 刘格平, title: 主席, from: 1958-10, to: 1960 }
+    - { name: 杨静仁, title: 主席, from: 1960, to: 1967, note: 起止待核 }
+    - { name: 黑伯理, title: 主席, from: 1983, to: 1986 }
+    - { name: 白立忱, title: 主席, from: 1986 }
+
+- id: qh-gov
+  name: 青海省人民政府
+  aliases: [青海省人民政府, 青海省人民委员会]
+  kind: state
+  level: provincial
+  from: 1950-01
+  suspended: [{ from: 1967-08-12, to: 1979-12, note: 由青海省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: xining }]
+  summary: 1967 年 2 月 23 日西宁“二二三事件”中驻军向围占《青海日报》社的群众开枪，造成大量死伤，后中央为被镇压者平反。省长王昭在文革中被迫害致死。
+  verify: true
+  leaders:
+    - { name: 赵寿山, title: 主席, from: 1950-01, to: 1952, note: 起止待核 }
+    - { name: 王昭, title: 省长, from: 1963, to: 1967, note: 起止待核 }
+
+- id: xj-gov
+  name: 新疆维吾尔自治区人民政府
+  aliases: [新疆维吾尔自治区人民政府, 新疆维吾尔自治区人民委员会, 新疆省人民政府]
+  kind: state
+  level: provincial
+  from: 1949-12
+  suspended: [{ from: 1968-09-05, to: 1979-12, note: 由新疆维吾尔自治区革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: urumqi }]
+  summary: 1949 年 12 月成立新疆省人民政府，1955 年 10 月改为自治区。赛福鼎·艾则孜任主席至文革。
+  verify: true
+  leaders:
+    - { name: 包尔汉, title: 主席, from: 1949-12, to: 1955-09 }
+    - { name: 赛福鼎·艾则孜, title: 主席, from: 1955-10, to: 1968-09 }
+    - { name: 铁木尔·达瓦买提, title: 主席, from: 1985 }
+
+- id: xz-gov
+  name: 西藏自治区人民政府
+  aliases: [西藏自治区人民政府, 西藏自治区人民委员会]
+  kind: state
+  level: provincial
+  from: 1965-09-09
+  suspended: [{ from: 1968-09-05, to: 1979-08, note: 由西藏自治区革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: lhasa }]
+  summary: 1959 年达赖喇嘛出走后由西藏自治区筹备委员会代行职权，1965 年 9 月自治区成立，阿沛·阿旺晋美任主席。
+  verify: true
+  leaders:
+    - { name: 阿沛·阿旺晋美, title: 主席, from: 1965-09, to: 1968-09 }
+    - { name: 多吉才让, title: 主席, from: 1985, to: 1990 }
+
+- id: sd-gov
+  name: 山东省人民政府
+  aliases: [山东省人民政府, 山东省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-03
+  suspended: [{ from: 1967-02-03, to: 1979-12, note: 由山东省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: jinan }]
+  summary: 康生 1949 年起挂名省政府主席。1967 年 2 月王效禹在山东夺权，是全国第二个省级革委会。
+  verify: true
+  leaders:
+    - { name: 康生, title: 主席, from: 1949-03, to: 1955, note: 起止待核 }
+    - { name: 赵健民, title: 省长, from: 1955, to: 1958, note: 起止待核 }
+    - { name: 白如冰, title: 省长, from: 1963, to: 1967-02, note: 起点待核 }
+    - { name: 李昌安, title: 省长, from: 1985, to: 1987 }
+    - { name: 姜春云, title: 省长, from: 1987, to: 1989 }
+    - { name: 赵志浩, title: 省长, from: 1989 }
+
+- id: js-gov
+  name: 江苏省人民政府
+  aliases: [江苏省人民政府, 江苏省人民委员会]
+  kind: state
+  level: provincial
+  from: 1952-11
+  suspended: [{ from: 1968-03-23, to: 1979-12, note: 由江苏省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: nanjing }]
+  summary: 1952 年由苏南、苏北行署区和南京市合并而成。惠浴宇在文革前后两度任省长。
+  verify: true
+  leaders:
+    - { name: 惠浴宇, title: 省长, from: 1955, to: 1967, note: 起点待核 }
+    - { name: 惠浴宇, title: 省长, from: 1979-12, to: 1982 }
+    - { name: 顾秀莲, title: 省长, from: 1983, to: 1989 }
+    - { name: 陈焕友, title: 省长, from: 1989 }
+
+- id: ah-gov
+  name: 安徽省人民政府
+  aliases: [安徽省人民政府, 安徽省人民委员会]
+  kind: state
+  level: provincial
+  from: 1952-08
+  suspended: [{ from: 1968-04-18, to: 1979-12, note: 由安徽省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: hefei }]
+  summary: 1952 年由皖南、皖北行署区合并而成。1959–1961 年饥荒严重；1978 年后率先推开包产到户。
+  verify: true
+  leaders:
+    - { name: 曾希圣, title: 省长, from: 1952-08, to: 1955, note: 起止待核 }
+    - { name: 黄岩, title: 省长, from: 1955, to: 1967, note: 起止待核 }
+    - { name: 王郁昭, title: 省长, from: 1983, to: 1987 }
+
+- id: zj-gov
+  name: 浙江省人民政府
+  aliases: [浙江省人民政府, 浙江省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-05
+  suspended: [{ from: 1968-03-24, to: 1979-12, note: 由浙江省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: hangzhou }]
+  summary: 省长沙文汉 1957 年被划为右派并撤职，鲁迅之弟周建人接任至文革。
+  verify: true
+  leaders:
+    - { name: 谭震林, title: 主席, from: 1949-05, to: 1952, note: 起止待核 }
+    - { name: 沙文汉, title: 省长, from: 1955-02, to: 1957-12 }
+    - { name: 周建人, title: 省长, from: 1958, to: 1968-03 }
+    - { name: 李丰平, title: 省长, from: 1979-12, to: 1983 }
+    - { name: 薛驹, title: 省长, from: 1983, to: 1988 }
+    - { name: 沈祖伦, title: 省长, from: 1988 }
+
+- id: fj-gov
+  name: 福建省人民政府
+  aliases: [福建省人民政府, 福建省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-08
+  suspended: [{ from: 1968-08-19, to: 1979-12, note: 由福建省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: fuzhou }]
+  summary: 对台前线省份。1950 年代叶飞任省长兼福州军区司令员；1980 年设立厦门经济特区。
+  verify: true
+  leaders:
+    - { name: 张鼎丞, title: 主席, from: 1949-08, to: 1954 }
+    - { name: 叶飞, title: 省长, from: 1954, to: 1959, note: 起止待核 }
+    - { name: 江一真, title: 省长, from: 1959, to: 1962, note: 起止待核 }
+    - { name: 马兴元, title: 省长, from: 1979-12, to: 1983 }
+    - { name: 胡平, title: 省长, from: 1983, to: 1987 }
+    - { name: 王兆国, title: 省长, from: 1987 }
+
+- id: jx-gov
+  name: 江西省人民政府
+  aliases: [江西省人民政府, 江西省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-06
+  suspended: [{ from: 1968-01-05, to: 1979-12, note: 由江西省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: nanchang }]
+  summary: 邵式平任省长十六年，1965 年去世。1969–1973 年邓小平下放在新建县拖拉机修造厂劳动。
+  verify: true
+  leaders:
+    - { name: 邵式平, title: 主席、省长, from: 1949-06, to: 1965-03-24 }
+    - { name: 方志纯, title: 省长, from: 1965, to: 1968-01 }
+    - { name: 白栋材, title: 省长, from: 1979-12, to: 1982 }
+    - { name: 赵增益, title: 省长, from: 1983, to: 1985 }
+    - { name: 吴官正, title: 省长, from: 1986 }
+
+- id: ha-gov
+  name: 河南省人民政府
+  aliases: [河南省人民政府, 河南省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-05
+  suspended: [{ from: 1968-01-27, to: 1979-12, note: 由河南省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: kaifeng, to: 1954-10 }, { at: zhengzhou, from: 1954-10 }]
+  summary: 1954 年省会由开封迁郑州。大跃进中吴芝圃主政，遂平嵖岈山建立第一个人民公社，1959–1960 年信阳地区大量饿死人。
+  verify: true
+  leaders:
+    - { name: 吴芝圃, title: 主席、省长, from: 1949-05, to: 1962, note: 起止待核 }
+    - { name: 文敏生, title: 省长, from: 1962, to: 1968-01, note: 起止待核 }
+    - { name: 何竹康, title: 省长, from: 1983, to: 1987 }
+    - { name: 程维高, title: 省长, from: 1987 }
+
+- id: hubei-gov
+  name: 湖北省人民政府
+  aliases: [湖北省人民政府, 湖北省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-05
+  suspended: [{ from: 1968-02-05, to: 1979-12, note: 由湖北省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: wuhan }]
+  summary: 省长张体学 1967 年被打倒，1973 年去世。
+  verify: true
+  leaders:
+    - { name: 李先念, title: 主席, from: 1949-05, to: 1954 }
+    - { name: 刘子厚, title: 省长, from: 1954, to: 1956 }
+    - { name: 张体学, title: 省长, from: 1956, to: 1968-02 }
+    - { name: 韩宁夫, title: 省长, from: 1979-12, to: 1983 }
+    - { name: 黄知真, title: 省长, from: 1983, to: 1986 }
+    - { name: 郭振乾, title: 省长, from: 1986 }
+
+- id: hn-gov
+  name: 湖南省人民政府
+  aliases: [湖南省人民政府, 湖南省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-08
+  suspended: [{ from: 1968-04-08, to: 1979-12, note: 由湖南省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: changsha }]
+  summary: 原国民党将领程潜 1949 年在长沙起义，1952 年起任省长至 1968 年去世。
+  verify: true
+  leaders:
+    - { name: 王首道, title: 主席, from: 1949-08, to: 1952 }
+    - { name: 程潜, title: 主席、省长, from: 1952, to: 1968-04-05 }
+    - { name: 孙国治, title: 省长, from: 1979-12, to: 1983 }
+    - { name: 刘正, title: 省长, from: 1983, to: 1985 }
+    - { name: 熊清泉, title: 省长, from: 1985, to: 1989 }
+    - { name: 陈邦柱, title: 省长, from: 1989 }
+
+- id: gd-gov
+  name: 广东省人民政府
+  aliases: [广东省人民政府, 广东省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-11
+  suspended: [{ from: 1968-02-21, to: 1979-12, note: 由广东省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: guangzhou }]
+  summary: 1979 年习仲勋以省委第一书记兼省长主持“特殊政策、灵活措施”，次年设深圳、珠海、汕头经济特区。
+  verify: true
+  leaders:
+    - { name: 叶剑英, title: 主席, from: 1949-11, to: 1953, note: 止点待核 }
+    - { name: 陶铸, title: 省长, from: 1955, to: 1957 }
+    - { name: 陈郁, title: 省长, from: 1957, to: 1967 }
+    - { name: 习仲勋, title: 省长, from: 1979-12, to: 1981-03 }
+    - { name: 刘田夫, title: 省长, from: 1981-03, to: 1983-04 }
+    - { name: 梁灵光, title: 省长, from: 1983-04, to: 1985-07 }
+    - { name: 叶选平, title: 省长, from: 1985-07 }
+
+- id: gx-gov
+  name: 广西壮族自治区人民政府
+  aliases: [广西壮族自治区人民政府, 广西壮族自治区人民委员会, 广西省人民政府]
+  kind: state
+  level: provincial
+  from: 1949-12
+  suspended: [{ from: 1968-08-26, to: 1979-12, note: 由广西壮族自治区革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: nanning }]
+  summary: 1958 年 3 月由广西省改为壮族自治区。韦国清任主席二十年，1968 年起又任自治区革委会主任，任内广西“四二二”与“联指”武斗和屠杀极为惨烈。
+  verify: true
+  leaders:
+    - { name: 张云逸, title: 主席, from: 1949-12, to: 1955 }
+    - { name: 韦国清, title: 省长、主席, from: 1955, to: 1975 }
+    - { name: 覃应机, title: 主席, from: 1979-12, to: 1983 }
+    - { name: 韦纯束, title: 主席, from: 1983 }
+
+- id: sc-gov
+  name: 四川省人民政府
+  aliases: [四川省人民政府, 四川省人民委员会]
+  kind: state
+  level: provincial
+  from: 1952-09
+  suspended: [{ from: 1968-05-31, to: 1979-12, note: 由四川省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: chengdu }]
+  summary: 1952 年由川东、川西、川南、川北四个行署区合并而成。1975 年起赵紫阳主政，扩大企业自主权的试点从这里开始。
+  verify: true
+  leaders:
+    - { name: 李井泉, title: 主席, from: 1952-09, to: 1955 }
+    - { name: 李大章, title: 省长, from: 1955, to: 1968-05, note: 止点待核 }
+    - { name: 鲁大东, title: 省长, from: 1979-12, to: 1982, note: 起止待核 }
+    - { name: 蒋民宽, title: 省长, from: 1985, to: 1988, note: 起点待核 }
+    - { name: 张皓若, title: 省长, from: 1988 }
+
+- id: gz-gov
+  name: 贵州省人民政府
+  aliases: [贵州省人民政府, 贵州省人民委员会]
+  kind: state
+  level: provincial
+  from: 1949-11
+  suspended: [{ from: 1967-02-13, to: 1979-12, note: 由贵州省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: guiyang }]
+  summary: 1964–1965 年“四清”中省委被中央改组，周林被撤职，李大章、钱瑛等奉派接管。1967 年 2 月造反派夺权，是最早的省级革委会之一。
+  verify: true
+  leaders:
+    - { name: 周林, title: 省长, from: 1955, to: 1965, note: 起止待核 }
+    - { name: 王朝文, title: 省长, from: 1983 }
+
+- id: yn-gov
+  name: 云南省人民政府
+  aliases: [云南省人民政府, 云南省人民委员会]
+  kind: state
+  level: provincial
+  from: 1950-03
+  suspended: [{ from: 1968-08-13, to: 1979-12, note: 由云南省革命委员会取代 }]
+  under: [{ org: state-council }]
+  places: [{ at: kunming }]
+  summary: 首任主席陈赓兼云南军区司令员。文革中“划线站队”与“挖滇西挺进纵队”冤案牵连甚广。
+  verify: true
+  leaders:
+    - { name: 陈赓, title: 主席, from: 1950-03, to: 1955, note: 止点待核 }
+    - { name: 郭影秋, title: 省长, from: 1955, to: 1957, note: 起止待核 }
+    - { name: 刘明辉, title: 省长, from: 1979-12, to: 1983 }
+    - { name: 普朝柱, title: 省长, from: 1983, to: 1985 }
+    - { name: 和志强, title: 省长, from: 1985 }
+
+- id: cq-gov
+  name: 重庆市人民政府
+  aliases: [重庆市人民政府, 重庆市人民委员会]
+  kind: state
+  level: local
+  from: 1949-12
+  places: [{ at: chongqing }]
+  summary: 1949–1954 年为中央直辖市和西南局驻地，1954 年改为四川省辖市。陈锡联、曹荻秋先后任市长。
+  verify: true
+  leaders:
+    - { name: 陈锡联, title: 市长, from: 1949-12, to: 1950 }
+    - { name: 曹荻秋, title: 市长, from: 1952, to: 1954 }

@@ -250,6 +250,8 @@
 - { id: laiyuan, name: 河北涞源, names: [涞源], lat: 39.36, lon: 114.69 }
 - { id: xunke, name: 黑龙江逊克, names: [逊克], lat: 49.58, lon: 128.48 }
 - { id: zhengding, name: 河北正定, names: [正定], lat: 38.15, lon: 114.57 }
+# org expansion O2
+- { id: jilin-city, name: 吉林市, names: [吉林市], lat: 43.84, lon: 126.55 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
