@@ -14,6 +14,33 @@
   cites: [wjs-1978-fifth-modernization]
   verify: true
 
+- id: 1978-12-third-plenum
+  date: 1978-12-18
+  end: 1978-12-22
+  title: 十一届三中全会：工作重点转向现代化建设，平反天安门事件
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 会前一个多月的中央工作会议上，陈云等提出平反天安门事件、彭德怀、陶铸、“六十一人案”等问题，会议风向扭转；邓小平作《解放思想，实事求是，团结一致向前看》的讲话。全会决定停止“以阶级斗争为纲”、把工作重点转到现代化建设，肯定真理标准讨论，撤销“反击右倾翻案风”和天安门事件的文件，增选陈云为常委并任新设的中纪委第一书记，胡耀邦等进入政治局。1981 年决议称之为“伟大转折”。
+  people: [deng-xiaoping, hua-guofeng, chen-yun, ye-jianying, hu-yaobang, wang-dongxing, li-xiannian, xi-zhongxun]
+  voices:
+    - { voice: officialLater, text: 把全党工作的着重点和全国人民的注意力转移到社会主义现代化建设上来（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
+    - { voice: officialLater, text: 全会决定撤销中央发出的有关“反击右倾翻案风”运动和天安门事件的文件（同一公报）, cite: ws-1978-12-third-plenum, quote: true }
+    - { voice: official1981, text: 一九七八年十二月召开的十一届三中全会，是建国以来我党历史上具有深远意义的伟大转折（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1978-12-third-plenum, ws-1981-resolution]
+
+- id: 1979-07-15-special-zones
+  date: 1979-07-15
+  title: 中央批准广东、福建实行特殊政策，试办出口特区
+  lane: econ
+  weight: 2
+  place: 广东、福建
+  summary: 广东省委书记习仲勋等 4 月在中央工作会议上提出让广东先走一步。中发〔1979〕50 号批准两省在财政、外贸、物价等方面实行“特殊政策、灵活措施”，先在深圳、珠海试办出口特区；1980 年 5 月改称“经济特区”，8 月全国人大批准深圳、珠海、汕头、厦门四个特区。
+  people: [xi-zhongxun, gu-mu, deng-xiaoping]
+  voices:
+    - { voice: officialLater, text: 关于出口特区，可先在深圳、珠海两市试办，待取得经验后，再考虑在汕头、厦门设置的问题（中发〔1979〕50 号）, cite: ws-1979-07-15-guangdong-fujian, quote: true }
+  cites: [ws-1979-07-15-guangdong-fujian]
+
 - id: 1979-10-16-wei-jingsheng-sentenced
   date: 1979-10-16
   title: 魏京生被判处有期徒刑十五年
@@ -26,6 +53,50 @@
     - { voice: officialLater, text: 他写的这些反动文章，有的在西单墙上张贴；有的登在他主编的名为《探索》的反动刊物上（1979 年新华社报道，转述起诉书）, cite: rmrb-1979-10-17-wei-jingsheng-trial, quote: true }
     - { voice: officialLater, text: 判处魏京生有期徒刑十五年，刑满后剥夺政治权利三年（同一报道）, cite: rmrb-1979-10-17-wei-jingsheng-trial, quote: true }
   cites: [rmrb-1979-10-17-wei-jingsheng-trial]
+
+- id: 1980-02-fifth-plenum
+  date: 1980-02-23
+  end: 1980-02-29
+  title: 十一届五中全会：胡耀邦任总书记，汪东兴等四人辞职，为刘少奇平反
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 全会恢复中央书记处，选胡耀邦为总书记，胡耀邦、赵紫阳进入政治局常委；批准汪东兴、纪登奎、吴德、陈锡联辞职（俗称“小四人帮”下台）。同一次全会通过决议，撤销 1968 年八届十二中全会加给刘少奇的“叛徒、内奸、工贼”罪名和“永远开除出党”的处分，5 月 17 日在人民大会堂举行追悼会。
+  people: [hu-yaobang, zhao-ziyang, wang-dongxing, ji-dengkui, wu-de, chen-xilian, liu-shaoqi, deng-xiaoping, hua-guofeng, wan-li]
+  voices:
+    - { voice: officialLater, text: 选举胡耀邦同志为中央委员会总书记（1980 年十一届五中全会公报）, cite: rmrb-1980-03-01-fifth-plenum, quote: true }
+    - { voice: officialLater, text: 决定批准汪东兴、纪登奎、吴德、陈锡联四位同志的辞职请求（同一公报）, cite: rmrb-1980-03-01-fifth-plenum, quote: true }
+    - { voice: officialLater, text: 恢复刘少奇同志作为伟大的马克思主义者和无产阶级革命家、党和国家的主要领导人之一的名誉（1980 年五中全会为刘少奇平反的决议）, cite: ws-1980-02-29-liu-rehab, quote: true }
+  cites: [rmrb-1980-03-01-fifth-plenum, ws-1980-02-29-liu-rehab]
+
+- id: 1980-11-20-special-court
+  date: 1980-11-20
+  end: 1981-01-25
+  title: 特别法庭审判林彪、江青反革命集团案主犯
+  lane: center
+  weight: 3
+  place: 北京正义路
+  summary: 最高人民法院特别法庭审理江青、张春桥、姚文元、王洪文、陈伯达和黄永胜、吴法宪、李作鹏、邱会作、江腾蛟十名被告（林彪、康生、谢富治、叶群、林立果、周宇驰等六人已死，不起诉）。审判在电视上部分播出，江青在法庭上说“我是毛主席的一条狗，他让我咬谁我就咬谁”。1981 年 1 月 25 日宣判：江青、张春桥死缓，王洪文无期，其余十六至二十年。1982–1983 年各地又审判了徐景贤、王秀珍、聂元梓、蒯大富、戚本禹、迟群、刘结挺、张西挺等人。
+  people: [jiang-qing, zhang-chunqiao, yao-wenyuan, wang-hongwen, chen-boda, huang-yongsheng, wu-faxian, li-zuopeng, qiu-huizuo, jiang-tengjiao, xu-jingxian, wang-xiuzhen, nie-yuanzi, kuai-dafu, qi-benyu, chi-qun, liu-jieting, zhang-xiting]
+  voices:
+    - { voice: judicial1980, text: 于一九八〇年十一月二十日至一九八一年一月二十五日在北京对林彪、江青反革命集团案主犯进行审理（1981 年特别法庭判决）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 被告人江青、张春桥、王洪文、黄永胜、邱会作没有委托律师辩护，也不要特别法庭指定辩护人为他们辩护（同一判决）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 判处被告人江青死刑，缓期二年执行，剥夺政治权利终身（同一判决）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 判处被告人聂元梓有期徒刑十七年，剥夺政治权利四年（聂元梓案判决）, cite: ws-1982-10-05-nie-yuanzi-case, quote: true }
+    - { voice: judicial1980, text: 判处被告人徐景贤有期徒刑十八年，剥夺政治权利四年（徐景贤案判决）, cite: ws-1982-xu-jingxian-case, quote: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-10-05-nie-yuanzi-case, ws-1982-xu-jingxian-case, ws-1982-12-kuai-dafu-case, ws-1983-11-02-qi-benyu-case]
+
+- id: 1981-06-27-resolution
+  date: 1981-06-27
+  title: 《关于建国以来党的若干历史问题的决议》
+  lane: ideology
+  weight: 3
+  place: 北京
+  summary: 十一届六中全会通过历史决议，起草历时一年多，邓小平多次谈话定调：彻底否定文革，但维护毛泽东思想；决议说毛泽东“功绩是第一位的，错误是第二位的”。决议认定文革“是一场由领导者错误发动，被反革命集团利用，给党、国家和各族人民带来严重灾难的内乱”。同一次全会华国锋辞去主席，胡耀邦任中央主席，邓小平任军委主席。
+  people: [deng-xiaoping, hu-yaobang, hua-guofeng, mao-zedong, chen-yun, ye-jianying, zhao-ziyang]
+  voices:
+    - { voice: official1981, text: 一九六六年五月至一九七六年十月的“文化大革命”，使党、国家和人民遭到建国以来最严重的挫折和损失。这场“文化大革命”是毛泽东同志发动和领导的（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1981-resolution]
 
 - id: 1987-01-anti-liberalization
   date: 1987-01-13

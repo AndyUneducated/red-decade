@@ -1,0 +1,137 @@
+# Events, 1970–1977：庐山会议、林彪事件、恢复联合国席位、四届人大、1976 年（周恩来、天安门、朱德、毛泽东、粉碎“四人帮”）、十届三中全会。
+# Sources: 1971–72 中央通知与林陈材料、1976 年讣告与中央通知、1977 十届三中全会公报（维基文库），1971、1975 年《人民日报》，
+# 1978 三中全会公报、1981 年特别法庭判决与历史决议。当时的官方说法用 official1966，1977 年以后的用 officialLater。
+
+- id: 1970-08-lushan-plenum
+  date: 1970-08-23
+  end: 1970-09-06
+  title: 九届二中全会（庐山）：设国家主席之争，批陈伯达
+  lane: center
+  weight: 3
+  place: 江西庐山
+  summary: 毛泽东主张修宪时不再设国家主席，林彪坚持要设。会议开幕时林彪讲“天才”，陈伯达编了一份恩格斯、列宁、毛泽东“称天才”的语录，吴法宪、叶群等在小组会上附和。毛泽东写《我的一点意见》，点名陈伯达“采取突然袭击，煽风点火”，会议转为批陈。此后开展“批陈整风”，改组北京军区，林彪集团与毛泽东的裂痕公开化。
+  people: [mao-zedong, lin-biao, chen-boda, ye-qun, wu-faxian, huang-yongsheng, li-zuopeng, qiu-huizuo, zhou-enlai]
+  voices:
+    - { voice: official1966, text: 在九届二中全会以前，第一个坚持设国家主席、阴谋策划向党进攻的是林彪（1971 年 9 月中共中央通知）, cite: ws-1971-09-18-notice, quote: true }
+    - { voice: official1966, text: 明确指出一九七零年庐山会议的斗争是两条路线、两个司令部的斗争（1972 年中共中央印发毛泽东南巡谈话纪要）, cite: ws-1972-03-17-notice, quote: true }
+  cites: [ws-1971-09-18-notice, ws-1972-03-17-notice, ws-1971-12-lin-chen-material-1]
+
+- id: 1971-09-13-lin-biao
+  date: 1971-09-13
+  title: 林彪出逃，坠机于蒙古温都尔汗
+  lane: center
+  weight: 3
+  place: 北戴河—山海关—蒙古温都尔汗
+  summary: 1971 年 3 月林立果等在上海制订《“571工程”纪要》。8–9 月毛泽东南巡，沿途批评林彪；9 月 8 日林彪下手令“盼照立果、宇驰同志传达的命令办”，林立果部署在途中谋害毛泽东。毛泽东突然改变行程，12 日回到北京。13 日凌晨林彪、叶群、林立果乘三叉戟从山海关起飞北逃，在蒙古温都尔汗附近坠毁，机上全部死亡；周宇驰、于新野劫持的直升机被迫降。此后黄永胜、吴法宪、李作鹏、邱会作被隔离审查，全国传达“林彪反党集团”的材料。
+  people: [lin-biao, ye-qun, lin-liguo, zhou-yuchi, mao-zedong, zhou-enlai, huang-yongsheng, wu-faxian, li-zuopeng, qiu-huizuo, jiang-tengjiao, wang-fei, wang-weiguo, chen-liyun]
+  voices:
+    - { voice: official1966, text: 林彪于一九七一年九月十三日仓惶出逃，狼狈投敌，叛党叛国，自取灭亡（1971 年 9 月 18 日中共中央通知）, cite: ws-1971-09-18-notice, quote: true }
+    - { voice: official1966, text: 根据确实消息，出境的三叉戟飞机已于蒙古境内温都尔汗附近坠毁（同一通知）, cite: ws-1971-09-18-notice, quote: true }
+    - { voice: judicial1980, text: 一九七一年三月，林立果、周宇驰等人在上海制订了武装政变计划，取名为《“571工程”纪要》（1981 年特别法庭判决）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 正当林彪反革命集团紧张地策动武装政变的时候，毛泽东主席对他们的阴谋有所警觉，突然改变行程，于九月十二日安全回到北京（同一判决）, cite: ws-1981-01-25-judgment, quote: true }
+  cites: [ws-1971-09-18-notice, ws-1971-09-29-notice, ws-1971-12-lin-chen-material-1, ws-1981-01-25-judgment]
+
+- id: 1971-10-25-un-seat
+  date: 1971-10-25
+  title: 联合国恢复中华人民共和国席位
+  lane: intl
+  weight: 2
+  place: 纽约联合国总部
+  summary: 第二十六届联大以 76 票对 35 票通过阿尔巴尼亚等国提案（2758 号决议），恢复中华人民共和国在联合国的席位，台湾当局代表退出。基辛格当时正在北京为尼克松访华做准备。11 月乔冠华率代表团出席联大，15 日发言。次年 2 月尼克松访华，发表上海公报。
+  people: [qiao-guanhua, zhou-enlai, mao-zedong, ji-pengfei]
+  voices:
+    - { voice: official1966, text: 一九七一年十月二十五日，本届联合国大会以压倒多数通过决议，决定恢复中华人民共和国在联合国的一切合法权利（乔冠华 1971 年联大发言）, cite: rmrb-1971-11-17-qiao-un, quote: true }
+  cites: [rmrb-1971-11-17-qiao-un]
+
+- id: 1975-01-fourth-npc
+  date: 1975-01-13
+  end: 1975-01-17
+  title: 四届人大：周恩来重提四个现代化，邓小平任第一副总理
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 文革开始后第一次召开全国人大，通过新宪法（不设国家主席）。病中的周恩来作政府工作报告，重提“在本世纪内，全面实现农业、工业、国防和科学技术的现代化”；邓小平任第一副总理，张春桥任副总理。江青一派想安排自己人进内阁，1974 年 10 月派王洪文到长沙向毛泽东告周恩来的状，没有成功。会后邓小平主持日常工作，开始“整顿”。
+  people: [zhou-enlai, deng-xiaoping, zhang-chunqiao, wang-hongwen, jiang-qing, mao-zedong, ji-dengkui, hua-guofeng]
+  voices:
+    - { voice: official1966, text: 一九七四年十月，“四人帮”背着中央政治局，私自派王洪文去见毛主席，告周恩来总理的状，妄图利用十届二中全会和四届人大组织他们的“内阁”，遭到毛主席的痛斥（1976 年 10 月中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1981, text: 一九七五年，周恩来同志病重，邓小平同志在毛泽东同志支持下主持中央日常工作（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+  cites: [rmrb-1975-01-19-state-council-list, rmrb-1975-01-19-npc-sc-list, ws-1976-10-18-notice, ws-1981-resolution]
+
+- id: 1976-01-08-zhou-death
+  date: 1976-01-08
+  title: 周恩来逝世
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 周恩来 1972 年确诊膀胱癌，1974 年住院后仍在病床上处理工作。1 月 8 日去世，11 日灵车经过长安街时十里长街送行。追悼会由邓小平致悼词，这是他 1976 年第二次被打倒前最后一次公开露面。2 月毛泽东提议华国锋为代总理。
+  people: [zhou-enlai, deng-xiaoping, hua-guofeng, mao-zedong, zhang-chunqiao]
+  voices:
+    - { voice: official1966, text: 因患癌症，于一九七六年一月八日九时五十七分在北京逝世，终年七十八岁（1976 年讣告）, cite: ws-1976-01-09-zhou-obituary, quote: true }
+    - { voice: official1981, text: 他在“文化大革命”中处于非常困难的地位（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1976-01-09-zhou-obituary, ws-1981-resolution]
+
+- id: 1976-04-05-tiananmen
+  date: 1976-04-05
+  title: 天安门事件（四五运动）
+  lane: mass
+  weight: 3
+  place: 北京天安门广场
+  summary: 清明节前后，北京几十万人自发到天安门广场人民英雄纪念碑前送花圈、贴诗词悼念周恩来，许多诗词矛头指向江青等人。4 月 5 日广场上的花圈被连夜清走，群众与民兵、警察冲突，晚上被驱散。政治局定性为“反革命事件”，4 月 7 日撤销邓小平一切职务，华国锋任第一副主席、总理。1978 年 11 月北京市委宣布平反，三中全会认定“完全是革命行动”。
+  people: [zhou-enlai, deng-xiaoping, hua-guofeng, mao-zedong, jiang-qing, wang-hongwen, wu-de]
+  voices:
+    - { voice: officialLater, text: 一九七六年四月五日的天安门事件完全是革命行动（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
+    - { voice: official1981, text: 当时，中央政治局和毛泽东同志对天安门事件的性质作出了错误的判断，并且错误地撤销了邓小平同志的党内外一切职务（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1978-12-third-plenum, ws-1981-resolution]
+
+- id: 1976-07-06-zhu-death
+  date: 1976-07-06
+  title: 朱德逝世
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 全国人大常委会委员长朱德去世，终年九十岁。三周后（7 月 28 日）唐山大地震。
+  people: [zhu-de]
+  voices:
+    - { voice: official1966, text: 因病医治无效，于一九七六年七月六日下午三时一分在北京逝世，终年九十岁（1976 年讣告）, cite: ws-1976-07-07-zhu-obituary, quote: true }
+  cites: [ws-1976-07-07-zhu-obituary]
+
+- id: 1976-09-09-mao-death
+  date: 1976-09-09
+  title: 毛泽东逝世
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 毛泽东 9 月 9 日凌晨去世。告全国人民书仍然把“批邓、反击右倾翻案风”列为他的功绩。此后不到一个月，政治局内部围绕“按既定方针办”和接班问题的斗争白热化。
+  people: [mao-zedong, hua-guofeng, jiang-qing, wang-hongwen, zhang-chunqiao, yao-wenyuan, ye-jianying, deng-xiaoping]
+  voices:
+    - { voice: official1966, text: 在患病后经过多方精心治疗，终因病情恶化，医治无效，于一九七六年九月九日零时十分在北京逝世（1976 年告全党全军全国各族人民书）, cite: ws-1976-09-09-mao-message, quote: true }
+    - { voice: official1966, text: 特别是无产阶级文化大革命、批林批孔、批邓、反击右倾翻案风的伟大胜利（同一文告）, cite: ws-1976-09-09-mao-message, quote: true }
+  cites: [ws-1976-09-09-mao-message]
+
+- id: 1976-10-06-gang-of-four
+  date: 1976-10-06
+  title: 粉碎“四人帮”
+  lane: center
+  weight: 3
+  place: 北京中南海怀仁堂
+  summary: 10 月 6 日晚，华国锋、叶剑英以开政治局常委会为名，由汪东兴指挥中央警卫部队在怀仁堂隔离审查王洪文、张春桥、姚文元，同时在住所拘押江青，毛远新也被拘押。次日政治局决定华国锋任中央主席、军委主席。上海的徐景贤、王秀珍等一度准备武装对抗，后被召到北京。18 日中央向全党通知“王洪文、张春桥、江青、姚文元反党集团事件”。
+  people: [hua-guofeng, ye-jianying, wang-dongxing, li-xiannian, wang-hongwen, zhang-chunqiao, jiang-qing, yao-wenyuan, xu-jingxian, wang-xiuzhen, wu-de, chen-xilian]
+  voices:
+    - { voice: official1966, text: 他们结成“四人帮”，进行分裂党、篡党夺权的宗派活动（1976 年 10 月 18 日中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1981, text: 同年十月上旬，中央政治局执行党和人民的意志，毅然粉碎了江青反革命集团，结束了“文化大革命”这场灾难（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+    - { voice: official1981, text: 在粉碎江青反革命集团的斗争中，华国锋、叶剑英、李先念等同志起了重要作用（同一决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1976-10-18-notice, ws-1981-resolution, ws-1977-07-tenth-third-plenum]
+
+- id: 1977-07-tenth-third-plenum
+  date: 1977-07-16
+  end: 1977-07-21
+  title: 十届三中全会：追认华国锋为主席，恢复邓小平职务
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 全会追认华国锋任中央主席、军委主席，通过恢复邓小平全部职务的决议，并永远开除王洪文、张春桥、江青、姚文元的党籍。华国锋此时仍坚持“两个凡是”；8 月十一大宣布文革“胜利结束”，但没有否定文革的理论。
+  people: [hua-guofeng, deng-xiaoping, ye-jianying, li-xiannian, wang-dongxing, wang-hongwen, zhang-chunqiao, jiang-qing, yao-wenyuan]
+  voices:
+    - { voice: officialLater, text: 全会一致通过《关于恢复邓小平同志职务的决议》（1977 年十届三中全会公报）, cite: ws-1977-07-tenth-third-plenum, quote: true }
+    - { voice: official1981, text: 但是，他推行和迟迟不改正“两个凡是”（即“凡是毛主席作出的决策，我们都坚决维护，凡是毛主席的指示，我们都始终不渝地遵循”）的错误方针（1981 年历史决议论华国锋）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1977-07-tenth-third-plenum, ws-1981-resolution]
