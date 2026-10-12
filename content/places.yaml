@@ -171,6 +171,9 @@
 - { id: qinshui, name: 沁水, names: [沁水], lat: 35.69, lon: 112.19 }
 - { id: hongkong, name: 香港, names: [香港], lat: 22.28, lon: 114.16 }
 - { id: lingling, name: 零陵, names: [零陵], lat: 26.22, lon: 111.62 }
+# batch 8
+- { id: xiangfen, name: 襄汾, names: [襄汾], lat: 35.88, lon: 111.44 }
+- { id: linyi-sx, name: 临猗, names: [临猗], lat: 35.14, lon: 110.77 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

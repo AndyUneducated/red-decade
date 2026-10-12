@@ -1,0 +1,170 @@
+# M3 people, batch 8: the Foreign Ministry — 姚登山, 乔冠华, 姬鹏飞.
+# Texts: 邹一民 on 姚登山 (excerpt, quotes 王力's 1967-08-08 letter), 乔冠华's 1971 UN speech and the
+# 1975 NPC announcements from People's Daily (research/manifests/web-m3-people.yaml).
+
+- id: yao-dengshan
+  name: 姚登山
+  born: 1918
+  died: 1998
+  tier: 3
+  role1966: 驻印度尼西亚大使馆参赞、临时代办
+  pinyin: Yáo Dēngshān
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: other, name: 姚忠 }
+  birthplace: 山西襄汾
+  origin: 山西襄汾
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 驻印度尼西亚大使馆参赞、临时代办, orgName: 外交部, from: 1966-03, to: 1967-04-30, cite: zou-yimin-yao-dengshan }
+  bio: 山西襄汾人，抗战中在家乡打游击，1950 年由军队调入外交部。1967 年 4 月作为驻印尼临时代办被印尼当局驱逐，回国时周恩来、陈毅到机场迎接，5 月 1 日毛泽东在天安门城楼接见，被称为“红色外交战士”。此后四个月里他紧跟王力、关锋、戚本禹，支持外交部造反派“打倒陈毅”、夺取外交部权力，8 月 8 日王力亲笔来信支持他。9 月起被隔离审查，1971 年 6 月在批斗大会上被当场逮捕，关押九年多。1980 年外交部给予留党察看处分，同年 8 月出狱，1998 年在北京去世。
+  life:
+    - h: 游击队长到外交官
+      from: 1918
+      to: 1966
+      text: |
+        邹一民记述，他 1918 年生于山西襄汾陶寺乡陈庄村，贫农出身，青年时参加过阎锡山的“防共团”，20 岁入党，抗战中在家乡领导游击支队。1950 年从第六十二军军政干校调到北京参加军委武官训练班，随后进入外交部，先后任驻丹麦、芬兰使馆一等秘书、参赞，西欧司专员，驻锡兰使馆参赞，总务司副司长。1966 年 3 月任驻印尼大使馆参赞，4 月 7 日大使姚仲明被召回后任临时代办。
+      cites: [zou-yimin-yao-dengshan]
+    - h: 红色外交战士
+      from: 1967-04
+      to: 1967-08
+      text: |
+        1967 年 4 月他被印尼当局宣布为“不受欢迎的人”。4 月 30 日回到北京，周恩来、陈毅和数千群众到机场迎接，5 月 1 日晚毛泽东、林彪在天安门城楼接见，媒体称他为“红色外交战士”。此后四个月他紧跟王力、关锋、戚本禹，与外交部造反派“联络站”站在一起，要挟周恩来接受“停止陈（毅）、姬（鹏飞）、乔（冠华）对外活动”等要求。8 月 8 日王力亲笔写信，说他的讲话“也是对的”。8 月 15 日他在外贸部造反派的大会上说“这边是打倒陈姬乔”，引起两派武斗；同月“反帝反修联络站”的学生冲入英国驻华代办处放火（8 月 22 日夜），他还在外交公寓指挥揪斗英国代办。
+      cites: [zou-yimin-yao-dengshan]
+    - h: 审查、逮捕与出狱
+      from: 1967-09
+      to: 1998
+      text: |
+        9 月 1 日起他家四次被红卫兵抄家，他本人多次被学生批斗；9 月 14 日起在外交部和三个五七干校受批判和隔离审查。1971 年 6 月 11 日外交部召开批斗大会，北京市公安局军管会代表“当场接受群众要求”，把他作为“现行反革命分子”逮捕，此后关押九年多。外交部党委的结论是他犯有反对周恩来、坚持打倒陈毅等严重错误，给予留党察看一年（1971 年 11 月至 1972 年 11 月），宣布时处分期早已过去。1980 年 8 月出狱，恢复行政十级待遇，1985 年离休，1998 年在北京病逝。
+      cites: [zou-yimin-yao-dengshan]
+  assess:
+    - { voice: official1966, text: 戚本禹同志讲的几句话，是正确的。你讲的话，也是对的。（1967 年 8 月 8 日王力致姚登山信）, cite: zou-yimin-yao-dengshan, quote: true }
+    - { voice: witness, text: 姚登山在文化大革命时期犯有严重错误，他犯有反对周总理、坚持打倒陈毅等错误。（1980 年外交部党委结论，邹一民转述）, cite: zou-yimin-yao-dengshan, quote: true }
+    - { voice: editor, text: 他没有受过审判。1971 年的逮捕是在批斗大会上“当场接受群众要求”执行的，九年后以党内处分了结，处分期早已过去。, cite: zou-yimin-yao-dengshan }
+  factions: [rebels]
+  fate:
+    - { date: 1966-03, s: normal, note: 驻印尼大使馆参赞, cite: zou-yimin-yao-dengshan }
+    - { date: 1967-04-30, s: rise, note: “红色外交战士”回国, cite: zou-yimin-yao-dengshan }
+    - { date: 1967-08-08, s: power, note: 王力来信支持, cite: zou-yimin-yao-dengshan }
+    - { date: 1967-09-01, s: attacked, note: 抄家、批斗, cite: zou-yimin-yao-dengshan }
+    - { date: 1967-09-14, s: detained, note: 隔离审查, cite: zou-yimin-yao-dengshan }
+    - { date: 1971-06-11, s: detained, note: 批斗大会上被逮捕, cite: zou-yimin-yao-dengshan }
+    - { date: 1980-08, s: normal, note: 出狱, cite: zou-yimin-yao-dengshan }
+    - { date: 1998, s: dead, cite: zou-yimin-yao-dengshan }
+  cites: [zou-yimin-yao-dengshan]
+
+- id: qiao-guanhua
+  name: 乔冠华
+  born: 1913-03-28
+  died: 1983-09-22
+  tier: 3
+  role1966: 外交部副部长
+  pinyin: Qiáo Guānhuá
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: pen, name: 乔木 }
+  birthplace: 江苏盐城
+  origin: 江苏盐城
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 副部长, orgName: 外交部, from: 1964, to: 1974-11, verify: true }
+    - { title: 部长, orgName: 外交部, from: 1974-11, to: 1976-12, cite: rmrb-1975-01-19-state-council-list }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1973-08, to: 1977-08, verify: true }
+  bio: 江苏盐城人，留学德国，1940 年代以“乔木”笔名在香港、重庆写国际评论。1949 年后长期在外交部，参加朝鲜停战谈判和日内瓦会议，1964 年任副部长。1967 年外交部造反派要求停止陈毅、姬鹏飞和他的对外活动。1971 年 11 月率团首次出席联合国大会，15 日发言称“国家要独立，民族要解放，人民要革命”。1974 年 11 月任外交部长，1975 年四届人大确认。1976 年批邓期间与江青方面接近，10 月后被审查，12 月免职。1983 年在北京病逝。
+  life:
+    - h: 国际评论家
+      from: 1913
+      to: 1963
+      text: |
+        1913 年生于江苏盐城，清华大学哲学系毕业后留学日本、德国，获图宾根大学博士学位。1939 年入党，在香港、重庆以“乔木”等笔名为《时事晚报》《新华日报》写国际评论。1949 年后任外交部外交政策委员会副主任，1951–1953 年参加朝鲜停战谈判，1954 年随周恩来出席日内瓦会议。
+      verify: true
+    - h: 文革中的外交部
+      from: 1964
+      to: 1973
+      text: |
+        1964 年任外交部副部长。1967 年外交部造反派“联络站”要挟周恩来接受“停止陈（毅）、姬（鹏飞）、乔（冠华）对外活动”的要求，8 月 15 日姚登山在外贸部造反派的大会上说“这边是打倒陈姬乔”。1971 年 11 月 15 日他以中国代表团团长身份在联合国大会第二十六届会议上首次发言，指名批评美国和“一、两个超级大国”。1973 年 8 月十大当选中央委员。
+      cites: [zou-yimin-yao-dengshan, rmrb-1971-11-17-qiao-un]
+      verify: true
+    - h: 外交部长与免职
+      from: 1974-11
+      to: 1983-09-22
+      text: |
+        1974 年 11 月接替姬鹏飞任外交部长，1975 年 1 月四届人大一次会议的国务院名单仍列他为外交部部长。1976 年批邓、毛泽东去世前后他和妻子章含之被认为向江青靠拢，10 月“四人帮”被捕后受审查，12 月免去外交部长职务，由黄华接任。1977 年 8 月十一大未再当选中央委员。1983 年 9 月 22 日在北京病逝。
+      cites: [rmrb-1975-01-19-state-council-list]
+      verify: true
+  assess:
+    - { voice: official1966, text: 国家要独立，民族要解放，人民要革命，这已成为不可抗拒的历史潮流。（1971 年 11 月 15 日联大发言）, cite: rmrb-1971-11-17-qiao-un, quote: true }
+    - { voice: official1966, text: 现在，新的世界大战的危险依然存在，但是，当前世界的主要倾向是革命。, cite: rmrb-1971-11-17-qiao-un, quote: true }
+    - { voice: editor, text: 1976 年底的免职没有公开的中央文件说明；常见的说法是他在批邓中表态积极、与江青往来，属于“与四人帮有牵连”而非帮派成员，此后未再起用。 }
+  factions: [premier]
+  fate:
+    - { date: 1964, s: normal, note: 外交部副部长, verify: true }
+    - { date: 1967-05, s: attacked, note: 造反派要求停止其对外活动, cite: zou-yimin-yao-dengshan, verify: true }
+    - { date: 1971-11-15, s: rise, note: 联大首次发言, cite: rmrb-1971-11-17-qiao-un }
+    - { date: 1974-11, s: power, note: 外交部长, verify: true }
+    - { date: 1976-12, s: purged, note: 受审查后免职, verify: true }
+    - { date: 1983-09-22, s: dead, verify: true }
+  cites: [rmrb-1971-11-17-qiao-un, rmrb-1975-01-19-state-council-list, zou-yimin-yao-dengshan]
+
+- id: ji-pengfei
+  name: 姬鹏飞
+  born: 1910-02-02
+  died: 2000-02-10
+  tier: 3
+  role1966: 外交部常务副部长
+  pinyin: Jī Péngfēi
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山西临猗
+  origin: 山西临猗
+  deathKind: natural
+  deathContested: true
+  deathPlace: 北京
+  party: 中国共产党
+  positions:
+    - { title: 副部长, orgName: 外交部, from: 1955, to: 1971, verify: true }
+    - { title: 代理部长、部长, orgName: 外交部, from: 1971, to: 1974-11, verify: true }
+    - { title: 委员, orgName: 全国人民代表大会常务委员会, from: 1975-01-17, to: 1978-03, cite: rmrb-1975-01-19-npc-sc-list }
+    - { title: 部长, orgName: 中共中央对外联络部, from: 1979-01, to: 1982-04, verify: true }
+    - { title: 主任, orgName: 国务院港澳事务办公室, from: 1983, to: 1990, verify: true }
+  bio: 山西临猗人，宁都起义参加红军，长征中在红军卫生部门工作，抗战和解放战争中在新四军、华东野战军做政治工作。1950 年起任驻民主德国大使，1955 年回国任外交部副部长，后为常务副部长。1967 年外交部造反派要求撤销他的常务副部长职务、停止他的对外活动。陈毅不能工作后他主持外交部日常工作，1971 年任代部长，后任部长，1974 年 11 月由乔冠华接替，1975 年改任人大常委。1979 年后任中联部部长、国务院副总理、国务委员，1983–1990 年任港澳办主任，主持起草香港、澳门基本法。2000 年在北京去世。
+  life:
+    - h: 红军军医到驻德大使
+      from: 1910
+      to: 1954
+      text: |
+        1910 年生于山西临猗，1931 年随第二十六路军宁都起义加入红军，同年入党，在红军卫生部门工作，参加长征。抗战中任新四军第一师政治部主任，解放战争中任华东野战军第一纵队政委等职。1950 年任驻民主德国外交使团团长，后为大使。
+      verify: true
+    - h: 常务副部长与代部长
+      from: 1955
+      to: 1974-11
+      text: |
+        1955 年回国任外交部副部长，后为常务副部长。1967 年外交部“联络站”向周恩来提出“撤消姬鹏飞常务副部长职务”“停止陈（毅）、姬（鹏飞）、乔（冠华）对外活动”。1969 年后陈毅不能主持工作，他在周恩来领导下主管外交部日常工作，1971 年任代理部长，1972 年陈毅去世后为部长，经历了尼克松访华和中日建交。1974 年 11 月由乔冠华接任部长。
+      cites: [zou-yimin-yao-dengshan]
+      verify: true
+    - h: 人大、中联部与港澳办
+      from: 1975
+      to: 2000-02-10
+      text: |
+        1975 年 1 月四届人大一次会议当选人大常委会委员，此后兼任常委会秘书长。1979 年 1 月任中联部部长，同年任国务院副总理，1982 年后为国务委员。1983 年起任国务院港澳事务办公室主任，参与中英、中葡谈判，1985–1990 年任香港特别行政区基本法起草委员会主任委员。1988–1993 年任全国人大常委会副委员长。2000 年 2 月 10 日在北京去世。官方讣告称病逝；儿子姬胜德 1999 年因受贿被捕，境外报刊有他服毒自尽之说，未见证实。
+      cites: [rmrb-1975-01-19-npc-sc-list]
+      verify: true
+  assess:
+    - { voice: editor, text: 1975 年四届人大的国务院名单中外交部部长是乔冠华，他出现在人大常委会委员名单里。这一调动发生在 1974 年 11 月，原因未见公开说明。, cite: rmrb-1975-01-19-state-council-list }
+    - { voice: editor, text: 死因官方未说明为自杀，境外传闻与其子受贿案有关，这里标为有争议。 }
+  factions: [premier]
+  fate:
+    - { date: 1955, s: normal, note: 外交部副部长, verify: true }
+    - { date: 1967-05, s: attacked, note: 造反派要求撤销其职务, cite: zou-yimin-yao-dengshan, verify: true }
+    - { date: 1971, s: power, note: 代理外交部长, verify: true }
+    - { date: 1974-11, s: sidelined, note: 由乔冠华接任, verify: true }
+    - { date: 1975-01-17, s: normal, note: 人大常委会委员, cite: rmrb-1975-01-19-npc-sc-list }
+    - { date: 1979-01, s: power, note: 中联部部长, verify: true }
+    - { date: 2000-02-10, s: dead, verify: true }
+  cites: [zou-yimin-yao-dengshan, rmrb-1975-01-19-npc-sc-list, rmrb-1975-01-19-state-council-list]

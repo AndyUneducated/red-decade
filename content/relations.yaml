@@ -95,3 +95,6 @@
 - { a: peng-dehuai, b: zhang-wentian, type: link, from: 1959-07, note: 庐山会议同被定为“反党集团”, cite: ws-1959-08-16-peng-resolution }
 - { a: jiang-qing, b: zhang-linzhi, type: persecute, from: 1966-12-14, note: 点名“彭真死党”, cite: ws-1981-01-25-judgment }
 - { a: xu-jingxian, b: zhou-xinfang, type: persecute, from: 1968-03, note: 诬为“反共老手”并拘留, cite: ws-1982-xu-jingxian-case }
+- { a: wang-li, b: yao-dengshan, type: patron, from: 1967-08-08, to: 1967-08, note: 亲笔信称“你讲的话，也是对的”, cite: zou-yimin-yao-dengshan }
+- { a: yao-dengshan, b: chen-yi, type: attack, from: 1967-05, to: 1967-09, note: 坚持打倒陈毅, cite: zou-yimin-yao-dengshan }
+- { a: yao-dengshan, b: ji-pengfei, type: attack, from: 1967-08-15, to: 1967-09, note: “这边是打倒陈姬乔”, cite: zou-yimin-yao-dengshan }

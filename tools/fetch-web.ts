@@ -99,7 +99,13 @@ console.log(`\n${fetched} fetched`)
 async function get(url: string): Promise<string> {
   const res = await fetch(url, { headers: { 'User-Agent': UA } })
   if (!res.ok) throw new Error(`${res.status} ${url}`)
-  return res.text()
+  // some older Chinese sites are GBK; Wayback snapshots keep the original bytes but send a utf-8
+  // header, so the page's own <meta charset> wins over the HTTP header
+  const buf = new Uint8Array(await res.arrayBuffer())
+  const head = new TextDecoder('latin1').decode(buf.slice(0, 8192))
+  const meta = head.match(/<meta[^>]+charset=["']?([\w-]+)/i)?.[1]
+  const charset = (meta ?? res.headers.get('content-type')?.match(/charset=([\w-]+)/i)?.[1] ?? 'utf-8').toLowerCase()
+  return new TextDecoder(charset === 'gb2312' ? 'gbk' : charset).decode(buf)
 }
 
 function decode(s: string): string {
