@@ -1,0 +1,305 @@
+# M4-2 第二批中文原文（维基文库，按年份分类页选目）：一打三反、工农兵学员招生、计划生育、教育工作会议纪要、
+# 知青与民兵、“走后门”、贺龙恢复名誉、1975 年中央文件、特赦战犯、建交公报、批林批孔文章、地方档案。
+# date 按正文落款或文件抬头核对；正文没有落款的按发布日，只知年份的写年份。
+wikisource:
+  - id: ws-1970-01-31-yida
+    title: 中共中央关于打击反革命破坏活动的指示
+    date: 1970-01-31
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于打击反革命破坏活动的指示（1970，“一打”）
+  - id: ws-1970-02-05-sanfan
+    title: 中共中央关于反对贪污盗窃、投机倒把的指示
+    date: 1970-02-05
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于反对贪污盗窃、投机倒把的指示（1970，“三反”之一）
+  - id: ws-1970-02-05-langfei
+    title: 中共中央关于反对铺张浪费的通知
+    date: 1970-02-05
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于反对铺张浪费的通知（1970）
+  - id: ws-1970-hefei-yida
+    title: 合肥市革命委员会四反领导小组关于“一打三反”运动中临时处置案件审批权限和查账冻结存款问题的通知
+    date: 1970
+    author: 合肥市革命委员会四反领导小组
+    kind: local-record
+    alias: 合肥市“一打三反”临时处置案件审批权限通知（1970）
+  - id: ws-1970-06-27-enrollment
+    title: 中共中央关于北京大学、清华大学招生（试点）请示报告的批示
+    date: 1970-06
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央批转北大清华招生（试点）请示报告（1970）
+  - id: ws-1970-chengkun
+    title: 中共中央关于成昆铁路建成通车的贺电
+    date: 1970-07
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于成昆铁路建成通车的贺电（1970）
+  - id: ws-1970-canada
+    title: 中华人民共和国政府和加拿大政府关于中、加两国建立外交关系的联合公报
+    date: 1970-10-13
+    author: 中加两国政府
+    kind: party-doc
+    alias: 中加建交联合公报（1970）
+  - id: ws-1970-italy
+    title: 中华人民共和国政府和意大利共和国政府关于中、意两国建立外交关系的联合公报
+    date: 1970-11-06
+    author: 中意两国政府
+    kind: party-doc
+    alias: 中意建交联合公报（1970）
+  - id: ws-1971-07-01-party-50
+    title: 纪念中国共产党五十周年
+    date: 1971-07-01
+    author: 《人民日报》《红旗》《解放军报》编辑部
+    kind: editorial
+    alias: 两报一刊《纪念中国共产党五十周年》（1971）
+  - id: ws-1971-education-summary
+    title: 中共中央批发《全国教育工作会议纪要》 (1971年)
+    date: 1971-08-13
+    author: 中共中央
+    kind: party-doc
+    alias: 《全国教育工作会议纪要》（1971，“两个估计”）
+  - id: ws-1971-family-planning
+    title: 国务院转发卫生部军管会、商业部、燃料化学工业部“关于做好计划生育工作的报告”
+    date: 1971-07-08
+    author: 国务院
+    kind: party-doc
+    alias: 国务院转发关于做好计划生育工作的报告（1971）
+  - id: ws-1971-wages
+    title: 国务院关于调整部分工人和工作人员工资的通知 (1971年)
+    date: 1971
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于调整部分工人和工作人员工资的通知（1971）
+  - id: ws-1971-public-security-15
+    title: 中央批转《第十五次全国公安会议纪要》的通知
+    date: 1971
+    author: 中共中央
+    kind: party-doc
+    alias: 《第十五次全国公安会议纪要》（1971）
+  - id: ws-1971-12-30-diaoyu
+    title: 中华人民共和国外交部声明 (1971年12月30日)
+    date: 1971-12-30
+    author: 中华人民共和国外交部
+    kind: party-doc
+    alias: 外交部声明（1971 年 12 月 30 日）
+  - id: ws-1972-01-13-notice-5
+    title: 中共中央通知 (1972年1月13日中发〔1972〕5号)
+    date: 1972-01-13
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（1972 年 1 月 13 日中发〔1972〕5 号）
+  - id: ws-1972-beijing-66-tianjin
+    title: 中共中央、中央军委转发北京军区、六十六军、天津警备区三个党委报告的批语
+    date: 1972-07-27
+    author: 中共中央、中央军委
+    kind: party-doc
+    alias: 中共中央、中央军委转发北京军区等三个党委报告的批语
+  - id: ws-1972-pishi
+    title: 中共中央批语
+    date: 1972-04-25
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央批语（1972）
+  - id: ws-1972-grain
+    title: 中共中央转发国务院关于粮食问题的报告
+    date: 1972
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央转发国务院关于粮食问题的报告（1972）
+  - id: ws-1972-cadre-housing
+    title: 国务院批转国务院办公室关于老干部、高级知识分子和爱国人士住房情况的调查报告
+    date: 1972-09-29
+    author: 国务院
+    kind: party-doc
+    alias: 国务院批转老干部、高级知识分子和爱国人士住房情况调查报告（1972）
+  - id: ws-1972-houmen
+    title: 关于杜绝高等学校招生工作中“走后门”现象的通知
+    date: 1972
+    kind: party-doc
+    alias: 关于杜绝高校招生“走后门”现象的通知（1972）
+  - id: ws-1972-uk
+    title: 中华人民共和国政府和大不列颠及北爱尔兰联合王国政府关于互换大使的联合公报
+    date: 1972-03-13
+    author: 中英两国政府
+    kind: party-doc
+    alias: 中英互换大使联合公报（1972）
+  - id: ws-1972-frg
+    title: 中华人民共和国政府和德意志联邦共和国政府关于两国建立外交关系的联合公报
+    date: 1972-10-11
+    author: 中德两国政府
+    kind: party-doc
+    alias: 中国与联邦德国建交联合公报（1972）
+  - id: ws-1972-australia
+    title: 中华人民共和国政府和澳大利亚政府关于中、澳两国建立外交关系的联合公报
+    date: 1972-12-21
+    author: 中澳两国政府
+    kind: party-doc
+    alias: 中澳建交联合公报（1972）
+  - id: ws-1973-bingtuan-case
+    title: 国务院、中央军委关于黑龙江生产建设兵团十六团原将领奸污迫害女知识青年案件的通报
+    date: 1973
+    author: 国务院、中央军委
+    kind: party-doc
+    alias: 国务院、中央军委关于黑龙江兵团十六团迫害女知青案的通报（1973）
+  - id: ws-1973-shanghai-militia
+    title: 国务院、中央军委转发《上海民兵情况的调查报告》的通知
+    date: 1973-11-19
+    author: 国务院、中央军委
+    kind: party-doc
+    alias: 国务院、中央军委转发《上海民兵情况的调查报告》（1973）
+  - id: ws-1973-enrollment
+    title: 国务院科教组关于高等学校一九七三年招生工作的意见
+    date: 1973
+    author: 国务院科教组
+    kind: party-doc
+    alias: 国务院科教组关于 1973 年高校招生的意见
+  - id: ws-1973-dam-failures
+    title: 国务院批转水电部关于今年中小型水库垮坝情况的报告
+    date: 1973-11-12
+    author: 国务院
+    kind: party-doc
+    alias: 国务院批转水电部关于中小型水库垮坝情况的报告（1973）
+  - id: ws-1973-zhangjiakou-masses
+    title: 张家口市革命委员会关于发动群众讨论一批反革命和刑事犯罪分子处理意见的通知
+    date: 1973
+    author: 张家口市革命委员会
+    kind: local-record
+    alias: 张家口市革委会关于发动群众讨论犯罪分子处理意见的通知（1973）
+  - id: ws-1973-08-30-first-plenum
+    title: 中国共产党第十届中央委员会第一次全体会议公报
+    date: 1973-08-30
+    author: 中共十届一中全会
+    kind: party-doc
+    alias: 十届一中全会公报（1973）
+  - id: ws-1974-houmen
+    title: 关于“走后门”问题的通知
+    date: 1974
+    kind: party-doc
+    alias: 关于“走后门”问题的通知（1974）
+  - id: ws-1974-enrollment
+    title: 关于1974年高等学校招生工作的请示报告
+    date: 1974
+    kind: party-doc
+    alias: 关于 1974 年高校招生工作的请示报告
+  - id: ws-1974-relics
+    title: 国务院关于加强文物保护工作的通知
+    date: 1974
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于加强文物保护工作的通知（1974）
+  - id: ws-1974-malaysia
+    title: 中华人民共和国政府和马来西亚政府联合公报
+    date: 1974-05-31
+    author: 中马两国政府
+    kind: party-doc
+    alias: 中马建交联合公报（1974）
+  - id: ws-1974-new-tsar
+    title: 孔老二的亡灵和新沙皇的迷梦
+    date: 1974
+    kind: editorial
+    alias: 《孔老二的亡灵和新沙皇的迷梦》（1974）
+  - id: ws-1974-wang-anshi
+    title: 论爱国主义者王安石——兼论历史上儒法之间卖国与爱国两条路线的斗争
+    date: 1974
+    kind: editorial
+    alias: 《论爱国主义者王安石》（1974）
+  - id: ws-1974-nvrjing
+    title: 妇女的彻底解放是社会主义历史阶段一项重要任务——批判《改良女儿经》
+    date: 1974
+    kind: editorial
+    alias: 《批判〈改良女儿经〉》（1974）
+  - id: ws-1975-01-05-notice
+    title: 中共中央通知 (1975年1月5日)
+    date: 1975-01-05
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（1975 年 1 月 5 日）
+  - id: ws-1975-02-18-notice
+    title: 中共中央通知 (1975年2月18日)
+    date: 1975-02-18
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（1975 年 2 月 18 日）
+  - id: ws-1975-second-plenum
+    title: 中国共产党第十届中央委员会第二次全体会议公报
+    date: 1975-01-10
+    author: 中共十届二中全会
+    kind: party-doc
+    alias: 十届二中全会公报（1975）
+  - id: ws-1975-industry-h1
+    title: 中共中央转发国务院《关于今年上半年工业生产情况的报告》
+    date: 1975
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央转发国务院关于 1975 年上半年工业生产情况的报告
+  - id: ws-1975-war-criminals
+    title: 全国人民代表大会常务委员会关于特赦释放全部在押战争罪犯的决定
+    date: 1975-03-17
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会关于特赦释放全部在押战争罪犯的决定（1975）
+  - id: ws-1975-chiang-dead
+    title: 蒋介石死了
+    date: 1975-04-06
+    kind: news
+    alias: 《蒋介石死了》（1975）
+  - id: ws-1975-thailand
+    title: 中华人民共和国和泰王国关于建立外交关系的联合公报
+    date: 1975-07-01
+    author: 中泰两国政府
+    kind: party-doc
+    alias: 中泰建交联合公报（1975）
+  - id: ws-1975-philippines
+    title: 中华人民共和国政府和菲律宾共和国政府联合公报
+    date: 1975-06-09
+    author: 中菲两国政府
+    kind: party-doc
+    alias: 中菲建交联合公报（1975）
+  - id: ws-1975-line-enterprise
+    title: 路线决定企业的领导权
+    date: 1975
+    kind: editorial
+    alias: 《路线决定企业的领导权》（1975）
+  - id: ws-1975-anshan-order
+    title: 鞍山市公安局关于加强和整顿社会治安秩序的通告
+    date: 1975
+    author: 鞍山市公安局
+    kind: local-record
+    alias: 鞍山市公安局关于整顿社会治安秩序的通告（1975）
+  - id: ws-1975-08-30-shanchang
+    title: 关于保卫山场，自卫反击决议（1975年8月30日）
+    date: 1975-08-30
+    kind: local-record
+    alias: 关于保卫山场、自卫反击的决议（1975 年 8 月 30 日，宗族械斗）
+  - id: ws-1976-01-08-xiedou-treaty
+    title: 与白竹坪争五房山械斗条约（1976年1月8日）
+    date: 1976-01-08
+    kind: local-record
+    alias: 与白竹坪争五房山械斗条约（1976 年 1 月 8 日）
+  - id: ws-1976-mao-funeral-committee
+    title: 毛泽东主席治丧委员会名单
+    date: 1976-09-09
+    kind: party-doc
+    alias: 毛泽东主席治丧委员会名单（1976）
+  - id: ws-1976-zhangbei-case
+    title: 张北县革命委员会公安局关于对以王春喜为首的反革命集团案的立案请示报告
+    date: 1976
+    author: 张北县革命委员会公安局
+    kind: local-record
+    alias: 张北县公安局关于王春喜“反革命集团”案的立案请示报告（1976）
+  - id: ws-1976-hefei-manure
+    title: 合肥市革命委员会关于要求制止邻县群众来肥掏粪和严肃处理以积肥为名哄抢国家物资的报告
+    date: 1976
+    author: 合肥市革命委员会
+    kind: local-record
+    alias: 合肥市革委会关于制止邻县群众来肥掏粪的报告（1976）
+  - id: ws-1976-anhui-commune-enterprise
+    title: 安徽省革命委员会关于加强社队企业领导的通知
+    date: 1976
+    author: 安徽省革命委员会
+    kind: local-record
+    alias: 安徽省革委会关于加强社队企业领导的通知（1976）
