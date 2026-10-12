@@ -415,6 +415,13 @@ li-zuopeng:
   author: 中华人民共和国
   license: Public domain
   date: "1955"
+liao-hansheng:
+  qid: Q8293144
+  file: Liaohansheng1959.jpg
+  url: https://commons.wikimedia.org/wiki/File:Liaohansheng1959.jpg
+  author: chinese government
+  license: Public domain
+  date: "1955"
 liao-mosha:
   qid: Q11064411
   noCategory: true
@@ -449,6 +456,13 @@ liu-binyan:
   author: Unknown author Unknown author
   license: Public domain
   date: 1951-10
+liu-bocheng:
+  qid: Q701507
+  file: Liu Bocheng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Liu_Bocheng.jpg
+  author: ​《 解放军画报 》 记者 柳成行
+  license: Public domain
+  date: 1955-09-??
 liu-feng:
   qid: Q8294575
   why: Wikidata item has no image (P18)
@@ -585,6 +599,13 @@ qiao-guanhua:
   author: 政協秘書處
   license: Public domain
   date: "1949"
+qin-jiwei:
+  qid: Q3270815
+  file: Qin-Jiwei-1955.jpg
+  url: https://commons.wikimedia.org/wiki/File:Qin-Jiwei-1955.jpg
+  author: 中国人民解放军昆明军区
+  license: Public domain
+  date: "1955"
 qiu-huizuo:
   qid: Q8295058
   file: Qiu Huizuo.jpg
@@ -622,6 +643,13 @@ song-binbin:
 su-shaozhi:
   qid: Q15903298
   why: Wikidata item has no image (P18)
+su-yu:
+  qid: Q840370
+  file: Su Yu 1955 formal.jpg
+  url: https://commons.wikimedia.org/wiki/File:Su_Yu_1955_formal.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1955"
 su-zhenhua:
   qid: Q8314180
   file: Su Zhenhua.jpg
@@ -730,6 +758,13 @@ wang-renzhong:
 wang-ruowang:
   qid: Q699031
   why: Wikidata item has no image (P18)
+wang-shangrong:
+  qid: Q8318647
+  file: Wang Shangrong.jpg
+  url: https://commons.wikimedia.org/wiki/File:Wang_Shangrong.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
 wang-weiguo:
   qid: Q18654633
   why: Wikidata item has no image (P18)
@@ -790,6 +825,13 @@ xi-zhongxun:
   author: Anonymous Unknown author
   license: Public domain
   date: "1946"
+xiao-hua:
+  qid: Q8314185
+  file: Xiaohua.jpg
+  url: https://commons.wikimedia.org/wiki/File:Xiaohua.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
 xie-fuzhi:
   qid: Q162814
   file: 1967-07 1967年4月20日北京市革命委员会成立 谢富治.jpg
@@ -807,6 +849,13 @@ xiong-shili:
   author: Unknown author Unknown author
   license: Public domain
   date: circa 1947
+xu-guangda:
+  qid: Q7928790
+  file: Xu Guangda.jpg
+  url: https://commons.wikimedia.org/wiki/File:Xu_Guangda.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1955"
 xu-jingxian:
   qid: Q8294888
   why: Wikidata item has no image (P18)
@@ -844,6 +893,9 @@ yan-jiaqi:
   author: VOA
   license: Public domain
   date: 2018-03-03
+yang-baibing:
+  qid: Q832352
+  why: Wikidata item has no image (P18)
 yang-chengwu:
   qid: Q2983888
   file: Yangchengwu.jpg
@@ -935,6 +987,8 @@ zeng-siyu:
   author: chinese government
   license: Public domain
   date: "1955"
+zhang-aiping:
+  why: no Wikidata item with matching birth year
 zhang-bojun:
   qid: Q197164
   file: 章伯鈞.jpg

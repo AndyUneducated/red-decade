@@ -185,3 +185,16 @@
 - { a: wang-dongxing, b: li-qinglin, type: link, from: 1973-04, note: 经手从毛泽东稿费中寄出 300 元, cite: jwb-2007-li-qinglin }
 - { a: yao-wenyuan, b: huang-shuai, type: patron, from: 1973-12, note: 1978 年《人民日报》只说“‘四人帮’那两个黑干将”吹捧她，未点名, verify: true }
 - { a: xie-jingyi, b: huang-shuai, type: patron, from: 1973-12, note: 时任北京市委书记，宣传黄帅, verify: true }
+# batch 19
+- { a: liu-bocheng, b: deng-xiaoping, type: ally, from: 1938, note: 一二九师师长与政委，此后“刘邓”并称, cite: rmrb-1986-10-17-liu-bocheng }
+- { a: huang-yongsheng, b: zhang-aiping, type: attack, from: 1968-04, note: 称“总参出了不少坏人”, cite: ws-1980-indictment }
+- { a: huang-yongsheng, b: wang-shangrong, type: attack, from: 1968-04, note: 称“总参出了不少坏人”, cite: ws-1980-indictment }
+- { a: kang-sheng, b: xu-guangda, type: attack, from: 1967, note: 文中“中央文革小组顾问的那个‘理论家’”诬他是“特务”, cite: rmrb-1979-07-09-xu-guangda }
+- { a: he-long, b: xu-guangda, type: ally, from: 1931, note: 洪湖时期部下；文革中同被列入“二月兵变”案, cite: rmrb-1979-07-09-xu-guangda }
+- { a: su-yu, b: xu-guangda, type: protect, from: 1977-06-21, note: 代表中央军委在骨灰安放仪式上为他恢复名誉, cite: rmrb-1979-07-09-xu-guangda }
+- { a: he-long, b: liao-hansheng, type: patron, from: 1933, note: 与关向应介绍他入党, cite: xinhua-2006-liao-hansheng }
+- { a: mao-zedong, b: liao-hansheng, type: protect, from: 1972-07, note: 与周恩来批示释放, cite: xinhua-2006-liao-hansheng }
+- { a: zhou-enlai, b: liao-hansheng, type: protect, from: 1972-07, note: 与毛泽东批示释放, cite: xinhua-2006-liao-hansheng }
+- { a: zhou-enlai, b: su-yu, type: subordinate, from: 1967, note: 国务院业务组成员，在周恩来领导下分管交通、港口, cite: rmrb-1984-02-14-su-yu }
+- { a: jiang-qing, b: xiao-hua, type: link, from: 1966-02, note: 部队文艺工作座谈会纪要称他“指示我们一定要按照江青同志的意见办”, cite: ws-1966-03-army-arts }
+- { a: yang-shangkun, b: yang-baibing, type: link, note: 兄弟（杨尚昆是他的五哥）, cite: xinhua-2013-yang-baibing }

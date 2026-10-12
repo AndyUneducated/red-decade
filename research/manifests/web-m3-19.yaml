@@ -1,0 +1,119 @@
+# M3 人物第 19 批（军队二）：刘伯承、粟裕、萧华、杨勇、廖汉生、许光达、张爱萍、王尚荣、秦基伟、杨白冰。
+# tools/fetch-web.ts。未满 50 年的网页只保留 keep 段落；人民网资料中心两条注明禁止转载，只截 1950 年以后一段。
+web:
+  - id: rmrb-1986-10-17-liu-bocheng
+    title: 功勋卓著的名帅——刘伯承同志生平
+    date: 1986-10-17
+    author: 新华社
+    kind: obituary
+    alias: 《功勋卓著的名帅——刘伯承同志生平》
+    url: https://cn.govopendata.com/renminribao/1986/10/17/2/
+    via: 《人民日报》1986-10-17 第 2 版（govopendata 转录）
+    article: 功勋卓著的名帅
+    excerpt: true
+    keep: [中国人民的伟大战士，中国共产党的优秀党员, 刘伯承同志1892年12月4日, 抗日战争爆发后，刘伯承同志任, 1950年底，刘伯承同志出任, 刘伯承同志是党的第七届]
+    note: 只保留开头、早年、抗战、1950 年以后和任职总结五段。
+  - id: rmrb-1984-02-14-su-yu
+    title: 光荣战斗的一生——粟裕同志生平事迹
+    date: 1984-02-14
+    author: 新华社
+    kind: obituary
+    alias: 《光荣战斗的一生——粟裕同志生平事迹》
+    url: https://cn.govopendata.com/renminribao/1984/2/14/4/
+    via: 《人民日报》1984-02-14 第 4 版（govopendata 转录）
+    article: 光荣战斗的一生
+    excerpt: true
+    keep: [粟裕同志于1907年8月10日, 中华人民共和国成立后，1951年起, 1958年以后，粟裕同志任国防部副部长, 在十年动乱中，粟裕同志, 粉碎“四人帮”后，粟裕同志, 粟裕同志是中国共产党七届]
+    note: 只保留出生、1951 年以后各段和任职总结。
+  - id: rmrb-1983-01-16-yang-yong
+    title: 在杨勇同志的追悼大会上 杨尚昆同志致悼词
+    date: 1983-01-16
+    author: 杨尚昆（新华社北京 1 月 15 日电）
+    kind: obituary
+    alias: 1983 年杨尚昆在杨勇追悼会上的悼词
+    url: https://cn.govopendata.com/renminribao/1983/1/16/2/
+    via: 《人民日报》1983-01-16 第 2 版（govopendata 转录）
+    article: 在杨勇同志的追悼大会上
+    excerpt: true
+    keep: [我们怀着十分沉痛, 杨勇同志是中共中央委员, 杨勇同志，湖南浏阳县, 新中国成立以后，杨勇同志, 杨勇同志在党的第八次]
+    note: 只保留开头、出身、1949 年以后一段和任职。悼词写“1912年8月出生”，与通行的 1913 年说不同。
+  - id: rmrb-1979-07-09-xu-guangda
+    title: 闻鼙鼓而思良将——记装甲兵前司令员许光达同志的高尚品质和优良作风
+    date: 1979-07-09
+    author: 顾雷（《人民日报》记者）
+    kind: article
+    alias: 顾雷《闻鼙鼓而思良将》（许光达）
+    url: https://cn.govopendata.com/renminribao/1979/7/9/2/
+    via: 《人民日报》1979-07-09 第 2 版（govopendata 转录）
+    article: 闻鼙鼓而思良将
+    excerpt: true
+    keep: [六月三日，装甲兵领导机关, 许光达同志是十年前, 百战沙场驱虎豹, 万苦艰辛胆未寒, 只为人民谋解放, 粉身碎骨若等闲, 许光达同志在长期革命战争中, 林彪的死党眼看, 一天，江青主持彩排, 进城以后，许光达同志在被授予大将]
+    note: 只保留开头、遗诗、1977 年恢复名誉、受审、与江青对话和请求降衔几段。
+  - id: xinhua-2003-zhang-aiping
+    title: 张爱萍同志生平
+    date: 2003-07-13
+    author: 新华社
+    kind: obituary
+    alias: 新华社《张爱萍同志生平》
+    url: http://news.sina.com.cn/w/2003-07-13/0802369794s.shtml
+    via: 新浪新闻转载《浙江日报》2003-07-13 所刊新华社北京 7 月 12 日电
+    start: 中国共产党的优秀党员，久经考验的忠诚的共产主义战士，无产阶级革命家、军事家，国务院原副总理
+    unwrap: true
+    excerpt: true
+    keep: [因病于2003年7月5日20时35分, 张爱萍同志1910年1月9日, 张爱萍同志长期从事国防, “文化大革命”中，张爱萍同志, 1977年3月后, 张爱萍同志是中共第八届]
+    note: 只保留开头、出生、国防科技、文革与 1975 年复出、1977 年以后和任职几段。
+  - id: xinhua-2006-liao-hansheng
+    title: 廖汉生同志生平
+    date: 2006-10-14
+    author: 新华社
+    kind: obituary
+    alias: 新华社《廖汉生同志生平》
+    url: https://zjrb.zjol.com.cn/html/2006-10/14/content_177734.htm
+    via: 《浙江日报》2006-10-14 刊新华社北京 10 月 13 日电
+    excerpt: true
+    keep: [于2006年10月5日6时30分, 新中国成立后，廖汉生同志, “文化大革命”期间，廖汉生, 廖汉生同志是中国共产党的七大代表]
+    note: 只保留开头、1949 年以后、文革与复出、任职四段。
+  - id: xinhua-1997-qin-jiwei
+    title: 秦基伟同志生平
+    date: 1997-02-19
+    author: 新华社
+    kind: obituary
+    alias: 新华社《秦基伟同志生平》
+    url: https://rmrb.zhouenlai.info/%E5%91%A8%E6%80%BB%E7%90%86%E4%B8%93%E6%A0%8F/%E6%80%BB%E7%90%86%E7%9B%B8%E5%85%B3/1997/1997-02-19%201141045%20%E7%A7%A6%E5%9F%BA%E4%BC%9F%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3.htm
+    via: 《人民日报》1997-02-19 第 4 版（rmrb.zhouenlai.info 转录）
+    excerpt: true
+    keep: [于１９９７年２月２日１时５８分, 秦基伟同志１９１４年１１月１６日, １９５３年至１９５６年, １９８８年４月，秦基伟, １９９３年３月，秦基伟, 秦基伟同志是中共第十]
+    note: 只保留开头、出生、1953 年以后各段和任职。数字是全角。
+  - id: xinhua-2013-yang-baibing
+    title: 杨白冰同志生平
+    date: 2013-01-21
+    author: 新华社
+    kind: obituary
+    alias: 新华社《杨白冰同志生平》
+    url: http://cpc.people.com.cn/n/2013/0121/c87393-20275731.html
+    via: 人民网转载新华网 2013-01-21
+    excerpt: true
+    keep: [于２０１３年１月１５日１６时５５分, 杨白冰同志原名杨尚正, “文化大革命”中，杨白冰, 党的十一届三中全会后，杨白冰, １９８７年１１月，杨白冰, 杨白冰同志是中国共产党第十三届]
+    note: 只保留开头、出生、文革、1979 年以后和任职几段。数字是全角。
+  - id: people-xiao-hua
+    title: 萧华
+    date: 2008
+    author: 人民网资料中心“中国人民解放军开国将帅名录”
+    kind: chronology
+    alias: 人民网“开国将帅名录”萧华条
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7538817.html
+    via: 中国共产党新闻网资料中心
+    start: 1950年3月任人民解放军空军政治委员
+    end: 1985年8月12日于北京病逝。
+    note: 资料库声明禁止转载，只截 1950 年以后一段。
+  - id: people-wang-shangrong
+    title: 王尚荣
+    date: 2008
+    author: 人民网资料中心“中国人民解放军开国将帅名录”
+    kind: chronology
+    alias: 人民网“开国将帅名录”王尚荣条
+    url: http://cpc.people.com.cn/GB/64162/126778/130393/7586696.html
+    via: 中国共产党新闻网资料中心
+    start: 1952年5月毕业于南京军事学院
+    end: 2000年4月1日在北京逝世。
+    note: 资料库声明禁止转载，只截 1952 年以后一段。

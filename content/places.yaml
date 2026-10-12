@@ -221,6 +221,11 @@
 - { id: gongxian, name: 河南巩县, names: [巩县], lat: 34.75, lon: 112.98 }
 - { id: dingxing, name: 河北定兴, names: [定兴], lat: 39.27, lon: 115.81 }
 - { id: putian, name: 福建莆田, names: [莆田], lat: 25.45, lon: 119.01 }
+# batch 19
+- { id: kaixian, name: 四川开县, names: [开县], lat: 31.16, lon: 108.39 }
+- { id: huitong, name: 湖南会同, names: [会同], lat: 26.89, lon: 109.72 }
+- { id: daxian, name: 四川达县, names: [达县], lat: 31.21, lon: 107.47 }
+- { id: shishou, name: 湖北石首, names: [石首], lat: 29.72, lon: 112.43 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

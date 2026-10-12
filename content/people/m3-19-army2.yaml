@@ -1,0 +1,540 @@
+# M3 people round 2, batch 19: 军队二。刘伯承、粟裕（元帅、大将），萧华、杨勇、廖汉生、许光达、张爱萍、王尚荣（文革中被关押的总部和大军区领导），
+# 秦基伟、杨白冰（1980 年代的军队领导，1989 年分别任国防部长、总政治部主任）。
+# Texts: 1980 年起诉书（被诬陷的中央委员名单、军队高级干部名单、黄永胜“总参出了不少坏人”），1966 年部队文艺工作座谈会纪要，
+# 1977 年十届三中全会公报，《人民日报》1979 年许光达文、1983 年杨勇悼词、1984 年粟裕生平、1986 年刘伯承生平，
+# 新华社秦基伟、张爱萍、廖汉生、杨白冰生平，人民网“开国将帅名录”萧华、王尚荣条。
+
+- id: liu-bocheng
+  name: 刘伯承
+  born: 1892-12-04
+  died: 1986-10-07
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 中共中央政治局委员、中央军委副主席
+  pinyin: Liú Bóchéng
+  gender: m
+  birthplace: 四川开县
+  positions:
+    - { title: 院长（后兼政治委员）, orgName: 中国人民解放军军事学院, from: 1951-01, to: 1957-09, cite: rmrb-1986-10-17-liu-bocheng }
+    - { title: 委员, orgName: 中共中央政治局, from: 1956-09, to: 1982-09, cite: rmrb-1986-10-17-liu-bocheng }
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1959-04, to: 1983-06, cite: rmrb-1986-10-17-liu-bocheng }
+    - { title: 副主席, orgName: 中共中央军事委员会, from: 1966-01, to: 1982-09, note: 止点待核, cite: rmrb-1986-10-17-liu-bocheng }
+  bio: 四川开县人，早年是川军将领，1916 年作战中失去右眼。1926 年入党，参与领导泸顺起义、南昌起义，长征中任红军总参谋长。抗战时任八路军一二九师师长，与政委邓小平创建晋冀豫根据地，此后“刘邓”并称，指挥中原野战军、第二野战军。1950 年底起创办军事学院，1955 年授元帅。1966 年 1 月起任中央军委副主席，文革中身患重病。1986 年在北京去世。
+  life:
+    - h: 川中名将
+      from: 1892-12-04
+      to: 1926-05
+      text: |
+        1911 年参加响应辛亥革命的学生军，此后在护国、护法战争中历任连长、旅参谋长、团长，“1916年3月在攻克丰都县城的作战中右眼中弹致残”，被誉为“川中名将”。1923 年结识杨闇公、吴玉章，1924 年起随吴玉章考察，接受马克思主义。
+      cites: [rmrb-1986-10-17-liu-bocheng]
+    - h: 刘邓
+      from: 1926-05
+      to: 1950-12
+      text: |
+        1926 年 5 月入党，同年 12 月与杨闇公、朱德发动泸州、顺庆起义；1927 年任南昌起义参谋团参谋长；长征中任红军总参谋长。抗战时任八路军一二九师师长，1938 年起“与政治委员邓小平、副师长徐向前等”指挥作战，创建晋冀豫抗日根据地。解放战争中与邓小平率部千里跃进大别山，参加淮海战役和西南战役。
+      cites: [rmrb-1986-10-17-liu-bocheng]
+    - h: 军事学院
+      from: 1950-12
+      to: 1966-01
+      text: |
+        1950 年底出任军事学院院长，后兼政治委员，主张“治军必先治校”，在学院陆续开设海军、空军、炮兵、装甲兵等系。1957 年 9 月调任高等军事学院院长兼政委，1959 年后负责军委战略小组。1958 年军委扩大会议反“教条主义”时他是被批评的对象之一，此后辞去军事学院职务；1986 年的生平没有提这件事。
+      cites: [rmrb-1986-10-17-liu-bocheng]
+      verify: true
+    - h: 文革与晚年
+      from: 1966-01
+      to: 1986-10-07
+      text: |
+        1966 年 1 月起任中央军委副主席。1980 年起诉书说，谢富治等制造“中国（马列）共产党”假案时，把他和朱德、陈毅、叶剑英等一起列为“参加的”人，诬陷他们“里通外国”。1977 年 7 月十届三中全会公报写“政治局委员刘伯承同志因病请假”。1982 年后因年龄和健康原因不再担任领导职务，1986 年 10 月 7 日在北京去世。
+      cites: [ws-1980-indictment, ws-1977-07-tenth-third-plenum, rmrb-1986-10-17-liu-bocheng]
+  assess:
+    - { voice: officialLater, text: “文化大革命”中，他对林彪、江青反革命集团反党乱军的活动进行了坚决抵制和斗争，虽然身患重病，仍然关心党和国家的前途和命运。（1986 年生平）, cite: rmrb-1986-10-17-liu-bocheng, quote: true }
+    - { voice: judicial1980, text: 参加的有董必武、叶剑英、李先念、贺龙、刘伯承、徐向前、聂荣臻、谭震林、余秋里、王震、廖承志等，诬陷他们“里通外国”，“准备武装叛乱”，要搞“政变”。（1980 年起诉书，“马列共产党”假案一条）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 生平写他在文革中“坚决抵制和斗争”，但没有举出具体事例；本站收录的文革文件里，他只出现在名单和请假记录中。, cite: rmrb-1986-10-17-liu-bocheng }
+  factions: [marshals]
+  fate:
+    - { date: 1955-09, s: power, note: 授元帅, cite: rmrb-1986-10-17-liu-bocheng }
+    - { date: 1966-01, s: power, note: 中央军委副主席, cite: rmrb-1986-10-17-liu-bocheng }
+    - { date: 1982-09, s: sidelined, note: 因年龄和健康原因退出领导职务, verify: true }
+    - { date: 1986-10-07, s: dead, verify: true }
+  cites: [rmrb-1986-10-17-liu-bocheng, ws-1980-indictment, ws-1977-07-tenth-third-plenum]
+
+- id: su-yu
+  name: 粟裕
+  born: 1907-08-10
+  died: 1984-02-05
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 国防部副部长、军事科学院第一政委
+  pinyin: Sù Yù
+  gender: m
+  birthplace: 湖南会同
+  positions:
+    - { title: 总参谋长, orgName: 中国人民解放军总参谋部, from: 1954, to: 1958, cite: rmrb-1984-02-14-su-yu }
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1980, to: 1983-06, cite: rmrb-1984-02-14-su-yu }
+    - { title: 常委, orgName: 中央顾问委员会, from: 1982-09, to: 1984-02-05, cite: rmrb-1984-02-14-su-yu }
+  bio: 湖南会同人。参加南昌起义，跟随朱德、陈毅上井冈山；红军主力长征后在浙南坚持三年游击战争。抗战和解放战争中长期辅助陈毅指挥华东部队，指挥苏中战役、豫东战役，是淮海战役总前委成员。1954–1958 年任总参谋长，1955 年授大将。1958 年后任国防部副部长、军事科学院第一政委；文革中任国务院业务组成员，分管交通、港口。1984 年在北京去世。
+  life:
+    - h: 从南昌到淮海
+      from: 1907-08-10
+      to: 1949-10
+      text: |
+        1926 年在常德加入共青团，1927 年参加南昌起义，起义失败后“坚决地跟随朱德、陈毅同志”，1928 年上井冈山。1935 年率挺进师进入浙南，与中央失去联系，坚持三年游击战争。此后历任新四军第一师师长、华中野战军司令员、华东野战军副司令员和代司令员，1948 年 11 月作为总前委成员直接指挥华东野战军参加淮海战役。
+      cites: [rmrb-1984-02-14-su-yu]
+      verify: true
+    - h: 总参谋长
+      from: 1951
+      to: 1958
+      text: |
+        1951 年起任副总参谋长，1954 年至 1958 年任总参谋长，1955 年授大将军衔。1958 年军委扩大会议上他受到批判，被免去总参谋长职务；1984 年的生平只写“1958年以后，粟裕同志任国防部副部长，军事科学院副院长”，没有提批判。
+      cites: [rmrb-1984-02-14-su-yu]
+      verify: true
+    - h: 军事科学院与业务组
+      from: 1958
+      to: 1976-10
+      text: |
+        1958 年以后任国防部副部长、军事科学院副院长、第一政委，协助叶剑英创建军事科学院。生平说他“针对林彪一伙对毛泽东军事思想的严重歪曲，提出要学习和运用军事辩证法”。文革中任国务院业务组成员，在周恩来领导下分管交通、邮电和港口建设。1980 年起诉书把他列入“被诬陷的中共中央委员、候补中央委员”名单。
+      cites: [rmrb-1984-02-14-su-yu, ws-1980-indictment]
+    - h: 晚年
+      from: 1976-10
+      to: 1984-02-05
+      text: |
+        1980 年当选五届全国人大常委会副委员长，1982 年任中顾委常委。因重病退出第一线后继续整理战争经验。1984 年 2 月 5 日在北京去世。
+      cites: [rmrb-1984-02-14-su-yu]
+  assess:
+    - { voice: officialLater, text: 在十年动乱中，粟裕同志曾任国务院业务组成员。他在周恩来同志直接领导下，分管交通、邮电和港口建设，在极其复杂困难的情况下，坚决抵制了“四人帮”对国民经济的干扰破坏（1984 年生平）, cite: rmrb-1984-02-14-su-yu, quote: true }
+    - { voice: judicial1980, text: 被诬陷的中共中央委员、候补中央委员还有：……萧劲光、粟裕、肖克（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 生平从“1954年至1958年，任总参谋长”直接接到“1958年以后”，中间的军委扩大会议批判没有写；对他的公开平反要到 1994 年。, cite: rmrb-1984-02-14-su-yu }
+  factions: [marshals]
+  fate:
+    - { date: 1954, s: power, note: 总参谋长, cite: rmrb-1984-02-14-su-yu }
+    - { date: 1958, s: sidelined, note: 军委扩大会议受批判，免去总参谋长, verify: true }
+    - { date: 1980, s: restored, note: 五届全国人大常委会副委员长, cite: rmrb-1984-02-14-su-yu }
+    - { date: 1984-02-05, s: dead, verify: true }
+  cites: [rmrb-1984-02-14-su-yu, ws-1980-indictment]
+
+- id: xiao-hua
+  name: 萧华
+  aka: [肖华]
+  born: 1916-01-21
+  died: 1985-08-12
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 中国人民解放军总政治部主任
+  pinyin: Xiāo Huá
+  gender: m
+  birthplace: 江西兴国
+  positions:
+    - { title: 主任, orgName: 中国人民解放军总政治部, from: 1964-09, to: 1967, note: 止点待核, cite: people-xiao-hua }
+    - { title: 第二政治委员, orgName: 中国人民解放军军事科学院, from: 1975-07, to: 1977-04, cite: people-xiao-hua }
+    - { title: 副主席, orgName: 中国人民政治协商会议全国委员会, from: 1983-06, to: 1985-08-12, cite: people-xiao-hua }
+  bio: 江西兴国人，1930 年入党，17 岁任“少共国际师”政委，长征中协助刘伯承与彝族首领小叶丹结盟。抗战时任八路军一一五师政治部主任，解放战争中指挥长春围困战。1950 年起任空军政委、总政治部副主任、总干部部部长，1964 年任总政治部主任，1965 年写成《长征组歌》。1966 年 2 月部队文艺工作座谈会纪要说他和杨成武“指示我们一定要按照江青同志的意见办”；1967 年起被关押七年。1975 年复出，1983 年任全国政协副主席，1985 年去世。
+  life:
+    - h: 少共国际师
+      from: 1916-01-21
+      to: 1949-10
+      text: |
+        1928 年入共青团，参加兴国暴动，1930 年调入红军并入党。1933 年 8 月任“少共国际师”第一任政委。长征中协助刘伯承同彝族首领小叶丹“歃血结盟”。抗战时任八路军一一五师政治部主任、东进抗日挺进纵队司令员，解放战争中与萧劲光指挥长春围困战，提出“攻心为上，攻城为下”。
+      verify: true
+    - h: 总政治部
+      from: 1950-03
+      to: 1967
+      text: |
+        1950 年 3 月任空军政委，后任总政治部副主任，1956 年任总干部部部长，1959 年任中央军委副秘书长，1964 年 9 月任总政治部主任、中央军委常委。“1965年创作完成《长征组歌》”。1966 年 2 月江青在上海召开部队文艺工作座谈会，纪要说“萧华同志和杨成武同志，对这次座谈都表示热情赞助和支持，指示我们一定要按照江青同志的意见办”。
+      cites: [people-xiao-hua, ws-1966-03-army-arts]
+    - h: 关押
+      from: 1967
+      to: 1975-07
+      text: |
+        “‘文化大革命’中受到林彪、江青一伙的迫害，被非法关押7年之久。”1967 年 1 月他被江青等点名，总政治部随即被改组，具体经过没有进入本站已收的文件。1980 年起诉书把他列入“被诬陷的中共中央委员、候补中央委员”名单。
+      cites: [people-xiao-hua, ws-1980-indictment]
+      verify: true
+    - h: 复出
+      from: 1975-07
+      to: 1985-08-12
+      text: |
+        1975 年 7 月恢复工作，任军事科学院第二政委；1977 年 4 月调任兰州军区政委兼甘肃省委书记。1983 年 6 月当选第六届全国政协副主席，1985 年 8 月 12 日在北京病逝。
+      cites: [people-xiao-hua]
+  assess:
+    - { voice: doc, text: 萧华同志和杨成武同志，对这次座谈都表示热情赞助和支持，指示我们一定要按照江青同志的意见办（1966 年部队文艺工作座谈会纪要）, cite: ws-1966-03-army-arts, quote: true }
+    - { voice: officialLater, text: “文化大革命”中受到林彪、江青一伙的迫害，被非法关押7年之久。（人民网“开国将帅名录”）, cite: people-xiao-hua, quote: true }
+    - { voice: editor, text: 1966 年的纪要把他写成支持江青的总政治部主任，一年后他被江青点名打倒；两份文本相隔不到一年。, cite: ws-1966-03-army-arts }
+  factions: [marshals]
+  fate:
+    - { date: 1964-09, s: power, note: 总政治部主任, cite: people-xiao-hua }
+    - { date: 1967, s: detained, note: 被关押七年, cite: people-xiao-hua }
+    - { date: 1975-07, s: restored, note: 军事科学院第二政委, cite: people-xiao-hua }
+    - { date: 1985-08-12, s: dead, cite: people-xiao-hua }
+  cites: [people-xiao-hua, ws-1966-03-army-arts, ws-1980-indictment]
+
+- id: yang-yong
+  name: 杨勇
+  died: 1983-01-06
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 北京军区司令员
+  pinyin: Yáng Yǒng
+  gender: m
+  birthplace: 湖南浏阳
+  positions:
+    - { title: 司令员, orgName: 北京军区, from: 1958-09, to: 1967, verify: true }
+    - { title: 司令员, orgName: 新疆军区, from: 1973-06, to: 1977-09, verify: true }
+    - { title: 副总参谋长, orgName: 中国人民解放军总参谋部, from: 1977-09, to: 1983-01-06, verify: true }
+  bio: 湖南浏阳文家市人，1930 年入党，长征中率部突破湘江封锁线。抗战时在平型关负伤坚持指挥，后任冀鲁豫军区司令员；解放战争中任第二野战军第五兵团司令员。1953 年入朝，后任志愿军司令员。回国后任北京军区司令员、副总参谋长。文革中被诬陷关押，1972 年后任沈阳军区副司令员、新疆军区司令员，1977 年再任副总参谋长，1978 年彻底平反，后任中央军委常委、副秘书长、中央书记处书记。1983 年去世。生年有 1912、1913 两说，不录。
+  life:
+    - h: 浏阳到朝鲜
+      from: 1927
+      to: 1958
+      text: |
+        童年参加湖南农民运动，1927 年入共青团，1930 年入党并参加红军，长征中“突破湘江封锁线”。抗战中“在平型关大战中，负伤坚持指挥部队”，后任鲁西军区、冀鲁豫军区司令员。解放战争中任晋冀鲁豫野战军第七纵队、第一纵队司令员和第二野战军第五兵团司令员。1949 年后兼任贵州省军区司令员、贵州省人民政府主席，1953 年入朝，任志愿军副司令员、司令员。
+      cites: [rmrb-1983-01-16-yang-yong]
+    - h: 北京军区
+      from: 1958
+      to: 1967
+      text: |
+        回国后任北京军区司令员、副总参谋长，“组织部队开展群众性的练兵活动，获得优异成绩，受到党中央和毛泽东同志的赞扬”。1967 年被撤职关押，具体日期悼词没有写。
+      cites: [rmrb-1983-01-16-yang-yong]
+      verify: true
+    - h: 关押与复出
+      from: 1967
+      to: 1983-01-06
+      text: |
+        悼词说他“遭到林彪、江青反革命集团的恶毒诬陷和残酷迫害，在失去自由的艰难困境中坚信胜利，坚持斗争”。1980 年起诉书把他列入“被诬陷的中共中央委员、候补中央委员”名单。林彪事件后重新工作，任沈阳军区副司令员、新疆军区司令员和新疆区党委第二书记，再任副总参谋长；“1978年彻底平反”，任总参党委第二书记、中央军委常委、副秘书长。1982 年十二大当选中央委员和中央书记处书记，1983 年 1 月 6 日去世。
+      cites: [rmrb-1983-01-16-yang-yong, ws-1980-indictment]
+  assess:
+    - { voice: officialLater, text: 在“文化大革命”中，遭到林彪、江青反革命集团的恶毒诬陷和残酷迫害，在失去自由的艰难困境中坚信胜利，坚持斗争。（杨尚昆致悼词，1983 年）, cite: rmrb-1983-01-16-yang-yong, quote: true }
+    - { voice: judicial1980, text: 被诬陷的中共中央委员、候补中央委员还有：……舒同、潘自力、杨勇、黄火青（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 悼词写他“1912年8月出生”，通行资料多作 1913 年 10 月，本站不录生年。, cite: rmrb-1983-01-16-yang-yong }
+  factions: [marshals]
+  fate:
+    - { date: 1958-09, s: power, note: 北京军区司令员, verify: true }
+    - { date: 1967, s: detained, note: 被诬陷关押, cite: rmrb-1983-01-16-yang-yong }
+    - { date: 1972, s: restored, note: 沈阳军区副司令员, cite: rmrb-1983-01-16-yang-yong }
+    - { date: 1978, s: restored, note: 彻底平反，中央军委常委, cite: rmrb-1983-01-16-yang-yong }
+    - { date: 1983-01-06, s: dead, verify: true }
+  cites: [rmrb-1983-01-16-yang-yong, ws-1980-indictment]
+
+- id: liao-hansheng
+  name: 廖汉生
+  born: 1911-11-14
+  died: 2006-10-05
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 北京军区政治委员
+  pinyin: Liào Hànshēng
+  gender: m
+  ethnicity: 土家族
+  birthplace: 湖南桑植
+  positions:
+    - { title: 政治委员, orgName: 北京军区, from: 1960-01, to: 1967-01, cite: xinhua-2006-liao-hansheng }
+    - { title: 政治委员, orgName: 中国人民解放军军事科学院, from: 1973-12, to: 1975-02, cite: xinhua-2006-liao-hansheng }
+    - { title: 政治委员、第一政治委员, orgName: 南京军区, from: 1975-02, to: 1980-01, cite: xinhua-2006-liao-hansheng }
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1983-06, to: 1993-03, cite: xinhua-2006-liao-hansheng }
+  bio: 湖南桑植人，土家族。1928 年参加贺龙发动的工农武装，1933 年由贺龙、关向应介绍入党，长期在红二军团、一二〇师工作。1949 年后任第一军政委、青海省委副书记，1960 年起任北京军区政委。文革中被批斗关押五年，1972 年 7 月经毛泽东、周恩来批示获释。此后任军事科学院政委、南京军区政委、沈阳军区第一政委，1983–1993 年任全国人大常委会副委员长。2006 年在北京去世。
+  life:
+    - h: 贺龙部下
+      from: 1928-03
+      to: 1949-10
+      text: |
+        1928 年 3 月参加贺龙等发动的工农武装斗争，1933 年由贺龙、关向应介绍入党。1934 年 10 月任红二军团第六师政委，1935 年 11 月从桑植出发长征。抗战时任一二〇师三五八旅七一六团政委，解放战争中任晋绥野战军第一纵队政委。
+      cites: [xinhua-2006-liao-hansheng]
+      verify: true
+    - h: 北京军区
+      from: 1949-10
+      to: 1967-01
+      text: |
+        1949 年后任陆军第一军政委兼青海军区政委、青海省委副书记。“1960年1月至1967年1月任北京军区政治委员、党委第三书记、中共华北局书记处书记。”
+      cites: [xinhua-2006-liao-hansheng]
+    - h: 关押五年
+      from: 1967-01
+      to: 1972-07
+      text: |
+        “受到林彪、‘四人帮’反革命集团的迫害，被批斗、关押达5年之久，直到1972年7月经毛泽东主席、周恩来总理亲自批示，才重获自由。”1980 年起诉书把他列入“被诬陷的中共中央委员、候补中央委员”名单。
+      cites: [xinhua-2006-liao-hansheng, ws-1980-indictment]
+    - h: 复出
+      from: 1973-12
+      to: 2006-10-05
+      text: |
+        1973 年 12 月任军事科学院政委，1975 年 2 月调任南京军区政委，1977 年 8 月任中央军委委员、9 月任南京军区第一政委，1980 年 1 月任沈阳军区第一政委。1983 年至 1993 年任第六、七届全国人大常委会副委员长兼外事委员会主任委员。2006 年 10 月 5 日在北京去世。
+      cites: [xinhua-2006-liao-hansheng]
+  assess:
+    - { voice: officialLater, text: “文化大革命”期间，廖汉生同志受到林彪、“四人帮”反革命集团的迫害，被批斗、关押达5年之久（新华社生平，2006 年）, cite: xinhua-2006-liao-hansheng, quote: true }
+    - { voice: judicial1980, text: 被诬陷的中共中央委员、候补中央委员还有：……王世泰、廖汉生、洪学智（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 生平把获释归于 1972 年 7 月毛泽东、周恩来的批示，没有写关押他的专案组和罪名。, cite: xinhua-2006-liao-hansheng }
+  factions: [marshals]
+  fate:
+    - { date: 1960-01, s: power, note: 北京军区政委, cite: xinhua-2006-liao-hansheng }
+    - { date: 1967-01, s: detained, note: 批斗、关押五年, cite: xinhua-2006-liao-hansheng }
+    - { date: 1972-07, s: restored, note: 经毛泽东、周恩来批示获释, cite: xinhua-2006-liao-hansheng }
+    - { date: 1983-06, s: power, note: 全国人大常委会副委员长, cite: xinhua-2006-liao-hansheng }
+    - { date: 2006-10-05, s: dead, cite: xinhua-2006-liao-hansheng }
+  cites: [xinhua-2006-liao-hansheng, ws-1980-indictment]
+
+- id: xu-guangda
+  name: 许光达
+  born: 1908-11-19
+  died: 1969-06-03
+  deathKind: persecuted
+  deathPlace: 北京
+  tier: 2
+  role1966: 中国人民解放军装甲兵司令员、国防部副部长
+  pinyin: Xǔ Guāngdá
+  gender: m
+  birthplace: 湖南长沙
+  positions:
+    - { title: 司令员, orgName: 中国人民解放军装甲兵, from: 1950-09, to: 1967, verify: true }
+  bio: 湖南长沙人，1925 年入党，黄埔军校出身，参加南昌起义，后在贺龙部下任红军师长，在苏联学过坦克。解放战争中任第一野战军第二兵团司令员。1950 年起组建并领导装甲兵，1955 年授大将。文革中在所谓贺龙“二月兵变”案中“被列为第二号人物”，1967 年起被关押审讯，1969 年 6 月去世。1977 年中央军委为他恢复名誉。
+  life:
+    - h: 从南昌起义到装甲兵
+      from: 1925
+      to: 1966
+      text: |
+        1925 年入党，参加南昌起义；1931 年在洪湖苏区任红十七师师长，夏曦主持“肃反”时他在前线负伤，被贺龙秘密送往上海治疗，“才幸免于难”。1933 年前后在莫斯科学习坦克理论。1950 年起组建装甲兵，任司令员。1955 年授大将军衔、定为四级工资时，他“几次向军委写报告，请求降低自己的军衔和生活待遇”，结果工资降为五级。
+      cites: [rmrb-1979-07-09-xu-guangda]
+      verify: true
+    - h: “二月兵变”案
+      from: 1967
+      to: 1969-06-03
+      text: |
+        1979 年《人民日报》文章说，他在“贺龙同志‘二月兵变’‘篡军反党’这一大冤案中被列为第二号人物”。为了逼他承认是“二月兵变的参谋长”，审讯者“连续进行了五十三个小时的审讯”，他回答：“告诉你们，我现在是国防部副部长、大将、中央委员，党给了我这么高的荣誉，我才不冒着杀头的危险去抢那个参谋长当呢。你们这是诬蔑！”临终前他在《毛泽东选集》第四卷扉页上写了一首诗。1969 年 6 月 3 日去世。
+      cites: [rmrb-1979-07-09-xu-guangda]
+    - h: 恢复名誉
+      from: 1969-06-03
+      to: 1979-07-09
+      text: |
+        1977 年 6 月 21 日在八宝山举行骨灰安放仪式，“粟裕同志在老将军骨灰安放仪式上，代表中央军委为他恢复名誉”。1980 年起诉书把他列入“被诬陷的中共中央委员、候补中央委员”名单。
+      cites: [rmrb-1979-07-09-xu-guangda, ws-1980-indictment]
+  rehab:
+    - { date: 1977-06-21, text: 骨灰安放仪式上粟裕代表中央军委为他恢复名誉, cite: rmrb-1979-07-09-xu-guangda }
+  assess:
+    - { voice: doc, text: 百战沙场驱虎豹，……粉身碎骨若等闲。（许光达临终写在《毛泽东选集》第四卷扉页上的诗）, cite: rmrb-1979-07-09-xu-guangda, quote: true }
+    - { voice: officialLater, text: 当时，他在这些野心家和阴谋家捏造的贺龙同志“二月兵变”“篡军反党”这一大冤案中被列为第二号人物。（《人民日报》1979 年）, cite: rmrb-1979-07-09-xu-guangda, quote: true }
+    - { voice: editor, text: 文章说“窃居中央文革小组顾问的那个‘理论家’”在文革中诬他是“特务”，指的是康生，但没有点名；康生 1980 年才被开除党籍、撤销悼词。, cite: rmrb-1979-07-09-xu-guangda }
+  factions: [marshals]
+  fate:
+    - { date: 1955-09, s: power, note: 授大将, verify: true }
+    - { date: 1967, s: detained, note: 在“二月兵变”案中被关押审讯, cite: rmrb-1979-07-09-xu-guangda }
+    - { date: 1969-06-03, s: dead, note: 关押中去世, verify: true }
+  cites: [rmrb-1979-07-09-xu-guangda, ws-1980-indictment]
+
+- id: zhang-aiping
+  name: 张爱萍
+  born: 1910-01-09
+  died: 2003-07-05
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 副总参谋长、国防科委副主任
+  pinyin: Zhāng Àipíng
+  gender: m
+  birthplace: 四川达县
+  positions:
+    - { title: 主任, orgName: 国防科学技术委员会, from: 1975-03, to: 1976, note: 1976 年再次被打倒的时间待核, cite: xinhua-2003-zhang-aiping }
+    - { title: 副总理, orgName: 国务院, from: 1980-09, to: 1982-05, note: 止点待核, cite: xinhua-2003-zhang-aiping }
+    - { title: 国务委员兼部长, orgName: 国防部, from: 1982-11, to: 1988-04, note: 止点待核, cite: xinhua-2003-zhang-aiping }
+  bio: 四川达县人，1928 年入党，1929 年参加红军，长征中任红三军团团政委。抗战时任新四军第四师师长，1949 年受命组建华东海军，1955 年指挥一江山岛战役。1959 年起主持国防科技和国防工业，组织原子弹、导弹试验。文革中被批斗、囚禁六年，左腿致残；1975 年复出任国防科委主任，次年再被打倒。1977 年后再任副总参谋长、国防科委主任，1980 年组织第一颗洲际导弹发射，1980 年任国务院副总理，1982–1988 年任国务委员兼国防部长。2003 年在北京去世。
+  life:
+    - h: 红军与海军
+      from: 1910-01-09
+      to: 1959-09
+      text: |
+        1926 年入共青团，1928 年转为党员，1929 年在上海从事地下工作，两次被捕，同年 12 月参加红军。长征中任红三军团团政委。抗战时任新四军第三师副师长、第四师师长。1949 年渡江战役开始时受命组建华东海军，1954 年任副总参谋长，1955 年 1 月指挥一江山岛登陆作战。
+      cites: [xinhua-2003-zhang-aiping]
+      verify: true
+    - h: 两弹
+      from: 1959-09
+      to: 1967
+      text: |
+        1959 年 9 月起先后任国防科委副主任、国防工办副主任、中央专委委员兼办公室副主任，“先后4次担任核试验委员会主任委员、现场试验总指挥”，组织第一代地地导弹和原子弹试验。1966 年 6 月第二炮兵成立，他负责勘察选址。
+      cites: [xinhua-2003-zhang-aiping]
+    - h: 囚禁与两次复出
+      from: 1967
+      to: 1980-09
+      text: |
+        “‘文化大革命’中，张爱萍同志惨遭迫害，被批斗、囚禁达6年之久，左腿致残。”1980 年起诉书说，1968 年 4 月黄永胜在总参谋部点名“总参出了不少坏人，有黄克诚、罗瑞卿、张爱萍、王尚荣”。1975 年 3 月复出任国防科委主任，提出“要尽快拿出武器装备上的‘杀手锏’来”；1976 年批邓中再次被打倒，生平只写“1977年3月后，张爱萍同志再次复出”。1980 年 5 月组织指挥第一颗洲际导弹发射。
+      cites: [xinhua-2003-zhang-aiping, ws-1980-indictment]
+    - h: 国防部长
+      from: 1980-09
+      to: 2003-07-05
+      text: |
+        1980 年 9 月任国务院副总理，主持国防科委、国防工办、军委科装委合并为国防科工委。1982 年 9 月任中央军委副秘书长，11 月任国务委员兼国防部长，倡导“保军转民”。1987 年任中顾委常委。1989 年 5 月他与叶飞、萧克、杨得志、陈再道、宋时轮、李聚奎等上将联名写信，反对军队进入北京城，此事不见于官方生平。
+      cites: [xinhua-2003-zhang-aiping]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 一九六八年四月，黄永胜在总参谋部说：“总参出了不少坏人，有黄克诚、罗瑞卿、张爱萍、王尚荣”等，“他们是不能翻案的，不能翻天的”。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: officialLater, text: “文化大革命”中，张爱萍同志惨遭迫害，被批斗、囚禁达6年之久，左腿致残。（新华社生平，2003 年）, cite: xinhua-2003-zhang-aiping, quote: true }
+    - { voice: editor, text: 生平写 1975 年复出，接着写“1977年3月后……再次复出”，中间 1976 年那次被打倒没有明说；1989 年的联名信也没有写。, cite: xinhua-2003-zhang-aiping }
+  factions: [marshals]
+  fate:
+    - { date: 1959-09, s: power, note: 主持国防科技, cite: xinhua-2003-zhang-aiping }
+    - { date: 1967, s: detained, note: 批斗、囚禁六年, cite: xinhua-2003-zhang-aiping }
+    - { date: 1975-03, s: restored, note: 国防科委主任, cite: xinhua-2003-zhang-aiping }
+    - { date: 1976, s: sidelined, note: 批邓中再次被打倒, verify: true }
+    - { date: 1977-03, s: restored, note: 再次复出, cite: xinhua-2003-zhang-aiping }
+    - { date: 1982-11, s: power, note: 国务委员兼国防部长, cite: xinhua-2003-zhang-aiping }
+    - { date: 2003-07-05, s: dead, cite: xinhua-2003-zhang-aiping }
+  cites: [xinhua-2003-zhang-aiping, ws-1980-indictment]
+
+- id: wang-shangrong
+  name: 王尚荣
+  aka: [王尚寅]
+  born: 1915-05-28
+  died: 2000-04-01
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 总参谋部作战部部长
+  pinyin: Wáng Shàngróng
+  gender: m
+  birthplace: 湖北石首
+  positions:
+    - { title: 副总参谋长, orgName: 中国人民解放军总参谋部, from: 1974-11, to: 1985-03, note: 止点待核, cite: people-wang-shangrong }
+  bio: 湖北石首人，1931 年参加红军，长期在贺龙部下，抗战时任一二〇师七一五团团长。1949 年后长期主持总参作战部，参与组织西藏平叛、炮击金门、中印边境作战。文革中“身陷囹圄长达8年”，1980 年起诉书记黄永胜 1968 年点名他是总参的“坏人”。1974 年 11 月复出任副总参谋长，主管作战，1979 年参与组织对越作战。2000 年在北京去世。
+  life:
+    - h: 作战部
+      from: 1952-05
+      to: 1967
+      text: |
+        1952 年 5 月从南京军事学院毕业，任总参作战部副部长、代部长；1953 年入朝任志愿军第四十六军副军长，回国后任总参作战部部长。“在西藏平叛、炮击金门、中印边境反击战等重大军事斗争中，积极策划，精心部署”。
+      cites: [people-wang-shangrong]
+    - h: 关押八年
+      from: 1967
+      to: 1974-11
+      text: |
+        “‘文化大革命’中，遭受林彪、江青反革命集团残酷迫害，身陷囹圄长达8年。”1980 年起诉书说，1968 年 4 月黄永胜在总参谋部点名“有黄克诚、罗瑞卿、张爱萍、王尚荣”等，“他们是不能翻案的，不能翻天的”。起诉书还把他列入“被诬陷的中共中央委员、候补中央委员”名单。
+      cites: [people-wang-shangrong, ws-1980-indictment]
+    - h: 副总参谋长
+      from: 1974-11
+      to: 2000-04-01
+      text: |
+        1974 年 11 月重新工作，任副总参谋长，主管作战；1977 年 8 月任中央军委委员；1979 年 2 月参与组织指挥对越自卫还击作战。十二大当选中顾委委员。2000 年 4 月 1 日在北京去世。
+      cites: [people-wang-shangrong]
+  assess:
+    - { voice: judicial1980, text: 一九六八年四月，黄永胜在总参谋部说：“总参出了不少坏人，有黄克诚、罗瑞卿、张爱萍、王尚荣”等（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: officialLater, text: “文化大革命”中，遭受林彪、江青反革命集团残酷迫害，身陷囹圄长达8年。（人民网“开国将帅名录”）, cite: people-wang-shangrong, quote: true }
+  factions: [marshals]
+  fate:
+    - { date: 1956, s: power, note: 总参作战部部长, verify: true }
+    - { date: 1967, s: detained, note: 关押八年, cite: people-wang-shangrong }
+    - { date: 1974-11, s: restored, note: 副总参谋长, cite: people-wang-shangrong }
+    - { date: 2000-04-01, s: dead, cite: people-wang-shangrong }
+  cites: [people-wang-shangrong, ws-1980-indictment]
+
+- id: qin-jiwei
+  name: 秦基伟
+  born: 1914-11-16
+  died: 1997-02-02
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 昆明军区司令员
+  pinyin: Qín Jīwěi
+  gender: m
+  birthplace: 湖北黄安
+  positions:
+    - { title: 司令员, orgName: 昆明军区, from: 1957, to: 1967, note: 止点待核, cite: xinhua-1997-qin-jiwei }
+    - { title: 司令员, orgName: 成都军区, from: 1973-07, to: 1975-10, cite: xinhua-1997-qin-jiwei }
+    - { title: 第二政治委员、第一政治委员、司令员, orgName: 北京军区, from: 1975-10, to: 1987-11, cite: xinhua-1997-qin-jiwei }
+    - { title: 委员, orgName: 中共中央政治局, from: 1987-11, to: 1992-10, cite: xinhua-1997-qin-jiwei }
+    - { title: 国务委员兼部长, orgName: 国防部, from: 1988-04, to: 1993-03, note: 止点待核, cite: xinhua-1997-qin-jiwei }
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1993-03, to: 1997-02-02, cite: xinhua-1997-qin-jiwei }
+  bio: 湖北黄安人，1927 年参加黄麻起义，1929 年参加红军。西路军失败后被俘，越狱归队。抗战时组建“秦赖支队”，1951 年任第十五军军长率部入朝，1952 年指挥上甘岭战役。1957 年起任昆明军区司令员，文革中受迫害；1973 年复出任成都军区司令员，1975 年起在北京军区任第二政委、第一政委、司令员十二年，1984 年任国庆阅兵总指挥。1987 年进入政治局，1988 年任国务委员兼国防部长、授上将。1993 年任全国人大常委会副委员长，1997 年在北京去世。
+  life:
+    - h: 从黄麻到上甘岭
+      from: 1927
+      to: 1953-06
+      text: |
+        1927 年加入赤卫队，参加黄麻起义，1929 年 8 月参加红军，1930 年入党。西路军失败后在祁连山打游击，被俘后在狱中组织党支部，“终于逃离虎口”。抗战中组建“秦赖支队”。1949 年 2 月任第二野战军十五军军长，1951 年率部入朝，1952 年 10 月直接指挥上甘岭战役，“与６万之敌浴血奋战４３昼夜”。
+      cites: [xinhua-1997-qin-jiwei]
+      verify: true
+    - h: 昆明军区
+      from: 1953-06
+      to: 1973-07
+      text: |
+        回国后历任云南军区、昆明军区副司令员，1957 年从南京军事学院毕业后任昆明军区司令员、云南省委书记处书记。“在‘文化大革命’中，他遭到林彪、江青一伙的迫害。”1980 年起诉书把他列入被诬陷、迫害的“中国人民解放军高级干部”名单。
+      cites: [xinhua-1997-qin-jiwei, ws-1980-indictment]
+    - h: 北京军区
+      from: 1973-07
+      to: 1988-04
+      text: |
+        1973 年 7 月恢复工作，任成都军区司令员；1975 年 10 月至 1987 年 11 月先后任北京军区第二政委、第一政委、司令员。1981 年组织华北军事大演习，1984 年任国庆三十五周年阅兵总指挥。1987 年 11 月当选十三届政治局委员。
+      cites: [xinhua-1997-qin-jiwei]
+    - h: 国防部长
+      from: 1988-04
+      to: 1997-02-02
+      text: |
+        1988 年 4 月任国务委员、中央军委委员、国防部长，9 月授上将。1989 年戒严期间他是国防部长，官方生平这一段只写“多次率团出访”。1993 年 3 月当选第八届全国人大常委会副委员长，1997 年 2 月 2 日在北京去世。
+      cites: [xinhua-1997-qin-jiwei]
+  assess:
+    - { voice: officialLater, text: 在“文化大革命”中，他遭到林彪、江青一伙的迫害。为了党和人民的利益，他对林彪、江青反革命集团的倒行逆施进行了坚决的抵制和斗争（新华社生平，1997 年）, cite: xinhua-1997-qin-jiwei, quote: true }
+    - { voice: judicial1980, text: 中国人民解放军高级干部：……杨嘉瑞、秦基伟、胡荣贵（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 生平从 1988 年任国防部长直接写到 1993 年当选人大副委员长，没有提 1989 年戒严和清场。, cite: xinhua-1997-qin-jiwei }
+  factions: [provincial, reform]
+  fate:
+    - { date: 1957, s: power, note: 昆明军区司令员, cite: xinhua-1997-qin-jiwei }
+    - { date: 1967, s: attacked, note: 遭林彪、江青一伙迫害（年份待核）, verify: true }
+    - { date: 1973-07, s: restored, note: 成都军区司令员, cite: xinhua-1997-qin-jiwei }
+    - { date: 1988-04, s: power, note: 国务委员兼国防部长, cite: xinhua-1997-qin-jiwei }
+    - { date: 1997-02-02, s: dead, cite: xinhua-1997-qin-jiwei }
+  cites: [xinhua-1997-qin-jiwei, ws-1980-indictment]
+
+- id: yang-baibing
+  name: 杨白冰
+  aka: [杨尚正]
+  born: 1920-09-09
+  died: 2013-01-15
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 成都军区政治部副主任
+  pinyin: Yáng Báibīng
+  gender: m
+  birthplace: 重庆
+  positions:
+    - { title: 政治委员, orgName: 北京军区, from: 1985-06, to: 1987-11, cite: xinhua-2013-yang-baibing }
+    - { title: 主任, orgName: 中国人民解放军总政治部, from: 1987-11, to: 1992-10, cite: xinhua-2013-yang-baibing }
+    - { title: 秘书长, orgName: 中共中央军事委员会, from: 1989-11, to: 1992-10, cite: xinhua-2013-yang-baibing }
+    - { title: 委员, orgName: 中共中央政治局, from: 1992-10, to: 1997-09, cite: xinhua-2013-yang-baibing }
+  bio: 杨尚昆之弟，原名杨尚正，1920 年生于重庆。1938 年到延安入党，长期做部队政治工作，1960 年任成都军区政治部副主任。文革中被诬为“反革命”逮捕关押八年。1979 年复出，1985 年任北京军区政委，1987 年任总政治部主任，1989 年 11 月起兼中央军委秘书长，1992 年十四大进入政治局，同时离开军委。2013 年在北京去世。
+  life:
+    - h: 政治工作
+      from: 1938-01
+      to: 1966
+      text: |
+        受四哥杨闇公、五哥杨尚昆影响，1938 年 1 月奔赴延安，3 月入党。抗战中在一二九师政治部工作，解放战争中随部进军大别山，任中原野战军、第二野战军组织部门干部。1955 年 6 月任成都军区政治部组织部部长，1960 年 10 月任成都军区政治部副主任。
+      cites: [xinhua-2013-yang-baibing]
+      verify: true
+    - h: 关押八年
+      from: 1966
+      to: 1979-04
+      text: |
+        生平说他“遭受残酷迫害，被诬陷为‘反革命’逮捕关押８年”，没有写起止年份。此时杨尚昆已作为“彭罗陆杨”之一被打倒。
+      cites: [xinhua-2013-yang-baibing]
+      verify: true
+    - h: 总政治部与 1989
+      from: 1979-04
+      to: 1992-10
+      text: |
+        1979 年 4 月任北京军区政治部副主任，1982 年 10 月任副政委，1985 年 6 月任北京军区政委。1987 年 11 月任总政治部主任，1988 年 4 月任国家军委委员，9 月授上将；1989 年 11 月至 1992 年 10 月任中央军委秘书长兼总政治部主任。1989 年戒严时杨尚昆任国家主席、军委第一副主席，他任总政治部主任；生平只说“面对国际国内的复杂形势，为加强军队建设做了大量卓有成效的工作”。
+      cites: [xinhua-2013-yang-baibing]
+    - h: 离开军委
+      from: 1992-10
+      to: 2013-01-15
+      text: |
+        1992 年 10 月十四届一中全会当选政治局委员，同时不再担任中央军委秘书长和总政治部主任。2013 年 1 月 15 日在北京去世。
+      cites: [xinhua-2013-yang-baibing]
+  assess:
+    - { voice: officialLater, text: “文化大革命”中，杨白冰同志遭受残酷迫害，被诬陷为“反革命”逮捕关押８年。（新华社生平，2013 年）, cite: xinhua-2013-yang-baibing, quote: true }
+    - { voice: editor, text: 生平对 1989 年只写“面对国际国内的复杂形势”；1992 年他进入政治局却离开军委，生平也没有解释。, cite: xinhua-2013-yang-baibing }
+  factions: [reform]
+  fate:
+    - { date: 1967, s: detained, note: 被诬为“反革命”关押八年（起始年份待核）, verify: true }
+    - { date: 1979-04, s: restored, note: 北京军区政治部副主任, cite: xinhua-2013-yang-baibing }
+    - { date: 1987-11, s: power, note: 总政治部主任, cite: xinhua-2013-yang-baibing }
+    - { date: 1992-10, s: sidelined, note: 进入政治局，离开军委, cite: xinhua-2013-yang-baibing }
+    - { date: 2013-01-15, s: dead, cite: xinhua-2013-yang-baibing }
+  cites: [xinhua-2013-yang-baibing]
