@@ -1,0 +1,80 @@
+# M3 事件补足 E6：1968 年各省革委会成立社论、五七干校、整党建党、基层判决书（维基文库）。日期以原文落款或抓取到的维基文库日期为准，抓取后核对。
+wikisource:
+  - id: ws-1968-02-hebei-revcom
+    title: 华北山河一片红
+    date: 1968-02-05
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《华北山河一片红》（河北省革委会成立，1968）
+  - id: ws-1968-03-zhejiang-revcom
+    title: 紧跟毛主席就是胜利
+    date: 1968-03-27
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《紧跟毛主席就是胜利》（浙江省革委会成立，1968）
+  - id: ws-1968-04-anhui-revcom
+    title: 无产阶级革命派的胜利
+    date: 1968-04-20
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《无产阶级革命派的胜利》（安徽省革委会成立，1968）
+  - id: ws-1968-05-shaanxi-revcom
+    title: 延安精神永放光芒
+    date: 1968-05-03
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《延安精神永放光芒》（陕西省革委会成立，1968）
+  - id: ws-1968-05-liaoning-telegram
+    title: 辽宁省和沈阳市革命委员会成立和庆祝大会给毛主席的致敬电
+    date: 1968-05
+    author: 辽宁省和沈阳市革命委员会成立和庆祝大会
+    kind: party-doc
+    alias: 辽宁省和沈阳市革委会成立大会致敬电（1968）
+  - id: ws-1968-08-fujian-revcom
+    title: 团结起来，共同对敌
+    date: 1968-08-21
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《团结起来，共同对敌》（福建省革委会成立，1968）
+  - id: ws-1968-08-guangxi-revcom
+    title: 紧跟毛主席的伟大战略部署前进
+    date: 1968-08-28
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《紧跟毛主席的伟大战略部署前进》（广西革委会成立，1968）
+  - id: ws-1968-10-workers-loyal
+    title: 毛主席啊，工人阶级永远忠于您！
+    date: 1968-10-02
+    author: 新华社
+    kind: news
+    alias: 《毛主席啊，工人阶级永远忠于您！》（1968 年国庆）
+  - id: ws-1968-10-may-seventh
+    title: 毛主席啊，“五·七”战士永远忠于您！
+    date: 1968-10-06
+    author: 新华社
+    kind: news
+    alias: 《毛主席啊，“五·七”战士永远忠于您！》（1968）
+  - id: ws-1968-autumn-fair
+    title: 气死苏修造谣专家
+    date: 1968-10-21
+    author: 新华社
+    kind: news
+    alias: 《气死苏修造谣专家》（1968 年秋季广交会）
+  - id: ws-1969-xinhua-printing
+    title: 北京新华印刷厂整党建党调查报告
+    date: 1969-12-16
+    author: 北京新华印刷厂整党建党领导小组
+    kind: article
+    alias: 《北京新华印刷厂整党建党调查报告》
+  - id: ws-1969-03-01-gaozhou-lin
+    title: 廣東高州縣林煜謨、林煜訓兄弟張貼大字報案判決書
+    date: 1969-03-01
+    author: 高州县革命委员会武装保卫组
+    kind: judicial
+    alias: 高州县林氏兄弟张贴大字报案判决书（1969）
+  - id: ws-gaozhou-chen-zhuo
+    title: 廣東高州縣陳焯張貼大字報案判決書
+    date: 1969
+    author: 高州县革命委员会武装保卫组
+    kind: judicial
+    alias: 高州县陈焯张贴大字报案判决书

@@ -130,7 +130,8 @@
   people: [mao-zedong]
   voices:
     - { voice: official1966, text: 毛主席最近指出：“广大干部下放劳动，这对干部是一种重新学习的极好机会，除老弱病残者外都应这样做（1968 年 10 月《人民日报》）, cite: rmrb-1968-10-05-liuhe, quote: true }
-  cites: [rmrb-1968-10-05-liuhe]
+    - { voice: official1966, text: 在‘五·七’干校，看到了我过去丢掉了的优良传统，找到了我过去忘掉了的优良作风。（1968 年 10 月新华社报道中的干校学员）, cite: ws-1968-10-may-seventh, quote: true }
+  cites: [rmrb-1968-10-05-liuhe, ws-1968-10-may-seventh]
 
 # ── 1968 秋冬：开除刘少奇、上山下乡 ──────────────────────────
 - id: 1968-10-13-twelfth-plenum
@@ -657,3 +658,149 @@
   voices:
     - { voice: judicial1980, text: 一九六八年十一月，张春桥指使王洪文、徐景贤等，借为中共第九次全国代表大会准备材料之名，编造所谓《陈毅反动言论集》，在上海的“九大”代表学习班中散发（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
   cites: [ws-1980-indictment]
+
+# ── E6 补充：1968 年各省革委会、基层判决书、整党建党（维基文库）
+- id: 1968-02-05-hebei-revcom
+  date: 1968-02-05
+  title: 河北省革委会成立：“华北山河一片红”
+  lane: local
+  weight: 1
+  place: 河北
+  summary: 2 月初河北省革命委员会成立，两报 2 月 5 日社论说整个华北地区至此都已建立革委会。社论把成功归于“大力办好毛泽东思想学习班”，引毛泽东“办学习班，是个好办法”的指示，并称“桃园经验”是“在中国赫鲁晓夫导演下，炮制出来的”。
+  people: [liu-shaoqi]
+  voices:
+    - { voice: official1966, text: 至此，整个华北地区都已成立了三结合的革命委员会。（1968 年 2 月两报社论）, cite: ws-1968-02-hebei-revcom, quote: true }
+    - { voice: official1966, text: 大力办好毛泽东思想学习班，是全面落实毛主席最新指示的关键。（同上）, cite: ws-1968-02-hebei-revcom, quote: true }
+  cites: [ws-1968-02-hebei-revcom]
+
+- id: 1968-03-27-zhejiang-revcom
+  date: 1968-03-27
+  title: 浙江省革委会成立
+  lane: local
+  weight: 1
+  place: 浙江
+  summary: 3 月下旬浙江省革命委员会成立。两报 3 月 27 日社论《紧跟毛主席就是胜利》特别提到毛泽东 1967 年“亲临浙江”视察，说浙江造反派在驻军支持下“排除来自右的和极‘左’方面的干扰”。社论强调浙江“地处海防前线”，要“严防一小撮叛徒、美蒋特务”挑拨离间。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 特别是去年毛主席亲临浙江，视察无产阶级文化大革命，这是对浙江军民最大的鼓舞，最大的教育，最大的鞭策。（1968 年 3 月两报社论）, cite: ws-1968-03-zhejiang-revcom, quote: true }
+    - { voice: official1966, text: 浙江地处海防前线，阶级斗争尖锐复杂。（同上）, cite: ws-1968-03-zhejiang-revcom, quote: true }
+  cites: [ws-1968-03-zhejiang-revcom]
+
+- id: 1968-04-20-anhui-revcom
+  date: 1968-04-20
+  title: 安徽省革委会成立：“对派性要进行阶级分析”
+  lane: local
+  weight: 1
+  place: 安徽
+  summary: 4 月安徽省革命委员会成立，两报 4 月 20 日社论点名原省委第一书记李葆华、省长黄岩为“代理人”。社论不是一概反对派性，而是说“没有什么抽象的、超阶级的派性”，要坚持“无产阶级革命派的派性”，反对“保守派的派性”和“极‘左’派的派性”。同时提出当前要特别反对“右倾分裂主义，右倾投降主义，右倾保守主义”。
+  people: []
+  voices:
+    - { voice: official1966, text: 我们必须坚持无产阶级革命派的派性，即坚持无产阶级先锋队的党性（1968 年 4 月两报社论）, cite: ws-1968-04-anhui-revcom, quote: true }
+    - { voice: official1966, text: 当前，要特别警惕和坚决反对右倾分裂主义，右倾投降主义，右倾保守主义。（同上）, cite: ws-1968-04-anhui-revcom, quote: true }
+  cites: [ws-1968-04-anhui-revcom]
+
+- id: 1968-05-01-shaanxi-revcom
+  date: 1968-05-01
+  title: 陕西省革委会成立：“延安精神永放光芒”
+  lane: local
+  weight: 1
+  place: 陕西
+  summary: 5 月 1 日陕西省革命委员会成立。两报社论借毛泽东“延安还是西安”的比喻，把西北的“走资派”上溯到彭德怀、高岗、习仲勋、刘澜涛，称他们“拼凑了一套又一套黑班子”；文革中点名的“代理人”是刘澜涛、赵守一、李启明。
+  people: [peng-dehuai, gao-gang, xi-zhongxun]
+  voices:
+    - { voice: official1966, text: 解放以后，中国赫鲁晓夫及其死党彭德怀、高岗、习仲勋、刘澜涛等党内一小撮走资派，怀着狼子野心，苦心经营，妄图在西北和陕西推翻社会主义，复辟资本主义。（1968 年 5 月两报社论）, cite: ws-1968-05-shaanxi-revcom, quote: true }
+  cites: [ws-1968-05-shaanxi-revcom]
+  verify: true
+
+- id: 1968-05-10-liaoning-revcom
+  date: 1968-05-10
+  title: 辽宁省、沈阳市革委会成立大会致敬电
+  lane: local
+  weight: 1
+  place: 沈阳
+  summary: 辽宁省和沈阳市革委会成立大会给毛泽东发出长篇致敬电，从九一八、辽沈战役、抗美援朝一直讲到“一月革命”，以三遍“万寿无疆”结尾。电文说已把东北局、辽宁的马明方、顾卓新、喻屏、周桓等作为“大叛徒、大特务”揪出，并称林彪在东北“粉碎了”彭真的“右倾投降主义”。马明方等的“东北叛党集团”案见 1967 年条。
+  people: [lin-biao, peng-zhen]
+  voices:
+    - { voice: official1966, text: 我们终于把中国赫鲁晓夫在东北和辽宁的代理人马明方、顾卓新、喻屏、周桓等大叛徒、大特务和党内一小撮走资派揪了出来（1968 年 5 月 10 日致敬电）, cite: ws-1968-05-liaoning-telegram, quote: true }
+    - { voice: official1966, text: 敬祝您，我们伟大的导师，伟大的领袖，伟大的统帅，伟大的舵手万寿无疆！万寿无疆！（同上）, cite: ws-1968-05-liaoning-telegram, quote: true }
+  cites: [ws-1968-05-liaoning-telegram, ws-1980-indictment]
+
+- id: 1968-08-21-fujian-revcom
+  date: 1968-08-21
+  title: 云南、福建革委会相继成立
+  lane: local
+  weight: 1
+  place: 福建；云南
+  summary: 8 月云南、福建两省革委会相继成立，两报 8 月 21 日社论点名福建原省委第一书记叶飞和范式人、侯振亚。社论要求“认真做好清理阶级队伍的工作”“随时准备解放台湾”，并批判“多中心即无中心论”。社论同时转述毛泽东“工人阶级是领导阶级”的最新指示，要求工宣队进入福建的学校。云南此前发生的“赵健民特务案”见本年 1 月条。
+  people: [ye-fei]
+  voices:
+    - { voice: official1966, text: 福建省革命委员会的成立，彻底粉碎了中国赫鲁晓夫及其在福建的代理人叶飞、范式人、侯振亚之流妄图复辟资本主义的迷梦。（1968 年 8 月两报社论）, cite: ws-1968-08-fujian-revcom, quote: true }
+    - { voice: official1966, text: 我们一定要充分发动群众，认真做好清理阶级队伍的工作。（同上）, cite: ws-1968-08-fujian-revcom, quote: true }
+  cites: [ws-1968-08-fujian-revcom]
+
+- id: 1968-08-28-guangxi-revcom
+  date: 1968-08-28
+  title: 广西革委会成立
+  lane: local
+  weight: 2
+  place: 广西
+  summary: 8 月下旬广西壮族自治区革委会成立。两报 8 月 28 日社论点名陶铸、王任重和广西的贺希明、谢王岗，把此前的冲突说成阶级敌人“制造一系列反革命事件”，并驳斥“中国靠近边疆的省、区成立不了革命委员会”的说法。社论引用毛泽东刚提出的工厂“斗、批、改”几个阶段，要求“稳、准、狠地打击”各类“特务分子”。“七三布告”以后广西发生的大规模杀戮，这篇社论没有提及（见 7 月 3 日条）。
+  people: [tao-zhu, wang-renzhong, wei-guoqing]
+  voices:
+    - { voice: official1966, text: 一小撮特务、叛徒、顽固不化的走资派、没有改造好的地、富、反、坏、右和其他反革命分子跳了出来，疯狂进行破坏活动，制造一系列反革命事件（1968 年 8 月两报社论）, cite: ws-1968-08-guangxi-revcom, quote: true }
+    - { voice: official1966, text: 建立三结合的革命委员会，大批判，清理阶级队伍，整党，精简机构、改革不合理的规章制度、下放科室人员，工厂里的斗、批、改，大体经历这么几个阶段。（社论所引毛泽东指示）, cite: ws-1968-08-guangxi-revcom, quote: true }
+  cites: [ws-1968-08-guangxi-revcom, ws-1968-07-03-notice]
+
+- id: 1968-03-25-gaozhou-posters
+  date: 1968-03-25
+  end: 1969-03-01
+  title: 高州县“地主”兄弟与陈焯的大字报案
+  lane: local
+  weight: 2
+  place: 广东高州县根子公社
+  summary: 1968 年 3 月 25 日，被划为地主的林煜谟、林煜训兄弟在公社门口贴大字报，说土改时本评为贫农，工作队为凑“地主富农的户数要达到总农户的百分之八”的指标把他们改划为“工商业兼富农”，合作化时又被“升为地主看待”，要求不再长期管制。4 月 8 日，25 岁的地主出身学生陈焯贴出大字报，写到当地“滥捕滥杀成风”，呼吁“立即解放地主富农”。县革委会武装保卫组以“反革命”判陈焯有期徒刑二十年（自 1968 年 4 月 26 日起算），1969 年 3 月 1 日判林氏兄弟十八年和十五年。判决书写作林育模、林育训，与大字报署名用字不同；维基文库所录文本未注原件出处。
+  people: []
+  voices:
+    - { voice: doc, text: 我们本来是贫农，我们要求公社和大队不可把我们当作地主长期管制下去了。（1968 年 3 月 25 日林氏兄弟大字报）, cite: ws-1969-03-01-gaozhou-lin, quote: true }
+    - { voice: doc, text: 目今，滥捕滥杀成风，很多地方的五类分子及其子孙已被杀绝，路上伏尸道左及河中流尸逐波等等惨象，为世人有目所共睹（1968 年 4 月 8 日陈焯大字报）, cite: ws-gaozhou-chen-zhuo, quote: true }
+    - { voice: doc, text: 本组为巩固无产阶级专政和打击阶级敌人的反动气焰，特判处林育模有期徒刑十八年，林育训有期徒刑十五年。（1969 年 3 月 1 日判决书）, cite: ws-1969-03-01-gaozhou-lin, quote: true }
+  cites: [ws-1969-03-01-gaozhou-lin, ws-gaozhou-chen-zhuo]
+  verify: true
+
+- id: 1968-10-01-workers-national-day
+  date: 1968-10-01
+  title: 十九周年国庆：工人阶级队伍走在最前
+  lane: mass
+  weight: 1
+  place: 北京天安门
+  summary: 1968 年国庆，近万名各地工人代表与五十万首都群众参加庆典，游行队伍以工人为前导。新华社长篇报道把这一年的主题归结为“工人阶级主力军登上了上层建筑各个领域的政治舞台”，并以清华大学为例：7 月 27 日工宣队进驻，8 月 5 日收到芒果，8 月 15 日毛泽东接见其代表，两个月内“结束‘内战’不休的局面”。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: official1966, text: 同来自全国各地的近万名优秀工人代表以及首都五十万革命群众一道，欢庆伟大的中华人民共和国成立十九周年。（1968 年 10 月新华社）, cite: ws-1968-10-workers-loyal, quote: true }
+    - { voice: official1966, text: 七月二十七日，毛主席派他们进驻清华大学；八月五日，毛主席就派人送来了最珍贵的礼物——芒果（同上）, cite: ws-1968-10-workers-loyal, quote: true }
+  cites: [ws-1968-10-workers-loyal]
+
+- id: 1968-10-canton-fair
+  date: 1968-10
+  title: 1968 年秋季广交会照常开幕
+  lane: econ
+  weight: 1
+  place: 广州
+  summary: 1968 年秋季中国出口商品交易会在广州开幕。10 月 21 日见报的评论称，苏联宣传“一次又一次地预言中国出口商品交易会开不成”，而交易会“一届又一届”照常举行，每届展出三万多种产品，并举出二十万倍电子显微镜等新产品。评论用大量篇幅讥讽苏联向西方出售黄金、求购小麦。
+  people: []
+  voices:
+    - { voice: official1966, text: 自从无产阶级文化大革命以来，苏修叛徒集团的宣传机器，整天造谣撒谎，一次又一次地预言中国出口商品交易会开不成。（1968 年 10 月评论）, cite: ws-1968-autumn-fair, quote: true }
+  cites: [ws-1968-autumn-fair]
+
+- id: 1969-12-16-xinhua-printing
+  date: 1969-12-16
+  title: 北京新华印刷厂整党建党经验
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 北京新华印刷厂是八三四一部队宣传队驻厂抓的典型，1969 年 5 月成立了新党委，12 月发表整党建党调查报告。报告提出把“证据确凿的叛徒、特务、死不改悔的走资派”作为“废料”清除，同时允许犯过错误的干部留党，并规定党委与革委会“是领导与被领导的关系”，党委不另设办事机构。报告还列出建立党委的四个条件，包括“进行过清理阶级队伍的工作，阶级阵线清楚”。
+  people: []
+  voices:
+    - { voice: official1966, text: 他们根据新党章的规定，首先确定了党委会和革委会是领导与被领导的关系。（1969 年 12 月调查报告）, cite: ws-1969-xinhua-printing, quote: true }
+    - { voice: official1966, text: 革委会成员大多数是党委会成员，革委会的办事机构就是党委会的办事机构，党委会不另设办事机构（同上）, cite: ws-1969-xinhua-printing, quote: true }
+  cites: [ws-1969-xinhua-printing]
