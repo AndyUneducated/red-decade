@@ -17,6 +17,7 @@ import {
   LeaderSchema,
   LinePointSchema,
   OrgSchema,
+  PersonQuoteSchema,
   PersonSchema,
   PlaceSchema,
   RelationSchema,
@@ -85,6 +86,17 @@ const people = [
     ? yamlFiles('content', 'people').flatMap((p) => load(PersonSchema, read(...p), p.join('/')))
     : []),
 ]
+// quotes by and about people are kept apart from the biographies: content/quotes/*.yaml maps person id → quotes
+if (existsSync(join(ROOT, 'content', 'quotes')))
+  for (const f of yamlFiles('content', 'quotes'))
+    for (const [id, list] of Object.entries((read(...f) ?? {}) as Record<string, unknown[]>)) {
+      const p = people.find((x) => x.id === id)
+      if (!p) {
+        errors.push(`${f.join('/')}: no person ${id}`)
+        continue
+      }
+      p.quotes.push(...load(PersonQuoteSchema, list, `${f.join('/')} ${id}`))
+    }
 type PhotoRec = { file?: string; url?: string; author?: string; license?: string; date?: string; focus?: string; zoom?: number; skip?: boolean }
 const photoReg: Record<string, PhotoRec> = existsSync(join(ROOT, 'content', 'photos.yaml')) ? (read('content', 'photos.yaml') ?? {}) : {}
 for (const p of people) {
@@ -249,6 +261,16 @@ function checkPersonFacts(p: (typeof people)[number]) {
   }
   p.assess.forEach((v) => needCite(v.cite, `${where} assess`))
   p.works.forEach((w) => needCite(w.cite, `${where} works`))
+  for (const q of p.quotes) {
+    needCite(q.cite, `${where} quote`)
+    // a lowercase slug is a person id; anything else (中共中央, 特别法庭) is a body named as written
+    if (q.by && /^[a-z0-9-]+$/.test(q.by)) need(ids.person, q.by, `${where} quote by`)
+    if (q.by === p.id) errors.push(`${where}: quote by the person themselves should omit by`)
+    if (!q.by && q.date && p.born && after(p.born, q.date)) errors.push(`${where}: own quote ${q.date} is before birth`)
+    if (!q.by && q.date && p.died && after(q.date, p.died)) errors.push(`${where}: own quote ${q.date} is after death`)
+  }
+  const dupQuote = p.quotes.find((q, i) => p.quotes.findIndex((r) => r.text === q.text) !== i)
+  if (dupQuote) errors.push(`${where}: quote listed twice: "${dupQuote.text.slice(0, 20)}…"`)
 }
 for (const f of factions) f.cites.forEach((c) => needCite(c, `faction ${f.id}`))
 for (const o of orgs) {
@@ -378,6 +400,7 @@ for (const f of figures) for (const c of f.counts) checkQuote(c.cite.split('@')[
 for (const u of counties) for (const c of u.counts) checkQuote(c.cite.split('@')[0], c.quote, `county ${u.id}`)
 for (const u of counties) if (u.revcom) checkQuote(u.revcom.cite.split('@')[0], u.revcom.quote, `county ${u.id} revcom`)
 for (const r of revcoms) checkQuote(r.cite.split('@')[0], r.quote, `revcom ${r.province}`)
+for (const p of people) for (const q of p.quotes) checkQuote(q.cite.split('@')[0], q.text, `person ${p.id} quote`)
 for (const p of people)
   for (const v of p.assess)
     if (v.quote) {

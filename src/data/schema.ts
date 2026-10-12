@@ -203,6 +203,18 @@ const LifeSection = z.object({
   verify: z.boolean().optional(),
 })
 
+// a line said or written by the person (by omitted) or about them (by: person id, or a body such as 中共中央);
+// always verbatim from cite. Dated quotes sit in the life section that covers the date; note is the occasion.
+export const PersonQuoteSchema = z.object({
+  text: z.string(),
+  cite: Cite,
+  by: z.string().optional(),
+  date: PartialDate.optional(),
+  note: z.string().optional(),
+  voice: z.enum(Object.keys(VOICES) as [Voice, ...Voice[]]).optional(),
+})
+export type PersonQuote = z.infer<typeof PersonQuoteSchema>
+
 export const PersonSchema = z.object({
   id: z.string(),
   name: z.string(),
@@ -258,6 +270,7 @@ export const PersonSchema = z.object({
   bio: z.string(),
   life: z.array(LifeSection).default([]),
   assess: z.array(Voiced).default([]),
+  quotes: z.array(PersonQuoteSchema).default([]),
   works: z.array(z.object({ title: z.string(), date: PartialDate.optional(), cite: Cite.optional() })).default([]),
   // every faction the person ever belonged to; factions[0] is the default primary
   factions: z.array(z.string()),

@@ -1,0 +1,708 @@
+# Quotes by and about people, verbatim from cite (checked at build time).
+# by omitted: the person's own words. by: a person id, or the body that issued the text.
+# note: the occasion and, for words reported by others, which document reports them.
+
+mao-zedong:
+  - text: 庐山出现的这一场斗争，是一场阶级斗争，是过去十年社会主义革命过程中资产阶级与无产阶级两大对抗阶级的生死斗争的继续
+    cite: ws-1967-08-16-peng-dehuai
+    date: 1959
+    note: 庐山会议上，1967 年报刊所引
+    voice: official1966
+  - text: 学生也是这样，以学为主，兼学别样，即不但学文，也要学工、学农、学军，也要批判资产阶级
+    cite: ws-1967-military-training
+    date: 1966-05-07
+    note: 给林彪的信（五七指示）
+    voice: official1966
+  - text: 长江水深流急，可以锻炼身体，可以锻炼意志
+    cite: rmrb-1966-07-25-yangtze
+    date: 1966-07
+    note: 畅游长江时，新华社报道
+    voice: official1966
+  - text: 这个运动规模很大，确实把群众发动起来了，对全国人民的思想革命化有很大的意义
+    cite: rmrb-1966-08-19-first-rally
+    date: 1966-08-18
+    note: 第一次接见红卫兵时对林彪说
+    voice: official1966
+  - text: 马克思主义的道理千条万绪，归根结底，就是一句话：‘造反有理。’
+    cite: rmrb-1966-08-24-rebel-3
+    note: 1966 年红卫兵文章所引
+    voice: official1966
+  - text: 犯错误是难免的，只要认真改了，就好了。四川捉人太多，把大量群众组织宣布为反动组织，这些是错了，但他们改正也快
+    cite: ws-1967-05-07-sichuan-decision
+    date: 1967
+    note: 四川问题文件上的批语，中共中央决定所引
+    voice: official1966
+  - text: 大学还是要办的，我这里主要说的是理工科大学还要办
+    cite: rmrb-1968-07-22-machine-tool
+    date: 1968-07
+    note: 七二一指示
+    voice: official1966
+  - text: 我代表中国人民，对美国黑人的正义斗争，表示坚决的支持
+    cite: ws-1968-04-16-black-americans
+    date: 1968-04-16
+    note: 支持美国黑人抗暴斗争的声明
+  - text: 美帝国主义看起来是个庞然大物，其实是纸老虎，正在垂死挣扎
+    cite: rmrb-1970-05-21-mao-statement
+    date: 1970-05-20
+    note: 五二〇声明
+  - text: 背负青天朝下看，都是人间城郭
+    cite: rmrb-1976-01-01-mao-poems
+    date: 1976-01-01
+    note: 《念奴娇·鸟儿问答》，1976 年元旦发表
+
+liu-shaoqi:
+  - text: 现在看来，对学校和机关的文化革命，是不应当派工作组的
+    cite: ws-1966-10-liu-self-criticism
+    date: 1966-10-23
+    note: 中央工作会议上的检讨
+  - text: 我对十一中全会和毛主席的一切决定，决心严格遵守，决心遵守一个党员所应当遵守的纪律，决不在任何人的面前搞两面派
+    cite: ws-1966-10-liu-self-criticism
+    date: 1966-10-23
+    note: 同一检讨
+  - text: 不存在一个以刘少奇同志为首的“资产阶级司令部”
+    by: 中共中央
+    cite: ws-1980-02-29-liu-rehab
+    date: 1980-02-29
+    note: 十一届五中全会平反决议
+    voice: officialLater
+  - text: 刘少奇同志是伟大的马克思主义者，是为共产主义奋斗终生的无产阶级革命家
+    by: 中共中央
+    cite: ws-1980-02-29-liu-rehab
+    date: 1980-02-29
+    note: 同一决议
+    voice: officialLater
+
+zhou-enlai:
+  - text: 我们要自己教育自己，自己解放自己，自己起来闹革命
+    cite: rmrb-1966-08-18-zhou-speech
+    date: 1966-08-18
+    note: 庆祝文化大革命大会上的讲话
+  - text: 难道文化大革命是要打倒一个掏粪工人！？
+    cite: rmrb-1978-07-06-shi-chuanxiang
+    note: 听说时传祥受迫害时，1978 年《人民日报》追述
+    voice: witness
+  - text: 他们国务院那些人，经常借谈工作搞串连
+    by: jiang-qing
+    cite: ws-1980-indictment
+    date: 1974-10
+    note: 1980 年起诉书所引
+    voice: judicial1980
+  - text: 在本世纪内，全面实现农业、工业、国防和科学技术的现代化，使我国国民经济走在世界的前列
+    cite: ws-1975-01-13-zhou-report
+    date: 1975-01-13
+    note: 四届人大政府工作报告
+  - text: 周恩来同志是中国共产党的优秀党员，是中国人民伟大的无产阶级革命家，是中国人民的忠诚的革命战士，是党和国家久经考验的卓越领导人
+    by: 中共中央
+    cite: ws-1976-01-09-zhou-obituary
+    date: 1976-01-09
+    note: 讣告
+  - text: 今天，我们怀着极其沉痛的心情，悼念中国共产党的优秀党员、伟大的无产阶级革命家、杰出的共产主义战士、中国人民久经考验的卓越的党和国家领导人周恩来同志
+    by: deng-xiaoping
+    cite: rmrb-1976-01-16-zhou-memorial
+    date: 1976-01-15
+    note: 追悼大会悼词
+
+lin-biao:
+  - text: 要把反革命修正主义分子，把资产阶级右派分子，把资产阶级反动权威，彻底打倒，打垮，使他们威风扫地，永世不得翻身！
+    cite: rmrb-1966-08-19-first-rally
+    date: 1966-08-18
+    note: 第一次接见红卫兵大会上的讲话
+  - text: 十九世纪的天才是马克思、恩格斯，二十世纪的天才是列宁和毛泽东同志
+    cite: ws-1966-05-18-lin-speech
+    date: 1966-05-18
+    note: 中央政治局扩大会议上的讲话
+  - text: 我猜他们的本意，为了打鬼，借助钟馗
+    by: mao-zedong
+    cite: rmrb-1975-03-01-yao-social-basis
+    date: 1966
+    note: 文化大革命初期的一封信，1975 年姚文元文章所引
+    voice: official1966
+  - text: 无论上层、中层、下层都要夺。有的早夺，有的迟夺
+    cite: ws-1981-01-25-judgment
+    date: 1967-01-23
+    note: 1981 年特别法庭判决书所引
+    voice: judicial1980
+  - text: 林彪同志是毛泽东同志的亲密战友和接班人
+    by: 中共九大党章
+    cite: ws-1969-04-constitution
+    date: 1969-04-14
+    voice: official1966
+  - text: 国家还得设主席，一个国家不能没有主席
+    cite: ws-1971-12-lin-chen-material-1
+    note: 对叶群说，1971 年 12 月中共中央下发的材料所引
+    voice: official1966
+
+deng-xiaoping:
+  - text: 中国是一个社会主义国家，也是一个发展中的国家
+    cite: rmrb-1974-04-11-deng-un
+    date: 1974-04-10
+    note: 联合国大会第六届特别会议上的发言
+  - text: 两个超级大国既然要争夺世界的霸权，就存在着不可调和的矛盾，不是你压倒我，就是我压倒你
+    cite: rmrb-1974-04-11-deng-un
+    date: 1974-04-10
+    note: 同一发言
+  - text: 这是国际的大气候和中国自己的小气候所决定了的，是一定要来的，是不以人们的意志为转移的
+    cite: ws-1989-06-zhao-errors-report
+    date: 1989-06
+    note: 1989 年 6 月中共中央关于赵紫阳错误的报告所引
+    voice: officialLater
+  - text: 我国社会主义改革开放和现代化建设的总设计师
+    by: 中共中央
+    cite: ws-1997-02-19-deng-message
+    date: 1997-02-19
+    note: 告全党全军全国各族人民书
+    voice: officialLater
+
+chen-boda:
+  - text: 实际上，这是剥削阶级的反动的血统论
+    cite: web-1966-10-16-chen-speech
+    date: 1966-10-16
+    note: 中央工作会议上的讲话
+  - text: 提出错误路线的，是错误路线的代表人，即刘少奇和邓小平，他们要负主要责任
+    cite: web-1966-10-16-chen-speech
+    date: 1966-10-16
+    note: 同一讲话
+  - text: 反革命分子听说毛主席不当国家主席，高兴得手舞足蹈
+    cite: ws-1971-12-lin-chen-material-1
+    date: 1970-08
+    note: 庐山会议华北组上，1971 年 12 月中共中央下发的材料所引
+    voice: official1966
+  - text: 被告人陈伯达有期徒刑十八年，剥夺政治权利五年
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+kang-sheng:
+  - text: 内人党至今还有地下活动，开始可能揪的宽点，不要怕
+    cite: ws-1980-indictment
+    date: 1968-02-04
+    note: 1980 年起诉书所引
+    voice: judicial1980
+  - text: 由贺龙的历史投敌叛变，联想贺龙现行反革命活动绝不会没有，可以由历史这个此，到现实这个彼
+    cite: ws-1980-indictment
+    date: 1968-05-16
+    note: 同一起诉书所引
+    voice: judicial1980
+
+jiang-qing:
+  - text: 你有特权，我死了，看你怎么办？
+    by: mao-zedong
+    cite: ws-1976-10-18-notice
+    date: 1974-03-20
+    note: 答江青的信，1976 年 10 月中共中央通知所引
+    voice: official1966
+  - text: 不要多露面，不要批文件，不要由你组阁（当后台老板），你积怨甚多，要团结多数
+    by: mao-zedong
+    cite: ws-1976-10-18-notice
+    date: 1974-11-12
+    note: 江青来信上的批示，同一通知所引
+    voice: official1966
+  - text: 要突击审讯，把我们所要的东西在杨死前搞出来
+    cite: ws-1980-indictment
+    note: 刘少奇专案中对专案人员说，1980 年起诉书所引
+    voice: judicial1980
+  - text: 被告人江青死刑，缓期二年执行，剥夺政治权利终身
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+zhang-chunqiao:
+  - text: 无产阶级文化大革命自始至终就是夺权，从基层到中央、党权、政权、财权、文权以及其它权
+    cite: ws-1980-indictment
+    date: 1967-01-22
+    note: 在上海，1980 年起诉书所引
+    voice: judicial1980
+  - text: 你有力量，我就支持你
+    cite: ws-1980-indictment
+    note: 在济南对王效禹说，同一起诉书所引
+    voice: judicial1980
+  - text: 不是一部分，不是大部分，也不是绝大部分，而是全部！
+    cite: rmrb-1975-04-01-zhang-dictatorship
+    date: 1975-04-01
+    note: 《论对资产阶级的全面专政》，谈对资产阶级的专政
+  - text: 被告人张春桥死刑，缓期二年执行，剥夺政治权利终身
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+yao-wenyuan:
+  - text: 对个别陷在资本主义泥坑里很深的人，要向他猛喝一声：“同志，赶快回头！
+    cite: rmrb-1975-03-01-yao-social-basis
+    date: 1975-03-01
+    note: 《论林彪反党集团的社会基础》
+  - text: 文化大革命是暴力，天安门广场事件是暴力，将来的斗争也还是暴力解决问题
+    cite: ws-1980-indictment
+    date: 1976-05-07
+    note: 同上海写作组成员谈话，1980 年起诉书所引
+    voice: judicial1980
+  - text: 被告人姚文元有期徒刑二十年，剥夺政治权利五年
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+wang-hongwen:
+  - text: 修正主义仍然是当前的主要危险
+    cite: ws-1973-08-24-wang-report
+    date: 1973-08-24
+    note: 中共十大关于修改党章的报告
+  - text: 总理现在虽然有病，住在医院，还忙着找人谈话到深夜，几乎每天都有人去，经常去总理那的有小平、剑英、先念
+    cite: ws-1980-indictment
+    date: 1974-10-18
+    note: 到长沙向毛泽东告状，1980 年起诉书所引
+    voice: judicial1980
+  - text: 我最担心的是军队不在我们手里
+    cite: ws-1980-indictment
+    date: 1975
+    note: 对马天水、徐景贤、王秀珍说，同一起诉书所引
+    voice: judicial1980
+  - text: 被告人王洪文无期徒刑，剥夺政治权利终身
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+wang-li:
+  - text: 揪陈毅大方向当然对
+    cite: ws-1980-indictment
+    date: 1967-08-07
+    note: 1980 年起诉书所引
+    voice: judicial1980
+
+qi-benyu:
+  - text: 中南海冷冷清清，外面轰轰烈烈
+    cite: ws-1983-11-02-qi-benyu-case
+    date: 1967-01-12
+    note: 在钓鱼台召集中办人员开会，1983 年起诉书所引
+    voice: judicial1980
+  - text: 你们自己搞，就搞成了；你们说是我叫你们搞的，就搞不成了
+    cite: ws-1980-indictment
+    note: 对人民大学的人谈朱德，1980 年起诉书所引
+    voice: judicial1980
+  - text: 被告人戚本禹供认了大部分犯罪事实，但不承认犯反革命罪
+    by: 北京市中级人民法院
+    cite: ws-1983-11-02-qi-benyu-case
+    date: 1983-11-02
+    note: 判决书
+    voice: judicial1980
+
+peng-zhen:
+  - text: 什么来头不来头，不用管，只问真理如何，真理面前人人平等
+    cite: ws-1965-hairui-critique-index
+    date: 1965
+    note: 谈对吴晗的批判，1966 年《五一六通知》附件所引
+    voice: official1966
+
+luo-ruiqing:
+  - text: 不能这样讲，最高还有次高的吗？难道没有更高了吗？最活，难道还有次活的吗？最高最活不好理解，外国人也不好翻译呀！
+    cite: ws-1966-04-luo-report
+    note: 谈“毛泽东思想是当代最高最活的马克思列宁主义”，1966 年批判罗瑞卿的报告所引
+    voice: official1966
+
+peng-dehuai:
+  - text: 毛主席著作只能作参考，不能作为指导作战、训练部队的指针
+    cite: ws-1967-08-01-gun
+    note: 1967 年八一社论所引，作为“攻击”的罪证
+    voice: official1966
+
+he-long:
+  - text: 贺龙同志是一个好同志，在毛主席、党中央的领导下，几十年来为党为人民的革命事业曾作出重大的贡献
+    by: 中共中央
+    cite: ws-1974-he-long-name
+    date: 1974-09-29
+    note: 为贺龙恢复名誉的通知
+    voice: official1966
+  - text: 贺龙同志是我党的优秀党员，久经考验的无产阶级革命家，卓越的军事家，是我军的创始者之一
+    by: 中共中央
+    cite: ws-1982-he-long-rehab
+    date: 1982
+    note: 平反决定
+    voice: officialLater
+
+zhu-de:
+  - text: 朱德同志是中国共产党的优秀党员，是中国人民伟大的革命战士和无产阶级革命家，是党、国家和军队的卓越领导人之一
+    by: 中共中央
+    cite: ws-1976-07-07-zhu-obituary
+    date: 1976-07-07
+    note: 讣告
+    voice: official1966
+
+deng-tuo:
+  - text: 吴晗很紧张，因为他知道这次批判有来头
+    cite: ws-1965-hairui-critique-index
+    date: 1965
+    note: 向彭真汇报，1966 年《五一六通知》附件所引
+    voice: official1966
+
+wang-guangmei:
+  - text: 根子能不能扎正，是这场革命能不能搞好的关键。要自己访，要多方了解
+    cite: ws-1967-taoyuan-survey
+    note: 桃园经验报告，1967 年批判材料所引
+    voice: official1966
+
+nie-yuanzi:
+  - text: 一切革命的知识分子，是战斗的时候了！
+    cite: rmrb-1966-06-02-nie-dazibao
+    date: 1966-05-25
+    note: 北京大学第一张大字报
+  - text: 打倒常溪萍是打开上海市委的缺口，要死死揪住他不放
+    cite: ws-1982-10-05-nie-yuanzi-case
+    date: 1966-11
+    note: 在上海，1982 年起诉书所引
+    voice: judicial1980
+  - text: 被告人聂元梓有期徒刑十七年，剥夺政治权利四年
+    by: 北京市中级人民法院
+    cite: ws-1982-10-05-nie-yuanzi-case
+    note: 判决书
+    voice: judicial1980
+
+kuai-dafu:
+  - text: 被告人蒯大富还挑起、指挥清华大学的武斗
+    by: 判决书
+    cite: ws-1982-12-kuai-dafu-case
+    voice: judicial1980
+  - text: 被告人蒯大富有期徒刑十七年，剥夺政治权利四年
+    by: 判决书
+    cite: ws-1982-12-kuai-dafu-case
+    voice: judicial1980
+
+ye-qun:
+  - text: 如果不设国家主席，林彪怎么办，往那里摆？
+    cite: ws-1972-lin-material-3
+    date: 1970
+    note: 对吴法宪等人说，1972 年中共中央下发的材料所引
+    voice: official1966
+
+wu-faxian:
+  - text: 空军的一切都可以由立果同志调动，空军的一切都可以由立果同志指挥
+    cite: ws-1971-12-lin-chen-material-1
+    note: 1971 年 12 月中共中央下发的材料所引
+    voice: official1966
+  - text: 作为一个共产党人，为什么这样缺乏正大光明的气概。由几个人发难，企图欺骗二百多个中央委员，有党以来没有见过
+    by: mao-zedong
+    cite: ws-1971-12-lin-chen-material-1
+    date: 1970-10-14
+    note: 吴法宪书面检讨上的批语，同一材料所引
+    voice: official1966
+  - text: 被告人吴法宪有期徒刑十七年，剥夺政治权利五年
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+xie-fuzhi:
+  - text: 审讯要有狠心，下得手
+    cite: ws-1980-indictment
+    date: 1967-10-23
+    note: 对专案人员说，1980 年起诉书所引
+    voice: judicial1980
+  - text: 有的目前找不到证据，下决心斗争，案犯口供也算数
+    cite: ws-1980-indictment
+    date: 1969-08-21
+    note: 对办案人员说，同一起诉书所引
+    voice: judicial1980
+
+yu-luoke:
+  - text: 在表现面前，所有的青年都是平等的
+    cite: ws-1967-yu-origin-theory
+    date: 1967-01-18
+    note: 《出身论》
+  - text: 一个新的特权阶层形成了，一个新的受歧视的阶层也随之形成了，而这又都是先天的，是无法更改的
+    cite: ws-1967-yu-origin-theory
+    date: 1967-01-18
+    note: 同上
+
+huang-yongsheng:
+  - text: 总参出了不少坏人，有黄克诚、罗瑞卿、张爱萍、王尚荣
+    cite: ws-1980-indictment
+    date: 1968-04
+    note: 在总参谋部，1980 年起诉书所引
+    voice: judicial1980
+  - text: 被告人黄永胜有期徒刑十八年，剥夺政治权利五年
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+li-zuopeng:
+  - text: 可直接报告请示总理
+    cite: ws-1980-indictment
+    date: 1971-09-13
+    note: 山海关机场请示林彪座机强行起飞怎么办时，1980 年起诉书所引
+    voice: judicial1980
+  - text: 被告人李作鹏有期徒刑十七年，剥夺政治权利五年
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+qiu-huizuo:
+  - text: 被告人邱会作有期徒刑十六年，剥夺政治权利五年
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+lin-liguo:
+  - text: 根据目前局势，要设想一个政变计划
+    cite: ws-1972-lin-material-2
+    date: 1971-03-18
+    note: 在上海，1972 年中共中央下发的材料所引同案人供词
+    voice: official1966
+  - text: 主席一贯是这样，一会儿用这边力量，一会儿用那边力量，用这样的办法玩弄平衡
+    cite: ws-1972-lin-material-2
+    note: 同一材料所引
+    voice: official1966
+
+hua-guofeng:
+  - text: 华国锋同志是伟大领袖毛主席亲自选定的接班人
+    by: 《人民日报》
+    cite: rmrb-1976-10-25-rally
+    date: 1976-10-24
+    note: 首都庆祝大会报道
+    voice: official1966
+  - text: 华国锋同志是由毛泽东同志在一九七六年“批邓”运动中提议担任党中央第一副主席兼国务院总理的
+    by: 中共中央
+    cite: ws-1981-resolution
+    date: 1981-06-27
+    note: 1981 年历史决议
+    voice: official1981
+
+chen-yonggui:
+  - text: 我们要一齐高举毛泽东思想伟大红旗，互相学习，共同搞好无产阶级文化大革命，搞好社会主义建设！
+    cite: rmrb-1967-05-02-may-day
+    date: 1967-05-01
+    note: 五一节天安门观礼时，《人民日报》报道
+    voice: official1966
+
+xu-jingxian:
+  - text: 军队内有没有资产阶级、有没有走资派？
+    cite: ws-1982-xu-jingxian-case
+    note: 陪丁盛“视察”上海警备区基层单位时，1982 年判决书所引
+    voice: judicial1980
+  - text: 被告人徐景贤有期徒刑十八年，剥夺政治权利四年
+    by: 上海市高级人民法院
+    cite: ws-1982-xu-jingxian-case
+    date: 1982
+    note: 判决书
+    voice: judicial1980
+
+wang-xiuzhen:
+  - text: 当前复辟势力很严重
+    cite: ws-1982-08-21-wang-xiuzhen-case
+    note: 向施尚英、薛干青部署时，1982 年判决书所引
+    voice: judicial1980
+  - text: 被告人王秀珍有期徒刑十七年，剥夺政治权利四年
+    by: 判决书
+    cite: ws-1982-08-21-wang-xiuzhen-case
+    date: 1982-08-21
+    voice: judicial1980
+
+zhu-yongjia:
+  - text: 被告人朱永嘉有期徒刑十四年，剥夺政治权利三年
+    by: 上海市中级人民法院
+    cite: ws-1982-zhu-yongjia-case
+    date: 1982
+    note: 判决书
+    voice: judicial1980
+
+liu-jieting:
+  - text: 对立面不但要打隆昌、内江、自贡、宜宾，还要打成都
+    cite: ws-1982-liu-zhang-case
+    note: 1982 年判决书所引
+    voice: judicial1980
+  - text: 被告人刘结挺有期徒刑二十年，剥夺政治权利五年
+    by: 四川省高级人民法院
+    cite: ws-1982-liu-zhang-case
+    date: 1982-03-24
+    note: 判决书
+    voice: judicial1980
+
+zhang-xiting:
+  - text: 我如果是隆昌县革命委员会的主任，我就有自卫的权利
+    cite: ws-1982-liu-zhang-case
+    note: 接刘结挺的话，1982 年判决书所引
+    voice: judicial1980
+  - text: 被告人张西挺有期徒刑十七年，剥夺政治权利五年
+    by: 四川省高级人民法院
+    cite: ws-1982-liu-zhang-case
+    date: 1982-03-24
+    note: 判决书
+    voice: judicial1980
+
+tian-han:
+  - text: 以前我们反抗统治阶级时可以演反抗的戏，现在我们是统治阶级了，就不准演反抗的戏了，这是笑话！
+    cite: ws-1971-03-02-tian-han-critique
+    note: 1971 年批判文章所引
+    voice: official1966
+
+fu-lei:
+  - text: 我们纵有千万罪行，却从来不曾有过变天思想
+    cite: fu-lei-1966-09-02-note
+    date: 1966-09-02
+    note: 遗书
+  - text: 只是含冤不白，无法洗刷的日子比坐牢还要难过
+    cite: fu-lei-1966-09-02-note
+    date: 1966-09-02
+    note: 同上
+  - text: 十一、现钞53.30元，作为我们火葬费
+    cite: fu-lei-1966-09-02-note
+    date: 1966-09-02
+    note: 同上，交代后事的第十一条
+
+chen-yinke:
+  - text: 我认为研究学术，最主要的是要具有自由的意志和独立的精神
+    cite: chen-yinke-1953-12-01-reply
+    date: 1953-12-01
+    note: 《对科学院的答复》，汪篯记录
+  - text: 我要请的人，要带的徒弟都要有自由思想、独立精神
+    cite: chen-yinke-1953-12-01-reply
+    date: 1953-12-01
+    note: 同上
+
+qiao-guanhua:
+  - text: 中国在任何时候、任何情况下，都不首先使用核武器
+    cite: rmrb-1971-11-17-qiao-un
+    date: 1971-11-15
+    note: 第一次出席联合国大会的发言
+  - text: 事实证明，我们中华民族完全有自立于世界民族之林的能力
+    cite: rmrb-1971-11-17-qiao-un
+    date: 1971-11-15
+    note: 同一发言
+
+jiang-tengjiao:
+  - text: 被告人江腾蛟有期徒刑十八年，剥夺政治权利五年
+    by: 最高人民法院特别法庭
+    cite: ws-1981-01-25-judgment
+    date: 1981-01-25
+    note: 判决书
+    voice: judicial1980
+
+chi-qun:
+  - text: 走资派还在走，不只邓小平一个人，要看到有这么一层人
+    cite: ws-1982-chi-qun-case
+    date: 1976-03
+    note: 在清华大学和教育部，1982 年判决书所引
+    voice: judicial1980
+  - text: 东风来就装死装病，西风来就大搞翻案
+    cite: ws-1982-chi-qun-case
+    date: 1976-03
+    note: 在教育部咒骂周荣鑫，同一判决书所引
+    voice: judicial1980
+  - text: 被告人迟群有期徒刑十八年，剥夺政治权利四年
+    by: 判决书
+    cite: ws-1982-chi-qun-case
+    voice: judicial1980
+
+sun-weishi:
+  - text: 孙维世的脾气太直太爆了！不然她也不会死得那么惨！
+    by: 邓颖超
+    cite: dangshi-2012-sun-weishi
+    note: 多年后提起孙维世时，2012 年党史文章所述
+    voice: witness
+  - text: 维世直到被害死，也没有屈服
+    by: 任均（孙维世六姨）
+    cite: dangshi-2012-sun-weishi
+    note: 回忆，同一文章所引
+    voice: witness
+
+zhao-dan:
+  - text: 文艺，是文艺家自己的事，如果党管文艺管得太具体，文艺就没有希望，就完蛋了
+    cite: rmrb-1980-10-08-zhao-dan
+    date: 1980-10-08
+    note: 《管得太具体，文艺没希望》，病危时所写
+  - text: 层层把关、审查审不出好作品，古往今来没有一个有生命力的好作品是审查出来的！
+    cite: rmrb-1980-10-08-zhao-dan
+    date: 1980-10-08
+    note: 同上
+
+lu-xianwen:
+  - text: 当时我的思想上视粮食为珠宝，只要搞了粮食就能解决问题，发展到不讲政策，不讲方法，不择手段的严重程度
+    cite: ws-1962-07-10-lu-xianwen-punishment
+    date: 1962-05-26
+    note: 检讨，1962 年处分决定所引
+
+sun-yefang:
+  - text: 政治要环绕生产，通过生产
+    cite: ws-1970-02-24-sun-yefang-critique
+    note: 1970 年批判文章所引
+    voice: official1966
+
+hu-yaobang:
+  - text: 现在已经13年了，这样的事情不要声张了，处理完了就算了，慢慢让它平息下去。对没有处理的要处理完，主要是把受害者安排好
+    cite: yhcqw-xie-chengnian-daoxian
+    date: 1980
+    note: 听零陵地委汇报道县杀人事件处理情况时，《炎黄春秋》网文章所引
+    voice: witness
+
+zhao-ziyang:
+  - text: 谁把你们出卖了？只有文化大革命才有人被出卖。
+    cite: ws-1989-06-30-chen-xitong-report
+    note: 1989 年 6 月陈希同报告所引
+    voice: officialLater
+
+wan-li:
+  - text: 万里同志是中国农村改革的先锋
+    by: 《万里同志生平》
+    cite: people-2015-07-23-wan-li
+    date: 2015-07-22
+    voice: officialLater
+
+fang-lizhi:
+  - text: 希望企业家作为中国的新生力量，同先进的知识分子结合起来，为争民主而斗争
+    cite: ws-1989-06-30-chen-xitong-report
+    note: 1989 年 6 月陈希同报告所引
+    voice: officialLater
+
+liu-xiaobo:
+  - text: 被告人刘晓波还伙同他人起草、炮制了《零八宪章》，提出“取消一党垄断执政特权”、“在民主宪政的架构下建立中华联邦共和国”等多项主张，试图煽动颠覆现政权
+    by: 判决书
+    cite: ws-2009-liu-xiaobo-judgment
+    date: 2009-12-25
+    voice: judicial1980
+
+wu-de:
+  - text: 我们要认清这一政治事件的反动性，戳穿他们的阴谋诡计，提高革命警惕，不要上当
+    cite: rmrb-1976-04-08-wude
+    date: 1976-04-05
+    note: 在天安门广场的广播讲话
+
+zeng-siyu:
+  - text: 曾思玉同志是好人犯错误，这是两类不同性质的矛盾，应严格加以区别
+    by: 中共中央
+    cite: ws-1974-05-21-hubei-instructions
+    date: 1974-05-21
+    note: 关于湖北问题的指示
+    voice: official1966
+
+ding-sheng:
+  - text: 我最不放心的是六四五三部队
+    cite: ws-1980-indictment
+    note: 在上海同马天水、徐景贤、王秀珍密谈，1980 年起诉书所引
+    voice: judicial1980
+
+chen-xitong:
+  - text: 在这种情况下，我们的党和政府如果还不采取坚决果断的措施，那么，就会再度严重贻误时机，进一步造成不可挽回的巨大损失，这是广大人民群众绝对不会允许的
+    cite: ws-1989-06-30-chen-xitong-report
+    date: 1989-06-30
+    note: 关于制止动乱和平息反革命暴乱的情况报告
+
+guo-moruo:
+  - text: 他是继鲁迅之后，在中国共产党领导下，在毛泽东思想指引下，我国文化战线上又一面光辉的旗帜
+    by: deng-xiaoping
+    cite: rmrb-1978-06-19-guo-moruo
+    date: 1978-06-18
+    note: 追悼大会悼词
+    voice: officialLater

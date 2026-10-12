@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import { useMemo, useRef, type CSSProperties } from 'react'
+import { Fragment, useMemo, useRef, type CSSProperties } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
 import { AgeRuler, IdCard, ProfileTimeline } from '../components/Dossier'
 import { ClaimLinks, EventList, FateLine, RelationList } from '../components/Drawer'
@@ -8,7 +8,7 @@ import { LifeStrip } from '../components/LifeStrip'
 import { PersonFacts, PositionList } from '../components/PersonFacts'
 import { Portrait } from '../components/Portrait'
 import { statusAt } from '../data/atlas'
-import { ALIAS_KINDS, DEATH_KINDS, STATUSES, VOICES, type Person } from '../data/schema'
+import { ALIAS_KINDS, DEATH_KINDS, STATUSES, VOICES, type Person, type PersonQuote } from '../data/schema'
 import { fmtDate, fmtRange, fmtT, lifespan, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
 import { useApp, useHistoryState } from '../state'
@@ -23,6 +23,52 @@ type Group = keyof typeof GROUPS
 export function People() {
   const { doc } = useApp()
   return doc ? <Profile key={doc} id={doc} /> : <Directory />
+}
+
+// Where each quote goes on the profile. Dated ones join the life section that had begun by then; undated
+// words of the person follow the lead, undated words about them open 评价. Without a full biography the
+// dated ones fall back the same way.
+function placeQuotes(p: Person) {
+  const lead: PersonQuote[] = []
+  const assess: PersonQuote[] = []
+  const chapters = new Map<number, PersonQuote[]>()
+  const sorted = [...p.quotes].sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999'))
+  for (const q of sorted) {
+    if (!q.date || !p.life.length) {
+      ;(q.by ? assess : lead).push(q)
+      continue
+    }
+    const t = toT(q.date)
+    let at = 0
+    p.life.forEach((s, i) => s.from && toT(s.from) <= t + 1e-6 && (at = i))
+    chapters.set(at, [...(chapters.get(at) ?? []), q])
+  }
+  return { lead, assess, chapters }
+}
+
+// spread k quotes through a section of n paragraphs: the quote at index i follows paragraph slot(i)
+const slot = (i: number, k: number, n: number) => Math.max(0, Math.round(((i + 1) * n) / (k + 1)) - 1)
+
+function PullQuote({ p, q }: { p: Person; q: PersonQuote }) {
+  const { ix, select } = useApp()
+  const who = q.by ? ix.person.get(q.by) : undefined
+  const voice = q.voice ?? 'doc'
+  return (
+    <blockquote className="pull" data-by={q.by ? 'other' : 'self'} style={{ '--vc': `var(--v-${voice})` } as CSSProperties}>
+      <p>{q.text}</p>
+      <footer>
+        {who ? (
+          <button className="linklike" onClick={() => select({ type: 'person', id: who.id })}>
+            {who.name}
+          </button>
+        ) : (
+          (q.by ?? p.name)
+        )}
+        {q.date && ` · ${fmtDate(q.date)}`}
+        {q.note && ` · ${q.note}`} <Cite cite={q.cite} />
+      </footer>
+    </blockquote>
+  )
 }
 
 function chapterColor(p: Person, from?: string) {
@@ -167,7 +213,8 @@ function Profile({ id }: { id: string }) {
     { l: '相关事件', n: events.length },
     { l: '关系', n: rels.length },
   ].filter((s) => s.n !== undefined && s.n > 0)
-  const pull = p.assess.find((v) => v.quote && v.text.length <= 150)
+  const pull = p.assess.find((v) => v.quote && v.text.length <= 150 && !p.quotes.some((q) => v.text.startsWith(q.text)))
+  const placed = placeQuotes(p)
 
   return (
     <div className="view">
@@ -249,6 +296,9 @@ function Profile({ id }: { id: string }) {
                   </footer>
                 </blockquote>
               )}
+              {placed.lead.map((q) => (
+                <PullQuote key={q.text} p={p} q={q} />
+              ))}
               {p.life.length === 0 && <p className="pending">完整传记尚未撰写（里程碑 MP-2）。现在只有概述、命运轨迹和 1966 年前后的事件。</p>}
               {p.life.map((s, i) => (
                 <section
@@ -261,8 +311,15 @@ function Profile({ id }: { id: string }) {
                     {(s.from || s.to) && <time>{fmtRange(s.from ?? '', s.to)}</time>}
                     {s.verify && <Verify />}
                   </h2>
-                  {s.text.split(/\n{2,}/).map((para, j) => (
-                    <p key={j}>{para}</p>
+                  {s.text.split(/\n{2,}/).map((para, j, paras) => (
+                    <Fragment key={j}>
+                      <p>{para}</p>
+                      {(placed.chapters.get(i) ?? [])
+                        .filter((_, k, qs) => slot(k, qs.length, paras.length) === j)
+                        .map((q) => (
+                          <PullQuote key={q.text} p={p} q={q} />
+                        ))}
+                    </Fragment>
                   ))}
                   <div className="chips">
                     {s.cites.map((c) => (
@@ -271,9 +328,12 @@ function Profile({ id }: { id: string }) {
                   </div>
                 </section>
               ))}
-              {p.assess.length > 0 && (
+              {(p.assess.length > 0 || placed.assess.length > 0) && (
                 <section>
                   <h2>评价</h2>
+                  {placed.assess.map((q) => (
+                    <PullQuote key={q.text} p={p} q={q} />
+                  ))}
                   <Voices voices={p.assess} />
                 </section>
               )}
