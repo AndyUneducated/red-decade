@@ -1,0 +1,257 @@
+# Quotes, batch 3: people still without quotes after batch 2. Same rules: verbatim from cite, checked at build time.
+huang-kecheng:
+  - &lushan
+    text: 八届八中全会关于所谓“彭德怀、黄克诚、张闻天、周小舟反党集团”的决议是完全错误的
+    by: 中共中央
+    cite: ws-1981-resolution
+    date: 1981-06-27
+    note: 《关于建国以来党的若干历史问题的决议》
+    voice: official1981
+  - &zongcan
+    text: 总参出了不少坏人，有黄克诚、罗瑞卿、张爱萍、王尚荣
+    by: huang-yongsheng
+    cite: ws-1980-indictment
+    date: 1968-04
+    note: 在总参谋部说，并称“他们是不能翻案的，不能翻天的”，1980 年起诉书所述
+    voice: judicial1980
+zhang-wentian:
+  - *lushan
+zhou-xiaozhou:
+  - *lushan
+zhang-aiping:
+  - *zongcan
+  - text: “文化大革命”中，张爱萍同志惨遭迫害，被批斗、囚禁达6年之久，左腿致残
+    by: 新华社《张爱萍同志生平》
+    cite: xinhua-2003-zhang-aiping
+    date: 2003-07-13
+    voice: officialLater
+wang-shangrong:
+  - *zongcan
+
+chen-yun:
+  - text: 在刘少奇、周恩来、陈云、邓小平等同志的主持下，制定和执行了一系列正确的政策和果断的措施，这是这个历史阶段中的重要转变
+    by: 中共中央
+    cite: ws-1981-resolution
+    date: 1981-06-27
+    note: 说 1960 年冬以后的经济调整，《关于建国以来党的若干历史问题的决议》
+    voice: official1981
+an-ziwen:
+  - text: 指使薄一波、刘澜涛、安子文等六十一人“投降国民党、叛变共产党”的问题，已由中共中央一九七八年十二月十六日中发75号文件予以否定
+    by: 中共十一届五中全会
+    cite: ws-1980-02-29-liu-rehab
+    date: 1980-02-29
+    note: 为刘少奇平反的决议
+    voice: officialLater
+chen-zaidao:
+  - text: 拿他们没有办法
+    by: lin-biao
+    cite: ws-1978-wuhan-720-report
+    note: 说对武汉军区不放心，要打倒陈再道，1978 年处理“七·二〇事件”的请示报告所述
+    voice: officialLater
+yan-hongyan:
+  - text: 中国赫鲁晓夫及其在云南的代理人阎红彦、赵健民等一小撮叛徒、特务、走资派
+    by: 新华社
+    cite: rmrb-1968-08-15-yunnan-revcom
+    date: 1968-08-15
+    note: 云南省革命委员会成立的报道；阎红彦已于 1967 年 1 月去世
+    voice: official1966
+ulanhu:
+  - text: 在挖乌兰夫黑线、清乌兰夫流毒的斗争中，广大群众起来，揪出了“内蒙人民革命党”的一些骨干
+    by: 内蒙古自治区革命委员会
+    cite: ws-1968-04-26-neirendang-report
+    date: 1968-04-26
+    note: 关于“内蒙古人民革命党”叛国案件的报告
+    voice: official1966
+gao-gang:
+  - text: 高岗的反党宗派在东北地区的工作中违反党中央的政策，竭力降低党的作用，破坏党的团结和统一，把东北地区当成为高岗的独立王国
+    by: 中国共产党全国代表会议
+    cite: ws-1955-03-31-gao-rao-resolution
+    date: 1955-03-31
+    note: 关于高岗、饶漱石反党联盟的决议
+    voice: official1966
+  - text: 高岗不但不向党低头认罪，反而以自杀来表示他对党的最后背叛
+    by: 中国共产党全国代表会议
+    cite: ws-1955-03-31-gao-rao-resolution
+    date: 1955-03-31
+    note: 同一决议
+    voice: official1966
+rao-shushi:
+  - text: 饶漱石在一九四三年至一九五三年的十年间曾多次为了夺取权力而在党内使用可耻的欺骗手段
+    by: 中国共产党全国代表会议
+    cite: ws-1955-03-31-gao-rao-resolution
+    date: 1955-03-31
+    note: 关于高岗、饶漱石反党联盟的决议
+    voice: official1966
+hu-feng:
+  - text: “胡风反革命集团”一案，是在当时的历史条件下，混淆了两类不同性质的矛盾，将有错误言论、宗派活动的一些同志定为反革命分子、反革命集团的一件错案
+    by: 中共中央
+    cite: cpc-1980-09-29-hu-feng-rehab
+    date: 1980-09-29
+    note: 批转《关于“胡风反革命集团”案件的复查报告》的通知
+    voice: officialLater
+luo-longji:
+  - text: 一团糟
+    cite: ws-1980-ufwd-rightist-review
+    note: 说国内情形，1980 年中央统战部右派复查报告所引
+    voice: officialLater
+
+han-aijing:
+  - &faxinshan
+    text: 切不要对他们发善心
+    by: qi-benyu
+    cite: ws-1983-11-02-qi-benyu-case
+    date: 1967-07
+    note: 对聂元梓、蒯大富、韩爱晶、王大宾、谭厚兰等人说刘少奇、彭德怀等，1983 年判决书所述
+    voice: judicial1980
+wang-dabin:
+  - *faxinshan
+tan-houlan:
+  - *faxinshan
+pan-guoping:
+  - text: 我们要夺权
+    cite: ws-1982-chen-ada-case
+    date: 1966-11
+    note: 与王洪文、陈阿大等召开大会时提出，1982 年陈阿大案起诉书所述
+    voice: judicial1980
+  - text: 潘司令，久闻大名，如雷贯耳
+    by: mao-zedong
+    cite: nfpeople-2018-pan-guoping
+    note: 接见潘国平时当面笑称，魏承思 2018 年文章所述
+    voice: witness
+ma-tianshui:
+  - text: 立即发
+    cite: ws-1982-xu-jingxian-case
+    note: 亲笔批示向“民兵”发枪，1982 年徐景贤案判决书所述
+    voice: judicial1980
+yu-huiyong:
+  - text: 要吃得饱饱的，睡得好好的，振奋精神，准备斗争
+    by: wang-hongwen
+    cite: ws-1983-liu-qingtang-case
+    note: 刘庆棠在北海公园向于会泳、浩亮传达王洪文的授意，1983 年起诉书所述
+    voice: judicial1980
+xie-jingyi:
+  - text: 要抢班夺权，另立中央
+    cite: ws-1982-chi-qun-case
+    date: 1976-03-26
+    note: 与迟群带人“汇报清华大学运动”、围攻邓小平时，1982 年迟群案判决书所述
+    voice: judicial1980
+zheng-junli:
+  - text: 江青同志有一封信落在郑君里、顾而已他们手里
+    by: ye-qun
+    cite: ws-1980-indictment
+    note: 对江腾蛟说，随后搜查郑君里等五人的家，1980 年起诉书所述
+    voice: judicial1980
+lu-ying:
+  - text: 这股反革命逆流，看来有个司令部
+    by: yao-wenyuan
+    cite: ws-1980-indictment
+    date: 1976-03
+    note: 对鲁瑛说南京反张春桥的大标语，1980 年起诉书所述
+    voice: judicial1980
+huang-shuai:
+  - text: 直到现在，我还是公开号召同学们和黄帅划清界限
+    by: 黄帅的老师
+    cite: rmrb-1973-12-28-huang-shuai
+    note: 黄帅来信所述
+    voice: official1966
+zhang-tiesheng:
+  - text: 他对物理化学这门课的考试，似乎交了“白卷”，然而对整个大学招生的路线问题，却交了一份颇有见解，发人深省的答卷
+    by: 《辽宁日报》编者按
+    cite: rmrb-1973-08-10-zhang-tiesheng
+    date: 1973
+    voice: official1966
+xie-xuegong:
+  - text: 你那个‘恭’是温良恭俭让的‘恭’，是封建主义的，儒家的思想；要改成工人阶级的‘工’
+    by: jiang-qing
+    cite: people-2014-xiaojinzhuang
+    note: 在小靳庄当着全村人的面说，此后解学恭在给江青的报告上签名“解学工”，陈大斌亲历记
+    voice: witness
+wang-mantian:
+  - text: 我目前的情况，太特殊了，一个地方干部，又兼文化部部分工作，别的部找不到这样的例子
+    cite: mzd-1975-11-18-wang-mantian
+    date: 1975-11-16
+    note: 给毛泽东的信，毛泽东批语的注释所引
+    voice: doc
+wang-ruowang:
+  - text: 要为资产阶级自由化辩护，我就是要自由化，不给我自由，我就要斗
+    cite: rmrb-1987-01-15-wang-ruowang
+    note: 中共上海市纪委开除其党籍的决定所引
+    voice: officialLater
+lin-zhao:
+  - text: 实属是一个死不悔改、怙恶不悛的反革命分子
+    by: 上海市中级人民法院
+    cite: ws-1968-04-19-lin-zhao-death-sentence
+    date: 1968-04-19
+    note: 死刑判决书
+    voice: official1966
+yu-luowen:
+  - text: 我们这六期可以说都是围绕批判“血统论”这一个话题
+    cite: rfa-2001-03-03-yu-luowen
+    note: 谈《中学文革报》，2001 年自由亚洲电台访谈
+    voice: witness
+liang-shuming:
+  - text: 梁漱溟何许人也
+    by: jiang-qing
+    cite: rujia-gan-chunsong-liang-shuming
+    note: 在首都体育馆批林批孔大会上，干春松文章所述
+    voice: scholar
+  - text: 7月6日，中央书记处批回《生平》稿，把“受到不实事求是的批判”改为“受到批评”
+    by: 胡治安
+    cite: gmw-2004-liang-shuming-shengping
+    date: 1988-07
+    note: 起草《梁漱溟生平》的统战部干部口述，说 1953 年那场批判的定性
+    voice: witness
+cao-yu:
+  - text: 打倒反动权威、反革命文人曹禺
+    by: 文革中的标语
+    cite: chinanews-2010-cao-yu
+    note: 梁秉堃《“文革”中的曹禺》所记
+    voice: witness
+
+wang-zhen:
+  - text: “文化大革命”中，王震同林彪、江青反革命集团进行了针锋相对的斗争，置个人安危于不顾，保护了许多干部和知识分子
+    by: 新华社《王震同志生平》
+    cite: rmrb-1993-03-20-wang-zhen
+    date: 1993-03-19
+    voice: officialLater
+  - text: 他反对“两个凡是”的观点，积极支持真理标准问题的讨论
+    by: 新华社《王震同志生平》
+    cite: rmrb-1993-03-20-wang-zhen
+    date: 1993-03-19
+    voice: officialLater
+yang-yong:
+  - text: 在失去自由的艰难困境中坚信胜利，坚持斗争
+    by: yang-shangkun
+    cite: rmrb-1983-01-16-yang-yong
+    date: 1983-01
+    note: 在杨勇追悼大会上致悼词，说他在文革中
+    voice: officialLater
+liao-hansheng:
+  - text: “文化大革命”期间，廖汉生同志受到林彪、“四人帮”反革命集团的迫害，被批斗、关押达5年之久
+    by: 新华社《廖汉生同志生平》
+    cite: xinhua-2006-liao-hansheng
+    date: 2006-10-14
+    voice: officialLater
+yang-baibing:
+  - text: “文化大革命”中，杨白冰同志遭受残酷迫害，被诬陷为“反革命”逮捕关押８年
+    by: 新华社《杨白冰同志生平》
+    cite: xinhua-2013-yang-baibing
+    date: 2013-01-21
+    voice: officialLater
+zhuang-zedong:
+  - text: “小球转动大球”成为２０世纪东西方外交史上最经典的一章，而庄则栋也成为“乒乓外交”的关键人物
+    by: 新华社
+    cite: xinhua-2013-zhuang-zedong
+    date: 2013-02-10
+    voice: officialLater
+shen-jilan:
+  - text: 不领工资、不转户口、不定级别、不坐专车、不要住房、不脱离农村
+    cite: people-2020-shen-jilan
+    note: 几十年坚持的“六不”，中共山西省委《申纪兰同志生平》所述
+    voice: officialLater
+xing-yanzi:
+  - text: 做祖国第一代有文化农民
+    cite: bjd-2022-xing-yanzi
+    date: 1958
+    note: 中学毕业后回乡务农时的决心，《北京日报》所述
+    voice: officialLater
