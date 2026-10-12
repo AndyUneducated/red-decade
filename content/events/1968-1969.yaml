@@ -544,3 +544,116 @@
     - { voice: official1966, text: 今年八月十五日，双河两岸山洪倾泻，金训华为了抢救国家物资，奋战山洪，不幸光荣牺牲。（1969 年 12 月《红旗》评论员）, cite: ws-1969-jin-xunhua, quote: true }
   cites: [ws-1969-jin-xunhua, rmrb-1969-12-06-jin-xunhua]
   verify: true
+
+# ── E5 补充：1968 年专案与地方冤案（数字均为 1980 年特别检察厅起诉书口径）
+- id: 1968-01-org-department
+  date: 1968-01
+  title: 中组部被定为“黑窝子”
+  lane: center
+  weight: 1
+  summary: 起诉书说，1968 年 1 月康生指使中组部负责人郭玉峰列图表、写报告，把 1937 年以后历任中组部部长张闻天、陈云、彭真、邓小平、安子文都说成“叛徒”“特务”或“双料货”，二十二名副部长也被定为“叛徒”“特务”“里通外国分子”。报告说中组部是“黑窝子”，提出把它“彻底解散，宣布撤销”。
+  people: [kang-sheng, zhang-wentian, chen-yun, peng-zhen, deng-xiaoping, an-ziwen]
+  voices:
+    - { voice: judicial1980, text: 一九六八年一月，康生指使郭玉峰，列图表，写报告，诬陷一九三七年以后历任中共中央组织部部长的张闻天、陈云、彭真、邓小平、安子文是“叛徒”、“特务”、“三反分子”或是“双料货”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1968-01-shanghai-committee
+  date: 1968-01
+  title: 上海市委被定为“黑班子”
+  lane: local
+  weight: 1
+  place: 上海
+  summary: 起诉书说，1968 年 1 月张春桥、姚文元把原上海市委定为“资产阶级顽固堡垒”“黑班子”，说第一书记陈丕显“是一个极其狡猾极其阴险的反革命两面派”，市长曹荻秋是“叛徒”。市委书记、市长、副市长和常委等十七人被定为“叛徒”“特务”“走资派”“反革命”，曹荻秋和副市长金仲华死亡。
+  people: [zhang-chunqiao, yao-wenyuan, chen-pixian, cao-diqiu]
+  voices:
+    - { voice: judicial1980, text: 一九六八年一月，张春桥、姚文元诬陷中共上海市委是“资产阶级顽固堡垒”、“黑班子”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 曹荻秋和副市长金仲华被迫害致死。（同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1968-01-beijing-public-security
+  date: 1968-01
+  end: 1968-05
+  title: 北京市委与“旧北京市公安局反革命集团”案
+  lane: local
+  weight: 1
+  place: 北京
+  summary: 起诉书说，1968 年 1 月康生指称北京市委书记刘仁和副市长冯基平、崔月犁“出卖党政军核心机密，叛党叛国”，批示“应将他们铐起来，进行严厉地突击地审讯”；5 月康生、谢富治又制造“以冯基平、邢相生为首的旧北京市公安局反革命集团”冤案。原北京市委书记七人、副市长六人全被定罪，刘仁、邓拓、吴晗、乐松生死亡。
+  people: [kang-sheng, xie-fuzhi, liu-ren, deng-tuo, wu-han]
+  voices:
+    - { voice: judicial1980, text: 一九六八年一月，康生诬陷刘仁和副市长冯基平、崔月犁等，“出卖党政军核心机密，叛党叛国”并批示“对他们不能用一般对犯人的方法对待”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1968-01-21-zhao-jianmin
+  date: 1968-01-21
+  title: 云南“赵健民特务案”
+  lane: local
+  weight: 2
+  place: 北京京西宾馆；云南
+  summary: 康生在京西宾馆当面对云南省委书记赵健民说“你是个叛徒！”，“我凭四十年革命的经验，有这个敏感”，指他执行国民党云南特务组计划，谢富治当场宣布逮捕。案件随后在云南大范围株连，起诉书说一万四千余人被迫害致死。
+  people: [kang-sheng, xie-fuzhi]
+  voices:
+    - { voice: judicial1980, text: 康生、谢富治不准赵健民申辩，由谢富治当场宣布逮捕赵健民。在康生、谢富治的煽动下，制造了“赵健民特务案”，这个冤案使云南大批干部、群众遭到诬陷、迫害，一万四千余人被迫害致死。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1968-04-north-china-mountaintop
+  date: 1968-04
+  title: 批判“华北山头主义”
+  lane: army
+  weight: 1
+  summary: 起诉书说，1968 年 4 月林彪指令北京军区召开党委扩大会，批判所谓“华北山头主义”，派黄永胜、吴法宪、谢富治到会；江青、陈伯达说聂荣臻是它的“后台”。同年 11 月黄永胜说聂荣臻“这一辈子也没有干什么好事”。
+  people: [nie-rongzhen, lin-biao, huang-yongsheng, wu-faxian, xie-fuzhi, jiang-qing, chen-boda]
+  voices:
+    - { voice: judicial1980, text: 一九六八年四月，林彪指令北京部队召开党委扩大会，策动批判所谓“华北山头主义”，并派黄永胜、吴法宪和谢富治参加。江青、陈伯达诬陷聂荣臻是“华北山头主义”的后台，阴谋打倒聂荣臻。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1968-06-wen-niansheng
+  date: 1968-06
+  title: 黄永胜以“文年生案”追查叶剑英
+  lane: army
+  weight: 1
+  place: 广州
+  summary: 起诉书说，黄永胜在广州制造陷害广州军区副司令员文年生等的冤案，1968 年 6 月借此追查“黑线”，把逼供得来的材料交给叶群，诬陷叶剑英等开“黑会”、“密谋发动反革命政变”。早在 1967 年 6 月，黄永胜已批准广州市公安局军管会调查叶剑英的“第一号调查方案”。
+  people: [huang-yongsheng, ye-qun, ye-jianying]
+  voices:
+    - { voice: judicial1980, text: 一九六八年六月，黄永胜利用他在广州制造的陷害广州部队副司令员文年生等的冤案，追查“黑线”，将逼供取得的假材料交给叶群，诬陷叶剑英等开“黑会”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1968-07-21-kang-sheng-list
+  date: 1968-07-21
+  title: 康生给江青的八届中委“名单”
+  lane: center
+  weight: 2
+  summary: 八届十二中全会前三个月，康生给江青写了一封绝密信：“送上你要的名单。”名单把八届中央委员、候补中央委员一百九十三人中的八十八人列为“特务”“叛徒”“里通外国分子”“反党分子”，另有三十六人列为“靠边站的尚未列入专案的”或“有错误的或历史上要考查的”，其中绝大多数后来也受到诬陷。三个月后召开的是“八届扩大的十二中全会”。
+  people: [kang-sheng, jiang-qing]
+  voices:
+    - { voice: judicial1980, text: 一九六八年七月廿一日，康生亲笔写了一封绝密信。信封上署明：“要件即呈江青同志亲启”。信中说：“送上你要的名单。”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 在康生亲笔写的这个名单中，中共第八届中央委员、候补中央委员一百九十三名，有八十八名被分别诬陷为“特务”、“叛徒”、“里通外国分子”、“反党分子”。（同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1968-08-23-political-reports
+  date: 1968-08-23
+  end: 1968-08-27
+  title: 中监委、人大常委、政协常委的“政治情况报告”
+  lane: center
+  weight: 1
+  summary: 起诉书说，康生、曹轶欧指使郭玉峰在五天内编出三份报告，后两份经康生亲笔修改、审定：八届中监委六十名委员、候补委员中三十七人，三届人大常委一百一十五人中六十人，四届政协常委一百五十九人中七十四人，被分别定为“叛徒”“特务”“反革命修正主义分子”“里通外国”等。名单上有委员长朱德，副委员长彭真、李井泉、林枫、刘宁一、张治中，以及胡耀邦、梁思成、华罗庚、茅以升、赵朴初等人。
+  people: [kang-sheng, zhu-de, peng-zhen, hu-yaobang]
+  voices:
+    - { voice: judicial1980, text: 在这个报告中，一百一十五名全国人大常委会委员，有六十人被分别诬陷为“叛徒”、“叛徒嫌疑”、“特务”、“特务嫌疑”、“反革命修正主义分子、走资派、三反分子”、“有严重问题”。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1968-11-chen-yi-sayings
+  date: 1968-11
+  title: 上海编印《陈毅反动言论集》
+  lane: center
+  weight: 1
+  place: 上海
+  summary: 起诉书说，1968 年 11 月张春桥指使王洪文、徐景贤借为九大准备材料之名，编出《陈毅反动言论集》，在上海的“九大”代表学习班中散发，诬陷陈毅“投降帝修反”；同时搜集、编造了叶剑英、李先念、陈云、聂荣臻、李富春、谭震林等的材料七十六份、一千一百六十三页。
+  people: [zhang-chunqiao, wang-hongwen, xu-jingxian, chen-yi, ye-jianying, li-xiannian, chen-yun, nie-rongzhen, li-fuchun, tan-zhenlin]
+  voices:
+    - { voice: judicial1980, text: 一九六八年十一月，张春桥指使王洪文、徐景贤等，借为中共第九次全国代表大会准备材料之名，编造所谓《陈毅反动言论集》，在上海的“九大”代表学习班中散发（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]

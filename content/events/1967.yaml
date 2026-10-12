@@ -806,3 +806,95 @@
   voices:
     - { voice: official1966, text: 多印一部《毛泽东选集》，就多生产一枚威力无穷的精神原子弹！（1967 年 12 月新华社报道所引印刷工人口号）, cite: rmrb-1967-12-26-mao-works, quote: true }
   cites: [rmrb-1967-12-26-mao-works]
+
+# ── E5 补充：1967 年地方冤案与武斗（数字均为 1980 年特别检察厅起诉书口径）
+- id: 1967-04-xu-xiangqian
+  date: 1967-04
+  title: “炮轰徐向前”
+  lane: army
+  weight: 1
+  summary: 二月碰头会之后，徐向前成为军内被攻击的对象。起诉书说，4 月蒯大富在叶群授意下派人搜集材料，发表“炮轰徐向前”的文章；6 月邱会作让总后勤部“文化革命办公室”编印传单，称徐向前是党内、军内的“一颗大定时炸弹”。
+  people: [xu-xiangqian, ye-qun, kuai-dafu, qiu-huizuo, ye-jianying]
+  voices:
+    - { voice: judicial1980, text: 诬陷徐向前是埋藏在党内、军内的“一颗大定时炸弹，是个标准的个人野心家和阴谋家”，提出“打倒徐向前”。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1967-05-07-jinan-compound
+  date: 1967-05-07
+  title: 济南省革委会大院武斗
+  lane: local
+  weight: 1
+  place: 济南
+  summary: 山东省革委会主任王效禹与反对他的群众组织对立。起诉书说，张春桥、姚文元 5 月在济南表态支持王效禹，张春桥说“你有力量，我就支持你”；5 月 7 日王效禹在省革委会大院制造武斗，拘捕关押三百八十八人，张、姚随后祝贺“打了一个胜仗！”。
+  people: [wang-xiaoyu, zhang-chunqiao, yao-wenyuan]
+  voices:
+    - { voice: judicial1980, text: 张春桥对王效禹说：“你有力量，我就支持你。”王效禹随即在五月七日制造了省革命委员会大院武斗事件，拘捕关押三百八十八人。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1967-07-gun-protects-pen
+  date: 1967-07
+  title: 张春桥：“以枪杆子保卫笔杆子革命”
+  lane: mass
+  weight: 1
+  place: 上海
+  summary: 起诉书说，1967 年 7 月张春桥在他审定的一份报告中提出“以枪杆子保卫笔杆子革命”，指使王洪文在上海建立由他们控制的武装力量。起诉书把这件事与后来王洪文抓上海民兵连在一起：1976 年王洪文说“上海民兵是我和春桥搞起来的”。
+  people: [zhang-chunqiao, wang-hongwen]
+  concepts: [verbal-struggle]
+  voices:
+    - { voice: judicial1980, text: 一九六七年七月，张春桥在他审定的一份报告中提出“以枪杆子保卫笔杆子革命”，指使王洪文等在上海建立由他们控制的武装力量。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1967-xinjiang-renegades
+  date: 1967
+  title: “新疆叛徒集团”冤案
+  lane: local
+  weight: 1
+  summary: 1942 年 9 月被新疆军阀盛世才逮捕关押的一批共产党干部，1967 年被康生等定为“投敌叛变”、“潜伏我们党内”的“叛徒集团”。起诉书说一百三十一人被诬陷，马明方、张子意、杨之华、方志纯等九十二名干部受迫害，马明方等二十六人死亡。此案与同年的“六十一人叛徒集团”案类似，都是把当年的被捕经历重新定性为叛变。
+  people: [kang-sheng]
+  voices:
+    - { voice: judicial1980, text: 马明方、张子意、杨之华、方志纯等九十二名干部受到迫害，马明方等二十六人被迫害致死。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+  verify: true
+
+- id: 1967-11-you-xuetao-group
+  date: 1967-11
+  end: 1968-11-30
+  title: 张春桥的“游雪涛小组”
+  lane: local
+  weight: 1
+  place: 上海
+  summary: 起诉书说，张春桥在上海指挥代号“二四四”的“游雪涛小组”，专门跟踪盯梢、绑架、抄家、秘密刑讯和搜集情报。1967 年 11 月到 1968 年 3 月，小组为张春桥编造华东局九十七名领导干部的材料，绘制“华东局黑线人物关系图”，编写三百期简报，诬陷、迫害一百八十三人；张春桥在小组的年度总结上批“谢谢同志们”。
+  people: [zhang-chunqiao]
+  voices:
+    - { voice: judicial1980, text: 从一九六七年十一月至一九六八年三月，这个特务组织为张春桥搜集、编造诬陷中共中央华东局九十七名领导干部的材料，绘制了“华东局黑线人物关系图”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 张春桥在这份总结上亲笔批道：“谢谢同志们。”（同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1967-12-jidong-case
+  date: 1967-12
+  title: 冀东冤案
+  lane: local
+  weight: 2
+  place: 河北唐山
+  summary: 陈伯达 12 月在唐山说，冀东党组织“可能是国共合作的党”，“叛徒在这里起作用”。冀东抗日根据地出身的干部随即被成批打成“叛徒”“国民党”。起诉书说八万四千余名党员干部和群众受诬陷、迫害，张文浩等二千九百五十五人死亡。
+  people: [chen-boda]
+  voices:
+    - { voice: judicial1980, text: 一九六七年十二月，陈伯达在唐山说：中共冀东党组织“可能是国共合作的党，实际上可能是国民党在这里起作用，叛徒在这里起作用”。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 使冀东地区的党员干部、群众八万四千余人遭受诬陷、迫害，张文浩等二千九百五十五人被迫害致死。（同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1967-dongbei-gang
+  date: 1967
+  end: 1969
+  title: “东北帮”冤案
+  lane: local
+  weight: 1
+  place: 东北
+  summary: 1946 年 2 月吕正操、万毅、张学思等四十二人经东北局决定、由延安新华社联名通电要求释放张学良。1967—1969 年这件事被定为“妄图叛党投敌的一起重大反革命案件”，进而制造出九十人的“东北帮”反革命集团。起诉书说张学思、贾陶、车向忱、陈先舟等死亡。
+  voices:
+    - { voice: judicial1980, text: 诬陷为“经过长期预谋，妄图叛党投敌的一起重大反革命案件”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 张学思、贾陶、车向忱、陈先舟等被迫害致死。（同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
