@@ -266,6 +266,17 @@ export const PersonSchema = z.object({
   fate: z.array(FateSchema).default([]),
   cites: z.array(Cite).default([]),
   verify: z.boolean().optional(),
+  // attached by build-data from content/photos.yaml when public/photos/<id>.jpg exists
+  photo: z
+    .object({
+      src: z.string(),
+      url: z.string().optional(),
+      author: z.string().optional(),
+      license: z.string().optional(),
+      date: z.string().optional(),
+      focus: z.string().optional(),
+    })
+    .optional(),
 })
 
 export const FactionSchema = z.object({

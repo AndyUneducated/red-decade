@@ -9,6 +9,8 @@
   --rule-2: #d3cdc1;
   --accent: #b3122e;
   --accent-soft: #f6dfe2;
+  --photo-hi: #efe9dc;
+  --photo-lo: #2b2622;
   --focus: #1f5fbf;
 
   --s-normal: #d9d4ca;
@@ -97,6 +99,8 @@
   --rule-2: #403c35;
   --accent: #e0475d;
   --accent-soft: #46202a;
+  --photo-hi: #cfc7b8;
+  --photo-lo: #1d1b18;
   --focus: #79a6ec;
 
   --s-normal: #3b3832;
@@ -1235,6 +1239,78 @@ h2.sec {
   color: var(--muted);
   margin-bottom: 10px;
 }
+/* Portraits: every photo is pushed to the same two tones (paper highlights, ink shadows) so that
+   prints from 1939 and 1966 sit together; people without a free photo get their name instead. */
+.portrait {
+  position: relative;
+  isolation: isolate;
+  flex: none;
+  width: var(--pw, 96px);
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--photo-hi);
+  border: 1px solid var(--rule-2);
+}
+.portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.08);
+  mix-blend-mode: multiply;
+}
+.portrait::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--photo-lo);
+  mix-blend-mode: lighten;
+  pointer-events: none;
+}
+.portrait.text {
+  display: grid;
+  place-items: center;
+  background: var(--paper-2);
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: calc(var(--pw, 96px) * 0.3);
+  letter-spacing: 0.05em;
+  writing-mode: vertical-rl;
+}
+.portrait.text::after {
+  content: none;
+}
+.portrait-credit {
+  margin-top: 4px;
+  max-width: var(--pw, 96px);
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+.portrait-credit a {
+  color: inherit;
+}
+.profile-id {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.profile-id > div:first-child {
+  flex: 1;
+  min-width: 0;
+}
+.drawer header.with-photo {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.drawer header.with-photo > div:last-child {
+  flex: 1;
+  min-width: 0;
+}
+
 .profile-head h1 {
   margin: 4px 0 4px;
   font-family: var(--serif);

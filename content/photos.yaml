@@ -1,0 +1,725 @@
+# Portraits: written by tools/fetch-photos.ts from Wikidata P18 + Commons metadata; edit `focus`
+# (CSS object-position, e.g. "50% 20%") or set `skip: true` by hand. `why` explains a missing photo.
+an-ziwen:
+  qid: Q3431755
+  file: 安子文.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%AD%90%E6%96%87.jpg
+  author: 政協秘書處
+  license: Public domain
+  date: "1949"
+bian-zhongyun:
+  qid: Q3373900
+  file: Bian zhongyun.jpg
+  url: https://commons.wikimedia.org/wiki/File:Bian_zhongyun.jpg
+  author: unknown author
+  license: Public domain
+  date: circa 1964
+bo-yibo:
+  qid: Q553682
+  file: Boyibo1946.jpg
+  url: https://commons.wikimedia.org/wiki/File:Boyibo1946.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1946"
+cao-diqiu:
+  qid: Q6787465
+  file: Soong Ching-ling, Sukarno and others (Cao Diqiu cropped).jpg
+  url: https://commons.wikimedia.org/wiki/File:Soong_Ching-ling,_Sukarno_and_others_(Cao_Diqiu_cropped).jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1956-10-11
+chen-boda:
+  qid: Q47677
+  why: Wikidata item has no image (P18)
+chen-liyun:
+  qid: Q18668996
+  why: Wikidata item has no image (P18)
+chen-pixian:
+  qid: Q707751
+  file: Chen Pixian cropped.jpg
+  url: https://commons.wikimedia.org/wiki/File:Chen_Pixian_cropped.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1949"
+chen-xilian:
+  qid: Q710115
+  file: Chenxillian.jpg
+  url: https://commons.wikimedia.org/wiki/File:Chenxillian.jpg
+  author: Chinese government
+  license: Public domain
+  date: "1955"
+chen-yi:
+  qid: Q188408
+  file: Chen Yi(communist).jpg
+  url: https://commons.wikimedia.org/wiki/File:Chen_Yi(communist).jpg
+  author: ​《 新华社 》记者 齐观山
+  license: Public domain
+  date: "1955"
+chen-yinke:
+  qid: Q714824
+  file: Chen Yinke.jpg
+  url: https://commons.wikimedia.org/wiki/File:Chen_Yinke.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: before 1960
+chen-yonggui:
+  qid: Q252926
+  file: 1966-02 陈永贵.jpg
+  url: https://commons.wikimedia.org/wiki/File:1966-02_%E9%99%88%E6%B0%B8%E8%B4%B5.jpg
+  author: 人民画报
+  license: Public domain
+  date: 1966-02-28
+chen-yun:
+  qid: Q557233
+  file: 1958 Chenyun.jpg
+  url: https://commons.wikimedia.org/wiki/File:1958_Chenyun.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1958"
+chen-zaidao:
+  qid: Q837398
+  file: Chen Zaidao2.jpg
+  url: https://commons.wikimedia.org/wiki/File:Chen_Zaidao2.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1955"
+cheng-shiqing:
+  qid: Q7216184
+  why: Wikidata item has no image (P18)
+chi-qun:
+  qid: Q15918310
+  why: Wikidata item has no image (P18)
+deng-tuo:
+  qid: Q3022453
+  file: Deng Toe.jpg
+  url: https://commons.wikimedia.org/wiki/File:Deng_Toe.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1940s
+deng-xiaoping:
+  qid: Q16977
+  file: Deng Xiaoping and Jimmy Carter at the arrival ceremony for the Vice Premier of China. - NARA - 183157-restored(cropped).jpg
+  url: https://commons.wikimedia.org/wiki/File:Deng_Xiaoping_and_Jimmy_Carter_at_the_arrival_ceremony_for_the_Vice_Premier_of_China._-_NARA_-_183157-restored(cropped).jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: Taken on 29 January 1979
+ding-sheng:
+  qid: Q8322208
+  file: Ding Sheng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Ding_Sheng.jpg
+  author: 中国人民解放军第54军
+  license: Public domain
+  date: "1955"
+fu-chongbi:
+  qid: Q11970472
+  file: Fu Chongbi.jpg
+  url: https://commons.wikimedia.org/wiki/File:Fu_Chongbi.jpg
+  author: People's Liberation Army
+  license: Public domain
+  date: "1955"
+fu-lei:
+  qid: Q3090493
+  file: 傅雷.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E5%82%85%E9%9B%B7.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 摄于1955年至1966年间
+gu-mu:
+  qid: Q8297379
+  file: Gu Mu 1940.jpg
+  url: https://commons.wikimedia.org/wiki/File:Gu_Mu_1940.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1940"
+gu-zhun:
+  qid: Q5613156
+  why: Wikidata item has no image (P18)
+guan-feng:
+  qid: Q8340936
+  why: Wikidata item has no image (P18)
+han-aijing:
+  why: no Wikidata item with matching birth year
+he-long:
+  qid: Q700713
+  file: He Long.jpg
+  url: https://commons.wikimedia.org/wiki/File:He_Long.jpg
+  author: ​《 解放军画报 》记者 林扬
+  license: Public domain
+  date: "1955"
+hu-sheng:
+  qid: Q15632621
+  file: 胡繩.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E8%83%A1%E7%B9%A9.jpg
+  author: 政協秘書處
+  license: Public domain
+  date: "1949"
+hua-guofeng:
+  qid: Q41570
+  file: Hua Guofeng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Hua_Guofeng.jpg
+  author: Bibliothèque de l'Hôtel de Ville - Bibliothèques spécialisées de la Ville de Paris
+  license: Public domain
+  date: 1979-10-16
+huang-yongsheng:
+  qid: Q710154
+  file: Huang Yongsheng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Huang_Yongsheng.jpg
+  author: Huang Yongsheng
+  license: Public domain
+  date: "1955"
+ji-dengkui:
+  qid: Q8337197
+  why: Wikidata item has no image (P18)
+ji-pengfei:
+  qid: Q560641
+  file: Ji Pengfei.jpg
+  url: https://commons.wikimedia.org/wiki/File:Ji_Pengfei.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1940"
+jian-bozan:
+  qid: Q6191455
+  file: 翦伯贊.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E7%BF%A6%E4%BC%AF%E8%B4%8A.jpg
+  author: 政協秘書處
+  license: Public domain
+  date: "1949"
+jiang-qing:
+  qid: Q236017
+  file: Jiang Qing 1976.jpg
+  url: https://commons.wikimedia.org/wiki/File:Jiang_Qing_1976.jpg
+  author: Unknown author Unknown author
+  license: CC BY-SA 3.0 nl
+  licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en
+  date: 1976-10-16
+jiang-tengjiao:
+  qid: Q8327119
+  why: Wikidata item has no image (P18)
+kang-sheng:
+  qid: Q544432
+  file: Kang Seng in Yan'an.jpg
+  url: https://commons.wikimedia.org/wiki/File:Kang_Seng_in_Yan%27an.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1940s
+kuai-dafu:
+  qid: Q1790818
+  why: Wikidata item has no image (P18)
+lao-she:
+  qid: Q315167
+  file: LaoShe.jpg
+  url: https://commons.wikimedia.org/wiki/File:LaoShe.jpg
+  license: Public domain
+  date: "1934"
+li-da:
+  qid: Q6538724
+  file: Lida Philosopher.jpg
+  url: https://commons.wikimedia.org/wiki/File:Lida_Philosopher.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 2012-05-02
+li-desheng:
+  qid: Q562587
+  file: Lidesheng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Lidesheng.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+li-fuchun:
+  qid: Q632505
+  file: Li Fuchun.jpg
+  url: https://commons.wikimedia.org/wiki/File:Li_Fuchun.jpg
+  author: 吴印咸 (Wu Yinxian)
+  license: Public domain
+  date: "1940"
+li-jingquan:
+  why: no Wikidata item with matching birth year
+li-lisan:
+  qid: Q700892
+  file: Lilisan.png
+  url: https://commons.wikimedia.org/wiki/File:Lilisan.png
+  author: 已佚
+  license: Public domain
+  date: 2013-11-03 19:57:13
+li-xiannian:
+  qid: Q311413
+  file: Li Xiannian.png
+  url: https://commons.wikimedia.org/wiki/File:Li_Xiannian.png
+  author: unknown author
+  license: Public domain
+  date: "1954"
+li-xuefeng:
+  qid: Q6539187
+  file: Li Xuefeng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Li_Xuefeng.jpg
+  author: 《人民画报》
+  license: Public domain
+  date: 1965-11-01
+li-zuopeng:
+  qid: Q712806
+  file: Li-Zuopeng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Li-Zuopeng.jpg
+  author: 中华人民共和国
+  license: Public domain
+  date: "1955"
+liao-mosha:
+  qid: Q11064411
+  why: Wikidata item has no image (P18)
+lin-biao:
+  qid: Q315475
+  file: Lin Biao.jpg
+  url: https://commons.wikimedia.org/wiki/File:Lin_Biao.jpg
+  author: ​《 解放军画报 》 记者 柳成行
+  license: Public domain
+  date: 1955-09-??
+lin-liguo:
+  qid: Q699770
+  file: Lin Liquo crop.jpg
+  url: https://commons.wikimedia.org/wiki/File:Lin_Liquo_crop.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1940s
+lin-mohan:
+  qid: Q11107276
+  why: Wikidata item has no image (P18)
+lin-zhao:
+  qid: Q838069
+  file: LIN Zhao.jpg
+  url: https://commons.wikimedia.org/wiki/File:LIN_Zhao.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+liu-feng:
+  qid: Q8294575
+  why: Wikidata item has no image (P18)
+liu-jieting:
+  qid: Q8294678
+  why: Wikidata item has no image (P18)
+liu-ren:
+  qid: Q10897084
+  why: Wikidata item has no image (P18)
+liu-shaoqi:
+  qid: Q16988
+  file: Liu Shaoqi (cropped).jpg
+  url: https://commons.wikimedia.org/wiki/File:Liu_Shaoqi_(cropped).jpg
+  author: unknown author
+  license: Public domain
+  date: 1940s
+liu-xingyuan:
+  qid: Q8313351
+  file: Liuxingyuan.jpg
+  url: https://commons.wikimedia.org/wiki/File:Liuxingyuan.jpg
+  author: chinese government
+  license: Public domain
+  date: "1955"
+liu-zhijian:
+  qid: Q8315417
+  file: Liu Zhijian.jpg
+  url: https://commons.wikimedia.org/wiki/File:Liu_Zhijian.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+lu-dingyi:
+  qid: Q3267036
+  file: Lu Dingyi.jpg
+  url: https://commons.wikimedia.org/wiki/File:Lu_Dingyi.jpg
+  author: CPC
+  license: Public domain
+  date: "1942"
+lu-ping:
+  qid: Q15933329
+  why: Wikidata item has no image (P18)
+luo-ruiqing:
+  qid: Q701029
+  why: Wikidata item has no image (P18)
+ma-tianshui:
+  why: no Wikidata item with matching birth year
+mao-zedong:
+  qid: Q5816
+  file: Mao Tse Tung.jpg
+  url: https://commons.wikimedia.org/wiki/File:Mao_Tse_Tung.jpg
+  author: Chen Zhengqing (1917–1966)
+  license: Public domain
+  date: 1950-11-10
+nie-rongzhen:
+  qid: Q701453
+  file: Marshal Nie Rongzhen.jpg
+  url: https://commons.wikimedia.org/wiki/File:Marshal_Nie_Rongzhen.jpg
+  author: ​《 新华社 》记者 郑景康
+  license: Public domain
+  date: "1955"
+nie-yuanzi:
+  qid: Q463089
+  why: Wikidata item has no image (P18)
+peng-dehuai:
+  qid: Q381823
+  file: General Peng Dehuai.jpg
+  url: https://commons.wikimedia.org/wiki/File:General_Peng_Dehuai.jpg
+  author: ​《 新华社 》记者 郑景康
+  license: Public domain
+  date: "1955"
+peng-peiyun:
+  qid: Q7162676
+  file: Peng Peiyun Photograph of UN WCW.jpg
+  url: https://commons.wikimedia.org/wiki/File:Peng_Peiyun_Photograph_of_UN_WCW.jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2021-09-09 15:33:12
+peng-zhen:
+  qid: Q472527
+  file: Peng Zhen2.jpg
+  url: https://commons.wikimedia.org/wiki/File:Peng_Zhen2.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 早于1945年
+qi-benyu:
+  qid: Q443618
+  why: Wikidata item has no image (P18)
+qiao-guanhua:
+  qid: Q382192
+  file: 喬木.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E5%96%AC%E6%9C%A8.jpg
+  author: 政協秘書處
+  license: Public domain
+  date: "1949"
+qiu-huizuo:
+  qid: Q8295058
+  file: Qiu Huizuo.jpg
+  url: https://commons.wikimedia.org/wiki/File:Qiu_Huizuo.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+rong-guotuan:
+  qid: Q2061252
+  file: Rongguotuan.jpg
+  url: https://commons.wikimedia.org/wiki/File:Rongguotuan.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1959"
+shangguan-yunzhu:
+  qid: Q10867353
+  file: ShangGuan Yunzhu 2.jpg
+  url: https://commons.wikimedia.org/wiki/File:ShangGuan_Yunzhu_2.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1940s
+song-binbin:
+  why: no Wikidata item with matching birth year
+su-zhenhua:
+  qid: Q8314180
+  file: Su Zhenhua.jpg
+  url: https://commons.wikimedia.org/wiki/File:Su_Zhenhua.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+tan-houlan:
+  why: no Wikidata item with matching birth year
+tan-zhenlin:
+  qid: Q1858202
+  file: Tan Zhenlin.jpg
+  url: https://commons.wikimedia.org/wiki/File:Tan_Zhenlin.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: before 1949
+tao-zhu:
+  qid: Q707109
+  file: Tao Zhu standing portrait.jpg
+  url: https://commons.wikimedia.org/wiki/File:Tao_Zhu_standing_portrait.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1950s
+teng-haiqing:
+  qid: Q8337890
+  file: Tenghaiqing.jpg
+  url: https://commons.wikimedia.org/wiki/File:Tenghaiqing.jpg
+  author: chinese government
+  license: Public domain
+  date: "1955"
+tian-han:
+  qid: Q434207
+  file: 田汉.gif
+  url: https://commons.wikimedia.org/wiki/File:%E7%94%B0%E6%B1%89.gif
+  license: Public domain
+tian-jiaying:
+  qid: Q17112315
+  file: Tian Jiaying.jpg
+  url: https://commons.wikimedia.org/wiki/File:Tian_Jiaying.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1940s
+ulanhu:
+  qid: Q716083
+  file: Ulanhu1955.jpg
+  url: https://commons.wikimedia.org/wiki/File:Ulanhu1955.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1955"
+wang-dongxing:
+  qid: Q630015
+  file: Wang Dongxing.jpg
+  url: https://commons.wikimedia.org/wiki/File:Wang_Dongxing.jpg
+  author: People's Liberation Army
+  license: Public domain
+  date: "1955"
+wang-fei:
+  why: no Wikidata item with matching birth year
+wang-guangmei:
+  qid: Q272307
+  file: Guangmei.jpg
+  url: https://commons.wikimedia.org/wiki/File:Guangmei.jpg
+  author: unknown author
+  license: Public domain
+  date: 1950s
+wang-hongwen:
+  qid: Q455583
+  file: Wang Hongwen at trial in November 1980.jpg
+  url: https://commons.wikimedia.org/wiki/File:Wang_Hongwen_at_trial_in_November_1980.jpg
+  author: China Publications Centre
+  license: Public domain
+  date: 1980-11
+wang-li:
+  why: no Wikidata item with matching birth year
+wang-renzhong:
+  qid: Q8293113
+  file: Wang Renzhong (1979).jpg
+  url: https://commons.wikimedia.org/wiki/File:Wang_Renzhong_(1979).jpg
+  author: Rob Croes for Anefo
+  license: CC BY-SA 3.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+  date: 1979-10-05
+wang-weiguo:
+  qid: Q18654633
+  why: Wikidata item has no image (P18)
+wang-xiuzhen:
+  why: no Wikidata item with matching birth year
+wei-guoqing:
+  qid: Q3139184
+  file: Weiguoqing.jpg
+  url: https://commons.wikimedia.org/wiki/File:Weiguoqing.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+wei-wenbo:
+  qid: Q7928625
+  why: Wikidata item has no image (P18)
+wu-de:
+  qid: Q843910
+  why: Wikidata item has no image (P18)
+wu-faxian:
+  qid: Q4392699
+  file: Wu Faxian.jpg
+  url: https://commons.wikimedia.org/wiki/File:Wu_Faxian.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+wu-han:
+  qid: Q705864
+  file: 吳晗.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E5%90%B3%E6%99%97.jpg
+  author: 政協秘書處
+  license: Public domain
+  date: "1949"
+wu-lengxi:
+  qid: Q24285951
+  why: Wikidata item has no image (P18)
+xie-fuzhi:
+  qid: Q162814
+  file: 1967-07 1967年4月20日北京市革命委员会成立 谢富治.jpg
+  url: https://commons.wikimedia.org/wiki/File:1967-07_1967%E5%B9%B44%E6%9C%8820%E6%97%A5%E5%8C%97%E4%BA%AC%E5%B8%82%E9%9D%A9%E5%91%BD%E5%A7%94%E5%91%98%E4%BC%9A%E6%88%90%E7%AB%8B_%E8%B0%A2%E5%AF%8C%E6%B2%BB.jpg
+  author: 《人民画报》
+  license: Public domain
+  date: 1967-07-30
+xie-jingyi:
+  qid: Q9185861
+  why: Wikidata item has no image (P18)
+xiong-shili:
+  qid: Q699536
+  file: 熊十力 1960s.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E7%86%8A%E5%8D%81%E5%8A%9B_1960s.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: circa 1947
+xu-jingxian:
+  qid: Q8294888
+  why: Wikidata item has no image (P18)
+xu-liqun:
+  qid: Q8296450
+  why: Wikidata item has no image (P18)
+xu-shiyou:
+  qid: Q835115
+  file: Xu shiyou 1939.jpg
+  url: https://commons.wikimedia.org/wiki/File:Xu_shiyou_1939.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: between 1939 and 1940
+xu-xiangqian:
+  qid: Q702194
+  file: Xu Xiangqian.jpg
+  url: https://commons.wikimedia.org/wiki/File:Xu_Xiangqian.jpg
+  author: ​《 新华社 》记者 齐观山
+  license: Public domain
+  date: "1955"
+yan-fengying:
+  qid: Q10871551
+  why: Wikidata item has no image (P18)
+yan-hongyan:
+  qid: Q7929343
+  file: Yanhongyan.jpg
+  url: https://commons.wikimedia.org/wiki/File:Yanhongyan.jpg
+  author: Chinese Government
+  license: Public domain
+  date: "1955"
+yang-chengwu:
+  qid: Q2983888
+  file: Yangchengwu.jpg
+  url: https://commons.wikimedia.org/wiki/File:Yangchengwu.jpg
+  author: 中国人民解放军防空军
+  license: Public domain
+  date: 1955-09
+yang-shangkun:
+  qid: Q377935
+  file: Yang Shangkun 2.jpg
+  url: https://commons.wikimedia.org/wiki/File:Yang_Shangkun_2.jpg
+  author: unknown author
+  license: Public domain
+  date: 1960s
+yang-xiguang:
+  qid: Q8044269
+  why: Wikidata item has no image (P18)
+yao-dengshan:
+  qid: Q10943390
+  why: Wikidata item has no image (P18)
+yao-wenyuan:
+  qid: Q382645
+  file: Yao Wenyuan (1to1).jpg
+  url: https://commons.wikimedia.org/wiki/File:Yao_Wenyuan_(1to1).jpg
+  author: 《人民画报》
+  license: Public domain
+  date: 1967-09-31
+yao-zhen:
+  qid: Q8296454
+  why: Wikidata item has no image (P18)
+ye-jianying:
+  qid: Q504372
+  file: Ye Jianying.jpg
+  url: https://commons.wikimedia.org/wiki/File:Ye_Jianying.jpg
+  author: 解放军画报 刘峰
+  license: Public domain
+  date: 1955-08-31
+ye-qun:
+  why: no Wikidata item with matching birth year
+yu-huiyong:
+  qid: Q7929575
+  why: Wikidata item has no image (P18)
+yu-lijin:
+  qid: Q8317902
+  file: Yu Lijin.jpg
+  url: https://commons.wikimedia.org/wiki/File:Yu_Lijin.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+yu-luoke:
+  qid: Q11640272
+  file: 遇罗克.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E9%81%87%E7%BD%97%E5%85%8B.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 2016-08-15 19:43:05
+yu-qiuli:
+  qid: Q3436019
+  file: Yu Qiuli.jpg
+  url: https://commons.wikimedia.org/wiki/File:Yu_Qiuli.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+zeng-siyu:
+  qid: Q8317717
+  file: Zengsiyu.jpg
+  url: https://commons.wikimedia.org/wiki/File:Zengsiyu.jpg
+  author: chinese government
+  license: Public domain
+  date: "1955"
+zhang-chengxian:
+  qid: Q8290254
+  why: Wikidata item has no image (P18)
+zhang-chunqiao:
+  qid: Q197170
+  file: 1967-07 1967年4月20日北京市革命委员会成立 张春桥-上海革委会主任.jpg
+  url: https://commons.wikimedia.org/wiki/File:1967-07_1967%E5%B9%B44%E6%9C%8820%E6%97%A5%E5%8C%97%E4%BA%AC%E5%B8%82%E9%9D%A9%E5%91%BD%E5%A7%94%E5%91%98%E4%BC%9A%E6%88%90%E7%AB%8B_%E5%BC%A0%E6%98%A5%E6%A1%A5-%E4%B8%8A%E6%B5%B7%E9%9D%A9%E5%A7%94%E4%BC%9A%E4%B8%BB%E4%BB%BB.jpg
+  author: 《人民画报》
+  license: Public domain
+  date: 1967-07-30
+zhang-linzhi:
+  qid: Q11067777
+  why: Wikidata item has no image (P18)
+zhang-wentian:
+  qid: Q700939
+  file: Zhang Wentian3.jpg
+  url: https://commons.wikimedia.org/wiki/File:Zhang_Wentian3.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1951"
+zhao-dan:
+  qid: Q197431
+  file: 赵丹.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E8%B5%B5%E4%B8%B9.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: before 1961
+zhao-shuli:
+  skip: true
+  why: Commons 上唯一的照片是赵树理、老舍、杨朔三人合影，无法确定哪一位是赵树理
+  qid: Q197456
+  file: 趙樹理老舍楊朔合影.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E8%B6%99%E6%A8%B9%E7%90%86%E8%80%81%E8%88%8D%E6%A5%8A%E6%9C%94%E5%90%88%E5%BD%B1.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1957"
+zheng-junli:
+  qid: Q197624
+  file: Zheng Junli 01.jpg
+  url: https://commons.wikimedia.org/wiki/File:Zheng_Junli_01.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1950s
+zheng-tianxiang:
+  qid: Q702290
+  why: Wikidata item has no image (P18)
+zhong-hanhua:
+  qid: Q8318766
+  file: Zhong Hanhua.jpg
+  url: https://commons.wikimedia.org/wiki/File:Zhong_Hanhua.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
+zhou-enlai:
+  qid: Q17410
+  file: 國共內戰時期周恩來.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E5%9C%8B%E5%85%B1%E5%85%A7%E6%88%B0%E6%99%82%E6%9C%9F%E5%91%A8%E6%81%A9%E4%BE%86.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: before 1949
+zhou-xinfang:
+  qid: Q1373897
+  file: 1962-03 1962年 京剧 徐策跑城 周信芳扮演徐策.jpg
+  url: https://commons.wikimedia.org/wiki/File:1962-03_1962%E5%B9%B4_%E4%BA%AC%E5%89%A7_%E5%BE%90%E7%AD%96%E8%B7%91%E5%9F%8E_%E5%91%A8%E4%BF%A1%E8%8A%B3%E6%89%AE%E6%BC%94%E5%BE%90%E7%AD%96.jpg
+  author: 《人民画报》
+  license: Public domain
+  date: 1962-03-31
+  focus: 50% 12%
+zhou-yang:
+  qid: Q1044358
+  file: Yang Zhou 1940.jpg
+  url: https://commons.wikimedia.org/wiki/File:Yang_Zhou_1940.jpg
+  author: 《文艺报》
+  license: Public domain
+  date: 1940年发表
+zhou-yuchi:
+  qid: Q10920370
+  why: Wikidata item has no image (P18)
+zhu-de:
+  qid: Q22513
+  file: Zhu De, Commander of PLA.jpg
+  url: https://commons.wikimedia.org/wiki/File:Zhu_De,_Commander_of_PLA.jpg
+  author: anonymous (Gov)
+  license: Public domain

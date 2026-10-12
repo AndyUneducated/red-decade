@@ -6,6 +6,7 @@ import { ClaimLinks, EventList, FateLine, RelationList } from '../components/Dra
 import { Footprint } from '../components/Footprint'
 import { LifeStrip } from '../components/LifeStrip'
 import { PersonFacts, PositionList } from '../components/PersonFacts'
+import { Portrait } from '../components/Portrait'
 import { statusAt } from '../data/atlas'
 import { ALIAS_KINDS, DEATH_KINDS, STATUSES, type Person } from '../data/schema'
 import { fmtDate, fmtRange, fmtT, lifespan } from '../lib/dates'
@@ -162,24 +163,29 @@ function Profile({ id }: { id: string }) {
             </button>
           </nav>
           <header className="profile-head">
-            <div className="kicker">人物 · {p.role1966}</div>
-            <h1>
-              {p.name} {p.verify && <Verify />}
-            </h1>
-            <div className="meta">
-              {[
-                fmtRange(p.born ?? '?', p.died),
-                place && `${place}人`,
-                p.died && p.deathKind && DEATH_KINDS[p.deathKind],
-                names.length ? names.join('，') : undefined,
-              ]
-                .filter(Boolean)
-                .join(' · ')}
-            </div>
-            <div className="chips" style={{ marginTop: 10 }}>
-              {p.factions.map((f) => (
-                <Entity key={f} refTo={{ type: 'faction', id: f }} dot={ix.faction.get(f)?.color} />
-              ))}
+            <div className="profile-id">
+              <div>
+                <div className="kicker">人物 · {p.role1966}</div>
+                <h1>
+                  {p.name} {p.verify && <Verify />}
+                </h1>
+                <div className="meta">
+                  {[
+                    fmtRange(p.born ?? '?', p.died),
+                    place && `${place}人`,
+                    p.died && p.deathKind && DEATH_KINDS[p.deathKind],
+                    names.length ? names.join('，') : undefined,
+                  ]
+                    .filter(Boolean)
+                    .join(' · ')}
+                </div>
+                <div className="chips" style={{ marginTop: 10 }}>
+                  {p.factions.map((f) => (
+                    <Entity key={f} refTo={{ type: 'faction', id: f }} dot={ix.faction.get(f)?.color} />
+                  ))}
+                </div>
+              </div>
+              <Portrait p={p} width={mainW < 420 ? 84 : 112} credit />
             </div>
             <div style={{ marginTop: 16 }}>
               <ProfileTimeline p={p} x={x} width={mainW} end={end} ticks={ticks} />

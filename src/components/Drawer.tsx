@@ -7,6 +7,7 @@ import { existsAt, isHead, parentAt, suspendedAt, within } from '../lib/orgs'
 import { useApp } from '../state'
 import { Cite, Entity, PersonChip, StatusDot, Verify, Voices } from './bits'
 import { PersonFacts, PositionList } from './PersonFacts'
+import { Portrait } from './Portrait'
 
 const same = (a: Ref, b: Ref) => a.type === b.type && a.id === b.id && a.sub === b.sub
 
@@ -64,29 +65,32 @@ function PersonCard({ id }: { id: string }) {
   const now = statusAt(p, t)
   return (
     <>
-      <header>
-        <div className="kicker">人物 · {p.role1966}</div>
-        <h2>
-          {p.name} {p.verify && <Verify />}
-        </h2>
-        <div className="meta">
-          {lifespan(p.born, p.died)}
-          {p.death && ` · ${p.death}`}
-          {now && (
-            <>
-              {' · 此刻 '}
-              <StatusDot s={now} /> {STATUSES[now]}
-            </>
-          )}
-          {' · '}
-          <button className="linklike" onClick={() => openPerson(id)}>
-            完整传记 →
-          </button>
-        </div>
-        <div className="chips" style={{ marginTop: 8 }}>
-          {p.factions.map((f) => (
-            <Entity key={f} refTo={{ type: 'faction', id: f }} dot={ix.faction.get(f)?.color} />
-          ))}
+      <header className="with-photo">
+        <Portrait p={p} width={72} />
+        <div>
+          <div className="kicker">人物 · {p.role1966}</div>
+          <h2>
+            {p.name} {p.verify && <Verify />}
+          </h2>
+          <div className="meta">
+            {lifespan(p.born, p.died)}
+            {p.death && ` · ${p.death}`}
+            {now && (
+              <>
+                {' · 此刻 '}
+                <StatusDot s={now} /> {STATUSES[now]}
+              </>
+            )}
+            {' · '}
+            <button className="linklike" onClick={() => openPerson(id)}>
+              完整传记 →
+            </button>
+          </div>
+          <div className="chips" style={{ marginTop: 8 }}>
+            {p.factions.map((f) => (
+              <Entity key={f} refTo={{ type: 'faction', id: f }} dot={ix.faction.get(f)?.color} />
+            ))}
+          </div>
         </div>
       </header>
       <section>
