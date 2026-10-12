@@ -409,3 +409,138 @@
     - { voice: official1966, text: 南京长江大桥铁路桥已于今年十月一日正式通车，公路桥于十二月二十九日举行通车典礼。至此，南京长江大桥全部建成，全线通车。（1968 年 12 月新华社电）, cite: rmrb-1968-12-30-bridge, quote: true }
     - { voice: official1981, text: 当然，这一切决不是“文化大革命”的成果，如果没有“文化大革命”，我们的事业会取得大得多的成就。（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [rmrb-1968-12-30-bridge, rmrb-1968-12-30-h-bomb, ws-1981-resolution]
+
+# ── E4 补充：1969 年（边境冲突、对苏谈判、九大前后、林立果）
+- id: 1969-01-01-mao-thought-command
+  date: 1969-01-01
+  title: 元旦社论：“用毛泽东思想统帅一切”
+  lane: ideology
+  weight: 1
+  summary: 两报一刊元旦社论宣布文化大革命“已经取得了伟大的、决定性的胜利”，以八届十二中全会开除刘少奇、工农兵“登上上层建筑斗、批、改的政治舞台”和新的氢弹试验为证，号召以“用毛泽东思想统帅一切”迎接九大。社论引林彪的话：七亿人口“需要有一个统一的思想”，“这就是毛泽东思想”。
+  people: [lin-biao, mao-zedong, liu-shaoqi]
+  concepts: [mao-thought]
+  voices:
+    - { voice: official1966, text: 我国是一个伟大的无产阶级专政的社会主义国家，有七亿人口，需要有一个统一的思想，革命的思想，正确的思想，这就是毛泽东思想。（林彪，1969 年元旦社论引）, cite: ws-1969-01-01-mao-thought-command, quote: true }
+  cites: [ws-1969-01-01-mao-thought-command]
+
+- id: 1969-02-21-industry
+  date: 1969-02-21
+  title: 社论《抓革命，促生产，夺取工业战线的新胜利》
+  lane: econ
+  weight: 1
+  summary: 经过 1967—1968 年的停产和武斗，两报一刊社论宣布工业“新发展”的“来势比人们预料的要快”，举新的氢弹试验、南京长江大桥通车、石油工业提前完成“三五”计划和“一九六八年下半年工业总产值，比上半年有大幅度的增长”为例，要求各厂矿“抓革命，促生产”，批判“资产阶级反动技术权威”。社论没有给出与 1966 年相比的数字。
+  voices:
+    - { voice: official1966, text: 随着无产阶级文化大革命的新胜利，工业生产的有计划、有步骤的新发展，已经在许多重要城市和地区出现。它的来势比人们预料的要快，它的基础比过去任何时候更深厚。（1969 年 2 月社论）, cite: rmrb-1969-02-21-production, quote: true }
+  cites: [rmrb-1969-02-21-production]
+
+- id: 1969-03-15-sum-up-experience
+  date: 1969-03-15
+  title: “要认真总结经验”：落实政策的号召
+  lane: center
+  weight: 1
+  summary: 《红旗》社论《关于总结经验》发表毛泽东的新指示“要认真总结经验”，要了解运动的“全过程”，“从中找出规律性的东西”。新华社说二十九个省级单位连夜游行庆祝。各地革委会和宣传队据此“落实政策”、抓典型；同日珍宝岛发生第二次激战，报道把两件事放在一起。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 到一个单位去了解情况，要了解运动的全过程，开始怎样，后来怎样，现在怎样，群众是怎么搞的，领导是怎么搞的（毛泽东，1969 年 3 月新华社电引）, cite: rmrb-1969-03-16-policy, quote: true }
+  cites: [rmrb-1969-03-16-policy]
+
+- id: 1969-06-09-he-long-death
+  date: 1969-06-09
+  title: 贺龙在关押中去世
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 原中央军委副主席、国务院副总理贺龙 1966 年被康生、林彪等指控“二月兵变”“篡军反党”，1967 年 9 月中央同意立案审查，审查一直由林彪、黄永胜、吴法宪、叶群、李作鹏把持。贺龙在关押期间于 1969 年 6 月 9 日去世。1974 年中央通知为他平反，说“二月兵变”“纯系讹传”；1980 年起诉书把他列为被迫害致死的领导人之一。
+  people: [he-long, lin-biao, kang-sheng, ye-qun, wu-faxian, huang-yongsheng, li-zuopeng]
+  voices:
+    - { voice: officialLater, text: 在“九·一三”林彪事件发生以前，对贺龙同志问题的审查，一直为林彪、黄永胜、吴法宪、叶群、李作鹏等人所把持。（1974 年中央通知）, cite: ws-1974-he-long-name, quote: true }
+    - { voice: judicial1980, text: 由贺龙的历史投敌叛变，联想贺龙现行反革命活动绝不会没有，可以由历史这个此，到现实这个彼（康生 1968 年语，1980 年起诉书引）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1974-he-long-name, ws-1980-indictment]
+
+- id: 1969-06-10-barluk
+  date: 1969-06-10
+  title: 新疆巴尔鲁克山边境冲突
+  lane: army
+  weight: 1
+  place: 新疆裕民县巴尔鲁克山
+  summary: 珍宝岛冲突之后，中苏在西段边界再起冲突。新华社说 5 月 2 日起苏军出动坦克、装甲车进入巴尔鲁克山西部，干涉中国牧民放牧；6 月 10 日苏军绑走一名牧民，并“首先开枪射击，当场打死我女牧民一名”，中方边防人员“被迫进行了自卫还击”。
+  voices:
+    - { voice: official1966, text: 六月十日，苏修新沙皇指使其边防军侵入我新疆裕民县巴尔鲁克山西部地区，绑架和打死我牧民，制造了新的流血事件。（1969 年 6 月新华社通讯）, cite: rmrb-1969-06-12-barluk, quote: true }
+  cites: [rmrb-1969-06-12-barluk, ws-1969-10-08-mfa-border]
+  verify: true
+
+- id: 1969-08-13-tieliekti
+  date: 1969-08-13
+  title: 铁列克提事件
+  lane: army
+  weight: 2
+  place: 新疆裕民县铁列克提
+  summary: 8 月 13 日上午，苏军出动直升机、数十辆坦克装甲车和数百名士兵，在新疆裕民县铁列克提与中国边防巡逻队交火。中国外交部当天照会说苏军进入中国境内“纵深达两公里”，“当场打死打伤中国边防战士多名”，并说苏方“正继续调集大批军队和坦克”。继珍宝岛之后，西段边界也爆发正面冲突，两国随后都转入战备。
+  voices:
+    - { voice: official1966, text: 一九六九年八月十三日上午，苏联方面出动直升飞机两架、坦克、装甲车数十辆和武装部队数百人，侵入中国新疆维吾尔自治区裕民县铁列克提地区纵深达两公里（1969 年 8 月 13 日外交部照会）, cite: rmrb-1969-08-14-tieliekti, quote: true }
+  cites: [rmrb-1969-08-14-tieliekti]
+  verify: true
+
+- id: 1969-09-04-ho-chi-minh
+  date: 1969-09-04
+  title: 胡志明逝世，周恩来赴河内吊唁
+  lane: intl
+  weight: 1
+  place: 河内
+  summary: 9 月 2 日胡志明逝世。9 月 4 日中共中央发唁电，称他是“中国人民的亲密战友”，重申“七亿中国人民是越南人民的坚强后盾”；当天周恩来率叶剑英、韦国清飞赴河内吊唁。苏联部长会议主席柯西金赴河内吊唁后，9 月 11 日在回国途中经停北京，与周恩来在首都机场会谈，双方同意恢复边界谈判。
+  people: [zhou-enlai, ye-jianying, wei-guoqing]
+  voices:
+    - { voice: doc, text: 七亿中国人民是越南人民的坚强后盾，辽阔的中国领土是越南人民的可靠后方。（中共中央唁电引毛泽东语，1969 年 9 月 4 日）, cite: rmrb-1969-09-05-ho-condolence, quote: true }
+  cites: [rmrb-1969-09-05-ho-condolence, rmrb-1969-09-05-zhou-hanoi]
+  verify: true
+
+- id: 1969-10-01-twentieth-anniversary
+  date: 1969-10-01
+  title: 国庆二十周年：“随时准备歼灭入侵之敌”
+  lane: center
+  weight: 1
+  place: 北京天安门
+  summary: 毛泽东、林彪在天安门检阅游行，林彪代表中央讲话。游行队伍以战备为主题：解放军方阵抬着“提高警惕，保卫祖国”“随时准备歼灭入侵之敌”的标语，“首都民兵师”打出“全民皆兵”，标语车写着毛泽东的话：“特别要反对以原子弹为武器的侵略战争”，“从现在起就要有所准备”。同期七部样板戏在首都再度公演。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: doc, text: 全世界人民团结起来，反对任何帝国主义，社会帝国主义发动的侵略战争，特别要反对以原子弹为武器的侵略战争！如果这种战争发生，全世界人民就应以革命战争消灭侵略战争，从现在起就要有所准备！（1969 年国庆标语车所写毛泽东语）, cite: rmrb-1969-10-02-national-day, quote: true }
+  cites: [rmrb-1969-10-02-national-day, rmrb-1969-09-30-model-operas]
+
+- id: 1969-10-07-border-talks
+  date: 1969-10-07
+  end: 1969-10-20
+  title: 中国政府声明同意举行中苏边界谈判
+  lane: intl
+  weight: 2
+  summary: 10 月 7 日中国政府发表声明，宣布中苏两国政府已商定在北京举行边界谈判，并提出在边界问题全面解决前“维持边界现状，避免武装冲突”，双方武装力量从一切争议地区“撤出或不进入，脱离接触”。次日外交部声明逐条反驳苏联 6 月 13 日声明。10 月 20 日副外长级谈判在北京开始，同时林彪的“第一个号令”已让全军进入紧急战备。
+  people: [zhou-enlai, lin-biao]
+  voices:
+    - { voice: doc, text: 在中苏边界问题通过和平谈判取得全面解决前，维持边界现状，避免武装冲突，中苏双方武装力量从中苏边界一切争议地区……撤出或不进入，脱离接触。（1969 年 10 月 8 日外交部声明重申）, cite: ws-1969-10-08-mfa-border, quote: true }
+  cites: [ws-1969-10-08-mfa-border]
+  verify: true
+
+- id: 1969-10-18-lin-liguo-air-force
+  date: 1969-10-18
+  title: 吴法宪把空军指挥权交给林立果
+  lane: army
+  weight: 2
+  place: 北京空军司令部
+  summary: 10 月，林彪让空军司令员吴法宪任命其子林立果为空军司令部办公室副主任兼作战部副部长。10 月 18 日吴法宪召集林立果、王飞、周宇驰等，说“空军的一切都要向立果同志汇报，都可以由立果同志调动、指挥”。林立果随后组织“调研小组”，1970 年 10 月改称“联合舰队”，成为 1971 年政变计划的骨干。
+  people: [lin-liguo, wu-faxian, lin-biao, wang-fei, zhou-yuchi, ye-qun]
+  voices:
+    - { voice: judicial1980, text: 空军的一切都要向立果同志汇报，都可以由立果同志调动、指挥。（吴法宪 1969 年 10 月 18 日语，1980 年起诉书引）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1969-08-15-jin-xunhua
+  date: 1969-08-15
+  end: 1969-12-06
+  title: 知青金训华之死与“革命青年的榜样”
+  lane: mass
+  weight: 1
+  place: 黑龙江逊克县双河大队
+  summary: 上海吴淞二中 1968 届高中毕业生、原上海中学红代会常委金训华 1969 年 5 月到黑龙江逊克县插队，8 月 15 日在山洪中“为了抢救国家物资”溺亡，死后被追认为中共党员。年底《红旗》评论员和《人民日报》长文把他树为“革命青年的榜样”，他的“活着就要拚命干，一生献给毛主席”成为上山下乡运动的口号。
+  people: [jin-xunhua]
+  voices:
+    - { voice: official1966, text: 今年八月十五日，双河两岸山洪倾泻，金训华为了抢救国家物资，奋战山洪，不幸光荣牺牲。（1969 年 12 月《红旗》评论员）, cite: ws-1969-jin-xunhua, quote: true }
+  cites: [ws-1969-jin-xunhua, rmrb-1969-12-06-jin-xunhua]
+  verify: true

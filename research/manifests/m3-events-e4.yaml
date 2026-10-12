@@ -1,0 +1,87 @@
+# M3 事件补足 E4：1969 年。两报一刊社论、外交部声明（维基文库）与《人民日报》版面（govopendata，满 50 年全文收录）。
+wikisource:
+  - id: ws-1969-01-01-mao-thought-command
+    title: 用毛泽东思想统帅一切
+    date: 1969-01-01
+    author: 《人民日报》《红旗》《解放军报》
+    kind: editorial
+    alias: 1969 年元旦社论《用毛泽东思想统帅一切》
+  - id: ws-1969-10-08-mfa-border
+    title: 中华人民共和国外交部声明 (1969年10月8日)
+    date: 1969-10-08
+    author: 中华人民共和国外交部
+    kind: party-doc
+    alias: 外交部关于中苏边界问题的声明（1969-10-08）
+web:
+  - id: rmrb-1969-02-21-production
+    title: 抓革命，促生产 夺取工业战线的新胜利
+    date: 1969-02-21
+    author: 《人民日报》《红旗》《解放军报》
+    kind: editorial
+    alias: 1969 年社论《抓革命，促生产，夺取工业战线的新胜利》
+    url: https://cn.govopendata.com/renminribao/1969/2/21/1/
+    via: 《人民日报》1969-02-21 第 1 版（govopendata 转录）
+    article: 抓革命，促生产
+  - id: rmrb-1969-03-16-policy
+    title: 亿万军民热烈欢呼毛主席最新指示和《红旗》杂志重要社论发表
+    date: 1969-03-15
+    author: 新华社
+    kind: news
+    alias: 1969 年 3 月“认真总结经验，落实政策”报道
+    url: https://cn.govopendata.com/renminribao/1969/3/16/1/
+    via: 《人民日报》1969-03-16 第 1 版（govopendata 转录）
+    article: 亿万军民热烈欢呼毛主席最新指示
+  - id: rmrb-1969-06-12-barluk
+    title: 苏修新沙皇又一法西斯暴行——苏联边防军侵入我新疆巴尔鲁克山西部地区制造新的流血事件的经过
+    date: 1969-06-11
+    author: 新华社
+    kind: news
+    alias: 1969 年 6 月巴尔鲁克山边境冲突报道
+    url: https://cn.govopendata.com/renminribao/1969/6/12/1/
+    via: 《人民日报》1969-06-12 第 1 版（govopendata 转录）
+    article: 苏修新沙皇又一法西斯暴行
+  - id: rmrb-1969-08-14-tieliekti
+    title: 苏联政府指使苏联军队侵入我新疆铁列克提地区制造新的流血事件 我国政府向苏联政府提出强烈抗议
+    date: 1969-08-13
+    author: 新华社
+    kind: news
+    alias: 1969 年 8 月铁列克提事件报道
+    url: https://cn.govopendata.com/renminribao/1969/8/14/1/
+    via: 《人民日报》1969-08-14 第 1 版（govopendata 转录）
+    article: 苏联政府指使苏联军队侵入我新疆铁列克提地区
+  - id: rmrb-1969-09-05-ho-condolence
+    title: 中共中央为胡志明主席逝世致越南劳动党中央的唁电
+    date: 1969-09-04
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央悼念胡志明唁电（1969）
+    url: https://cn.govopendata.com/renminribao/1969/9/5/1/
+    via: 《人民日报》1969-09-05 第 1 版（govopendata 转录）
+    article: 中共中央为胡志明主席逝世
+  - id: rmrb-1969-09-05-zhou-hanoi
+    title: 周恩来同志为团长的中共代表团前往河内吊唁胡志明主席逝世
+    date: 1969-09-04
+    author: 新华社
+    kind: news
+    alias: 1969 年周恩来赴河内吊唁胡志明报道
+    url: https://cn.govopendata.com/renminribao/1969/9/5/1/
+    via: 《人民日报》1969-09-05 第 1 版（govopendata 转录）
+    article: 周恩来同志为团长的中共代表团前往河内
+  - id: rmrb-1969-09-30-model-operas
+    title: 热烈庆祝中华人民共和国成立二十周年 《智取威虎山》等一批革命样板戏在首都公演
+    date: 1969-09-29
+    author: 新华社
+    kind: news
+    alias: 1969 年国庆样板戏公演报道
+    url: https://cn.govopendata.com/renminribao/1969/9/30/1/
+    via: 《人民日报》1969-09-30 第 1 版（govopendata 转录）
+    article: 热烈庆祝中华人民共和国成立二十周年
+  - id: rmrb-1969-10-02-national-day
+    title: 毛主席和林彪副主席同首都群众和来京代表共庆中华人民共和国成立二十周年
+    date: 1969-10-01
+    author: 新华社
+    kind: news
+    alias: 1969 年国庆二十周年报道（含林彪讲话）
+    url: https://cn.govopendata.com/renminribao/1969/10/2/1/
+    via: 《人民日报》1969-10-02 第 1 版（govopendata 转录）
+    article: 我们的伟大领袖毛主席和他的亲密战友林彪副主席同首都群众
