@@ -31,6 +31,8 @@ if (args[0] === '--list') {
   process.exit(0)
 }
 const force = args.includes('--force')
+// --peek writes the full extracted text to .probe/peek-<id>.txt only, to choose `keep` paragraphs
+const peek = args.includes('--peek')
 const only = new Set(args.filter((a) => !a.startsWith('--')))
 
 const manifestDir = join(ROOT, 'research', 'manifests')
@@ -44,13 +46,15 @@ let fetched = 0
 for (const e of entries) {
   if (only.size && !only.has(e.id)) continue
   const textPath = join(ROOT, 'sources', 'text', `${e.id}.txt`)
-  if (existsSync(textPath) && !force) continue
+  if (existsSync(textPath) && !force && !peek) continue
   const html = await get(e.url)
   let text: string
   if (e.article) {
-    const a = rmrbArticles(html).find((x) => x.heading === e.article)
+    const articles = rmrbArticles(html)
+    const a = articles.find((x) => x.heading === e.article)
     if (!a) {
       console.error(`NO ARTICLE  ${e.id}  "${e.article}" on ${e.url}`)
+      for (const x of articles) console.error(`    ${JSON.stringify(x.heading)}`)
       continue
     }
     const heading = a.heading.replace(/\s{2,}/g, '\n')
@@ -73,6 +77,13 @@ for (const e of entries) {
   // one paragraph per line in the source pages; the reader splits paragraphs on blank lines
   let paras = text.split(/\n+/).map((p) => p.trim()).filter(Boolean)
   const fullChars = paras.join('').length
+  if (peek) {
+    mkdirSync(join(ROOT, '.probe'), { recursive: true })
+    writeFileSync(join(ROOT, '.probe', `peek-${e.id}.txt`), paras.join('\n\n') + '\n')
+    console.log(`PEEK  ${e.id.padEnd(32)} ${fullChars} chars`)
+    await new Promise((r) => setTimeout(r, 1500))
+    continue
+  }
   if (e.excerpt) paras = paras.filter((p) => (e.keep ?? []).some((k) => p.includes(k)))
   else writeFileSync(join(ROOT, 'sources', 'raw', `${e.id}.html`), html)
   text = paras.join('\n\n')
