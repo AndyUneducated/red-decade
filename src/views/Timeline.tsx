@@ -34,7 +34,78 @@ const INITIAL: [number, number] = [1965.62, 1967.12]
 const DOT_Y = 14
 const LABEL_ROW = 15
 
+// Phones get a dated list by default: eight lanes of dots and labels do not fit 390px.
 export function Timeline() {
+  const [list, setList] = useState(() => window.matchMedia('(max-width: 560px)').matches)
+  return list ? <TimelineList onChart={() => setList(false)} /> : <TimelineChart onList={() => setList(true)} />
+}
+
+function TimelineList({ onChart }: { onChart: () => void }) {
+  const { ix, sel, select, t, setT } = useApp()
+  const [lane, setLane] = useState<Lane | ''>('')
+  const years = useMemo(() => {
+    const evs = ix.events.filter((e) => !lane || e.lane === lane).sort((a, b) => a.date.localeCompare(b.date))
+    return d3.groups(evs, (e) => e.date.slice(0, 4))
+  }, [ix.events, lane])
+  const nowYear = String(Math.floor(t))
+  const listRef = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    listRef.current?.querySelector(`[data-year="${nowYear}"]`)?.scrollIntoView({ block: 'start' })
+  }, [lane]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  return (
+    <div className="view">
+      <div className="viewhead">
+        <div>
+          <h1>时间线</h1>
+          <p>按日期排列的事件；点事件看详情并把时间游标移到当天。虚线圆点为待核。</p>
+        </div>
+        <div className="legend">
+          <select className="field" value={lane} onChange={(e) => setLane(e.target.value as Lane | '')}>
+            <option value="">全部领域</option>
+            {LANE_KEYS.map((k) => (
+              <option key={k} value={k}>
+                {LANES[k]}
+              </option>
+            ))}
+          </select>
+          <button className="chip" onClick={onChart}>
+            看图表
+          </button>
+        </div>
+      </div>
+      <div className="canvas tl-list" ref={listRef}>
+        {years.map(([y, evs]) => (
+          <section key={y} data-year={y}>
+            <h2 className="people-group">
+              {y} <span>{evs.length}</span>
+            </h2>
+            {evs.map((e) => (
+              <button
+                key={e.id}
+                className="tl-item"
+                aria-pressed={sel?.type === 'event' && sel.id === e.id}
+                onClick={() => {
+                  select({ type: 'event', id: e.id })
+                  setT(toT(e.date))
+                }}
+              >
+                <time>{fmtRange(e.date, e.end).replace(/^\d{4}年/, '') || `${y}年`}</time>
+                <span>
+                  <i className="tl-dot" data-verify={e.verify || undefined} data-w={e.weight} />
+                  <b>{e.title}</b>
+                  <small>{LANES[e.lane]}</small>
+                </span>
+              </button>
+            ))}
+          </section>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function TimelineChart({ onList }: { onList: () => void }) {
   const { ix, sel, select, t, setT } = useApp()
   const wrap = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
@@ -204,6 +275,9 @@ export function Timeline() {
               {l}
             </button>
           ))}
+          <button className="chip" onClick={onList}>
+            看列表
+          </button>
         </div>
       </div>
       <div className="canvas" ref={wrap}>

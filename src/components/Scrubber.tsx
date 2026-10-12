@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { fmtT } from '../lib/dates'
+import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
 
 const MARKS: [number, string][] = [
@@ -35,6 +36,18 @@ export function Scrubber({ min = 1965, max = 1981, marks = MARKS }: { min?: numb
   }, [playing, t, setT, min, max])
 
   const pct = (v: number) => `${((v - min) / (max - min)) * 100}%`
+  const track = useRef<HTMLDivElement>(null)
+  const { width } = useSize(track)
+  const shown: [number, string][] = []
+  let lastRight = -Infinity
+  for (const [m, l] of marks) {
+    if (m < min || m > max) continue
+    const cx = ((m - min) / (max - min)) * width
+    const half = l.length * 6 + 4
+    if (width && cx - half < lastRight) continue
+    shown.push([m, l])
+    lastRight = cx + half
+  }
 
   return (
     <div className="scrubber">
@@ -42,7 +55,7 @@ export function Scrubber({ min = 1965, max = 1981, marks = MARKS }: { min?: numb
         {playing ? '❚❚' : '▶'}
       </button>
       <output>{fmtT(t)}</output>
-      <div style={{ flex: 1, position: 'relative', paddingBottom: 14 }}>
+      <div ref={track} style={{ flex: 1, position: 'relative', paddingBottom: 14 }}>
         <input
           type="range"
           min={min}
@@ -54,7 +67,7 @@ export function Scrubber({ min = 1965, max = 1981, marks = MARKS }: { min?: numb
           aria-label="时间"
         />
         <div className="marks">
-          {marks.filter(([m]) => m >= min && m <= max).map(([m, l]) => (
+          {shown.map(([m, l]) => (
             <button
               key={l}
               onClick={() => setT(m)}

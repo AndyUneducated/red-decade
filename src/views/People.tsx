@@ -94,7 +94,7 @@ function Directory() {
       <div className="canvas people-list" ref={wrap}>
         <div className="people-axis" style={{ paddingLeft: nameW + roleW + 36 }}>
           <svg width={stripW} height={16} style={{ display: 'block', overflow: 'visible' }}>
-            {TICKS.map((yr) => (
+            {(stripW < 300 ? [1900, 1949, 1989] : TICKS).map((yr) => (
               <text key={yr} x={x(yr)} y={12} textAnchor="middle" fontSize={10.5} fill="var(--muted)">
                 {yr}
               </text>

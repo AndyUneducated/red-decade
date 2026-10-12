@@ -96,7 +96,8 @@ export default function App() {
           ))}
         </nav>
         <button className="searchbtn" onClick={() => setSearching(true)}>
-          搜索人物、事件、概念、文献 <kbd>Ctrl K</kbd>
+          <span className="sb-long">搜索人物、事件、概念、文献</span>
+          <span className="sb-short">搜索</span> <kbd>Ctrl K</kbd>
         </button>
         <ThemeButton />
       </header>

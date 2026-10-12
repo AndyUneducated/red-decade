@@ -216,6 +216,7 @@ textarea {
 .shell {
   display: grid;
   grid-template-rows: 52px 1fr;
+  grid-template-columns: minmax(0, 1fr);
   height: 100%;
 }
 .topbar {
@@ -305,7 +306,7 @@ kbd {
   position: relative;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
 }
 .view {
   position: relative;
@@ -1836,4 +1837,148 @@ h2.sec {
 }
 .nar-cell .empty {
   color: var(--rule-2);
+}
+
+/* ── phones (MP-5) ─────────────────────────────────── */
+.sb-short {
+  display: none;
+}
+.tl-list {
+  overflow-y: auto;
+  padding: 0 14px 24px;
+}
+.tl-item {
+  display: grid;
+  grid-template-columns: 74px 1fr;
+  gap: 10px;
+  width: 100%;
+  padding: 7px 0 7px 4px;
+  text-align: left;
+  border-top: 1px solid var(--rule);
+}
+.tl-item:hover,
+.tl-item[aria-pressed='true'] {
+  background: var(--paper-2);
+}
+.tl-item time {
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+.tl-item b {
+  font-family: var(--serif);
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.tl-item small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+}
+.tl-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: var(--ink);
+  vertical-align: 2px;
+}
+.tl-dot[data-w='1'] {
+  width: 6px;
+  height: 6px;
+}
+.tl-dot[data-verify] {
+  background: transparent;
+  border: 1px dashed var(--ink);
+}
+@media (max-width: 720px) {
+  .shell {
+    grid-template-rows: auto 1fr;
+  }
+  .topbar {
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    padding: 8px 12px 0;
+  }
+  .brand {
+    order: 0;
+  }
+  .searchbtn {
+    order: 1;
+    padding: 4px 10px;
+  }
+  .sb-long {
+    display: none;
+  }
+  .sb-short {
+    display: inline;
+  }
+  .themebtn {
+    order: 2;
+  }
+  .tabs {
+    order: 3;
+    flex: 1 0 100%;
+    height: 38px;
+    margin: 0 -12px;
+    padding: 0 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+  .tabs button {
+    flex: none;
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+  .tabs button[aria-current='page']::after {
+    left: 10px;
+    right: 10px;
+  }
+  .viewhead {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding: 10px 14px 8px;
+  }
+  .viewhead .spacer {
+    display: none;
+  }
+  .drawer {
+    width: 100vw;
+  }
+  .drawer header,
+  .drawer section {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .profile-inner {
+    padding: 10px 14px 60px;
+  }
+  .profile-head h1 {
+    font-size: 26px;
+  }
+  .profile-id {
+    gap: 12px;
+  }
+  .bio {
+    font-size: 15.5px;
+    line-height: 1.85;
+  }
+  .profile-grid {
+    margin-top: 18px;
+  }
+  .people-list {
+    padding: 0 10px 20px;
+  }
+  .people-row {
+    gap: 10px;
+  }
+  .people-row .nm {
+    overflow: hidden;
+  }
 }

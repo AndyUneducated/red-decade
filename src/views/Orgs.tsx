@@ -122,9 +122,12 @@ function Directory() {
   const [fac, setFac] = useState<string>()
 
   const narrow = width > 0 && width < 760
-  const nameW = narrow ? 190 : 320
+  const phone = width > 0 && width < 480
+  const nameW = phone ? 148 : narrow ? 190 : 320
   const countW = narrow ? 56 : 88
-  const stripW = Math.max(160, width - nameW - countW - 84)
+  const stripW = Math.max(phone ? 80 : 160, width - nameW - countW - (phone ? 56 : 84))
+  const ticks = phone ? [1921, 1949, 1989] : TICKS
+  const indent = phone ? 10 : 16
   const x = useMemo(() => d3.scaleLinear().domain([T0, T1]).range([0, stripW]).clamp(true), [stripW])
 
   const control = useMemo(() => (byFaction ? new Map(ix.orgs.map((o) => [o.id, controlAt(ix, o, t)])) : undefined), [ix, t, byFaction])
@@ -206,7 +209,7 @@ function Directory() {
         </svg>
         <div className="people-axis" style={{ paddingLeft: nameW + 22 }}>
           <svg width={stripW} height={16} style={{ display: 'block', overflow: 'visible' }}>
-            {TICKS.map((yr) => (
+            {ticks.map((yr) => (
               <text key={yr} x={x(yr)} y={12} textAnchor="middle" fontSize={10.5} fill="var(--muted)">
                 {yr}
               </text>
@@ -235,7 +238,7 @@ function Directory() {
                   onClick={() => openOrg(o.id)}
                   style={{ gridTemplateColumns: `${nameW}px ${stripW}px ${countW}px` }}
                 >
-                  <span className="nm" style={{ paddingLeft: Math.min(depth, 6) * 16 }}>
+                  <span className="nm" style={{ paddingLeft: Math.min(depth, 6) * indent }}>
                     {depth > 0 && <span className="org-branch" />}
                     <b>{o.short ?? o.name}</b>
                     <small>
