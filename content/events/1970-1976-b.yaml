@@ -1,0 +1,582 @@
+# 1970–1976 second batch: documents registered in research/manifests/m4-ws-2.yaml
+
+- id: 1970-01-31-yida
+  date: 1970-01-31
+  title: 中央指示“打击反革命破坏活动”：“一打三反”之“一打”
+  lane: center
+  weight: 3
+  place: 全国
+  summary: 中共中央指示称苏联“阴谋对我发动侵略战争”，国内反革命分子“乘机蠢动”，要求“用战备的观点”发动群众，对反革命破坏活动“稳、准、狠地予以打击”，同时要求“严格地审查捕人和杀人的名单”。指示只发到省、军级领导核心，以下口头传达，不登报、不广播。地方随即开展运动，合肥市的通知把它和 2 月 5 日两个文件称为“毛主席亲自批示的中央三个文件”，运动称“一打三反”。
+  people: []
+  voices:
+    - { voice: official1966, text: 苏修正在加紧勾结美帝，阴谋对我发动侵略战争；国内的反革命分子也乘机蠢动，遥相呼应（1970 年 1 月 31 日中共中央指示）, cite: ws-1970-01-31-yida, quote: true }
+    - { voice: official1966, text: 对反革命分子的各种破坏活动，必须坚决地稳、准、狠地予以打击（同一指示）, cite: ws-1970-01-31-yida, quote: true }
+    - { voice: doc, text: 此件只发到省、军级领导核心，以下各级均由省、军级派人口头传达（指示末尾的发送范围）, cite: ws-1970-01-31-yida, quote: true }
+    - { voice: doc, text: 凡属停职反省、隔离反省、重点批斗的案件，由各区、各中层革委会核心小組和中央、省属大厂党委（核心小组）审批（1970 年合肥市通知）, cite: ws-1970-hefei-yida, quote: true }
+  cites: [ws-1970-01-31-yida, ws-1970-hefei-yida]
+
+- id: 1970-02-05-sanfan
+  date: 1970-02-05
+  title: 反贪污盗窃、反投机倒把、反铺张浪费：“三反”两个文件
+  lane: econ
+  weight: 2
+  place: 全国
+  summary: 同日下发两个文件。一是中共中央关于反对贪污盗窃、投机倒把的指示，毛泽东批示“照办”，列举侵吞财物、倒卖票证、“地下工厂、地下商店”等，要求把这场斗争“看作如同打击现行反革命的斗争一样重要”。二是关于反对铺张浪费的通知，严禁新建楼堂馆所，附件中的信访简报举了四川乐山地区设宴欢送支左人员的例子。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 必须把这场斗争看作如同打击现行反革命的斗争一样重要（1970 年 2 月 5 日中共中央指示）, cite: ws-1970-02-05-sanfan, quote: true }
+    - { voice: official1966, text: 一切地下工厂、地下商店、地下包工队、地下运输队、地下俱乐部，必须坚决取缔（同一指示）, cite: ws-1970-02-05-sanfan, quote: true }
+    - { voice: doc, text: 地方上大办酒席，招待看戏，共花了一万二千六百元（反对铺张浪费通知所附《文化大革命信访简报》，乐山地区）, cite: ws-1970-02-05-langfei, quote: true }
+  cites: [ws-1970-02-05-sanfan, ws-1970-02-05-langfei]
+
+- id: 1970-02-24-sun-yefang
+  date: 1970-02-24
+  title: 《人民日报》批判孙冶方
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 《人民日报》刊出工人大批判组和纺织工业部写作小组的文章，称孙冶方是刘少奇“在经济学界的一个代表”，并把他主持编写的《社会主义经济论》称为“大毒草”。
+  people: [sun-yefang, liu-shaoqi]
+  voices:
+    - { voice: official1966, text: 反革命分子孙冶方，是叛徒、内奸、工贼刘少奇在经济学界的一个代表（1970 年《人民日报》）, cite: ws-1970-02-24-sun-yefang-critique, quote: true }
+  cites: [ws-1970-02-24-sun-yefang-critique]
+
+- id: 1970-06-enrollment
+  date: 1970-06
+  title: 北大、清华招生试点：从工农兵中选拔学生
+  lane: culture
+  weight: 2
+  place: 北京
+  summary: 中央同意北京大学、清华大学关于招生（试点）的请示报告并转发各地参考。报告引毛泽东“要从有实践经验的工人、农民中间选拔学生”，两校计划招生 4100 名；来自工厂的学生每月由学校发 19.5 元伙食费和津贴。1972 年的招生通知称之为“1970年招生试点”。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 我们计划于今年上半年开始招生，两校共招生四千一百名（1970 年北大、清华请示报告）, cite: ws-1970-06-27-enrollment, quote: true }
+    - { voice: official1966, text: 要从有实践经验的工人、农民中间选拔学生，到学校学习几年以后，又回到生产实践中去（报告所引毛泽东语）, cite: ws-1970-06-27-enrollment, quote: true }
+  cites: [ws-1970-06-27-enrollment, ws-1972-houmen]
+
+- id: 1970-07-chengkun
+  date: 1970-07
+  title: 成昆铁路建成
+  lane: econ
+  weight: 1
+  place: 四川、云南
+  summary: 中共中央致电成都、昆明军区、铁道兵和修建成昆铁路的军民，祝贺这条“具有重要战略意义”的铁路建成，并说“为了加强战备……我们必须修建更多的铁路”。
+  people: []
+  voices:
+    - { voice: official1966, text: 建成了具有重要战略意义的成昆铁路（1970 年中共中央贺电）, cite: ws-1970-chengkun, quote: true }
+    - { voice: official1966, text: 为了加强战备，加速社会主义建设，我们必须修建更多的铁路（同一贺电）, cite: ws-1970-chengkun, quote: true }
+  cites: [ws-1970-chengkun]
+
+- id: 1970-10-13-canada
+  date: 1970-10-13
+  title: 中国与加拿大建交
+  lane: intl
+  weight: 2
+  place: 渥太华
+  summary: 中加两国政府决定互相承认并建立外交关系。公报中，中国政府重申台湾是中国领土不可分割的一部分，加拿大政府“注意到”这一立场。一个月后的中意建交公报采用了同样的写法。
+  people: []
+  voices:
+    - { voice: doc, text: 加拿大政府注意到中国政府的这一立场（1970 年中加建交公报）, cite: ws-1970-canada, quote: true }
+    - { voice: doc, text: 意大利政府注意到中国政府的这一声明（1970 年 11 月中意建交公报）, cite: ws-1970-italy, quote: true }
+  cites: [ws-1970-canada, ws-1970-italy]
+
+- id: 1970-11-06-italy
+  date: 1970-11-06
+  title: 中国与意大利建交
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 中意两国政府决定互相承认并建立外交关系，三个月内互派大使。意大利政府承认中华人民共和国政府为中国的唯一合法政府。
+  people: []
+  voices:
+    - { voice: doc, text: 意大利政府承认中华人民共和国政府为中国的唯一合法政府（1970 年中意建交公报）, cite: ws-1970-italy, quote: true }
+  cites: [ws-1970-italy]
+
+- id: 1971-02-public-security
+  date: 1970-12-11
+  end: 1971-02-11
+  title: 第十五次全国公安会议：“我们不是靠杀人来统治的”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 会议开了两个月，273 人参加。纪要称会前毛泽东提出“我们不是靠杀人来统治的”，会议期间又对 1971 年中发一号文件批示“照办”。纪要同时要求按“林副主席提出的三条标准”选拔公安干部，“务必使公安机关掌握在可靠人员手里”。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: official1966, text: 会前，毛主席提出了我們不是靠杀人来統治的重要指示（第十五次全国公安会议纪要）, cite: ws-1971-public-security-15, quote: true }
+    - { voice: official1966, text: 按照毛主席指示的接班人的五个条件和林副主席提出的三条标准，培养选拔干部（同一纪要）, cite: ws-1971-public-security-15, quote: true }
+  cites: [ws-1971-public-security-15]
+
+- id: 1971-07-01-party-50
+  date: 1971-07-01
+  title: 建党五十周年社论：仍以林彪为“副统帅”引述
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 两报一刊编辑部文章《纪念中国共产党五十周年》，以路线斗争为线索讲党史，提出“一个政党的成功或失败，决定于路线是否正确”。文章仍以“林彪同志在党的第九次全国代表大会上的报告中说”开头引述林彪。两个半月后林彪出逃。
+  people: [lin-biao, mao-zedong]
+  voices:
+    - { voice: official1966, text: 一个政党的成功或失败，决定于路线是否正确（1971 年两报一刊编辑部文章）, cite: ws-1971-07-01-party-50, quote: true }
+    - { voice: doc, text: 林彪同志在党的第九次全国代表大会上的报告中说（同一文章）, cite: ws-1971-07-01-party-50, quote: true }
+  cites: [ws-1971-07-01-party-50]
+
+- id: 1971-07-08-family-planning
+  date: 1971-07-08
+  title: 国务院批转计划生育报告
+  lane: econ
+  weight: 2
+  place: 全国
+  summary: 国务院批转卫生部军管会等三部门报告，引毛泽东“人类在生育上完全无政府主义是不行的”。报告说据 16 个省区统计，1969 年人口自然增长率为千分之二十四，要求到 1975 年城市降到千分之十左右；除少数民族和人口稀少地区外都要抓计划生育。
+  people: [mao-zedong, zhou-enlai]
+  voices:
+    - { voice: official1966, text: 人类在生育上完全无政府主义是不行的，也要有计划生育（国务院批语所引毛泽东语）, cite: ws-1971-family-planning, quote: true }
+    - { voice: doc, text: 根据十六个省、市、自治区的统计，一九六九年平均人口自然增长率为千分之二十四（卫生部军管会等报告）, cite: ws-1971-family-planning, quote: true }
+    - { voice: doc, text: 力争到一九七五年，一般城市降到千分之十左右（同一报告）, cite: ws-1971-family-planning, quote: true }
+  cites: [ws-1971-family-planning]
+
+- id: 1971-08-13-education-summary
+  date: 1971-08-13
+  title: 《全国教育工作会议纪要》：十七年教育与知识分子的定性
+  lane: culture
+  weight: 3
+  place: 北京
+  summary: 全国教育工作会议 4 月 15 日至 7 月 31 日在北京举行，631 人参加；纪要经毛泽东批示“同意”，发到公社党委和大中小学党支部。纪要断定建国后十七年“毛主席的无产阶级教育路线基本上没有得到贯彻执行”，原有教师“大多数”的“世界观基本上是资产阶级的”。
+  people: [mao-zedong, liu-shaoqi, lin-biao]
+  voices:
+    - { voice: official1966, text: 毛主席的无产阶级教育路线基本上没有得到贯彻执行，教育制度、教学方针和方法几乎全是旧的一套（1971 年《全国教育工作会议纪要》）, cite: ws-1971-education-summary, quote: true }
+    - { voice: official1966, text: 大多数是拥护社会主义，愿意为人民服务的，但是世界观基本上是资产阶级的（同一纪要，论原有教师队伍）, cite: ws-1971-education-summary, quote: true }
+  cites: [ws-1971-education-summary]
+
+- id: 1971-11-wages
+  date: 1971-11
+  title: 国务院调整部分工人工资
+  lane: econ
+  weight: 1
+  place: 全国
+  summary: 国务院通知对 1957 年底前参加工作的三级工、1960 年底前的二级工、1966 年底前的一级工等调整工资，同时要求批判“物质刺激、奖金挂帅”。通知举例说北京郊区粮食加工业二级工 33 元、三级工 36 元，级差不到 5 元。
+  people: []
+  voices:
+    - { voice: official1966, text: 现行的工资制度还存在一些问题，需要随着斗、批、改运动的深入发展，逐步进行改革（1971 年国务院通知）, cite: ws-1971-wages, quote: true }
+    - { voice: doc, text: 二级为三十三元，三级为三十六元，工资级差不到五元（同一通知注）, cite: ws-1971-wages, quote: true }
+  cites: [ws-1971-wages]
+
+- id: 1971-12-30-diaoyu
+  date: 1971-12-30
+  title: 外交部声明：钓鱼岛是台湾的附属岛屿
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 美日国会通过“归还”冲绳协定，把钓鱼岛等岛屿划入“归还区域”。中国外交部声明钓鱼岛、黄尾屿、赤尾屿等是台湾的附属岛屿，美日的做法“完全是非法的”。
+  people: []
+  voices:
+    - { voice: official1966, text: 钓鱼岛等岛屿自古以来就是中国的领土（1971 年 12 月 30 日外交部声明）, cite: ws-1971-12-30-diaoyu, quote: true }
+    - { voice: official1966, text: 中国人民一定要解放台湾！中国人民也一定要收复钓鱼岛等台湾的附属岛屿（同一声明）, cite: ws-1971-12-30-diaoyu, quote: true }
+  cites: [ws-1971-12-30-diaoyu]
+
+- id: 1972-03-13-uk
+  date: 1972-03-13
+  title: 中英外交关系升格为大使级
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 两国把派驻对方首都的外交代表由代办升格为大使。英国政府承认中国关于台湾是中国一个省的立场，并于同日撤销在台湾的官方代表机构。
+  people: []
+  voices:
+    - { voice: doc, text: 联合王国政府承认中国政府关于台湾是中华人民共和国的一个省的立场，决定于一九七二年三月十三日撤销其在台湾的官方代表机构（1972 年中英联合公报）, cite: ws-1972-uk, quote: true }
+  cites: [ws-1972-uk]
+
+- id: 1972-04-25-zhejiang
+  date: 1972-04-25
+  title: 中央批复浙江：“林陈反党集团”只是陈励耘等一小撮
+  lane: local
+  weight: 1
+  place: 浙江
+  summary: 浙江省委和驻浙部队十人来京开会后，中央同意他们关于继续揭批“林陈反党集团”的报告，批示称参与反革命活动的“只是陈励耘等一小撮”，犯严重路线错误的只是南萍、熊应堂两人，对犯错误的同志要“惩前毖后，治病救人”。报告署名人中仍有南萍、熊应堂。
+  people: [chen-liyun, mao-zedong]
+  voices:
+    - { voice: official1966, text: 参与林陈反党集团的反革命活动的，只是陈励耘等一小撮。在这次路线斗争中犯了严重方向路线错误的，也只是南萍、熊应堂两同志（1972 年 4 月 25 日中共中央批示）, cite: ws-1972-pishi, quote: true }
+  cites: [ws-1972-pishi]
+
+- id: 1972-07-27-army-discipline
+  date: 1972-07-27
+  title: 中发〔1972〕28 号：整顿军队纪律，退还侵占的房屋
+  lane: army
+  weight: 2
+  place: 天津
+  summary: 中共中央、中央军委转发北京军区、六十六军、天津警备区三个党委的报告。批语说侵占学校、医院、工矿企业的房屋，无偿占有地方车辆物资，“走后门，投机倒把”等现象“全国许多地方也有”，要求作为批林整风的一项重要内容来抓。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 这种不正之风，必须引起各级地方和部队党委的严重注意，并且采取坚决的措施加以克服（1972 年 7 月 27 日中共中央、中央军委批语）, cite: ws-1972-beijing-66-tianjin, quote: true }
+    - { voice: official1966, text: 军队要统一，军队要整顿（批语所引毛泽东语）, cite: ws-1972-beijing-66-tianjin, quote: true }
+  cites: [ws-1972-beijing-66-tianjin]
+
+- id: 1972-09-29-cadre-housing
+  date: 1972-09-29
+  title: 老干部、高级知识分子住房被挤占调查
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 中央同意国务院办公室的调查报告。报告调查的 4 个单位中，老干部、高级知识分子和爱国人士共 230 人，住房被挤占的 177 人，占 67%；中国科学院 95 人中被挤占的 87 人。批语要求被挤占的住房“原则上应予退还”。
+  people: [li-xiannian]
+  voices:
+    - { voice: doc, text: 这次调查的4个重点单位，老干部、高级知识分子和爱国人士共有230人（1972 年国务院办公室调查报告）, cite: ws-1972-cadre-housing, quote: true }
+    - { voice: official1966, text: 住房被挤占的，原则上应予退还（1972 年 9 月 29 日批语）, cite: ws-1972-cadre-housing, quote: true }
+  cites: [ws-1972-cadre-housing]
+
+- id: 1972-10-11-frg
+  date: 1972-10-11
+  title: 中国与联邦德国建交
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 中华人民共和国政府和德意志联邦共和国政府决定建立外交关系，并在短期内互派大使。
+  people: []
+  voices:
+    - { voice: doc, text: 中华人民共和国政府和德意志联邦共和国政府一九七二年十月十一日决定建立外交关系并在短期内互派大使（1972 年中德联合公报）, cite: ws-1972-frg, quote: true }
+  cites: [ws-1972-frg]
+
+- id: 1972-12-21-australia
+  date: 1972-12-21
+  title: 中国与澳大利亚建交
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 中澳两国决定互相承认并建立外交关系。澳大利亚承认中国政府关于台湾是中国一个省的立场，并决定于 1973 年 1 月 25 日前从台湾撤走官方代表机构。
+  people: []
+  voices:
+    - { voice: doc, text: 并决定于一九七三年一月二十五日前从台湾撤走其官方代表机构（1972 年中澳建交公报）, cite: ws-1972-australia, quote: true }
+  cites: [ws-1972-australia]
+
+- id: 1972-grain
+  date: 1972
+  title: 国务院粮食问题报告：“高筑墙，广积粮，缓称王”
+  lane: econ
+  weight: 2
+  place: 全国
+  summary: 中央转发国务院关于粮食问题的报告。报告说两年来职工人数和粮食销量大幅增加，遇到当年严重自然灾害，征购量减少，“出现了挖库存较多的情况”。转发批语引毛泽东讲的朱升“高筑墙，广积粮，缓称王”，要求不要因为形势好就忘乎所以。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 遇到今年严重的自然灾害，征购量略有减少，就出现了挖库存较多的情况（1972 年中共中央转发批语）, cite: ws-1972-grain, quote: true }
+    - { voice: official1966, text: 朱升说：“高筑墙，广积粮，缓称王。”（同一批语，转述毛泽东所讲《明史·朱升传》故事）, cite: ws-1972-grain, quote: true }
+  cites: [ws-1972-grain]
+
+- id: 1972-houmen
+  date: 1972
+  title: 高校招生中的“走后门”
+  lane: culture
+  weight: 1
+  place: 全国
+  summary: 1972 年春季高校招生期间的通知说，各地招生“程度不同地存在着‘走后门’现象”，少数干部私留名额、内定名单、指名选送，把自己、亲属和老上级的子女送进大学。通知规定今后“走后门”入学者要退回。
+  people: []
+  voices:
+    - { voice: official1966, text: 将自己、亲属和老上级的子女送进高等学校（1972 年关于招生“走后门”的通知）, cite: ws-1972-houmen, quote: true }
+    - { voice: official1966, text: 如再有干部滥用职权、违反招生规定“走后门”者，除对有关干部进行严肃处理外，也要把学生退回（同一通知）, cite: ws-1972-houmen, quote: true }
+  cites: [ws-1972-houmen]
+
+- id: 1973-bingtuan-case
+  date: 1973
+  title: 黑龙江兵团团长、参谋长迫害女知青案判处死刑
+  lane: mass
+  weight: 2
+  place: 黑龙江
+  summary: 国务院、中央军委通报，黑龙江生产建设兵团十六团原团长黄砚田、原参谋长李耀东利用职权奸污、猥亵女知识青年多人，批准判处二人死刑，立即执行。通报把他们定为“林彪修正主义路线的余孽”，要求切实做好知青上山下乡工作。通报中说上山下乡的知识青年有“几百万”。
+  people: []
+  voices:
+    - { voice: official1966, text: 国务院、中央军委批准判处奸污迫害上山下乡女知识青年罪犯黄砚田、李耀东以死刑，立即执行（1973 年通报）, cite: ws-1973-bingtuan-case, quote: true }
+    - { voice: official1966, text: 几百万知识青年上山下乡，生气勃勃地活跃在农村的各条战线上（同一通报）, cite: ws-1973-bingtuan-case, quote: true }
+  cites: [ws-1973-bingtuan-case]
+
+- id: 1973-enrollment
+  date: 1973
+  title: 1973 年高校招生：恢复“文化程度”要求
+  lane: culture
+  weight: 1
+  place: 全国
+  summary: 根据 1972 年招生座谈会，1973 年招生意见要求入学学生具有“相当于初中毕业以上的实际文化程度”，继续执行“自愿报名，群众推荐，领导批准，学校复审”，并要求查处“走后门”。
+  people: []
+  voices:
+    - { voice: official1966, text: 目前，应保证学生具有相当于初中毕业以上的实际文化程度（1973 年高校招生意见）, cite: ws-1973-enrollment, quote: true }
+    - { voice: official1966, text: 对“走后门”的人要严肃处理；对揭发和抵制“走后门”的群众，要支持和保护（同一意见）, cite: ws-1973-enrollment, quote: true }
+  cites: [ws-1973-enrollment]
+
+- id: 1973-zhangjiakou-masses
+  date: 1973
+  title: 张家口：把待判案件交群众讨论
+  lane: local
+  weight: 1
+  place: 河北张家口
+  summary: 张家口市革委会在公开宣判前，把一批被告的材料印发全市基层单位，要求发动群众讨论、提出处理意见并上报市法院。材料“只供讨论，不准张贴”，讨论后集中销毁，共印 3000 份。（被告为普通人，本站不录姓名。）
+  people: []
+  voices:
+    - { voice: doc, text: 望接通知后，立即发动群众，认真讨论，提出处理意见，连同讨论结果，及时上报市人民法院（1973 年张家口市革委会通知）, cite: ws-1973-zhangjiakou-masses, quote: true }
+    - { voice: doc, text: 此件发至全市各基层单位，只供讨论，不准张贴，讨论后由各区和工业、财贸、文教等系统集中销毁（同一通知）, cite: ws-1973-zhangjiakou-masses, quote: true }
+  cites: [ws-1973-zhangjiakou-masses]
+
+- id: 1973-08-30-first-plenum
+  date: 1973-08-30
+  title: 十届一中全会：王洪文任中央副主席
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 十届一中全会选举毛泽东为中央委员会主席，周恩来、王洪文、康生、叶剑英、李德生为副主席。政治局委员中有江青、张春桥、姚文元、华国锋、陈永贵等。
+  people: [mao-zedong, zhou-enlai, wang-hongwen, kang-sheng, ye-jianying, li-desheng, jiang-qing, zhang-chunqiao, yao-wenyuan, hua-guofeng, chen-yonggui]
+  voices:
+    - { voice: doc, text: 中央委员会副主席：周恩来、王洪文、康生、叶剑英、李德生（1973 年十届一中全会公报）, cite: ws-1973-08-30-first-plenum, quote: true }
+  cites: [ws-1973-08-30-first-plenum]
+
+- id: 1973-11-12-dam-failures
+  date: 1973-11-12
+  title: 国务院：今年垮掉的中小水库有几百座
+  lane: econ
+  weight: 1
+  place: 全国
+  summary: 国务院转发水电部关于中小型水库垮坝情况的报告，说当年全国垮掉的中小水库有几百座，原因是不抓工程质量、放松管理，“如果再不引起严重注意……那就是对人民的犯罪”。
+  people: []
+  voices:
+    - { voice: official1966, text: 今年全国垮掉的中小水库就有几百座，使人民生命财产造成了严重损失（1973 年 11 月 12 日国务院通知）, cite: ws-1973-dam-failures, quote: true }
+    - { voice: official1966, text: 如果再不引起严重注意，麻木不仁，熟视无睹，那就是对人民的犯罪（同一通知）, cite: ws-1973-dam-failures, quote: true }
+  cites: [ws-1973-dam-failures]
+
+- id: 1973-11-19-shanghai-militia
+  date: 1973-11-19
+  title: 国务院、中央军委推广上海城市民兵经验
+  lane: army
+  weight: 2
+  place: 上海
+  summary: 国务院、中央军委转发上海市革委会调查组的《上海城市民兵情况调查》，要求各地“仿效上海的办法”，建设以产业工人为主体的城市民兵，并让民兵参加“社会阶级斗争”。上海的调查说民兵要在“对外反侵略、对内反复辟”中发挥作用。
+  people: []
+  voices:
+    - { voice: official1966, text: 战争打起来，城市不能轻易放弃，有些城市要学斯大林格勒，长期坚守（1973 年 11 月 19 日国务院、中央军委批语）, cite: ws-1973-shanghai-militia, quote: true }
+    - { voice: doc, text: 使它在对外反侵略、对内反复辟的斗争中，发挥更大的作用（上海市革委会调查组报告）, cite: ws-1973-shanghai-militia, quote: true }
+  cites: [ws-1973-shanghai-militia]
+
+- id: 1974-houmen
+  date: 1974
+  title: 中央：“走后门”问题放到运动后期解决
+  lane: center
+  weight: 1
+  place: 全国
+  summary: 批林批孔中不少单位揭发领导干部“走后门”送子女参军、入学。中央根据毛泽东的指示通知，这个问题“牵涉到几百万人”，要具体分析，放到运动后期解决，以免“冲淡批林批孔”。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 这个问题牵涉到几百万人，开后门来的也有好人，从前门来的也有坏人，需要具体分析，慎重对待（1974 年中共中央通知）, cite: ws-1974-houmen, quote: true }
+    - { voice: official1966, text: 当前，批林批孔刚刚展开，又夹着走后门，有可能冲淡批林批孔（同一通知）, cite: ws-1974-houmen, quote: true }
+  cites: [ws-1974-houmen]
+
+- id: 1974-enrollment
+  date: 1974
+  title: 1974 年高校招生：批“闭卷考试”“分数挂帅”
+  lane: culture
+  weight: 1
+  place: 全国
+  summary: 关于 1974 年高校招生的请示报告说，1973 年全国共选拔 15 万名工农兵上大学；去年招生中的“文化考查”被定性为修正主义教育路线的表现，要批判“智育第一”“分数挂帅”，并结合批林批孔批判“天才论”。
+  people: []
+  voices:
+    - { voice: official1966, text: 不少地区曾程度不同地出现过沿袭旧高考的办法，搞突然袭击，闭卷考试，单纯考书本知识，凭分录取（1974 年高校招生请示报告）, cite: ws-1974-enrollment, quote: true }
+    - { voice: doc, text: 全国共选拔了十五万名优秀工农兵到大学学习（同一报告，指 1973 年）, cite: ws-1974-enrollment, quote: true }
+  cites: [ws-1974-enrollment, ws-1973-enrollment]
+
+- id: 1974-05-31-malaysia
+  date: 1974-05-31
+  title: 中国与马来西亚建交
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 马来西亚总理拉扎克 5 月 28 日至 6 月 2 日访华，会见毛泽东，与周恩来签署联合公报建交。公报规定已加入马来西亚国籍的华人自动失去中国国籍。
+  people: [zhou-enlai, mao-zedong, li-xiannian]
+  voices:
+    - { voice: doc, text: 凡已自愿加入或已取得马来西亚国籍的中国血统的人，都自动失去了中国国籍（1974 年中马建交公报）, cite: ws-1974-malaysia, quote: true }
+  cites: [ws-1974-malaysia]
+
+- id: 1974-relics
+  date: 1974
+  title: 国务院通知加强文物保护
+  lane: culture
+  weight: 1
+  place: 全国
+  summary: 国务院通知称文物工作要服务于批林批孔和“儒法斗争”研究，同时指出有些地方不经批准“挖坟取宝”，有的生产队把挖古墓当“副业”，规定地下文物一律归国家所有，严禁买卖。
+  people: []
+  voices:
+    - { voice: official1966, text: 有的地方生产队以挖掘古墓为“副业”，破坏历史文物，助长资本主义倾向（1974 年国务院通知）, cite: ws-1974-relics, quote: true }
+    - { voice: official1966, text: 有些还是研究农民革命和儒法斗争的重要资料（同一通知）, cite: ws-1974-relics, quote: true }
+  cites: [ws-1974-relics]
+
+- id: 1974-rufa
+  date: 1974
+  title: “评法批儒”：儒法斗争史成为政治语言
+  lane: ideology
+  weight: 2
+  place: 全国
+  summary: 批林批孔扩展为“儒法斗争”史的写作，报刊文章把历史人物分为法家、儒家，用来比附当前：一篇文章说“法家爱国，儒家卖国”，从司马光到林彪“无一不是卖国投降的无耻之徒”；一篇说苏联“尊孔反法”是为了反华；还有文章组织妇女批判《改良女儿经》。
+  people: [lin-biao]
+  voices:
+    - { voice: official1966, text: 法家爱国，儒家卖国，是一个带有规律性的历史现象（1974 年《论爱国主义者王安石》）, cite: ws-1974-wang-anshi, quote: true }
+    - { voice: official1966, text: 苏修尊孔反法，根本的目的，就在于反华（1974 年《孔老二的亡灵和新沙皇的迷梦》）, cite: ws-1974-new-tsar, quote: true }
+    - { voice: official1966, text: 广大工农兵对《改良女儿经》等坏书展开了群众性的批判（1974 年批判《改良女儿经》文章）, cite: ws-1974-nvrjing, quote: true }
+  cites: [ws-1974-wang-anshi, ws-1974-new-tsar, ws-1974-nvrjing]
+
+- id: 1974-09-29-he-long-rehab
+  date: 1974-09-29
+  title: 中央为贺龙恢复名誉
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 中央通知说林彪“要整贺龙同志蓄意已久”，审查一直被林彪、黄永胜、吴法宪、叶群、李作鹏等把持；经查证，所谓“通敌”和“篡夺军权”都不属实，决定为贺龙平反、恢复名誉。通知说贺龙“病故”。1982 年中央另发决定，说他是被“诬陷迫害致死”，1974 年的通知“平反是不彻底的”。
+  people: [he-long, lin-biao, huang-yongsheng, wu-faxian, ye-qun, li-zuopeng, mao-zedong]
+  voices:
+    - { voice: official1966, text: 贺龙同志已于一九六九年六月九日病故（1974 年 9 月中共中央通知）, cite: ws-1974-he-long-name, quote: true }
+    - { voice: official1966, text: 因此，中央决定，对贺龙同志予以平反，恢复名誉（同一通知）, cite: ws-1974-he-long-name, quote: true }
+    - { voice: officialLater, text: 但《通知》对贺龙同志的平反是不彻底的，有些提法是错误的（1982 年中共中央决定）, cite: ws-1982-he-long-rehab, quote: true }
+    - { voice: officialLater, text: “文化大革命”中被林彪、江青和康生一伙诬陷迫害致死（同一决定）, cite: ws-1982-he-long-rehab, quote: true }
+  cites: [ws-1974-he-long-name, ws-1982-he-long-rehab]
+
+- id: 1975-01-05-deng-chief-of-staff
+  date: 1975-01-05
+  title: 邓小平任军委副主席兼总参谋长，张春桥任总政治部主任
+  lane: army
+  weight: 2
+  place: 北京
+  summary: 毛泽东圈阅的中共中央通知同时任命邓小平为中央军委副主席兼解放军总参谋长、张春桥为总政治部主任。
+  people: [deng-xiaoping, zhang-chunqiao, mao-zedong]
+  voices:
+    - { voice: official1966, text: 任命邓小平同志为中共中央军委副主席兼中国人民解放军总参谋长（1975 年 1 月 5 日中共中央通知）, cite: ws-1975-01-05-notice, quote: true }
+    - { voice: official1966, text: 任命张春桥同志为中国人民解放军总政治部主任（同一通知）, cite: ws-1975-01-05-notice, quote: true }
+  cites: [ws-1975-01-05-notice]
+
+- id: 1975-01-08-second-plenum
+  date: 1975-01-08
+  end: 1975-01-10
+  title: 十届二中全会：邓小平任中央副主席
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 全会为四届人大做准备，决定把宪法修改草案、政府工作报告和人大常委会、国务院人选名单提交人大，选举邓小平为中共中央副主席、政治局常委。
+  people: [deng-xiaoping, zhou-enlai]
+  voices:
+    - { voice: doc, text: 会议选举邓小平同志为中共中央副主席、中央政治局常务委员（1975 年十届二中全会公报）, cite: ws-1975-second-plenum, quote: true }
+  cites: [ws-1975-second-plenum]
+
+- id: 1975-03-17-war-criminals
+  date: 1975-03-17
+  title: 特赦释放全部在押战争罪犯
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 四届人大常委会第二次会议根据毛泽东、党中央的指示，决定对全部在押战争罪犯实行特赦释放，并给予公民权。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 对全部在押战争罪犯，实行特赦释放，并予以公民权（1975 年全国人大常委会决定）, cite: ws-1975-war-criminals, quote: true }
+  cites: [ws-1975-war-criminals]
+
+- id: 1975-04-05-chiang-death
+  date: 1975-04-05
+  title: 蒋介石在台湾去世
+  lane: intl
+  weight: 2
+  place: 台北
+  summary: 新华社 4 月 6 日电称蒋介石“四月五日在台湾病死”，由严家淦接任“总统”。电讯在痛斥之余，呼吁“怀有爱国心的蒋帮军政人员”为统一作贡献。
+  people: []
+  voices:
+    - { voice: official1966, text: 国民党反动派的头子、中国人民的公敌蒋介石，四月五日在台湾病死（1975 年新华社电）, cite: ws-1975-chiang-dead, quote: true }
+    - { voice: official1966, text: 怀有爱国心的蒋帮军政人员也将更加认清形势，积极为实现解放台湾、统一祖国作出贡献（同一电讯）, cite: ws-1975-chiang-dead, quote: true }
+  cites: [ws-1975-chiang-dead]
+
+- id: 1975-06-09-philippines
+  date: 1975-06-09
+  title: 中国与菲律宾建交
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 中菲两国政府联合公报宣布建立大使级外交关系，菲律宾一个月内从台湾撤走官方机构；双方商定取得对方国籍的本国公民自动失去原国籍。
+  people: []
+  voices:
+    - { voice: doc, text: 凡已取得对方国籍的本国公民，都自动失去了原有国籍（1975 年中菲联合公报）, cite: ws-1975-philippines, quote: true }
+  cites: [ws-1975-philippines]
+
+- id: 1975-07-01-thailand
+  date: 1975-07-01
+  title: 中国与泰国建交
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 中泰两国自 7 月 1 日起建交。公报中中国政府宣布不承认双重国籍，并说对取得泰国国籍的华人不再视为中国公民。
+  people: []
+  voices:
+    - { voice: doc, text: 中华人民共和国政府宣布他们不承认双重国籍（1975 年中泰建交公报）, cite: ws-1975-thailand, quote: true }
+  cites: [ws-1975-thailand]
+
+- id: 1975-industry-h1
+  date: 1975
+  title: 1975 年上半年工业报告：整顿后“一个月比一个月好”
+  lane: econ
+  weight: 2
+  place: 全国
+  summary: 中央转发国务院关于 1975 年上半年工业生产情况的报告。报告说贯彻毛泽东三项指示和中央九号、十二号、十三号文件后，企业领导班子得到整顿，三月以来工业交通“一个月比一个月好”，原油、原煤、发电量等五六月创月产最高纪录；要求整顿企业管理，“把必要的规章制度很快建立健全起来”。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 三月以来，工业生产和交通运输一个月比一个月好（1975 年国务院报告）, cite: ws-1975-industry-h1, quote: true }
+    - { voice: official1966, text: 要切实整顿和加强企业管理，把必要的规章制度很快建立健全起来（同一报告）, cite: ws-1975-industry-h1, quote: true }
+  cites: [ws-1975-industry-h1]
+
+- id: 1975-line-enterprise
+  date: 1975
+  title: 《路线决定企业的领导权》
+  lane: ideology
+  weight: 1
+  place: 全国
+  summary: 学习无产阶级专政理论期间的文章，以毛泽东在九届一中全会上的话为纲：相当大的多数工厂“领导权不在真正的马克思主义者、不在工人群众手里”，要求批判“物质刺激，利润挂帅”，实行“鞍钢宪法”。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 恐怕是相当大的一个多数的工厂里头，领导权不在真正的马克思主义者、不在工人群众手里（文章所引毛泽东在九届一中全会上的话）, cite: ws-1975-line-enterprise, quote: true }
+  cites: [ws-1975-line-enterprise]
+
+- id: 1975-anshan-order
+  date: 1975
+  title: 鞍山整顿社会治安通告
+  lane: local
+  weight: 1
+  place: 辽宁鞍山
+  summary: 鞍山市公安局通告说“一小撮阶级敌人和刑事犯罪分子”制造谣言、教唆青少年犯罪，要求收缴匕首、刺刀等凶器，严惩持械殴斗、强抢哄抢，对扰乱公共秩序者分别处罚、收容。
+  people: []
+  voices:
+    - { voice: doc, text: 严厉制裁持械行凶、聚众斗的犯罪分子。收缴一切凶器（1975 年鞍山市公安局通告）, cite: ws-1975-anshan-order, quote: true }
+    - { voice: doc, text: 坚决煞住强抢、哄抢歪风（同一通告）, cite: ws-1975-anshan-order, quote: true }
+  cites: [ws-1975-anshan-order]
+
+- id: 1975-08-30-xiedou
+  date: 1975-08-30
+  title: 村际械斗的“决议”和“条约”
+  lane: local
+  weight: 1
+  place: 原件未注地点
+  summary: 两份村级文件显示了宗族、村际械斗的组织化。1975 年 8 月一份“保卫山场，自卫反击决议”由 92 人和 29 人盖章，规定伤亡、坐牢者家属由生产队供养，“通敌”者镇压、不出战者罚款；1976 年 1 月另一村为争山林订立“械斗条约”，由生产队补贴自制鸟枪。
+  people: []
+  voices:
+    - { voice: doc, text: 凡属我水头人氏，必须团结一致，坚决打击和消灭入侵之敌（1975 年 8 月 30 日决议）, cite: ws-1975-08-30-shanchang, quote: true }
+    - { voice: doc, text: 水头一、二、三队等92人盖章（同一决议落款）, cite: ws-1975-08-30-shanchang, quote: true }
+    - { voice: doc, text: 由队补贴所制武器（如鸟枪，补谷30斤，钱7元，炭烧队里的），一律不准卖（1976 年 1 月 8 日械斗条约）, cite: ws-1976-01-08-xiedou-treaty, quote: true }
+  cites: [ws-1975-08-30-shanchang, ws-1976-01-08-xiedou-treaty]
+
+- id: 1976-hefei-manure
+  date: 1976
+  title: 合肥：郊县社员进城掏粪与哄抢
+  lane: local
+  weight: 1
+  place: 安徽合肥
+  summary: 合肥市给省革委会的报告说，从 2 月下旬起，肥东、肥西等县社员“在工分挂帅的刺激下”每天一两千人进城掏粪，有的生产队在队长带领下多次哄抢肉联厂等单位的物资。市里准备派民兵小分队清理，“必要时办学习班”。
+  people: []
+  voices:
+    - { voice: doc, text: 纷纷来肥掏粪，每天一两千人提盆提筐，不分昼夜在市区大街小巷川流不息（1976 年合肥市报告）, cite: ws-1976-hefei-manure, quote: true }
+    - { voice: doc, text: 公社动员我们进城掏粪，合肥就是架了机枪，你们也要堵住枪口去（报告所记掏粪社员的话）, cite: ws-1976-hefei-manure, quote: true }
+  cites: [ws-1976-hefei-manure]
+
+- id: 1976-anhui-commune-enterprise
+  date: 1976
+  title: 安徽成立社队企业办公室
+  lane: econ
+  weight: 1
+  place: 安徽
+  summary: 粉碎“四人帮”后，安徽省革委会以“华国锋主席在全国农业学大寨会议上提出的”任务为依据，成立省社队企业办公室，要求地、县都设社队企业局。
+  people: [hua-guofeng]
+  voices:
+    - { voice: official1966, text: 地、县都要成立社队企业局，列入正式编制（1976 年安徽省革委会通知）, cite: ws-1976-anhui-commune-enterprise, quote: true }
+  cites: [ws-1976-anhui-commune-enterprise]

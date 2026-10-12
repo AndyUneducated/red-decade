@@ -17,7 +17,8 @@
     - { voice: doc, text: 毛主席和他的亲密战友林彪副主席在会上讲了话（1970 年 9 月九届二中全会公报）, cite: ws-1970-09-plenum-communique, quote: true }
     - { voice: doc, text: 我国各族人民的伟大领袖毛泽东主席是中华人民共和国的缔造者（全会讨论的宪法修改草案序言）, cite: ws-1970-constitution-draft, quote: true }
     - { voice: official1966, text: 这些反革命谬论，是林彪提出的“要设国家主席”的反党纲领的继续和发展（1972 年中央专案组“材料之二”）, cite: ws-1972-lin-material-2, quote: true }
-  cites: [ws-1970-09-plenum-communique, ws-1970-constitution-draft, ws-1971-09-18-notice, ws-1972-03-17-notice, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-2]
+    - { voice: doc, text: 用法律的形式巩固下来非常好，非常好！很好！这个可以说是宪法的灵魂（林彪在全会开幕会上的讲话录音稿，1972 年 1 月中央下发供批判）, cite: ws-1972-01-13-notice-5, quote: true }
+  cites: [ws-1970-09-plenum-communique, ws-1970-constitution-draft, ws-1971-09-18-notice, ws-1972-03-17-notice, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-2, ws-1972-01-13-notice-5]
 
 - id: 1971-09-13-lin-biao
   date: 1971-09-13
@@ -122,7 +123,8 @@
   voices:
     - { voice: official1966, text: 在患病后经过多方精心治疗，终因病情恶化，医治无效，于一九七六年九月九日零时十分在北京逝世（1976 年告全党全军全国各族人民书）, cite: ws-1976-09-09-mao-message, quote: true }
     - { voice: official1966, text: 特别是无产阶级文化大革命、批林批孔、批邓、反击右倾翻案风的伟大胜利（同一文告）, cite: ws-1976-09-09-mao-message, quote: true }
-  cites: [ws-1976-09-09-mao-message]
+    - { voice: doc, text: 以下按姓氏笔划为序（1976 年 9 月 9 日公布的毛泽东主席治丧委员会名单；华国锋、王洪文、叶剑英、张春桥四人列在此句之前）, cite: ws-1976-mao-funeral-committee, quote: true }
+  cites: [ws-1976-09-09-mao-message, ws-1976-mao-funeral-committee]
 
 - id: 1976-10-06-gang-of-four
   date: 1976-10-06
