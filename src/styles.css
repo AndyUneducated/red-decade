@@ -2422,6 +2422,135 @@ h2.sec {
 .fig-pending small {
   color: var(--warn);
 }
+.register {
+  max-width: 1100px;
+}
+.register-lede {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  max-width: 80ch;
+  margin: 0 0 10px;
+}
+.register-prov {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 8px 18px;
+  margin-bottom: 10px;
+}
+.register-prov summary {
+  cursor: pointer;
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 0;
+}
+.register-prov summary span {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 6px;
+}
+.register-pref h4 {
+  margin: 12px 0 2px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+.cty-axis,
+.cty {
+  grid-template-columns: 92px 74px minmax(0, 1fr);
+}
+.cty-axis {
+  display: grid;
+  column-gap: 12px;
+  margin-top: 6px;
+  font-size: 10px;
+  color: var(--muted);
+}
+.cty-axis .fig-ticks {
+  margin-right: calc(92px + 170px + 24px);
+}
+.cty {
+  display: grid;
+  column-gap: 12px;
+  align-items: start;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.cty:last-child {
+  border-bottom: 0;
+}
+.cty-name {
+  all: unset;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 1px;
+}
+.cty-name:hover {
+  color: var(--accent);
+}
+.cty-name small {
+  margin-left: 3px;
+  font-size: 10.5px;
+  color: var(--muted);
+}
+.cty-rev {
+  font-size: 11.5px;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+  padding-top: 2px;
+}
+.cty-count {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 92px 170px;
+  column-gap: 12px;
+  align-items: center;
+  min-height: 20px;
+}
+.cty-count .fig-val {
+  font-size: 13px;
+}
+.cty-count[data-measure='deaths'] .fig-bar {
+  opacity: 1;
+}
+.cty-count[data-measure='deaths'] .fig-measure {
+  background: var(--rebut-bg);
+  color: var(--accent);
+}
+.cty-empty {
+  display: block;
+  font-size: 11.5px;
+  font-style: italic;
+  color: var(--muted);
+}
+.cty-quote {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 2px 0 6px;
+}
+@media (max-width: 720px) {
+  .cty-axis {
+    display: none;
+  }
+  .cty {
+    grid-template-columns: 1fr auto;
+  }
+  .cty-counts {
+    grid-column: 1 / -1;
+  }
+  .cty-count {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .cty-count .fig-src {
+    grid-column: 1 / -1;
+  }
+}
 @media (max-width: 720px) {
   .fig-case {
     padding: 12px 12px 10px;

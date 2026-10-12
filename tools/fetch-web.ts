@@ -17,7 +17,7 @@ import { parse } from 'yaml'
 const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')
 const UA = 'Mozilla/5.0 (red-decade-research; github.com/AndyUneducated/red-decade)'
 
-type Entry = { id: string; title: string; url: string; article?: string; start?: string; end?: string; excerpt?: boolean; keep?: string[]; unwrap?: boolean }
+type Entry = { id: string; title: string; url: string; article?: string; start?: string; end?: string; excerpt?: boolean; keep?: string[]; unwrap?: boolean; breaks?: string }
 
 const args = process.argv.slice(2)
 if (args[0] === '--list') {
@@ -66,7 +66,8 @@ for (const e of entries) {
       .replace(/^\n+/, '')
     text = body.startsWith(heading.split('\n')[0]) ? body : `${heading}\n\n${body}`
   } else {
-    const all = htmlToText(html)
+    // `breaks`: plain-text dumps inside <pre> mark paragraphs only by an indent run (a regex source)
+    const all = htmlToText(e.breaks ? html.replace(new RegExp(e.breaks, 'g'), '\n') : html)
     const i = e.start ? all.indexOf(e.start) : 0
     const j = e.end ? all.indexOf(e.end, Math.max(0, i)) : -1
     if (i < 0 || (e.end && j < 0)) {

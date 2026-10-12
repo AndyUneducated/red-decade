@@ -324,6 +324,8 @@ for (const f of figures) {
     if (seen.has(u.id)) errors.push(`duplicate county id ${u.id}`)
     seen.add(u.id)
     u.counts.forEach((c) => needCite(c.cite, `county ${u.id}`))
+    if (u.revcom) needCite(u.revcom.cite, `county ${u.id} revcom`)
+    if (!u.counts.length && !u.revcom) errors.push(`county ${u.id}: no counts and no revcom`)
   }
 }
 
@@ -340,6 +342,7 @@ function checkQuote(sourceId: string, quote: string, where: string) {
 for (const c of claims) for (const e of c.evidence) if (e.quote) checkQuote(e.cite.split('@')[0], e.quote, `claim ${c.id}`)
 for (const f of figures) for (const c of f.counts) checkQuote(c.cite.split('@')[0], c.quote, `figure ${f.id} "${c.what}"`)
 for (const u of counties) for (const c of u.counts) checkQuote(c.cite.split('@')[0], c.quote, `county ${u.id}`)
+for (const u of counties) if (u.revcom) checkQuote(u.revcom.cite.split('@')[0], u.revcom.quote, `county ${u.id} revcom`)
 for (const p of people)
   for (const v of p.assess)
     if (v.quote) {

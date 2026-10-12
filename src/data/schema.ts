@@ -471,7 +471,9 @@ export const CountySchema = z.object({
   province: z.string(),
   prefecture: z.string().optional(),
   kind: z.enum(Object.keys(COUNTY_KINDS) as [keyof typeof COUNTY_KINDS, ...(keyof typeof COUNTY_KINDS)[]]).default('county'),
-  counts: z.array(CountSchema).min(1),
+  counts: z.array(CountSchema).default([]),
+  // founding of the county revolutionary committee, as the source dates it
+  revcom: z.object({ date: PartialDate, cite: Cite, quote: z.string() }).optional(),
   note: z.string().optional(),
 })
 
