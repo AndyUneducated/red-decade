@@ -1,0 +1,244 @@
+# 1970–1976 fifth batch: from texts already in the corpus (1971–72 central materials, 1976-10-18 notice, 1980s court records)
+
+- id: 1970-03-08-no-chairman
+  date: 1970-03-08
+  title: 毛泽东提议修宪不设国家主席
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1970 年 3 月 8 日，毛泽东提出召开四届人大、修改宪法，同时建议不设国家主席，中央政治局通过。4 月 11 日林彪提出仍要设国家主席，并说要毛泽东再任。按 1971 年中共中央下发的材料，到庐山会议期间毛泽东先后六次讲不设国家主席、自己不再担任国家主席。设与不设之争延续到九届二中全会。
+  people: [mao-zedong, lin-biao, ye-qun, wu-faxian]
+  voices:
+    - { voice: official1966, text: 一九七〇年三月八日，毛主席提出召开四届人大和修改宪法的意见，同时提出关于改变国家体制，不设国家主席的建议（1971 年 12 月中共中央下发的材料之一）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 四月十一日，林彪带头反对毛主席关于不设国家主席的指示，提出仍然要设国家主席，并说要毛主席再任国家主席（同一材料）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 从一九七〇年三月到这次会议期间，毛主席先后书面和口头讲了六次不设国家主席和不再重新担任国家主席的问题（同一材料）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+  cites: [ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3]
+
+- id: 1970-12-north-china-conference
+  date: 1970-12
+  title: 华北会议与北京军区改组
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 九届二中全会后，1970 年 12 月中央召开华北会议，揭批陈伯达。毛泽东 12 月 16 日、19 日两次就会议作批示，19 日的批示写在周恩来关于开好华北会议的请示报告上。会议期间改组了北京军区。1971 年 9 月的中央通知把华北会议、这两次批示和北京军区改组列为“批陈整风”的开头几步。
+  people: [mao-zedong, zhou-enlai, chen-boda]
+  voices:
+    - { voice: official1966, text: 要有认真的批评，从批评达到团结的目的（1970 年 12 月 19 日毛泽东在周恩来关于开好华北会议的请示报告上的批示，1971 年 12 月中共中央下发的材料所引）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 在华北会议期间，毛主席、党中央改组了北京军区（同一材料）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 一九七〇年十二月开始的华北会议，毛主席十二月十六日、十二月十九日关于华北会议的两次批示和北京军区的改组（1971 年 9 月 18 日中共中央通知）, cite: ws-1971-09-18-notice, quote: true }
+  cites: [ws-1971-12-lin-chen-material-1, ws-1971-09-18-notice]
+
+- id: 1971-03-571-plan
+  date: 1971-03-22
+  end: 1971-03-31
+  title: 《“571工程”纪要》与上海“三国四方会议”
+  lane: army
+  weight: 2
+  place: 上海
+  summary: 按 1971–72 年中共中央下发的材料和 1980 年代的起诉书、判决书，林立果、周宇驰等 1971 年 3 月 22 日至 24 日在上海制订武装政变计划《“571工程”纪要》。3 月 31 日晚，林立果在上海召集江腾蛟、王维国、陈励耘、周建平开所谓“三国四方会议”，指定王维国为上海的“头”、陈励耘为杭州的“头”。
+  people: [lin-liguo, zhou-yuchi, jiang-tengjiao, wang-weiguo, chen-liyun, lin-biao]
+  voices:
+    - { voice: official1966, text: 三月底，林立果在上海召集江腾蛟、王维国、陈励耘、周建平，开了一个所谓“三国四方会议”（1972 年中共中央下发的材料之三）, cite: ws-1972-lin-material-3, quote: true }
+    - { voice: judicial1980, text: 一九七一年三月，林立果、周宇驰等人在上海制订了武装政变计划，取名为《“571工程”纪要》（1981 年特别法庭判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 会上，林立果指定王维国为上海的“头”（1982 年军事检察院起诉书）, cite: ws-1982-wang-weiguo-case, quote: true }
+  cites: [ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3, ws-1981-01-25-judgment, ws-1982-wang-weiguo-case, ccom-chen-liyun-interview]
+
+- id: 1971-04-15-pichen-meeting
+  date: 1971-04-15
+  end: 1971-04-29
+  title: 批陈整风汇报会
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 1971 年 4 月 15 日中央召开批陈整风汇报会，29 日周恩来代表中央作总结讲话。按 1971–72 年中央下发的材料，会议期间林彪一方一面检讨，一面在 4 月 23 日晚由周宇驰、刘沛丰、于新野等开会讨论形势，提出“准备加快、提前”实行“571”计划。
+  people: [zhou-enlai, lin-biao, ye-qun, lin-liguo, zhou-yuchi]
+  voices:
+    - { voice: official1966, text: 一九七一年四月二十九日，在批陈整风汇报会上，周恩来同志代表党中央作了总结讲话（1971 年 12 月中共中央下发的材料之一）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+    - { voice: official1966, text: 他们一面作假检讨，应付中央，而背地里却在林彪、叶群、林立果的指挥下，策动他们的死党周字驰、于新野、刘沛丰等开黑会（同一材料）, cite: ws-1971-12-lin-chen-material-1, quote: true }
+  cites: [ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3, ws-1971-09-18-notice]
+
+- id: 1971-08-mao-southern-tour
+  date: 1971-08
+  end: 1971-09-12
+  title: 毛泽东南巡谈话：“甩石头、掺沙子、挖墙角”
+  lane: center
+  weight: 2
+  summary: 1971 年 8 月中旬至 9 月 12 日，毛泽东到南方巡视，沿途同各地负责人多次谈话，讲庐山会议以后他采取的“三项办法”。林彪一方设法探听谈话内容。九一三事件后，谈话纪要于 1972 年 3 月印发全党，作为批林整风的材料。
+  people: [mao-zedong, lin-biao, ye-qun, lin-liguo, zhou-yuchi]
+  voices:
+    - { voice: official1966, text: 一九七一年八月中旬至九月十二日，我们的伟大领袖毛主席到外地巡视，同沿途各地负责同志进行了多次重要谈话（1972 年 3 月 17 日中共中央通知）, cite: ws-1972-03-17-notice, quote: true }
+    - { voice: doc, text: 庐山会议以后，我采取了三项办法，一个是甩石头，一个是掺沙子，一个是挖墙角（毛泽东南巡谈话纪要）, cite: ws-1972-03-17-notice, quote: true }
+    - { voice: judicial1980, text: 周宇驰、于新野打电话给顾同舟，探听到毛泽东主席在长沙同一些负责人谈话的内容，当即密报林立果、叶群（1980 年起诉书，说 9 月 5 日晚）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1972-03-17-notice, ws-1971-10-06-notice, ws-1980-indictment]
+
+- id: 1974-01-mazhenfu
+  date: 1974-01
+  title: 马振扶中学事件
+  lane: culture
+  weight: 1
+  place: 河南唐河
+  summary: 1974 年 1 月，迟群、谢静宜受江青指派去河南唐河县马振扶中学调查女学生张玉勤自杀，回京后写《简报》送江青，把这件事说成“修正主义教育路线给逼死的”。1 月 30 日迟群向南阳地委传达江青、王洪文要“判重刑”的指令，罗长奇、杨天成被以“逼死人命罪”逮捕判刑。1982 年判决书说此事“殃及全国”。
+  people: [chi-qun, xie-jingyi, jiang-qing, wang-hongwen]
+  voices:
+    - { voice: judicial1980, text: 把张玉勤自杀说成是“修正主义教育路线给逼死的”，“是资产阶级向无产阶级的猖狂反攻倒算”（1982 年迟群案判决书）, cite: ws-1982-chi-qun-case, quote: true }
+    - { voice: judicial1980, text: 所谓“马振扶中学”事件，殃及全国，在教育系统造成了严重后果（同一判决书）, cite: ws-1982-chi-qun-case, quote: true }
+  cites: [ws-1982-chi-qun-case]
+
+- id: 1974-03-20-mao-letter-jiang
+  date: 1974-03-20
+  title: 毛泽东复江青信：“你有特权，我死了，看你怎么办？”
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 毛泽东复江青来信，开头说“不见还好些”，批评她多年不执行他的话、不研究马列和他的书，说自己“重病在身，八十一了”。1976 年 10 月中共中央通报“王张江姚反党集团”时引用了这封信。
+  people: [mao-zedong, jiang-qing]
+  voices:
+    - { voice: official1966, text: 不见还好些。过去多年同你谈的，你有好些不执行，多见何益？有马列书在，有我的书在，你就是不研究（1974 年 3 月 20 日毛泽东复江青信，1976 年 10 月 18 日中共中央通知所引）, cite: ws-1976-10-18-notice, quote: true }
+  cites: [ws-1976-10-18-notice]
+
+- id: 1974-06-nanjing-dazibao
+  date: 1974-06
+  title: 上海派人到南京军区贴大字报攻击许世友
+  lane: army
+  weight: 1
+  place: 南京
+  summary: 1974 年 6 月，徐景贤、马天水、王秀珍等策动他人写大字报，派专人到南京军区机关张贴，说前南京军区司令员许世友、前上海警备区司令员廖政国“残酷镇压军内外群众”。1982 年上海两案判决书都列了这一条。
+  people: [xu-shiyou, xu-jingxian, ma-tianshui, wang-xiuzhen]
+  voices:
+    - { voice: judicial1980, text: 策动他人撰写大字报，并指派专人到南京军区机关张贴，诬陷前南京军区司令员许世友、前上海瞀备区司令员廖政国“残酷镇压军内外群众”（1982 年徐景贤案判决书）, cite: ws-1982-xu-jingxian-case, quote: true }
+  cites: [ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case]
+
+- id: 1974-07-17-four-person-faction
+  date: 1974-07-17
+  title: 政治局会议：“不要搞成四人小宗派”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1974 年 7 月 17 日，毛泽东在中央政治局会议上批评江青“动不动就给人戴大帽子”，又对“你们”说“不要搞成四人小宗派”，并两次说江青“并不代表我”。1976 年 10 月中共中央通知引了这次讲话。
+  people: [mao-zedong, jiang-qing, wang-hongwen, zhang-chunqiao, yao-wenyuan]
+  voices:
+    - { voice: official1966, text: 不要设两个工厂，一个叫钢铁工厂，一个叫帽子工厂，动不动就给人戴大帽子（1974 年 7 月 17 日毛泽东在政治局会议上，1976 年 10 月 18 日中共中央通知所引）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1966, text: 你们要注意呢，不要搞成四人小宗派呢（同上）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1966, text: 她（指江青）并不代表我，她代表她自己（同上）, cite: ws-1976-10-18-notice, quote: true }
+  cites: [ws-1976-10-18-notice]
+
+- id: 1974-11-12-zuge
+  date: 1974-11-12
+  end: 1974-12-24
+  title: 四届人大人事之争：“不要由你组阁”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 筹备四届人大、安排国家机构人事期间，江青托人向毛泽东转达，要王洪文任全国人大常委会副委员长。毛泽东 11 月 12 日在江青的信上批示“不要由你组阁”，又说“江青有野心”；12 月 24 日批评“不要搞宗派，搞宗派要摔跤的”。
+  people: [mao-zedong, jiang-qing, wang-hongwen]
+  voices:
+    - { voice: official1966, text: 不要多露面，不要批文件，不要由你组阁（当后台老板），你积怨甚多，要团结多数（1974 年 11 月 12 日毛泽东在江青信上的批示，1976 年 10 月 18 日中共中央通知所引）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1966, text: 江青有野心。她是想叫王洪文作委员长，她自己作党的主席（同一通知）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1966, text: 不要搞宗派，搞宗派要摔跤的（1974 年 12 月 24 日，同一通知）, cite: ws-1976-10-18-notice, quote: true }
+  cites: [ws-1976-10-18-notice]
+
+- id: 1975-04-23-empiricism
+  date: 1975-04-23
+  title: 毛泽东批“只反经验主义”
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 1975 年学习无产阶级专政理论期间，张春桥 3 月 1 日在全军政治部主任座谈会上大讲“经验主义是主要危险”。4 月 23 日，毛泽东在姚文元送的新华社请示报告上批示，提法应是反对修正主义，“包括反对经验主义和教条主义”，并说“我党真懂马列的不多”。
+  people: [mao-zedong, zhang-chunqiao, yao-wenyuan]
+  voices:
+    - { voice: official1966, text: 提法似应提反对修正主义，包括反对经验主义和教条主义，二者都是修正马列主义的，不要只提一项，放过另一项（1975 年 4 月 23 日毛泽东批示，1976 年 10 月 18 日中共中央通知所引）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1966, text: 张春桥在全军各大单位政治部主任座谈会上，大讲经验主义是主要危险（同一通知，说 1975 年 3 月 1 日）, cite: ws-1976-10-18-notice, quote: true }
+  cites: [ws-1976-10-18-notice]
+
+- id: 1975-05-03-sirenbang
+  date: 1975-05-03
+  title: 政治局会议：“不要搞四人帮”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1975 年 5 月 3 日，毛泽东在中央政治局会议上批评江青等只反经验主义、不反教条主义，重申“要搞马列主义，不要搞修正主义；要团结，不要分裂；要光明正大，不要搞阴谋诡计”，说“不要搞四人帮”。据 1976 年中共中央通知，他还说这个问题“上半年解决不了，下半年解决”。
+  people: [mao-zedong, jiang-qing, zhang-chunqiao, yao-wenyuan, wang-hongwen]
+  voices:
+    - { voice: official1966, text: 不要搞四人帮，你们不要搞了，为什么照样搞呀？为什么不和二百多的中央委员搞团结，搞少数人不好，历来不好（1975 年 5 月 3 日毛泽东在政治局会议上，1976 年 10 月 18 日中共中央通知所引）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: official1966, text: 上半年解决不了，下半年解决；今年解决不了，明年解决；明年解决不了，后年解决（同一通知）, cite: ws-1976-10-18-notice, quote: true }
+  cites: [ws-1976-10-18-notice]
+
+- id: 1976-02-03-hua-acting-premier
+  date: 1976-02-03
+  title: 中央一号文件：华国锋任国务院代总理
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 周恩来去世后，毛泽东提议华国锋为国务院代总理，中共中央 1976 年 2 月 3 日以当年一号文件发出。同一天张春桥写了《一九七六年二月三日有感》，1980 年起诉书引了其中“又是一个一号文件”一句。
+  people: [hua-guofeng, mao-zedong, zhang-chunqiao, deng-xiaoping]
+  voices:
+    - { voice: official1966, text: 一九七六年二月三日，在中央发出一号文件的同一天，张春桥亲笔写了一个《一九七六年二月三日有感》，疯狂反对伟大领袖毛主席亲自提议华国锋同志为国务院代总理（1976 年 10 月 18 日中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: judicial1980, text: 又是一个一号文件（张春桥《一九七六年二月三日有感》，1980 年起诉书所引）, cite: ws-1980-indictment, quote: true }
+    - { voice: officialLater, text: 他们对毛主席、党中央先后确定华国锋同志任国务院代总理和中共中央第一副主席、国务院总理，极端仇视，疯狂反对，妄图打倒华国锋同志（1977 年十届三中全会公报）, cite: ws-1977-07-tenth-third-plenum, quote: true }
+  cites: [ws-1976-10-18-notice, ws-1980-indictment, ws-1977-07-tenth-third-plenum]
+
+- id: 1976-03-nanjing-banners
+  date: 1976-03
+  title: 南京大标语：反对张春桥
+  lane: mass
+  weight: 2
+  place: 南京
+  summary: 1976 年 3 月底，南京群众张贴大标语反对张春桥。据 1980 年起诉书，姚文元把贴标语的群众说成“反革命”，对《人民日报》总编辑鲁瑛说“看来有个司令部”，要他“注意北京的情况”。
+  people: [zhang-chunqiao, yao-wenyuan, lu-ying]
+  voices:
+    - { voice: judicial1980, text: 一九七六年三月底，南京群众张贴大标语反对张春桥，姚文元诬陷南京贴标语的群众是“反革命”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 这股反革命逆流，看来有个司令部（姚文元对鲁瑛说，同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1976-03-26-qinghua-deng
+  date: 1976-03-26
+  title: 迟群、谢静宜带人围攻邓小平
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 据 1982 年判决书，1976 年 3 月 26 日迟群、谢静宜在江青策划下带周家悫等五人，以“汇报清华大学运动”为名围攻邓小平，说他是“党内资产阶级的头子”。迟群指挥的“北大、清华大批判组”以“梁效”等署名发表文章三十九篇，批邓小平“翻案”“复辟”。
+  people: [chi-qun, xie-jingyi, deng-xiaoping, jiang-qing]
+  voices:
+    - { voice: judicial1980, text: 以“汇报清华大学运动”为名，围攻邓小平，捏造事实，罗织罪名，诬陷邓小平“是党内资产阶级的头子”（1982 年迟群案判决书）, cite: ws-1982-chi-qun-case, quote: true }
+    - { voice: judicial1980, text: 《党内确实有资产阶级——天安门广场反革命事件剖析》等三十九篇反动文章，署名“梁效”、“髙路”和“北京大学、清华大学大批判组”（同一判决书）, cite: ws-1982-chi-qun-case, quote: true }
+  cites: [ws-1982-chi-qun-case]
+
+- id: 1976-04-12-zhou-rongxin
+  date: 1976-04-12
+  title: 教育部长周荣鑫被批斗致死
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 1975 年下半年，迟群、谢静宜按江青的意思搜集教育部长周荣鑫在各种会议上的讲话，11 月 22 日送给江青。1976 年 2 月迟群策划成立“教育部临时领导小组”，夺了周荣鑫的领导权。4 月 7 日晚迟群说“周荣鑫的黑后台倒了”，此后连续五天批斗，4 月 12 日周荣鑫昏倒，当晚去世。
+  people: [chi-qun, xie-jingyi, jiang-qing, zhang-chunqiao]
+  voices:
+    - { voice: judicial1980, text: 周荣鑫的黑后台倒了（迟群 1976 年 4 月 7 日晚在教育部说，1982 年迟群案判决书）, cite: ws-1982-chi-qun-case, quote: true }
+    - { voice: judicial1980, text: 四月十二日上午，周荣鑫被整得昏倒在地，当晚被迫害致死（同一判决书）, cite: ws-1982-chi-qun-case, quote: true }
+  cites: [ws-1982-chi-qun-case]
+
+- id: 1976-08-ding-sheng-shanghai
+  date: 1976-08
+  title: 丁盛到上海密谈，上海突击向民兵发枪
+  lane: army
+  weight: 2
+  place: 上海
+  summary: 1976 年 6 月，徐景贤、马天水、王秀珍密议“军队要出乱子”，决定向他们控制的民兵发枪。8 月南京军区司令员丁盛到上海，在延安饭店半夜密谈，说驻上海附近的六四五三部队“我指挥不动”。马天水随即批“立即发”，突击发给民兵枪七万四千二百二十支、炮三百门、弹药一千多万发。9 月 21 日张春桥在北京听取了徐景贤的汇报。
+  people: [ding-sheng, ma-tianshui, xu-jingxian, wang-xiuzhen, zhang-chunqiao]
+  voices:
+    - { voice: judicial1980, text: 我最不放心的是六四五三部队（丁盛，1980 年起诉书所引）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 马天水则亲笔批了“立即发”枪的命令，突击发给“民兵”枪七万四千二百二十支，炮三百门，各种弹药一千多万发（1982 年徐景贤案判决书）, cite: ws-1982-xu-jingxian-case, quote: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case]
+
+- id: 1976-10-08-shanghai-rebellion
+  date: 1976-10-08
+  end: 1976-10-12
+  title: 上海策划武装叛乱
+  lane: local
+  weight: 2
+  place: 上海
+  summary: 10 月 8 日徐景贤、王秀珍得知江青等被拘禁，决定“要干”，调集部署民兵三万三千五百名，设两个指挥点。9 日民兵负责人开会，集中各种枪炮二万七千余件、架设十五部电台。12 日准备发表“告全市、全国人民书”，策划停产罢工、封锁中央消息、沉船堵塞吴淞口，提出“还我江青”等口号。1982 年判决书说，由于中央采取措施和上海军民的斗争，叛乱“终未得逞”。
+  people: [xu-jingxian, wang-xiuzhen, zhu-yongjia]
+  voices:
+    - { voice: judicial1980, text: 拉出民兵来，打一个礼拜不行，打五天、三天也好，让全世界都知道（徐景贤、王秀珍紧急会议的决定，1980 年起诉书所引）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 由于党中央采取了强有力的措施和上海军民的坚决斗争，他们的武装叛乱终未得逞（1982 年徐景贤案判决书）, cite: ws-1982-xu-jingxian-case, quote: true }
+  cites: [ws-1980-indictment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case]
