@@ -1,0 +1,170 @@
+# 1970–1976 third batch: People's Daily items registered in research/manifests/m4-rmrb-2.yaml and web-m3-18.yaml
+
+- id: 1970-10-01-national-day
+  date: 1970-10-01
+  title: 1970 年国庆社论：“以毛主席为首、林副主席为副”
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 两报一刊国庆社论《继续革命　乘胜前进》概括了“一打三反”运动，称第三个五年计划“正在胜利完成”，号召“迎接第四届全国人民代表大会的召开”。社论通篇以“以毛主席为首、林副主席为副的党中央”为口径。四届人大直到 1975 年 1 月才召开。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: official1966, text: 广泛地开展了打击反革命分子、反对贪污盗窃、反对投机倒把、反对铺张浪费的“一打三反”运动（1970 年国庆两报一刊社论）, cite: rmrb-1970-10-01-national-day, quote: true }
+    - { voice: official1966, text: 我们要用新的胜利，迎接第四届全国人民代表大会的召开（同一社论）, cite: rmrb-1970-10-01-national-day, quote: true }
+  cites: [rmrb-1970-10-01-national-day]
+
+- id: 1970-12-25-snow
+  date: 1970-12-25
+  title: 《人民日报》刊登毛泽东、林彪与斯诺在天安门城楼上的照片
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 新华社报道毛泽东“最近”会见“美国友好人士埃德加·斯诺”，并配发 10 月 1 日国庆时毛泽东、林彪同斯诺在天安门城楼上的照片。报道全文只有几十字。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: doc, text: 毛主席、林副主席今年十月一日同斯诺在天安门城楼上（1970 年 12 月 25 日《人民日报》图片说明）, cite: rmrb-1970-12-25-snow, quote: true }
+  cites: [rmrb-1970-12-25-snow]
+
+- id: 1971-03-18-paris-commune
+  date: 1971-03-18
+  title: 巴黎公社百年：“警惕野心家、阴谋家从内部篡夺”
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 两报一刊编辑部长文《无产阶级专政胜利万岁》纪念巴黎公社一百周年，批评各国共产党走议会道路，并说无产阶级“特别要警惕”赫鲁晓夫、勃列日涅夫那样的“野心家、阴谋家”从内部篡夺领导，要在上层建筑“对资产阶级实行全面的专政”。
+  people: []
+  voices:
+    - { voice: official1966, text: 特别要警惕象赫鲁晓夫和勃列日涅夫那样的野心家、阴谋家从内部篡夺党和国家的领导（1971 年两报一刊编辑部文章）, cite: rmrb-1971-03-18-paris-commune, quote: true }
+    - { voice: official1966, text: 无产阶级政党如果不进行群众工作，不搞武装斗争，热衷于议会选举，那就只能麻痹群众，腐蚀自己（同一文章）, cite: rmrb-1971-03-18-paris-commune, quote: true }
+  cites: [rmrb-1971-03-18-paris-commune]
+
+- id: 1972-10-01-national-day
+  date: 1972-10-01
+  title: 1972 年国庆社论：同“过去采取敌视我国政策的国”谈判
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 国庆社论《夺取新的胜利》不再出现林彪，转而解释对外政策的变化：对第二中间地带国家也讲和平共处，“即使过去采取敌视我国政策的国”，只要愿意改变也同它谈判；对内要求干部“反对特殊化”。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 即使过去采取敌视我国政策的国，当它表示愿意改变这种政策，我们也同它谈判改善国家关系的问题（1972 年国庆社论）, cite: rmrb-1972-10-01-national-day, quote: true }
+    - { voice: official1966, text: 要模范地遵守党和国家的纪律，关心群众生活，与群众同甘苦，反对特殊化（同一社论）, cite: rmrb-1972-10-01-national-day, quote: true }
+  cites: [rmrb-1972-10-01-national-day]
+
+- id: 1973-07-01-new-members
+  date: 1973-07-01
+  title: 京沪津大批吸收新党员
+  lane: center
+  weight: 1
+  place: 北京、上海、天津
+  summary: 十大前夕，新华社报道文革以来北京市发展新党员六万多名，其中 76% 是工人、贫下中农，大多数在 35 岁以下，女性占 27%；天津纺织系统有六百多名新党员担任了厂、车间、班组领导。
+  people: []
+  voices:
+    - { voice: official1966, text: 北京市各条战线党组织无产阶级文化大革命以来发展的六万多名新党员（1973 年新华社电）, cite: rmrb-1973-07-01-new-members, quote: true }
+    - { voice: official1966, text: 其中百分之七十六是工人、贫下中农（同一报道）, cite: rmrb-1973-07-01-new-members, quote: true }
+  cites: [rmrb-1973-07-01-new-members]
+
+- id: 1973-08-10-zhang-tiesheng
+  date: 1973-08-10
+  title: 张铁生的“答卷”见报
+  lane: culture
+  weight: 2
+  place: 辽宁兴城
+  summary: 《辽宁日报》7 月 19 日刊登下乡知青、生产队长张铁生写在大学招生理化试卷背面的信，《人民日报》8 月 10 日加编者按转载。编者按说他“似乎交了‘白卷’”，却对招生路线问题交了“发人深省的答卷”，借此质疑文化考核的分数标准。此后招生中的文化考查被当作修正主义路线的表现批判。
+  people: [zhang-tiesheng]
+  voices:
+    - { voice: official1966, text: 他对物理化学这门课的考试，似乎交了“白卷”，然而对整个大学招生的路线问题，却交了一份颇有见解，发人深省的答卷（《辽宁日报》编者按，《人民日报》转载）, cite: rmrb-1973-08-10-zhang-tiesheng, quote: true }
+    - { voice: official1966, text: 不少地区曾程度不同地出现过沿袭旧高考的办法，搞突然袭击，闭卷考试，单纯考书本知识，凭分录取（1974 年高校招生请示报告）, cite: ws-1974-enrollment, quote: true }
+  cites: [rmrb-1973-08-10-zhang-tiesheng, ws-1974-enrollment]
+
+- id: 1973-12-28-huang-shuai
+  date: 1973-12-28
+  title: 黄帅的来信和日记：“反潮流”的小学生
+  lane: culture
+  weight: 2
+  place: 北京海淀
+  summary: 《北京日报》12 月 12 日发表中关村第一小学五年级学生黄帅的来信和日记摘抄，《人民日报》28 日转载，称这个 12 岁的小学生“以反潮流的革命精神”提出了“师道尊严”问题。日记中记录了老师对她的批评，其中一句是“你在这次斗争中，当不了张铁生那样的人物”。
+  people: [huang-shuai, zhang-tiesheng]
+  voices:
+    - { voice: official1966, text: 这个十二岁的小学生以反潮流的革命精神，提出了教育革命中的一个大问题（《北京日报》编者按，《人民日报》转载）, cite: rmrb-1973-12-28-huang-shuai, quote: true }
+    - { voice: doc, text: 你在这次斗争中，当不了张铁生那样的人物（黄帅日记所记老师的话）, cite: rmrb-1973-12-28-huang-shuai, quote: true }
+  cites: [rmrb-1973-12-28-huang-shuai]
+
+- id: 1974-01-30-antonioni
+  date: 1974-01-30
+  title: 批判安东尼奥尼的《中国》
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 《人民日报》评论员文章批判意大利导演安东尼奥尼的纪录片《中国》。文章说他 1972 年春作为客人来华，到过北京、上海、南京、苏州和林县，三个半小时的影片“攻击我国领导人，丑化社会主义新中国”，称之为“严重的反华事件”。
+  people: []
+  voices:
+    - { voice: official1966, text: 安东尼奥尼是在一九七二年春作为我们的客人到中国来的（1974 年《人民日报》评论员文章）, cite: rmrb-1974-01-30-antonioni, quote: true }
+    - { voice: official1966, text: 这个影片的出现，是一个严重的反华事件，是对中国人民的猖狂挑衅（同一文章）, cite: rmrb-1974-01-30-antonioni, quote: true }
+  cites: [rmrb-1974-01-30-antonioni]
+
+- id: 1974-04-10-deng-un
+  date: 1974-04-10
+  title: 邓小平在联大特别会议上阐述“三个世界”
+  lane: intl
+  weight: 3
+  place: 纽约
+  summary: 复出一年的邓小平率团出席联合国大会第六届特别会议，在一般性辩论中说世界存在“三个世界”：美苏是第一世界，亚非拉发展中国家是第三世界，介于两者之间的发达国家是第二世界；中国属于第三世界，“现在不是，将来也不做超级大国”。
+  people: [deng-xiaoping, mao-zedong]
+  voices:
+    - { voice: official1966, text: 美国、苏联是第一世界。亚非拉发展中国家和其他地区的发展中国家，是第三世界。处于这两者之间的发达国家是第二世界（1974 年 4 月 10 日邓小平联大发言）, cite: rmrb-1974-04-11-deng-un, quote: true }
+    - { voice: official1966, text: 如果中国有朝一日变了颜色，变成一个超级大国……那么，世界人民就应当给中国戴上一顶社会帝国主义的帽子（同一发言）, cite: rmrb-1974-04-11-deng-un, quote: true }
+  cites: [rmrb-1974-04-11-deng-un]
+
+- id: 1974-08-04-xiaojinzhuang
+  date: 1974-08-04
+  title: 《小靳庄十件新事》：农村政治夜校与赛诗会
+  lane: mass
+  weight: 2
+  place: 天津宝坻
+  summary: 新华社长篇通讯介绍天津宝坻县小靳庄大队（101 户、582 人）的“十件新事”：政治夜校、赛诗会等。通讯说批林批孔以来大队办了六次大型赛诗会，写诗六百多首，“全村有一百多人经常参加创作”。
+  people: []
+  voices:
+    - { voice: official1966, text: 这个只有一百零一户、五百八十二人的村庄（1974 年新华社通讯）, cite: rmrb-1974-08-04-xiaojinzhuang, quote: true }
+    - { voice: official1966, text: 运动开展以来，大队举办了六次大型赛诗会，当场献诗的有一百七十多人，写出诗歌六百多首（同一通讯）, cite: rmrb-1974-08-04-xiaojinzhuang, quote: true }
+  cites: [rmrb-1974-08-04-xiaojinzhuang]
+
+- id: 1975-09-15-dazhai-conference
+  date: 1975-09-15
+  end: 1975-10-19
+  title: 全国农业学大寨会议：普及大寨县
+  lane: econ
+  weight: 2
+  place: 山西昔阳、北京
+  summary: 国务院召开的会议在昔阳开幕，邓小平代表中央、国务院作报告，江青也讲了话，华国锋宣布开幕、陈永贵致开幕词，3700 多人出席；10 月 19 日在北京闭幕时 7000 多人出席。会议提出普及大寨县、1980 年基本实现农业机械化。社论《普及大寨县》说全国已有三百多个学大寨先进县。
+  people: [deng-xiaoping, jiang-qing, hua-guofeng, chen-yonggui, yao-wenyuan, chen-xilian, wu-guixian]
+  voices:
+    - { voice: official1966, text: 中共中央副主席、国务院副总理邓小平代表党中央、国务院向大会致以热烈的祝贺（1975 年 9 月新华社电）, cite: rmrb-1975-09-16-dazhai-open, quote: true }
+    - { voice: official1966, text: 讨论了普及大寨县和一九八○年基本上实现农业机械化的问题（10 月闭幕报道）, cite: rmrb-1975-10-21-dazhai-close, quote: true }
+    - { voice: official1966, text: 不仅大寨式的社队遍及全国，而且涌现出三百多个学大寨的先进县（社论《普及大寨县》）, cite: rmrb-1975-10-21-puji-dazhai, quote: true }
+  cites: [rmrb-1975-09-16-dazhai-open, rmrb-1975-10-21-dazhai-close, rmrb-1975-10-21-puji-dazhai]
+
+- id: 1976-03-10-fanan
+  date: 1976-03-10
+  title: 社论《翻案不得人心》
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 《人民日报》社论公布毛泽东的话“翻案不得人心”，说“去年夏季前后”刮起右倾翻案风，矛头对着毛泽东，“从清华大学开始的革命大辩论”给了迎头痛击；要集中批判“那个不肯改悔的走资派”，社论没有点名。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 伟大领袖毛主席最近指出：“翻案不得人心。”（1976 年 3 月 10 日《人民日报》社论）, cite: rmrb-1976-03-10-fanan, quote: true }
+    - { voice: official1966, text: 从清华大学开始的革命大辩论，给右倾翻案风以迎头痛击（同一社论）, cite: rmrb-1976-03-10-fanan, quote: true }
+  cites: [rmrb-1976-03-10-fanan]
+
+- id: 1976-05-16-wenge-tenth
+  date: 1976-05-16
+  title: 文革十周年社论：《文化大革命永放光芒》
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 两报一刊编辑部纪念《五一六通知》十周年，此时已公开点名“批判邓小平”，并称文化大革命“不搞是不行的”。四个多月后毛泽东去世，五个月后“四人帮”被捕。
+  people: [deng-xiaoping, liu-shaoqi, mao-zedong]
+  voices:
+    - { voice: official1966, text: 今天，在批判邓小平、反击右倾翻案风的斗争取得伟大胜利的时候，热烈庆祝文化大革命十周年（1976 年两报一刊编辑部文章）, cite: rmrb-1976-05-16-wenge, quote: true }
+  cites: [rmrb-1976-05-16-wenge]

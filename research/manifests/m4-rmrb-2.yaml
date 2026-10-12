@@ -1,0 +1,117 @@
+# M4 第二批《人民日报》来源（govopendata 转录）。date 为见报日。
+web:
+  - id: rmrb-1970-10-01-national-day
+    title: "继续革命　乘胜前进——庆祝中华人民共和国成立二十一周年"
+    date: 1970-10-01
+    author: "《人民日报》、《红旗》杂志、《解放军报》"
+    kind: editorial
+    alias: "1970 年国庆两报一刊社论《继续革命　乘胜前进》"
+    url: https://cn.govopendata.com/renminribao/1970/10/1/1/
+    via: "《人民日报》1970-10-01 第 1 版（govopendata 转录）"
+    article: "继续革命"
+  - id: rmrb-1970-12-25-snow
+    title: "毛泽东主席会见美国友好人士埃德加·斯诺"
+    date: 1970-12-25
+    kind: news
+    alias: "1970 年《人民日报》报道毛泽东会见斯诺"
+    url: https://cn.govopendata.com/renminribao/1970/12/25/1/
+    via: "《人民日报》1970-12-25 第 1 版（govopendata 转录）"
+    article: "毛泽东主席会见"
+  - id: rmrb-1971-03-18-paris-commune
+    title: "无产阶级专政胜利万岁——纪念巴黎公社一百周年"
+    date: 1971-03-18
+    kind: editorial
+    alias: "1971 年两报一刊《无产阶级专政胜利万岁》"
+    url: https://cn.govopendata.com/renminribao/1971/3/18/1/
+    via: "《人民日报》1971-03-18 第 1 版（govopendata 转录）"
+    article: "无产阶级专政胜利万岁"
+  - id: rmrb-1972-10-01-national-day
+    title: "夺取新的胜利——庆祝中华人民共和国成立二十三周年"
+    date: 1972-10-01
+    kind: editorial
+    alias: "1972 年国庆社论《夺取新的胜利》"
+    url: https://cn.govopendata.com/renminribao/1972/10/1/1/
+    via: "《人民日报》1972-10-01 第 1 版（govopendata 转录）"
+    article: "夺取新的胜利"
+  - id: rmrb-1973-07-01-new-members
+    title: "在毛主席的无产阶级建党路线指引下　北京、上海、天津大批先进分子被吸收入党"
+    date: 1973-07-01
+    kind: news
+    alias: "1973 年《人民日报》报道京沪津大批吸收新党员"
+    url: https://cn.govopendata.com/renminribao/1973/7/1/1/
+    via: "《人民日报》1973-07-01 第 1 版（govopendata 转录）"
+    article: "在毛主席的无产阶级建党路线指引下"
+  - id: rmrb-1974-01-30-antonioni
+    title: "恶毒的用心　卑劣的手法——批判安东尼奥尼拍摄的题为《中国》的反华影片"
+    date: 1974-01-30
+    kind: editorial
+    alias: "1974 年《人民日报》评论员批判安东尼奥尼《中国》"
+    url: https://cn.govopendata.com/renminribao/1974/1/30/2/
+    via: "《人民日报》1974-01-30 第 2 版（govopendata 转录）"
+    article: "恶毒的用心"
+  - id: rmrb-1974-01-30-repatriate
+    title: "新华社受权公布　中国政府决定分批遣返被俘的南越西贡军队人员"
+    date: 1974-01-30
+    author: "新华社"
+    kind: news
+    alias: "1974 年新华社受权公布遣返西沙战俘"
+    url: https://cn.govopendata.com/renminribao/1974/1/30/1/
+    via: "《人民日报》1974-01-30 第 1 版（govopendata 转录）"
+    article: "新华社受权公布"
+  - id: rmrb-1974-04-11-deng-un
+    title: "中华人民共和国代表团团长邓小平在联大特别会议上的发言"
+    date: 1974-04-11
+    author: "邓小平"
+    kind: speech
+    alias: "邓小平联大特别会议发言（1974，“三个世界”）"
+    url: https://cn.govopendata.com/renminribao/1974/4/11/1/
+    via: "《人民日报》1974-04-11 第 1 版（govopendata 转录）"
+    article: "中华人民共和国代表团团长邓小平"
+  - id: rmrb-1974-08-04-xiaojinzhuang
+    title: "小靳庄十件新事"
+    date: 1974-08-04
+    kind: news
+    alias: "《小靳庄十件新事》（1974）"
+    url: https://cn.govopendata.com/renminribao/1974/8/4/1/
+    via: "《人民日报》1974-08-04 第 1 版（govopendata 转录）"
+    article: "小靳庄十件新事"
+  - id: rmrb-1975-09-16-dazhai-open
+    title: "在毛主席、党中央的亲切关怀下　全国农业学大寨会议在昔阳隆重开幕"
+    date: 1975-09-16
+    kind: news
+    alias: "1975 年《人民日报》报道全国农业学大寨会议开幕"
+    url: https://cn.govopendata.com/renminribao/1975/9/16/1/
+    via: "《人民日报》1975-09-16 第 1 版（govopendata 转录）"
+    article: "在毛主席、党中央的亲切关怀下"
+  - id: rmrb-1975-10-21-dazhai-close
+    title: "全国农业学大寨会议在北京胜利闭幕"
+    date: 1975-10-21
+    kind: news
+    alias: "1975 年《人民日报》报道全国农业学大寨会议闭幕"
+    url: https://cn.govopendata.com/renminribao/1975/10/21/1/
+    via: "《人民日报》1975-10-21 第 1 版（govopendata 转录）"
+    article: "全国农业学大寨会议在北京胜利闭幕"
+  - id: rmrb-1975-10-21-puji-dazhai
+    title: "普及大寨县"
+    date: 1975-10-21
+    kind: editorial
+    alias: "1975 年《人民日报》社论《普及大寨县》"
+    url: https://cn.govopendata.com/renminribao/1975/10/21/1/
+    via: "《人民日报》1975-10-21 第 1 版（govopendata 转录）"
+    article: "普及大寨县"
+  - id: rmrb-1976-03-10-fanan
+    title: "翻案不得人心"
+    date: 1976-03-10
+    kind: editorial
+    alias: "1976 年《人民日报》社论《翻案不得人心》"
+    url: https://cn.govopendata.com/renminribao/1976/3/10/1/
+    via: "《人民日报》1976-03-10 第 1 版（govopendata 转录）"
+    article: "翻案不得人心"
+  - id: rmrb-1976-05-16-wenge
+    title: "文化大革命永放光芒——纪念中共中央一九六六年五月十六日《通知》十周年"
+    date: 1976-05-16
+    kind: editorial
+    alias: "1976 年两报一刊《文化大革命永放光芒》"
+    url: https://cn.govopendata.com/renminribao/1976/5/16/1/
+    via: "《人民日报》1976-05-16 第 1 版（govopendata 转录）"
+    article: "文化大革命永放光芒"
