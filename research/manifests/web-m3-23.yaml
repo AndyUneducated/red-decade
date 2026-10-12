@@ -1,0 +1,190 @@
+# M3 人物第 23 批（文化组、写作班子与“文艺革命”的新贵）：刘庆棠、浩亮（钱浩梁）、王曼恬、金敬迈、鲁瑛、穆欣、杨荣国、周一良、汤一介、李希凡。
+# tools/fetch-web.ts。未满 50 年的网页只保留 keep 段落。
+wikisource:
+  - id: ws-1983-liu-qingtang-case
+    title: 刘庆棠反革命案北京市人民检察院分院起诉书
+    date: 1983-11-02
+    author: 北京市人民检察院分院、北京市中级人民法院
+    kind: judicial
+    alias: 刘庆棠案起诉书与判决书（1983）
+    note: 页面收起诉书（〈83〉京检分审字第55号）与 1983-11-02 北京市中级人民法院判决书；日期取判决书落款。
+web:
+  - id: ycwb-2004-liu-qingtang
+    title: 刘庆棠蒙太奇
+    date: 2004-10-12
+    author: 李小骥
+    kind: article
+    alias: 《新快报》《刘庆棠蒙太奇》（2004）
+    url: https://web.archive.org/web/20070930023713id_/http://www.ycwb.com/gb/content/2004-10/12/content_774108.htm
+    via: 金羊网转载《新快报》（Wayback 2007-09-30）
+    excerpt: true
+    keep: ["1948年2月，正值残冬", "1971年，39岁的刘庆棠", "1972年春天，刘庆棠参加了", "1974年，四届人大召开", "1956年，刚从南美洲演出归来", "靠了得天独厚的身体条件", "这年12月，林默涵召集", "1966年5月，“文革”开始", "但，人算不如天算", "2001年10月某日"]
+  - id: thepaper-2020-qian-haoliang
+    title: 钱浩梁去世，始终对舞台充满感情，与妻子恩爱情深
+    date: 2020-09-07
+    author: DJ雅清
+    kind: obituary
+    alias: 澎湃湃客《钱浩梁去世》（2020）
+    url: https://www.thepaper.cn/newsDetail_forward_9033538
+    via: 澎湃新闻湃客（原载公众号“老电影的那些事”）
+    excerpt: true
+    keep: ["昨天（2020年9月3日）下午", "1981年，在经过了5年的隔离审查之后", "钱浩梁1934年出生于上海", "1964年，中国京剧院排演现代京剧", "而钱浩梁天生高大魁梧", "现代京剧样板戏《红灯记》很快", "然而在文化部副部长的位置上", "1983年，在钱浩梁几乎", "1988年12月6日", "可是没想到，1992年1月"]
+  - id: ifeng-qian-haoliang
+    title: 从“李玉和”到文化部副部长 《红灯记》主演钱浩梁的沉浮人生
+    date: 2021
+    author: 凤凰网大风号
+    kind: article
+    alias: 凤凰网《钱浩梁的沉浮人生》
+    url: https://feng.ifeng.com/c/7nkvWg3aP6C
+    via: 凤凰网大风号
+    excerpt: true
+    keep: ["钱浩梁在1950年进入中国实验戏曲学校学习时", "一次，江青来看《红灯记》B组的演出", "1966年“文化大革命”开始后，和当时众多人一样", "但是，钱浩梁本质上还是一个厚道人", "最能说明问题的是，钱浩梁决不批斗", "1969年九大召开前", "1972年，钱浩梁的地位又有所上升", "钱浩梁本人还是有自知之明的", "1976年10月，“四人帮”被粉碎", "1981年年末，迎着隆冬"]
+  - id: mzd-1975-11-18-wang-mantian
+    title: 对王曼恬要求免掉文化部工作来信的批语
+    date: 1975-11-18
+    author: 毛泽东
+    kind: letter
+    alias: 毛泽东《对王曼恬要求免掉文化部工作来信的批语》（1975）
+    url: http://www.mzdthought.com/html/mxzz/mzdwg/13/2005/1129/8287.html
+    via: 晶牛毛泽东思想网转录《建国以来毛泽东文稿》第十三册（含编者注）
+    start: （一九七五年十一月十八日）
+    end: 中央办公厅主任。
+  - id: ipk-zhang-zhihong-suicides
+    title: 文革结束后自杀的那些人原本都可以不死
+    date: 2021
+    author: 张志鸿
+    kind: article
+    alias: 张志鸿《文革结束后自杀的那些人原本都可以不死》
+    url: https://web.archive.org/web/2024id_/https://ipkmedia.com/290658/
+    via: 光传媒（Wayback）
+    excerpt: true
+    keep: ["王曼恬之死", "天津市委书记（相当于现在的市委副书记）、市革委会副主任（相当于副市长）王曼恬自缢", "王曼恬，湖南湘乡人", "上世纪三十年代，她在上海新华艺专", "1955年，时任天津市文化局局长的鲁藜", "1968年2月，王曼恬给江青写信", "2月21日深夜，周恩来、陈伯达", "王曼恬成了功臣", "据吴德回忆：当年他兼任国务院文化组组长", "吴德说，王曼恬在文化组表现比较好", "粉碎“四人帮”后，王曼恬成为清查", "天津市委将情况报告中央", "1月18日至26日，市文化局", "1月27日晚21时40分", "据调查，王曼恬自1968年2月"]
+  - id: chinawriter-2014-jin-jingmai
+    title: 金敬迈与《欧阳海之歌》
+    date: 2014-04-01
+    author: 冯乔
+    kind: article
+    alias: 冯乔《金敬迈与〈欧阳海之歌〉》（2014）
+    url: http://www.chinawriter.com.cn/wxpl/2014/2014-04-01/198436.html
+    via: 中国作家网
+    excerpt: true
+    keep: ["金敬迈，1930年生，金陵南京人", "1963年，金敬迈到了衡阳", "1965年7月，《欧阳海之歌》在上海", "《欧阳海之歌》轰动全国", "1967年4月初，金敬迈接到总政通知", "1967年5月1日，毛泽东、林彪", "1967年5月23日，戚本禹宣布", "文艺口要点名批判", "金敬迈当了123天京城大官", "先说第一项罪名", "第二项罪名", "就这样，金敬迈被投入监狱", "1975年5月19日，监狱里的人", "金敬迈走出监狱的时候", "1976年10月，金敬迈回到广州", "邓小平在1978年发话了"]
+  - id: chinawriter-2020-jin-jingmai
+    title: 军旅作家、《欧阳海之歌》作者金敬迈在广州逝世
+    date: 2020-03-17
+    author: 吴波
+    kind: obituary
+    alias: 《广州日报》《金敬迈在广州逝世》（2020）
+    url: https://www.chinawriter.com.cn/n1/2020/0317/c403994-31635531.html
+    via: 中国作家网转载《广州日报》
+    excerpt: true
+    keep: ["于2020年3月15日15时20分在广州逝世", "金敬迈1930年出生于江苏南京"]
+  - id: ipk-qian-jiang-lu-ying
+    title: 鲁瑛，悲剧人物的红色前半程（之一）
+    date: 2019
+    author: 钱江
+    kind: article
+    alias: 钱江《鲁瑛，悲剧人物的红色前半程》
+    url: https://web.archive.org/web/2024id_/https://ipkmedia.com/150296/
+    via: 光传媒（Wayback；钱江的鲁瑛访谈系列）
+    excerpt: true
+    keep: ["鲁瑛（1927—2007），革命战争年代", "“文革”爆发的1966年6月作为", "1976年10月“粉碎四人帮”之后，中央很快", "一开始，我只是远远观察他", "2005~2007期间，我登门"]
+  - id: china-2010-mu-xin
+    title: 穆欣同志遗体告别仪式在北京举行
+    date: 2010-09-05
+    author: 中国网
+    kind: obituary
+    alias: 中国网《穆欣同志遗体告别仪式在北京举行》（2010）
+    url: https://web.archive.org/web/20150225171301id_/http://www.china.com.cn/news/txt/2010-09/05/content_20866529.htm
+    via: 中国网（Wayback 2015-02-25）
+    excerpt: true
+    keep: ["穆欣同志因病于2010年9月3日", "穆欣同志1920年7月11日生于"]
+  - id: ipk-mu-xin-qincheng
+    title: 秦城监狱 6831 号犯人
+    date: 2014-11-07
+    author: 穆欣
+    kind: memoir
+    alias: 穆欣《秦城监狱 6831 号犯人》
+    url: https://web.archive.org/web/2024id_/https://www.aboluowang.com/2014/1107/468440.html
+    via: 阿波罗新闻网转载（Wayback）
+    excerpt: true
+    keep: ["作者是首任中央文革办事小组组长穆欣所写", "1968年1月13日上午，穿着空军制服", "监狱的气氛是静谧的", "曾见一份调查秦城监狱当局", "将近8年间，只在1969、1971和1972年", "又过两年，1971年5月下旬"]
+  - id: rmrb-1973-08-07-yang-rongguo
+    title: 孔子——顽固地维护奴隶制的思想家
+    date: 1973-08-07
+    author: 杨荣国
+    kind: article
+    alias: 杨荣国《孔子——顽固地维护奴隶制的思想家》（1973）
+    url: https://cn.govopendata.com/renminribao/1973/08/07/2/
+    via: 《人民日报》1973-08-07 第 2 版（govopendata 转录）
+    article: 孔子——顽固地维护奴隶制的思想家
+  - id: ifeng-2007-yang-rongguo
+    title: 沉浮于学术与政治之间的杨荣国
+    date: 2007-10-11
+    author: 凤凰网
+    kind: article
+    alias: 凤凰网《沉浮于学术与政治之间的杨荣国》（2007）
+    url: https://news.ifeng.com/history/2/200710/1011_336_254176.shtml
+    via: 凤凰网历史（原载《历史学家茶座》第 8 辑）
+    excerpt: true
+    keep: ["杨荣国，湖南长沙人。在抗日战争中", "当时杨荣国已是知名的“左派”学者", "早在“文革”后期的“批孔”之前", "在“文革”初期，杨荣国曾被隔离审查", "然而出人意料的是，在随后的", "如果说杨荣国此前的“批孔”", "正所谓“此一时也彼一时也”", "1978年8月，杨荣国在广州患癌症", "1982年6月，在杨荣国病逝4年之后"]
+  - id: zhdsb-2014-yang-rongguo
+    title: 今天或许有必要重提杨荣国先生
+    date: 2014-03-05
+    author: 中华读书报
+    kind: article
+    alias: 《中华读书报》《今天或许有必要重提杨荣国先生》（2014）
+    url: https://epaper.gmw.cn/zhdsb/html/2014-03/05/nw.D110000zhdsb_20140305_2-07.htm?div=-1
+    via: 光明网《中华读书报》电子版
+    excerpt: true
+    keep: ["新中国成立后，杨荣国先生被任命为", "人们对杨荣国先生的误解", "第一，“文革”初期，杨先生", "第二，杨先生的“批孔”或“抑孔”", "第三，现在人们说到“文革”中的杨先生"]
+  - id: aisixiang-song-chengyou-zhou-yiliang
+    title: 周一良先生的曲折人生路
+    date: 2017
+    author: 宋成有
+    kind: article
+    alias: 宋成有《周一良先生的曲折人生路》
+    url: https://www.aisixiang.com/data/169406.html
+    via: 爱思想
+    excerpt: true
+    keep: ["1939年周先生获得哈佛燕京学社奖学金", "周先生在晚年的回忆中", "1952年秋院系调整后", "这一期间，虽经历过“三反”", "自1966—1978年“文革”", "1967年春夏，北大成为", "1968年7月工宣队、军宣队进驻北大", "1973年9月，由“四人帮”的得力干将", "“梁效”由写作组和研究组", "1976年10月，“四人帮”被一举粉碎", "1979年，周先生重新回到历史系"]
+  - id: thepaper-2014-tang-yijie
+    title: 北大教授汤一介去世，将哲学研究脱离政治
+    date: 2014-09-10
+    author: 澎湃新闻
+    kind: obituary
+    alias: 澎湃新闻《北大教授汤一介去世》（2014）
+    url: http://www.thepaper.cn/newsDetail_forward_1266104
+    via: 澎湃新闻
+    excerpt: true
+    keep: ["汤一介1927年2月16日生于天津", "身为为1949年入党的老党员", "1958年，夫人乐黛云被划为右派", "1973年，汤一介被选入梁效班子", "毛泽东去世、四人帮倒台后，被隔离审查", "“四人帮”垮台后，汤一介被隔离审查"]
+  - id: pku-2014-tang-yijie
+    title: 书生一介
+    date: 2014-09-21
+    author: 南方人物周刊
+    kind: article
+    alias: 《南方人物周刊》《书生一介》（2014）
+    url: https://news.pku.edu.cn/info/5641/779571.htm
+    via: 北京大学新闻网转载
+    excerpt: true
+    keep: ["这一年（1980年）的夏天", "汤一介并非不问世事。1985年", "（1973年，）毛泽东提出要调一批北大教授", "1974年底的时候，江青到北大来", "吃饭的时候，我不小心提到斯大林", "在1983年开始的整党中", "汤一介曾告诉媒体"]
+  - id: xinhua-2018-li-xifan
+    title: 著名红学家李希凡逝世
+    date: 2018-10-29
+    author: 新华社
+    kind: obituary
+    alias: 新华社《著名红学家李希凡逝世》（2018）
+    url: https://www.xinhuanet.com/politics/2018-10/29/c_129981624.htm
+    via: 新华网
+    excerpt: true
+    keep: ["新华社北京10月29日电", "李希凡1927年12月11日生于北京通州", "1954年，李希凡和蓝翎共同撰写"]
+  - id: sdu-li-xifan
+    title: 李希凡：从“小人物”到红学名家
+    date: 2001-11-30
+    author: 王静
+    kind: article
+    alias: 《光明日报》《李希凡：从“小人物”到红学名家》（2001）
+    url: https://www.view.sdu.edu.cn/info/1018/39757.htm
+    via: 山东大学新闻网转载《光明日报》2001-11-30 A2 版
+    excerpt: true
+    keep: ["李希凡，1927年生，原名李锡范", "1949年夏青岛解放后", "在不断的研究探索中", "李希凡自己知道其中详细情况", "随着形势的发展，后来《文艺报》主编冯雪峰", "“文革”中，李希凡并未因"]

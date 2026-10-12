@@ -237,3 +237,31 @@
 - { a: mao-zedong, b: wang-guofan, type: patron, from: 1955, note: 为“穷棒子社”写按语，称它“是我们整个国家的形象”, cite: thepaper-2024-wang-guofan }
 - { a: zhou-enlai, b: lv-yulan, type: protect, from: 1967, note: 年谱说她挨批斗时周恩来派“支左”部队，她才“幸免于难”, cite: hbds-lv-yulan, verify: true }
 - { a: mao-zedong, b: shi-chuanxiang, type: link, from: 1966-10-01, note: 国庆节在天安门城楼上与他握手, cite: rmrb-1978-07-06-shi-chuanxiang }
+# batch 23
+- { a: jiang-qing, b: liu-qingtang, type: patron, from: 1968, note: 把“5·16兵团文艺方面军”假案报给她，受到赞赏，被指定负责文艺界“清查”, cite: ws-1983-liu-qingtang-case }
+- { a: jiang-qing, b: qian-haoliang, type: patron, from: 1964, note: 让他取代李少春演 A 组李玉和；1972 年提出由“于会泳、浩亮、刘庆棠他们主持文化部的工作”, cite: ifeng-qian-haoliang }
+- { a: liu-qingtang, b: yu-huiyong, type: ally, from: 1975-11-02, note: 与浩亮在北海公园静憩轩秘密聚会，传达王洪文“准备斗争”的话, cite: ws-1983-liu-qingtang-case }
+- { a: liu-qingtang, b: qian-haoliang, type: ally, from: 1975-11-02, note: 北海公园静憩轩聚会，随后一起到清华找迟群索取材料, cite: ws-1983-liu-qingtang-case }
+- { a: wang-hongwen, b: liu-qingtang, type: patron, from: 1975-10, note: 在上海密谈，让他回京转告于会泳、浩亮“要吃好饭，睡好觉，准备斗争”, cite: ws-1983-liu-qingtang-case }
+- { a: liu-qingtang, b: jin-jingmai, type: persecute, from: 1968-08, note: 制造“5·16兵团文艺方面军”假案，诬他为“司令”，被逮捕关押五年, cite: ws-1983-liu-qingtang-case }
+- { a: qi-benyu, b: jin-jingmai, type: patron, from: 1967-05-23, note: 宣布全国文艺口由他负责, cite: chinawriter-2014-jin-jingmai }
+- { a: jiang-qing, b: jin-jingmai, type: persecute, from: 1967-06, note: 撞见他请示收集 1930 年代蓝苹的电影资料，后以“收集中央领导同志黑材料”罪名关押, cite: chinawriter-2014-jin-jingmai }
+- { a: xu-shiyou, b: jin-jingmai, type: protect, from: 1978, note: 在广州军区司令部大礼堂宣布给他彻底平反, cite: chinawriter-2014-jin-jingmai }
+- { a: wang-mantian, b: wang-hairong, type: link, note: 姑侄, cite: ipk-zhang-zhihong-suicides }
+- { a: mao-zedong, b: wang-mantian, type: link, from: 1975-11-18, note: 表侄女；批示同意她辞去文化部工作回天津, cite: mzd-1975-11-18-wang-mantian }
+- { a: wang-mantian, b: jiang-qing, type: ally, from: 1968-02, note: 写信举报天津“黑会”“黑戏”，引出“二二一”事件；此后给她写信 33 封, cite: ipk-zhang-zhihong-suicides }
+- { a: wu-de, b: wang-mantian, type: patron, from: 1971, note: 兼任国务院文化组组长时请她到文化组兼职，以牵制于会泳等人, cite: ipk-zhang-zhihong-suicides, verify: true }
+- { a: wan-li, b: wang-mantian, type: link, from: 1971, note: 向吴德建议把她调到文化组, cite: ipk-zhang-zhihong-suicides, verify: true }
+- { a: xie-xuegong, b: wang-mantian, type: attack, from: 1977-01, note: 天津清查中对她监护，要求看护小组“政治上要划清界限”, cite: ipk-zhang-zhihong-suicides }
+- { a: yao-wenyuan, b: lu-ying, type: subordinate, from: 1976-03, note: 指使他派人到天安门广场搜集、编写材料, cite: ws-1980-indictment }
+- { a: wang-hongwen, b: lu-ying, type: subordinate, from: 1976-01, note: 与姚文元指使他派人到各部门和七省搜集诬陷领导干部的材料, cite: ws-1980-indictment }
+- { a: jiang-qing, b: mu-xin, type: persecute, from: 1967-09, note: 诬陷他是“特务”，关进秦城八年, cite: ipk-mu-xin-qincheng }
+- { a: chi-qun, b: zhou-yiliang, type: subordinate, from: 1973-09, note: 主持成立两校大批判组“梁效”，他在注释组, cite: aisixiang-song-chengyou-zhou-yiliang }
+- { a: xie-jingyi, b: zhou-yiliang, type: subordinate, from: 1973-09, note: 主持成立两校大批判组“梁效”，他在注释组, cite: aisixiang-song-chengyou-zhou-yiliang }
+- { a: zhou-yiliang, b: chen-yinke, type: attack, from: 1958, note: 业师；“史学革命”中按系党总支布置在会上批判他的史观, cite: aisixiang-song-chengyou-zhou-yiliang }
+- { a: zhou-yiliang, b: nie-yuanzi, type: attack, from: 1967, note: 在“井冈山兵团”集会上登台批判她压制不同意见, cite: aisixiang-song-chengyou-zhou-yiliang }
+- { a: chi-qun, b: tang-yijie, type: subordinate, from: 1973, note: “梁效”成员，组长一级, cite: pku-2014-tang-yijie }
+- { a: tang-yijie, b: feng-youlan, type: attack, from: 1957, note: 写文章批判他的“抽象继承法”和《中国哲学史新编》, cite: thepaper-2014-tang-yijie }
+- { a: tang-yijie, b: zhou-yiliang, type: ally, from: 1974-01, note: 批林批孔大会上他主讲材料，周一良解释典故, cite: aisixiang-song-chengyou-zhou-yiliang }
+- { a: mao-zedong, b: li-xifan, type: patron, from: 1954, note: 读到他与蓝翎的文章，称他们为“小人物”；不赞成他去研究所，说“那不是战斗的岗位”, cite: sdu-li-xifan }
+- { a: zhou-yang, b: li-xifan, type: link, from: 1954, note: 回信转达毛泽东的意见，他因此进了人民日报社, cite: sdu-li-xifan }

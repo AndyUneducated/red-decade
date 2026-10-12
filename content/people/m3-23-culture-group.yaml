@@ -1,0 +1,528 @@
+# M3 people round 2, batch 23: 文化组、写作班子与“文艺革命”的新贵。样板戏演员出身的副部长（刘庆棠、浩亮）、毛泽东的亲戚（王曼恬）、
+# 一度主管文艺口后入狱的作家（金敬迈）、两大报的文革负责人（鲁瑛、穆欣），以及批孔与“梁效”的学者（杨荣国、周一良、汤一介）和 1954 年的“小人物”李希凡。
+# Texts: 1983 年刘庆棠案起诉书与判决书，1980 年起诉书与 1981 年判决书（鲁瑛），1973 年《人民日报》杨荣国批孔文，《建国以来毛泽东文稿》1975 年批语（含编者注）；
+# 《新快报》刘庆棠文，澎湃、凤凰网钱浩梁文，张志宏王曼恬文，冯乔金敬迈文与《广州日报》讣闻，钱江的鲁瑛访谈引言，中国网穆欣讣告与穆欣狱中回忆，
+# 《历史学家茶座》与《中华读书报》杨荣国文，宋成有周一良文，澎湃与北大新闻网汤一介文，新华社李希凡讣闻与 2001 年《光明日报》李希凡文。
+
+- id: liu-qingtang
+  name: 刘庆棠
+  born: 1932
+  tier: 3
+  role1966: 中央芭蕾舞团演员，《红色娘子军》洪常青扮演者
+  pinyin: Liú Qìngtáng
+  gender: m
+  birthplace: 辽宁盖县
+  party: 中国共产党
+  positions:
+    - { title: 副团长、党委书记, orgName: 中央芭蕾舞团, from: 1966-05, to: 1976-10, cite: ycwb-2004-liu-qingtang, verify: true }
+    - { title: 副组长, orgName: 国务院文化组, from: 1971, to: 1975-01, cite: ycwb-2004-liu-qingtang }
+    - { title: 副部长, orgName: 文化部, from: 1975-01, to: 1976-10, cite: ws-1983-liu-qingtang-case, verify: true }
+  bio: 辽宁盖县人，1948 年进入中共辽南省委办的白山艺术学校，1956 年 24 岁时到北京舞蹈学校改学芭蕾，1959 年成为《天鹅湖》第一个中国籍“王子”，1964 年在芭蕾舞剧《红色娘子军》中演党代表洪常青。文革中任芭蕾舞团副团长、党委书记，1968–1969 年制造“5·16兵团文艺方面军”假案，牵连 374 人、6 人被逼自杀。1971 年任国务院文化组副组长，1975 年任文化部副部长，1976 年参与拍摄“与走资派作斗争”的电影。1976 年 10 月被隔离审查，1982 年被捕，1983 年被判有期徒刑十七年。
+  life:
+    - h: 从白山艺校到“王子”
+      from: 1948-02
+      to: 1964
+      text: |
+        1948 年 2 月考入中共辽南省委开办的白山艺术学校。1956 年从南美洲演出归来后，坚持要去北京舞蹈学校新开设的芭蕾舞专业，24 岁开始正式学芭蕾，很快成为“尖子”。1959 年北京舞蹈学校实验芭蕾舞团在苏联专家古雪夫帮助下排演《天鹅湖》，他饰演王子齐格弗里德，成为这部芭蕾经典的第一个中国籍“王子”。林默涵召集舞蹈界座谈后拍板把电影《红色娘子军》改编成芭蕾舞剧，他进入创作组，被定为党代表洪常青的扮演者。
+      cites: [ycwb-2004-liu-qingtang]
+    - h: “5·16兵团文艺方面军”
+      from: 1966-05
+      to: 1971
+      text: |
+        1966 年文革开始，《红色娘子军》成为“样板戏”，刚任芭蕾舞团副团长的他积极投入运动。据 1983 年起诉书和判决书，1968 年 3 月和 9 月他多次给江青写信，诬陷芭蕾舞团领导班子成员杨少甫等“进行反革命夺权”；1968 年 8 月亲自审讯北京舞蹈学校教师邸尔，把 1967 年 7 月文艺组音乐舞蹈口的一次全体会说成“5·16兵团文艺方面军”成立会，诬陷金敬迈、李英儒是“司令”“副司令”。江青指定他和军代表黄厚民负责文艺界的“清查”，1969 年 8 月起他插手中央乐团、中央音乐学院等七个单位。这起假案使 374 名干部群众遭到迫害，其中 6 人被逼自杀身死；邸尔 1969 年 11 月跳楼致残，金敬迈、李英儒被逮捕关押五年。
+      cites: [ws-1983-liu-qingtang-case]
+    - h: 文化组与文化部
+      from: 1971
+      to: 1976-10
+      text: |
+        1971 年 39 岁时任国务院文化组副组长，副部长级。1972 年春参加为尼克松演出的《红色娘子军》，秋天招待田中角荣时最后一次扮演洪常青。1975 年任文化部副部长。判决书认定，1975 年 10 月底他在上海与王洪文、马天水、徐景贤、王秀珍密谈，11 月 2 日在北海公园静憩轩与于会泳、浩亮秘密聚会，传达王洪文“要吃得饱饱的，睡得好好的，振奋精神，准备斗争”的话，随后到清华大学向迟群索取诬陷邓小平的材料。1976 年 2 月起布置各电影厂拍“与走资派作斗争”的影片，参与《反击》《盛大的节日》，指定北影编写《搏斗》，指挥芭蕾舞剧团排演舞剧《青春战歌》。
+      cites: [ycwb-2004-liu-qingtang, ws-1983-liu-qingtang-case]
+    - h: 审判
+      from: 1976-10
+      to: 2004
+      text: |
+        1976 年 10 月被隔离审查，1982 年 9 月 8 日被逮捕。1983 年 11 月 2 日北京市中级人民法院认定他犯积极参加反革命集团罪、反革命宣传煽动罪、诬告陷害罪，判处有期徒刑十七年，剥夺政治权利四年；庭审中有五名受害人出庭作证。服刑期间妻子同他离婚。2001 年他在广州一所大学的艺术学院任名誉院长，编排古代题材芭蕾舞剧《岳飞》。
+      cites: [ws-1983-liu-qingtang-case, ycwb-2004-liu-qingtang]
+  assess:
+    - { voice: judicial1980, text: 被告人刘庆棠积极参加江青反革命集团，煽动打倒党和国家领导人及各级领导干部，制造假案，诬陷、迫害干部和群众，已构成积极参加反革命集团罪、反革命宣传煽动罪、诬告陷害罪。（1983 年判决书）, cite: ws-1983-liu-qingtang-case, quote: true }
+    - { voice: witness, text: 跻于“样板戏”的芭蕾舞剧《红色娘子军》成为政治斗争的利器之一。（李小骥，2004）, cite: ycwb-2004-liu-qingtang, quote: true }
+    - { voice: editor, text: 本站所收判决书出自 1983 年的北京市中级人民法院，是“两案”主犯之外对文艺界负责人的少数公开判决之一；2004 年的报刊文章则只写他的舞台生涯和晚年，对假案一字未提。, cite: ws-1983-liu-qingtang-case }
+  factions: [ccrg]
+  fate:
+    - { date: 1959, s: rise, note: 《天鹅湖》第一个中国籍“王子”, cite: ycwb-2004-liu-qingtang }
+    - { date: 1966-05, s: rise, note: 芭蕾舞团副团长, cite: ycwb-2004-liu-qingtang }
+    - { date: 1971, s: power, note: 国务院文化组副组长, cite: ycwb-2004-liu-qingtang }
+    - { date: 1975-01, s: power, note: 文化部副部长, cite: ws-1983-liu-qingtang-case, verify: true }
+    - { date: 1976-10, s: detained, note: 隔离审查, cite: ycwb-2004-liu-qingtang }
+    - { date: 1983-11-02, s: purged, note: 判处有期徒刑十七年, cite: ws-1983-liu-qingtang-case }
+  cites: [ws-1983-liu-qingtang-case, ycwb-2004-liu-qingtang]
+
+- id: qian-haoliang
+  name: 钱浩梁
+  born: 1934
+  died: 2020-09-03
+  deathKind: natural
+  tier: 3
+  role1966: 中国京剧院演员，《红灯记》李玉和扮演者
+  pinyin: Qián Hàoliáng
+  gender: m
+  aka:
+    - { kind: other, name: 浩亮 }
+    - { kind: original, name: 钱正伦 }
+  birthplace: 上海
+  party: 中国共产党
+  positions:
+    - { title: 党委副书记, orgName: 中国京剧院, from: 1969-04, to: 1976-10, cite: ifeng-qian-haoliang, verify: true }
+    - { title: 副部长, orgName: 文化部, from: 1975-01, to: 1976-10, cite: thepaper-2020-qian-haoliang, verify: true }
+  bio: 上海人，京剧世家出身，1943 年进上海戏曲学校“正字科”，原名钱正伦。1964 年在中国京剧院现代京剧《红灯记》中演李玉和，江青看后让他取代老师李少春演 A 组。文革中领导“红灯记战斗兵团”造反，1969 年当选九大代表，任中国京剧院党委副书记；1972 年江青提出“应该让于会泳、浩亮、刘庆棠他们主持文化部的工作”，1975 年任文化部副部长。1976 年 10 月被隔离审查五年，1981 年定为“犯有严重政治错误，免予起诉”，开除党籍。1983 年到河北省艺术学校，1988 年重登舞台，2020 年去世。
+  life:
+    - h: 正字科与《红灯记》
+      from: 1934
+      to: 1966-05
+      text: |
+        1934 年生于上海，父亲钱麟童是上海新华京剧团的主要演员。1943 年进上海戏曲学校“正字科”，与顾正秋、张正芳等同学，名叫钱正伦；1950 年进中国实验戏曲学校。1964 年中国京剧院排演《红灯记》，李少春和他分饰 A、B 角李玉和，李少春手把手教他。江青看了 B 组演出，说“李少春演的李玉和不像个工人，倒像个站长。小钱演的李玉和，像个工人，演得也好”，让他改演 A 组。
+      cites: [thepaper-2020-qian-haoliang, ifeng-qian-haoliang]
+    - h: 从剧院造反派到副部长
+      from: 1966-05
+      to: 1976-10
+      text: |
+        1967 年初成立“红灯记战斗兵团”并任领导人，江青派戚本禹带人进驻中国京剧院，把它列为“左派”支持。凤凰网的文章说他“决不批斗自己的师辈们”，不同意批斗李少春，还替关肃霜在江青面前说情。1969 年 4 月与于会泳、刘庆棠等作为正式代表出席九大，不久任中国京剧院党委副书记。1972 年初江青在会上说“应该让于会泳、浩亮、刘庆棠他们主持文化部的工作”；1975 年任文化部副部长，但基本上不到部里上班。1975 年 11 月 2 日参加刘庆棠、于会泳在北海公园静憩轩的聚会。
+      cites: [ifeng-qian-haoliang, thepaper-2020-qian-haoliang, ws-1983-liu-qingtang-case]
+    - h: 免予起诉与重返舞台
+      from: 1976-10
+      to: 2020-09-03
+      text: |
+        1976 年 10 月被列为“与‘四人帮’有牵连的人”隔离审查。1981 年审查结束，结论是“犯有严重政治错误，免予起诉”，组织决定“敌我矛盾按人民内部矛盾处理，开除党籍，降一级工资”；年底他把名字从浩亮改回钱浩梁。1983 年河北省副省长高占祥让河北省文化厅收留他，到石家庄的河北省艺术学校任教。1988 年 12 月 6 日在中山公园义演《艳阳楼》，这是阔别舞台 12 年后的首次登台。1992 年 1 月脑溢血瘫痪，1998 年基本恢复。2020 年 9 月 3 日去世。
+      cites: [thepaper-2020-qian-haoliang, ifeng-qian-haoliang]
+  assess:
+    - { voice: officialLater, text: 犯有严重政治错误，免于起诉。（1981 年审查结论，澎湃湃客文转引）, cite: thepaper-2020-qian-haoliang, quote: true }
+    - { voice: witness, text: 除了跟着江青跑，坏事干得不多，民愤也较小，所以钱浩梁被定性为“犯有严重政治错误，免予起诉”。（凤凰网文）, cite: ifeng-qian-haoliang, quote: true }
+    - { voice: editor, text: “浩亮”这个名字的来历有两种说法：澎湃湃客的文章说被定为样板戏后“他的名字，也由钱浩梁，改为了浩亮”；凤凰网的文章说这是他自取的艺名，江青给他改名是后来的传言。1983 年刘庆棠案判决书提到他时用的仍是“浩亮”。, cite: ifeng-qian-haoliang }
+  factions: [ccrg]
+  fate:
+    - { date: 1964, s: rise, note: 《红灯记》李玉和, cite: thepaper-2020-qian-haoliang }
+    - { date: 1967, s: rise, note: “红灯记战斗兵团”领导人, cite: ifeng-qian-haoliang }
+    - { date: 1969-04, s: power, note: 九大代表、京剧院党委副书记, cite: ifeng-qian-haoliang }
+    - { date: 1975, s: power, note: 文化部副部长, cite: thepaper-2020-qian-haoliang }
+    - { date: 1976-10, s: detained, note: 隔离审查五年, cite: thepaper-2020-qian-haoliang }
+    - { date: 1981, s: purged, note: 免予起诉，开除党籍, cite: ifeng-qian-haoliang }
+    - { date: 1983, s: normal, note: 河北省艺术学校, cite: thepaper-2020-qian-haoliang }
+    - { date: 2020-09-03, s: dead, cite: thepaper-2020-qian-haoliang }
+  cites: [thepaper-2020-qian-haoliang, ifeng-qian-haoliang, ws-1983-liu-qingtang-case]
+
+- id: wang-mantian
+  name: 王曼恬
+  born: 1913
+  died: 1977-01-27
+  deathKind: suicide
+  deathPlace: 天津
+  tier: 3
+  role1966: 天津文艺界干部，毛泽东的表侄女
+  pinyin: Wáng Màntián
+  gender: f
+  birthplace: 湖南湘乡
+  party: 中国共产党
+  positions:
+    - { title: 副主任, orgName: 天津市革命委员会, from: 1968, to: 1976-10, cite: ipk-zhang-zhihong-suicides, verify: true }
+    - { title: 党的核心小组成员, orgName: 文化部, from: 1975-01, to: 1975-11-18, cite: mzd-1975-11-18-wang-mantian, verify: true }
+  bio: 湖南湘乡人，毛泽东的表侄女、王海容的姑妈。1930 年代在上海学美术，后到延安，1938 年与诗人鲁藜结婚；1955 年鲁藜被打成“胡风分子”后与他离婚。1968 年 2 月给江青写信举报天津的“黑会”“黑戏”，引出“二二一”事件；此后任天津市革委会副主任、市委书记。吴德主持国务院文化组时把她调来兼职，以牵制于会泳等人。1975 年 11 月写信请求免去文化部工作，毛泽东批“我看可以同意她回天津”。1976 年后成为清查重点，1977 年 1 月 27 日在监护中自缢。
+  life:
+    - h: 延安与天津
+      from: 1913
+      to: 1966-05
+      text: |
+        1913 年生于湖南湘乡。她的奶奶是毛泽东母亲文七妹的姐姐，父亲是王海容祖父王季范的胞兄。1930 年代在上海新华艺专学美术，做过地下工作，后到延安任美术教员。1938 年与诗人鲁藜结婚，育有一子二女。1955 年时任天津市文化局局长的鲁藜被打成“胡风分子”，她主动与他离婚。
+      cites: [ipk-zhang-zhihong-suicides]
+    - h: “二二一”事件
+      from: 1968-02
+      to: 1971
+      text: |
+        1968 年 2 月给江青写信，说天津开了一个“黑会”（全国工农兵文艺战士座谈会）、演了一出“黑戏”（话剧《新时代的“狂人”》）。2 月 21 日深夜，周恩来、陈伯达、康生、江青、姚文元、谢富治接见用卡车接来的天津群众一千余人，点名批判，要求整肃天津文艺界、政法界；散会后公安局长江枫被拘禁，副市长王亢之回天津服安眠药自杀。此后她出任天津市革委会副主任，又任分管文教的市委书记。
+      cites: [ipk-zhang-zhihong-suicides]
+    - h: 文化组里的“亲戚”
+      from: 1971
+      to: 1976-10
+      text: |
+        据吴德回忆，他兼任国务院文化组组长时，日常工作由江青的亲信于会泳等人主持，万里建议把王曼恬调来，因为她“能和毛主席见得上面、说得上话”；她写信请示毛泽东获同意，每周到文化组一两次。吴德说，有几次于会泳、刘庆棠、浩亮想整人，“王曼恬一说话，他们就缩回去了”。1975 年 11 月 16 日她写信给毛泽东，说“作为您的亲戚，深感影响不好”，请求免去文化部工作；11 月 18 日毛泽东批示：“请汪酌处。我看可以同意她回天津。”
+      cites: [ipk-zhang-zhihong-suicides, mzd-1975-11-18-wang-mantian]
+    - h: 清查与自缢
+      from: 1976-10
+      to: 1977-01-27
+      text: |
+        “四人帮”倒台后成为天津清查的重点，1976 年 12 月起市委多次开常委会让她讲清问题。1977 年 1 月 4 日在办公室服大量安眠药，被抢救过来，此后由二十多人的看护小组监护。1 月 18 日至 26 日，市文化局、天津大学、南开大学等五个单位先后开大会批斗她；1 月 22 日她给解学恭写信说“精神上受不了”。1 月 27 日晚在床上用撕开的床单和毛巾自缢身亡。据调查，1968 年 2 月到 1976 年 10 月她给江青等人写信 33 封，留下电话记录 23 份。
+      cites: [ipk-zhang-zhihong-suicides]
+  assess:
+    - { voice: doc, text: 请汪〔２〕酌处。我看可以同意她回天津。（毛泽东 1975 年 11 月 18 日批语；“汪”指汪东兴）, cite: mzd-1975-11-18-wang-mantian, quote: true }
+    - { voice: witness, text: 有几次于会泳、刘庆棠、浩亮想整人，王曼恬一说话，他们就缩回去了。（吴德回忆，张志宏文转述）, cite: ipk-zhang-zhihong-suicides, quote: true }
+    - { voice: scholar, text: 其主要问题，就是向江青写密信，导致了后果严重的“二二一”事件；其次是积极紧跟江青，特别是在1976年积极鼓动“批邓”。（张志宏，据调查结论）, cite: ipk-zhang-zhihong-suicides, quote: true }
+  factions: [ccrg, mao]
+  fate:
+    - { date: 1968-02-21, s: power, note: 举报信引出“二二一”事件，此后任天津市革委会副主任, cite: ipk-zhang-zhihong-suicides }
+    - { date: 1975-11-18, s: power, note: 毛泽东同意她辞去文化部工作回天津, cite: mzd-1975-11-18-wang-mantian }
+    - { date: 1976-12, s: attacked, note: 成为天津清查重点, cite: ipk-zhang-zhihong-suicides }
+    - { date: 1977-01-27, s: dead, note: 监护中自缢, cite: ipk-zhang-zhihong-suicides }
+  cites: [ipk-zhang-zhihong-suicides, mzd-1975-11-18-wang-mantian]
+
+- id: jin-jingmai
+  name: 金敬迈
+  born: 1930
+  died: 2020-03-15
+  deathKind: natural
+  deathPlace: 广州
+  tier: 3
+  role1966: 广州军区战士话剧团创作员，《欧阳海之歌》作者
+  pinyin: Jīn Jìngmài
+  gender: m
+  birthplace: 南京
+  party: 中国共产党
+  positions:
+    - { title: 创作员, orgName: 广州军区战士话剧团, from: 1949-06, to: 1967-04, cite: chinawriter-2014-jin-jingmai, verify: true }
+    - { title: 文艺口负责人, orgName: 中央文化革命小组, from: 1967-05-23, to: 1967-09, cite: chinawriter-2014-jin-jingmai, verify: true }
+  bio: 南京人，抗战中随家流浪到四川，卖油条、擦皮鞋为生，1949 年 6 月在武汉参军，进入广州军区战士话剧团。1965 年 7 月长篇小说《欧阳海之歌》在《收获》发表，轰动全国。1967 年 5 月 1 日在天安门城楼受毛泽东、林彪接见，5 月 23 日戚本禹宣布全国文艺口由他负责。123 天后被扣上“收集中央领导同志黑材料”“阴谋绑架毛主席”等罪名，投入秦城监狱；刘庆棠又把他诬为“5·16兵团文艺方面军”的“司令”。1975 年 5 月获释到许昌农场劳动，1978 年平反。2020 年在广州去世。
+  life:
+    - h: 《欧阳海之歌》
+      from: 1930
+      to: 1967-04
+      text: |
+        1930 年生于南京。抗战爆发后随贫困家庭辗转洞庭湖沿岸，流浪到四川万县，靠卖油条、擦皮鞋维持生计。1949 年 6 月在武汉参加解放军，被挑进广州军区战士话剧团。1963 年到衡阳的 139 师找题材，听说临近的 140 师有个战士在铁轨上被火车轧死，害得所在的团评不上“四好”，当即赶去 140 师，后写成长篇小说《欧阳海之歌》，1965 年 7 月在上海《收获》发表。据说印了两三千万册，有领导担心“可不能超过《毛选》”。
+      cites: [chinawriter-2014-jin-jingmai, chinawriter-2020-jin-jingmai]
+    - h: 123 天
+      from: 1967-04
+      to: 1967-09
+      text: |
+        1967 年 4 月初接到总政通知进京。5 月 1 日毛泽东、林彪在天安门城楼接见他，毛泽东说“金敬迈，你是我们的大作家”。5 月 23 日戚本禹宣布全国文艺口由他负责，原文化部归他管。据冯乔的文章，他在点名批判的名单上划掉了肖望东、刘白羽等军人出身的老领导。1967 年 6 月电影资料馆有人建议把 1930 年代有关蓝苹的电影资料收上来，他去请示戚本禹时被江青撞见，后来这成了“收集中央领导同志黑材料”的罪名；8 月 11 日搭空军飞机回广东取东西，又被编成“策划绑架毛主席”。他在京城当了 123 天“大官”。
+      cites: [chinawriter-2014-jin-jingmai]
+    - h: 秦城、许昌与平反
+      from: 1967-09
+      to: 2020-03-15
+      text: |
+        被投入监狱后，每当他要交代收集材料的情况，专案组就紧张地打住“不要说了”。1968 年起刘庆棠又制造“5·16兵团文艺方面军”假案，诬陷他为“司令”、李英儒为“副司令”，经江青批准逮捕关押五年。1975 年 5 月 19 日获释，和李英儒一起到河南许昌部队农场劳动。1976 年 10 月回到广州，起初仍未平反，有人推说他反江青时江青还没有成为“四人帮”；1978 年邓小平说“像金敬迈那样受江青迫害的人还不平反，你们广州军区还要不要揭开盖子”，许世友在广州军区司令部大礼堂宣布给他彻底平反。2020 年 3 月 15 日在广州逝世。
+      cites: [chinawriter-2014-jin-jingmai, ws-1983-liu-qingtang-case, chinawriter-2020-jin-jingmai]
+  assess:
+    - { voice: judicial1980, text: 诬陷中国人民解放军广州军区战士话剧团创作员金敬迈是“5·16兵团文艺方面军”的“司令”，总政文化部创作组组长李英儒是“副司令”。（1983 年刘庆棠案判决书）, cite: ws-1983-liu-qingtang-case, quote: true }
+    - { voice: witness, text: 像金敬迈那样受江青迫害的人还不平反，你们广州军区还要不要揭开盖子。（邓小平 1978 年，冯乔文引）, cite: chinawriter-2014-jin-jingmai, quote: true }
+    - { voice: editor, text: 他在 1967 年先是中央文革提拔的文艺口负责人，几个月后又成了江青下令关押的“犯人”。本站所收冯乔的文章以他本人的回忆为主，对他主管文艺口期间的作为着墨很少。, cite: chinawriter-2014-jin-jingmai }
+  factions: [ccrg]
+  fate:
+    - { date: 1965-07, s: rise, note: 《欧阳海之歌》发表, cite: chinawriter-2014-jin-jingmai }
+    - { date: 1967-05-23, s: power, note: 主管全国文艺口, cite: chinawriter-2014-jin-jingmai }
+    - { date: 1967-09, s: detained, note: 被投入监狱, cite: chinawriter-2014-jin-jingmai, verify: true }
+    - { date: 1975-05-19, s: sidelined, note: 释放到许昌农场劳动, cite: chinawriter-2014-jin-jingmai }
+    - { date: 1978, s: restored, note: 许世友宣布彻底平反, cite: chinawriter-2014-jin-jingmai }
+    - { date: 2020-03-15, s: dead, cite: chinawriter-2020-jin-jingmai }
+  cites: [chinawriter-2014-jin-jingmai, chinawriter-2020-jin-jingmai, ws-1983-liu-qingtang-case]
+
+- id: lu-ying
+  name: 鲁瑛
+  born: 1927
+  died: 2007
+  deathKind: natural
+  tier: 3
+  role1966: 上海《解放日报》党委办公室主任
+  pinyin: Lǔ Yīng
+  gender: m
+  party: 中国共产党
+  positions:
+    - { title: 主要负责人（起诉书称总编辑）, orgName: 人民日报社, from: 1966-06, to: 1976-10, cite: ipk-qian-jiang-lu-ying, verify: true }
+  bio: 战争年代任《渤海日报》编辑、山东《大众日报》记者组组长，后调上海《解放日报》，任党委办公室主任等职。1966 年 6 月随“中央工作组”进入人民日报领导层，此后任该报主要负责人八年之久，1980 年起诉书和 1981 年判决书称他为《人民日报》总编辑。据起诉书，1974 年他和迟群、谢静宜、朱永嘉等受江青、张春桥、姚文元指使批“现代大儒”“宰相”“周公”；1976 年按姚文元、王洪文的指使派人到天安门广场和各部委、各省搜集材料，诬陷群众和“重新出来工作”的老干部。文革后被审查、开除党籍，1980 年代初恢复工作，在人民日报出版社任编辑。
+  life:
+    - h: 从渤海到上海
+      from: 1927
+      to: 1966-06
+      text: |
+        革命战争年代任《渤海日报》编辑、山东《大众日报》编辑和记者组组长，后调上海《解放日报》，担任驻山东记者站负责人、总编辑办公室副主任、党委办公室主任。
+      cites: [ipk-qian-jiang-lu-ying]
+    - h: 人民日报的八年
+      from: 1966-06
+      to: 1976-10
+      text: |
+        1966 年 6 月作为“中央工作组”成员进入人民日报领导层，此后任该报主要负责人八年之久。1980 年起诉书称，1974 年江青、张春桥、姚文元指使“清华大学党委书记迟群、中共北京市委书记谢静宜、‘人民日报’总编辑鲁瑛和上海写作组负责人朱永嘉等”利用舆论工具，在全国批“现代大儒”、批“宰相”、批“周公”，影射周恩来。1976 年 3 月南京出现反对张春桥的标语后，姚文元对他说“这股反革命逆流，看来有个司令部”，指使他派人到天安门广场搜集、编写材料；1976 年 1 月至 9 月，姚文元、王洪文又指使他派人到中央一些部门和福建、江西、浙江等七省搜集诬陷党政军领导干部的材料。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, ipk-qian-jiang-lu-ying]
+    - h: 审查以后
+      from: 1976-10
+      to: 2007
+      text: |
+        1976 年 10 月后中央印发的批判材料中有专卷《“四人帮”及鲁瑛利用《人民日报》疯狂推行反革命修正主义路线的罪证材料》，称他为“‘四人帮’在人民日报的心腹”。他接受审查，被开除党籍，1980 年代初结束审查，在人民日报出版社任编辑。2005–2007 年间人民日报记者钱江多次登门采访他。
+      cites: [ipk-qian-jiang-lu-ying]
+  assess:
+    - { voice: judicial1980, text: 姚文元指使鲁瑛派人到天安门广场，搜集、编写材料，这些材料经姚文元窜改，把群众反“四人帮”、悼念周恩来、拥护邓小平的革命言行诬陷为“发表反革命演说和反革命口号”。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: witness, text: 我接触到的许多材料，把他描绘或直接写作“草包总编辑”。我当时倒也曾经想到，“草包”而担任人民日报主要领导8年之久，倒也真不容易了。（钱江）, cite: ipk-qian-jiang-lu-ying, quote: true }
+    - { voice: editor, text: 他在起诉书和判决书中多次出现，但没有被列为被告。本站只收了钱江访谈系列的引言部分，他本人对这八年的说法尚未收录。, cite: ws-1980-indictment }
+  factions: [ccrg]
+  fate:
+    - { date: 1966-06, s: rise, note: 随中央工作组进入人民日报领导层, cite: ipk-qian-jiang-lu-ying }
+    - { date: 1974, s: power, note: 以《人民日报》总编辑身份参与批“周公”, cite: ws-1980-indictment }
+    - { date: 1976-10, s: detained, note: 接受审查，后开除党籍, cite: ipk-qian-jiang-lu-ying }
+    - { date: 1980, s: normal, note: 人民日报出版社编辑, cite: ipk-qian-jiang-lu-ying, verify: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ipk-qian-jiang-lu-ying]
+
+- id: mu-xin
+  name: 穆欣
+  born: 1920-07-11
+  died: 2010-09-03
+  deathKind: natural
+  tier: 3
+  role1966: 《光明日报》总编辑，中央文革小组成员
+  pinyin: Mù Xīn
+  gender: m
+  birthplace: 河南扶沟
+  party: 中国共产党
+  joinedParty: 1937-07
+  positions:
+    - { title: 副总编辑、总编辑、党组书记, orgName: 光明日报社, from: 1957-11, to: 1967-09, cite: china-2010-mu-xin }
+    - { title: 成员、办事组组长, orgName: 中央文化革命小组, from: 1966-05-28, to: 1967-09, cite: ipk-mu-xin-qincheng }
+    - { title: 副局长, orgName: 外文出版发行事业局, from: 1979-12, to: 1984-04, cite: china-2010-mu-xin }
+    - { title: 社长、总编辑, orgName: 人民画报社, from: 1980-07, to: 1984-04, cite: china-2010-mu-xin }
+  bio: 河南扶沟人，1937 年参加革命、入党，1940 年起做新闻工作，历任晋绥日报采访通讯部主任、新华社多个前线分社社长。1957 年 11 月调光明日报社，先后任副总编辑、总编辑、党组书记。1966 年 5 月 28 日列入中央文革小组名单，任办事组组长。1967 年 9 月 6 日凌晨被抓走，1968 年 1 月 13 日送进秦城监狱，关押近八年，妻子张卉中也被关押，在狱中被打断锁骨，出狱后不久去世。1975 年 5 月获释，1979 年 12 月任外文局副局长，1980 年兼人民画报社社长，1984 年离休，2010 年去世。
+  life:
+    - h: 晋绥与新华社
+      from: 1920-07-11
+      to: 1957-11
+      text: |
+        1920 年 7 月 11 日生于河南扶沟县下坡村。1937 年 1 月到太原参加牺牲救国同盟会军政训练班，7 月入党，后在山西青年抗敌决死队任政治指导员。1940 年 9 月起从事新闻报道，历任晋绥日报社采访通讯部主任、新华社总社特派记者、豫陕鄂野战分社社长、第四兵团分社社长、云南分社社长和志愿军第三兵团分社社长。1953 年 5 月至 1957 年 10 月任军事工程学院政治部宣传部长、中央高级党校新闻教研室主任。
+      cites: [china-2010-mu-xin]
+    - h: 光明日报与中央文革
+      from: 1957-11
+      to: 1967-09
+      text: |
+        1957 年 11 月调光明日报社，先后任副总编辑、总编辑、党组书记。1966 年 5 月 28 日列入中央文革小组名单，是首任办事组组长。1967 年 9 月江青诬陷他是“特务”，9 月 6 日凌晨被从家中带走。
+      cites: [china-2010-mu-xin, ipk-mu-xin-qincheng]
+    - h: 秦城
+      from: 1967-09
+      to: 1975-05
+      text: |
+        据他的回忆，1968 年 1 月 13 日穿空军制服的军人把他送进秦城监狱，“这里不用名字”，只用代号。直到 1972 年 6 月 30 日近五年不让家人探望；近八年间只在 1969、1971 和 1972 年有过三次“审讯”，1971 年 5 月下旬起有一次延续 106 天的“提审”，逼他交代在《光明日报》“放过什么毒”和报社“五一六分子”名单。他引用的一份调查材料说，妻子张卉中 1972 年 1 月因向监管员要报纸学元旦社论被殴打，锁骨被打折；她出狱后不久含冤去世。1975 年 5 月获释。
+      cites: [ipk-mu-xin-qincheng]
+    - h: 外文局
+      from: 1975-05
+      to: 2010-09-03
+      text: |
+        1979 年 12 月调任外文局副局长，1980 年 7 月兼任人民画报社社长、总编辑，1984 年 4 月离休。2010 年 9 月 3 日因病去世，享年 90 岁。
+      cites: [china-2010-mu-xin]
+  assess:
+    - { voice: officialLater, text: “文化大革命”期间遭受不公正待遇，受迫害含冤度过八年牢狱生活，身体、精神遭受严重摧残。（2010 年讣告）, cite: china-2010-mu-xin, quote: true }
+    - { voice: witness, text: 自己本来无罪，他们以莫须有的罪名将我投入牢狱，不过为的灭口(用兴奋剂毒害头脑也是为了灭口)。（穆欣狱中回忆）, cite: ipk-mu-xin-qincheng, quote: true }
+    - { voice: editor, text: 讣告对他在中央文革小组的一年多只字未提；他本人的回忆写的是狱中遭遇。他作为中央文革成员和《光明日报》负责人在 1966–1967 年的作为，本站尚未收到可用的文本。, cite: china-2010-mu-xin }
+  factions: [ccrg]
+  fate:
+    - { date: 1957-11, s: normal, note: 调光明日报社, cite: china-2010-mu-xin }
+    - { date: 1966-05-28, s: power, note: 列入中央文革小组, cite: ipk-mu-xin-qincheng }
+    - { date: 1967-09-06, s: detained, note: 被江青诬为“特务”抓走, cite: ipk-mu-xin-qincheng }
+    - { date: 1968-01-13, s: detained, note: 送进秦城监狱, cite: ipk-mu-xin-qincheng }
+    - { date: 1975-05, s: sidelined, note: 获释, cite: ipk-mu-xin-qincheng }
+    - { date: 1979-12, s: restored, note: 外文局副局长, cite: china-2010-mu-xin }
+    - { date: 2010-09-03, s: dead, cite: china-2010-mu-xin }
+  cites: [china-2010-mu-xin, ipk-mu-xin-qincheng]
+
+- id: yang-rongguo
+  name: 杨荣国
+  born: 1907-08
+  died: 1978-08
+  deathKind: natural
+  deathPlace: 广州
+  tier: 3
+  role1966: 中山大学哲学系主任
+  pinyin: Yáng Róngguó
+  gender: m
+  birthplace: 长沙
+  party: 中国共产党
+  joinedParty: 1938
+  positions:
+    - { title: 教授、历史系与哲学系主任, orgName: 中山大学, from: 1952, to: 1978-08, cite: zhdsb-2014-yang-rongguo }
+    - { title: 革命委员会副主任, orgName: 中山大学, from: 1973, to: 1976-10, cite: ifeng-2007-yang-rongguo, verify: true }
+    - { title: 委员, orgName: 全国人民代表大会常务委员会, from: 1975-01, to: 1978-03, cite: ifeng-2007-yang-rongguo, verify: true }
+  bio: 湖南长沙人，1938 年入党，抗战中研究古代思想史，1943 年出版《孔墨的思想》批评国民党“尊孔读经”，1947 年被国民党逮捕。1949 年后任湖南大学文学院院长，1952 年调中山大学，先后任历史系、哲学系主任。1950 年代写文章批判胡适、梁漱溟和中山大学的刘节。文革初被批斗、毒打，妻子陈慧敏被折磨成精神病后溺水身亡。1972 年在《红旗》发表儒法斗争文章，1973 年 8 月 7 日在《人民日报》发表《孔子——顽固地维护奴隶制的思想家》，成为批林批孔中“红极一时”的学者，1975 年当选全国人大常委。文革后受到不点名批判，1978 年 8 月在审查中病逝。1982 年广东省纪委结论“未发现与‘四人帮’有组织上的联系”，不给处分。
+  life:
+    - h: 批孔的学术立场
+      from: 1907-08
+      to: 1952
+      text: |
+        1907 年 8 月生于长沙一个文具商家庭。1938 年入党，1939 年流亡桂林编进步报刊，1941 年到重庆一边在大学任教一边做地下工作。1943 年出版《孔墨的思想》，矛头直指国民党推行的“尊孔读经”。1946 年参加民盟，1947 年 7 月因支持学生运动被捕，1948 年 5 月获释。1949 年后任湖南大学文学院院长兼历史系主任、湖南省人民政府委员、民盟中央委员。
+      cites: [zhdsb-2014-yang-rongguo, ifeng-2007-yang-rongguo]
+    - h: 中山大学
+      from: 1952
+      to: 1971
+      text: |
+        1952 年院系调整调入中山大学，先后任历史系主任、哲学系主任、校党委常委。在历次意识形态斗争中写过《胡适的反动观点和他对中国古代哲学的歪曲》《批判刘节先生的中国史学史讲话》等文章。文革初被隔离审查、抄家、毒打（左胸和肾脏受伤），送“五七”干校劳动；妻子陈慧敏受株连，被折磨成精神病患者，弃家出走后溺水身亡。
+      cites: [ifeng-2007-yang-rongguo, zhdsb-2014-yang-rongguo]
+    - h: “红极一时”的批孔学者
+      from: 1971
+      to: 1976-10
+      text: |
+        1971 年林彪事件后，人民出版社编辑找他修订《简明中国思想史》，他才逐渐被“解放”。1972 年第 12 期《红旗》发表他的《春秋战国时期思想领域内两条路线的斗争》，比毛泽东提出“批孔”还早。1973 年 8 月 7 日《人民日报》发表他的《孔子——顽固地维护奴隶制的思想家》。此后任广东省理论工作小组副组长、中山大学革委会副主任，1975 年当选四届全国人大常委；到各地作巡回报告，把“子见南子”解释为孔子“走后门”“走内线”。据李锦全的说法，他后来受批判的主要原因是 1976 年在广州一次“批孔连带批邓”的报告。
+      cites: [ifeng-2007-yang-rongguo, zhdsb-2014-yang-rongguo, rmrb-1973-08-07-yang-rongguo]
+    - h: “广东那个教授”
+      from: 1976-10
+      to: 1982-06
+      text: |
+        清查“四人帮”时报纸上不点名地批判他，称“广东那个教授”。他正因癌症住院，从特级病房被换到普通病房，1978 年 8 月在审查和批判中去世。1982 年 6 月中共广东省纪委作出结论：他在批林批孔期间“为迎合‘四人帮’所谓‘儒法斗争’的需要，不惜歪曲事实，散布了不少错误观点。但未发现杨荣国同志与‘四人帮’有组织上的联系”，同意不给处分。
+      cites: [ifeng-2007-yang-rongguo, zhdsb-2014-yang-rongguo]
+  assess:
+    - { voice: doc, text: 他的思想的实质，是要维护奴隶主阶级的统治，论证劳动人民只能被剥削、被奴役、被统治。用一句话说，他就是要论证“剥削有理、造反有罪”。（杨荣国 1973 年《人民日报》文）, cite: rmrb-1973-08-07-yang-rongguo, quote: true }
+    - { voice: officialLater, text: 杨荣国同志在‘批林批孔’期间，为迎合‘四人帮’所谓‘儒法斗争’的需要，不惜歪曲事实，散布了不少错误观点。但未发现杨荣国同志与‘四人帮’有组织上的联系。（1982 年广东省纪委结论）, cite: ifeng-2007-yang-rongguo, quote: true }
+    - { voice: scholar, text: 在当时，绝不是杨先生主动地去附会毛泽东的“批孔”指示的，而倒极有可能是毛泽东先注意到了杨先生的文章。（《中华读书报》2014）, cite: zhdsb-2014-yang-rongguo, quote: true }
+    - { voice: scholar, text: 杨荣国这样的学者，今日已成为学者的一个教训。因为他以学术为政治服务来治学术，已完全背离了学术精神。（谢泳，《历史学家茶座》文转引）, cite: ifeng-2007-yang-rongguo, quote: true }
+  factions: [academics]
+  fate:
+    - { date: 1966, s: attacked, note: 隔离审查、抄家、毒打, cite: ifeng-2007-yang-rongguo }
+    - { date: 1973, s: rise, note: 恢复工作，成为批孔学者, cite: ifeng-2007-yang-rongguo }
+    - { date: 1975-01, s: power, note: 全国人大常委, cite: ifeng-2007-yang-rongguo, verify: true }
+    - { date: 1976-10, s: attacked, note: 被不点名批判、审查, cite: ifeng-2007-yang-rongguo }
+    - { date: 1978-08, s: dead, note: 癌症, cite: ifeng-2007-yang-rongguo }
+  cites: [rmrb-1973-08-07-yang-rongguo, ifeng-2007-yang-rongguo, zhdsb-2014-yang-rongguo]
+
+- id: zhou-yiliang
+  name: 周一良
+  born: 1913-01-19
+  died: 2001-10-23
+  deathKind: natural
+  tier: 3
+  role1966: 北京大学历史系副主任
+  pinyin: Zhōu Yīliáng
+  gender: m
+  party: 中国共产党
+  joinedParty: 1956
+  positions:
+    - { title: 历史系主任, orgName: 清华大学, from: 1951, to: 1952, cite: aisixiang-song-chengyou-zhou-yiliang }
+    - { title: 历史系教授、系主任, orgName: 北京大学, from: 1952, to: 1986, cite: aisixiang-song-chengyou-zhou-yiliang }
+    - { title: 注释组成员、党支部委员, orgName: 梁效, from: 1973-09, to: 1976-10, cite: aisixiang-song-chengyou-zhou-yiliang }
+  bio: 至德周氏子弟，家塾读书至 18 岁，燕京大学历史系毕业，从陈寅恪问学，1944 年获哈佛大学博士，1946 年回国。1952 年院系调整后任北大历史系教授，1956 年入党，1958 年“史学革命”中在会上批判业师陈寅恪。文革初作为副系主任被批斗，1967 年参加反聂元梓的“井冈山兵团”，进过“牛棚”。1973 年 7 月发表《读柳宗元〈封建论〉》受到毛泽东肯定，同年进入“梁效”注释组并任党支部委员，任十大代表。1976 年 10 月后作为“梁效”成员被审查近三年，1979 年回历史系，晚年写自传《毕竟是书生》。
+  life:
+    - h: 燕京、哈佛与陈寅恪
+      from: 1913-01-19
+      to: 1952
+      text: |
+        8 岁到 18 岁在天津家塾读书，未入“洋学堂”。1932 年转回燕京大学历史系，受邓之诚、洪业启迪，到清华旁听陈寅恪的魏晋南北朝史，对陈执弟子礼，经陈推荐到史语所工作一年。1939 年入哈佛大学，1944 年以《唐代印度来华密宗三僧考》获博士学位。1946 年回国，任燕京大学国文系副教授，1947 年转清华外文系，1949 年到历史系，1951–1952 年任清华历史系主任。
+      cites: [aisixiang-song-chengyou-zhou-yiliang]
+    - h: “又红又专”的标杆
+      from: 1952
+      to: 1966-05
+      text: |
+        1952 年秋院系调整后到北大历史系，先后任亚洲史教研室主任、系副主任、系主任。1952 年加入民盟，1956 年入党。1953 年参加批判胡适，写《胡适与西洋汉学》；1958 年“史学革命”中按系党总支布置在会上批判陈寅恪的“帝王将相中心论”等，自谓“党指向哪里就打向哪里”。宋成有认为这源自出身和留美带来的“负罪”心理。
+      cites: [aisixiang-song-chengyou-zhou-yiliang]
+    - h: 两起三落
+      from: 1966-05
+      to: 1976-10
+      text: |
+        1966 年工作组进系时被勒令站到台前“低头认罪”，靠边站约一年。1967 年春夏登台批判聂元梓，成了“井冈山兵团”的“精神领袖”之一，不久被关进“牛棚”，1968 年 10 月离开“牛棚”。1973 年 7 月在《北京大学学报》发表《读柳宗元〈封建论〉》，正面评价秦始皇，受到毛泽东肯定。1973 年 9 月迟群、谢静宜主持成立两校“大批判组”，他进入注释组，任党支部委员；1973 年 8 月作为十大代表进入主席团。1974 年 1 月在首都体育馆批林批孔大会上解释《林彪与孔孟之道》中的典故，在《历史研究》发表《诸葛亮与法家路线》。1976 年 9 月名列毛泽东治丧委员会。
+      cites: [aisixiang-song-chengyou-zhou-yiliang]
+    - h: 审查与《毕竟是书生》
+      from: 1976-10
+      to: 2001-10-23
+      text: |
+        1976 年 10 月北京卫戍区部队查抄“梁效”驻地，他和其他成员一起成为审查对象，在首都体育馆的声讨大会上“陪斗”，此后近三年每天到审查地报到，子女的升学和工作也受到牵连。期间收到一封自称“老朋友”寄来的匿名信，内附“无耻之尤”字条。1979 年回历史系做敦煌书仪研究；1981 年他能否任博士生导师因“梁效”问题一度受阻，经系主任邓广铭力争才解决。1986 年退休。晚年写自传《毕竟是书生》，2001 年 10 月 23 日去世。
+      cites: [aisixiang-song-chengyou-zhou-yiliang]
+  assess:
+    - { voice: witness, text: 回首几十年，逢6年份都有对我重要的事情发生。36年结婚，46年从美国回国，56年人党，66年文革，76年因梁效而受到审查，86年退休。（周一良晚年回忆，宋成有转引）, cite: aisixiang-song-chengyou-zhou-yiliang, quote: true }
+    - { voice: scholar, text: 换言之，写作组和注释组的人员均由两校的党组织选拔，进入“梁效”的责任在组织而非个人。（宋成有）, cite: aisixiang-song-chengyou-zhou-yiliang, quote: true }
+    - { voice: editor, text: 本站所收的是北大历史系同事宋成有的长文，立场偏向为他辩护；对他 1958 年批判陈寅恪和在“梁效”中的作为，批评者的说法更尖锐，尚未收录。, cite: aisixiang-song-chengyou-zhou-yiliang }
+  factions: [academics, ccrg]
+  fate:
+    - { date: 1966-06, s: attacked, note: 被勒令“低头认罪”，靠边站, cite: aisixiang-song-chengyou-zhou-yiliang }
+    - { date: 1967, s: normal, note: 参加反聂元梓的“井冈山兵团”, cite: aisixiang-song-chengyou-zhou-yiliang }
+    - { date: 1968-10, s: attacked, note: 离开“牛棚”后集中学习、劳动, cite: aisixiang-song-chengyou-zhou-yiliang }
+    - { date: 1973-09, s: rise, note: 进入“梁效”, cite: aisixiang-song-chengyou-zhou-yiliang }
+    - { date: 1976-10, s: detained, note: 作为“梁效”成员被审查, cite: aisixiang-song-chengyou-zhou-yiliang }
+    - { date: 1979, s: restored, note: 回历史系工作, cite: aisixiang-song-chengyou-zhou-yiliang }
+    - { date: 2001-10-23, s: dead, cite: aisixiang-song-chengyou-zhou-yiliang }
+  cites: [aisixiang-song-chengyou-zhou-yiliang]
+
+- id: tang-yijie
+  name: 汤一介
+  born: 1927-02-16
+  died: 2014-09-09
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 北京大学哲学系教师
+  pinyin: Tāng Yījiè
+  gender: m
+  birthplace: 天津
+  origin: 湖北黄梅
+  party: 中国共产党
+  joinedParty: 1949
+  positions:
+    - { title: 哲学系教师、教授, orgName: 北京大学, from: 1956, to: 2014-09-09, cite: pku-2014-tang-yijie, verify: true }
+    - { title: 成员（组长一级）, orgName: 梁效, from: 1973, to: 1976-10, cite: pku-2014-tang-yijie }
+  bio: 生于天津，原籍湖北黄梅，哲学家汤用彤之子，1949 年入党，1951 年北大哲学系毕业后在北京市委党校任教，1956 年回北大哲学系。妻子乐黛云 1958 年被划为右派。1957 年至 1970 年代末写过批判冯友兰、吴晗等的文章，晚年说“这些论文很少学术价值”。文革开始时被打为“黑帮分子”。1973 年进入“梁效”，1974 年 1 月在批林批孔大会上主讲《林彪与孔孟之道》材料。四人帮倒台后被隔离审查，1978 年平反，1983 年整党中被定为“犯一般性错误”。1980 年恢复讲课，此后转向儒学与中国哲学研究，2014 年去世。
+  life:
+    - h: 哲学工作者
+      from: 1927-02-16
+      to: 1966-05
+      text: |
+        1927 年 2 月 16 日生于天津，祖父汤霖是前清进士，父亲汤用彤是哲学史家。中学时接受共产主义，在西南联大附中时曾和同学相约去延安。1949 年入党，1951 年初未读完北大哲学系最后一学期就被调到北京市委党校任教，1956 年回北大哲学系当父亲的助手。他回忆，1949 年后他和几乎所有研究哲学的人都认为“只有政治上的领袖如列宁、斯大林、毛泽东等才能做哲学家”；1957 年起写了四五十篇论文，包括批判冯友兰“抽象继承法”和吴晗“道德继承问题”的文章。1958 年妻子乐黛云被划为右派下放劳动。
+      cites: [thepaper-2014-tang-yijie, pku-2014-tang-yijie]
+    - h: 梁效
+      from: 1966-05
+      to: 1976-10
+      text: |
+        文革开始时被打为“黑帮分子”。1973 年毛泽东提出调一批北大教授编批林批孔材料，他被选入“梁效”，后来说“我很愿意去，正好可以让我逃过反右回潮的灾难”；马王堆帛书出土后，他们为毛泽东要读的材料作注解、标音。1974 年 1 月在首都体育馆批林批孔大会上主讲《林彪与孔孟之道》材料。1974 年底江青到北大让他讲老子，他回忆“那个会上基本上是我们在听她讲老子”。
+      cites: [thepaper-2014-tang-yijie, pku-2014-tang-yijie, aisixiang-song-chengyou-zhou-yiliang]
+    - h: “我只能听我自己的”
+      from: 1976-10
+      to: 2014-09-09
+      text: |
+        四人帮倒台后被隔离审查，1978 年平反。他说那时突然发现一个问题：“我该听谁的？”1980 年 53 岁时恢复讲课，夏天在北大开设《魏晋玄学与佛教、道教》课程。1983 年开始的整党中，“梁效”成员受到各种处分，对他和胡经之等“组长一级成员”的定性是“犯一般性错误”。1985 年与其他学者在深圳召开“文化协调会议”，纪要提出中国还必须实现政治现代化和文化现代化。2014 年 9 月 9 日去世。
+      cites: [thepaper-2014-tang-yijie, pku-2014-tang-yijie]
+  assess:
+    - { voice: witness, text: 我之所以走了一大段弯路，主要是因为我没有用自己的头脑来思考问题。（汤一介，澎湃新闻转引）, cite: thepaper-2014-tang-yijie, quote: true }
+    - { voice: witness, text: 虽然我们是受人差遣，但我听命于他们的错误我都认账。（汤一介回忆）, cite: pku-2014-tang-yijie, quote: true }
+    - { voice: officialLater, text: 对汤一介、胡经之等组长一级成员的定性是“犯一般性错误”。（1983 年整党结论，北大新闻网转载文）, cite: pku-2014-tang-yijie, quote: true }
+  factions: [academics, ccrg]
+  fate:
+    - { date: 1966, s: attacked, note: 被打为“黑帮分子”, cite: thepaper-2014-tang-yijie }
+    - { date: 1973, s: rise, note: 选入“梁效”, cite: thepaper-2014-tang-yijie }
+    - { date: 1976-10, s: detained, note: 隔离审查, cite: thepaper-2014-tang-yijie }
+    - { date: 1978, s: restored, note: 平反, cite: thepaper-2014-tang-yijie }
+    - { date: 1980, s: normal, note: 恢复讲课资格, cite: thepaper-2014-tang-yijie }
+    - { date: 2014-09-09, s: dead, cite: thepaper-2014-tang-yijie }
+  cites: [thepaper-2014-tang-yijie, pku-2014-tang-yijie]
+
+- id: li-xifan
+  name: 李希凡
+  born: 1927-12-11
+  died: 2018-10-29
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 《人民日报》文艺部评论员
+  pinyin: Lǐ Xīfán
+  gender: m
+  aka:
+    - { kind: original, name: 李锡范 }
+  birthplace: 北京通州
+  positions:
+    - { title: 文艺部编辑、评论组长、副主任、常务副主任, orgName: 人民日报社, from: 1955, to: 1986, cite: xinhua-2018-li-xifan, verify: true }
+    - { title: 常务副院长, orgName: 中国艺术研究院, from: 1986, to: 1996, cite: xinhua-2018-li-xifan, verify: true }
+  bio: 北京通州人，原名李锡范。1947 年经姐夫赵纪彬引荐到山东大学文史系旁听，1953 年山大中文系毕业，到中国人民大学读研究班。1954 年与蓝翎合写《关于〈红楼梦简论〉及其他》，发表在《文史哲》第 9 期，毛泽东读后称他们为“小人物”，一篇文章演变成全国文化界的大事。周扬转达毛泽东的意见“那不是战斗的岗位”，他没有去研究所而进了人民日报社，做了 32 年编辑。文革中被视为“文艺黑线下的评论家”，进过“牛棚”，半途被保出。1986 年起任中国艺术研究院常务副院长，主编《红楼梦大辞典》《中华艺术通史》，2018 年去世。
+  life:
+    - h: 山大与“小人物”
+      from: 1947
+      to: 1955
+      text: |
+        1947 年中学毕业后经姐夫赵纪彬（山大文史系教授）引荐到山东大学文史系旁听；1949 年考入华东大学，1951 年华大与山大合校，进山大中文系二年级，1953 年毕业，又入人民大学研究班。1954 年 5 月 4 日与蓝翎合写成《关于〈红楼梦简论〉及其他》，多家报刊不理睬，寄回母校，发表于《文史哲》1954 年第 9 期。毛泽东读到后十分重视，“小人物”的称呼由此而来。《文艺报》主编冯雪峰转载时加了编者按，毛泽东看后生气，认为对年轻人要求太高；随后郭沫若、茅盾、周扬相继讲话，“一篇小小文章”引起全国文化界的大波澜，他“目瞪口呆，再也插不上嘴了”。
+      cites: [sdu-li-xifan, xinhua-2018-li-xifan]
+    - h: 人民日报
+      from: 1955
+      to: 1986
+      text: |
+        他本想到研究所工作，写信给周扬，周扬回信转达毛泽东的意见“那不是战斗的岗位”，于是进了人民日报社，历任文艺部编辑、评论组长、副主任、常务副主任，做了 32 年编辑。文革中他照例被视为“文艺黑线下的评论家”，进“牛棚”、挨批判，“不过半截被保了出来”。
+      cites: [sdu-li-xifan, xinhua-2018-li-xifan]
+    - h: 中国艺术研究院
+      from: 1986
+      to: 2018-10-29
+      text: |
+        后任中国艺术研究院常务副院长，主编《红楼梦大辞典》和 14 卷本《中华艺术通史》，出版《红楼梦评论集》《红楼梦艺术世界》等。2018 年 10 月 29 日在北京家中逝世，享年 91 岁。
+      cites: [xinhua-2018-li-xifan]
+  assess:
+    - { voice: officialLater, text: 开辟了从广阔的社会历史背景出发分析《红楼梦》艺术成就的研究道路。（2018 年新华社讣闻）, cite: xinhua-2018-li-xifan, quote: true }
+    - { voice: witness, text: 当时详细情况我不了解，无非是毛主席对文艺界权威统治不太满意，他的思想是希望年轻人快快成长，不要挡住他们的路。（李希凡，2001 年《光明日报》）, cite: sdu-li-xifan, quote: true }
+    - { voice: editor, text: 2001 年《光明日报》的文章说这场风波“主要还限于学术争论”；本站所收两篇文本都出自官方媒体，被批评一方和《文艺报》编者的遭遇几乎没有着墨。, cite: sdu-li-xifan }
+  factions: [academics]
+  fate:
+    - { date: 1954, s: rise, note: 被毛泽东称为“小人物”, cite: sdu-li-xifan }
+    - { date: 1955, s: normal, note: 进人民日报社, cite: sdu-li-xifan, verify: true }
+    - { date: 1966, s: attacked, note: 被视为“文艺黑线下的评论家”，进“牛棚”, cite: sdu-li-xifan, verify: true }
+    - { date: 1986, s: normal, note: 中国艺术研究院常务副院长, cite: xinhua-2018-li-xifan, verify: true }
+    - { date: 2018-10-29, s: dead, cite: xinhua-2018-li-xifan }
+  cites: [xinhua-2018-li-xifan, sdu-li-xifan]

@@ -262,6 +262,12 @@
 - { id: jiuquan, name: 酒泉, names: [酒泉], lat: 39.73, lon: 98.49 }
 - { id: shiyan, name: 十堰, names: [十堰], lat: 32.63, lon: 110.80 }
 - { id: panzhihua, name: 攀枝花, names: [攀枝花, 渡口], lat: 26.58, lon: 101.72 }
+# batch 23
+- { id: gaixian, name: 辽宁盖县, names: [盖县], lat: 40.40, lon: 122.35 }
+- { id: xiangxiang, name: 湖南湘乡, names: [湘乡], lat: 27.73, lon: 112.53 }
+- { id: fugou, name: 河南扶沟, names: [扶沟], lat: 34.06, lon: 114.39 }
+- { id: tongzhou, name: 北京通州, names: [通州], lat: 39.91, lon: 116.66 }
+- { id: xuchang, name: 河南许昌, names: [许昌], lat: 34.03, lon: 113.85 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

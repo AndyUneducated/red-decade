@@ -379,6 +379,9 @@ jiang-zemin:
 jin-guantao:
   qid: Q8460498
   why: Wikidata item has no image (P18)
+jin-jingmai:
+  qid: Q87896491
+  why: Wikidata item has no image (P18)
 jin-xunhua:
   qid: Q8296919
   why: Wikidata item has no image (P18)
@@ -460,6 +463,9 @@ li-xiannian:
   author: unknown author
   license: Public domain
   date: "1954"
+li-xifan:
+  qid: Q9198920
+  why: Wikidata item has no image (P18)
 li-xuefeng:
   qid: Q6539187
   file: Li Xuefeng.jpg
@@ -538,6 +544,9 @@ liu-jianxun:
 liu-jieting:
   qid: Q8294678
   why: Wikidata item has no image (P18)
+liu-qingtang:
+  qid: Q6653679
+  why: Wikidata item has no image (P18)
 liu-ren:
   qid: Q10897084
   why: Wikidata item has no image (P18)
@@ -583,6 +592,8 @@ lu-dingyi:
 lu-ping:
   qid: Q15933329
   why: Wikidata item has no image (P18)
+lu-ying:
+  why: no Wikidata item with matching birth year
 luo-longji:
   pick: 羅隆基 (政協).jpg
   file: 羅隆基 (政協).jpg
@@ -627,6 +638,9 @@ men-he:
   why: Wikidata item has no image (P18)
 mou-zhijing:
   why: no Wikidata item with matching birth year
+mu-xin:
+  qid: Q19825754
+  why: Wikidata item has no image (P18)
 ni-zhifu:
   qid: Q8338552
   file: Ni Zhifu1.jpg
@@ -678,6 +692,9 @@ peng-zhen:
   date: 早于1945年
 qi-benyu:
   qid: Q443618
+  why: Wikidata item has no image (P18)
+qian-haoliang:
+  qid: Q9360144
   why: Wikidata item has no image (P18)
 qiao-guanhua:
   qid: Q382192
@@ -768,6 +785,13 @@ tan-zhenlin:
   author: Unknown author Unknown author
   license: Public domain
   date: before 1949
+tang-yijie:
+  qid: Q8464153
+  file: Tang Yijie, 1953 (cropped).jpg
+  url: https://commons.wikimedia.org/wiki/File:Tang_Yijie,_1953_(cropped).jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1953"
 tao-zhu:
   qid: Q707109
   file: Tao Zhu standing portrait.jpg
@@ -854,6 +878,8 @@ wang-jinxi:
   license: Public domain
   date: 1966-07-01
 wang-li:
+  why: no Wikidata item with matching birth year
+wang-mantian:
   why: no Wikidata item with matching birth year
 wang-renzhong:
   qid: Q8293113
@@ -1032,6 +1058,9 @@ yang-hansheng:
   author: 政協秘書處
   license: Public domain
   date: "1949"
+yang-rongguo:
+  qid: Q211393
+  why: Wikidata item has no image (P18)
 yang-shangkun:
   qid: Q377935
   file: Yang Shangkun 2.jpg
@@ -1247,6 +1276,13 @@ zhou-yang:
   author: 《文艺报》
   license: Public domain
   date: 1940年发表
+zhou-yiliang:
+  qid: Q10920091
+  file: Zhou Yiliang 1935.jpg
+  url: https://commons.wikimedia.org/wiki/File:Zhou_Yiliang_1935.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1935"
 zhou-yuchi:
   qid: Q10920370
   why: Wikidata item has no image (P18)

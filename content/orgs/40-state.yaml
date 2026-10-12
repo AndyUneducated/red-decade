@@ -1116,3 +1116,15 @@
   verify: true
   leaders:
     - { name: 梁湘, title: 省长, from: 1988-04, to: 1989-09 }
+
+# ── batch 23 ──
+- id: cipg
+  name: 外文出版发行事业局
+  short: 外文局
+  aliases: [外文出版发行事业局, 外文局, 中国外文局]
+  kind: state
+  level: central
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管对外宣传书刊出版发行的国务院直属机构，下属外文出版社、人民画报社等。穆欣 1979 年 12 月出狱后任副局长。
+  verify: true

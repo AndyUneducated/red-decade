@@ -1683,3 +1683,34 @@
   places: [{ at: beijing }]
   summary: 高干子弟集中的重点中学。1966 年 6 月高三学生上书中央要求废除高考制度，随后中央决定推迟当年高校招生。
   verify: true
+
+# ── batch 23: 文化组与写作班子相关单位 ──
+- id: bj-dance-school
+  name: 北京舞蹈学校
+  aliases: [北京舞蹈学校]
+  kind: unit
+  level: central
+  from: 1954
+  places: [{ at: beijing }]
+  summary: 新中国第一所专业舞蹈学校，1956 年起由苏联专家开设芭蕾舞专业，1959 年组建实验芭蕾舞团排演《天鹅湖》（后为中央芭蕾舞团）。文革中刘庆棠在此审讯教师邸尔，制造“5·16兵团文艺方面军”假案。
+  verify: true
+
+- id: zhanshi-drama
+  name: 广州军区战士话剧团
+  aliases: [广州军区战士话剧团]
+  kind: army
+  level: provincial
+  under: [{ org: guangzhou-mr }]
+  places: [{ at: guangzhou }]
+  summary: 广州军区的文艺团体。金敬迈 1949 年参军后被选入，在此写成长篇小说《欧阳海之歌》；1983 年判决书仍称他为该团创作员。
+  verify: true
+
+- id: cnaa
+  name: 中国艺术研究院
+  aliases: [中国艺术研究院, 文化部文学艺术研究院]
+  kind: unit
+  level: central
+  under: [{ org: culture-ministry }]
+  places: [{ at: beijing }]
+  summary: 文化部直属的艺术研究机构。李希凡 1986 年起任常务副院长。
+  verify: true
