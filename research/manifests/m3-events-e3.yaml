@@ -1,0 +1,129 @@
+# M3 事件补足 E3：1968 年。中央文件、两报一刊社论（维基文库）与《人民日报》版面（govopendata，满 50 年全文收录）。
+wikisource:
+  - id: ws-1968-01-01-total-victory
+    title: 迎接无产阶级文化大革命的全面胜利
+    date: 1968-01-01
+    author: 《人民日报》《红旗》《解放军报》
+    kind: editorial
+    alias: 1968 年元旦社论《迎接无产阶级文化大革命的全面胜利》
+  - id: ws-1968-02-hubei-revcom
+    title: 长江万里起宏图
+    date: 1968-02
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《长江万里起宏图》（湖北省革委会成立，1968）
+  - id: ws-1968-02-guangdong-revcom
+    title: 中共中央、国务院、中央军委、中央文革关于成立广东省革命委员会的批示
+    date: 1968-02-20
+    author: 中共中央、国务院、中央军委、中央文革
+    kind: party-doc
+    alias: 中央关于成立广东省革命委员会的批示（1968）
+  - id: ws-1968-03-30-revcom-good
+    title: 革命委员会好
+    date: 1968-03-30
+    author: 《人民日报》《红旗》《解放军报》
+    kind: editorial
+    alias: 两报一刊社论《革命委员会好》（1968）
+  - id: ws-1968-04-16-black-americans
+    title: 中国共产党中央委员会主席毛泽东同志支持美国黑人抗暴斗争的声明
+    date: 1968-04-16
+    author: 毛泽东
+    kind: speech
+    alias: 毛泽东《支持美国黑人抗暴斗争的声明》（1968）
+  - id: ws-1968-08-23-zhou-romania
+    title: 在罗马尼亚驻华大使举行的国庆招待会上的讲话
+    date: 1968-08-23
+    author: 周恩来
+    kind: speech
+    alias: 周恩来在罗马尼亚驻华大使国庆招待会上的讲话（1968）
+  - id: ws-1968-08-25-wpt-schools
+    title: 中共中央、国务院、中央军委、中央文革关于派工人宣传队进学校的通知
+    date: 1968-08-25
+    author: 中共中央、国务院、中央军委、中央文革
+    kind: party-doc
+    alias: 中央关于派工人宣传队进学校的通知（1968）
+  - id: ws-1968-graduates
+    title: 中共中央、国务院、中央军委、中央文革关于一九六八年大专院校毕业生分配问题的通知
+    date: 1968
+    author: 中共中央、国务院、中央军委、中央文革
+    kind: party-doc
+    alias: 中央关于 1968 年大专院校毕业生分配问题的通知
+  - id: ws-1968-10-fresh-blood
+    title: 吸收无产阶级的新鲜血液──整党工作中的一个重要问题
+    date: 1968-10-14
+    author: 《红旗》社论
+    kind: editorial
+    alias: 《红旗》社论《吸收无产阶级的新鲜血液》（1968）
+web:
+  - id: rmrb-1968-05-26-france
+    title: 法国工人斗志昂扬坚持全国罢工 巴黎青年不畏强暴反击军警镇压
+    date: 1968-05-25
+    author: 新华社
+    kind: news
+    alias: 1968 年《人民日报》法国五月罢工报道
+    url: https://cn.govopendata.com/renminribao/1968/5/26/1/
+    via: 《人民日报》1968-05-26 第 1 版（govopendata 转录）
+    article: 法国工人斗志昂扬
+  - id: rmrb-1968-05-28-men-he
+    title: 中共中央中央军委中央文革发布命令追授门合同志以“无限忠于毛主席革命路线的好干部”的光荣称号
+    date: 1968-05-27
+    author: 新华社
+    kind: news
+    alias: 1968 年追授门合称号报道
+    url: https://cn.govopendata.com/renminribao/1968/5/28/1/
+    via: 《人民日报》1968-05-28 第 1 版（govopendata 转录）
+    article: 伟大统帅毛主席和他的亲密战友林副主席亲自批准
+  - id: rmrb-1968-07-22-machine-tool
+    title: 从上海机床厂看培养工程技术人员的道路（调查报告）
+    date: 1968-07-22
+    author: 《文汇报》《人民日报》记者
+    kind: article
+    alias: 《从上海机床厂看培养工程技术人员的道路》（1968，含“七二一指示”）
+    url: https://cn.govopendata.com/renminribao/1968/7/22/1/
+    via: 《人民日报》1968-07-22 第 1 版（govopendata 转录）
+    article: 从上海机床厂看培养工程技术人员的道路
+  - id: rmrb-1968-08-07-mango
+    title: 毛主席把外国朋友赠送的珍贵礼物转送给首都工农毛泽东思想宣传队
+    date: 1968-08-05
+    author: 新华社
+    kind: news
+    alias: 1968 年“芒果”报道
+    url: https://cn.govopendata.com/renminribao/1968/8/7/1/
+    via: 《人民日报》1968-08-07 第 1 版（govopendata 转录）
+    article: 最大关怀
+  - id: rmrb-1968-08-24-czech
+    title: 中国政府和人民强烈谴责苏修集团侵占捷克斯洛伐克
+    date: 1968-08-23
+    author: 新华社
+    kind: news
+    alias: 1968 年中国谴责苏联出兵捷克斯洛伐克报道
+    url: https://cn.govopendata.com/renminribao/1968/8/24/1/
+    via: 《人民日报》1968-08-24 第 1 版（govopendata 转录）
+    article: 中国政府和人民强烈谴责
+  - id: rmrb-1968-10-14-tianjin-wpt
+    title: 天津工人毛泽东思想宣传队进驻上层建筑领域的一千八百多个单位
+    date: 1968-10-14
+    author: 新华社
+    kind: news
+    alias: 1968 年天津工宣队进驻上层建筑报道
+    url: https://cn.govopendata.com/renminribao/1968/10/14/1/
+    via: 《人民日报》1968-10-14 第 1 版（govopendata 转录）
+    article: 天津工人毛泽东思想宣传队
+  - id: rmrb-1968-12-30-bridge
+    title: 南京长江大桥提前全面建成通车
+    date: 1968-12-29
+    author: 新华社
+    kind: news
+    alias: 1968 年南京长江大桥通车报道
+    url: https://cn.govopendata.com/renminribao/1968/12/30/1/
+    via: 《人民日报》1968-12-30 第 1 版（govopendata 转录）
+    article: 毛主席无产阶级革命路线的又一伟大胜利
+  - id: rmrb-1968-12-30-h-bomb
+    title: 热烈欢呼毛泽东思想又一伟大胜利 热烈庆祝我国新的氢弹的试验成功
+    date: 1968-12-28
+    author: 新华社
+    kind: news
+    alias: 1968 年 12 月氢弹试验报道
+    url: https://cn.govopendata.com/renminribao/1968/12/30/1/
+    via: 《人民日报》1968-12-30 第 1 版（govopendata 转录）
+    article: 热烈欢呼毛泽东思想又一伟大胜利

@@ -240,3 +240,172 @@
   voices:
     - { voice: doc, text: 判处现行反革命分子遇罗克死刑，立即执行（1970 年判决书）, cite: ws-1970-yu-luoke-death-sentence, quote: true }
   cites: [ws-1970-yu-luoke-death-sentence]
+
+# ── E3 补充：1968 年（革委会、对外表态、教育革命、整党、工宣队）
+- id: 1968-01-01-total-victory
+  date: 1968-01-01
+  title: 元旦社论：“夺取无产阶级文化大革命的全面胜利”
+  lane: ideology
+  weight: 1
+  summary: 两报一刊元旦社论宣布文化大革命“已经在一九六七年取得了决定性的胜利”，1968 年的任务是“从思想上、政治上、经济上、组织上”夺取全面胜利。社论把毛泽东思想学习班、革委会的相继建立和导弹、氢弹试验都列为“形势大好”的证据，并要求“节约闹革命”，批判“反革命经济主义的歪风”。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 在我们伟大领袖毛主席的天才领导下，人类历史上第一次无产阶级文化大革命，已经在一九六七年取得了决定性的胜利。（1968 年元旦社论）, cite: ws-1968-01-01-total-victory, quote: true }
+  cites: [ws-1968-01-01-total-victory]
+
+- id: 1968-02-hubei-revcom
+  date: 1968-02
+  title: 湖北省革命委员会成立
+  lane: local
+  weight: 1
+  place: 武汉
+  summary: “七二〇事件”半年后，湖北省革委会在武汉成立。两报社论题为《长江万里起宏图》，说湖北造反派“彻底揭露了中国赫鲁晓夫及其在湖北的代理人王任重一伙”，并称赞驻军坚持“支左不支派”。原武汉军区司令员陈再道已被撤职，革委会由新调来的军队干部主持。
+  people: [wang-renzhong, chen-zaidao, zeng-siyu]
+  voices:
+    - { voice: official1966, text: 他们在全国亿万军民的强大支持下，迎着阶级斗争的急风暴雨，彻底揭露了中国赫鲁晓夫及其在湖北的代理人王任重一伙，把党内一小撮走资派打得落花流水。（1968 年 2 月两报社论）, cite: ws-1968-02-hubei-revcom, quote: true }
+  cites: [ws-1968-02-hubei-revcom, ws-1967-07-26-wuhan-notice]
+  verify: true
+
+- id: 1968-02-20-guangdong-revcom
+  date: 1968-02-20
+  title: 中央批准成立广东省革委会，黄永胜任主任
+  lane: local
+  weight: 2
+  place: 广州
+  summary: 中央批示同意成立 180 名委员的广东省革委会，由广州军区司令员黄永胜任主任、孔石泉任第一副主任，常委中有王首道、陈郁等老干部和群众组织代表。批示说广东“揭出了以陶铸、赵紫阳为首的广东省党内一小撮走资本主义道路当权派”，并“批判了地方主义小集团企图翻案的阴谋活动”。黄永胜主政期间广东发生大规模清队和“广东地下党”冤案；同年 3 月他调任总参谋长。
+  people: [huang-yongsheng, tao-zhu, zhao-ziyang]
+  voices:
+    - { voice: doc, text: 揭出了以陶铸、赵紫阳为首的广东省党内一小撮走资本主义道路当权派，批判了地方主义小集团企图翻案的阴谋活动（1968 年 2 月 20 日中央批示）, cite: ws-1968-02-guangdong-revcom, quote: true }
+  cites: [ws-1968-02-guangdong-revcom, ws-1980-indictment]
+  verify: true
+
+- id: 1968-03-30-revcom-good
+  date: 1968-03-30
+  title: 两报一刊社论《革命委员会好》
+  lane: center
+  weight: 2
+  summary: 社论说全国已有十八个省、市、自治区成立革委会，并发表毛泽东的新指示：革委会的基本经验是有革命干部、军队、革命群众三方面的代表，“实现了革命的三结合”，要“实行一元化的领导，打破重叠的行政机构，精兵简政”。革委会由此定型为党政合一、军人主导的临时政权。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 革命委员会的基本经验有三条：一条是有革命干部的代表，一条是有军队的代表，一条是有革命群众的代表，实现了革命的三结合。（毛泽东，1968 年 3 月 30 日社论引）, cite: ws-1968-03-30-revcom-good, quote: true }
+    - { voice: official1981, text: 各部门各地方的党政领导机构几乎都被夺权或改组（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1968-03-30-revcom-good, ws-1981-resolution]
+
+- id: 1968-04-16-black-americans
+  date: 1968-04-16
+  title: 毛泽东发表支持美国黑人抗暴斗争的声明
+  lane: intl
+  weight: 1
+  summary: 马丁·路德·金遇刺后，毛泽东发表声明，说“美国广大黑人同美国统治集团之间的矛盾，是阶级矛盾”，只有推翻美国垄断资产阶级的统治黑人才能彻底解放，并呼吁世界各国人民声援。这是 1963 年声明的续篇；此后几年的 4 月 16 日前后，国内报刊多次发文纪念。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 美国的种族歧视，是殖民主义、帝国主义制度的产物。美国广大黑人同美国统治集团之间的矛盾，是阶级矛盾。（毛泽东，1968 年 4 月 16 日）, cite: ws-1968-04-16-black-americans, quote: true }
+  cites: [ws-1968-04-16-black-americans]
+
+- id: 1968-05-25-france
+  date: 1968-05-25
+  title: 《人民日报》头版报道法国“五月风暴”
+  lane: intl
+  weight: 1
+  summary: 法国学生运动和全国总罢工期间，新华社连日在《人民日报》头版报道，说“法国一千多万工人”坚持总罢工，巴黎青年“接连第三天同反动军警通宵浴血搏斗”，把西方的学潮当作“向腐朽的资本主义制度挑战”。同一时期国内的红卫兵已被要求回校“复课闹革命”，不久工宣队进校。
+  voices:
+    - { voice: official1966, text: 法国一千多万工人斗志昂扬，坚持全国总罢工。法国的经济生活继续陷于瘫痪状态。（1968 年 5 月 25 日新华社电）, cite: rmrb-1968-05-26-france, quote: true }
+  cites: [rmrb-1968-05-26-france]
+
+- id: 1968-05-27-men-he
+  date: 1968-05-27
+  title: 追授门合“无限忠于毛主席革命路线的好干部”
+  lane: army
+  weight: 1
+  place: 青海
+  summary: 中共中央、中央军委、中央文革发布命令，追授青海省军区某部副教导员门合称号，号召全军学习。命令说门合 1967 年 9 月 5 日在巴仓农场支左时，土火箭炸药意外爆炸，他扑上去保护了 27 人。命令特别表彰他“揭露了中国赫鲁晓夫推行‘三自一包’”、抵制“彭德怀、罗瑞卿的资产阶级军事路线”，并把他的誓言概括为“一切想着毛主席，一切服从毛主席，一切紧跟毛主席，一切为着毛主席”。
+  concepts: [mao-thought]
+  voices:
+    - { voice: official1966, text: 门合同志以他光辉的一生，实践了自己的誓言：一切想着毛主席，一切服从毛主席，一切紧跟毛主席，一切为着毛主席。（1968 年 5 月命令）, cite: rmrb-1968-05-28-men-he, quote: true }
+  cites: [rmrb-1968-05-28-men-he]
+
+- id: 1968-07-21-machine-tool
+  date: 1968-07-21
+  title: “七二一指示”：走上海机床厂的道路
+  lane: culture
+  weight: 2
+  place: 上海机床厂
+  summary: 新华社发出调查报告《从上海机床厂看培养工程技术人员的道路》，编者按发表毛泽东的指示：“大学还是要办的”，主要是理工科大学，但要缩短学制，“从有实践经验的工人农民中间选拔学生”，学几年后“又回到生产实践中去”。各地据此办起“七·二一工人大学”；1970 年后大学按这一原则推荐招收工农兵学员。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 大学还是要办的，我这里主要说的是理工科大学还要办，但学制要缩短，教育要革命，要无产阶级政治挂帅，走上海机床厂从工人中培养技术人员的道路。（毛泽东，1968 年 7 月编者按引）, cite: rmrb-1968-07-22-machine-tool, quote: true }
+  cites: [rmrb-1968-07-22-machine-tool]
+  verify: true
+
+- id: 1968-08-05-mango
+  date: 1968-08-05
+  title: 毛泽东把芒果转赠工宣队
+  lane: mass
+  weight: 2
+  place: 北京清华大学
+  summary: 工宣队进驻清华九天后，毛泽东把“外国朋友”赠送的芒果转送给“首都工农毛泽东思想宣传队”。新华社报道称这是“最大关怀，最大信任，最大支持，最大鼓舞”，清华园和各工厂连夜庆祝、冒雨到中南海报喜。此后各地把芒果或其蜡制复制品供奉、巡游，形成一阵“芒果崇拜”；工人阶级“领导一切”的口号随即提出。
+  people: [mao-zedong]
+  concepts: [mao-thought]
+  voices:
+    - { voice: official1966, text: 我们的伟大导师、伟大领袖毛主席，八月五日把外国朋友赠送给毛主席的珍贵礼物——芒果，转送给了首都工农毛泽东思想宣传队。（1968 年 8 月 6 日新华社电）, cite: rmrb-1968-08-07-mango, quote: true }
+  cites: [rmrb-1968-08-07-mango]
+  verify: true
+
+- id: 1968-08-23-czech
+  date: 1968-08-23
+  title: 周恩来谴责苏联出兵捷克斯洛伐克
+  lane: intl
+  weight: 2
+  summary: 8 月 20 日夜苏联等华约国家出兵占领捷克斯洛伐克。8 月 23 日周恩来在罗马尼亚国庆招待会上说，这是“苏修叛徒、工贼集团”推行“法西斯强权政治的最露骨、最典型的表现”，并称苏联“早已堕落成为社会帝国主义和社会法西斯主义”。他同时表示支持罗马尼亚抵御“外来的干涉和侵略”。“社会帝国主义”从此成为中国对苏联的正式称呼，半年后中苏在珍宝岛交火。
+  people: [zhou-enlai]
+  concepts: [revisionism]
+  voices:
+    - { voice: doc, text: 苏修叛徒集团早已堕落成为社会帝国主义和社会法西斯主义。（周恩来，1968 年 8 月 23 日）, cite: ws-1968-08-23-zhou-romania, quote: true }
+  cites: [ws-1968-08-23-zhou-romania, rmrb-1968-08-24-czech]
+  verify: true
+
+- id: 1968-10-13-tianjin-wpt
+  date: 1968-10-13
+  title: 工宣队进驻“上层建筑”各单位
+  lane: mass
+  weight: 1
+  place: 天津等地
+  summary: 8 月 25 日中央通知各地“以优秀的产业工人为主体”组成工宣队，分批进驻大、中、小学，“先进大学，后进中，小学”。到 10 月，新华社报道天津工宣队已进驻“上层建筑领域的一千八百多个单位”，“用毛泽东思想对知识分子进行再教育”。这些单位此后由工宣队、军宣队主持清队和“斗、批、改”。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 整顿教育，时机到了。各地应该仿照北京的办法，把大中城市的大，中，小学校逐步管起来。（1968 年 8 月 25 日中央通知）, cite: ws-1968-08-25-wpt-schools, quote: true }
+    - { voice: official1966, text: 工人阶级登上了上层建筑各个领域斗、批、改的政治舞台，用毛泽东思想对知识分子进行再教育（1968 年 10 月新华社电）, cite: rmrb-1968-10-14-tianjin-wpt, quote: true }
+  cites: [ws-1968-08-25-wpt-schools, rmrb-1968-10-14-tianjin-wpt]
+
+- id: 1968-10-14-fresh-blood
+  date: 1968-10-14
+  title: “吐故纳新”：整党建党开始
+  lane: center
+  weight: 1
+  summary: 《红旗》社论《吸收无产阶级的新鲜血液》发表毛泽东关于整党的指示：“一个无产阶级的党也要吐故纳新，才能朝气蓬勃。”各地开始在工厂、学校试点恢复党组织生活，清除“叛徒、特务、死不改悔的走资派”出党，吸收造反派中的“优秀分子”入党，为九大召开作组织准备。同月八届十二中全会宣布把刘少奇“永远开除出党”。
+  people: [mao-zedong, liu-shaoqi]
+  voices:
+    - { voice: doc, text: 一个无产阶级的党也要吐故纳新，才能朝气蓬勃。不清除废料，不吸收新鲜血液，党就没有朝气。（毛泽东，1968 年 10 月《红旗》社论引）, cite: ws-1968-10-fresh-blood, quote: true }
+  cites: [ws-1968-10-fresh-blood]
+
+- id: 1968-11-graduates
+  date: 1968-11
+  title: 1968 届大学毕业生“面向农村”分配
+  lane: culture
+  weight: 1
+  summary: 中央通知 1968 年全国约十五万名大专毕业生从 11 月中旬开始分配，“一般都必须去当普通农民、普通工人，大量的必须去当普通农民”，不要强调专业对口，12 月底前必须报到，“过期不报到的，就不再分配工作”。1966—1968 届毕业生工资一律暂按临时标准发给，不转正定级；已进驻工宣队的学校由宣传队掌握分配大权。
+  voices:
+    - { voice: doc, text: 一般都必须去当普通农民、普通工人，大量的必须去当普通农民。（1968 年中央关于大专院校毕业生分配的通知）, cite: ws-1968-graduates, quote: true }
+  cites: [ws-1968-graduates]
+
+- id: 1968-12-29-nanjing-bridge
+  date: 1968-12-29
+  title: 南京长江大桥全线通车
+  lane: econ
+  weight: 2
+  place: 南京
+  summary: 南京长江大桥铁路桥 10 月 1 日先行通车，12 月 29 日公路桥通车，全桥建成。铁路桥长六千七百多米、公路桥四千五百多米，报道称它是“我国自行设计和建造的最大的现代化桥梁”，沟通了南北铁路和公路交通。几天前（12 月下旬）新的氢弹试验成功，报道把两件事都称为“无产阶级文化大革命的又一丰硕成果”。1981 年决议把大桥列为文革期间仍取得的成就，同时说“这一切决不是‘文化大革命’的成果”。
+  voices:
+    - { voice: official1966, text: 南京长江大桥铁路桥已于今年十月一日正式通车，公路桥于十二月二十九日举行通车典礼。至此，南京长江大桥全部建成，全线通车。（1968 年 12 月新华社电）, cite: rmrb-1968-12-30-bridge, quote: true }
+    - { voice: official1981, text: 当然，这一切决不是“文化大革命”的成果，如果没有“文化大革命”，我们的事业会取得大得多的成就。（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [rmrb-1968-12-30-bridge, rmrb-1968-12-30-h-bomb, ws-1981-resolution]
