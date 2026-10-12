@@ -1,0 +1,105 @@
+# M3 事件补足 E2：1967 年下半年。中央文件（维基文库）与《人民日报》版面（govopendata，满 50 年全文收录）。
+wikisource:
+  - id: ws-1967-08-10-hunan-decision
+    title: 中共中央关于湖南问题的若干决定
+    date: 1967-08-10
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于湖南问题的若干决定（1967）
+  - id: ws-1967-08-hk-british
+    title: 揭穿英帝的狡诈嘴脸
+    date: 1967-08-21
+    author: 《人民日报》评论员
+    kind: editorial
+    alias: 《人民日报》评论员《揭穿英帝的狡诈嘴脸》（1967）
+  - id: ws-1967-09-tao-zhu-editorial
+    title: 掌握革命斗争的大方向 深入开展革命的大批判
+    date: 1967-09-09
+    author: 《人民日报》社论
+    kind: editorial
+    alias: 社论《掌握革命斗争的大方向 深入开展革命的大批判》（1967）
+  - id: ws-1967-10-14-resume-classes-notice
+    title: 关于大、中、小学校复课闹革命的通知
+    date: 1967-10-14
+    author: 中共中央、国务院、中央军委、中央文革小组
+    kind: party-doc
+    alias: 关于大、中、小学校复课闹革命的通知（1967）
+  - id: ws-1967-11-inner-mongolia-revcom
+    title: 红太阳照亮了内蒙古草原
+    date: 1967-11-02
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《红太阳照亮了内蒙古草原》（1967）
+web:
+  - id: rmrb-1967-07-04-burma-martyr
+    title: 首都群众迎接烈士骨灰欢迎负伤同志归来
+    date: 1967-07-03
+    author: 新华社
+    kind: news
+    alias: 1967 年《人民日报》迎接援缅专家刘逸骨灰报道
+    url: https://cn.govopendata.com/renminribao/1967/7/4/1/
+    via: 《人民日报》1967-07-04 第 1 版（govopendata 转录）
+    article: 首都群众迎接烈士骨灰
+  - id: rmrb-1967-07-04-burma-protest
+    title: 首都红卫兵愤怒声讨奈温反动政府
+    date: 1967-07-03
+    author: 新华社
+    kind: news
+    alias: 1967 年首都红卫兵声讨奈温政府报道
+    url: https://cn.govopendata.com/renminribao/1967/7/4/1/
+    via: 《人民日报》1967-07-04 第 1 版（govopendata 转录）
+    article: 首都红卫兵愤怒声讨
+  - id: rmrb-1967-07-10-hk-border
+    title: 港英当局再次镇压“新界”居民并向我境内开枪 我国最强烈抗议英帝在边境武装挑衅
+    date: 1967-07-09
+    author: 新华社
+    kind: news
+    alias: 1967 年 7 月沙头角边境事件报道
+    url: https://cn.govopendata.com/renminribao/1967/7/10/1/
+    via: 《人民日报》1967-07-10 第 1 版（govopendata 转录）
+    article: 港英当局再次镇压
+  - id: rmrb-1967-07-26-wuhan-rally
+    title: 首都百万军民集会支持武汉革命派
+    date: 1967-07-25
+    author: 新华社
+    kind: news
+    alias: 1967 年 7 月 25 日天安门支持武汉革命派大会报道
+    url: https://cn.govopendata.com/renminribao/1967/7/26/1/
+    via: 《人民日报》1967-07-26 第 1 版（govopendata 转录）
+    article: 首都百万军民集会
+  - id: rmrb-1967-09-08-tao-zhu-books
+    title: 评陶铸的两本书
+    date: 1967-09-08
+    author: 姚文元
+    kind: essay
+    alias: 姚文元《评陶铸的两本书》（1967）
+    url: https://cn.govopendata.com/renminribao/1967/9/8/1/
+    via: 《人民日报》1967-09-08 第 1 版（govopendata 转录）
+    article: 评陶铸的两本书
+  - id: rmrb-1967-10-21-cadre-policy
+    title: 正确地执行毛主席的干部政策
+    date: 1967-10-21
+    author: 《人民日报》
+    kind: editorial
+    alias: 《人民日报》《正确地执行毛主席的干部政策》（1967）
+    url: https://cn.govopendata.com/renminribao/1967/10/21/1/
+    via: 《人民日报》1967-10-21 第 1 版（govopendata 转录）
+    article: 正确地执行毛主席的干部政策
+  - id: rmrb-1967-12-18-8341
+    title: 人民解放军八三四一部队支左工作的三项原则
+    date: 1967-12-18
+    author: 中国人民解放军八三四一部队
+    kind: party-doc
+    alias: 八三四一部队支左工作的三项原则（1967）
+    url: https://cn.govopendata.com/renminribao/1967/12/18/1/
+    via: 《人民日报》1967-12-18 第 1 版（govopendata 转录）
+    article: 人民解放军八三四一部队
+  - id: rmrb-1967-12-26-mao-works
+    title: 毛泽东选集今年出版八千万部
+    date: 1967-12-25
+    author: 新华社
+    kind: news
+    alias: 1967 年《毛泽东选集》出版八千万部报道
+    url: https://cn.govopendata.com/renminribao/1967/12/26/1/
+    via: 《人民日报》1967-12-26 第 1 版（govopendata 转录）
+    article: 毛泽东选集今年出版
