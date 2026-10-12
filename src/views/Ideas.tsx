@@ -4,6 +4,7 @@ import { useTheme } from '../lib/theme'
 import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
 import { Lineage } from './ideas/Lineage'
+import { Press } from './ideas/Press'
 import { Spectrum } from './ideas/Spectrum'
 import { Stream } from './ideas/Stream'
 
@@ -25,6 +26,10 @@ const TABS = {
   stream: {
     name: '主义词频',
     desc: '各主义的匹配词在本站原始文献中每万字出现的次数。语料集中在 1966–1967 年；字数太少的年份不画，以免一两份文献决定整年的形状。',
+  },
+  press: {
+    name: '报刊词频',
+    desc: '一组口号与关键词在 1966–1976 年社论和新闻报道中逐年每万字出现的次数，黑框标出首现年份，行末是首现的日期与文本。按首现排序，可以看出口号如何一代接一代更替：“夺权”“大联合”在 1967 年，“最新指示”“清理阶级队伍”在 1968 年，“批修整风”在 1972–1973 年，“孔老二”“法家”在 1974 年，“资产阶级法权”在 1975 年。点关键词跳到对应的概念或主义。',
   },
   concepts: {
     name: '概念 × 文献',
@@ -55,6 +60,7 @@ export function Ideas() {
       {tab === 'tree' && <Lineage />}
       {tab === 'spectrum' && <Spectrum />}
       {tab === 'stream' && <Stream />}
+      {tab === 'press' && <Press />}
       {tab === 'concepts' && <ConceptGrid />}
     </div>
   )

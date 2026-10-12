@@ -1,0 +1,38 @@
+# Slogans and keywords tracked year by year through editorials and news reports (1966–1976).
+# A row counts every occurrence of any of its terms; `concept` / `ism` link it to the ideas views.
+- { id: class-struggle-key, name: 以阶级斗争为纲, terms: [以阶级斗争为纲], concept: class-struggle }
+- { id: continuous-revolution, name: 继续革命, terms: [继续革命], concept: continuous-revolution, ism: continuous-revolution }
+- { id: revisionism, name: 修正主义, terms: [修正主义], concept: revisionism }
+- { id: capitalist-roaders, name: 走资派, terms: [走资本主义道路的当权派, 走资派], concept: capitalist-roaders }
+- { id: reactionary-line, name: 资产阶级反动路线, terms: [资产阶级反动路线], concept: two-lines }
+- { id: bourgeois-hq, name: 资产阶级司令部, terms: [资产阶级司令部], concept: bourgeois-hq }
+- { id: four-olds, name: 四旧, terms: [四旧], concept: four-olds }
+- { id: rebellion, name: 造反有理, terms: [造反有理], concept: rebellion }
+- { id: seize-power, name: 夺权, terms: [夺权] }
+- { id: great-alliance, name: 大联合, terms: [大联合] }
+- { id: revcom, name: 革命委员会, terms: [革命委员会, 革委会], except: [文化革命委员会] }
+- { id: dou-pi-gai, name: 斗批改, terms: [斗、批、改, 斗批改] }
+- { id: clean-ranks, name: 清理阶级队伍, terms: [清理阶级队伍], concept: clean-ranks }
+- { id: latest-instruction, name: 最新指示, terms: [最新指示], concept: latest-instruction }
+- { id: grasp-revolution, name: 抓革命，促生产, terms: [抓革命，促生产, 抓革命、促生产, 抓革命促生产], concept: grasp-revolution }
+- { id: war-preparedness, name: 战备, terms: [战备], concept: war-preparedness }
+- { id: su-xiu, name: 苏修, terms: [苏修] }
+- { id: mei-di, name: 美帝, terms: [美帝] }
+- { id: ultra-left, name: 极“左”, terms: [极“左”, 极左], concept: ultra-left }
+- { id: ultra-right, name: 极右, terms: [极右] }
+- { id: pi-xiu-zhengfeng, name: 批修整风, terms: [批修整风] }
+- { id: pi-lin-zhengfeng, name: 批林整风, terms: [批林整风] }
+- { id: genius, name: 天才论, terms: [天才论], ism: genius-theory }
+- { id: pi-lin-pi-kong, name: 批林批孔, terms: [批林批孔] }
+- { id: kong-laoer, name: 孔老二, terms: [孔老二] }
+- { id: legalists, name: 法家, terms: [法家] }
+- { id: keji-fuli, name: 克己复礼, terms: [克己复礼] }
+- { id: against-tide, name: 反潮流, terms: [反潮流] }
+- { id: new-things, name: 新生事物, terms: [新生事物] }
+- { id: four-modernizations, name: 四个现代化, terms: [四个现代化] }
+- { id: bourgeois-right, name: 资产阶级法权, terms: [资产阶级法权] }
+- { id: all-round-dictatorship, name: 全面专政, terms: [全面专政], ism: all-round-dictatorship }
+- { id: empiricism, name: 经验主义, terms: [经验主义] }
+- { id: stability-unity, name: 安定团结, terms: [安定团结] }
+- { id: right-reversal, name: 右倾翻案风, terms: [右倾翻案风], ism: right-deviation-reversal }
+- { id: gang-of-four, name: 四人帮, terms: [四人帮] }

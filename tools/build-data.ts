@@ -20,6 +20,7 @@ import {
   PersonQuoteSchema,
   PersonSchema,
   PlaceSchema,
+  PressTermSchema,
   RelationSchema,
   RevcomSchema,
   SourceSchema,
@@ -126,6 +127,7 @@ for (const p of yamlFiles('content', 'leaders'))
 const places = load(PlaceSchema, read('content', 'places.yaml'), 'places')
 const isms = load(IsmSchema, read('content', 'isms.yaml'), 'isms')
 const line = load(LinePointSchema, read('content', 'line.yaml'), 'line')
+const pressTerms = load(PressTermSchema, read('content', 'press-terms.yaml'), 'press-terms')
 
 // ── derived links: positions → orgs, birth/death strings → places ──
 // A position without org takes the org whose name or alias equals its orgName; failing that, the org
@@ -432,9 +434,9 @@ function groupBy<T, K>(xs: T[], key: (x: T) => K) {
   return m
 }
 
-function hitsFor(terms: string[]): ConceptHit[] {
+function hitsFor(terms: string[], within = datedTexts): ConceptHit[] {
   const hits: ConceptHit[] = []
-  for (const t of datedTexts) {
+  for (const t of within) {
     let count = 0
     let first = -1
     let firstTerm = ''
@@ -455,6 +457,47 @@ function hitsFor(terms: string[]): ConceptHit[] {
   return hits
 }
 
+// Press: editorials and news reports 1966–1976, the years the press corpus covers with several texts a year.
+const PRESS_KINDS = new Set(['editorial', 'news', 'press'])
+const pressTexts = datedTexts.filter((t) => PRESS_KINDS.has(t.source.kind) && t.source.date >= '1966' && t.source.date < '1977')
+const conceptIds = new Set(concepts.map((c) => c.id))
+if (new Set(pressTerms.map((p) => p.id)).size !== pressTerms.length) errors.push('press-terms: duplicate id')
+for (const p of pressTerms) {
+  if (p.concept && !conceptIds.has(p.concept)) errors.push(`press-terms ${p.id}: unknown concept ${p.concept}`)
+  if (p.ism && !ismIds.has(p.ism)) errors.push(`press-terms ${p.id}: unknown ism ${p.ism}`)
+}
+function pressHits(terms: string[], except: string[]): ConceptHit[] {
+  const hits: ConceptHit[] = []
+  for (const t of pressTexts) {
+    const masked = except.reduce((b, x) => b.replaceAll(x, '□'.repeat(x.length)), t.body)
+    let count = 0
+    let first = -1
+    let firstTerm = ''
+    for (const term of terms) {
+      const n = masked.split(term).length - 1
+      if (!n) continue
+      count += n
+      const i = masked.indexOf(term)
+      if (first < 0 || i < first) [first, firstTerm] = [i, term]
+    }
+    if (!count) continue
+    const context = t.body.slice(Math.max(0, first - 36), first + firstTerm.length + 36).replace(/\s+/g, ' ')
+    hits.push({ source: t.id, date: t.source.date, count, context })
+  }
+  return hits
+}
+// a year-only date is somewhere in that year: it is first only if nothing dated within the year is
+const firstKey = (d: string) => (d.length === 4 ? `${d}-13` : d)
+const press = {
+  years: [...groupBy(pressTexts, (t) => Number(t.source.date.slice(0, 4)))].map(([year, ts]) => ({ year, docs: ts.length, chars: ts.reduce((n, t) => n + t.body.length, 0) })),
+  terms: pressTerms.map(({ except, ...p }) => {
+    const hits = pressHits(p.terms, except).sort((a, b) => firstKey(a.date).localeCompare(firstKey(b.date)))
+    const counts = [...groupBy(hits, (h) => Number(h.date.slice(0, 4)))].map(([year, hs]) => ({ year, n: hs.reduce((n, h) => n + h.count, 0) }))
+    return { ...p, counts, first: hits[0], total: hits.reduce((n, h) => n + h.count, 0) }
+  }),
+}
+for (const p of press.terms) if (!p.total) errors.push(`press-terms ${p.id}: no hits in the press corpus`)
+
 if (errors.length) {
   console.error(`\n${errors.length} error(s):\n` + errors.map((e) => `  ✗ ${e}`).join('\n'))
   process.exit(1)
@@ -472,6 +515,7 @@ const atlas: Atlas = {
   isms: isms.map((m) => ({ ...m, carriers: m.carriers.map((name) => ({ name, person: personByName.get(name) })), hits: hitsFor(m.terms) })),
   line,
   corpus: [...groupBy(datedTexts, (t) => Number(t.source.date.slice(0, 4)))].map(([year, ts]) => ({ year, docs: ts.length, chars: ts.reduce((n, t) => n + t.body.length, 0) })),
+  press,
   documents: documents.map((d) => ({ ...d, source: sourceById.get(d.id)! })),
   sources,
   claims,
@@ -499,6 +543,7 @@ console.log(
     `relations  ${relations.length}`,
     `concepts   ${concepts.length}`,
     `isms       ${isms.length}  (${isms.filter((m) => m.pos.length).length} placed on the spectrum, ${isms.reduce((n, m) => n + m.carriers.length, 0)} carriers; line ${line.length} points)`,
+    `press      ${press.terms.length} terms over ${pressTexts.length} press texts 1966–1976`,
     `documents  ${documents.length}`,
     `sources    ${sources.length}  (${texts.size} with text)`,
     `claims     ${claims.length}`,

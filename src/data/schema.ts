@@ -372,6 +372,18 @@ export const IsmSchema = z.object({
   cites: z.array(Cite).default([]),
 })
 
+// A slogan or keyword tracked year by year through the press (editorials and news reports).
+// `concept` / `ism` link the row to the concept grid and the lineage tree.
+export const PressTermSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  terms: z.array(z.string()).min(1),
+  // occurrences inside these longer strings are not counted (革命委员会 inside 文化革命委员会)
+  except: z.array(z.string()).default([]),
+  concept: z.string().optional(),
+  ism: z.string().optional(),
+})
+
 export const LinePointSchema = z.object({ at: PartialDate, x: z.number().min(-1).max(1), y: z.number().min(-1).max(1), label: z.string(), note: z.string().optional() })
 
 export const DocumentSchema = z.object({
@@ -530,6 +542,11 @@ export type IsmKind = keyof typeof ISM_KINDS
 export type LinePoint = z.infer<typeof LinePointSchema>
 
 export type ConceptHit = { source: string; date: string; count: number; context: string }
+export type PressTerm = z.infer<typeof PressTermSchema>
+export type Press = {
+  years: { year: number; chars: number; docs: number }[]
+  terms: (Omit<PressTerm, 'except'> & { counts: { year: number; n: number }[]; first?: ConceptHit; total: number })[]
+}
 
 export type Atlas = {
   builtAt: string
@@ -545,6 +562,7 @@ export type Atlas = {
   line: LinePoint[]
   // characters of dated text per year, the denominator for term frequencies
   corpus: { year: number; chars: number; docs: number }[]
+  press: Press
   documents: (DocumentMeta & { source: Source })[]
   sources: Source[]
   claims: Claim[]
