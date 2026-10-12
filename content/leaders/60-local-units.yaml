@@ -1,0 +1,146 @@
+# Heads of local bodies, communes, mass organisations and grassroots units (content/orgs/50-mass.yaml,
+# 60-local.yaml, 70-units.yaml and the units in 00-central.yaml), plus the early and Cultural Revolution
+# gaps in the university lists. Compiled 2026-10-11 from school and newspaper histories, local
+# histories and memoirs found on the web (校史“历任领导”页、地方志摘录、当事人回忆); none is checked
+# against a corpus source, so all count as 待核 except where `cite` is given.
+# Where only some dates in office are known, the band covers those dates and the note says 止点待核,
+# rather than guessing an end.
+
+# ── 基层典型 ──
+chayashan-commune:
+  - { name: 陈丙寅, title: 党委书记, from: 1958-04, to: 1958-11, note: 原遂平县委农工部部长；1958 年 4 月任嵖岈山大社党委书记，7 月改称卫星人民公社后续任；11 月 13 日毛泽东在遂平车站接见时仍在任，止点待核 }
+  - { name: 钟青德, title: 社长, from: 1958-04, to: 1958, note: 原韩楼高级社社长、全国劳动模范；止点待核 }
+
+qiliying-commune:
+  - { name: 田秀清, title: 党委书记, from: 1958-08, to: 1977, note: 1957 年 3 月起任七里营中心乡党委书记，公社成立后续任；1976 年起兼任新乡县委书记，1977 年病逝于任上 }
+  - { name: 王文生, title: 社长, from: 1958-08, to: 1958-08, note: 1958 年 8 月 6 日向毛泽东汇报公社情况，止点待核 }
+
+xiaojinzhuang:
+  - { name: 王作山, title: 党支部书记, from: 1969, to: 1976-10, note: 1974 年后被提拔为宝坻县委书记、全国人大常委，仍兼支书；粉碎“四人帮”后隔离审查、撤职，审查解除后回村复任支书至退休 }
+
+guanghan-xiangyang:
+  - { name: 叶文志, title: 公社党委书记, from: 1980, to: 1980-06, note: 1980 年 6 月摘牌改乡时在任，起点待核。主导改革的是时任广汉县委书记常光南 }
+
+xiaogang:
+  - { name: 严俊昌, title: 生产队长, from: 1978-10, to: 1978-12, note: 1978 年 10 月由梨园公社党委任命；12 月秘密分田到户、按“红手印”时在任，此后任职待核 }
+  - { name: 严宏昌, title: 副队长, from: 1978-10, to: 1978-12, note: 同上；会计为严立学 }
+
+chaoyang-agri:
+  - { name: 徐明, title: 党委书记、革委会主任, from: 1972-04, to: 1977-08, note: 1972 年 4 月以党委书记身份发言为“朝农经验”之始，起点待核；1977 年 8 月撤职 }
+
+# ── 群众组织 ──
+qhfz-rg:
+  - { name: 骆小海, title: 发起人, from: 1966-05-29, to: 1966-10, note: 执笔《无产阶级革命造反精神万岁》；1966 年秋退出，止点待核 }
+  - { name: 卜大华, title: 发起人, from: 1966-05-29, to: 1966-08, note: 组织起初松散，没有明确的单一负责人；止点待核 }
+
+xicheng:
+  - { name: 孔丹, title: 负责人（总部 1 号）, from: 1966-08-25, to: 1966-12, note: 北京四中学生，孔原之子。本人回忆总部没有正式职称，“如果一定要说”是司令 }
+  - { name: 陈小鲁, title: 负责人之一, from: 1966-08-25, to: 1966-12, note: 北京八中学生，陈毅之子 }
+  - { name: 董良翮, title: 负责人之一, from: 1966-08-25, to: 1966-12, note: 北京六中学生，董必武之子 }
+
+pku-jgs:
+  - { name: 周培源, title: 核心组组长, from: 1967-08, to: 1967, note: 不久听从周恩来劝告退出群众组织，止点待核 }
+  - { name: 牛辉林, title: 负责人, from: 1967-08, to: 1968-08, note: 法律系学生，原“北京大学红卫兵”总部负责人 }
+
+baiwan-xiongshi:
+  - { name: 俞文斌, title: 联络站负责人（一号）, from: 1967-05, to: 1967-07, note: 1967 年 5 月 16 日成立，常委十三人；七二〇事件后被捕，1972 年 3 月解除监禁，1978 年平反 }
+  - { name: 杨道安, title: 联络站负责人（二号）, from: 1967-05, to: 1967-07 }
+
+# ── 报刊 ──
+pla-daily:
+  - { name: 欧阳文, title: 总编辑, from: 1956-01, to: 1961-01, note: 1955 年 10 月任命，1956 年 1 月创刊 }
+  - { name: 李逸民, title: 总编辑, from: 1961-01, to: 1961-12 }
+  - { name: 华楠, title: 总编辑, from: 1961-12, to: 1966-06, note: 1966 年 6 月被调离，随后遭批斗关押 }
+  - { name: 唐平铸, title: 副总编辑（代理总编辑）, from: 1966, to: 1966-06-20 }
+  - { name: 胡痴, title: 副总编辑（代理总编辑）, from: 1966-06-20, to: 1967-01-13 }
+  - { name: 赵易亚, title: 总编辑, from: 1967-04, to: 1967-08-23 }
+  - { name: 李讷, title: 临时总编辑小组组长, from: 1967-08-23, to: 1967-12, note: 化名肖力，江青之女 }
+  - { name: 廖初江, title: 领导小组组长、党的核心小组组长, from: 1969-08, to: 1973-11 }
+  - { name: 华楠, title: 社长, from: 1973-11, to: 1981-07 }
+  - { name: 刘宗卓, title: 社长, from: 1981-07, to: 1984-01 }
+  - { name: 钱抵千, title: 代理社长, from: 1984-01, to: 1985-04 }
+  - { name: 吴之非, title: 总编辑, from: 1985-04, to: 1988-02 }
+  - { name: 吕梁, title: 社长, from: 1987-05, to: 1990-06 }
+  - { name: 杨子才, title: 总编辑, from: 1988-02, to: 1993-05 }
+
+dagongbao:
+  - { name: 英敛之, title: 创办人、总理, from: 1902-06, to: 1916 }
+  - { name: 胡政之, title: 总经理, from: 1926-09, to: 1949-04-14, note: 与张季鸾、吴鼎昌组成新记公司接办 }
+
+# ── 单位 ──
+sh-film:
+  - { name: 徐桑楚, title: 厂长, from: 1978-07, to: 1987-10, note: 1949 年 11 月建厂时厂长为于伶、副厂长钟敬之，于伶任期待核未列 }
+  - { name: 吴贻弓, title: 厂长, from: 1987-10 }
+
+# ── 高校：建校初期、文革期间与 1977 年后的空缺 ──
+pku:
+  - { name: 严复, title: 校长, from: 1912-05, to: 1912-10, note: 京师大学堂改名北京大学后首任校长 }
+  - { name: 蔡元培, title: 校长, from: 1917-01, to: 1927-08, note: 1919、1923 年两度离校，其间由蒋梦麟等代理 }
+  - { name: 蒋梦麟, title: 校长, from: 1930-12, to: 1945, note: 1937–1946 年北大与清华、南开合组西南联大 }
+  - { name: 傅斯年, title: 代理校长, from: 1945-09, to: 1946-07 }
+  - { name: 胡适, title: 校长, from: 1946-07, to: 1948-12 }
+  - { name: 汤用彤, title: 校务委员会主席, from: 1949-05, to: 1951-06 }
+  - { name: 杨德中, title: 革委会主任, from: 1969-09-27, to: 1977-08, note: 中央警卫团负责人；1971 年 5 月起兼党委书记。1968 年 9 月工军宣队进校 }
+  - { name: 王连龙, title: 党委书记、革委会主任（主持日常工作）, from: 1972-02, to: 1976-10, note: 六十三军副政委，随工军宣队进校；止点待核 }
+  - { name: 周林, title: 党委书记, from: 1977-09, to: 1979-12 }
+  - { name: 韩天石, title: 党委书记, from: 1979-12, to: 1982-09 }
+  - { name: 王学珍, title: 党委书记, from: 1984-03, to: 1991-01 }
+
+qinghua:
+  - { name: 周诒春, title: 校长, from: 1913, to: 1918, note: 时称清华学校 }
+  - { name: 罗家伦, title: 校长, from: 1928-09, to: 1930-05, note: 改为国立清华大学后首任校长 }
+  - { name: 梅贻琦, title: 校长, from: 1931-12, to: 1948-12, note: 1938–1946 年主持西南联大常委会 }
+  - { name: 叶企孙, title: 校务委员会主任委员, from: 1949-05, to: 1952 }
+  - { name: 迟群, title: 党委书记、革委会主任, from: 1971, to: 1976-10, faction: ccrg, cite: ws-1982-chi-qun-case, note: 1968 年起任党委副书记、革委会副主任 }
+
+fudan:
+  - { name: 李登辉, title: 校长, from: 1913, to: 1936 }
+
+whu:
+  - { name: 王世杰, title: 校长, from: 1929, to: 1933 }
+  - { name: 王星拱, title: 校长, from: 1934, to: 1945 }
+  - { name: 周鲠生, title: 校长, from: 1945, to: 1949 }
+
+zju:
+  - { name: 蒋梦麟, title: 校长, from: 1928, to: 1930 }
+  - { name: 郭任远, title: 校长, from: 1933-03, to: 1936-01, note: 1935 年底“驱郭运动”后去职 }
+  - { name: 路甬祥, title: 校长, from: 1988 }
+
+xmu:
+  - { name: 萨本栋, title: 校长, from: 1937-07, to: 1945, note: 改为国立厦门大学后首任校长 }
+
+xjtu:
+  - { name: 唐文治, title: 监督、校长, from: 1907, to: 1920 }
+
+lzu:
+  - { name: 辛树帜, title: 校长, from: 1946, to: 1950, note: 国立兰州大学首任校长 }
+
+sysu:
+  - { name: 邹鲁, title: 校长, from: 1924-06-09, to: 1925-11-30, note: 时称国立广东大学；因参加西山会议被免职 }
+  - { name: 许崇清, title: 代理校长, from: 1931-06, to: 1932-01 }
+  - { name: 邹鲁, title: 校长, from: 1932-02-01, to: 1940-04 }
+  - { name: 许崇清, title: 代理校长, from: 1940-04, to: 1941-07 }
+  - { name: 许崇清, title: 校长, from: 1951-02, to: 1968-09, note: 1961 年起兼广东省副省长 }
+  - { name: 崔金锡, title: 革委会主任, from: 1968-09, to: 1973-01 }
+  - { name: 李嘉人, title: 革委会主任, from: 1973-01, to: 1976-07 }
+  - { name: 杨毅, title: 革委会主任, from: 1976-07, to: 1977-12 }
+  - { name: 李嘉人, title: 革委会主任、校长, from: 1977-12, to: 1979-12-22, note: 1979 年 3 月起称校长，卒于任上 }
+  - { name: 黄焕秋, title: 党委书记（主持校务）、校长, from: 1979-12, to: 1984-07, note: 1982 年 9 月起任校长 }
+  - { name: 李岳生, title: 校长, from: 1984-07, to: 1991-04 }
+
+buaa:
+  - { name: 杨待甫, title: 党总支书记、副院长（主持建院）, from: 1952-10, to: 1954-06 }
+  - { name: 武光, title: 院长, from: 1954-06, to: 1963-07, note: 首任院长，曾兼党委书记 }
+  - { name: 王大昌, title: 代院长、院长, from: 1963-09, to: 1966-06 }
+  - { name: 韩爱晶, title: 革委会主任, from: 1967-05, to: 1968-12, note: 止点待核 }
+  - { name: 李世安, title: 党委书记兼院长, from: 1971-06, to: 1974-01 }
+  - { name: 王振乾, title: 党委书记兼院长, from: 1974-02, to: 1977-11 }
+  - { name: 陈达明, title: 党委书记兼院长, from: 1977-11, to: 1979-08 }
+  - { name: 王大昌, title: 院长, from: 1979-08, to: 1980-10 }
+  - { name: 沈元, title: 院长, from: 1980-10, to: 1982-11 }
+  - { name: 曹传钧, title: 院长、校长, from: 1982-11, to: 1988-07, note: 1988 年 4 月改称北京航空航天大学 }
+  - { name: 沈士团, title: 校长, from: 1988-07 }
+
+cugb:
+  - { name: 刘型, title: 院长, from: 1952-12, to: 1958-06, note: 首任院长 }
+  - { name: 高元贵, title: 院长, from: 1958-06, to: 1972-12, note: 1958 年 9 月至 1965 年 9 月兼党委第一书记；1972 年底随校南迁，任湖北地质学院临时党委书记 }
