@@ -1,0 +1,235 @@
+# M4 外国档案：美国《对外关系文件》（FRUS）1969–1976 年第 17、18 卷（中国）。美国政府出版物，属公有领域。
+# 正文取 history.state.gov 的文件页（`frus: true` 只留正文，去掉脚注号和页码链接）；date 按文件抬头的日期行。
+web:
+  - id: frus-v17-d82
+    title: "Special National Intelligence Estimate (Washington, May 28, 1970)"
+    date: 1970-05-28
+    kind: archive
+    alias: 美国特别国家情报评估：中国对印度支那局势可能发展的反应（SNIE 13–9–70，1970）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d82
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 82（history.state.gov）"
+    frus: true
+  - id: frus-v17-d88
+    title: "Assessment Prepared by the Central Intelligence Agency (Washington, September 2, 1970)"
+    date: 1970-09-02
+    kind: archive
+    alias: 美国中央情报局《台湾局势评估》（1970）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d88
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 88（history.state.gov）"
+    frus: true
+  - id: frus-v17-d139
+    title: "Memorandum of Conversation (Beijing, July 9, 1971, 4:35–11:20 p.m)"
+    date: 1971-07-09
+    kind: archive
+    alias: 基辛格秘密访华与周恩来首次会谈记录（1971 年 7 月 9 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d139
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 139（history.state.gov）"
+    frus: true
+  - id: frus-v17-d140
+    title: "Memorandum of Conversation (Beijing, July 10, 1971, 12:10–6 p.m)"
+    date: 1971-07-10
+    kind: archive
+    alias: 基辛格与周恩来第二次会谈记录（1971 年 7 月 10 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d140
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 140（history.state.gov）"
+    frus: true
+  - id: frus-v17-d144
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon (San Clemente, California, July 14, 1971)"
+    date: 1971-07-14
+    kind: archive
+    alias: 基辛格致尼克松《我与周恩来的会谈》（1971 年 7 月 14 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d144
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 144（history.state.gov）"
+    frus: true
+  - id: frus-v17-d156
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon (Washington, September 13, 1971)"
+    date: 1971-09-13
+    kind: archive
+    alias: 基辛格致尼克松：9 月 13 日在巴黎与黄镇会晤（1971）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d156
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 156（history.state.gov）"
+    frus: true
+  - id: frus-v17-d157
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon (Washington, September 22, 1971)"
+    date: 1971-09-22
+    kind: archive
+    alias: 基辛格致尼克松《中国可能出现紧张局势的迹象及其对访华的影响》（1971 年 9 月 22 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d157
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 157（history.state.gov）"
+    frus: true
+  - id: frus-v17-d163
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon (Washington, October 29, 1971)"
+    date: 1971-10-29
+    kind: archive
+    alias: 基辛格致尼克松《十月访华：气氛》（1971 年 10 月 29 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d163
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 163（history.state.gov）"
+    frus: true
+  - id: frus-v17-d168
+    title: "National Intelligence Estimate (Washington, October 28, 1971)"
+    date: 1971-10-28
+    kind: archive
+    alias: 美国国家情报评估《中国的战略进攻武器计划》（NIE 13–8–71）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d168
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 168（history.state.gov）"
+    frus: true
+  - id: frus-v17-d193
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon (Washington, February 19, 1972)"
+    date: 1972-02-19
+    kind: archive
+    alias: 基辛格致尼克松《毛、周与中国人的试金石》（1972 年 2 月 19 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d193
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 193（history.state.gov）"
+    frus: true
+  - id: frus-v17-d194
+    title: "Memorandum of Conversation (Beijing, February 21, 1972, 2:50–3:55 p.m)"
+    date: 1972-02-21
+    kind: archive
+    alias: 毛泽东与尼克松会谈记录（1972 年 2 月 21 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d194
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 194（history.state.gov）"
+    frus: true
+  - id: frus-v17-d203
+    title: "Joint Statement Following Discussions With Leaders of the People’s Republic of China (Shanghai, February 27, 1972)"
+    date: 1972-02-27
+    kind: archive
+    alias: 中美联合公报（上海公报）美方文本（1972 年 2 月 27 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d203
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 203（history.state.gov）"
+    frus: true
+  - id: frus-v17-d240
+    title: "National Intelligence Estimate (Washington, July 20, 1972)"
+    date: 1972-07-20
+    kind: archive
+    alias: 美国国家情报评估《中国的军事政策与常规部队》（NIE 13–3–72）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v17/d240
+    via: "FRUS 1969–1976, vol. XVII, China, 1969–1972, Document 240（history.state.gov）"
+    frus: true
+  - id: frus-v18-d12
+    title: "Memorandum of Conversation (Beijing, February 17–18, 1973, 11:30 p.m.–1:20 a.m)"
+    date: 1973-02-17
+    kind: archive
+    alias: 毛泽东与基辛格会谈记录（1973 年 2 月 17–18 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d12
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 12（history.state.gov）"
+    frus: true
+  - id: frus-v18-d23
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon (Washington, March 16, 1973)"
+    date: 1973-03-16
+    kind: archive
+    alias: 基辛格致尼克松：国务院对中国国内政治动荡的分析（1973 年 3 月 16 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d23
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 23（history.state.gov）"
+    frus: true
+  - id: frus-v18-d58
+    title: "Memorandum of Conversation (Beijing, November 12, 1973, 5:40–8:25 p.m)"
+    date: 1973-11-12
+    kind: archive
+    alias: 毛泽东与基辛格会谈记录（1973 年 11 月 12 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d58
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 58（history.state.gov）"
+    frus: true
+  - id: frus-v18-d65
+    title: "Memorandum From Richard H. Solomon of the National Security Council Staff to Secretary of State Kissinger (Washington, December 31, 1973)"
+    date: 1973-12-31
+    kind: archive
+    alias: 索乐文致基辛格《中美关系现状》（1973 年 12 月 31 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d65
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 65（history.state.gov）"
+    frus: true
+  - id: frus-v18-d69
+    title: "Memorandum From Richard H. Solomon of the National Security Council Staff to Secretary of State Kissinger (Washington, February 5, 1974)"
+    date: 1974-02-05
+    kind: archive
+    alias: 索乐文致基辛格《批林批孔转入公开阶段》（1974 年 2 月 5 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d69
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 69（history.state.gov）"
+    frus: true
+  - id: frus-v18-d91
+    title: "Backchannel Message From the Chief of the Liaison Office in China (Bush) to Secretary of State Kissinger (Beijing, November 18, 1974, 0740Z)"
+    date: 1974-11-18
+    kind: archive
+    alias: 驻京联络处主任布什致基辛格《基辛格访华前夕的中国国内形势》（1974 年 11 月 18 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d91
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 91（history.state.gov）"
+    frus: true
+  - id: frus-v18-d103
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Ford (Washington, January 27, 1975)"
+    date: 1975-01-27
+    kind: archive
+    alias: 基辛格致福特：四届人大的分析（1975 年 1 月 27 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d103
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 103（history.state.gov）"
+    frus: true
+  - id: frus-v18-d124
+    title: "Memorandum of Conversation (Beijing, October 21, 1975, 6:25–8:05 p.m)"
+    date: 1975-10-21
+    kind: archive
+    alias: 毛泽东与基辛格会谈记录（1975 年 10 月 21 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d124
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 124（history.state.gov）"
+    frus: true
+  - id: frus-v18-d132
+    title: "Memorandum From Secretary of State Kissinger to President Ford (Washington, November 20, 1975)"
+    date: 1975-11-20
+    kind: archive
+    alias: 基辛格致福特：访华会谈的背景分析（1975 年 11 月 20 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d132
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 132（history.state.gov）"
+    frus: true
+  - id: frus-v18-d134
+    title: "Memorandum of Conversation (Beijing, December 2, 1975, 4:10–6:00 p.m)"
+    date: 1975-12-02
+    kind: archive
+    alias: 毛泽东与福特会谈记录（1975 年 12 月 2 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d134
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 134（history.state.gov）"
+    frus: true
+  - id: frus-v18-d140
+    title: "Briefing Memorandum From the Assistant Secretary of State for East Asian and Pacific Affairs (Habib) to Secretary of State Kissinger (Washington, January 16, 1976)"
+    date: 1976-01-16
+    kind: archive
+    alias: 哈比卜致基辛格《周恩来逝世的影响》（1976 年 1 月 16 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d140
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 140（history.state.gov）"
+    frus: true
+  - id: frus-v18-d148
+    title: "Paper Prepared in the Central Intelligence Agency (Washington, June 1976)"
+    date: 1976-06
+    kind: archive
+    alias: 美国中央情报局《中国继任领导层的外交政策》（1976 年 6 月）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d148
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 148（history.state.gov）"
+    frus: true
+  - id: frus-v18-d151
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Scowcroft) to President Ford (Washington, July 19, 1976)"
+    date: 1976-07-19
+    kind: archive
+    alias: 斯考克罗夫特致福特《朱德逝世与中国国内政治》（1976 年 7 月 19 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d151
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 151（history.state.gov）"
+    frus: true
+  - id: frus-v18-d155
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Scowcroft) to President Ford (Washington, September 17, 1976)"
+    date: 1976-09-17
+    kind: archive
+    alias: 斯考克罗夫特致福特：驻台美军裁减（1976 年 9 月 17 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d155
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 155（history.state.gov）"
+    frus: true
+  - id: frus-v18-d157
+    title: "Memorandum of Conversation (New York City, October 8, 1976, 8:30–11:30 p.m)"
+    date: 1976-10-08
+    kind: archive
+    alias: 基辛格与乔冠华纽约会谈记录（1976 年 10 月 8 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d157
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 157（history.state.gov）"
+    frus: true
+  - id: frus-v18-d158
+    title: "Memorandum From the President’s Assistant for National Security Affairs (Scowcroft) to Secretary of State Kissinger, Secretary of Defense Rumsfeld, and Director of Central Intelligence Bush (Washington, November 3, 1976)"
+    date: 1976-11-03
+    kind: archive
+    alias: 斯考克罗夫特致基辛格等：驻台美军裁减（1976 年 11 月 3 日）
+    url: https://history.state.gov/historicaldocuments/frus1969-76v18/d158
+    via: "FRUS 1969–1976, vol. XVIII, China, 1973–1976, Document 158（history.state.gov）"
+    frus: true

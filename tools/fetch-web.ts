@@ -17,7 +17,7 @@ import { parse } from 'yaml'
 const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')
 const UA = 'Mozilla/5.0 (red-decade-research; github.com/AndyUneducated/red-decade)'
 
-type Entry = { id: string; title: string; url: string; article?: string; start?: string; end?: string; excerpt?: boolean; keep?: string[]; unwrap?: boolean; breaks?: string }
+type Entry = { id: string; title: string; url: string; article?: string; start?: string; end?: string; excerpt?: boolean; keep?: string[]; unwrap?: boolean; breaks?: string; frus?: boolean }
 
 const args = process.argv.slice(2)
 if (args[0] === '--list') {
@@ -68,7 +68,7 @@ for (const e of entries) {
   } else {
     // `breaks`: plain-text dumps inside <pre> mark paragraphs only by an indent run (a regex source)
     // and wrap visual lines with a bare CR, which is dropped
-    const all = htmlToText(e.breaks ? html.replace(/\r(?!\n)/g, '').replace(new RegExp(e.breaks, 'g'), '\n') : html)
+    const all = htmlToText(e.frus ? frusBody(html) : e.breaks ? html.replace(/\r(?!\n)/g, '').replace(new RegExp(e.breaks, 'g'), '\n') : html)
     const i = e.start ? all.indexOf(e.start) : 0
     const j = e.end ? all.indexOf(e.end, Math.max(0, i)) : -1
     if (i < 0 || (e.end && j < 0)) {
@@ -157,6 +157,18 @@ function htmlToText(html: string): string {
     .map((l) => l.replace(/[ \t\u3000]+/g, ' ').trim())
     .join('\n')
     .replace(/\n{3,}/g, '\n\n')
+}
+
+// history.state.gov renders one FRUS document as TEI-derived HTML: the document is the tei-div up to the
+// footnotes; footnote markers and facsimile page links are dropped, and source line wraps are joined
+function frusBody(html: string): string {
+  const i = html.search(/<div class="tei-div\d/)
+  const j = html.indexOf('<div class="footnotes"', i)
+  return html
+    .slice(i, j < 0 ? undefined : j)
+    .replace(/<a class="note"[\s\S]*?<\/a>/g, '')
+    .replace(/<a class="tei-pb\d[\s\S]*?<\/a>/g, '')
+    .replace(/\s+/g, ' ')
 }
 
 function rmrbArticles(html: string) {
