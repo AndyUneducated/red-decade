@@ -30,7 +30,7 @@ const TOP = 46
 const PULSE_H = 64
 const MINI_H = 34
 const DOMAIN: [number, number] = [1949.5, 1990]
-const INITIAL: [number, number] = [1965.62, 1967.12]
+const INITIAL: [number, number] = [1965.85, 1970.05]
 const DOT_Y = 14
 const LABEL_ROW = 15
 
@@ -268,7 +268,10 @@ function TimelineChart({ onList }: { onList: () => void }) {
             [
               ['1949–1989', DOMAIN[0], DOMAIN[1]],
               ['1962–1969', 1962, 1969.5],
+              ['1966–1969', 1965.85, 1970.05],
               ['1966', 1965.62, 1967.12],
+              ['1967', 1966.92, 1968.05],
+              ['1968–1969', 1967.92, 1970.3],
             ] as const
           ).map(([l, a, b]) => (
             <button key={l} className="chip" onClick={() => zoomTo(a, b)}>

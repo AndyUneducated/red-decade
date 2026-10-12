@@ -1,0 +1,70 @@
+# M3-4 / M3-5：1968–1969 年《人民日报》原文（tools/fetch-web.ts 抓取，govopendata 转录）。
+# 社论、公报、照会、新闻都是机构作品，发表已满 50 年，全文收录；个人署名且作者去世未满 50 年的只留 keep 段落。
+# 1967-08-23 头版没有火烧英国代办处的报道；1968-05-19 头版没有清理阶级队伍的文件。
+web:
+  - id: rmrb-1968-08-26-workers-lead
+    title: 工人阶级必须领导一切
+    date: 1968-08-26
+    author: 姚文元
+    kind: editorial
+    alias: 姚文元《工人阶级必须领导一切》
+    url: https://cn.govopendata.com/renminribao/1968/8/26/1/
+    via: 《人民日报》1968-08-26 第 1 版（govopendata 转录；原载《红旗》1968 年第 2 期）
+    article: 工人阶级必须领导一切
+    excerpt: true
+    keep: [一个伟大的斗、批、改的高潮正在到来, 工人宣传队进入教育阵地，这是一件惊天动地的大事, 毛主席这个指示，指出了学校教育革命的方向和道路, 毛主席最近指出：“建立三结合的革命委员会]
+    note: 姚文元 2005 年去世，只保留四段：开头、工宣队进校、毛泽东关于教育革命的指示、斗批改各阶段（含“清理阶级队伍”）。
+  - id: rmrb-1968-09-07-full-victory
+    title: 无产阶级文化大革命的全面胜利万岁！
+    date: 1968-09-07
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 1968 年 9 月 7 日两报社论《全面胜利万岁》
+    url: https://cn.govopendata.com/renminribao/1968/9/7/1/
+    via: 《人民日报》1968-09-07 第 1 版（govopendata 转录）
+    article: 无产阶级文化大革命的全面胜利万岁！
+  - id: rmrb-1968-09-07-tibet-xinjiang
+    title: 毛泽东思想的灿烂阳光普照祖国西南西北边疆 西藏和新疆革命委员会同时胜利诞生
+    date: 1968-09-05
+    author: 新华社
+    kind: news
+    alias: 1968 年西藏、新疆革委会成立消息
+    url: https://cn.govopendata.com/renminribao/1968/9/7/1/
+    via: 《人民日报》1968-09-07 第 1 版（govopendata 转录）
+    article: 毛泽东思想的灿烂阳光普照祖国西南西北边疆
+  - id: rmrb-1968-10-05-liuhe
+    title: 柳河“五·七”干校为机关革命化提供了新的经验
+    date: 1968-10-05
+    author: 《人民日报》
+    kind: news
+    alias: 1968 年《柳河“五·七”干校》报道
+    url: https://cn.govopendata.com/renminribao/1968/10/5/1/
+    via: 《人民日报》1968-10-05 第 1 版（govopendata 转录）
+    article: 柳河“五·七”干校为机关革命化提供了新的经验
+  - id: rmrb-1968-11-02-twelfth-plenum
+    title: 中国共产党第八届扩大的第十二次中央委员会全会公报
+    date: 1968-10-31
+    author: 中国共产党第八届扩大的第十二次中央委员会全会
+    kind: party-doc
+    alias: 1968 年八届十二中全会公报
+    url: https://cn.govopendata.com/renminribao/1968/11/2/1/
+    via: 《人民日报》1968-11-02 第 1 版（govopendata 转录）
+    article: 中国共产党第八届扩大的第十二次中央委员会全会公报
+  - id: rmrb-1968-12-22-two-hands
+    title: 会宁县部分城镇居民纷纷奔赴农业生产第一线：“我们也有两只手，不在城市里吃闲饭！”
+    date: 1968-12-22
+    author: 《人民日报》
+    kind: news
+    alias: 1968 年 12 月 22 日《人民日报》会宁县报道（毛泽东“很有必要”指示）
+    url: https://cn.govopendata.com/renminribao/1968/12/22/1/
+    via: 《人民日报》1968-12-22 第 1 版（govopendata 转录）
+    article: 在毛主席革命路线指引下，会宁县部分城镇居民
+  - id: rmrb-1969-03-03-zhenbao
+    title: 苏联边防军侵入我黑龙江省珍宝岛地区制造极为严重的流血事件 我国政府向苏联政府提出最强烈抗议
+    date: 1969-03-02
+    author: 中华人民共和国外交部
+    kind: party-doc
+    alias: 1969 年珍宝岛事件外交部照会
+    url: https://cn.govopendata.com/renminribao/1969/3/3/1/
+    via: 《人民日报》1969-03-03 第 1 版（govopendata 转录）
+    article: 苏联边防军侵入我黑龙江省珍宝岛地区

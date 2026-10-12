@@ -1,0 +1,436 @@
+# Events, 1967 (M3-2 / M3-3): 一月夺权、二月逆流、三支两军、武汉七二〇、“揪军内一小撮”、全面武斗、大联合。
+# Sources: 1967 两报一刊社论与中央文件（维基文库）、1980 起诉书、1981 决议。Events with no text in the corpus are marked verify.
+
+# ── 一月夺权 ────────────────────────────────────────────────
+- id: 1967-01-01-new-year-editorial
+  date: 1967-01-01
+  title: 元旦社论：“全国全面展开阶级斗争的一年”
+  lane: ideology
+  weight: 2
+  summary: 《人民日报》《红旗》元旦社论《把无产阶级文化大革命进行到底》，宣布 1967 年“将是全国全面展开阶级斗争的一年”，要向“党内一小撮走资本主义道路的当权派和社会上的牛鬼蛇神，展开总攻击”。运动从学校、机关扩展到工厂和农村。
+  people: [mao-zedong, chen-boda]
+  concepts: [class-struggle, capitalist-roaders]
+  voices:
+    - { voice: official1966, text: 一九六七年，将是全国全面展开阶级斗争的一年（1967 年元旦社论）, cite: ws-1967-01-01-to-the-end, quote: true }
+  cites: [ws-1967-01-01-to-the-end, ws-1967-01-04-shanghai-letter]
+
+- id: 1967-01-04-shanghai-letter
+  date: 1967-01-04
+  title: 上海《告上海全市人民书》
+  lane: mass
+  weight: 2
+  place: 上海《文汇报》
+  summary: 上海工总司等十一个造反组织在 1 月 4 日夺权后的《文汇报》上发表《告上海全市人民书》，把罢工、停产和铁路中断归咎于上海市委“以经济福利问题来转移斗争的大方向”。1 月 6 日造反派在人民广场召开“打倒上海市委大会”，陈丕显、曹荻秋被批斗。
+  people: [wang-hongwen, zhang-chunqiao, yao-wenyuan, chen-pixian, cao-diqiu, geng-jinzhang]
+  concepts: [rebellion]
+  cites: [ws-1967-01-04-shanghai-letter, ws-1967-01-shanghai-urgent]
+
+- id: 1967-01-11-cc-telegram
+  date: 1967-01-11
+  title: 中央贺电支持上海造反派：《紧急通告》“好得很”
+  lane: center
+  weight: 3
+  summary: 中共中央、国务院、中央军委、中央文革联名致电上海工总司等三十二个组织，说他们 1 月 9 日的《紧急通告》“好得很”，号召全国“学习上海市革命造反派的经验”。这是中央第一次以四个机关的名义直接向群众组织发电，等于承认造反派夺取市委权力。
+  people: [mao-zedong, zhang-chunqiao, wang-hongwen]
+  concepts: [rebellion, grasp-revolution]
+  voices:
+    - { voice: official1966, text: 我们号召全国的党、政、军、民各界，号召全国的工人、农民、革命学生、革命知识分子、革命干部，学习上海市革命造反派的经验（1967 年 1 月 11 日中央贺电）, cite: ws-1967-01-11-cc-telegram, quote: true }
+  cites: [ws-1967-01-11-cc-telegram, ws-1967-01-shanghai-urgent, ws-1967-01-12-anti-economism]
+
+- id: 1967-01-13-public-security
+  date: 1967-01-13
+  title: “公安六条”
+  lane: center
+  weight: 2
+  summary: 中共中央、国务院《关于无产阶级文化大革命中加强公安工作的若干规定》（中发〔67〕19 号）。第二条把“攻击污蔑伟大领袖毛主席和他的亲密战友林彪同志”定为“现行反革命行为”，此后成为大批言论入罪的依据；遇罗克、林昭等人的判决都援用这类罪名。
+  people: [xie-fuzhi, lin-biao]
+  voices:
+    - { voice: doc, text: 凡是投寄反革命匿名信，秘密或公开张贴、散发反革命传单，写反动标语，喊反动口号，以攻击污蔑伟大领袖毛主席和他的亲密战友林彪同志的，都是现行反革命行为，应当依法惩办（“公安六条”第二条）, cite: ws-1967-01-13-public-security, quote: true }
+  cites: [ws-1967-01-13-public-security]
+
+- id: 1967-01-22-seize-power-editorial
+  date: 1967-01-22
+  title: 《人民日报》社论：夺权“好得很！就是好得很！”
+  lane: ideology
+  weight: 3
+  summary: 《人民日报》社论《无产阶级革命派大联合，夺走资本主义道路当权派的权！》号召全国“自下而上地夺权”。同日张春桥在上海说“我们对所有的权都要夺”；次日林彪说“无论上层、中层、下层都要夺”。一个月内山西、山东、贵州、黑龙江等省和青岛等市相继宣布夺权。
+  people: [zhang-chunqiao, lin-biao, mao-zedong]
+  concepts: [rebellion, capitalist-roaders]
+  voices:
+    - { voice: official1966, text: 无产阶级革命造反派的大联合，夺走资本主义道路当权派的权好得很！（1967 年 1 月 22 日《人民日报》社论）, cite: ws-1967-01-22-seize-power-editorial, quote: true }
+    - { voice: judicial1980, text: 一九六七年一月二十二日，张春桥在上海说：“无产阶级文化大革命自始至终就是夺权，从基层到中央、党权、政权、财权、文权以及其它权”，“我们对所有的权都要夺”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1967-01-22-seize-power-editorial, ws-1980-indictment, ws-1967-01-22-qingdao-order]
+
+- id: 1967-01-23-pla-support-left
+  date: 1967-01-23
+  title: 中央决定解放军“支左”
+  lane: army
+  weight: 3
+  summary: 中共中央、国务院、中央军委、中央文革《关于人民解放军坚决支持革命左派群众的决定》，取消军队不介入地方运动的规定，要军队“坚决站在无产阶级革命派一边”。哪一派是“左派”由各地军队判断，此后各派争相求得驻军支持，军队本身也卷入派性。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: doc, text: 人民解放军必须坚决站在无产阶级革命派一边，坚决支持和援助无产阶级革命左派（1967 年 1 月 23 日中央决定）, cite: ws-1967-01-23-pla-left, quote: true }
+  cites: [ws-1967-01-23-pla-left, ws-1967-01-25-pla-support]
+
+- id: 1967-01-shanxi-guizhou-heilongjiang
+  date: 1967-01-14
+  end: 1967-02-03
+  title: 各省夺权：山西、山东、贵州、黑龙江
+  lane: local
+  weight: 2
+  summary: 山西以刘格平为首的造反组织 1 月 14 日夺权，25 日《人民日报》社论称这是“继上海市无产阶级革命造反派夺权斗争胜利以后，在一个省的范围内”的“伟大胜利”。贵州、黑龙江（潘复生、汪家道）、山东（王效禹）随后宣布夺权，黑龙江 1 月 31 日成立第一个省级“革命委员会”。中央赞扬的都是有驻军和原领导干部参加的“三结合”，这成为以后革委会的模式。
+  people: []
+  concepts: [rebellion]
+  cites: [ws-1967-01-25-shanxi, ws-1967-02-01-southwest, ws-1967-02-02-northeast, ws-1967-03-01-three-in-one-rmrb]
+  verify: true
+
+- id: 1967-02-05-shanghai-commune
+  date: 1967-02-05
+  end: 1967-02-24
+  title: 上海人民公社成立，十九天后改称革命委员会
+  lane: local
+  weight: 3
+  place: 上海人民广场
+  summary: 张春桥、姚文元主持成立“上海人民公社”，宣言称“一切权力归上海人民公社！”，以巴黎公社为样板。毛泽东不赞成用“公社”名称，问如果都叫公社，国家是否也要改称“中华人民公社”；2 月 24 日改名上海市革命委员会，张春桥任主任。
+  people: [zhang-chunqiao, yao-wenyuan, wang-hongwen, mao-zedong]
+  concepts: [paris-commune]
+  voices:
+    - { voice: official1966, text: 上海人民公社，是二十世纪六十年代在毛泽东思想指导下无产阶级专政条件下产生的崭新的地方国家机构（1967 年《上海人民公社宣言》）, cite: ws-1967-02-05-shanghai-commune, quote: true }
+    - { voice: editor, text: 宣言自称“新型的无产阶级专政的地方国家机构”，存在十九天，名称就被毛泽东否定；改称“革命委员会”后，巴黎公社式的直接选举再没有被提起。, cite: ws-1967-02-05-shanghai-commune }
+  cites: [ws-1967-02-05-shanghai-commune]
+
+# ── 二月逆流与“三结合” ──────────────────────────────────────
+- id: 1967-02-16-february-countercurrent
+  date: 1967-02-11
+  end: 1967-02-16
+  title: “二月逆流”：老帅在怀仁堂拍案
+  lane: center
+  weight: 3
+  place: 北京中南海怀仁堂
+  summary: 周恩来主持的碰头会上，谭震林、陈毅、叶剑英、徐向前、聂荣臻、李富春、李先念等人当面批评中央文革搞乱党和军队，谭震林说“我不该活到六十五岁”。张春桥、王力等整理记录报告毛泽东，毛泽东 2 月 18 日严厉批评老帅，此事被称为“二月逆流”，政治局停止活动，中央文革碰头会取而代之。1968 年八届十二中全会又“严肃地批判”了它。
+  people: [tan-zhenlin, chen-yi, ye-jianying, xu-xiangqian, nie-rongzhen, li-fuchun, li-xiannian, yu-qiuli, gu-mu, zhou-enlai, zhang-chunqiao, wang-li, jiang-qing, kang-sheng, mao-zedong]
+  voices:
+    - { voice: official1966, text: 全会严肃地批判了那个反对八届十一中全会决定、反对无产阶级文化大革命、反对以毛主席为首、林副主席为副的无产阶级司令部的一九六七年的“二月逆流”（1968 年八届十二中全会公报）, cite: rmrb-1968-11-02-twelfth-plenum, quote: true }
+    - { voice: official1981, text: 一九六七年二月前后，谭震林、陈毅、叶剑英、李富春、李先念、徐向前、聂荣臻等政治局和军委的领导同志，在不同的会议上对“文化大革命”的错误作法提出了强烈的批评，但被诬为“二月逆流”而受到压制和打击（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1981-resolution, rmrb-1968-11-02-twelfth-plenum]
+  verify: true
+
+- id: 1967-02-23-cadres-editorial
+  date: 1967-02-23
+  title: 《红旗》社论：“必须正确地对待干部”
+  lane: ideology
+  weight: 1
+  summary: 《红旗》社论说经过半年运动证明“我们的干部大多数是好的”，要求在夺权中“正确地对待干部”，把革命领导干部吸收进“三结合”。这是一月夺权后中央第一次公开为干部松绑。
+  people: [chen-boda]
+  cites: [ws-1967-02-23-cadres]
+
+- id: 1967-03-10-three-in-one
+  date: 1967-03-10
+  title: “三结合”与“革命委员会”
+  lane: center
+  weight: 2
+  summary: 《红旗》社论公布毛泽东的方针：需要夺权的地方要建立“三结合”的临时权力机构，由“革命群众组织的负责人、人民解放军当地驻军的代表、革命领导干部组成”，名称“叫革命委员会好”。此后到 1968 年 9 月，全国二十九个省级单位都建立了革委会，大多由军人任主任。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 革命的“三结合”的临时权力机构，要由真正代表广大群众的革命群众组织的负责人、人民解放军当地驻军的代表、革命领导干部组成（1967 年 3 月《红旗》社论）, cite: ws-1967-03-10-three-in-one, quote: true }
+  cites: [ws-1967-03-10-three-in-one, ws-1967-03-01-three-in-one-rmrb]
+
+- id: 1967-03-19-three-supports
+  date: 1967-03-19
+  title: 中央军委：“三支两军”
+  lane: army
+  weight: 2
+  summary: 中央军委决定把各总部、军兵种机关的“四大”暂告一段落，抽调三分之一到三分之二的人员投入支左、支农、支工、军管、军训，即“三支两军”。到 1972 年撤回时，先后有二百八十多万人次参加。
+  people: [lin-biao, ye-jianying]
+  cites: [ws-1967-03-19-three-supports]
+
+- id: 1967-03-18-factory-letter
+  date: 1967-03-18
+  title: 中共中央给厂矿职工的信：坚持八小时工作制
+  lane: econ
+  weight: 1
+  summary: 夺权后工厂普遍停产、串联，中央发信（中发〔67〕105 号）要求职工“坚持八小时工作制，在八小时工作制的以外时间，坚持文化革命”。同月中央还就农村春耕发了信。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 你们应该按照党中央的规定，坚持八小时工作制，在八小时工作制的以外时间，坚持文化革命（1967 年 3 月中共中央给厂矿职工的信）, cite: ws-1967-03-18-cc-letter-factories, quote: true }
+  cites: [ws-1967-03-18-cc-letter-factories]
+
+- id: 1967-04-01-qi-benyu-patriotism
+  date: 1967-04-01
+  title: 戚本禹《爱国主义还是卖国主义？》
+  lane: ideology
+  weight: 3
+  summary: 《红旗》和《人民日报》发表戚本禹批判电影《清宫秘史》的文章，以毛泽东 1950 年代的批评为由，连问“八个为什么”，矛头指向“党内最大的走资本主义道路的当权派”。全文不点名，但谁都知道指的是刘少奇；这是中央报刊第一次公开批判他。
+  people: [qi-benyu, liu-shaoqi, mao-zedong, lu-dingyi, zhou-yang]
+  concepts: [capitalist-roaders, khrushchev]
+  cites: [rmrb-1967-04-01-qi-benyu]
+
+- id: 1967-04-04-yibin-rehab
+  date: 1967-04-04
+  title: 中央为宜宾刘结挺、张西挺平反
+  lane: local
+  weight: 1
+  summary: 中发〔67〕154 号说宜宾地委刘结挺等人的案件是李井泉“一手制造的，经邓小平、彭真、杨尚昆批准的冤案”。刘、张夫妇随后掌握四川省革筹，1970 年代再次被定为“反革命”。
+  people: [liu-jieting, zhang-xiting, li-jingquan, deng-xiaoping, peng-zhen, yang-shangkun]
+  cites: [ws-1967-04-04-yibin-rehab]
+
+- id: 1967-04-06-ten-orders
+  date: 1967-04-06
+  title: 军委“十条命令”：对群众组织“都不准开枪”
+  lane: army
+  weight: 2
+  summary: 二月间各地军队支左中大批抓人，青海“二·二三”事件中驻军开枪打死上百名“八·一八”成员，内蒙古、四川、安徽也有镇压。毛泽东批示“此件很好”的军委十条命令规定，对群众组织“都不准开枪”，“不准随意捕人”。被定为“反革命”的组织大批平反，造反派重新得势。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: doc, text: 对群众组织，无论革命的、或者被反动分子所控制的，或者情况不清楚的，都不准开枪，只能进行政治工作（1967 年 4 月 6 日军委十条命令）, cite: ws-1967-04-06-ten-orders, quote: true }
+  cites: [ws-1967-04-06-ten-orders, ws-1967-04-13-inner-mongolia, ws-1967-08-13-qinghai]
+
+- id: 1967-04-13-inner-mongolia-decision
+  date: 1967-04-13
+  title: 中央处理内蒙古问题的决定
+  lane: local
+  weight: 1
+  summary: 中央决定说内蒙古军区个别领导人“犯了方向、路线错误”，镇压了呼和浩特三司，责任“主要由王逸伦、王铎负责”，改派刘贤权任军区司令员。随后滕海清率北京军区工作组进入内蒙古，11 月任革委会主任，挖“乌兰夫黑线”和“内人党”由此开始。
+  people: [ulanhu, teng-haiqing]
+  cites: [ws-1967-04-13-inner-mongolia]
+
+- id: 1967-05-xiuyang-critique
+  date: 1967-05-08
+  title: 批判《论共产党员的修养》
+  lane: ideology
+  weight: 2
+  summary: 《红旗》《人民日报》编辑部文章《〈修养〉的要害是背叛无产阶级专政》，把刘少奇 1939 年的讲演集称为“反马克思列宁主义、反毛泽东思想的大毒草”。同月《五一六通知》全文公开发表，称为“伟大的历史文件”。
+  people: [liu-shaoqi, chen-boda, guan-feng]
+  concepts: [revisionism, khrushchev]
+  voices:
+    - { voice: official1966, text: 《修养》一书，是党内最大的走资本主义道路当权派的代表作（1967 年《红旗》《人民日报》编辑部文章）, cite: ws-1967-04-xiuyang, quote: true }
+  cites: [ws-1967-04-xiuyang, ws-1967-05-great-document]
+
+- id: 1967-05-model-operas
+  date: 1967-05-10
+  title: 八个“样板戏”在北京会演
+  lane: culture
+  weight: 2
+  summary: 纪念《在延安文艺座谈会上的讲话》二十五周年，《智取威虎山》《红灯记》《沙家浜》等京剧和芭蕾舞剧《红色娘子军》《白毛女》、交响音乐《沙家浜》在北京会演，《人民日报》称“京剧革命，吹响了我国无产阶级文化大革命的进军号”。此后八部“样板戏”几乎成为全国唯一的舞台作品。
+  people: [jiang-qing, yu-huiyong]
+  voices:
+    - { voice: official1966, text: 京剧革命，吹响了我国无产阶级文化大革命的进军号，这是我国无产阶级文化大革命的伟大开端（1967 年 5 月《人民日报》社论）, cite: ws-1967-05-10-opera, quote: true }
+  cites: [ws-1967-05-10-opera]
+  verify: true
+
+- id: 1967-06-17-h-bomb
+  date: 1967-06-17
+  title: 第一颗氢弹爆炸
+  lane: econ
+  weight: 1
+  place: 新疆罗布泊
+  summary: 距第一颗原子弹不到三年。核试验基地和二机部由周恩来、聂荣臻保护，少受冲击；9 月的社论把它作为“抓革命，促生产”的成绩，说它“标志着我国的工业生产、科学技术达到了一个新的水平”。
+  people: [zhou-enlai, nie-rongzhen]
+  cites: [ws-1967-09-20-production]
+  verify: true
+
+# ── 夏季：揪刘、武汉、“揪军内一小撮” ───────────────────────────
+- id: 1967-07-18-liu-struggle
+  date: 1967-07-18
+  title: 中南海批斗刘少奇、王光美，“揪刘火线”围困中南海
+  lane: center
+  weight: 3
+  place: 北京中南海
+  summary: 7 月起北京数十万群众在中南海西门外搭起“揪刘火线”，要求揪出刘少奇。7 月 18 日戚本禹在中南海内组织批斗刘少奇、王光美并抄家，8 月 5 日又在中南海举行批斗大会，刘少奇被拳打脚踢。此后刘少奇被单独关押，与家人隔离。
+  people: [liu-shaoqi, wang-guangmei, qi-benyu, jiang-qing, kang-sheng, chen-boda, xie-fuzhi]
+  voices:
+    - { voice: judicial1980, text: 一九六七年七月，江青、康生、陈伯达擅自决定批斗刘少奇，并由“中央文革小组”成员戚本禹于一九六七年七月十八日组织召开“批斗刘少奇大会”，进行抄家，对刘少奇、王光美进行人身迫害（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 一九六七年七、八月间，康生、谢富治、戚本禹等煽动组织“揪刘火线”围困中南海，冲击国务院（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment, ws-1967-07-09-liu-jiangong-review]
+
+- id: 1967-07-20-wuhan
+  date: 1967-07-20
+  title: 武汉“七二〇事件”
+  lane: army
+  weight: 3
+  place: 武汉东湖宾馆
+  summary: 毛泽东到武汉处理“百万雄师”与“工总”的对立，谢富治、王力宣布武汉军区支左方向错误。7 月 20 日凌晨“百万雄师”和部分军人冲进东湖宾馆，揪走王力殴打。毛泽东当天转移上海；王力、谢富治 22 日回京受到盛大欢迎。中央 7 月 26 日的信称这是“叛变行动”，陈再道、钟汉华撤职，“百万雄师”被打成反革命，湖北此后据统计有十八万余人被打伤打残、六百多人死亡。
+  people: [chen-zaidao, zhong-hanhua, wang-li, xie-fuzhi, mao-zedong, zhou-enlai, wang-renzhong]
+  voices:
+    - { voice: official1966, text: 这是明目张胆地反对我们的伟大的领袖毛主席、反对毛主席的无产阶级革命路线、反对党中央、反对中央军委、反对中央文革小组的叛变行动（1967 年 7 月中央致武汉的信）, cite: ws-1967-07-26-wuhan-notice, quote: true }
+    - { voice: editor, text: 同一份中央文件把武汉军区的支左称为“方向、路线错误”，又说“王任重和陈再道则是上述事件的罪魁祸首”——王任重这时已在北京被打倒，并不在武汉。1978 年中央为此事平反。, cite: ws-1967-07-26-wuhan-notice }
+  cites: [ws-1967-07-26-wuhan-notice]
+  verify: true
+
+- id: 1967-08-01-army-handful
+  date: 1967-08-01
+  title: 《红旗》社论：“揪军内一小撮”
+  lane: army
+  weight: 3
+  summary: 建军节社论《无产阶级必须牢牢掌握枪杆子》说，“也要把军内一小撮走资本主义道路当权派揭露出来，从政治上和思想上把他们斗倒、斗臭”。各地造反派据此冲击军区、抢夺枪支，全面武斗进入高峰。毛泽东随即批示这一口号不妥，8 月底王力、关锋被隔离审查。
+  people: [wang-li, guan-feng, lin-biao, mao-zedong]
+  voices:
+    - { voice: official1966, text: 同样，也要把军内一小撮走资本主义道路当权派揭露出来，从政治上和思想上把他们斗倒、斗臭（1967 年 8 月 1 日《红旗》社论）, cite: ws-1967-08-01-gun, quote: true }
+    - { voice: judicial1980, text: 一九六七年一月，林彪亲笔批示“完全同意”“中央文革小组”成员关锋、王力等提出的“彻底揭穿军内一小撮走资本主义道路的当权派”的口号，阴谋搞乱军队（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1967-08-01-gun, ws-1980-indictment, ws-1967-08-20-pla-pillar]
+
+- id: 1967-08-04-shanghai-diesel
+  date: 1967-08-04
+  title: 王洪文攻打“上柴联司”
+  lane: mass
+  weight: 2
+  place: 上海柴油机厂
+  summary: 上海柴油机厂“联司”反对工总司和张春桥，王洪文调集数万人围攻工厂。起诉书说这次武斗“关押、打伤六百五十人”。此后上海再没有能与工总司抗衡的群众组织，王洪文的地位因此上升。
+  people: [wang-hongwen, zhang-chunqiao]
+  voices:
+    - { voice: judicial1980, text: 一九六七年八月四日，王洪文策划、指挥了围攻“上海柴油机厂革命造反联合司令部”群众组织的武斗事件，关押、打伤六百五十人（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1967-08-07-wang-li-speech
+  date: 1967-08-07
+  title: 王力“八七讲话”，外交部被夺权
+  lane: intl
+  weight: 2
+  summary: 王力接见外交部造反派，说“揪陈毅大方向当然对”，鼓动夺外交部的权。外交部造反派一度封闭部党委，以外交部名义发电报，驻外使馆贴大字报、与驻在国冲突，与几十个国家的关系紧张。
+  people: [wang-li, chen-yi, zhou-enlai, ji-pengfei, qiao-guanhua]
+  voices:
+    - { voice: judicial1980, text: 一九六七年八月七日，“中央文革小组”成员王力说：“揪陈毅大方向当然对”，“打倒刘、邓、陈的口号为什么不能喊”？！煽动篡夺外交领导权（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1967-08-22-british-office
+  date: 1967-08-22
+  title: 火烧英国驻华代办处
+  lane: intl
+  weight: 3
+  place: 北京
+  summary: 香港“反英抗暴”中港英当局查封左派报纸、逮捕记者，外交部 8 月 20 日照会限英方 48 小时内撤销禁令。期满当晚，上万群众冲入英国代办处纵火，殴打代办霍普森等外交官；同时伦敦中国代办处人员与英国警察冲突。周恩来连夜处理，事后毛泽东把责任归于王力，王力、关锋随即倒台。
+  people: [zhou-enlai, wang-li, guan-feng, chen-yi]
+  verify: true
+
+- id: 1967-08-30-wang-guan-fall
+  date: 1967-08-30
+  end: 1968-01-13
+  title: 王力、关锋、戚本禹相继倒台
+  lane: center
+  weight: 3
+  summary: 8 月 26 日毛泽东在上海对杨成武说“王、关、戚是破坏文化大革命的，不是好人”，要求先把王力、关锋抓起来。8 月 30 日两人被隔离审查，戚本禹 1968 年 1 月被关押。三人被当作“五一六反革命集团”的后台，此后中央文革小组只剩陈伯达、江青、康生、张春桥、姚文元。
+  people: [wang-li, guan-feng, qi-benyu, mao-zedong, yang-chengwu, jiang-qing, chen-boda]
+  verify: true
+
+- id: 1967-08-renegade-group
+  date: 1967-08-09
+  title: “六十一人叛徒集团”案公开
+  lane: center
+  weight: 2
+  summary: 报刊文章说“揭出了一个潜伏在党内的、多至几十个人的大叛徒集团”，总头子“正是中国的赫鲁晓夫”：1936 年薄一波、安子文、杨献珍等人经中央同意履行手续出狱，这时被定为叛变，刘少奇被说成主使。1978 年中央为此案平反。
+  people: [bo-yibo, an-ziwen, yang-xianzhen, liu-shaoqi, kang-sheng]
+  concepts: [khrushchev]
+  voices:
+    - { voice: official1966, text: 轰然一声，革命的红卫兵小将和广大无产阶级革命派揭出了一个潜伏在党内的、多至几十个人的大叛徒集团（1967 年 8 月报刊文章）, cite: ws-1967-08-09-renegades, quote: true }
+  cites: [ws-1967-08-09-renegades]
+
+- id: 1967-08-qinghai-revcom
+  date: 1967-08-12
+  title: 青海省革命委员会成立
+  lane: local
+  weight: 1
+  summary: 2 月 23 日青海省军区副司令员赵永夫下令开枪镇压“八·一八”，打死百余人。军委十条命令后赵永夫被逮捕，“八·一八”平反。8 月青海以“八·一八”为核心成立革委会，刘贤权任主任。
+  people: []
+  cites: [ws-1967-08-13-qinghai]
+  verify: true
+
+# ── 秋冬：毛泽东南巡、大联合、继续革命理论 ───────────────────────
+- id: 1967-09-mao-tour
+  date: 1967-07-13
+  end: 1967-09-23
+  title: 毛泽东视察华北、中南、华东
+  lane: center
+  weight: 2
+  summary: 毛泽东离京三个月，经武汉、上海、长沙、南昌等地，谈话要求各派“在革命的原则下”实现大联合，说“没有根本的利害冲突”，要“解放”大多数干部。国庆社论公开报道“毛主席视察了华北、中南和华东地区”，各地开始收缴武器、办学习班。
+  people: [mao-zedong, zhou-enlai, yang-chengwu, wang-dongxing]
+  voices:
+    - { voice: official1966, text: 在这盛大节日的前夕，我们伟大的领袖毛主席视察了华北、中南和华东地区的喜讯，传遍全国（1967 年国庆社论）, cite: ws-1967-10-cr-victory, quote: true }
+  cites: [ws-1967-10-cr-victory, ws-1967-12-21-shengwulian-decision]
+  verify: true
+
+- id: 1967-09-05-arms-order
+  date: 1967-09-05
+  title: “九五命令”：不准抢夺解放军武器
+  lane: army
+  weight: 2
+  summary: 中共中央、国务院、中央军委、中央文革联合发布命令，禁止抢夺人民解放军的武器装备，授权部队在警告无效后自卫还击。8 月间各地抢枪最多，这一命令与毛泽东南巡谈话一起，使全国性的武斗在 9 月以后暂时降温。江青 9 月 5 日的讲话同时把矛头转向“五一六”。
+  people: [jiang-qing, zhou-enlai]
+  verify: true
+
+- id: 1967-10-17-unite-by-system
+  date: 1967-10-17
+  title: 按系统、按行业、按班级实现大联合
+  lane: mass
+  weight: 1
+  summary: 中央转发毛泽东的指示，要求各单位“按照系统，按照行业，按照班级”实现革命大联合，跨行业的组织要调整。这一规定拆散了跨单位的造反派联合组织，是“大联合”的组织手段。
+  people: [mao-zedong]
+  cites: [ws-1967-10-17-unite-by-system]
+
+- id: 1967-10-06-fight-self
+  date: 1967-10-06
+  title: “斗私，批修”
+  lane: ideology
+  weight: 1
+  summary: 国庆前后报刊发表毛泽东“要斗私，批修”的指示，林彪解释为用毛泽东思想同“自己头脑里的‘私’字作斗争”。运动的口号从打倒走资派转向群众的自我改造，各地大办“毛泽东思想学习班”。
+  people: [mao-zedong, lin-biao]
+  concepts: [mao-thought]
+  cites: [ws-1967-10-06-mao-thought]
+
+- id: 1967-11-06-continuous-revolution
+  date: 1967-11-06
+  title: 两报一刊：“无产阶级专政下继续革命的理论”
+  lane: ideology
+  weight: 3
+  summary: 纪念十月革命五十周年，两报一刊编辑部文章《沿着十月社会主义革命开辟的道路前进》第一次系统表述“无产阶级专政下继续革命的理论”的六个要点，称之为马克思主义的“第三个伟大的里程碑”。九大政治报告沿用了这一表述；1981 年决议说这一理论使“无产阶级专政下继续革命”一语有了“特定的含义”。
+  people: [chen-boda, yao-wenyuan, lin-biao]
+  concepts: [continuous-revolution]
+  voices:
+    - { voice: official1966, text: 毛泽东同志全面地继承、捍卫和发展了马克思列宁主义，创造性地提出了无产阶级专政下继续革命的伟大理论（1967 年 11 月两报一刊编辑部文章）, cite: ws-1967-11-06-october-road, quote: true }
+    - { voice: official1981, text: 这些论点主要地出现在作为“文化大革命”纲领性文件的《五·一六通知》和党的九大的政治报告中，并曾被概括成为所谓“无产阶级专政下继续革命的理论”（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1967-11-06-october-road, ws-1967-11-06-lin-speech, ws-1981-resolution]
+
+- id: 1967-11-18-guangxi-decision
+  date: 1967-11-18
+  title: 中央关于广西问题的决定
+  lane: local
+  weight: 2
+  summary: 中央同意广西军区和韦国清的检查，说韦国清“不坚持错误，能够诚恳地检查错误，态度是好的”，决定成立以他为首的广西革筹小组。支持韦国清的“联指”与反对他的“四二二”对立由此固定，1968 年演变为大规模屠杀。
+  people: [wei-guoqing]
+  voices:
+    - { voice: doc, text: 韦国清同志在这次无产阶级文化大革命中虽然犯了一些错误，但是，他不坚持错误，能够诚恳地检查错误，态度是好的（1967 年 11 月中央决定）, cite: ws-1967-11-18-guangxi-decision, quote: true }
+  cites: [ws-1967-11-18-guangxi-decision]
+
+- id: 1967-11-tianjin-leaflet-case
+  date: 1967-11
+  title: 天津“中共中央非常委员会”传单案
+  lane: center
+  weight: 1
+  summary: 天津破获一份署名“中共中央非常委员会”的传单。陈伯达、谢富治、吴法宪以追“后台”为名扩大办案，1968 年 12 月又制造“中国（马列）共产党”假案，把朱德、陈毅、李富春、叶剑英等人列为“参加者”。
+  people: [chen-boda, xie-fuzhi, wu-faxian, zhu-de, chen-yi, li-fuchun, ye-jianying]
+  voices:
+    - { voice: judicial1980, text: 陈伯达、谢富治和吴法宪利用一九六七年十一月在天津破获的“中共中央非常委员会”传单案，以追“后台”为名，阴谋诬陷、迫害党和国家领导人（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1967-10-guangdong-underground
+  date: 1967-10
+  title: “广东地下党”冤案
+  lane: local
+  weight: 1
+  place: 广东
+  summary: 广州军区司令员黄永胜、政委刘兴元主持把解放前广东地下党和游击队干部打成“叛徒”“特务”集团。起诉书说七千一百多人受迫害，林锵云等八十五人死亡。同年新疆也制造了以马明方为首的“新疆叛徒集团”冤案。
+  people: [huang-yongsheng, liu-xingyuan]
+  voices:
+    - { voice: judicial1980, text: 一九六七年十月，黄永胜伙同广州部队政治委员刘兴元……“广东地下党”冤案，使七千一百多人遭到诬陷、迫害，林锵云等八十五人被迫害致死（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1967-10-shengwulian
+  date: 1967-10-11
+  title: 湖南“省无联”成立
+  lane: mass
+  weight: 2
+  place: 长沙
+  summary: 毛泽东 9 月在长沙要求“在革命的原则下联合起来”后，长沙二十多个造反组织成立“湖南省会无产阶级革命派大联合委员会”（省无联），反对由军队和老干部主导的革委会筹备小组。其成员杨曦光 1968 年 1 月写出《中国向何处去？》，主张推翻“红色资本家阶级”、建立“中华人民公社”；康生、江青随即点名“省无联”是“反革命大杂烩”，组织被取缔，杨曦光判刑十年。
+  people: [yang-xiguang, kang-sheng, jiang-qing]
+  concepts: [paris-commune]
+  cites: [ws-1967-12-21-shengwulian-decision]
+  verify: true

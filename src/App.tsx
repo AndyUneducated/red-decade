@@ -86,7 +86,7 @@ export default function App() {
           <b>
             红色<i>年代</i>
           </b>
-          <span>1949–1989 · 当前深描 1966</span>
+          <span>1949–1989 · 当前深描 1966–1969</span>
         </div>
         <nav className="tabs">
           {(Object.keys(VIEWS) as View[]).map((v) => (

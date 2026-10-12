@@ -1,0 +1,242 @@
+# Events, 1968–1970 (M3-4 / M3-5): 清理阶级队伍、革委会遍及全国、工宣队、开除刘少奇、上山下乡、珍宝岛、九大、战备疏散。
+# Sources: 1968–1969 《人民日报》头版（govopendata）、中央布告与文件（维基文库）、1980 起诉书、1981 决议。
+
+# ── 1968 上半年 ─────────────────────────────────────────────
+- id: 1968-01-whither-china
+  date: 1968-01-06
+  title: 杨曦光《中国向何处去？》
+  lane: mass
+  weight: 2
+  place: 长沙
+  summary: 长沙一中学生、“省无联”成员杨曦光（杨小凯）写成大字报《中国向何处去？》，认为文革的对象是“红色资本家阶级”，三结合革委会是“资产阶级篡权”，主张像巴黎公社那样建立“中华人民公社”。1 月 24 日康生、陈伯达、江青接见湖南代表时点名批判，“省无联”被定为反革命组织，杨曦光判刑十年。
+  people: [yang-xiguang, kang-sheng, chen-boda, jiang-qing]
+  concepts: [paris-commune]
+  cites: [ws-1967-12-21-shengwulian-decision]
+  verify: true
+
+- id: 1968-03-yang-yu-fu
+  date: 1968-03-22
+  title: 杨成武、余立金、傅崇碧被撤职
+  lane: army
+  weight: 3
+  summary: 3 月 24 日林彪在人民大会堂万人大会上宣布代总参谋长杨成武、空军政委余立金、北京卫戍区司令员傅崇碧“犯了严重错误”被撤职，黄永胜任总参谋长。林彪集团借此进一步控制军委办事组；1974 年毛泽东说此事“搞错了”，三人恢复名誉。
+  people: [yang-chengwu, yu-lijin, fu-chongbi, lin-biao, huang-yongsheng, ye-qun, wu-faxian, jiang-qing]
+  verify: true
+
+- id: 1968-04-26-neirendang
+  date: 1968-04-26
+  end: 1969-05-22
+  title: 内蒙古“挖肃”与“内人党”冤案
+  lane: local
+  weight: 3
+  summary: 内蒙古革委会向中央报告说“内蒙古人民革命党”案“初步突破”，要“采取大搞人民战争与专案相结合的方式”。此后在“挖乌兰夫黑线、肃乌兰夫流毒”中逼供株连，蒙古族干部群众首当其冲。1969 年 5 月毛泽东批示内蒙古“已经扩大化了”，中央下令纠正，滕海清离职。
+  people: [teng-haiqing, ulanhu, kang-sheng, xie-fuzhi]
+  voices:
+    - { voice: doc, text: 为彻底揭开盖子，挖出这个叛国集团，采取大搞人民战争与专案相结合的方式，展开攻击（1968 年 4 月内蒙古给中央的报告）, cite: ws-1968-04-26-neirendang-report, quote: true }
+    - { voice: doc, text: 以上情况是初步突破，除有些问题与我们已掌握的材料相同，某些情节与巴图交待吻合外，还不能完全肯定鲍荫扎布口供的可靠性（同一报告）, cite: ws-1968-04-26-neirendang-report, quote: true }
+    - { voice: judicial1980, text: 内蒙古自治区因“内人党”等冤案，有三十四万六千多名干部、群众遭到诬陷、迫害，一万六千二百二十二人被迫害致死（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 报告本身承认口供“还不能完全肯定”，却决定立即拘留，并以“人民战争”方式扩大。起诉书的数字是官方 1980 年的统计，其他研究者的估计更高，本站不在此取舍。, cite: ws-1968-04-26-neirendang-report }
+  cites: [ws-1968-04-26-neirendang-report, ws-1980-indictment]
+
+- id: 1968-04-29-lin-zhao-executed
+  date: 1968-04-29
+  title: 林昭在上海被枪决
+  lane: culture
+  weight: 2
+  place: 上海龙华
+  summary: 北京大学学生林昭 1957 年被划为右派，1960 年被捕，在狱中用血写下大量文字。上海市中级人民法院 1968 年 4 月以“反革命罪”判处死刑并立即执行；5 月 1 日公安人员到家中向其母收取五分钱子弹费。1980 年上海高级人民法院宣告无罪。
+  people: [lin-zhao]
+  voices:
+    - { voice: doc, text: 判处反革命犯林昭死刑，立即执行（1968 年判决书）, cite: ws-1968-04-19-lin-zhao-death-sentence, quote: true }
+  cites: [ws-1968-04-19-lin-zhao-death-sentence]
+
+- id: 1968-05-clean-ranks
+  date: 1968-05-25
+  title: 清理阶级队伍
+  lane: center
+  weight: 3
+  summary: 中央转发毛泽东批示的北京新华印刷厂经验，“清理阶级队伍”在全国铺开，审查对象从“叛徒、特务、走资派”扩大到历史问题和“五类分子”，各单位设“牛棚”、专案组。十月的八届十二中全会要求“认真做好清理阶级队伍的工作”。这是文革中受害人数最多的运动之一，确切数字至今没有公布。
+  people: [mao-zedong, kang-sheng, xie-fuzhi]
+  voices:
+    - { voice: official1966, text: 认真做好清理阶级队伍的工作，把混在广大群众中的一小撮反革命分子挖出来（1968 年八届十二中全会公报）, cite: rmrb-1968-11-02-twelfth-plenum, quote: true }
+  cites: [rmrb-1968-11-02-twelfth-plenum]
+  verify: true
+
+# ── 1968 夏：停止武斗、工宣队 ────────────────────────────────
+- id: 1968-07-03-notice
+  date: 1968-07-03
+  title: “七三布告”：广西立即停止武斗
+  lane: local
+  weight: 2
+  place: 广西
+  summary: 广西“联指”与“四二二”的武斗中，柳州、梧州等地破坏铁路、抢夺援越物资。中央布告要求“立即停止武斗，拆除工事，撤离据点”，随后军队和“联指”以执行布告为名围剿“四二二”，南宁、桂林等地出现大规模杀戮。广西文革中的非正常死亡数目，官方事后调查与其他来源出入很大。
+  people: [wei-guoqing, mao-zedong]
+  voices:
+    - { voice: doc, text: 一，立即停止武斗，拆除工事，撤离据点（1968 年“七三布告”）, cite: ws-1968-07-03-notice, quote: true }
+  cites: [ws-1968-07-03-notice]
+
+- id: 1968-07-24-notice
+  date: 1968-07-24
+  title: “七二四布告”：陕西停止武斗
+  lane: local
+  weight: 1
+  summary: 针对陕西抢劫援越物资、冲击解放军的事件，中央再发布告，要求“解散一切专业武斗队”。两份布告作为“最高指示”在全国张贴，成为军队解散群众组织武装的依据。
+  people: []
+  voices:
+    - { voice: doc, text: 立即停止武斗，解散一切专业武斗队，教育那些受蒙蔽的人回去生产（1968 年“七二四布告”）, cite: ws-1968-07-24-notice, quote: true }
+  cites: [ws-1968-07-24-notice]
+
+- id: 1968-07-28-five-leaders
+  date: 1968-07-27
+  end: 1968-07-28
+  title: 工宣队进清华；毛泽东召见“五大领袖”
+  lane: mass
+  weight: 3
+  place: 北京清华大学、人民大会堂
+  summary: 7 月 27 日三万多名工人组成“首都工农兵毛泽东思想宣传队”开进清华，制止“百日大武斗”，被蒯大富一派开枪打死五人。次日凌晨毛泽东召见聂元梓、蒯大富、韩爱晶、谭厚兰、王大宾，说“现在是轮到你们小将犯错误的时候了”。红卫兵运动由此结束，几位“领袖”此后被分配到外地劳动、受审查。
+  people: [mao-zedong, kuai-dafu, nie-yuanzi, han-aijing, tan-houlan, wang-dabin, lin-biao, zhou-enlai, jiang-qing, chi-qun, xie-jingyi]
+  verify: true
+
+- id: 1968-08-26-workers-lead
+  date: 1968-08-25
+  title: 姚文元《工人阶级必须领导一切》
+  lane: ideology
+  weight: 2
+  summary: 姚文元在《红旗》发表文章，传达毛泽东“实现无产阶级教育革命，必须有工人阶级领导”的指示，宣布工人宣传队“永远领导学校”。工宣队、军宣队随后进驻全国大中学校和文化、科研单位，“斗、批、改”由他们主持。
+  people: [yao-wenyuan, mao-zedong]
+  voices:
+    - { voice: official1966, text: 工人宣传队进入教育阵地，这是一件惊天动地的大事（1968 年 8 月姚文元文章）, cite: rmrb-1968-08-26-workers-lead, quote: true }
+    - { voice: official1966, text: 单靠学生、知识分子不能完成教育战线的斗、批、改、及其他一系列任务，必须有工人、解放军参加，必须有工人阶级的坚强领导（同一文章）, cite: rmrb-1968-08-26-workers-lead, quote: true }
+  cites: [rmrb-1968-08-26-workers-lead, ws-1968-09-01-news-front]
+
+- id: 1968-09-05-whole-country-red
+  date: 1968-09-05
+  title: “全国山河一片红”：西藏、新疆革委会成立
+  lane: local
+  weight: 3
+  summary: 9 月 5 日西藏、新疆自治区革委会成立，除台湾外二十九个省级单位全部建立革委会。两报社论称之为“夺取文化大革命全面胜利进程中的重大事件”。革委会主任多数由军人担任，地方党委此时尚未恢复。
+  people: []
+  voices:
+    - { voice: official1966, text: 全国山河一片红，这极其壮丽的一幕，是夺取文化大革命全面胜利进程中的重大事件（1968 年 9 月两报社论）, cite: rmrb-1968-09-07-full-victory, quote: true }
+    - { voice: official1981, text: 各部门各地方的党政领导机构几乎都被夺权或改组（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [rmrb-1968-09-07-full-victory, rmrb-1968-09-07-tibet-xinjiang, ws-1981-resolution]
+
+- id: 1968-10-05-may-seventh-schools
+  date: 1968-10-05
+  title: 柳河“五七干校”经验
+  lane: center
+  weight: 2
+  summary: 《人民日报》报道黑龙江柳河五七干校，发表毛泽东“广大干部下放劳动，这对干部是一种重新学习的极好机会”的指示。中央和各省机关随即大批下放干部和知识分子到干校劳动，许多人在那里度过数年。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 毛主席最近指出：“广大干部下放劳动，这对干部是一种重新学习的极好机会，除老弱病残者外都应这样做（1968 年 10 月《人民日报》）, cite: rmrb-1968-10-05-liuhe, quote: true }
+  cites: [rmrb-1968-10-05-liuhe]
+
+# ── 1968 秋冬：开除刘少奇、上山下乡 ──────────────────────────
+- id: 1968-10-13-twelfth-plenum
+  date: 1968-10-13
+  end: 1968-10-31
+  title: 八届十二中全会：刘少奇被“永远开除出党”
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 八届中央委员这时多数已被打倒，全会靠增补候补委员才凑足法定人数。全会批准专案组《关于叛徒、内奸、工贼刘少奇罪行的审查报告》，决定把刘少奇“永远开除出党”，批判“二月逆流”，决定召开九大。1980 年五中全会为刘少奇平反。
+  people: [liu-shaoqi, mao-zedong, lin-biao, zhou-enlai, kang-sheng, jiang-qing, xie-fuzhi]
+  concepts: [bourgeois-hq]
+  voices:
+    - { voice: official1966, text: 一致通过决议：把刘少奇永远开除出党，撤消其党内外的一切职务（1968 年八届十二中全会公报）, cite: rmrb-1968-11-02-twelfth-plenum, quote: true }
+    - { voice: doc, text: 刘少奇，是一个埋藏在党内的叛徒、内奸、工贼（1968 年专案组审查报告）, cite: ws-1968-liu-case-report, quote: true }
+  cites: [rmrb-1968-11-02-twelfth-plenum, ws-1968-liu-case-report]
+
+- id: 1968-12-22-send-down
+  date: 1968-12-22
+  title: “知识青年到农村去”
+  lane: mass
+  weight: 3
+  summary: 《人民日报》在报道甘肃会宁城镇居民下乡时发表毛泽东指示：“知识青年到农村去，接受贫下中农的再教育，很有必要。”1966–1968 届“老三届”中学毕业生被大规模送往农村和边疆兵团，到 1970 年代末共一千六百多万人。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 毛主席最近又一次教导我们：知识青年到农村去，接受贫下中农的再教育，很有必要（1968 年 12 月 22 日《人民日报》）, cite: rmrb-1968-12-22-two-hands, quote: true }
+  cites: [rmrb-1968-12-22-two-hands]
+
+- id: 1968-12-ml-party-case
+  date: 1968-12
+  title: “中国（马列）共产党”假案
+  lane: center
+  weight: 1
+  summary: 在追查天津传单案中，谢富治、吴法宪等人逼供出一个所谓“中国（马列）共产党”，把朱德、陈毅、李富春、叶剑英、徐向前等列为“书记”“委员”。此案没有任何实据，后来不了了之，1980 年列入起诉书。
+  people: [xie-fuzhi, wu-faxian, chen-boda, zhu-de, chen-yi, li-fuchun, ye-jianying, xu-xiangqian]
+  cites: [ws-1980-indictment]
+
+# ── 1969：珍宝岛、九大、战备 ─────────────────────────────────
+- id: 1969-03-02-zhenbao
+  date: 1969-03-02
+  end: 1969-03-17
+  title: 珍宝岛冲突
+  lane: intl
+  weight: 3
+  place: 黑龙江珍宝岛
+  summary: 中苏边防军在乌苏里江珍宝岛交火。外交部当天照会苏方，说苏军“开枪打死打伤我边防军人员多名”；3 月 15 日双方再次激战。全国随即举行大规模反苏游行，“准备打仗”成为九大和此后几年的主题。
+  people: [mao-zedong, zhou-enlai, lin-biao]
+  voices:
+    - { voice: official1966, text: 一九六九年三月二日晨，苏联边防军侵入中国黑龙江省珍宝岛地区，开枪打死打伤我边防军人员多名，制造了一次极为严重的边境武装冲突（1969 年 3 月 2 日外交部照会）, cite: rmrb-1969-03-03-zhenbao, quote: true }
+  cites: [rmrb-1969-03-03-zhenbao]
+
+- id: 1969-04-ninth-congress
+  date: 1969-04-01
+  end: 1969-04-24
+  title: 中共九大
+  lane: center
+  weight: 3
+  place: 北京人民大会堂
+  summary: 林彪作政治报告，新党章写明“林彪同志是毛泽东同志的亲密战友和接班人”。九届中央委员中军人比例大增，八届政治局委员只有少数留任；中央文革小组成员和林彪集团多人进入政治局。1981 年决议说九大使文革的理论和实践“合法化”。
+  people: [lin-biao, mao-zedong, zhou-enlai, chen-boda, kang-sheng, jiang-qing, zhang-chunqiao, yao-wenyuan, ye-qun, huang-yongsheng, wu-faxian, li-zuopeng, qiu-huizuo, xie-fuzhi, wang-dongxing, ji-dengkui, li-desheng, chen-xilian, xu-shiyou]
+  concepts: [successor, continuous-revolution]
+  voices:
+    - { voice: doc, text: 林彪同志是毛泽东同志的亲密战友和接班人（1969 年党章）, cite: ws-1969-04-constitution, quote: true }
+    - { voice: official1966, text: 这个伟大的革命风暴，摧毁了以叛徒、内奸、工贼刘少奇为首的资产阶级司令部（九大政治报告）, cite: ws-1969-04-ninth-report, quote: true }
+    - { voice: official1981, text: 党的九大使“文化大革命”的错误理论和实践合法化，加强了林彪、江青、康生等人在党中央的地位（1981 年决议）, cite: ws-1981-resolution, quote: true }
+    - { voice: official1981, text: 九大在思想上、政治上和组织上的指导方针都是错误的（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1969-04-ninth-report, ws-1969-04-constitution, ws-1981-resolution]
+
+- id: 1969-04-28-first-plenum
+  date: 1969-04-28
+  title: 九届一中全会：新的政治局常委
+  lane: center
+  weight: 2
+  summary: 选举毛泽东为主席、林彪为副主席，政治局常委为毛泽东、林彪、陈伯达、周恩来、康生。陈伯达排在周恩来之前；一年后他因在庐山支持设国家主席而倒台。
+  people: [mao-zedong, lin-biao, chen-boda, zhou-enlai, kang-sheng]
+  cites: [ws-1969-04-28-9th-cc-plenum]
+
+- id: 1969-10-18-order-one
+  date: 1969-10-17
+  end: 1969-10-18
+  title: 林彪“第一个号令”与战备疏散
+  lane: army
+  weight: 2
+  summary: 中苏边界谈判前，林彪在苏州口授紧急指示，黄永胜等以“林副主席指示第一个号令”下达全军进入紧急战备。同月中央把一批被打倒的老干部疏散到外地：朱德、董必武去广东，叶剑英去湖南，邓小平去江西，陈云去江西，刘少奇被送往开封。号令事先没有报告毛泽东，后来被当作林彪“擅权”的证据之一。
+  people: [lin-biao, huang-yongsheng, deng-xiaoping, chen-yun, zhu-de, ye-jianying, liu-shaoqi]
+  verify: true
+
+- id: 1969-11-12-liu-death
+  date: 1969-11-12
+  title: 刘少奇死于开封
+  lane: center
+  weight: 3
+  place: 河南开封
+  summary: 刘少奇在中南海被单独关押两年后，病重时被转移到开封，囚禁在一处银行金库楼内，11 月 12 日去世，以“刘卫黄”的化名火化，家属多年不知死讯。1980 年中央为他平反，举行追悼会。
+  people: [liu-shaoqi, wang-guangmei]
+  verify: true
+
+- id: 1970-03-05-yu-luoke-executed
+  date: 1970-03-05
+  title: 遇罗克被枪决
+  lane: culture
+  weight: 2
+  place: 北京工人体育场
+  summary: 1966–67 年写作并油印《出身论》、反对“血统论”的遇罗克，1968 年被捕，在“一打三反”运动中于北京工人体育场公判大会上被判处死刑并立即执行，年二十七岁。1979 年北京市中级人民法院宣告无罪。
+  people: [yu-luoke, yu-luowen]
+  concepts: [bloodline]
+  voices:
+    - { voice: doc, text: 判处现行反革命分子遇罗克死刑，立即执行（1970 年判决书）, cite: ws-1970-yu-luoke-death-sentence, quote: true }
+  cites: [ws-1970-yu-luoke-death-sentence]

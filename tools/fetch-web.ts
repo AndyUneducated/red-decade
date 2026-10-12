@@ -51,7 +51,8 @@ for (const e of entries) {
   let text: string
   if (e.article) {
     const articles = rmrbArticles(html)
-    const a = articles.find((x) => x.heading === e.article)
+    // headings with a subtitle join the two with runs of spaces, so a unique prefix is accepted too
+    const a = articles.find((x) => x.heading === e.article) ?? articles.find((x) => x.heading.startsWith(e.article!))
     if (!a) {
       console.error(`NO ARTICLE  ${e.id}  "${e.article}" on ${e.url}`)
       for (const x of articles) console.error(`    ${JSON.stringify(x.heading)}`)
