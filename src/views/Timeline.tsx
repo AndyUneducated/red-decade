@@ -25,6 +25,16 @@ const CR_STAGES: [number, number, string][] = [
 ]
 
 const LANE_KEYS = Object.keys(LANES) as Lane[]
+// 国际对照：国内四条主线 + 外事事件按标题关键词分轨（先匹配者优先）+ FRUS 美方档案
+const DOMESTIC: Lane[] = ['center', 'ideology', 'mass', 'army']
+const INTL_TRACKS: [string, RegExp][] = [
+  ['中苏', /苏|珍宝岛|捷克/],
+  ['印度支那', /越|老挝|柬|西贡|胡志明|印度支那/],
+  ['中美', /美|尼克松|基辛格|福特|乒乓|斯诺/],
+  ['建交·联合国', /建交|邦交|升格|联合国|联大/],
+  ['其他外事', /./],
+]
+const COMPARE_SPAN: [number, number] = [1968.9, 1976.95]
 const GUTTER = 92
 const TOP = 46
 const PULSE_H = 64
@@ -113,12 +123,28 @@ function TimelineChart({ onList }: { onList: () => void }) {
   const { tip, setTip } = useTip()
   const [transform, setTransform] = useState<d3.ZoomTransform | null>(null)
   const prevBase = useRef<d3.ScaleLinear<number, number> | null>(null)
+  const [compare, setCompare] = useHistoryState('timeline.compare', false)
+
+  const rowLabels = compare ? [...DOMESTIC.map((l) => LANES[l]), ...INTL_TRACKS.map(([l]) => l)] : LANE_KEYS.map((l) => LANES[l])
+  const rowOf = useMemo(() => {
+    const m = new Map<string, number>()
+    for (const e of ix.events) {
+      const i = !compare
+        ? LANE_KEYS.indexOf(e.lane)
+        : e.lane === 'intl'
+          ? DOMESTIC.length + INTL_TRACKS.findIndex(([, re]) => re.test(e.title))
+          : DOMESTIC.indexOf(e.lane)
+      if (i >= 0) m.set(e.id, i)
+    }
+    return m
+  }, [ix.events, compare])
+  const frus = useMemo(() => (compare ? ix.sources.filter((s) => s.id.startsWith('frus-') && s.date) : []), [ix.sources, compare])
 
   const plotW = Math.max(200, width - GUTTER - 16)
   const base = useMemo(() => d3.scaleLinear().domain(DOMAIN).range([GUTTER, GUTTER + plotW]), [plotW])
   const x = useMemo(() => (transform ? transform.rescaleX(base) : base), [transform, base])
   const lanesH = Math.max(240, height - TOP - PULSE_H - MINI_H - 28)
-  const laneH = lanesH / LANE_KEYS.length
+  const laneH = lanesH / (rowLabels.length + (compare ? 0.7 : 0))
 
   const zoom = useMemo(
     () =>
@@ -169,10 +195,10 @@ function TimelineChart({ onList }: { onList: () => void }) {
     const out = new Map<string, { lx: number; row: number }>()
     const minWeight = pxPerYear > 900 ? 1 : pxPerYear > 300 ? 2 : 3
     const rowCount = Math.max(1, Math.floor((laneH - DOT_Y - 6) / LABEL_ROW))
-    for (const lane of LANE_KEYS) {
+    for (let li = 0; li < rowLabels.length; li++) {
       const rows: [number, number][][] = Array.from({ length: rowCount }, () => [])
       const evs = ix.events
-        .filter((e) => e.lane === lane && e.weight >= minWeight)
+        .filter((e) => rowOf.get(e.id) === li && e.weight >= minWeight)
         .sort((a, b) => b.weight - a.weight || a.date.localeCompare(b.date))
       for (const e of evs) {
         const lx = x(toT(e.date))
@@ -185,7 +211,7 @@ function TimelineChart({ onList }: { onList: () => void }) {
       }
     }
     return out
-  }, [ix.events, x, pxPerYear, plotW, laneH])
+  }, [ix.events, x, pxPerYear, plotW, laneH, rowOf, rowLabels.length])
 
   // fate pulse: stacked counts of statuses over time
   const pulse = useMemo(() => {
@@ -248,7 +274,11 @@ function TimelineChart({ onList }: { onList: () => void }) {
       <div className="viewhead">
         <div>
           <h1>时间线</h1>
-          <p>滚轮缩放、拖动平移；点击空白处移动时间游标。选中人物或概念后，相关事件会高亮。</p>
+          <p>
+            {compare
+              ? '国际对照：上方四条国内主线，下方外事事件按标题归入中苏、印度支那、中美、建交与联合国各轨，最下一行是已收的美国外交档案（FRUS）。点档案可读原文，并高亮引用它的事件。'
+              : '滚轮缩放、拖动平移；点击空白处移动时间游标。选中人物或概念后，相关事件会高亮。'}
+          </p>
         </div>
         <div className="spacer" />
         <div className="legend">
@@ -279,6 +309,16 @@ function TimelineChart({ onList }: { onList: () => void }) {
               {l}
             </button>
           ))}
+          <button
+            className="chip"
+            aria-pressed={compare}
+            onClick={() => {
+              setCompare(!compare)
+              if (!compare) zoomTo(...COMPARE_SPAN)
+            }}
+          >
+            国际对照
+          </button>
           <button className="chip" onClick={onList}>
             看列表
           </button>
@@ -349,23 +389,91 @@ function TimelineChart({ onList }: { onList: () => void }) {
           </g>
 
           {/* lanes */}
-          {LANE_KEYS.map((lane, i) => {
+          {rowLabels.map((label, i) => {
             const y0 = lanesTop + i * laneH
+            const intl = compare && i >= DOMESTIC.length
             return (
-              <g key={lane}>
-                <line x1={0} x2={GUTTER + plotW} y1={y0} y2={y0} stroke="var(--rule)" />
-                <text x={16} y={y0 + laneH / 2 + 4} fontSize={12.5} fill="var(--ink-2)" fontWeight={500}>
-                  {LANES[lane]}
+              <g key={label}>
+                <line
+                  x1={0}
+                  x2={GUTTER + plotW}
+                  y1={y0}
+                  y2={y0}
+                  stroke={compare && i === DOMESTIC.length ? 'var(--accent)' : 'var(--rule)'}
+                  strokeOpacity={compare && i === DOMESTIC.length ? 0.5 : 1}
+                />
+                {compare && i === DOMESTIC.length && (
+                  <text x={16} y={y0 + 11} fontSize={9.5} fill="var(--accent)">
+                    国际
+                  </text>
+                )}
+                <text x={intl ? 22 : 16} y={y0 + laneH / 2 + 4} fontSize={intl ? 11.5 : 12.5} fill="var(--ink-2)" fontWeight={500}>
+                  {label}
                 </text>
               </g>
             )
           })}
+          {compare && (
+            <g>
+              <line x1={0} x2={GUTTER + plotW} y1={lanesTop + rowLabels.length * laneH} y2={lanesTop + rowLabels.length * laneH} stroke="var(--rule)" />
+              <text x={16} y={lanesTop + (rowLabels.length + 0.35) * laneH + 0} fontSize={11.5} fill="var(--ink-2)" fontWeight={500}>
+                FRUS
+              </text>
+              <text x={16} y={lanesTop + (rowLabels.length + 0.35) * laneH + 13} fontSize={9.5} fill="var(--muted)">
+                美方档案 {frus.length}
+              </text>
+              <g clipPath="url(#plot)">
+                {frus.map((s) => {
+                  const fx = x(toT(s.date))
+                  if (fx < GUTTER - 10 || fx > GUTTER + plotW + 10) return null
+                  const on = sel?.type === 'doc' && sel.id === s.id
+                  const fy = lanesTop + rowLabels.length * laneH
+                  return (
+                    <rect
+                      key={s.id}
+                      data-noz
+                      x={fx - 2}
+                      y={fy + 6}
+                      width={4}
+                      height={Math.max(10, laneH * 0.7 - 12)}
+                      rx={1}
+                      fill={on ? 'var(--accent)' : 'var(--ink-2)'}
+                      opacity={on ? 1 : 0.7}
+                      style={{ cursor: 'pointer' }}
+                      onClick={(ev) => {
+                        ev.stopPropagation()
+                        select({ type: 'doc', id: s.id })
+                        setT(toT(s.date))
+                      }}
+                      onMouseMove={(ev) => {
+                        const rect = wrap.current!.getBoundingClientRect()
+                        setTip({
+                          x: ev.clientX - rect.left,
+                          y: ev.clientY - rect.top,
+                          content: (
+                            <>
+                              <b>{s.alias ?? s.title}</b>
+                              <small>
+                                {fmtRange(s.date)} · FRUS
+                              </small>
+                            </>
+                          ),
+                        })
+                      }}
+                      onMouseLeave={() => setTip(null)}
+                    />
+                  )
+                })}
+              </g>
+            </g>
+          )}
           <line x1={0} x2={GUTTER + plotW} y1={lanesTop + lanesH} y2={lanesTop + lanesH} stroke="var(--rule)" />
 
           {/* events */}
           <g clipPath="url(#plot)">
             {ix.events.map((e) => {
-              const li = LANE_KEYS.indexOf(e.lane)
+              const li = rowOf.get(e.id)
+              if (li === undefined) return null
               const cy = lanesTop + li * laneH + DOT_Y
               const xs = x(toT(e.date))
               const xe = e.end ? x(toT(e.end, true)) : xs
