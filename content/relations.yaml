@@ -227,3 +227,13 @@
 - { a: jiang-qing, b: xie-xuegong, type: link, from: 1974, note: 天津市委向她推荐小靳庄作农村“点”；她当众把他的名字改成“解学工”, cite: people-2014-xiaojinzhuang }
 - { a: li-xiannian, b: xie-xuegong, type: attack, from: 1978-05-23, note: 主持天津汇报会议，中央决定免除他在天津的一切职务, cite: difangwenge-tianjin-1978 }
 - { a: pan-fusheng, b: wang-xiaoyu, type: link, from: 1967-03-30, note: 文章同期刊登于《红旗》1967 年第 5 期，两人都是率先“夺权”的省级负责人, cite: ws-1967-red-flag-index }
+# batch 22
+- { a: jiang-qing, b: shi-chuanxiang, type: attack, from: 1966-11, note: 说“时传祥是工贼”, cite: rmrb-1978-07-06-shi-chuanxiang }
+- { a: chen-boda, b: shi-chuanxiang, type: attack, from: 1966-11, note: 说“时传祥被资产阶级收买了”, cite: rmrb-1978-07-06-shi-chuanxiang }
+- { a: zhou-enlai, b: shi-chuanxiang, type: protect, from: 1973-08-21, note: 问“难道文化大革命是要打倒一个掏粪工人！？”，指示接回北京平反治病, cite: rmrb-1978-07-06-shi-chuanxiang }
+- { a: wan-li, b: shi-chuanxiang, type: protect, from: 1973-08, note: 文革前同他一起背过粪的市委书记，到宣武医院探望, cite: rmrb-1978-07-06-shi-chuanxiang }
+- { a: liu-shaoqi, b: shi-chuanxiang, type: link, from: 1959, note: 群英会上同他握手、合影，文革中成为他的“罪状”, cite: rmrb-1978-07-06-shi-chuanxiang }
+- { a: li-shunda, b: shen-jilan, type: subordinate, from: 1951-12-10, note: 西沟初级社社长与副社长, cite: sxu-li-shunda }
+- { a: mao-zedong, b: wang-guofan, type: patron, from: 1955, note: 为“穷棒子社”写按语，称它“是我们整个国家的形象”, cite: thepaper-2024-wang-guofan }
+- { a: zhou-enlai, b: lv-yulan, type: protect, from: 1967, note: 年谱说她挨批斗时周恩来派“支左”部队，她才“幸免于难”, cite: hbds-lv-yulan, verify: true }
+- { a: mao-zedong, b: shi-chuanxiang, type: link, from: 1966-10-01, note: 国庆节在天安门城楼上与他握手, cite: rmrb-1978-07-06-shi-chuanxiang }

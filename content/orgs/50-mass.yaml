@@ -724,7 +724,7 @@
   kind: unit
   level: basic
   from: 1960-02
-  places: [{ at: harbin }]
+  places: [{ at: daqing }]
   summary: 1960 年石油会战发现开发，1964 年毛泽东号召“工业学大庆”，王进喜被树为“铁人”。
   verify: true
   leaders:

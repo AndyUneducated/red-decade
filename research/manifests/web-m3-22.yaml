@@ -1,0 +1,151 @@
+# M3 人物第 22 批（劳模与典型）：王进喜、时传祥、李顺达、申纪兰、吕玉兰、王国藩、邢燕子、史来贺、金训华、门合。
+# tools/fetch-web.ts。未满 50 年的网页只保留 keep 段落。
+web:
+  - id: rmrb-1972-01-27-wang-jinxi
+    title: 工业学大庆中国工人阶级的先锋战士——铁人王进喜
+    date: 1972-01-27
+    author: 新华社记者
+    kind: article
+    alias: 《人民日报》《中国工人阶级的先锋战士——铁人王进喜》（1972）
+    url: https://cn.govopendata.com/renminribao/1972/01/27/1/
+    via: 《人民日报》1972-01-27 第 1 版（govopendata 转录）
+    article: 工业学大庆中国工人阶级的先锋战士
+  - id: xinhua-2019-wang-jinxi
+    title: 大庆油田原钻井指挥部副指挥王进喜——用生命为祖国献石油
+    date: 2019-09-17
+    author: 姜洁
+    kind: bio
+    alias: 《人民日报》《王进喜——用生命为祖国献石油》（2019）
+    url: http://www.xinhuanet.com/politics/2019-09/17/c_1125004792.htm
+    via: 新华网转载《人民日报》2019-09-17“最美奋斗者”专栏
+    excerpt: true
+    keep: ["1923年10月8日，王进喜出生", "1960年2月，东北松辽", "1960年4月29日", "然而，常年过度劳累", "宁肯少活20年"]
+  - id: rmrb-1978-07-06-shi-chuanxiang
+    title: 全国著名劳动模范 第三届全国人大代表 掏粪工人 时传祥沉冤昭雪
+    date: 1978-07-06
+    author: 新华社记者徐人仲、何卓新
+    kind: article
+    alias: 《人民日报》《时传祥沉冤昭雪》（1978）
+    url: https://cn.govopendata.com/renminribao/1978/07/06/4/
+    via: 《人民日报》1978-07-06 第 4 版（govopendata 转录）
+    article: 全国著名劳动模范
+    excerpt: true
+    keep: ["全国著名劳动模范、第三届全国人大代表、掏粪工人时传祥", "那是在文化大革命开始后不久", "万万没有想到", "对时传祥的迫害就这样开场了", "一九六七年元旦", "一九六八年来到了", "这一年“五一”节后的一个深夜", "顿时，皮鞭、木棍", "时传祥被打得血肉模糊", "江青强加给时传祥的", "这一天终于来到了", "时传祥在精心护理下回到了北京", "但是，多年的摧残折磨"]
+  - id: sxu-li-shunda
+    title: 在村庄与国家之间——劳动模范李顺达的个人生活史
+    date: 2018-04-17
+    author: 行龙
+    kind: article
+    alias: 行龙《在村庄与国家之间——劳动模范李顺达的个人生活史》
+    url: http://jth.rccsh.sxu.edu.cn/xcskdlljg/yjdt/136051.htm
+    via: 山西大学中国社会史研究中心网站（2018-04-17 上传）
+    excerpt: true
+    keep: ["李顺达原是河南林县", "抱着一线希望又流落到西沟", "经西沟地下党组织成员张魁仁介绍", "组织了李达才、路文全等五户贫农", "1950年，李顺达出席建国后第一次", "李顺达被选为社长，申纪兰被选为副社长", "但是，在那个政治狂热", "但是，李顺达却因此遭到了诬陷", "学大寨，收了社员的自留地", "尽管如此，李顺达在1977年", "我已经活了60多岁", "结果，省委以莫须有的罪名", "幸运的是，这场由山西省委"]
+  - id: people-2020-shen-jilan
+    title: 申纪兰同志生平
+    date: 2020-06-29
+    author: 中共山西省委
+    kind: obituary
+    alias: 《申纪兰同志生平》（2020）
+    url: https://cpc.people.com.cn/n1/2020/0629/c87393-31762623.html
+    via: 人民网转载《山西日报》2020-06-29
+    excerpt: true
+    keep: ["全国劳动模范，全国优秀共产党员，第一至第十三届", "申纪兰同志1929年12月生于", "1951年12月，西沟", "1954年，申纪兰同志当选第一届", "1971年，申纪兰同志任"]
+  - id: hbds-lv-yulan
+    title: 附录：吕玉兰年谱
+    date: 2020-12-07
+    author: 江山
+    kind: bio
+    alias: 江山《吕玉兰年谱》
+    url: https://web.archive.org/web/20210116001017id_/http://www.hebeidangshi.gov.cn/article/20201207/2-2020-12837.html
+    via: 河北党史网（Wayback 2021-01-16），原载吕玉兰纪念馆；编者江山为吕玉兰之夫
+    excerpt: true
+    keep: ["1940年。", "岁。", "2月6日，农历腊月二十九", "7月，高小毕业，响应党的号召", "10月，任本村新立", "年底，任社长，成为我国当时最年轻", "5月，加入中国共产党", "2月，任东留善固大队党支部书记", "12月，东留善固村所在", "6月，介绍自己学习毛主席著作", "8月，任中共临西县委常委", "8月，参加了在庐山", "1月，任中共临西县委书记", "12月，任中共临西县委第一书记", "9月，作为河北省代表团团长", "9月，到河北农业大学", "8月27日，在石家庄", "4月，发现语言迟缓", "10月，国庆节期间，赴京", "在“文化大革命”中挨批斗", "1月，任临西县革命委员会副主任", "4月，出席中共第九次全国代表大会", "3月，任河北省革命委员会副主任", "5月，任中共河北省委副书记", "8月，出席中共第十次全国代表大会", "1月，出席第四届全国人代会", "4月，任保定地委临时领导小组组长", "4月，任中共河北省委书记", "8月，出席中共第十一次全国代表大会", "12月，被免去中共河北省委书记", "9月，任中共正定县委副书记", "9月，任河北省农业厅副厅长", "3月31日，因脑血栓"]
+  - id: thepaper-2024-wang-guofan
+    title: 新中国成立75周年 唐山杰出党员光荣谱——王国藩
+    date: 2024
+    author: 中共唐山市委
+    kind: bio
+    alias: 《唐山杰出党员光荣谱——王国藩》（2024）
+    url: https://m.thepaper.cn/newsDetail_forward_28971491
+    via: 澎湃新闻政务号
+    excerpt: true
+    keep: ["英杰履历", "功业巅峰"]
+  - id: bjd-2022-xing-yanzi
+    title: 邢燕子病逝，她成立的“燕子突击队”曾经家喻户晓
+    date: 2022-04-06
+    author: 北京日报
+    kind: obituary
+    alias: 《北京日报》《邢燕子病逝》（2022）
+    url: https://news.bjd.com.cn/2022/04/06/10066110.shtml
+    via: 北京日报网
+    excerpt: true
+    keep: ["记者从北辰区获悉", "邢燕子，一个曾经家喻户晓", "1958年，邢燕子中学毕业", "于是选择回宝坻老家司家庄村", "司家庄村穷", "1973年，中国共产党第十次", "上世纪80年代，邢燕子曾担任"]
+  - id: moa-2009-xing-yanzi
+    title: 邢燕子同志事迹
+    date: 2009-09-27
+    author: 农业部
+    kind: bio
+    alias: 农业部网站《邢燕子同志事迹》（2009）
+    url: http://www.moa.gov.cn/ztzl/xzgcllsnsnmfrwbz/snmfrwfc/200909/t20090927_1358504.htm
+    via: 农业部“新中国成立以来三农模范人物”专题
+    excerpt: true
+    keep: ["邢燕子，女，汉族", "邢燕子是中共九大至十三大代表"]
+  - id: rmrb-2003-09-15-shi-laihe
+    title: 共产党人的楷模——史来贺（上）
+    date: 2003-09-15
+    author: 本报记者李杰、王明浩
+    kind: article
+    alias: 《人民日报》《共产党人的楷模——史来贺（上）》（2003）
+    url: https://cn.govopendata.com/renminribao/2003/09/15/1/
+    via: 《人民日报》2003-09-15 第 1 版（govopendata 转录）
+    article: 共产党人的楷模——史来贺
+    excerpt: true
+    keep: ["这是一个20世纪50年代就响遍全国的名字", "今年春天，他离开了人世", "1948年，刘庄解放了", "1952年冬，21岁的史来贺", "1956年，初级社刚成立不久", "这下可捅了马蜂窝", "在“大跃进”的日子里", "“文革”期间，有人到刘庄煽风点火"]
+  - id: ws-1969-jin-xunhua
+    title: 革命青年的榜样
+    date: 1969-12-04
+    author: 《红旗》杂志评论员
+    kind: editorial
+    alias: 《红旗》评论员《革命青年的榜样》（1969）
+    url: https://zh.wikisource.org/wiki/%E9%9D%A9%E5%91%BD%E9%9D%92%E5%B9%B4%E7%9A%84%E6%A6%9C%E6%A0%B7
+    via: 维基文库
+    start: 向青年同志们推荐本期
+    end: 本作品的作者以匿名
+  - id: rmrb-1969-12-06-jin-xunhua
+    title: 活着就要拚命干 一生献给毛主席——记为抢救国家物资英勇献身的金训华同志的光辉事迹
+    date: 1969-12-06
+    author: 不详
+    kind: article
+    alias: 《人民日报》《活着就要拚命干 一生献给毛主席》（1969）
+    url: https://cn.govopendata.com/renminribao/1969/12/06/2/
+    via: 《人民日报》1969-12-06 第 2 版（govopendata 转录）
+    article: 活着就要拚命干
+  - id: rmrb-1968-05-31-men-he
+    title: 共产主义一代新人的典型——赞门合的“四个一切”
+    date: 1968-05-31
+    author: 不详
+    kind: article
+    alias: 《人民日报》《共产主义一代新人的典型——赞门合的“四个一切”》（1968）
+    url: https://cn.govopendata.com/renminribao/1968/05/31/4/
+    via: 《人民日报》1968-05-31 第 4 版（govopendata 转录）
+    article: 共产主义一代新人的典型
+  - id: rmrb-1968-06-04-men-he
+    title: 门合是伟大领袖毛主席教育出来的好战士
+    date: 1968-06-04
+    author: 门进忠
+    kind: memoir
+    alias: 门进忠《门合是伟大领袖毛主席教育出来的好战士》（1968）
+    url: https://cn.govopendata.com/renminribao/1968/06/04/3/
+    via: 《人民日报》1968-06-04 第 3 版（govopendata 转录）
+    article: 门合是伟大领袖毛主席教育出来的好战士
+  - id: hebcdi-2021-men-he
+    title: 门合：无限忠于毛主席革命路线的好干部
+    date: 2021-07-28
+    author: 河北日报
+    kind: bio
+    alias: 《河北日报》《门合：无限忠于毛主席革命路线的好干部》（2021）
+    url: http://www.hebcdi.gov.cn/2021-07/28/content_8581483.htm
+    via: 河北省纪委监委网站转载《河北日报》
+    excerpt: true
+    keep: ["门合（1928-1967），河北省涞源县人。1946年"]

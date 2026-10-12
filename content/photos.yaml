@@ -379,6 +379,9 @@ jiang-zemin:
 jin-guantao:
   qid: Q8460498
   why: Wikidata item has no image (P18)
+jin-xunhua:
+  qid: Q8296919
+  why: Wikidata item has no image (P18)
 kang-sheng:
   qid: Q544432
   file: Kang Seng in Yan'an.jpg
@@ -441,6 +444,13 @@ li-ruihuan:
   license: CC BY 4.0
   licenseUrl: https://creativecommons.org/licenses/by/4.0
   date: 2000-07-18
+li-shunda:
+  qid: Q8294912
+  file: 195105 1951年李顺达.png
+  url: https://commons.wikimedia.org/wiki/File:195105_1951%E5%B9%B4%E6%9D%8E%E9%A1%BA%E8%BE%BE.png
+  author: 《人民画报》
+  license: Public domain
+  date: 1951-05
 li-suwen:
   why: no Wikidata item with matching birth year
 li-xiannian:
@@ -592,6 +602,9 @@ luo-ruiqing:
   date: 1965-12-01
   focus: 37% 22%
   zoom: 1.5
+lv-yulan:
+  qid: Q8294742
+  why: Wikidata item has no image (P18)
 ma-tianshui:
   why: no Wikidata item with matching birth year
 ma-yinchu:
@@ -609,6 +622,9 @@ mao-zedong:
   author: Chen Zhengqing (1917–1966)
   license: Public domain
   date: 1950-11-10
+men-he:
+  qid: Q16076818
+  why: Wikidata item has no image (P18)
 mou-zhijing:
   why: no Wikidata item with matching birth year
 ni-zhifu:
@@ -709,6 +725,15 @@ shangguan-yunzhu:
   author: Unknown author Unknown author
   license: Public domain
   date: 1940s
+shen-jilan:
+  qid: Q8246757
+  file: Shen Jilan.jpg
+  url: https://commons.wikimedia.org/wiki/File:Shen_Jilan.jpg
+  author: VOA
+  license: Public domain
+  date: "2013"
+shi-chuanxiang:
+  why: Wikidata image is a 2011 statue, not a portrait
 song-binbin:
   why: no Wikidata item with matching birth year
 su-shaozhi:
@@ -808,6 +833,9 @@ wang-guangmei:
   author: unknown author
   license: Public domain
   date: 1950s
+wang-guofan:
+  qid: Q8294948
+  why: Wikidata item has no image (P18)
 wang-hairong:
   qid: Q7967444
   why: Wikidata item has no image (P18)
@@ -818,6 +846,13 @@ wang-hongwen:
   author: China Publications Centre
   license: Public domain
   date: 1980-11
+wang-jinxi:
+  qid: Q8294602
+  file: 1966-07 大庆铁人王进喜.jpg
+  url: https://commons.wikimedia.org/wiki/File:1966-07_%E5%A4%A7%E5%BA%86%E9%93%81%E4%BA%BA%E7%8E%8B%E8%BF%9B%E5%96%9C.jpg
+  author: 《人民画报》
+  license: Public domain
+  date: 1966-07-01
 wang-li:
   why: no Wikidata item with matching birth year
 wang-renzhong:

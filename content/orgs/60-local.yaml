@@ -173,3 +173,183 @@
     - { name: 吴南生, title: 市委第一书记, from: 1980, to: 1981-03, note: 时兼广东省委书记 }
     - { name: 梁湘, title: 市委第一书记、书记, from: 1981-03, to: 1985-08 }
     - { name: 李灏, title: 市委书记, from: 1985-08 }
+
+# ── 劳模与典型所在的地方和基层（batch 22）──
+- id: jindongnan-prefecture
+  name: 中共晋东南地委
+  short: 晋东南地委
+  aliases: [中共晋东南地委, 晋东南地委, 长治地委]
+  kind: party
+  level: local
+  under: [{ org: shanxi-committee }]
+  places: [{ at: changzhi }]
+  summary: 山西东南部的地委，前身为长治地委。1951 年 3 月没有批准李顺达试办合作社；文革后期批评李顺达“割资本主义尾巴，你不割”，1978 年派工作组到西沟播放批判他的文章。
+  verify: true
+  leaders:
+    - { name: 李顺达, title: 地委书记, to: 1978, note: 1977 年“揭批清”后被撤销，起止待核 }
+
+- id: pingshun-county
+  name: 中共平顺县委
+  short: 平顺县委
+  aliases: [中共平顺县委, 平顺县委]
+  kind: party
+  level: local
+  under: [{ org: jindongnan-prefecture }]
+  places: [{ at: pingshun }]
+  summary: 西沟所在县。李顺达、申纪兰先后在县委任职。
+  verify: true
+  leaders:
+    - { name: 李顺达, title: 县委书记, to: 1978, note: 起止待核 }
+
+- id: xigou
+  name: 平顺县西沟大队
+  short: 西沟
+  aliases: [西沟大队, 西沟村, 西沟初级农业生产合作社, 西沟农林牧生产合作社, 金星农林牧生产合作社, 李顺达互助组]
+  kind: unit
+  level: basic
+  from: 1943-02-06
+  under: [{ org: pingshun-county }]
+  places: [{ at: pingshun }]
+  summary: 1943 年李顺达在此组织全国较早的农业互助组，1951 年 12 月办起初级社，申纪兰任副社长并争取到男女同工同酬。学大寨期间收了自留地、砍了核桃树；1977 年后李顺达被批为“反大寨势力”总后台。
+  verify: true
+  leaders:
+    - { name: 李顺达, title: 互助组长、社长、党总支书记, from: 1943-02-06, note: 1978 年被撤去省地县职务后仍保留总支书记 }
+
+- id: xipu
+  name: 遵化县西铺大队
+  short: 穷棒子社
+  aliases: [西铺大队, 西铺“穷棒子社”, 穷棒子社]
+  kind: unit
+  level: basic
+  from: 1952
+  under: [{ org: hebei-committee }]
+  places: [{ at: zunhua }]
+  summary: 1952 年王国藩带领 23 户贫雇农办起的合作社，全部家当相当于四分之三头驴，被讥为“穷棒子社”；1955 年毛泽东在按语中称它“是我们整个国家的形象”。
+  verify: true
+  leaders:
+    - { name: 王国藩, title: 带头人, from: 1952 }
+
+- id: liuzhuang
+  name: 新乡县刘庄大队
+  short: 刘庄
+  aliases: [刘庄大队, 刘庄村, 刘庄]
+  kind: unit
+  level: basic
+  places: [{ at: xinxiang }]
+  summary: 河南新乡县的村庄，史来贺 1952 年起任党支部书记。1956 年拒绝并入乡高级社，大跃进中只拿 3 亩地放“卫星”，文革中规定外出串联不记工分。
+  verify: true
+  leaders:
+    - { name: 史来贺, title: 党支部书记、党委书记, from: 1952, to: 2003 }
+
+- id: linxi-county
+  name: 中共临西县委
+  short: 临西县委
+  aliases: [中共临西县委, 临西县委, 临西县革命委员会]
+  kind: party
+  level: local
+  from: 1964-12
+  under: [{ org: hebei-committee }]
+  places: [{ at: linxi }]
+  summary: 1964 年 12 月山东临清县卫运河以西地区划归河北，设临西县。吕玉兰 1966 年任县委常委，1971 年任县委书记。
+  verify: true
+  leaders:
+    - { name: 吕玉兰, title: 县委书记、第一书记, from: 1971-01 }
+
+- id: dongliushangu
+  name: 临西县东留善固大队
+  short: 东留善固
+  aliases: [东留善固大队, 东留善固村]
+  kind: unit
+  level: basic
+  under: [{ org: linxi-county }]
+  places: [{ at: linxi }]
+  summary: 吕玉兰的家乡，1955 年她 15 岁任本村初级社社长，1960 年任大队党支部书记。
+  verify: true
+  leaders:
+    - { name: 吕玉兰, title: 党支部书记, from: 1960-02 }
+
+- id: zhengding-county
+  name: 中共正定县委
+  short: 正定县委
+  aliases: [中共正定县委, 正定县委]
+  kind: party
+  level: local
+  under: [{ org: hebei-committee }]
+  places: [{ at: zhengding }]
+  summary: 河北正定县。1981 年 9 月被免去省委书记的吕玉兰到此任县委副书记，1985 年 7 月一度主持县委工作。
+  verify: true
+
+- id: sijiazhuang
+  name: 宝坻县司家庄大队
+  short: 司家庄
+  aliases: [司家庄大队, 司家庄村, 司家庄]
+  kind: unit
+  level: basic
+  places: [{ at: baodi }]
+  summary: 1958 年邢燕子中学毕业后回到这里务农，组织“燕子突击队”，司家庄由此成为知识青年回乡的典型。
+  verify: true
+
+- id: chongwen-sanitation
+  name: 北京市崇文区清洁队
+  aliases: [崇文区清洁队]
+  kind: unit
+  level: basic
+  places: [{ at: beijing }]
+  summary: 掏粪工人时传祥所在单位。1966 年底有人冲到清洁队强行揪斗他。
+  verify: true
+
+- id: shuanghe-brigade
+  name: 逊克县逊河公社双河大队
+  short: 双河大队
+  aliases: [双河大队]
+  kind: unit
+  level: basic
+  places: [{ at: xunke }]
+  summary: 1969 年 5 月上海知识青年金训华等 34 人到此插队；8 月 15 日金训华在山洪中抢救电柱牺牲。
+  verify: true
+
+- id: shanxi-women
+  name: 山西省妇女联合会
+  short: 山西省妇联
+  aliases: [山西省妇联]
+  kind: mass
+  level: provincial
+  places: [{ at: taiyuan }]
+  summary: 申纪兰 1973–1983 年任主任。
+  verify: true
+  leaders:
+    - { name: 申纪兰, title: 主任, from: 1973, to: 1983 }
+
+- id: daqing-revcom
+  name: 大庆革命委员会
+  aliases: [大庆革委会]
+  kind: state
+  level: local
+  from: 1968-05
+  under: [{ org: hlj-revcom }]
+  places: [{ at: daqing }]
+  summary: 1968 年 5 月成立，“铁人”王进喜任副主任。
+  verify: true
+
+- id: drill-1205
+  name: 1205钻井队
+  aliases: [一二○五钻井队, 1205队]
+  kind: unit
+  level: basic
+  under: [{ org: daqing }]
+  places: [{ at: daqing }, { at: yumen }]
+  summary: 王进喜任队长的钻井队，1960 年 3 月从玉门调到大庆参加石油会战，人拉肩扛卸下钻机，5 天多打完萨 55 井。
+  verify: true
+  leaders:
+    - { name: 王进喜, title: 队长, to: 1961 }
+
+- id: sh-middle-redguards
+  name: 上海市中学红卫兵代表大会
+  short: 上海市中学红代会
+  aliases: [上海市中学红代会]
+  kind: mass
+  level: provincial
+  places: [{ at: shanghai }]
+  factions: [rebels]
+  summary: 上海中学红卫兵的联合组织。1968 年 12 月 21 日晚，常委金训华在红代会办公室听到“知识青年到农村去”的指示后提出“知识青年上山下乡的大动员”。
+  verify: true
