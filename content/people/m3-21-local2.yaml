@@ -1,0 +1,557 @@
+# M3 people round 2, batch 21: 地方二。被打倒的省委第一书记（叶飞、江渭清、谭启龙、王恩茂，被迫害致死的卫恒），
+# 军区司令员（韩先楚），文革中上台的省级负责人（王效禹、潘复生、解学恭）和少数留任的第一书记（刘建勋）。
+# Texts: 1967 年江渭清电报、潘复生检查、张春桥在南京的讲话、《红旗》目录，1980 年起诉书，1981 年判决书；
+# 新华社叶飞、韩先楚、谭启龙生平；全国政协王恩茂条；《人民日报》1986 年怀念卫恒文；陵川县政府卫恒条；
+# 黑龙江省情网潘复生传；沧州名人网刘建勋传；山东地情档案省革委会任职表；天津 1978 年揭批查资料；陈大斌小靳庄回忆。
+
+- id: ye-fei
+  name: 叶飞
+  born: 1914-05-07
+  died: 1999-04-18
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 中共福建省委第一书记、华东局书记处书记
+  pinyin: Yè Fēi
+  gender: m
+  aka:
+    - { kind: original, name: 叶启亨 }
+  birthplace: 菲律宾奎松省
+  origin: 福建南安
+  party: 中国共产党
+  rank: { rank: 上将, date: 1955 }
+  positions:
+    - { title: 第一书记, orgName: 中共福建省委员会, from: 1954, to: 1967, cite: rmrb-1999-04-29-ye-fei, verify: true }
+    - { title: 部长, orgName: 交通部, from: 1975-01, to: 1979-02, cite: rmrb-1999-04-29-ye-fei }
+    - { title: 第一政治委员, orgName: 中国人民解放军海军, from: 1979-02, to: 1980-01, cite: rmrb-1999-04-29-ye-fei, verify: true }
+    - { title: 司令员, orgName: 中国人民解放军海军, from: 1980-01, to: 1982-08, cite: rmrb-1999-04-29-ye-fei, verify: true }
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1983, to: 1993, cite: rmrb-1999-04-29-ye-fei }
+  bio: 祖籍福建南安，1914 年生于菲律宾的华侨家庭。1930 年代在闽东创建红色根据地，坚持三年游击战争。1949 年后任福建省省长、省委第一书记、福州军区司令员兼政委、华东局书记处书记，1958 年指挥炮击金门。文革中被打倒，1975 年出任交通部部长，1979 年起任海军第一政委、司令员，1983 年起任两届全国人大常委会副委员长。1999 年在北京去世。
+  life:
+    - h: 闽东
+      from: 1914-05-07
+      to: 1949-10
+      text: |
+        1914 年 5 月 7 日生于菲律宾奎松省，幼年回国读书。1928 年 5 月在厦门加入共青团，1930 年 7 月被捕，在狱中一年半。1932 年 3 月转为共产党员，1933 年 5 月领导“霍童暴动”，1934 年 2 月成立闽东苏维埃政府。红军主力长征后，他领导闽东军民坚持三年游击战争。
+      cites: [rmrb-1999-04-29-ye-fei]
+    - h: 福建前线
+      from: 1949-10
+      to: 1966-06
+      text: |
+        1949 年后历任南京军区副司令员兼福建军区司令员，福州军区司令员兼政委，福建省省长，福建省委副书记、第一书记，福建省政协主席，华东局书记处书记。组织指挥东山岛防御作战，1958 年“由毛主席亲自点将”指挥炮击金门。
+      cites: [rmrb-1999-04-29-ye-fei]
+    - h: 打倒与交通部
+      from: 1966-06
+      to: 1979-02
+      text: |
+        新华社生平对文革只写了一句：他“受到诬陷和迫害”，“与林彪、江青反革命集团的倒行逆施进行了针锋相对的斗争”。1975 年 1 月出任交通部部长，按中央整顿的指示抓班子、恢复规章制度、整顿生产秩序。粉碎“四人帮”后在交通部发展远洋船队、港口和长江水运，并创建了蛇口工业区。
+      cites: [rmrb-1999-04-29-ye-fei]
+    - h: 海军与人大
+      from: 1979-02
+      to: 1999-04-18
+      text: |
+        1979 年 2 月调海军，先后任第一政委、司令员；1979 年 7 月主持海军党委在团以上干部中补课“实践是检验真理唯一标准”的讨论，落实政策、解放干部。1980 年指挥海军编队首次远航南太平洋，保障运载火箭试验。此后当选第六、七届全国人大常委会副委员长，兼任华侨委员会主任委员，主持制定《归侨侨眷权益保护法》。1999 年 4 月 18 日在北京去世，享年 85 岁。
+      cites: [rmrb-1999-04-29-ye-fei]
+  assess:
+    - { voice: officialLater, text: “文化大革命”期间，叶飞同志受到诬陷和迫害，他身处逆境，始终坚信党和人民，与林彪、江青反革命集团的倒行逆施进行了针锋相对的斗争。（1999 年新华社生平）, cite: rmrb-1999-04-29-ye-fei, quote: true }
+    - { voice: editor, text: 生平用一句话概括了他在文革中的十年，没有写他何时、因何被打倒，也没有写他被关押在哪里，接着就写 1975 年出任交通部部长。, cite: rmrb-1999-04-29-ye-fei }
+  factions: [provincial]
+  fate:
+    - { date: 1958, s: power, note: 指挥炮击金门, cite: rmrb-1999-04-29-ye-fei }
+    - { date: 1967, s: attacked, note: 受到诬陷和迫害, verify: true }
+    - { date: 1975-01, s: restored, note: 出任交通部部长, cite: rmrb-1999-04-29-ye-fei }
+    - { date: 1979-02, s: power, note: 海军第一政委, cite: rmrb-1999-04-29-ye-fei }
+    - { date: 1999-04-18, s: dead, cite: rmrb-1999-04-29-ye-fei }
+  cites: [rmrb-1999-04-29-ye-fei]
+
+- id: han-xianchu
+  name: 韩先楚
+  born: 1913-02
+  died: 1986-10-03
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 副总参谋长兼福州军区司令员
+  pinyin: Hán Xiānchǔ
+  gender: m
+  birthplace: 湖北红安
+  party: 中国共产党
+  rank: { rank: 上将, date: 1955 }
+  positions:
+    - { title: 司令员, orgName: 福州军区, from: 1957, to: 1973-12, cite: rmrb-1986-10-12-han-xianchu, verify: true }
+    - { title: 主任, orgName: 福建省革命委员会, from: 1968-08-19, to: 1973-12, verify: true }
+    - { title: 第一书记, orgName: 中共福建省委员会, from: 1971, to: 1973-12, cite: rmrb-1986-10-12-han-xianchu, verify: true }
+    - { title: 司令员, orgName: 兰州军区, from: 1973-12, to: 1980, cite: rmrb-1986-10-12-han-xianchu, verify: true }
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1983, to: 1986-10-03, cite: rmrb-1986-10-12-han-xianchu }
+  bio: 湖北红安人，红二十五军出身，抗美援朝中任志愿军副司令员，指挥部队攻占汉城。1953 年回国后任副总参谋长兼福州部队司令员，文革中又兼福建省革委会主任、省委第一书记。1967 年 2 月主持发布《福建前线部队公告》，经中央军委批转全国。后调任兰州部队司令员，1979 年任中央军委常委，1983 年任全国人大常委会副委员长。1986 年在北京去世。
+  life:
+    - h: 红二十五军
+      from: 1913-02
+      to: 1950-10
+      text: |
+        1913 年 2 月生于湖北红安一个贫苦农民家庭，1927 年参加农民协会，1930 年参加游击队并入党，1933 年编入红二十五军，从战士升到师长。随红二十五军长征到陕北，参加劳山、直罗镇、东征、西征等战役，两次负重伤。
+      cites: [rmrb-1986-10-12-han-xianchu]
+    - h: 志愿军副司令员
+      from: 1950-10
+      to: 1966-05
+      text: |
+        1950 年冬入朝，任志愿军副司令员、十九兵团司令员，参与指挥第一至第四次战役；第三次战役中指挥部队突破“三八线”、攻占汉城。1953 年回国后历任中南军区参谋长、副总参谋长，副总参谋长兼福州部队司令员、党委第一书记。1958 年八届二中全会补选为候补中央委员。
+      cites: [rmrb-1986-10-12-han-xianchu]
+    - h: 《福建前线部队公告》
+      from: 1966-05
+      to: 1976-10
+      text: |
+        1967 年 2 月主持发布《福建前线部队公告》，中央军委随即批转全国。1968 年递补为中央委员，此后兼任中共福建省委第一书记，后调任兰州部队司令员、党委第二书记。生平说他因这份公告“受到林彪、‘四人帮’一伙的忌恨”，在“批林批孔”和“反击右倾翻案风”中又因抵制“四人帮”而“受到打击迫害”。
+      cites: [rmrb-1986-10-12-han-xianchu]
+    - h: 军委常委
+      from: 1976-10
+      to: 1986-10-03
+      text: |
+        1979 年任中央军委常委，1983 年在六届全国人大上当选全国人大常委会副委员长。1986 年 10 月 3 日在北京去世，终年 74 岁。
+      cites: [rmrb-1986-10-12-han-xianchu]
+  assess:
+    - { voice: officialLater, text: 1967年2月，韩先楚同志主持发布了《福建前线部队公告》，当即由中央军委批转全国，在当时对回击极左思潮，保持部队稳定，安定社会秩序，起了很好的作用。（1986 年新华社生平）, cite: rmrb-1986-10-12-han-xianchu, quote: true }
+    - { voice: editor, text: 生平说他在“批林批孔”中“受到打击迫害”，但没有说明具体所指；按同一份生平，他在这期间一直是中央委员和大军区司令员。, cite: rmrb-1986-10-12-han-xianchu }
+  factions: [frontline]
+  fate:
+    - { date: 1967-02, s: power, note: 主持发布《福建前线部队公告》, cite: rmrb-1986-10-12-han-xianchu }
+    - { date: 1968-08-19, s: power, note: 福建省革委会主任, verify: true }
+    - { date: 1974, s: attacked, note: 批林批孔中受到打击, cite: rmrb-1986-10-12-han-xianchu }
+    - { date: 1979, s: power, note: 中央军委常委, cite: rmrb-1986-10-12-han-xianchu }
+    - { date: 1986-10-03, s: dead, cite: rmrb-1986-10-12-han-xianchu }
+  cites: [rmrb-1986-10-12-han-xianchu]
+
+- id: jiang-weiqing
+  name: 江渭清
+  born: 1910-11
+  died: 2000-06-16
+  deathKind: natural
+  deathPlace: 江苏南京
+  tier: 3
+  role1966: 中共江苏省委第一书记、华东局书记处书记
+  pinyin: Jiāng Wèiqīng
+  gender: m
+  birthplace: 湖南平江
+  party: 中国共产党
+  positions:
+    - { title: 书记、第一书记, orgName: 中共江苏省委员会, from: 1954, to: 1967-01, cite: xhrb-2015-07-09-jiang-weiqing, verify: true }
+    - { title: 第一书记, orgName: 中共江西省委员会, from: 1974, to: 1979, cite: xhrb-2015-07-09-jiang-weiqing, verify: true }
+    - { title: 主任, orgName: 江西省革命委员会, from: 1974, to: 1979-12, verify: true }
+  bio: 湖南平江人，红军长征后在湘鄂赣边坚持三年游击战争，解放战争中任华东野战军第六纵队政委。1949 年后长期主持江苏，任江苏省委第一书记、南京军区第三政委、华东局书记处书记。1967 年 1 月被造反派揪到南京大学等处批斗、游街，向中央发电报“认罪请罪”、请求撤销自己的职务。后来复出，任江西省委第一书记。2000 年在南京去世。
+  life:
+    - h: 湘鄂赣与华野六纵
+      from: 1910-11
+      to: 1949-04
+      text: |
+        1910 年 11 月生于湖南平江，1926 年参加革命，1929 年入党。红军主力长征后在湘鄂赣边坚持三年游击战争。解放战争中任华东野战军第六纵队政委等职，参加莱芜、孟良崮、豫东、淮海、渡江等战役。
+      cites: [xhrb-2015-07-09-jiang-weiqing]
+    - h: 江苏
+      from: 1949-04
+      to: 1967-01
+      text: |
+        新中国成立后长期在江苏工作，历任中共江苏省委第一书记、南京军区第三政委和代理第一政委、中共中央上海局书记、华东局书记处书记。
+      cites: [xhrb-2015-07-09-jiang-weiqing]
+    - h: “认罪请罪”
+      from: 1967-01
+      to: 1967-05
+      text: |
+        1967 年 1 月 22 日他给毛泽东、中央、华东局发电报：省委从 15 日起“已成瘫痪状态”，他和陈光、许家屯、彭冲被先后带到南京大学、南京工学院等单位“批判、揭、斗争、挂牌、游街”。电报说自己执行了“以刘、邓为首的资产阶级反动路线”，“现在我已被监督劳动，隔离反省”，建议中央、华东局派人主持省委，并撤销他的职务。这份电报由南京大学造反派小报《农奴戟》公开刊出。
+      cites: [ccrd-1967-01-22-jiang-weiqing]
+    - h: 揪回南京？
+      from: 1967-05
+      to: 1974
+      text: |
+        1967 年 5 月他已在北京。张春桥 5 月 14 日在南京对两派讲话时说：周恩来来信问他和姚文元，江苏有人要求揪江渭清回来开斗争会，现在是否适宜；他们认为“不是时候”，因为两派打得不可开交，“开的时候说不定另外一派来了，要抢他走”。1980 年起诉书把他列入被林彪、江青集团诬陷的中央委员、候补中央委员。
+      cites: [marxists-1967-zhang-chunqiao-jiangsu, ws-1980-indictment]
+    - h: 江西
+      from: 1974
+      to: 2000-06-16
+      text: |
+        复出后任中共江西省委第一书记。2000 年 6 月 16 日在南京去世。
+      cites: [xhrb-2015-07-09-jiang-weiqing]
+  assess:
+    - { voice: doc, text: 因为我在无产阶级文化大革命中，违背以毛主席为代表的无产阶级革命路线，执行一条以刘、邓为首的资产阶级反动路线。（1967 年 1 月 22 日江渭清给毛泽东、中央、华东局的电报）, cite: ccrd-1967-01-22-jiang-weiqing, quote: true }
+    - { voice: doc, text: 你把个江渭清搞来干什么呢？看你们打架啊！看你们在打架，他才高兴呢！（1967 年 5 月 14 日张春桥在南京的讲话）, cite: marxists-1967-zhang-chunqiao-jiangsu, quote: true }
+    - { voice: judicial1980, text: 汪峰、方毅、王尚荣、刘震、张劲夫、李颉伯、廖志高、江渭清、谭启龙、张仲良、张平化（1980 年起诉书所列被诬陷的中央委员、候补中央委员）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 电报的“认罪”是写给中央的，却由造反派小报公开刊出；电报一面说自己“已被监督劳动，隔离反省”，一面仍以省委书记的身份向中央提出主持省委工作的人选。, cite: ccrd-1967-01-22-jiang-weiqing }
+  factions: [provincial]
+  fate:
+    - { date: 1967-01-15, s: attacked, note: 被带到南京大学、南京工学院批斗、挂牌游街, cite: ccrd-1967-01-22-jiang-weiqing }
+    - { date: 1967-01-22, s: detained, note: 自称“已被监督劳动，隔离反省”, cite: ccrd-1967-01-22-jiang-weiqing }
+    - { date: 1974, s: restored, note: 江西省委第一书记, verify: true }
+    - { date: 2000-06-16, s: dead, cite: xhrb-2015-07-09-jiang-weiqing }
+  cites: [xhrb-2015-07-09-jiang-weiqing, ccrd-1967-01-22-jiang-weiqing, marxists-1967-zhang-chunqiao-jiangsu, ws-1980-indictment]
+
+- id: tan-qilong
+  name: 谭启龙
+  died: 2003-01-22
+  deathKind: natural
+  deathPlace: 山东济南
+  tier: 3
+  role1966: 中共山东省委第一书记
+  pinyin: Tán Qǐlóng
+  gender: m
+  birthplace: 江西永新
+  party: 中国共产党
+  positions:
+    - { title: 第一书记, orgName: 中共山东省委员会, from: 1961-10, to: 1967-02, cite: rmrb-2003-02-06-tan-qilong, verify: true }
+    - { title: 第一书记, orgName: 中共浙江省委员会, from: 1973, to: 1977, cite: rmrb-2003-02-06-tan-qilong, verify: true }
+    - { title: 主任, orgName: 浙江省革命委员会, from: 1973, to: 1977, verify: true }
+    - { title: 第一书记, orgName: 中共青海省委员会, from: 1977, to: 1979, cite: rmrb-2003-02-06-tan-qilong, verify: true }
+    - { title: 主任, orgName: 青海省革命委员会, from: 1977, to: 1979-12, verify: true }
+  bio: 江西永新人，1928 年参加革命，抗战中任浙东区党委书记、新四军浙东纵队政委，解放战争中任华东野战军第一纵队副政委、第七兵团政委。1949 年后历任浙江省委副书记、山东省省长、山东省委第一书记、华东局书记处书记。文革开始时主持山东，1967 年山东省委被造反派夺权。后历任浙江、青海省委第一书记和四川省军区第一政委，1985 年起任中顾委委员。2003 年在济南去世。
+  life:
+    - h: 湘赣与浙东
+      to: 1949-10
+      text: |
+        1928 年加入共青团并参加革命工作，1933 年转为共产党员。先后任湘赣省苏维埃政府委员、浙东区党委书记、新四军浙东纵队政委；解放战争中任新四军、山东野战军、华东野战军第一纵队副政委兼政治部主任，华东野战军第七兵团政委。
+      cites: [rmrb-2003-02-06-tan-qilong]
+    - h: 山东
+      from: 1949-10
+      to: 1967-02
+      text: |
+        1949 年后历任浙江省委副书记、山东省省长、山东省委第一书记、华东局书记处书记，是八届候补中央委员。
+      cites: [rmrb-2003-02-06-tan-qilong]
+    - h: 夺权以后
+      from: 1967-02
+      to: 1976-10
+      text: |
+        1967 年初山东省委被以青岛市副市长王效禹为首的造反派夺权，2 月成立山东省革命委员会。1980 年起诉书把他列入被林彪、江青集团诬陷的中央委员、候补中央委员。他是九届候补中央委员、十届中央委员；后复出任浙江省委第一书记、省军区第一政委。
+      cites: [ws-1980-indictment, rmrb-2003-02-06-tan-qilong]
+      verify: true
+    - h: 青海与四川
+      from: 1976-10
+      to: 2003-01-22
+      text: |
+        此后任青海省委第一书记、四川省军区第一政委等职，1985 年、1987 年当选中顾委委员。2003 年 1 月 22 日在济南去世，享年 90 岁。
+      cites: [rmrb-2003-02-06-tan-qilong]
+  assess:
+    - { voice: judicial1980, text: 汪峰、方毅、王尚荣、刘震、张劲夫、李颉伯、廖志高、江渭清、谭启龙、张仲良、张平化（1980 年起诉书所列被诬陷的中央委员、候补中央委员）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 2003 年新华社讣告只罗列职务，不注年份，全文没有提到文化大革命；他从被夺权的山东省委第一书记到 1973 年后复出主持浙江的经过，讣告里看不出来。, cite: rmrb-2003-02-06-tan-qilong }
+  factions: [provincial]
+  fate:
+    - { date: 1967-02, s: purged, note: 山东省委被造反派夺权, verify: true }
+    - { date: 1973, s: restored, note: 浙江省委第一书记, verify: true }
+    - { date: 2003-01-22, s: dead, cite: rmrb-2003-02-06-tan-qilong }
+  cites: [rmrb-2003-02-06-tan-qilong, ws-1980-indictment]
+
+- id: wang-enmao
+  name: 王恩茂
+  born: 1913
+  died: 2001-04-12
+  deathKind: natural
+  tier: 3
+  role1966: 中共新疆维吾尔自治区党委第一书记、新疆军区司令员兼政委
+  pinyin: Wáng Ēnmào
+  gender: m
+  birthplace: 江西永新
+  party: 中国共产党
+  rank: { rank: 中将, date: 1955 }
+  positions:
+    - { title: 书记、第一书记, orgName: 中共新疆维吾尔自治区委员会, from: 1952-06, to: 1968, cite: cppcc-wang-enmao, verify: true }
+    - { title: 司令员（兼）, orgName: 新疆军区, from: 1955-02, to: 1968, cite: cppcc-wang-enmao, verify: true }
+    - { title: 第一书记, orgName: 中共吉林省委员会, from: 1977, to: 1981, cite: cppcc-wang-enmao, verify: true }
+    - { title: 第一书记, orgName: 中共新疆维吾尔自治区委员会, from: 1981-10, to: 1985-10, cite: cppcc-wang-enmao, verify: true }
+    - { title: 副主席, orgName: 中国人民政治协商会议全国委员会, from: 1986-03, to: 1993-03, cite: cppcc-wang-enmao }
+  bio: 江西永新人，红六军团出身，抗战中任三五九旅副政委，解放战争中随一野第二军进军新疆。1949 年后主持新疆十余年，任中共新疆分局、自治区党委第一书记和新疆军区司令员兼政委、新疆生产建设兵团第一政委。文革中被调离新疆，在九大上由中央委员降为候补中央委员，先后任南京军区副政委、沈阳军区副司令员。后任吉林省委第一书记，1981 年重回新疆主持工作，1986–1993 年任全国政协副主席。2001 年去世。
+  life:
+    - h: 红六军团与三五九旅
+      from: 1913
+      to: 1949-09
+      text: |
+        江西永新人，1928 年参加革命，1930 年入团、同年秋转入共产党。土地革命时期任中共湘赣省委秘书、红六军团政治部秘书长，参加长征；抗战中任八路军一二〇师三五九旅副政委，参加南泥湾大生产和 1944 年南下；解放战争中任一野第一兵团第二军政委，“一直到解放新疆”。
+      cites: [cppcc-wang-enmao]
+    - h: 新疆
+      from: 1949-10
+      to: 1968
+      text: |
+        1949 年后历任南疆区党委第一书记、中共中央新疆分局第一书记、新疆军区司令员兼政委、新疆生产建设兵团第一政委、中共新疆维吾尔自治区党委第一书记、西北局书记处书记，是八届中央委员。
+      cites: [cppcc-wang-enmao]
+    - h: 调离与降级
+      from: 1968
+      to: 1977
+      text: |
+        政协简历在新疆和吉林之间排着“南京军区副政委、沈阳军区副司令、副政委”，没有注年份，也没有提文革。简历同时写明他是“中共第八届中央委员；中共第九届中央候补委员”，即九大上由中央委员降为候补中央委员。1980 年起诉书把他列入被林彪、江青集团诬陷的中央委员、候补中央委员。
+      cites: [cppcc-wang-enmao, ws-1980-indictment]
+    - h: 吉林、再回新疆
+      from: 1977
+      to: 2001-04-12
+      text: |
+        此后任中共吉林省委第一书记、吉林省军区第一政委，又回新疆任自治区党委第一书记、乌鲁木齐军区第一政委，后任自治区顾问委员会主任，是十一、十二届中央委员。1986 年 3 月至 1993 年 3 月任全国政协副主席。著有《王恩茂日记》。2001 年 4 月 12 日去世。
+      cites: [cppcc-wang-enmao]
+  assess:
+    - { voice: judicial1980, text: 欧阳钦、王树声、王恩茂、邓华、邓子恢（1980 年起诉书所列被诬陷的中央委员、候补中央委员）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 全国政协的简历没有一个字提到文革，只在中央委员的届次里留下痕迹：八届中央委员，九届降为候补中央委员，十届没有列，十一届才又是中央委员。, cite: cppcc-wang-enmao }
+  factions: [provincial]
+  fate:
+    - { date: 1968, s: sidelined, note: 调离新疆, verify: true }
+    - { date: 1969-04, s: sidelined, note: 九大上降为候补中央委员, cite: cppcc-wang-enmao }
+    - { date: 1977, s: restored, note: 吉林省委第一书记, verify: true }
+    - { date: 1981-10, s: power, note: 重回新疆任自治区党委第一书记, verify: true }
+    - { date: 2001-04-12, s: dead, cite: cppcc-wang-enmao }
+  cites: [cppcc-wang-enmao, ws-1980-indictment]
+
+- id: wei-heng
+  name: 卫恒
+  born: 1915
+  died: 1967-01-30
+  deathKind: persecuted
+  tier: 3
+  role1966: 中共山西省委第一书记、华北局书记处书记
+  pinyin: Wèi Héng
+  gender: m
+  aka:
+    - { kind: original, name: 魏来玉 }
+  birthplace: 山西陵川
+  party: 中国共产党
+  positions:
+    - { title: 省长, orgName: 山西省人民委员会, to: 1965-06, cite: lczf-wei-heng, verify: true }
+    - { title: 第一书记, orgName: 中共山西省委员会, from: 1965-06, to: 1967-01-30, cite: lczf-wei-heng }
+  bio: 山西陵川人，小学教师出身，1938 年参加抗日游击队并入党，在太岳区做农会和党的工作。1952 年起任山西省委常委、组织部长，后任省长，1965 年 6 月任山西省委第一书记、华北局书记处书记。1967 年 1 月山西造反派凭“五人大字报”夺权，他在太原五一广场被揪斗后遭单独监禁，1 月 30 日凌晨死在造反派私设的囚牢里。1979 年山西省委为他平反，1985 年又作出“彻底平反”的决定。
+  life:
+    - h: 太岳
+      from: 1915
+      to: 1949-10
+      text: |
+        原名魏来玉，陵川沙泊池村贫农家庭出身，幼时过继给魏姓亲戚。读完简易师范后在本县当小学教师。1938 年 1 月参加第二战区行营游击队，10 月入党，后任晋东南农救总会组织部长、太岳区农救总会主席、晋冀鲁豫边区临时参议会参议员，被选为中共七大代表；七大后任太岳区党委秘书长，1948 年任太岳四地委书记。
+      cites: [lczf-wei-heng]
+    - h: 山西省委
+      from: 1949-10
+      to: 1966-11
+      text: |
+        1952 年 4 月任山西省委常委、组织部长、省纪委书记，此后任省委第二副书记、书记处书记、副省长、代省长、省长，八大代表。1959 年 1 月在省委刊物《前进》上发表《发扬实事求是的科学精神》。1963 年冬起到文水、定襄等县蹲点搞“四清”。1965 年 6 月任山西省委第一书记、华北局书记处书记、山西省军区第一政委。
+      cites: [lczf-wei-heng]
+    - h: 晋祠三干会
+      from: 1966-11
+      to: 1967-01-12
+      text: |
+        1966 年 11 月山西省委在晋祠召开三级干部会讨论文革，会议第二天就被造反的人流和大字报淹没；11 月 2 日到 20 日，他在辩论、围攻、揪斗中度过，直到会议被强行结束。他急性阑尾炎发作，手术后伤口未愈，造反派头头就闯进病房要拉他去五一广场批斗，他对医护人员说：“不要紧，我准备上它二百次广场！”1967 年 1 月 10 日“五人大字报”贴出，诬省委“抗拒党中央”“是钻在党内一小撮走资本主义道路的当权派”；1 月 12 日造反派以“总指挥部”的名义夺了山西党政财文大权。
+      cites: [rmrb-1986-01-26-wei-heng]
+    - h: 五一广场与囚牢
+      from: 1967-01-12
+      to: 1967-01-30
+      text: |
+        1 月 15 日造反派在五一广场揪斗他，给他挂“反革命修正主义分子”的牌子，他把牌子打落在地，说：“我有错误甘愿向人民低头，决不向坏人低头！”暴徒按着他的头往铁栏杆上撞，围观群众喊“要文斗，不要武斗”，有人把棉帽、水果、干粮塞给他。此后秘书、警卫员都被赶走，他被单独监禁，1 月 30 日凌晨“屈死在造反派私设的囚牢里”。
+      cites: [rmrb-1986-01-26-wei-heng, lczf-wei-heng]
+  rehab:
+    - { date: 1979-01, text: 中共山西省委决定为他平反昭雪、恢复名誉, cite: lczf-wei-heng }
+    - { date: 1985-06, text: 中共山西省委作出为他彻底平反的决定，薄一波批注“十八载奇冤大案，终于得到昭雪”, cite: rmrb-1986-01-26-wei-heng }
+  assess:
+    - { voice: witness, text: 这次运动，我可能被打倒，但你们不要怕，人被整死了，真理还在，真理终究是会胜利的。（卫恒对身边工作人员的话，据 1986 年郭钦安等回忆文章）, cite: rmrb-1986-01-26-wei-heng, quote: true }
+    - { voice: officialLater, text: 在‘文化大革命’的动乱中，面对林彪、江青反革命集团的淫威，他坚贞不屈，正气凛然（1985 年 6 月中共山西省委平反决定，据 1986 年回忆文章转引）, cite: rmrb-1986-01-26-wei-heng, quote: true }
+    - { voice: judicial1980, text: 文敏生、卫恒、霍士廉、杨植霖（1980 年起诉书所列被诬陷、迫害的地方主要负责人）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 1979 年山西省委已为他平反，1985 年又作出一次“彻底平反”的决定；1986 年的回忆文章说“彻底否定‘文化大革命’竟如此艰难”。两份材料都没有写“五人大字报”署名者的名字。, cite: rmrb-1986-01-26-wei-heng }
+  factions: [provincial]
+  fate:
+    - { date: 1965-06, s: power, note: 山西省委第一书记, cite: lczf-wei-heng }
+    - { date: 1966-11, s: attacked, note: 晋祠三干会被冲垮，遭围攻揪斗, cite: rmrb-1986-01-26-wei-heng }
+    - { date: 1967-01-15, s: detained, note: 五一广场揪斗后被单独监禁, cite: rmrb-1986-01-26-wei-heng }
+    - { date: 1967-01-30, s: dead, cite: rmrb-1986-01-26-wei-heng }
+  cites: [lczf-wei-heng, rmrb-1986-01-26-wei-heng, ws-1980-indictment]
+
+- id: wang-xiaoyu
+  name: 王效禹
+  tier: 3
+  role1966: 青岛市副市长
+  pinyin: Wáng Xiàoyǔ
+  gender: m
+  party: 中国共产党
+  positions:
+    - { title: 主任, orgName: 山东省革命委员会, from: 1967-02-03, to: 1971-03, cite: sdcg-shandong-rgw, verify: true }
+  bio: 文革前是青岛市副市长。1967 年初组织造反派先后夺取青岛市和山东省党政大权，任山东省革命委员会主任，《红旗》刊出他的文章《放手发动群众，粉碎反革命复辟阴谋》。1967 年 5 月在张春桥、姚文元支持下制造山东省革委会大院武斗事件，拘捕关押 388 人。1971 年 3 月被撤职，由杨得志接任。1979 年被开除党籍。
+  life:
+    - h: 夺权
+      from: 1967-01
+      to: 1967-05
+      text: |
+        文革开始后支持学生造反，1967 年初组织指挥造反派先后夺取青岛市委、市人委和山东省委、省人委的权力，2 月 3 日山东省革命委员会成立，他任主任。3 月 30 日出版的《红旗》1967 年第 5 期刊登他的文章《放手发动群众，粉碎反革命复辟阴谋》，与潘复生的《跟着毛主席革命到底》同期。
+      cites: [ws-1967-red-flag-index]
+      verify: true
+    - h: 省革委会大院武斗
+      from: 1967-05
+      to: 1969
+      text: |
+        1967 年 5 月张春桥、姚文元在济南，张春桥对他说：“你有力量，我就支持你。”他随即在 5 月 7 日制造了省革命委员会大院武斗事件，拘捕关押 388 人；事后张春桥、姚文元又表示支持，祝贺“打了一个胜仗！”1981 年特别法庭判决书把此事与上海康平路事件、上海柴油机厂武斗并列，作为林彪、江青集团“挑动群众组织之间的大规模武斗”的例证。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+    - h: 撤职
+      from: 1969
+      to: 1979
+      text: |
+        山东地情档案的省革委会任职表记他任主任至 1971 年 3 月，由杨得志接任。1979 年 2 月被开除党籍。
+      cites: [sdcg-shandong-rgw]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 张春桥对王效禹说：“你有力量，我就支持你。”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 一九六七年五月，张春桥、姚文元在济南支持山东省革命委员会主任王效禹制造了省革命委员会大院武斗事件，拘捕关押三百八十八人。（1981 年特别法庭判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: editor, text: 起诉书和判决书都把他写成张春桥、姚文元支持的对象，他本人不在被告之列。青岛市史志办公室的人物条目对脚本访问一律拒绝，生卒年和 1979 年开除党籍一事本站暂未能核对原文。 }
+  factions: [rebels]
+  fate:
+    - { date: 1967-02-03, s: rise, note: 山东省革命委员会主任, verify: true }
+    - { date: 1967-05-07, s: power, note: 制造省革委会大院武斗事件, cite: ws-1980-indictment }
+    - { date: 1971-03, s: purged, note: 杨得志接任省革委会主任, cite: sdcg-shandong-rgw }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, sdcg-shandong-rgw, ws-1967-red-flag-index]
+
+- id: pan-fusheng
+  name: 潘复生
+  born: 1908-12
+  died: 1980-04-29
+  deathKind: natural
+  deathPlace: 黑龙江哈尔滨
+  tier: 3
+  role1966: 中共黑龙江省委第一书记、东北局书记处书记
+  pinyin: Pān Fùshēng
+  gender: m
+  aka:
+    - { kind: original, name: 刘开浚 }
+    - { kind: courtesy, name: 巨川 }
+  birthplace: 山东文登
+  party: 中国共产党
+  positions:
+    - { title: 第一书记, orgName: 中共河南省委员会, from: 1953-01, to: 1958, cite: hljxxw-pan-fusheng }
+    - { title: 主任, orgName: 中华全国供销合作总社, from: 1963-04, to: 1966-02, cite: hljxxw-pan-fusheng }
+    - { title: 第一书记, orgName: 中共黑龙江省委员会, from: 1966-02, to: 1967-01-31, cite: hljxxw-pan-fusheng }
+    - { title: 主任, orgName: 黑龙江省革命委员会, from: 1967-03, to: 1971-06, cite: hljxxw-pan-fusheng }
+  bio: 山东文登人，山东省立第一乡村师范学生出身。1949 年组建平原省并任省委书记，1953 年起任河南省委第一书记，因在合作化、反右中“看黑暗面多”受毛泽东批评，1958 年被定为“右倾反党集团分子”、撤职下放，1963 年甄别平反。1966 年 2 月调任黑龙江省委第一书记，八届十一中全会后转而支持造反派夺权，1967 年 3 月任全国第一个省级革命委员会的主任，此后在黑龙江造成大批冤假错案。1971 年被免职审查，1980 年在哈尔滨去世。
+  life:
+    - h: 文登
+      from: 1908-12
+      to: 1949-08
+      text: |
+        原名刘开浚，1908 年 12 月生于山东文登一个日趋破败的家庭，读书刻苦，在农村小学教书五年后，1929 年考入山东省立第一乡村师范学校。
+      cites: [hljxxw-pan-fusheng]
+    - h: 平原、河南与“右倾”
+      from: 1949-08
+      to: 1963-04
+      text: |
+        中华人民共和国成立前夕受中央派遣到新乡组建平原省并任省委书记，1953 年 1 月调任河南省委第一书记，发布“确保私有，四大自由，安定团结，发展生产”的布告。合作化高潮中他不赞成一下子都办高级社，主张说服无效时允许退社；反右中强调说理、不能多抓右派。1957 年青岛省市委书记会议上毛泽东批评他“看黑暗面多”；1958 年八大二次会议批他犯右倾机会主义错误，撤销省委第一书记职务，回河南后被定为“右倾反党集团分子”，1959 年春下放到西华农场任副场长。
+      cites: [hljxxw-pan-fusheng]
+    - h: 黑龙江夺权
+      from: 1963-04
+      to: 1967-12
+      text: |
+        1963 年 4 月调任全国供销合作总社主任，“右倾反党集团”问题得到甄别平反。1966 年 2 月调任黑龙江省委第一书记、东北局书记处书记。文革初期他要求各级党委坚守岗位，对江青揪“三家村”持保留态度；八届十一中全会后态度突然转变，单独表态支持红色造反团“造反”，放纵红卫兵炮轰、夺权。夺权后任黑龙江省红色造反者革命委员会顾问，1967 年 3 月被任命为黑龙江省革命委员会主任。12 月 7 日他与汪家道在北京向毛泽东、林彪和中央写检查，承认在处理哈尔滨“山上派”“山下派”两派斗争中“在重大问题上犯了严重错误”。
+      cites: [hljxxw-pan-fusheng, ccrd-1967-12-07-pan-fusheng]
+    - h: “无产阶级派性就是党性”
+      from: 1967-12
+      to: 1971-06
+      text: |
+        八届十二中全会上递补为中央委员，九大上当选中央委员。地方志传记说他诬指原省委为“资产阶级司令部”“黑省委”，把原省委一些领导干部划为“苏修叛国集团”成员；提出“不断出现右倾反右倾，乃是阶级斗争的一条规律”，部署反右倾、反复旧、反复辟的“总体战”，大抓“阶级报复案件”和“翻案集团”，造成大批冤假错案；他认为“无产阶级派性就是党性”，支持一派、压另一派，武斗不止。
+      cites: [hljxxw-pan-fusheng]
+    - h: 审查
+      from: 1971-06
+      to: 1982-04-23
+      text: |
+        1971 年 6 月中央免除他的职务，审查他在文革中所犯的错误。1980 年 4 月 29 日因脑溢血在哈尔滨去世，终年 72 岁。1981 年 10 月 27 日黑龙江省委作出审查结论；1982 年 4 月 23 日中央回电同意“不作组织处理”。
+      cites: [hljxxw-pan-fusheng]
+  assess:
+    - { voice: doc, text: 我们在处理两派斗争中，在重大问题上犯了严重错误。（1967 年 12 月 7 日潘复生、汪家道的检查）, cite: ccrd-1967-12-07-pan-fusheng, quote: true }
+    - { voice: officialLater, text: 潘复生在“文化大革命”时间，确实迫害了一些领导干部和群众，造成一些冤假错案，错误是严重的。（1982 年 4 月 23 日中共中央回电，据黑龙江省地方志人物传）, cite: hljxxw-pan-fusheng, quote: true }
+    - { voice: editor, text: 同一个人，1958 年因“看黑暗面多”被打成右倾，1967 年成为全国第一个省级革命委员会的负责人；黑龙江的地方志传记对这两段都写得很直白。, cite: hljxxw-pan-fusheng }
+  factions: [provincial]
+  fate:
+    - { date: 1958-05, s: purged, note: 八大二次会议上被批右倾，撤销河南省委第一书记, cite: hljxxw-pan-fusheng }
+    - { date: 1963-04, s: restored, note: 全国供销合作总社主任, cite: hljxxw-pan-fusheng }
+    - { date: 1966-02, s: power, note: 黑龙江省委第一书记, cite: hljxxw-pan-fusheng }
+    - { date: 1967-03, s: rise, note: 黑龙江省革命委员会主任, cite: hljxxw-pan-fusheng }
+    - { date: 1971-06, s: purged, note: 被免职审查, cite: hljxxw-pan-fusheng }
+    - { date: 1980-04-29, s: dead, cite: hljxxw-pan-fusheng }
+  cites: [hljxxw-pan-fusheng, ccrd-1967-12-07-pan-fusheng, ws-1967-red-flag-index]
+
+- id: xie-xuegong
+  name: 解学恭
+  tier: 3
+  role1966: 中共中央华北局书记处书记
+  pinyin: Xiè Xuégōng
+  gender: m
+  aka:
+    - { kind: other, name: 解学工 }
+  party: 中国共产党
+  positions:
+    - { title: 主任, orgName: 天津市革命委员会, from: 1967-12-06, to: 1978-06, cite: difangwenge-tianjin-1978, verify: true }
+    - { title: 第一书记, orgName: 中共天津市委员会, from: 1971-05, to: 1978-06, cite: difangwenge-tianjin-1978, verify: true }
+  bio: 文革前任华北局书记处书记。1967 年起主持天津，任天津市革命委员会主任，1971 年起兼市委第一书记。批林批孔中天津市委“紧紧跟上”，向江青推荐宝坻县小靳庄作她的农村“点”；江青当众把他的名字改成“解学工”。粉碎“四人帮”后被指“捂盖子”，1978 年 6 月被中央免除天津党内外一切职务，1987 年被开除党籍。
+  life:
+    - h: 天津
+      from: 1967
+      to: 1974
+      text: |
+        1967 年起主持天津市工作，12 月天津市革命委员会成立时任主任，1971 年 5 月起兼中共天津市委第一书记。
+      verify: true
+    - h: 小靳庄
+      from: 1974
+      to: 1976-10
+      text: |
+        据陈大斌回忆，“批林批孔”运动开展后，天津市委领导中的一些人“紧紧跟上”，组织研究“儒法斗争史”，以天津站为工矿的“点”；江青还要一个农村的“点”，天津市委便推荐了宝坻县林亭口公社的小靳庄大队。江青不但给小靳庄的社员改名字，还当着全村人的面对他说：“你那个‘恭’是温良恭俭让的‘恭’，是封建主义的，儒家的思想；要改成工人阶级的‘工’！”此后天津市委给江青的报告上，他真的签了“解学工”。
+      cites: [people-2014-xiaojinzhuang]
+    - h: “捂盖子”与免职
+      from: 1976-10
+      to: 1987-03
+      text: |
+        粉碎“四人帮”后，天津的揭批查因市委主要负责人“捂盖子”而“冷冷清清”。1978 年 3 月 14 日市委组织工作会议为“万张集团案”等一批假案、错案宣布平反。5 月 23 日至 6 月 6 日，中央在北京召开天津汇报会议，李先念、汪东兴主持，李先念说“中央本来希望天津市委自己解决天津问题，但至今没有很好解决”。中央决定由林乎加任天津市委第一书记、市革委会主任，免除他在天津的党内外一切职务。中央两案审理领导小组认定他犯有严重错误，1987 年 3 月中央书记处会议决定开除他的党籍。
+      cites: [difangwenge-tianjin-1978]
+  assess:
+    - { voice: witness, text: 你那个‘恭’是温良恭俭让的‘恭’，是封建主义的，儒家的思想；要改成工人阶级的‘工’！学工，向工人阶级学习嘛。（江青在小靳庄对解学恭说，据陈大斌回忆）, cite: people-2014-xiaojinzhuang, quote: true }
+    - { voice: officialLater, text: 中共中央决定:任命林乎加为天津市委第一书记、市革委会主任，免除解学恭天津市委第一书记、市革委会主任和他在天津的党内外一切职务，继续清理问题，检查错误。（1978 年 6 月，据文革与当代史研究网转录资料）, cite: difangwenge-tianjin-1978, quote: true }
+    - { voice: editor, text: 他在粉碎“四人帮”后又主持天津一年半多，直到 1978 年中央在北京专门开会才被免职；转录资料没有说明“捂盖子”具体压下了哪些案件。, cite: difangwenge-tianjin-1978 }
+  factions: [provincial]
+  fate:
+    - { date: 1967-12-06, s: rise, note: 天津市革命委员会主任, verify: true }
+    - { date: 1974, s: power, note: 向江青推荐小靳庄, cite: people-2014-xiaojinzhuang }
+    - { date: 1978-06, s: purged, note: 免除天津党内外一切职务, cite: difangwenge-tianjin-1978 }
+    - { date: 1987-03, s: purged, note: 开除党籍, cite: difangwenge-tianjin-1978 }
+  cites: [people-2014-xiaojinzhuang, difangwenge-tianjin-1978]
+
+- id: liu-jianxun
+  name: 刘建勋
+  born: 1913-10
+  died: 1983-04-23
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 中共河南省委第一书记（9 月调华北局、北京市委）
+  pinyin: Liú Jiànxūn
+  gender: m
+  birthplace: 河北沧县
+  party: 中国共产党
+  positions:
+    - { title: 第一书记, orgName: 中共广西壮族自治区委员会, from: 1957-06, to: 1961-06, cite: czmingren-liu-jianxun }
+    - { title: 第一书记, orgName: 中共河南省委员会, from: 1961-06, to: 1966-09, cite: czmingren-liu-jianxun }
+    - { title: 书记处书记, orgName: 中共中央华北局, from: 1966-09, cite: czmingren-liu-jianxun }
+    - { title: 主任, orgName: 河南省革命委员会, from: 1968-01, to: 1978-10-16, cite: czmingren-liu-jianxun }
+    - { title: 第一书记, orgName: 中共河南省委员会, from: 1970-03, to: 1978-10-16, cite: czmingren-liu-jianxun }
+  bio: 河北沧县人，1931 年入党，抗战中在太行区任县委书记、地委副书记。1949 年后任湖北省委第二书记、中央农村工作部副部长，1957 年任广西省委第一书记，1961 年任河南省委第一书记，在粮食严重困难中主持度荒。1966 年 9 月调任华北局书记处书记、北京市委常务书记，1967 年回河南任省革委会筹备小组组长，1968 年起任河南省革委会主任，1970 年再任省委第一书记。1978 年 10 月被调离，1983 年在北京去世。
+  life:
+    - h: 太行
+      from: 1913-10
+      to: 1949-10
+      text: |
+        1913 年 10 月生于河北沧县，1931 年 9 月入党。抗战爆发后到中共晋中特委工作，1938 年到太行根据地，先后任榆社、武乡县委书记，太行第三地委宣传部长、组织部长、地委副书记。
+      cites: [czmingren-liu-jianxun]
+    - h: 广西与河南
+      from: 1949-10
+      to: 1966-09
+      text: |
+        1949 年后任湖北省委副书记、第二书记，中南局秘书长兼农村工作部部长；1954 年调任中央书记处第二办公室副主任、中央农村工作部副部长。1957 年 6 月任广西省委第一书记，1958 年 5 月八大二次会议增补为候补中央委员。1961 年 6 月任河南省委第一书记。他到任时河南正面临严重的粮食困难，省委在农村实行牲畜分户喂养、田间管理分段包工到人等责任制，恢复小商小贩，向兄弟省区求援，实行“借地渡荒”。
+      cites: [czmingren-liu-jianxun]
+    - h: 北京与河南革委会
+      from: 1966-09
+      to: 1978-10
+      text: |
+        1966 年 9 月调任华北局书记处书记、北京市委常务书记，1967 年 4 月任北京市革命委员会常委。1967 年 7 月中央决定他任河南省革命委员会筹备小组组长，8 月任河南省军区第一政委；1968 年 1 月河南省革委会成立，任主任，10 月在八届十二中全会上递补为中央委员。1970 年 3 月当选河南省委第一书记，连任九、十、十一届中央委员，1975 年 8 月兼武汉军区政委。
+      cites: [czmingren-liu-jianxun]
+    - h: 调离
+      from: 1978-10
+      to: 1983-04-23
+      text: |
+        1978 年 10 月 16 日中央、中央军委通知调他到中央另行分配工作。1983 年 4 月 23 日在北京病逝。
+      cites: [czmingren-liu-jianxun]
+  assess:
+    - { voice: editor, text: 这篇传记注明图文由他的儿子提供。它详细写了 1961 年后河南度荒的措施，对 1967 年以后只列职务，没有写他在河南两派对立中支持哪一派，也没有写 1978 年为什么被调离。, cite: czmingren-liu-jianxun }
+  factions: [provincial]
+  fate:
+    - { date: 1961-06, s: power, note: 河南省委第一书记, cite: czmingren-liu-jianxun }
+    - { date: 1966-09, s: power, note: 调任华北局书记处书记、北京市委常务书记, cite: czmingren-liu-jianxun }
+    - { date: 1968-01, s: power, note: 河南省革委会主任, cite: czmingren-liu-jianxun }
+    - { date: 1978-10-16, s: sidelined, note: 调离河南, cite: czmingren-liu-jianxun }
+    - { date: 1983-04-23, s: dead, cite: czmingren-liu-jianxun }
+  cites: [czmingren-liu-jianxun]

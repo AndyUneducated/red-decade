@@ -1,0 +1,234 @@
+# M3 人物第 21 批（地方二）：叶飞、韩先楚、江渭清、谭启龙、王恩茂、卫恒、王效禹、潘复生、解学恭、刘建勋。
+# tools/fetch-web.ts。未满 50 年的网页只保留 keep 段落。
+# 未收：青岛史志网《王效禹》（原站与 Wayback 均对脚本返回 403/404）、光明网 2000-06-24 江渭清讣告（跳转页）、
+# 人民网 2013 谭启龙纪念文与中新网 2013 王恩茂文（分页，只取到首页）、禁书网刘建勋 1962 年报告（403/429）。
+web:
+  - id: rmrb-1999-04-29-ye-fei
+    title: 叶飞同志生平
+    date: 1999-04-29
+    author: 新华社
+    kind: obituary
+    alias: 新华社《叶飞同志生平》
+    url: https://cn.govopendata.com/renminribao/1999/04/29/4/
+    via: 《人民日报》1999-04-29 第 4 版（govopendata 转录）
+    article: 叶飞同志生平
+    excerpt: true
+    keep:
+      - 中国共产党的优秀党员，久经考验
+      - 叶飞同志，原名叶启亨
+      - 中华人民共和国成立后，叶飞同志历任
+      - “文化大革命”期间，叶飞同志
+      - 1979年2月，叶飞同志
+      - 1983年3月
+      - 叶飞同志1955年被授予
+  - id: rmrb-1986-10-12-han-xianchu
+    title: 韩先楚同志生平
+    date: 1986-10-12
+    author: 新华社
+    kind: obituary
+    alias: 新华社《韩先楚同志生平》
+    url: https://cn.govopendata.com/renminribao/1986/10/12/4/
+    via: 《人民日报》1986-10-12 第 4 版（govopendata 转录）
+    article: 韩先楚同志生平
+    excerpt: true
+    keep:
+      - 我党久经考验
+      - 韩先楚同志是湖北省红安县人
+      - 1950年冬
+      - 十年动乱中
+      - 韩先楚同志是第一届全国政协代表
+  - id: xhrb-2015-07-09-jiang-weiqing
+    title: 转战江南立奇功——江渭清
+    date: 2015-07-09
+    author: 李明龙、陈生富
+    kind: bio
+    alias: 《新华日报》《转战江南立奇功——江渭清》（2015）
+    url: http://dangshi.people.com.cn/n/2015/0709/c85037-27277452.html
+    via: 人民网党史频道转载《新华日报》2015-07-09
+    excerpt: true
+    keep:
+      - 江渭清，1910年11月出生于
+      - 解放战争中，江渭清任
+  - id: ccrd-1967-01-22-jiang-weiqing
+    title: 江渭清发给毛泽东的认罪电报
+    date: 1967-01-22
+    author: 江渭清
+    kind: letter
+    alias: 1967 年 1 月 22 日江渭清给毛泽东、中央、华东局的电报
+    url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/3/000049.htm
+    via: 《中国文化大革命文库》（CCRD）GitHub 镜像
+    note: 文库注出处为南京大学红色造反队《农奴戟》第十九期（1967-03-08）。
+    start: 主席、中央、华东局
+    end: 江渭清 一月二十二日
+  - id: marxists-1967-zhang-chunqiao-jiangsu
+    title: 张春桥姚文元杜平对江苏和南京地区无产阶级革命派的讲话
+    date: 1967-05-14
+    author: 张春桥、姚文元、杜平
+    kind: speech
+    alias: 张春桥、姚文元、杜平对江苏和南京地区革命派的讲话（1967 年 5 月 14 日）
+    url: https://www.marxists.org/chinese/reference-books/chineserevolution/zhangchunqiao/31-60/50.htm
+    via: 马克思主义文库“张春桥文集”
+    excerpt: true
+    keep:
+      - 我们江苏地区和全国一样
+      - 我现在提一个问题，在这里今天不要求你们马上答复
+      - 江渭清在北京
+  - id: rmrb-2003-02-06-tan-qilong
+    title: 谭启龙同志逝世
+    date: 2003-02-06
+    author: 新华社
+    kind: obituary
+    alias: 新华社《谭启龙同志逝世》
+    url: https://cn.govopendata.com/renminribao/2003/02/06/4/
+    via: 《人民日报》2003-02-06 第 4 版（govopendata 转录）
+    article: 谭启龙同志逝世
+    excerpt: true
+    keep:
+      - 新华社北京2月5日电
+      - 谭启龙出生于
+      - 谭启龙是中国共产党
+  - id: cppcc-wang-enmao
+    title: 王恩茂（1913—2001）
+    date: 2011-09-28
+    author: 全国政协
+    kind: bio
+    alias: 全国政协网《王恩茂（1913—2001）》
+    url: http://www.cppcc.gov.cn/2011/09/28/ARTI1317197330265223.shtml
+    via: 中国政协网“历届领导人”
+    start: 中国人民政治协商会议第六、七届全国委员会副主席。
+    end: 于2001年4月12日逝世。
+    excerpt: true
+    keep:
+      - 中国人民政治协商会议第六、七届
+      - 江西永新人
+      - 解放以后，历任
+      - 1955年授予
+      - 于2001年4月12日逝世
+  - id: rmrb-1986-01-26-wei-heng
+    title: 一片丹心照三晋——怀念卫恒同志
+    date: 1986-01-26
+    author: 郭钦安、卫逢祺、白清才、刘贯文、李玉明
+    kind: memoir
+    alias: 郭钦安等《一片丹心照三晋——怀念卫恒同志》
+    url: https://cn.govopendata.com/renminribao/1986/01/26/5/
+    via: 《人民日报》1986-01-26 第 5 版（govopendata 转录）
+    article: 一片丹心照三晋
+    excerpt: true
+    keep:
+      - 十九年了
+      - 1985年6月，中共山西省委
+      - 深知卫恒的薄一波同志
+      - 1966年11月
+      - 1967年1月10日
+      - 被造反派头头们自吹
+      - “五人大字报”蛊惑起来
+      - 1月15日之后
+  - id: lczf-wei-heng
+    title: 卫恒
+    date: 2008-11-24
+    author: 陵川县人民政府
+    kind: bio
+    alias: 陵川县政府网《卫恒》
+    url: https://www.lczf.gov.cn/txlc_5/lcyx_680/lcmr_683/200811/t20081124_1149097.shtml
+    via: 陵川县人民政府网“陵川名人”
+    start: 卫恒（1915－1967）
+    end: 重新为卫恒彻底平反。
+    excerpt: true
+    keep:
+      - 卫恒（1915－1967）
+      - 1938年1月，卫恒毅然
+      - 1979年1月，中共山西省委
+  - id: sdcg-shandong-rgw
+    title: 五、山东省革命委员会(1967.2.3-1977.12.14)
+    date: 2020
+    author: 山东省地方史志研究院
+    kind: bio
+    alias: 山东地情档案“政权库”《山东省革命委员会(1967.2.3-1977.12.14)》
+    url: https://shandong-chorography.org/database/a/section/12/article/98/
+    via: 山东地情档案·政权库
+    start: 王效禹(1967.5-1971.3)
+    end: 白如冰(1974.11-1977.12)
+    excerpt: true
+    keep:
+      - 王效禹(1967.5-1971.3)
+      - 杨得志(1971.3-1974.11)
+      - 白如冰(1974.11-1977.12)
+  - id: hljxxw-pan-fusheng
+    title: 新中国人物志——潘复生
+    date: 2011-05-20
+    author: 黑龙江省地方志办公室
+    kind: bio
+    alias: 黑龙江省情网《新中国人物志——潘复生》
+    url: https://web.archive.org/web/20140914155027id_/http://www.hljxxw.gov.cn/sqgl/mrfc/t20110520_550325.htm
+    via: 黑龙江省情信息网（Wayback 2014-09-14）
+    start: 潘复生，原名刘开浚
+    end: 不作组织处理的意见。
+    excerpt: true
+    keep:
+      - 潘复生，原名刘开浚
+      - 中华人民共和国成立前夕，潘复生
+      - 在农业合作化高潮中
+      - 1956年9月，在中国共产党第八次全国代表大会上
+      - 1963年4月潘复生调任
+      - 1966年2月，潘复生调任
+      - 潘复生诬指原省委
+      - 1971年6月，中共中央免除
+      - 1981年10月27日
+  - id: ccrd-1967-12-07-pan-fusheng
+    title: 潘复生、汪家道的检查
+    date: 1967-12-07
+    author: 潘复生、汪家道
+    kind: letter
+    alias: 1967 年 12 月 7 日潘复生、汪家道给毛泽东、林彪、中央的检查
+    url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/3/000041.htm
+    via: 《中国文化大革命文库》（CCRD）GitHub 镜像
+    note: 中共中央 1967 年 12 月 22 日以中发〔67〕396 号转发并批示。
+    start: 毛主席、林副主席、中央
+    end: 一九六七年十二月七日
+  - id: difangwenge-tianjin-1978
+    title: 文革后各省、市、自治区的揭批查和拨乱反正（天津市）
+    date: 2010-06-20
+    author: 纵横中国
+    kind: article
+    alias: 文革与当代史研究网《文革后各省、市、自治区的揭批查和拨乱反正（天津市）》
+    url: https://difangwenge.org/forum.php?mod=viewthread&tid=3444
+    via: 文革与当代史研究网论坛帖
+    excerpt: true
+    keep:
+      - 粉碎“四人帮”后，天津市
+      - 1978年3月14日
+      - 5月23日至6月6日
+      - 从1978年6月开始
+  - id: people-2014-xiaojinzhuang
+    title: 亲历江青在小靳庄的一场闹剧
+    date: 2014-01-07
+    author: 陈大斌
+    kind: memoir
+    alias: 陈大斌《亲历江青在小靳庄的一场闹剧》
+    url: http://dangshi.people.com.cn/n/2014/0107/c85037-24044889-2.html
+    via: 人民网党史频道（第 2 页）
+    excerpt: true
+    keep:
+      - 自“批林批孔”运动开展起来之后
+      - 在抓天津站这个“点”的同时
+      - 江青不仅给男女社员改名字
+  - id: czmingren-liu-jianxun
+    title: 刘建勋：河南省委第一书记
+    date: 2011-04-03
+    author: 常青藤
+    kind: bio
+    alias: 沧州名人网《刘建勋：河南省委第一书记》
+    url: https://web.archive.org/web/20121101104040id_/http://www.czmingren.net/Article/ShowArticle.asp?ArticleID=1505
+    via: 沧州名人网（Wayback 2012-11-01；网站注明图文由刘建勋之子刘立强提供）
+    start: 刘建勋1913年10月出生
+    end: 刘建勋在北京病逝。
+    excerpt: true
+    keep:
+      - 刘建勋1913年10月出生
+      - 刘建勋于1931年9月
+      - 中华人民共和国成立后，刘建勋先后任
+      - 1957年6月，中共中央任命刘建勋
+      - 刘建勋到河南时
+      - 1966年9月，中共中央调刘建勋
+      - 1978年10月16日
+      - 1983年4月23日

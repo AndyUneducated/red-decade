@@ -253,6 +253,13 @@ guo-moruo:
   date: 摄于1940年代至1960年代
 han-aijing:
   why: no Wikidata item with matching birth year
+han-xianchu:
+  qid: Q5646706
+  file: Hanxianchu.jpg
+  url: https://commons.wikimedia.org/wiki/File:Hanxianchu.jpg
+  author: chinese government
+  license: Public domain
+  date: "1955"
 he-long:
   qid: Q700713
   file: He Long.jpg
@@ -354,6 +361,13 @@ jiang-qing:
 jiang-tengjiao:
   qid: Q8327119
   why: Wikidata item has no image (P18)
+jiang-weiqing:
+  qid: Q6766407
+  file: 江渭清.jpg
+  url: https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E6%B8%AD%E6%B8%85.jpg
+  author: 政協秘書處
+  license: Public domain
+  date: "1949"
 jiang-zemin:
   qid: Q16597
   file: Jiang Zemin 2002.jpg
@@ -508,6 +522,9 @@ liu-bocheng:
 liu-feng:
   qid: Q8294575
   why: Wikidata item has no image (P18)
+liu-jianxun:
+  qid: Q8295263
+  why: Wikidata item has no image (P18)
 liu-jieting:
   qid: Q8294678
   why: Wikidata item has no image (P18)
@@ -611,6 +628,13 @@ nie-rongzhen:
 nie-yuanzi:
   qid: Q463089
   why: Wikidata item has no image (P18)
+pan-fusheng:
+  qid: Q8293157
+  file: Pan Fusheng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Pan_Fusheng.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: 1950s
 pan-guoping:
   qid: Q133894367
   why: Wikidata item has no image (P18)
@@ -773,6 +797,8 @@ wang-dongxing:
   author: People's Liberation Army
   license: Public domain
   date: "1955"
+wang-enmao:
+  why: no Wikidata item with matching birth year
 wang-fei:
   why: no Wikidata item with matching birth year
 wang-guangmei:
@@ -831,6 +857,13 @@ wei-guoqing:
   author: 中国人民解放军
   license: Public domain
   date: "1955"
+wei-heng:
+  qid: Q10910262
+  file: Wei Heng.jpg
+  url: https://commons.wikimedia.org/wiki/File:Wei_Heng.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: circa 1960
 wei-jingsheng:
   qid: Q318130
   file: Wei Jingsheng par Claude Truong-Ngoc novembre 2013.jpg
@@ -1004,6 +1037,13 @@ yao-yilin:
 yao-zhen:
   qid: Q8296454
   why: Wikidata item has no image (P18)
+ye-fei:
+  qid: Q699398
+  file: Ye Fei.jpg
+  url: https://commons.wikimedia.org/wiki/File:Ye_Fei.jpg
+  author: 中国人民解放军
+  license: Public domain
+  date: "1955"
 ye-jianying:
   qid: Q504372
   file: Ye Jianying.jpg

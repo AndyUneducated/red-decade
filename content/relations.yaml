@@ -216,3 +216,14 @@
 - { a: xie-jingyi, b: feng-youlan, type: subordinate, from: 1973, note: 两校大批判组“梁效”负责人之一，他任顾问；1971 年曾登门转达毛泽东问候, cite: aisixiang-chen-xiaoping-liang-feng }
 - { a: chi-qun, b: feng-youlan, type: subordinate, from: 1973, note: 两校大批判组“梁效”负责人之一，他任顾问, cite: aisixiang-chen-xiaoping-liang-feng }
 - { a: liang-shuming, b: feng-youlan, type: link, from: 1985-12, note: 来信说他“曾谄媚江青”，读过《三松堂自序》后见面, cite: aisixiang-chen-xiaoping-liang-feng }
+# batch 21
+- { a: zhang-chunqiao, b: wang-xiaoyu, type: patron, from: 1967-05, note: 在济南对他说“你有力量，我就支持你”，事后祝贺武斗“打了一个胜仗”, cite: ws-1980-indictment }
+- { a: yao-wenyuan, b: wang-xiaoyu, type: patron, from: 1967-05, note: 在济南参与支持他制造省革委会大院武斗事件, cite: ws-1981-01-25-judgment }
+- { a: zhou-enlai, b: jiang-weiqing, type: link, from: 1967-05, note: 写信问张春桥、姚文元：江苏有人要求揪他回南京开斗争会，是否适宜, cite: marxists-1967-zhang-chunqiao-jiangsu }
+- { a: zhang-chunqiao, b: jiang-weiqing, type: attack, from: 1967-05-14, note: 在南京讲话中认为揪他回来开斗争会“不是时候”，号召两派“共同来批判江渭清”, cite: marxists-1967-zhang-chunqiao-jiangsu }
+- { a: kang-sheng, b: wei-heng, type: persecute, from: 1966, note: 陵川县志条目说他“被林彪、康生以及江青一伙迫害”, cite: lczf-wei-heng }
+- { a: bo-yibo, b: wei-heng, type: link, from: 1985-06, note: 在山西省委彻底平反决定上批注“十八载奇冤大案，终于得到昭雪”, cite: rmrb-1986-01-26-wei-heng }
+- { a: mao-zedong, b: pan-fusheng, type: attack, from: 1957, note: 在青岛省市委书记会议上批评他“看黑暗面多”, cite: hljxxw-pan-fusheng }
+- { a: jiang-qing, b: xie-xuegong, type: link, from: 1974, note: 天津市委向她推荐小靳庄作农村“点”；她当众把他的名字改成“解学工”, cite: people-2014-xiaojinzhuang }
+- { a: li-xiannian, b: xie-xuegong, type: attack, from: 1978-05-23, note: 主持天津汇报会议，中央决定免除他在天津的一切职务, cite: difangwenge-tianjin-1978 }
+- { a: pan-fusheng, b: wang-xiaoyu, type: link, from: 1967-03-30, note: 文章同期刊登于《红旗》1967 年第 5 期，两人都是率先“夺权”的省级负责人, cite: ws-1967-red-flag-index }

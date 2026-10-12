@@ -60,7 +60,7 @@
     - { name: 程子华, title: 书记, from: 1949-09, to: 1951 }
     - { name: 赖若愚, title: 书记, from: 1951, to: 1952 }
     - { name: 陶鲁笳, title: 书记、第一书记, from: 1952, to: 1965 }
-    - { name: 卫恒, title: 第一书记, from: 1965, to: 1967-01-29 }
+    - { name: 卫恒, title: 第一书记, from: 1965-06, to: 1967-01-30 }
     - { name: 谢振华, title: 第一书记, from: 1971-04, to: 1975 }
     - { name: 王谦, title: 第一书记, from: 1975, to: 1980 }
     - { name: 霍士廉, title: 第一书记、书记, from: 1980, to: 1983 }
@@ -208,7 +208,7 @@
   verify: true
   leaders:
     - { name: 欧阳钦, title: 第一书记, from: 1954-08, to: 1966 }
-    - { name: 潘复生, title: 第一书记, from: 1966, to: 1967-01-31 }
+    - { name: 潘复生, title: 第一书记, from: 1966-02, to: 1967-01-31 }
     - { name: 汪家道, title: 第一书记, from: 1971-06, to: 1974 }
     - { name: 刘光涛, title: 第一书记, from: 1974, to: 1977-12 }
     - { name: 杨易辰, title: 第一书记, from: 1977-12, to: 1983-06 }
@@ -224,10 +224,10 @@
   to: 1979-12
   places: [{ at: harbin }]
   links: [{ org: hlj-committee, kind: takeover, date: 1967-01-31, verify: true }]
-  summary: 全国第一个省级革命委员会，1967 年 1 月 31 日成立，潘复生任主任，《人民日报》发社论《东北的新曙光》。
+  summary: 全国第一个省级革命委员会，1967 年 1 月 31 日成立（初称黑龙江省红色造反者革命委员会，潘复生任顾问），《人民日报》发社论《东北的新曙光》；3 月潘复生被任命为主任。
   verify: true
   leaders:
-    - { name: 潘复生, title: 主任, from: 1967-01-31, to: 1971-06 }
+    - { name: 潘复生, title: 主任, from: 1967-03, to: 1971-06 }
     - { name: 汪家道, title: 主任, from: 1971-06, to: 1974 }
     - { name: 刘光涛, title: 主任, from: 1974, to: 1977-12 }
     - { name: 杨易辰, title: 主任, from: 1977-12, to: 1979-12 }
@@ -697,8 +697,8 @@
     - { name: 张玺, title: 书记, from: 1949-05, to: 1952 }
     - { name: 潘复生, title: 书记、第一书记, from: 1952, to: 1958 }
     - { name: 吴芝圃, title: 第一书记, from: 1958, to: 1961 }
-    - { name: 刘建勋, title: 第一书记, from: 1961, to: 1967 }
-    - { name: 刘建勋, title: 第一书记, from: 1971, to: 1978-10 }
+    - { name: 刘建勋, title: 第一书记, from: 1961-06, to: 1966-09 }
+    - { name: 刘建勋, title: 第一书记, from: 1970-03, to: 1978-10 }
     - { name: 段君毅, title: 第一书记, from: 1978-10, to: 1981 }
     - { name: 刘杰, title: 第一书记、书记, from: 1981, to: 1985 }
     - { name: 杨析综, title: 书记, from: 1985 }

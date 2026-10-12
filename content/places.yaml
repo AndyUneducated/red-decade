@@ -233,6 +233,12 @@
 - { id: jintan, name: 江苏金坛, names: [金坛], lat: 31.74, lon: 119.57 }
 - { id: tanghe, name: 河南唐河, names: [唐河], lat: 32.68, lon: 112.83 }
 - { id: tokyo, name: 日本东京, names: [东京], lat: 35.68, lon: 139.69, far: true }
+# batch 21
+- { id: yongxin, name: 江西永新, names: [永新], lat: 26.94, lon: 114.24 }
+- { id: nanan, name: 福建南安, names: [南安], lat: 24.96, lon: 118.39 }
+- { id: cangxian, name: 河北沧县, names: [沧县], lat: 38.30, lon: 116.87 }
+- { id: wendeng, name: 山东文登, names: [文登], lat: 37.19, lon: 122.06 }
+- { id: quezon, name: 菲律宾奎松省, names: [奎松], lat: 14.03, lon: 121.92, far: true }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
