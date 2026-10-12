@@ -256,6 +256,12 @@
 - { id: zhuhai, name: 珠海, names: [珠海], lat: 22.27, lon: 113.58 }
 - { id: shantou, name: 汕头, names: [汕头], lat: 23.35, lon: 116.68 }
 - { id: haikou, name: 海口, names: [海口], lat: 20.04, lon: 110.34 }
+# org expansion O5
+- { id: fushun, name: 抚顺, names: [抚顺], lat: 41.88, lon: 123.96 }
+- { id: xixian, name: 息县, names: [息县], lat: 32.34, lon: 114.74 }
+- { id: jiuquan, name: 酒泉, names: [酒泉], lat: 39.73, lon: 98.49 }
+- { id: shiyan, name: 十堰, names: [十堰], lat: 32.63, lon: 110.80 }
+- { id: panzhihua, name: 攀枝花, names: [攀枝花, 渡口], lat: 26.58, lon: 101.72 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

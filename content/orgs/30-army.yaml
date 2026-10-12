@@ -634,3 +634,115 @@
   verify: true
   leaders:
     - { name: 刘伯承, title: 院长（后兼政治委员）, from: 1951-01, to: 1957-09 }
+
+# ── org expansion O5: more military bodies ──
+- id: south-china-mr
+  name: 华南军区
+  aliases: [华南军区]
+  kind: army
+  level: provincial
+  from: 1949-12
+  to: 1955-04
+  under: [{ org: pla }]
+  places: [{ at: guangzhou }]
+  summary: 1949 年底由第四野战军第十五兵团等部组成，辖广东、广西，1955 年改为广州军区。
+  verify: true
+  leaders:
+    - { name: 叶剑英, title: 司令员, from: 1949-12, to: 1955-04, note: 止点待核 }
+
+- id: nmg-mr
+  name: 内蒙古军区
+  aliases: [内蒙古军区]
+  kind: army
+  level: provincial
+  under: [{ org: pla }]
+  places: [{ at: hohhot }]
+  summary: 乌兰夫长期兼任司令员、政治委员。1966 年他被打倒后，1967 年 4 月中央处理内蒙问题，派北京军区副司令员滕海清主持军区工作，并对公安机关实行军管。
+  verify: true
+  leaders:
+    - { name: 乌兰夫, title: 司令员兼政治委员, from: 1947, to: 1966-08, note: 起止待核 }
+    - { name: 滕海清, title: 主持工作, from: 1967-04, to: 1971, note: 时任北京军区副司令员 }
+
+- id: jx-md
+  name: 江西省军区
+  aliases: [江西省军区, 江西军区]
+  kind: army
+  level: provincial
+  under: [{ org: fuzhou-mr }]
+  places: [{ at: nanchang }]
+  summary: 1967 年 8 月 10 日中共中央关于处理江西问题的决定批评原军区领导“支持了保守派，镇压了革命派”，改组军区，由第二十六军政委程世清任政治委员。
+  verify: true
+  leaders:
+    - { name: 程世清, title: 政治委员, from: 1967-08, to: 1971-10, note: 止点待核 }
+
+- id: xizang-mr
+  name: 西藏军区
+  aliases: [西藏军区]
+  kind: army
+  level: provincial
+  from: 1952-02
+  under: [{ org: pla }]
+  places: [{ at: lhasa }]
+  summary: 1952 年由进藏的第十八军组建，张国华任司令员。1959 年 3 月拉萨事件后负责平叛。
+  verify: true
+  leaders:
+    - { name: 张国华, title: 司令员, from: 1952-02, to: 1967, note: 止点待核 }
+
+- id: pap
+  name: 中国人民武装警察部队
+  short: 武警部队
+  aliases: [中国人民武装警察部队, 武警部队, 武警]
+  kind: army
+  level: central
+  from: 1983-04
+  places: [{ at: beijing }]
+  summary: 1983 年由解放军担负内卫任务的部队与公安部门的武装、边防、消防民警合编，受国务院、中央军委双重领导。
+  verify: true
+
+- id: army-27
+  name: 中国人民解放军第二十七军
+  short: 二十七军
+  aliases: [中国人民解放军第二十七军, 第二十七军, 二十七军]
+  kind: army
+  level: basic
+  from: 1949-02
+  under: [{ org: field-3, to: 1950 }]
+  places: [{ at: shijiazhuang }]
+  summary: 前身华东野战军第九纵队，朝鲜战争中参加长津湖战役。1989 年 5 月奉命参加北京戒严。
+  verify: true
+
+- id: airborne-15
+  name: 中国人民解放军空降兵第十五军
+  short: 空降兵十五军
+  aliases: [空降兵第十五军, 空降兵十五军, 第十五军]
+  kind: army
+  level: basic
+  from: 1949-02
+  under: [{ org: air-force, from: 1961 }]
+  places: [{ at: wuhan }]
+  summary: 前身第二野战军第十五军，朝鲜战争中打了上甘岭战役，1961 年改编为空降兵。1989 年 5 月奉命参加北京戒严。
+  verify: true
+
+- id: pla-301
+  name: 中国人民解放军总医院
+  short: 三〇一医院
+  aliases: [中国人民解放军总医院, 解放军总医院, 三〇一医院, 301 医院]
+  kind: army
+  level: central
+  from: 1953
+  under: [{ org: logistics }]
+  places: [{ at: beijing }]
+  summary: 1953 年筹建的军队最高医疗机构，许多中央领导人在此住院和去世。
+  verify: true
+
+- id: bayi-film
+  name: 八一电影制片厂
+  short: 八一厂
+  aliases: [八一电影制片厂, 八一厂, 解放军电影制片厂]
+  kind: army
+  level: central
+  from: 1952-08
+  under: [{ org: general-political }]
+  places: [{ at: beijing }]
+  summary: 1952 年成立解放军电影制片厂，1956 年改今名。文革中拍摄样板戏影片和《闪闪的红星》等。
+  verify: true

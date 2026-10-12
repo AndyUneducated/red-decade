@@ -1411,3 +1411,275 @@
   places: [{ at: beijing }]
   summary: 总政治部主办的文学刊物。
   verify: true
+
+# ── org expansion O5: prisons and cadre schools ──
+- id: qincheng
+  name: 秦城监狱
+  aliases: [秦城监狱, 秦城]
+  kind: state
+  level: central
+  from: 1960
+  under: [{ org: public-security }]
+  places: [{ at: beijing }]
+  summary: 公安部直属监狱，1960 年在北京昌平建成，关押高级政治犯。文革中大批中央和地方干部在此关押，王光美、薄一波等都在其中；1976 年 10 月后“四人帮”也羁押于此。
+  verify: true
+
+- id: gongdelin
+  name: 功德林战犯管理所
+  aliases: [功德林战犯管理所, 北京战犯管理所, 功德林]
+  kind: state
+  level: central
+  from: 1949
+  under: [{ org: public-security }]
+  places: [{ at: beijing }]
+  summary: 关押国民党高级将领战犯。1959 年 12 月首批特赦中有杜聿明、王耀武、宋希濂等。
+  verify: true
+
+- id: fushun-wcmc
+  name: 抚顺战犯管理所
+  aliases: [抚顺战犯管理所]
+  kind: state
+  level: provincial
+  from: 1950-07
+  under: [{ org: public-security }]
+  places: [{ at: fushun }]
+  summary: 1950 年 7 月接收苏联移交的日本战犯和伪满洲国皇帝溥仪等人。1956 年审判后大部分日本战犯获释回国，溥仪 1959 年 12 月获特赦。
+  verify: true
+
+- id: jiabiangou
+  name: 夹边沟农场
+  aliases: [夹边沟农场, 夹边沟劳教农场, 夹边沟]
+  kind: state
+  level: basic
+  from: 1957
+  to: 1961
+  places: [{ at: jiuquan }]
+  summary: 甘肃省的劳动教养农场，1957 年起收容大批右派。1960 年饥荒中劳教人员大量饿死，年底残存者转到高台明水，1961 年遣散。
+  verify: true
+
+- id: xixian-57
+  name: 学部息县五七干校
+  aliases: [学部息县五七干校, 学部五七干校, 息县五七干校, 息县干校]
+  kind: unit
+  level: basic
+  from: 1969-11
+  to: 1972
+  under: [{ org: cas }]
+  places: [{ at: xixian }]
+  summary: 1969 年 11 月中国科学院哲学社会科学部各所人员下放河南息县，1971 年迁到明港，1972 年陆续回京。顾准、钱锺书、杨绛都在此劳动，杨绛后来写成《干校六记》。
+  verify: true
+
+- id: xianning-57
+  name: 文化部咸宁五七干校
+  aliases: [文化部咸宁五七干校, 咸宁五七干校, 向阳湖五七干校, 咸宁干校]
+  kind: unit
+  level: basic
+  from: 1969-09
+  places: [{ at: xianning }]
+  summary: 1969 年起文化部系统和作家协会的人员下放湖北咸宁向阳湖围湖造田，冯雪峰、沈从文等都在此劳动。
+  verify: true
+
+- id: xinjian-factory
+  name: 新建县拖拉机修造厂
+  aliases: [新建县拖拉机修造厂, 拖拉机修造厂]
+  kind: unit
+  level: basic
+  places: [{ at: nanchang-xinjian }]
+  summary: 江西南昌新建县的小厂。1969 年 10 月至 1973 年 2 月邓小平下放江西期间，每天到这里当钳工劳动。
+  verify: true
+
+# ── org expansion O5: broadcasting, film, theatre, museums ──
+- id: cnr
+  name: 中央人民广播电台
+  aliases: [中央人民广播电台, 延安新华广播电台, 中央台]
+  kind: unit
+  level: central
+  from: 1940-12
+  under: [{ org: broadcast-admin, from: 1949 }]
+  places: [{ at: yanan, to: 1947 }, { at: beijing, from: 1949 }]
+  summary: 前身是 1940 年 12 月开播的延安新华广播电台，1949 年 12 月改名中央人民广播电台。文革中播发“两报一刊”社论和中央文件，是全国传达“最新指示”的主要渠道。
+  verify: true
+
+- id: cctv
+  name: 中央电视台
+  aliases: [中央电视台, 北京电视台]
+  kind: unit
+  level: central
+  from: 1958-05
+  under: [{ org: broadcast-admin }]
+  places: [{ at: beijing }]
+  summary: 1958 年 5 月以北京电视台名义试播，1978 年 5 月改名中央电视台。1988 年播出政论片《河殇》。
+  verify: true
+
+- id: bj-film
+  name: 北京电影制片厂
+  short: 北影
+  aliases: [北京电影制片厂, 北影厂, 北影]
+  kind: unit
+  level: central
+  from: 1949-04
+  places: [{ at: beijing }]
+  summary: 1949 年 4 月成立。文革中拍摄《智取威虎山》《红色娘子军》等样板戏影片。
+  verify: true
+
+- id: cc-film
+  name: 长春电影制片厂
+  short: 长影
+  aliases: [长春电影制片厂, 长影, 东北电影制片厂]
+  kind: unit
+  level: central
+  from: 1945-10
+  places: [{ at: changchun }]
+  summary: 前身是 1945 年在长春接收伪满“满映”建立的东北电影公司，1955 年改今名，新中国许多早期故事片在此拍摄。
+  verify: true
+
+- id: china-jingju
+  name: 中国京剧院
+  aliases: [中国京剧院]
+  kind: unit
+  level: central
+  from: 1955-01
+  places: [{ at: beijing }]
+  summary: 1955 年成立，梅兰芳任首任院长。1964 年起改编演出现代京剧《红灯记》，后被定为样板戏。
+  verify: true
+  leaders:
+    - { name: 梅兰芳, title: 院长, from: 1955-01, to: 1961-08-08 }
+
+- id: bj-jingju
+  name: 北京京剧团
+  aliases: [北京京剧团, 北京京剧院]
+  kind: unit
+  level: provincial
+  from: 1955
+  places: [{ at: beijing }]
+  summary: 马连良、谭富英、裘盛戎等名角组成的剧团，演出现代京剧《沙家浜》，后被定为样板戏。马连良 1966 年 12 月在批斗中去世。
+  verify: true
+  leaders:
+    - { name: 马连良, title: 团长, from: 1955, to: 1966-12-16 }
+
+- id: central-ballet
+  name: 中央芭蕾舞团
+  aliases: [中央芭蕾舞团, 北京舞蹈学校实验芭蕾舞团]
+  kind: unit
+  level: central
+  from: 1959-12
+  places: [{ at: beijing }]
+  summary: 1959 年由北京舞蹈学校实验芭蕾舞团组建，1964 年首演芭蕾舞剧《红色娘子军》，后被定为样板戏。
+  verify: true
+
+- id: sh-dance-school
+  name: 上海市舞蹈学校
+  aliases: [上海市舞蹈学校, 上海舞蹈学校]
+  kind: unit
+  level: provincial
+  from: 1960
+  places: [{ at: shanghai }]
+  summary: 1965 年演出芭蕾舞剧《白毛女》，后被定为样板戏。
+  verify: true
+
+- id: palace-museum
+  name: 故宫博物院
+  aliases: [故宫博物院, 故宫]
+  kind: unit
+  level: central
+  from: 1925-10
+  suspended: [{ from: 1966-08, to: 1971-07, note: 闭馆 }]
+  places: [{ at: beijing }]
+  summary: 1966 年 8 月破“四旧”时周恩来下令关闭并派部队守护，1971 年 7 月重新开放。
+  verify: true
+  leaders:
+    - { name: 吴仲超, title: 院长, from: 1954, to: 1984 }
+
+- id: nlc
+  name: 北京图书馆
+  aliases: [北京图书馆, 京师图书馆, 国立北平图书馆]
+  kind: unit
+  level: central
+  from: 1909
+  places: [{ at: beijing }]
+  summary: 前身是 1909 年筹建的京师图书馆，1950 年代称北京图书馆，1987 年新馆落成，1998 年改名国家图书馆。
+  verify: true
+
+# ── org expansion O5: plants and 1980s think tanks ──
+- id: shougang
+  name: 首都钢铁公司
+  short: 首钢
+  aliases: [首都钢铁公司, 首钢, 石景山钢铁厂]
+  kind: unit
+  level: provincial
+  from: 1919
+  places: [{ at: beijing }]
+  summary: 前身是 1919 年的石景山钢铁厂。1981 年起实行利润包干，成为 1980 年代国企承包制的样板，周冠五长期主持。
+  verify: true
+
+- id: dongfeng
+  name: 第二汽车制造厂
+  short: 二汽
+  aliases: [第二汽车制造厂, 二汽, 东风汽车公司]
+  kind: unit
+  level: central
+  from: 1969
+  places: [{ at: shiyan }]
+  summary: 三线建设项目，1969 年在湖北十堰大规模开工，生产“东风”牌卡车。
+  verify: true
+
+- id: pangang
+  name: 攀枝花钢铁公司
+  short: 攀钢
+  aliases: [攀枝花钢铁公司, 攀钢]
+  kind: unit
+  level: central
+  from: 1965
+  places: [{ at: panzhihua }]
+  summary: 三线建设的核心项目，1965 年开工，1970 年出铁。
+  verify: true
+
+- id: baosteel
+  name: 上海宝山钢铁总厂
+  short: 宝钢
+  aliases: [上海宝山钢铁总厂, 宝山钢铁总厂, 宝钢]
+  kind: unit
+  level: central
+  from: 1978-12
+  places: [{ at: shanghai }]
+  summary: 1978 年 12 月三中全会期间开工，成套引进日本新日铁技术，是改革开放初期最大的引进项目，建设中因投资过大一度下马又复工。
+  verify: true
+
+- id: tigaisuo
+  name: 中国经济体制改革研究所
+  short: 体改所
+  aliases: [中国经济体制改革研究所, 体改所]
+  kind: unit
+  level: central
+  from: 1984
+  to: 1989
+  under: [{ org: reform-commission }]
+  places: [{ at: beijing }]
+  summary: 国家体改委下属的研究所，青年经济学者集中，1980 年代为赵紫阳的改革提供方案。1989 年 5 月联名发表声明，“六四”后被撤销，所长陈一谘出走。
+  verify: true
+  leaders:
+    - { name: 陈一谘, title: 所长, from: 1984, to: 1989-06 }
+
+- id: stone-group
+  name: 北京四通集团公司
+  short: 四通
+  aliases: [北京四通集团公司, 四通公司, 四通]
+  kind: unit
+  level: basic
+  from: 1984-05
+  places: [{ at: beijing }]
+  summary: 1984 年由中国科学院辞职人员创办的民营科技企业，以中文电子打字机起家。下设四通社会发展研究所，参与政治体制改革研究；1989 年总经理万润南支持学生，“六四”后出走。
+  verify: true
+  leaders:
+    - { name: 万润南, title: 总经理, from: 1984-05, to: 1989-06 }
+
+- id: bj-no4
+  name: 北京市第四中学
+  short: 北京四中
+  aliases: [北京市第四中学, 北京四中]
+  kind: unit
+  level: basic
+  from: 1907
+  places: [{ at: beijing }]
+  summary: 高干子弟集中的重点中学。1966 年 6 月高三学生上书中央要求废除高考制度，随后中央决定推迟当年高校招生。
+  verify: true
