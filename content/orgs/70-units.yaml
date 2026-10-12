@@ -681,3 +681,541 @@
   verify: true
   leaders:
     - { name: 赵九章, title: 院长, from: 1966, to: 1968-10-26 }
+
+# ── org expansion O3: universities, papers and journals, publishers, academy institutes ──
+- id: tongji
+  name: 同济大学
+  aliases: [同济大学, 同济]
+  kind: unit
+  level: basic
+  from: 1907
+  places: [{ at: shanghai }]
+  summary: 1952 年院系调整后成为以土木建筑为主的工科大学。
+  verify: true
+
+- id: ecnu
+  name: 华东师范大学
+  short: 华东师大
+  aliases: [华东师范大学, 华东师大]
+  kind: unit
+  level: basic
+  from: 1951-10
+  places: [{ at: shanghai }]
+  summary: 1951 年以大夏大学、光华大学为基础成立。1972 年与上海师范学院等校合并为上海师范大学，1980 年恢复原名。
+  verify: true
+  leaders:
+    - { name: 孟宪承, title: 校长, from: 1951-10, to: 1967-07 }
+
+- id: hit
+  name: 哈尔滨工业大学
+  short: 哈工大
+  aliases: [哈尔滨工业大学, 哈工大]
+  kind: unit
+  level: basic
+  from: 1920
+  places: [{ at: harbin }]
+  summary: 1950 年代按苏联模式办学，是全国学习苏联高等教育的重点学校。
+  verify: true
+
+- id: hmei
+  name: 中国人民解放军军事工程学院
+  short: 哈军工
+  aliases: [中国人民解放军军事工程学院, 军事工程学院, 哈军工]
+  kind: unit
+  level: central
+  from: 1953-09
+  to: 1970
+  places: [{ at: harbin }]
+  summary: 陈赓任首任院长兼政委。1966 年起主体退出军队序列，1970 年迁往长沙改为长沙工学院，后来成为国防科学技术大学。
+  verify: true
+  leaders:
+    - { name: 陈赓, title: 院长, from: 1953-09, to: 1961-03-16 }
+
+- id: jlu
+  name: 吉林大学
+  aliases: [吉林大学, 东北人民大学]
+  kind: unit
+  level: basic
+  from: 1946
+  places: [{ at: changchun }]
+  summary: 1950 年起称东北人民大学，1958 年改名吉林大学。
+  verify: true
+  leaders:
+    - { name: 匡亚明, title: 校长, from: 1955, to: 1963 }
+
+- id: sdu
+  name: 山东大学
+  aliases: [山东大学, 山大]
+  kind: unit
+  level: basic
+  from: 1901
+  places: [{ at: qingdao, to: 1958 }, { at: jinan, from: 1958 }]
+  summary: 1950 年代在青岛，1958 年迁济南。校刊《文史哲》1954 年刊出李希凡、蓝翎批评俞平伯的文章，毛泽东随后写信支持，引发全国性的《红楼梦》研究批判。
+  verify: true
+  leaders:
+    - { name: 华岗, title: 校长, from: 1951, to: 1955 }
+
+- id: tju
+  name: 天津大学
+  aliases: [天津大学, 北洋大学]
+  kind: unit
+  level: basic
+  from: 1895
+  places: [{ at: tianjin }]
+  summary: 前身北洋大学，1951 年改名天津大学。
+  verify: true
+
+- id: scu
+  name: 四川大学
+  short: 川大
+  aliases: [四川大学, 川大]
+  kind: unit
+  level: basic
+  from: 1896
+  places: [{ at: chengdu }]
+  summary: 1967 年该校的“八二六战斗团”成为成都造反派的主力之一。
+  verify: true
+
+- id: bfsu
+  name: 北京外国语学院
+  short: 北外
+  aliases: [北京外国语学院, 北外]
+  kind: unit
+  level: basic
+  from: 1941
+  places: [{ at: beijing }]
+  summary: 外交部所属院校。1967 年夏该校造反组织参与冲击外交部和“揪陈毅”。
+  verify: true
+
+- id: ustb
+  name: 北京钢铁学院
+  short: 钢院
+  aliases: [北京钢铁学院, 钢铁学院]
+  kind: unit
+  level: basic
+  from: 1952
+  places: [{ at: beijing }]
+  summary: 1952 年院系调整中以多所大学的冶金、采矿系组建。
+  verify: true
+
+- id: muc
+  name: 中央民族学院
+  aliases: [中央民族学院, 民族学院]
+  kind: unit
+  level: central
+  from: 1951-06
+  places: [{ at: beijing }]
+  summary: 培养少数民族干部和研究民族问题的学校。费孝通、潘光旦等学者在此任教，1957 年两人都被划为右派。
+  verify: true
+
+- id: cafa
+  name: 中央美术学院
+  short: 中央美院
+  aliases: [中央美术学院, 中央美院]
+  kind: unit
+  level: basic
+  from: 1950-04
+  places: [{ at: beijing }]
+  summary: 1950 年由国立北平艺专与华北大学美术系合并成立，徐悲鸿任首任院长。
+  verify: true
+  leaders:
+    - { name: 徐悲鸿, title: 院长, from: 1950-04, to: 1953-09-26 }
+
+- id: ccom
+  name: 中央音乐学院
+  aliases: [中央音乐学院]
+  kind: unit
+  level: basic
+  from: 1950-06
+  places: [{ at: tianjin, to: 1958 }, { at: beijing, from: 1958 }]
+  summary: 1950 年在天津成立，1958 年迁北京。首任院长马思聪文革初遭批斗，1967 年 1 月出走香港、转赴美国。
+  verify: true
+  leaders:
+    - { name: 马思聪, title: 院长, from: 1950-06, to: 1967-01 }
+
+- id: bfa
+  name: 北京电影学院
+  aliases: [北京电影学院]
+  kind: unit
+  level: basic
+  from: 1956
+  places: [{ at: beijing }]
+  summary: 1978 年恢复招生，这一届毕业生后来被称为“第五代”导演。
+  verify: true
+
+- id: szu
+  name: 深圳大学
+  aliases: [深圳大学]
+  kind: unit
+  level: basic
+  from: 1983
+  places: [{ at: shenzhen }]
+  summary: 1983 年在经济特区新建的大学。
+  verify: true
+
+- id: hn-normal
+  name: 湖南省立第一师范学校
+  short: 湖南一师
+  aliases: [湖南省立第一师范学校, 湖南第一师范, 湖南一师]
+  kind: unit
+  level: basic
+  from: 1903
+  places: [{ at: changsha }]
+  summary: 毛泽东 1913–1918 年在此就读。
+  verify: true
+
+- id: cyd
+  name: 中国青年报社
+  aliases: [中国青年报, 中国青年报社]
+  kind: unit
+  level: central
+  from: 1951-04
+  suspended: [{ from: 1966-08, to: 1978-10, note: 停刊 }]
+  under: [{ org: ccyl }]
+  places: [{ at: beijing }]
+  summary: 共青团中央机关报。1966 年 8 月停刊，1978 年 10 月复刊。
+  verify: true
+
+- id: workers-daily
+  name: 工人日报社
+  aliases: [工人日报, 工人日报社]
+  kind: unit
+  level: central
+  from: 1949-07
+  under: [{ org: acftu }]
+  places: [{ at: beijing }]
+  summary: 中华全国总工会机关报。
+  verify: true
+
+- id: cankao
+  name: 《参考消息》
+  aliases: [参考消息, 《参考消息》]
+  kind: unit
+  level: central
+  from: 1957-03
+  under: [{ org: xinhua }]
+  places: [{ at: beijing }]
+  summary: 新华社编辑的外电摘编，1957 年起扩大到县级干部订阅，文革中是普通读者能看到外国报道的主要渠道。
+  verify: true
+
+- id: lilun-dongtai
+  name: 《理论动态》
+  aliases: [理论动态, 《理论动态》]
+  kind: unit
+  level: central
+  from: 1977-07
+  under: [{ org: party-school }]
+  places: [{ at: beijing }]
+  summary: 胡耀邦主持中央党校时创办的内部刊物。1978 年 5 月 10 日刊出《实践是检验真理的唯一标准》，次日《光明日报》以特约评论员名义公开发表。
+  verify: true
+
+- id: xuexi-pipan
+  name: 《学习与批判》
+  aliases: [学习与批判, 《学习与批判》]
+  kind: unit
+  level: provincial
+  from: 1973-09
+  to: 1976-10
+  under: [{ org: sh-writing-group }]
+  places: [{ at: shanghai }]
+  factions: [shgang]
+  summary: 上海市委写作组主办的理论刊物，批林批孔、评《水浒》、批邓期间的主要舆论阵地之一，1976 年 10 月后停刊。
+  verify: true
+
+- id: zhaoxia
+  name: 《朝霞》
+  aliases: [朝霞, 《朝霞》]
+  kind: unit
+  level: provincial
+  from: 1974-01
+  to: 1976-10
+  under: [{ org: sh-writing-group }]
+  places: [{ at: shanghai }]
+  factions: [shgang]
+  summary: 上海市委写作组主办的文艺刊物，1976 年 10 月后停刊。
+  verify: true
+
+- id: lishi-yanjiu
+  name: 《历史研究》
+  aliases: [历史研究, 《历史研究》]
+  kind: unit
+  level: central
+  from: 1954-02
+  suspended: [{ from: 1966-06, to: 1974-12, note: 停刊 }]
+  places: [{ at: beijing }]
+  summary: 1954 年创刊的史学刊物，文革初停刊，1975 年复刊。
+  verify: true
+
+- id: wenshizhe
+  name: 《文史哲》
+  aliases: [文史哲, 《文史哲》]
+  kind: unit
+  level: basic
+  from: 1951-05
+  under: [{ org: sdu }]
+  places: [{ at: qingdao, to: 1958 }, { at: jinan, from: 1958 }]
+  summary: 山东大学主办。1954 年第 9 期刊出李希凡、蓝翎的《关于〈红楼梦简论〉及其他》。
+  verify: true
+
+- id: dushu
+  name: 《读书》
+  aliases: [读书杂志, 《读书》]
+  kind: unit
+  level: central
+  from: 1979-04
+  places: [{ at: beijing }]
+  summary: 1979 年 4 月创刊，首期发表李洪林《读书无禁区》，是 1980 年代知识界的重要刊物。
+  verify: true
+
+- id: shouhuo
+  name: 《收获》
+  aliases: [收获, 《收获》]
+  kind: unit
+  level: provincial
+  from: 1957-07
+  suspended: [{ from: 1966-06, to: 1978-12, note: 停刊 }]
+  places: [{ at: shanghai }]
+  summary: 巴金、靳以创办的大型文学双月刊，文革中停刊，1979 年复刊。
+  verify: true
+  leaders:
+    - { name: 巴金, title: 主编, from: 1957-07, to: 1966 }
+
+- id: shikan
+  name: 《诗刊》
+  aliases: [诗刊, 《诗刊》]
+  kind: unit
+  level: central
+  from: 1957-01
+  suspended: [{ from: 1965, to: 1975-12, note: 停刊 }]
+  under: [{ org: writers }]
+  places: [{ at: beijing }]
+  summary: 1957 年 1 月创刊，创刊号发表毛泽东诗词十八首。文革中停刊，1976 年 1 月复刊，首期发表毛泽东《重上井冈山》等两首词。
+  verify: true
+  leaders:
+    - { name: 臧克家, title: 主编, from: 1957-01, to: 1965 }
+
+- id: renmin-huabao
+  name: 人民画报社
+  aliases: [人民画报, 人民画报社]
+  kind: unit
+  level: central
+  from: 1950-07
+  places: [{ at: beijing }]
+  summary: 1950 年创刊的综合性画报，以多种外文版对外发行。
+  verify: true
+
+- id: bj-spring
+  name: 《北京之春》
+  aliases: [北京之春, 《北京之春》]
+  kind: popular
+  level: basic
+  from: 1979-01
+  to: 1980
+  places: [{ at: beijing }]
+  factions: [dissent]
+  summary: 西单民主墙时期的民间刊物，编者多为共青团基层干部和 1976 年“四五”运动的参加者。
+  verify: true
+
+- id: renquan
+  name: 中国人权同盟
+  aliases: [中国人权同盟]
+  kind: popular
+  level: basic
+  from: 1979-01
+  to: 1979-04
+  places: [{ at: beijing }]
+  factions: [dissent]
+  summary: 1979 年 1 月在西单民主墙贴出《中国人权宣言》十九条，同年 4 月负责人任畹町被捕。
+  verify: true
+  leaders:
+    - { name: 任畹町, title: 负责人, from: 1979-01, to: 1979-04 }
+
+- id: people-press
+  name: 人民出版社
+  aliases: [人民出版社]
+  kind: unit
+  level: central
+  from: 1950-12
+  places: [{ at: beijing }]
+  summary: 出版马恩列斯著作和《毛泽东选集》等政治理论书籍的中央出版社。
+  verify: true
+
+- id: zhonghua
+  name: 中华书局
+  aliases: [中华书局]
+  kind: unit
+  level: central
+  from: 1912
+  places: [{ at: shanghai, to: 1954 }, { at: beijing, from: 1954 }]
+  summary: 1958 年起成为古籍整理专业出版社，主持“二十四史”和《清史稿》点校，文革中工作中断，1971 年奉命恢复，1978 年出齐。
+  verify: true
+
+- id: commercial-press
+  name: 商务印书馆
+  aliases: [商务印书馆]
+  kind: unit
+  level: central
+  from: 1897
+  places: [{ at: shanghai, to: 1954 }, { at: beijing, from: 1954 }]
+  summary: 1954 年迁北京，此后以出版辞书和外国学术名著汉译为主。
+  verify: true
+
+- id: sanlian
+  name: 生活·读书·新知三联书店
+  short: 三联书店
+  aliases: [生活·读书·新知三联书店, 三联书店]
+  kind: unit
+  level: central
+  from: 1948-10
+  places: [{ at: hongkong, to: 1949 }, { at: beijing, from: 1949 }]
+  summary: 1948 年在香港由三家进步书店合并而成，1950 年代后并入人民出版社，以副牌名义出书，1986 年恢复独立建制。
+  verify: true
+
+- id: rmwx
+  name: 人民文学出版社
+  aliases: [人民文学出版社]
+  kind: unit
+  level: central
+  from: 1951-03
+  places: [{ at: beijing }]
+  summary: 首任社长冯雪峰 1957 年被划为右派。
+  verify: true
+  leaders:
+    - { name: 冯雪峰, title: 社长, from: 1951-03, to: 1957 }
+
+- id: flp
+  name: 外文出版社
+  aliases: [外文出版社]
+  kind: unit
+  level: central
+  from: 1952-07
+  places: [{ at: beijing }]
+  summary: 以外文出版毛泽东著作和对外宣传书刊的出版社。
+  verify: true
+
+- id: xinhua-bookstore
+  name: 新华书店
+  aliases: [新华书店]
+  kind: unit
+  level: central
+  from: 1937-04
+  places: [{ at: yanan, to: 1949 }, { at: beijing, from: 1949 }]
+  summary: 1937 年在延安创办，1949 年后成为全国统一的图书发行系统，文革中发行了数以亿计的毛泽东著作。
+  verify: true
+
+- id: cas-econ
+  name: 中国科学院经济研究所
+  short: 经济所
+  aliases: [中国科学院经济研究所, 中国社会科学院经济研究所, 经济研究所, 经济所]
+  kind: unit
+  level: basic
+  from: 1953
+  under: [{ org: cas, to: 1977-05 }, { org: cass, from: 1977-05 }]
+  places: [{ at: beijing }]
+  summary: 1957 年起孙冶方任所长，主张社会主义经济讲价值规律，1964 年康生、陈伯达在所里派工作组批判他；顾准也在此第二次被戴上右派帽子。1977 年划归中国社会科学院。
+  verify: true
+  leaders:
+    - { name: 孙冶方, title: 所长, from: 1957, to: 1968 }
+
+- id: cas-phil
+  name: 中国科学院哲学研究所
+  short: 哲学所
+  aliases: [中国科学院哲学研究所, 哲学研究所, 哲学所]
+  kind: unit
+  level: basic
+  from: 1955
+  under: [{ org: cas, to: 1977-05 }, { org: cass, from: 1977-05 }]
+  places: [{ at: beijing }]
+  summary: 属哲学社会科学部，1977 年划归中国社会科学院。
+  verify: true
+  leaders:
+    - { name: 潘梓年, title: 所长, from: 1955, to: 1966 }
+
+- id: cas-modhist
+  name: 中国科学院近代史研究所
+  short: 近代史所
+  aliases: [中国科学院近代史研究所, 近代史研究所, 近代史所]
+  kind: unit
+  level: basic
+  from: 1950-05
+  under: [{ org: cas, to: 1977-05 }, { org: cass, from: 1977-05 }]
+  places: [{ at: beijing }]
+  summary: 范文澜任所长，主持编写《中国通史简编》。
+  verify: true
+  leaders:
+    - { name: 范文澜, title: 所长, from: 1950-05, to: 1969-07-29 }
+
+- id: cas-lit
+  name: 中国科学院文学研究所
+  short: 文学所
+  aliases: [中国科学院文学研究所, 文学研究所, 文学所]
+  kind: unit
+  level: basic
+  from: 1953-02
+  under: [{ org: cas, to: 1977-05 }, { org: cass, from: 1977-05 }]
+  places: [{ at: beijing }]
+  summary: 初设于北京大学，1956 年划归中国科学院，何其芳任所长，钱锺书等在此工作。
+  verify: true
+  leaders:
+    - { name: 何其芳, title: 所长, from: 1953-02, to: 1977-07-24 }
+
+- id: cas-atomic
+  name: 中国科学院原子能研究所
+  aliases: [中国科学院原子能研究所, 原子能研究所, 近代物理研究所]
+  kind: unit
+  level: basic
+  from: 1950-05
+  under: [{ org: cas }]
+  places: [{ at: beijing }]
+  summary: 前身近代物理研究所，1958 年改名并建成第一座重水反应堆和回旋加速器，此后由二机部与科学院双重领导。
+  verify: true
+  leaders:
+    - { name: 钱三强, title: 所长, from: 1951, to: 1958 }
+
+- id: cas-ict
+  name: 中国科学院计算技术研究所
+  short: 计算所
+  aliases: [中国科学院计算技术研究所, 计算技术研究所, 计算所]
+  kind: unit
+  level: basic
+  from: 1956
+  under: [{ org: cas }]
+  places: [{ at: beijing }]
+  summary: 1956 年十二年科学规划中筹建，1958 年研制出第一台电子计算机。
+  verify: true
+
+- id: sh-ftu
+  name: 上海市总工会
+  aliases: [上海市总工会]
+  kind: mass
+  level: provincial
+  from: 1950-02
+  suspended: [{ from: 1967-01, to: 1973, note: 文革中停止活动 }]
+  under: [{ org: acftu }]
+  places: [{ at: shanghai }]
+  summary: 文革初停止活动，1973 年恢复后由工总司骨干主持，1976 年 10 月后改组。
+  verify: true
+
+- id: hebei-agri
+  name: 河北省农业厅
+  aliases: [河北省农业厅]
+  kind: state
+  level: provincial
+  from: 1949-08
+  under: [{ org: hebei-gov }]
+  places:
+    - { at: baoding, to: 1958-04 }
+    - { at: tianjin, from: 1958-04, to: 1966-04 }
+    - { at: shijiazhuang, from: 1968-02 }
+  summary: 河北省人民政府主管农业的部门，随省会迁移。吕玉兰 1985 年任副厅长。
+  verify: true
+
+- id: changzhi-npc
+  name: 长治市人大常委会
+  aliases: [长治市人大常委会, 长治市人民代表大会常务委员会]
+  kind: state
+  level: local
+  from: 1980
+  places: [{ at: changzhi }]
+  summary: 长治市人民代表大会的常设机关。申纪兰 1984–2017 年任副主任。
+  verify: true
