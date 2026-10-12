@@ -1,7 +1,8 @@
 // App state lives in the URL hash so every view/selection is linkable:
 //   #/<view>?sel=<type>:<id>[:<sub>]&t=<fractional year>
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode, type SetStateAction } from 'react'
 import type { EntityType, Index, Ref } from './data/atlas'
+import { adoptEntry, beginRestore, currentEntry, getUi, pushEntry, restoreScroll, setUi } from './lib/history'
 
 export const VIEWS = {
   timeline: '时间线',
@@ -19,12 +20,13 @@ export const VIEWS = {
 } as const
 export type View = keyof typeof VIEWS
 
-// doc is the second path segment: a document id in docs, a person id in people, an org id in orgs
-type State = { view: View; sel?: Ref; t: number; doc?: string }
+// doc is the second path segment: a document id in docs, a person id in people, an org id in orgs;
+// entry identifies the history entry, which carries remembered scroll offsets and UI state
+type State = { view: View; sel?: Ref; t: number; doc?: string; entry: string }
 
 const DEFAULT_T = 1966 + 7.5 / 12
 
-function parseHash(): State {
+function parseHash(): Omit<State, 'entry'> {
   const [path, query = ''] = location.hash.replace(/^#\/?/, '').split('?')
   const [view, doc] = path.split('/')
   const q = new URLSearchParams(query)
@@ -38,7 +40,7 @@ function parseHash(): State {
   }
 }
 
-function toHash(s: State): string {
+function toHash(s: Omit<State, 'entry'>): string {
   const q = new URLSearchParams()
   if (s.sel) q.set('sel', `${s.sel.type}:${s.sel.id}${s.sel.sub ? `:${s.sel.sub}` : ''}`)
   if (s.t !== DEFAULT_T) q.set('t', s.t.toFixed(3))
@@ -62,21 +64,47 @@ type Ctx = State & {
 const AppCtx = createContext<Ctx | null>(null)
 
 export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }) {
-  const [state, setState] = useState<State>(parseHash)
+  const [state, setState] = useState<State>(() => ({ ...parseHash(), entry: adoptEntry().key }))
+  const latest = useRef(state)
+  latest.current = state
+  const restoreTo = useRef<string>(undefined)
 
+  // back/forward (popstate) and hand-edited hashes (hashchange) both land here; the second of a pair is a no-op
   useEffect(() => {
-    const onHash = () => setState(parseHash())
-    addEventListener('hashchange', onHash)
-    return () => removeEventListener('hashchange', onHash)
+    const onNav = () => {
+      const was = currentEntry()
+      const { key, known } = adoptEntry()
+      if (key === was) return
+      if (known) {
+        beginRestore()
+        restoreTo.current = key
+      }
+      setState((latest.current = { ...parseHash(), entry: key }))
+    }
+    addEventListener('popstate', onNav)
+    addEventListener('hashchange', onNav)
+    return () => {
+      removeEventListener('popstate', onNav)
+      removeEventListener('hashchange', onNav)
+    }
   }, [])
 
+  // runs after every child has rendered the restored entry and reset its own scrollers
+  useEffect(() => {
+    if (restoreTo.current !== state.entry) return
+    restoreTo.current = undefined
+    restoreScroll(state.entry)
+  }, [state.entry])
+
   const update = useCallback((patch: Partial<State>, push = true) => {
-    setState((prev) => {
-      const next = { ...prev, ...patch }
-      const hash = toHash(next)
-      if (hash !== location.hash) history[push ? 'pushState' : 'replaceState'](null, '', hash)
-      return next
-    })
+    const next = { ...latest.current, ...patch }
+    const hash = toHash(next)
+    if (hash !== location.hash) {
+      if (push) pushEntry(hash)
+      else history.replaceState(history.state, '', hash)
+    }
+    next.entry = currentEntry()
+    setState((latest.current = next))
   }, [])
 
   const value = useMemo<Ctx>(
@@ -102,4 +130,33 @@ export function useApp(): Ctx {
   const ctx = useContext(AppCtx)
   if (!ctx) throw new Error('useApp outside AppProvider')
   return ctx
+}
+
+// useState for view settings (filters, grouping, sort) that should come back with the page on back/forward.
+// A component mounted fresh on a new page starts from `initial`; one that stays mounted carries its value forward.
+export function useHistoryState<T>(name: string, initial: T | (() => T)) {
+  const { entry } = useApp()
+  const [value, setValue] = useState<T>(() => {
+    const s = getUi<T>(name)
+    return s.has ? (s.value as T) : initial instanceof Function ? initial() : initial
+  })
+  const latest = useRef(value)
+  latest.current = value
+  const seen = useRef<string>(undefined)
+  useEffect(() => {
+    const s = getUi<T>(name)
+    if (seen.current !== undefined && seen.current !== entry && s.has) setValue(s.value as T)
+    else if (!s.has) setUi(name, latest.current)
+    seen.current = entry
+  }, [entry, name])
+  const set = useCallback(
+    (v: SetStateAction<T>) =>
+      setValue((prev) => {
+        const next = v instanceof Function ? v(prev) : v
+        setUi(name, next)
+        return next
+      }),
+    [name],
+  )
+  return [value, set] as const
 }

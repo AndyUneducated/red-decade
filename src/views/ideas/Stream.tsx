@@ -1,11 +1,11 @@
 import * as d3 from 'd3'
-import { useMemo, useRef, useState } from 'react'
+import { useMemo, useRef } from 'react'
 import { useTip } from '../../components/bits'
 import type { Ism } from '../../data/atlas'
 import { ISM_KINDS } from '../../data/schema'
 import { ismColor, KIND_ORDER } from '../../lib/isms'
 import { useSize } from '../../lib/useSize'
-import { useApp } from '../../state'
+import { useApp, useHistoryState } from '../../state'
 
 const PERIODS: [number, number][] = [
   [1959, 1965],
@@ -27,8 +27,8 @@ export function Stream() {
   const wrap = useRef<HTMLDivElement>(null)
   const { width, height } = useSize(wrap)
   const { tip, setTip } = useTip()
-  const [byYear, setByYear] = useState(false)
-  const [share, setShare] = useState(false)
+  const [byYear, setByYear] = useHistoryState('ideas.byYear', false)
+  const [share, setShare] = useHistoryState('ideas.share', false)
 
   const bins = useMemo<Bin[]>(() => {
     const spans: [number, number][] = byYear ? d3.range(1959, 1984).map((y) => [y, y]) : PERIODS

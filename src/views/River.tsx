@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import { useMemo, useRef, useState } from 'react'
+import { useMemo, useRef } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
 import { factionAt, statusAt } from '../data/atlas'
 import { ORG_LEVELS, STATUSES, type Faction, type Org, type Person, type Status } from '../data/schema'
@@ -7,7 +7,7 @@ import { controlRuns, type Run } from '../lib/control'
 import { fmtDate, fmtT, toT } from '../lib/dates'
 import { LEVEL_ORDER } from '../lib/orgs'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 
 const LABEL_W = 150
 const RIVER_H = 230
@@ -48,7 +48,7 @@ export function River() {
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
   const { tip, setTip } = useTip()
-  const [range, setRange] = useState<Range>('early')
+  const [range, setRange] = useHistoryState<Range>('river.range', 'early')
   const [T0, T1] = RANGES[range]
 
   const plotW = Math.max(300, width - LABEL_W - 24)
@@ -142,7 +142,7 @@ export function River() {
     [lanes, months, x, T0, T1],
   )
 
-  const [open, setOpen] = useState<Set<string>>(new Set())
+  const [open, setOpen] = useHistoryState<Set<string>>('river.open', () => new Set())
   const control = useMemo(() => {
     const keys = ix.factions.map((f) => f.id)
     const all = ix.orgs.map((o) => ({ o, runs: controlRuns(ix, o).filter((r) => r.b > T0 && r.a < T1) })).filter((x) => x.runs.length)

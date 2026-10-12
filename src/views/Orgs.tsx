@@ -1,6 +1,6 @@
 import * as d3 from 'd3'
 import type { ScaleLinear } from 'd3'
-import { useMemo, useRef, useState, type ReactNode } from 'react'
+import { useMemo, useRef, type ReactNode } from 'react'
 import { Cite, Entity, Verify } from '../components/bits'
 import { EventList } from '../components/Drawer'
 import { LONG_MARKS, Scrubber } from '../components/Scrubber'
@@ -11,7 +11,7 @@ import { existsAt, isHead, KIND_ORDER, LEVEL_ORDER, parentAt, placeAt, segments,
 import { CONTROL_FROM, CONTROL_TO, controlAt, controlRuns, type Run } from '../lib/control'
 import { heldAt } from '../lib/positions'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 
 const T0 = 1920
 const T1 = 1990
@@ -115,11 +115,11 @@ function Directory() {
   const { ix, openOrg, t } = useApp()
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
-  const [kind, setKind] = useState<OrgKind | 'all'>('all')
-  const [now, setNow] = useState(true)
-  const [q, setQ] = useState('')
-  const [byFaction, setByFaction] = useState(false)
-  const [fac, setFac] = useState<string>()
+  const [kind, setKind] = useHistoryState<OrgKind | 'all'>('orgs.kind', 'all')
+  const [now, setNow] = useHistoryState('orgs.now', true)
+  const [q, setQ] = useHistoryState('orgs.q', '')
+  const [byFaction, setByFaction] = useHistoryState('orgs.byFaction', false)
+  const [fac, setFac] = useHistoryState<string | undefined>('orgs.fac', undefined)
 
   const narrow = width > 0 && width < 760
   const phone = width > 0 && width < 480

@@ -6,7 +6,7 @@ import { relationActive, statusAt } from '../data/atlas'
 import { RELATION_TYPES, STATUSES, type Person, type Relation, type RelationType } from '../data/schema'
 import { fmtDate } from '../lib/dates'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 
 type Node = d3.SimulationNodeDatum & { id: string; p: Person; r: number; group: string }
 type Link = d3.SimulationLinkDatum<Node> & { rel: Relation }
@@ -22,7 +22,7 @@ export function Network() {
   const { width, height } = useSize(wrap)
   const { tip, setTip } = useTip()
   const [hover, setHover] = useState<string | null>(null)
-  const [types, setTypes] = useState<Set<RelationType>>(() => new Set(Object.keys(RELATION_TYPES) as RelationType[]))
+  const [types, setTypes] = useHistoryState<Set<RelationType>>('network.types', () => new Set(Object.keys(RELATION_TYPES) as RelationType[]))
   const [view, setView] = useState(d3.zoomIdentity)
 
   // Layout is computed once over all relations so the picture stays stable while time moves.

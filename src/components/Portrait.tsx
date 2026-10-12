@@ -12,7 +12,8 @@ export function Portrait({ p, width = 96, credit = false }: { p: Person; width?:
       </div>
     )
   const ph = p.photo
-  const license = ph.license && /^public domain$/i.test(ph.license) ? '公有领域' : ph.license
+  // CC licences oblige attribution; public domain does not, so it goes unlabelled
+  const license = ph.license && /^public domain$/i.test(ph.license) ? undefined : ph.license
   const date = ph.date?.replace(/-\?\?/g, '').replace(/^before (\d{4})$/i, '$1 年前')
   const caption = ['Wikimedia Commons', date, license].filter(Boolean).join(' · ')
   const author = ph.author && !/unknown/i.test(ph.author) ? `摄影：${ph.author}` : '摄影者不详'

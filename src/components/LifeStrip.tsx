@@ -33,10 +33,9 @@ type Props = {
   height: number
   width: number
   ticks?: number[]
-  mark?: number
 }
 
-export function LifeStrip({ p, x, T1, height, width, ticks, mark }: Props) {
+export function LifeStrip({ p, x, T1, height, width, ticks }: Props) {
   const segs = lifeSegments(p, T1)
   const axis = ticks ? 14 : 0
   return (
@@ -59,7 +58,6 @@ export function LifeStrip({ p, x, T1, height, width, ticks, mark }: Props) {
         </rect>
       ))}
       {p.died && <rect x={x(toT(p.died)) - 1} y={-2} width={2} height={height + 4} fill="var(--s-dead)" />}
-      {mark !== undefined && <line x1={x(mark)} x2={x(mark)} y1={-3} y2={height + 3} stroke="var(--accent)" strokeWidth={1.2} />}
     </svg>
   )
 }

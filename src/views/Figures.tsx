@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import { Cite, Entity } from '../components/bits'
 import { COUNTY_KINDS, MEASURES, SOURCE_KINDS, VOICES, type County, type Figure } from '../data/schema'
 import { fmtDate } from '../lib/dates'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 import { VOICE_COLOR } from './Narratives'
 
 type Count = Figure['counts'][number]
@@ -94,7 +93,7 @@ const KIND_COLOR: Record<string, string> = { 'local-record': 'var(--v-officialLa
 
 function CountyRow({ u }: { u: County }) {
   const { ix } = useApp()
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useHistoryState(`figures.county.${u.id}`, false)
   const rows = u.counts.length ? u.counts : [undefined]
   return (
     <div className="cty" aria-expanded={open}>

@@ -3,7 +3,7 @@ import { Entity, PersonChip } from '../components/bits'
 import type { Ref } from '../data/atlas'
 import { SOURCE_KINDS } from '../data/schema'
 import { fmtDate } from '../lib/dates'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 import { shortTitle } from './Ideas'
 
 const KINDS = SOURCE_KINDS
@@ -13,7 +13,7 @@ const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 export function Docs() {
   const { ix, doc, openDoc } = useApp()
-  const [filter, setFilter] = useState('')
+  const [filter, setFilter] = useHistoryState('docs.filter', '')
   const id = doc && ix.source.get(doc)?.hasText ? doc : DEFAULT_DOC
 
   const groups = useMemo(() => {
@@ -58,9 +58,9 @@ function Reader({ id }: { id: string }) {
   const s = ix.source.get(id)!
   const meta = ix.doc.get(id)
   const [text, setText] = useState<string | null>(null)
-  const [hl, setHl] = useState({ concepts: true, people: false })
-  const [find, setFind] = useState('')
-  const [mode, setMode] = useState<'text' | 'pairs'>(meta?.pairs ? 'pairs' : 'text')
+  const [hl, setHl] = useHistoryState('docs.hl', { concepts: true, people: false })
+  const [find, setFind] = useHistoryState('docs.find', '')
+  const [mode, setMode] = useHistoryState<'text' | 'pairs'>('docs.mode', meta?.pairs ? 'pairs' : 'text')
   const scroller = useRef<HTMLDivElement>(null)
 
   useEffect(() => {

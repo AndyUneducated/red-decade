@@ -1,10 +1,10 @@
 import * as d3 from 'd3'
-import { useMemo, useRef, useState } from 'react'
+import { useMemo, useRef } from 'react'
 import { Cite, useTip } from '../components/bits'
 import { VOICES, type Event, type Voice } from '../data/schema'
 import { fmtDate, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 
 // Ordered by when the voice was written: at the time → witnesses → the verdicts → later study.
 const COLS: Voice[] = ['doc', 'official1966', 'foreign', 'witness', 'judicial1980', 'official1981', 'officialLater', 'scholar', 'editor']
@@ -35,7 +35,7 @@ const MAP_LABEL = 92
 
 export function Narratives() {
   const { ix, sel, select } = useApp()
-  const [filter, setFilter] = useState<Filter>('multi')
+  const [filter, setFilter] = useHistoryState<Filter>('narratives.filter', 'multi')
   const mapRef = useRef<HTMLDivElement>(null)
   const { width } = useSize(mapRef)
   const { tip, setTip } = useTip()

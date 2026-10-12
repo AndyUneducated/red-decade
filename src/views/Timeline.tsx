@@ -5,7 +5,7 @@ import { statusAt } from '../data/atlas'
 import { LANES, type Event, type Lane, type Status } from '../data/schema'
 import { fmtRange, fmtT, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 
 const ERAS: [number, number, string][] = [
   [1949.75, 1953, '建国初期'],
@@ -36,13 +36,13 @@ const LABEL_ROW = 15
 
 // Phones get a dated list by default: eight lanes of dots and labels do not fit 390px.
 export function Timeline() {
-  const [list, setList] = useState(() => window.matchMedia('(max-width: 560px)').matches)
+  const [list, setList] = useHistoryState('timeline.list', () => window.matchMedia('(max-width: 560px)').matches)
   return list ? <TimelineList onChart={() => setList(false)} /> : <TimelineChart onList={() => setList(true)} />
 }
 
 function TimelineList({ onChart }: { onChart: () => void }) {
   const { ix, sel, select, t, setT } = useApp()
-  const [lane, setLane] = useState<Lane | ''>('')
+  const [lane, setLane] = useHistoryState<Lane | ''>('timeline.lane', '')
   const years = useMemo(() => {
     const evs = ix.events.filter((e) => !lane || e.lane === lane).sort((a, b) => a.date.localeCompare(b.date))
     return d3.groups(evs, (e) => e.date.slice(0, 4))

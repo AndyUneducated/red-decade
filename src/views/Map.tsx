@@ -5,7 +5,7 @@ import { Cite } from '../components/bits'
 import { COUNTY_KINDS, LANES, REVCOM_DATES, type County, type Revcom } from '../data/schema'
 import { fmtDate, fmtT, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 import { fmtValue } from './Figures'
 
 type Basemap = FeatureCollection<Geometry, { n: string; k: 'p' | 'c' }>
@@ -166,7 +166,7 @@ function Cumulative({ revcoms, t, setT }: { revcoms: Revcom[]; t: number; setT: 
 }
 
 function Row({ r, on, onPick }: { r: Revcom; on: boolean; onPick: () => void }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useHistoryState(`map.open.${r.province}`, false)
   return (
     <li className="map-row" data-on={on || undefined}>
       <button className="linklike" onClick={onPick}>
@@ -198,8 +198,8 @@ export function MapView() {
     loadBasemap().then(setMap)
   }, [])
 
-  const [region, setRegion] = useState<RegionId>('all')
-  const [picked, setPicked] = useState<string>()
+  const [region, setRegion] = useHistoryState<RegionId>('map.region', 'all')
+  const [picked, setPicked] = useHistoryState<string | undefined>('map.picked', undefined)
   const revcoms = ix.revcoms
   const byProv = new Map(revcoms.map((r) => [r.province, r]))
   const done = revcoms.filter((r) => toT(r.date) <= t)

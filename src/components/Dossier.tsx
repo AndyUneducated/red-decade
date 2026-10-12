@@ -62,7 +62,7 @@ export function ProfileTimeline({ p, x, width, end, ticks }: { p: Person; x: Sca
   return (
     <div className="ptl">
       <div className="ptl-plot" style={{ width }} onClick={pick} title="点击移动当前时刻">
-        <LifeStrip p={p} x={x} T1={end} width={width} height={STRIP_H} ticks={ticks} mark={1966} />
+        <LifeStrip p={p} x={x} T1={end} width={width} height={STRIP_H} ticks={ticks} />
         {bandH > 0 && (
           <svg width={width} height={bandH} style={{ display: 'block', overflow: 'visible', marginTop: 8 }}>
             {ticks.map((yr) => (

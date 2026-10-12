@@ -1,11 +1,11 @@
 import * as d3 from 'd3'
-import { useMemo, useRef, useState } from 'react'
+import { useMemo, useRef } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
 import { statusAt } from '../data/atlas'
 import { STATUSES, type Person, type Status } from '../data/schema'
 import { fmtDate, fmtT, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 
 const T0 = 1965
 const T1 = 1981
@@ -28,7 +28,7 @@ export function Fates() {
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
   const { tip, setTip } = useTip()
-  const [sort, setSort] = useState<Sort>('faction')
+  const [sort, setSort] = useHistoryState<Sort>('fates.sort', 'faction')
 
   const plotW = Math.max(300, width - LABEL_W - 24)
   const x = useMemo(() => d3.scaleLinear().domain([T0, T1]).range([LABEL_W, LABEL_W + plotW]), [plotW])

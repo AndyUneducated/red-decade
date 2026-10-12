@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import { useMemo, useRef, useState, type CSSProperties } from 'react'
+import { useMemo, useRef, type CSSProperties } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
 import { AgeRuler, IdCard, ProfileTimeline } from '../components/Dossier'
 import { ClaimLinks, EventList, FateLine, RelationList } from '../components/Drawer'
@@ -11,7 +11,7 @@ import { statusAt } from '../data/atlas'
 import { ALIAS_KINDS, DEATH_KINDS, STATUSES, VOICES, type Person } from '../data/schema'
 import { fmtDate, fmtRange, fmtT, lifespan, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { useApp, useHistoryState } from '../state'
 
 const T0 = 1880
 const T1 = 2010
@@ -40,8 +40,8 @@ function Directory() {
   const { ix, openPerson, t } = useApp()
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
-  const [group, setGroup] = useState<Group>('faction')
-  const [q, setQ] = useState('')
+  const [group, setGroup] = useHistoryState<Group>('people.group', 'faction')
+  const [q, setQ] = useHistoryState('people.q', '')
 
   const narrow = width > 0 && width < 760
   const nameW = narrow ? 116 : 150
@@ -83,7 +83,7 @@ function Directory() {
         <div>
           <h1>人物</h1>
           <p>
-            每行一人，色带是一生的状态（{T0}–{T1} 同一时间轴，红线为 1966 年）。点名字看完整传记。已完成完整传记 {full} / {ix.people.length} 人。
+            每行一人，色带是一生的状态（{T0}–{T1} 同一时间轴）。点名字看完整传记。已完成完整传记 {full} / {ix.people.length} 人。
           </p>
         </div>
         <div className="spacer" />
@@ -127,7 +127,7 @@ function Directory() {
                   </span>
                   {roleW > 0 ? <span className="role">{p.role1966}</span> : <span />}
                   <span className="strip">
-                    <LifeStrip p={p} x={x} T1={T1} width={stripW} height={10} mark={1966} />
+                    <LifeStrip p={p} x={x} T1={T1} width={stripW} height={10} />
                   </span>
                 </button>
               )
