@@ -118,3 +118,8 @@
 - { a: jiang-qing, b: sun-weishi, type: persecute, from: 1968-03-01, to: 1968-10-14, note: 加上“苏修特务”罪名, cite: dangshi-2012-sun-weishi }
 - { a: zhou-enlai, b: sun-weishi, type: protect, from: 1937, to: 1968-10-14, note: 烈士遗孤，视如女儿, cite: dangshi-2012-sun-weishi }
 - { a: zhao-dan, b: zheng-junli, type: link, from: 1966-10-09, note: 同被抄家，1967 年同被隔离审查, cite: ws-1980-indictment }
+- { a: yu-luoke, b: yu-luowen, type: link, note: 兄弟，遇罗文是长弟, cite: mou-zhijing-chushenlun }
+- { a: mou-zhijing, b: yu-luowen, type: ally, from: 1966-12, to: 1967-04-13, note: 合办《中学文革报》, cite: rfa-2001-03-03-yu-luowen }
+- { a: mou-zhijing, b: yu-luoke, type: link, from: 1967-01-18, note: 在《中学文革报》刊出《出身论》, cite: mou-zhijing-chushenlun }
+- { a: pan-guoping, b: zhang-chunqiao, type: attack, from: 1966-11-12, note: 安亭谈判，逼其签字承认工总司, cite: bjzc-1996-09-pan-guoping }
+- { a: wang-hongwen, b: pan-guoping, type: attack, from: 1969, note: 以核心小组名义决定其下厂劳动（潘国平自述）, cite: bjzc-1996-09-pan-guoping }

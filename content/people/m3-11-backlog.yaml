@@ -1,0 +1,149 @@
+# M3 people, deferred from batches 4 and 5: 潘国平 (上海工总司), 遇罗文 and 牟志京 (《中学文革报》).
+# Their own accounts (1996 interview, 2001 interview, 牟志京 memoir) are one-sided; claims they alone make say so.
+
+- id: pan-guoping
+  name: 潘国平
+  born: 1946
+  died: 2013-04-18
+  deathKind: natural
+  deathPlace: 上海
+  tier: 3
+  role1966: 上海玻璃机械厂工人，“工总司”发起人之一
+  pinyin: Pān Guópíng
+  gender: m
+  birthplace: 上海
+  positions:
+    - { title: 主席团主席（自述）, orgName: 上海工人革命造反总司令部, from: 1966-11, to: 1969, cite: bjzc-1996-09-pan-guoping }
+    - { title: 领导成员、常委, orgName: 上海人民公社, from: 1967-02, to: 1967-02, cite: bjzc-1996-09-pan-guoping }
+    - { title: 常委, orgName: 上海市总工会, from: 1974-10, to: 1976-10, cite: nfpeople-2018-pan-guoping, verify: true }
+  bio: 上海人，初中毕业后参军，因训练受伤复员，进上海玻璃机械厂当工人，1965 年在“四清”中因给工作队提意见被批斗。1966 年 11 月参与发起上海工人革命造反总司令部（工总司），人称“潘司令”；在安亭事件中与张春桥谈判，迫使张春桥签字承认工总司。1967 年 2 月任“上海人民公社”常委，此后被王洪文排挤，1969 年回厂劳动，1970 年被隔离审查，1974 年任市总工会常委。1977 年 9 月被捕，判刑八年，出狱后又以“投机倒把罪”判刑六年。1996 年出狱后去美国，晚年回上海，2013 年 4 月 18 日病逝。
+  life:
+    - h: 复员工人与“四清”
+      from: 1965
+      to: 1966-10
+      text: |
+        生在上海，初中毕业后应征入伍，因训练受伤复员，被安排到上海玻璃机械厂。按他 1996 年的自述，1965 年他进厂不久工厂开展“四清”，厂里干部全部成了“四清下台干部”，“还有几个人被迫自杀”；1966 年初他给工作队提意见，说做法变成“打击一大片”了，被扣上“反对四清工作队”的帽子，成为批斗的重点对象。
+      cites: [bjzc-1996-09-pan-guoping]
+    - h: 工总司与安亭
+      from: 1966-11
+      to: 1967-02
+      text: |
+        1966 年 11 月初，首都三司在上海召集工厂代表座谈，中央美术学院红卫兵包炮提议工人自己成立组织。按潘国平自述，座谈会选出七人主席团，“有我、王洪文、叶昌明、陈阿大、范佐东、蒋周法、徐美英七个人”，主席团又推他负责筹备，“大家选了我，我就成了主席团的主席”。魏承思 2018 年的文章则说“王洪文被推选为主席团主席，潘国平是主席团成员”，两说不一。11 月 9 日工总司成立，上海市委拒绝承认，工人北上请愿，在安亭被拦，卧轨阻断沪宁线。12 日凌晨张春桥到场，潘国平坚持要他先承认工总司，并逼他到现场听工人发言；回上海后张春桥在五条协议上签字，承认工总司“是革命的合法组织”。他说当时“自始至终都是我与包炮商量的”，王洪文“在整个过程中没有说什么话”。
+      cites: [bjzc-1996-09-pan-guoping, nfpeople-2018-pan-guoping]
+    - h: 被排挤与审查
+      from: 1967-02
+      to: 1976-10
+      text: |
+        1967 年 2 月“上海人民公社”成立，他是领导成员、常委，仍负责工总司。1968 年初张春桥在市革会和工总司成立党的核心小组，王洪文是党员，由他任主要负责人。按潘国平自述，1969 年他与王洪文在会上争执，“一气之下回工厂劳动”，王洪文随即安插亲信，又与张春桥以核心小组名义决定他下厂劳动；1970 年他被隔离审查。魏承思的说法不同：他早在 1967 年初已淡出工总司核心，1968 年底因作风问题被赶回工厂，第二年年底因变卖抄家物资等问题被隔离审查，1974 年 10 月由张春桥点名任总工会常委，一年后又被审查、撤职下放。这些罪名出自审查方，潘国平本人没有承认。1976 年 10 月四人帮被捕时，他自称职务是“上海市革委会委员、市总工会常委”，并打电话到中央办公厅表态支持中央。
+      verify: true
+      cites: [bjzc-1996-09-pan-guoping, nfpeople-2018-pan-guoping]
+    - h: 判刑与晚年
+      from: 1977-09
+      to: 2013-04-18
+      text: |
+        1977 年 9 月被捕。他说起初中央工作组宣布不处理他，是邓小平视察上海时说“潘国平怎么可以不处理”，“后来我就被判了八年徒刑”。据魏承思文，出狱后不久又因“投机倒把罪”再度判刑 6 年；1996 年出狱后去美国，晚年回国，两次中风，2013 年 4 月 18 日在上海新华医院去世，年六十八。
+      cites: [bjzc-1996-09-pan-guoping, nfpeople-2018-pan-guoping, ipk-pan-guoping-death]
+  assess:
+    - { voice: witness, text: 如果没有像我这样一类人承上启下，十年动乱不可能（潘国平 1996 年自述）, cite: bjzc-1996-09-pan-guoping, quote: true }
+    - { voice: witness, text: 在我掌权的时候，我也没有批准逮捕过任何人，关押过任何人，我也没有打过人。这一点我与王洪文不同（潘国平 1996 年自述）, cite: bjzc-1996-09-pan-guoping, quote: true }
+    - { voice: witness, text: 其实，早在1967年初他已淡出了“工总司”核心（魏承思 2018 年回忆）, cite: nfpeople-2018-pan-guoping, quote: true }
+    - { voice: editor, text: 工总司主席团主席是潘国平还是王洪文，潘国平自述与魏承思的说法相反；他 1967–1975 年间几次被审查的原因，也只有审查方和他本人各自的说法。, cite: bjzc-1996-09-pan-guoping }
+  factions: [rebels]
+  fate:
+    - { date: 1966-11-09, s: rise, note: 工总司成立, cite: bjzc-1996-09-pan-guoping }
+    - { date: 1966-11-12, s: power, note: 安亭谈判，此后张春桥签字承认工总司, cite: bjzc-1996-09-pan-guoping }
+    - { date: 1967-02, s: power, note: 上海人民公社常委, cite: bjzc-1996-09-pan-guoping }
+    - { date: 1969, s: sidelined, note: 回工厂劳动, cite: bjzc-1996-09-pan-guoping }
+    - { date: 1970, s: detained, note: 隔离审查, cite: bjzc-1996-09-pan-guoping }
+    - { date: 1974-10, s: restored, note: 市总工会常委, cite: nfpeople-2018-pan-guoping }
+    - { date: 1977-09, s: detained, note: 被捕，后判刑八年, cite: bjzc-1996-09-pan-guoping }
+    - { date: 2013-04-18, s: dead, note: 病逝于上海, cite: ipk-pan-guoping-death }
+  cites: [bjzc-1996-09-pan-guoping, nfpeople-2018-pan-guoping, ipk-pan-guoping-death]
+
+- id: yu-luowen
+  name: 遇罗文
+  born: 1948
+  tier: 3
+  role1966: 北京第六十五中学学生，“北斗星”战斗队发起人
+  pinyin: Yù Luówén
+  gender: m
+  positions:
+    - { title: 发起人, orgName: 《中学文革报》, from: 1967-01, to: 1967-04, cite: rfa-2001-03-03-yu-luowen }
+  bio: 遇罗克的长弟。1966 年在北京六十五中成立“北斗星”战斗队，油印、张贴哥哥的《出身论》，与北京四中的牟志京、王建复合办《中学文革报》，1967 年 1 月起出了六期，4 月戚本禹宣布《出身论》是“大毒草”后停刊。遇罗克 1968 年被捕后全家受牵连，他也被关押。1984 年辞职经商，2000 年出版记述家人命运的《我家》。
+  life:
+    - h: “北斗星”与《中学文革报》
+      from: 1966-12
+      to: 1967-04
+      text: |
+        按他 2001 年的口述，他先在北京六十五中成立“北斗星”战斗队，“在这个组织中油印过《出身论》，并且组织过座谈会”，把油印的《出身论》到处张贴，贴到了北京四中。牟志京回忆，1966 年 12 月底他在电线杆上看到油印稿，抄下联络地址，“找到六十五中的遇罗文”。两人与王建复商量办铅印报纸扩大宣传，1967 年 1 月 18 日《中学文革报》创刊。遇罗文说报纸从第三期起增加印数，《出身论》专刊“印数达十几万份”；一直出到第六期，第七期排版时戚本禹宣布《出身论》是大毒草，“有人就开始抢我们的报纸，砸我们的版，我们就不能往下办了”。
+      cites: [rfa-2001-03-03-yu-luowen, mou-zhijing-chushenlun]
+    - h: 牵连
+      from: 1968-01
+      to: 1979
+      text: |
+        遇罗克 1968 年 1 月被捕后，他说那“是我们家最艰难的日子,家中每一个人都被牵连进去了”；电台介绍说遇家“有四口人共五次坐过监狱”。牟志京回忆，报社成员多数遭校方监禁，“罗文虽是中学生，亦未幸免”。牟志京还说，罗文从长春领到的手榴弹没有退还，带回北京，风声紧时托人埋在香山，有人在公安局恐吓下供出，公安局据此想把遇罗克定为幕后人；遇罗克死刑判决书中有他“扬言进行阴谋暗杀活动”的罪名。他被关押的时间和地点，此处未核。
+      verify: true
+      cites: [rfa-2001-03-03-yu-luowen, mou-zhijing-chushenlun, ws-1970-yu-luoke-death-sentence]
+    - h: 下海与《我家》
+      from: 1984
+      to: 2001
+      text: |
+        他说自己“一九八四年就辞职”，1987 年与弟弟合办公司，1992 年公司停办。2000 年前后出版《我家》，记述家人在历次政治运动中的遭遇，“只写到一九七九年年底”。
+      cites: [rfa-2001-03-03-yu-luowen]
+  assess:
+    - { voice: witness, text: 我们这六期可以说都是围绕批判“血统论”这一个话题（遇罗文 2001 年口述）, cite: rfa-2001-03-03-yu-luowen, quote: true }
+    - { voice: witness, text: 数年后才得知罗文并没有退还长春领到的手榴弹，反而带回了北京（牟志京回忆）, cite: mou-zhijing-chushenlun, quote: true }
+  factions: [dissent]
+  fate:
+    - { date: 1967-01-18, s: rise, note: 《中学文革报》创刊, cite: mou-zhijing-chushenlun }
+    - { date: 1967-04, s: attacked, note: 戚本禹宣布《出身论》是大毒草，报纸停办, cite: rfa-2001-03-03-yu-luowen }
+    - { date: 1968, s: detained, note: 遇罗克被捕后受牵连被关押, cite: mou-zhijing-chushenlun, verify: true }
+    - { date: 1984, s: normal, note: 辞职经商, cite: rfa-2001-03-03-yu-luowen }
+  cites: [rfa-2001-03-03-yu-luowen, mou-zhijing-chushenlun]
+
+- id: mou-zhijing
+  name: 牟志京
+  born: 1948
+  tier: 3
+  role1966: 北京四中学生，《中学文革报》创办人
+  pinyin: Móu Zhìjīng
+  gender: m
+  birthplace: 大连
+  positions:
+    - { title: 创办人, orgName: 《中学文革报》, from: 1967-01, to: 1967-04-13, cite: mou-zhijing-chushenlun }
+  bio: 1948 年生于大连，1958 年随父母迁居北京，就读北京四中。1966 年在四中反对血统论对联，12 月底看到遇罗克的《出身论》，与遇罗文、王建复创办《中学文革报》，1967 年 1 月 18 日刊出《出身论》，4 月 13 日戚本禹点名批判后停刊。此后受公安局审查，1969 年起在白洋淀、雁北插队，1978 年考入北方交通大学，1984 年赴美国耶鲁大学读书。
+  life:
+    - h: 对联辩论
+      from: 1966-08
+      to: 1966-12
+      text: |
+        1948 年生于大连，1958 年随父母迁居北京，在北京四中读书。1966 年夏秋北京中学流行宣扬血统论的对联，他在四中站出来反对，后来说那时“我所持有的理论武器和血统论一样地原始与空洞”。
+      cites: [gu-xiaoyang-2020-mou-zhijing, mou-zhijing-chushenlun]
+    - h: 《中学文革报》
+      from: 1966-12
+      to: 1967-04-13
+      text: |
+        “我在196年12月底，在北京西什库后库的一个电线杆上见到了一份油印的《出身论》”（原文脱一字，应为 1966 年）。他找到遇罗文，向四中借款 500 元，开了三司介绍信，找到解放军 1201 印刷厂排印。原本只印传单，为填补空页才想到办报，由他起报名、写编者按，“《中学文革报》在1967年1月18日正式发行了”。创刊时“只有三人，罗文、我和我的同学王建复”，四中语文老师毛宪文帮助编辑。第三期出版后《红旗》杂志社记者向他传达关锋的话，他向报社成员说明危险，请没有准备的人离开，“没有一个人畏缩”。1967 年 4 月 13 日戚本禹讲话点名批判《出身论》和《中学文革报》，报纸停刊；前后出了六期正刊和特刊，《出身论》各版合计约十几万份。
+      cites: [mou-zhijing-chushenlun]
+    - h: 审查与插队
+      from: 1968
+      to: 1978-03
+      text: |
+        遇罗克被捕约一年后，公安局审查他，先问遇罗克的“反动”言论，后来转问遇罗文带回的手榴弹，并试图让他证实遇罗克是幕后人，他说自己“直到见了罗克的判决书，才知公安局的当时的企图”。1969 年起先后在河北白洋淀和山西雁北插队，1973 年后做过化肥厂合同工和铁路工人。1978 年他召集报社旧人重聚，才知道多数成员都被监禁过。
+      cites: [mou-zhijing-chushenlun, gu-xiaoyang-2020-mou-zhijing]
+    - h: 求学
+      from: 1978-03
+      to: 1989
+      text: |
+        1978 年 3 月考入北方交通大学电讯系。1980 年遇罗克平反前夕，他再次召集部分报社成员，“却从不少人嘴里听到了对当时的冒失的烦恼”。1984 年自费赴美国耶鲁大学读书，五年拿到两个硕士学位和一个博士学位，后在耶鲁任教。
+      cites: [gu-xiaoyang-2020-mou-zhijing, mou-zhijing-chushenlun]
+  assess:
+    - { voice: witness, text: 我不能忘记的是没有一个人畏缩（牟志京回忆）, cite: mou-zhijing-chushenlun, quote: true }
+    - { voice: witness, text: 逻辑之严密，正气之凛然，文风之清新，无一不引人醒目（牟志京回忆初读《出身论》）, cite: mou-zhijing-chushenlun, quote: true }
+  factions: [dissent]
+  fate:
+    - { date: 1967-01-18, s: rise, note: 《中学文革报》创刊, cite: mou-zhijing-chushenlun }
+    - { date: 1967-04-13, s: attacked, note: 戚本禹点名批判，报纸停刊, cite: mou-zhijing-chushenlun }
+    - { date: 1969, s: sidelined, note: 插队白洋淀、雁北, cite: gu-xiaoyang-2020-mou-zhijing }
+    - { date: 1978-03, s: normal, note: 考入北方交通大学, cite: gu-xiaoyang-2020-mou-zhijing }
+  cites: [mou-zhijing-chushenlun, gu-xiaoyang-2020-mou-zhijing]

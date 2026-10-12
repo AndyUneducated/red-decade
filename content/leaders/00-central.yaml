@@ -716,6 +716,7 @@ jinggangshan:
 
 wgs:
   - { name: 王洪文, title: 司令, from: 1966-11-09, to: 1976-10 }
+  - { name: 潘国平, title: 主席团主席（自述）, from: 1966-11-09, to: 1969, note: 魏承思说主席团主席是王洪文、潘国平是成员；1969 年回厂劳动, cite: bjzc-1996-09-pan-guoping }
 
 chiweidui:
   - { name: 王玉玺, title: 总部负责人, from: 1966-12, to: 1966-12-30 }

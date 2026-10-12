@@ -815,7 +815,7 @@
   weight: 3
   place: 上海 / 安亭
   summary: 王洪文等成立“上海工人革命造反总司令部”，市委拒绝承认；工人卧轨安亭，沪宁线中断。张春桥赴现场签字承认其合法，越过了“工人不要离厂串连”的指示。
-  people: [wang-hongwen, zhang-chunqiao, cao-diqiu]
+  people: [wang-hongwen, pan-guoping, zhang-chunqiao, cao-diqiu]
   concepts: [rebellion, two-lines]
   docs: [ws-1966-11-shanghai-wgs]
   voices:
@@ -904,7 +904,7 @@
   weight: 2
   place: 《中学文革报》
   summary: 以“毛主席提出的革命接班人的五项条件，有出身这一条吗？”和《十六条》本身反驳血统论。“出身几乎决定了一切……有多少无辜青年，死于非命，溺死于唯出身论的深渊之中。”
-  people: [yu-luoke]
+  people: [yu-luoke, yu-luowen, mou-zhijing]
   concepts: [bloodline, successor]
   docs: [ws-1967-yu-origin-theory]
   cites: [ws-1967-yu-origin-theory]

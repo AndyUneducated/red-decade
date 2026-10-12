@@ -200,6 +200,22 @@
   links:
     - { org: jinggangshan, kind: oppose, date: 1967-04-14, verify: true }
 
+- id: zxwgb
+  name: 《中学文革报》
+  aliases: [《中学文革报》, 中学文革报]
+  kind: popular
+  level: basic
+  from: 1967-01-18
+  to: 1967-04-13
+  places: [{ at: beijing }]
+  factions: [dissent]
+  summary: 北京四中学生牟志京与六十五中学生遇罗文、王建复合办的铅印小报，1967 年 1 月 18 日创刊号刊出遇罗克《出身论》，出了六期正刊和特刊，4 月 13 日戚本禹点名批判后停刊。成员后来多数被监禁。
+  cites: [mou-zhijing-chushenlun, rfa-2001-03-03-yu-luowen]
+  leaders:
+    - { name: 牟志京, title: 创办人, from: 1967-01-18, to: 1967-04-13, cite: mou-zhijing-chushenlun }
+    - { name: 遇罗文, title: 发起人, from: 1967-01-18, to: 1967-04-13, cite: rfa-2001-03-03-yu-luowen }
+    - { name: 王建复, title: 发起人, from: 1967-01-18, to: 1967-04-13, cite: rfa-2001-03-03-yu-luowen }
+
 - id: shangchai-liansi
   name: 上海柴油机厂联合司令部
   short: 上柴联司
