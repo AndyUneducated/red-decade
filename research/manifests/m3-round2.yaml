@@ -99,6 +99,28 @@ wikisource:
     kind: party-doc
     alias: 1989 年李鹏《关于赵紫阳同志所犯错误的报告》
     note: 在十三届四中全会上作。日期以页面为准。
+  # 第 15 批：1989
+  - id: ws-1989-06-05-letter-to-all
+    title: 中共中央、国务院告全体共产党员和全国人民书
+    date: 1989-06-05
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 1989 年《告全体共产党员和全国人民书》
+    note: 日期以页面为准。
+  - id: ws-1989-06-30-chen-xitong-report
+    title: 关于制止动乱和平息反革命暴乱的情况报告
+    date: 1989-06-30
+    author: 陈希同（国务委员、北京市市长）
+    kind: party-doc
+    alias: 1989 年陈希同《关于制止动乱和平息反革命暴乱的情况报告》
+    note: 向七届全国人大常委会第八次会议所作的报告，是官方对 1989 年事件和伤亡数字的正式说法。
+  - id: ws-2009-liu-xiaobo-judgment
+    title: 北京市第一中级人民法院（2009）一中刑初字第3901号刑事判决书
+    date: 2009-12-25
+    author: 北京市第一中级人民法院
+    kind: judicial
+    alias: 2009 年刘晓波“煽动颠覆国家政权罪”一审判决书
+    note: 判处有期徒刑十一年。日期以页面为准。
   - id: ws-1980-ufwd-rightist-review
     title: 中央统一战线工作部关于爱国人士中的右派复查问题的请示报告
     date: 1980

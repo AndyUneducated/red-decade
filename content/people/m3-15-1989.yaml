@@ -1,0 +1,485 @@
+# M3 people round 2, batch 15: 1989. 李鹏、江泽民、李瑞环、陈希同、袁木 (决策与官方说法)，鲍彤 (赵紫阳身边)，
+# 严家其、方励之、刘晓波、王丹 (知识界与学生)，丁子霖 (遇难者家属).
+# Texts: 1989 十三届四中全会公报、李鹏《关于赵紫阳同志所犯错误的报告》、陈希同《关于制止动乱和平息反革命暴乱的情况报告》，
+# 2009 刘晓波一审判决书，维基百科“六四事件 · 死伤人数”“天安门母亲”。官方文件之外的说法只作“其他说法”并列，不取其一。
+# Living people: public political careers and public texts only. Careers outside the texts from general reference, verify.
+
+- id: li-peng
+  name: 李鹏
+  born: 1928-10-20
+  died: 2019-07-22
+  deathKind: natural
+  deathPlace: 北京
+  tier: 1
+  role1966: 北京电力系统干部
+  pinyin: Lǐ Péng
+  gender: m
+  birthplace: 四川成都
+  party: 中国共产党
+  positions:
+    - { title: 副总理, orgName: 国务院, from: 1983-06, to: 1987-11, verify: true }
+    - { title: 常委, orgName: 中共中央政治局常务委员会, from: 1987-11, to: 2002-11, verify: true }
+    - { title: 总理, orgName: 国务院, from: 1987-11, to: 1998-03, verify: true }
+    - { title: 委员长, orgName: 全国人民代表大会常务委员会, from: 1998-03, to: 2003-03, verify: true }
+  bio: 四川成都人，烈士李硕勋之子，少年时在延安长大，1945 年入党，1948 年起留学苏联学习水电。回国后长期在电力系统工作，1979 年任电力工业部部长，1983 年任国务院副总理，1987 年任政治局常委、代总理，1988 年正式任总理。1989 年学潮中主张把运动定性为“动乱”，5 月 20 日签署北京部分地区戒严令，6 月代表政治局在四中全会上作关于赵紫阳错误的报告。1998 年起任全国人大常委会委员长，2019 年在北京病逝。
+  life:
+    - h: 烈士之子与电力工程师
+      from: 1928-10-20
+      to: 1979
+      text: |
+        1928 年生于成都。父亲李硕勋 1931 年在海南被国民党杀害，他由周恩来、邓颖超等照料，1941 年到延安，1945 年入党。1948 年被派往苏联，在莫斯科动力学院学习水力发电，1950 年代中期回国，此后在丰满水电站、东北和北京的电力系统任技术和管理职务，文革中没有受到大的冲击。
+      verify: true
+    - h: 进入中央
+      from: 1979
+      to: 1989-04
+      text: |
+        1979 年任电力工业部部长，1983 年任国务院副总理，分管能源、交通和教育。1987 年十三届一中全会当选政治局常委，11 月接替赵紫阳任代总理，1988 年 4 月七届人大正式任命为总理。陈希同 1989 年的报告说，这一年春天的人大会上“以绝对多数的赞成票（只两票反对、4票弃权），通过了李鹏同志所作的政府工作报告”。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+    - h: 1989 年
+      from: 1989-04
+      to: 1989-06-24
+      text: |
+        4 月胡耀邦去世后，学生中流传李鹏在政治局会议上气死胡耀邦的说法，陈希同的报告称这是谣言。4 月 25 日邓小平讲话后，26 日《人民日报》社论把学潮定性为“动乱”。5 月 18 日他在人民大会堂与王丹、吾尔开希等学生代表会面，双方不欢而散。5 月 19 日中央召开首都党政军干部大会，按陈希同的报告，赵紫阳“既不同意和李鹏同志一道在大会上发表讲话，也不同意主持大会”；次日国务院宣布北京部分地区戒严。严家其、包遵信随后在香港《明报》呼吁人大“废除戒严令，罢免李鹏总理职务”。6 月 23–24 日的四中全会审议通过了他代表政治局所作的关于赵紫阳错误的报告。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report, ws-1989-06-24-fourth-plenum, ws-1989-06-zhao-errors-report]
+    - h: 此后
+      from: 1989-06-25
+      to: 2019-07-22
+      text: |
+        他继续任总理到 1998 年，主持“治理整顿”和三峡工程立项，1998 年至 2003 年任全国人大常委会委员长。2019 年 7 月 22 日在北京病逝。他关于 1989 年的日记据报道曾准备在香港出版，后来没有正式发行。
+      verify: true
+  assess:
+    - { voice: officialLater, text: 全会审议并通过了李鹏同志代表中央政治局提出的《关于赵紫阳同志在反党反社会主义的动乱中所犯错误的报告》（1989 年十三届四中全会公报）, cite: ws-1989-06-24-fourth-plenum, quote: true }
+    - { voice: doc, text: 每一位全国人大常委会委员，每一位全国人大代表，投下神圣的一票，废除戒严令，罢免李鹏总理职务（严家其、包遵信 1989 年 5 月文章，陈希同报告引述）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+    - { voice: editor, text: 公开文件里，戒严的决定一律写作“中共中央、国务院断然决定”；签署戒严令的是李鹏，向四中全会提出撤销赵紫阳职务报告的也是李鹏。, cite: ws-1989-06-30-chen-xitong-report }
+  factions: [reform]
+  fate:
+    - { date: 1979, s: rise, note: 电力工业部部长, verify: true }
+    - { date: 1983-06, s: rise, note: 国务院副总理, verify: true }
+    - { date: 1987-11, s: power, note: 政治局常委、代总理, verify: true }
+    - { date: 1989-05-20, s: power, note: 签署北京部分地区戒严令, cite: ws-1989-06-30-chen-xitong-report }
+    - { date: 2003-03, s: normal, note: 卸任全国人大常委会委员长, verify: true }
+    - { date: 2019-07-22, s: dead, note: 在北京病逝, verify: true }
+  cites: [ws-1989-06-24-fourth-plenum, ws-1989-06-zhao-errors-report, ws-1989-06-30-chen-xitong-report]
+
+- id: jiang-zemin
+  name: 江泽民
+  born: 1926-08-17
+  died: 2022-11-30
+  deathKind: natural
+  deathPlace: 上海
+  tier: 1
+  role1966: 一机部武汉热工机械研究所负责人
+  pinyin: Jiāng Zémín
+  gender: m
+  birthplace: 江苏扬州
+  party: 中国共产党
+  positions:
+    - { title: 市长, orgName: 上海市人民政府, from: 1985-07, to: 1988-04, verify: true }
+    - { title: 书记, orgName: 中共上海市委员会, from: 1987-11, to: 1989-06, verify: true }
+    - { title: 总书记, orgName: 中国共产党中央委员会, from: 1989-06-24, to: 2002-11, cites: [ws-1989-06-24-fourth-plenum] }
+    - { title: 主席, orgName: 中共中央军事委员会, from: 1989-11, to: 2004-09, verify: true }
+    - { title: 主席, orgName: 中华人民共和国主席, from: 1993-03, to: 2003-03, verify: true }
+  bio: 江苏扬州人，上海交通大学电机系毕业，1946 年入党。建国后在一机部、长春第一汽车制造厂和武汉热工机械研究所工作，1980 年代任电子工业部部长、上海市市长、上海市委书记。1989 年 4 月处理上海《世界经济导报》，6 月十三届四中全会上被选为中共中央总书记，11 月接替邓小平任中央军委主席，1993 年起兼任国家主席。2002 年、2004 年先后卸任总书记和军委主席，2022 年在上海病逝。
+  life:
+    - h: 工程师与技术官员
+      from: 1926-08-17
+      to: 1985-06
+      text: |
+        1926 年生于扬州，1947 年毕业于上海交通大学电机系，在校期间入党。建国后在上海的工厂工作，1955 年到苏联莫斯科斯大林汽车厂实习，回国后在长春第一汽车制造厂任动力处负责人。1960 年代调一机部，任上海电器科学研究所副所长、武汉热工机械研究所所长；文革中被下放到五七干校。1980 年任国家进出口委员会和外国投资管理委员会副主任，1982 年任电子工业部副部长、部长。
+      verify: true
+    - h: 上海
+      from: 1985-07
+      to: 1989-06-23
+      text: |
+        1985 年任上海市市长，1987 年 11 月任上海市委书记、政治局委员。1989 年 4 月，上海《世界经济导报》刊登悼念胡耀邦的座谈会纪要，他主持的上海市委决定对报纸停刊整顿、撤销总编辑钦本立的职务。学潮期间上海没有实行戒严。
+      verify: true
+    - h: 总书记
+      from: 1989-06-24
+      to: 2004-09
+      text: |
+        6 月 24 日四中全会“选举江泽民同志为中央委员会总书记；增选江泽民、宋平、李瑞环同志为中央政治局常务委员会委员”。11 月五中全会接受邓小平辞职，由他接任中央军委主席，1993 年 3 月起兼任国家主席。2002 年十六大卸任总书记，2004 年 9 月卸任军委主席。
+      cites: [ws-1989-06-24-fourth-plenum]
+      verify: true
+    - h: 此后
+      from: 2004-09
+      to: 2022-11-30
+      text: |
+        退休后仍不时公开露面。2022 年 11 月 30 日在上海病逝。
+      verify: true
+  assess:
+    - { voice: officialLater, text: 选举江泽民同志为中央委员会总书记（1989 年十三届四中全会公报）, cite: ws-1989-06-24-fourth-plenum, quote: true }
+    - { voice: editor, text: 四中全会之前他只是政治局委员，不在常委之列；同一次全会把他从上海直接选为总书记，常委七人中有三人是新增补的。, cite: ws-1989-06-24-fourth-plenum }
+  factions: [reform]
+  fate:
+    - { date: 1982, s: rise, note: 电子工业部副部长、部长, verify: true }
+    - { date: 1985-07, s: rise, note: 上海市市长, verify: true }
+    - { date: 1987-11, s: power, note: 上海市委书记、政治局委员, verify: true }
+    - { date: 1989-06-24, s: power, note: 中共中央总书记, cite: ws-1989-06-24-fourth-plenum }
+    - { date: 2004-09, s: normal, note: 卸任中央军委主席, verify: true }
+    - { date: 2022-11-30, s: dead, note: 在上海病逝, verify: true }
+  cites: [ws-1989-06-24-fourth-plenum]
+
+- id: li-ruihuan
+  name: 李瑞环
+  born: 1934-09
+  tier: 2
+  role1966: 北京建筑工人、全国劳动模范
+  pinyin: Lǐ Ruìhuán
+  gender: m
+  birthplace: 天津宝坻
+  party: 中国共产党
+  positions:
+    - { title: 书记, orgName: 中共天津市委员会, from: 1987-08, to: 1989-06, verify: true }
+    - { title: 常委, orgName: 中共中央政治局常务委员会, from: 1989-06-24, to: 2002-11, cites: [ws-1989-06-24-fourth-plenum] }
+    - { title: 主席, orgName: 中国人民政治协商会议全国委员会, from: 1993-03, to: 2003-03, verify: true }
+  bio: 天津宝坻人，木工出身，1959 年入党。1950 年代在北京建筑工地当工人，修建人民大会堂时任木工青年突击队长，被评为劳动模范，并自学建筑工程。1980 年代任天津市市长、市委书记。1989 年 6 月十三届四中全会上增补为政治局常委和书记处书记，主管宣传和意识形态。1993 年至 2003 年任全国政协主席。
+  life:
+    - h: 木工与劳动模范
+      from: 1934-09
+      to: 1979
+      text: |
+        1951 年到北京当建筑工人，1958–1959 年修建人民大会堂时，他领导的木工青年突击队以“李瑞环青年突击队”闻名，本人多次被评为全国劳动模范，并自学建筑工程，创造了木工放样的简便算法。1970 年代转任北京市基建部门的领导职务。
+      verify: true
+    - h: 天津与中央
+      from: 1980
+      to: 2003-03
+      text: |
+        1981 年调天津，1982 年任市长，主持引滦入津工程和城市整修，1987 年任市委书记、政治局委员。1989 年 6 月四中全会“增选江泽民、宋平、李瑞环同志为中央政治局常务委员会委员；决定增补李瑞环、丁关根同志为中央书记处书记”。此后他分管宣传，1993 年起任全国政协主席，2002 年十六大退出常委。
+      cites: [ws-1989-06-24-fourth-plenum]
+      verify: true
+  assess:
+    - { voice: officialLater, text: 增选江泽民、宋平、李瑞环同志为中央政治局常务委员会委员（1989 年十三届四中全会公报）, cite: ws-1989-06-24-fourth-plenum, quote: true }
+  factions: [reform]
+  fate:
+    - { date: 1959, s: rise, note: 人民大会堂青年突击队长、劳动模范, verify: true }
+    - { date: 1982, s: rise, note: 天津市市长, verify: true }
+    - { date: 1989-06-24, s: power, note: 政治局常委、书记处书记, cite: ws-1989-06-24-fourth-plenum }
+    - { date: 2003-03, s: normal, note: 卸任全国政协主席, verify: true }
+  cites: [ws-1989-06-24-fourth-plenum]
+
+- id: chen-xitong
+  name: 陈希同
+  born: 1930-06-10
+  died: 2013-06-02
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 北京市基层干部，文革中被批斗
+  pinyin: Chén Xītóng
+  gender: m
+  birthplace: 四川安岳
+  party: 中国共产党
+  positions:
+    - { title: 市长, orgName: 北京市人民政府, from: 1983-04, to: 1993-01, verify: true }
+    - { title: 书记, orgName: 中共北京市委员会, from: 1992-10, to: 1995-04, verify: true }
+  bio: 四川安岳人，1949 年入北京大学中文系，同年入党，此后长期在北京工作，文革中被批斗、下放。1983 年任北京市市长，1988 年兼任国务委员。1989 年学潮中是戒严的积极执行者，6 月 30 日代表国务院向全国人大常委会作《关于制止动乱和平息反革命暴乱的情况报告》，这是官方对事件经过和伤亡人数的正式说法。1992 年任北京市委书记、政治局委员；1995 年因北京市副市长王宝森案被撤职，1998 年以贪污罪、玩忽职守罪被判处有期徒刑十六年，2013 年病逝。
+  life:
+    - h: 北京
+      from: 1930-06-10
+      to: 1983-03
+      text: |
+        1949 年在北京大学读书时入党，此后在中共北京市委、昌平县委等处工作。文革初北京市委被改组，他作为市委干部被批斗、下放农村劳动。1979 年起任北京市委书记处书记、副市长。
+      verify: true
+    - h: 市长与 1989
+      from: 1983-04
+      to: 1989-06-30
+      text: |
+        1983 年任北京市市长，1988 年 4 月兼任国务委员。学潮期间他与市委书记李锡铭主持北京市委、市政府的“制止动乱”工作。6 月 30 日他向七届人大常委会第八次会议作报告，说动乱“进而在首都北京发展成了反革命暴乱”，并公布伤亡数字：军警“负伤6000多人，死亡数十人”；“暴乱中有3000多名非军人受伤，200余人死亡，包括36名大学生”。
+      cites: [ws-1989-06-30-chen-xitong-report]
+    - h: 落马
+      from: 1992-10
+      to: 2013-06-02
+      text: |
+        1992 年十四大后任北京市委书记、政治局委员。1995 年 4 月北京市副市长王宝森自杀，牵出北京市的贪污、挪用公款案，他随即被免去市委书记职务，1997 年被开除党籍，1998 年 7 月北京市高级人民法院以贪污罪、玩忽职守罪判处有期徒刑十六年。2006 年保外就医，2013 年 6 月因病去世。
+      verify: true
+  assess:
+    - { voice: officialLater, text: 据现在掌握的情况，暴乱中有3000多名非军人受伤，200余人死亡，包括36名大学生（1989 年 6 月 30 日陈希同向全国人大常委会的报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+    - { voice: officialLater, text: 由于“美国之音”造谣和一些人有意传谣，社会上一度盛传，戒严部队进城之后，“血洗天安门广场”，“有数千人甚至上万人倒在血泊之中”（同一报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+    - { voice: editor, text: 本站把他报告里的数字作为官方口径，与天安门母亲群体的名单、外国外交档案等其他说法并列（见 1989 年 6 月 3–4 日“戒严部队开枪进城、清场天安门广场”事件），不取其一。, cite: wp-1989-casualties }
+  factions: [reform, bjcommittee]
+  fate:
+    - { date: 1966, s: attacked, note: 北京市委改组后被批斗、下放（月份不详）, verify: true }
+    - { date: 1983-04, s: power, note: 北京市市长, verify: true }
+    - { date: 1989-06-30, s: power, note: 向全国人大常委会作平息“暴乱”的报告, cite: ws-1989-06-30-chen-xitong-report }
+    - { date: 1995-04, s: purged, note: 因王宝森案被免去北京市委书记, verify: true }
+    - { date: 1998-07, s: detained, note: 判处有期徒刑十六年, verify: true }
+    - { date: 2006, s: sidelined, note: 保外就医, verify: true }
+    - { date: 2013-06-02, s: dead, note: 病逝, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: yuan-mu
+  name: 袁木
+  born: 1928
+  died: 2018-12
+  deathKind: natural
+  tier: 3
+  role1966: 新华社记者
+  pinyin: Yuán Mù
+  gender: m
+  birthplace: 江苏兴化
+  party: 中国共产党
+  positions:
+    - { title: 发言人, orgName: 国务院, from: 1988, to: 1990, verify: true }
+  bio: 江苏兴化人，新华社记者出身，1980 年代任国务院研究室负责人、国务院发言人。1989 年 4 月底代表政府与学生“对话”，6 月 6 日在国务院新闻发布会上公布“近 300 人”死亡的初步数字，是当时国内外电视上最常见的政府面孔。
+  life:
+    - h: 发言人
+      from: 1928
+      to: 2018-12
+      text: |
+        早年任新华社记者、编辑，1980 年代调国务院研究室，任副主任、主任。1989 年 4 月 29 日他作为国务院发言人与北京高校学生代表座谈，陈希同的报告说，“国务院发言人袁木等同志同学生的对话”和北京市领导与学生的对话“都取得了良好的效果”；学生方面则认为座谈的代表由官方学生会指定。6 月 6 日的新闻发布会上，按维基百科的综述，他“表示，据初步统计，包括部队士兵、大学学生、非法分子和误杀群众在内，有近300人死亡”。此后长期任国务院研究室主任，2018 年去世。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report, wp-1989-casualties]
+  assess:
+    - { voice: officialLater, text: 国务院发言人袁木等同志同学生的对话，中央有关部门负责人同学生的对话，中共北京市委、市人民政府主要领导同志同学生的对话，都取得了良好的效果（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+    - { voice: scholar, text: 1989年6月6日，国务院官员召开新闻发表会，发言人袁木表示，据初步统计，包括部队士兵、大学学生、非法分子和误杀群众在内，有近300人死亡（维基百科“六四事件 · 死伤人数”）, cite: wp-1989-casualties, quote: true }
+  factions: [reform]
+  fate:
+    - { date: 1988, s: rise, note: 国务院发言人, verify: true }
+    - { date: 2018-12, s: dead, note: 去世, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report, wp-1989-casualties]
+
+- id: bao-tong
+  name: 鲍彤
+  born: 1932-11-05
+  died: 2022-11-09
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 中央组织部干部
+  pinyin: Bào Tóng
+  gender: m
+  birthplace: 浙江海宁
+  party: 中国共产党
+  positions:
+    - { title: 主任, orgName: 中央政治体制改革研究室, from: 1987, to: 1989-05, verify: true }
+  bio: 浙江海宁人，1949 年入党，长期在中央组织部工作。1980 年起任赵紫阳的秘书，1987 年任中央委员、中央政治体制改革研究室主任，起草十三大政治报告中的政治体制改革部分。1989 年 5 月 28 日被拘押，是因学潮入狱的最高级别官员；1992 年以“泄露国家重要机密罪”和“反革命宣传煽动罪”被判处有期徒刑七年。1996 年刑满后长期受监控，坚持公开评论时政，2022 年在北京去世。
+  life:
+    - h: 组织部与赵紫阳
+      from: 1932-11-05
+      to: 1989-04
+      text: |
+        1949 年入党，1950 年代起在中央组织部工作，文革中下放干校。1980 年随赵紫阳到国务院任秘书，1987 年任中央政治体制改革研究室主任、十三届中央委员，主持起草十三大报告中“党政分开”等政治体制改革的内容。
+      verify: true
+    - h: 1989 年
+      from: 1989-04
+      to: 1996-05
+      text: |
+        陈希同的报告把赵紫阳 5 月 4 日在亚洲开发银行年会上的讲话归于他，说“赵紫阳同志的这番讲话，是鲍彤事先为他起草好的”；又说 5 月 17 日晚他“召集中央政治体制改革研究室的部分人员，在泄露了即将戒严的机密之后，发表了‘告别演说’”。5 月 28 日他被带走关押，1992 年 7 月北京市中级人民法院以泄露国家重要机密罪和反革命宣传煽动罪判处有期徒刑七年。1996 年 5 月刑满。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+    - h: 刑满之后
+      from: 1996-05
+      to: 2022-11-09
+      text: |
+        出狱后一直住在北京，住所长期有人看守，每逢敏感日期被带离北京。他通过海外媒体发表大量文章，要求公开 1989 年的真相、为赵紫阳恢复名誉，也公开评论修宪等时政。2022 年 11 月 9 日在北京去世。
+      verify: true
+  assess:
+    - { voice: officialLater, text: 赵紫阳同志的这番讲话，是鲍彤事先为他起草好的（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+    - { voice: officialLater, text: 17日晚，鲍彤召集中央政治体制改革研究室的部分人员，在泄露了即将戒严的机密之后，发表了“告别演说”（同一报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [reform]
+  fate:
+    - { date: 1980, s: rise, note: 赵紫阳秘书, verify: true }
+    - { date: 1987-11, s: power, note: 中央委员、中央政治体制改革研究室主任, verify: true }
+    - { date: 1989-05-28, s: detained, note: 被拘押, verify: true }
+    - { date: 1996-05, s: sidelined, note: 刑满释放，长期受监控, verify: true }
+    - { date: 2022-11-09, s: dead, note: 在北京去世, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: yan-jiaqi
+  name: 严家其
+  born: 1942
+  tier: 3
+  role1966: 中国科学技术大学毕业生（1964 年毕业）
+  pinyin: Yán Jiāqí
+  gender: m
+  birthplace: 江苏武进
+  positions: []
+  bio: 江苏武进人，中国科学技术大学毕业，研究政治学。1985 年任中国社会科学院政治学研究所首任所长，参与赵紫阳主持的政治体制改革讨论。1989 年 5 月 17 日与包遵信等人发表《五一七宣言》，指斥“没有皇帝头衔的皇帝”，此后又呼吁人大罢免李鹏。“六四”后出走法国，任“民主中国阵线”首任主席，后定居美国。
+  life:
+    - h: 政治学所
+      from: 1942
+      to: 1989-04
+      text: |
+        1964 年毕业于中国科学技术大学，文革后转入中国社会科学院哲学所，研究政治学，与高皋合著《“文化大革命”十年史》。1985 年任政治学研究所所长，主张限制领导人任期、实行权力制衡。陈希同的报告说，他“同赵紫阳原秘书鲍彤联系密切”，在《经济学周报》发表对话，提出“中国不再允许像文革那样用非程序化的方式进行权力变动”。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+    - h: 1989 与流亡
+      from: 1989-05
+      text: |
+        5 月 17 日他与包遵信等人发表《五一七宣言》。按陈希同报告的引述，宣言说“中国还有一位没有皇帝头衔的皇帝，一位年迈昏庸的独裁者”，“老人政治必须结束！独裁者必须辞职！”他们随后在香港《明报》发表《兼告李鹏书》，呼吁人大“废除戒严令，罢免李鹏总理职务”。6 月后他被通缉，经香港出走法国，9 月任“民主中国阵线”主席，后移居美国。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+  assess:
+    - { voice: officialLater, text: 第二天，严家其、包遵信等人就发表了极其猖狂恶毒的《5·17宣言》（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+    - { voice: doc, text: 清王朝已经死亡76年了，但是，中国还有一位没有皇帝头衔的皇帝，一位年迈昏庸的独裁者（《五一七宣言》，陈希同报告引述）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1985, s: rise, note: 中国社会科学院政治学研究所所长, verify: true }
+    - { date: 1989-06, s: purged, note: 被通缉，出走法国, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: fang-lizhi
+  name: 方励之
+  born: 1936-02-12
+  died: 2012-04-06
+  deathKind: natural
+  deathPlace: 美国亚利桑那州图森
+  tier: 2
+  role1966: 中国科学技术大学物理教研室讲师
+  pinyin: Fāng Lìzhī
+  gender: m
+  birthplace: 北京
+  positions:
+    - { title: 副校长, orgName: 中国科学技术大学, from: 1984, to: 1987-01, verify: true }
+  bio: 北京人，北京大学物理系毕业，天体物理学家。1957 年反右运动中被开除党籍，文革中在合肥中国科学技术大学被关押、下放。1978 年恢复党籍，1984 年任中国科学技术大学副校长，演讲中主张民主和人权，1987 年 1 月学潮后被撤职、开除党籍。1989 年 1 月致信邓小平要求特赦魏京生；6 月 5 日与妻子李淑娴进入美国驻华使馆避难，1990 年出国，此后在美国亚利桑那大学任教，2012 年去世。
+  life:
+    - h: 物理学家
+      from: 1936-02-12
+      to: 1978
+      text: |
+        1952 年考入北京大学物理系，毕业后在中国科学院物理研究所工作，1957 年反右运动中因整风时的意见被开除党籍。1958 年调中国科学技术大学任教，文革中被关押审查、下放淮南煤矿劳动，在劳动中自学广义相对论，开始宇宙学研究。
+      verify: true
+    - h: 科大副校长
+      from: 1978
+      to: 1988-12
+      text: |
+        1978 年恢复党籍，1984 年任中国科学技术大学副校长。他在各地高校演讲，说民主不是上面“给”的，主张知识分子独立思考。1986 年底合肥、上海、北京发生学潮，1987 年 1 月他与刘宾雁、王若望一起被开除党籍，被撤销副校长职务，调北京天文台。
+      verify: true
+    - h: 1989 与流亡
+      from: 1989-01
+      to: 2012-04-06
+      text: |
+        1989 年 1 月他写信给邓小平，要求在建国四十周年时特赦魏京生等政治犯。陈希同的报告说，1 月 28 日他与苏绍智等在“都乐书屋”举办“新启蒙沙龙”，说“现在需要行动”；4 月学生游行口号的修改是“在方励之的授意下”进行的。学潮期间他本人很少露面。6 月 5 日他和李淑娴进入美国驻华大使馆，被通缉，1990 年 6 月获准出国，先到英国剑桥，后在美国亚利桑那大学任物理学教授。2012 年 4 月 6 日在图森去世。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+  assess:
+    - { voice: officialLater, text: 方励之说，这类集会“对当局采取完全批判、彻底批判的态度”，“火药味很浓”，“现在需要行动”，“连开三次就要上街了”（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+    - { voice: editor, text: 官方报告把他列为动乱的幕后人物，但报告列举的都是 1 月到 4 月的言论和会议，没有写到他在 4–6 月学潮中的具体行动。, cite: ws-1989-06-30-chen-xitong-report }
+  factions: [democracy]
+  fate:
+    - { date: 1957, s: purged, note: 反右运动中被开除党籍, verify: true }
+    - { date: 1966, s: attacked, note: 文革中受审查、被关押，下放淮南煤矿劳动（月份不详）, verify: true }
+    - { date: 1978, s: restored, note: 恢复党籍, verify: true }
+    - { date: 1984, s: rise, note: 中国科学技术大学副校长, verify: true }
+    - { date: 1987-01, s: purged, note: 开除党籍、撤职, verify: true }
+    - { date: 1989-06-05, s: sidelined, note: 进入美国驻华使馆避难，被通缉, verify: true }
+    - { date: 2012-04-06, s: dead, note: 在美国图森去世, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: liu-xiaobo
+  name: 刘晓波
+  born: 1955-12-28
+  died: 2017-07-13
+  deathKind: natural
+  deathPlace: 沈阳
+  tier: 2
+  role1966: 长春小学生
+  pinyin: Liú Xiǎobō
+  gender: m
+  birthplace: 吉林长春
+  positions: []
+  bio: 吉林长春人，北京师范大学文学博士，1980 年代以激烈的文学批评知名。1989 年从美国回国参加学潮，6 月 2 日与侯德健、周舵、高新在天安门广场绝食，6 月 4 日凌晨参与劝说学生撤离广场。此后三次入狱、劳教；2008 年参与起草《零八宪章》，2009 年以“煽动颠覆国家政权罪”被判处有期徒刑十一年，2010 年在狱中获诺贝尔和平奖。2017 年确诊肝癌晚期后保外就医，7 月 13 日在沈阳去世。
+  life:
+    - h: “黑马”
+      from: 1955-12-28
+      to: 1989-04
+      text: |
+        判决书写明他“1955年12月28日出生”，“出生地吉林省长春市”。1977 年考入吉林大学中文系，后在北京师范大学获文学博士学位并留校任教。1986 年他在一次文学讨论会上批评新时期文学，被称为文坛“黑马”。1988 年底到挪威、美国讲学。
+      cites: [ws-2009-liu-xiaobo-judgment]
+      verify: true
+    - h: 1989 年
+      from: 1989-04
+      to: 1991-01
+      text: |
+        4 月底他从纽约回国。陈希同的报告说，他与胡平、陈军等人联名发出《致中国大学生公开信》；6 月 2 日“刘晓波等幕后策划者担心静坐请愿的学生难以坚持，就亲自走到前台，搞了一个4人参加的48小时至72小时的绝食”。6 月 4 日凌晨戒严部队包围广场后，他与侯德健等人同部队谈判，劝说学生撤离。6 月 6 日被捕。判决书引用的旧案记录是：“1991年1月因犯反革命宣传煽动罪被免予刑事处分”。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report, ws-2009-liu-xiaobo-judgment]
+    - h: 劳教、《零八宪章》与诺贝尔奖
+      from: 1991-01
+      to: 2017-07-13
+      text: |
+        1995–1996 年他因呼吁为“六四”平反再次被拘，“1996年9月因扰乱社会秩序被处劳动教养三年”。此后在北京以写作为生，任独立中文笔会会长。2008 年他与张祖桦等起草《零八宪章》，判决书说宪章提出“取消一党垄断执政特权”、“在民主宪政的架构下建立中华联邦共和国”等主张，征集三百余人签名后在境外网站发布。2008 年 12 月 8 日他被带走，2009 年 12 月北京市第一中级人民法院判决他“犯煽动颠覆国家政权罪，判处有期徒刑十一年，剥夺政治权利二年”。他在法庭上辩称“自己只是行使宪法赋予公民言论自由的权利”。
+        2010 年 10 月他获诺贝尔和平奖，颁奖礼上为他留了一把空椅子。2017 年 5 月确诊肝癌晚期，6 月转往沈阳的医院，7 月 13 日去世。他的妻子刘霞在他获奖后被软禁八年，2018 年获准出国。
+      verify: true
+      cites: [ws-2009-liu-xiaobo-judgment]
+  assess:
+    - { voice: judicial1980, text: 被告人刘晓波犯煽动颠覆国家政权罪，判处有期徒刑十一年，剥夺政治权利二年（2009 年北京市第一中级人民法院判决书）, cite: ws-2009-liu-xiaobo-judgment, quote: true }
+    - { voice: doc, text: 自己无罪，自己只是行使宪法赋予公民言论自由的权利，自己所发表的批评性言论，并未给他人带来实际损害，也没有煽动颠覆国家政权（刘晓波在法庭上的辩解，判决书记录）, cite: ws-2009-liu-xiaobo-judgment, quote: true }
+    - { voice: officialLater, text: 刘晓波等幕后策划者担心静坐请愿的学生难以坚持，就亲自走到前台，搞了一个4人参加的48小时至72小时的绝食闹剧（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1986, s: rise, note: 以文学批评成名, verify: true }
+    - { date: 1989-06-06, s: detained, note: 被捕, verify: true }
+    - { date: 1991-01, s: sidelined, note: 免予刑事处分后释放, cite: ws-2009-liu-xiaobo-judgment }
+    - { date: 1996-09, s: detained, note: 劳动教养三年, cite: ws-2009-liu-xiaobo-judgment }
+    - { date: 1999-10, s: sidelined, note: 解除劳教, verify: true }
+    - { date: 2008-12-08, s: detained, note: 因《零八宪章》被拘传, cite: ws-2009-liu-xiaobo-judgment }
+    - { date: 2017-07-13, s: dead, note: 肝癌晚期，服刑期间保外就医时去世, verify: true }
+  cites: [ws-2009-liu-xiaobo-judgment, ws-1989-06-30-chen-xitong-report]
+
+- id: wang-dan
+  name: 王丹
+  born: 1969-02-26
+  tier: 2
+  role1966: （1969 年出生）
+  pinyin: Wáng Dān
+  gender: m
+  birthplace: 北京
+  positions: []
+  bio: 北京人，北京大学历史系学生，1988 年起在校园主持“民主沙龙”。1989 年是北京高校学生自治联合会（“高自联”）的主要负责人之一，参与组织 5 月 13 日起的绝食。“六四”后被列为 21 名通缉学生领袖之首，1991 年被判刑四年；1995 年再次被捕，1996 年以“阴谋颠覆政府罪”被判刑十一年，1998 年保外就医赴美。此后在哈佛大学获博士学位，在台湾等地任教，从事公开的民主运动活动。
+  life:
+    - h: 民主沙龙
+      from: 1988
+      to: 1989-04
+      text: |
+        1987 年考入北京大学历史系，1988 年起在未名湖畔塞万提斯像前主持“民主沙龙”。陈希同的报告说，“仅北大学生王丹主持的‘民主沙龙’一年就搞了17场讲座”，还把方励之的妻子李淑娴请去。
+      cites: [ws-1989-06-30-chen-xitong-report]
+    - h: 1989 年
+      from: 1989-04
+      to: 1989-07-02
+      text: |
+        胡耀邦去世后，按陈希同的报告，“通过非法学生组织的头头王丹在天安门广场首先提出的‘九条要求’”，第一条是重新评价胡耀邦。5 月 13 日学生开始绝食，报告引他的话说选在这一天“正好可以借戈尔巴乔夫访华压他们”。5 月 18 日他与吾尔开希等在人民大会堂与李鹏会面。6 月 13 日公安部发布 21 名学生领袖的通缉令，他列在第一位；7 月 2 日在北京被捕。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+    - h: 两次判刑与出国
+      from: 1989-07
+      text: |
+        1991 年 1 月以“反革命宣传煽动罪”被判处有期徒刑四年，1993 年提前释放。1995 年 5 月因联署呼吁信再次被拘，1996 年 10 月以“阴谋颠覆政府罪”被判处有期徒刑十一年，1998 年 4 月以保外就医名义被送往美国。此后在哈佛大学获历史学博士学位，在台湾多所大学任教，长期从事公开的海外民主运动。
+      verify: true
+  assess:
+    - { voice: officialLater, text: “高自联”的头头王丹说，选在13日开始绝食，“正好可以借戈尔巴乔夫访华压他们”（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1989-04, s: rise, note: 北京高校学生自治联合会负责人, verify: true }
+    - { date: 1989-07-02, s: detained, note: 被捕, verify: true }
+    - { date: 1993-02, s: sidelined, note: 提前释放, verify: true }
+    - { date: 1995-05, s: detained, note: 再次被拘，1996 年判刑十一年, verify: true }
+    - { date: 1998-04, s: sidelined, note: 保外就医送往美国, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: ding-zilin
+  name: 丁子霖
+  born: 1936
+  tier: 3
+  role1966: 中国人民大学教师
+  pinyin: Dīng Zǐlín
+  gender: f
+  positions: []
+  bio: 中国人民大学哲学系副教授。十七岁的儿子蒋捷连 1989 年 6 月 3 日夜在北京木樨地附近被戒严部队枪击身亡。此后她和丈夫蒋培坤、张先玲等遇难者家属逐一寻访死者和伤残者，形成“天安门母亲”群体，持续公开要求“公开六四真相，追究事件责任”，长期受到监控和软禁。
+  life:
+    - h: 天安门母亲
+      from: 1989-06-03
+      text: |
+        维基百科说，天安门母亲运动“主要发起者为六四事件死者蒋捷连之母、中国人民大学前哲学系副教授丁子霖，约始于2000年初”。她从 1990 年代初开始逐户寻访，按综述，群体确认的“失踪与死伤者清单，1999年有155人、2005年有187人、2010年有195人，2011年8月有202人”（脚注号略）。群体的诉求包括“死难者家属有权公开悼念在六四事件中遇难的亲人”和“公开六四真相，追究事件责任”。每到 6 月前后，她和其他成员常被限制出行或软禁。
+      verify: true
+      cites: [wp-tiananmen-mothers, wp-1989-casualties]
+  assess:
+    - { voice: witness, text: 公开六四真相，追究事件责任（“天安门母亲”群体的诉求之一，维基百科转录）, cite: wp-tiananmen-mothers, quote: true }
+    - { voice: editor, text: 群体的名单逐年增加，是按姓名逐一核实的下限，不是估计数；它与陈希同报告的“200余人”、英国解密档案的“1万多名”都并列在本站的 1989 年事件里。, cite: wp-1989-casualties }
+  factions: [democracy]
+  fate:
+    - { date: 1989-06-03, s: normal, note: 儿子蒋捷连被戒严部队枪击身亡, verify: true }
+    - { date: 2000, s: sidelined, note: 发起“天安门母亲”群体，长期受监控, cite: wp-tiananmen-mothers }
+  cites: [wp-tiananmen-mothers, wp-1989-casualties]

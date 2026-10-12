@@ -140,6 +140,13 @@
   from: 1957-06
   summary: 1957 年反右派斗争中被划为右派的民主党派领导人和知识分子，官方后来公布共五十五万余人。1978 年全部摘帽，此后绝大多数改正；1980 年统战部提出章伯钧、罗隆基、彭文应、储安平、陈仁炳五人维持原案。
   cites: [ws-1980-ufwd-rightist-review]
+- id: democracy
+  name: 民主运动
+  kind: dissent
+  color: '#b45309'
+  from: 1978-11
+  summary: 1978 年西单“民主墙”以来，公开要求政治民主、言论自由和人权的学生、知识分子和普通市民。1989 年春的学潮是规模最大的一次，6 月 3–4 日被戒严部队以武力清场，组织者被通缉、判刑或流亡；遇难者家属后来组成“天安门母亲”群体。官方定性为“动乱”和“反革命暴乱”。
+  cites: [ws-1989-06-30-chen-xitong-report, ws-1989-06-24-fourth-plenum, wp-tiananmen-mothers]
 - id: dissent
   name: 异端思想
   kind: dissent

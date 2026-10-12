@@ -1,0 +1,23 @@
+﻿# M3 人物第 15 批（1989）：伤亡数字的非官方说法，只能从网页抓取（tools/fetch-web.ts）。
+# 维基百科为 CC BY-SA 二手综述，只作“其他说法”的出处；文中 [n] 为条目原有脚注号，原样保留。
+web:
+  - id: wp-1989-casualties
+    title: 六四事件 · 死伤人数（中文维基百科条目一节）
+    date: 2026-10-11
+    author: 中文维基百科编者
+    kind: chronology
+    alias: 维基百科“六四事件 · 死伤人数”
+    url: https://zh.wikipedia.org/zh-cn/%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6
+    via: 中文维基百科，2026 年 10 月抓取；各数字的原始出处见条目脚注（VOA 2017-12-22 英国解密档案，《纽约时报》1989-06-21 纪思道，天安门母亲《真相与记忆》等）
+    start: 由于中国当局拒绝提供更多相关资料
+    end: 以及6月4日后因抗议活动而被杀者[10][263]。
+  - id: wp-tiananmen-mothers
+    title: 天安门母亲（中文维基百科条目）
+    date: 2026-10-11
+    author: 中文维基百科编者
+    kind: chronology
+    alias: 维基百科“天安门母亲”条目
+    url: https://zh.wikipedia.org/zh-cn/%E5%A4%A9%E5%AE%89%E9%97%A8%E6%AF%8D%E4%BA%B2
+    via: 中文维基百科，2026 年 10 月抓取
+    start: 天安门母亲运动是由六四事件遇害者家属组成
+    end: 公开六四真相，追究事件责任。

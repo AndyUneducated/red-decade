@@ -136,3 +136,15 @@
 - { a: deng-xiaoping, b: hu-qiaomu, type: subordinate, from: 1975, note: 国务院政研室；在邓小平主持下起草 1981 年决议, cite: rmrb-1992-10-04-hu-qiaomu }
 - { a: zhao-ziyang, b: deng-xiaoping, type: link, from: 1989-05-16, note: 向戈尔巴乔夫说“在最重要的问题上，仍然需要邓小平同志掌舵”, cite: ws-1989-06-zhao-errors-report }
 - { a: yao-yilin, b: zhao-ziyang, type: link, from: 1989-05-03, note: 要求他在五四讲话中加反对资产阶级自由化的内容，被拒绝（李鹏报告）, cite: ws-1989-06-zhao-errors-report }
+# batch 15
+- { a: li-peng, b: zhao-ziyang, type: attack, from: 1989-06-23, note: 代表政治局作关于赵紫阳错误的报告, cite: ws-1989-06-24-fourth-plenum }
+- { a: zhao-ziyang, b: bao-tong, type: subordinate, from: 1980, to: 1989-05-28, note: 秘书；中央政治体制改革研究室主任, cite: ws-1989-06-30-chen-xitong-report }
+- { a: deng-xiaoping, b: jiang-zemin, type: patron, from: 1989-06-24, note: 四中全会选为总书记，11 月接任军委主席, cite: ws-1989-06-24-fourth-plenum }
+- { a: chen-xitong, b: wang-dan, type: attack, from: 1989-06-30, note: 报告点名为“高自联”的头头, cite: ws-1989-06-30-chen-xitong-report }
+- { a: chen-xitong, b: fang-lizhi, type: attack, from: 1989-06-30, note: 报告把他列为动乱的幕后人物, cite: ws-1989-06-30-chen-xitong-report }
+- { a: chen-xitong, b: yan-jiaqi, type: attack, from: 1989-06-30, note: 报告点名《5·17宣言》, cite: ws-1989-06-30-chen-xitong-report }
+- { a: chen-xitong, b: liu-xiaobo, type: attack, from: 1989-06-30, note: 报告称他为“幕后策划者”, cite: ws-1989-06-30-chen-xitong-report }
+- { a: yan-jiaqi, b: bao-tong, type: link, note: 陈希同报告称两人“联系密切”, cite: ws-1989-06-30-chen-xitong-report }
+- { a: yan-jiaqi, b: li-peng, type: attack, from: 1989-05, note: 在香港《明报》呼吁人大罢免李鹏, cite: ws-1989-06-30-chen-xitong-report }
+- { a: wang-dan, b: fang-lizhi, type: link, from: 1988, note: 民主沙龙请方励之的妻子李淑娴讲话, cite: ws-1989-06-30-chen-xitong-report }
+- { a: li-peng, b: wang-dan, type: link, from: 1989-05-18, note: 人民大会堂会面, verify: true }

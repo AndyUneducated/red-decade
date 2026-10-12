@@ -204,6 +204,12 @@
 # batch 14
 - { id: dongping, name: 山东东平, names: [东平], lat: 35.94, lon: 116.47 }
 - { id: fuping-shaanxi, name: 陕西富平, names: [富平], lat: 34.75, lon: 109.18 }
+# batch 15
+- { id: anyue, name: 四川安岳, names: [安岳], lat: 30.10, lon: 105.34 }
+- { id: xinghua, name: 江苏兴化, names: [兴化], lat: 32.94, lon: 119.85 }
+- { id: haining, name: 浙江海宁, names: [海宁], lat: 30.51, lon: 120.68 }
+- { id: wujin, name: 江苏武进, names: [武进], lat: 31.70, lon: 119.94 }
+- { id: tucson, name: 美国图森, names: [图森], lat: 32.22, lon: -110.97, far: true }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
