@@ -98,3 +98,17 @@
 - { a: wang-li, b: yao-dengshan, type: patron, from: 1967-08-08, to: 1967-08, note: 亲笔信称“你讲的话，也是对的”, cite: zou-yimin-yao-dengshan }
 - { a: yao-dengshan, b: chen-yi, type: attack, from: 1967-05, to: 1967-09, note: 坚持打倒陈毅, cite: zou-yimin-yao-dengshan }
 - { a: yao-dengshan, b: ji-pengfei, type: attack, from: 1967-08-15, to: 1967-09, note: “这边是打倒陈姬乔”, cite: zou-yimin-yao-dengshan }
+- { a: lin-liguo, b: zhou-yuchi, type: ally, from: 1969-10-18, to: 1971-09-13, note: “调研小组”与“联合舰队”, cite: ws-1980-indictment }
+- { a: lin-liguo, b: wang-fei, type: ally, from: 1969-10-18, to: 1971-09-13, note: “调研小组”与“联合舰队”, cite: ws-1980-indictment }
+- { a: wu-faxian, b: lin-liguo, type: patron, from: 1969-10-18, note: “空军的一切都要向立果同志汇报”, cite: ws-1980-indictment }
+- { a: lin-liguo, b: jiang-tengjiao, type: patron, from: 1971-03-31, to: 1971-09-13, note: 指定负责南京、上海、杭州“三点联系”, cite: ws-1981-01-25-judgment }
+- { a: lin-liguo, b: wang-weiguo, type: patron, from: 1971-03-31, to: 1971-09-13, note: 指定为上海的“头”, cite: ws-1982-wang-weiguo-case }
+- { a: lin-liguo, b: chen-liyun, type: patron, from: 1971-03-31, to: 1971-09-13, note: 指定为杭州的“头”, cite: ccom-chen-liyun-interview }
+- { a: ye-qun, b: jiang-tengjiao, type: patron, from: 1966-10, note: 指使他到上海抄文艺界人士的家, cite: ws-1980-indictment }
+- { a: huang-yongsheng, b: liu-xingyuan, type: ally, from: 1967-05, to: 1970-11, note: 广州部队“反革命集团”冤案, cite: ws-1980-indictment }
+- { a: ding-sheng, b: ma-tianshui, type: link, from: 1976-08, note: 延安饭店半夜密谈, cite: ws-1980-indictment }
+- { a: ding-sheng, b: xu-jingxian, type: link, from: 1976-08, note: 延安饭店半夜密谈, cite: ws-1980-indictment }
+- { a: chi-qun, b: xie-jingyi, type: ally, from: 1968, to: 1976-10, note: 共同掌握清华、北大, cite: ws-1982-chi-qun-case }
+- { a: jiang-qing, b: chi-qun, type: patron, from: 1974-01, to: 1976-10, note: 指派去马振扶中学, cite: ws-1982-chi-qun-case }
+- { a: chi-qun, b: deng-xiaoping, type: attack, from: 1975-09, to: 1976-10, note: 指挥两校写作班子批邓, cite: ws-1982-chi-qun-case }
+- { a: xie-jingyi, b: deng-xiaoping, type: attack, from: 1976-03-26, note: 与迟群当面围攻, cite: ws-1982-chi-qun-case }

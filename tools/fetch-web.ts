@@ -109,7 +109,11 @@ async function get(url: string): Promise<string> {
 }
 
 function decode(s: string): string {
+  const named: Record<string, string> = {
+    ldquo: '“', rdquo: '”', lsquo: '‘', rsquo: '’', mdash: '—', ndash: '–', hellip: '…', middot: '·', copy: '©',
+  }
   return s
+    .replace(/&(ldquo|rdquo|lsquo|rsquo|mdash|ndash|hellip|middot|copy);/g, (_, n: string) => named[n])
     .replace(/&nbsp;/g, ' ')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')

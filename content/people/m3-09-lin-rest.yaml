@@ -1,0 +1,522 @@
+# M3 people, batch 9: the rest of the Lin Biao group (the "联合舰队" and the three Shanghai-meeting
+# "heads"), two Canton/Nanjing commanders, and the two who ran Tsinghua for 江青 (迟群, 谢静宜).
+# Texts: 1980 indictment, 1981 judgment, 1971–72 central Lin Biao materials, the 1982 王维国 case,
+# the 1983 迟群 case, the 1975 NPC list, and 许寅's 1988 interview quoting 陈励耘's 1982 non-prosecution
+# decision. Dates not in these texts come from general reference and are marked verify.
+
+- id: jiang-tengjiao
+  name: 江腾蛟
+  born: 1919-11-02
+  died: 2009-05-08
+  tier: 3
+  role1966: 南京军区空军政治委员
+  pinyin: Jiāng Téngjiāo
+  gender: m
+  ethnicity: 汉族
+  birthplace: 湖北红安
+  origin: 湖北红安
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedRevolution: 1930
+  positions:
+    - { title: 南京军区空军副政治委员兼空四军政治委员, orgName: 中国人民解放军空军, from: 1962-03, to: 1966-12, verify: true }
+    - { title: 南京军区空军政治委员, orgName: 中国人民解放军空军, from: 1966-12, to: 1968-04, cite: ws-1981-01-25-judgment }
+  rank: { rank: 少将, date: 1955-09 }
+  bio: 湖北红安人，11 岁参加红军，抗战中在新四军、解放战争中在东北部队做政治工作，1955 年授少将。1966 年底任南京军区空军政委，1968 年 4 月因在南京军区制造动乱被撤职，调到北京空军机关。此后成为林立果的“联合舰队”在南方的联络人：1966 年 10 月受叶群指使在上海抄了郑君里、赵丹等五人的家；1971 年 3 月在上海秘密会议上被指定为南京、上海、杭州“三点联系”的负责人，9 月被派为上海地区谋杀毛泽东的“第一线指挥”。林彪出逃次日即交代。1981 年作为十名主犯之一被判有期徒刑十八年，2009 年在北京病逝。
+  life:
+    - h: 红小鬼到空军政委
+      from: 1919
+      to: 1965
+      text: |
+        1919 年生于湖北黄安（今红安），1930 年参加红军和共青团，1937 年入党。抗战时在新四军第二师任团政治处主任，解放战争时在东北民主联军、第四野战军第三十八军任师政治部主任，参加辽沈、平津战役。1949 年后任师政委、军政治部主任、广州军区防空军政委、空四军政委，1955 年授少将，1962 年任南京军区空军副政委兼空四军政委。
+      verify: true
+    - h: 抄家与撤职
+      from: 1966
+      to: 1970
+      text: |
+        据 1980 年起诉书，1966 年 10 月江青勾结叶群，叶群让吴法宪把他找到北京，说“江青同志有一封信落在郑君里、顾而已他们手里”，要他搜查郑君里、顾而已、赵丹、童芷苓等五人的家。他回上海后组织四十多人冒充红卫兵，10 月 9 日凌晨搜查了赵丹、郑君里、童芷苓、陈鲤庭和顾而已的家，把搜得的东西分两次送到叶群住处。1966 年 12 月任南京军区空军政委兼空四军第一政委，1968 年 4 月被撤职，此后到北京参加空军党委常委办公会议。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment]
+    - h: 三点联系与第一线指挥
+      from: 1971-03
+      to: 1971-09
+      text: |
+        1971 年 3 月 31 日，林立果按《“571工程”纪要》建立“指挥班子”的计划，在上海召集他和王维国、陈励耘、周建平秘密开会，指定南京以周建平、上海以王维国、杭州以陈励耘为“头”，由他“进行三点联系、配合、协同作战”。9 月 8 日林彪下达武装政变手令后，林立果、周宇驰向他传达，派他担任上海地区第一线指挥，密谋用火焰喷射器、四零火箭打毛泽东的专列，或炸苏州附近的硕放铁路桥。计划落空后，9 月 12 日他又接受南逃广州的布置。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1972-lin-material-3]
+    - h: 主犯
+      from: 1971-09-14
+      to: 2009
+      text: |
+        判决书说他“在林彪叛逃的第二天，交代了自己的罪行”，并揭发了同案犯。1973 年被开除党籍。王飞因精神病不能出庭后，他成为两案十名主犯中唯一的“联合舰队”成员，1981 年 1 月 25 日以积极参加反革命集团罪、策动武装叛乱罪、反革命杀人罪（未遂）被判有期徒刑十八年、剥夺政治权利五年。后保外就医，住在太原，2009 年 5 月 8 日在北京病逝。
+      cites: [ws-1981-01-25-judgment]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 被告人江腾蛟，以推翻人民民主专政为目的，积极参加反革命集团，是反革命集团案的主犯（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 江腾蛟在林彪叛逃的第二天，交代了自己的罪行, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 判处被告人江腾蛟有期徒刑十八年，剥夺政治权利五年, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: editor, text: 十名主犯里他的职务最低，1968 年起已无实职。他被“升”为主犯，与原定主犯王飞患精神分裂症不能受审有关。, cite: ws-1981-01-25-judgment }
+  factions: [lin]
+  fate:
+    - { date: 1930, s: normal, note: 参加红军, verify: true }
+    - { date: 1966-10-09, s: power, note: 在上海搜查文艺界五人的家, cite: ws-1980-indictment }
+    - { date: 1966-12, s: power, note: 南京军区空军政委, verify: true }
+    - { date: 1968-04, s: sidelined, note: 被撤职, verify: true }
+    - { date: 1971-03-31, s: rise, note: 上海秘密会议，负责“三点联系”, cite: ws-1980-indictment }
+    - { date: 1971-09-14, s: detained, note: 交代罪行, cite: ws-1981-01-25-judgment }
+    - { date: 1981-01-25, s: detained, note: 判处有期徒刑十八年, cite: ws-1981-01-25-judgment }
+    - { date: 2009-05-08, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1972-lin-material-3]
+
+- id: zhou-yuchi
+  name: 周宇驰
+  born: 1935
+  died: 1971-09-13
+  tier: 3
+  role1966: 空军司令部办公室工作人员
+  pinyin: Zhōu Yǔchí
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河北乐亭
+  origin: 河北乐亭
+  deathKind: suicide
+  deathPlace: 北京怀柔
+  party: 中国共产党
+  positions:
+    - { title: 空军司令部办公室副主任, orgName: 中国人民解放军空军, from: 1969, to: 1971-09-13, cite: ws-1980-indictment }
+  bio: 河北乐亭人，冀东八路军出身，在空军当过航校干事、刘亚楼秘书，1966 年 5 月调回空军司令部办公室。林立果 1967 年进入空军后由他带领，此后成为“联合舰队”的核心：1969 年林彪亲笔写信要他“让老虎多单独行动”；1971 年 3 月与林立果在上海制订《“571工程”纪要》，又秘密练习驾驶直升机。9 月他向江腾蛟、王飞等传达林彪手令、布置谋杀和南逃。9 月 13 日凌晨得知林彪出逃，与于新野、李伟信劫持直升机外逃，被驾驶员陈修文迫降在怀柔，他开枪打死陈修文后与于新野自杀。1981 年判决书列他为已死亡的六名主犯之一。
+  life:
+    - h: 刘亚楼的秘书
+      from: 1935
+      to: 1966-05
+      text: |
+        1935 年生于河北乐亭，1946 年参加冀东八路军。1949 年调入空军第一航校，体检不合格不能飞行，任宣传科干事；后调北京任空军司令员刘亚楼的秘书。1963 年下放到盐城某部任营教导员，1964 年 8 月任虹桥机场空军某飞行大队政委，1966 年 5 月下旬调回空军司令部办公室。
+      verify: true
+    - h: 联合舰队
+      from: 1967
+      to: 1971-08
+      text: |
+        1969 年 2 月 16 日，林彪写信给他和刘沛丰，要他们“让老虎多单独行动”（老虎是林立果的小名）。同年 10 月吴法宪任命林立果为空军司令部办公室副主任兼作战部副部长，10 月 18 日把林立果、王飞和“空军司令部办公室副主任周宇驰等”召集在一起，宣布“空军的一切都要向立果同志汇报”，周宇驰、王飞随即在空军党委和机关传达。1970 年 5 月他与王飞召集会议向林彪表“忠心”，推林立果为“头”；10 月这个“调研小组”组成为“联合舰队”。1971 年 3 月他与林立果、于新野、李伟信在上海制订《“571工程”纪要》；5 月起秘密练习驾驶直升机，飞到南昌、庐山、广州、北戴河等地。
+      cites: [ws-1972-lin-material-3, ws-1980-indictment]
+    - h: 九一三
+      from: 1971-09
+      to: 1971-09-13
+      text: |
+        9 月 5 日他从顾同舟处探听到毛泽东在长沙的谈话内容，密报林立果、叶群。8 日林彪的手令写的是“盼照立果、宇驰同志传达的命令办”；8 日至 11 日他和林立果在空军学院和西郊机场的据点向江腾蛟、王飞等传达手令，策划谋杀。11 日王维国向他密报毛泽东已离开上海；12 日他布置南逃广州，把周恩来追查 256 号专机的情况报告林立果。13 日凌晨 3 时 15 分，他与于新野、李伟信带着窃取的大批机密文件和美钞，在沙河机场劫持 3685 号直升机外逃。驾驶员陈修文发觉后飞回北京，在怀柔迫降，降落时陈修文被他打死，他和于新野随即自杀，李伟信被俘。
+      cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1972-lin-material-3]
+  assess:
+    - { voice: official1966, text: 直升飞机迫降后，周、于二贼自杀，李伟信和另一驾驶员陈士印被我活捉（1972 年中共中央《粉碎林陈反党集团反革命政变的斗争》材料之三）, cite: ws-1972-lin-material-3, quote: true }
+    - { voice: judicial1980, text: 驾驶员陈修文发觉后，采取措施飞回到北京市怀柔县，降落时陈修文被周宇驰杀害（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 他和林立果都没有活到受审，“571工程纪要”由谁起草、他在谋杀计划中实际做了多少，只能依据于新野笔记、李伟信供词和直升机上缴获的文件。, cite: ws-1972-lin-material-3 }
+  factions: [lin]
+  fate:
+    - { date: 1946, s: normal, note: 参加冀东八路军, verify: true }
+    - { date: 1969-10-18, s: rise, note: 吴法宪交权给林立果，周宇驰在场, cite: ws-1980-indictment }
+    - { date: 1971-03, s: power, note: 制订《“571工程”纪要》, cite: ws-1980-indictment }
+    - { date: 1971-09-13, s: dead, note: 劫机迫降后自杀, cite: ws-1972-lin-material-3 }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1972-lin-material-3, ws-1971-09-18-notice]
+
+- id: wang-fei
+  name: 王飞
+  born: 1922-10
+  died: 2014-10
+  tier: 3
+  role1966: 空军司令部办公室主任
+  pinyin: Wáng Fēi
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山东淄博
+  origin: 山东淄博
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedRevolution: 1938
+  positions:
+    - { title: 空军司令部办公室主任, orgName: 中国人民解放军空军, to: 1971-09, verify: true }
+    - { title: 空军司令部副参谋长, orgName: 中国人民解放军空军, from: 1969, to: 1971-09, cite: ws-1980-indictment }
+  bio: 山东临淄人，1938 年参加八路军，1948 年参加空军筹建，此后一直在空军司令部，林立果进空军时他是办公室主任，1969 年升副参谋长兼办公室主任。他与周宇驰同为“联合舰队”的骨干：1970 年 5 月召集会议向林彪表“忠心”，1971 年 9 月替林彪、叶群给黄永胜送密件，林彪信中说黄“有事时可与王飞同志面洽”；12 日又参与拟定南逃广州的人员名单。九一三后被关押，在狱中患精神分裂症，原定的两案主犯资格由江腾蛟替代，1981 年起取保候审三十多年不结案，2014 年在北京病逝。
+  life:
+    - h: 空军机关
+      from: 1922
+      to: 1968
+      text: |
+        1922 年生于山东淄博临淄，1938 年参加八路军，任清河特委书记秘书、高苑县委书记。1948 年冬参加空军筹建，空军成立后一直在司令部工作。1967 年林立果进入空军司令部办公室当秘书时，他是办公室主任，把带林立果的事交给副主任周宇驰。
+      verify: true
+    - h: 调研小组与联合舰队
+      from: 1969
+      to: 1971-09
+      text: |
+        据起诉书，1969 年 10 月 18 日吴法宪把林立果、王飞和周宇驰召集在一起，宣布“空军的一切都要向立果同志汇报”；林立果随后“伙同周宇驰、王飞等组成‘调研小组’”。他还与吴法宪、参谋长梁璞一起诬陷、迫害空军干部。1970 年 5 月 3 日他和周宇驰召集会议，吹捧林彪是“革命导师和领袖”、林立果是“全才”。1971 年 9 月 8 日林立果让他把叶群给黄永胜的密封亲启件送去，10 日上午送达；林彪给黄永胜的信又交到他手上备用。12 日他与于新野、贺德全等拟定南逃人员名单，当晚又召集“七人黑会”，草拟随林彪南逃广州的行动计划和名单。
+      cites: [ws-1980-indictment, ws-1972-lin-material-3]
+    - h: 精神病与取保候审
+      from: 1971-09
+      to: 2014-10
+      text: |
+        九一三后被隔离审查，关押在秦城。1979 年底总政林案办把他列为主犯，1980 年 6 月秦城监狱报告他出现精神分裂症状，送安定医院，主犯改由江腾蛟替代。1981 年起取保候审，此后一直没有起诉、判决或结论，2014 年 10 月在空军总医院去世。
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 林立果伙同周宇驰、王飞等组成“调研小组”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: doc, text: 永胜同志：很惦念你，望任何时候都要乐观，保护身体，有事时可与王飞同志面洽（1971 年 9 月林彪致黄永胜信，起诉书引）, cite: ws-1980-indictment, quote: true }
+    - { voice: official1966, text: 王飞、周宇驰召集会议，向林彪表“忠心”，无耻吹捧林彪是“革命导师和领袖”，吹捧林立果是“全才”（1972 年中央材料之三）, cite: ws-1972-lin-material-3, quote: true }
+    - { voice: editor, text: 他是“联合舰队”里卷入最深的活人之一，却从未受审。起诉书和判决书都写到他的行为，但没有列他为被告。 }
+  factions: [lin]
+  fate:
+    - { date: 1938, s: normal, note: 参加八路军, verify: true }
+    - { date: 1969-10-18, s: rise, note: 吴法宪交权给林立果，王飞在场, cite: ws-1980-indictment }
+    - { date: 1970-05-03, s: power, note: 召集会议推林立果为“头”, cite: ws-1972-lin-material-3 }
+    - { date: 1971-09, s: detained, note: 隔离审查, verify: true }
+    - { date: 1981, s: sidelined, note: 因精神病取保候审, verify: true }
+    - { date: 2014-10, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1972-lin-material-3]
+
+- id: wang-weiguo
+  name: 王维国
+  born: 1919-11
+  died: 1993-06-06
+  tier: 3
+  role1966: 空五军副政治委员
+  pinyin: Wáng Wéiguó
+  gender: m
+  ethnicity: 汉族
+  birthplace: 河北元氏
+  origin: 河北元氏
+  deathKind: natural
+  party: 中国共产党
+  joinedRevolution: 1938-03
+  positions:
+    - { title: 空四军第一政治委员, orgName: 中国人民解放军空军, from: 1969, to: 1971-09-20, verify: true }
+    - { title: 上海市革命委员会副主任, orgName: 上海市革命委员会, from: 1970-03, to: 1971-09, verify: true }
+    - { title: 中央候补委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1971-09, cite: ws-1982-wang-weiguo-case }
+  bio: 河北元氏人，1938 年参军，长期在空军做政治工作。1967 年起任驻上海的空四军政委、上海市革委会常委，后为副主任，九大当选中央候补委员。他替林立果整顿和领导“上海小组”，在新华一村修秘密据点、组建“教导队”，试制冲锋枪送林立果；1971 年 3 月在上海秘密会议上被指定为上海的“头”。9 月 10 日毛泽东在上海找他和王洪文谈话，次日毛离开后他立即向周宇驰密报，12 日又派儿子乘飞机到北京详细报告。9 月 20 日被隔离审查，1982 年被军事法院判有期徒刑十四年，他不认罪，上诉被驳回。1985 年刑满，1993 年病逝。
+  life:
+    - h: 空军政工干部
+      from: 1919
+      to: 1966
+      text: |
+        1919 年生于河北元氏，1938 年 3 月入伍。1949 年后参加组建空降师，1954 年起任空军航空兵第十九师副政委、政委，1962 年调上海任空四军政治部副主任、主任，1965 年任空五军副政委。
+      verify: true
+    - h: 上海小组与教导队
+      from: 1967
+      to: 1971-08
+      text: |
+        1967 年 3 月任空四军第二政委、上海市革委会常委，1969 年任第一政委，九大当选中央候补委员。1970 年九届二中全会上，吴法宪找他和陈励耘谈话，要他们在小组会上讲设国家主席和“天才”问题。据 1982 年起诉书，他在林立果指挥下整顿为林立果找对象的“上海小组”，要求成员“每一件工作、行动，都要考虑大局”，“大局就是副部长（指林立果）”。1971 年 3 月按林立果、周宇驰的指使在上海新华一村修建秘密据点（“要修地下室，门窗要装防弹玻璃，院墙要开暗门”），组建由他领导的“教导队”，进行捕俘、格斗、打巷战等特种训练，又在军械修理厂试制 7.62 毫米冲锋枪八支，送给林立果两支。3 月 31 日参加上海秘密会议，被指定为上海的“头”。
+      cites: [ws-1982-wang-weiguo-case, ws-1971-12-lin-chen-material-1, ws-1980-indictment]
+    - h: 九月密报
+      from: 1971-09
+      to: 1971-09-20
+      text: |
+        9 月 10 日下午毛泽东在上海找他和王洪文谈话。11 日毛离开上海，他两次打电话找周宇驰，密报毛已离开和谈话内容；12 日晨又派儿子乘飞机到北京当面详细报告。当晚周宇驰通过李伟信通知“上海小组”：明天有一架大飞机到上海，小组和教导队全副武装随机出发，“告王政委明日上机场”。他听后说：“这次出发，可能和我把毛主席来上海的情况向林立果他们讲了有关。”13 日林彪出逃后，他指使手下销毁罪证，解散“上海小组”和“教导队”。
+      cites: [ws-1982-wang-weiguo-case]
+    - h: 审判
+      from: 1971-09-20
+      to: 1993-06-06
+      text: |
+        1971 年 9 月 20 日被隔离审查，1980 年 7 月 28 日被逮捕。1982 年 3 月 1 日至 9 日中国人民解放军军事法院公开审理，以积极参加反革命集团罪判三年、策动叛乱罪判十二年，合并执行十四年，剥夺政治权利三年和二级独立自由勋章、二级解放勋章；判决书说“王维国不承认是犯罪”。他以“事实有的有出入”和“受蒙骗、被利用”为由上诉，最高人民法院裁定驳回。刑期到 1985 年 9 月 19 日止，出狱后安置在河北永年，1993 年 6 月 6 日病逝。
+      cites: [ws-1982-wang-weiguo-case]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 积极参加林彪反革命集团，参与策动武装叛乱，已构成积极参加反革命集团罪和策动叛乱罪（1982 年军事法院判决书）, cite: ws-1982-wang-weiguo-case, quote: true }
+    - { voice: doc, text: 这次出发，可能和我把毛主席来上海的情况向林立果他们讲了有关（1971 年 9 月 12 日王维国语，判决书引）, cite: ws-1982-wang-weiguo-case, quote: true }
+    - { voice: editor, text: 判决书和上诉裁定都说他不认罪。按后来的研究，参加上海会议的陈励耘、王维国、周建平事前不知道《“571工程”纪要》的存在；陈励耘被免予起诉，周建平也未被判刑，只有他因 9 月的密报被判重刑。, cite: ccom-chen-liyun-interview, verify: true }
+  factions: [lin]
+  fate:
+    - { date: 1938-03, s: normal, note: 入伍, cite: ws-1982-wang-weiguo-case }
+    - { date: 1967-03, s: rise, note: 空四军第二政委、上海市革委会常委, verify: true }
+    - { date: 1969-04, s: power, note: 九届中央候补委员, cite: ws-1982-wang-weiguo-case }
+    - { date: 1971-03-31, s: power, note: 被指定为上海的“头”, cite: ws-1982-wang-weiguo-case }
+    - { date: 1971-09-20, s: detained, note: 隔离审查, cite: ws-1982-wang-weiguo-case }
+    - { date: 1982-03-09, s: detained, note: 判处有期徒刑十四年, cite: ws-1982-wang-weiguo-case }
+    - { date: 1985-09-19, s: normal, note: 刑满释放, cite: ws-1982-wang-weiguo-case }
+    - { date: 1993-06-06, s: dead, verify: true }
+  cites: [ws-1982-wang-weiguo-case, ws-1980-indictment, ws-1971-12-lin-chen-material-1]
+
+- id: chen-liyun
+  name: 陈励耘
+  born: 1919-09
+  died: 2004-12
+  tier: 3
+  role1966: 空五军政治委员
+  pinyin: Chén Lìyún
+  gender: m
+  ethnicity: 汉族
+  birthplace: 四川成都
+  origin: 四川成都
+  deathKind: natural
+  party: 中国共产党
+  joinedParty: 1938-07
+  joinedRevolution: 1938-03
+  positions:
+    - { title: 空五军政治委员, orgName: 中国人民解放军空军, from: 1964-07, to: 1971-09-20, cite: ccom-chen-liyun-interview }
+    - { title: 中央候补委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1971-09, cite: ccom-chen-liyun-interview }
+  bio: 成都人，抗大出身，长期在空军做政治工作，1964 年起任驻杭州的空五军政委，文革中兼浙江省革委会副主任，1969 年由周恩来提名为九届中央候补委员。他主持修建了给林彪住的杭州“704 工程”；1970 年庐山会议上受吴法宪鼓动，1971 年 3 月在上海秘密会议上被林立果指定为杭州的“头”。中央 1972 年的材料说，9 月 8 日于新野到杭州与他密商用改装的伊尔─10 飞机谋害毛泽东。9 月 20 日被隔离审查，1982 年 3 月军事检察院认定他只参加了上海会议、“罪行较轻”，免予起诉。此后住在浙江嘉善，没有恢复组织生活，2004 年去世。
+  life:
+    - h: 从抗大到空五军
+      from: 1919
+      to: 1968
+      text: |
+        1919 年生于成都，1935 年在成都天府中学读书时接触中共地下党，1937 年 8 月进抗大，1938 年 3 月入伍、7 月入党，此后一直在部队工作。1964 年 7 月任空五军政委，驻杭州。
+      cites: [ccom-chen-liyun-interview]
+    - h: 704 工程与庐山
+      from: 1969
+      to: 1971-03
+      text: |
+        1969 年 4 月当选九届中央候补委员。据他 1988 年的说法，1969 年初江腾蛟来杭州，提出给林彪修一幢房子，他与浙江的南萍、熊应堂商量后请示汪东兴，汪同意并审看了设计，这就是后来的“704 工程”（今浙江宾馆）。1970 年九届二中全会上，吴法宪找他和王维国谈话，要他们在小组会上讲设国家主席和“天才”问题；会后林立果找他们“安抚、鼓气”，说“首长（指林彪）知道你们受损失，很难过”。
+      cites: [ws-1971-12-lin-chen-material-1]
+      verify: true
+    - h: 杭州的“头”与免予起诉
+      from: 1971-03
+      to: 2004-12
+      text: |
+        1971 年 3 月 31 日晚，林立果派于新野到杭州接他去上海开会，会上指定他为杭州的“头”，他“接受了委派”。中央 1972 年的材料说他供认林立果当月看过一架改装的伊尔─10 强击机的火箭打靶，9 月 8 日于新野到杭州同他密商用这架飞机谋害毛泽东。9 月 20 日被隔离审查，1980 年 7 月 29 日被逮捕。1982 年 3 月 10 日军事检察院的决定认定他构成参加反革命罪，但“鉴于未发现被告人陈励耘参加‘上海会议’后有新的犯罪活动，罪行较轻”，决定免予起诉。他没有申诉：“用得着上诉吗？我已经关了十多年。”此后按一般干部待遇退出现役，住在浙江嘉善，2004 年 12 月病逝。
+      cites: [ccom-chen-liyun-interview, ws-1972-lin-material-3]
+  assess:
+    - { voice: judicial1980, text: 鉴于未发现被告人陈励耘参加“上海会议”后有新的犯罪活动，罪行较轻（1982 年军事检察院免予起诉决定书）, cite: ccom-chen-liyun-interview, quote: true }
+    - { voice: official1966, text: 一九七一年九月八日，林彪反党集团派于新野到杭州同陈励耘密商了用这架飞机谋害伟大领袖毛主席的罪恶计划（1972 年中央材料之三）, cite: ws-1972-lin-material-3, quote: true }
+    - { voice: witness, text: 用得着上诉吗？我已经关了十多年。再上诉，再审理，什么时候出得来？（1988 年陈励耘答记者）, cite: ccom-chen-liyun-interview, quote: true }
+    - { voice: editor, text: 1972 年的中央材料把伊尔─10 飞机一事写成他参与谋杀的证据，1982 年的免予起诉决定书只认定了上海会议一条，没有提这件事。 }
+  factions: [lin]
+  fate:
+    - { date: 1938-03, s: normal, note: 入伍, cite: ccom-chen-liyun-interview }
+    - { date: 1969-04, s: rise, note: 九届中央候补委员, verify: true }
+    - { date: 1971-03-31, s: power, note: 被指定为杭州的“头”, cite: ccom-chen-liyun-interview }
+    - { date: 1971-09-20, s: detained, note: 隔离审查, cite: ccom-chen-liyun-interview }
+    - { date: 1982-03-10, s: normal, note: 免予起诉, cite: ccom-chen-liyun-interview }
+    - { date: 2004-12, s: dead, verify: true }
+  cites: [ccom-chen-liyun-interview, ws-1980-indictment, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3]
+
+- id: liu-xingyuan
+  name: 刘兴元
+  born: 1908-10-10
+  died: 1990-08-14
+  tier: 3
+  role1966: 广州军区第二政治委员
+  pinyin: Liú Xīngyuán
+  gender: m
+  ethnicity: 汉族
+  aka:
+    - { kind: original, name: 刘维芳 }
+  birthplace: 山东莒南
+  origin: 山东莒南
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1931
+  joinedRevolution: 1931
+  positions:
+    - { title: 广州军区第二政治委员, orgName: 广州军区, from: 1955-11, to: 1972-03, verify: true }
+    - { title: 广东省革命委员会主任, orgName: 广东省革命委员会, from: 1969-06, to: 1972-03, verify: true }
+    - { title: 第一书记, orgName: 中共广东省委, from: 1970-12, to: 1972-03, verify: true }
+    - { title: 成都军区第一政治委员, orgName: 成都军区, from: 1972-03, to: 1975-10, verify: true }
+    - { title: 第一书记, orgName: 中共四川省委员会, from: 1972-03, to: 1975-10, verify: true }
+    - { title: 四川省革命委员会主任, orgName: 四川省革命委员会, from: 1972-03, to: 1975-10, verify: true }
+    - { title: 成都军区司令员, orgName: 成都军区, from: 1975-10, to: 1977-09, verify: true }
+  rank: { rank: 中将, date: 1955-09 }
+  bio: 山东莒南人，1931 年参加红军，抗战中在山东军区、解放战争中在东北和华北做政治工作，1955 年授中将，此后在广州军区任第二政委十七年。文革中与黄永胜一起主持广东军管，1980 年起诉书指他们制造了“广东地下党”冤案（七千一百多人受迫害，八十五人致死）和广州部队“反革命集团”冤案。黄永胜调京后他接任广东省革委会主任、省委第一书记。九一三后他没有被追究，1972 年调任成都军区第一政委、四川省委第一书记，1975 年改任成都军区司令员，九至十一届一直是中央委员。1990 年在北京去世。
+  life:
+    - h: 早年
+      from: 1908
+      to: 1954
+      text: |
+        原名刘维芳，1908 年生于山东莒县（今属莒南），1931 年参加红军、入党。抗战胜利后任山东野战兵团师政委，后到东北任纵队政委、军政委。1949 年后任中南军区干部部长，1955 年 3 月任广州军区副政委，同年授中将。
+      verify: true
+    - h: 广东军管
+      from: 1955-11
+      to: 1972-03
+      text: |
+        1955 年 11 月起任广州军区第二政委。据 1980 年起诉书，“一九六七年十月，黄永胜伙同广州部队政治委员刘兴元等提出对中共广东地下党进行‘审查’”，组织专门班子，制造“广东地下党”冤案，“使七千一百多人遭到诬陷、迫害，林锵云等八十五人被迫害致死”；又从 1967 年 5 月到 1970 年 11 月在广州部队制造“反革命集团”冤案，诬陷副司令员文年生等“夺权搞政变”，株连七百多名干部，文年生等被迫害致死。1969 年 4 月任中央军委委员，6 月接任广东省革委会主任，1970 年 12 月任广东省委第一书记。
+      cites: [ws-1980-indictment]
+      verify: true
+    - h: 成都
+      from: 1972-03
+      to: 1990-08-14
+      text: |
+        1972 年 3 月调任成都军区第一政委、四川省委第一书记、省革委会主任，1975 年 10 月改任成都军区司令员，由赵紫阳接任四川的党政职务。1977 年 9 月后任军政大学政委、军事学院政委。1990 年 8 月 14 日在北京去世。起诉书点了他的名，但他未被起诉，也没有受到公开处分。
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 黄永胜伙同刘兴元从一九六七年五月至一九七○年十一月，在广州部队制造“反革命集团”冤案（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 起诉书把广东两大冤案都写作“黄永胜伙同刘兴元”，但被告只有黄永胜一人。刘兴元此后继续任大军区主官，是被点名而未受追究的典型。, cite: ws-1980-indictment }
+  factions: [provincial, lin]
+  fate:
+    - { date: 1931, s: normal, note: 参加红军, verify: true }
+    - { date: 1955-11, s: normal, note: 广州军区第二政委, verify: true }
+    - { date: 1967-10, s: power, note: 审查广东地下党, cite: ws-1980-indictment }
+    - { date: 1969-06, s: power, note: 广东省革委会主任, verify: true }
+    - { date: 1972-03, s: normal, note: 调任成都军区, verify: true }
+    - { date: 1990-08-14, s: dead, verify: true }
+  cites: [ws-1980-indictment]
+
+- id: ding-sheng
+  name: 丁盛
+  born: 1913-11-07
+  died: 1999-09-25
+  tier: 3
+  role1966: 广州军区副司令员
+  pinyin: Dīng Shèng
+  gender: m
+  ethnicity: 汉族
+  birthplace: 江西于都
+  origin: 江西于都
+  deathKind: natural
+  deathPlace: 广州
+  party: 中国共产党
+  joinedParty: 1932
+  positions:
+    - { title: 广州军区司令员, orgName: 广州军区, from: 1969-07, to: 1973-12, verify: true }
+    - { title: 第一书记, orgName: 中共广东省委, from: 1972-03, to: 1973-12, verify: true }
+    - { title: 广东省革命委员会主任, orgName: 广东省革命委员会, from: 1972-04, to: 1974-04, verify: true }
+    - { title: 南京军区司令员, orgName: 南京军区, from: 1973-12, to: 1977-03, cite: ws-1980-indictment }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1969-04, to: 1977-08, verify: true }
+  rank: { rank: 少将, date: 1955-09 }
+  bio: 江西于都人，“丁大胆”，红军出身，抗战在晋察冀、解放战争在东北四野，1962 年中印边界战争中指挥瓦弄方向作战。1969 年任广州军区司令员，1972 年接替刘兴元主政广东。1973 年底八大军区司令员对调，他与许世友互换到南京军区。1976 年 8 月他到上海与马天水、徐景贤、王秀珍半夜密谈，说南京军区驻苏锡一线的部队“我根本调不动”，要他们“有所准备”，上海随即突击给民兵发枪七万多支。1977 年被撤职审查，1982 年退役并被开除党籍，按师级待遇在广州离休，1999 年去世。
+  life:
+    - h: 红军到中印边界
+      from: 1913
+      to: 1968
+      text: |
+        原名丁三，1913 年生于江西于都，参加中央苏区反“围剿”和长征，1932 年入党。抗战中在八路军一二〇师、晋察冀任团政委，解放战争中任东北野战军师长，参加辽沈、平津战役。1952 年任第五十四军军长，赴朝作战，1955 年授少将。1962 年 11 月中印边界战争中指挥瓦弄方向作战。1968 年任广州军区副司令员。
+      verify: true
+    - h: 广州与南京
+      from: 1969-07
+      to: 1976-07
+      text: |
+        1969 年 4 月当选九届中央委员，7 月任广州军区司令员，受黄永胜赏识。九一三后表态服从中央。1972 年 3 月接替刘兴元任广东省委第一书记，4 月任省革委会主任。1973 年 8 月当选十届中央委员；12 月毛泽东决定八大军区司令员对调，他与许世友互换，任南京军区司令员。
+      verify: true
+    - h: 延安饭店的密谈
+      from: 1976-08
+      to: 1999-09-25
+      text: |
+        据 1980 年起诉书，1976 年 8 月他到上海，在延安饭店与马天水、徐景贤、王秀珍半夜密谈，说“我最不放心的是六四五三部队”，“这个部队我根本调不动”，这个部队的几个师就摆在无锡、苏州到上海一线，“你们要有所准备”。马天水随即检查民兵发枪情况，此后突击发枪七万四千二百二十支、炮三百门、各种弹药一千多万发；9 月 21 日张春桥在北京听取了徐景贤关于这次密谈和发枪的汇报。“四人帮”被捕后他于 1977 年被免去南京军区司令员职务、接受审查；1982 年退出现役，10 月被开除党籍，由广州军区按师级待遇接回离休，1999 年 9 月 25 日在广州去世。他没有被起诉。
+      cites: [ws-1980-indictment, ws-1982-xu-jingxian-case]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 这个部队我根本调不动（1976 年 8 月丁盛对马天水、徐景贤、王秀珍语，1980 年起诉书引）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 起诉书把这次密谈写成上海准备武装叛乱的起点，但丁盛本人没有被起诉；他的问题以党纪和退役处理。他先后被看作黄永胜和“四人帮”两方面的人，两次都没有上法庭。, cite: ws-1980-indictment }
+  factions: [lin, shgang]
+  fate:
+    - { date: 1932, s: normal, note: 入党, verify: true }
+    - { date: 1969-07, s: power, note: 广州军区司令员, verify: true }
+    - { date: 1973-12, s: power, note: 对调南京军区司令员, verify: true }
+    - { date: 1976-08, s: power, note: 延安饭店密谈, cite: ws-1980-indictment }
+    - { date: 1977-03, s: purged, note: 撤职审查, verify: true }
+    - { date: 1982-10, s: sidelined, note: 开除党籍、离休, verify: true }
+    - { date: 1999-09-25, s: dead, verify: true }
+  cites: [ws-1980-indictment, ws-1982-xu-jingxian-case]
+
+- id: chi-qun
+  name: 迟群
+  born: 1932
+  tier: 3
+  role1966: 中央警卫团（八三四一部队）政治部宣传科副科长
+  pinyin: Chí Qún
+  gender: m
+  ethnicity: 汉族
+  birthplace: 山东乳山
+  origin: 山东乳山
+  party: 中国共产党
+  joinedRevolution: 1949
+  positions:
+    - { title: 宣传科副科长, orgName: 八三四一部队, to: 1968, cite: ws-1982-chi-qun-case }
+    - { title: 党委副书记、革委会副主任, orgName: 清华大学, from: 1968, to: 1971, verify: true }
+    - { title: 副组长, orgName: 国务院科教组, from: 1970-07, to: 1975-01, verify: true }
+    - { title: 党委书记、革委会主任, orgName: 清华大学, from: 1971, to: 1976-10, cite: ws-1982-chi-qun-case }
+  bio: 山东乳山人，1949 年参军，文革前是中央警卫团（八三四一部队）政治部宣传科副科长。1968 年 7 月随“首都工人、解放军毛泽东思想宣传队”进驻清华，与谢静宜一起逐步掌握清华，1971 年任清华党委书记、革委会主任，兼国务院科教组副组长。1973–1976 年他在江青、张春桥、姚文元指挥下领导“北大、清华大批判组”（梁效），从批林批孔转向批邓，炮制诬陷邓小平的文章六十余篇；与谢静宜搜集材料整教育部长周荣鑫，致其被批斗致死；又按江青的指派炮制马振扶中学事件。1976 年 10 月被隔离审查，1983 年 11 月被北京市中级人民法院判处有期徒刑十八年。出狱后病逝，卒年有 1999、2001 两说，这里不录。
+  life:
+    - h: 八三四一部队
+      from: 1932
+      to: 1968
+      text: |
+        1932 年生于山东海阳县西黄岛村（今属乳山），1949 年参加解放军，后入党，任中央警卫团政治部宣传科副科长。1983 年的判决书称他“原任中国人民解放军某部政治部宣传科副科长”。
+      cites: [ws-1982-chi-qun-case]
+      verify: true
+    - h: 进驻清华
+      from: 1968
+      to: 1973-09
+      text: |
+        1968 年 7 月清华武斗失控后，毛泽东派工宣队、军宣队进驻，他随八三四一部队的军宣队进校，任清华大学党委副书记、革委会副主任；1970 年国务院科教组成立后为主要成员，1971 年任清华党委书记、革委会主任，兼科教组副组长。1973 年 10 月至 1974 年 1 月，他与谢静宜在清华搞“反右倾回潮”，把六十余名师生列为审查重点，批斗校党委副书记何东昌，把教务处副处长邢家鲤（“利用养猫反党”）、教师陈世猷打成“现行反革命”。
+      cites: [ws-1982-chi-qun-case]
+      verify: true
+    - h: 梁效与马振扶
+      from: 1974
+      to: 1976-10
+      text: |
+        1974 年 1 月他受江青指派，与谢静宜去河南唐河县马振扶中学调查女学生张玉勤自杀，把事情说成是“修正主义教育路线给逼死的”，并把江青、王洪文要对该校教师“判重刑”的指令传达给南阳地委，致使校长罗长奇等被捕判刑。1974 年批林批孔中，“四人帮”指使他和谢静宜利用清华据点煽动批“现代大儒”、批“周公”。1975 年 9 月至 1976 年 10 月，他按张春桥、姚文元的意图“亲自点题，提供材料，交待要点”，指挥“北大、清华写作班子”炮制诬陷邓小平的文章六十余篇，其中三十九篇以“梁效”“高路”等名义发表；“评三株大毒草”等小册子印了八千万册。1976 年 3 月 26 日他与谢静宜带人以“汇报清华大学运动”为名当面围攻邓小平。又与谢静宜收集教育部长周荣鑫的讲话送给江青，策划成立“教育部临时领导小组”夺周荣鑫的权，4 月 7 日对教育部的人说“周荣鑫的黑后台倒了”，五天后周荣鑫在批斗会上昏倒，当晚死去。
+      cites: [ws-1982-chi-qun-case, ws-1980-indictment]
+    - h: 审判
+      from: 1976-10
+      to: 1983-11-02
+      text: |
+        1976 年 10 月“四人帮”被捕后被隔离审查，1977 年 8 月 5 日被逮捕。1983 年北京市中级人民法院公开审理，法庭审查各种证据九十五件，“迟群供认了主要犯罪事实”；11 月 2 日以积极参加反革命集团罪、反革命宣传煽动罪、诬告陷害罪判处有期徒刑十八年、剥夺政治权利四年。
+      cites: [ws-1982-chi-qun-case]
+  assess:
+    - { voice: judicial1980, text: 被告人迟群积极参加江青反革命集团推翻人民民主专政的政权和社会主义制度的阴谋活动（1983 年北京市中级人民法院判决书）, cite: ws-1982-chi-qun-case, quote: true }
+    - { voice: doc, text: 走资派还在走，不只邓小平一个人，要看到有这么一层人（1976 年 3 月迟群在清华大学讲话，判决书引）, cite: ws-1982-chi-qun-case, quote: true }
+    - { voice: doc, text: 你的大字报提出了一个很重要的问题，就是走资派还在走（1975 年 11 月迟群对吴炜煜语，起诉书引）, cite: ws-1982-chi-qun-case, quote: true }
+    - { voice: editor, text: 同案的谢静宜因“坦白认罪较好”被免予起诉，辩护律师曾在法庭上说某些重要意图是江青通过谢静宜转达给他的。, verify: true }
+  factions: [ccrg]
+  fate:
+    - { date: 1949, s: normal, note: 参军, verify: true }
+    - { date: 1968-07, s: rise, note: 随军宣队进驻清华, verify: true }
+    - { date: 1971, s: power, note: 清华党委书记、革委会主任, cite: ws-1982-chi-qun-case }
+    - { date: 1975-09, s: power, note: 指挥两校写作班子批邓, cite: ws-1982-chi-qun-case }
+    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
+    - { date: 1977-08-05, s: detained, note: 逮捕, cite: ws-1982-chi-qun-case }
+    - { date: 1983-11-02, s: detained, note: 判处有期徒刑十八年, cite: ws-1982-chi-qun-case }
+  cites: [ws-1982-chi-qun-case, ws-1980-indictment]
+
+- id: xie-jingyi
+  name: 谢静宜
+  born: 1935-12
+  died: 2017-03-25
+  tier: 3
+  role1966: 中共中央办公厅机要员（毛泽东机要秘书）
+  pinyin: Xiè Jìngyí
+  gender: f
+  ethnicity: 汉族
+  birthplace: 河南商丘
+  origin: 河南商丘
+  deathKind: natural
+  deathPlace: 北京
+  party: 中国共产党
+  joinedParty: 1956-05
+  joinedRevolution: 1952
+  positions:
+    - { title: 机要员, orgName: 中共中央办公厅, from: 1953, to: 1968, verify: true }
+    - { title: 党委副书记、革委会副主任, orgName: 清华大学, from: 1968, to: 1976-10, verify: true }
+    - { title: 书记, orgName: 中共北京市委员会, to: 1976-10, cite: ws-1980-indictment }
+    - { title: 中央委员, orgName: 中国共产党中央委员会, from: 1973-08, to: 1976-10, verify: true }
+    - { title: 委员, orgName: 全国人民代表大会常务委员会, from: 1975-01-17, to: 1976-10, cite: rmrb-1975-01-19-npc-sc-list }
+  bio: 河南商丘人，1952 年参军，从中央机要学校毕业后进中共中央办公厅机要局，长期做毛泽东的机要员。1968 年随八三四一部队的宣传队进驻清华，与迟群一起掌握清华和北大，后任北京市委书记，十大当选中央委员，四届人大当选人大常委。1974–1976 年与迟群一起在江青授意下搞马振扶中学事件、批林批孔、批邓，整教育部长周荣鑫，1976 年 3 月 26 日与迟群当面围攻邓小平。1976 年 10 月被隔离审查，此后因“坦白认罪较好”被免予起诉，以退休干部身份在北京生活，2017 年去世。
+  life:
+    - h: 毛泽东的机要员
+      from: 1935
+      to: 1968
+      text: |
+        1935 年 12 月生于河南商丘，1952 年参军，从中央军委机要学校毕业后进入中共中央办公厅机要局，1953–1976 年做机要工作，长期为毛泽东管机要文件，1956 年 5 月入党。
+      verify: true
+    - h: 清华与北京市委
+      from: 1968
+      to: 1975
+      text: |
+        1968 年随八三四一部队的军宣队进驻清华，任清华大学党委副书记、革委会副主任，后任北京市委书记、北京市革委会副主任、团市委书记。1973 年 8 月十大当选中央委员。据迟群案判决书，1973 年 10 月至 1974 年 1 月她与迟群在清华搞“反右倾回潮”，批斗六十余名师生；1974 年 1 月与迟群受江青指派去马振扶中学。1980 年起诉书列她为“中共北京市委书记谢静宜”，说“四人帮”指使她和迟群在批林批孔中批“现代大儒”、批“周公”，影射周恩来。1975 年 1 月四届人大当选人大常委会委员。
+      cites: [ws-1982-chi-qun-case, ws-1980-indictment, rmrb-1975-01-19-npc-sc-list]
+      verify: true
+    - h: 批邓与免予起诉
+      from: 1975
+      to: 2017-03-25
+      text: |
+        1975 年下半年她与迟群按江青的旨意把教育部长周荣鑫的讲话汇编成册，11 月 22 日送给江青。1976 年 3 月 26 日，“在江青的策划下”，她与迟群带人以汇报清华运动为名当面围攻邓小平。1976 年 10 月“四人帮”被捕的同时她和迟群被隔离审查，撤销党内外职务。1983 年迟群被判刑，她因“坦白认罪较好”被免予起诉，后为退休干部，2017 年 3 月 25 日在北京病逝。
+      cites: [ws-1982-chi-qun-case]
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 一九七六年三月二十六日，在江青的策划下，被告人迟群伙同谢静宜带领周家悫等五人，以“汇报清华大学运动”为名，围攻邓小平（1983 年迟群案起诉书）, cite: ws-1982-chi-qun-case, quote: true }
+    - { voice: judicial1980, text: 江青、张春桥和姚文元指使迟群、谢静宜利用在清华大学的活动据点（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 起诉书和迟群案文书多处写“迟群伙同谢静宜”，但她本人没有受审。 }
+  factions: [ccrg]
+  fate:
+    - { date: 1952, s: normal, note: 参军, verify: true }
+    - { date: 1968, s: rise, note: 随军宣队进驻清华, verify: true }
+    - { date: 1973-08, s: power, note: 十届中央委员, verify: true }
+    - { date: 1976-03-26, s: power, note: 与迟群围攻邓小平, cite: ws-1982-chi-qun-case }
+    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
+    - { date: 1983, s: normal, note: 免予起诉, verify: true }
+    - { date: 2017-03-25, s: dead, verify: true }
+  cites: [ws-1982-chi-qun-case, ws-1980-indictment, rmrb-1975-01-19-npc-sc-list]
