@@ -82,12 +82,12 @@ const people = [
     ? yamlFiles('content', 'people').flatMap((p) => load(PersonSchema, read(...p), p.join('/')))
     : []),
 ]
-type PhotoRec = { file?: string; url?: string; author?: string; license?: string; date?: string; focus?: string; skip?: boolean }
+type PhotoRec = { file?: string; url?: string; author?: string; license?: string; date?: string; focus?: string; zoom?: number; skip?: boolean }
 const photoReg: Record<string, PhotoRec> = existsSync(join(ROOT, 'content', 'photos.yaml')) ? (read('content', 'photos.yaml') ?? {}) : {}
 for (const p of people) {
   const r = photoReg[p.id]
   if (!r?.file || r.skip || !existsSync(join(ROOT, 'public', 'photos', `${p.id}.jpg`))) continue
-  p.photo = { src: `photos/${p.id}.jpg`, url: r.url, author: r.author, license: r.license, date: r.date, focus: r.focus }
+  p.photo = { src: `photos/${p.id}.jpg`, url: r.url, author: r.author, license: r.license, date: r.date, focus: r.focus, zoom: r.zoom }
 }
 const factions = load(FactionSchema, read('content', 'factions.yaml'), 'factions')
 const events = yamlFiles('content', 'events').flatMap((p) => load(EventSchema, read(...p), p.join('/')))

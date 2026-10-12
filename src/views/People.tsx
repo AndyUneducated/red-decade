@@ -218,7 +218,7 @@ function Profile({ id }: { id: string }) {
                   </dl>
                 )}
               </div>
-              <div className="hero-photo">
+              <div className="hero-photo" style={{ '--pw': `${mainW < 420 ? 92 : 148}px` } as CSSProperties}>
                 <Portrait p={p} width={mainW < 420 ? 92 : 148} credit />
                 {now && (
                   <div className="stamp" style={{ '--st': now === 'normal' ? 'var(--ink-2)' : `var(--s-${now})` } as CSSProperties} title="当前时刻的状态，随时间轴变化">

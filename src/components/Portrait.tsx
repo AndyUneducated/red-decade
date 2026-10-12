@@ -1,7 +1,8 @@
 import type { CSSProperties } from 'react'
 import type { Person } from '../data/schema'
 
-// 3:4 head-and-shoulders crop; `focus` from content/photos.yaml moves the crop (CSS object-position).
+// 3:4 head-and-shoulders crop; `focus` from content/photos.yaml moves the crop (CSS object-position)
+// and `zoom` enlarges around that point, for group or couple photos.
 export function Portrait({ p, width = 96, credit = false }: { p: Person; width?: number; credit?: boolean }) {
   const style = { '--pw': `${width}px` } as CSSProperties
   if (!p.photo)
@@ -22,7 +23,10 @@ export function Portrait({ p, width = 96, credit = false }: { p: Person; width?:
           src={`${import.meta.env.BASE_URL}${ph.src}`}
           alt={p.name}
           loading="lazy"
-          style={ph.focus ? { objectPosition: ph.focus } : { objectPosition: '50% 20%' }}
+          style={{
+            objectPosition: ph.focus ?? '50% 20%',
+            ...(ph.zoom ? { transform: `scale(${ph.zoom})`, transformOrigin: ph.focus ?? '50% 20%' } : {}),
+          }}
         />
       </div>
       {credit && (

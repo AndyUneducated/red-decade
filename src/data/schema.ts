@@ -275,6 +275,7 @@ export const PersonSchema = z.object({
       license: z.string().optional(),
       date: z.string().optional(),
       focus: z.string().optional(),
+      zoom: z.number().min(1).max(4).optional(),
     })
     .optional(),
 })

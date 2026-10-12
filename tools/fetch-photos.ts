@@ -2,7 +2,8 @@
 // licence. A Wikidata item counts as the person only when its birth year (P569) equals `born`, so
 // namesakes (王力 the linguist, 陆平 the actor) are skipped rather than guessed.
 // Writes public/photos/<id>.jpg (Commons thumbnail, 480px wide) and content/photos.yaml.
-// Entries already in photos.yaml are kept; `skip: true` there blocks a person for good.
+// Entries already in photos.yaml are kept; `skip: true` there blocks a person for good, and
+// `pick: <Commons file name>` uses that file instead of searching (for photos not linked from Wikidata).
 //   node tools/fetch-photos.ts [person-id ...]
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -23,7 +24,11 @@ type Rec = {
   licenseUrl?: string
   date?: string
   focus?: string
+  zoom?: number
   skip?: boolean
+  noCategory?: boolean
+  pick?: string
+  via?: string
   why?: string
 }
 
@@ -71,7 +76,31 @@ async function findItem(name: string, born: string) {
     const c = e.entities[id]?.claims ?? {}
     const human = (c.P31 ?? []).some((x: any) => x.mainsnak.datavalue?.value?.id === 'Q5')
     const year = (c.P569 ?? []).map((x: any) => x.mainsnak.datavalue?.value?.time?.slice(1, 5))
-    if (human && year.includes(born.slice(0, 4))) return { qid: id, image: c.P18?.[0]?.mainsnak.datavalue?.value as string | undefined }
+    if (human && year.includes(born.slice(0, 4)))
+      return {
+        qid: id,
+        image: c.P18?.[0]?.mainsnak.datavalue?.value as string | undefined,
+        category: c.P373?.[0]?.mainsnak.datavalue?.value as string | undefined,
+      }
+  }
+  return undefined
+}
+
+// Fallback when P18 is empty: a free photo from the person's Commons category (P373). Category
+// pages also hold graves, houses, statues and calligraphy, so those file names are excluded and
+// every pick is marked `via: category` for a visual check.
+const NOT_PORTRAIT = /grave|tomb|墓|故居|residence|house|statue|雕像|塑像|bust|memorial|纪念|calligraph|书法|題字|题字|signature|签名|stamp|邮票|郵票|map|地图|book|cover|封面|manuscript|手稿|letter|信|museum|博物|plaque|碑|monument|exhibit|展|coin|banknote|\.svg$|\.pdf$|\.tif/i
+async function fromCategory(category: string) {
+  const m = await api('commons.wikimedia.org', { action: 'query', list: 'categorymembers', cmtitle: `Category:${category}`, cmtype: 'file', cmlimit: '50' })
+  const titles: string[] = (m.query?.categorymembers ?? []).map((x: { title: string }) => x.title).filter((t: string) => /\.(jpe?g|png)$/i.test(t) && !NOT_PORTRAIT.test(t))
+  if (!titles.length) return undefined
+  const q = await api('commons.wikimedia.org', { action: 'query', titles: titles.slice(0, 50).join('|'), prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: String(WIDTH) })
+  const pages = Object.values(q.query.pages) as any[]
+  pages.sort((a, b) => titles.indexOf(a.title) - titles.indexOf(b.title))
+  for (const pg of pages) {
+    const info = pg.imageinfo?.[0]
+    const license = strip(info?.extmetadata?.LicenseShortName?.value) ?? ''
+    if (info && FREE.test(license)) return { file: (pg.title as string).replace(/^File:/, ''), info, license }
   }
   return undefined
 }
@@ -81,30 +110,45 @@ for (const p of people) {
   if (only.length && !only.includes(p.id)) continue
   const have = reg[p.id]
   if (have?.skip || (have?.file && existsSync(join(outDir, `${p.id}.jpg`)))) continue
-  if (!p.born) {
+  if (!p.born && !have?.pick) {
     report.push(`${p.id}: no birth date, cannot match`)
     continue
   }
   try {
-    const item = await findItem(p.name, String(p.born))
+    const item = have?.pick ? { qid: have.qid, image: have.pick, category: undefined } : await findItem(p.name, String(p.born))
     await sleep(250)
     if (!item) {
       reg[p.id] = { ...have, why: 'no Wikidata item with matching birth year' }
       report.push(`${p.id} ${p.name}: no matching item`)
       continue
     }
-    if (!item.image) {
-      reg[p.id] = { ...have, qid: item.qid, why: 'Wikidata item has no image (P18)' }
-      report.push(`${p.id} ${p.name}: ${item.qid} has no image`)
+    let file = item.image
+    let info: any
+    let license = ''
+    let via: string | undefined = have?.pick ? 'pick' : undefined
+    if (file) {
+      const q = await api('commons.wikimedia.org', { action: 'query', titles: `File:${file}`, prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: String(WIDTH) })
+      info = (Object.values(q.query.pages)[0] as any).imageinfo?.[0]
+      license = strip(info?.extmetadata?.LicenseShortName?.value) ?? ''
+    }
+    if ((!info || !FREE.test(license)) && item.category && !have?.noCategory) {
+      const c = await fromCategory(item.category)
+      if (c) {
+        file = c.file
+        info = c.info
+        license = c.license
+        via = 'category'
+      }
+    }
+    if (!file) {
+      reg[p.id] = { ...have, qid: item.qid, why: item.category ? 'no P18 and no free photo in the Commons category' : 'Wikidata item has no image (P18)' }
+      report.push(`${p.id} ${p.name}: ${item.qid} has no image${item.category ? ' (category checked)' : ''}`)
       continue
     }
-    const q = await api('commons.wikimedia.org', { action: 'query', titles: `File:${item.image}`, prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: String(WIDTH) })
-    const info = (Object.values(q.query.pages)[0] as any).imageinfo?.[0]
     const meta = info?.extmetadata ?? {}
-    const license = strip(meta.LicenseShortName?.value) ?? ''
     if (!info || !FREE.test(license)) {
-      reg[p.id] = { ...have, qid: item.qid, file: item.image, license, why: 'licence not on the allow-list' }
-      report.push(`${p.id} ${p.name}: ${item.image} licence "${license}" rejected`)
+      reg[p.id] = { ...have, qid: item.qid, file, license, why: 'licence not on the allow-list' }
+      report.push(`${p.id} ${p.name}: ${file} licence "${license}" rejected`)
       continue
     }
     const img = await fetch(info.thumburl, { headers: { 'User-Agent': UA } })
@@ -112,7 +156,9 @@ for (const p of people) {
     writeFileSync(join(outDir, `${p.id}.jpg`), Buffer.from(await img.arrayBuffer()))
     reg[p.id] = {
       qid: item.qid,
-      file: item.image,
+      ...(have?.pick ? { pick: have.pick } : {}),
+      file,
+      ...(via ? { via } : {}),
       url: info.descriptionurl,
       author: strip(meta.Artist?.value)?.slice(0, 160),
       license,
@@ -122,8 +168,9 @@ for (const p of people) {
         .trim()
         .slice(0, 40),
       ...(have?.focus ? { focus: have.focus } : {}),
+      ...(have?.zoom ? { zoom: have.zoom } : {}),
     }
-    report.push(`${p.id} ${p.name}: ✔ ${item.image} (${license})`)
+    report.push(`${p.id} ${p.name}: ✔ ${file} (${license})${via ? ` via ${via}` : ''}`)
     await sleep(400)
   } catch (err) {
     report.push(`${p.id} ${p.name}: error ${(err as Error).message}`)

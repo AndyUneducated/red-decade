@@ -1411,9 +1411,10 @@ h2.sec {
 .hero-photo .portrait-credit {
   margin-top: 8px;
 }
+/* sits on the photo's lower-left corner, where it covers clothing rather than the face */
 .stamp {
   position: absolute;
-  top: -6px;
+  top: calc(var(--pw) * 4 / 3 - 30px);
   left: -22px;
   padding: 3px 9px 4px;
   --st-ink: color-mix(in srgb, var(--st) 72%, var(--ink));
