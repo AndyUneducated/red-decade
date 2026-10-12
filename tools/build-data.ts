@@ -11,6 +11,7 @@ import {
   DocumentSchema,
   EventSchema,
   FactionSchema,
+  FigureSchema,
   IsmSchema,
   LeaderSchema,
   LinePointSchema,
@@ -95,6 +96,7 @@ const relations = load(RelationSchema, read('content', 'relations.yaml'), 'relat
 const concepts = load(ConceptSchema, read('content', 'concepts.yaml'), 'concepts')
 const documents = load(DocumentSchema, read('content', 'documents.yaml'), 'documents')
 const claims = load(ClaimSchema, read('research', 'claims.yaml'), 'claims')
+const figures = load(FigureSchema, read('content', 'figures.yaml'), 'figures')
 const orgs = yamlFiles('content', 'orgs').flatMap((p) => load(OrgSchema, read(...p), p.join('/')))
 for (const p of yamlFiles('content', 'leaders'))
   for (const [id, list] of Object.entries((read(...p) ?? {}) as Record<string, unknown>)) {
@@ -307,6 +309,13 @@ for (const c of claims) {
   c.events.forEach((id) => need(ids.event, id, `claim ${c.id}`))
   c.evidence.forEach((e) => needCite(e.cite, `claim ${c.id}`))
 }
+for (const f of figures) {
+  f.people.forEach((id) => need(ids.person, id, `figure ${f.id}`))
+  f.events.forEach((id) => need(ids.event, id, `figure ${f.id}`))
+  f.counts.forEach((c) => needCite(c.cite, `figure ${f.id}`))
+  if (!f.counts.length && !f.need) errors.push(`figure ${f.id}: no counts and no need`)
+  for (const c of f.counts) if (c.measure === 'none' && c.value) errors.push(`figure ${f.id}: "${c.what}" is measure none but has a value`)
+}
 
 // ── verbatim quote checks ────────────────────────────────
 // Tolerated: nested ‘’ rendered as “”, and a sentence-final mark where the source continues.
@@ -319,6 +328,7 @@ function checkQuote(sourceId: string, quote: string, where: string) {
     if (!hay.includes(part)) errors.push(`${where}: quote not found in ${sourceId}: "${part.slice(0, 40)}…"`)
 }
 for (const c of claims) for (const e of c.evidence) if (e.quote) checkQuote(e.cite.split('@')[0], e.quote, `claim ${c.id}`)
+for (const f of figures) for (const c of f.counts) checkQuote(c.cite.split('@')[0], c.quote, `figure ${f.id} "${c.what}"`)
 for (const p of people)
   for (const v of p.assess)
     if (v.quote) {
@@ -393,6 +403,7 @@ const atlas: Atlas = {
   documents: documents.map((d) => ({ ...d, source: sourceById.get(d.id)! })),
   sources,
   claims,
+  figures,
 }
 
 const out = join(ROOT, 'public', 'data')
@@ -417,5 +428,6 @@ console.log(
     `documents  ${documents.length}`,
     `sources    ${sources.length}  (${texts.size} with text)`,
     `claims     ${claims.length}`,
+    `figures    ${figures.length}  (${figures.reduce((n, f) => n + f.counts.length, 0)} counts, ${figures.filter((f) => f.need).length} awaiting sources)`,
   ].join('\n'),
 )

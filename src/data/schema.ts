@@ -423,6 +423,48 @@ export const ClaimSchema = z.object({
   history: z.array(z.object({ date: PartialDate, note: z.string() })).default([]),
 })
 
+export const MEASURES = {
+  deaths: '致死',
+  persecuted: '受迫害 / 立案',
+  injured: '伤残',
+  detained: '关押',
+  cases: '案件',
+  reported: '上报数',
+  none: '不给数字',
+} as const
+export type Measure = keyof typeof MEASURES
+
+// One case, every figure for it side by side. value is set only when the source gives a number;
+// approx keeps the source's hedge (余 / 多 / 近 / 数十). A case with `need` has no source text yet.
+export const FigureSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  period: z.string(),
+  region: z.string(),
+  summary: z.string(),
+  events: z.array(z.string()).default([]),
+  people: z.array(z.string()).default([]),
+  counts: z
+    .array(
+      z.object({
+        measure: z.enum(Object.keys(MEASURES) as [Measure, ...Measure[]]),
+        what: z.string(),
+        scope: z.string().optional(),
+        value: z.number().positive().optional(),
+        approx: z.string().optional(),
+        unit: z.string().default('人'),
+        voice: z.enum(Object.keys(VOICES) as [Voice, ...Voice[]]),
+        cite: Cite,
+        quote: z.string(),
+        note: z.string().optional(),
+      }),
+    )
+    .default([]),
+  caveats: z.string().optional(),
+  need: z.string().optional(),
+})
+
+export type Figure = z.infer<typeof FigureSchema>
 export type Fate = z.infer<typeof FateSchema>
 export type Person = z.infer<typeof PersonSchema>
 export type Faction = z.infer<typeof FactionSchema>
@@ -457,4 +499,5 @@ export type Atlas = {
   documents: (DocumentMeta & { source: Source })[]
   sources: Source[]
   claims: Claim[]
+  figures: Figure[]
 }

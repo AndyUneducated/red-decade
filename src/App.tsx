@@ -5,6 +5,7 @@ import { setTheme, useTheme } from './lib/theme'
 import { useApp, VIEWS, type View } from './state'
 import { Docs } from './views/Docs'
 import { Fates } from './views/Fates'
+import { Figures } from './views/Figures'
 import { Ideas } from './views/Ideas'
 import { Narratives } from './views/Narratives'
 import { Network } from './views/Network'
@@ -23,6 +24,7 @@ const COMPONENTS: Record<View, () => React.ReactNode> = {
   river: River,
   ideas: Ideas,
   narratives: Narratives,
+  figures: Figures,
   docs: Docs,
   research: Research,
 }

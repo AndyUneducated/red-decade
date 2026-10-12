@@ -1,0 +1,248 @@
+# 数字争议面板：同一案件 / 事件的死亡与迫害数字，按出处并列。
+# 每条 count 的 quote 在构建时逐字核对原文；value 只在原文给出确数或约数时填写，
+# approx 记原文的修饰（余 / 多 / 近 / 数十），原文不给数字的条目也列出，value 留空。
+# measure：deaths 致死 · persecuted 受迫害 / 立案审查 · injured 伤残 · detained 关押 · cases 案件 · reported 上报数 · none 无数字
+- id: neirendang
+  title: 内蒙古“内人党”案
+  period: 1968–1969
+  region: 内蒙古
+  summary: 1968 年 4 月内蒙古革委会报告“初步突破”，此后在全区挖“内人党”。1970 年旗一级已开始以“扩大化”为由个别平反；1980 年起诉书给出全区数字，1981 年判决书只写“大批”。
+  events: [1968-04-26-neirendang]
+  people: [kang-sheng, xie-fuzhi, teng-haiqing, ulanhu]
+  counts:
+    - { measure: none, what: 立案时的报告, voice: doc, cite: ws-1968-04-26-neirendang-report, quote: 此案昨日（25日）上午初步突破 }
+    - { measure: none, what: 旗革委会平反通知, voice: doc, cite: ws-1970-naiman-rehab, quote: 犯了擴大化的錯誤, note: 奈曼旗一个人的平反通知，引“中發〈69〉24號文件”，不给数字。 }
+    - { measure: persecuted, what: 遭到诬陷、迫害, value: 346000, approx: 多, voice: judicial1980, cite: ws-1980-indictment, quote: 有三十四万六千多名干部、群众遭到诬陷、迫害 }
+    - { measure: deaths, what: 被迫害致死, value: 16222, voice: judicial1980, cite: ws-1980-indictment, quote: 一万六千二百二十二人被迫害致死 }
+    - { measure: deaths, what: 判决书认定, voice: judicial1980, cite: ws-1981-01-25-judgment, quote: 使所谓“内蒙古人民革命党”的冤案造成惨重的后果，大批干部和群众被迫害致死致残, note: 判决书没有采用起诉书的数字。 }
+  caveats: 内蒙古地方志与学术调查的数字尚未入库。
+
+- id: yunnan-zhao-jianmin
+  title: 云南“赵健民特务案”
+  period: 1968–1969
+  region: 云南
+  summary: 1968 年 1 月康生、谢富治当面诬陷赵健民并宣布逮捕，此后云南全省追查“赵健民之流”。同一冤案，中央起诉书与昆明的地方起诉书给出的死亡数字相差约三千人，地方起诉书还给出受迫害总人数。
+  events: [1968-01-21-zhao-jianmin]
+  people: [kang-sheng, xie-fuzhi]
+  counts:
+    - { measure: deaths, what: 被迫害致死（全省）, value: 14000, approx: 余, voice: judicial1980, cite: ws-1980-indictment, quote: 这个冤案使云南大批干部、群众遭到诬陷、迫害，一万四千余人被迫害致死 }
+    - { measure: none, what: 判决书认定, voice: judicial1980, cite: ws-1981-01-25-judgment, quote: 一九六八年，康生、谢富治制造了云南“赵健民特务案”冤案, note: 判决书只认定冤案本身，不给数字。 }
+    - { measure: cases, what: 冤假案（全省）, value: 15000, approx: 余, unit: 件, voice: judicial1980, cite: ws-1982-liu-yinnong-case, quote: 制造了冤假案一万五千余件 }
+    - { measure: persecuted, what: 直接遭受迫害（全省）, value: 1380000, approx: 余, voice: judicial1980, cite: ws-1982-liu-yinnong-case, quote: 直接遭受迫害的干部和群众一百三十八万余人 }
+    - { measure: deaths, what: 被打死、逼死（全省）, value: 17000, approx: 多, voice: judicial1980, cite: ws-1982-liu-yinnong-case, quote: 其中被打死、逼死的有一万七千多人 }
+    - { measure: injured, what: 被打伤致残（全省）, value: 61000, voice: judicial1980, cite: ws-1982-liu-yinnong-case, quote: 被打伤致残的有六万一千人 }
+    - { measure: deaths, what: 被迫害致死, scope: 昆明地区, value: 1473, voice: judicial1980, cite: ws-1982-liu-yinnong-case, quote: 仅昆明地区因蒙受不白之冤被迫害致死的就有一千四百七十三人 }
+    - { measure: injured, what: 被打伤致残, scope: 昆明地区, value: 9661, voice: judicial1980, cite: ws-1982-liu-yinnong-case, quote: 被打伤致残的有九千六百六十一人 }
+  caveats: 两份起诉书相隔一年半，地方起诉书的“打死、逼死”与中央起诉书的“迫害致死”口径是否一致，原文没有说明。
+
+- id: jidong
+  title: 冀东冤案
+  period: 1967–1969
+  region: 河北唐山
+  summary: 1967 年 12 月陈伯达在唐山说中共冀东党组织“可能是国共合作的党”，此后冀东地区大批党员干部被打成叛徒。
+  events: [1967-12-jidong-case]
+  people: [chen-boda]
+  counts:
+    - { measure: persecuted, what: 遭受诬陷、迫害, value: 84000, approx: 余, voice: judicial1980, cite: ws-1980-indictment, quote: 使冀东地区的党员干部、群众八万四千余人遭受诬陷、迫害 }
+    - { measure: deaths, what: 被迫害致死, value: 2955, voice: judicial1980, cite: ws-1980-indictment, quote: 张文浩等二千九百五十五人被迫害致死 }
+    - { measure: none, what: 判决书认定, voice: judicial1980, cite: ws-1981-01-25-judgment, quote: 使冀东冤案造成严重的后果，大批干部和群众受到迫害 }
+  caveats: 唐山地方志与河北省的复查数字尚未入库。
+
+- id: army
+  title: 军队冤案
+  period: 1967–1971
+  region: 全军
+  summary: 林彪 1967 年提出“彻底砸烂总政”，此后总参、总政、总后、空军、海军大批干部被诬陷。这是起诉书与判决书唯一完全一致的一组数字。
+  events: [1967-08-01-army-handful]
+  people: [lin-biao, huang-yongsheng]
+  counts:
+    - { measure: persecuted, what: 遭到诬陷、迫害, value: 80000, approx: 多, voice: judicial1980, cite: ws-1980-indictment, quote: 使八万多人遭到诬陷、迫害 }
+    - { measure: deaths, what: 被迫害致死, value: 1169, voice: judicial1980, cite: ws-1980-indictment, quote: 一千一百六十九人被迫害致死 }
+    - { measure: deaths, what: 判决书认定, value: 1169, voice: judicial1980, cite: ws-1981-01-25-judgment, quote: 使八万多人遭到诬陷迫害，一千一百六十九人被迫害致死 }
+
+- id: shanghai
+  title: 上海“立案审查”
+  period: 1966–1976
+  region: 上海
+  summary: 1982 年上海市检察院对徐景贤、王秀珍的起诉书给出全市十年间被立案审查、受迫害的总数。中央起诉书与判决书没有上海的总数。
+  events: []
+  people: [xu-jingxian, wang-xiuzhen, zhang-chunqiao, wang-hongwen, cao-diqiu, chen-pixian]
+  counts:
+    - { measure: persecuted, what: 立案审查、遭受迫害, value: 240000, approx: 余, voice: judicial1980, cite: ws-1982-08-21-wang-xiuzhen-case, quote: 遭受迫害的就有二十四万余人 }
+    - { measure: deaths, what: 被迫害、折磨致死, value: 10000, approx: 余, voice: judicial1980, cite: ws-1982-08-21-wang-xiuzhen-case, quote: 其中被迫害、折磨致死的一万余人 }
+    - { measure: deaths, what: 部、局级以上领导干部被迫害致死, value: 40, approx: 余, voice: judicial1980, cite: ws-1982-xu-jingxian-case, quote: 市长曹荻秋、副市长金仲华等四十余位部、局级以上领导干部，先后被迫害致死 }
+    - { measure: persecuted, what: 工交系统七个“地下党专案”, value: 672, voice: judicial1980, cite: ws-1982-08-21-wang-xiuzhen-case, quote: 仅工交系统七个“地下党专案”，遭受迫害的即有六百七十二人，迫害致死的四十人 }
+  caveats: 起诉书的“文化大革命期间”覆盖 1966–1976 整个十年，不能当作 1967–1969 的数字。
+
+- id: shanghai-two-fights
+  title: 康平路与上柴：同一数字的措辞
+  period: 1966–1967
+  region: 上海
+  summary: 上海两次大武斗，各份司法文书的数字相同，描述伤害的动词却不一样：同一个 91 人，起诉书写“伤残”，判决书写“打伤”；同一个 650 人，起诉书写“关押、打伤”，判决书和地方起诉书写“关押和伤残”“关押、伤残”。
+  events: [1966-12-30-kangping-road, 1967-08-04-shanghai-diesel]
+  people: [wang-hongwen, zhang-chunqiao, xu-jingxian, wang-xiuzhen]
+  counts:
+    - { measure: injured, what: 康平路 · 起诉书, value: 91, voice: judicial1980, cite: ws-1980-indictment, quote: 攻打“工人赤卫队”，伤残九十一人 }
+    - { measure: injured, what: 康平路 · 判决书, value: 91, voice: judicial1980, cite: ws-1981-01-25-judgment, quote: 制造了上海康平路武斗事件，打伤九十一人 }
+    - { measure: injured, what: 康平路 · 徐景贤案, value: 91, voice: judicial1980, cite: ws-1982-xu-jingxian-case, quote: 致使九十一人受伤 }
+    - { measure: detained, what: 上柴 · 起诉书, value: 650, voice: judicial1980, cite: ws-1980-indictment, quote: 关押、打伤六百五十人 }
+    - { measure: detained, what: 上柴 · 判决书, value: 650, voice: judicial1980, cite: ws-1981-01-25-judgment, quote: 关押和伤残六百五十人 }
+    - { measure: detained, what: 上柴 · 陈阿大案, value: 650, voice: judicial1980, cite: ws-1982-chen-ada-case, quote: 关押、伤残六百五十人 }
+    - { measure: deaths, what: 上柴前两天“大世界”附近武斗, value: 2, voice: judicial1980, cite: ws-1982-chen-ada-case, quote: 在“大世界”附近聚众武斗，死亡二人 }
+
+- id: hunan-fights
+  title: 湖南 1967–1968 年武斗
+  period: 1967–1968
+  region: 湖南
+  summary: 1982 年长沙市检察院对胡勇、叶卫东的两份起诉书，逐起列出他们“策划、指挥”或“煽动”的武斗。没有全省总数。
+  events: []
+  people: []
+  counts:
+    - { measure: deaths, what: 长沙解放路武斗, scope: 1967 年 8 月, value: 24, voice: judicial1980, cite: ws-1982-hu-yong-case, quote: 造成死亡二十四人，损失国家财产五十八万多元 }
+    - { measure: deaths, what: 涟源“九·九”流血事件, scope: 1967 年 9 月, value: 11, voice: judicial1980, cite: ws-1982-ye-weidong-case, quote: 共打死十一人，打伤十二人 }
+    - { measure: deaths, what: 汝城六天武斗, scope: 1968 年 7 月, value: 16, voice: judicial1980, cite: ws-1982-ye-weidong-case, quote: 先后打死十六人 }
+    - { measure: deaths, what: 攻打涟钢, scope: 1968 年 7 月, value: 6, voice: judicial1980, cite: ws-1982-ye-weidong-case, quote: 当场打死六人，打伤六十八人 }
+  caveats: 起诉书只列被告本人负责的事件。道县等地 1967 年 8 月的屠杀不在其中，一手文本尚未找到。
+
+- id: guizhou-fights
+  title: 贵州李再含时期的武斗与镇压
+  period: 1967–1969
+  region: 贵州
+  summary: 1982 年贵州省检察院对孙昌德、徐英年的起诉书，逐起列出贵州省革委会主任李再含主导下的镇压事件。
+  events: []
+  people: []
+  counts:
+    - { measure: deaths, what: 镇压贵州工学院师生, scope: 1967-08-17 贵阳, value: 1, voice: judicial1980, cite: ws-1982-sun-changde-case, quote: 造成打死一人，打伤九十一人，抓二百余人 }
+    - { measure: deaths, what: 铜仁县武斗, scope: 1967 年 8 月, value: 21, voice: judicial1980, cite: ws-1982-sun-changde-case, quote: 打死群众二十一人 }
+    - { measure: deaths, what: 龙广“九·一八”流血事件, scope: 1968-09-18 安龙县, value: 10, voice: judicial1980, cite: ws-1982-xu-yingnian-case, quote: 打死九人，逼死一人，伤残十四人 }
+    - { measure: deaths, what: 攻打兴义县手管局, scope: 1968-12-15, value: 4, voice: judicial1980, cite: ws-1982-xu-yingnian-case, quote: 打死群众四人 }
+    - { measure: deaths, what: 贵阳“端据点”, scope: 1969-07-29, value: 55, voice: judicial1980, cite: ws-1982-sun-changde-case, quote: 这次事件，打死五十五人，打伤一百零八人 }
+
+- id: suzhou
+  title: 苏州：武斗、“陈杨集团”与民兵指挥部
+  period: 1967–1976
+  region: 江苏苏州
+  summary: 1979 年苏州市中级法院对华林森的判决书。1968 年的“陈、杨反革命集团”假案和 1974–1976 年的民兵指挥部关押，各有一组数字。
+  events: []
+  people: []
+  counts:
+    - { measure: persecuted, what: “陈、杨反革命集团”假案, scope: 1968 年, value: 100, approx: 多, voice: judicial1980, cite: ws-1979-hua-linsen-case, quote: 一百多名区、局领导干部被打成“反革命集团”成员和“叛徒”、“特务”，其中五十余人被刑讯逼供，三人被毒打、迫害致死，十人致伤致残 }
+    - { measure: detained, what: 民兵指挥部非法关押, scope: 1974–1976 年, value: 8400, approx: 余, voice: judicial1980, cite: ws-1979-hua-linsen-case, quote: 非法关押群众八千四百余人 }
+    - { measure: deaths, what: 民兵指挥部迫害致死, scope: 1974–1976 年, value: 5, voice: judicial1980, cite: ws-1979-hua-linsen-case, quote: 有五人被迫害致死，二十三人被折磨致伤致残 }
+  caveats: 1967 年苏州“三个多月”的两派武斗，判决书没有给出伤亡数字。
+
+- id: plant-221
+  title: 国防科委九院二二一厂
+  period: 1969–1971
+  region: 青海
+  summary: 核武器研制基地。1983 年北京市检察院分院对赵登程的起诉书，列出 1969 年 11 月至 1971 年 11 月工作组“查破案件”的后果。
+  events: []
+  people: []
+  counts:
+    - { measure: detained, what: 隔离审查和关押, value: 4000, approx: 余, voice: judicial1980, cite: ws-1983-zhao-dengcheng-case, quote: 干部、科技人员和工人四千余人被非法隔离审查和关押 }
+    - { measure: deaths, what: 打死和迫害致死, value: 50, approx: 多, voice: judicial1980, cite: ws-1983-zhao-dengcheng-case, quote: 五十多人被打死和被迫害致死 }
+
+- id: lankao
+  title: 河南兰考
+  period: 1967–1976
+  region: 河南兰考
+  summary: 1979 年商丘地区中级法院对兰考县革委会主任张钦礼的判决书。这里的数字只有数量级。
+  events: []
+  people: []
+  counts:
+    - { measure: persecuted, what: 遭毒打, approx: 数千, voice: judicial1980, cite: ws-1979-shangqiu-judgment, quote: 全县遭毒打者数千人 }
+    - { measure: deaths, what: 打死 / 逼死, approx: 数人 / 数十人, voice: judicial1980, cite: ws-1979-shangqiu-judgment, quote: 其中被活活打死者数人，逼死的数十人，被打伤致残的数百人 }
+
+- id: wuhan-720
+  title: 武汉“七·二〇事件”后的株连
+  period: 1967–1978
+  region: 湖北武汉
+  summary: 1978 年湖北省委、武汉军区为“七·二〇事件”平反的报告，承认“百万雄师”成员及其家属被打伤、打死，但不给任何数字；中央转发时要求平反决定“不要登报和广播”。
+  events: [1967-07-20-wuhan, 1967-07-25-wuhan-rally]
+  people: [chen-zaidao, wang-li, xie-fuzhi]
+  counts:
+    - { measure: none, what: 平反报告, voice: officialLater, cite: ws-1978-wuhan-720-report, quote: 有的被抄家，有的被揪斗，有的被长期关押，还有的被打伤、打死 }
+    - { measure: none, what: 中央转发通知, voice: officialLater, cite: ws-1978-11-26-wuhan-720-notice, quote: 但平反昭雪的决定和“七·二○事件”经过，不要登报和广播 }
+  caveats: 武汉地区受株连的人数，本库没有任何一手数字。
+
+- id: xinyang
+  title: 信阳事件（1959–1960）
+  period: 1959–1960
+  region: 河南信阳专区
+  summary: 大饥荒中死亡最惨重的地区之一。同一事件留下三层数字：1960 年 4 月地委向上报的全区数字；县委书记授意的瞒报数字；1961 年整风整社后县里重新统计的数字。商城一个县一年后的统计，就超过了地委一年前报的全区总数。
+  events: []
+  people: [lu-xianwen]
+  counts:
+    - { measure: reported, what: 地委上报（全区，含正常死亡）, scope: 截至 1960 年 3 月底, value: 71658, voice: doc, cite: ws-1960-04-04-xinyang-deaths-report, quote: 71658人（包括正常死亡在内） }
+    - { measure: reported, what: 商城县已掌握的死人数, scope: 1960 年 4 月, value: 28000, approx: 多, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 一九六零年四月全县据已掌握的死人数字二万八千多人 }
+    - { measure: reported, what: 县委书记授意上报, scope: 商城县, value: 3000, approx: 多, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 关于死人问题只准向地委报三千多人 }
+    - { measure: reported, what: 实际报省委, scope: 商城县, value: 12000, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 向省委只报一万二千人，瞒报一万六千人 }
+    - { measure: deaths, what: 1961 年统计, scope: 商城县, value: 96256, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 人口死了九万六千二百五十六人，占全县总人口四十二万五千人的百分之二十一点七 }
+    - { measure: deaths, what: 饿死 / 逼死, scope: 西平县, value: 9792, voice: doc, cite: ws-1961-04-29-xinyang-cadres-disposal, quote: 使全县饿死9792人，逼死1742人 }
+    - { measure: deaths, what: 饿打而死, scope: 潢川县一个大队, value: 517, voice: doc, cite: ws-1962-huangchuan-zhang-zuohe, quote: 饿打而死的群众517人 }
+    - { measure: none, what: 潢川县委的布置, scope: 潢川县, voice: doc, cite: ws-1962-huangchuan-zhang-zuohe, quote: 死人数字不经县委同意，不向他（指省委来的同志）汇报 }
+    - { measure: reported, what: 铁佛寺水库溃坝 · 上报, scope: 1960-05-17 商城, value: 1090, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 实死一千一百四十多人，张念仲为逃避罪责只上报一千零九十人 }
+    - { measure: deaths, what: 铁佛寺水库溃坝 · 估计, scope: 1960-05-17 商城, value: 2000, approx: 多, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 估计死亡两千多人 }
+  caveats: 全区的最终统计（1961 年以后）本库尚未找到一手文本。1960 年报告把死亡归因于“浮肿病、紫疳病和其他疫病”，并“包括正常死亡在内”；1961 年的县级报告归因于“反瞒产”与断粮，两者不是同一口径。
+
+- id: jiabiangou
+  title: 甘肃夹边沟劳教农场
+  period: 1957–1961
+  region: 甘肃酒泉
+  summary: 1964 年甘肃省委的清理报告承认“大批死亡”，给出送场人数和清理进度，但没有死亡人数。
+  events: []
+  people: []
+  counts:
+    - { measure: detained, what: 送场劳教人数, value: 2369, voice: doc, cite: ws-1964-01-25-jiabiangou, quote: 原送该场劳教的共二千三百六十九人 }
+    - { measure: none, what: 死亡人数, voice: doc, cite: ws-1964-01-25-jiabiangou, quote: 为了从酒泉夹边沟劳教人员大批死亡的事件中，认真总结经验教训 }
+
+- id: beijing-1989
+  title: 1989 年 6 月北京
+  period: 1989-06
+  region: 北京
+  summary: 死亡人数至今没有官方的完整公布。各方数字的口径不同：6 月初的官方统计、事后的内部汇总（未公开，经转述）、外国记者与外交电报的估计、遇难者家属按姓名核实的名单。
+  events: [1989-06-04-crackdown]
+  people: [chen-xitong, yuan-mu, ding-zilin]
+  counts:
+    - { measure: deaths, what: 非军人死亡, value: 200, approx: 余, voice: officialLater, cite: ws-1989-06-30-chen-xitong-report, quote: 据现在掌握的情况，暴乱中有3000多名非军人受伤，200余人死亡，包括36名大学生, note: 1989 年 6 月 30 日陈希同向全国人大常委会的报告。 }
+    - { measure: deaths, what: 军警死亡, approx: 数十, voice: officialLater, cite: ws-1989-06-30-chen-xitong-report, quote: 戒严部队战士、武警战士、公安干警负伤6000多人，死亡数十人 }
+    - { measure: deaths, what: 国务院发言人, value: 300, approx: 近, voice: officialLater, cite: wp-1989-casualties, quote: 1989年6月6日，国务院官员召开新闻发表会，发言人袁木表示，据初步统计，包括部队士兵、大学学生、非法分子和误杀群众在内，有近300人死亡, note: 维基百科综述，原出处为当日新闻发布会报道。 }
+    - { measure: deaths, what: 公安部内部汇总（全国）, value: 931, voice: officialLater, cite: wp-1989-casualties, quote: 1989年整个事件期间全国共有931人死亡, note: 维基百科转述，文件未公开。 }
+    - { measure: deaths, what: 《纽约时报》纪思道估计, value: 800, approx: 400–, voice: witness, cite: wp-1989-casualties, quote: 合理数字应该是大约有50名士兵或警察死亡，以及400名至800名平民丧生 }
+    - { measure: deaths, what: 英国解密电报转述, value: 10000, approx: 至少, voice: witness, cite: wp-1989-casualties, quote: 称1989年天安门事件至少造成1万多名平民死亡 }
+    - { measure: deaths, what: 天安门母亲核实名单, value: 202, voice: witness, cite: wp-1989-casualties, quote: 1999年有155人、2005年有187人、2010年有195人……2011年8月有202人, note: 按姓名逐一核实，是下限。 }
+
+# ── 待补：一手文本尚未入库 ──
+- id: guangxi
+  title: 广西 1967–1968 年武斗与屠杀
+  period: 1967–1968
+  region: 广西
+  summary: 1968 年“七·三布告”针对广西。各县的死亡数字见于 1980 年代“处遗”文件与县志，均未入库。
+  events: [1968-07-03-notice]
+  need: 广西文革“处遗”档案、县志
+- id: daoxian
+  title: 湖南道县 1967 年 8 月
+  period: 1967-08
+  region: 湖南零陵地区
+  summary: 1967 年 8–10 月道县及周边各县的屠杀。数字见于 1980 年代零陵地区“处遗”工作报告，未入库。
+  need: 零陵地区处遗报告、《道县志》
+- id: daxing
+  title: 北京大兴 1966 年 8 月
+  period: 1966-08
+  region: 北京大兴
+  summary: 1966 年 8 月下旬大兴县各公社对“四类分子”及家属的杀戮。一手文本未入库。
+  need: 北京市或大兴县的调查材料
+- id: red-august
+  title: 北京“红八月”
+  period: 1966-08–09
+  region: 北京
+  summary: 1966 年 8–9 月北京城区红卫兵打死的人数。本库只有个案（卞仲耘、老舍等），没有全市数字的一手文本。
+  events: [1966-08-05-bian-zhongyun]
+  need: 北京市 1980 年代的统计材料
+- id: clean-ranks-national
+  title: 清理阶级队伍的全国规模
+  period: 1968–1969
+  region: 全国
+  summary: 1969 年湖北检讨承认“扩大化现象”，1974 年中央承认湖北“搞过了一点”，但全国范围的立案与死亡数字没有任何一手文本。
+  events: [1968-05-clean-ranks]
+  need: 中央组织部或各省落实政策的统计

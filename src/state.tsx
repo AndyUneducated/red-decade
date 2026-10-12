@@ -12,6 +12,7 @@ export const VIEWS = {
   river: '派系河流',
   ideas: '思想谱系',
   narratives: '叙事对照',
+  figures: '数字争议',
   docs: '文献',
   research: '研究',
 } as const

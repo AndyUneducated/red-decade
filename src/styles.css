@@ -2216,3 +2216,228 @@ h2.sec {
     overflow: hidden;
   }
 }
+
+/* ── figures (数字争议) ────────────────────────────── */
+.figures .fig-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-bottom: 18px;
+  max-width: 1100px;
+  font-size: 12.5px;
+}
+.fig-index a {
+  color: var(--ink-2);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule-2);
+}
+.fig-index a:hover {
+  color: var(--accent);
+}
+.fig-list {
+  display: grid;
+  gap: 14px;
+  max-width: 1100px;
+}
+.fig-case {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 14px 18px 12px;
+  scroll-margin-top: 12px;
+}
+.fig-case header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.fig-case h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 600;
+}
+.fig-case header span {
+  color: var(--muted);
+  font-size: 12px;
+}
+.fig-case > p {
+  margin: 6px 0 10px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  max-width: 80ch;
+}
+.fig-axis,
+.fig-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.9fr) minmax(160px, 1.4fr) 92px minmax(170px, 1fr);
+  column-gap: 12px;
+  align-items: center;
+}
+.fig-ticks {
+  position: relative;
+  height: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+.fig-ticks span {
+  position: absolute;
+  bottom: 2px;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.fig-ticks span:first-child {
+  transform: none;
+}
+.fig-row {
+  padding: 7px 0 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.fig-row:last-of-type {
+  border-bottom: 0;
+}
+.fig-what b {
+  font-weight: 500;
+  font-size: 13px;
+}
+.fig-what span {
+  display: block;
+  font-size: 11.5px;
+  color: var(--muted);
+}
+.fig-track {
+  position: relative;
+  height: 12px;
+  background: repeating-linear-gradient(to right, transparent 0, transparent calc(100% / 7 - 1px), var(--rule) calc(100% / 7 - 1px), var(--rule) calc(100% / 7));
+}
+.fig-bar {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 8px;
+  min-width: 3px;
+  border-radius: 0 3px 3px 0;
+  opacity: 0.85;
+}
+.fig-row[data-measure='deaths'] .fig-bar {
+  opacity: 1;
+  box-shadow: inset 0 0 0 1px var(--shadow);
+}
+.fig-row[data-measure='reported'] .fig-bar {
+  background-image: repeating-linear-gradient(135deg, transparent 0 3px, var(--card) 3px 5px) !important;
+}
+.fig-nonum {
+  font-size: 11.5px;
+  font-style: italic;
+  color: var(--muted);
+}
+.fig-val {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 600;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.fig-val small {
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 2px;
+  color: var(--muted);
+}
+.fig-src {
+  font-size: 11.5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+}
+.fig-measure {
+  padding: 0 5px;
+  border-radius: 3px;
+  background: var(--paper-2);
+  color: var(--ink-2);
+}
+.fig-row[data-measure='deaths'] .fig-measure {
+  background: var(--rebut-bg);
+  color: var(--accent);
+}
+.fig-quote,
+.fig-note {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 3px;
+}
+.fig-quote {
+  color: var(--ink-2);
+  quotes: '「' '」';
+}
+.fig-note {
+  color: var(--muted);
+}
+.fig-caveat {
+  margin-top: 8px;
+  padding: 7px 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  background: var(--warn-bg);
+  border: 1px solid var(--warn-rule);
+  border-radius: 6px;
+  color: var(--warn);
+}
+.fig-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.fig-pending {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+  max-width: 1100px;
+}
+.fig-pending > div {
+  border: 1px dashed var(--rule-2);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.fig-pending b {
+  font-weight: 600;
+}
+.fig-pending span {
+  margin-left: 8px;
+  font-size: 11.5px;
+  color: var(--muted);
+}
+.fig-pending p {
+  margin: 4px 0;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+.fig-pending small {
+  color: var(--warn);
+}
+@media (max-width: 720px) {
+  .fig-case {
+    padding: 12px 12px 10px;
+  }
+  .fig-axis {
+    display: none;
+  }
+  .fig-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    row-gap: 4px;
+  }
+  .fig-track {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  .fig-src {
+    grid-column: 1 / -1;
+  }
+}
