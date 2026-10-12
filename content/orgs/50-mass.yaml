@@ -102,6 +102,213 @@
     - { name: 胡子昂, title: 主任委员, from: 1979-10, to: 1988 }
     - { name: 荣毅仁, title: 主席, from: 1988 }
 
+# ── org expansion O1: remaining democratic parties, religious and arts bodies ──
+- id: capd
+  name: 中国民主促进会
+  short: 民进
+  aliases: [中国民主促进会, 民进]
+  kind: mass
+  level: central
+  from: 1945-12
+  suspended: [{ from: 1966-08, to: 1977 }]
+  places: [{ at: shanghai, to: 1949 }, { at: beijing, from: 1949 }]
+  summary: 以文化、教育、出版界人士为主的民主党派，1945 年在上海成立。
+  verify: true
+  leaders:
+    - { name: 马叙伦, title: 主席, from: 1945-12, to: 1970-05-04 }
+    - { name: 周建人, title: 主席, from: 1979-10, to: 1987-12 }
+    - { name: 雷洁琼, title: 主席, from: 1987-12 }
+
+- id: zhigong
+  name: 中国致公党
+  short: 致公党
+  aliases: [中国致公党, 致公党]
+  kind: mass
+  level: central
+  from: 1925-10
+  suspended: [{ from: 1966-08, to: 1977 }]
+  places: [{ at: beijing, from: 1950 }]
+  summary: 由美洲洪门致公堂发起，以归侨、侨眷为主的民主党派。
+  verify: true
+  leaders:
+    - { name: 陈其尤, title: 主席, from: 1952, to: 1970-12 }
+    - { name: 黄鼎臣, title: 主席, from: 1979-10, to: 1988 }
+    - { name: 董寅初, title: 主席, from: 1988 }
+
+- id: taimeng
+  name: 台湾民主自治同盟
+  short: 台盟
+  aliases: [台湾民主自治同盟, 台盟]
+  kind: mass
+  level: central
+  from: 1947-11
+  suspended: [{ from: 1966-08, to: 1979 }]
+  places: [{ at: beijing, from: 1949 }]
+  summary: 二二八事件后在香港成立的台湾人政党。首任主席谢雪红 1957 年被划为右派，次年被撤销职务。
+  verify: true
+  leaders:
+    - { name: 谢雪红, title: 主席, from: 1947-11, to: 1958 }
+
+- id: buddhist-assoc
+  name: 中国佛教协会
+  aliases: [中国佛教协会, 中国佛协]
+  kind: mass
+  level: central
+  from: 1953-06
+  suspended: [{ from: 1966, to: 1980 }]
+  places: [{ at: beijing }]
+  summary: 全国佛教徒的团体。文革中寺院被关闭或改作他用，僧人被迫还俗，协会停止活动；1980 年恢复，赵朴初任会长。
+  verify: true
+  leaders:
+    - { name: 喜饶嘉措, title: 会长, from: 1955, to: 1966, note: 起止待核 }
+    - { name: 赵朴初, title: 会长, from: 1980-12 }
+
+- id: islamic-assoc
+  name: 中国伊斯兰教协会
+  aliases: [中国伊斯兰教协会, 中国伊协]
+  kind: mass
+  level: central
+  from: 1953-05
+  suspended: [{ from: 1966, to: 1980 }]
+  places: [{ at: beijing }]
+  summary: 全国穆斯林的团体。首任会长包尔汉曾任新疆省政府主席。
+  verify: true
+  leaders:
+    - { name: 包尔汉, title: 会长, from: 1953-05, to: 1966, note: 止点待核 }
+
+- id: catholic-patriotic
+  name: 中国天主教爱国会
+  aliases: [中国天主教爱国会, 天主教爱国会]
+  kind: mass
+  level: central
+  from: 1957-07
+  suspended: [{ from: 1966, to: 1980 }]
+  places: [{ at: beijing }]
+  summary: 1957 年成立，主张脱离罗马教廷、“自选自圣”主教，与梵蒂冈长期对立。
+  verify: true
+  leaders:
+    - { name: 皮漱石, title: 主席, from: 1957-07, to: 1978, note: 起止待核 }
+
+- id: tspm
+  name: 中国基督教三自爱国运动委员会
+  short: 三自会
+  aliases: [中国基督教三自爱国运动委员会, 三自爱国运动委员会, 三自会]
+  kind: mass
+  level: central
+  from: 1954-08
+  suspended: [{ from: 1966, to: 1980 }]
+  places: [{ at: shanghai }]
+  summary: 推行基督教“自治、自养、自传”的全国机构，总部在上海。拒绝加入的教会领袖如王明道被捕判刑。
+  verify: true
+  leaders:
+    - { name: 吴耀宗, title: 主席, from: 1954-08, to: 1979-09 }
+    - { name: 丁光训, title: 主席, from: 1980-10 }
+
+- id: artists-assoc
+  name: 中国美术家协会
+  short: 美协
+  aliases: [中国美术家协会, 美协, 中华全国美术工作者协会]
+  kind: mass
+  level: central
+  from: 1949-07
+  suspended: [{ from: 1966, to: 1978 }]
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 1949 年成立中华全国美术工作者协会，1953 年改今名，首任主席齐白石。副主席江丰 1957 年被划为右派，1979 年改正后任主席。
+  verify: true
+  leaders:
+    - { name: 齐白石, title: 主席, from: 1953-10, to: 1957-09-16 }
+    - { name: 何香凝, title: 主席, from: 1958, to: 1972-09-01 }
+    - { name: 江丰, title: 主席, from: 1979, to: 1982-12 }
+    - { name: 吴作人, title: 主席, from: 1985 }
+
+- id: musicians-assoc
+  name: 中国音乐家协会
+  short: 音协
+  aliases: [中国音乐家协会, 音协]
+  kind: mass
+  level: central
+  from: 1949-07
+  suspended: [{ from: 1966, to: 1978 }]
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 1949 年成立，1953 年改今名。吕骥任主席三十余年。
+  verify: true
+  leaders:
+    - { name: 吕骥, title: 主席, from: 1949-07, to: 1985 }
+
+- id: film-assoc
+  name: 中国电影家协会
+  short: 影协
+  aliases: [中国电影家协会, 影协, 中国电影工作者协会]
+  kind: mass
+  level: central
+  from: 1949-07
+  suspended: [{ from: 1966, to: 1979 }]
+  under: [{ org: cflac }]
+  places: [{ at: beijing }]
+  summary: 前身中华全国电影艺术工作者协会，1960 年改今名。主席蔡楚生 1968 年在批斗中去世。
+  verify: true
+  leaders:
+    - { name: 蔡楚生, title: 主席, from: 1960-07, to: 1968-07-15 }
+    - { name: 夏衍, title: 主席, from: 1979-11, to: 1985 }
+
+- id: acfroc
+  name: 中华全国归国华侨联合会
+  short: 全国侨联
+  aliases: [中华全国归国华侨联合会, 全国侨联]
+  kind: mass
+  level: central
+  from: 1956-10
+  suspended: [{ from: 1966, to: 1978 }]
+  places: [{ at: beijing }]
+  summary: 归侨、侨眷的人民团体。文革中“海外关系”被视为嫌疑，侨联停止活动；1978 年恢复。
+  verify: true
+  leaders:
+    - { name: 何香凝, title: 主席, from: 1956-10, to: 1972-09-01 }
+    - { name: 庄希泉, title: 主席, from: 1978-12, to: 1984 }
+
+- id: red-cross
+  name: 中国红十字会总会
+  short: 中国红十字会
+  aliases: [中国红十字会总会, 中国红十字会]
+  kind: mass
+  level: central
+  from: 1950-08
+  places: [{ at: beijing }]
+  summary: 1950 年改组。首任会长李德全，同时任卫生部部长。
+  verify: true
+  leaders:
+    - { name: 李德全, title: 会长, from: 1950-08, to: 1965, note: 止点待核 }
+    - { name: 钱信忠, title: 会长, from: 1979, to: 1985, note: 起止待核 }
+
+- id: friendship-assoc
+  name: 中国人民对外友好协会
+  short: 对外友协
+  aliases: [中国人民对外友好协会, 对外友协, 中国人民对外文化协会]
+  kind: mass
+  level: central
+  from: 1954-05
+  places: [{ at: beijing }]
+  summary: 1954 年成立中国人民对外文化协会，1966 年改今名，承担“民间外交”，1971 年起负责接待美国乒乓球队等来访团体。
+  verify: true
+  leaders:
+    - { name: 楚图南, title: 会长, from: 1954-05, to: 1966 }
+    - { name: 王炳南, title: 会长, from: 1972, to: 1986, note: 起点待核 }
+
+- id: cdpf
+  name: 中国残疾人联合会
+  short: 中国残联
+  aliases: [中国残疾人联合会, 中国残联, 中国残疾人福利基金会]
+  kind: mass
+  level: central
+  from: 1988-03
+  places: [{ at: beijing }]
+  summary: 1988 年由中国残疾人福利基金会和中国盲人聋哑人协会合并成立。首任主席邓朴方 1968 年在北京大学被迫害致残。
+  verify: true
+  leaders:
+    - { name: 邓朴方, title: 主席, from: 1988-03 }
+
 # ── 文革群众组织 ──
 - id: beihang-hongqi
   name: 北京航空学院红旗战斗队

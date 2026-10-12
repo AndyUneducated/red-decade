@@ -686,3 +686,254 @@
   verify: true
   leaders:
     - { name: 谷牧, title: 主任, from: 1979-07, to: 1982-03 }
+
+# ── org expansion O1: remaining State Council ministries and commissions ──
+- id: commerce
+  name: 商业部
+  aliases: [商业部, 中华人民共和国商业部]
+  kind: state
+  level: central
+  from: 1952-08
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管国营商业和城乡商品流通，执行统购统销与票证供应。1970 年与粮食部、全国供销合作总社等合并为新的商业部，1982 年再次合并粮食部和供销总社。
+  verify: true
+  leaders:
+    - { name: 曾山, title: 部长, from: 1952-08, to: 1960, note: 止点待核 }
+    - { name: 姚依林, title: 部长, from: 1960, to: 1967, note: 起止待核 }
+    - { name: 刘毅, title: 部长, from: 1982-05, to: 1988-04 }
+    - { name: 胡平, title: 部长, from: 1988-04 }
+
+- id: textile
+  name: 纺织工业部
+  aliases: [纺织工业部, 纺织部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 首任部长蒋光鼐任职至 1967 年去世。1981 年起由青岛国棉六厂工人出身的郝建秀任部长，是当时最年轻的女部长。
+  verify: true
+  leaders:
+    - { name: 蒋光鼐, title: 部长, from: 1949-10, to: 1967-06-08 }
+    - { name: 钱之光, title: 部长, from: 1970, to: 1981-03, note: 起止待核 }
+    - { name: 郝建秀, title: 部长, from: 1981-03, to: 1983-06 }
+    - { name: 吴文英, title: 部长, from: 1985-06 }
+
+- id: light-industry
+  name: 轻工业部
+  aliases: [轻工业部, 第一轻工业部, 第二轻工业部]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1949 年设立，首任部长黄炎培。1965 年分为第一、第二轻工业部，1970 年重新合并为轻工业部。
+  verify: true
+  leaders:
+    - { name: 黄炎培, title: 部长, from: 1949-10, to: 1954-09 }
+    - { name: 梁灵光, title: 部长, from: 1977, to: 1980, note: 起止待核 }
+
+- id: chemical
+  name: 化学工业部
+  aliases: [化学工业部, 化工部, 燃料化学工业部]
+  kind: state
+  level: central
+  from: 1956-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1956 年由重工业部分出。1970 年与煤炭工业部、石油工业部合并为燃料化学工业部，1975 年分开后恢复化学工业部。
+  verify: true
+  leaders:
+    - { name: 彭涛, title: 部长, from: 1956-05, to: 1961-11, note: 在任去世 }
+    - { name: 秦仲达, title: 部长, from: 1983, to: 1989, note: 起点待核 }
+    - { name: 顾秀莲, title: 部长, from: 1989 }
+
+- id: building
+  name: 建筑工程部
+  short: 建工部
+  aliases: [建筑工程部, 建工部]
+  kind: state
+  level: central
+  from: 1952-08
+  to: 1970-06
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管全国建筑施工与城市建设。1970 年与建筑材料工业部等并入国家基本建设委员会。
+  verify: true
+  leaders:
+    - { name: 陈正人, title: 部长, from: 1952-08, to: 1954 }
+    - { name: 刘秀峰, title: 部长, from: 1954, to: 1965, note: 止点待核 }
+
+- id: electronics
+  name: 第四机械工业部 / 电子工业部
+  short: 四机部
+  aliases: [第四机械工业部, 四机部, 电子工业部]
+  kind: state
+  level: central
+  from: 1963-03
+  to: 1988-04
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管无线电、雷达与电子工业，1982 年改称电子工业部，1988 年与机械工业部合并为机械电子工业部。1983–1985 年部长为江泽民。
+  verify: true
+  leaders:
+    - { name: 王诤, title: 部长, from: 1963-03, to: 1967, note: 止点待核 }
+    - { name: 江泽民, title: 部长, from: 1983-06, to: 1985-06 }
+    - { name: 李铁映, title: 部长, from: 1985-06, to: 1988-04 }
+
+- id: forestry
+  name: 林业部
+  aliases: [林业部, 中华人民共和国林业部]
+  kind: state
+  level: central
+  from: 1949-10
+  suspended: [{ from: 1970-06, to: 1979-02, note: 并入农林部 }]
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 首任部长为林学家梁希。1970 年与农业部、农垦部、水产部合并为农林部，1979 年恢复。
+  verify: true
+  leaders:
+    - { name: 梁希, title: 部长, from: 1949-10, to: 1958-12-10 }
+    - { name: 刘文辉, title: 部长, from: 1959-04, to: 1967, note: 止点待核 }
+    - { name: 杨钟, title: 部长, from: 1982, to: 1987 }
+    - { name: 高德占, title: 部长, from: 1987 }
+
+- id: aquatic
+  name: 水产部
+  aliases: [水产部]
+  kind: state
+  level: central
+  from: 1956-05
+  to: 1970-06
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 九三学社主席许德珩任部长至 1970 年水产部并入农林部。
+  verify: true
+  leaders:
+    - { name: 许德珩, title: 部长, from: 1956-05, to: 1970-06 }
+
+- id: agro-forestry
+  name: 农林部
+  aliases: [农林部]
+  kind: state
+  level: central
+  from: 1970-06
+  to: 1979-02
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1970 年由农业部、林业部、农垦部、水产部合并而成，1979 年又分设农业部、林业部。
+  verify: true
+  leaders:
+    - { name: 沙风, title: 部长, from: 1970-06, to: 1979-02, note: 起止待核 }
+
+- id: supply-coop
+  name: 中华全国供销合作总社
+  short: 全国供销总社
+  aliases: [中华全国供销合作总社, 全国供销合作总社, 供销合作总社]
+  kind: state
+  level: central
+  from: 1954-07
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管农村供销合作社系统，农副产品收购和农村日用品供应。1958、1970、1982 年三度与商业部合并，又三度分出。
+  verify: true
+  leaders:
+    - { name: 程子华, title: 主任, from: 1954-07, to: 1958, note: 起止待核 }
+    - { name: 潘复生, title: 主任, from: 1963-04, to: 1966-02 }
+
+- id: foreign-econ-liaison
+  name: 对外经济联络部
+  aliases: [对外经济联络部, 对外经济联络委员会]
+  kind: state
+  level: central
+  from: 1961
+  to: 1982-03
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管对外经济援助，坦赞铁路等援外项目由其组织。1970 年由对外经济联络委员会改为部，1982 年与对外贸易部等合并为对外经济贸易部。
+  verify: true
+  leaders:
+    - { name: 方毅, title: 主任、部长, from: 1961, to: 1977-01 }
+    - { name: 陈慕华, title: 部长, from: 1977-01, to: 1982-03 }
+
+- id: audit
+  name: 审计署
+  aliases: [审计署, 中华人民共和国审计署]
+  kind: state
+  level: central
+  from: 1983-09
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 依 1982 年宪法设立的国家审计机关。
+  verify: true
+  leaders:
+    - { name: 于明涛, title: 审计长, from: 1983-09, to: 1985 }
+    - { name: 吕培俭, title: 审计长, from: 1985 }
+
+- id: agri-commission
+  name: 国家农业委员会
+  short: 国家农委
+  aliases: [国家农业委员会, 国家农委]
+  kind: state
+  level: central
+  from: 1979-02
+  to: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 十一届三中全会后设立，统管农林牧渔与农村政策，任内包产到户由“不许”“不要”逐步放开。1982 年机构改革撤销，职能并入中央书记处农村政策研究室。
+  verify: true
+  leaders:
+    - { name: 王任重, title: 主任, from: 1979-02, to: 1980 }
+    - { name: 万里, title: 主任, from: 1980-08, to: 1982-05 }
+
+- id: energy-commission
+  name: 国家能源委员会
+  aliases: [国家能源委员会]
+  kind: state
+  level: central
+  from: 1980-08
+  to: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 统管煤炭、石油、电力三部，1982 年机构改革撤销。
+  verify: true
+  leaders:
+    - { name: 余秋里, title: 主任, from: 1980-08, to: 1982-05 }
+
+- id: religious-affairs
+  name: 国务院宗教事务局
+  aliases: [国务院宗教事务局, 宗教事务局]
+  kind: state
+  level: central
+  from: 1954-11
+  suspended: [{ from: 1966, to: 1979, note: 文革中停止工作 }]
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 主管宗教政策与各全国性宗教团体的联系。文革中寺庙、教堂被关闭，宗教团体停止活动，1979 年恢复。
+  verify: true
+  leaders:
+    - { name: 何成湘, title: 局长, from: 1954-11, to: 1966, note: 起止待核 }
+
+- id: customs
+  name: 海关总署
+  aliases: [海关总署, 中华人民共和国海关总署]
+  kind: state
+  level: central
+  from: 1949-10
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1949 年设立，1953 年改隶对外贸易部，1980 年恢复为国务院直属。
+  verify: true
+
+- id: caac
+  name: 中国民用航空总局
+  short: 民航总局
+  aliases: [中国民用航空总局, 民航总局, 中国民航]
+  kind: state
+  level: central
+  from: 1949-11
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1949 年成立时隶属人民革命军事委员会，1962 年后由空军代管，1980 年起脱离军队建制，改为国务院直属。
+  verify: true

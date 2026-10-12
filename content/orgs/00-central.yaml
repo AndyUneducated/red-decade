@@ -612,29 +612,44 @@
 
 - id: hubei-committee
   name: 中共湖北省委
-  aliases: [中共湖北省委]
+  aliases: [中共湖北省委, 中共湖北省委员会, 湖北省委]
   kind: party
   level: provincial
   from: 1949-05
   under: [{ org: cc }]
   places: [{ at: wuhan }]
-  summary: 王任重 1954–1966 年任第一书记。
+  summary: 王任重 1954–1966 年任第一书记，1966 年 8 月调中央文革小组任副组长。1967 年武汉“七二〇事件”后省委瘫痪，由湖北省革委会行使职权。
   verify: true
+  leaders:
+    - { name: 李先念, title: 书记, from: 1949-05, to: 1954 }
+    - { name: 王任重, title: 第一书记, from: 1954, to: 1966-08 }
+    - { name: 赵辛初, title: 第一书记, from: 1975, to: 1978 }
+    - { name: 陈丕显, title: 第一书记, from: 1978, to: 1982 }
+    - { name: 关广富, title: 书记, from: 1983 }
 
 - id: guangdong-committee
   name: 中共广东省委
-  aliases: [中共广东省委]
+  aliases: [中共广东省委, 中共广东省委员会, 广东省委]
   kind: party
   level: provincial
   from: 1949-10
   under: [{ org: cc }]
   places: [{ at: guangzhou }]
-  summary: 陶铸 1955–1965 年任第一书记。
+  summary: 陶铸 1955–1965 年任第一书记，赵紫阳 1965 年接任，文革中两人先后被打倒。1978 年底起习仲勋、任仲夷主政，推动“特殊政策、灵活措施”和经济特区。
   verify: true
+  leaders:
+    - { name: 叶剑英, title: 第一书记, from: 1949-10, to: 1955 }
+    - { name: 陶铸, title: 第一书记, from: 1955, to: 1965-02 }
+    - { name: 赵紫阳, title: 第一书记, from: 1965-02, to: 1967 }
+    - { name: 赵紫阳, title: 第一书记, from: 1974-04, to: 1975-10 }
+    - { name: 韦国清, title: 第一书记, from: 1975-10, to: 1978-12 }
+    - { name: 习仲勋, title: 第一书记, from: 1978-12, to: 1980-11 }
+    - { name: 任仲夷, title: 第一书记, from: 1980-11, to: 1985-07 }
+    - { name: 林若, title: 书记, from: 1985-07 }
 
 - id: hebei-committee
   name: 中共河北省委
-  aliases: [中共河北省委]
+  aliases: [中共河北省委, 中共河北省委员会, 河北省委]
   kind: party
   level: provincial
   under: [{ org: cc }]
@@ -644,6 +659,12 @@
     - { at: shijiazhuang, from: 1968-02 }
   summary: 1958–1966 年省会在天津。张承先曾任书记处书记，1966 年 6 月调任北大工作组组长。
   verify: true
+  leaders:
+    - { name: 林铁, title: 第一书记, from: 1949-08, to: 1966 }
+    - { name: 刘子厚, title: 第一书记, from: 1971, to: 1979, note: 起止待核 }
+    - { name: 金明, title: 第一书记, from: 1979, to: 1982 }
+    - { name: 高扬, title: 书记, from: 1982, to: 1985 }
+    - { name: 邢崇智, title: 书记, from: 1985 }
 
 - id: hebei-revcom
   name: 河北省革命委员会
@@ -658,13 +679,20 @@
 
 - id: yunnan-committee
   name: 中共云南省委
-  aliases: [中共云南省委]
+  aliases: [中共云南省委, 中共云南省委员会, 云南省委]
   kind: party
   level: provincial
   under: [{ org: cc }]
   places: [{ at: kunming }]
-  summary: 谢富治 1950 年代任第一书记兼昆明军区政委。
+  summary: 谢富治 1950 年代任第一书记兼昆明军区政委。第一书记阎红彦 1967 年 1 月在昆明自杀；1970 年任第一书记的谭甫仁同年 12 月在昆明遇刺身亡。
   verify: true
+  leaders:
+    - { name: 宋任穷, title: 第一书记, from: 1950, to: 1952 }
+    - { name: 谢富治, title: 第一书记, from: 1952, to: 1959 }
+    - { name: 阎红彦, title: 第一书记, from: 1959, to: 1967-01-08 }
+    - { name: 谭甫仁, title: 第一书记, from: 1970, to: 1970-12-17 }
+    - { name: 安平生, title: 第一书记, from: 1977, to: 1985 }
+    - { name: 普朝柱, title: 书记, from: 1985 }
 
 - id: fujian-committee
   name: 中共福建省委（1930 年代）
