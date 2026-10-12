@@ -882,7 +882,8 @@
   voices:
     - { voice: doc, text: 所谓《扬子江评论》，是一些叛徒、特务、反革命分子幕后操纵的反动刊物，肆无忌惮地大量放毒，必须查封。（1969 年中央指示）, cite: ws-1969-wuhan-instruction, quote: true }
     - { voice: doc, text: 对这类反革命的地下组织，必须坚决取缔。（同上）, cite: ws-1969-wuhan-instruction, quote: true }
-  cites: [ws-1969-wuhan-instruction]
+    - { voice: officialLater, text: 毛主席曾经指出，湖北清查北、决、扬“搞过了一点”，就是说犯了扩大化的错误，错误的根子的在刘丰，省委也有责任。（1974 年中共中央关于湖北问题的指示）, cite: ws-1974-05-21-hubei-instructions, quote: true }
+  cites: [ws-1969-wuhan-instruction, ws-1974-05-21-hubei-instructions]
   verify: true
 
 - id: 1969-11-05-sichuan-meeting
