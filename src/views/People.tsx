@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import { useMemo, useRef, useState } from 'react'
+import { useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
 import { AgeRuler, IdCard, ProfileTimeline } from '../components/Dossier'
 import { ClaimLinks, EventList, FateLine, RelationList } from '../components/Drawer'
@@ -8,8 +8,8 @@ import { LifeStrip } from '../components/LifeStrip'
 import { PersonFacts, PositionList } from '../components/PersonFacts'
 import { Portrait } from '../components/Portrait'
 import { statusAt } from '../data/atlas'
-import { ALIAS_KINDS, DEATH_KINDS, STATUSES, type Person } from '../data/schema'
-import { fmtDate, fmtRange, fmtT, lifespan } from '../lib/dates'
+import { ALIAS_KINDS, DEATH_KINDS, STATUSES, VOICES, type Person } from '../data/schema'
+import { fmtDate, fmtRange, fmtT, lifespan, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
 import { useApp } from '../state'
 
@@ -23,6 +23,11 @@ type Group = keyof typeof GROUPS
 export function People() {
   const { doc } = useApp()
   return doc ? <Profile key={doc} id={doc} /> : <Directory />
+}
+
+function chapterColor(p: Person, from?: string) {
+  const s = from ? statusAt(p, toT(from)) : undefined
+  return s ? `var(--s-${s})` : 'var(--s-normal)'
 }
 
 function endLabel(p: Person) {
@@ -143,7 +148,7 @@ function Profile({ id }: { id: string }) {
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
   if (!p) return <Directory />
-  const mainW = Math.min(720, Math.max(280, (width > 1100 ? width - 420 : width) - 64))
+  const mainW = Math.min(720, Math.max(280, (width > 1100 ? width - 420 : width) - 78))
   const start = p.born ? Number(p.born.slice(0, 4)) - 2 : 1940
   const end = p.died ? Number(p.died.slice(0, 4)) + 2 : 1990
   const x = d3.scaleLinear().domain([start, end]).range([0, mainW])
@@ -152,6 +157,17 @@ function Profile({ id }: { id: string }) {
   const claims = ix.claims.filter((c) => c.people.includes(id))
   const names = (p.aka ?? []).map((a) => `${ALIAS_KINDS[a.kind]}${a.name}`)
   const place = p.birthplace ?? p.origin
+  const rels = ix.relationsByPerson.get(id) ?? []
+  const now = statusAt(p, t)
+  const age = (d?: string) => (p.born && d ? Math.floor(toT(d) - toT(p.born) + 1e-6) : undefined)
+  const stats = [
+    { l: '享年', n: age(p.died), u: '岁' },
+    { l: '1966 年时', n: !p.died || toT(p.died) > 1966.37 ? age('1966-05-16') : undefined, u: '岁' },
+    { l: '职务', n: p.positions.length },
+    { l: '相关事件', n: events.length },
+    { l: '关系', n: rels.length },
+  ].filter((s) => s.n !== undefined && s.n > 0)
+  const pull = p.assess.find((v) => v.quote && v.text.length <= 150)
 
   return (
     <div className="view">
@@ -162,13 +178,17 @@ function Profile({ id }: { id: string }) {
               ← 人物
             </button>
           </nav>
-          <header className="profile-head">
+          <header className="profile-head hero" style={{ '--fc': ix.primaryFaction(p)?.color ?? 'var(--accent)' } as CSSProperties}>
+            <div className="hero-mark" aria-hidden>
+              {p.name.slice(0, 1)}
+            </div>
             <div className="profile-id">
               <div>
                 <div className="kicker">人物 · {p.role1966}</div>
                 <h1>
                   {p.name} {p.verify && <Verify />}
                 </h1>
+                {p.pinyin && <div className="pinyin">{p.pinyin}</div>}
                 <div className="meta">
                   {[
                     fmtRange(p.born ?? '?', p.died),
@@ -184,8 +204,29 @@ function Profile({ id }: { id: string }) {
                     <Entity key={f} refTo={{ type: 'faction', id: f }} dot={ix.faction.get(f)?.color} />
                   ))}
                 </div>
+                {stats.length > 0 && (
+                  <dl className="hero-stats">
+                    {stats.map((s) => (
+                      <div key={s.l}>
+                        <dd>
+                          {s.n}
+                          {s.u && <small>{s.u}</small>}
+                        </dd>
+                        <dt>{s.l}</dt>
+                      </div>
+                    ))}
+                  </dl>
+                )}
               </div>
-              <Portrait p={p} width={mainW < 420 ? 84 : 112} credit />
+              <div className="hero-photo">
+                <Portrait p={p} width={mainW < 420 ? 92 : 148} credit />
+                {now && (
+                  <div className="stamp" style={{ '--st': now === 'normal' ? 'var(--ink-2)' : `var(--s-${now})` } as CSSProperties} title="当前时刻的状态，随时间轴变化">
+                    <small>{fmtT(t, 'month')}</small>
+                    {STATUSES[now]}
+                  </div>
+                )}
+              </div>
             </div>
             <div style={{ marginTop: 16 }}>
               <ProfileTimeline p={p} x={x} width={mainW} end={end} ticks={ticks} />
@@ -199,9 +240,22 @@ function Profile({ id }: { id: string }) {
                   <Cite key={c} cite={c} />
                 ))}
               </div>
+              {pull && (
+                <blockquote className="pull" style={{ '--vc': `var(--v-${pull.voice})` } as CSSProperties}>
+                  <p>{pull.text.replace(/（[^）]*）$/, '')}</p>
+                  <footer>
+                    {VOICES[pull.voice]}
+                    {pull.text.match(/（([^）]*)）$/)?.[1] && ` · ${pull.text.match(/（([^）]*)）$/)![1]}`} <Cite cite={pull.cite} />
+                  </footer>
+                </blockquote>
+              )}
               {p.life.length === 0 && <p className="pending">完整传记尚未撰写（里程碑 MP-2）。现在只有概述、命运轨迹和 1966 年前后的事件。</p>}
               {p.life.map((s, i) => (
-                <section key={i}>
+                <section
+                  key={i}
+                  className="chapter"
+                  style={{ '--cc': chapterColor(p, s.from) } as CSSProperties}
+                >
                   <h2>
                     {s.h}
                     {(s.from || s.to) && <time>{fmtRange(s.from ?? '', s.to)}</time>}
@@ -264,7 +318,7 @@ function Profile({ id }: { id: string }) {
                   <FateLine p={p} />
                 </section>
               )}
-              {(ix.relationsByPerson.get(id) ?? []).length > 0 && (
+              {rels.length > 0 && (
                 <section>
                   <h3>关系</h3>
                   <RelationList id={id} />

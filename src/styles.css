@@ -1322,6 +1322,183 @@ h2.sec {
   color: var(--ink-2);
   font-size: 13px;
 }
+/* Profile hero: an archive folder tinted by the person's faction, with the surname as a watermark
+   and a seal on the photo that reads the status at the current moment. */
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 22px 26px 16px;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--fc);
+  border-radius: 4px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--fc) 7%, var(--card)), var(--card) 62%),
+    var(--card);
+}
+.hero-mark {
+  position: absolute;
+  z-index: -1;
+  top: -46px;
+  left: -18px;
+  font-family: var(--serif);
+  font-size: 240px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--fc);
+  opacity: 0.06;
+  pointer-events: none;
+  user-select: none;
+}
+.hero h1 {
+  font-size: 40px;
+  line-height: 1.15;
+  letter-spacing: 0.08em;
+}
+.pinyin {
+  margin-bottom: 8px;
+  font-size: 11.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  margin: 16px 0 0;
+}
+.hero-stats > div {
+  padding: 0 18px;
+  border-left: 1px solid var(--rule-2);
+}
+.hero-stats > div:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+.hero-stats dd {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.hero-stats dd small {
+  margin-left: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--ink-2);
+}
+.hero-stats dt {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.hero .ptl {
+  margin-left: 12px;
+}
+.hero-photo {
+  position: relative;
+  flex: none;
+  margin: 2px 6px 0 0;
+}
+.hero-photo .portrait {
+  border: 5px solid var(--card);
+  outline: 1px solid var(--rule-2);
+  box-shadow: 0 6px 18px -8px var(--shadow);
+  transform: rotate(1.2deg);
+}
+.hero-photo .portrait-credit {
+  margin-top: 8px;
+}
+.stamp {
+  position: absolute;
+  top: -6px;
+  left: -22px;
+  padding: 3px 9px 4px;
+  --st-ink: color-mix(in srgb, var(--st) 72%, var(--ink));
+  border: 2px solid var(--st-ink);
+  border-radius: 3px;
+  outline: 1px solid var(--st-ink);
+  outline-offset: 2px;
+  color: var(--st-ink);
+  background: color-mix(in srgb, var(--card) 80%, transparent);
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  line-height: 1.2;
+  text-align: center;
+  transform: rotate(-9deg);
+}
+.stamp small {
+  display: block;
+  font-family: var(--sans);
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.bio .lead::first-letter {
+  float: left;
+  margin: 6px 8px 0 0;
+  font-size: 3.1em;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent);
+}
+.pull {
+  position: relative;
+  margin: 22px 0 6px;
+  padding: 6px 0 6px 26px;
+  border-left: 3px solid var(--vc);
+}
+.pull::before {
+  content: '“';
+  position: absolute;
+  top: -18px;
+  left: 8px;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--vc);
+  opacity: 0.35;
+}
+.pull p {
+  margin: 0;
+  text-indent: 0;
+  font-size: 19px;
+  line-height: 1.75;
+  font-weight: 600;
+}
+.pull footer {
+  margin-top: 6px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--vc);
+}
+.bio .chapter {
+  position: relative;
+  padding-left: 24px;
+  border-left: 1px solid var(--rule-2);
+}
+.bio .chapter::before {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: -7px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  background: var(--cc);
+  box-shadow: 0 0 0 1px var(--ink-2);
+}
+.bio .chapter + .chapter {
+  margin-top: 0;
+  padding-top: 26px;
+}
+.bio .chapter + .chapter::before {
+  top: 35px;
+}
 .profile-grid {
   display: grid;
   grid-template-columns: minmax(0, 720px) minmax(300px, 380px);
@@ -1961,6 +2138,32 @@ h2.sec {
   }
   .profile-head h1 {
     font-size: 26px;
+  }
+  .hero {
+    padding: 16px 14px 12px;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero-mark {
+    top: -30px;
+    left: -10px;
+    font-size: 160px;
+  }
+  .hero-stats > div {
+    padding: 0 14px 0 0;
+    border-left: 0;
+  }
+  .hero-stats dd {
+    font-size: 21px;
+  }
+  .stamp {
+    left: -12px;
+    font-size: 13px;
+    padding: 2px 6px 3px;
+  }
+  .pull p {
+    font-size: 17px;
   }
   .profile-id {
     gap: 12px;
