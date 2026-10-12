@@ -1,0 +1,30 @@
+# M3 人物第二轮（第 12 批起）用的维基文库原文。日期取自页面头部或正文落款，见 note。
+wikisource:
+  - id: ws-1955-03-31-gao-rao-resolution
+    title: 关于高岗、饶漱石反党联盟的决议
+    date: 1955-03-31
+    author: 中国共产党全国代表会议
+    kind: party-doc
+    alias: 高饶决议
+    note: 1955 年 3 月 31 日中国共产党全国代表会议通过。
+  - id: ws-1955-08-25-purge-directive
+    title: 中共中央关于彻底肃清暗藏的反革命分子的指示
+    date: 1955-08-25
+    author: 中共中央
+    kind: party-doc
+    alias: 1955 年肃反指示
+    note: 页面为繁体。
+  - id: ws-1958-npc-rightists-removal
+    title: 全国人民代表大会常务委员会关于罢免全国人民代表大会常务委员会民族委员会法案委员会和国防委员会中的右派分子黄绍竑等十人的职务的建议
+    date: 1958-01
+    author: 全国人民代表大会常务委员会
+    kind: party-doc
+    alias: 1958 年罢免右派分子职务的建议
+    note: 提交一届人大五次会议（1958 年 2 月）；日期以页面为准。
+  - id: ws-1980-ufwd-rightist-review
+    title: 中央统一战线工作部关于爱国人士中的右派复查问题的请示报告
+    date: 1980
+    author: 中共中央统一战线工作部
+    kind: party-doc
+    alias: 1980 年统战部右派复查报告
+    note: 日期以页面落款为准。

@@ -187,6 +187,15 @@
 - { id: jiangyin, name: 江阴, names: [江阴], lat: 31.92, lon: 120.28 }
 - { id: tongcheng, name: 桐城, names: [桐城], lat: 31.04, lon: 116.95 }
 - { id: nanxi, name: 南溪, names: [南溪], lat: 28.85, lon: 104.98 }
+# batch 12
+- { id: hengshan-sx, name: 陕西横山, names: [横山], lat: 37.96, lon: 109.29 }
+- { id: anfu, name: 安福, names: [安福], lat: 27.39, lon: 114.62 }
+- { id: yixing, name: 宜兴, names: [宜兴], lat: 31.36, lon: 119.82 }
+- { id: qingtian, name: 青田, names: [青田], lat: 28.14, lon: 120.29 }
+- { id: wujiang, name: 吴江, names: [吴江], lat: 31.16, lon: 120.64 }
+- { id: zhaotong, name: 昭通, names: [昭通], lat: 27.34, lon: 103.72 }
+- { id: rongxian, name: 广西容县, names: [容县], lat: 22.86, lon: 110.56 }
+- { id: qichun, name: 蕲春, names: [蕲春], lat: 30.23, lon: 115.44 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

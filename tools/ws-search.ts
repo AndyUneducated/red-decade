@@ -13,4 +13,8 @@ async function search(q: string) {
   }
 }
 
-for (const q of process.argv.slice(2)) await search(q)
+// the API answers "too many requests" after about five back-to-back queries
+for (const q of process.argv.slice(2)) {
+  await search(q)
+  await new Promise((r) => setTimeout(r, 4000))
+}

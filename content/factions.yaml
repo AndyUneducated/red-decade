@@ -111,6 +111,21 @@
   color: '#9c8c7a'
   summary: 被《五一六通知》和《十六条》列为批判对象的学者、作家、教师。1980 年起诉书列举老舍、翦伯赞、熊庆来、赵九章等被迫害致死者。
   cites: [ws-1966-08-08-sixteen-points, ws-1980-indictment]
+- id: gaorao
+  name: 高饶
+  kind: target
+  color: '#7d6b5d'
+  from: 1953
+  to: 1955-03-31
+  summary: 高岗、饶漱石。1954 年 2 月七届四中全会揭发，1955 年 3 月全国代表会议定为“反党联盟”，两人都被开除党籍。决议说他们“始终没有在任何党的组织或任何党的会议上或公众中公开提出过任何反对党中央的纲领”。
+  cites: [ws-1955-03-31-gao-rao-resolution]
+- id: rightists
+  name: 1957 年右派
+  kind: target
+  color: '#8e7a96'
+  from: 1957-06
+  summary: 1957 年反右派斗争中被划为右派的民主党派领导人和知识分子，官方后来公布共五十五万余人。1978 年全部摘帽，此后绝大多数改正；1980 年统战部提出章伯钧、罗隆基、彭文应、储安平、陈仁炳五人维持原案。
+  cites: [ws-1980-ufwd-rightist-review]
 - id: dissent
   name: 异端思想
   kind: dissent

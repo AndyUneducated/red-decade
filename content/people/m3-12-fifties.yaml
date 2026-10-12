@@ -1,0 +1,413 @@
+# M3 people round 2, batch 12: the 1950s purges. 高岗、饶漱石 (1955), 胡风 (1955), and the 1957 rightists
+# 章伯钧、罗隆基、储安平、章乃器、费孝通、龙云、黄绍竑. Texts: 1955 高饶决议, 1955 肃反指示, 1958 人大常委会罢免建议,
+# 1980 统战部右派复查报告, 1981 决议, 人民网 1980 胡风案条. Careers from general reference, verify.
+
+- id: gao-gang
+  name: 高岗
+  born: 1905
+  died: 1954-08-17
+  deathKind: suicide
+  deathPlace: 北京
+  tier: 2
+  role1966: 1954 年已死，1955 年被定为“高饶反党联盟”首脑
+  pinyin: Gāo Gǎng
+  gender: m
+  birthplace: 陕西横山
+  party: 中国共产党
+  positions:
+    - { title: 书记, orgName: 中共中央东北局, from: 1949-03, to: 1954-08, verify: true }
+    - { title: 副主席, orgName: 中央人民政府, from: 1949-10, to: 1954-08, verify: true }
+    - { title: 主席, orgName: 国家计划委员会, from: 1952-11, to: 1954-08, verify: true }
+  bio: 陕西横山人，陕甘边根据地创建者之一。建国后任中共中央东北局书记、中央人民政府副主席，1952 年调任国家计划委员会主席。1953 年联络饶漱石等人，企图改组中央、自任总书记或副主席兼总理，1954 年 2 月七届四中全会上受到揭发批判，同年 8 月自杀。1955 年 3 月全国代表会议定为“高岗、饶漱石反党联盟”首脑，开除党籍。
+  life:
+    - h: 陕北与东北
+      from: 1905
+      to: 1952-10
+      text: |
+        1905 年生于陕西横山，1926 年入党，与刘志丹等创建陕甘边根据地，延安时期任西北局书记。抗战胜利后到东北，1949 年起任东北局书记、东北人民政府主席和东北军区司令员兼政治委员，建国后兼任中央人民政府副主席。
+      verify: true
+    - h: 高饶事件
+      from: 1952-11
+      to: 1955-03-31
+      text: |
+        1952 年底调中央任国家计划委员会主席。按 1955 年全国代表会议的决议，他“从一九四九年起”就以夺取党和国家领导权力为目的进行阴谋活动，把东北“当成为高岗的独立王国”；到中央后鼓吹党分为“根据地和军队的党”和“白区的党”两个，认为自己应当担任“党中央的总书记或副主席，并担任国务院总理”。1954 年 2 月七届四中全会揭发后，他“以自杀来表示他对党的最后背叛”，8 月 17 日身死。1955 年 3 月 31 日全国代表会议开除他的党籍。
+      cites: [ws-1955-03-31-gao-rao-resolution]
+  assess:
+    - { voice: official1966, text: 高岗不但不向党低头认罪，反而以自杀来表示他对党的最后背叛（1955 年全国代表会议决议）, cite: ws-1955-03-31-gao-rao-resolution, quote: true }
+    - { voice: official1981, text: 一九五五年三月召开的党的全国代表会议，总结了反对野心家高岗、饶漱石阴谋分裂党、篡夺党和国家最高权力的重大斗争（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  factions: [gaorao]
+  fate:
+    - { date: 1949-03, s: power, note: 东北局书记, verify: true }
+    - { date: 1952-11, s: power, note: 国家计划委员会主席, verify: true }
+    - { date: 1954-02, s: attacked, note: 七届四中全会揭发, cite: ws-1955-03-31-gao-rao-resolution }
+    - { date: 1954-08-17, s: dead, note: 自杀, cite: ws-1955-03-31-gao-rao-resolution, verify: true }
+  cites: [ws-1955-03-31-gao-rao-resolution, ws-1981-resolution]
+
+- id: rao-shushi
+  name: 饶漱石
+  born: 1903
+  died: 1975-03-02
+  deathKind: natural
+  deathPlace: 辽宁
+  tier: 3
+  role1966: 1955 年起被关押，1965 年判刑
+  pinyin: Ráo Shùshí
+  gender: m
+  birthplace: 江西临川
+  party: 中国共产党
+  positions:
+    - { title: 书记、第一书记, orgName: 中共中央华东局, from: 1945-10, to: 1954-08, verify: true }
+    - { title: 部长, orgName: 中共中央组织部, from: 1953-01, to: 1954-03, verify: true }
+  bio: 江西临川人，抗战时期任新四军政治委员、华中局书记，1949 年后任华东局第一书记、华东军政委员会主席。1953 年调任中央组织部部长，与高岗结盟反对刘少奇、周恩来。1955 年 3 月被开除党籍，同年 4 月被捕，1965 年以“反革命罪”判处有期徒刑十四年，1975 年 3 月死于辽宁的劳改农场。
+  life:
+    - h: 新四军与华东
+      from: 1903
+      to: 1952-12
+      text: |
+        1903 年生于江西临川，1925 年入党，长期从事工人运动和白区工作。皖南事变后任新四军政治委员、中共中央华中局书记；1949 年后任华东局第一书记、华东军政委员会主席，主持华东党政工作。
+      verify: true
+    - h: 组织部长与开除党籍
+      from: 1953-01
+      to: 1975-03-02
+      text: |
+        1953 年调任中央组织部部长。按 1955 年全国代表会议决议，他是“高岗反党阴谋活动的主要同盟者”，“利用他的 中央组织部部长有职务发动以反对中央领导同志为目的的斗争”（原文如此）；决议还说他在华东“违抗中央镇压反革命的政策而竭力保护反革命分子”，“从党的七届四中全会到现在，饶漱石从无悔改之意”。1955 年 3 月 31 日被开除党籍，4 月被捕，与潘汉年、扬帆案合并处理。1965 年判处有期徒刑十四年，文革中在辽宁劳改农场服刑，1975 年 3 月 2 日病逝。
+      verify: true
+      cites: [ws-1955-03-31-gao-rao-resolution]
+  assess:
+    - { voice: official1966, text: 饶漱石是高岗反党阴谋活动的主要同盟者（1955 年全国代表会议决议）, cite: ws-1955-03-31-gao-rao-resolution, quote: true }
+    - { voice: editor, text: 1955 年决议说高饶“始终没有在任何党的组织或任何党的会议上或公众中公开提出过任何反对党中央的纲领”。饶漱石此后没有公开受审，1965 年的判决书未见公布；中央至今没有为他平反。, cite: ws-1955-03-31-gao-rao-resolution }
+  factions: [gaorao]
+  fate:
+    - { date: 1949-05, s: power, note: 华东局第一书记, verify: true }
+    - { date: 1953-01, s: power, note: 中央组织部部长, verify: true }
+    - { date: 1954-02, s: attacked, note: 七届四中全会揭发, cite: ws-1955-03-31-gao-rao-resolution }
+    - { date: 1955-03-31, s: purged, note: 开除党籍, cite: ws-1955-03-31-gao-rao-resolution }
+    - { date: 1955-04, s: detained, note: 被捕，1965 年判刑十四年, verify: true }
+    - { date: 1975-03-02, s: dead, note: 死于辽宁的劳改农场, verify: true }
+  cites: [ws-1955-03-31-gao-rao-resolution]
+
+- id: hu-feng
+  name: 胡风
+  born: 1902
+  died: 1985-06-08
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 1955 年起被关押，1965 年判刑
+  pinyin: Hú Fēng
+  gender: m
+  birthplace: 湖北蕲春
+  positions:
+    - { title: 理事, orgName: 中国作家协会, from: 1953, to: 1955-05, verify: true }
+  bio: 湖北蕲春人，左翼文艺理论家，鲁迅晚年的学生和友人，主编《七月》《希望》。建国后因“主观战斗精神”等文艺主张与周扬等人长期对立，1954 年向中央递交《关于解放以来的文艺实践情况的报告》（“三十万言书”）。1955 年 5 月《人民日报》公布“胡风反革命集团”材料，他被捕，全国随即展开肃反运动，株连两千余人。1965 年判处有期徒刑十四年，文革中加判无期徒刑。1979 年获释，1980 年中央为“胡风反革命集团”案平反，1985 年 6 月 8 日病逝，1988 年彻底平反。
+  life:
+    - h: 左翼文艺与“三十万言书”
+      from: 1902
+      to: 1955-04
+      text: |
+        1902 年生于湖北蕲春，1930 年代在上海参加左联，与鲁迅过从甚密，抗战中主编《七月》，团结了阿垅、路翎等一批青年作家。他主张作家的“主观战斗精神”，反对公式化，与周扬、林默涵等人的分歧延续到建国后。1954 年 7 月他向中央递交长篇报告，系统批评文艺领导工作，次年 1 月被公开批判。
+      verify: true
+    - h: “胡风反革命集团”
+      from: 1955-05
+      to: 1979-01
+      text: |
+        1955 年 5 月起《人民日报》分三批公布《关于胡风反革命集团的材料》，毛泽东为之写了序言和按语，胡风 5 月 17 日被捕。中央当年 8 月的指示说，各机关“都在肅清胡風反革命集團的鬥爭的基礎上，開始展開了肅清一切暗藏的反革命分子的鬥爭”，并认为“利用胡風事件，大張旗鼓地發動群眾”是正确的。1965 年他被判处有期徒刑十四年，文革中在四川改判无期徒刑，1979 年 1 月获释。
+      verify: true
+      cites: [ws-1955-08-25-purge-directive]
+    - h: 三次平反
+      from: 1980-09-29
+      to: 1988-06-18
+      text: |
+        1980 年 9 月 29 日中共中央批转公安部、最高人民检察院、最高人民法院党组的复查报告，通知说此案“是在当时的历史条件下，混淆了两类不同性质的矛盾，将有错误言论、宗派活动的一些同志定为反革命分子、反革命集团的一件错案”。同年 11 月 3 日北京市高级人民法院宣告胡风无罪。这次平反仍保留了对他文艺思想、宗派活动和政治历史的结论，1985 年公安部撤销了历史问题的结论；他 1985 年 6 月 8 日病逝。1988 年 6 月 18 日中办补充通知又“取消了对胡风的文艺思想和宗派活动等问题的严厉指责”。
+      cites: [cpc-1980-09-29-hu-feng-rehab]
+  assess:
+    - { voice: official1966, text: 利用胡風事件，大張旗鼓地發動群眾來進行肅清一切暗藏的反革命分子的運動，是正確的（1955 年 8 月中共中央指示）, cite: ws-1955-08-25-purge-directive, quote: true }
+    - { voice: officialLater, text: 混淆了两类不同性质的矛盾，将有错误言论、宗派活动的一些同志定为反革命分子、反革命集团的一件错案（1980 年中共中央通知）, cite: cpc-1980-09-29-hu-feng-rehab, quote: true }
+  factions: [dissent]
+  fate:
+    - { date: 1954-07, s: normal, note: 向中央递交“三十万言书”, verify: true }
+    - { date: 1955-01, s: attacked, note: 公开批判, verify: true }
+    - { date: 1955-05-17, s: detained, note: 被捕，1965 年判刑, verify: true }
+    - { date: 1979-01, s: restored, note: 获释, verify: true }
+    - { date: 1980-09-29, s: restored, note: 中央通知平反, cite: cpc-1980-09-29-hu-feng-rehab }
+    - { date: 1985-06-08, s: dead, note: 病逝, cite: cpc-1980-09-29-hu-feng-rehab, verify: true }
+  rehab:
+    - { date: 1980-09-29, text: 中共中央批转复查报告，宣布“胡风反革命集团”案是错案，予以平反, cite: cpc-1980-09-29-hu-feng-rehab }
+    - { date: 1988-06-18, text: 中办补充通知，取消对其文艺思想和宗派活动的指责, cite: cpc-1980-09-29-hu-feng-rehab }
+  cites: [ws-1955-08-25-purge-directive, cpc-1980-09-29-hu-feng-rehab]
+
+- id: zhang-bojun
+  name: 章伯钧
+  born: 1895
+  died: 1969-05-17
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 1957 年被划为右派，摘帽后仍未改正
+  pinyin: Zhāng Bójūn
+  gender: m
+  birthplace: 安徽桐城
+  positions:
+    - { title: 部长, orgName: 交通部, from: 1949-10, to: 1958-02, verify: true }
+    - { title: 主席, orgName: 中国农工民主党, from: 1947-02, to: 1958, verify: true }
+    - { title: 副主席, orgName: 中国民主同盟, from: 1949, to: 1958, cite: ws-1980-ufwd-rightist-review }
+  bio: 安徽桐城人，早年留学德国，参加南昌起义，后随邓演达创建第三党（后来的农工民主党），抗战中参与发起民盟。建国后任交通部长、农工党主席、民盟副主席、《光明日报》社长。1957 年鸣放中主张“轮流坐庄”、“政治设计院”，被定为“章罗同盟”首领、头号右派，1958 年撤去各项职务。1969 年病逝。1980 年复查时中央统战部认为他“并非错划，不应改正”，至今未改正。
+  life:
+    - h: 第三党与民盟
+      from: 1895
+      to: 1956
+      text: |
+        1895 年生于安徽桐城，留学德国，1920 年代参加北伐和南昌起义，1930 年起与邓演达等组建中华革命党（第三党），1947 年改称中国农工民主党，他任主席；1941 年参与发起中国民主政团同盟。建国后任中央人民政府委员、交通部长。
+      verify: true
+    - h: 头号右派
+      from: 1956
+      to: 1969-05-17
+      text: |
+        按 1980 年中央统战部的复查报告，他 1956 年说中国是“一个上帝，九百万清教徒，统治着五亿农民，非造反不可”，主张“有在朝党和在野党，你不行我来，我不行你来”，要“轮流坐庄”；1957 年又说“共产党以前扶植各民主党派，是‘周公辅成王’，现在成王长大成人了，周公要还政”。1957 年 7 月《人民日报》社论点名“章罗同盟”，他被划为右派。1958 年 1 月全国人大常委会认定他已丧失继续执行人大代表职务的合法根据，2 月撤销交通部长职务。1969 年 5 月 17 日在北京病逝。
+      cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
+  assess:
+    - { voice: officialLater, text: 他们二人在一九五七年的言行从根本立场上反对党反对社会主义，是资产阶级右派的主要代表人物……现已摘掉右派分子帽子，但并非错划，不应改正（1980 年中央统战部报告）, cite: ws-1980-ufwd-rightist-review, quote: true }
+    - { voice: officialLater, text: 没有发现章、罗二人有在组织上共同策划，进行阴谋活动的事实（1980 年中央统战部报告，关于“章罗同盟”）, cite: ws-1980-ufwd-rightist-review, quote: true }
+  factions: [rightists]
+  fate:
+    - { date: 1949-10, s: power, note: 交通部长, verify: true }
+    - { date: 1957-07, s: attacked, note: 被定为“章罗同盟”首领, verify: true }
+    - { date: 1958-01-31, s: purged, note: 人大常委会建议不再出席人大, cite: ws-1958-npc-rightists-removal }
+    - { date: 1969-05-17, s: dead, note: 病逝, verify: true }
+  cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
+
+- id: luo-longji
+  name: 罗隆基
+  born: 1896
+  died: 1965-12-07
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 1957 年被划为右派，1965 年去世
+  pinyin: Luó Lóngjī
+  gender: m
+  birthplace: 江西安福
+  positions:
+    - { title: 副主席, orgName: 中国民主同盟, from: 1949, to: 1958, cite: ws-1980-ufwd-rightist-review }
+    - { title: 部长, orgName: 森林工业部, from: 1956-05, to: 1958-01, verify: true }
+  bio: 江西安福人，清华学校毕业后留学美国，获哥伦比亚大学博士，1920 年代末在《新月》上批评国民党、主张人权。抗战中参与创建民盟，任宣传部长。建国后任民盟副主席、森林工业部部长。1957 年被定为“章罗同盟”首领之一，划为右派，1958 年撤职。1965 年 12 月病逝。1980 年复查维持原案，未改正。
+  life:
+    - h: 人权论与民盟
+      from: 1896
+      to: 1956
+      text: |
+        1896 年生于江西安福，清华学校毕业后留学美国、英国，1928 年回国后在《新月》上与胡适等发表人权论文章，多次被国民党当局拘押。抗战中参与发起民盟，1946 年作为民盟代表参加政治协商会议。建国后任民盟副主席、政务院政务委员，1956 年任森林工业部部长。
+      verify: true
+    - h: 右派
+      from: 1957
+      to: 1965-12-07
+      text: |
+        1957 年鸣放中他建议成立“平反委员会”复查历次运动中的冤案。1980 年中央统战部报告的说法是，他“诬蔑国内是‘一团糟’，他叫嚷要为反革命‘平反’”。他被定为“章罗同盟”首领之一，1958 年 1 月全国人大常委会建议罢免他的人大法案委员会委员职务。1965 年 12 月 7 日在北京病逝。
+      cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
+  assess:
+    - { voice: officialLater, text: 罗隆基诬蔑国内是“一团糟”，他叫嚷要为反革命“平反”（1980 年中央统战部报告）, cite: ws-1980-ufwd-rightist-review, quote: true }
+    - { voice: officialLater, text: “章罗同盟”在组织上应肯定其不存在，但在作为资产阶级右派政治势力的代表的意义上仍应认为存在（1980 年中央统战部报告）, cite: ws-1980-ufwd-rightist-review, quote: true }
+  factions: [rightists]
+  fate:
+    - { date: 1956-05, s: power, note: 森林工业部部长, verify: true }
+    - { date: 1957-07, s: attacked, note: 被定为“章罗同盟”首领, verify: true }
+    - { date: 1958-01-31, s: purged, note: 人大常委会建议罢免其人大法案委员会委员职务, cite: ws-1958-npc-rightists-removal }
+    - { date: 1965-12-07, s: dead, note: 病逝, verify: true }
+  cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
+
+- id: chu-anping
+  name: 储安平
+  born: 1909
+  tier: 3
+  role1966: 1957 年被划为右派，1966 年 9 月失踪
+  pinyin: Chǔ Ānpíng
+  gender: m
+  birthplace: 江苏宜兴
+  positions:
+    - { title: 总编辑, orgName: 光明日报社, from: 1957-04, to: 1957-06, verify: true }
+  bio: 江苏宜兴人，留学英国，1946 年在上海创办《观察》周刊，以独立言论著称。1957 年 4 月任《光明日报》总编辑，6 月 1 日在统战部座谈会上发言，说党领导国家“并不等于这个国家即为党所有”，批评“党天下”，随即被划为右派，撤职。文革初期被红卫兵批斗，1966 年 9 月失踪，下落至今不明。1980 年复查维持原案，未改正。
+  life:
+    - h: 《观察》
+      from: 1909
+      to: 1957-03
+      text: |
+        1909 年生于江苏宜兴，光华大学毕业后编报，1936 年赴英国伦敦政治经济学院学习。1946 年 9 月在上海创办《观察》周刊，撰稿者多为自由派学者，1948 年底被国民党当局查封。建国后《观察》复刊为《新观察》，他任新华书店副总经理、出版总署发行局副局长等职。
+      verify: true
+    - h: “党天下”
+      from: 1957-04
+      to: 1966-09
+      text: |
+        1957 年 4 月任《光明日报》总编辑。6 月 1 日在中央统战部召开的座谈会上发言，以“向毛主席和周总理提些意见”为题，批评“党天下”的思想是一切宗派主义现象的根源。1980 年中央统战部报告的说法是，他“把我们党在国家政治生活中的领导地位攻击为‘党天下’”。6 月被迫辞职，划为右派；1958 年 1 月全国人大常委会认定他已丧失继续执行人大代表职务的合法根据。1966 年 8 月被红卫兵批斗，此后失踪，下落不明。
+      verify: true
+      cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
+  assess:
+    - { voice: officialLater, text: 储安平把我们党在国家政治生活中的领导地位攻击为“党天下”（1980 年中央统战部报告）, cite: ws-1980-ufwd-rightist-review, quote: true }
+    - { voice: editor, text: 1980 年统战部列出的五名“拟维持原案”者是章伯钧、罗隆基、彭文应、储安平、陈仁炳；其余二十二名上层人士拟予改正。, cite: ws-1980-ufwd-rightist-review }
+  factions: [rightists]
+  fate:
+    - { date: 1957-04, s: power, note: 《光明日报》总编辑, verify: true }
+    - { date: 1957-06, s: attacked, note: “党天下”发言后被划为右派, verify: true }
+    - { date: 1958-01-31, s: purged, note: 人大常委会建议不再出席人大, cite: ws-1958-npc-rightists-removal }
+    - { date: 1966-08, s: attacked, note: 被红卫兵批斗, verify: true }
+    - { date: 1966-09, s: dead, note: 失踪，下落不明, verify: true }
+  cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
+
+- id: zhang-naiqi
+  name: 章乃器
+  born: 1897
+  died: 1977-05-13
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 1957 年被划为右派
+  pinyin: Zhāng Nǎiqì
+  gender: m
+  birthplace: 浙江青田
+  positions:
+    - { title: 部长, orgName: 粮食部, from: 1952-08, to: 1958-02, verify: true }
+  bio: 浙江青田人，银行家、经济学家，1936 年救国会“七君子”之一，1945 年参与创建民主建国会。建国后任粮食部部长。1957 年反对“资产阶级两面性”等提法，被划为右派，1958 年 2 月撤去部长职务。1977 年病逝。1980 年中央统战部复查拟予改正。
+  life:
+    - h: 七君子与民建
+      from: 1897
+      to: 1952-07
+      text: |
+        1897 年生于浙江青田，曾任浙江实业银行副总经理，1930 年代发起上海文化界救国会，1936 年 11 月与沈钧儒、邹韬奋等七人被国民党当局逮捕，称“七君子”。1945 年参与发起中国民主建国会。建国后任政务院政务委员。
+      verify: true
+    - h: 右派
+      from: 1952-08
+      to: 1977-05-13
+      text: |
+        1952 年任粮食部部长。1957 年他反对把民族资产阶级说成有“两面性”、反对“阶级斗争熄灭论”帽子等，被划为右派。1958 年 1 月全国人大常委会认定他已丧失继续执行人大代表职务的合法根据，2 月撤销粮食部部长职务。1977 年 5 月 13 日在北京病逝。1980 年中央统战部报告把他列在“拟予改正”的二十二人之首。
+      verify: true
+      cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
+  assess:
+    - { voice: officialLater, text: 拟予改正的二十二人：章乃器（故），陈铭枢（故）、黄绍肱（故）、龙云（故）（1980 年中央统战部报告）, cite: ws-1980-ufwd-rightist-review, quote: true }
+  factions: [rightists]
+  fate:
+    - { date: 1952-08, s: power, note: 粮食部部长, verify: true }
+    - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }
+    - { date: 1958-01-31, s: purged, note: 人大常委会建议不再出席人大，次月撤销部长职务, cite: ws-1958-npc-rightists-removal }
+    - { date: 1977-05-13, s: dead, note: 病逝, verify: true }
+    - { date: 1980, s: restored, note: 统战部复查拟予改正, cite: ws-1980-ufwd-rightist-review }
+  cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
+
+- id: fei-xiaotong
+  name: 费孝通
+  born: 1910-11-02
+  died: 2005-04-24
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 中央民族学院教授，1957 年被划为右派
+  pinyin: Fèi Xiàotōng
+  gender: m
+  birthplace: 江苏吴江
+  positions:
+    - { title: 副主席, orgName: 中国民主同盟, from: 1979, to: 1987, verify: true }
+    - { title: 主席, orgName: 中国民主同盟, from: 1987, to: 1996, verify: true }
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1988-04, to: 1998-03, verify: true }
+  bio: 江苏吴江人，社会学家、人类学家，师从马林诺夫斯基，著《江村经济》《乡土中国》。建国后任中央民族学院副院长，参与民族识别。1957 年发表《知识分子的早春天气》，被划为右派，1958 年被罢免人大民族委员会委员职务。文革中被批斗、下放干校。1980 年改正，此后重建社会学学科，任民盟主席、全国人大常委会副委员长。2005 年去世。
+  life:
+    - h: 江村与乡土中国
+      from: 1910-11-02
+      to: 1956
+      text: |
+        1910 年生于江苏吴江，燕京大学、清华研究院毕业后留学英国伦敦政治经济学院，1939 年出版英文博士论文《江村经济》。抗战时期在云南大学、西南联大任教，写成《乡土中国》等书。建国后任中央民族学院副院长，参加少数民族社会调查和民族识别。
+      verify: true
+    - h: 右派与改正
+      from: 1957
+      to: 2005-04-24
+      text: |
+        1957 年 3 月在《人民日报》发表《知识分子的早春天气》，鸣放中又参与民盟关于科学体制的意见书，被划为右派。1958 年 1 月全国人大常委会建议罢免他的人大民族委员会委员职务。1980 年中央统战部报告把他列入“拟予改正”的二十二人。1979 年起主持重建中国社会学会，1980 年代提出“小城镇，大问题”的研究，1987 年任民盟主席，1988 年任全国人大常委会副委员长。
+      verify: true
+      cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
+  assess:
+    - { voice: officialLater, text: 这两份意见书的基本内容是可取的，不是反党反社会主义的，不是“章罗同盟”的纲领（1980 年中央统战部报告，指民盟中央 1957 年的科学体制和高校领导制度意见书）, cite: ws-1980-ufwd-rightist-review, quote: true }
+  factions: [rightists]
+  fate:
+    - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }
+    - { date: 1958-01-31, s: sidelined, note: 被建议罢免人大民族委员会委员职务, cite: ws-1958-npc-rightists-removal }
+    - { date: 1966-08, s: attacked, note: 文革中被批斗, verify: true }
+    - { date: 1980, s: restored, note: 右派问题改正, cite: ws-1980-ufwd-rightist-review }
+    - { date: 1988-04, s: power, note: 全国人大常委会副委员长, verify: true }
+    - { date: 2005-04-24, s: dead, note: 病逝, verify: true }
+  cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
+
+- id: long-yun
+  name: 龙云
+  born: 1884
+  died: 1962-06-27
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 1962 年已去世
+  pinyin: Lóng Yún
+  gender: m
+  ethnicity: 彝族
+  birthplace: 云南昭通
+  positions:
+    - { title: 副主席, orgName: 国防委员会, from: 1954-09, to: 1958-02, cite: ws-1958-npc-rightists-removal }
+  bio: 云南昭通人，彝族。1927 年起主政云南近二十年，人称“云南王”，抗战中保证滇缅公路运输，1945 年被蒋介石以武力解除职务。1949 年在香港通电起义，建国后任西南军政委员会副主席、国防委员会副主席。1957 年批评苏联出兵东北时拆走工厂设备等，被划为右派，1958 年被罢免国防委员会副主席等职。1962 年病逝。1980 年复查拟予改正。
+  life:
+    - h: “云南王”
+      from: 1884
+      to: 1949
+      text: |
+        1884 年生于云南昭通，彝族，出身滇军，1927 年起任云南省政府主席，主政云南十八年。抗战中滇缅公路、驼峰航线经云南运输，昆明西南联大也在他的庇护下保有言论空间。1945 年 10 月被蒋介石派兵解除兵权调往重庆，1948 年出走香港，1949 年通电起义。
+      verify: true
+    - h: 右派
+      from: 1954-09
+      to: 1962-06-27
+      text: |
+        建国后任西南军政委员会副主席，1954 年任国防委员会副主席、全国人大常委会委员。1957 年鸣放中批评苏联在东北拆走工厂设备、中国为朝鲜战争负担全部军费等，被划为右派。1958 年 1 月全国人大常委会建议罢免他的人大常委会委员和“国防委员会副主席的职务”。1962 年 6 月 27 日在北京病逝。1980 年中央统战部复查拟予改正。
+      verify: true
+      cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
+  assess:
+    - { voice: doc, text: 罢免龙云国防委员会副主席的职务（1958 年全国人大常委会建议）, cite: ws-1958-npc-rightists-removal, quote: true }
+  factions: [rightists]
+  fate:
+    - { date: 1949, s: normal, note: 在香港通电起义, verify: true }
+    - { date: 1954-09, s: power, note: 国防委员会副主席, verify: true }
+    - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }
+    - { date: 1958-01-31, s: purged, note: 被建议罢免各项职务, cite: ws-1958-npc-rightists-removal }
+    - { date: 1962-06-27, s: dead, note: 病逝, verify: true }
+  cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
+
+- id: huang-shaohong
+  name: 黄绍竑
+  born: 1895
+  died: 1966-08-31
+  deathKind: suicide
+  deathPlace: 北京
+  tier: 3
+  role1966: 全国政协委员，1957 年被划为右派
+  pinyin: Huáng Shàohóng
+  gender: m
+  birthplace: 广西容县
+  positions:
+    - { title: 委员, orgName: 全国人民代表大会常务委员会, from: 1954-09, to: 1958-02, cite: ws-1958-npc-rightists-removal }
+  bio: 广西容县人，新桂系首领之一，与李宗仁、白崇禧并称，历任国民政府浙江、湖北省主席。1949 年作为国民党和谈代表团成员留在北平，参加新政权，任政务院政务委员、全国人大常委会委员。1957 年被划为右派，1958 年被罢免人大常委会委员职务。1966 年 8 月文革中受红卫兵冲击，8 月 31 日在北京自杀。1980 年复查拟予改正。
+  life:
+    - h: 新桂系
+      from: 1895
+      to: 1949-04
+      text: |
+        1895 年生于广西容县，保定军校毕业，1920 年代与李宗仁、白崇禧统一广西，形成新桂系。此后在国民政府任内政部长、浙江省主席、湖北省主席等职。1949 年 4 月作为张治中率领的国民党和谈代表团成员到北平，和谈破裂后没有返回南京。
+      verify: true
+    - h: 右派与自杀
+      from: 1949-09
+      to: 1966-08-31
+      text: |
+        1949 年 9 月出席第一届政协，此后任政务院政务委员、全国人大常委会委员、民革中央常委。1957 年被划为右派，1958 年 1 月全国人大常委会建议罢免他的人大常委会委员和人大法案委员会委员职务。1966 年 8 月红卫兵抄家批斗，8 月 31 日在北京自杀。1980 年中央统战部复查拟予改正（报告写作“黄绍肱”）。
+      verify: true
+      cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
+  assess:
+    - { voice: doc, text: 常务委员会决定建议大会罢免黄绍竑、龙云、陈铭枢全国人民代表大会常务委员会委员的职务（1958 年全国人大常委会建议）, cite: ws-1958-npc-rightists-removal, quote: true }
+  factions: [rightists]
+  fate:
+    - { date: 1949-09, s: normal, note: 参加新政权, verify: true }
+    - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }
+    - { date: 1958-01-31, s: purged, note: 被建议罢免人大常委会委员职务, cite: ws-1958-npc-rightists-removal }
+    - { date: 1966-08, s: attacked, note: 红卫兵抄家批斗, verify: true }
+    - { date: 1966-08-31, s: dead, note: 自杀, verify: true }
+  cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]

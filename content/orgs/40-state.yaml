@@ -450,6 +450,50 @@
     - { name: 叶飞, title: 部长, from: 1975-01, to: 1979 }
     - { name: 钱永昌, title: 部长, from: 1985, to: 1991 }
 
+- id: grain
+  name: 粮食部
+  aliases: [粮食部, 中华人民共和国粮食部]
+  kind: state
+  level: central
+  from: 1952-08
+  to: 1982-05
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1952 年成立，首任部长是民建的章乃器，1957 年被划为右派，次年撤职。1982 年并入商业部。
+  verify: true
+  leaders:
+    - { name: 章乃器, title: 部长, from: 1952-08, to: 1958-02 }
+
+- id: forestry-industry
+  name: 森林工业部
+  aliases: [森林工业部]
+  kind: state
+  level: central
+  from: 1956-05
+  to: 1958-02
+  under: [{ org: state-council }]
+  places: [{ at: beijing }]
+  summary: 1956 年从林业部分出，民盟副主席罗隆基任部长；1957 年他被划为右派，1958 年部并回林业部。
+  verify: true
+  leaders:
+    - { name: 罗隆基, title: 部长, from: 1956-05, to: 1958-01 }
+
+- id: defense-council
+  name: 中华人民共和国国防委员会
+  short: 国防委员会
+  aliases: [国防委员会, 中华人民共和国国防委员会]
+  kind: state
+  level: central
+  from: 1954-09
+  to: 1975-01
+  places: [{ at: beijing }]
+  summary: 1954 年宪法设立，国家主席兼任主席，副主席多为元帅和起义将领；1975 年宪法取消。
+  cites: [ws-1958-npc-rightists-removal]
+  leaders:
+    - { name: 毛泽东, title: 主席, from: 1954-09, to: 1959-04 }
+    - { name: 刘少奇, title: 主席, from: 1959-04, to: 1968-10 }
+    - { name: 龙云, title: 副主席, from: 1954-09, to: 1958-02, cite: ws-1958-npc-rightists-removal }
+
 - id: posts
   name: 邮电部
   aliases: [邮电部]
