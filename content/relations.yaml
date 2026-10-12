@@ -128,3 +128,11 @@
 - { a: huang-kecheng, b: zhou-xiaozhou, type: ally, from: 1959-07, to: 1959-08-16, note: 庐山会议上同被定为“反党集团”, cite: ws-1959-08-16-peng-resolution }
 - { a: liu-shaoqi, b: deng-zihui, type: link, from: 1962-02, note: 中央会议上未反驳其“责任田”主张（刘少奇检讨）, cite: ws-1966-10-liu-self-criticism }
 - { a: bo-yibo, b: sun-yefang, type: link, note: 1970 年批判文章称薄一波为其《社会主义经济论》“撑腰”, cite: ws-1970-02-24-sun-yefang-critique }
+- { a: hu-yaobang, b: zhao-ziyang, type: ally, from: 1980-02-29, to: 1987-01-16, note: 五中全会同时增选为政治局常委；1987 年赵紫阳接替胡耀邦, cite: rmrb-1980-03-01-fifth-plenum }
+- { a: deng-xiaoping, b: wan-li, type: patron, from: 1975-01, note: 1975 年铁路整顿；邓小平称“万里同志是有功的”, cite: people-2015-07-23-wan-li }
+- { a: deng-xiaoping, b: xi-zhongxun, type: patron, from: 1978-04, note: 广东“先走一步”的请求“得到了邓小平同志的赞同”, cite: rmrb-2002-05-31-xi-zhongxun }
+- { a: kang-sheng, b: xi-zhongxun, type: persecute, from: 1962-09, note: “《刘志丹》小说问题”，“遭康生诬陷”, cite: rmrb-2002-05-31-xi-zhongxun }
+- { a: mao-zedong, b: hu-qiaomu, type: subordinate, from: 1941-02, to: 1966-06, note: 秘书 25 年, cite: rmrb-1992-10-04-hu-qiaomu }
+- { a: deng-xiaoping, b: hu-qiaomu, type: subordinate, from: 1975, note: 国务院政研室；在邓小平主持下起草 1981 年决议, cite: rmrb-1992-10-04-hu-qiaomu }
+- { a: zhao-ziyang, b: deng-xiaoping, type: link, from: 1989-05-16, note: 向戈尔巴乔夫说“在最重要的问题上，仍然需要邓小平同志掌舵”, cite: ws-1989-06-zhao-errors-report }
+- { a: yao-yilin, b: zhao-ziyang, type: link, from: 1989-05-03, note: 要求他在五四讲话中加反对资产阶级自由化的内容，被拒绝（李鹏报告）, cite: ws-1989-06-zhao-errors-report }

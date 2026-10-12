@@ -237,3 +237,110 @@ web:
     excerpt: true
     keep: [1980年9月29日，中共中央批转]
     note: 只保留一段。引了 1980 年中央通知的原话，并记 1980 年 11 月改判、1985 年和 1988 年两次进一步平反。
+
+  # 第 14 批：改革一代领导。1980 年以后的文本均未满 50 年，一律只保留 keep 段落。
+  - id: rmrb-1980-03-01-fifth-plenum
+    title: 党的十一届五中全会胜利闭幕（中国共产党第十一届中央委员会第五次全体会议公报）
+    date: 1980-02-29
+    author: 中国共产党第十一届中央委员会第五次全体会议
+    kind: party-doc
+    alias: 1980 年十一届五中全会公报
+    url: https://cn.govopendata.com/renminribao/1980/3/1/1/
+    via: 《人民日报》1980-03-01 第 1 版（govopendata 转录）
+    article: 党的十一届五中全会胜利闭幕
+    excerpt: true
+    keep: [新华社北京二月二十九日电, 全会经过充分的讨论，决定增加中央政治局常委, 五中全会根据党内外广大群众的意见]
+    note: 公报未满 50 年，只保留三段：电头、选举胡耀邦赵紫阳为常委并设书记处（含书记处书记名单）、批准汪东兴等四人辞职。
+  - id: rmrb-1987-01-17-politburo
+    title: 中共中央政治局扩大会议公报
+    date: 1987-01-16
+    author: 中共中央政治局扩大会议
+    kind: party-doc
+    alias: 1987 年 1 月政治局扩大会议公报（胡耀邦辞职）
+    url: https://cn.govopendata.com/renminribao/1987/1/17/1/
+    via: 《人民日报》1987-01-17 第 1 版（govopendata 转录）
+    article: 中共中央政治局扩大会议公报
+    excerpt: true
+    keep: [中共中央政治局1987年1月16日举行扩大会议, 一、一致同意接受, 二、一致推选赵紫阳, 四、继续保留胡耀邦]
+    note: 只保留四段：胡耀邦检讨与辞职、赵紫阳代理总书记、保留胡耀邦常委职务。
+  - id: rmrb-1989-04-16-hu-yaobang-obit
+    title: 中国共产党中央委员会沉痛宣告 胡耀邦同志逝世
+    date: 1989-04-15
+    author: 中国共产党中央委员会
+    kind: party-doc
+    alias: 1989 年胡耀邦讣告
+    url: https://cn.govopendata.com/renminribao/1989/4/16/1/
+    via: 《人民日报》1989-04-16 第 1 版（govopendata 转录）
+    article: 中国共产党中央委员会沉痛宣告　胡耀邦同志逝世
+    excerpt: true
+    keep: [中国共产党中央委员会沉痛宣告：, 胡耀邦同志的一生是光辉的一生, 胡耀邦同志是中国共产党第八]
+    note: 只保留三段：讣告正文、简历、历任职务。
+  - id: rmrb-1993-03-20-wang-zhen
+    title: 王震同志光辉战斗的一生（王震同志生平）
+    date: 1993-03-19
+    author: 新华社
+    kind: chronology
+    alias: 1993 年新华社《王震同志生平》
+    url: https://cn.govopendata.com/renminribao/1993/3/20/4/
+    via: 《人民日报》1993-03-20 第 4 版（govopendata 转录）
+    article: 王震同志光辉战斗的一生
+    excerpt: true
+    keep: [王震１９０８年４月１１日出生, 王震１９５３年调任, １９５４年，中央根据王震的建议, “文化大革命”中，王震同林彪, 粉碎林彪、江青反革命集团后，王震坚决]
+    note: 只保留五段：出身、铁道兵、农垦、文革与 1975 年副总理、1976 年后（含反对“两个凡是”、反对资产阶级自由化）。
+  - id: rmrb-1994-12-19-yao-yilin
+    title: 姚依林同志生平
+    date: 1994-12-18
+    author: 新华社
+    kind: chronology
+    alias: 1994 年新华社《姚依林同志生平》
+    url: https://cn.govopendata.com/renminribao/1994/12/19/4/
+    via: 《人民日报》1994-12-19 第 4 版（govopendata 转录）
+    article: 姚依林同志生平
+    excerpt: true
+    keep: [姚依林同志祖籍安徽省贵池县, 姚依林同志是“一二·九”, １９６６年“文化大革命”开始后，姚依林, １９７９年７月，在全国人大五届二次会议, 姚依林同志在党的十三届一中全会]
+    note: 只保留五段：出身、一二·九、文革、副总理与计委、十三届政治局常委。
+  - id: rmrb-2002-05-31-xi-zhongxun
+    title: 习仲勋同志生平
+    date: 2002-05-30
+    author: 新华社
+    kind: chronology
+    alias: 2002 年新华社《习仲勋同志生平》
+    url: https://cn.govopendata.com/renminribao/2002/5/31/4/
+    via: 《人民日报》2002-05-31 第 4 版（govopendata 转录）
+    article: 习仲勋同志生平
+    excerpt: true
+    keep: [习仲勋同志，因病医治无效, 习仲勋同志，1913年10月15日出生, 1959年4月任国务院副总理兼秘书长, 1962年9月，在中共八届十中全会上, 1978年4月后，习仲勋同志历任, 1980年9月，习仲勋同志被补选]
+    note: 只保留五段：陕甘边区、国务院秘书长、“《刘志丹》小说问题”、广东、书记处。
+  - id: rmrb-1992-10-04-hu-qiaomu
+    title: 胡乔木同志生平
+    date: 1992-10-03
+    author: 新华社
+    kind: chronology
+    alias: 1992 年新华社《胡乔木同志生平》
+    url: https://rmrb.zhouenlai.info/%E5%91%A8%E6%80%BB%E7%90%86%E4%B8%93%E6%A0%8F/%E6%80%BB%E7%90%86%E7%9B%B8%E5%85%B3/1992/1992-10-04%200922375%20%E8%83%A1%E4%B9%94%E6%9C%A8%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3.htm
+    via: 《人民日报》1992-10-04 第 4 版（rmrb.zhouenlai.info 转录；govopendata 缺这一天）
+    excerpt: true
+    keep: [胡乔木同志，因病医治无效, 胡乔木同志，1912年6月1日出生, 胡乔木同志于1937年7月到达延安, 在“文化大革命”中，胡乔木同志受到, 粉碎“四人帮”后，胡乔木同志在揭发, 胡乔木同志的一生是革命的一生]
+    note: 只保留六段：讣告首段、出身、毛泽东秘书（1941–1966）、文革与 1975 年政研室、1978 年后起草三中全会公报和历史决议、总评价。
+  - id: people-2015-07-23-wan-li
+    title: 万里同志生平
+    date: 2015-07-22
+    author: 新华社
+    kind: chronology
+    alias: 2015 年新华社《万里同志生平》
+    url: http://politics.people.com.cn/n/2015/0723/c1001-27346577.html
+    via: 人民网转载《人民日报》2015-07-23 第 4 版
+    excerpt: true
+    keep: [万里同志，因病医治无效, 万里同志，原名万明礼, 1958年3月起，万里同志先后任, 1971年3月，万里同志任中共北京市委常委, 1975年1月，万里同志任铁道部部长, “文化大革命”结束后，万里同志再次恢复工作, 1980年2月，在党的十一届五中全会上，万里同志, 1988年4月，在七届全国人大一次会议上]
+    note: 只保留八段：讣告首段、出身、北京市委、文革中被监护、1975 年铁道部整顿、安徽包产到户、副总理、人大委员长。
+  - id: xinhua-2005-01-29-zhao-ziyang
+    title: 赵紫阳同志遗体在京火化 贾庆林等为遗体送别
+    date: 2005-01-29
+    author: 新华社
+    kind: news
+    alias: 2005 年新华社赵紫阳遗体火化消息
+    url: https://web.archive.org/web/20170304193441/http:/news.xinhuanet.com/newscenter/2005-01/29/content_2522658.htm
+    via: 新华网 2005-01-29，Wayback 存档；《人民日报》2005-01-30 第 2 版同文
+    excerpt: true
+    keep: [赵紫阳同志因病医治无效, 赵紫阳同志１９１９年１０月生于]
+    note: 只保留两段：逝世与火化、官方简历和“犯了严重错误”的结论。官方没有发表生平。

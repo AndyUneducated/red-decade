@@ -77,6 +77,28 @@ wikisource:
     kind: party-doc
     alias: 中发〔1972〕12号
     note: 转发毛泽东 1971 年南巡谈话纪要，列举“十次路线斗争”。
+  # 第 14 批：改革一代领导
+  - id: ws-1979-07-15-guangdong-fujian
+    title: 中共中央、国务院批转广东省委、福建省委关于对外经济活动实行特殊政策和灵活措施的两个报告
+    date: 1979-07-15
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中发〔1979〕50号（广东、福建特殊政策）
+    note: 日期以页面为准。
+  - id: ws-1989-06-24-fourth-plenum
+    title: 中国共产党第十三届中央委员会第四次全体会议公报
+    date: 1989-06-24
+    author: 中国共产党第十三届中央委员会第四次全体会议
+    kind: party-doc
+    alias: 1989 年十三届四中全会公报
+    note: 撤销赵紫阳的职务，选举江泽民为总书记。
+  - id: ws-1989-06-zhao-errors-report
+    title: 关于赵紫阳同志在反党反社会主义的动乱中所犯错误的报告
+    date: 1989-06-23
+    author: 李鹏（代表中央政治局）
+    kind: party-doc
+    alias: 1989 年李鹏《关于赵紫阳同志所犯错误的报告》
+    note: 在十三届四中全会上作。日期以页面为准。
   - id: ws-1980-ufwd-rightist-review
     title: 中央统一战线工作部关于爱国人士中的右派复查问题的请示报告
     date: 1980

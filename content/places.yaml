@@ -201,6 +201,9 @@
 - { id: lingchuan, name: 陵川, names: [陵川], lat: 35.78, lon: 113.28 }
 - { id: longyan, name: 龙岩, names: [龙岩], lat: 25.08, lon: 117.02 }
 - { id: yunxian, name: 湖北郧县, names: [郧县], lat: 32.83, lon: 110.81 }
+# batch 14
+- { id: dongping, name: 山东东平, names: [东平], lat: 35.94, lon: 116.47 }
+- { id: fuping-shaanxi, name: 陕西富平, names: [富平], lat: 34.75, lon: 109.18 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
