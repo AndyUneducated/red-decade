@@ -407,6 +407,7 @@ export const SOURCE_KINDS: Record<string, string> = {
   database: '资料库',
   archive: '外国档案',
   gazetteer: '地方志',
+  'local-record': '地方处遗材料',
 }
 
 export const ClaimSchema = z.object({
@@ -434,8 +435,21 @@ export const MEASURES = {
 } as const
 export type Measure = keyof typeof MEASURES
 
-// One case, every figure for it side by side. value is set only when the source gives a number;
-// approx keeps the source's hedge (余 / 多 / 近 / 数十). A case with `need` has no source text yet.
+// value is set only when the source gives a number; approx keeps the source's hedge (余 / 多 / 近 / 数十)
+export const CountSchema = z.object({
+  measure: z.enum(Object.keys(MEASURES) as [Measure, ...Measure[]]),
+  what: z.string(),
+  scope: z.string().optional(),
+  value: z.number().positive().optional(),
+  approx: z.string().optional(),
+  unit: z.string().default('人'),
+  voice: z.enum(Object.keys(VOICES) as [Voice, ...Voice[]]),
+  cite: Cite,
+  quote: z.string(),
+  note: z.string().optional(),
+})
+
+// One case, every figure for it side by side. A case with `need` has no source text yet.
 export const FigureSchema = z.object({
   id: z.string(),
   title: z.string(),
@@ -444,27 +458,26 @@ export const FigureSchema = z.object({
   summary: z.string(),
   events: z.array(z.string()).default([]),
   people: z.array(z.string()).default([]),
-  counts: z
-    .array(
-      z.object({
-        measure: z.enum(Object.keys(MEASURES) as [Measure, ...Measure[]]),
-        what: z.string(),
-        scope: z.string().optional(),
-        value: z.number().positive().optional(),
-        approx: z.string().optional(),
-        unit: z.string().default('人'),
-        voice: z.enum(Object.keys(VOICES) as [Voice, ...Voice[]]),
-        cite: Cite,
-        quote: z.string(),
-        note: z.string().optional(),
-      }),
-    )
-    .default([]),
+  counts: z.array(CountSchema).default([]),
   caveats: z.string().optional(),
   need: z.string().optional(),
 })
 
+// The county register: one entry per county, city or prefecture, every count any source gives for it.
+export const COUNTY_KINDS = { county: '县', city: '市', prefecture: '地区' } as const
+export const CountySchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  province: z.string(),
+  prefecture: z.string().optional(),
+  kind: z.enum(Object.keys(COUNTY_KINDS) as [keyof typeof COUNTY_KINDS, ...(keyof typeof COUNTY_KINDS)[]]).default('county'),
+  counts: z.array(CountSchema).min(1),
+  note: z.string().optional(),
+})
+
+export type Count = z.infer<typeof CountSchema>
 export type Figure = z.infer<typeof FigureSchema>
+export type County = z.infer<typeof CountySchema>
 export type Fate = z.infer<typeof FateSchema>
 export type Person = z.infer<typeof PersonSchema>
 export type Faction = z.infer<typeof FactionSchema>
@@ -500,4 +513,5 @@ export type Atlas = {
   sources: Source[]
   claims: Claim[]
   figures: Figure[]
+  counties: County[]
 }

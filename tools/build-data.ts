@@ -12,6 +12,7 @@ import {
   EventSchema,
   FactionSchema,
   FigureSchema,
+  CountySchema,
   IsmSchema,
   LeaderSchema,
   LinePointSchema,
@@ -97,6 +98,7 @@ const concepts = load(ConceptSchema, read('content', 'concepts.yaml'), 'concepts
 const documents = load(DocumentSchema, read('content', 'documents.yaml'), 'documents')
 const claims = load(ClaimSchema, read('research', 'claims.yaml'), 'claims')
 const figures = load(FigureSchema, read('content', 'figures.yaml'), 'figures')
+const counties = load(CountySchema, read('content', 'counties.yaml'), 'counties')
 const orgs = yamlFiles('content', 'orgs').flatMap((p) => load(OrgSchema, read(...p), p.join('/')))
 for (const p of yamlFiles('content', 'leaders'))
   for (const [id, list] of Object.entries((read(...p) ?? {}) as Record<string, unknown>)) {
@@ -316,6 +318,14 @@ for (const f of figures) {
   if (!f.counts.length && !f.need) errors.push(`figure ${f.id}: no counts and no need`)
   for (const c of f.counts) if (c.measure === 'none' && c.value) errors.push(`figure ${f.id}: "${c.what}" is measure none but has a value`)
 }
+{
+  const seen = new Set<string>()
+  for (const u of counties) {
+    if (seen.has(u.id)) errors.push(`duplicate county id ${u.id}`)
+    seen.add(u.id)
+    u.counts.forEach((c) => needCite(c.cite, `county ${u.id}`))
+  }
+}
 
 // ── verbatim quote checks ────────────────────────────────
 // Tolerated: nested ‘’ rendered as “”, and a sentence-final mark where the source continues.
@@ -329,6 +339,7 @@ function checkQuote(sourceId: string, quote: string, where: string) {
 }
 for (const c of claims) for (const e of c.evidence) if (e.quote) checkQuote(e.cite.split('@')[0], e.quote, `claim ${c.id}`)
 for (const f of figures) for (const c of f.counts) checkQuote(c.cite.split('@')[0], c.quote, `figure ${f.id} "${c.what}"`)
+for (const u of counties) for (const c of u.counts) checkQuote(c.cite.split('@')[0], c.quote, `county ${u.id}`)
 for (const p of people)
   for (const v of p.assess)
     if (v.quote) {
@@ -404,6 +415,7 @@ const atlas: Atlas = {
   sources,
   claims,
   figures,
+  counties,
 }
 
 const out = join(ROOT, 'public', 'data')
@@ -429,5 +441,6 @@ console.log(
     `sources    ${sources.length}  (${texts.size} with text)`,
     `claims     ${claims.length}`,
     `figures    ${figures.length}  (${figures.reduce((n, f) => n + f.counts.length, 0)} counts, ${figures.filter((f) => f.need).length} awaiting sources)`,
+    `counties   ${counties.length}  (${counties.reduce((n, u) => n + u.counts.length, 0)} counts, ${new Set(counties.flatMap((u) => u.counts.map((c) => c.cite))).size} sources)`,
   ].join('\n'),
 )

@@ -1,0 +1,792 @@
+# M3-8 按县登记：1980 年代各县“处遗”材料（CCRD 镜像转录，只保留给出死亡总数的段落）
+web:
+  - id: ccrd-1987-gx-nanning-pref-43
+    title: "南宁地区“文化大革命”大事件1966-1976"
+    date: "1987-06"
+    author: "中共南宁地委整党办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000043.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”十年所造成的后果是极其严重的", "1966年12月，地委书记甘怀勋被诬"]
+  - id: ccrd-1987-gx-wuming-213
+    title: "广西武鸣县“文革”大事记"
+    date: "1987-05"
+    author: "中共武鸣县委员会"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000213.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在“文革”十年内乱中，我县同全国各地"]
+  - id: ccrd-1987-gx-longan-56
+    title: "广西隆安县“文革”大事记"
+    date: "1987-07"
+    author: "中共隆安县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000056.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["项 目 数 字 单 位 被打死和逼害"]
+  - id: ccrd-1987-gx-mashan-202
+    title: "广西马山县“文革”大事记"
+    date: "1987-05"
+    author: "中共马山县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000202.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["到了1968年，正在两大派群众组织矛"]
+  - id: ccrd-1987-gx-shanglin-169
+    title: "广西上林县“文革”大事记"
+    date: "1987-04"
+    author: "中共上林县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000169.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文化大革命”是一场由领导者错误发动"]
+  - id: ccrd-1987-gx-binyang-69
+    title: "广西宾阳县“文革”大事件,1966—1976"
+    date: "1987-08"
+    author: "中共宾阳县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000069.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1968年7、8月间，宾阳县在王建勋"]
+  - id: ccrd-1987-gx-binyang-159
+    title: "广西宾阳县“文革”大事记"
+    date: "1987-04"
+    author: "中共宾阳县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000159.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1983年5月10日，经中共南宁地委"]
+  - id: ccrd-1987-gx-hengxian-64
+    title: "广西横县“文革”大事件"
+    date: "1987-07-28"
+    author: "中共横县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000064.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文化大革命”，历时十年（即1966"]
+  - id: ccrd-1987-gx-fusui-199
+    title: "广西扶绥县“文革”大事记"
+    date: "1987-05"
+    author: "中共扶绥县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000199.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["我县在“文化大革命”十年内乱中，由于"]
+  - id: ccrd-1987-gx-chongzuo-25
+    title: "广西崇左县“文化大革命”大事件，1966——1976"
+    date: "1987-05-29"
+    author: "中共崇左县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000025.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在“文革”十年内乱中，我县干部、职工"]
+  - id: ccrd-1987-gx-daxin-29
+    title: "广西大新县“文革”大事记"
+    date: "1987-06"
+    author: "中共大新县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000029.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1966年，“文化大革命”开始后，由"]
+  - id: ccrd-1987-gx-tiandeng-39
+    title: "广西天等县“文革”大事件"
+    date: "1987-06"
+    author: "中共天"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000039.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1983年4月份区党委工作会议后，县", "在十年动乱中，我县被乱杀乱打死和迫害"]
+  - id: ccrd-1987-gx-ningming-96
+    title: "广西宁明县“文化大革命”大事记"
+    date: "1987-06"
+    author: "中共宁明县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000096.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["中央的1968年“七·三布告”（7月"]
+  - id: ccrd-1987-gx-longzhou-66
+    title: "广西龙州县“文革”大事记"
+    date: "1987-07-30"
+    author: "中共龙州县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000066.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["根据“处遗”工作组深入调查了解，我县"]
+  - id: ccrd-1987-gx-longzhou-67
+    title: "广西龙州县“文革”大事件"
+    date: "1987-07-30"
+    author: "中共龙州县委整党办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000067.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["事件发生过后的第二天，从4月23日至"]
+  - id: ccrd-1987-gx-nanning-city-82
+    title: "广西南宁市“文革”大事记"
+    date: "1987-08"
+    author: "中共南宁市委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000082.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["南宁市《“文革”大事记》表明，十年“"]
+  - id: ccrd-1987-gx-liuzhou-pref-47
+    title: "广西柳州地区“文化大革命”大事记"
+    date: "1987-06-10"
+    author: "中共柳州地委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000047.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1985年12月统计，全地区在“文革"]
+  - id: ccrd-1987-gx-luzhai-36
+    title: "广西鹿寨县“文化大革命”大事记"
+    date: "1987-06"
+    author: "中共鹿寨县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000036.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”(无产阶级文化革命的简称，后"]
+  - id: ccrd-1987-gx-sanjiang-84
+    title: "广西三江县“文革”大事件"
+    date: "1987-08"
+    author: "中共三江侗族自治县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000084.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["以三江县人武部为主的三江县革命委员会"]
+  - id: ccrd-1987-gx-rongshui-103
+    title: "广西融水县“文革”大事件"
+    date: "1987-04-15"
+    author: "中共融水苗族自治县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000103.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在县革委动员号召下，全县16个公社，"]
+  - id: ccrd-1987-gx-rongan-44
+    title: "广西融安县“文革”大事件"
+    date: "1987-02-05"
+    author: "中共融安县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000044.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["从“8·20”会议后到9月12日，李"]
+  - id: ccrd-1987-gx-laibin-51
+    title: "广西来宾县“文革”大事件"
+    date: "1987-06-28"
+    author: "中共来宾县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000051.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["县三级干部会议结束以后，全县立即掀起"]
+  - id: ccrd-1987-gx-xiangzhou-110
+    title: "广西象州县“文革”大事件"
+    date: "1987-10-15"
+    author: "中共象州县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000110.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”十年给象州县各族人民带来严重"]
+  - id: ccrd-1987-gx-wuxuan-10
+    title: "广西武宣县“文化大革命”大事记"
+    date: "1987-05-04"
+    author: "中共武宣县整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000010.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["经查明。全县因“文革”事件死亡共52"]
+  - id: ccrd-1987-gx-jinxiu-102
+    title: "广西金秀瑶族自治县“文革”大事记"
+    date: "1987-04"
+    author: "中共金秀县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000102.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在“处遗”中，查明我县“文革”期间被"]
+  - id: ccrd-1987-gx-xincheng-215
+    title: "广西忻城县“文革”大事件"
+    date: "1987-05"
+    author: "中共忻城县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000215.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1966年7月至1976年10月的“"]
+  - id: ccrd-1987-gx-liuzhou-city-90
+    title: "广西柳州市“文革”大事记"
+    date: "1987-09-08"
+    author: "中共柳州市委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000090.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1983年、84年，柳州市遵照中央和"]
+  - id: ccrd-1987-gx-guilin-pref-177
+    title: "桂林地区“文革”大事件"
+    date: "1987-04"
+    author: "桂林地委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000177.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”期间，桂林地、市、“造反大军"]
+  - id: ccrd-1987-gx-lingui-65
+    title: "广西临桂县“文革”大事件"
+    date: "1987-02-14"
+    author: "中共临桂县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000065.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在“文化大革命”中，临桂遭受了一场骇"]
+  - id: ccrd-1987-gx-lingchuan-80
+    title: "广西灵川县“文革”大事件"
+    date: "1987-08"
+    author: "中共灵川县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000080.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”十年内乱中，我县是桂林地区的"]
+  - id: ccrd-1987-gx-xingan-171
+    title: "广西兴安县“文革”大事记"
+    date: "1987-04"
+    author: "中共兴安县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000171.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["兴安县在十年“文革”动乱，全县各族人"]
+  - id: ccrd-1987-gx-quanzhou-9
+    title: "广西全州县“文革”大事件"
+    date: "1987-05-01"
+    author: "中共全州县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000009.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在十年内乱中，由于极“左”思潮的影响"]
+  - id: ccrd-1987-gx-guanyang-31
+    title: "广西灌阳县“文革”大事记"
+    date: "1987-06"
+    author: "中共灌阳县委员会"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000031.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1982年5月23日，县委向桂林地委", "12月14日，县委处理“文化大革命”"]
+  - id: ccrd-1987-gx-ziyuan-149
+    title: "广西资源县“文革”大事记"
+    date: "1987-03"
+    author: "中共资源县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000149.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["历时十年之久的“文化大革命”，给我县"]
+  - id: ccrd-1987-gx-ziyuan-150
+    title: "广西资源县“文革”大事件"
+    date: "1987-03"
+    author: "中共资源县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000150.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["同年9月3日，“六一五”总部以“文攻"]
+  - id: ccrd-1987-gx-longsheng-165
+    title: "广西龙胜县“文革”大事件"
+    date: "1987-04"
+    author: "中共龙胜各族自治县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000165.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在“文革”期间，龙胜造反派组织“7·"]
+  - id: ccrd-1987-gx-yongfu-146
+    title: "广西永福县“文革”大事件"
+    date: "1987-03"
+    author: "中共永福县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000146.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”期间，全县有1128人被抓，"]
+  - id: ccrd-1987-gx-pingle-141
+    title: "广西平乐县“文革”大事件"
+    date: "1987-03"
+    author: "中共平乐县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000141.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”内乱中，平乐县也毫无例外地遭"]
+  - id: ccrd-1987-gx-pingle-140
+    title: "广西平乐县“文革”大事记"
+    date: "1987-03"
+    author: "中共平乐县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000140.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["与此同时，在同安、源头、平乐镇、大扒"]
+  - id: ccrd-1987-gx-lipu-136
+    title: "广西荔浦县“文革”大事件"
+    date: "1987-03"
+    author: "中共荔浦县整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000136.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”中全县被逼害致死的共755人"]
+  - id: ccrd-1987-gx-gongcheng-74
+    title: "广西恭城县“文革”大事记"
+    date: "1987-08"
+    author: "中共恭城县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000074.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文化大革命”十年浩劫，给我县带来了"]
+  - id: ccrd-1987-gx-guilin-city-77
+    title: "广西桂林市“文革”大事件"
+    date: "1987-08"
+    author: "中共桂林市委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000077.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["《大事件》清楚地反映了桂林是广西“文"]
+  - id: ccrd-1987-gx-wuzhou-pref-212
+    title: "广西梧州地区“文革”大事记"
+    date: "1987-05"
+    author: "中共梧州地委整党领导小组办公室　梧州地区档案馆"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000212.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1、根据统计，全地区在“文革”期间被"]
+  - id: ccrd-1987-gx-cangwu-70
+    title: "广西苍梧县“文革”大事记"
+    date: "1987-08"
+    author: "中共苍梧县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000070.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1979年1月党的十一届三中全会以后"]
+  - id: ccrd-1987-gx-cangwu-71
+    title: "广西苍梧县“文革”大事件"
+    date: "1987-08"
+    author: "中共苍梧县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000071.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["全县在“三个会议”的影响下，城乡都出"]
+  - id: ccrd-1987-gx-tengxian-101
+    title: "广西藤县“文革”大事件，1966－1976"
+    date: "1987-03"
+    author: "中共藤县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000101.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["长达十年之久的“文化大革命”给我县造"]
+  - id: ccrd-1987-gx-cenxi-189
+    title: "广西岑溪县“文革”大事件, 1966—1976"
+    date: "1987-04-30"
+    author: "中共岑溪县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000189.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在县直机关，也同样出现了“群众专政”"]
+  - id: ccrd-1987-gx-mengshan-109
+    title: "广西蒙山县“文革”大事件1966－1976"
+    date: "1987-10-05"
+    author: "中共蒙山县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000109.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["一、乱杀人数量大、面广、手段野蛮残忍"]
+  - id: ccrd-1987-gx-hexian-181
+    title: "广西贺县“文革”大事件"
+    date: "1987-04-03"
+    author: "中共贺县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000181.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1966年全国各族人民正在进行社会主"]
+  - id: ccrd-1987-gx-zhongshan-217
+    title: "广西钟山县“文革”大事件"
+    date: "1987-05"
+    author: "中共钟山县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000217.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文化大革命”中，钟山县革命委员会和"]
+  - id: ccrd-1987-gx-wuzhou-city-115
+    title: "广西梧州市“文化大革命”大事记"
+    date: "1987-11"
+    author: "中共梧州市委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000115.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在此之前，1974年4月，市委成立了"]
+  - id: ccrd-1987-gx-luchuan-139
+    title: "广西陆川县“文化大革命”大事件"
+    date: "1987-03"
+    author: "中共陆川县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000139.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”十年，灾难惨重。全县杀死逼死"]
+  - id: ccrd-1987-gx-yulin-city-180
+    title: "广西玉林市文化大革命大事件"
+    date: "1987-04-02"
+    author: "中共玉林市委整党办公室(机密)"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000180.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”期间，玉林市经历了“州背”、"]
+  - id: ccrd-1987-gx-lingshan-33
+    title: "广西灵山县“文革”大事件"
+    date: "1987-06"
+    author: "中共灵山县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000033.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”十年动乱中，灵山县是重灾区之"]
+  - id: ccrd-1987-gx-hepu-95
+    title: "广西合浦县“文革”大事件"
+    date: "1987-05-20"
+    author: "中共合浦县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000095.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["我县史无前例的“文化大革命”于196"]
+  - id: ccrd-1987-gx-pubei-16
+    title: "广西浦北县“文革”大事件"
+    date: "1987-05-15"
+    author: "中共浦北县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000016.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["长达十年的“文化大革命”，在我县先从"]
+  - id: ccrd-1987-gx-qinzhou-208
+    title: "广西钦州市“文革”大事件"
+    date: "1987-05"
+    author: "中共钦州市委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000208.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在“文化大革命”十年的动乱中，钦州县"]
+  - id: ccrd-1987-gx-beihai-city-195
+    title: "广西北海市“文革”大事件"
+    date: "1987-05"
+    author: "中共北海市委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000195.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["市“打投”会议以后，各公社便陆续出现"]
+  - id: ccrd-1987-gx-baise-pref-68
+    title: "百色地区“文革”大事件"
+    date: "1987-08"
+    author: "中共百色地委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000068.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文化大革命”是一场由领导者错误发动"]
+  - id: ccrd-1987-gx-baise-pref-158
+    title: "广西百色地区“文革”大事记"
+    date: "1987-04"
+    author: "中共百色地委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000158.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["党的十一届六中全会《关于建国以来党的"]
+  - id: ccrd-1987-gx-baise-28
+    title: "广西百色县“文革”大事件"
+    date: "1987-06"
+    author: "中共百色市委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000028.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["从1967年元月至1970年底全县被"]
+  - id: ccrd-1987-gx-tianyang-184
+    title: "广西田阳县“文革”大事记"
+    date: "1987-04-17"
+    author: "中共田阳县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000184.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["我县在“文革”中，全县被诬为“反共救"]
+  - id: ccrd-1987-gx-tiandong-157
+    title: "广西田东县“文革”大事记"
+    date: "1987-03-30"
+    author: "中共田东县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000157.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”中，全县被打死、逼死380人"]
+  - id: ccrd-1987-gx-debao-34
+    title: "广西德保县“文革”大事记"
+    date: "1987-02-05"
+    author: "中共德保县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000034.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在政治上，大批的老干部、知识分子以至"]
+  - id: ccrd-1987-gx-debao-164
+    title: "广西德保县“文革”大事件"
+    date: "1987-02"
+    author: "中共德保县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000164.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["全县在“文革”期间，共被批斗5178"]
+  - id: ccrd-1987-gx-jingxi-79
+    title: "广西靖西县“文革”大事记"
+    date: "1987-08"
+    author: "中共靖西县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000079.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1983年4月份，区党委工作会议后，"]
+  - id: ccrd-1987-gx-xilin-144
+    title: "广西西林县“文革”大事件"
+    date: "1987-03"
+    author: "中共西林县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000144.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1966年5月至1976年10月的“"]
+  - id: ccrd-1987-gx-longlin-190
+    title: "广西隆林各族自治县“文革”大事记"
+    date: "1987-04-30"
+    author: "中共隆林各族自治县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000190.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1、按照区党委（83）55号文件规定"]
+  - id: ccrd-1987-gx-hechi-pref-178
+    title: "广西河池地区“文革”大事件"
+    date: "1987-04-01"
+    author: "中共河池地委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000178.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["河池地区在十年动乱中，是广西重灾区之"]
+  - id: ccrd-1987-gx-fengshan-72
+    title: "广西凤山县“文革”大事件"
+    date: "1987-08"
+    author: "中共凤山县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000072.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["凤山县在“文化大革命”这十年内乱中，"]
+  - id: ccrd-1987-gx-donglan-128
+    title: "广西东兰县“文化大革命”大事记"
+    date: "1987-12"
+    author: "中共东兰县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000128.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["十年内乱中，东兰全县被打死及迫害致死"]
+  - id: ccrd-1987-gx-bama-92
+    title: "广西巴马县“文革”大事件"
+    date: "1987-09-23"
+    author: "中共巴马瑶族自治县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000092.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["我县是广西十年内乱的重灾县之一。据统"]
+  - id: ccrd-1987-gx-yishan-93
+    title: "广西宜山县“文革”大事件"
+    date: "1987-09-28"
+    author: "中共宜山县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000093.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["历史已经判明：“文化大革命”是一场给"]
+  - id: ccrd-1987-gx-luocheng-201
+    title: "广西罗城县“文革”大事件"
+    date: "1987-05"
+    author: "中共罗城仫佬族自治县委员会整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000201.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["由于县革委主要领导石坚、段志英等人积"]
+  - id: ccrd-1987-gx-huanjiang-161
+    title: "广西环江毛南族自治县“文化大革命”大事记"
+    date: "1987-04"
+    author: "中共环江县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000161.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["十年浩劫给我县造成了惨重的后果。全县"]
+  - id: ccrd-1987-gx-tiane-210
+    title: "广西天峨县“文革”大事件"
+    date: "1987-05"
+    author: "中共天峨县委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000210.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["天峨县在十年内乱中，不少干部群众遭受"]
+  - id: ccrd-1987-gx-hechi-city-54
+    title: "广西河池市“文化大革命”大事记"
+    date: "1987-07"
+    author: "中共河池市委整党领导小组办公室"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000054.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在十年浩劫中，我县各族人民遭到了灾难"]
+  - id: ccrd-1987-hn-daoxian-15
+    title: "中共道县县委关于处理“文革”杀人问题的情况的总结报告"
+    date: "1987-11-30"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000015.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在林彪、江青反党集团极力推行极左思潮"]
+  - id: ccrd-1987-hn-jianghua-3
+    title: "中共零陵地区江华瑶族自治县委关于处理“文革”中杀人遗留问题的总结报告"
+    date: "1987-05-20"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000003.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["在林彪、江青反党集团将极“左”思潮和"]
+  - id: ccrd-1987-hn-jiangyong-2
+    title: "中共零陵地区江永县委关于处理文革杀人遗留问题的工作总结"
+    date: "1987-05-08"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000002.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["这次杀人造成的严重后果是：被杀的30"]
+  - id: ccrd-1987-hn-ningyuan-9
+    title: "中共零陵地区宁远县委关于处理“文革”中杀人遗留问题的工作总结报告"
+    date: "1987-07-10"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000009.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1967年，我县有9个区，1个镇，4"]
+  - id: ccrd-1987-hn-xintian-20
+    title: "中共零陵地区新田县委关于处理“文革”中杀人遗留问题的总结报告"
+    date: "1987-04-03"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000020.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["1967年9、10月间，我县出现了一"]
+  - id: ccrd-1987-hn-dongan-17
+    title: "中共零陵地区东安县委关于 “文革”中杀人问题的调查报告"
+    date: "1987-03-03"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000017.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文革”期间，我县有 33 个公社、"]
+  - id: ccrd-1987-hn-shuangpai-1
+    title: "中共零陵地区双牌县委关于处理“文革”中杀人遗留问题的工作总结"
+    date: "1987-01-10"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000001.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["3、妥善安置了遗属，“文革”杀人后，"]
+  - id: ccrd-1987-hn-qiyang-7
+    title: "中共零陵地区祁阳县委关于处理文化革命期间杀人遗留问题的工作总结"
+    date: "1987-06-02"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000007.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["我县在“文革”中被杀和被迫自杀的共2"]
+  - id: ccrd-1987-hn-yongzhou-city-5
+    title: "中共零陵地区永州市委关于“文革”中杀人情况的调查报告"
+    date: "1987-05-20"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000005.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["文革期间被迫自缢 26 人，其中男性"]
+  - id: ccrd-1987-hn-lengshuitan-city-16
+    title: "中共零陵地区冷水滩市委关于“文革”中杀人情况的调查报告"
+    date: "1987-03"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000016.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["全市在“文革”期间被杀和批斗致死的共"]
+  - id: ccrd-1987-hn-lanshan-6
+    title: "中共零陵地区蓝山县委贯彻省委（85）12号文件处理文革杀人遗留问题的工作总结"
+    date: "1987-05-31"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/23/000006.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["“文化大革命”期间的1967年，全县"]
+  - id: ccrd-1986-bj-daxing-0
+    title: "大兴县“八三一”事件及调查处理始末"
+    date: "1986"
+    author: "中共大兴县委核查“三种人”领导小组"
+    kind: local-record
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/0/26/000000.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: ["就这样，此风愈演愈烈，几天之内，全县"]
