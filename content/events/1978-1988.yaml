@@ -1,0 +1,43 @@
+# Events, 1978–1988 (人物第 16 批配套)：民主墙、魏京生案、1987 年一月胡耀邦辞职与开除方励之、王若望、刘宾雁党籍。
+
+- id: 1978-12-05-fifth-modernization
+  date: 1978-12-05
+  title: 西单民主墙：魏京生贴出《第五个现代化》
+  lane: mass
+  weight: 2
+  place: 北京西单
+  summary: 1978 年 11 月起北京西单一段围墙上贴满大字报，先是为“四五”和冤假错案申诉，很快出现了《探索》《北京之春》《四五论坛》等民间刊物。12 月 5 日魏京生贴出署名的《第五个现代化：民主及其他》，说在四个现代化之外还要有民主，“没有这第五个现代化，一切现代化不过是一个新的诺言”。1979 年 3 月起当局逮捕魏京生等人，12 月北京市规定大字报只能在月坛公园张贴，西单墙关闭。
+  people: [wei-jingsheng, chen-ziming, deng-xiaoping]
+  voices:
+    - { voice: doc, text: 我们要人民生活得现代化，人民的民主、自由与幸福，是我们实现现代化的唯一目的（魏京生大字报）, cite: wjs-1978-fifth-modernization, quote: true }
+    - { voice: doc, text: 西单民主墙成为他们向一切反动势力所作斗争的第一个阵地（同一大字报）, cite: wjs-1978-fifth-modernization, quote: true }
+  cites: [wjs-1978-fifth-modernization]
+  verify: true
+
+- id: 1979-10-16-wei-jingsheng-sentenced
+  date: 1979-10-16
+  title: 魏京生被判处有期徒刑十五年
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 魏京生 3 月 29 日被捕，10 月 16 日北京市中级人民法院公开审理，以向外国人供给军事情报和反革命宣传鼓动两项罪名判处有期徒刑十五年、剥夺政治权利三年。新华社详细报道了庭审，旁听者四百多人，外国记者和他的朋友没能进入法庭。这是民主墙参与者中判得最重的一个，此后民间刊物陆续停办。
+  people: [wei-jingsheng]
+  voices:
+    - { voice: officialLater, text: 他写的这些反动文章，有的在西单墙上张贴；有的登在他主编的名为《探索》的反动刊物上（1979 年新华社报道，转述起诉书）, cite: rmrb-1979-10-17-wei-jingsheng-trial, quote: true }
+    - { voice: officialLater, text: 判处魏京生有期徒刑十五年，刑满后剥夺政治权利三年（同一报道）, cite: rmrb-1979-10-17-wei-jingsheng-trial, quote: true }
+  cites: [rmrb-1979-10-17-wei-jingsheng-trial]
+
+- id: 1987-01-anti-liberalization
+  date: 1987-01-13
+  end: 1987-01-23
+  title: 胡耀邦辞职；方励之、王若望、刘宾雁被开除党籍
+  lane: ideology
+  weight: 3
+  summary: 1986 年 12 月合肥、上海、北京等地学生上街要求民主。12 月 30 日邓小平谈话要求“旗帜鲜明地反对资产阶级自由化”，点名方励之、王若望、刘宾雁。1 月 13 日上海市纪委开除王若望党籍，16 日政治局扩大会议接受胡耀邦辞去总书记，由赵紫阳代理，17 日安徽省纪委开除方励之党籍，23 日人民日报社纪委开除刘宾雁党籍。“反对资产阶级自由化”从此成为固定口号，1989 年学生的要求之一就是为这次运动中受处分的人平反。
+  people: [hu-yaobang, zhao-ziyang, deng-xiaoping, fang-lizhi, wang-ruowang, liu-binyan]
+  voices:
+    - { voice: officialLater, text: 胡耀邦同志在会议上检讨了他担任党中央总书记期间，违反党的集体领导原则、在重大的政治原则问题上的失误（1987 年政治局扩大会议公报）, cite: rmrb-1987-01-17-politburo, quote: true }
+    - { voice: officialLater, text: 王若望自1979年以来，特别是近两年来，经常借作报告、发表文章的机会，鼓吹资产阶级自由化，反对四项基本原则，屡教不改（1987 年上海市纪委决定）, cite: rmrb-1987-01-15-wang-ruowang, quote: true }
+    - { voice: officialLater, text: 刘宾雁严重违反党章、党纪和党的决议，在许多地方发表讲演、文章，否定四项基本原则，鼓吹资产阶级自由化（1987 年人民日报社纪委决定）, cite: rmrb-1987-01-25-liu-binyan, quote: true }
+    - { voice: officialLater, text: 二是，彻底否定反对资产阶级自由化，为反自由化中所谓“蒙受不白之冤的公民”平反昭雪（1989 年陈希同报告，转述学生的要求）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  cites: [rmrb-1987-01-17-politburo, rmrb-1987-01-15-wang-ruowang, rmrb-1987-01-25-liu-binyan, ws-1989-06-30-chen-xitong-report]

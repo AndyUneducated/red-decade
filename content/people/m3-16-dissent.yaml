@@ -1,0 +1,369 @@
+# M3 people round 2, batch 16: 民主墙与 1980 年代异议者。魏京生（民主墙），刘宾雁、王若望（1987 年开除党籍），
+# 包遵信、苏绍智、陈子明、戴晴、戈扬、万润南、金观涛（1989 年陈希同报告点名的知识界人士）。
+# Texts: 魏京生《第五个现代化》（节选）、1979 年新华社公审报道、1987 年两份开除党籍决定（人民日报）、
+# 1989 年陈希同报告。在世人物只写公开经历和公开文本；生卒只录有把握的部分，其余经历来自通行资料，verify。
+
+- id: wei-jingsheng
+  name: 魏京生
+  born: 1950-05-20
+  tier: 2
+  role1966: 北京中学生
+  pinyin: Wèi Jīngshēng
+  gender: m
+  birthplace: 北京
+  origin: 安徽巢县
+  positions: []
+  bio: 北京人，祖籍安徽巢县，北京动物园电工。1978 年 12 月 5 日在西单“民主墙”贴出署名大字报《第五个现代化》，说没有民主，“一切现代化不过是一个新的诺言”，随后主编民间刊物《探索》，1979 年 3 月又贴文警告邓小平“要民主还是要新的独裁”。3 月 29 日被捕，10 月以向外国人提供军事情报和反革命宣传煽动罪被判处有期徒刑十五年，是民主墙时期判刑最重的人。1993 年获释，次年再次被捕，1995 年判刑十四年，1997 年以保外就医名义被送往美国。
+  life:
+    - h: 民主墙
+      from: 1950-05-20
+      to: 1979-03-29
+      text: |
+        文革开始时他是北京的中学生，参加过红卫兵，后来当兵，1970 年代在北京动物园当电工。1978 年 11 月西单墙上开始大量张贴大字报，12 月 5 日他贴出《第五个现代化：民主及其他》，署了真名和住址。文章说“我们要自己掌握自己的命运，不要神仙和皇帝不要相信有什么救世主”，把当时的制度称为“披着社会主义外衣的封建君主制”。1979 年 1 月起他与人合办油印刊物《探索》，3 月 25 日贴出《要民主还是要新的独裁》，点名邓小平。
+      verify: true
+      cites: [wjs-1978-fifth-modernization]
+    - h: 两次判刑
+      from: 1979-03-29
+      to: 1997-11
+      text: |
+        新华社报道说，他“被捕前是北京市公园服务管理处工人”，“于今年三月二十九日将他逮捕”。起诉书的第一项指控是，对越作战开始后第四天，他“向外国人供给了我国参战部队的指挥员姓名、出兵数目、战斗进展和伤亡人数等军事情报”；第二项是文章中说无产阶级专政的国家制度“是披着社会主义外衣的封建君主制”，煽动“把权力从这些老爷们手里夺过来”。10 月 16 日北京市中级人民法院判处他有期徒刑十五年，刑满后剥夺政治权利三年；他没有请律师，自己辩护。11 月高级法院驳回上诉。1993 年 9 月提前获释，1994 年 4 月再次被拘，1995 年 12 月以阴谋颠覆政府罪被判处有期徒刑十四年。
+      verify: true
+      cites: [rmrb-1979-10-17-wei-jingsheng-trial]
+    - h: 流亡
+      from: 1997-11
+      text: |
+        1997 年 11 月他以保外就医的名义被直接从监狱送上飞往美国的飞机，此后在海外从事公开的民主运动。1989 年 2 月方励之致信邓小平、陈军等 33 人联名要求大赦时，点名的就是他；陈希同报告称之为“要求实行大赦，释放严重触犯刑律的魏京生等所谓‘政治犯’”。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+  assess:
+    - { voice: doc, text: 没有这第五个现代化，一切现代化不过是一个新的诺言（魏京生 1978 年 12 月大字报）, cite: wjs-1978-fifth-modernization, quote: true }
+    - { voice: officialLater, text: 魏京生背叛祖国，向外国人供给我国军事情报；并违反我国宪法，撰写反动文章，进行反革命宣传鼓动，危害了国家和人民的根本利益，已构成反革命罪（1979 年北京市中级人民法院判决，新华社报道）, cite: rmrb-1979-10-17-wei-jingsheng-trial, quote: true }
+    - { voice: editor, text: 判决把“军事情报”放在第一项，但报道里起诉书引用的都是他的文章；情报的内容是“参战部队的指挥员姓名、出兵数目、战斗进展和伤亡人数”，是对一名外国人口头谈的。, cite: rmrb-1979-10-17-wei-jingsheng-trial }
+  factions: [democracy]
+  fate:
+    - { date: 1978-12-05, s: rise, note: 西单墙贴出《第五个现代化》, cite: wjs-1978-fifth-modernization }
+    - { date: 1979-03-29, s: detained, note: 被捕, cite: rmrb-1979-10-17-wei-jingsheng-trial }
+    - { date: 1993-09, s: sidelined, note: 提前获释, verify: true }
+    - { date: 1994-04, s: detained, note: 再次被拘，1995 年判刑十四年, verify: true }
+    - { date: 1997-11, s: sidelined, note: 保外就医送往美国, verify: true }
+  cites: [wjs-1978-fifth-modernization, rmrb-1979-10-17-wei-jingsheng-trial]
+
+- id: liu-binyan
+  name: 刘宾雁
+  born: 1925-02-07
+  died: 2005-12-05
+  deathKind: natural
+  deathPlace: 美国新泽西
+  tier: 2
+  role1966: 右派，在《中国青年报》等处监督劳动
+  pinyin: Liú Bīnyàn
+  gender: m
+  birthplace: 吉林长春
+  positions:
+    - { title: 记者, orgName: 人民日报社, from: 1979-12, to: 1987-01, verify: true }
+    - { title: 副主席, orgName: 中国作家协会, from: 1985-01, to: 1987-01, verify: true }
+  bio: 吉林长春人，生于长春、长于哈尔滨，1944 年入党，《中国青年报》记者。1956 年发表特写《在桥梁工地上》《本报内部消息》，1957 年被划为“极右分子”，开除党籍，下放劳动二十多年。1979 年改正，发表报告文学《人妖之间》，揭露黑龙江宾县王守信贪污案，任《人民日报》记者、中国作家协会副主席，被读者称为“刘青天”。1987 年 1 月被人民日报社纪委开除党籍，1988 年赴美讲学，1989 年后不能回国，2005 年在美国新泽西去世。
+  life:
+    - h: 两次开除党籍之前
+      from: 1925-02-07
+      to: 1979
+      text: |
+        少年时在哈尔滨读书，自学俄文，1944 年入党，建国后任《中国青年报》记者。1956 年受苏联“干预生活”文学的影响，写了揭露官僚主义的特写《在桥梁工地上》《本报内部消息》。1957 年反右运动中被划为“极右分子”，1958 年开除党籍，下放山西、山东农村劳动，文革中又被关进干校。
+      verify: true
+    - h: 刘青天
+      from: 1979
+      to: 1987-01-23
+      text: |
+        1979 年右派问题改正，恢复党籍。同年发表《人妖之间》，写黑龙江宾县燃料公司经理王守信与地方干部结成的贪污网，年底调《人民日报》任记者，此后写了《一个人和他的影子》《第二种忠诚》等，读者来信和上访的人常找到他家里。1985 年当选中国作家协会副主席。1986 年底学潮后，他和方励之、王若望一起被点名为“资产阶级自由化”的代表人物。
+      verify: true
+    - h: 开除与流亡
+      from: 1987-01-23
+      to: 2005-12-05
+      text: |
+        1987 年 1 月 23 日中共人民日报社机关纪委决定开除他的党籍，说他“攻击四项基本原则是‘陈腐的、曾经把中国几次引向灾难的过时观念……’”，说《人妖之间》《千秋功罪》“都是为了展示一个真理，就是中国共产党的腐败”，还把新闻工作者接受党的领导说成是当“三孙子”。1988 年他应邀赴美讲学，1989 年以后被拒绝回国，在普林斯顿等地写作，2005 年 12 月 5 日在新泽西去世。
+      verify: true
+      cites: [rmrb-1987-01-25-liu-binyan]
+  assess:
+    - { voice: officialLater, text: 刘宾雁严重违反党章、党纪和党的决议，在许多地方发表讲演、文章，否定四项基本原则，鼓吹资产阶级自由化（1987 年人民日报社纪委决定）, cite: rmrb-1987-01-25-liu-binyan, quote: true }
+    - { voice: officialLater, text: 刘宾雁诋毁共产党“堕落”，说他写《人妖之间》、《千秋功罪》“都是为了展示一个真理，就是中国共产党的腐败”（同一决定）, cite: rmrb-1987-01-25-liu-binyan, quote: true }
+  factions: [democracy, rightists]
+  fate:
+    - { date: 1957, s: purged, note: 划为“极右分子”，开除党籍, verify: true }
+    - { date: 1979, s: restored, note: 右派改正，恢复党籍, verify: true }
+    - { date: 1985-01, s: rise, note: 中国作家协会副主席, verify: true }
+    - { date: 1987-01-23, s: purged, note: 人民日报社纪委开除党籍, cite: rmrb-1987-01-25-liu-binyan }
+    - { date: 1989-06, s: sidelined, note: 在美国，被拒绝回国, verify: true }
+    - { date: 2005-12-05, s: dead, note: 在美国新泽西去世, verify: true }
+  cites: [rmrb-1987-01-25-liu-binyan]
+
+- id: wang-ruowang
+  name: 王若望
+  born: 1918-02-04
+  died: 2001-12-19
+  deathKind: natural
+  deathPlace: 美国纽约
+  tier: 3
+  role1966: 上海作家，摘帽右派
+  pinyin: Wáng Ruòwàng
+  gender: m
+  birthplace: 江苏武进
+  positions: []
+  bio: 江苏武进人，1930 年代参加左翼运动坐过国民党的监狱，1937 年入党，建国后任上海作协书记处书记、《文艺月报》副主编。1957 年被划为右派，文革中再次被关押。1979 年平反后在上海写杂文，自称“资产阶级自由化老祖宗”；1987 年 1 月 13 日被上海市纪委开除党籍，是当年三个被点名的人中最早的。1989 年在上海参加游行，被关押一年多，1992 年出国，2001 年在纽约去世。
+  life:
+    - h: 两次挨整
+      from: 1918-02-04
+      to: 1979
+      text: |
+        少年时在上海当学徒，参加左翼文艺活动，1934 年被国民党判刑入狱，1937 年出狱后到延安，入党。建国后在上海文艺界任职。1957 年因杂文被划为右派，1962 年摘帽。文革中因所谓“恶毒攻击”被关押，1970 年代中期才放出来。
+      verify: true
+    - h: 自由化老祖宗
+      from: 1979
+      to: 1989-04
+      text: |
+        1979 年右派问题改正，此后写了大量杂文，批评党政不分、言论管制。1987 年 1 月 13 日上海市纪委决定开除他的党籍，决定说他“自1979年以来，特别是近两年来，经常借作报告、发表文章的机会，鼓吹资产阶级自由化，反对四项基本原则，屡教不改”，把社会主义说成是“空洞无物的幻想”，“声称‘要为资产阶级自由化辩护，我就是要自由化，不给我自由，我就要斗’，公然以‘资产阶级自由化老祖宗’自居”。
+      cites: [rmrb-1987-01-15-wang-ruowang]
+    - h: 1989 与出国
+      from: 1989-05
+      to: 2001-12-19
+      text: |
+        1989 年 5 月他在上海走上街头支持学生，6 月被捕，关押一年多，1990 年获释后被监视居住。1992 年获准赴美国，此后在纽约参加海外民主运动，2001 年 12 月 19 日在纽约去世。
+      verify: true
+  assess:
+    - { voice: officialLater, text: 他把我们的社会主义说成是“空洞无物的幻想”，“实质是封建的半封建的”，“不过抹上了马列主义、社会主义的一层油彩”（1987 年上海市纪委决定）, cite: rmrb-1987-01-15-wang-ruowang, quote: true }
+    - { voice: officialLater, text: 声称“要为资产阶级自由化辩护，我就是要自由化，不给我自由，我就要斗”，公然以“资产阶级自由化老祖宗”自居（同一决定）, cite: rmrb-1987-01-15-wang-ruowang, quote: true }
+  factions: [democracy, rightists]
+  fate:
+    - { date: 1957, s: purged, note: 划为右派, verify: true }
+    - { date: 1966, s: detained, note: 文革中被关押（月份不详）, verify: true }
+    - { date: 1979, s: restored, note: 右派改正, verify: true }
+    - { date: 1987-01-13, s: purged, note: 上海市纪委开除党籍, cite: rmrb-1987-01-15-wang-ruowang }
+    - { date: 1989-06, s: detained, note: 因参加游行被关押, verify: true }
+    - { date: 1992, s: sidelined, note: 赴美, verify: true }
+    - { date: 2001-12-19, s: dead, note: 在纽约去世, verify: true }
+  cites: [rmrb-1987-01-15-wang-ruowang]
+
+- id: bao-zunxin
+  name: 包遵信
+  born: 1937
+  died: 2007-10
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 青年学者
+  pinyin: Bāo Zūnxìn
+  gender: m
+  positions: []
+  bio: 中国社会科学院历史研究所副研究员，1980 年代是《走向未来》丛书的编者之一，参与“文化热”讨论。1989 年 2 月与 42 位知识分子联名要求释放政治犯，5 月与严家其等发表《我们再也不能沉默了》《五一七宣言》，戒严后在香港《明报》呼吁人大罢免李鹏。“六四”后被捕，1991 年以反革命宣传煽动罪被判处有期徒刑五年，出狱后留在北京写作，2007 年去世。
+  life:
+    - h: 1989 年
+      from: 1989-02
+      to: 1989-06
+      text: |
+        陈希同的报告把他列为“精英”分子之一：2 月 26 日他与张显扬、李洪林、戈扬等 42 人联名写信要求释放“政治犯”；5 月 13 日晚与严家其、苏绍智等在北京大学贴出《我们再也不能沉默了》；14 日与严家其、李洪林、戴晴、于浩成、李泽厚等 12 人发出《紧急呼吁》；17 日与严家其发表《五一七宣言》；戒严后又与严家其在香港《明报》发表《兼告李鹏书》，呼吁“废除戒严令，罢免李鹏总理职务”。
+      cites: [ws-1989-06-30-chen-xitong-report]
+    - h: 判刑以后
+      from: 1989-06
+      to: 2007-10
+      text: |
+        “六四”后他被捕，1991 年 1 月北京市中级人民法院以反革命宣传煽动罪判处有期徒刑五年。刑满后留在北京，继续发表文章，每逢敏感日期受到限制。2007 年 10 月在北京病逝。
+      verify: true
+  assess:
+    - { voice: officialLater, text: 5月13日晚，严家其、苏绍智、包遵信等人在北京大学贴出《我们再也不能沉默了》的大字报（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1989-06, s: detained, note: 被捕，1991 年判刑五年, verify: true }
+    - { date: 1994, s: sidelined, note: 刑满释放, verify: true }
+    - { date: 2007-10, s: dead, note: 在北京病逝, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: su-shaozhi
+  name: 苏绍智
+  born: 1923
+  tier: 3
+  role1966: 理论工作者
+  pinyin: Sū Shàozhì
+  gender: m
+  positions:
+    - { title: 所长, orgName: 中国社会科学院, note: 马列主义毛泽东思想研究所, from: 1982, to: 1987, verify: true }
+  bio: 马克思主义理论家，1982 年起任中国社会科学院马列主义毛泽东思想研究所所长，提出中国处于“社会主义初级阶段”等观点。1987 年反自由化中被撤销所长职务。1989 年 1 月与方励之等举办“新启蒙沙龙”，4 月参加《世界经济导报》座谈会，5 月与严家其、包遵信贴出《我们再也不能沉默了》。“六四”后出走，长期居住美国。
+  life:
+    - h: 马列所
+      from: 1979
+      to: 1988-12
+      text: |
+        1979 年理论务虚会上他与冯兰瑞合写文章，说中国还处在“不发达的社会主义”阶段。1982 年任中国社会科学院马列所所长，主张马克思主义理论要“与时俱进”，1983 年“清除精神污染”中受到批评，1987 年被撤销所长职务。
+      verify: true
+    - h: 1989 年
+      from: 1989-01-28
+      to: 1989-06
+      text: |
+        陈希同的报告说，1 月 28 日“苏绍智（中国社会科学院马列所研究员）、方励之等人在北京的‘都乐书屋’搞了一个所谓‘新启蒙沙龙活动’”；4 月 19 日他参加戈扬主持的座谈会；5 月 13 日与严家其、包遵信在北京大学贴出大字报。“六四”后他留在海外，后来定居美国。
+      cites: [ws-1989-06-30-chen-xitong-report]
+      verify: true
+  assess:
+    - { voice: officialLater, text: 今年1月28日，苏绍智（中国社会科学院马列所研究员）、方励之等人在北京的“都乐书屋”搞了一个所谓“新启蒙沙龙活动”（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1982, s: rise, note: 中国社会科学院马列所所长, verify: true }
+    - { date: 1987, s: sidelined, note: 被撤销所长职务, verify: true }
+    - { date: 1989-06, s: purged, note: 出走海外, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: chen-ziming
+  name: 陈子明
+  born: 1952
+  died: 2014-10-21
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 北京中学生
+  pinyin: Chén Zǐmíng
+  gender: m
+  positions: []
+  bio: 北京人。1970 年代下乡内蒙古，1975 年因与友人通信被打成反革命，1978 年“四五”平反后参与民主墙刊物《北京之春》。1980 年代与王军涛等创办北京社会经济科学研究所，做民意调查和政治学研究。1989 年 4 月参加《世界经济导报》座谈会。“六四”后被官方指为学潮的“幕后黑手”之一，1991 年以阴谋颠覆政府罪和反革命宣传煽动罪被判处有期徒刑十三年，1994 年保外就医，2014 年在北京病逝。
+  life:
+    - h: 四五与民主墙
+      from: 1952
+      to: 1986
+      text: |
+        文革中下乡内蒙古，后考入北京化工学院。1975 年因通信中批评时政被定为反革命，劳动教养。1976 年参加天安门广场的“四五”悼念，1978 年随“四五”平反，与王军涛等办民间刊物《北京之春》。
+      verify: true
+    - h: 社经所与 1989
+      from: 1986
+      to: 2014-10-21
+      text: |
+        1980 年代中期他和王军涛创办北京社会经济科学研究所，自筹经费，做民意调查、办刊物。陈希同报告说 4 月 19 日的座谈会上有“陈子明（北京社会经济科学研究所所长）”。“六四”后他被通缉，10 月被捕，1991 年 2 月与王军涛同被判处有期徒刑十三年，是 1989 年案件中判得最重的知识分子。1994 年保外就医，1995 年收监，1996 年再获保外。2014 年 10 月 21 日在北京病逝。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+  assess:
+    - { voice: officialLater, text: 这个座谈会由戈扬主持，参加的有严家其、苏绍智、陈子明（北京社会经济科学研究所所长）、刘锐绍（香港文汇报驻北京办事处主任）等人（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1975, s: detained, note: 因通信被定为反革命，劳动教养, verify: true }
+    - { date: 1978-11, s: restored, note: 随“四五”平反, verify: true }
+    - { date: 1989-10, s: detained, note: 被捕，1991 年判刑十三年, verify: true }
+    - { date: 1994, s: sidelined, note: 保外就医, verify: true }
+    - { date: 2014-10-21, s: dead, note: 在北京病逝, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: dai-qing
+  name: 戴晴
+  born: 1941
+  tier: 3
+  role1966: 哈尔滨军事工程学院毕业生
+  pinyin: Dài Qíng
+  aka: [{ kind: original, name: 傅凝 }]
+  gender: f
+  positions:
+    - { title: 记者, orgName: 光明日报社, from: 1982, to: 1989-07, verify: true }
+  bio: 本名傅凝，烈士傅大庆之女，叶剑英的养女。哈尔滨军事工程学院毕业，曾在国防部门工作，1980 年代任《光明日报》记者，写了王实味、储安平、梁漱溟等人的历史调查，1989 年初编印反对三峡工程的《长江 长江》。1989 年 5 月 14 日参与发出《我们对今天局势的紧急呼吁》，“六四”后被关押十个月，此后在北京继续写作。
+  life:
+    - h: 记者与三峡
+      from: 1982
+      to: 1989-05
+      text: |
+        1982 年起任《光明日报》记者，以访谈和历史调查文章知名，写过储安平、王实味、梁漱溟的遭遇。1989 年 2 月她把反对三峡工程上马的学者意见编成《长江 长江》出版。
+      verify: true
+    - h: 1989 年
+      from: 1989-05-14
+      to: 1990-05
+      text: |
+        陈希同报告说，5 月 14 日“严家其、包遵信、李洪林、戴晴（《光明日报》记者）、于浩成……等12人又发出《我们对今天局势的紧急呼吁》”，要求宣布这次运动是“爱国民主运动”；这份呼吁在《光明日报》发表，在中央电视台播出。“六四”后她公开声明退党，7 月被关押，1990 年 5 月获释。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+  assess:
+    - { voice: officialLater, text: 这个呼吁，在《光明日报》公开发表，在中央电视台公开播出（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1982, s: rise, note: 《光明日报》记者, verify: true }
+    - { date: 1989-07, s: detained, note: 被关押十个月, verify: true }
+    - { date: 1990-05, s: sidelined, note: 获释，作品被禁, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: ge-yang
+  name: 戈扬
+  born: 1916
+  died: 2009-01-18
+  deathKind: natural
+  deathPlace: 美国纽约
+  tier: 3
+  role1966: 《新观察》原主编，右派
+  pinyin: Gē Yáng
+  gender: f
+  birthplace: 江苏海安
+  positions: []
+  bio: 江苏海安人，抗战时期参加新四军，1938 年入党，建国后任《新观察》杂志主编。1957 年被划为右派。1980 年《新观察》复刊后再任主编。1989 年 4 月 19 日与《世界经济导报》联合主持悼念胡耀邦的座谈会，陈希同报告说她自称“年龄最大”者为金观涛的话“作证”。学潮期间她在美国访问，此后留在美国，2009 年在纽约去世。
+  life:
+    - h: 新观察
+      from: 1916
+      to: 1989-04
+      text: |
+        1938 年入党，在新四军和苏北根据地办报。建国后创办《新观察》，任主编。1957 年被划为右派，下放劳动。1980 年代复刊《新观察》并继续任主编，杂志常刊登讨论政治改革的文章。陈希同报告说，1988 年 12 月的讨论会上金观涛说“社会主义的尝试及其失败，是二十世纪人类的两大遗产之一”，她以“有几十年党龄的‘年龄最大’者的身份站出来‘作证’”。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+    - h: 座谈会与流亡
+      from: 1989-04-19
+      to: 2009-01-18
+      text: |
+        4 月 19 日《世界经济导报》和《新观察》在北京召开悼念胡耀邦的座谈会，“这个座谈会由戈扬主持”，导报刊登纪要后被上海市委整顿。学潮期间她出国访问，“六四”后《新观察》停刊，她留在美国，2009 年 1 月 18 日在纽约去世。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+  assess:
+    - { voice: officialLater, text: 《新观察》主编戈扬立即以一个有几十年党龄的“年龄最大”者的身份站出来“作证”说：“金观涛对社会主义的否定不是太厉害了，而是客气了一点。”（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy, rightists]
+  fate:
+    - { date: 1957, s: purged, note: 划为右派, verify: true }
+    - { date: 1980, s: restored, note: 复任《新观察》主编, verify: true }
+    - { date: 1989-06, s: sidelined, note: 留在美国，《新观察》停刊, verify: true }
+    - { date: 2009-01-18, s: dead, note: 在纽约去世, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: wan-runnan
+  name: 万润南
+  born: 1946
+  tier: 3
+  role1966: 清华大学学生
+  pinyin: Wàn Rùnnán
+  gender: m
+  positions: []
+  bio: 清华大学毕业，1984 年与人创办民营的北京四通公司并任总经理，公司以中文打字机起家，是 1980 年代最有名的民营科技企业。公司设立的四通社会发展研究所参与政治体制改革研究。1989 年戒严后他召集学生领袖开会，提出撤出广场的条件；“六四”后出走法国，任“民主中国阵线”首任秘书长。
+  life:
+    - h: 四通
+      from: 1984
+      to: 1989-06
+      text: |
+        1984 年他从中国科学院辞职，与几位同事创办四通公司，生产中文电子打字机。陈希同报告说，戒严后“四通公司总经理万润南在国际饭店召集‘高自联’的部分头头开会，提出了退出天安门广场的6个条件，即‘军队回去，戒严取消，李鹏下台，邓小平、杨尚昆退休，赵紫阳复出’”；四通社会发展研究所还向人大常委征集签名，要求召开紧急会议。“六四”后他被通缉，出走法国，9 月任“民主中国阵线”秘书长。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+  assess:
+    - { voice: officialLater, text: 四通公司总经理万润南在国际饭店召集“高自联”的部分头头开会，提出了退出天安门广场的6个条件（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1984, s: rise, note: 创办四通公司, verify: true }
+    - { date: 1989-06, s: purged, note: 被通缉，出走法国, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]
+
+- id: jin-guantao
+  name: 金观涛
+  born: 1947
+  tier: 3
+  role1966: 北京大学化学系学生
+  pinyin: Jīn Guāntāo
+  gender: m
+  positions: []
+  bio: 北京大学化学系毕业，1980 年代与妻子刘青峰提出中国封建社会是“超稳定结构”的观点，是《走向未来》丛书的主要编者（陈希同报告称“副主编”）和“文化热”的代表人物之一。陈希同报告说他在 1988 年 12 月的讨论会上说“社会主义的尝试及其失败，是二十世纪人类的两大遗产之一”。1989 年后在香港中文大学任研究员，后在台湾任教。
+  life:
+    - h: 走向未来
+      from: 1980
+      to: 1989-06
+      text: |
+        1980 年与刘青峰发表《兴盛与危机》，用控制论解释中国传统社会长期停滞而不崩溃的原因。1984 年起编辑《走向未来》丛书。陈希同报告说，1988 年 12 月 7 日北京大学未来学会的讨论会上，他“在发言中说：‘社会主义的尝试及其失败，是二十世纪人类的两大遗产之一。’”1989 年后他在香港中文大学任研究员，后来到台湾任教。
+      verify: true
+      cites: [ws-1989-06-30-chen-xitong-report]
+  assess:
+    - { voice: officialLater, text: 金观涛在发言中说：“社会主义的尝试及其失败，是二十世纪人类的两大遗产之一。”（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+  factions: [democracy]
+  fate:
+    - { date: 1984, s: rise, note: 主编《走向未来》丛书, verify: true }
+    - { date: 1990, s: sidelined, note: 在香港中文大学任研究员, verify: true }
+  cites: [ws-1989-06-30-chen-xitong-report]

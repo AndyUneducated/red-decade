@@ -17,7 +17,7 @@ import { parse } from 'yaml'
 const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')
 const UA = 'Mozilla/5.0 (red-decade-research; github.com/AndyUneducated/red-decade)'
 
-type Entry = { id: string; title: string; url: string; article?: string; start?: string; end?: string; excerpt?: boolean; keep?: string[] }
+type Entry = { id: string; title: string; url: string; article?: string; start?: string; end?: string; excerpt?: boolean; keep?: string[]; unwrap?: boolean }
 
 const args = process.argv.slice(2)
 if (args[0] === '--list') {
@@ -77,6 +77,14 @@ for (const e of entries) {
   }
   // one paragraph per line in the source pages; the reader splits paragraphs on blank lines
   let paras = text.split(/\n+/).map((p) => p.trim()).filter(Boolean)
+  // `unwrap`: pages exported from Word break every visual line into its own paragraph; a line
+  // that does not end a sentence continues into the next one
+  if (e.unwrap)
+    paras = paras.reduce<string[]>((out, p) => {
+      if (out.length && !/[。！？：”）)]$/.test(out[out.length - 1])) out[out.length - 1] += p
+      else out.push(p)
+      return out
+    }, [])
   const fullChars = paras.join('').length
   if (peek) {
     mkdirSync(join(ROOT, '.probe'), { recursive: true })

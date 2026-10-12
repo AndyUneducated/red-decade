@@ -1,0 +1,51 @@
+# M3 人物第 16 批（民主墙与 1980 年代异议者）：tools/fetch-web.ts。都未满 50 年，只保留 keep 段落。
+web:
+  - id: wjs-1978-fifth-modernization
+    title: 第五个现代化：民主及其他
+    date: 1978-12-05
+    author: 魏京生
+    kind: speech
+    alias: 魏京生《第五个现代化》大字报
+    url: https://weijingsheng.org/doc/cn/46.htm
+    via: 魏京生基金会网站转录（Word 导出，逐行断开，抓取时按句接回）；文末注 1978-12-05 在西单墙贴出，后刊于 1979-01-08《探索》第一期
+    start: 现在报刊杂志和电台中不再震耳欲聋
+    unwrap: true
+    excerpt: true
+    keep: [也就是披着社会主义外衣的封建君主制, 人民难道没有最充分的理由把权力从这些老爷们手里夺过来吗, 我要恭敬的奉告上述诸君, 西单民主墙成为他们, 一九七八年十二月五日在西单墙贴出]
+    note: 作者在世，只保留五段：“封建君主制”、“把权力从这些老爷们手里夺过来”（1979 年起诉书引用了这两处）、“第五个现代化”、民主墙、文末日期注。
+  - id: rmrb-1979-10-17-wei-jingsheng-trial
+    title: 北京市中级人民法院公审反革命犯魏京生
+    date: 1979-10-16
+    author: 新华社
+    kind: news
+    alias: 1979 年新华社魏京生公审报道
+    url: https://cn.govopendata.com/renminribao/1979/10/17/4/
+    via: 《人民日报》1979-10-17 第 4 版（govopendata 转录）
+    article: 北京市中级人民法院公审反革命犯魏京生
+    excerpt: true
+    keep: [新华社北京十月十六日电, 魏京生现年二十九岁, 起诉书说，一九七九年二月, 起诉书指出，一九七八年十二月, 继续开庭后，审判长当庭宣布]
+    note: 只保留五段：电头、身份与逮捕日期、两项指控（军事情报、反革命宣传）、判决。
+  - id: rmrb-1987-01-15-wang-ruowang
+    title: 上海市纪委开除王若望党籍
+    date: 1987-01-13
+    author: 中共上海市纪律检查委员会（新华社报道）
+    kind: party-doc
+    alias: 1987 年上海市纪委开除王若望党籍决定
+    url: https://cn.govopendata.com/renminribao/1987/1/15/1/
+    via: 《人民日报》1987-01-15 第 1 版（govopendata 转录）
+    article: 上海市纪委开除王若望党籍
+    excerpt: true
+    keep: [新华社上海1月14日电, 王若望自1979年以来, 他把我们的社会主义说成是, 公然以“资产阶级自由化老祖宗”自居]
+    note: 只保留四段：电头、决定主文、“错误”中的第一条和第三条。
+  - id: rmrb-1987-01-25-liu-binyan
+    title: 中共人民日报社机关纪委开除刘宾雁党籍
+    date: 1987-01-23
+    author: 中共人民日报社机关纪律检查委员会
+    kind: party-doc
+    alias: 1987 年人民日报社纪委开除刘宾雁党籍决定
+    url: https://cn.govopendata.com/renminribao/1987/1/25/1/
+    via: 《人民日报》1987-01-25 第 1 版（govopendata 转录）
+    article: 中共人民日报社机关纪委开除刘宾雁党籍
+    excerpt: true
+    keep: [本报讯, 他攻击四项基本原则是, 刘宾雁诋毁共产党, 把我们党的新闻工作者]
+    note: 只保留四段：电头、决定所列的三项“错误”。

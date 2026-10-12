@@ -148,3 +148,18 @@
 - { a: yan-jiaqi, b: li-peng, type: attack, from: 1989-05, note: 在香港《明报》呼吁人大罢免李鹏, cite: ws-1989-06-30-chen-xitong-report }
 - { a: wang-dan, b: fang-lizhi, type: link, from: 1988, note: 民主沙龙请方励之的妻子李淑娴讲话, cite: ws-1989-06-30-chen-xitong-report }
 - { a: li-peng, b: wang-dan, type: link, from: 1989-05-18, note: 人民大会堂会面, verify: true }
+# batch 16
+- { a: fang-lizhi, b: wei-jingsheng, type: protect, from: 1989-01, note: 致信邓小平要求特赦魏京生, cite: ws-1989-06-30-chen-xitong-report }
+- { a: fang-lizhi, b: liu-binyan, type: ally, from: 1987-01, note: 1987 年同被点名为“资产阶级自由化”代表人物、开除党籍, verify: true }
+- { a: fang-lizhi, b: wang-ruowang, type: ally, from: 1987-01, note: 同上, verify: true }
+- { a: liu-binyan, b: wang-ruowang, type: ally, from: 1987-01, note: 同上, verify: true }
+- { a: fang-lizhi, b: su-shaozhi, type: ally, from: 1989-01-28, note: 合办“新启蒙沙龙”, cite: ws-1989-06-30-chen-xitong-report }
+- { a: yan-jiaqi, b: bao-zunxin, type: ally, from: 1989-05-13, note: 合写《我们再也不能沉默了》《五一七宣言》《兼告李鹏书》, cite: ws-1989-06-30-chen-xitong-report }
+- { a: ge-yang, b: jin-guantao, type: ally, from: 1988-12-07, note: 为金观涛否定社会主义的发言“作证”, cite: ws-1989-06-30-chen-xitong-report }
+- { a: bao-zunxin, b: jin-guantao, type: ally, from: 1984, note: 《走向未来》丛书编者, verify: true }
+- { a: ge-yang, b: chen-ziming, type: link, from: 1989-04-19, note: 《世界经济导报》《新观察》座谈会, cite: ws-1989-06-30-chen-xitong-report }
+- { a: wan-runnan, b: wang-dan, type: link, from: 1989-05, note: 在国际饭店召集“高自联”头头开会, cite: ws-1989-06-30-chen-xitong-report }
+- { a: chen-xitong, b: bao-zunxin, type: attack, from: 1989-06-30, note: 报告点名, cite: ws-1989-06-30-chen-xitong-report }
+- { a: chen-xitong, b: dai-qing, type: attack, from: 1989-06-30, note: 报告点名《紧急呼吁》, cite: ws-1989-06-30-chen-xitong-report }
+- { a: chen-xitong, b: wan-runnan, type: attack, from: 1989-06-30, note: 报告点名, cite: ws-1989-06-30-chen-xitong-report }
+- { a: chen-ziming, b: wei-jingsheng, type: link, from: 1978-12, note: 同为民主墙刊物的编者（《北京之春》《探索》）, verify: true }

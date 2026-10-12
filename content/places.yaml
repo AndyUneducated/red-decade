@@ -210,6 +210,10 @@
 - { id: haining, name: 浙江海宁, names: [海宁], lat: 30.51, lon: 120.68 }
 - { id: wujin, name: 江苏武进, names: [武进], lat: 31.70, lon: 119.94 }
 - { id: tucson, name: 美国图森, names: [图森], lat: 32.22, lon: -110.97, far: true }
+# batch 16
+- { id: new-jersey, name: 美国新泽西, names: [新泽西], lat: 40.29, lon: -74.55, far: true }
+- { id: new-york, name: 美国纽约, names: [纽约], lat: 40.71, lon: -74.01, far: true }
+- { id: haian, name: 江苏海安, names: [海安], lat: 32.53, lon: 120.47 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
