@@ -181,7 +181,8 @@
   people: [mao-zedong, zhou-enlai, lin-biao]
   voices:
     - { voice: official1966, text: 一九六九年三月二日晨，苏联边防军侵入中国黑龙江省珍宝岛地区，开枪打死打伤我边防军人员多名，制造了一次极为严重的边境武装冲突（1969 年 3 月 2 日外交部照会）, cite: rmrb-1969-03-03-zhenbao, quote: true }
-  cites: [rmrb-1969-03-03-zhenbao]
+    - { voice: official1966, text: 不管你们来多少人，不管你们联合什么人一起来，我们都要把你们坚决彻底干净全部消灭之。（1969 年 3 月 4 日两报社论《打倒新沙皇！》）, cite: ws-1969-03-04-new-tsar, quote: true }
+  cites: [rmrb-1969-03-03-zhenbao, ws-1969-03-04-new-tsar]
 
 - id: 1969-04-ninth-congress
   date: 1969-04-01
@@ -804,3 +805,109 @@
     - { voice: official1966, text: 他们根据新党章的规定，首先确定了党委会和革委会是领导与被领导的关系。（1969 年 12 月调查报告）, cite: ws-1969-xinhua-printing, quote: true }
     - { voice: official1966, text: 革委会成员大多数是党委会成员，革委会的办事机构就是党委会的办事机构，党委会不另设办事机构（同上）, cite: ws-1969-xinhua-printing, quote: true }
   cites: [ws-1969-xinhua-printing]
+
+# ── E7 补充：1968–1969 年赤脚医生、知识分子再教育、落实政策，湖北、四川问题与集市管制（维基文库）
+- id: 1968-09-barefoot-doctors
+  date: 1968-09
+  title: 《红旗》调查报告推广“赤脚医生”
+  lane: culture
+  weight: 2
+  place: 上海川沙县江镇公社
+  summary: 《红旗》发表上海郊区“赤脚医生”调查报告。报告说上海郊县 1960 年有大队卫生员三千九百多人，1961 年被砍到三百多人，1965 年毛泽东“把医疗卫生工作的重点放到农村去”的指示后重建到四千五百多人，平均每个大队一点八人。江镇公社二十八名赤脚医生平均二十三岁，多为小学或初中文化，一半时间参加劳动，每个社员一年只需补贴四、五分钱。报告据此主张医学院校从赤脚医生中招生，批评旧医学教育“脱离政治、脱离实践”。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: “赤脚医生”是上海郊区贫下中农对半农半医卫生员的亲热的称呼。（1968 年《红旗》调查报告）, cite: ws-1968-barefoot-doctors, quote: true }
+    - { voice: official1966, text: 两个大队都有一千三百多人，平均每个贫下中农一年补贴“赤脚医生”四、五分钱。（同上）, cite: ws-1968-barefoot-doctors, quote: true }
+  cites: [ws-1968-barefoot-doctors]
+
+- id: 1968-09-12-reeducation
+  date: 1968-09-12
+  title: 评论员文章《关于知识分子再教育问题》
+  lane: culture
+  weight: 1
+  summary: 《人民日报》《红旗》评论员文章阐发 9 月 5 日《红旗》编者按：对早已工作的大中专毕业生“要注意对他们进行再教育”，即由工农兵来改造“从资产阶级教育中接受的资产阶级思想”，并“分期分批地组织他们到工农兵中去”。文章同时强调“要给出路”，说“多数或大多数”旧学校出来的学生能同工农兵结合，“反革命分子、顽固派”是极少数。
+  people: []
+  voices:
+    - { voice: official1966, text: 对过去大量的高等及中等学校毕业生早已从事工作及现正从事工作的人们，要注意对他们进行再教育（1968 年 9 月《红旗》编者按，评论员文章引）, cite: ws-1968-intellectual-reeducation, quote: true }
+    - { voice: official1966, text: 不给出路的政策，不是无产阶级的政策（同上）, cite: ws-1968-intellectual-reeducation, quote: true }
+  cites: [ws-1968-intellectual-reeducation]
+
+- id: 1968-11-24-policy-editorial
+  date: 1968-11-24
+  title: 清队中“注意政策”：《新安徽报》社论被转载
+  lane: ideology
+  weight: 1
+  summary: 《新安徽报》11 月 24 日社论说，有些人在清理阶级队伍和整党中“采取了一些十分简单、很不利于对敌斗争的作法”，并逐条批驳“只要大方向正确，具体政策嘛，怎样搞都行”“掌握、执行政策是上级的事”“讲政策会束缚群众的手脚”三种说法。社论被加编者按转载：“此文写得不错，现予转载，以供参考。”社论以贯彻八届十二中全会公报为名。
+  people: []
+  voices:
+    - { voice: official1966, text: 在当前清理阶级队伍、整党建党和其它工作中，不注意政策问题，采取了一些十分简单、很不利于对敌斗争的作法。（1968 年 11 月《新安徽报》社论）, cite: ws-1969-commander-policy, quote: true }
+    - { voice: official1966, text: 只要大方向正确，具体政策嘛，怎样搞都行。（社论批驳的说法）, cite: ws-1969-commander-policy, quote: true }
+  cites: [ws-1969-commander-policy]
+  verify: true
+
+- id: 1969-05-06-qinghua-policy
+  date: 1969-05-06
+  title: 清华工军宣队文章批“宁‘左’勿右”
+  lane: ideology
+  weight: 1
+  place: 清华大学
+  summary: 九大闭幕后，驻清华大学工人、解放军毛泽东思想宣传队发表长文《为落实毛主席的无产阶级政策而斗争》，把清队、斗批改中的主要偏差归为“形‘左’实右或宁‘左’勿右”：不作区别、一律打击，“宁推勿拉”“宁挂勿放”，以“大方向正确”为由不执行政策。文章要求“一个人一个人地落实”政策，对“竹筒倒豆子”彻底坦白者从宽。
+  people: []
+  voices:
+    - { voice: official1966, text: 没有区别对待，就没有政策。（1969 年 5 月驻清华工军宣队文章）, cite: ws-1969-policy-struggle, quote: true }
+    - { voice: official1966, text: 坚持“宁推勿拉”、“宁挂勿放”等错误做法，难道能说是符合“大方向”的吗？（同上）, cite: ws-1969-policy-struggle, quote: true }
+  cites: [ws-1969-policy-struggle]
+
+- id: 1969-05-27-wuhan-anti-restoration
+  date: 1969-05-27
+  title: 中央纠正武汉“反复旧”
+  lane: local
+  weight: 2
+  place: 武汉
+  summary: 九大期间，武汉市工代会主要负责人和省市革委会个别成员发起“反复旧”运动，矛头指向革委会、军队和“三结合”干部。湖北省、武汉市革委会部分常委在北京开会，5 月 19 日见到毛泽东、林彪，25 日写出报告，承认清队中“个别单位甚至有逼、供、信和扩大化现象”，提出除有证据的现行反革命外“一个不杀，大部不抓”，并要求返城知青“返回农村”。中央 5 月 27 日批示同意，即此后文件中所称的“五·二七指示”。
+  people: [lin-biao, mao-zedong]
+  voices:
+    - { voice: doc, text: 提出所谓“反复旧”运动，把矛头指向省、市革委会、人民解放军和革命干部，把三代会、首先是工代会置于一切之上。（1969 年 5 月 27 日中共中央批示）, cite: ws-1969-hubei-approval, quote: true }
+    - { voice: doc, text: 除确有证据的杀人、放火、放毒等现行反革命分子应依法处理外，都应采取“一个不杀，大部不抓”的政策。（1969 年 5 月 25 日湖北省革委会报告）, cite: ws-1969-hubei-report, quote: true }
+  cites: [ws-1969-hubei-approval, ws-1969-hubei-report]
+
+- id: 1969-09-27-wuhan-underground
+  date: 1969-09-27
+  title: 中央取缔武汉“北斗星学会”“决派”，查封《扬子江评论》
+  lane: local
+  weight: 1
+  place: 武汉
+  summary: 中央对武汉问题的指示要求“五·二七”指示、“七·二三”布告、“八·二八”命令“不折不扣地执行”，把“北斗星学会”“决派”定为由“叛徒、特务、反革命分子”幕后操纵的地下组织并予取缔，查封群众刊物《扬子江评论》并审查其主要编写人员，下令逮捕王盛荣等三人，并在北京为湖北开办毛泽东思想学习班。
+  people: []
+  voices:
+    - { voice: doc, text: 所谓《扬子江评论》，是一些叛徒、特务、反革命分子幕后操纵的反动刊物，肆无忌惮地大量放毒，必须查封。（1969 年中央指示）, cite: ws-1969-wuhan-instruction, quote: true }
+    - { voice: doc, text: 对这类反革命的地下组织，必须坚决取缔。（同上）, cite: ws-1969-wuhan-instruction, quote: true }
+  cites: [ws-1969-wuhan-instruction]
+  verify: true
+
+- id: 1969-11-05-sichuan-meeting
+  date: 1969-11-05
+  end: 1969-12-24
+  title: 四川省革委会在京检讨“支一派、压一派”
+  lane: local
+  weight: 2
+  place: 北京；四川
+  summary: 四川省革委会、成都军区负责人 11 月 5 日至 12 月 24 日在北京向中央汇报，报告承认“四川的革命和生产是落后了”，原因“在省革委的领导”：省革委“亲一派、疏一派，支一派、压一派”，以“红十条派”与“反红十条派”划线，致使“武斗不息”；也发动过“反复旧”；“个别领导人”大搞“以我为核心”。措施包括无条件收缴武器、禁用“兵团”“八·二六”“反到底”“红成”“八·一五”等派名、取消一切群众组织小报、改组《四川日报》，并请中央办五千人学习班。报告未点“个别领导人”的名。
+  people: []
+  voices:
+    - { voice: doc, text: 落后的原因不在群众，在省革委的领导。（1969 年四川省革委会、成都军区党委报告）, cite: ws-1969-sichuan-report, quote: true }
+    - { voice: doc, text: 今后一律不准用“兵团”、“八·二六”、“反到底”，“红成”、“八·一五”以及类似这两派群众组织的名称，发表讲话、文件，进行一切活动。（同上）, cite: ws-1969-sichuan-report, quote: true }
+  cites: [ws-1969-sichuan-report]
+
+- id: 1969-12-21-qionglai-market
+  date: 1969-12-21
+  title: 邛崃县革委会布告：打击投机倒把、改集市场期
+  lane: econ
+  weight: 1
+  place: 四川邛崃县
+  summary: 邛崃县革委会以“七·二三”布告、“八·二八”命令和战备为由发布布告：粮、棉、油料、烟、麻、糖、茶、木材、药材等统购派购物资和耕畜一律不准上市，社队产品不准进入集市，“农村社员不准弃农经商”，只有零星蔬菜、小猪、家禽等三类产品可在指定市场交易；同时废除原有场期，全县场镇一律改为“十天逢两场”。布告称目的是“堵死资本主义道路”。
+  people: []
+  voices:
+    - { voice: doc, text: 农村社员不准弃农经商。（1969 年 12 月邛崃县革委会布告）, cite: ws-qionglai-market, quote: true }
+    - { voice: doc, text: 决定废除原有的场期，全县大小场镇，一律改为十天逢两场（同上）, cite: ws-qionglai-market, quote: true }
+  cites: [ws-qionglai-market]

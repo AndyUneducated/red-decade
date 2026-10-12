@@ -908,3 +908,28 @@
   concepts: [bloodline, successor]
   docs: [ws-1967-yu-origin-theory]
   cites: [ws-1967-yu-origin-theory]
+
+# ── E7 补充：1966 年边境地区与学校军训
+- id: 1966-09-07-border-areas
+  date: 1966-09-07
+  title: 中央限制边境地区的文革
+  lane: center
+  weight: 1
+  summary: 中央把 9 月 4 日给新疆区党委的电报转发各边境省区：伊犁、塔城、阿尔泰等边境地区可以“四大”鸣放，但领导调整由区党委“自上而下”进行，“不采取群众直接‘罢官’的办法”，并劝阻、动员外地学生离开。电报列出东北、内蒙古、广东、广西、云南、福建、西藏的数十个边境城镇和边防要点同样适用。理由是“不使苏修有机可乘”。
+  people: []
+  voices:
+    - { voice: doc, text: 为了保障边境安全，不使苏修有机可乘（1966 年 9 月中央电报）, cite: ws-1967-border-areas, quote: true }
+    - { voice: doc, text: 特别要劝阻外地学生，不要进入这些地区进行串联。（同上）, cite: ws-1967-border-areas, quote: true }
+  cites: [ws-1967-border-areas]
+
+- id: 1966-12-military-training
+  date: 1966-12
+  title: 中央通知对大中学校师生进行短期军政训练
+  lane: army
+  weight: 1
+  summary: 根据毛泽东“派军队干部训练革命师生的方法很好”的话，中共中央、国务院委托解放军“从现在起，到明年暑假”分期分批对全国大中学校师生进行半个月到二十天的军政训练，学生按班、排、连、营、团编组，军队干部任排长到团政委。通知引用 1966 年 5 月 7 日毛泽东给林彪信中“学生也是这样，以学为主，兼学别样”的话，并要求今后每年寒暑假实行，“成为制度”。
+  people: [mao-zedong, lin-biao]
+  voices:
+    - { voice: doc, text: 派军队干部训练革命师生的方法很好。训练一下和不训练大不一样。（1966 年中央通知所引毛泽东语）, cite: ws-1967-military-training, quote: true }
+  cites: [ws-1967-military-training]
+  verify: true

@@ -898,3 +898,32 @@
     - { voice: judicial1980, text: 诬陷为“经过长期预谋，妄图叛党投敌的一起重大反革命案件”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
     - { voice: judicial1980, text: 张学思、贾陶、车向忱、陈先舟等被迫害致死。（同上）, cite: ws-1980-indictment, quote: true }
   cites: [ws-1980-indictment]
+
+# ── E7 补充：1967 年鞍山军管与上海单松林案
+- id: 1967-08-17-anshan
+  date: 1967-08-17
+  title: 中央决定对鞍山、鞍钢实行军管
+  lane: local
+  weight: 1
+  place: 鞍山
+  summary: 鞍山两派发生严重武斗后，中央决定撤销鞍山、鞍钢负责人王鹤寿等四人的一切职务，称王鹤寿是“自首变节分子”和“高饶反党集团的漏网分子”，对他“隔离反省”；支持“鞍钢捍卫毛泽东思想战斗总部”一派，另一派“钢都革命造反派大联合”被要求“站到毛主席革命路线上来”。决定由三十九军军长张峰、政委陈绍昆组成军管会，对鞍山市和鞍山钢铁公司实行全面军事管制，所有武器交卫戍司令部封存。
+  people: []
+  voices:
+    - { voice: doc, text: 中央决定撤销王鹤寿、赵敏、罗定枫、钟剑平四人的党内外一切职务，王鹤寿实行隔离反省。（1967 年中央决定）, cite: ws-1967-anshan-decision, quote: true }
+    - { voice: doc, text: 中央决定成立以三十九军军长张峰、政治委员陈绍昆同志为首的鞍山市军事管制委员会，对鞍山市、鞍山钢铁公司实行全面军事管制。（同上）, cite: ws-1967-anshan-decision, quote: true }
+  cites: [ws-1967-anshan-decision]
+
+- id: 1967-08-04-shan-songlin
+  date: 1967-08-04
+  title: 上海工人单松林以“反革命”被判死刑
+  lane: local
+  weight: 1
+  place: 上海
+  summary: 上海第一制药厂工人单松林，三十九岁，自 1965 年起刻制带反对口号的印章，印写传单、标语和匿名信在九个区散发；文革开始后把印章盖在街头张贴的中央文件和毛泽东像上，1967 年 3 月 10 日被当场扭获。上海市中级人民法院依《惩治反革命条例》和“公安六条”判处死刑立即执行，上诉第二天即被驳回。其妻 1979、1980 年申诉均被驳回；此后的复查裁定（维基文库标为 1985 年）认为死刑“并无不当”，只删去判决书中有关“无产阶级文化大革命”的提法。
+  people: []
+  voices:
+    - { voice: doc, text: 一判处反革命犯单松林死刑立即执行并剥夺政治权利终身（1967 年上海市中级人民法院判决书）, cite: ws-1967-shanghai-court-14, quote: true }
+    - { voice: officialLater, text: 原审依据《中华人民共和国惩治反革命条例》第十条第三项判处单松林死刑并无不当。（复查裁定）, cite: ws-1967-shanghai-court-14, quote: true }
+    - { voice: officialLater, text: 有关“无产阶级文化大革命”的提法是错误的，应予删除。（同上）, cite: ws-1967-shanghai-court-14, quote: true }
+  cites: [ws-1967-shanghai-court-14]
+  verify: true

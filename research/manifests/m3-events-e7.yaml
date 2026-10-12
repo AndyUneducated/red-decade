@@ -1,0 +1,86 @@
+# M3 事件补足 E7：1969 年中央对湖北、四川问题的处理，落实政策文章，1966 年边境地区决定与军政训练通知，1967 年上海判决书等（维基文库）。日期按原文落款或维基文库日期核对。
+wikisource:
+  - id: ws-1969-03-04-new-tsar
+    title: 打倒新沙皇！
+    date: 1969-03-04
+    author: 《人民日报》《解放军报》社论
+    kind: editorial
+    alias: 社论《打倒新沙皇！》（1969）
+  - id: ws-1969-hubei-report
+    title: 湖北省革命委员会关于解决武汉“反复旧”问题的报告
+    date: 1969-05-25
+    author: 湖北省革命委员会
+    kind: party-doc
+    alias: 湖北省革委会关于解决武汉“反复旧”问题的报告（1969）
+  - id: ws-1969-hubei-approval
+    title: 中共中央同意“湖北省革命委员会关于解决武汉‘反复旧’问题的报告”
+    date: 1969-05-27
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央同意湖北省革委会关于解决武汉“反复旧”问题的报告（1969）
+  - id: ws-1969-wuhan-instruction
+    title: 中共中央对武汉问题的指示
+    date: 1969-09-27
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央对武汉问题的指示（1969）
+  - id: ws-1969-sichuan-report
+    title: 四川省革命委员会、成都军区党委关于解决四川当前若干问题的报告
+    date: 1969-12
+    author: 四川省革命委员会、成都军区党委
+    kind: party-doc
+    alias: 四川省革委会、成都军区党委关于解决四川当前若干问题的报告（1969）
+  - id: ws-1969-policy-struggle
+    title: 为落实毛主席的无产阶级政策而斗争
+    date: 1969-05-06
+    author: 驻清华大学工人、解放军毛泽东思想宣传队
+    kind: article
+    alias: 《为落实毛主席的无产阶级政策而斗争》（1969）
+  - id: ws-1969-commander-policy
+    title: 坚决执行无产阶级司令部的政策
+    date: 1968-11-24
+    author: 《新安徽报》社论
+    kind: editorial
+    alias: 《新安徽报》社论《坚决执行无产阶级司令部的政策》（1968）
+  - id: ws-1967-border-areas
+    title: 中共中央关于边境地区文化大革命有关问题的决定
+    date: 1966-09-07
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于边境地区文化大革命有关问题的决定（1966）
+  - id: ws-1967-military-training
+    title: 中共中央、国务院关于对大中学校革命师生进行短期军政训练的通知
+    date: 1966-12
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中央关于对大中学校革命师生进行短期军政训练的通知（1966）
+  - id: ws-1967-shanghai-court-14
+    title: 上海市中级人民法院一九六七年度沪中刑(一)字第14号刑事判决书
+    date: 1967-08-04
+    author: 上海市中级人民法院
+    kind: judicial
+    alias: 上海市中级人民法院 1967 年沪中刑（一）字第 14 号判决书（单松林案）
+  - id: ws-1968-barefoot-doctors
+    title: 从“赤脚医生”的成长看医学教育革命的方向
+    date: 1968-09
+    author: 《红旗》杂志调查报告
+    kind: article
+    alias: 《从“赤脚医生”的成长看医学教育革命的方向》（1968）
+  - id: ws-1968-intellectual-reeducation
+    title: 关于知识分子再教育问题
+    date: 1968-09-12
+    author: 《人民日报》、《红旗》杂志评论员
+    kind: editorial
+    alias: 《关于知识分子再教育问题》（1968）
+  - id: ws-1967-anshan-decision
+    title: 中共中央、国务院、中央军委、中央文革小组关于处理鞍山问题的决定
+    date: 1967-08-17
+    author: 中共中央、国务院、中央军委、中央文革小组
+    kind: party-doc
+    alias: 中央关于处理鞍山问题的决定（1967）
+  - id: ws-qionglai-market
+    title: 四川省邛崃县革命委员会关于进一步打击投机倒把活动，管好集市，整改场期的布告
+    date: 1969-12-21
+    author: 四川省邛崃县革命委员会
+    kind: party-doc
+    alias: 邛崃县革委会关于打击投机倒把、管好集市的布告
