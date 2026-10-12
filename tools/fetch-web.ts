@@ -24,7 +24,8 @@ if (args[0] === '--list') {
   const lines: string[] = []
   for (const url of args.slice(1)) {
     lines.push(`== ${url}`)
-    for (const a of rmrbArticles(await get(url))) lines.push(`${a.heading}  (${a.text.length} 字)`)
+    const html = await get(url).catch((e: Error) => (lines.push(`!! ${e.message}`), ''))
+    for (const a of rmrbArticles(html)) lines.push(`${a.heading}  (${a.text.length} 字)`)
   }
   writeFileSync(join(ROOT, '.probe', 'rmrb-list.txt'), lines.join('\n') + '\n')
   console.log(`${lines.length} lines -> .probe/rmrb-list.txt`)

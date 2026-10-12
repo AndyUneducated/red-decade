@@ -1,0 +1,289 @@
+# M4 事件来源：《人民日报》第 1 版（govopendata 转录）。date 为见报日，事件日期在事件条目里另按正文写。
+web:
+  - id: rmrb-1970-04-26-satellite
+    title: "我国第一颗人造地球卫星发射成功"
+    date: 1970-04-26
+    kind: news
+    alias: "1970 年《人民日报》报道东方红一号发射"
+    url: https://cn.govopendata.com/renminribao/1970/4/26/1/
+    via: "《人民日报》1970-04-26 第 1 版（govopendata 转录）"
+    article: "毛主席提出“我们也要搞人造卫星”的伟大号召实现了！"
+  - id: rmrb-1970-05-21-mao-statement
+    title: "全世界人民团结起来，打败美国侵略者及其一切走狗！"
+    date: 1970-05-21
+    author: "毛泽东"
+    kind: speech
+    alias: "毛泽东“五·二〇声明”（1970）"
+    url: https://cn.govopendata.com/renminribao/1970/5/21/1/
+    via: "《人民日报》1970-05-21 第 1 版（govopendata 转录）"
+    article: "伟大领袖毛主席发表支持世界人民反对美帝斗争的庄严声明"
+  - id: rmrb-1971-04-15-pingpong
+    title: "周恩来总理会见加拿大、哥伦比亚、英格兰、尼日利亚、美国乒乓球代表团"
+    date: 1971-04-15
+    kind: news
+    alias: "1971 年周恩来会见美国乒乓球队的报道"
+    url: https://cn.govopendata.com/renminribao/1971/4/15/1/
+    via: "《人民日报》1971-04-15 第 1 版（govopendata 转录）"
+    article: "周恩来总理会见加拿大、哥伦比亚、英格兰、尼日利亚、美国乒乓球代表团"
+  - id: rmrb-1971-07-16-nixon-announcement
+    title: "公告（尼克松访华）"
+    date: 1971-07-16
+    kind: news
+    alias: "1971 年 7 月中美同时发表的尼克松访华公告"
+    url: https://cn.govopendata.com/renminribao/1971/7/16/1/
+    via: "《人民日报》1971-07-16 第 1 版（govopendata 转录）"
+    article: "公告"
+  - id: rmrb-1971-10-27-un-seat
+    title: "联大以压倒多数通过恢复我在联合国合法权利、驱逐蒋帮的阿尔巴尼亚、阿尔及利亚等国提案"
+    date: 1971-10-27
+    kind: news
+    alias: "1971 年联大恢复中华人民共和国席位的报道"
+    url: https://cn.govopendata.com/renminribao/1971/10/27/1/
+    via: "《人民日报》1971-10-27 第 1 版（govopendata 转录）"
+    article: "联大以压倒多数通过恢复我在联合国合法权利"
+  - id: rmrb-1971-11-17-qiao-un
+    title: "中华人民共和国代表团团长乔冠华在联合国大会上的发言"
+    date: 1971-11-17
+    author: "乔冠华"
+    kind: speech
+    alias: "乔冠华在联合国大会上的发言（1971）"
+    url: https://cn.govopendata.com/renminribao/1971/11/17/1/
+    via: "《人民日报》1971-11-17 第 1 版（govopendata 转录）"
+    article: "中华人民共和国代表团团长乔冠华在联合国大会上的发言"
+  - id: rmrb-1972-01-11-chenyi-memorial
+    title: "首都隆重举行追悼陈毅同志大会　伟大领袖毛主席参加了追悼会"
+    date: 1972-01-11
+    kind: news
+    alias: "1972 年陈毅追悼会的报道"
+    url: https://cn.govopendata.com/renminribao/1972/1/11/1/
+    via: "《人民日报》1972-01-11 第 1 版（govopendata 转录）"
+    article: "首都隆重举行追悼陈毅同志大会"
+  - id: rmrb-1972-02-22-mao-nixon
+    title: "毛泽东主席会见尼克松总统"
+    date: 1972-02-22
+    kind: news
+    alias: "1972 年毛泽东会见尼克松的报道"
+    url: https://cn.govopendata.com/renminribao/1972/2/22/1/
+    via: "《人民日报》1972-02-22 第 1 版（govopendata 转录）"
+    article: "毛泽东主席会见尼克松总统"
+  - id: rmrb-1972-02-28-shanghai-communique
+    title: "联合公报（中美上海公报）"
+    date: 1972-02-28
+    kind: party-doc
+    alias: "中美联合公报（上海公报）中文本（1972）"
+    url: https://cn.govopendata.com/renminribao/1972/2/28/1/
+    via: "《人民日报》1972-02-28 第 1 版（govopendata 转录）"
+    article: "联合公报"
+  - id: rmrb-1972-09-30-japan-statement
+    title: "中华人民共和国政府日本国政府联合声明"
+    date: 1972-09-30
+    kind: party-doc
+    alias: "中日联合声明（1972）"
+    url: https://cn.govopendata.com/renminribao/1972/9/30/1/
+    via: "《人民日报》1972-09-30 第 1 版（govopendata 转录）"
+    article: "中华人民共和国政府日本国政府联合声明"
+  - id: rmrb-1973-04-13-sihanouk-banquet
+    title: "周恩来总理举行盛大宴会热烈欢迎西哈努克亲王和夫人从柬解放区到京"
+    date: 1973-04-13
+    kind: news
+    alias: "1973 年 4 月欢迎西哈努克宴会的报道（邓小平复出后首次公开露面）"
+    url: https://cn.govopendata.com/renminribao/1973/4/13/1/
+    via: "《人民日报》1973-04-13 第 1 版（govopendata 转录）"
+    article: "周恩来总理举行盛大宴会热烈欢迎西哈努克亲王"
+  - id: rmrb-1973-08-07-zhiqing-editorial
+    title: "进一步做好知识青年上山下乡的工作"
+    date: 1973-08-07
+    author: "《人民日报》社论"
+    kind: editorial
+    alias: "社论《进一步做好知识青年上山下乡的工作》（1973）"
+    url: https://cn.govopendata.com/renminribao/1973/8/7/1/
+    via: "《人民日报》1973-08-07 第 1 版（govopendata 转录）"
+    article: "进一步做好知识青年上山下乡的工作"
+  - id: rmrb-1974-01-01-newyear-editorial
+    title: "元旦献词"
+    date: 1974-01-01
+    author: "《人民日报》《红旗》杂志《解放军报》"
+    kind: editorial
+    alias: "1974 年元旦社论《元旦献词》"
+    url: https://cn.govopendata.com/renminribao/1974/1/1/1/
+    via: "《人民日报》1974-01-01 第 1 版（govopendata 转录）"
+    article: "元旦献词"
+  - id: rmrb-1974-01-20-xisha
+    title: "我渔民、舰艇被迫进行自卫还击"
+    date: 1974-01-20
+    kind: news
+    alias: "1974 年西沙海战的报道"
+    url: https://cn.govopendata.com/renminribao/1974/1/20/1/
+    via: "《人民日报》1974-01-20 第 1 版（govopendata 转录）"
+    article: "我渔民、舰艇被迫进行自卫还击"
+  - id: rmrb-1975-01-01-newyear-editorial
+    title: "新年献词"
+    date: 1975-01-01
+    author: "《人民日报》《红旗》杂志《解放军报》"
+    kind: editorial
+    alias: "1975 年元旦社论《新年献词》"
+    url: https://cn.govopendata.com/renminribao/1975/1/1/1/
+    via: "《人民日报》1975-01-01 第 1 版（govopendata 转录）"
+    article: "新年献词"
+  - id: rmrb-1975-02-22-marx-dictatorship
+    title: "马克思　恩格斯　列宁论无产阶级专政"
+    date: 1975-02-22
+    kind: editorial
+    alias: "《马克思　恩格斯　列宁论无产阶级专政》语录（1975）"
+    url: https://cn.govopendata.com/renminribao/1975/2/22/1/
+    via: "《人民日报》1975-02-22 第 1 版（govopendata 转录）"
+    article: "马克思"
+  - id: rmrb-1975-03-01-yao-social-basis
+    title: "论林彪反党集团的社会基础"
+    date: 1975-03-01
+    author: "姚文元"
+    kind: editorial
+    alias: "姚文元《论林彪反党集团的社会基础》（1975）"
+    url: https://cn.govopendata.com/renminribao/1975/3/1/1/
+    via: "《人民日报》1975-03-01 第 1 版（govopendata 转录）"
+    article: "论林彪反党集团的社会基础"
+  - id: rmrb-1975-04-01-zhang-dictatorship
+    title: "论对资产阶级的全面专政"
+    date: 1975-04-01
+    author: "张春桥"
+    kind: editorial
+    alias: "张春桥《论对资产阶级的全面专政》（1975）"
+    url: https://cn.govopendata.com/renminribao/1975/4/1/1/
+    via: "《人民日报》1975-04-01 第 1 版（govopendata 转录）"
+    article: "论对资产阶级的全面专政"
+  - id: rmrb-1975-05-01-saigon
+    title: "最热烈祝贺越南南方军民彻底摧毁南越傀儡政权解放西贡的伟大胜利"
+    date: 1975-05-01
+    kind: news
+    alias: "1975 年中国领导人祝贺西贡解放的贺电"
+    url: https://cn.govopendata.com/renminribao/1975/5/1/1/
+    via: "《人民日报》1975-05-01 第 1 版（govopendata 转录）"
+    article: "最热烈祝贺越南南方军民彻底摧毁南越傀儡政权解放西贡的伟大胜利"
+  - id: rmrb-1975-09-04-shuihu
+    title: "开展对《水浒》的评论"
+    date: 1975-09-04
+    author: "《人民日报》社论"
+    kind: editorial
+    alias: "社论《开展对〈水浒〉的评论》（1975）"
+    url: https://cn.govopendata.com/renminribao/1975/9/4/1/
+    via: "《人民日报》1975-09-04 第 1 版（govopendata 转录）"
+    article: "开展对《水浒》的评论"
+  - id: rmrb-1975-12-02-ford
+    title: "美国总统杰拉尔德·福特到达北京　周总理委托邓副总理主持欢迎宴会"
+    date: 1975-12-02
+    kind: news
+    alias: "1975 年福特访华的报道"
+    url: https://cn.govopendata.com/renminribao/1975/12/2/1/
+    via: "《人民日报》1975-12-02 第 1 版（govopendata 转录）"
+    article: "美国总统杰拉尔德·福特到达北京"
+  - id: rmrb-1975-12-04-education-direction
+    title: "教育革命的方向不容篡改"
+    date: 1975-12-04
+    author: "北京大学、清华大学大批判组"
+    kind: editorial
+    alias: "《教育革命的方向不容篡改》（1975）"
+    url: https://cn.govopendata.com/renminribao/1975/12/4/1/
+    via: "《人民日报》1975-12-04 第 1 版（govopendata 转录）"
+    article: "教育革命的方向不容篡改"
+  - id: rmrb-1976-01-01-mao-poems
+    title: "词二首"
+    date: 1976-01-01
+    author: "毛泽东"
+    kind: speech
+    alias: "毛泽东《词二首》（1976 年元旦发表）"
+    url: https://cn.govopendata.com/renminribao/1976/1/1/1/
+    via: "《人民日报》1976-01-01 第 1 版（govopendata 转录）"
+    article: "词二首"
+  - id: rmrb-1976-01-16-zhou-memorial
+    title: "党和国家领导人以及首都各界群众隆重举行周恩来同志追悼大会"
+    date: 1976-01-16
+    kind: news
+    alias: "1976 年周恩来追悼大会的报道"
+    url: https://cn.govopendata.com/renminribao/1976/1/16/1/
+    via: "《人民日报》1976-01-16 第 1 版（govopendata 转录）"
+    article: "党和国家领导人以及首都各界群众"
+  - id: rmrb-1976-04-08-tiananmen
+    title: "天安门广场的反革命政治事件"
+    date: 1976-04-08
+    kind: news
+    alias: "1976 年 4 月《人民日报》关于天安门事件的报道"
+    url: https://cn.govopendata.com/renminribao/1976/4/8/1/
+    via: "《人民日报》1976-04-08 第 1 版（govopendata 转录）"
+    article: "天安门广场的反革命政治事件"
+  - id: rmrb-1976-04-08-wude
+    title: "吴德同志在天安门广场广播讲话"
+    date: 1976-04-08
+    author: "吴德"
+    kind: speech
+    alias: "吴德 1976 年 4 月 5 日在天安门广场的广播讲话"
+    url: https://cn.govopendata.com/renminribao/1976/4/8/1/
+    via: "《人民日报》1976-04-08 第 1 版（govopendata 转录）"
+    article: "吴德同志在天安门广场广播讲话"
+  - id: rmrb-1976-07-29-tangshan
+    title: "河北省唐山、丰南一带发生强烈地震"
+    date: 1976-07-29
+    kind: news
+    alias: "1976 年唐山地震的首条报道"
+    url: https://cn.govopendata.com/renminribao/1976/7/29/1/
+    via: "《人民日报》1976-07-29 第 1 版（govopendata 转录）"
+    article: "河北省唐山、丰南一带发生强烈地震"
+  - id: rmrb-1976-07-29-tangshan-condolence
+    title: "中共中央向灾区人民发出慰问电"
+    date: 1976-07-29
+    author: "中共中央"
+    kind: party-doc
+    alias: "1976 年中共中央致唐山灾区的慰问电"
+    url: https://cn.govopendata.com/renminribao/1976/7/29/1/
+    via: "《人民日报》1976-07-29 第 1 版（govopendata 转录）"
+    article: "伟大领袖毛主席、党中央极为关怀"
+  - id: rmrb-1976-09-16-mao-editorial
+    title: "毛主席永远活在我们心中"
+    date: 1976-09-16
+    author: "《人民日报》《红旗》杂志《解放军报》"
+    kind: editorial
+    alias: "社论《毛主席永远活在我们心中》（1976）"
+    url: https://cn.govopendata.com/renminribao/1976/9/16/1/
+    via: "《人民日报》1976-09-16 第 1 版（govopendata 转录）"
+    article: "毛主席永远活在我们心中"
+  - id: rmrb-1976-09-19-mao-memorial
+    title: "首都百万群众隆重举行伟大的领袖和导师毛泽东主席追悼大会"
+    date: 1976-09-19
+    kind: news
+    alias: "1976 年毛泽东追悼大会的报道"
+    url: https://cn.govopendata.com/renminribao/1976/9/19/1/
+    via: "《人民日报》1976-09-19 第 1 版（govopendata 转录）"
+    article: "首都百万群众怀着极其沉痛和无限崇敬的心情"
+  - id: rmrb-1976-10-09-memorial-hall
+    title: "关于建立伟大的领袖和导师毛泽东主席纪念堂的决定"
+    date: 1976-10-09
+    author: "中共中央、全国人大常委会、国务院、中央军委"
+    kind: party-doc
+    alias: "关于建立毛泽东主席纪念堂的决定（1976）"
+    url: https://cn.govopendata.com/renminribao/1976/10/9/1/
+    via: "《人民日报》1976-10-09 第 1 版（govopendata 转录）"
+    article: "中国共产党中央委员会"
+  - id: rmrb-1976-10-09-mao-works
+    title: "中共中央关于出版《毛泽东选集》和筹备出版《毛泽东全集》的决定"
+    date: 1976-10-09
+    author: "中共中央"
+    kind: party-doc
+    alias: "中共中央关于出版《毛泽东选集》的决定（1976）"
+    url: https://cn.govopendata.com/renminribao/1976/10/9/1/
+    via: "《人民日报》1976-10-09 第 1 版（govopendata 转录）"
+    article: "中共中央关于出版《毛泽东选集》和筹备出版《毛泽东全集》的决定"
+  - id: rmrb-1976-10-22-parade
+    title: "首都一百五十万军民举行声势浩大的庆祝游行"
+    date: 1976-10-22
+    kind: news
+    alias: "1976 年 10 月首都庆祝粉碎“四人帮”游行的报道"
+    url: https://cn.govopendata.com/renminribao/1976/10/22/1/
+    via: "《人民日报》1976-10-22 第 1 版（govopendata 转录）"
+    article: "首都一百五十万军民举行声势浩大的庆祝游行"
+  - id: rmrb-1976-10-25-rally
+    title: "首都百万军民隆重集会庆祝伟大胜利"
+    date: 1976-10-25
+    kind: news
+    alias: "1976 年 10 月 24 日首都庆祝大会的报道"
+    url: https://cn.govopendata.com/renminribao/1976/10/25/1/
+    via: "《人民日报》1976-10-25 第 1 版（govopendata 转录）"
+    article: "热烈欢呼华国锋同志为我党领袖"

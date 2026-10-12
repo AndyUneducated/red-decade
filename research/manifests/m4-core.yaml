@@ -1,0 +1,178 @@
+# M4-2 中文原文（维基文库）：九届二中全会与林彪事件的中央文件、十大、四届人大与 1975 年宪法、1974 年批林批孔、1976 年中央文件与讣告。
+# 已在别处登记的不重复：中共中央通知 1971-09-18、09-29、1972-03-17、1973-06-10、1976-10-18，专案材料之一、之三，告全党全军全国各族人民书（1976）。
+# date 按正文落款或文件抬头核对；正文没有落款的按发布日。
+wikisource:
+  - id: ws-1970-09-plenum-communique
+    title: 中国共产党第九届中央委员会第二次全体会议公报
+    date: 1970-09-06
+    author: 中共九届二中全会
+    kind: party-doc
+    alias: 九届二中全会公报（1970）
+  - id: ws-1970-constitution-draft
+    title: 中华人民共和国宪法修改草案 (1970年)
+    date: 1970-09
+    author: 中共九届二中全会
+    kind: party-doc
+    alias: 1970 年宪法修改草案
+  - id: ws-1971-10-06-notice
+    title: 中共中央通知 (1971年10月6日)
+    date: 1971-10-06
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（1971 年 10 月 6 日，林陈反党集团）
+  - id: ws-1971-10-24-notice
+    title: 中共中央通知 (1971年10月24日)
+    date: 1971-10-24
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（1971 年 10 月 24 日，向群众传达林彪事件）
+  - id: ws-1971-10-29-un-statement
+    title: 中华人民共和国政府声明 (1971年10月29日)
+    date: 1971-10-29
+    author: 中华人民共和国政府
+    kind: party-doc
+    alias: 中国政府关于恢复联合国合法席位的声明（1971）
+  - id: ws-1971-11-14-notice
+    title: 中共中央通知 (1971年11月14日)
+    date: 1971-11-14
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（1971 年 11 月 14 日，《“571 工程”纪要》）
+  - id: ws-1971-12-11-notice
+    title: 中共中央通知 (1971年12月11日)
+    date: 1971-12-11
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（1971 年 12 月 11 日，下发专案材料之一）
+  - id: ws-1972-01-01-editorial
+    title: 团结起来，争取更大的胜利
+    date: 1972-01-01
+    author: 《人民日报》《红旗》杂志《解放军报》
+    kind: editorial
+    alias: 1972 年元旦社论《团结起来，争取更大的胜利》
+  - id: ws-1972-01-13-notice-3
+    title: 中共中央通知 (1972年1月13日中发〔1972〕3号)
+    date: 1972-01-13
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（中发〔1972〕3 号）
+  - id: ws-1972-01-13-notice-4
+    title: 中共中央通知 (1972年1月13日中发〔1972〕4号)
+    date: 1972-01-13
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（中发〔1972〕4 号，下发专案材料之二）
+  - id: ws-1972-lin-material-2
+    title: 粉碎林陈反党集团反革命政变的斗争（材料之二）
+    date: 1972-01
+    author: 中共中央专案组
+    kind: party-doc
+    alias: 《粉碎林陈反党集团反革命政变的斗争》材料之二（《“571 工程”纪要》）
+  - id: ws-1972-07-02-notice-24
+    title: 中共中央通知 (1972年7月2日中发〔1972〕24号)
+    date: 1972-07-02
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央通知（中发〔1972〕24 号，下发专案材料之三）
+  - id: ws-1973-01-01-editorial
+    title: 新年献词 (1973年)
+    date: 1973-01-01
+    author: 《人民日报》《红旗》杂志《解放军报》
+    kind: editorial
+    alias: 1973 年元旦社论《新年献词》
+  - id: ws-1973-08-24-zhou-report
+    title: 在中国共产党第十次全国代表大会上的报告
+    date: 1973-08-24
+    author: 周恩来
+    kind: speech
+    alias: 周恩来十大政治报告（1973）
+  - id: ws-1973-08-24-wang-report
+    title: 关于修改党章的报告
+    date: 1973-08-24
+    author: 王洪文
+    kind: speech
+    alias: 王洪文《关于修改党章的报告》（1973）
+  - id: ws-1973-party-constitution
+    title: 中国共产党章程 (1973年)
+    date: 1973-08-28
+    author: 中国共产党第十次全国代表大会
+    kind: party-doc
+    alias: 十大党章（1973）
+  - id: ws-1973-08-29-congress-communique
+    title: 中国共产党第十次全国代表大会新闻公报
+    date: 1973-08-29
+    author: 中国共产党第十次全国代表大会主席团秘书处
+    kind: news
+    alias: 十大新闻公报（1973）
+  - id: ws-1974-02-02-editorial
+    title: 把批林批孔的斗争进行到底
+    date: 1974-02-02
+    author: 《人民日报》社论
+    kind: editorial
+    alias: 社论《把批林批孔的斗争进行到底》（1974）
+  - id: ws-1974-05-21-hubei
+    title: 中央领导同志关于湖北问题的指示要点
+    date: 1974-05-21
+    author: 中共中央
+    kind: party-doc
+    alias: 中央领导同志关于湖北问题的指示要点（1974）
+  - id: ws-1975-01-13-zhou-report
+    title: 1975年中华人民共和国国务院政府工作报告
+    date: 1975-01-13
+    author: 周恩来
+    kind: speech
+    alias: 周恩来四届人大政府工作报告（1975）
+  - id: ws-1975-01-13-zhang-report
+    title: 关于修改宪法的报告 (1975年)
+    date: 1975-01-13
+    author: 张春桥
+    kind: speech
+    alias: 张春桥《关于修改宪法的报告》（1975）
+  - id: ws-1975-constitution
+    title: 中华人民共和国宪法 (1975年)
+    date: 1975-01-17
+    author: 第四届全国人民代表大会第一次会议
+    kind: party-doc
+    alias: 1975 年宪法
+  - id: ws-1975-npc-resolution
+    title: 第四届全国人民代表大会第一次会议关于政府工作报告的决议
+    date: 1975-01-17
+    author: 第四届全国人民代表大会第一次会议
+    kind: party-doc
+    alias: 四届人大关于政府工作报告的决议（1975）
+  - id: ws-1975-npc-communique
+    title: 第四届全国人民代表大会第一次会议新闻公报
+    date: 1975-01
+    author: 第四届全国人民代表大会第一次会议秘书处
+    kind: news
+    alias: 四届人大一次会议新闻公报（1975）
+  - id: ws-1976-zhou-obituary
+    title: 中共中央、人大常委会、国务院讣告 周恩来同志逝世
+    date: 1976-01
+    author: 中共中央、全国人大常委会、国务院
+    kind: party-doc
+    alias: 周恩来逝世讣告（1976）
+  - id: ws-1976-04-07-hua-resolution
+    title: 中共中央关于华国锋同志任中共中央第一副主席、国务院总理的决议
+    date: 1976-04-07
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于华国锋任第一副主席、国务院总理的决议（1976）
+  - id: ws-1976-04-07-deng-resolution
+    title: 中共中央关于撤销邓小平党内外一切职务的决议
+    date: 1976-04-07
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于撤销邓小平党内外一切职务的决议（1976）
+  - id: ws-1976-zhu-obituary
+    title: 中共中央、人大常委会、国务院讣告 朱德同志逝世
+    date: 1976-07
+    author: 中共中央、全国人大常委会、国务院
+    kind: party-doc
+    alias: 朱德逝世讣告（1976）
+  - id: ws-1976-09-mao-funeral-notice
+    title: 中国共产党中央委员会、中华人民共和国全国人民代表大会常务委员会、中华人民共和国国务院、中国共产党中央军事委员会公告
+    date: 1976-09
+    author: 中共中央、全国人大常委会、国务院、中央军委
+    kind: party-doc
+    alias: 毛泽东治丧公告（1976）
