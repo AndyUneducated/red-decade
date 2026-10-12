@@ -1,0 +1,434 @@
+# M3 people round 2, batch 18: 1970 年代被提拔或被树立的新人与“典型”。毛远新、王海容（毛泽东身边），
+# 吴桂贤、倪志福、孙健、李素文（工人、劳模出身的中央领导），庄则栋（乒乓外交），张铁生、黄帅、李庆霖（报刊树立的“反潮流”典型）。
+# Texts: 1975 年国务院、人大常委会名单，1977 年十届三中全会公报，1980 年起诉书，1982 年迟群案判决，
+# 张铁生信、黄帅来信（人民日报 1973）、1978 年《揭穿一个政治骗局》，中发〔1973〕21 号，新华社讣告与生平，家属所撰生平。
+# 在世人物（毛远新、张铁生）只写公开经历和公开文本。
+
+- id: mao-yuanxin
+  name: 毛远新
+  born: 1941-02-14
+  tier: 2
+  role1966: 哈尔滨军事工程学院学生
+  pinyin: Máo Yuǎnxīn
+  gender: m
+  birthplace: 新疆迪化
+  origin: 湖南湘潭
+  positions:
+    - { title: 副主任, orgName: 辽宁省革命委员会, from: 1968-05, to: 1976-10, verify: true }
+    - { title: 书记, orgName: 中共辽宁省委员会, from: 1973, to: 1976-10, verify: true }
+  bio: 毛泽民之子，1941 年生于迪化，父亲 1943 年被盛世才杀害后由毛泽东抚养。文革开始时是哈尔滨军事工程学院学生，1968 年起任辽宁省革委会副主任，后任辽宁省委书记、沈阳军区政委。1975 年 9 月起担任毛泽东与中央政治局之间的联络员，1976 年参与批邓。1976 年 10 月 6 日被隔离审查，1980 年起诉书称他为“江青反革命集团重要成员”，1986 年判处有期徒刑十七年。
+  life:
+    - h: 毛泽民之子
+      from: 1941-02-14
+      to: 1968-05
+      text: |
+        1941 年生于新疆迪化，父亲毛泽民 1943 年在迪化被盛世才杀害，他后来随母亲到延安，1951 年起在北京由毛泽东抚养。1960 年考入清华大学，次年转入哈尔滨军事工程学院，文革中在哈军工参加造反。
+      verify: true
+    - h: 辽宁
+      from: 1968-05
+      to: 1975-09
+      text: |
+        1968 年 5 月辽宁省革委会成立，他任副主任，此后历任辽宁省委书记、沈阳军区政委，是辽宁实际上的主要负责人之一。
+      verify: true
+    - h: 联络员与批邓
+      from: 1975-09
+      to: 1976-10-06
+      text: |
+        1975 年 9 月起在中南海担任毛泽东的联络员，向毛泽东转达政治局的情况并传达毛泽东的话。1980 年起诉书说，“一九七六年二月到五月，江青、张春桥、姚文元和江青反革命集团重要成员毛远新进一步诬陷邓小平”；2 月 22 日他对马天水、徐景贤等说，邓小平“崇洋媚外，出卖主权”，“代表买办资产阶级的利益”，搞“全面回潮”，“国家性质都要改变了”。1982 年迟群案判决书说，同年 2 月迟群“与徐景贤、毛远新、刘庆棠等，共同策划拍摄”影片《反击》。
+      cites: [ws-1980-indictment, ws-1982-chi-qun-case]
+    - h: 审查与判刑
+      from: 1976-10-06
+      to: 1993
+      text: |
+        1976 年 10 月 6 日与“四人帮”同日被隔离审查。他不在 1980 年特别法庭的十名被告之中，1986 年在沈阳被判处有期徒刑十七年，1993 年刑满释放，此后在上海工作。
+      verify: true
+  assess:
+    - { voice: judicial1980, text: 江青、张春桥、姚文元和江青反革命集团重要成员毛远新进一步诬陷邓小平（1980 年特别检察厅起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 起诉书只在 1976 年批邓一节提到他，判决与刑期都不在本站已收的文件里。, cite: ws-1980-indictment }
+  factions: [ccrg, provincial]
+  fate:
+    - { date: 1968-05, s: rise, note: 辽宁省革委会副主任, verify: true }
+    - { date: 1975-09, s: rise, note: 毛泽东的联络员, verify: true }
+    - { date: 1976-10-06, s: detained, note: 隔离审查, verify: true }
+    - { date: 1986, s: detained, note: 判处有期徒刑十七年, verify: true }
+    - { date: 1993, s: sidelined, note: 刑满释放, verify: true }
+  cites: [ws-1980-indictment, ws-1982-chi-qun-case]
+
+- id: wang-hairong
+  name: 王海容
+  born: 1938-09
+  died: 2017-09-09
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 外交部办公厅干部
+  pinyin: Wáng Hǎiróng
+  gender: f
+  birthplace: 湖南长沙
+  positions:
+    - { title: 礼宾司副司长, orgName: 外交部, from: 1971-07, to: 1972-05, cite: xinhua-2017-wang-hairong }
+    - { title: 部长助理, orgName: 外交部, from: 1972-05, to: 1974-07, cite: xinhua-2017-wang-hairong }
+    - { title: 副部长, orgName: 外交部, from: 1974-07, to: 1976-10, note: 离任时间新华社未写, verify: true }
+  bio: 湖南长沙人，祖父王季范是毛泽东的表兄。1965 年进入外交部办公厅，1971 年起历任礼宾司副司长、部长助理，1974 年 7 月任外交部副部长，晚年毛泽东会见外宾时常在场，也替人向毛泽东转交来信，1973 年李庆霖的信就是经她转交的。文革结束后离开外交部，1984 年任国务院参事室副主任。2017 年在北京去世。
+  life:
+    - h: 外交部
+      from: 1965-11
+      to: 1976-10
+      text: |
+        “1965年11月进入外交部办公厅工作。1971年7月任外交部礼宾司副司长，1972年5月任外交部部长助理，1974年7月任外交部副部长。”1973 年 4 月，毛泽东读到的李庆霖来信是“由王海容转交过来的”。她与毛泽东的亲属关系来自通行资料。
+      verify: true
+      cites: [xinhua-2017-wang-hairong, jwb-2007-li-qinglin]
+    - h: 离开外交部
+      from: 1976-10
+      to: 2017-09-09
+      text: |
+        文革结束后停职，到中央党校学习。1984 年 4 月任国务院参事室副主任，1991 年 10 月任参事室党组成员，是政协第九届、十届全国委员会委员。2017 年 9 月 9 日在北京去世。
+      verify: true
+      cites: [xinhua-2017-wang-hairong]
+  assess:
+    - { voice: officialLater, text: 国务院参事室原副主任、党组成员，外交部原副部长王海容同志，于2017年9月9日因病医治无效在北京逝世，享年78岁。（新华社）, cite: xinhua-2017-wang-hairong, quote: true }
+    - { voice: editor, text: 新华社的简历从 1974 年 7 月任副部长直接跳到 1984 年 4 月任参事室副主任，中间十年没有写。, cite: xinhua-2017-wang-hairong }
+  factions: [mao]
+  fate:
+    - { date: 1971-07, s: rise, note: 外交部礼宾司副司长, cite: xinhua-2017-wang-hairong }
+    - { date: 1974-07, s: rise, note: 外交部副部长, cite: xinhua-2017-wang-hairong }
+    - { date: 1976-10, s: sidelined, note: 停职，到中央党校学习, verify: true }
+    - { date: 1984-04, s: restored, note: 国务院参事室副主任, cite: xinhua-2017-wang-hairong }
+  cites: [xinhua-2017-wang-hairong, jwb-2007-li-qinglin]
+
+- id: wu-guixian
+  name: 吴桂贤
+  born: 1938
+  died: 2025-04-25
+  deathKind: natural
+  deathPlace: 广东深圳
+  tier: 2
+  role1966: 西北国棉一厂“赵梦桃小组”党小组长
+  pinyin: Wú Guìxián
+  gender: f
+  birthplace: 河南巩县
+  positions:
+    - { title: 候补委员, orgName: 中共中央政治局, from: 1973-08, to: 1977-08, cite: people-2013-wu-guixian }
+    - { title: 副总理, orgName: 国务院, from: 1975-01-17, to: 1977-09, cite: rmrb-1975-01-19-state-council-list }
+  bio: 河南巩县人，13 岁进陕西咸阳西北国棉一厂当挡车工，1958 年入党，任全国纺织先进集体“赵梦桃小组”党小组长。文革中被树为“活学活用”毛泽东思想积极分子，1969 年当选中央委员，1973 年任政治局候补委员，1975 年 1 月任国务院副总理，是第一位女副总理。1977 年 9 月申请辞去副总理职务，回到西北国棉一厂，后任厂党委副书记。2025 年在深圳去世。
+  life:
+    - h: 挡车工
+      from: 1938
+      to: 1968
+      text: |
+        “1951年，吴桂贤进陕西省咸阳市西北国棉一厂细纱车间当挡车工。1958年，加入中国共产党。后任全国纺织先进集体‘赵梦桃小组’党小组组长，连续被评为先进工作者。”1968 年毕业于西北大学。
+      cites: [people-2013-wu-guixian]
+    - h: 政治局候补委员、副总理
+      from: 1968
+      to: 1977-09
+      text: |
+        1968 年后历任西北国棉一厂革委会主任、咸阳市革委会副主任、陕西省革委会常委，后任陕西省委副书记。1969 年九大当选中央委员，1973 年十届一中全会当选政治局候补委员。1975 年 1 月四届人大任命的十二位副总理中，她排第八，名单上注“（女）”。1977 年 7 月她以政治局候补委员身份出席十届三中全会，8 月在十一大上仍当选中央委员。
+      cites: [people-2013-wu-guixian, rmrb-1975-01-19-state-council-list, ws-1977-07-tenth-third-plenum]
+    - h: 回厂
+      from: 1977-09
+      to: 2025-04-25
+      text: |
+        1977 年 9 月申请辞去副总理职务，经中共中央批准回到西北国棉一厂，1978 年任厂党委副书记，1981 年 6 月起兼厂工会主席。1988 年到深圳任一家合资纺织公司董事长兼总经理，1994 年退休。2025 年 4 月 25 日在深圳去世。
+      cites: [people-2013-wu-guixian, crt-2025-wu-guixian]
+  assess:
+    - { voice: editor, text: 1977 年 7 月十届三中全会公报上她仍列名政治局候补委员，两个月后辞去副总理。辞职是“申请”的，人民网资料没有写原因。, cite: people-2013-wu-guixian }
+  factions: [premier, provincial]
+  fate:
+    - { date: 1969-04, s: rise, note: 九大当选中央委员, cite: people-2013-wu-guixian }
+    - { date: 1973-08, s: rise, note: 政治局候补委员, cite: people-2013-wu-guixian }
+    - { date: 1975-01-17, s: rise, note: 国务院副总理, cite: rmrb-1975-01-19-state-council-list }
+    - { date: 1977-09, s: sidelined, note: 辞去副总理，回西北国棉一厂, cite: people-2013-wu-guixian }
+  cites: [people-2013-wu-guixian, rmrb-1975-01-19-state-council-list, ws-1977-07-tenth-third-plenum, crt-2025-wu-guixian]
+
+- id: ni-zhifu
+  name: 倪志福
+  born: 1933-05
+  died: 2013-04-24
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 国营六一八厂副总工程师
+  pinyin: Ní Zhìfú
+  gender: m
+  birthplace: 上海
+  positions:
+    - { title: 书记, orgName: 中共北京市委员会, from: 1973-04, to: 1976-10, cite: xinhua-2013-ni-zhifu }
+    - { title: 候补委员, orgName: 中共中央政治局, from: 1973-08, to: 1977-08, cite: xinhua-2013-ni-zhifu }
+    - { title: 主席, orgName: 中华全国总工会, from: 1978-10, to: 1993-10, cite: xinhua-2013-ni-zhifu }
+  bio: 上海人，学徒出身，1953 年到北京国营六一八厂当钳工，发明了三尖七刃麻花钻，称“倪志福钻头”，1959 年被授予全国先进生产者。1973 年由总工程师提任厂党委书记、北京市委书记，同年当选政治局候补委员。粉碎“四人帮”后被派到上海任市委第二书记，参与接管上海；1978 年起任全国总工会主席十五年，后任全国人大常委会副委员长。2013 年在北京去世。
+  life:
+    - h: 钳工与钻头
+      from: 1933-05
+      to: 1973-04
+      text: |
+        1950 年在上海当学徒，1953 年 6 月到国营六一八厂（北京永定机械厂）当钳工，1958 年入党。“早年在工厂工作时发明了三尖七刃麻花钻，大大提高了钻头的使用性能和寿命，在国内外引起重大反响，被称为‘倪志福钻头’。”1959 年出席全国群英会，1965 年获国家科委发明证书；1965 年至 1973 年历任副总工程师、总工程师。
+      cites: [xinhua-2013-ni-zhifu]
+    - h: 北京、上海
+      from: 1973-04
+      to: 1978-10
+      text: |
+        1973 年 4 月起历任六一八厂党委书记、北京市总工会主任、中共北京市委书记、北京市革委会副主任，8 月十大当选政治局候补委员。1976 年 10 月起任上海市委第二书记、上海市革委会第一副主任；新华社生平说他在上海“及时粉碎了‘四人帮’在上海的亲信、骨干妄图发动武装叛乱的阴谋”。1977 年 7 月以政治局候补委员身份出席十届三中全会，十一大升为政治局委员。
+      cites: [xinhua-2013-ni-zhifu, ws-1977-07-tenth-third-plenum]
+    - h: 工会
+      from: 1978-10
+      to: 2013-04-24
+      text: |
+        1978 年 10 月当选全国总工会主席，连任到 1993 年 10 月；其间还任北京市委第二书记、天津市委书记。1988 年和 1993 年当选第七、八届全国人大常委会副委员长。2013 年 4 月 24 日在北京去世。
+      cites: [xinhua-2013-ni-zhifu]
+  assess:
+    - { voice: officialLater, text: 早年在工厂工作时发明了三尖七刃麻花钻，大大提高了钻头的使用性能和寿命，在国内外引起重大反响，被称为“倪志福钻头”。（新华社《倪志福同志生平》）, cite: xinhua-2013-ni-zhifu, quote: true }
+    - { voice: editor, text: 十届政治局四位候补委员里，他和苏振华在 1977 年后继续升迁，吴桂贤则辞职回厂。, cite: ws-1977-07-tenth-third-plenum }
+  factions: [provincial]
+  fate:
+    - { date: 1959, s: rise, note: 全国先进生产者, cite: xinhua-2013-ni-zhifu }
+    - { date: 1973-04, s: rise, note: 北京市委书记, cite: xinhua-2013-ni-zhifu }
+    - { date: 1973-08, s: rise, note: 政治局候补委员, cite: xinhua-2013-ni-zhifu }
+    - { date: 1976-10, s: rise, note: 上海市委第二书记, cite: xinhua-2013-ni-zhifu }
+    - { date: 1978-10, s: rise, note: 全国总工会主席, cite: xinhua-2013-ni-zhifu }
+  cites: [xinhua-2013-ni-zhifu, ws-1977-07-tenth-third-plenum]
+
+- id: sun-jian
+  name: 孙健
+  born: 1936
+  died: 1997-11
+  deathKind: natural
+  deathPlace: 天津
+  tier: 3
+  role1966: 天津内燃机厂干部
+  pinyin: Sūn Jiàn
+  gender: m
+  birthplace: 河北定兴
+  positions:
+    - { title: 副总理, orgName: 国务院, from: 1975-01-17, to: 1978-03, cite: rmrb-1975-01-19-state-council-list }
+  bio: 河北定兴人，天津内燃机厂工人出身，1958 年入党，文革中任厂革委会负责人，1973 年任中共天津市委书记。1975 年 1 月四届人大任命为国务院副总理，时年三十九岁，分管工业。1978 年 3 月五届人大不再任职，回天津机械厂工作，后在企业任职。1997 年在天津去世。
+  life:
+    - h: 工人副总理
+      from: 1936
+      to: 1978-03
+      text: |
+        1951 年在天津当学徒，1956 年到天津内燃机厂，后任厂党委书记、革委会第一副主任，1973 年 11 月任中共天津市委书记、天津市革委会副主任，同年当选十届中央候补委员。1975 年 1 月四届人大公布的十二位副总理里，他排在最后一位。1978 年 3 月五届人大没有再任命他。
+      verify: true
+      cites: [rmrb-1975-01-19-state-council-list]
+    - h: 回厂
+      from: 1978-03
+      to: 1997-11
+      text: |
+        1978 年回到天津机械厂劳动，后任厂技术改造办公室副主任，1980 年代末到企业任职。1997 年 11 月因肺癌在天津去世。
+      verify: true
+  assess:
+    - { voice: editor, text: 1975 年国务院名单把副总理按顺序排列，前七位都是政治局委员，后五位是吴桂贤、王震、余秋里、谷牧、孙健；吴桂贤和他都是工人出身。, cite: rmrb-1975-01-19-state-council-list }
+  factions: [premier, provincial]
+  fate:
+    - { date: 1973-11, s: rise, note: 天津市委书记, verify: true }
+    - { date: 1975-01-17, s: rise, note: 国务院副总理, cite: rmrb-1975-01-19-state-council-list }
+    - { date: 1978-03, s: sidelined, note: 五届人大不再任职，回天津工厂, verify: true }
+  cites: [rmrb-1975-01-19-state-council-list]
+
+- id: li-suwen
+  name: 李素文
+  born: 1933-03
+  died: 2022-04-04
+  deathKind: natural
+  deathPlace: 辽宁沈阳
+  tier: 3
+  role1966: 沈阳和平副食品商店副政治指导员，全国劳动模范
+  pinyin: Lǐ Sùwén
+  gender: f
+  aka: [李静婷]
+  birthplace: 河北乐亭
+  positions:
+    - { title: 副委员长, orgName: 全国人民代表大会常务委员会, from: 1975-01-17, to: 1978-03, cite: rmrb-1975-01-19-npc-sc-list }
+  bio: 河北乐亭人，1956 年到沈阳当副食店营业员，以送货上门等服务出名，1959 年出席全国群英会，1960 年被评为沈阳市劳动模范。文革中 1966、1967 年在《红旗》发表文章，1968 年任沈阳市革委会副主任，1972 年任辽宁省革委会副主任、团省委书记，1973 年当选中央委员，1975 年 1 月当选全国人大常委会副委员长。1979 年 2 月回沈阳糖果厂劳动，后任副厂长、供销公司副经理。2022 年在沈阳去世。
+  life:
+    - h: 营业员
+      from: 1933-03
+      to: 1968-05
+      text: |
+        1956 年到沈阳市南塔第二副食门市部当营业员，1963 年调和平副食品商店，任班长、副政治指导员。她为烈军属、五保户、双职工送货到家，1959 年 9 月出席全国群英会，1960 年被选为沈阳市劳动模范。文革开始后，1966 年《红旗》目录上有署名李素文的《把兴无灭资的阶级斗争进行到底》，1967 年又有《沿着毛主席开辟的航道阔步前进》；作者是否就是她，目录本身无法确认。
+      verify: true
+      cites: [kunlunce-2022-li-suwen, ws-1966-red-flag-index, ws-1967-red-flag-index]
+    - h: 副委员长
+      from: 1968-05
+      to: 1979-02
+      text: |
+        “1968年5月，李素文任沈阳市革命委员会副主任。1970年任中共沈阳市委常委。1972年11月任辽宁省革委会副主任、省委常委、共青团辽宁省委书记。”1973 年十大当选中央委员。1975 年 1 月四届人大常委会副委员长名单里，她的名字后注“（女）”。
+      cites: [kunlunce-2022-li-suwen, rmrb-1975-01-19-npc-sc-list]
+    - h: 回沈阳
+      from: 1979-02
+      to: 2022-04-04
+      text: |
+        1979 年 2 月回沈阳市糖果厂劳动，1983 年任副厂长，1986 年任沈阳市第一轻工业局供销处副处长，1988 年退休。2022 年 4 月 4 日在沈阳家中去世。
+      cites: [kunlunce-2022-li-suwen]
+  assess:
+    - { voice: witness, text: 由于组织上的安排，您又回到了沈阳，回到了您熟悉热爱的基层。（李素文之女李凡）, cite: kunlunce-2022-li-suwen, quote: true }
+    - { voice: editor, text: 家属所撰生平从 1975 年当选副委员长直接跳到 1979 年 2 月回糖果厂劳动，没有说明原因。, cite: kunlunce-2022-li-suwen }
+  factions: [provincial]
+  fate:
+    - { date: 1960, s: rise, note: 沈阳市劳动模范, cite: kunlunce-2022-li-suwen }
+    - { date: 1968-05, s: rise, note: 沈阳市革委会副主任, cite: kunlunce-2022-li-suwen }
+    - { date: 1975-01-17, s: rise, note: 全国人大常委会副委员长, cite: rmrb-1975-01-19-npc-sc-list }
+    - { date: 1979-02, s: sidelined, note: 回沈阳糖果厂劳动, cite: kunlunce-2022-li-suwen }
+  cites: [kunlunce-2022-li-suwen, rmrb-1975-01-19-npc-sc-list, ws-1966-red-flag-index]
+
+- id: zhuang-zedong
+  name: 庄则栋
+  born: 1940
+  died: 2013-02-10
+  deathKind: natural
+  deathPlace: 北京
+  tier: 2
+  role1966: 中国乒乓球队主力队员
+  pinyin: Zhuāng Zédòng
+  gender: m
+  birthplace: 江苏扬州
+  positions:
+    - { title: 主任, orgName: 国家体育运动委员会, from: 1975-01-17, to: 1976-10, cite: rmrb-1975-01-19-state-council-list }
+  bio: 江苏扬州人，1961、1963、1965 年三次获得世乒赛男单冠军。1971 年名古屋世乒赛期间与美国选手科恩的接触促成美国乒乓球队访华，即“乒乓外交”。1975 年 1 月任国家体委主任。1976 年 10 月后被隔离审查，多年后才恢复自由，1980 年代中期起在北京市少年宫任教。2013 年在北京去世。
+  life:
+    - h: 三连冠
+      from: 1940
+      to: 1966
+      text: |
+        1957 年入选北京市乒乓球队，1961 年成为国家队主力，在第 26、27、28 届世乒赛上三次获得男子单打冠军，是中国第一个世乒赛男单“三连冠”。他的名气大到林彪 1966 年 5 月 18 日在政治局扩大会议上讲毛泽东是天才时，也拿他作比：“打乒乓球，你懂得了规则，你也打不过庄则栋、徐寅生。”
+      cites: [xinhua-2013-zhuang-zedong, ws-1966-05-18-lin-speech]
+    - h: 乒乓外交与体委主任
+      from: 1971-04
+      to: 1976-10
+      text: |
+        1971 年名古屋世乒赛期间，“面对‘搭错车’的美国乒乓球运动员科恩的一个不经意的友好举动，开启了一段‘乒乓外交’的佳话”。1972 年他率中国乒乓球代表团回访美国，受到尼克松接见。1975 年 1 月四届人大任命他为国家体育运动委员会主任。
+      cites: [xinhua-2013-zhuang-zedong, rmrb-1975-01-19-state-council-list]
+    - h: 审查以后
+      from: 1976-10
+      to: 2013-02-10
+      text: |
+        1976 年 10 月后因与江青的关系被隔离审查，数年后才获释，下放到地方工作。1980 年代中期起在北京市少年宫教乒乓球，1987 年与日本人佐佐木敦子结婚。2013 年 2 月 10 日在北京去世。
+      verify: true
+      cites: [xinhua-2013-zhuang-zedong]
+  assess:
+    - { voice: officialLater, text: “小球转动大球”成为２０世纪东西方外交史上最经典的一章，而庄则栋也成为“乒乓外交”的关键人物。（新华社）, cite: xinhua-2013-zhuang-zedong, quote: true }
+    - { voice: editor, text: 新华社的介绍写到“上世纪７０年代中期曾任国家体委主任”，下一句跳到“上世纪８０年代中期”，中间的审查没有写。, cite: xinhua-2013-zhuang-zedong }
+  factions: [ccrg]
+  fate:
+    - { date: 1961-04, s: rise, note: 第 26 届世乒赛男单冠军, cite: xinhua-2013-zhuang-zedong }
+    - { date: 1971-04, s: rise, note: 名古屋世乒赛，乒乓外交, cite: xinhua-2013-zhuang-zedong }
+    - { date: 1975-01-17, s: rise, note: 国家体委主任, cite: rmrb-1975-01-19-state-council-list }
+    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
+  cites: [xinhua-2013-zhuang-zedong, rmrb-1975-01-19-state-council-list, ws-1966-05-18-lin-speech]
+
+- id: zhang-tiesheng
+  name: 张铁生
+  born: 1950
+  tier: 3
+  role1966: 辽宁城市中学生
+  pinyin: Zhāng Tiěshēng
+  gender: m
+  bio: 1968 年下乡的知识青年，辽宁兴城县白塔公社枣山大队第四生产队队长。1973 年大学招生考试时在物理化学试卷背面写信，说自己忙于夏锄无暇复习，不愿“胡答一气”。《辽宁日报》7 月 19 日以《一份发人深省的答卷》发表，《人民日报》8 月 10 日转载，他被称为“白卷英雄”，当年的文化考试随之作废。后入铁岭农学院，1975 年当选四届人大常委。1976 年后被捕，1983 年判处有期徒刑十五年。
+  life:
+    - h: 答卷
+      from: 1968
+      to: 1973-08-10
+      text: |
+        《辽宁日报》编者按介绍：“张铁生同志是一九六八年的下乡知识青年，共青团员，现任兴城县白塔公社枣山大队第四生产队队长。”信里说：“每天近十八个小时的繁重劳动和工作，不允许我搞业务复习”，“对于那些多年来不务正业、逍遥浪荡的书呆子们，我是不服气的，而有着极大的反感，考试被他们这群大学迷给垄断了”。信末署“白塔公社考生 张铁生”，日期是一九七三年六月三十日。《人民日报》编者按说这封信“提出了教育战线上两条路线、两种思想斗争中的一个重要问题，确实发人深思”。
+      cites: [rmrb-1973-08-10-zhang-tiesheng]
+    - h: 从典型到囚犯
+      from: 1973-08-10
+      to: 1991
+      text: |
+        1973 年他被铁岭农学院录取，此后多次在各地作报告，1975 年当选第四届全国人大常委会委员。1976 年 10 月后被隔离审查，1983 年以反革命罪被判处有期徒刑十五年，1991 年刑满释放，后在企业工作。
+      verify: true
+  assess:
+    - { voice: doc, text: 所以自己愿意遵守纪律，坚持始终，老老实实地退场。（张铁生 1973 年 6 月 30 日）, cite: rmrb-1973-08-10-zhang-tiesheng, quote: true }
+    - { voice: official1966, text: 他对物理化学这门课的考试，似乎交了“白卷”，然而对整个大学招生的路线问题，却交了一份颇有见解，发人深省的答卷。（《辽宁日报》编者按，《人民日报》1973 年 8 月 10 日转载）, cite: rmrb-1973-08-10-zhang-tiesheng, quote: true }
+    - { voice: editor, text: “白卷”一词出自编者按里的“似乎交了‘白卷’”；信本身写在理化试卷背面，说的是没有时间复习。, cite: rmrb-1973-08-10-zhang-tiesheng }
+  factions: [rebels]
+  fate:
+    - { date: 1973-08-10, s: rise, note: 《人民日报》转载他的信, cite: rmrb-1973-08-10-zhang-tiesheng }
+    - { date: 1975-01, s: rise, note: 四届人大常委, verify: true }
+    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
+    - { date: 1983, s: detained, note: 判处有期徒刑十五年, verify: true }
+    - { date: 1991, s: sidelined, note: 刑满释放, verify: true }
+  cites: [rmrb-1973-08-10-zhang-tiesheng]
+
+- id: huang-shuai
+  name: 黄帅
+  died: 2017-12-10
+  deathKind: natural
+  deathPlace: 北京
+  tier: 3
+  role1966: 北京儿童（1973 年为中关村第一小学五年级学生）
+  pinyin: Huáng Shuài
+  gender: f
+  birthplace: 北京
+  bio: 北京海淀区中关村第一小学五年级学生。1973 年秋因日记里给班主任提意见与老师冲突，10 月 21 日署名给报社写信。12 月 12 日《北京日报》以《一个小学生的来信和日记摘抄》发表，12 月 28 日《人民日报》头版转载并加编者按，称她“敢于向修正主义教育路线的流毒开火”，全国中小学随即掀起“破师道尊严”运动。1978 年 5 月《人民日报》发文说来信是家长授意写成的“政治骗局”，同时说“小学生是无辜的，是受害者”。2017 年在北京去世。
+  life:
+    - h: 来信
+      from: 1973-09
+      to: 1973-12-28
+      text: |
+        来信说：“我是中关村第一小学五年级二班的学生。九月听了红卫兵节目报道的兰州十四中学红卫兵帮助老师的事迹，受到启发，随后我给老师写了三篇日记提意见。”信的结尾是：“究竟我犯了啥严重错误？难道还要我们毛泽东时代的青少年再做旧教育制度‘师道尊严’奴役下的奴隶吗？”《北京日报》编者按称她是“十二岁的小学生”，“以反潮流的革命精神，提出了教育革命中的一个大问题”。
+      cites: [rmrb-1973-12-28-huang-shuai]
+    - h: “破师道尊严”
+      from: 1973-12-28
+      to: 1976-10
+      text: |
+        转载之后，全国学校大批“师道尊严”。1978 年《人民日报》说，“就拿北京为例，短短几个月内，仅学校的玻璃，就被砸碎二十多万平方米”；她本人被请去写文章、作报告、上银幕。
+      cites: [rmrb-1978-05-21-huang-shuai-exposed]
+    - h: “政治骗局”
+      from: 1976-10
+      to: 2017-12-10
+      text: |
+        1978 年 5 月 21 日《人民日报》称，看过她的全部日记并调查核实后认定，“‘小学生的来信’，实际是‘小学生家长的来信’”：家长 10 月 18 日给学校写了长信，19 日到区教育局听到“师道尊严”一词，20 日这个词第一次出现在她的日记里，21 日的信“一式几份”寄给四家报刊。文章同时说，“其实，在这个事件中，小学生是无辜的，是受害者”。此后她上中学、上大学，后来在北京工业大学出版社当编辑，2017 年 12 月 10 日因癌症在北京去世。
+      verify: true
+      cites: [rmrb-1978-05-21-huang-shuai-exposed]
+  assess:
+    - { voice: doc, text: 究竟我犯了啥严重错误？难道还要我们毛泽东时代的青少年再做旧教育制度“师道尊严”奴役下的奴隶吗？（黄帅署名来信，1973 年 10 月 21 日）, cite: rmrb-1973-12-28-huang-shuai, quote: true }
+    - { voice: official1966, text: 黄帅敢于向修正主义教育路线的流毒开火，生动地反映出毛泽东思想哺育的新一代的革命精神面貌。（《人民日报》1973 年编者按）, cite: rmrb-1973-12-28-huang-shuai, quote: true }
+    - { voice: officialLater, text: 所谓《一个小学生的来信和日记摘抄》，完全是适应“四人帮”篡党夺权的反革命政治需要，蓄意编造出来的，是一个政治骗局。（《人民日报》1978 年）, cite: rmrb-1978-05-21-huang-shuai-exposed, quote: true }
+    - { voice: editor, text: 1978 年的文章说来信结尾那句话出自家长；两份《人民日报》文本都把她当作别人手中的工具，一次是“革命小将”，一次是“受害者”。, cite: rmrb-1978-05-21-huang-shuai-exposed }
+  factions: [rebels]
+  fate:
+    - { date: 1973-12-12, s: rise, note: 《北京日报》发表来信和日记, cite: rmrb-1973-12-28-huang-shuai }
+    - { date: 1978-05-21, s: sidelined, note: 《人民日报》称来信是“政治骗局”, cite: rmrb-1978-05-21-huang-shuai-exposed }
+  cites: [rmrb-1973-12-28-huang-shuai, rmrb-1978-05-21-huang-shuai-exposed]
+
+- id: li-qinglin
+  name: 李庆霖
+  died: 2004-02-19
+  deathKind: natural
+  deathPlace: 福建莆田
+  tier: 3
+  role1966: 福建莆田县城郊公社下林小学教师
+  pinyin: Lǐ Qìnglín
+  gender: m
+  bio: 福建莆田县城郊公社下林小学教师。儿子 1969 年下乡后口粮、生活费没有着落，他多次上访无果，1972 年 12 月 20 日写信给毛泽东。1973 年 4 月 25 日毛泽东复信并寄去三百元，6 月中共中央把来信和复信印发全国，连同五月中央工作会议拟定的《关于当前知识青年下乡工作中几个问题的解决意见》一起学习，调整知青政策。他随即升任县知青办副主任、四届人大常委、国务院知青领导小组成员。1976 年 11 月被隔离审查，1977 年被捕，后以现行反革命罪判处无期徒刑，1994 年提前出狱。2004 年在莆田去世。
+  life:
+    - h: 告御状
+      from: 1969
+      to: 1973-06-10
+      text: |
+        儿子李良模 1969 年到荻芦公社插队，口粮和生活费“仅发了11个月就停了”。他走上上访之路，“几次上访未果，李庆霖决定斗胆上书‘告御状’”，1972 年 12 月 20 日写了两千多字的信。信经王海容转交到毛泽东手中。1973 年 4 月 25 日毛泽东复信：“李庆霖同志，寄上三百元，聊补无米之炊。全国此类事甚多，容当统筹解决。”6 月 10 日中共中央通知把复信和来信“印发至公社、街道以上各级党委，并传达到上山下乡知识青年和广大群众”。
+      cites: [jwb-2007-li-qinglin, ws-1973-06-10-li-qinglin-notice]
+    - h: 平步青云
+      from: 1973-06-10
+      to: 1976-10
+      text: |
+        此后他从小学革命领导小组副组长升为县知青办副主任、县革委会教育组副组长，1974 年任福建省高考招生办公室副组长，1975 年当选四届人大常委，1976 年 6 月成为国务院知青工作领导小组成员。1973 年 11 月他在《红旗》上发表《谈反潮流》，1976 年春在莆田地委干部大会上与造反派一起占据主席台，指责地委书记执行“右倾翻案风路线”。
+      cites: [jwb-2007-li-qinglin]
+    - h: 无期徒刑
+      from: 1976-11
+      to: 2004-02-19
+      text: |
+        1976 年 11 月被隔离审查，1977 年 11 月 1 日正式逮捕，一年多以后莆田地区中级人民法院以现行反革命罪判处无期徒刑，剥夺政治权利终身。1994 年 3 月提前出狱，靠每月 210 元困难救济生活，2004 年 2 月 19 日去世。墓碑上刻着毛泽东的那封复信。
+      cites: [jwb-2007-li-qinglin]
+  assess:
+    - { voice: doc, text: 李庆霖同志，寄上三百元，聊补无米之炊。全国此类事甚多，容当统筹解决。（毛泽东复信，1973 年 4 月 25 日）, cite: jwb-2007-li-qinglin, quote: true }
+    - { voice: official1966, text: 伟大领袖毛主席一九七三年四月二十五日对李庆霖同志的来信作了重要答复。（中共中央 1973 年 6 月 10 日通知）, cite: ws-1973-06-10-li-qinglin-notice, quote: true }
+    - { voice: editor, text: 中央通知印发了他的信，四年后他以现行反革命罪被判无期；《名人传记》的叙述只说他被视为“四人帮”的“小爬虫”，判决书本身未见公开。, cite: jwb-2007-li-qinglin }
+  factions: [rebels]
+  fate:
+    - { date: 1973-04-25, s: rise, note: 毛泽东复信, cite: jwb-2007-li-qinglin }
+    - { date: 1975-01, s: rise, note: 四届人大常委, cite: jwb-2007-li-qinglin }
+    - { date: 1976-11, s: detained, note: 隔离审查, cite: jwb-2007-li-qinglin }
+    - { date: 1977-11-01, s: detained, note: 正式逮捕，后判无期徒刑, cite: jwb-2007-li-qinglin }
+    - { date: 1994-03, s: sidelined, note: 提前出狱, cite: jwb-2007-li-qinglin }
+  cites: [jwb-2007-li-qinglin, ws-1973-06-10-li-qinglin-notice]

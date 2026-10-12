@@ -392,6 +392,8 @@ li-ruihuan:
   license: CC BY 4.0
   licenseUrl: https://creativecommons.org/licenses/by/4.0
   date: 2000-07-18
+li-suwen:
+  why: no Wikidata item with matching birth year
 li-xiannian:
   qid: Q311413
   file: Li Xiannian.png
@@ -519,6 +521,9 @@ luo-ruiqing:
   zoom: 1.5
 ma-tianshui:
   why: no Wikidata item with matching birth year
+mao-yuanxin:
+  qid: Q211388
+  why: Wikidata item has no image (P18)
 mao-zedong:
   qid: Q5816
   file: Mao Tse Tung.jpg
@@ -528,6 +533,13 @@ mao-zedong:
   date: 1950-11-10
 mou-zhijing:
   why: no Wikidata item with matching birth year
+ni-zhifu:
+  qid: Q8338552
+  file: Ni Zhifu1.jpg
+  url: https://commons.wikimedia.org/wiki/File:Ni_Zhifu1.jpg
+  author: Unknown author Unknown author
+  license: Public domain
+  date: "1959"
 nie-rongzhen:
   qid: Q701453
   file: Marshal Nie Rongzhen.jpg
@@ -617,6 +629,9 @@ su-zhenhua:
   author: 中国人民解放军
   license: Public domain
   date: "1955"
+sun-jian:
+  qid: Q10944640
+  why: Wikidata item has no image (P18)
 sun-yefang:
   qid: Q2365883
   why: Wikidata item has no image (P18)
@@ -692,6 +707,9 @@ wang-guangmei:
   author: unknown author
   license: Public domain
   date: 1950s
+wang-hairong:
+  qid: Q7967444
+  why: Wikidata item has no image (P18)
 wang-hongwen:
   qid: Q455583
   file: Wang Hongwen at trial in November 1980.jpg
@@ -752,6 +770,9 @@ wu-faxian:
   author: 中国人民解放军
   license: Public domain
   date: "1955"
+wu-guixian:
+  qid: Q8248916
+  why: Wikidata item has no image (P18)
 wu-han:
   qid: Q705864
   file: 吳晗.jpg
@@ -941,6 +962,9 @@ zhang-naiqi:
   author: Unknown; scanned by 天竺鼠 ( talk ) 15:14, 21 December 2010 (UTC)
   license: Public domain
   date: No later than 1941; scan created on 21 D
+zhang-tiesheng:
+  qid: Q8341061
+  why: Wikidata item has no image (P18)
 zhang-wentian:
   qid: Q700939
   file: Zhang Wentian3.jpg
@@ -1035,3 +1059,11 @@ zhu-de:
   url: https://commons.wikimedia.org/wiki/File:Zhu_De,_Commander_of_PLA.jpg
   author: anonymous (Gov)
   license: Public domain
+zhuang-zedong:
+  qid: Q198153
+  file: Zhuang Zedong (1436472690) (cropped).jpg
+  url: https://commons.wikimedia.org/wiki/File:Zhuang_Zedong_(1436472690)_(cropped).jpg
+  author: Tom Nguyen from Rockville, MD
+  license: CC BY 2.0
+  licenseUrl: https://creativecommons.org/licenses/by/2.0
+  date: 2007-09-19 07:36

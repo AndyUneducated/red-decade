@@ -174,3 +174,14 @@
 - { a: su-zhenhua, b: wang-shenyou, type: persecute, from: 1977-04, note: 时任上海市革委会主任；革委会一天内批准 56 个死刑案, cite: ywang-wang-shenyou }
 - { a: shi-yunfeng, b: liu-shaoqi, type: protect, from: 1974-10-26, note: 传单称刘少奇一案是“千古奇冤”, cite: hyh-2024-blood-sacrifice-4 }
 - { a: lu-lanxiu, b: liu-shaoqi, type: protect, from: 1967, note: 意见书反对打倒刘少奇, cite: hyh-2024-blood-sacrifice-4 }
+# batch 18
+- { a: mao-yuanxin, b: deng-xiaoping, type: attack, from: 1976-02, note: 起诉书称 1976 年 2 月到 5 月他与江青等“进一步诬陷邓小平”, cite: ws-1980-indictment }
+- { a: jiang-qing, b: mao-yuanxin, type: ally, from: 1976-02, note: 起诉书称他是“江青反革命集团重要成员”, cite: ws-1980-indictment }
+- { a: chi-qun, b: mao-yuanxin, type: ally, from: 1976-02, note: 共同策划拍摄影片《反击》, cite: ws-1982-chi-qun-case }
+- { a: mao-yuanxin, b: ma-tianshui, type: link, from: 1976-02-22, note: 对马天水、徐景贤说邓小平“崇洋媚外，出卖主权”, cite: ws-1980-indictment }
+- { a: mao-zedong, b: mao-yuanxin, type: link, from: 1975-09, note: 侄子，任毛泽东与政治局之间的联络员, verify: true }
+- { a: mao-zedong, b: li-qinglin, type: protect, from: 1973-04-25, note: 复信并寄去三百元, cite: jwb-2007-li-qinglin }
+- { a: wang-hairong, b: li-qinglin, type: link, from: 1973-04, note: 把他的来信转交毛泽东, cite: jwb-2007-li-qinglin }
+- { a: wang-dongxing, b: li-qinglin, type: link, from: 1973-04, note: 经手从毛泽东稿费中寄出 300 元, cite: jwb-2007-li-qinglin }
+- { a: yao-wenyuan, b: huang-shuai, type: patron, from: 1973-12, note: 1978 年《人民日报》只说“‘四人帮’那两个黑干将”吹捧她，未点名, verify: true }
+- { a: xie-jingyi, b: huang-shuai, type: patron, from: 1973-12, note: 时任北京市委书记，宣传黄帅, verify: true }

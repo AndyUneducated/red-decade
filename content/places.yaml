@@ -217,6 +217,10 @@
 # batch 17
 - { id: weixian, name: 河北威县, names: [威县], lat: 36.98, lon: 115.27 }
 - { id: ganzhou, name: 赣州, names: [赣州], lat: 25.83, lon: 114.93 }
+# batch 18
+- { id: gongxian, name: 河南巩县, names: [巩县], lat: 34.75, lon: 112.98 }
+- { id: dingxing, name: 河北定兴, names: [定兴], lat: 39.27, lon: 115.81 }
+- { id: putian, name: 福建莆田, names: [莆田], lat: 25.45, lon: 119.01 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

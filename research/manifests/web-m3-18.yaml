@@ -1,0 +1,120 @@
+# M3 人物第 18 批（1970 年代新人与“典型”）：毛远新、王海容、吴桂贤、倪志福、孙健、李素文、庄则栋、
+# 张铁生、黄帅、李庆霖。tools/fetch-web.ts / tools/fetch-wikisource.ts。未满 50 年的网页只保留 keep 段落。
+wikisource:
+  - id: ws-1973-06-10-li-qinglin-notice
+    title: 中共中央通知 (1973年6月10日)
+    date: 1973-06-10
+    author: 中共中央
+    kind: party-doc
+    alias: 中发〔1973〕21 号（转发李庆霖来信和毛主席复信）
+web:
+  - id: rmrb-1973-08-10-zhang-tiesheng
+    title: 一份发人深省的答卷
+    date: 1973-08-10
+    author: 张铁生（《辽宁日报》《人民日报》编者按）
+    kind: letter
+    alias: 张铁生《一份发人深省的答卷》
+    url: https://cn.govopendata.com/renminribao/1973/8/10/1/
+    via: 《人民日报》1973-08-10 第 1 版转载《辽宁日报》7 月 19 日（govopendata 转录）
+    article: 一份发人深省的答卷
+    excerpt: true
+    keep: [编者按：七月十九日, 《辽宁日报》编者按：这里刊载, 张铁生同志是一九六八年, 本人自一九六八年下乡以来, 白塔公社考生, 一九七三年六月三十日]
+    note: 张铁生在世，只保留两则编者按的首段、身份介绍、信的主体段落和落款。
+  - id: rmrb-1973-12-28-huang-shuai
+    title: 一个小学生的来信和日记摘抄
+    date: 1973-12-28
+    author: 黄帅（《北京日报》《人民日报》编者按）
+    kind: letter
+    alias: 黄帅《一个小学生的来信和日记摘抄》
+    url: https://cn.govopendata.com/renminribao/1973/12/28/1/
+    via: 《人民日报》1973-12-28 第 1 版转载《北京日报》12 月 12 日（govopendata 转录）
+    article: 一个小学生的来信和日记摘抄
+    excerpt: true
+    keep: [编者按：十二月十二日, 黄帅敢于向修正主义, 《北京日报》编者按：我们热情, 我是中关村第一小学, 我是红小兵，热爱党和毛主席, 究竟我犯了啥严重错误, 海淀区中关村第一小学五年级二班学生, 一九七三年十月二十一日, 最近我是天天受老师]
+    note: 只保留两则编者按的要点、来信全文和十月十九日日记。
+  - id: rmrb-1978-05-21-huang-shuai-exposed
+    title: 揭穿一个政治骗局——《一个小学生的来信和日记摘抄》真相
+    date: 1978-05-21
+    author: 《人民日报》
+    kind: article
+    alias: 1978 年《人民日报》《揭穿一个政治骗局》
+    url: https://cn.govopendata.com/renminribao/1978/5/21/2/
+    via: 《人民日报》1978-05-21 第 2 版（govopendata 转录）
+    article: 揭穿一个政治骗局
+    excerpt: true
+    keep: [编者按：一九七三年十二月二十八日, 最近，我们有机会看到, “四人帮”树起了这样一个, 所谓小学生的“来信”，完全是, 十月十八日，小学生家长给, 十月十九日，小学生家长又跑到, 十月二十一日，用小学生署名, 十二月十二日，《北京日报》于一版, 事实被歪曲了, 欺骗不能持久]
+    note: 只保留编者按、结论、“破师道尊严”的后果、来信出自家长之手的证据和结尾。
+  - id: xinhua-2013-ni-zhifu
+    title: 倪志福同志生平
+    date: 2013-05-03
+    author: 新华社
+    kind: obituary
+    alias: 新华社《倪志福同志生平》
+    url: http://cpc.people.com.cn/n/2013/0503/c87393-21350220.html
+    via: 人民网转载《人民日报》2013-05-03
+    excerpt: true
+    keep: [中国共产党的优秀党员, 倪志福同志１９３３年５月出生, 倪志福同志勤于思考, 倪志福同志在北京工作期间]
+    note: 只保留开头、履历、钻头发明和北京、上海任职四段。数字是全角。
+  - id: xinhua-2017-wang-hairong
+    title: 王海容同志逝世
+    date: 2017-09-22
+    author: 新华社
+    kind: obituary
+    alias: 新华社《王海容同志逝世》
+    url: http://cpc.people.com.cn/n1/2017/0922/c87393-29551299.html
+    via: 人民网转载《人民日报》2017-09-22 第 4 版
+    excerpt: true
+    keep: [国务院参事室原副主任, 王海容，1938年9月生于, 王海容是中国共产党第十一次]
+  - id: xinhua-2013-zhuang-zedong
+    title: 庄则栋人物介绍
+    date: 2013-02-10
+    author: 新华社
+    kind: obituary
+    alias: 新华社《庄则栋人物介绍》
+    url: http://sports.people.com.cn/n/2013/0210/c22176-20477716.html
+    via: 人民网体育频道转载新华网 2013-02-10
+    excerpt: true
+    keep: [新华网北京２月１０日电, 庄则栋１９４０年生于, 庄则栋在职业生涯中, 庄则栋在１９６４, 庄则栋在１９７１年, １９７２年，以庄则栋, 上世纪８０年代中期]
+    note: 数字是全角。
+  - id: kunlunce-2022-li-suwen
+    title: 说给妈妈的话——悼念曾任全国人大副委员长的著名劳模李素文
+    date: 2022-04-09
+    author: 李凡（李素文之女）
+    kind: memoir
+    alias: 李凡《说给妈妈的话》（附李素文生平）
+    url: https://www.kunlunce.com/llyj/fl11111111111/2022-04-09/160322.html
+    via: 昆仑策网 2022-04-09，附家属所撰生平
+    excerpt: true
+    keep: [【编者按】4月4日, 由于组织上的安排, 女，1933年3月出生, 1954年9月加入中国共产党, 1958年李素文被选为, 1968年5月，李素文任, 1973年8月中共第十次, 1979年2月回沈阳市糖果厂]
+    note: 只保留编者按、悼文中回沈阳一段和家属所撰生平。
+  - id: people-2013-wu-guixian
+    title: 吴桂贤
+    date: 2013-02-26
+    author: 人民网“七一导航”
+    kind: chronology
+    alias: 人民网“七一导航”吴桂贤条
+    url: http://cpc.people.com.cn/daohang/n/2013/0226/c357263-20607130.html
+    via: 人民网中国共产党新闻网“七一导航”人物资料，2013-02-26
+    start: 吴桂贤（女）（1938— ）
+    end: 第十届中央政治局候补委员。
+  - id: crt-2025-wu-guixian
+    title: 女劳模、国务院原副总理吴桂贤不幸病世享年87岁
+    date: 2025-04-28
+    author: 中红网
+    kind: obituary
+    alias: 中红网《吴桂贤不幸病世》
+    url: http://www.crt.com.cn/news2007/News/jryw/2025/4/25428115320C776B78G9DC79A8F1C6C.html
+    via: 中国红色旅游网 2025-04-28，转述深圳市振兴陕西促进会 4 月 27 日讣告
+    start: 吴桂贤（1938年—2025年4月25日）
+    end: 享年87岁。
+  - id: jwb-2007-li-qinglin
+    title: 知青李庆霖的沉浮人生：曾上书毛主席“告御状”
+    date: 2007-12-28
+    author: 《名人传记》（《今晚报》转载）
+    kind: article
+    alias: 《知青李庆霖的沉浮人生》
+    url: https://www.chinanews.com.cn/cul/news/2007/12-28/1118163.shtml
+    via: 原载 2007 年 9 月《名人传记》，《今晚报》转载，中国新闻网 2007-12-28
+    excerpt: true
+    keep: [现在的年轻人对李庆霖, 1973年4月25日，毛泽东在中南海, 之后，毛主席当即给写信人复信, 同全国的步伐一致, 几次上访未果, 已退休的原莆田地区农委主任, 李庆霖回到阔别17年, 1973年11月，李庆霖在《红旗》, 在改变广大知青命运的同时，李庆霖的命运也平步青云, 1976年10月粉碎“四人帮”后, 李庆霖是1994年3月提前出狱, 2004年2月19日]
+    note: 只保留复信、写信经过、1973–76 年的升迁、1977 年被捕判刑、出狱和去世几段。
