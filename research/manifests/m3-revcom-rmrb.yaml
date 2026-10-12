@@ -1,0 +1,238 @@
+# M3-7 地图：各省、市、自治区革命委员会成立的《人民日报》第 1 版报道（govopendata，满 50 年全文收录）。
+# date 记见报日；报道正文所写的成立日或庆祝大会日逐字摘入 content/revcoms.yaml。
+# 北京见 m3-events-e1.yaml，山东见 rmrb-1967-03-02-shandong-revcom；贵州未见当时的成立报道，用 1979 年中央批示所记夺权日。
+web:
+  - id: ccrd-1979-gz-jan-seizure
+    title: 中共中央对贵州“一·二五夺权事件”的批示（附中共贵州省委《关于解决贵州“一月夺权”问题的请示报告》）
+    date: 1979-02-15
+    author: 中共中央
+    kind: party-doc
+    alias: 1979 年中共中央否定贵州“一月夺权”的批示
+    url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/0/19/000012.htm
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    excerpt: true
+    keep: [中央没有正式文件批准, 于1967年1月25日夺了省委]
+  - id: rmrb-1967-02-02-heilongjiang-revcom
+    title: 黑龙江省红色造反者革命委员会第一号通告郑重宣布 一切权力归红色造反者革命委员会
+    date: 1967-02-02
+    kind: news
+    alias: 1967 年黑龙江省红色造反者革命委员会第一号通告报道
+    url: https://cn.govopendata.com/renminribao/1967/2/2/1/
+    via: 《人民日报》1967-02-02 第 1 版（govopendata 转录）
+    article: 黑龙江省红色造反者革命委员会第一号通告
+  - id: rmrb-1967-02-28-shanghai-revcom
+    title: 最坚决地听毛主席的话进一步开展“三结合”夺权斗争掌好权用好权 上海市革命委员会举行盛大集会
+    date: 1967-02-28
+    author: 新华社
+    kind: news
+    alias: 1967 年上海市革命委员会集会报道
+    url: https://cn.govopendata.com/renminribao/1967/2/28/1/
+    via: 《人民日报》1967-02-28 第 1 版（govopendata 转录）
+    article: 最坚决地听毛主席的话
+  - id: rmrb-1967-03-23-shanxi-revcom
+    title: 山西省革命委员会正式建立
+    date: 1967-03-23
+    author: 新华社
+    kind: news
+    alias: 1967 年山西省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1967/3/23/1/
+    via: 《人民日报》1967-03-23 第 1 版（govopendata 转录）
+    article: 山西省革命委员会正式建立
+  - id: rmrb-1967-08-13-qinghai-revcom
+    title: 青海省革命委员会宣告成立
+    date: 1967-08-13
+    author: 新华社
+    kind: news
+    alias: 1967 年青海省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1967/8/13/1/
+    via: 《人民日报》1967-08-13 第 1 版（govopendata 转录）
+    article: 青海省革命委员会宣告成立
+  - id: rmrb-1967-11-02-neimenggu-revcom
+    title: 在亿万群众响应伟大领袖毛主席战斗号召掀起斗私批修高潮中 内蒙古自治区革命委员会宣告成立
+    date: 1967-11-02
+    author: 新华社
+    kind: news
+    alias: 1967 年内蒙古自治区革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1967/11/2/1/
+    via: 《人民日报》1967-11-02 第 1 版（govopendata 转录）
+    article: 在亿万群众响应伟大领袖毛主席战斗号召
+  - id: rmrb-1967-12-07-tianjin-revcom
+    title: 天津市革命委员会在革命风暴中胜利诞生
+    date: 1967-12-07
+    author: 新华社
+    kind: news
+    alias: 1967 年天津市革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1967/12/7/1/
+    via: 《人民日报》1967-12-07 第 1 版（govopendata 转录）
+    article: 天津市革命委员会在革命风暴中胜利诞生
+  - id: rmrb-1968-01-07-jiangxi-revcom
+    title: 毛主席最新指示鼓舞井冈山儿女胜利前进 江西省革命委员会在大好形势下光荣诞生
+    date: 1968-01-07
+    author: 新华社
+    kind: news
+    alias: 1968 年江西省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/1/7/1/
+    via: 《人民日报》1968-01-07 第 1 版（govopendata 转录）
+    article: 毛主席最新指示鼓舞井冈山儿女胜利前进
+  - id: rmrb-1968-01-26-gansu-revcom
+    title: 毛泽东思想的凯歌响彻西北高原上空 甘肃省革命委员会在浩荡东风中诞生
+    date: 1968-01-26
+    author: 新华社
+    kind: news
+    alias: 1968 年甘肃省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/1/26/1/
+    via: 《人民日报》1968-01-26 第 1 版（govopendata 转录）
+    article: 毛泽东思想的凯歌响彻西北高原上空
+  - id: rmrb-1968-01-30-henan-revcom
+    title: 毛主席的伟大关怀激励中原人民奋勇前进 河南省革命委员会在大好形势下胜利诞生
+    date: 1968-01-30
+    author: 新华社
+    kind: news
+    alias: 1968 年河南省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/1/30/1/
+    via: 《人民日报》1968-01-30 第 1 版（govopendata 转录）
+    article: 毛主席的伟大关怀激励中原人民奋勇前进
+  - id: rmrb-1968-02-05-hebei-revcom
+    title: 从毛主席伟大关怀和教导中汲取无穷力量 河北省革命委员会在大好形势下光荣诞生
+    date: 1968-02-05
+    author: 新华社
+    kind: news
+    alias: 1968 年河北省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/2/5/1/
+    via: 《人民日报》1968-02-05 第 1 版（govopendata 转录）
+    article: 从毛主席伟大关怀和教导中汲取无穷力量
+  - id: rmrb-1968-02-07-hubei-revcom
+    title: 紧跟毛主席在阶级斗争的大风大浪中前进 湖北省革命委员会诞生凯歌响彻大江南北
+    date: 1968-02-07
+    author: 新华社
+    kind: news
+    alias: 1968 年湖北省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/2/7/1/
+    via: 《人民日报》1968-02-07 第 1 版（govopendata 转录）
+    article: 紧跟毛主席在阶级斗争的大风大浪中前进
+  - id: rmrb-1968-02-23-guangdong-revcom
+    title: 毛泽东思想的伟大光辉普照祖国南海之滨 广东省和广州市革命委员会同时胜利诞生
+    date: 1968-02-23
+    author: 新华社
+    kind: news
+    alias: 1968 年广东省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/2/23/1/
+    via: 《人民日报》1968-02-23 第 1 版（govopendata 转录）
+    article: 毛泽东思想的伟大光辉普照祖国南海之滨
+  - id: rmrb-1968-03-10-jilin-revcom
+    title: 毛泽东思想的光辉普照长白山麓松辽平原 吉林省和长春市革命委员会同时胜利诞生
+    date: 1968-03-10
+    author: 新华社
+    kind: news
+    alias: 1968 年吉林省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/3/10/1/
+    via: 《人民日报》1968-03-10 第 1 版（govopendata 转录）
+    article: 毛泽东思想的光辉普照长白山麓松辽平原
+  - id: rmrb-1968-03-25-jiangsu-revcom
+    title: 高举毛泽东思想红旗向阶级敌人主动进攻 江苏省和南京市革委会在急风暴雨中诞生
+    date: 1968-03-25
+    author: 新华社
+    kind: news
+    alias: 1968 年江苏省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/3/25/1/
+    via: 《人民日报》1968-03-25 第 1 版（govopendata 转录）
+    article: 高举毛泽东思想红旗向阶级敌人主动进攻
+  - id: rmrb-1968-03-28-zhejiang-revcom
+    title: 毛主席无产阶级革命路线的又一伟大胜利 浙江省革命委员会在大好形势下光荣诞生
+    date: 1968-03-28
+    author: 新华社
+    kind: news
+    alias: 1968 年浙江省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/3/28/1/
+    via: 《人民日报》1968-03-28 第 1 版（govopendata 转录）
+    article: 毛主席无产阶级革命路线的又一伟大胜利
+  - id: rmrb-1968-04-10-hunan-revcom
+    title: 伟大领袖毛主席家乡传来振奋人心的喜讯 湖南省革委会在阶级斗争风浪中胜利诞生
+    date: 1968-04-10
+    author: 新华社
+    kind: news
+    alias: 1968 年湖南省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/4/10/1/
+    via: 《人民日报》1968-04-10 第 1 版（govopendata 转录）
+    article: 伟大领袖毛主席家乡传来振奋人心的喜讯
+  - id: rmrb-1968-04-12-ningxia-revcom
+    title: 六盘山上高峰 红旗漫卷西风 在毛主席一系列最新指示光辉照耀下宁夏回族自治区革命委员会胜利诞生
+    date: 1968-04-12
+    author: 新华社
+    kind: news
+    alias: 1968 年宁夏回族自治区革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/4/12/1/
+    via: 《人民日报》1968-04-12 第 1 版（govopendata 转录）
+    article: 六盘山上高峰
+  - id: rmrb-1968-04-20-anhui-revcom
+    title: 江淮无产阶级革命派紧跟毛主席胜利前进 安徽省和合肥市革委会在阶级斗争中诞生
+    date: 1968-04-20
+    author: 新华社
+    kind: news
+    alias: 1968 年安徽省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/4/20/1/
+    via: 《人民日报》1968-04-20 第 1 版（govopendata 转录）
+    article: 江淮无产阶级革命派紧跟毛主席胜利前进
+  - id: rmrb-1968-05-03-shaanxi-revcom
+    title: 高举“对反动派造反有理”的革命大旗 取得无产阶级文化大革命的决定性胜利 毛主席培育的延安彻底革命精神发扬光大 陕西省和西安市革命委员会同时胜利诞生
+    date: 1968-05-03
+    author: 新华社
+    kind: news
+    alias: 1968 年陕西省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/5/3/1/
+    via: 《人民日报》1968-05-03 第 1 版（govopendata 转录）
+    article: 高举“对反动派造反有理”的革命大旗
+  - id: rmrb-1968-05-12-liaoning-revcom
+    title: 毛主席的伟大指示坚决照办辽宁大有希望 辽宁省和沈阳市革命委员会同时光荣诞生
+    date: 1968-05-12
+    author: 新华社
+    kind: news
+    alias: 1968 年辽宁省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/5/12/1/
+    via: 《人民日报》1968-05-12 第 1 版（govopendata 转录）
+    article: 毛主席的伟大指示坚决照办辽宁大有希望
+  - id: rmrb-1968-06-02-sichuan-revcom
+    title: 毛主席伟大预见“四川很有希望”鼓舞七千万人民前进 四川省革命委员会在剧烈的阶级斗争风暴中胜利诞生
+    date: 1968-06-02
+    author: 新华社
+    kind: news
+    alias: 1968 年四川省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/6/2/1/
+    via: 《人民日报》1968-06-02 第 1 版（govopendata 转录）
+    article: 毛主席伟大预见“四川很有希望”
+  - id: rmrb-1968-08-15-yunnan-revcom
+    title: 毛主席的无产阶级革命路线的又一伟大胜利 云南省和昆明市的革命委员会同时光荣诞生
+    date: 1968-08-15
+    author: 新华社
+    kind: news
+    alias: 1968 年云南省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/8/15/1/
+    via: 《人民日报》1968-08-15 第 1 版（govopendata 转录）
+    article: 毛主席的无产阶级革命路线的又一伟大胜利
+  - id: rmrb-1968-08-21-fujian-revcom
+    title: 毛主席的革命路线在东南海防前线的伟大胜利 福建省和福州市革委会在阶级斗争中光荣诞生
+    date: 1968-08-21
+    author: 新华社
+    kind: news
+    alias: 1968 年福建省革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/8/21/1/
+    via: 《人民日报》1968-08-21 第 1 版（govopendata 转录）
+    article: 毛主席的革命路线在东南海防前线的伟大胜利
+  - id: rmrb-1968-08-28-guangxi-revcom
+    title: 在毛主席最新指示的灿烂阳光照耀下 广西壮族自治区革命委员会胜利诞生
+    date: 1968-08-28
+    author: 新华社
+    kind: news
+    alias: 1968 年广西壮族自治区革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/8/28/1/
+    via: 《人民日报》1968-08-28 第 1 版（govopendata 转录）
+    article: 在毛主席最新指示的灿烂阳光照耀下
+  - id: rmrb-1968-09-07-xizang-xinjiang-revcom
+    title: 毛泽东思想的灿烂阳光普照祖国西南西北边疆 西藏和新疆革命委员会同时胜利诞生
+    date: 1968-09-07
+    author: 新华社
+    kind: news
+    alias: 1968 年西藏、新疆革命委员会成立报道
+    url: https://cn.govopendata.com/renminribao/1968/9/7/1/
+    via: 《人民日报》1968-09-07 第 1 版（govopendata 转录）
+    article: 毛泽东思想的灿烂阳光普照祖国西南西北边疆

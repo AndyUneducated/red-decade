@@ -7,6 +7,7 @@ import { Docs } from './views/Docs'
 import { Fates } from './views/Fates'
 import { Figures } from './views/Figures'
 import { Ideas } from './views/Ideas'
+import { MapView } from './views/Map'
 import { Narratives } from './views/Narratives'
 import { Network } from './views/Network'
 import { Orgs } from './views/Orgs'
@@ -22,6 +23,7 @@ const COMPONENTS: Record<View, () => React.ReactNode> = {
   network: Network,
   fates: Fates,
   river: River,
+  map: MapView,
   ideas: Ideas,
   narratives: Narratives,
   figures: Figures,

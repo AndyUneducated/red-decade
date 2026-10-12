@@ -299,6 +299,8 @@ export const EventSchema = z.object({
   lane: z.enum(Object.keys(LANES) as [Lane, ...Lane[]]),
   weight: z.number().int().min(1).max(3).default(1),
   place: z.string().optional(),
+  // place id; usually resolved from `place` at build
+  at: z.string().optional(),
   summary: z.string(),
   people: z.array(z.string()).default([]),
   concepts: z.array(z.string()).default([]),
@@ -477,9 +479,24 @@ export const CountySchema = z.object({
   note: z.string().optional(),
 })
 
+// Provincial revolutionary committees, one row per province, dated as the contemporary report dates them.
+// Most reports date only the celebration rally, so the kind of date is kept apart from the founding itself.
+export const REVCOM_DATES = { founded: '成立', rally: '庆祝大会', seized: '夺权' } as const
+export const RevcomSchema = z.object({
+  org: z.string(),
+  // the basemap feature name, e.g. 黑龙江省
+  province: z.string(),
+  date: PartialDate,
+  kind: z.enum(Object.keys(REVCOM_DATES) as [keyof typeof REVCOM_DATES, ...(keyof typeof REVCOM_DATES)[]]),
+  cite: Cite,
+  quote: z.string(),
+  note: z.string().optional(),
+})
+
 export type Count = z.infer<typeof CountSchema>
 export type Figure = z.infer<typeof FigureSchema>
 export type County = z.infer<typeof CountySchema>
+export type Revcom = z.infer<typeof RevcomSchema>
 export type Fate = z.infer<typeof FateSchema>
 export type Person = z.infer<typeof PersonSchema>
 export type Faction = z.infer<typeof FactionSchema>
@@ -516,4 +533,5 @@ export type Atlas = {
   claims: Claim[]
   figures: Figure[]
   counties: County[]
+  revcoms: Revcom[]
 }

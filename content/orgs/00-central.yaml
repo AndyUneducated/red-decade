@@ -673,10 +673,10 @@
   aliases: [河北省革命委员会]
   kind: state
   level: provincial
-  from: 1968-02
+  from: 1968-02-03
   to: 1979-12
   places: [{ at: shijiazhuang }]
-  summary: 李雪峰任主任，1970 年庐山会议后被撤职。
+  summary: 1968 年 2 月 3 日在石家庄举行成立庆祝大会。李雪峰任主任，1970 年庐山会议后被撤职。
   verify: true
 
 - id: yunnan-committee

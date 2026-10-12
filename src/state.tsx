@@ -10,6 +10,7 @@ export const VIEWS = {
   network: '人物网络',
   fates: '命运矩阵',
   river: '派系河流',
+  map: '革委会地图',
   ideas: '思想谱系',
   narratives: '叙事对照',
   figures: '数字争议',

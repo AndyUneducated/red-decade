@@ -20,6 +20,7 @@ import {
   PersonSchema,
   PlaceSchema,
   RelationSchema,
+  RevcomSchema,
   SourceSchema,
   type Atlas,
   type ConceptHit,
@@ -102,6 +103,7 @@ const figures = load(FigureSchema, read('content', 'figures.yaml'), 'figures')
 const counties = ['counties.yaml', ...readdirSync(join(ROOT, 'content')).filter((f) => /^counties-.+\.yaml$/.test(f)).sort()].flatMap((f) =>
   load(CountySchema, read('content', f), f),
 )
+const revcoms = load(RevcomSchema, read('content', 'revcoms.yaml'), 'revcoms')
 const orgs = yamlFiles('content', 'orgs').flatMap((p) => load(OrgSchema, read(...p), p.join('/')))
 for (const p of yamlFiles('content', 'leaders'))
   for (const [id, list] of Object.entries((read(...p) ?? {}) as Record<string, unknown>)) {
@@ -151,6 +153,10 @@ for (const p of people) {
   p.deathAt ??= placeOf(p.deathPlace)
   orgReport.push(`@birth ${(p.birthAt ?? '-').padEnd(14)} ${p.id.padEnd(16)} ${p.birthplace ?? ''}`)
   if (p.died) orgReport.push(`@death ${(p.deathAt ?? '-').padEnd(14)} ${p.id.padEnd(16)} ${p.deathPlace ?? ''}`)
+}
+for (const e of events) {
+  e.at ??= placeOf(e.place)
+  if (e.place) orgReport.push(`@event ${(e.at ?? '-').padEnd(14)} ${e.id.padEnd(16)} ${e.place}`)
 }
 if (existsSync(join(ROOT, '.probe'))) writeFileSync(join(ROOT, '.probe', 'org-links.txt'), orgReport.join('\n'))
 
@@ -271,6 +277,7 @@ for (const o of orgs) {
 }
 for (const e of events) {
   e.people.forEach((id) => need(ids.person, id, `event ${e.id}`))
+  if (e.at) need(ids.place, e.at, `event ${e.id} at`)
   e.concepts.forEach((id) => need(ids.concept, id, `event ${e.id}`))
   e.docs.forEach((id) => needCite(id, `event ${e.id} docs`))
   e.cites.forEach((c) => needCite(c, `event ${e.id}`))
@@ -331,6 +338,22 @@ for (const f of figures) {
     if (!u.counts.length && !u.revcom) errors.push(`county ${u.id}: no counts and no revcom`)
   }
 }
+// revcom rows are drawn on the basemap by province name; the org's own `from` is general reference and may differ
+const provinceNames = new Set(
+  (JSON.parse(readFileSync(join(ROOT, 'public', 'geo', 'basemap.json'), 'utf8')).features as { properties: { n: string; k: string } }[])
+    .filter((f) => f.properties.k === 'p')
+    .map((f) => f.properties.n),
+)
+const revcomDrift: string[] = []
+for (const r of revcoms) {
+  need(ids.org, r.org, `revcom ${r.province}`)
+  needCite(r.cite, `revcom ${r.province}`)
+  if (!provinceNames.has(r.province)) errors.push(`revcom ${r.province}: not a basemap province`)
+  const o = orgs.find((o) => o.id === r.org)
+  if (o?.from && r.kind !== 'seized' && o.from !== r.date) revcomDrift.push(`${r.org} ${o.from}→${r.date}`)
+  if (o && !o.cites.includes(r.cite)) o.cites.push(r.cite)
+}
+if (new Set(revcoms.map((r) => r.province)).size !== revcoms.length) errors.push('revcoms: a province appears twice')
 
 // ── verbatim quote checks ────────────────────────────────
 // Tolerated: nested ‘’ rendered as “”, and a sentence-final mark where the source continues.
@@ -346,6 +369,7 @@ for (const c of claims) for (const e of c.evidence) if (e.quote) checkQuote(e.ci
 for (const f of figures) for (const c of f.counts) checkQuote(c.cite.split('@')[0], c.quote, `figure ${f.id} "${c.what}"`)
 for (const u of counties) for (const c of u.counts) checkQuote(c.cite.split('@')[0], c.quote, `county ${u.id}`)
 for (const u of counties) if (u.revcom) checkQuote(u.revcom.cite.split('@')[0], u.revcom.quote, `county ${u.id} revcom`)
+for (const r of revcoms) checkQuote(r.cite.split('@')[0], r.quote, `revcom ${r.province}`)
 for (const p of people)
   for (const v of p.assess)
     if (v.quote) {
@@ -422,6 +446,7 @@ const atlas: Atlas = {
   claims,
   figures,
   counties,
+  revcoms: revcoms.sort((a, b) => a.date.localeCompare(b.date)),
 }
 
 const out = join(ROOT, 'public', 'data')
@@ -448,5 +473,6 @@ console.log(
     `claims     ${claims.length}`,
     `figures    ${figures.length}  (${figures.reduce((n, f) => n + f.counts.length, 0)} counts, ${figures.filter((f) => f.need).length} awaiting sources)`,
     `counties   ${counties.length}  (${counties.reduce((n, u) => n + u.counts.length, 0)} counts, ${new Set(counties.flatMap((u) => u.counts.map((c) => c.cite))).size} sources)`,
+    `revcoms    ${revcoms.length}  (${revcomDrift.length} org dates differ: ${revcomDrift.join(', ') || '—'})`,
   ].join('\n'),
 )
