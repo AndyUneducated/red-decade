@@ -393,3 +393,28 @@
     - { voice: doc, text: 举行集会、游行、示威，必须依照本法规定向主管机关提出申请并获得许可, cite: ws-1989-10-31-assembly-law, quote: true }
     - { voice: doc, text: 不得反对宪法所确定的基本原则, cite: ws-1989-10-31-assembly-law, quote: true }
   cites: [ws-1989-10-31-assembly-law]
+
+- id: 1987-09-lhasa-unrest
+  date: 1987-09
+  end: 1987-10
+  title: 拉萨骚乱与西藏人大反分裂决议
+  lane: local
+  weight: 2
+  place: 西藏拉萨
+  summary: 据 1988 年 1 月 23 日西藏自治区四届人大六次会议的决议，1987 年九、十月间拉萨发生骚乱：有人打出“雪山狮子旗”，呼喊“西藏独立”，殴打公安干警、抢夺枪支、焚烧派出所、冲击自治区领导机关。决议把事件定性为达赖集团策划的“分裂国家、破坏民族团结的严重政治事件”，谴责美国国会干涉内政，并援引刑法反革命罪条文要求依法惩处。决议同时号召“进一步清除‘左’的影响”。一年多后，拉萨实行戒严。
+  voices:
+    - { voice: officialLater, text: 于九、十月间在拉萨制造骚乱事件，打出“雪山狮子旗”，发表反动演说，呼喊“西藏独立”等反动口号, cite: ws-1987-tibet-anti-separatism-resolution, quote: true }
+    - { voice: officialLater, text: 事件发生后，自治区人民政府和拉萨市人民政府依法采取果断措施，迅速平息了骚乱, cite: ws-1987-tibet-anti-separatism-resolution, quote: true }
+    - { voice: editor, text: 本库关于 1987 年拉萨事件目前只有自治区人大决议这一份官方叙述，没有伤亡数字，也没有参与者或目击者的说法。 }
+  cites: [ws-1987-tibet-anti-separatism-resolution]
+
+- id: 1989-06-tibet-telegram
+  date: 1989-06
+  title: 西藏党政军拥护“平息暴乱”电：拉萨戒严继续
+  lane: local
+  weight: 1
+  place: 西藏拉萨
+  summary: 中共西藏自治区委员会、自治区人民政府和西藏军区致电中共中央、国务院、中央军委，“坚决拥护”平息北京“反革命暴乱”的决策。电报说拉萨市区的戒严“继续得到了有效的实施”，学校照常上课，同时警告国内外分裂主义势力“企图寻机挑起事端”。两地戒严在这段时间同时存在。
+  voices:
+    - { voice: officialLater, text: 拉萨市区的戒严继续得到了有效的实施，学校照常上课，社会的生产、生活秩序正常, cite: ws-1989-06-tibet-support-telegram, quote: true }
+  cites: [ws-1989-06-tibet-support-telegram]

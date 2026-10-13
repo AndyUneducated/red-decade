@@ -314,3 +314,26 @@
     - { voice: officialLater, text: 把宗教界爱国人士以至一般信教群众当作“专政对象”，在宗教界制造了大量冤假错案, cite: ws-1982-03-31-religion-document, quote: true }
     - { voice: officialLater, text: 他们在宗教问题上使用暴力，结果却使宗教活动在秘密和分散的状态下得到某些发展, cite: ws-1982-03-31-religion-document, quote: true }
   cites: [ws-1982-03-31-religion-document]
+
+- id: 1980-08-26-guangdong-sez
+  date: 1980-08-26
+  title: 《广东省经济特区条例》批准：深圳、珠海、汕头
+  lane: econ
+  weight: 2
+  place: 广东深圳
+  summary: 五届人大常委会第十五次会议批准《广东省经济特区条例》，在深圳、珠海、汕头三市划出区域设置经济特区，鼓励外商、华侨、港澳同胞投资设厂或合资兴办企业。特区企业所得税率为 15%；客商可以雇用外籍人员；特区企业雇用的职工由企业考核录用，签订劳动合同，“必要时可以解雇”。土地仍为国家所有，客商用地按年限缴纳使用费。
+  voices:
+    - { voice: doc, text: 在广东省深圳、珠海、汕头三市分别划出一定区域，设置经济特区, cite: ws-1980-08-26-guangdong-sez, quote: true }
+    - { voice: doc, text: 特区企业雇用的职工，由该企业按其经营的要求进行管理，必要时可以解雇, cite: ws-1980-08-26-guangdong-sez, quote: true }
+  cites: [ws-1980-08-26-guangdong-sez]
+
+- id: 1982-08-17-us-communique
+  date: 1982-08-17
+  title: 中美“八一七公报”：美国售台武器“逐步减少”
+  lane: intl
+  weight: 2
+  summary: 继 1972 年上海公报和 1979 年建交公报之后，中美联合公报承认售台武器问题在建交谈判中“没有得到解决”。美国政府声明不寻求长期向台湾出售武器的政策，售台武器在性能和数量上不超过建交后近几年的水平，准备逐步减少，“经过一段时间导致最后的解决”。中方重申台湾问题是中国内政，援引 1979 年《告台湾同胞书》和 1981 年九点方针。
+  voices:
+    - { voice: doc, text: 美国向台湾出售武器的问题在两国谈判建交的过程中没有得到解决, cite: ws-1982-08-17-us-communique, quote: true }
+    - { voice: doc, text: 它准备逐步减少它对台湾的武器出售，并经过一段时间导致最后的解决, cite: ws-1982-08-17-us-communique, quote: true }
+  cites: [ws-1982-08-17-us-communique]

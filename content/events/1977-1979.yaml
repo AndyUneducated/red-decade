@@ -315,3 +315,27 @@
     - { voice: doc, text: 要注意招收一九六六、一九六七两届高中毕业生, cite: ws-1977-10-college-admissions, quote: true }
     - { voice: doc, text: 他们把交“白卷”的假典型、反革命小丑张铁生树为样板，反对无产阶级选拔学生的标准，反对招生进行文化考查, cite: ws-1977-10-college-admissions, quote: true }
   cites: [ws-1977-10-college-admissions]
+
+- id: 1979-01-17-kmt-notice-6
+  date: 1979-01-17
+  title: 中发〔1979〕6 号：国民党起义投诚人员“一律摘掉”历史反革命帽子
+  lane: center
+  weight: 2
+  summary: 中共中央转发统战部、调查部、最高法院、公安部、民政部、总政治部的请示报告。报告说林彪、“四人帮”期间对起义投诚人员强加“假起义、真潜伏”等罪名，有的被害致死、受刑致残，不少人被戴上历史反革命分子帽子，判刑、关押、劳改、管制或开除公职、强令回乡，家属子女受株连。报告规定帽子一律摘掉、撤销原判、释放被关押者；文革期间被开除公职的补发工资，文革前处理的不补发；文革中查抄的财物退还。中央通知把这项工作与“台湾归回祖国”联系起来。
+  voices:
+    - { voice: officialLater, text: 对起义、投诚人员强加以“假起义、真潜伏”等罪名，制造了许多冤案、假案、错案, cite: ws-1979-01-17-cc-notice-6, quote: true }
+    - { voice: officialLater, text: 凡因历史问题或主要因历史问题而被戴上历史反革命分子帽子或其他帽子的，一律摘掉, cite: ws-1979-01-17-cc-notice-6, quote: true }
+    - { voice: officialLater, text: 文化大革命前处理的，不补发工资，其中生活特别困难的，应给予必要的补助。文化大革命期间处理的，补发工资, cite: ws-1979-01-17-cc-notice-6, quote: true }
+  cites: [ws-1979-01-17-cc-notice-6]
+
+- id: 1979-07-01-criminal-law
+  date: 1979-07-01
+  title: 《刑法》通过：分则第一章“反革命罪”，禁止用大字报侮辱诽谤
+  lane: center
+  weight: 2
+  summary: 五届人大二次会议通过《中华人民共和国刑法》，自 1980 年 1 月 1 日起生效。分则第一章是“反革命罪”，第一百零二条把“以反革命为目的”煽动抗拒法律实施、以标语传单宣传煽动推翻无产阶级专政政权列为犯罪。同时，第一百三十八条“严禁用任何方法、手段诬告陷害干部、群众”，第一百四十五条把用“大字报”“小字报”公然侮辱、诽谤他人列为犯罪。
+  voices:
+    - { voice: doc, text: 严禁用任何方法、手段诬告陷害干部、群众, cite: ws-1979-07-01-criminal-law, quote: true }
+    - { voice: doc, text: 以暴力或者其他方法，包括用＂大字报＂、＂小字报＂，公然侮辱他人或者捏造事实诽谤他人, cite: ws-1979-07-01-criminal-law, quote: true }
+    - { voice: doc, text: 以反革命为目的，进行下列行为之一的, cite: ws-1979-07-01-criminal-law, quote: true }
+  cites: [ws-1979-07-01-criminal-law]

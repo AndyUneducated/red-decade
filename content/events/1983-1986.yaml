@@ -448,3 +448,48 @@
   voices:
     - { voice: doc, text: 国家实行九年制义务教育, cite: ws-1986-04-12-compulsory-education, quote: true }
   cites: [ws-1986-04-12-compulsory-education]
+
+- id: 1985-05-24-pork-prices-freed
+  date: 1985-05-24
+  title: 价格改革：生猪、猪肉价格放开
+  lane: econ
+  weight: 2
+  summary: 国家物价局向国务院报告 1985 年价格改革方案的出台情况：截至 5 月 20 日各地生猪收购价格均已放开，二十六个省区市放开猪肉销售价；全国平均指导性收购价每斤约八角三分，比原牌价升二角，猪肉销售价约一元三角八分，升三角七分。牛、羊、禽、蛋、水产品和大中城市蔬菜价格也已放开，对城镇非农业人口发价格补贴。报告同时承认一些地方“乘机乱涨价的歪风没有刹住”，部分城市菜价高，要求开展物价大检查。国务院以国发〔1985〕75 号批转。
+  voices:
+    - { voice: doc, text: 截止五月二十日，各地生猪收购价格均已放开, cite: ws-1985-price-reform-report, quote: true }
+    - { voice: doc, text: 存在多年的鲜活副食品流通渠道单一、价格统得过死、经营大量亏损等不合理局面，已开始改变, cite: ws-1985-price-reform-report, quote: true }
+    - { voice: doc, text: 有的地方乘机乱涨价的歪风没有刹住，一些工业品涨价的趋势仍在发展, cite: ws-1985-price-reform-report, quote: true }
+  cites: [ws-1985-price-reform-report]
+
+- id: 1986-03-21-price-work
+  date: 1986-03-21
+  title: 1986 年物价工作意见：零售物价“必须基本稳定”
+  lane: econ
+  weight: 1
+  summary: 国务院办公厅转发国家物价局 1986 年物价工作意见。意见把“零售物价总水平必须基本稳定”列为第一条，规定轻工主要原材料继续执行国家定价，各项财政补贴 1986 年继续执行，“不得因减少补贴而提高价格”，必要时对集市价格规定最高限价。轻工原材料一条直接援引 1985 年 75 号文件。
+  voices:
+    - { voice: doc, text: 零售物价总水平必须基本稳定, cite: ws-1986-price-work, quote: true }
+    - { voice: doc, text: 一九八六年继续执行，不得因减少补贴而提高价格, cite: ws-1986-price-work, quote: true }
+  cites: [ws-1986-price-work]
+
+- id: 1986-12-02-bankruptcy-law
+  date: 1986-12-02
+  title: 《企业破产法（试行）》：全民所有制企业可以破产
+  lane: econ
+  weight: 1
+  summary: 六届人大常委会第十八次会议通过《企业破产法（试行）》。法律只适用于全民所有制企业，立法目的写作适应“有计划的商品经济”、促进全民所有制企业自主经营；企业被宣告破产后，由人民法院成立清算组接管。
+  voices:
+    - { voice: doc, text: 为了适应社会主义有计划的商品经济发展和经济体制改革的需要，促进全民所有制企业自主经营, cite: ws-1986-12-02-bankruptcy-law, quote: true }
+    - { voice: doc, text: 本法适用于全民所有制企业, cite: ws-1986-12-02-bankruptcy-law, quote: true }
+  cites: [ws-1986-12-02-bankruptcy-law]
+
+- id: 1986-12-02-election-law
+  date: 1986-12-02
+  title: 选举法修改：十人联名可推荐候选人，差额三分之一至一倍
+  lane: center
+  weight: 1
+  summary: 同次会议修改选举法：选民或代表十人以上联名可以推荐代表候选人；直接选举的候选人名额应多于应选名额三分之一至一倍，间接选举多五分之一至二分之一；正式候选人名单由选民小组“反复酝酿、讨论、协商”后确定；选举日必须停止介绍候选人。修改发布于合肥、北京等地学生上街的同一个月。
+  voices:
+    - { voice: doc, text: 选民或者代表，十人以上联名，也可以推荐代表候选人, cite: ws-1986-12-02-election-law-amendment, quote: true }
+    - { voice: doc, text: 由选民直接选举的代表候选人名额，应多于应选代表名额三分之一至一倍, cite: ws-1986-12-02-election-law-amendment, quote: true }
+  cites: [ws-1986-12-02-election-law-amendment]

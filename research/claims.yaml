@@ -965,3 +965,15 @@
   events: [1987-04-03-xintian-report, 1987-05-20-jianghua-report, 1987-11-30-daoxian-report]
   concepts: [class-struggle]
   logged: 2026-10-13
+
+- id: C061
+  statement: 同一句“宜粗不宜细”在两个层面上被援引：1985 年零陵地委用它决定道县杀人追究多少人，1988 年中宣部、新闻出版署用它决定“文革”历史出版多少。前者限制处分，后者限制叙述。
+  status: supported
+  method: 全库检索“宜粗不宜细”，对照两份文件援引这一原则时所规定的具体措施。
+  evidence:
+    - { cite: ccrd-1985-hn-lingling-daoxian-13, quote: 坚持宜粗不宜细，宜宽不宜严，宜少不宜多的原则 }
+    - { cite: ws-1988-cr-books-rules, quote: 根据中央团结一致向前看，历史问题宜粗不宜细的一贯精神 }
+    - { cite: ws-1988-cr-books-rules, quote: 有关“文化大革命”的辞典等工具书，今后相当时期内，各出版社均不得安排 }
+  caveats: 本库没有收录这一提法最早的出处；1988 年规定称之为中央的“一贯精神”，只说明它在 1985–1988 年被当作既定原则使用。
+  events: [1985-03-28-lingling-principles, 1988-cr-books-rules]
+  logged: 2026-10-13
