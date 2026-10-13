@@ -4,7 +4,7 @@ import { AXES, describe, ismColor } from '../../lib/isms'
 import { page as pageDef } from '../../pages'
 import { useApp } from '../../state'
 import { Cite, Entity, PersonChip, Voices } from '../bits'
-import { highlight } from './lists'
+import { ClaimLinks, highlight } from './lists'
 
 function IsmChips({ title, list }: { title: string; list: string[] }) {
   const { ix } = useApp()
@@ -137,6 +137,7 @@ export function IsmCard({ id }: { id: string }) {
           </div>
         </section>
       )}
+      <ClaimLinks on="ism" id={id} />
     </>
   )
 }

@@ -162,6 +162,8 @@ export function check(d: Data) {
     c.people.forEach((id) => need(ids.person, id, `claim ${c.id}`))
     c.concepts.forEach((id) => need(ids.concept, id, `claim ${c.id}`))
     c.events.forEach((id) => need(ids.event, id, `claim ${c.id}`))
+    c.isms.forEach((id) => need(ids.ism, id, `claim ${c.id}`))
+    c.factions.forEach((id) => need(ids.faction, id, `claim ${c.id}`))
     c.evidence.forEach((e) => needCite(e.cite, `claim ${c.id}`))
   }
   for (const f of d.figures) {

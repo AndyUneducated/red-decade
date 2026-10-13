@@ -13,6 +13,8 @@ export type OrgLinkIn = { org: Org; link: Org['links'][number] }
 export type EntityType = 'person' | 'event' | 'concept' | 'doc' | 'faction' | 'claim' | 'org' | 'ism'
 // sub narrows a selection, e.g. a concept within one source document
 export type Ref = { type: EntityType; id: string; sub?: string }
+export type Claim = Atlas['claims'][number]
+export type ClaimTarget = 'person' | 'event' | 'concept' | 'ism' | 'faction' | 'org'
 
 export type Index = Atlas & {
   person: Map<string, Person>
@@ -35,6 +37,7 @@ export type Index = Atlas & {
   childrenOf: Map<string, OrgEdge[]>
   linksInto: Map<string, OrgLinkIn[]>
   orgsByFaction: Map<string, Org[]>
+  claimsBy: Record<ClaimTarget, Map<string, Claim[]>>
   primaryFaction: (p: Person) => Faction | undefined
 }
 
@@ -75,6 +78,16 @@ export function indexAtlas(atlas: Atlas): Index {
     for (const p of m.parents) push(ismChildren, p, m)
     for (const a of m.against) push(ismOpposed, a, m)
   }
+  // claims are tagged explicitly, except orgs: a claim concerns an org when its statement names it
+  const claimsBy: Index['claimsBy'] = { person: new Map(), event: new Map(), concept: new Map(), ism: new Map(), faction: new Map(), org: new Map() }
+  for (const c of atlas.claims) {
+    c.people.forEach((id) => push(claimsBy.person, id, c))
+    c.events.forEach((id) => push(claimsBy.event, id, c))
+    c.concepts.forEach((id) => push(claimsBy.concept, id, c))
+    c.isms.forEach((id) => push(claimsBy.ism, id, c))
+    c.factions.forEach((id) => push(claimsBy.faction, id, c))
+    for (const id of mentions(c.statement)) push(claimsBy.org, id, c)
+  }
   return {
     ...atlas,
     person: by(atlas.people),
@@ -96,6 +109,7 @@ export function indexAtlas(atlas: Atlas): Index {
     childrenOf,
     linksInto,
     orgsByFaction,
+    claimsBy,
     primaryFaction: (p) => faction.get(p.factions[0]),
   }
 }

@@ -274,7 +274,6 @@ function Profile({ id }: { id: string }) {
   const x = d3.scaleLinear().domain([start, end]).range([0, mainW])
   const ticks = x.ticks(Math.max(3, Math.floor(mainW / 90))).filter((y) => Number.isInteger(y))
   const events = ix.eventsByPerson.get(id) ?? []
-  const claims = ix.claims.filter((c) => c.people.includes(id))
   const names = (p.aka ?? []).map((a) => `${ALIAS_KINDS[a.kind]}${a.name}`)
   const place = p.birthplace ?? p.origin
   const rels = ix.relationsByPerson.get(id) ?? []
@@ -465,7 +464,7 @@ function Profile({ id }: { id: string }) {
                   <EventList events={events} />
                 </section>
               )}
-              {claims.length > 0 && <ClaimLinks ids={claims.map((c) => c.id)} />}
+              <ClaimLinks on="person" id={id} />
             </aside>
           </div>
         </div>

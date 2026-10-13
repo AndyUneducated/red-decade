@@ -1,5 +1,5 @@
 // Lists shared by the drawer cards and the full pages (people, orgs).
-import { relationActive } from '../../data/atlas'
+import { relationActive, type ClaimTarget } from '../../data/atlas'
 import { RELATION_TYPES, STATUSES, type Person } from '../../data/schema'
 import { fmtDate, toT } from '../../lib/dates'
 import { useApp } from '../../state'
@@ -70,17 +70,19 @@ export function EventList({ events }: { events: { id: string; date: string; titl
   )
 }
 
-export function ClaimLinks({ ids }: { ids: string[] }) {
+export function ClaimLinks({ on, id }: { on: ClaimTarget; id: string }) {
   const { ix, select } = useApp()
+  const claims = ix.claimsBy[on].get(id) ?? []
+  if (!claims.length) return null
   return (
     <section>
       <h3>本站研究结论</h3>
       <ul className="minilist">
-        {ids.map((id) => (
-          <li key={id}>
-            <button className="linklike" onClick={() => select({ type: 'claim', id })}>
-              <span style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--muted)', marginRight: 6 }}>{id}</span>
-              {ix.claim.get(id)!.statement.slice(0, 64)}…
+        {claims.map((c) => (
+          <li key={c.id}>
+            <button className="linklike" onClick={() => select({ type: 'claim', id: c.id })}>
+              <span style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--muted)', marginRight: 6 }}>{c.id}</span>
+              {c.statement.slice(0, 64)}…
             </button>
           </li>
         ))}

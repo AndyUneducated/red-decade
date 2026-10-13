@@ -8,7 +8,6 @@ export function EventCard({ id }: { id: string }) {
   const { ix } = useApp()
   const e = ix.event.get(id)
   if (!e) return null
-  const claims = ix.claims.filter((c) => c.events.includes(id))
   return (
     <>
       <header>
@@ -58,7 +57,7 @@ export function EventCard({ id }: { id: string }) {
           </div>
         </section>
       )}
-      {claims.length > 0 && <ClaimLinks ids={claims.map((c) => c.id)} />}
+      <ClaimLinks on="event" id={id} />
     </>
   )
 }

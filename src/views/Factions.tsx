@@ -1,6 +1,7 @@
 import * as d3 from 'd3'
 import { useMemo, useRef, type CSSProperties } from 'react'
 import { Cite, StatusDot } from '../components/bits'
+import { ClaimLinks } from '../components/drawer/lists'
 import { PageTitle } from '../components/PageTitle'
 import { LifeStrip } from '../components/LifeStrip'
 import { LONG_MARKS, Scrubber } from '../components/Scrubber'
@@ -218,6 +219,7 @@ function FactionDetail({ f }: { f: Faction }) {
           </div>
         </section>
       )}
+      <ClaimLinks on="faction" id={f.id} />
     </div>
   )
 }

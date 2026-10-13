@@ -449,6 +449,8 @@ export const ClaimSchema = z.object({
   people: z.array(z.string()).default([]),
   concepts: z.array(z.string()).default([]),
   events: z.array(z.string()).default([]),
+  isms: z.array(z.string()).default([]),
+  factions: z.array(z.string()).default([]),
   logged: PartialDate,
   history: z.array(z.object({ date: PartialDate, note: z.string() })).default([]),
 })

@@ -3,6 +3,7 @@ import { fmtRange } from '../../lib/dates'
 import { detailPage, page as pageDef } from '../../pages'
 import { useApp } from '../../state'
 import { Cite, Entity, PersonChip, StatusDot } from '../bits'
+import { ClaimLinks } from './lists'
 
 export function FactionCard({ id }: { id: string }) {
   const { ix, t, open } = useApp()
@@ -54,6 +55,7 @@ export function FactionCard({ id }: { id: string }) {
           ))}
         </ul>
       </section>
+      <ClaimLinks on="faction" id={id} />
     </>
   )
 }

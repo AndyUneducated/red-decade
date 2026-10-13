@@ -3,6 +3,7 @@ import { fmtDate, fmtRange, fmtT, toT } from '../../lib/dates'
 import { existsAt, isHead, parentAt, suspendedAt, within } from '../../lib/orgs'
 import { useApp } from '../../state'
 import { Cite, Entity, PersonChip, Verify } from '../bits'
+import { ClaimLinks } from './lists'
 
 export function OrgCard({ id }: { id: string }) {
   const { ix, t, openOrg } = useApp()
@@ -62,6 +63,7 @@ export function OrgCard({ id }: { id: string }) {
           <Entity refTo={{ type: 'org', id: parent }} />
         </section>
       )}
+      <ClaimLinks on="org" id={id} />
     </>
   )
 }

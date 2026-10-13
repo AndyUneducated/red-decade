@@ -10,7 +10,6 @@ export function ConceptCard({ id, sub: doc }: { id: string; sub?: string }) {
   const c = ix.concept.get(id)
   if (!c) return null
   const events = ix.events.filter((e) => e.concepts.includes(id))
-  const claims = ix.claims.filter((cl) => cl.concepts.includes(id))
   const total = c.hits.reduce((s, h) => s + h.count, 0)
   const hits = doc ? c.hits.filter((h) => h.source === doc) : c.hits
   return (
@@ -69,7 +68,7 @@ export function ConceptCard({ id, sub: doc }: { id: string; sub?: string }) {
           <EventList events={events} />
         </section>
       )}
-      {claims.length > 0 && <ClaimLinks ids={claims.map((c) => c.id)} />}
+      <ClaimLinks on="concept" id={id} />
     </>
   )
 }

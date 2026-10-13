@@ -13,7 +13,6 @@ export function PersonCard({ id }: { id: string }) {
   if (!p) return null
   const events = ix.eventsByPerson.get(id) ?? []
   const rels = ix.relationsByPerson.get(id) ?? []
-  const claims = ix.claims.filter((c) => c.people.includes(id))
   const now = statusAt(p, t)
   return (
     <>
@@ -78,7 +77,7 @@ export function PersonCard({ id }: { id: string }) {
           <EventList events={events} />
         </section>
       )}
-      {claims.length > 0 && <ClaimLinks ids={claims.map((c) => c.id)} />}
+      <ClaimLinks on="person" id={id} />
     </>
   )
 }
