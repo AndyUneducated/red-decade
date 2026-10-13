@@ -1,0 +1,188 @@
+# M5-1 中文原文（维基文库）第 6 批：三评至六评与八评、陶里亚蒂与多列士两篇、《列宁主义万岁》、劳动教养、
+# 劳动保险、领海声明、1960–1964 年四次特赦战犯、中缅边界、中朝条约、统一财经、禁烟、日本战犯、治安处罚、
+# 1953 年选举法与召开人大决议、工资改革、逮捕拘留条例、1956 年最高法院报告。
+# 法规页面的 header 常被“1987 年清理”模板覆盖成 1987 年，日期按正文题注与落款核对。
+# 《列宁主义万岁》header 写 4 月 19 日，来源只注“红旗”，未写期号，只记到月。
+# 《1956年最高人民法院工作报告》header 是 1957 年 3 月 9 日，向全国人大常委会所作，id 按报告日期。
+# 公安部清理劳教右派的通知 header 是 1961 年 11 月 9 日（正文引 1961 年 10 月 28 日中央指示）。
+wikisource:
+  - id: ws-1963-09-26-third-comment
+    title: 南斯拉夫是社会主义国家吗？
+    date: 1963-09-26
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 南斯拉夫是社会主义国家吗？——三评苏共中央的公开信
+  - id: ws-1963-10-22-fourth-comment
+    title: 新殖民主义的辩护士
+    date: 1963-10-22
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 新殖民主义的辩护士——四评苏共中央的公开信
+  - id: ws-1963-11-19-fifth-comment
+    title: 在战争与和平问题上的两条路线
+    date: 1963-11-19
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 在战争与和平问题上的两条路线——五评苏共中央的公开信
+  - id: ws-1963-12-12-sixth-comment
+    title: 两种根本对立的和平共处政策
+    date: 1963-12-12
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 两种根本对立的和平共处政策——六评苏共中央的公开信
+  - id: ws-1964-03-31-eighth-comment
+    title: 无产阶级革命和赫鲁晓夫修正主义
+    date: 1964-03-31
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 无产阶级革命和赫鲁晓夫修正主义——八评苏共中央的公开信
+  - id: ws-1962-12-31-togliatti
+    title: 陶里亚蒂同志同我们的分歧
+    date: 1962-12-31
+    author: 人民日报
+    kind: editorial
+    alias: 陶里亚蒂同志同我们的分歧（1962）
+  - id: ws-1963-02-27-thorez
+    title: 分歧从何而来？——答多列士等同志
+    date: 1963-02-27
+    author: 人民日报
+    kind: editorial
+    alias: 分歧从何而来？——答多列士等同志（1963）
+  - id: ws-1963-01-27-unite-moscow
+    title: 在莫斯科宣言和莫斯科声明的基础上团结起来
+    date: 1963-01-27
+    author: 人民日报
+    kind: editorial
+    alias: 在莫斯科宣言和莫斯科声明的基础上团结起来（1963）
+  - id: ws-1960-04-long-live-leninism
+    title: 列宁主义万岁
+    date: 1960-04
+    author: 红旗杂志编辑部
+    kind: editorial
+    alias: 列宁主义万岁（1960）
+  - id: ws-1957-08-03-reeducation-decision
+    title: 国务院关于劳动教养问题的决定
+    date: 1957-08-03
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于劳动教养问题的决定（1957）
+  - id: ws-1957-08-01-reeducation-approval
+    title: 全国人民代表大会常务委员会批准国务院关于劳动教养问题的决定的决议
+    date: 1957-08-01
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会批准劳动教养决定的决议（1957）
+  - id: ws-1961-11-09-reeducation-rightists
+    title: 公安部关于清理劳动教养的右派分子的通知
+    date: 1961-11-09
+    author: 公安部
+    kind: party-doc
+    alias: 公安部关于清理劳动教养的右派分子的通知
+  - id: ws-1951-02-26-labor-insurance
+    title: 中華人民共和國勞動保險條例 (1951年)
+    date: 1951-02-26
+    author: 政务院
+    kind: party-doc
+    alias: 中华人民共和国劳动保险条例（1951）
+  - id: ws-1958-09-04-territorial-sea
+    title: 中华人民共和国政府关于领海的声明
+    date: 1958-09-04
+    author: 中华人民共和国政府
+    kind: party-doc
+    alias: 中华人民共和国政府关于领海的声明（1958）
+  - id: ws-1960-11-19-amnesty-2
+    title: 全国人民代表大会常务委员会关于特赦确实改恶从善的蒋介石集团和伪满洲国的战争罪犯的决定 (1960年)
+    date: 1960-11-19
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会特赦战争罪犯的决定（1960）
+  - id: ws-1961-12-16-amnesty-3
+    title: 全国人民代表大会常务委员会关于特赦确实改恶从善的蒋介石集团和伪满洲国的战争罪犯的决定 (1961年)
+    date: 1961-12-16
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会特赦战争罪犯的决定（1961）
+  - id: ws-1963-03-30-amnesty-4
+    title: 全国人民代表大会常务委员会关于特赦确实改恶从善的蒋介石集团、伪满洲国和伪蒙疆自治政府的战争罪犯的决定 (1963年)
+    date: 1963-03-30
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会特赦战争罪犯的决定（1963）
+  - id: ws-1964-12-12-amnesty-5
+    title: 全国人民代表大会常务委员会关于特赦确实改恶从善的蒋介石集团、伪满洲国和伪蒙疆自治政府的战争罪犯的决定 (1964年)
+    date: 1964-12-12
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会特赦战争罪犯的决定（1964）
+  - id: ws-1960-10-01-burma-boundary
+    title: 中华人民共和国和缅甸联邦边界条约
+    date: 1960-10-01
+    author: 中华人民共和国主席、缅甸联邦总统
+    kind: party-doc
+    alias: 中华人民共和国和缅甸联邦边界条约（1960）
+  - id: ws-1957-07-09-zhou-burma-report
+    title: 关于中緬边界問題的报告
+    date: 1957-07-09
+    author: 周恩来
+    kind: speech
+    alias: 周恩来关于中缅边界问题的报告（1957）
+  - id: ws-1961-07-11-korea-treaty
+    title: 中朝友好合作互助条约
+    date: 1961-07-11
+    author: 中华人民共和国、朝鲜民主主义人民共和国
+    kind: party-doc
+    alias: 中朝友好合作互助条约（1961）
+  - id: ws-1950-03-03-unify-finance
+    title: 中央人民政府政务院关于统一国家财政经济工作的决定
+    date: 1950-03-03
+    author: 政务院
+    kind: party-doc
+    alias: 政务院关于统一国家财政经济工作的决定（1950）
+  - id: ws-1950-02-24-opium-ban
+    title: 關於嚴禁鴉片煙毒的通令
+    date: 1950-02-24
+    author: 政务院
+    kind: party-doc
+    alias: 政务院关于严禁鸦片烟毒的通令（1950）
+  - id: ws-1956-04-25-japanese-war-criminals
+    title: 中华人民共和国全国人民代表大会常务委员会关于处理在押日本侵略中国战争中战争犯罪分子的决定
+    date: 1956-04-25
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会关于处理在押日本战争犯罪分子的决定（1956）
+  - id: ws-1957-10-22-public-security-penalties
+    title: 中华人民共和国治安管理处罚条例 (1957年)
+    date: 1957-10-22
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 中华人民共和国治安管理处罚条例（1957）
+  - id: ws-1953-02-11-electoral-law
+    title: 中華人民共和國全國人民代表大會及地方各級人民代表大會選舉法
+    date: 1953-02-11
+    author: 中央人民政府委员会
+    kind: party-doc
+    alias: 全国人民代表大会及地方各级人民代表大会选举法（1953）
+  - id: ws-1953-01-13-convene-npc
+    title: 中央人民政府委員會關於召開全國人民代表大會及地方各級人民代表大會的決議
+    date: 1953-01-13
+    author: 中央人民政府委员会
+    kind: party-doc
+    alias: 中央人民政府委员会关于召开全国人民代表大会及地方各级人民代表大会的决议（1953）
+  - id: ws-1956-06-16-wage-reform
+    title: 国务院关于工资改革的决定
+    date: 1956-06-16
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于工资改革的决定（1956）
+  - id: ws-1954-12-20-arrest-detention
+    title: 中華人民共和國逮捕拘留條例 (1954年)
+    date: 1954-12-20
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 中华人民共和国逮捕拘留条例（1954）
+  - id: ws-1957-03-09-supreme-court-report
+    title: 1956年中華人民共和國最高人民法院工作報告
+    date: 1957-03-09
+    author: 董必武
+    kind: speech
+    alias: 1956 年最高人民法院工作报告（董必武）
