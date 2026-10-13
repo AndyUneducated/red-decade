@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { SOURCE_KINDS } from '../../data/schema'
 import { fmtDate } from '../../lib/dates'
 import { useApp } from '../../state'
+import { DocCitations } from './InsightNotes'
 
 const TIER_LABEL: Record<number, string> = { 1: '一手文献', 2: '官方整理', 3: '亲历者', 4: '研究与资料库' }
 const ACCESS = { unread: '未读', partial: '读了一部分', read: '已读' }
@@ -53,6 +54,7 @@ export function DocCard({ id, sub: loc }: { id: string; sub?: string }) {
         </div>
         {!s.hasText && <p className="sub-note">本站未收全文{s.access ? `（阅读状态：${ACCESS[s.access]}）` : ''}。</p>}
       </section>
+      <DocCitations id={id} />
     </>
   )
 }

@@ -2,6 +2,7 @@ import { LANES } from '../../data/schema'
 import { fmtRange } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Cite, Entity, PersonChip, Verify, Voices } from '../bits'
+import { EventVoices } from './InsightNotes'
 import { ClaimLinks } from './lists'
 
 export function EventCard({ id }: { id: string }) {
@@ -57,6 +58,7 @@ export function EventCard({ id }: { id: string }) {
           </div>
         </section>
       )}
+      <EventVoices id={id} />
       <ClaimLinks on="event" id={id} />
     </>
   )

@@ -3475,3 +3475,8 @@ h2.sec {
   font: inherit;
   cursor: pointer;
 }
+
+/* an insight page summarised inside a card or entity page */
+.insight-note h3 { display: flex; gap: 10px; align-items: baseline; }
+.insight-note h3 .linklike { letter-spacing: 0; font-weight: 400; text-transform: none; }
+.insight-note p { margin: 0 0 6px; }

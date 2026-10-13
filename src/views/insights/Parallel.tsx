@@ -1,12 +1,12 @@
 import * as d3 from 'd3'
 import { useMemo, useRef } from 'react'
 import { LifeStrip } from '../../components/LifeStrip'
-import { lifeDistance, yearCodes } from '../../derive/fates'
+import { lifeCodes } from '../../components/drawer/InsightNotes'
+import { lifeDistance, nearest } from '../../derive/fates'
 import { useSize } from '../../lib/useSize'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
 
-const YEARS = d3.range(1960, 1986)
 // 1960–1966: the years before the Cultural Revolution that two lives must share to count as one starting point
 const EARLY = 7
 const DEFAULT = 'liu-shaoqi'
@@ -17,19 +17,13 @@ export function Parallel() {
   const { ix, sel, select } = useApp()
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
-  const codes = useMemo(() => new Map(ix.people.filter((p) => p.fate.length >= 2).map((p) => [p.id, yearCodes(p, YEARS)])), [ix])
+  const codes = lifeCodes(ix)
   const id = sel?.type === 'person' && codes.has(sel.id) ? sel.id : DEFAULT
   const { near, split } = useMemo(() => {
     const me = codes.get(id)
     if (!me) return { near: [], split: [] }
     const others = [...codes].filter(([o]) => o !== id)
-    const near = others
-      .flatMap(([o, c]): Match[] => {
-        const d = lifeDistance(me, c)
-        return d === undefined ? [] : [{ id: o, d }]
-      })
-      .sort((a, b) => a.d - b.d)
-      .slice(0, 8)
+    const near = nearest(codes, id, 8)
     const split = others
       .flatMap(([o, c]): Match[] => {
         const early = lifeDistance(me.slice(0, EARLY), c.slice(0, EARLY), 5)

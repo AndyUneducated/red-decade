@@ -16,7 +16,8 @@ type State = Route & { entry: string }
 
 type Ctx = State & {
   ix: Index
-  go: (page: PageId, param?: string) => void
+  // sel, when given, is selected in the same history entry
+  go: (page: PageId, param?: string, sel?: Ref) => void
   // selecting what the drawer already shows closes it, so a second click on a link works as a toggle;
   // force keeps it open (search results, programmatic jumps)
   select: (ref?: Ref, force?: boolean) => void
@@ -94,7 +95,7 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
     return {
       ...state,
       ix,
-      go: (page, param) => update({ page, param }),
+      go: (page, param, sel) => update(sel ? { page, param, sel } : { page, param }),
       select: (sel, force) =>
         update({
           sel: !force && sel && state.sel && sel.type === state.sel.type && sel.id === state.sel.id && sel.sub === state.sel.sub ? undefined : sel,

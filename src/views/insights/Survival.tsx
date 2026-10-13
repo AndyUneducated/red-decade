@@ -1,19 +1,14 @@
 import * as d3 from 'd3'
 import { useMemo, useState } from 'react'
 import { PersonChip, StatusDot } from '../../components/bits'
+import { FALLS, SURVIVAL_T0 as T0, SURVIVAL_T1 as T1 } from '../../components/drawer/InsightNotes'
 import { factionAt } from '../../data/atlas'
-import { STATUSES, type Faction, type Person, type Status } from '../../data/schema'
+import { STATUSES, type Faction, type Person } from '../../data/schema'
 import { kaplanMeier, survivalSubject, type Subject } from '../../derive/fates'
 import { fmtT, toT } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
 
-const T0 = toT('1965-11')
-const T1 = toT('1978-12', true)
-const FALLS: Record<'strict' | 'wide', ReadonlySet<Status>> = {
-  strict: new Set(['purged', 'detained']),
-  wide: new Set(['attacked', 'sidelined', 'purged', 'detained']),
-}
 const MIN_N = 5
 const W = 220
 const H = 112

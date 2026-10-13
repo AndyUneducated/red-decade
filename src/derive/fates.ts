@@ -73,6 +73,19 @@ export function lifeDistance(a: Code[], b: Code[], min = 10): number | undefined
   return n >= min ? d / n : undefined
 }
 
+// the k lives closest to `id`, closest first
+export function nearest(codes: Map<string, Code[]>, id: string, k: number): { id: string; d: number }[] {
+  const me = codes.get(id)
+  if (!me) return []
+  return [...codes]
+    .flatMap(([o, c]) => {
+      const d = o === id ? undefined : lifeDistance(me, c)
+      return d === undefined ? [] : [{ id: o, d }]
+    })
+    .sort((a, b) => a.d - b.d)
+    .slice(0, k)
+}
+
 // Kaplan–Meier: the share still standing after each fall, counting only those still observed at that time
 export function kaplanMeier(xs: Subject[], t0: number): { t: number; s: number; atRisk: number; fell: number }[] {
   const out = [{ t: t0, s: 1, atRisk: xs.length, fell: 0 }]
