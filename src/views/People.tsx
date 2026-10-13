@@ -7,8 +7,9 @@ import { Footprint } from '../components/Footprint'
 import { LifeStrip } from '../components/LifeStrip'
 import { PersonFacts, PositionList } from '../components/PersonFacts'
 import { Portrait } from '../components/Portrait'
+import { LONG_MARKS, Scrubber } from '../components/Scrubber'
 import { statusAt } from '../data/atlas'
-import { ALIAS_KINDS, DEATH_KINDS, STATUSES, VOICES, type Person, type PersonQuote } from '../data/schema'
+import { ALIAS_KINDS, DEATH_KINDS, STATUSES, VOICES, type Person, type PersonQuote, type Status } from '../data/schema'
 import { fmtDate, fmtRange, fmtT, lifespan, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
 import { useApp, useHistoryState } from '../state'
@@ -19,6 +20,13 @@ const TICKS = [1900, 1920, 1949, 1966, 1976, 1989]
 
 const GROUPS = { faction: '按派系', birth: '按出生年代', end: '按结局' } as const
 type Group = keyof typeof GROUPS
+
+// the scrubber covers the working lives in the register rather than the whole 1880–2010 strip
+const S0 = 1900
+const S1 = 1990
+
+// a recorded death date counts even where the fate line has no 'dead' node
+const statusNow = (p: Person, t: number): Status | undefined => (p.died && toT(p.died) <= t ? 'dead' : statusAt(p, t))
 
 export function People() {
   const { doc } = useApp()
@@ -88,6 +96,8 @@ function Directory() {
   const { width } = useSize(wrap)
   const [group, setGroup] = useHistoryState<Group>('people.group', 'faction')
   const [q, setQ] = useHistoryState('people.q', '')
+  const [alive, setAlive] = useHistoryState('people.alive', false)
+  const [st, setSt] = useHistoryState<Status | undefined>('people.status', undefined)
 
   const narrow = width > 0 && width < 760
   const nameW = narrow ? 116 : 150
@@ -96,10 +106,26 @@ function Directory() {
   const stripW = Math.max(160, width - nameW - roleW - 84)
   const x = useMemo(() => d3.scaleLinear().domain([T0, T1]).range([0, stripW]), [stripW])
 
+  const counts = useMemo(() => {
+    const m = new Map<Status, number>()
+    for (const p of ix.people) {
+      const s = statusNow(p, t)
+      if (s) m.set(s, (m.get(s) ?? 0) + 1)
+    }
+    return m
+  }, [ix, t])
+  const living = ix.people.filter((p) => {
+    const s = statusNow(p, t)
+    return s && s !== 'dead'
+  }).length
+
   const groups = useMemo(() => {
-    const list = ix.people.filter(
-      (p) => !q || [p.name, p.pinyin ?? '', p.role1966, ...(p.aka ?? []).map((a) => a.name)].some((s) => s.includes(q)),
-    )
+    const list = ix.people.filter((p) => {
+      if (q && ![p.name, p.pinyin ?? '', p.role1966, ...(p.aka ?? []).map((a) => a.name)].some((s) => s.includes(q))) return false
+      const s = statusNow(p, t)
+      if (alive && (!s || s === 'dead')) return false
+      return !st || s === st
+    })
     const key = (p: Person): [string, string] => {
       if (group === 'faction') {
         const f = ix.primaryFaction(p)
@@ -119,7 +145,8 @@ function Directory() {
     }
     for (const g of out.values()) g.people.sort((a, b) => a.tier - b.tier || (a.born ?? '').localeCompare(b.born ?? ''))
     return [...out.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([, g]) => g)
-  }, [ix, group, q])
+  }, [ix, group, q, alive, st, t])
+  const shown = groups.reduce((n, g) => n + g.people.length, 0)
 
   const full = ix.people.filter((p) => p.life.length >= 3).length
 
@@ -129,12 +156,15 @@ function Directory() {
         <div>
           <h1>人物</h1>
           <p>
-            每行一人，色带是一生的状态（{T0}–{T1} 同一时间轴）。点名字看完整传记。已完成完整传记 {full} / {ix.people.length} 人。
+            每行一人，色带是一生的状态（{T0}–{T1} 同一时间轴），红线是时间轴上的此刻。点名字看完整传记。已完成完整传记 {full} / {ix.people.length} 人；{fmtT(t, 'month')}在世 {living} 人。底部按此刻的状态计数，点一种状态只看这些人。
           </p>
         </div>
         <div className="spacer" />
         <div className="legend">
           <input className="field" value={q} onChange={(e) => setQ(e.target.value)} placeholder="筛选姓名、职务…" />
+          <button className="chip" aria-pressed={alive} onClick={() => setAlive((v) => !v)}>
+            只看此刻在世
+          </button>
           {(Object.keys(GROUPS) as Group[]).map((k) => (
             <button key={k} className="chip" aria-pressed={group === k} onClick={() => setGroup(k)}>
               {GROUPS[k]}
@@ -142,6 +172,7 @@ function Directory() {
           ))}
         </div>
       </div>
+      <Scrubber min={S0} max={S1} marks={LONG_MARKS} />
       <div className="canvas people-list" ref={wrap}>
         <div className="people-axis" style={{ paddingLeft: nameW + roleW + 36 }}>
           <svg width={stripW} height={16} style={{ display: 'block', overflow: 'visible' }}>
@@ -150,15 +181,17 @@ function Directory() {
                 {yr}
               </text>
             ))}
+            <path d={`M${x(t)},16l-4,-5h8z`} fill="var(--accent)" />
           </svg>
         </div>
+        {shown === 0 && <p className="muted-note">{fmtT(t, 'month')}没有符合条件的人物。</p>}
         {groups.map((g) => (
           <section key={g.label}>
             <h2 className="people-group">
               {g.label} <span>{g.people.length}</span>
             </h2>
             {g.people.map((p) => {
-              const now = statusAt(p, t)
+              const now = statusNow(p, t)
               return (
                 <button
                   key={p.id}
@@ -173,7 +206,7 @@ function Directory() {
                   </span>
                   {roleW > 0 ? <span className="role">{p.role1966}</span> : <span />}
                   <span className="strip">
-                    <LifeStrip p={p} x={x} T1={T1} width={stripW} height={10} />
+                    <LifeStrip p={p} x={x} T1={T1} width={stripW} height={10} t={t} />
                   </span>
                 </button>
               )
@@ -182,7 +215,7 @@ function Directory() {
         ))}
       </div>
       <div style={{ padding: '6px 20px 8px', borderTop: '1px solid var(--rule)' }}>
-        <StatusLegend />
+        <StatusLegend counts={counts} on={st} onPick={setSt} />
       </div>
     </div>
   )

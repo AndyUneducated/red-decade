@@ -83,15 +83,23 @@ export function Voices({ voices }: { voices: { voice: Voice; text: string; cite?
   )
 }
 
-export function StatusLegend() {
+// With counts, each status becomes a toggle that filters to the people in it.
+export function StatusLegend({ counts, on, onPick }: { counts?: Map<Status, number>; on?: Status; onPick?: (s: Status | undefined) => void } = {}) {
   return (
     <div className="legend">
-      {(Object.keys(STATUSES) as Status[]).map((s) => (
-        <span key={s}>
-          <i style={{ background: statusColor(s) }} />
-          {STATUSES[s]}
-        </span>
-      ))}
+      {(Object.keys(STATUSES) as Status[]).map((s) =>
+        counts && onPick ? (
+          <button key={s} className="chip" aria-pressed={on === s} disabled={!counts.get(s) && on !== s} onClick={() => onPick(on === s ? undefined : s)}>
+            <i style={{ background: statusColor(s) }} />
+            {STATUSES[s]} <b>{counts.get(s) ?? 0}</b>
+          </button>
+        ) : (
+          <span key={s}>
+            <i style={{ background: statusColor(s) }} />
+            {STATUSES[s]}
+          </span>
+        ),
+      )}
     </div>
   )
 }

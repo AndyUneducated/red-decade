@@ -19,6 +19,9 @@ const FADE = 0.5
 // a committee counts as new, and is outlined, for this long after its date
 const FRESH = 1.5 / 12
 
+// the basemap has today's provinces; in 1967–1968 these were part of another province
+const PART_OF: Record<string, string> = { 海南省: '广东省', 重庆市: '四川省' }
+
 const short = (n: string) => n.replace(/(壮族|回族|维吾尔)?自治区$|省$|市$/, '')
 // labels that would sit on top of a neighbour, nudged in screen pixels
 const NUDGE: Record<string, [number, number]> = { 北京市: [-14, -8], 天津市: [16, 4], 上海市: [20, 2], 河北省: [-14, 18], 香港: [0, 0], 澳门: [0, 0] }
@@ -265,7 +268,7 @@ export function MapView() {
             <svg width={W} height={H} role="img" aria-label="省级革命委员会成立地图">
               <rect width={W} height={H} fill="var(--card)" />
               {map?.features.map((f, i) => {
-                const r = byProv.get(f.properties.n)
+                const r = byProv.get(PART_OF[f.properties.n] ?? f.properties.n)
                 const t0 = r ? toT(r.date) : Infinity
                 const on = t0 <= t
                 const fresh = on && t - t0 < FRESH
@@ -385,7 +388,7 @@ export function MapView() {
         </h2>
         <Cumulative revcoms={revcoms} t={t} setT={setT} />
         <p className="muted-note">
-          山东各县的日期取自 1980–2000 年代编成的县志（见“数字争议”下方的按县登记），口径与省级不同：县志多写成立之月，少数写到日。贵州未见当时的成立报道，只按 1979 年中共中央批示记 1967 年 1 月 25 日夺权，虚线描边。
+          山东各县的日期取自 1980–2000 年代编成的县志（见“数字争议”下方的按县登记），口径与省级不同：县志多写成立之月，少数写到日。贵州未见当时的成立报道，只按 1979 年中共中央批示记 1967 年 1 月 25 日夺权，虚线描边。海南、重庆当时分属广东、四川，随所属省着色；台湾、香港、澳门不在其列。
         </p>
       </div>
     </div>
