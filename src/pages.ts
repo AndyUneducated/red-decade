@@ -51,6 +51,9 @@ export const PAGES = {
   overlap: { title: '加害与受害', desc: '批判、诬陷他人的人，后来是否自己被打倒' },
   parallel: { title: '平行人生', desc: '命运轨迹最相近、同起点而分岔的人' },
   moments: { title: '表态时刻', desc: '各个转折关头，谁先开口、说了什么' },
+  paralysis: { title: '机构瘫痪', desc: '党政机构停止运转、被夺权与革委会取代的时间' },
+  outcomes: { title: '人均产量', desc: '粮食、布等按人口平均，公布数与修正数并列' },
+  flows: { title: '派系流向', desc: '批判与诬陷在派系之间的流向，跨派系的人' },
   docs: {
     title: '文献',
     desc: '一手文献全文',
