@@ -1,0 +1,332 @@
+# 1949–1965 第五批：维基文库第六批原文（m5-ws-6）。
+# 三评至八评、陶里亚蒂、多列士、德国统一社会党几篇是中共一方的论战文章。
+# 劳动教养决定与 1961 年公安部清理劳教右派的通知并列，前者是制度的设立，后者是四年后的清理口径。
+
+- id: 1950-02-24-opium-ban
+  date: 1950-02-24
+  title: 政务院通令严禁鸦片烟毒
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: 1950 年 2 月 24 日，政务院通过并发布《关于严禁鸦片烟毒的通令》。通令规定军事已结束的地区从当年春起禁绝种烟，自颁布之日起不许再贩运、制造、售卖烟土毒品，民间存烟限期缴出，吸食者限期登记戒除，各级政府可设禁烟禁毒委员会；少数民族地区种烟的，斟酌情况采取慎重措施。
+  voices:
+    - { voice: doc, text: 從本禁令頒佈之日起，全國各地不許再有販運製造及售賣烟土毒品情事，犯者不論何人，除沒收其烟土毒品外，還須從嚴治罪（禁烟通令第四条）, cite: ws-1950-02-24-opium-ban, quote: true }
+    - { voice: doc, text: 吸食烟毒的人民限期登記（城市向公安局，鄉村向人民政府登記），並定期戒除（第六条）, cite: ws-1950-02-24-opium-ban, quote: true }
+    - { voice: doc, text: 在某些少數民族地區如有種烟者，應斟酌當地實際情况，採取慎重措施，有步驟的進行禁種（第三条）, cite: ws-1950-02-24-opium-ban, quote: true }
+  cites: [ws-1950-02-24-opium-ban]
+
+- id: 1950-03-03-unify-finance
+  date: 1950-03-03
+  title: 统一全国财政经济工作
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1950 年 3 月 3 日，政务院作出《关于统一国家财政经济工作的决定》。决定说全国军政公教人员已近九百万人，过去国家支出大部“依靠增发通货”，而公粮和税收多由地方管理，通货膨胀带来的物价波动“势必影响全国”；为此把公粮（地方附加粮以外）和关税、盐税、货物税、工商税全部收归中央财政部统一调度，人民银行为国家现金调度总机构，成立以薄一波为主任的全国编制委员会和以陈云为主任的仓库物资清理调配委员会，要求“部分服从全体、地方服从中央”。
+  people: [bo-yibo, chen-yun, nie-rongzhen]
+  voices:
+    - { voice: doc, text: 根据各区报告：全国军政公教人员已近九百万人（政务院决定）, cite: ws-1950-03-03-unify-finance, quote: true }
+    - { voice: doc, text: 全国各地所收公粮，除地方附加粮外，全部归中央人民政府财政部统一调度使用（同上）, cite: ws-1950-03-03-unify-finance, quote: true }
+    - { voice: doc, text: 必须强调部分服从全体、地方服从中央的原则，宁愿忍受若干较小的困难，以便防止和避免更大的困难（同上）, cite: ws-1950-03-03-unify-finance, quote: true }
+  cites: [ws-1950-03-03-unify-finance]
+
+- id: 1951-02-26-labor-insurance
+  date: 1951-02-26
+  title: 《劳动保险条例》公布
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 《中华人民共和国劳动保险条例》1951 年 2 月 23 日经政务院会议通过，26 日公布。条例先在雇用一百人以上的工厂、矿场等企业实行，由企业行政方面或资方按工资总额的百分之三缴纳劳动保险金，不得从工资中扣除；规定了工伤、疾病、死亡和养老待遇，男工人职员年满六十岁、女工人职员年满五十岁并具备工龄条件的可领养老补助费。
+  voices:
+    - { voice: doc, text: 須按月繳納相當於各該企業全部工人與職員工資總額的百分之三，作爲勞動保險金。此項勞動保險金，不得在工人與職員工資內扣除（劳动保险条例第八条）, cite: ws-1951-02-26-labor-insurance, quote: true }
+    - { voice: doc, text: 男工人與男職員年滿六十歲，一般工齡已滿二十五年，本企業工齡已滿十年者，由勞動保險基金項下按其本企業工齡的長短，付給養老補助費（第十五条）, cite: ws-1951-02-26-labor-insurance, quote: true }
+    - { voice: doc, text: 女工人與女職員年滿五十歲，一般工齡滿二十年，本企業工齡已滿十年者，得享受甲欵規定的養老補助費待遇（同上）, cite: ws-1951-02-26-labor-insurance, quote: true }
+  cites: [ws-1951-02-26-labor-insurance]
+
+- id: 1953-01-13-convene-npc
+  date: 1953-01-13
+  title: 决定召开全国人民代表大会，成立宪法起草委员会
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1953 年 1 月 13 日，中央人民政府委员会决议当年召开由普选产生的乡、县、省各级人民代表大会，并在此基础上召开全国人民代表大会，制定宪法、批准五年计划纲要、选举新的中央政府。决议成立以毛泽东为主席的宪法起草委员会（委员中有高岗、饶漱石）和以周恩来为主席的选举法起草委员会。此前由政协全体会议代行全国人大职权。
+  people: [mao-zedong, zhou-enlai, liu-shaoqi, gao-gang, rao-shushi, chen-boda, deng-xiaoping]
+  voices:
+    - { voice: doc, text: 決議於1953年召開由人民用普選方法產生的鄉、縣、省（市）各級人民代表大會，並在此基礎上接著召開全國人民代表大會（中央人民政府委员会决议）, cite: ws-1953-01-13-convene-npc, quote: true }
+    - { voice: doc, text: 成立中華人民共和國憲法起草委員會，以毛澤東為主席（同上）, cite: ws-1953-01-13-convene-npc, quote: true }
+    - { voice: doc, text: 三年以前，國家初建，許多革命工作還在開始，群眾發動不夠充分，召開全國人民代表大會的條件還不夠成熟（同上）, cite: ws-1953-01-13-convene-npc, quote: true }
+  cites: [ws-1953-01-13-convene-npc]
+
+- id: 1953-02-11-electoral-law
+  date: 1953-02-11
+  title: 第一部选举法：城乡代表名额不同
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1953 年 2 月 11 日，中央人民政府委员会通过《全国人民代表大会及地方各级人民代表大会选举法》。年满十八周岁的公民有选举权和被选举权，“依法尚未改变成份的地主阶级分子”和被剥夺政治权利的反革命分子除外；乡、镇代表直接选举，县以上间接选举。全国人大代表名额各省按人口每八十万人选一人，中央直辖市和五十万人口以上的省辖工业市每十万人选一人。
+  voices:
+    - { voice: doc, text: 凡年滿十八周歲之中華人民共和國公民，不分民族和種族、性别、職業、社會出身、宗教信仰、教育程度、財產狀況和居住期限，均有選舉權和被選舉權（选举法第四条）, cite: ws-1953-02-11-electoral-law, quote: true }
+    - { voice: doc, text: 有下列情形之一者，無選舉權和被選舉權……依法尚未改變成份的地主階級分子（第五条）, cite: ws-1953-02-11-electoral-law, quote: true }
+    - { voice: doc, text: 各省應選全國人民代表大會代表的名額，按人口每八十萬人選代表一人（第二十条）, cite: ws-1953-02-11-electoral-law, quote: true }
+    - { voice: doc, text: 中央直轄市和人口在五十萬以上的省轄工業市應選全國人民代表大會代表的名額，按人口每十萬人選代表一人（同上）, cite: ws-1953-02-11-electoral-law, quote: true }
+  cites: [ws-1953-02-11-electoral-law]
+
+- id: 1954-12-20-arrest-detention
+  date: 1954-12-20
+  title: 《逮捕拘留条例》
+  lane: mass
+  weight: 1
+  place: 北京
+  summary: 1954 年 12 月 20 日，全国人大常委会通过《逮捕拘留条例》。条例重申公民“非经人民法院决定或者人民检察院批准，不受逮捕”，公安机关拘留后须在二十四小时内通知检察院，检察院在四十八小时内决定是否批捕，不批准的须立即释放。
+  voices:
+    - { voice: doc, text: 任何公民，非經人民法院決定或者人民檢察院批准，不受逮捕（逮捕拘留条例第一条）, cite: ws-1954-12-20-arrest-detention, quote: true }
+    - { voice: doc, text: 公安機關拘留人犯，應當在拘留後的二十四小時以內，把拘留的事實和理由通知本級人民檢察院；人民檢察院應當在接到通知後的四十八小時以內，批准逮捕或者不批准逮捕（第七条）, cite: ws-1954-12-20-arrest-detention, quote: true }
+  cites: [ws-1954-12-20-arrest-detention]
+
+- id: 1956-04-25-japanese-war-criminals
+  date: 1956-04-25
+  title: 宽大处理在押日本战犯
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 1956 年 4 月 25 日，全国人大常委会决定对在押日本战争犯罪分子“按照宽大政策分别予以处理”，次要的或悔罪表现较好的免予起诉，罪行严重的从宽处刑，由最高人民法院组织特别军事法庭审判，判决为终审。最高人民法院 1957 年 3 月的报告说，当年完成了铃木启久、富永顺太郎、城野宏、武部六藏等四个案件四十五名日本战犯的审判。
+  voices:
+    - { voice: doc, text: 鉴于日本投降后十年来情况的变化和现在的处境，鉴于近年来中日两国人民友好关系的发展，鉴于这些战争犯罪分子在关押期间绝大多数已有不同程度的悔罪表现，因此，决定对于这些战争犯罪分子按照宽大政策分别予以处理（人大常委会决定）, cite: ws-1956-04-25-japanese-war-criminals, quote: true }
+    - { voice: doc, text: 对于日本战争犯罪分子的审判，由最高人民法院组织特别军事法庭进行（同上）, cite: ws-1956-04-25-japanese-war-criminals, quote: true }
+    - { voice: doc, text: 完成对铃木启久、富永顺太郎、城野宏、武部六藏等四个案件四十五名在押日本侵略中国战争中战争犯罪分子的审判工作（最高人民法院报告，1957）, cite: ws-1957-03-09-supreme-court-report, quote: true }
+  cites: [ws-1956-04-25-japanese-war-criminals, ws-1957-03-09-supreme-court-report]
+
+- id: 1956-06-16-wage-reform
+  date: 1956-06-16
+  title: 国务院工资改革：取消工资分，平均工资提高 14.5%
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1956 年 6 月 16 日，国务院作出工资改革决定，承认 1954、1955 年一些部门工资提高慢、副食品涨价，“一部分职工的实际工资还有降低”。决定从当年 4 月 1 日起实行新标准，职工平均工资提高 14.5%；取消工资分和物价津贴，直接用货币规定工资标准，扩大高低等级工资差额，推广计件工资，以克服“平均主义”。
+  voices:
+    - { voice: doc, text: 加之副食品的价格有些上涨，以致一部分职工的实际工资还有降低，这是政府工资工作的一个严重的缺点（国务院决定）, cite: ws-1956-06-16-wage-reform, quote: true }
+    - { voice: doc, text: 确定1956年企业、事业和国家机关职工的平均工资提高14．5％（同上）, cite: ws-1956-06-16-wage-reform, quote: true }
+    - { voice: doc, text: 取消工资分制度和物价津贴制度。实行直接用货币规定工资标准的制度（同上）, cite: ws-1956-06-16-wage-reform, quote: true }
+  cites: [ws-1956-06-16-wage-reform]
+
+- id: 1956-sufan-case-review
+  date: 1956-07
+  end: 1956-12
+  title: 复查 1955 年以来的反革命案件
+  lane: mass
+  weight: 2
+  summary: 1956 年 7 月，最高人民法院会同最高人民检察院、公安部、司法部，根据中共中央“有反必肃、有错必纠”的指示，布置全面复查 1955 年以来处理的反革命和其他刑事案件。最高人民法院 1957 年 3 月的报告举例：天津复查 12321 件，查出冤案 7 件、错案 229 件；甘肃复查 28937 件，查出冤案 749 件、错案 707 件，改判无罪释放 1208 人。报告承认本院的偏差“主要发生在一九五五年下半年”。
+  voices:
+    - { voice: doc, text: 一九五六年七月间，又根据中共中央的“有反必肃、有错必纠”的指示，会同最高人民检察院、公安部、司法部召开省、市、自治区公安厅(局)长、检察长和人民法院院长的联席会议（最高人民法院报告）, cite: ws-1957-03-09-supreme-court-report, quote: true }
+    - { voice: doc, text: 甘肃省各级人民法院检查了一九五五年一月至一九五六年九月所判处的反革命和其他刑事案件二万八千九百三十七件，查出冤案七百四十九件，错案七百零七件；已改判无罪释放的一千二百零八人（同上）, cite: ws-1957-03-09-supreme-court-report, quote: true }
+    - { voice: doc, text: 错误和偏差在个别案件内也有发生，主要发生在一九五五年下半年这个比较短暂的时间内（同上，谈本院案件）, cite: ws-1957-03-09-supreme-court-report, quote: true }
+  cites: [ws-1957-03-09-supreme-court-report]
+
+- id: 1957-07-09-zhou-burma-report
+  date: 1957-07-09
+  title: 周恩来向人大报告中缅边界问题
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1957 年 7 月 9 日，周恩来向全国人民代表大会专门报告中缅边界问题。报告说未定界有三段：佧佤山区的“1941 年线”（英国与国民党政府换文划定）、英国“永租”的猛卯三角地、英国 1911 年武装侵占的片马等地。中方提出撤出 1941 年线以西的军队，缅方撤出片马、岗房、古浪，双方 1956 年底前完成撤军。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 我国政府一貫主張，我国和其他国家之間所有悬而未决的問題，都应該通过和平协商的途徑，求得公平合理的解决（周恩来报告）, cite: ws-1957-07-09-zhou-burma-report, quote: true }
+    - { voice: doc, text: 中緬兩国政府取得諒解，从1956年十一月底到1956年年底，中国軍队撤出1941年綫以西地区，緬甸軍队撒出片馬、崗房、古浪（同上）, cite: ws-1957-07-09-zhou-burma-report, quote: true }
+  cites: [ws-1957-07-09-zhou-burma-report]
+
+- id: 1960-10-01-burma-boundary
+  date: 1960-10-01
+  title: 《中缅边界条约》签订
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 1960 年 10 月 1 日，周恩来与吴努在北京签订中缅边界条约，以同年 1 月 28 日两国总理签订的边界协定为基础。缅甸把片马、古浪、岗房地区（约 153 平方公里）归还中国；中国同意按 1941 年换文划定佧佤山区一段，但作调整；缅甸对猛卯三角地的“永租”关系废除，该地（约 220 平方公里）移交缅甸，缅甸则把班洪、班老部落辖区（约 189 平方公里）划归中国。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 缅甸联邦同意把属于中国的片马、古浪、岗房地区（面积约为153平方公里，59平方英里，如附图所标明）归还中国（中缅边界条约第一条）, cite: ws-1960-10-01-burma-boundary, quote: true }
+    - { voice: doc, text: 双方决定废除缅甸对属于中国的猛卯三角地（南碗指定区）所保持的“永租”关系（第二条）, cite: ws-1960-10-01-burma-boundary, quote: true }
+    - { voice: doc, text: 缅甸方面同意把按照1941年6月18日中英两国政府换文的规定属于缅甸的班洪、班老部落辖区（面积约为189平方公里，73平方英里，如附图所标明）划归中国（同上）, cite: ws-1960-10-01-burma-boundary, quote: true }
+  cites: [ws-1960-10-01-burma-boundary, ws-1957-07-09-zhou-burma-report]
+
+- id: 1957-08-03-labor-reeducation
+  date: 1957-08-03
+  title: 设立劳动教养制度
+  lane: mass
+  weight: 3
+  place: 北京
+  summary: 反右派运动中，全国人大常委会 1957 年 8 月 1 日批准、国务院 8 月 3 日公布《关于劳动教养问题的决定》。收容对象包括“反社会主义的反动分子”被单位开除、“无生活出路的”，以及不服从工作分配、“不断地无理取闹”的人。劳动教养由民政、公安部门或所在单位、家长申请，省级人民委员会或其委托机关批准，不经法院审判，决定没有规定期限。
+  voices:
+    - { voice: doc, text: 罪行轻微，不追究刑事责任的反革命分子、反社会主义的反动分子，受到机关、团体、企业、学校等单位的开除处分，无生活出路的（劳动教养决定第一条）, cite: ws-1957-08-03-reeducation-decision, quote: true }
+    - { voice: doc, text: 劳动教养，是对于被劳动教养的人实行强制性教育改造的一种措施，也是对他们安置就业的一种办法（第二条）, cite: ws-1957-08-03-reeducation-decision, quote: true }
+    - { voice: doc, text: 由民政、公安部门，所在机关、团体、企业、学校等单位，或者家长、监护人提出申请，经省、自治区、直辖市人民委员会或者它们委托的机关批准（第三条）, cite: ws-1957-08-03-reeducation-decision, quote: true }
+    - { voice: editor, text: 决定全文五条，没有规定劳动教养的期限，也没有规定由法院审理。 }
+  cites: [ws-1957-08-03-reeducation-decision, ws-1957-08-01-reeducation-approval]
+
+- id: 1957-10-22-public-security-penalties
+  date: 1957-10-22
+  title: 《治安管理处罚条例》
+  lane: mass
+  weight: 1
+  place: 北京
+  summary: 1957 年 10 月 22 日，全国人大常委会通过《治安管理处罚条例》，把“情节轻微，尚不够刑事处分”的扰乱秩序、妨害安全、侵犯人身和损害财产行为定为违反治安管理行为，处罚分警告、罚款、拘留三种，拘留十日以下，加重不得超过十五日，由公安机关裁决。
+  voices:
+    - { voice: doc, text: 扰乱公共秩序、妨害公共安全、侵犯公民人身权利、损害公私财产，情节轻微，尚不够刑事处分，依照本条例应当受到处罚的行为，是违反治安管理行为（治安管理处罚条例第二条）, cite: ws-1957-10-22-public-security-penalties, quote: true }
+    - { voice: doc, text: 拘留：半日以上，十日以下；加重处罚不得超过十五日（第三条）, cite: ws-1957-10-22-public-security-penalties, quote: true }
+  cites: [ws-1957-10-22-public-security-penalties]
+
+- id: 1958-09-04-territorial-sea
+  date: 1958-09-04
+  title: 领海声明：十二海里
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 1958 年 9 月 4 日，中国政府发表领海声明，宣布领海宽度十二海里，适用于大陆及沿海岛屿和台湾、澎湖、东沙、西沙、中沙、南沙群岛；大小金门、马祖等列为内海岛屿；外国飞机和军用船舶未经许可不得进入领海和领空。声明称台湾、澎湖“尚待收复”。
+  voices:
+    - { voice: doc, text: 中华人民共和国的领海宽度为十二海里（浬）（领海声明）, cite: ws-1958-09-04-territorial-sea, quote: true }
+    - { voice: doc, text: 一切外国飞机和军用船舶，未经中华人民共和国政府的许可，不得进入中国的领海和领海上空（同上）, cite: ws-1958-09-04-territorial-sea, quote: true }
+    - { voice: doc, text: 台湾和澎湖等地尚待收复，中华人民共和国政府有权采取一切适当的方法，在适当的时候，收复这些地区，这是中国的内政，不容外国干涉（同上）, cite: ws-1958-09-04-territorial-sea, quote: true }
+  cites: [ws-1958-09-04-territorial-sea]
+
+- id: 1960-04-long-live-leninism
+  date: 1960-04
+  title: 《列宁主义万岁》
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 1960 年 4 月列宁诞生九十周年时，红旗杂志编辑部发表《列宁主义万岁》，点名批判铁托“抹杀”阶级斗争，坚持“我们的时代是帝国主义和无产阶级革命的时代”，并重申无产阶级“应当采取革命手段，夺取政权”。四年后的八评把“暴力革命”定为无产阶级革命的“普遍规律”（见该条）。
+  voices:
+    - { voice: official1966, text: 四十多年来的世界变化，正是：帝国主义一天一天烂下去，社会主义一天一天好起来（红旗编辑部）, cite: ws-1960-04-long-live-leninism, quote: true }
+    - { voice: official1966, text: 这个叛徒完全抹杀了世界上阶级矛盾和阶级斗争的问题，企图勾销马克思列宁主义者历来关于我们的时代是帝国主义和无产阶级革命的时代，是社会主义、共产主义胜利的时代的解释（同上，批铁托）, cite: ws-1960-04-long-live-leninism, quote: true }
+  cites: [ws-1960-04-long-live-leninism, ws-1964-03-31-eighth-comment]
+
+- id: 1960-11-19-later-amnesties
+  date: 1960-11-19
+  end: 1964-12-12
+  title: 再特赦四批战争罪犯
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 继 1959 年特赦之后，全国人大常委会 1960 年 11 月 19 日、1961 年 12 月 16 日、1963 年 3 月 30 日、1964 年 12 月 12 日四次决定，对“确实改恶从善”的蒋介石集团、伪满洲国（1963 年起加伪蒙疆自治政府）战争罪犯实行特赦。决定文本只有一句，未列人数和名单。
+  voices:
+    - { voice: doc, text: 对于经过一定期间的改造、确实改恶从善的蒋介石集团和伪满洲国的战争罪犯，实行特赦（1960 年决定）, cite: ws-1960-11-19-amnesty-2, quote: true }
+    - { voice: doc, text: 对于经过一定期间的改造、确实改恶从善的蒋介石集团、伪满洲国和伪蒙疆自治政府的战争罪犯，实行特赦（1963 年决定）, cite: ws-1963-03-30-amnesty-4, quote: true }
+  cites: [ws-1960-11-19-amnesty-2, ws-1961-12-16-amnesty-3, ws-1963-03-30-amnesty-4, ws-1964-12-12-amnesty-5]
+
+- id: 1961-07-11-korea-treaty
+  date: 1961-07-11
+  title: 《中朝友好合作互助条约》
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 1961 年 7 月 11 日，周恩来与金日成在北京签订《中朝友好合作互助条约》。条约规定缔约一方受到武装进攻而处于战争状态时，另一方“应立即尽其全力给予军事及其他援助”；条约在双方未就修改或终止达成协议前“将一直有效”。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 一旦缔约一方受到任何一个国家的或者几个国家联合的武装进攻，因而处于战争状态时，缔约另一方应立即尽其全力给予军事及其他援助（中朝条约第二条）, cite: ws-1961-07-11-korea-treaty, quote: true }
+    - { voice: doc, text: 本条约在未经双方就修改或者终止问题达成协议以前，将一直有效（第七条）, cite: ws-1961-07-11-korea-treaty, quote: true }
+  cites: [ws-1961-07-11-korea-treaty]
+
+- id: 1961-11-09-reeducation-rightists
+  date: 1961-11-09
+  title: 公安部清理劳动教养的右派分子
+  lane: mass
+  weight: 2
+  summary: 根据 1961 年 10 月 28 日中央关于改造右派分子工作的指示，公安部 11 月 9 日通知清理劳动教养的右派：劳教满三年的一般解除，解除比例控制在 90% 左右，摘帽控制在 30% 左右；劳教中死亡、原保留公职的给家属抚恤；剩下的右派集中编队继续改造。通知同时强调右派与劳动人民的矛盾“是一种敌我性质的矛盾”。
+  voices:
+    - { voice: doc, text: 摘帽子可以控制在30％左右。今年多摘一些右派的帽子，但不可乱摘（公安部通知）, cite: ws-1961-11-09-reeducation-rightists, quote: true }
+    - { voice: doc, text: 今后劳动考察的右派分子不再送往劳教、劳改单位（同上）, cite: ws-1961-11-09-reeducation-rightists, quote: true }
+    - { voice: doc, text: 劳教中死亡的右派分子的摘帽子问题，按照实际情况，个别处理（同上）, cite: ws-1961-11-09-reeducation-rightists, quote: true }
+    - { voice: doc, text: 右派分子同劳动人民的矛盾是一种敌我性质的矛盾，这点，必须明确，不能含糊（同上）, cite: ws-1961-11-09-reeducation-rightists, quote: true }
+  cites: [ws-1961-11-09-reeducation-rightists, ws-1957-08-03-reeducation-decision]
+
+- id: 1962-12-31-togliatti
+  date: 1962-12-31
+  title: 《陶里亚蒂同志同我们的分歧》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 中共派代表参加 1962 年 12 月初的意大利共产党十大后，《人民日报》12 月 31 日发表社论，说陶里亚蒂等人在大会上“粗暴地攻击了中国共产党和其他兄弟党”。次年 3 月红旗杂志又发表《再论》（见该条）。
+  voices:
+    - { voice: official1966, text: 陶里亚蒂同志和意共某些领导人违反莫斯科宣言和莫斯科声明所规定的兄弟党关系的准则，不顾国际共产主义运动团结对敌的利益，在一系列重大原则问题上，粗暴地攻击了中国共产党和其他兄弟党（人民日报社论）, cite: ws-1962-12-31-togliatti, quote: true }
+  cites: [ws-1962-12-31-togliatti, ws-1963-03-togliatti-again]
+
+- id: 1963-01-27-unite-moscow
+  date: 1963-01-27
+  title: 《在莫斯科宣言和莫斯科声明的基础上团结起来》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 德国统一社会党 1963 年 1 月举行六大，《人民日报》1 月 27 日社论说这次大会“极其粗暴地继续攻击中国共产党和其他兄弟党”，并“为马克思列宁主义的叛徒铁托集团翻案”。社论回顾中共代表团在 1961 年苏共二十二大上就反对公开点名攻击阿尔巴尼亚劳动党，并引赫鲁晓夫 1958 年肯定中共批判南斯拉夫的话。
+  voices:
+    - { voice: official1966, text: 在一九六一年苏共第二十二次代表大会上，第一次出现在一个党的代表大会上公开指名攻击另一个兄弟党阿尔巴尼亚劳动党的严重事件的时候，中国共产党代表团就表示了坚决的反对（人民日报社论）, cite: ws-1963-01-27-unite-moscow, quote: true }
+  cites: [ws-1963-01-27-unite-moscow]
+
+- id: 1963-02-27-thorez
+  date: 1963-02-27
+  title: 《分歧从何而来？——答多列士等同志》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 法共总书记多列士 1962 年 12 月起批评中共“实质上还没有接受苏共第二十次代表大会的论点”。《人民日报》1963 年 2 月 27 日回应，说任何一个党的代表大会决议对别的兄弟党都没有约束力，并说中共对苏共二十大的“消极方面”“历来是有不同意见的”，只是“从来没有公开地讨论这个问题”。
+  voices:
+    - { voice: official1966, text: 任何一个党的任何一次代表大会的决议，都不能作为国际共产主义运动的共同路线，对别的兄弟党都没有约束力（人民日报社论）, cite: ws-1963-02-27-thorez, quote: true }
+    - { voice: official1966, text: 至于苏共第二十次代表大会，有它的积极方面，也有它的消极方面。对于它的积极方面，我们表示过支持。对于它的消极方面，即有关国际共产主义运动的某些重大原则问题上的错误观点，我们历来是有不同意见的（同上）, cite: ws-1963-02-27-thorez, quote: true }
+  cites: [ws-1963-02-27-thorez]
+
+- id: 1963-09-26-third-comment
+  date: 1963-09-26
+  title: 三评：《南斯拉夫是社会主义国家吗？》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1963 年 9 月 26 日，人民日报和红旗杂志编辑部发表“三评苏共中央的公开信”，断言南斯拉夫“已经一步一步地完成了资本主义复辟的过程”，铁托集团是“美帝国主义反革命的别动队”，借此批评苏共领导与南斯拉夫和解。
+  voices:
+    - { voice: official1966, text: 在国内，南斯拉夫已经一步一步地完成了资本主义复辟的过程。在国际上，铁托集团越来越卖劲地充当美帝国主义反革命的别动队（三评）, cite: ws-1963-09-26-third-comment, quote: true }
+  cites: [ws-1963-09-26-third-comment]
+
+- id: 1963-10-22-fourth-comment
+  date: 1963-10-22
+  title: 四评：《新殖民主义的辩护士》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1963 年 10 月 22 日的四评谈民族解放运动，说对亚非拉被压迫民族的态度是“马克思列宁主义者和现代修正主义者的一个重要的分水岭”，指责苏共领导“实际上站在帝国主义和殖民主义一边”。
+  voices:
+    - { voice: official1966, text: 马克思列宁主义者坚定地站在被压迫民族一边，积极支持民族解放运动。现代修正主义者实际上站在帝国主义和殖民主义一边，千方百计地否定和反对民族解放运动（四评）, cite: ws-1963-10-22-fourth-comment, quote: true }
+  cites: [ws-1963-10-22-fourth-comment]
+
+- id: 1963-11-19-fifth-comment
+  date: 1963-11-19
+  title: 五评：《在战争与和平问题上的两条路线》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1963 年 11 月 19 日的五评批评苏共的“核迷信、核讹诈”，引毛泽东 1957 年莫斯科会议“东风压倒西风”的话，同时表示社会主义国家的核武器“永远只能是抵抗帝国主义核威胁的防御武器”，“绝不应当首先使用核武器”。不到一年后中国试爆原子弹（见该条）。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 我认为目前形势的特点是东风压倒西风，也就是说，社会主义的力量对于帝国主义的力量占了压倒的优势（五评引毛泽东 1957 年讲话）, cite: ws-1963-11-19-fifth-comment, quote: true }
+    - { voice: official1966, text: 我们一向认为，社会主义国家手中的核武器，永远只能是抵抗帝国主义核威胁的防御武器。社会主义国家绝不应当首先使用核武器（五评）, cite: ws-1963-11-19-fifth-comment, quote: true }
+  cites: [ws-1963-11-19-fifth-comment]
+
+- id: 1963-12-12-sixth-comment
+  date: 1963-12-12
+  title: 六评：《两种根本对立的和平共处政策》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1963 年 12 月 12 日的六评说，中苏分歧不在要不要和平共处，而在苏共把和平共处当作“社会主义国家对外政策的总路线”乃至各国党的总路线，称“苏美合作主宰世界”是这条路线的“灵魂”。
+  voices:
+    - { voice: official1966, text: 列宁的和平共处政策是掌握政权的无产阶级的国际政策的一个方面，而赫鲁晓夫却把和平共处引伸为社会主义国家对外政策的总路线，并且进而引伸为全世界所有共产党的总路线（六评）, cite: ws-1963-12-12-sixth-comment, quote: true }
+    - { voice: official1966, text: 苏美合作主宰世界，这是苏共领导的“和平共处”总路线的灵魂（同上）, cite: ws-1963-12-12-sixth-comment, quote: true }
+  cites: [ws-1963-12-12-sixth-comment]
+
+- id: 1964-03-31-eighth-comment
+  date: 1964-03-31
+  title: 八评：《无产阶级革命和赫鲁晓夫修正主义》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1964 年 3 月 31 日的八评专论“和平过渡”，主张“暴力革命是无产阶级革命的普遍规律”，并披露 1957 年莫斯科会议宣言起草时，苏共第一稿只提和平过渡，中共代表团“明确地表示不同意”，此后对宣言的提法“一直是保留自己的不同意见的”。
+  voices:
+    - { voice: official1966, text: 总之，暴力革命是无产阶级革命的普遍规律，这是马克思列宁主义的一个最重要的原理。赫鲁晓夫正是在这个最重要的问题上背叛了马克思列宁主义（八评）, cite: ws-1964-03-31-eighth-comment, quote: true }
+    - { voice: official1966, text: 苏共中央所提出的宣言的第一稿，只提和平过渡的一种可能性，根本没有提到非和平过渡的另一种可能性（同上，谈 1957 年莫斯科会议）, cite: ws-1964-03-31-eighth-comment, quote: true }
+  cites: [ws-1964-03-31-eighth-comment]
