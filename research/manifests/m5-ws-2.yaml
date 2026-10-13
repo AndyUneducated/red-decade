@@ -1,0 +1,171 @@
+# M5-1 中文原文（维基文库）第 2 批：建政文件、统购统销与户口、合作化章程、肃反、高饶、彭德怀、社教运动、1964 年政府工作报告。
+# 日期按页面 header 的年月日与正文题注核对。繁体页面照原样保存与引用。
+wikisource:
+  - id: ws-1949-09-27-cppcc-organic-law
+    title: 中國人民政治協商會議組織法
+    date: 1949-09-27
+    author: 中国人民政治协商会议第一届全体会议
+    kind: party-doc
+    alias: 中国人民政治协商会议组织法（1949）
+  - id: ws-1949-09-30-cppcc-declaration
+    title: 中國人民政治協商會議第一屆全體會議宣言
+    date: 1949-09-30
+    author: 中国人民政治协商会议第一届全体会议
+    kind: party-doc
+    alias: 政协第一届全体会议宣言（1949）
+  - id: ws-1950-02-14-sino-soviet-treaty
+    title: 中蘇兩國關於締結友好同盟互助條約及協定的公告
+    date: 1950-02-14
+    author: 中苏两国政府
+    kind: party-doc
+    alias: 中苏关于缔结友好同盟互助条约及协定的公告（1950）
+  - id: ws-1951-05-23-tibet-agreement
+    title: 中央人民政府和西藏地方政府關於和平解放西藏辦法的協議
+    date: 1951-05-23
+    author: 中央人民政府、西藏地方政府
+    kind: party-doc
+    alias: 关于和平解放西藏办法的协议（十七条协议，1951）
+  - id: ws-1953-02-04-zhou-cppcc-report
+    title: 在政协第一届全国委员会第四次会议上政治报告
+    date: 1953-02-04
+    author: 周恩来
+    kind: speech
+    alias: 周恩来在政协一届四次会议上的政治报告（1953）
+  - id: ws-1953-11-grain-procurement
+    title: 政务院关于实行粮食的计划收购和计划供应的命令
+    date: 1953-11
+    author: 政务院
+    kind: party-doc
+    alias: 政务院关于实行粮食计划收购和计划供应的命令（统购统销，1953）
+  - id: ws-1954-02-10-party-unity
+    title: 关于增强党的团结的决议
+    date: 1954-02-10
+    author: 中共七届四中全会
+    kind: party-doc
+    alias: 关于增强党的团结的决议（七届四中全会，1954）
+  - id: ws-1954-09-09-cotton-procurement
+    title: 关于准备实施棉布计划收购、计划供应和棉花计划收购的报告
+    date: 1954-09-09
+    author: 曾山
+    kind: party-doc
+    alias: 关于实施棉布计划收购、计划供应和棉花计划收购的报告（1954）
+  - id: ws-1955-07-24-procurator-speech
+    title: 第一届全国人民代表大会第二次会议上最高人民检察院检察长发言
+    date: 1955-07-24
+    author: 张鼎丞
+    kind: speech
+    alias: 最高人民检察院检察长在一届人大二次会议上的发言（1955）
+  - id: ws-1955-08-25-purge-hidden
+    title: 中共中央关于彻底肃清暗藏的反革命分子的指示
+    date: 1955-08-25
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于彻底肃清暗藏的反革命分子的指示（肃反，1955）
+  - id: ws-1955-11-09-coop-model-charter
+    title: 农业生产合作社示范章程
+    date: 1955-11-09
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 农业生产合作社示范章程（草案，1955）
+  - id: ws-1956-01-31-dong-counterrev-report
+    title: 关于肃清一切反革命分子问题的报告
+    date: 1956-01-31
+    author: 董必武
+    kind: speech
+    alias: 董必武关于肃清一切反革命分子问题的报告（政协二届二次会议，1956）
+  - id: ws-1956-01-31-guo-intellectuals
+    title: 在社会主义革命高潮中知识分子的使命
+    date: 1956-01-31
+    author: 郭沫若
+    kind: speech
+    alias: 郭沫若《在社会主义革命高潮中知识分子的使命》（1956）
+  - id: ws-1956-01-31-chen-shutong-commerce
+    title: 关于资本主义工商业的社会主义改造的报告
+    date: 1956-01-31
+    author: 陈叔通
+    kind: speech
+    alias: 陈叔通关于资本主义工商业的社会主义改造的报告（1956）
+  - id: ws-1956-06-30-advanced-coop-charter
+    title: 高级农业生产合作社示范章程
+    date: 1956-06-30
+    author: 第一届全国人民代表大会第三次会议
+    kind: party-doc
+    alias: 高级农业生产合作社示范章程（1956）
+  - id: ws-1956-09-16-zhou-second-plan
+    title: 中国共产党中央委员会向第八次全國代表大會关于发展国民经济的第二个五年计划的建议的报告
+    date: 1956-09-16
+    author: 周恩来
+    kind: speech
+    alias: 周恩来关于第二个五年计划建议的报告（八大，1956）
+  - id: ws-1957-03-25-strikes-directive
+    title: 中共中央关于处理罢工罢课问题的指示
+    date: 1957-03-25
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于处理罢工罢课问题的指示（1957）
+  - id: ws-1958-01-09-hukou-regulations
+    title: 中华人民共和国戶口登記条例
+    date: 1958-01-09
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 中华人民共和国户口登记条例（1958）
+  - id: ws-1958-01-09-hukou-explanation
+    title: 关于中华人民共和国户口登记条例草案的说明
+    date: 1958-01-09
+    author: 罗瑞卿
+    kind: speech
+    alias: 罗瑞卿关于户口登记条例草案的说明（1958）
+  - id: ws-1959-08-16-peng-resolution
+    title: 中国共产党八届八中全会关于以彭德怀为首的反党集团的决议
+    date: 1959-08-16
+    author: 中共八届八中全会
+    kind: party-doc
+    alias: 八届八中全会关于以彭德怀为首的反党集团的错误的决议（1959）
+  - id: ws-1960-04-06-tan-agri-report
+    title: 1960年中华人民共和国国务院政府工作报告
+    date: 1960-04-06
+    author: 谭震林
+    kind: speech
+    alias: 谭震林关于农业发展纲要执行情况的报告（二届人大二次会议，1960）
+  - id: ws-1960-11-09-special-supply
+    title: 中共中央转发齐燕铭关于对在京高级干部和高级知识分子特需供应报告的指示
+    date: 1960-11-09
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央转发齐燕铭关于在京高级干部和高级知识分子特需供应报告的指示
+  - id: ws-1964-09-01-taoyuan
+    title: 中央转发《关于一个大队的社会主义教育运动的经验总结》的批示
+    date: 1964-09-01
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央转发桃园经验的批示（1964）
+  - id: ws-1964-12-21-zhou-report
+    title: 1964年中华人民共和国国务院政府工作报告（摘要）
+    date: 1964-12-21
+    author: 周恩来
+    kind: speech
+    alias: 周恩来政府工作报告（摘要，三届人大一次会议，1964）
+  - id: ws-1964-12-26-procurator-report
+    title: 1964年中华人民共和国最高人民检察院工作报告
+    date: 1964-12-26
+    author: 张鼎丞
+    kind: speech
+    alias: 最高人民检察院工作报告（1964）
+  - id: ws-1965-01-14-twenty-three
+    title: 农村社会主义教育运动中目前提出的一些问题
+    date: 1965-01-14
+    author: 中共中央
+    kind: party-doc
+    alias: 农村社会主义教育运动中目前提出的一些问题（二十三条，1965）
+  - id: ws-1958-02-25-rightist-chen-dazhi
+    title: 中华人民共和国监察部整风领导小组关于右派分子陈达之的结论和处理决定
+    date: 1958-02-25
+    author: 监察部整风领导小组
+    kind: archive
+    alias: 监察部整风领导小组关于右派分子陈达之的结论和处理决定
+  - id: ws-1962-10-20-rightist-removal-rules
+    title: 关于摘掉右派分子人员和右派分子的精简、安置、生活待遇和劳动教养的右派分子的处理等问题的规定
+    date: 1962-10-20
+    author: 中央统战部
+    kind: party-doc
+    alias: 中央统战部关于摘掉右派分子帽子人员和右派分子的精简、安置、生活待遇等问题的规定（1962）
