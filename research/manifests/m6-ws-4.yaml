@@ -1,0 +1,20 @@
+# M6（1977–1989）第 4 批维基文库原文：1977 年恢复高考、1989 年行政诉讼法与集会游行示威法。日期取自页面头部或正文落款，见 note。
+wikisource:
+  - id: ws-1977-10-college-admissions
+    title: 教育部关于一九七七年高等学校招生工作的意见
+    date: 1977-10
+    kind: party-doc
+    alias: 1977 年高校招生意见
+    note: 国务院 1977 年 10 月批转。日期待抓取后核对。
+  - id: ws-1989-04-04-administrative-litigation
+    title: 中华人民共和国行政诉讼法 (1989年)
+    date: 1989-04-04
+    kind: party-doc
+    alias: 行政诉讼法
+    note: 七届全国人大二次会议通过。日期待抓取后核对。
+  - id: ws-1989-10-31-assembly-law
+    title: 中华人民共和国集会游行示威法 (1989年)
+    date: 1989-10-31
+    kind: party-doc
+    alias: 集会游行示威法
+    note: 七届全国人大常委会第十次会议通过。日期待抓取后核对。
