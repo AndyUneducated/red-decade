@@ -1,0 +1,165 @@
+# M5-5 经济与人口数据：国家统计局历年公报（《人民日报》govopendata 转录）。date 为见报日。
+# 1956、1957、1959 年度公报和 1960–1977 年的公报在转录本里没有找到；1960–1977 年国家统计局没有发表年度公报。
+web:
+  - id: rmrb-1954-11-01-census-1953
+    title: "中华人民共和国国家统计局关于全国人口调查登记结果的公报"
+    date: 1954-11-01
+    author: 国家统计局
+    kind: party-doc
+    alias: "1953 年全国人口调查登记结果公报"
+    url: https://cn.govopendata.com/renminribao/1954/11/1/1/
+    via: "《人民日报》1954-11-01 第 1 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1955-09-23-stats-1954
+    title: "中华人民共和国国家统计局关于一九五四年度国民经济发展和国家计划执行结果的公报"
+    date: 1955-09-23
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1954 年度公报"
+    url: https://cn.govopendata.com/renminribao/1955/9/23/2/
+    via: "《人民日报》1955-09-23 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1956-06-15-stats-1955
+    title: "中华人民共和国国家统计局关于1955年度国民经济计划执行结果的公报"
+    date: 1956-06-15
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1955 年度公报"
+    url: https://cn.govopendata.com/renminribao/1956/6/15/2/
+    via: "《人民日报》1956-06-15 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1959-04-14-stats-fyp1
+    title: "中华人民共和国国家统计局关于发展国民经济的第一个五年（1953年到1957年）计划执行结果的公报"
+    date: 1959-04-14
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局第一个五年计划执行结果公报"
+    url: https://cn.govopendata.com/renminribao/1959/4/14/2/
+    via: "《人民日报》1959-04-14 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局关于发展国民经济的第一个五年"
+  - id: rmrb-1959-04-15-stats-1958
+    title: "中华人民共和国国家统计局关于一九五八年国民经济发展情况的公报"
+    date: 1959-04-15
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1958 年公报"
+    url: https://cn.govopendata.com/renminribao/1959/4/15/2/
+    via: "《人民日报》1959-04-15 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1979-06-28-stats-1978
+    title: "中华人民共和国国家统计局关于一九七八年国民经济计划执行结果的公报"
+    date: 1979-06-28
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1978 年公报"
+    url: https://cn.govopendata.com/renminribao/1979/6/28/2/
+    via: "《人民日报》1979-06-28 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局关于一九七八年"
+  - id: rmrb-1980-05-01-stats-1979
+    title: "中华人民共和国国家统计局关于一九七九年国民经济计划执行结果的公报"
+    date: 1980-05-01
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1979 年公报"
+    url: https://cn.govopendata.com/renminribao/1980/5/1/2/
+    via: "《人民日报》1980-05-01 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局关于一九七九年"
+  - id: rmrb-1981-04-30-stats-1980
+    title: "中华人民共和国国家统计局关于一九八○年国民经济计划执行结果的公报"
+    date: 1981-04-30
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1980 年公报"
+    url: https://cn.govopendata.com/renminribao/1981/4/30/2/
+    via: "《人民日报》1981-04-30 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1982-04-30-stats-1981
+    title: "中华人民共和国国家统计局关于一九八一年国民经济计划执行结果的公报"
+    date: 1982-04-30
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1981 年公报"
+    url: https://cn.govopendata.com/renminribao/1982/4/30/2/
+    via: "《人民日报》1982-04-30 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1982-10-28-census-1982
+    title: "国家统计局公布今年全国人口普查主要数字"
+    date: 1982-10-28
+    author: 国家统计局
+    kind: news
+    alias: "1982 年全国人口普查主要数字公报"
+    url: https://cn.govopendata.com/renminribao/1982/10/28/1/
+    via: "《人民日报》1982-10-28 第 1 版（govopendata 转录）"
+    article: "国家统计局公布今年全国人口普查主要数字"
+  - id: rmrb-1983-04-30-stats-1982
+    title: "中华人民共和国国家统计局关于一九八二年国民经济和社会发展计划执行结果的公报"
+    date: 1983-04-30
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1982 年公报"
+    url: https://cn.govopendata.com/renminribao/1983/4/30/2/
+    via: "《人民日报》1983-04-30 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1984-04-30-stats-1983
+    title: "中华人民共和国国家统计局关于1983年国民经济和社会发展计划执行结果的公报"
+    date: 1984-04-30
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1983 年公报"
+    url: https://cn.govopendata.com/renminribao/1984/4/30/2/
+    via: "《人民日报》1984-04-30 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1985-03-10-stats-1984
+    title: "中华人民共和国国家统计局关于1984年国民经济和社会发展的统计公报"
+    date: 1985-03-10
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1984 年公报"
+    url: https://cn.govopendata.com/renminribao/1985/3/10/2/
+    via: "《人民日报》1985-03-10 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1986-03-01-stats-1985
+    title: "中华人民共和国国家统计局关于一九八五年国民经济和社会发展统计公报"
+    date: 1986-03-01
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1985 年公报"
+    url: https://cn.govopendata.com/renminribao/1986/3/1/2/
+    via: "《人民日报》1986-03-01 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1987-02-21-stats-1986
+    title: "中华人民共和国国家统计局关于1986年国民经济和社会发展的统计公报"
+    date: 1987-02-21
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1986 年公报"
+    url: https://cn.govopendata.com/renminribao/1987/2/21/2/
+    via: "《人民日报》1987-02-21 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1988-02-24-stats-1987
+    title: "中华人民共和国国家统计局关于1987年国民经济和社会发展的统计公报"
+    date: 1988-02-24
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1987 年公报"
+    url: https://cn.govopendata.com/renminribao/1988/2/24/2/
+    via: "《人民日报》1988-02-24 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局"
+  - id: rmrb-1989-03-01-stats-1988
+    title: "1988年国民经济和社会发展统计公报"
+    date: 1989-03-01
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1988 年公报"
+    url: https://cn.govopendata.com/renminribao/1989/3/1/2/
+    via: "《人民日报》1989-03-01 第 2 版（govopendata 转录）"
+    article: "１９８８年国民经济和社会发展统计公报"
+  - id: rmrb-1990-02-21-stats-1989
+    title: "中华人民共和国国家统计局关于1989年国民经济和社会发展的统计公报"
+    date: 1990-02-21
+    author: 国家统计局
+    kind: party-doc
+    alias: "国家统计局 1989 年公报"
+    url: https://cn.govopendata.com/renminribao/1990/2/21/2/
+    via: "《人民日报》1990-02-21 第 2 版（govopendata 转录）"
+    article: "中华人民共和国国家统计局关于"
