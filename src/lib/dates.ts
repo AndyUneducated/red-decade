@@ -1,4 +1,11 @@
 // Partial dates ("1966", "1966-05", "1966-05-16") ↔ fractional years.
+// Also imported by the data build under plain Node, so this file must not import anything.
+
+// Partial dates compare on their common prefix: "1966" is neither before nor after "1966-05".
+export function after(a: string, b: string) {
+  const n = Math.min(a.length, b.length)
+  return a.slice(0, n) > b.slice(0, n)
+}
 
 export function toT(date: string | undefined, end = false): number {
   if (!date) return NaN

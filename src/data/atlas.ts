@@ -1,3 +1,4 @@
+import { orgMentioner } from '../derive/match'
 import { toT } from '../lib/dates'
 import type { Atlas, Event, Faction, Org, Person, Place, Relation, Status } from './schema'
 
@@ -41,7 +42,10 @@ const push = <K, V>(m: Map<K, V[]>, k: K, v: V) => m.set(k, [...(m.get(k) ?? [])
 
 export async function loadAtlas(): Promise<Index> {
   const res = await fetch(`${import.meta.env.BASE_URL}data/atlas.json`)
-  const atlas = (await res.json()) as Atlas
+  return indexAtlas((await res.json()) as Atlas)
+}
+
+export function indexAtlas(atlas: Atlas): Index {
   const by = <T extends { id: string }>(xs: T[]) => new Map(xs.map((x) => [x.id, x]))
   const faction = by(atlas.factions)
   const eventsByPerson = new Map<string, Event[]>()
@@ -61,25 +65,10 @@ export async function loadAtlas(): Promise<Index> {
     for (const link of o.links) push(linksInto, link.org, { org: o, link })
     for (const f of o.factions) push(orgsByFaction, f, o)
   }
-  // Events mention an org when its name, short name or an alias occurs in the title or summary. Each
-  // position in the text credits only the longest name starting there, so 中共中央文革小组 does not also
-  // count for 中共中央. Two-character names are accepted only for mass organisations (西纠、联动).
-  const names = new Map<string, { name: string; org: string }[]>()
-  for (const o of atlas.orgs)
-    for (const name of new Set([o.name, o.short, ...o.aliases]))
-      if (name && (name.length >= 3 || (o.kind === 'popular' && name.length === 2))) push(names, name[0], { name, org: o.id })
-  for (const list of names.values()) list.sort((a, b) => b.name.length - a.name.length)
+  // events mention an org when its name, short name or an alias occurs in the title or summary
+  const mentions = orgMentioner(atlas.orgs)
   const eventsByOrg = new Map<string, Event[]>()
-  for (const e of atlas.events) {
-    const text = e.title + '\n' + e.summary
-    const hit = new Set<string>()
-    for (let i = 0; i < text.length; ) {
-      const m = names.get(text[i])?.find((n) => text.startsWith(n.name, i))
-      if (m) hit.add(m.org)
-      i += m ? m.name.length : 1
-    }
-    for (const id of hit) push(eventsByOrg, id, e)
-  }
+  for (const e of atlas.events) for (const id of mentions(e.title + '\n' + e.summary)) push(eventsByOrg, id, e)
   const ismChildren = new Map<string, Ism[]>()
   const ismOpposed = new Map<string, Ism[]>()
   for (const m of atlas.isms) {
