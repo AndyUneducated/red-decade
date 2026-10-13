@@ -4,6 +4,7 @@ import { AXES, describe, ismColor } from '../../lib/isms'
 import { page as pageDef } from '../../pages'
 import { useApp } from '../../state'
 import { Cite, Entity, PersonChip, Voices } from '../bits'
+import { FirstUse } from './InsightNotes'
 import { ClaimLinks, highlight } from './lists'
 
 function IsmChips({ title, list }: { title: string; list: string[] }) {
@@ -137,6 +138,7 @@ export function IsmCard({ id }: { id: string }) {
           </div>
         </section>
       )}
+      <FirstUse on={{ type: 'ism', id }} hits={m.hits} />
       <ClaimLinks on="ism" id={id} />
     </>
   )

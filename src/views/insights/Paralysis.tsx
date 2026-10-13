@@ -8,9 +8,7 @@ import { heldAt, systemOf } from '../../lib/positions'
 import { useSize } from '../../lib/useSize'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
-
-const T0 = 1965
-const T1 = 1982
+import { PARALYSIS_T0 as T0, PARALYSIS_T1 as T1 } from './shared'
 const MONTHS = d3.range(T0 * 12, T1 * 12).map((m) => m / 12)
 const H = 220
 const M = { l: 34, r: 12, t: 10, b: 52 }

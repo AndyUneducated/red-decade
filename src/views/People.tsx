@@ -3,7 +3,7 @@ import * as d3 from 'd3'
 import { Fragment, useMemo, useRef, type CSSProperties } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
 import { AgeRuler, IdCard, ProfileTimeline } from '../components/Dossier'
-import { NearLives } from '../components/drawer/InsightNotes'
+import { PersonInsights } from '../components/drawer/InsightNotes'
 import { ClaimLinks, EventList, FateLine, RelationList } from '../components/drawer/lists'
 import { Footprint } from '../components/Footprint'
 import { LifeStrip } from '../components/LifeStrip'
@@ -465,7 +465,7 @@ function Profile({ id }: { id: string }) {
                   <EventList events={events} />
                 </section>
               )}
-              <NearLives id={id} />
+              <PersonInsights id={id} />
               <ClaimLinks on="person" id={id} />
             </aside>
           </div>

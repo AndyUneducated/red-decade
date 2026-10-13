@@ -1,12 +1,12 @@
 import * as d3 from 'd3'
 import { useMemo, useState } from 'react'
 import { Cite, PersonChip } from '../../components/bits'
-import { HOSTILE } from '../../components/drawer/InsightNotes'
 import { factionAt } from '../../data/atlas'
 import { RELATION_TYPES, type Relation } from '../../data/schema'
 import { fmtDate, toT } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
+import { HOSTILE } from './shared'
 
 const PERIODS = [
   { id: 'all', label: '全部', a: -Infinity, b: Infinity },

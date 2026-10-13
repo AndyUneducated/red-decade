@@ -1,58 +1,16 @@
 import { useMemo, useState } from 'react'
-import { HOSTILE } from '../../components/drawer/InsightNotes'
 import { factionAt } from '../../data/atlas'
-import type { Faction } from '../../data/schema'
-import { orgMentioner, personMentioner } from '../../derive/match'
 import { fmtDate, toT } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
-
-const MIN_TEXTS = 3
-
-type Profile = { f: Faction; texts: Set<string>; counts: Map<string, number>; total: number }
+import { cosine, HOSTILE, rhetoric, RHETORIC_MIN_TEXTS as MIN_TEXTS, type Profile } from './shared'
 
 const share = (p: Profile, k: string) => (p.counts.get(k) ?? 0) / p.total
-
-function cosine(a: Profile, b: Profile) {
-  let dot = 0
-  let na = 0
-  let nb = 0
-  for (const [k, n] of a.counts) {
-    dot += n * (b.counts.get(k) ?? 0)
-    na += n * n
-  }
-  for (const n of b.counts.values()) nb += n * n
-  return dot / Math.sqrt(na * nb)
-}
 
 export function Rhetoric() {
   const { ix, select } = useApp()
   const [cell, setCell] = useState<[string, string] | null>(null)
-  const { vocab, profiles, attributed } = useMemo(() => {
-    const who = personMentioner(ix.people)
-    const orgs = orgMentioner(ix.orgs)
-    // a text speaks for the faction of a profiled author at its date, or for the factions its author org is labelled with
-    const factionsOf = new Map<string, Set<string>>()
-    for (const s of ix.sources) {
-      if (!s.hasText || !s.author) continue
-      const t = toT(s.date)
-      const fs = new Set([...who(s.author).map((id) => factionAt(ix.person.get(id)!, t)), ...[...orgs(s.author)].flatMap((o) => ix.org.get(o)!.factions)].filter((f) => ix.faction.has(f)))
-      if (fs.size) factionsOf.set(s.id, fs)
-    }
-    const vocab = new Map([...ix.concepts.map((c) => [`concept:${c.id}`, { name: c.name, hits: c.hits }] as const), ...ix.isms.map((m) => [`ism:${m.id}`, { name: m.short ?? m.name, hits: m.hits }] as const)])
-    const byFaction = new Map<string, Profile>()
-    for (const [k, { hits }] of vocab)
-      for (const h of hits)
-        for (const f of factionsOf.get(h.source) ?? []) {
-          let p = byFaction.get(f)
-          if (!p) byFaction.set(f, (p = { f: ix.faction.get(f)!, texts: new Set(), counts: new Map(), total: 0 }))
-          p.texts.add(h.source)
-          p.counts.set(k, (p.counts.get(k) ?? 0) + h.count)
-          p.total += h.count
-        }
-    const profiles = [...byFaction.values()].filter((p) => p.texts.size >= MIN_TEXTS).sort((a, b) => b.texts.size - a.texts.size)
-    return { vocab, profiles, attributed: factionsOf.size }
-  }, [ix])
+  const { vocab, profiles, attributed } = rhetoric(ix)
   const hostile = useMemo(() => {
     const s = new Set<string>()
     for (const r of ix.relations) {

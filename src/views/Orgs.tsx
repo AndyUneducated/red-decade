@@ -3,6 +3,7 @@ import type { ScaleLinear } from 'd3'
 import { useMemo, useRef, type ReactNode } from 'react'
 import { Cite, Entity, Verify } from '../components/bits'
 import { PageTitle } from '../components/PageTitle'
+import { OrgParalysis } from '../components/drawer/InsightNotes'
 import { ClaimLinks, EventList } from '../components/drawer/lists'
 import { LONG_MARKS, Scrubber } from '../components/Scrubber'
 import type { Tenure } from '../data/atlas'
@@ -768,6 +769,7 @@ function OrgPage({ id }: { id: string }) {
                   <p className="muted-note">按事件标题和摘要中出现的机构名称匹配。</p>
                 </section>
               )}
+              <OrgParalysis id={id} />
               <ClaimLinks on="org" id={id} />
             </aside>
           </div>

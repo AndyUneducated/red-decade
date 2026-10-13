@@ -3,6 +3,7 @@
 # contain each other (毛泽东 and 毛泽东同志 would count the same words twice).
 
 # B 权威来源：官方文本（中央文件、社论、讲话、新闻）里援引谁。指名的是人，不是主义：毛泽东思想单列一行。
+# 已建档的人用人物 id，人物卡片据此显示此人作为权威被援引的情况。
 authorities:
   - id: marx-engels
     name: 马克思、恩格斯
@@ -16,20 +17,20 @@ authorities:
     name: 斯大林
     terms: [斯大林]
     except: [斯大林格勒, 斯大林主义]
-  - id: mao
+  - id: mao-zedong
     name: 毛泽东（本人）
     terms: [毛主席, 毛泽东]
     except: [毛泽东思想, 毛泽东选集, 毛泽东著作]
   - id: mao-thought
     name: 毛泽东思想
     terms: [毛泽东思想]
-  - id: lin
+  - id: lin-biao
     name: 林彪（作为权威）
     terms: [林副主席, 林彪同志]
   - id: hua
     name: 华国锋（作为权威）
     terms: [华主席, 华国锋同志]
-  - id: deng
+  - id: deng-xiaoping
     name: 邓小平（作为权威）
     terms: [邓小平同志]
   - id: lu-xun

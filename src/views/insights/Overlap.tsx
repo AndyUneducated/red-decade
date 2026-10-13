@@ -2,17 +2,16 @@ import * as d3 from 'd3'
 import { useMemo, useRef, useState } from 'react'
 import { Cite, PersonChip, StatusDot } from '../../components/bits'
 import { LifeStrip } from '../../components/LifeStrip'
-import { DEATH_KINDS, RELATION_TYPES, STATUSES, type Person, type Relation, type Status } from '../../data/schema'
+import { DEATH_KINDS, RELATION_TYPES, STATUSES, type Person, type Relation } from '../../data/schema'
 import { fallsSince } from '../../derive/fates'
 import { fmtDate, toT } from '../../lib/dates'
 import { useSize } from '../../lib/useSize'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
+import { FALLS as ALL_FALLS, HOSTILE, OVERLAP_T0 as T0 } from './shared'
 
-const T0 = toT('1949-10')
 const T1 = toT('1989-12', true)
-const FALLS: ReadonlySet<Status> = new Set(['purged', 'detained'])
-const HOSTILE: ReadonlySet<Relation['type']> = new Set(['attack', 'persecute'])
+const FALLS = ALL_FALLS.strict
 
 type Kind = 'then-fell' | 'fell-first' | 'stood'
 const KINDS: Record<Kind, { title: string; note: string }> = {

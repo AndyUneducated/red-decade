@@ -2,7 +2,7 @@ import { fmtDate } from '../../lib/dates'
 import { page as pageDef } from '../../pages'
 import { useApp } from '../../state'
 import { Cite, Entity, Voices } from '../bits'
-import { ConceptNear } from './InsightNotes'
+import { ConceptNear, FirstUse } from './InsightNotes'
 import { ClaimLinks, EventList, highlight } from './lists'
 
 // sub narrows the contexts to one source document
@@ -70,6 +70,7 @@ export function ConceptCard({ id, sub: doc }: { id: string; sub?: string }) {
         </section>
       )}
       <ConceptNear id={id} />
+      <FirstUse on={{ type: 'concept', id }} hits={c.hits} />
       <ClaimLinks on="concept" id={id} />
     </>
   )

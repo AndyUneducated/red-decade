@@ -1,11 +1,11 @@
 import { useMemo } from 'react'
 import { Cite, PersonChip } from '../../components/bits'
-import { ATTRIBUTION_MIN_KINDS as MIN_KINDS } from '../../components/drawer/InsightNotes'
 import { VOICES, type Voice } from '../../data/schema'
 import { personMentioner } from '../../derive/match'
 import { fmtDate } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
+import { ATTRIBUTION_MIN_KINDS as MIN_KINDS } from './shared'
 
 const ORDER = Object.keys(VOICES) as Voice[]
 

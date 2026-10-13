@@ -1,11 +1,11 @@
 import * as d3 from 'd3'
 import { useMemo, useRef } from 'react'
 import { LifeStrip } from '../../components/LifeStrip'
-import { lifeCodes } from '../../components/drawer/InsightNotes'
 import { lifeDistance, nearest } from '../../derive/fates'
 import { useSize } from '../../lib/useSize'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
+import { lifeCodes } from './shared'
 
 // 1960–1966: the years before the Cultural Revolution that two lives must share to count as one starting point
 const EARLY = 7

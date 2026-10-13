@@ -1,13 +1,13 @@
 import * as d3 from 'd3'
 import { useMemo, useState } from 'react'
 import { PersonChip, StatusDot } from '../../components/bits'
-import { FALLS, SURVIVAL_T0 as T0, SURVIVAL_T1 as T1 } from '../../components/drawer/InsightNotes'
 import { factionAt } from '../../data/atlas'
 import { STATUSES, type Faction, type Person } from '../../data/schema'
 import { kaplanMeier, survivalSubject, type Subject } from '../../derive/fates'
 import { fmtT, toT } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
+import { FALLS, SURVIVAL_T0 as T0, SURVIVAL_T1 as T1 } from './shared'
 
 const MIN_N = 5
 const W = 220

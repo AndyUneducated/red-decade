@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { PersonChip } from '../../components/bits'
-import { MAO } from '../../components/drawer/InsightNotes'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
+import { MAO } from './shared'
 
 export function Drift() {
   const { ix, sel, select } = useApp()

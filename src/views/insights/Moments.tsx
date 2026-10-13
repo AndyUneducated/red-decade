@@ -22,8 +22,7 @@ const PERIODS: { from: string; title: string }[] = [
 type Said = { p: Person; q: PersonQuote; t: number }
 
 export function Moments() {
-  const { ix } = useApp()
-  const [who, setWho] = useState<string | null>(null)
+  const { ix, sel } = useApp()
   const said = useMemo(
     () =>
       ix.people
@@ -31,6 +30,8 @@ export function Moments() {
         .sort((a, b) => a.t - b.t),
     [ix],
   )
+  // opened from a person's card: start with that person
+  const [who, setWho] = useState<string | null>(() => (sel?.type === 'person' && said.some((s) => s.p.id === sel.id) ? sel.id : null))
   const repeat = useMemo(() => {
     const periodOf = (t: number) => d3.bisectRight(PERIODS.map((x) => toT(x.from)), t)
     return [...d3.rollup(said, (v) => new Set(v.map((s) => periodOf(s.t))).size, (s) => s.p.id)]

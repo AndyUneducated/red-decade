@@ -3,9 +3,7 @@ import { Cite } from '../../components/bits'
 import { fmtDate } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
-
-// years with less official text than this are left blank: one or two documents would decide the colour
-const MIN_CHARS = 20000
+import { AUTHORITY_MIN_CHARS as MIN_CHARS } from './shared'
 
 export function Authority() {
   const { ix } = useApp()

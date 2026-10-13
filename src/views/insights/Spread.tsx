@@ -7,17 +7,8 @@ import { fmtDate, toT } from '../../lib/dates'
 import { useSize } from '../../lib/useSize'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
+import { firstsByKind, SPREAD_KINDS as KINDS, spreadKind as kindOf } from './shared'
 
-// contemporary kinds of text, top to bottom of the hierarchy; press reports count with news
-const KINDS: { id: string; color: string; also?: string[] }[] = [
-  { id: 'party-doc', color: 'var(--sys-party)' },
-  { id: 'speech', color: 'var(--org-mass)' },
-  { id: 'editorial', color: 'var(--sys-gov)' },
-  { id: 'news', color: 'var(--ink-2)', also: ['press'] },
-  { id: 'redguard', color: 'var(--org-popular)' },
-  { id: 'essay', color: 'var(--sys-army)', also: ['letter'] },
-]
-const kindOf = (k: string) => KINDS.find((x) => x.id === k || x.also?.includes(k))
 const ROW = 20
 const LABEL = 150
 
@@ -28,14 +19,7 @@ export function Spread() {
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
   const rows = useMemo(() => {
-    const firsts = (hits: ConceptHit[]) => {
-      const by = new Map<string, ConceptHit>()
-      for (const h of [...hits].sort((a, b) => firstKey(a.date).localeCompare(firstKey(b.date)))) {
-        const k = kindOf(ix.source.get(h.source)?.kind ?? '')
-        if (k && !by.has(k.id)) by.set(k.id, h)
-      }
-      return [...by].map(([kind, hit]) => ({ kind, hit }))
-    }
+    const firsts = (hits: ConceptHit[]) => firstsByKind(ix, hits)
     const all: Row[] = [
       ...ix.concepts.map((c) => ({ ref: { type: 'concept', id: c.id } as Ref, name: c.name, firsts: firsts(c.hits) })),
       ...ix.isms.map((m) => ({ ref: { type: 'ism', id: m.id } as Ref, name: m.short ?? m.name, firsts: firsts(m.hits) })),

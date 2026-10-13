@@ -5,7 +5,7 @@ import { useApp } from '../../state'
 import { Cite, Entity, StatusDot, Verify } from '../bits'
 import { PersonFacts, PositionList } from '../PersonFacts'
 import { Portrait } from '../Portrait'
-import { NearLives } from './InsightNotes'
+import { PersonInsights } from './InsightNotes'
 import { ClaimLinks, EventList, FateLine, RelationList } from './lists'
 
 export function PersonCard({ id }: { id: string }) {
@@ -78,7 +78,7 @@ export function PersonCard({ id }: { id: string }) {
           <EventList events={events} />
         </section>
       )}
-      <NearLives id={id} />
+      <PersonInsights id={id} />
       <ClaimLinks on="person" id={id} />
     </>
   )
