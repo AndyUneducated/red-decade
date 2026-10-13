@@ -39,7 +39,7 @@
   cites: [ws-1983-06-supreme-court-report, ws-1982-supreme-court-report]
 
 - id: 1983-06-household-contract
-  date: 1983-06
+  date: 1983-06-06
   title: 政府工作报告确认家庭联产承包责任制
   lane: econ
   weight: 2
@@ -156,7 +156,7 @@
   cites: [rmrb-1984-02-14-su-yu]
 
 - id: 1984-05-coastal-cities
-  date: 1984-05
+  date: 1984-05-15
   title: 开放十四个沿海港口城市和海南岛
   lane: econ
   weight: 2
@@ -277,7 +277,7 @@
   cites: [rmrb-1986-03-01-stats-1985]
 
 - id: 1985-03-consumption-figures
-  date: 1985-03
+  date: 1985-03-27
   title: 政府工作报告：人均消费年增 7.3%，前二十六年 2.2%
   lane: econ
   weight: 1
@@ -380,3 +380,41 @@
   voices:
     - { voice: officialLater, text: 合肥、北京等地一些高等学校的少数学生出于各种情绪和缘由上街游行（官方大事记）, cite: ws-1987-01-student-protest-chronology, quote: true }
   cites: [ws-1987-01-student-protest-chronology, rmrb-1987-01-17-politburo]
+
+- id: 1983-zhongshan-survey
+  date: 1983
+  title: 钟山县核实：文革死亡 631 人，七成在革委会成立后
+  lane: local
+  weight: 1
+  place: 广西钟山
+  summary: 钟山县 1983 年调查核实，因文革死亡 631 人，其中县革命委员会成立前 183 人，成立后 448 人。七成多的死亡发生在新政权建立之后。
+  people: []
+  concepts: [class-struggle]
+  voices:
+    - { voice: officialLater, text: 因“文革”而死亡的共631人，其中县革命委员会成立前全县被迫害致死的183人，成立后死亡448人（钟山县文革大事件）, cite: ccrd-1987-gx-zhongshan-217, quote: true }
+  cites: [ccrd-1987-gx-zhongshan-217]
+
+- id: 1985-05-xingan-chuyi-end
+  date: 1985-05
+  title: 兴安县处遗结束：非正常死亡 869 人
+  lane: local
+  weight: 1
+  place: 广西兴安
+  summary: 兴安县的处遗到 1985 年 5 月结束。县文革大事记统计非正常死亡 869 人，占 1968 年全县人口二十四万一千四百四十二人的 3.6‰。
+  people: []
+  voices:
+    - { voice: officialLater, text: 仅非正常死亡人数就达869人（兴安县文革大事记）, cite: ccrd-1987-gx-xingan-171, quote: true }
+  cites: [ccrd-1987-gx-xingan-171]
+
+- id: 1985-12-liuzhou-pref-count
+  date: 1985-12
+  title: 柳州地区统计：文革中被迫害致死 6323 人
+  lane: local
+  weight: 2
+  place: 广西柳州地区
+  summary: 柳州地委 1985 年 12 月的统计：全地区文革中被迫害致死 6323 人，其中国家干部、工人 654 人，居民、农民、学生 5669 人。死者近九成是农村和城镇的普通居民。
+  people: []
+  concepts: [class-struggle]
+  voices:
+    - { voice: officialLater, text: 1985年12月统计，全地区在“文革”中被迫害致死的6323人（柳州地区文革大事记）, cite: ccrd-1987-gx-liuzhou-pref-47, quote: true }
+  cites: [ccrd-1987-gx-liuzhou-pref-47]

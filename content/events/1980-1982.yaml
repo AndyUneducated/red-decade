@@ -277,3 +277,29 @@
   voices:
     - { voice: officialLater, text: 要求从一九八三年到一九八七年的五年间争取实现国家财政经济状况的根本好转（1982 年政府工作报告）, cite: ws-1982-12-gov-report, quote: true }
   cites: [ws-1982-12-gov-report]
+
+- id: 1980-cangwu-death-verdicts
+  date: 1980
+  title: 苍梧县改写死亡结论：从“非正常死亡”到“逝世”
+  lane: local
+  weight: 1
+  place: 广西苍梧
+  summary: 苍梧县抽调组织部、公安局、法院、检察院干部调查文革中的死人事件。被迫害致死的干部、职工，除 4 人外有 53 人的结论由“非正常死亡”改为“逝世”，性质定为“人民内部矛盾”，后来又改为“受林彪‘四人帮’极左路线的干扰逝世”。1980 年调查全县文革死亡 512 人，其中“四类分子”178 人、“四类分子”子女 195 人，干部 47 人；家属生活困难的 131 人得到一次性或分期补助。
+  people: []
+  concepts: [class-struggle]
+  voices:
+    - { voice: officialLater, text: 有53人由原来的结论“非正常死亡”改为“逝世”，性质属“人民内部矛盾”（苍梧县文革大事记）, cite: ccrd-1987-gx-cangwu-70, quote: true }
+  cites: [ccrd-1987-gx-cangwu-70]
+
+- id: 1982-05-23-guanyang-report
+  date: 1982-05-23
+  title: 灌阳县报告：241 人非正常死亡，118 人未作结论
+  lane: local
+  weight: 1
+  place: 广西灌阳
+  summary: 灌阳县委向桂林地委和自治区党委报告：1967–1968 年全县 241 人非正常死亡，其中“四类分子”103 人、地富子女 59 人。已对 123 人作出死亡定性结论；未作结论的 118 人里，“四类分子”占 102 人，另有 15 人没有亲属。抚恤金只发给了 13 名死亡干部、工人的遗属。同年 12 月县处遗办公室的统计改为被迫害致死 304 人。
+  people: []
+  concepts: [class-struggle]
+  voices:
+    - { voice: officialLater, text: 对其中123人作出了死亡定性结论，未作定性结论的118人，其中“四类分子”102人，无亲属的15人（灌阳县文革大事记，1982 年 5 月 23 日条）, cite: ccrd-1987-gx-guanyang-31, quote: true }
+  cites: [ccrd-1987-gx-guanyang-31]

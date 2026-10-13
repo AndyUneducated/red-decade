@@ -1,0 +1,328 @@
+# Events, 1987–1989 (M6 第 4 批)：零陵各县处遗总结、广西整党办公室编写文革大事记、十三大、物价、1989 年的戒严令与事后文件。
+
+- id: 1987-01-10-shuangpai-report
+  date: 1987-01-10
+  title: 双牌县处遗总结：344 人的抚恤与安置
+  lane: local
+  weight: 1
+  place: 湖南双牌
+  summary: 双牌县委总结。对 1967 年被杀和自缢的 344 人发抚恤金四万九千六百五十元，另有查抄财物补偿、困难补助、孤老孤残长期补助（每人每月十二元）、外逃户回乡安置和房屋修缮，合计十九万八千八百四十三元。报告说 98.5% 的遗属在安置表上“比较满意地”签了字。
+  people: []
+  concepts: [class-struggle]
+  voices:
+    - { voice: officialLater, text: 对全县被杀和自缢的344人，发给抚恤金49650元（1987 年双牌县委总结）, cite: ccrd-1987-hn-shuangpai-1, quote: true }
+    - { voice: officialLater, text: 全县共发各种安置资金198843元（同一总结）, cite: ccrd-1987-hn-shuangpai-1, quote: true }
+  cites: [ccrd-1987-hn-shuangpai-1]
+
+- id: 1987-03-03-dongan-report
+  date: 1987-03-03
+  title: 东安县调查：422 人死亡，1178 人因“反共救国军”被打伤打残
+  lane: local
+  weight: 1
+  place: 湖南东安
+  summary: 东安县委调查报告。全县被杀、自杀 422 人，其中被杀 139 人、自杀 283 人；死者中贫下中农 164 人，多于“四类分子”的 95 人。县属机关 54 个单位死亡 81 人，其中自杀 75 人。另因抓所谓“反共救国军”打伤打残 1178 人。
+  people: []
+  concepts: [class-struggle]
+  voices:
+    - { voice: officialLater, text: 全县还因抓所谓“反共救国军”被打伤、打残（1987 年东安县委调查报告）, cite: ccrd-1987-hn-dongan-17, quote: true }
+  cites: [ccrd-1987-hn-dongan-17]
+
+- id: 1987-03-lengshuitan-report
+  date: 1987-03
+  title: 冷水滩市调查：135 人，最小的 4 岁
+  lane: local
+  weight: 1
+  place: 湖南冷水滩
+  summary: 冷水滩市委调查报告。1967 年 8 月 15 日到 1968 年 7 月 21 日间被杀 62 人，其中“四类分子”31 人、子女 29 人，还有一名绅士和一名乞丐；整个文革期间批斗致死 73 人，多是干部、教员、医务人员和工人。被害人最大 70 岁，最小 4 岁。
+  people: []
+  voices:
+    - { voice: officialLater, text: 自一九六七年八月十五日开始，至一九六八年七月二十一日终止（1987 年冷水滩市委调查报告）, cite: ccrd-1987-hn-lengshuitan-city-16, quote: true }
+  cites: [ccrd-1987-hn-lengshuitan-city-16]
+
+- id: 1987-04-03-xintian-report
+  date: 1987-04-03
+  title: 新田县处遗总结：杀人从道县、宁远“推广”而来
+  lane: local
+  weight: 2
+  place: 湖南新田
+  summary: 新田县委总结列出 1967 年杀人的三个原因：道县、宁远杀人的影响被当作“抓阶级斗争的经验”推广；造反派头头支持、煽动、直接部署；县内“支左”人员传达 47 军电文时断章取义。从 9 月 8 日城关枪杀 5 人起，四十天内被杀 606 人、被迫自杀 180 人，全家被杀光 70 户，近百名妇女携儿带女被迫改嫁。
+  people: []
+  concepts: [class-struggle, factionalism]
+  voices:
+    - { voice: officialLater, text: 被新田一些造反派和部份不明真相的干部群众作为镇压阶级敌人，抓阶级斗争的经验加以推广（1987 年新田县委总结）, cite: ccrd-1987-hn-xintian-20, quote: true }
+    - { voice: officialLater, text: 县内“支左”人员传达47军电文断章取义，诱发了新田的杀人（同一总结）, cite: ccrd-1987-hn-xintian-20, quote: true }
+  cites: [ccrd-1987-hn-xintian-20]
+
+- id: 1987-05-08-jiangyong-report
+  date: 1987-05-08
+  title: 江永县处遗总结：被杀 407 人之后的家庭
+  lane: local
+  weight: 1
+  place: 湖南江永
+  summary: 江永县委总结把损失落到家庭层面：被杀 306 户 407 人，另有 19 人自缢；16 户 28 人被杀绝；56 人被迫外逃，69 人成为孤老孤残，85 名妇女丈夫被杀后改嫁，57 个孩子随母下堂；房屋被拆占变卖，农具、牲猪、粮食被抄，无法归还的财物估价二十一万元。
+  people: []
+  voices:
+    - { voice: officialLater, text: 85人丈夫被杀后改嫁；57人随母下堂（1987 年江永县委总结）, cite: ccrd-1987-hn-jiangyong-2, quote: true }
+  cites: [ccrd-1987-hn-jiangyong-2]
+
+- id: 1987-05-20-jianghua-report
+  date: 1987-05-20
+  title: 江华县处遗总结：788 人，占全县人口 3.3%
+  lane: local
+  weight: 1
+  place: 湖南江华
+  summary: 江华瑶族自治县委总结。1967 年 9–10 月“受外县杀人风的波及影响”，涉及 35 个公社、181 个大队，杀 743 人、逼死 45 人，合计 788 人，占当时全县人口 3.3%，高于道县的 1.18%。死者中“四类分子”343 人、子女 280 人、贫下中农 109 人。
+  people: []
+  concepts: [class-struggle]
+  voices:
+    - { voice: officialLater, text: 受外县杀人风的波及影响，1967年的9、10月间，我县出现了严重的杀人事件（1987 年江华县委总结）, cite: ccrd-1987-hn-jianghua-3, quote: true }
+    - { voice: officialLater, text: 合计788人，占当时全县人口的3.3％（同一总结）, cite: ccrd-1987-hn-jianghua-3, quote: true }
+  cites: [ccrd-1987-hn-jianghua-3]
+
+- id: 1987-05-20-yongzhou-report
+  date: 1987-05-20
+  title: 永州市调查：249 人
+  lane: local
+  weight: 1
+  place: 湖南永州
+  summary: 永州市委调查报告：文革期间被杀和自缢共 249 人，其中自缢 26 人，自缢者中有两名诊所医生。
+  people: []
+  voices:
+    - { voice: officialLater, text: 全市文革期间被杀和自缢共计（1987 年永州市委调查报告，数字为 249 人）, cite: ccrd-1987-hn-yongzhou-city-5, quote: true }
+  cites: [ccrd-1987-hn-yongzhou-city-5]
+
+- id: 1987-05-31-lanshan-report
+  date: 1987-05-31
+  title: 蓝山县处遗总结：21 天的高潮期
+  lane: local
+  weight: 1
+  place: 湖南蓝山
+  summary: 蓝山县委按省委（85）12 号文件处遗的总结。1967 年 9 月 8 日到 29 日的 21 天里他杀 89 人、被迫自杀 12 人，余波延续到 1968 年 10 月；全文革期间共 149 人，最大 70 多岁，最小 11 岁。
+  people: []
+  voices:
+    - { voice: officialLater, text: 从67年9月8日至9月29日21天内他杀89人，被迫自杀12人，合计101人，是杀人高潮期（1987 年蓝山县委总结）, cite: ccrd-1987-hn-lanshan-6, quote: true }
+  cites: [ccrd-1987-hn-lanshan-6]
+
+- id: 1987-06-02-qiyang-report
+  date: 1987-06-02
+  title: 祁阳县处遗总结：245 人的善后
+  lane: local
+  weight: 1
+  place: 湖南祁阳
+  summary: 祁阳县委总结：文革中被杀和被迫自杀 245 人。处遗以被杀者为重点做善后安置，对被迫自杀者也作了结论。
+  people: []
+  voices:
+    - { voice: officialLater, text: 处遗工作以“文革”被杀人员为重点，做好善后安置工作，同时对“文革”中被迫自杀人员也做了结论（1987 年祁阳县委总结）, cite: ccrd-1987-hn-qiyang-7, quote: true }
+  cites: [ccrd-1987-hn-qiyang-7]
+
+- id: 1987-07-10-ningyuan-report
+  date: 1987-07-10
+  title: 宁远县处遗总结：1093 人，做了 8 年
+  lane: local
+  weight: 2
+  place: 湖南宁远
+  summary: 宁远县委总结。1967 年全县 68 天的杀人事件中被杀 889 人、被迫自杀 204 人，共 1093 人。处遗依据省委 1979 年 5 号、1985 年 12 号文件和地委 1984 年 15 号文件，抽调专干 138 人，前后 8 年。报告的结论是“完成了省地委交给的任务”。
+  people: []
+  concepts: [class-struggle]
+  voices:
+    - { voice: officialLater, text: 组织专干138人，分工包干负责，做了8年工作，取得了令人满意的成绩，完成了省地委交给的任务（1987 年宁远县委总结）, cite: ccrd-1987-hn-ningyuan-9, quote: true }
+  cites: [ccrd-1987-hn-ningyuan-9]
+
+- id: 1987-11-30-daoxian-report
+  date: 1987-11-30
+  title: 道县处遗总结：六十六天，4509 人
+  lane: local
+  weight: 3
+  place: 湖南道县
+  summary: 道县县委的总结报告。1967 年 8 月 13 日到 10 月 17 日的 66 天里，全县 519 个农村大队中有 468 个杀了人，共死亡 4509 人，其中被杀 4070 人、被迫自杀 439 人，占全县人口 1.18%；207 户全家被杀绝。8 月 22–30 日九天内杀 3231 人。死者中“四类分子”1977 人、地富子女 2145 人，13 岁以下 386 人；还有 9 名中共党员、18 名共青团员。库内零陵地区十一个县市的总结里，道县的人数最多。
+  people: []
+  concepts: [class-struggle, bloodline]
+  voices:
+    - { voice: officialLater, text: 全县共死亡 4509 人，其中被杀 4070 人，被迫自杀 439 人（1987 年道县县委总结报告）, cite: ccrd-1987-hn-daoxian-15, quote: true }
+    - { voice: officialLater, text: 还有中共党员九名、共青团员十八名也惨遭杀害（同一报告）, cite: ccrd-1987-hn-daoxian-15, quote: true }
+  cites: [ccrd-1987-hn-daoxian-15, ccrd-1985-hn-lingling-daoxian-13]
+
+- id: 1987-gx-county-chronicles
+  date: 1987-04
+  end: 1987-08
+  title: 广西各县整党办公室编写文革大事记
+  lane: local
+  weight: 2
+  place: 广西
+  summary: 1987 年 4–8 月，广西宾阳、金秀、兴安、武宣、崇左、钟山、柳州地区、灌阳、龙州、苍梧等县和地区的整党领导小组办公室各自写成“文革大事记”或“大事件”，按时间记录 1966–1976 年本县的批斗、武斗和杀人，并附处遗的数字。兴安县的序言说只能选“影响较大”的事件，“作为史料存查备考”。
+  people: []
+  concepts: [factionalism]
+  voices:
+    - { voice: officialLater, text: 选择了那些在全县影响较大的事件，客观的加以记载，作为史料存查备考（1987 年兴安县文革大事记序言）, cite: ccrd-1987-gx-xingan-171, quote: true }
+  cites: [ccrd-1987-gx-xingan-171, ccrd-1987-gx-binyang-159, ccrd-1987-gx-chongzuo-25, ccrd-1987-gx-wuxuan-10, ccrd-1987-gx-liuzhou-pref-47]
+
+- id: 1987-03-gov-report
+  date: 1987-03-25
+  title: 政府工作报告：物价上涨与“坚决反对资产阶级自由化”
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 胡耀邦辞职两个月后，赵紫阳在六届人大五次会议上作政府工作报告，把当年的两件大事列为增产节约、增收节支和在政治思想领域坚决反对资产阶级自由化；同时承认商品价格上涨较多、外汇收支不平衡。
+  people: [zhao-ziyang]
+  voices:
+    - { voice: officialLater, text: 在政治思想领域，消除资产阶级自由化思潮影响的任务还相当艰巨（1987 年政府工作报告）, cite: ws-1987-gov-report, quote: true }
+  cites: [ws-1987-gov-report]
+
+- id: 1987-04-npcsc-laws
+  date: 1987-04
+  title: 人大常委会一年立法七部，村民委员会组织条例提交大会
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 彭真主持的人大常委会向大会报告：一年来制定土地管理法、邮政法、企业破产法（试行）、海关法、治安管理处罚条例等七部法律，修改选举法和地方组织法，并把村民委员会组织条例草案提请大会审议。报告称这是立法工作“取得较大进展的一年”。
+  people: [peng-zhen]
+  voices:
+    - { voice: officialLater, text: 这是我国立法工作取得较大进展的一年（1987 年人大常委会工作报告）, cite: ws-1987-npcsc-report, quote: true }
+  cites: [ws-1987-npcsc-report]
+
+- id: 1987-04-procuratorate-graft
+  date: 1987-04
+  title: 检察院报告：一年查处特大经济案件 2728 件
+  lane: center
+  weight: 1
+  summary: 最高人民检察院报告 1986 年各级检察机关查处贪污、受贿、诈骗等特大案件 2728 件，县级以上领导干部犯罪案件七百多件。改革中干部以权谋私成为检察工作的重点。
+  people: []
+  voices:
+    - { voice: officialLater, text: 一年来，各级检察机关查处贪污、受贿、诈骗等特大案件２７２８件（1987 年最高人民检察院工作报告）, cite: ws-1987-04-procuratorate-report, quote: true }
+  cites: [ws-1987-04-procuratorate-report]
+
+- id: 1987-10-25-primary-stage
+  date: 1987-10-25
+  title: 十三大：“社会主义初级阶段”与“一个中心、两个基本点”
+  lane: ideology
+  weight: 3
+  place: 北京
+  summary: 赵紫阳在十三大报告中提出中国“正处在社会主义的初级阶段”，以此论证商品经济、多种所有制和对外开放，并把党的基本路线概括为“一个中心、两个基本点”，即“以经济建设为中心，坚持四项基本原则，坚持改革开放”。
+  people: [zhao-ziyang, deng-xiaoping]
+  concepts: [continuous-revolution]
+  voices:
+    - { voice: doc, text: 对这个问题，我们党已经有了明确的回答：我国正处在社会主义的初级阶段（1987 年十三大报告）, cite: ws-1987-10-25-thirteenth-congress-report, quote: true }
+    - { voice: doc, text: 在党的思想建设中，必须全面宣传党的基本路线，牢牢掌握一个中心、两个基本点（同一报告）, cite: ws-1987-10-25-thirteenth-congress-report, quote: true }
+  cites: [ws-1987-10-25-thirteenth-congress-report]
+
+- id: 1987-10-25-party-government-separation
+  date: 1987-10-25
+  title: 十三大：政治体制改革“关键首先是党政分开”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 十三大报告说长期形成的党政不分、以党代政还没有从根本上解决，政治体制改革的关键首先是党政分开，并要求民主政治“一步一步走向制度化、法律化”，称这是“防止‘文化大革命’重演”的根本保证。
+  people: [zhao-ziyang]
+  voices:
+    - { voice: doc, text: 因此，政治体制改革的关键首先是党政分开（1987 年十三大报告）, cite: ws-1987-10-25-thirteenth-congress-report, quote: true }
+    - { voice: doc, text: 这是防止“文化大革命”重演，实现国家长治久安的根本保证（同一报告，指民主政治制度化、法律化）, cite: ws-1987-10-25-thirteenth-congress-report, quote: true }
+  cites: [ws-1987-10-25-thirteenth-congress-report]
+
+- id: 1988-02-24-inflation-1987
+  date: 1988-02-24
+  title: 1987 年零售物价上涨 7.3%
+  lane: econ
+  weight: 1
+  summary: 国家统计局 1987 年公报：全年零售物价总水平上升 7.3%，12 月比上年同月上升 9.1%，城镇上升 9.1%。
+  people: []
+  voices:
+    - { voice: officialLater, text: １９８７年全年零售物价总水平比上年平均上升７．３％（1987 年统计公报）, cite: rmrb-1988-02-24-stats-1987, quote: true }
+  cites: [rmrb-1988-02-24-stats-1987]
+
+- id: 1988-03-hainan-province
+  date: 1988-03-25
+  title: 政府工作报告：海南建省，广东、福建实行更开放的政策
+  lane: econ
+  weight: 1
+  summary: 李鹏在七届人大一次会议上作政府工作报告，提出对广东、福建和海南岛实行更加开放的政策，建立改革开放综合试验区，国务院建议成立海南省。报告同时列出五年来国民生产总值平均每年增长 11.1%。
+  people: [li-peng]
+  voices:
+    - { voice: officialLater, text: 同时在这个基础上对广东、福建和海南岛实行更加开放的政策，建立改革开放综合试验区（1988 年政府工作报告）, cite: ws-1988-03-gov-report, quote: true }
+  cites: [ws-1988-03-gov-report]
+
+- id: 1988-inflation-18-5
+  date: 1988
+  title: 1988 年零售物价上涨 18.5%
+  lane: econ
+  weight: 2
+  summary: 国家统计局 1988 年公报承认“零售物价上涨过猛”：全年上升 18.5%，12 月比上年同月上升 26.7%。1989 年 3 月的政府工作报告随即以“治理整顿”为主题。
+  people: []
+  voices:
+    - { voice: officialLater, text: 零售物价上涨过猛（1988 年统计公报）, cite: rmrb-1989-03-01-stats-1988, quote: true }
+  cites: [rmrb-1989-03-01-stats-1988, ws-1989-03-gov-report]
+
+- id: 1989-03-retrenchment
+  date: 1989-03-20
+  title: 政府工作报告：治理整顿，承认“急于求成”
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 李鹏在七届人大二次会议上的报告以“治理经济环境和整顿经济秩序”为主题，承认政府在指导上“也有缺点和失误”，在经济建设中“存在着急于求成的倾向”，忽视人口多、资源短缺、发展不平衡的实际。一个月后胡耀邦去世。
+  people: [li-peng]
+  voices:
+    - { voice: officialLater, text: 但与此同时，我们在对工作的指导上也有缺点和失误。总的来看，在经济建设中，存在着急于求成的倾向（1989 年政府工作报告）, cite: ws-1989-03-gov-report, quote: true }
+  cites: [ws-1989-03-gov-report]
+
+- id: 1989-05-20-beijing-orders
+  date: 1989-05-20
+  title: 北京市人民政府三道戒严令
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 国务院戒严令自 5 月 20 日 10 时生效后，北京市政府发布三道命令：城区八个区戒严，严禁游行、请愿、罢课、罢工，严禁“串联、演讲、散发传单”，执勤人员“有权采取一切手段，强行处置”；外国人不准介入；严禁中外记者“进行挑唆、煽动性宣传报道”。禁止条款里用的“串联”“打、砸、抢”，都是 1966–1968 年的旧词。
+  people: [li-peng]
+  concepts: [mass-democracy]
+  voices:
+    - { voice: doc, text: 在戒严期间，严禁游行、请愿罢课、罢工和其他聚众妨害正常秩序的活动（北京市人民政府令第一号第二条）, cite: ws-1989-05-20-martial-law-orders, quote: true }
+    - { voice: doc, text: 在戒严期间，发生上述应予禁止的活动，公安干警、武警部队和人民解放军执勤人员有权采取一切手段，强行处置（同一命令第六条）, cite: ws-1989-05-20-martial-law-orders, quote: true }
+    - { voice: doc, text: 严禁中外记者利用采访，进行挑唆、煽动性宣传报道（北京市人民政府关于记者采访的命令）, cite: ws-1989-05-20-martial-law-orders, quote: true }
+  cites: [ws-1989-05-20-martial-law-orders]
+
+- id: 1989-06-07-tianjin-telegram
+  date: 1989-06-07
+  title: 天津市委：组织“自卫队伍”护厂护店
+  lane: local
+  weight: 1
+  place: 天津
+  summary: 6 月 4–6 日天津市委连开三次紧急会议，6 月 7 日电报中央，称“极少数人”企图在天津“开辟新的战场”、扬言冲击电厂，提出三条措施：舆论攻势、各单位组织维护秩序的自卫队伍、公安武警对打砸抢烧者“毫不手软”。
+  people: []
+  voices:
+    - { voice: doc, text: 组织起维护本单位正常秩序的自卫队伍，护厂、护店，旗帜鲜明地反对和制止动乱（1989 年 6 月 7 日中共天津市委）, cite: ws-1989-tianjin-telegram, quote: true }
+  cites: [ws-1989-tianjin-telegram]
+
+- id: 1989-07-06-npcsc-resolution
+  date: 1989-07-06
+  title: 人大常委会决议：“制止动乱和平息反革命暴乱”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 七届人大常委会第八次会议听取陈希同的报告，对国务院“为制止动乱和平息反革命暴乱所采取的一系列措施表示满意”，并向军队、武警和公安致意。国家立法机关以决议形式追认了定性。
+  people: [chen-xitong]
+  voices:
+    - { voice: doc, text: 对这个报告和国务院为制止动乱和平息反革命暴乱所采取的一系列措施表示满意（1989 年人大常委会决议）, cite: ws-1989-07-06-npcsc-resolution, quote: true }
+  cites: [ws-1989-07-06-npcsc-resolution]
+
+- id: 1989-propaganda-notice
+  date: 1989
+  title: 中央加强宣传思想工作的通知：“和平演变”
+  lane: ideology
+  weight: 2
+  summary: 四中全会后中央通知说，十年来特别是近几年“坚持四项基本原则不够一贯，思想政治工作极为薄弱”，把西方宣扬的“民主”“自由”“人权”定性为“和平演变”的图谋，要求公开揭露批评赵紫阳。
+  people: [zhao-ziyang, deng-xiaoping]
+  concepts: [two-lines]
+  voices:
+    - { voice: doc, text: 十年来特别是近几年来，坚持四项基本原则不够一贯，思想政治工作极为薄弱（1989 年中央通知）, cite: ws-1989-propaganda-notice, quote: true }
+    - { voice: doc, text: 必须旗帜鲜明地同这种“和平演变”的图谋和行动作长期的、坚决的斗争（同一通知）, cite: ws-1989-propaganda-notice, quote: true }
+  cites: [ws-1989-propaganda-notice]
+
+- id: 1990-01-10-lift-martial-law
+  date: 1990-01-10
+  title: 国务院解除北京戒严
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 国务院决定自 1990 年 1 月 11 日起解除北京市部分地区的戒严，理由是“首都和全国局势稳定”，戒严“任务已顺利完成”。戒严持续了七个多月。
+  people: [li-peng]
+  voices:
+    - { voice: doc, text: 国务院决定：自一九九〇年一月十一日起，解除在北京市部分地区的戒严（1990 年国务院令）, cite: ws-1990-01-10-lift-martial-law, quote: true }
+  cites: [ws-1990-01-10-lift-martial-law]
