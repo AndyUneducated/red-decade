@@ -1,0 +1,382 @@
+# Events, 1983–1986 (M6 第 3 批)：复查冤案的数字、严打、整党与清理“三种人”、文革要员的最后几场审判、广西与零陵“处遗”、农村改制与城市改革、香港、人物去世与平反、1986 年学潮。
+
+- id: 1983-01-yang-yong-death
+  date: 1983-01
+  title: 杨勇去世
+  lane: army
+  weight: 1
+  summary: 副总参谋长杨勇去世，人民日报 1 月 16 日刊出生平。生平说他文革中被林彪、江青方面诬陷、失去自由。
+  people: [yang-yong]
+  voices:
+    - { voice: officialLater, text: 在“文化大革命”中，遭到林彪、江青反革命集团的恶毒诬陷和残酷迫害，在失去自由的艰难困境中坚信胜利，坚持斗争（1983 年杨勇生平）, cite: rmrb-1983-01-16-yang-yong, quote: true }
+  cites: [rmrb-1983-01-16-yang-yong]
+
+- id: 1983-04-guangxi-chuyi
+  date: 1983-04
+  title: 广西部署“处遗”：处理文革遗留问题
+  lane: local
+  weight: 2
+  place: 广西
+  summary: 1983 年 4 月自治区党委工作会议之后，依据区党委（83）54、55 号文件，广西各县把原来的“落实政策领导小组”改为“处理‘文革’遗留问题领导小组”，组长多由县委副书记或县长担任，下设审案、信访等组，清查 1967–1968 年的杀人案，给死者家属发平反证书和抚恤。宾阳县的领导小组 5 月 10 日经南宁地委批准成立。这是 1967–1968 年广西大规模杀人第一次被系统清查，各县的死亡数字大多出自这次清查。
+  people: []
+  concepts: [factionalism]
+  voices:
+    - { voice: officialLater, text: 县委把处理“文革”遗留问题作为一项主要任务来抓，把原落实政策领导小组改为“处遗”领导小组（天等县文革大事件）, cite: ccrd-1987-gx-tiandeng-39, quote: true }
+    - { voice: officialLater, text: 县委把处理“文革”遗留问题作为一项主要任务来抓，把原落实政策领导小组改为“处遗”领导小组（靖西县，措辞相同）, cite: ccrd-1987-gx-jingxi-79, quote: true }
+  cites: [ccrd-1987-gx-tiandeng-39, ccrd-1987-gx-jingxi-79, ccrd-1987-gx-binyang-159]
+
+- id: 1983-06-court-review-figures
+  date: 1983-06
+  title: 最高法院报告：文革刑事案件复查一百二十万件，改判三十万件
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 最高人民法院在六届人大一次会议上报告，从 1978 年下半年开始复查文革期间判处的刑事案件，原则是“全错的全平，部分错的部分平，不错的不平”。到 1981 年底复查一百二十万件，改判纠正三十万零一千余件，涉及当事人三十二万六千余人。这是官方公布的文革刑事冤案规模最直接的数字。
+  people: []
+  voices:
+    - { voice: officialLater, text: 全错的全平，部分错的部分平，不错的不平（第八次全国人民司法工作会议提出的复查原则，1983 年最高人民法院工作报告）, cite: ws-1983-06-supreme-court-report, quote: true }
+    - { voice: officialLater, text: 改判纠正了冤、假、错案三十万零一千余件，涉及当事人三十二万六千余人（同一报告，截至 1981 年底）, cite: ws-1983-06-supreme-court-report, quote: true }
+  cites: [ws-1983-06-supreme-court-report, ws-1982-supreme-court-report]
+
+- id: 1983-06-household-contract
+  date: 1983-06
+  title: 政府工作报告确认家庭联产承包责任制
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 赵紫阳在六届人大一次会议上作政府工作报告，把农民“创造”的家庭联产承包责任制写成十一届三中全会以来的基本农村政策，要求“继续稳定和完善”。1962 年邓子恢支持安徽“责任田”被批为“单干风”，到这时同类做法成为国家政策。
+  people: [zhao-ziyang]
+  concepts: [two-lines]
+  voices:
+    - { voice: officialLater, text: 特别重要的是，我国农民在党的领导下创造了多种形式的家庭联产承包责任制，克服长期存在的生产上的瞎指挥和分配上的平均主义（1983 年政府工作报告）, cite: ws-1983-06-gov-report, quote: true }
+  cites: [ws-1983-06-gov-report]
+
+- id: 1983-09-02-strike-hard
+  date: 1983-09-02
+  title: 人大常委会两项决定：“严打”开始
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 六届人大常委会第二次会议通过《关于严惩严重危害社会治安的犯罪分子的决定》和《关于迅速审判严重危害社会治安的犯罪分子的程序的决定》，前者允许在刑法规定的最高刑以上判刑直至死刑，后者允许不受刑事诉讼法规定的送达期限限制。三年多里法院审结刑事案件一百四十万余件，判决一百七十二万余人；公安部 1988 年说战役 1987 年初结束。1979 年刚通过的刑法和刑事诉讼法，在战役期间被这两项决定放宽了刑罚上限和程序期限。
+  people: []
+  concepts: [mass-democracy]
+  voices:
+    - { voice: doc, text: 可以在刑法规定的最高刑以上处刑，直至判处死刑（1983 年 9 月 2 日人大常委会决定）, cite: ws-1983-09-02-strike-hard, quote: true }
+    - { voice: doc, text: 可以不受刑事诉讼法第一百一十条规定的关于起诉书副本送达被告人期限以及各项传票、通知书送达期限的限制（同日程序决定）, cite: ws-1983-09-02-swift-trial, quote: true }
+    - { voice: officialLater, text: 自1983年8月到1986年底，全国各级人民法院共审结刑事案件140万余件，判决人犯172.1万多名（1987 年最高人民法院工作报告）, cite: ws-1987-04-supreme-court-report, quote: true }
+    - { voice: officialLater, text: 到1987年初，“严打”战役胜利结束，基本改变了社会治安的非正常状况（1988 年公安部报告）, cite: ws-1988-09-public-security-report, quote: true }
+  cites: [ws-1983-09-02-strike-hard, ws-1983-09-02-swift-trial, ws-1987-04-supreme-court-report, ws-1988-09-public-security-report]
+
+- id: 1983-10-11-party-rectification
+  date: 1983-10-11
+  title: 整党决定：清理“三种人”
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 十二届二中全会通过《关于整党的决定》，用三年时间分期分批整党，重点之一是清理“三种人”，即追随林彪、江青集团造反起家的人、帮派思想严重的人和打砸抢分子。北京大兴、湖南零陵等地 1980 年代中期对文革杀人的调查，很多是由“核查三种人”的班子做的。
+  people: [hu-yaobang, deng-xiaoping]
+  concepts: [factionalism]
+  voices:
+    - { voice: doc, text: 清理“三种人”，是纯洁组织的关键问题（1983 年《关于整党的决定》）, cite: ws-1983-10-11-party-rectification, quote: true }
+  cites: [ws-1983-10-11-party-rectification]
+
+- id: 1983-11-02-zhao-dengcheng-sentenced
+  date: 1983-11-02
+  title: 赵登程判刑十五年：“中国（马列）共产党”假案
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 北京市中级人民法院判决。赵登程原是空军某军副军长，文革中进入公安部领导小组、任“中央专案审查小组第三办公室”副主任，1972 年已被逮捕。判决认定他 1968 年按谢富治授意“抓组织、追后台”，参与制造“中国（马列）共产党”假案，把矛头指向陈毅、李富春、叶剑英、徐向前等人。
+  people: [xie-fuzhi, chen-yi, li-fuchun, ye-jianying, xu-xiangqian]
+  voices:
+    - { voice: judicial1980, text: 参与制造“中国（马列）共产党”假案，诬陷党和国家领导人（1983 年起诉书所列第一项）, cite: ws-1983-zhao-dengcheng-case, quote: true }
+    - { voice: judicial1980, text: 判处被告人赵登程有期徒刑十五年，剥夺政治权利三年（1983 年 11 月 2 日判决）, cite: ws-1983-zhao-dengcheng-case, quote: true }
+  cites: [ws-1983-zhao-dengcheng-case]
+
+- id: 1983-11-02-qi-jinghe-sentenced
+  date: 1983-11-02
+  title: 康生秘书齐景和判刑十七年
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 同日北京市中级人民法院判决齐景和。他原是康生的秘书，文革中兼任中央专案审查小组第一办公室“刘仁专案组”和“彭真、刘仁专案组”副组长，判决认定的第一项罪行是诬陷、迫害刘少奇。庭审有辩护律师出庭。
+  people: [kang-sheng, liu-shaoqi, liu-ren, peng-zhen]
+  voices:
+    - { voice: judicial1980, text: 判处被告人齐景和有期徒刑十七年，剥夺政治权利四年（1983 年 11 月 2 日判决）, cite: ws-1983-qi-jinghe-case, quote: true }
+  cites: [ws-1983-qi-jinghe-case]
+
+- id: 1983-11-02-liu-qingtang-sentenced
+  date: 1983-11-02
+  title: 刘庆棠判刑十七年
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 同日判决的还有刘庆棠。他是《红色娘子军》洪常青的扮演者，文革中从芭蕾舞剧团演员升为文化部副部长，1982 年 9 月被捕，1983 年 3 月起诉。样板戏系统的人，到此也进了审判。
+  people: [liu-qingtang, jiang-qing]
+  voices:
+    - { voice: judicial1980, text: 判处被告人刘庆棠有期徒刑十七年，剥夺政治权利四年（1983 年 11 月 2 日判决）, cite: ws-1983-liu-qingtang-case, quote: true }
+  cites: [ws-1983-liu-qingtang-case]
+
+- id: 1983-1984-liuzhou-chuyi
+  date: 1983
+  end: 1984
+  title: 柳州市“处遗”：文革死亡 1049 人
+  lane: local
+  weight: 1
+  place: 广西柳州
+  summary: 柳州市 1983–1984 年按区党委（83）54、55 号文件处理文革遗留问题。初步统计全市被迫害致死和无辜死亡 1049 人，各类冤假错案涉及 5794 人，包括“反共救国团”“五·一六反革命集团”“广西地下党遭受迫害”等大案。
+  people: []
+  concepts: [factionalism]
+  voices:
+    - { voice: officialLater, text: 据初步统计，柳州市在“文化大革命”中被迫害致死和无辜死亡共1049人（柳州市文革大事件）, cite: ccrd-1987-gx-liuzhou-city-90, quote: true }
+  cites: [ccrd-1987-gx-liuzhou-city-90]
+
+- id: 1984-chuyi-compensation-gx
+  date: 1984
+  title: 广西各县处遗抚恤：平反证书与安葬费
+  lane: local
+  weight: 1
+  place: 广西
+  summary: 处遗的善后以钱和证书为主。龙州县查明文革中被枪杀、打死、迫害自杀 325 人，给家属发平反证书，并按项目发安葬费、抚恤费、抚养费、生活困难补助、建房费；崇左县组织三百多人清查大案要案，拨款八十万二千五百元抚恤，安排 93 名遗属子女工作。
+  people: []
+  voices:
+    - { voice: officialLater, text: 县委“处遗”领导小组分别给被害家属发了平反证书（龙州县文革大事件）, cite: ccrd-1987-gx-longzhou-66, quote: true }
+    - { voice: officialLater, text: 并拨款802500元对受害者家属进行抚恤（崇左县文革大事件）, cite: ccrd-1987-gx-chongzuo-25, quote: true }
+  cites: [ccrd-1987-gx-longzhou-66, ccrd-1987-gx-chongzuo-25]
+
+- id: 1984-02-su-yu-death
+  date: 1984-02
+  title: 粟裕去世
+  lane: army
+  weight: 1
+  summary: 粟裕去世，人民日报 2 月 14 日刊出生平。生平说他去世前十天还在春节茶话会上作书面发言。
+  people: [su-yu]
+  voices:
+    - { voice: officialLater, text: 在他逝世前的十天，他还在春节茶话会上作了语重心长的书面发言（1984 年粟裕生平）, cite: rmrb-1984-02-14-su-yu, quote: true }
+  cites: [rmrb-1984-02-14-su-yu]
+
+- id: 1984-05-coastal-cities
+  date: 1984-05
+  title: 开放十四个沿海港口城市和海南岛
+  lane: econ
+  weight: 2
+  summary: 六届人大二次会议的政府工作报告宣布扩大厦门特区，并开放大连到北海十四个沿海港口城市和海南岛，实行经济特区的某些特殊政策。
+  people: [zhao-ziyang]
+  voices:
+    - { voice: officialLater, text: 进一步开放大连、秦皇岛、天津、烟台、青岛、连云港、南通、上海、宁波、温州、福州、广州、湛江、北海等十四个沿海港口城市和海南岛（1984 年政府工作报告）, cite: ws-1984-05-gov-report, quote: true }
+  cites: [ws-1984-05-gov-report]
+
+- id: 1984-commune-dissolution
+  date: 1984
+  title: 政社分开，建立乡政府：人民公社解体
+  lane: local
+  weight: 2
+  summary: 1984 年政府工作报告说，县级政府机构改革和“政社分开、建立乡政府”在全国陆续展开。1958 年起政权、生产和分配合一的人民公社，从此退回为乡政府和村。1967 年道县 519 个农村大队中有 468 个杀了人，组织单位正是公社和大队。
+  people: []
+  voices:
+    - { voice: officialLater, text: 县级政府的机构改革和政社分开、建立乡政府的工作在全国陆续展开（1984 年政府工作报告）, cite: ws-1984-05-gov-report, quote: true }
+  cites: [ws-1984-05-gov-report]
+
+- id: 1984-grain-record
+  date: 1984
+  title: 粮食产量突破四亿吨
+  lane: econ
+  weight: 1
+  summary: 国家统计局 1985 年公报：1984 年粮食产量四亿零七百一十二万吨，比上年增长 5.1%，棉花、油料等也完成或超额完成计划。
+  people: []
+  voices:
+    - { voice: officialLater, text: 种植业全面增产，粮食、棉花、油料、黄红麻、桑蚕茧等主要农产品产量完成和超额完成了计划（1984 年统计公报）, cite: rmrb-1985-03-10-stats-1984, quote: true }
+  cites: [rmrb-1985-03-10-stats-1984]
+
+- id: 1984-liandong-rehab
+  date: 1984
+  title: 中组部、公安部、团中央：“联动”“西纠”彻底平反
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: 1966 年“首都红卫兵西城纠察队”和“首都中学红卫兵联合行动委员会”是北京的中学红卫兵组织，江青公开要求镇压“西纠”，1967 年《红旗》社论把“联动”列为反动组织，数百人被捕关押。北京市公安局 1979 年已为他们平反，这份文件稿再次宣布彻底平反，并要求公安机关逐人作平反结论；同时规定其中犯有严重错误或罪行的极少数人按清理“三种人”的规定处理。受迫害与加害，在同一份平反文件里分开处理。
+  people: []
+  concepts: [bloodline]
+  voices:
+    - { voice: officialLater, text: 林彪、江青反革命集团对这两个红卫兵组织的各种诬陷和迫害，在全国造成了很坏的影响，应彻底平反，恢复名誉（1984 年平反通知稿）, cite: ws-1984-liandong-rehab, quote: true }
+    - { voice: officialLater, text: 对这两个中学红卫兵组织中极少数犯有严重错误或罪行的人，应按中央《关于清理“三种人”若干问题的补充通知》规定处理（同一文件）, cite: ws-1984-liandong-rehab, quote: true }
+  cites: [ws-1984-liandong-rehab]
+
+- id: 1984-09-26-hongkong-declaration
+  date: 1984-09-26
+  title: 中英联合声明草签：“一国两制”，五十年不变
+  lane: intl
+  weight: 2
+  summary: 中英两国政府草签香港问题联合声明，中国 1997 年恢复对香港行使主权，香港原有的资本主义制度和生活方式五十年不变。11 月向人大常委会的报告说，这是按“一个国家，两种制度”构想采取的特殊政策。
+  people: [deng-xiaoping]
+  voices:
+    - { voice: doc, text: 保持香港原有的资本主义制度和生活方式，五十年不变（1984 年联合声明草签文本）, cite: ws-1984-09-26-hongkong-declaration, quote: true }
+    - { voice: officialLater, text: 提出要按“一个国家，两种制度”的构想，采取一系列特殊政策来解决香港问题（1984 年 11 月向人大常委会的报告）, cite: ws-1984-hongkong-report, quote: true }
+  cites: [ws-1984-09-26-hongkong-declaration, ws-1984-hongkong-report]
+
+- id: 1984-10-20-economic-reform
+  date: 1984-10-20
+  title: 《关于经济体制改革的决定》：“有计划的商品经济”
+  lane: econ
+  weight: 3
+  place: 北京
+  summary: 十二届三中全会决定把改革重点从农村转向城市，把社会主义经济定义为“在公有制基础上的有计划的商品经济”，并把旧体制的弊端写成政企不分、统得过死、忽视价值规律和市场、分配平均主义。
+  people: [zhao-ziyang, hu-yaobang, deng-xiaoping, zhang-chunqiao]
+  concepts: [two-lines]
+  voices:
+    - { voice: doc, text: 是在公有制基础上的有计划的商品经济（1984 年《关于经济体制改革的决定》对社会主义经济的定义）, cite: ws-1984-10-20-economic-reform, quote: true }
+    - { voice: doc, text: 这种模式的主要弊端是：政企职责不分，条块分割，国家对企业统得过多过死，忽视商品生产、价值规律和市场的作用，分配中平均主义严重（同一决定）, cite: ws-1984-10-20-economic-reform, quote: true }
+  cites: [ws-1984-10-20-economic-reform]
+
+- id: 1984-12-03-ban-cadre-business
+  date: 1984-12-03
+  title: 中共中央、国务院禁止党政机关和干部经商
+  lane: econ
+  weight: 1
+  summary: 城市改革刚开始，中央就发现党政机关和干部利用权力办公司，决定一律不准独资、合股、兼职取酬、搭干股分红。
+  people: []
+  voices:
+    - { voice: doc, text: 一律不得以独资或合股、兼职取酬、搭干股分红等方式经商、办企业（1984 年中共中央、国务院决定）, cite: ws-1984-ban-cadre-business, quote: true }
+  cites: [ws-1984-ban-cadre-business]
+
+- id: 1985-03-13-science-reform
+  date: 1985-03-13
+  title: 《关于科学技术体制改革的决定》
+  lane: culture
+  weight: 1
+  summary: 中共中央决定改革科研拨款制度、开拓技术市场。同年 5 月又有教育体制改革决定。
+  people: []
+  voices:
+    - { voice: doc, text: 要改革拨款制度，开拓技术市场（1985 年《关于科学技术体制改革的决定》）, cite: ws-1985-science-reform, quote: true }
+  cites: [ws-1985-science-reform]
+
+- id: 1985-03-28-lingling-principles
+  date: 1985-03-28
+  title: 零陵地委处理道县杀人：“宜粗不宜细，宜宽不宜严，宜少不宜多”
+  lane: local
+  weight: 3
+  place: 湖南零陵
+  summary: 零陵地委向省委报告道县 1967 年杀人问题的处理意见，定下的原则是只查处“极少数”严重杀人者、团结教育绝大多数，以“平息民愤，消除隐患”和稳定局面为目标。1967 年 8–10 月道县死亡 4509 人；死者中“四类分子”1977 人、地富子女 2145 人。
+  people: []
+  concepts: [class-struggle, factionalism]
+  voices:
+    - { voice: officialLater, text: 坚持宜粗不宜细，宜宽不宜严，宜少不宜多的原则（1985 年零陵地委报告）, cite: ccrd-1985-hn-lingling-daoxian-13, quote: true }
+    - { voice: officialLater, text: 既坚决慎重地查处极少数犯有严重杀人罪行的人员，又团结教育绝大多数（同一报告）, cite: ccrd-1985-hn-lingling-daoxian-13, quote: true }
+  cites: [ccrd-1985-hn-lingling-daoxian-13, ccrd-1987-hn-daoxian-15]
+
+- id: 1985-unified-purchase-reform
+  date: 1985
+  title: 改革农产品统购派购制度
+  lane: econ
+  weight: 2
+  summary: 1985 年起粮棉等主要农产品取消统购派购，改为合同定购和市场收购。统购统销始于 1953 年，是大跃进饥荒时期征购过头的制度基础。同年统计公报也承认总需求超过总供给、物价上涨幅度较大。
+  people: []
+  voices:
+    - { voice: officialLater, text: 1985年我国农村在改革农产品统购派购制度、调整产业结构方面迈出了重大的一步（1985 年统计公报）, cite: rmrb-1986-03-01-stats-1985, quote: true }
+    - { voice: officialLater, text: 表现在固定资产投资规模过大，社会购买力超过商品供应量，进口增加过快，物价上涨幅度较大（同一公报）, cite: rmrb-1986-03-01-stats-1985, quote: true }
+  cites: [rmrb-1986-03-01-stats-1985]
+
+- id: 1985-03-consumption-figures
+  date: 1985-03
+  title: 政府工作报告：人均消费年增 7.3%，前二十六年 2.2%
+  lane: econ
+  weight: 1
+  summary: 赵紫阳在 1985 年政府工作报告中比较：1978–1983 年城乡居民平均消费水平从一百七十五元升到二百八十八元，扣除涨价每年提高 7.3%，而 1953–1978 年平均每年只增长 2.2%。改革的合法性，此时以与前二十六年的对比来论证。
+  people: [zhao-ziyang]
+  voices:
+    - { voice: officialLater, text: 城乡居民的平均消费水平，由一百七十五元提高到二百八十八元（1985 年政府工作报告，1978–1983 年）, cite: ws-1985-03-gov-report, quote: true }
+  cites: [ws-1985-03-gov-report]
+
+- id: 1985-05-27-education-reform
+  date: 1985-05-27
+  title: 《关于教育体制改革的决定》：九年义务教育
+  lane: culture
+  weight: 1
+  summary: 中共中央决定有步骤地实行九年制义务教育，扩大高校办学自主权。
+  people: []
+  voices:
+    - { voice: doc, text: 有步骤地实行九年制义务教育（1985 年《关于教育体制改革的决定》）, cite: ws-1985-education-reform, quote: true }
+  cites: [ws-1985-education-reform]
+
+- id: 1985-06-wei-heng-rehab
+  date: 1985-06
+  title: 山西省委为卫恒彻底平反
+  lane: local
+  weight: 1
+  place: 山西
+  summary: 卫恒是文革开始时的山西省委第一书记，1967 年 1 月 15 日被单独关押，30 日死亡；1979 年 1 月省委已为他平反。1985 年 6 月山西省委作出彻底平反决定，人民日报 1986 年 1 月的纪念文章引了薄一波的批注“十八载奇冤大案”。文章作者感叹“彻底否定‘文化大革命’竟如此艰难”。
+  people: [wei-heng, bo-yibo]
+  voices:
+    - { voice: officialLater, text: 沉冤长时间不得昭雪，时间好象凝固了似的。彻底否定“文化大革命”竟如此艰难！（1986 年人民日报纪念文章）, cite: rmrb-1986-01-26-wei-heng, quote: true }
+  cites: [rmrb-1986-01-26-wei-heng, lczf-wei-heng]
+
+- id: 1985-06-12-hua-luogeng-death
+  date: 1985-06-12
+  title: 华罗庚在东京讲学时去世
+  lane: culture
+  weight: 1
+  place: 日本东京
+  summary: 数学家华罗庚在日本东京去世，终年七十四岁。
+  people: [hua-luogeng]
+  voices:
+    - { voice: officialLater, text: 于1985年6月12日晚在日本东京不幸逝世，终年七十四岁（1985 年新华社讣告）, cite: rmrb-1985-06-22-hua-luogeng, quote: true }
+  cites: [rmrb-1985-06-22-hua-luogeng]
+
+- id: 1986-daxing-831-report
+  date: 1986
+  title: 大兴县委写成“八三一”事件调查
+  lane: local
+  weight: 1
+  place: 北京大兴
+  summary: 大兴县委核查“三种人”领导小组整理 1966 年 8 月底至 9 月 1 日大兴县的杀人事件：几天内打杀“四类分子”及其家属子女 324 人，9 月 1 日北京市委派人制止。二十年后，事件以核查“三种人”的名义被调查成文。
+  people: []
+  concepts: [bloodline, class-struggle]
+  voices:
+    - { voice: officialLater, text: 9月1日，市委领导来大兴进行制止，这股风才基本刹住，这就是“八三一”事件的始末（1986 年大兴县委核查“三种人”领导小组）, cite: ccrd-1986-bj-daxing-0, quote: true }
+  cites: [ccrd-1986-bj-daxing-0]
+
+- id: 1986-09-28-spiritual-civilization
+  date: 1986-09-28
+  title: 精神文明建设决议：界定“资产阶级自由化”
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 十二届六中全会通过《关于社会主义精神文明建设指导方针的决议》，一面肯定民主法制、尊重知识，一面把“资产阶级自由化”界定为否定社会主义制度、主张资本主义制度。三个月后的学潮之后，这个词成为 1987 年初批判方励之、刘宾雁、王若望和胡耀邦辞职的定性用语。
+  people: [hu-yaobang, deng-xiaoping]
+  voices:
+    - { voice: doc, text: 搞资产阶级自由化，即否定社会主义制度、主张资本主义制度，是根本违背人民利益和历史潮流，为广大人民所坚决反对的（1986 年精神文明决议）, cite: ws-1986-09-28-spiritual-civilization, quote: true }
+  cites: [ws-1986-09-28-spiritual-civilization]
+
+- id: 1986-10-03-han-xianchu-death
+  date: 1986-10-03
+  title: 韩先楚去世
+  lane: army
+  weight: 1
+  place: 北京
+  summary: 韩先楚去世，终年七十四岁。文革中他任福州军区司令员兼福建省革委会主任，1973 年对调兰州军区。
+  people: [han-xianchu]
+  voices:
+    - { voice: officialLater, text: 于1986年10月3日七时四十分在北京逝世，终年七十四岁（1986 年讣告）, cite: rmrb-1986-10-12-han-xianchu, quote: true }
+  cites: [rmrb-1986-10-12-han-xianchu]
+
+- id: 1986-10-liu-bocheng-death
+  date: 1986-10
+  title: 刘伯承去世
+  lane: army
+  weight: 1
+  summary: 元帅刘伯承去世，人民日报 10 月 17 日刊出悼词。悼词说他文革中虽重病，仍抵制林彪、江青方面“反党乱军”。
+  people: [liu-bocheng]
+  voices:
+    - { voice: officialLater, text: “文化大革命”中，他对林彪、江青反革命集团反党乱军的活动进行了坚决抵制和斗争（1986 年悼词）, cite: rmrb-1986-10-17-liu-bocheng, quote: true }
+  cites: [rmrb-1986-10-17-liu-bocheng]
+
+- id: 1986-12-student-protests
+  date: 1986-12
+  title: 合肥、北京等地学生上街
+  lane: mass
+  weight: 2
+  summary: 1986 年 12 月中下旬，合肥、北京等地高校学生上街游行。官方大事记称“少数学生出于各种情绪和缘由”上街、“极少数别有用心的人”从中煽动。邓小平 12 月 30 日谈话后，中央 1987 年 1 月发文反对资产阶级自由化，胡耀邦 1 月 16 日辞去总书记。
+  people: [fang-lizhi, hu-yaobang, deng-xiaoping]
+  voices:
+    - { voice: officialLater, text: 合肥、北京等地一些高等学校的少数学生出于各种情绪和缘由上街游行（官方大事记）, cite: ws-1987-01-student-protest-chronology, quote: true }
+  cites: [ws-1987-01-student-protest-chronology, rmrb-1987-01-17-politburo]
