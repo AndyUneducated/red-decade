@@ -1,0 +1,86 @@
+# M6（1977–1989）第 2 批维基文库原文：1983–1989 年政府工作报告、两高报告、精神文明决议。日期取自页面头部或正文落款，见 note。
+wikisource:
+  - id: ws-1982-supreme-court-report
+    title: 1982年中华人民共和国最高人民法院工作报告
+    date: 1982-12
+    author: 江华（最高人民法院院长）
+    kind: party-doc
+    alias: 1982 年最高法院工作报告
+    note: 在五届全国人大五次会议上所作，正文提到彭真的修宪报告与赵紫阳的六五计划报告。
+  - id: ws-1983-06-gov-report
+    title: 1983年中华人民共和国国务院政府工作报告
+    date: 1983-06-06
+    author: 赵紫阳
+    kind: party-doc
+    alias: 1983 年政府工作报告
+    note: 六届全国人大一次会议。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1983-06-supreme-court-report
+    title: 1983年中华人民共和国最高人民法院工作报告
+    date: 1983-06
+    author: 江华（最高人民法院院长）
+    kind: party-doc
+    alias: 1983 年最高法院工作报告
+    note: 六届全国人大一次会议（1983 年 6 月）。
+  - id: ws-1983-06-procuratorate-report
+    title: 1983年中华人民共和国最高人民检察院工作报告
+    date: 1983-06
+    author: 黄火青（最高人民检察院检察长）
+    kind: party-doc
+    alias: 1983 年最高检工作报告
+    note: 六届全国人大一次会议（1983 年 6 月）。
+  - id: ws-1984-05-gov-report
+    title: 1984年中华人民共和国国务院政府工作报告
+    date: 1984-05-15
+    author: 赵紫阳
+    kind: party-doc
+    alias: 1984 年政府工作报告
+    note: 六届全国人大二次会议。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1985-03-gov-report
+    title: 1985年中华人民共和国国务院政府工作报告
+    date: 1985-03-27
+    author: 赵紫阳
+    kind: party-doc
+    alias: 1985 年政府工作报告
+    note: 六届全国人大三次会议。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1986-03-gov-report
+    title: 1986年中华人民共和国国务院政府工作报告
+    date: 1986-03-25
+    author: 赵紫阳
+    kind: party-doc
+    alias: 1986 年政府工作报告（七五计划）
+    note: 六届全国人大四次会议。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1986-09-28-spiritual-civilization
+    title: 中共中央关于社会主义精神文明建设指导方针的决议
+    date: 1986-09-28
+    author: 中国共产党第十二届中央委员会第六次全体会议
+    kind: party-doc
+    alias: 1986 年精神文明建设指导方针决议
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1987-04-supreme-court-report
+    title: 1987年中华人民共和国最高人民法院工作报告
+    date: 1987-04
+    author: 郑天翔（最高人民法院院长）
+    kind: party-doc
+    alias: 1987 年最高法院工作报告
+    note: 六届全国人大五次会议（1987 年 3–4 月）。
+  - id: ws-1987-04-procuratorate-report
+    title: 1987年中华人民共和国最高人民检察院工作报告
+    date: 1987-04
+    author: 杨易辰（最高人民检察院检察长）
+    kind: party-doc
+    alias: 1987 年最高检工作报告
+    note: 六届全国人大五次会议（1987 年 3–4 月）。
+  - id: ws-1988-03-gov-report
+    title: 1988年中华人民共和国国务院政府工作报告
+    date: 1988-03-25
+    author: 李鹏
+    kind: party-doc
+    alias: 1988 年政府工作报告
+    note: 七届全国人大一次会议，回顾六届人大期间赵紫阳主持的工作。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1989-03-gov-report
+    title: 1989年中华人民共和国国务院政府工作报告
+    date: 1989-03-20
+    author: 李鹏
+    kind: party-doc
+    alias: 1989 年政府工作报告（治理整顿）
+    note: 七届全国人大二次会议。页面未载日期，取通行的会议或发布日期。
