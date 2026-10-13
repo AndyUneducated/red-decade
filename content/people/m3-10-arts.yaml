@@ -271,6 +271,8 @@
     - { voice: witness, text: 江青委实没到合肥来！更没有介入安徽省红梅戏剧团的文化大革命，直接责任是谁呢（王冠亚文，苏晓康转引）, cite: su-xiaokang-yan-fengying, quote: true }
     - { voice: editor, text: 关于剖腹的经过，只有王冠亚一方的叙述。军代表刘万泉和剧团的说法没有公开过。 }
   factions: [academics]
+  rehab:
+    - { date: 1978, text: 平反；1986 年安庆树起她的汉白玉雕像, cite: su-xiaokang-yan-fengying }
   fate:
     - { date: 1953, s: normal, note: 调入安徽省黄梅戏剧团, verify: true }
     - { date: 1955, s: normal, note: 电影《天仙配》, verify: true }

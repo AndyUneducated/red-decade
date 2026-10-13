@@ -2240,6 +2240,8 @@
   works:
     - { title: 论解放区战场, date: 1945-04-25 }
   factions: [marshals]
+  rehab:
+    - { date: 1981-06-27, text: 历史决议说朱德、陈云在 1967 年“也受到错误的批判”, cite: ws-1981-resolution }
   fate:
     - { date: 1909, s: normal, note: 入云南陆军讲武堂, verify: true }
     - { date: 1911-10, s: normal, note: 参加昆明重九起义, place: kunming, verify: true }
@@ -2345,6 +2347,8 @@
     - { title: 梅岭三章, date: 1936-12 }
     - { title: 陈毅诗词选集, date: 1977 }
   factions: [marshals, premier]
+  rehab:
+    - { date: 1981-06-27, text: 历史决议说谭震林、陈毅、叶剑英、李富春等 1967 年 2 月前后对文革的错误作法提出批评，被诬为“二月逆流”而受到压制和打击, cite: ws-1981-resolution }
   fate:
     - { date: 1923, s: normal, note: 入党, verify: true }
     - { date: 1928-04, s: rise, note: 井冈山，红四军, verify: true }

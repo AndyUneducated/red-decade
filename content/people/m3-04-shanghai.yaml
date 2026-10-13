@@ -232,7 +232,8 @@
     - { date: 1971, s: power, note: 上海写作组负责人, verify: true }
     - { date: 1974, s: power, note: 组织批“周公”文章, cite: ws-1980-indictment }
     - { date: 1976-10, s: detained, note: 12 日策划罢工与“还我江青”口号未遂，随后被隔离审查, cite: ws-1981-01-25-judgment }
-  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-xu-jingxian-case]
+    - { date: 1982, s: detained, note: 7 月 2 日被起诉，上海市中级人民法院判处有期徒刑十四年、剥夺政治权利三年, cite: ws-1982-zhu-yongjia-case }
+  cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-xu-jingxian-case, ws-1982-zhu-yongjia-case]
 
 - id: geng-jinzhang
   name: 耿金章

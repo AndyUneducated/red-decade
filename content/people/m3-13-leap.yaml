@@ -204,6 +204,8 @@
     - { voice: official1981, text: 邓子恢等同志提出了农业中要实行生产责任制的观点（1981 年决议）, cite: ws-1981-resolution, quote: true }
     - { voice: editor, text: 1962 年被当作“单干风”批判的包产到户，1980 年代以“家庭联产承包责任制”的名义推广全国。1981 年决议把这一观点记在邓子恢名下，并列在毛泽东、刘少奇、周恩来、陈云、邓小平、朱德之后。, cite: ws-1981-resolution }
   factions: [lushan]
+  rehab:
+    - { date: 1981-06-27, text: 历史决议把“农业中要实行生产责任制的观点”记在“邓子恢等同志”名下，与毛泽东、刘少奇、周恩来、陈云、邓小平、朱德的观点并列, cite: ws-1981-resolution }
   fate:
     - { date: 1952-11, s: power, note: 中央农村工作部部长, verify: true }
     - { date: 1955-07, s: attacked, note: 被批“小脚女人”, verify: true }

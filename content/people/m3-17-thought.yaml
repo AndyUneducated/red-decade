@@ -115,6 +115,8 @@
   assess:
     - { voice: scholar, text: 刘文辉就在上海最大的文化广场示众后枪决！成为文革中第一个被公开杀害的人。（何与怀）, cite: hyh-2024-blood-sacrifice-4, quote: true }
   factions: [dissent]
+  rehab:
+    - { date: 1979, text: 上海市高级人民法院再审认定原判“属于错判错杀，应予平反纠正”，宣告刘文辉无罪, cite: ws-1980-liu-wenhui-rehab }
   fate:
     - { date: 1967-03-09, s: detained, note: 判处死刑, cite: hyh-2024-blood-sacrifice-4 }
     - { date: 1967-03-23, s: dead, note: 在上海文化广场示众后枪决, cite: hyh-2024-blood-sacrifice-4 }

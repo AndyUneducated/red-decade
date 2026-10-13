@@ -365,6 +365,8 @@
   assess:
     - { voice: doc, text: 罢免龙云国防委员会副主席的职务（1958 年全国人大常委会建议）, cite: ws-1958-npc-rightists-removal, quote: true }
   factions: [rightists]
+  rehab:
+    - { date: 1980, text: 中央统战部右派复查报告把他列入拟予改正的爱国人士, cite: ws-1980-ufwd-rightist-review }
   fate:
     - { date: 1949, s: normal, note: 在香港通电起义, verify: true }
     - { date: 1954-09, s: power, note: 国防委员会副主席, verify: true }
@@ -404,6 +406,8 @@
   assess:
     - { voice: doc, text: 常务委员会决定建议大会罢免黄绍竑、龙云、陈铭枢全国人民代表大会常务委员会委员的职务（1958 年全国人大常委会建议）, cite: ws-1958-npc-rightists-removal, quote: true }
   factions: [rightists]
+  rehab:
+    - { date: 1980, text: 中央统战部右派复查报告把他列入拟予改正的爱国人士（报告写作“黄绍肱”）, cite: ws-1980-ufwd-rightist-review }
   fate:
     - { date: 1949-09, s: normal, note: 参加新政权, verify: true }
     - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }

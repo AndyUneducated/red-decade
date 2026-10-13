@@ -137,6 +137,8 @@
     - { voice: judicial1980, text: 诬陷朱德是“中国（马列）共产党”中央的“书记”，陈毅是“副书记兼国防部长”，李富春是“总理”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
     - { voice: scholar, text: 李富春在怀仁堂冲突中发言不多，研究者通常把他视为“二月逆流”中被牵连的温和者；他在 1967 年后仍名义上保留副总理、计委主任，实际经济工作转到李先念主持的国务院业务组。, cite: macfarquhar-schoenhals }
   factions: [premier]
+  rehab:
+    - { date: 1981-06-27, text: 历史决议说谭震林、陈毅、叶剑英、李富春等 1967 年 2 月前后对文革的错误作法提出批评，被诬为“二月逆流”而受到压制和打击, cite: ws-1981-resolution }
   fate:
     - { date: 1922, s: normal, note: 在法国入党, verify: true }
     - { date: 1954-09, s: power, note: 国务院副总理、国家计委主任, verify: true }
