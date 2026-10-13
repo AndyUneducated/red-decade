@@ -51,7 +51,7 @@ function ThemeButton() {
 }
 
 export default function App() {
-  const { view, go, select, sel } = useApp()
+  const { view, doc, go, up, select, sel } = useApp()
   const [searching, setSearching] = useState(false)
 
   useEffect(() => {
@@ -94,7 +94,7 @@ export default function App() {
         </div>
         <nav className="tabs">
           {NAV.map((g) => (
-            <button key={g.label} aria-current={g === groupOf(view) ? 'page' : undefined} onClick={() => go(g.views[0])}>
+            <button key={g.label} aria-current={g === groupOf(view) ? 'page' : undefined} onClick={() => (doc && (view === 'people' || view === 'orgs') && view === g.views[0] ? up(view) : go(g.views[0]))}>
               {g.label}
             </button>
           ))}

@@ -2,7 +2,7 @@
 //   #/<view>?sel=<type>:<id>[:<sub>]&t=<fractional year>
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode, type SetStateAction } from 'react'
 import type { EntityType, Index, Ref } from './data/atlas'
-import { adoptEntry, beginRestore, currentEntry, getUi, pushEntry, restoreScroll, setUi } from './lib/history'
+import { adoptEntry, beginRestore, currentEntry, getUi, pushEntry, restoreScroll, setUi, stepsBackTo } from './lib/history'
 
 export const VIEWS = {
   timeline: '时间线',
@@ -39,8 +39,8 @@ type State = { view: View; sel?: Ref; t: number; doc?: string; entry: string }
 
 const DEFAULT_T = 1966 + 7.5 / 12
 
-function parseHash(): Omit<State, 'entry'> {
-  const [path, query = ''] = location.hash.replace(/^#\/?/, '').split('?')
+function parseHash(hash = location.hash): Omit<State, 'entry'> {
+  const [path, query = ''] = hash.replace(/^#\/?/, '').split('?')
   const [view, doc] = path.split('/')
   const q = new URLSearchParams(query)
   const sel = q.get('sel')?.split(':')
@@ -72,6 +72,9 @@ type Ctx = State & {
   // full profile page (#/people/<id>); the drawer closes so the same person is not shown twice
   openPerson: (id?: string) => void
   openOrg: (id?: string) => void
+  // from a profile page up to its list: go back through history when the list is there, so it comes back
+  // where it was left; otherwise open the list fresh
+  up: (view: View) => void
 }
 
 const AppCtx = createContext<Ctx | null>(null)
@@ -133,6 +136,14 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
       openDoc: (id) => update({ view: 'docs', doc: id }),
       openPerson: (id) => update({ view: 'people', doc: id, sel: undefined }),
       openOrg: (id) => update({ view: 'orgs', doc: id, sel: undefined }),
+      up: (view) => {
+        const n = stepsBackTo((h) => {
+          const s = parseHash(h)
+          return s.view === view && !s.doc
+        })
+        if (n) history.go(-n)
+        else update({ view, doc: undefined, sel: undefined })
+      },
     }),
     [state, ix, update],
   )

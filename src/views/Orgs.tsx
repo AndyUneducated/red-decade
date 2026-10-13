@@ -517,7 +517,7 @@ function Succession({ list, x, width }: { list: Band[]; x: ScaleLinear<number, n
 }
 
 function OrgPage({ id }: { id: string }) {
-  const { ix, openOrg, t } = useApp()
+  const { ix, t, up } = useApp()
   const o = ix.org.get(id)
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
@@ -573,7 +573,7 @@ function OrgPage({ id }: { id: string }) {
       <div className="profile" ref={wrap}>
         <div className="profile-inner">
           <nav className="crumbs">
-            <button className="linklike" onClick={() => openOrg()}>
+            <button className="linklike" onClick={() => up('orgs')}>
               ← 机构
             </button>
             {o.under.length > 0 && (

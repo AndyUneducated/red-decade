@@ -224,7 +224,7 @@ function Directory() {
 }
 
 function Profile({ id }: { id: string }) {
-  const { ix, openPerson, t } = useApp()
+  const { ix, t, up } = useApp()
   const p = ix.person.get(id)
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
@@ -256,7 +256,7 @@ function Profile({ id }: { id: string }) {
       <div className="profile" ref={wrap}>
         <div className="profile-inner">
           <nav className="crumbs">
-            <button className="linklike" onClick={() => openPerson()}>
+            <button className="linklike" onClick={() => up('people')}>
               ← 人物
             </button>
           </nav>

@@ -2,7 +2,8 @@
 // (filters, grouping, sort), so going back returns to the page as it was left.
 // Kept in memory only; a reload starts fresh.
 
-type Entry = { scroll: Map<string, [number, number]>; ui: Map<string, unknown> }
+// prev is the entry this one was pushed from, which is the one below it in the browser's stack
+type Entry = { scroll: Map<string, [number, number]>; ui: Map<string, unknown>; prev?: { key: string; hash: string } }
 
 const entries = new Map<string, Entry>()
 let current = ''
@@ -48,15 +49,26 @@ function resolve(path: string): Element | undefined {
 export function pushEntry(hash: string) {
   const from = entry(current)
   const kept = [...from.scroll].map(([p, v]) => [p, v, resolve(p)] as const)
+  const prev = { key: current, hash: location.hash }
   current = newKey()
   history.pushState({ k: current }, '', hash)
   const to = entry(current)
+  to.prev = prev
   // scrollers that survive the navigation keep their offset in the new entry; remounted ones start at the top
   queueMicrotask(() =>
     requestAnimationFrame(() => {
       for (const [p, v, el] of kept) if (el && el.isConnected && resolve(p) === el && !to.scroll.has(p)) to.scroll.set(p, v)
     }),
   )
+}
+
+// how many steps back the nearest entry whose hash passes the test is, if this session's history reaches it
+export function stepsBackTo(test: (hash: string) => boolean): number | undefined {
+  let prev = entries.get(current)?.prev
+  for (let n = 1; prev && n <= 50; n++) {
+    if (test(prev.hash)) return n
+    prev = entries.get(prev.key)?.prev
+  }
 }
 
 // set an offset that the content may not be tall enough for yet (images, fetched text)
