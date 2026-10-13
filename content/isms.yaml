@@ -115,6 +115,36 @@
   notes:
     - { voice: official1981, text: 反右派斗争被严重地扩大化了，把一批知识分子、爱国人士和党内干部错划为“右派分子”，造成了不幸的后果。, cite: ws-1981-resolution }
 
+- id: class-struggle-key-link
+  name: 以阶级斗争为纲（无产阶级同资产阶级的矛盾是主要矛盾）
+  short: 阶级斗争为纲
+  kind: line
+  from: 1957
+  to: 1978-12
+  parents: [transition-line, mao-thought]
+  against: [eighth-congress]
+  terms: [以阶级斗争为纲, 阶级斗争为纲]
+  carriers: [毛泽东]
+  concepts: [class-struggle]
+  summary: 1955 年合作化决议已把农村的斗争称为“两条道路的斗争”；1956 年八大决议则说国内主要矛盾已是建立先进工业国的要求同落后农业国的现实之间的矛盾。据 1981 年决议，毛泽东在 1957 年反右以后改称无产阶级同资产阶级的矛盾“仍然是”主要矛盾。1959–1960 年信阳各县把粮荒当作“两条道路斗争的焦点和主流”去反瞒产；1960 年 12 月中央指示把山东、河南、甘肃、贵州的情况定为“阶级斗争的最激烈表现”。1962 年十中全会公报说阶级斗争存在于“整个历史时期”并“反映到党内来”，1965 年二十三条把运动重点定为“党内那些走资本主义道路的当权派”。“以阶级斗争为纲”这五个字，本库 1949–1965 年的文本里没有，最早见于 1968 年 4 月；1978 年十一届三中全会停止使用。
+  pos:
+    - { at: 1957-10, x: -0.5, y: -0.7, note: 反右后改称主要矛盾 }
+    - { at: 1962-09, x: -0.4, y: -0.85, note: 十中全会，经济上仍在调整 }
+  notes:
+    - { voice: doc, text: 这个斗争的内容，就是关于发展社会主义或发展资本主义的两条道路的斗争（1955 年七届六中全会合作化决议）, cite: ws-1955-10-11-coop-resolution, quote: true }
+    - { voice: doc, text: 我们国内的主要矛盾，已经是人民对于建立先进的工业国的要求同落后的农业国的现实之间的矛盾（1956 年八大决议）, cite: ws-1956-09-27-eighth-resolution, quote: true }
+    - { voice: doc, text: 在一九五七年和一九五八年上半年，我国人民又进行了全民整风运动和反右派斗争，在思想战线和政治战线方面取得了社会主义革命的伟大胜利（1959 年周恩来政府工作报告）, cite: ws-1959-04-18-zhou-gov-report, quote: true }
+    - { voice: doc, text: 甚至更错误的认为当时的粮食紧张情况是农村两条道路斗争的焦点和主流（1960 年潢川县委结论，检讨反瞒产）, cite: ws-1960-09-07-huangchuan-conclusion, quote: true }
+    - { voice: doc, text: 其中某些反革命的破坏行为，显然是封建势力在地方上篡夺领导，实行绝望性的破坏性的报复。这是农村中阶级斗争的最激烈表现（1960 年 12 月中共中央指示）, cite: ws-1960-12-08-four-provinces, quote: true }
+    - { voice: doc, text: 在这些情况下，阶级斗争是不可避免的。这是马克思列宁主义早就阐明了的一条历史规律，我们千万不要忘记（1962 年八届十中全会公报）, cite: ws-1962-09-27-tenth-plenum, quote: true }
+    - { voice: doc, text: 这种阶级斗争，不可避免地要反映到党内来（同上）, cite: ws-1962-09-27-tenth-plenum, quote: true }
+    - { voice: doc, text: 阶级斗争、生产斗争和科学实验，是建设社会主义强大国家的三项伟大革命运动（1963 年人大公报引毛泽东）, cite: ws-1963-12-03-npc-communique, quote: true }
+    - { voice: doc, text: 这次运动的重点，是整党内那些走资本主义道路的当权派（1965 年二十三条）, cite: ws-1965-01-14-twenty-three, quote: true }
+    - { voice: doc, text: 以阶级斗争为纲，狠抓人的思想革命化（1968 年 4 月李德生在安徽省革委会成立大会上，本库最早一例）, cite: rmrb-1968-04-20-anhui-revcom, quote: true }
+    - { voice: official1981, text: 发展了他在一九五七年反右派斗争以后提出的无产阶级同资产阶级的矛盾仍然是我国社会的主要矛盾的观点（1981 年决议）, cite: ws-1981-resolution, quote: true }
+    - { voice: official1981, text: 果断地停止使用“以阶级斗争为纲”这个不适用于社会主义社会的口号（同上，述十一届三中全会）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1955-10-11-coop-resolution, ws-1956-09-27-eighth-resolution, ws-1960-12-08-four-provinces, ws-1962-09-27-tenth-plenum, ws-1965-01-14-twenty-three, ws-1981-resolution]
+
 - id: three-red-banners
   name: 三面红旗（总路线、大跃进、人民公社）
   short: 三面红旗
@@ -128,6 +158,27 @@
   summary: 1958 年 5 月八大二次会议通过“鼓足干劲、力争上游、多快好省地建设社会主义”的总路线；8 月北戴河会议决定普遍建立人民公社。1962 年 1 月七千人大会后实际退却，但名义上直到 1978 年后才放弃。
   pos:
     - { at: 1958-08, x: -1.0, y: -0.65, note: 公社化、“共产风” }
+
+- id: uninterrupted-revolution
+  name: 不断革命论
+  short: 不断革命
+  kind: line
+  from: 1958-12
+  to: 1967-11
+  parents: [three-red-banners]
+  terms: [不断革命]
+  carriers: [毛泽东]
+  summary: 本库最早见于 1958 年 12 月武昌六中全会的人民公社决议：“我们是马克思列宁主义的不断革命论者”，同时又是“革命发展的阶段论者”，用来既催促向共产主义过渡、又批评“超越社会主义阶段”的空想。1960 年谭震林的农业报告要求“本着不断革命的精神”再苦战几年，仍是经济上的说法。1964 年“九评”说“社会主义社会的发展，是一个不断革命的过程”，转而指政治、思想战线上把社会主义革命“进行到底”，这是后来“无产阶级专政下继续革命”的前身之一；1967 年 11 月两报一刊社论归纳“继续革命”六点以后，本条止。
+  pos:
+    - { at: 1958-12, x: -0.95, y: -0.5, note: 公社决议 }
+    - { at: 1964-07, x: -0.6, y: -0.75, note: 九评 }
+  notes:
+    - { voice: doc, text: 我们是马克思列宁主义的不断革命论者（1958 年人民公社决议）, cite: ws-1958-12-10-commune-questions, quote: true }
+    - { voice: doc, text: 我们又是马克思列宁主义的革命发展的阶段论者（同上）, cite: ws-1958-12-10-commune-questions, quote: true }
+    - { voice: doc, text: 必须本着不断革命的精神，在总路线、大跃进和人民公社这三面红旗的引导下，鼓足干劲，努力奋斗（1960 年谭震林报告）, cite: ws-1960-04-06-tan-agri-report, quote: true }
+    - { voice: doc, text: 社会主义社会的发展，是一个不断革命的过程（1964 年九评）, cite: ws-1964-07-14-ninth-comment, quote: true }
+    - { voice: doc, text: 必须在政治战线、经济战线、思想和文化战线上，把社会主义革命进行到底（同上）, cite: ws-1964-07-14-ninth-comment, quote: true }
+  cites: [ws-1958-12-10-commune-questions, ws-1960-04-06-tan-agri-report, ws-1964-07-14-ninth-comment]
 
 - id: right-opportunism
   name: 右倾机会主义
@@ -176,7 +227,7 @@
   kind: line
   from: 1960-04
   to: 1976-10
-  parents: [mao-thought]
+  parents: [mao-thought, class-struggle-key-link]
   against: [khrushchev-revisionism]
   terms: [反修防修]
   carriers: [毛泽东, 康生]
@@ -241,7 +292,7 @@
   kind: line
   from: 1967-11
   to: 1978-12
-  parents: [anti-revisionism, mao-thought]
+  parents: [anti-revisionism, mao-thought, class-struggle-key-link, uninterrupted-revolution]
   against: [khrushchev-revisionism]
   terms: [继续革命]
   carriers: [毛泽东, 张春桥, 姚文元]

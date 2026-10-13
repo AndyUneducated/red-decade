@@ -430,6 +430,13 @@ for (const e of events)
       if (!v.cite) errors.push(`event ${e.id}: quoted ${v.voice} voice has no cite`)
       else checkQuote(v.cite.split('@')[0], v.text.replace(/（[^）]*）$/, ''), `event ${e.id} voice ${v.voice}`)
     }
+for (const [kind, list] of [['ism', isms], ['concept', concepts]] as const)
+  for (const m of list)
+    for (const v of m.notes)
+      if (v.quote) {
+        if (!v.cite) errors.push(`${kind} ${m.id}: quoted ${v.voice} note has no cite`)
+        else checkQuote(v.cite.split('@')[0], v.text.replace(/（[^）]*）$/, ''), `${kind} ${m.id} note ${v.voice}`)
+      }
 for (const d of documents)
   for (const p of d.pairs ?? []) {
     checkQuote(p.against, p.original, `document ${d.id} pair ${p.point}`)
