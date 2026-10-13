@@ -1,0 +1,295 @@
+# Events, 1977–1979 (M6 第 1 批)：十一大、1978 宪法、右派摘帽与改正、地富摘帽、早期平反、中美建交、对台、调整方针、第一批改判。
+
+- id: 1977-08-eleventh-congress
+  date: 1977-08-12
+  end: 1977-08-18
+  title: 中共十一大：宣布“第一次文化大革命”胜利结束
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 粉碎“四人帮”后的第一次党代会。华国锋作政治报告，宣布文化大革命“以粉碎‘四人帮’为标志，宣告胜利结束”，但仍称之为“第一次”，并重申无产阶级专政下继续革命的理论和“抓纲治国”。邓小平在会上当选副主席。1981 年的历史决议认为这次大会对文革的错误理论“反而加以肯定”。
+  people: [hua-guofeng, deng-xiaoping, ye-jianying, li-xiannian, wang-dongxing]
+  concepts: [continuous-revolution, class-struggle]
+  voices:
+    - { voice: doc, text: 这样，历时十一年的我国第一次无产阶级文化大革命，就以粉碎“四人帮”为标志，宣告胜利结束了（1977 年十一大政治报告）, cite: ws-1977-08-12-eleventh-congress-report, quote: true }
+    - { voice: doc, text: 第一次无产阶级文化大革命的胜利结束，决不是阶级斗争的结束，决不是无产阶级专政下继续革命的结束（同一报告）, cite: ws-1977-08-12-eleventh-congress-report, quote: true }
+    - { voice: official1981, text: 由于当时历史条件的限制和华国锋同志的错误的影响，这次大会没有能够纠正“文化大革命”的错误理论、政策和口号，反而加以肯定（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1977-08-12-eleventh-congress-report, ws-1981-resolution]
+
+- id: 1977-two-whatevers
+  date: 1977-02-07
+  end: 1978-12
+  title: “两个凡是”与真理标准讨论
+  lane: ideology
+  weight: 3
+  place: 北京
+  summary: 1977 年 2 月 7 日“两报一刊”社论提出“凡是毛主席作出的决策，我们都坚决维护，凡是毛主席的指示，我们都始终不渝地遵循”。1978 年 5 月《光明日报》以特约评论员名义发表《实践是检验真理的唯一标准》，引发全国讨论，汪东兴等人指责其“砍旗”，邓小平、罗瑞卿、胡耀邦支持。十一届三中全会肯定了讨论，1981 年决议把“两个凡是”列为华国锋的主要错误。两篇文章在维基文库上都没有单独页面，本站暂以决议的转述为据。
+  people: [hua-guofeng, wang-dongxing, deng-xiaoping, hu-yaobang, luo-ruiqing]
+  voices:
+    - { voice: official1981, text: 他推行和迟迟不改正“两个凡是”（即“凡是毛主席作出的决策，我们都坚决维护，凡是毛主席的指示，我们都始终不渝地遵循”）的错误方针；压制一九七八年开展的对拨乱反正具有重大意义的关于真理标准问题的讨论（1981 年历史决议评华国锋）, cite: ws-1981-resolution, quote: true }
+    - { voice: official1981, text: 这次全会坚决批判了“两个凡是”的错误方针，充分肯定了必须完整地、准确地掌握毛泽东思想的科学体系；高度评价了关于真理标准问题的讨论（同一决议评三中全会）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1981-resolution]
+
+- id: 1978-02-fifth-npc
+  date: 1978-02-26
+  end: 1978-03-05
+  title: 五届人大一次会议：十年规划与“一百二十个大型项目”
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 华国锋作政府工作报告，提出 1976–1985 年十年规划，要在八年里新建和续建一百二十个大型项目，并大量引进成套设备，后来被称为“洋跃进”。一年后国务院承认比例失调，改行“调整、改革、整顿、提高”。会议选举叶剑英为人大常委会委员长，华国锋续任总理。
+  people: [hua-guofeng, ye-jianying, deng-xiaoping, li-xiannian, yu-qiuli]
+  voices:
+    - { voice: doc, text: 国家计划新建和续建一百二十个大型项目，其中有十大钢铁基地，九大有色金属基地，八大煤炭基地，十大油气田，三十个大电站，六条铁路新干线和五个重点港口（1978 年政府工作报告）, cite: ws-1978-02-26-gov-report, quote: true }
+    - { voice: doc, text: “四人帮”攻击国务院务虚会是“右倾翻案风风源”，把十年规划纲要说成是“修正主义文件”，这完全是恶毒的诽谤和污蔑（同一报告）, cite: ws-1978-02-26-gov-report, quote: true }
+  cites: [ws-1978-02-26-gov-report]
+
+- id: 1978-03-05-constitution
+  date: 1978-03-05
+  title: 1978 年宪法：保留“四大”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 五届人大一次会议通过新宪法，取代 1975 年宪法。序言仍写入“无产阶级专政下的继续革命”，第四十五条保留公民“运用‘大鸣、大放、大辩论、大字报’的权利”，叶剑英的修宪报告说这是“为了保障无产阶级领导下的大民主”。1980 年西单墙关闭后，五届人大三次会议删去了这一条。
+  people: [ye-jianying, hua-guofeng]
+  concepts: [mass-democracy, continuous-revolution]
+  voices:
+    - { voice: doc, text: 公民有言论、通信、出版、集会、结社、游行、示威、罢工的自由，有运用“大鸣、大放、大辩论、大字报”的权利（1978 年宪法第四十五条）, cite: ws-1978-03-05-constitution, quote: true }
+    - { voice: doc, text: 宪法修改草案中规定公民“有运用‘大鸣、大放、大辩论、大字报’的权利”，就是为了保障无产阶级领导下的大民主（叶剑英修宪报告）, cite: ws-1978-03-01-constitution-report, quote: true }
+  cites: [ws-1978-03-05-constitution, ws-1978-03-01-constitution-report]
+
+- id: 1978-04-05-rightist-caps
+  date: 1978-04-05
+  title: 中央决定全部摘掉右派分子帽子
+  lane: center
+  weight: 3
+  summary: 中央统战部、公安部报告：1957 年全国划右派四十五万人，1959–1964 年分五批摘帽约三十余万，还有十万多人戴着帽子，多在农村、街道或劳教场所。中共中央 4 月 5 日批准“全部摘掉”，但通知仍称反右是“一场伟大的政治战线和思想战线上的革命”，报告也说“一般不搞甄别平反”，只对个别“完全搞错了的”改正。改正在半年后才放开。
+  people: [hua-guofeng]
+  voices:
+    - { voice: officialLater, text: 在这场斗争中，全国划为资产阶级右派分子有四十五万人（1978 年统战部、公安部请示报告）, cite: ws-1978-04-rightist-caps-report, quote: true }
+    - { voice: officialLater, text: 目前，估计全国大约还有右派分子十万多名（同一报告）, cite: ws-1978-04-rightist-caps-report, quote: true }
+    - { voice: officialLater, text: 遵照中央一九六二年的规定，对于右派分子一般不摘甄别平反，只是对于其中个别确实完全搞错了的，才作为个别人的问题，实事求是地予以改正（同一报告）, cite: ws-1978-04-rightist-caps-report, quote: true }
+    - { voice: officialLater, text: 一九五七年伟大领导和导师毛主席亲自发动和领导的反右派斗争，是一场伟大的政治战线和思想战线上的革命（1978 年 4 月 5 日中共中央通知）, cite: ws-1978-04-05-cc-notice, quote: true }
+  cites: [ws-1978-04-rightist-caps-report, ws-1978-04-05-cc-notice]
+
+- id: 1978-09-17-rightist-correction
+  date: 1978-09-17
+  title: 中发〔1978〕55 号：划错的右派“应予以改正”
+  lane: center
+  weight: 3
+  summary: 中央批转组织、宣传、统战、公安、民政五部门的实施方案，对“过去错划了的人”予以改正，标准是 1957 年 10 月的《划分右派分子标准》。各地复查后，到 1979 年 7 月中旬改正的占所划右派总数的百分之九十；原文件里的具体人数在流传的文本中以“××”隐去。1980 年统战部复查民主人士中的右派，建议章伯钧、罗隆基、彭文应、储安平、陈仁炳五人维持原案。
+  people: [hu-yaobang, zhang-bojun, luo-longji, chu-anping]
+  voices:
+    - { voice: officialLater, text: 有反必肃，有错必纠，这是我党的一贯方针。已经发现划错了的，尽管事隔多年，也应予以改正（中发〔1978〕55 号）, cite: ws-1978-09-17-cc-notice, quote: true }
+    - { voice: officialLater, text: 至七月中旬，属于错划已经改正的有××万余人，占所划右派总数的百分之九十（1979 年五部门请示）, cite: ws-1979-rightist-followup, quote: true }
+    - { voice: officialLater, text: 拟维持原案的五人：章伯钧（故）．罗隆基（故）．彭文应（故），储安平（故），陈仁炳（1980 年统战部复查报告）, cite: ws-1980-05-08-rightist-review, quote: true }
+  cites: [ws-1978-09-17-cc-notice, ws-1979-rightist-followup, ws-1980-05-08-rightist-review]
+
+- id: 1978-05-21-huang-shuai
+  date: 1978-05-21
+  title: 《人民日报》：黄帅日记是“一个政治骗局”
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 1973 年北京小学生黄帅给《北京日报》写信、日记摘抄被登出，“四人帮”借此掀起反“师道尊严”。1978 年 5 月《人民日报》发表调查，说这份来信和日记摘抄是“蓄意编造出来的”。黄帅本人此后考入大学。
+  people: [huang-shuai, chi-qun, xie-jingyi]
+  voices:
+    - { voice: officialLater, text: 所谓《一个小学生的来信和日记摘抄》，完全是适应“四人帮”篡党夺权的反革命政治需要，蓄意编造出来的，是一个政治骗局（1978 年《人民日报》）, cite: rmrb-1978-05-21-huang-shuai-exposed, quote: true }
+  cites: [rmrb-1978-05-21-huang-shuai-exposed]
+
+- id: 1978-06-12-guo-moruo-death
+  date: 1978-06-12
+  title: 郭沫若逝世
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 中国科学院院长、全国人大常委会副委员长郭沫若病逝，邓小平致悼词。他在文革中始终在位，没有被打倒。
+  people: [guo-moruo, deng-xiaoping]
+  voices:
+    - { voice: officialLater, text: 一九七八年六月十二日十六时五十分，郭沫若同志的心脏停止了跳动，终年八十六岁（邓小平悼词）, cite: rmrb-1978-06-19-guo-moruo, quote: true }
+  cites: [rmrb-1978-06-19-guo-moruo]
+
+- id: 1978-06-30-shi-chuanxiang
+  date: 1978-06-30
+  title: 掏粪工人时传祥平反
+  lane: local
+  weight: 1
+  place: 北京崇文区
+  summary: 劳动模范时传祥文革中被揪斗游街，罪状之一是 1959 年群英会上刘少奇跟他握过手、照过相，另一条是“工贼”；1975 年死去。1978 年 6 月 30 日北京市总工会等联合开会为他平反，这是较早公开报道的平反之一，比刘少奇本人的平反早两年。
+  people: [shi-chuanxiang, liu-shaoqi]
+  voices:
+    - { voice: officialLater, text: 一是时传祥一九五九年出席全国群英会时，刘少奇跟他握过手，照了相（1978 年《人民日报》转述当年的罪状）, cite: rmrb-1978-07-06-shi-chuanxiang, quote: true }
+    - { voice: officialLater, text: 今年六月三十日，北京市总工会、北京市环境卫生局和中共北京市崇文区委联合举行大会，为时传祥同志昭雪平反（1978 年《人民日报》）, cite: rmrb-1978-07-06-shi-chuanxiang, quote: true }
+  cites: [rmrb-1978-07-06-shi-chuanxiang]
+
+- id: 1978-11-26-wuhan-720-rehab
+  date: 1978-11-26
+  title: 中央为武汉“七·二〇事件”平反，但“不要登报和广播”
+  lane: local
+  weight: 2
+  place: 武汉
+  summary: 湖北省委、武汉军区党委报告，1967 年的“七·二〇事件”是“林彪、‘四人帮’出于篡党夺权的需要而制造的阴谋事件”，要求平反，因此受迫害、打伤打死的人一律昭雪抚恤。中央同意，但要求平反决定和事件经过“不要登报和广播”。当年因此被定为“反革命暴乱”的“百万雄师”成员和陈再道等人至此平反。
+  people: [chen-zaidao, wang-li, xie-fuzhi]
+  voices:
+    - { voice: officialLater, text: 一致认为这个事件是林彪、“四人帮”出于篡党夺权的需要而制造的阴谋事件，完全是歪曲事实，颠倒敌我，混淆是非的，应公开宣布彻底平反（1978 年湖北省委、武汉军区党委报告）, cite: ws-1978-wuhan-720-report, quote: true }
+    - { voice: officialLater, text: “七·二○事件”应予平反、昭雪，但平反昭雪的决定和“七·二○事件”经过，不要登报和广播（1978 年中共中央通知）, cite: ws-1978-11-26-wuhan-720-notice, quote: true }
+  cites: [ws-1978-wuhan-720-report, ws-1978-11-26-wuhan-720-notice]
+
+- id: 1978-11-tiananmen-rehab
+  date: 1978-11-15
+  end: 1978-12-22
+  title: 天安门事件平反
+  lane: center
+  weight: 3
+  place: 北京天安门广场
+  summary: 1978 年 11 月中央工作会议期间，1976 年清明的悼念被正式改称革命行动。十一届三中全会公报确认，并撤销“反击右倾翻案风”和天安门事件的中央文件。1981 年决议把华国锋“拖延和阻挠”这一平反列为他的错误之一。
+  people: [deng-xiaoping, hua-guofeng, wu-de, chen-yun]
+  voices:
+    - { voice: officialLater, text: 会议指出：一九七六年四月五日的天安门事件完全是革命行动（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
+    - { voice: official1981, text: 拖延和阻挠恢复老干部工作和平反历史上冤假错案（包括“天安门事件”）的进程（1981 年历史决议评华国锋）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1978-12-third-plenum, ws-1981-resolution]
+
+- id: 1978-12-16-us-normalization
+  date: 1978-12-16
+  title: 中美建交联合公报
+  lane: intl
+  weight: 3
+  summary: 中美商定自 1979 年 1 月 1 日起建立外交关系，美国承认中华人民共和国政府是中国唯一合法政府，同时与台湾断交、废约、撤军，保持非官方关系。1979 年 1 月底邓小平访美。
+  people: [deng-xiaoping, hua-guofeng]
+  voices:
+    - { voice: doc, text: 美利坚合众国政府承认中国的立场，即只有一个中国，台湾是中国的一部分（1978 年中美建交公报）, cite: ws-1978-12-15-us-normalization, quote: true }
+  cites: [ws-1978-12-15-us-normalization]
+
+- id: 1979-01-01-taiwan-message
+  date: 1979-01-01
+  title: 《告台湾同胞书》，停止炮击金门
+  lane: intl
+  weight: 2
+  place: 金门
+  summary: 中美建交当天，全国人大常委会发表《告台湾同胞书》，提出“通航通邮”，以和平统一取代“解放台湾”；国防部长徐向前同时宣布停止自 1958 年以来对金门等岛屿的炮击。
+  people: [xu-xiangqian, ye-jianying, deng-xiaoping]
+  voices:
+    - { voice: doc, text: 我们希望双方尽快实现通航通邮，以利双方同胞直接接触，互通讯息，探亲访友，旅游参观，进行学术文化体育工艺观摩（1979 年《告台湾同胞书》）, cite: ws-1979-01-01-taiwan-message, quote: true }
+    - { voice: doc, text: 我已命令福建前线部队，从今日起停止对大金门、小金门、大担、二担等岛屿的炮击（1979 年徐向前声明）, cite: ws-1979-01-01-stop-shelling, quote: true }
+  cites: [ws-1979-01-01-taiwan-message, ws-1979-01-01-stop-shelling]
+
+- id: 1979-01-landlord-caps
+  date: 1979-01
+  title: 地主富农“一律摘掉帽子”，子女成份改为“社员”
+  lane: center
+  weight: 3
+  summary: 中发〔1979〕5 号：除极少数外，地主、富农、反革命、坏分子经群众评审、县革委会批准一律摘帽；地富家庭出身的人本人成份一律定为公社社员，子女的家庭出身也不再算地富。据公安部党组后来统计，决定发出前全国有“四类分子”六百一十四万余人；到 1982 年底还剩八万余人没摘帽，此后一律摘掉，从此“不再采用戴帽子的处理办法”。三十年的出身等级在文件上就此取消。
+  concepts: [bloodline, class-struggle]
+  voices:
+    - { voice: officialLater, text: 凡是多年来遵守政府法令、老实劳动、不做坏事的地主富农分子以及反革命分子、坏分子，经过群众评审，县革命委员会批准，一律摘掉帽子，给予农村人民公社社员的待遇（中发〔1979〕5 号）, cite: ws-1979-01-landlord-caps, quote: true }
+    - { voice: officialLater, text: '在中央一九七九年一月作出《关于地主、富农分子摘帽问题和地、富子女成份问题的决定》（中发[1979]5号文件）之前，全国共有地富反坏分子六百一十四万余名（公安部党组报告）', cite: ws-1983-four-classes-caps, quote: true }
+    - { voice: officialLater, text: 今后，应根据宪法精神，依法办事，这部分人如有违法犯罪的，一律依法论处，不再采用戴帽子的处理办法（同一报告）, cite: ws-1983-four-classes-caps, quote: true }
+  cites: [ws-1979-01-landlord-caps, ws-1983-four-classes-caps]
+
+- id: 1979-02-gz-january-seizure
+  date: 1979-02-15
+  title: 中央否定贵州“一·二五夺权”
+  lane: local
+  weight: 1
+  place: 贵阳
+  summary: 1967 年 1 月 25 日李再含等人在贵州夺权，被《人民日报》誉为“西南的春雷”，贵州成为最早成立革委会的省份之一。1979 年中央批示，这次夺权“中央没有正式文件批准”，是“向无产阶级夺权”，此后全省各地的夺权“也是错误的”。夺权骨干孙昌德、徐英年 1982 年被起诉。
+  voices:
+    - { voice: officialLater, text: 经查，1967年，贵州“一·二五夺权事件”，中央没有正式文件批准（1979 年中共中央批示）, cite: ccrd-1979-gz-jan-seizure, quote: true }
+    - { voice: officialLater, text: 在这之后，全省各地区、各单位的夺权也是错误的。所谓“西南的春雷”应予以根本否定（同一批示）, cite: ccrd-1979-gz-jan-seizure, quote: true }
+  cites: [ccrd-1979-gz-jan-seizure]
+
+- id: 1979-02-17-vietnam-war
+  date: 1979-02-17
+  end: 1979-03-16
+  title: 对越“自卫还击”
+  lane: army
+  weight: 2
+  place: 中越边境
+  summary: 解放军从广西、云南两路攻入越南北部，攻占谅山等地后于 3 月撤回。政府工作报告称之为“被迫进行了有节制的自卫还击”，同一报告号召学习“自卫还击战英雄们”。库内没有官方伤亡数字。
+  people: [deng-xiaoping, xu-shiyou]
+  voices:
+    - { voice: officialLater, text: 我们在忍无可忍的情况下，被迫进行了有节制的自卫还击（1979 年政府工作报告）, cite: ws-1979-06-18-gov-report, quote: true }
+  cites: [ws-1979-06-18-gov-report]
+
+- id: 1979-06-second-npc-adjustment
+  date: 1979-06-18
+  end: 1979-07-01
+  title: 五届人大二次会议：“调整、改革、整顿、提高”
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 华国锋在政府工作报告里承认比例严重失调、百分之二十四的国营工业企业亏损，提出用三年时间调整国民经济，收缩一年前的十年规划。会议通过刑法、刑事诉讼法等七个法律。
+  people: [hua-guofeng, chen-yun, li-xiannian, peng-zhen]
+  voices:
+    - { voice: officialLater, text: 从今年起集中三年的时间，认真搞好国民经济的调整、改革、整顿、提高，把它逐步纳入持久的按比例的高速度发展的轨道（1979 年政府工作报告）, cite: ws-1979-06-18-gov-report, quote: true }
+    - { voice: officialLater, text: 有百分之二十四的国营工业企业存在着程度不同的亏损（同一报告）, cite: ws-1979-06-18-gov-report, quote: true }
+    - { voice: officialLater, text: 五届人大二次会议通过的七个法律的实施，对于发挥全国人民的社会主义积极性，打击刑事犯罪，维护人民利益，保障现代化建设的顺利进行，正在发挥重要作用（1980 年华国锋讲话）, cite: ws-1980-09-07-hua-npc-speech, quote: true }
+  cites: [ws-1979-06-18-gov-report, ws-1980-09-07-hua-npc-speech]
+
+- id: 1979-yu-luoke-acquittal
+  date: 1979
+  title: 遇罗克改判无罪
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 遇罗克因《出身论》被捕，1970 年被北京市公检法军管会以“现行反革命”判处死刑立即执行。1978 年 11 月起他的父亲遇崇基多次申诉，法院再审认定原判“从认定的事实和适用法律上都是错误的”，撤销原判，宣告无罪。判决书页面未载日期，通行说法是 1979 年。
+  people: [yu-luoke, yu-luowen]
+  concepts: [bloodline]
+  voices:
+    - { voice: judicial1980, text: 原判以遇罗克犯反革命罪，判处死刑，从认定的事实和适用法律上都是错误的，应予纠正（遇罗克再审判决）, cite: ws-1979-yu-luoke-acquittal, quote: true }
+  cites: [ws-1979-yu-luoke-acquittal]
+
+- id: 1979-liu-wenhui-acquittal
+  date: 1979
+  title: 刘文辉改判无罪
+  lane: local
+  weight: 1
+  place: 上海
+  summary: 上海工人刘文辉在文革初期写了“十六条”传单，由弟弟寄往全国十四所大中院校，1967 年 3 月以反革命罪被枪决。家属申诉，1979 年 3 月 17 日上海市高级人民法院仍裁定驳回；继续申诉后，高院才撤销原判，认定“错判错杀”，宣告无罪。判决书上未见改判日期。
+  people: [liu-wenhui]
+  voices:
+    - { voice: judicial1980, text: 因此原判对刘文辉以反革命罪判处死刑,立即执行属于错判错杀,应予平反纠正（上海市高级人民法院改判判决）, cite: ws-1980-liu-wenhui-rehab, quote: true }
+  cites: [ws-1980-liu-wenhui-rehab]
+
+- id: 1979-12-zhang-qinli-sentenced
+  date: 1979-12-24
+  title: 兰考张钦礼被判刑十三年
+  lane: local
+  weight: 1
+  place: 河南兰考
+  summary: 张钦礼 1967 年 1 月在兰考夺权，任县革委会主任，把兰考的派性斗争说成“砍还是树焦裕禄红旗”。商丘地区中级人民法院以反革命罪判他有期徒刑十三年，刑期自 1978 年 11 月 16 日起算。这是两案之外各地审判本地文革掌权者的一例。
+  voices:
+    - { voice: judicial1980, text: 被告张钦礼在文化大革命中，积极追随林彪、“四人帮”，在兰考大搞拉帮结派，包庇重用坏人；颠倒敌我关系，倒转矛头，颠覆无产阶级专政（1979 年商丘地区中级人民法院判决）, cite: ws-1979-shangqiu-judgment, quote: true }
+  cites: [ws-1979-shangqiu-judgment]
+
+- id: 1979-12-hua-linsen-sentenced
+  date: 1979-12-28
+  title: 苏州华林森以反革命罪被判刑
+  lane: local
+  weight: 1
+  place: 苏州
+  summary: 工人出身的华林森文革中任苏州市革委会副主任、江苏省革委会副主任，1967 年 1 月为首夺了苏州市委、市人委的权。苏州市中级人民法院以反革命罪判刑。各地在两案之前已开始审判本地的造反派头头。
+  voices:
+    - { voice: judicial1980, text: 被告华林森在“文化革命”初期，就与汪永珠、邹学祺、赵宝康等结成帮派。一九六七年一月，为首策划、组织夺了苏州市委、市人委的大权（1979 年苏州市中级人民法院判决）, cite: ws-1979-hua-linsen-case, quote: true }
+  cites: [ws-1979-hua-linsen-case]
+
+- id: 1979-xu-guangda-memorial
+  date: 1979-07-09
+  title: 《人民日报》纪念许光达
+  lane: army
+  weight: 1
+  summary: 大将许光达 1969 年在关押中死去，他被列为贺龙“二月兵变”冤案的第二号人物。1979 年《人民日报》发表长文纪念，是贺龙冤案平反前后军队系统的一批公开纪念之一。
+  people: [xu-guangda, he-long]
+  voices:
+    - { voice: officialLater, text: 当时，他在这些野心家和阴谋家捏造的贺龙同志“二月兵变”“篡军反党”这一大冤案中被列为第二号人物（1979 年《人民日报》）, cite: rmrb-1979-07-09-xu-guangda, quote: true }
+  cites: [rmrb-1979-07-09-xu-guangda]
+
+- id: 1979-old-cc-files
+  date: 1979
+  title: 旧的中央文件“自然失效”
+  lane: center
+  weight: 1
+  summary: 三中全会后撤销了一批文革中的中央文件，但数量太多。中央通知：凡与新文件矛盾的旧文件“自然失效”，不再一一宣布撤销；各地的历史遗留问题按三中全会精神重新作结论。这使大批文革文件在没有逐件清理的情况下退出效力。
+  voices:
+    - { voice: officialLater, text: 中央过去所发文件的内容、提法和决定，同中央新发文件的内容、提法和决定相矛盾、相抵触的，一律应以新的文件为准，旧的文件或其中的有关部分自然失效，除少数特殊情况外，不必再一一宣布撤销（1979 年中共中央通知）, cite: ws-1979-old-cc-files-notice, quote: true }
+  cites: [ws-1979-old-cc-files-notice]
