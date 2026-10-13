@@ -337,3 +337,26 @@
     - { voice: doc, text: 美国向台湾出售武器的问题在两国谈判建交的过程中没有得到解决, cite: ws-1982-08-17-us-communique, quote: true }
     - { voice: doc, text: 它准备逐步减少它对台湾的武器出售，并经过一段时间导致最后的解决, cite: ws-1982-08-17-us-communique, quote: true }
   cites: [ws-1982-08-17-us-communique]
+
+- id: 1981-urban-employment
+  date: 1981
+  title: 解决城镇就业：三年安置二千多万人，扶持集体与个体经济
+  lane: econ
+  weight: 2
+  summary: 中共中央、国务院关于广开门路、搞活经济、解决城镇就业问题的决定说，近三年来安置了二千多万人就业，已有十个省区市把 1979 年以前的待业人员基本安置完毕；提出 1985 年以前大体解决历年积累的城镇待业青年就业问题。决定把就业与调整产业结构、所有制结构联系起来，称中央对城镇集体经济和个体经济“采取积极扶持的方针”，并把过去的产业结构问题归于“左的错误”。
+  voices:
+    - { voice: officialLater, text: 近三年来安置了二千多万人就业, cite: ws-1981-urban-employment, quote: true }
+    - { voice: officialLater, text: 党中央、国务院对城镇集体经济和个体经济的发展采取积极扶持的方针, cite: ws-1981-urban-employment, quote: true }
+  cites: [ws-1981-urban-employment]
+
+- id: 1982-03-08-economic-crimes-decision
+  date: 1982-03-08
+  title: 人大常委会：严惩严重破坏经济的罪犯，走私、投机倒把、受贿可判死刑
+  lane: center
+  weight: 2
+  summary: 五届人大常委会第二十二次会议修改刑法：走私、套汇、投机倒把牟取暴利、盗窃、贩毒、盗运珍贵文物出口，情节特别严重的，最高可判死刑；国家工作人员受贿情节特别严重的，处无期徒刑或者死刑；国家工作人员利用职务犯上述罪行的从重处罚。1979 年刑法对走私、投机倒把最高处十年有期徒刑，对盗窃最高处无期徒刑，生效两年后都提高到死刑；同年 4 月起全国开展打击经济领域严重犯罪。
+  voices:
+    - { voice: doc, text: 走私、投机倒把集团的首要分子，处三年以上十年以下有期徒刑（1979 年刑法第一百一十八条）, cite: ws-1979-07-01-criminal-law, quote: true }
+    - { voice: doc, text: 情节特别严重的，处十年以上有期徒刑、无期徒刑或者死刑，可以并处没收财产, cite: ws-1982-03-08-economic-crimes, quote: true }
+    - { voice: doc, text: 国家工作人员索取、收受贿赂的，比照刑法第一百五十五条贪污罪论处；情节特别严重的，处无期徒刑或者死刑, cite: ws-1982-03-08-economic-crimes, quote: true }
+  cites: [ws-1982-03-08-economic-crimes, ws-1979-07-01-criminal-law]

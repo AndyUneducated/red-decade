@@ -493,3 +493,56 @@
     - { voice: doc, text: 选民或者代表，十人以上联名，也可以推荐代表候选人, cite: ws-1986-12-02-election-law-amendment, quote: true }
     - { voice: doc, text: 由选民直接选举的代表候选人名额，应多于应选代表名额三分之一至一倍, cite: ws-1986-12-02-election-law-amendment, quote: true }
   cites: [ws-1986-12-02-election-law-amendment]
+
+- id: 1984-05-31-regional-autonomy
+  date: 1984-05-31
+  title: 《民族区域自治法》通过
+  lane: center
+  weight: 1
+  summary: 六届人大二次会议通过《民族区域自治法》，自 1984 年 10 月 1 日起施行。法律规定各少数民族聚居的地方实行区域自治，民族自治地方分为自治区、自治州、自治县，自治机关是国家的一级地方政权机关，“各民族自治地方都是中华人民共和国不可分离的部分”。
+  voices:
+    - { voice: doc, text: 各民族自治地方都是中华人民共和国不可分离的部分, cite: ws-1984-05-31-regional-autonomy, quote: true }
+  cites: [ws-1984-05-31-regional-autonomy]
+
+- id: 1985-09-06-id-card
+  date: 1985-09-06
+  title: 《居民身份证条例》：年满十六周岁领取身份证
+  lane: center
+  weight: 1
+  summary: 六届人大常委会第十二次会议通过《居民身份证条例》，自公布之日起施行。居住在境内、年满十六周岁的中国公民应申请领取居民身份证；登记项目为姓名、性别、民族、出生日期、住址五项，民族自治地方可以同时使用本民族文字。现役军人、武警不领取。
+  voices:
+    - { voice: doc, text: 居民身份证登记项目包括姓名、性别、民族、出生日期、住址, cite: ws-1985-09-06-id-card, quote: true }
+  cites: [ws-1985-09-06-id-card]
+
+- id: 1986-04-12-foreign-enterprise-law
+  date: 1986-04-12
+  title: 《外资企业法》：国家对外资企业不实行国有化
+  lane: econ
+  weight: 1
+  summary: 与《民法通则》《义务教育法》同日，六届人大四次会议通过《外资企业法》，允许外国投资者在中国境内举办全部资本由其投资的企业。法律承诺“国家对外资企业不实行国有化和征收”，特殊情况下依法征收并给予补偿；设立申请由国务院对外经济贸易主管部门在九十天内决定。
+  voices:
+    - { voice: doc, text: 国家对外资企业不实行国有化和征收；在特殊情况下，根据社会公共利益的需要，对外资企业可以依照法律程序实行征收，并给予相应的补偿, cite: ws-1986-04-12-foreign-enterprise, quote: true }
+  cites: [ws-1986-04-12-foreign-enterprise]
+
+- id: 1986-enterprise-three-regulations
+  date: 1986
+  title: 企业三个条例：厂长负责制、党组织工作、职工代表大会
+  lane: econ
+  weight: 1
+  summary: 中共中央、国务院颁发《全民所有制工业企业厂长工作条例》、企业党的基层组织工作条例和职工代表大会条例，在企业领导体制改革试点企业中实行。通知说改革自 1984 年起在部分企业试点，生产经营和行政管理实行厂长负责制，企业党组织“开始从行政事务中解脱出来”，改变了“党政不分、职责不明”的状况。
+  voices:
+    - { voice: doc, text: 企业实行生产经营和行政管理工作厂长负责制, cite: ws-1986-enterprise-three-regulations, quote: true }
+    - { voice: doc, text: 初步改变了企业党政不分、职责不明的状况。企业党组织开始从行政事务中解脱出来, cite: ws-1986-enterprise-three-regulations, quote: true }
+  cites: [ws-1986-enterprise-three-regulations]
+
+- id: 1986-12-30-deng-student-unrest
+  date: 1986-12-30
+  title: 邓小平谈学生闹事：“不能搞三权鼎立那一套”
+  lane: center
+  weight: 2
+  summary: 据大事记，邓小平同几位中央负责同志谈学生上街问题，说“学生闹事，大事出不了，但从问题的性质来看，是一个很重大的事件”；凡是闹得起来的地方，都是领导“旗帜不鲜明，态度不坚决”，是几年来反对资产阶级自由化不力的结果；讲民主不能搬用资产阶级民主。此前 12 月 26 日，北京市人大常委会通过关于游行示威的暂行规定。1987 年 1 月 6 日，中共中央通知向全体党员和干部群众传达这次讲话的要点。
+  people: [deng-xiaoping]
+  voices:
+    - { voice: officialLater, text: 学生闹事，大事出不了，但从问题的性质来看，是一个很重大的事件, cite: ws-1987-01-deng-student-unrest, quote: true }
+    - { voice: officialLater, text: 我们讲民主，不能搬用资产阶级的民主，不能搞三权鼎立那一套, cite: ws-1987-01-deng-student-unrest, quote: true }
+  cites: [ws-1987-01-deng-student-unrest]

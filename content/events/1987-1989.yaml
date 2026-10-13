@@ -418,3 +418,48 @@
   voices:
     - { voice: officialLater, text: 拉萨市区的戒严继续得到了有效的实施，学校照常上课，社会的生产、生活秩序正常, cite: ws-1989-06-tibet-support-telegram, quote: true }
   cites: [ws-1989-06-tibet-support-telegram]
+
+- id: 1987-01-28-anti-liberalization-notice
+  date: 1987-01-28
+  title: 中央反自由化通知：“严格限于党内”，“不搞政治运动”
+  lane: ideology
+  weight: 2
+  summary: 据大事记，中共中央发出《关于当前反对资产阶级自由化若干问题的通知》，把资产阶级自由化界定为否定社会主义制度、主张资本主义制度，“核心是否定党的领导”；同时规定这场斗争“严格限于党内”，主要在政治思想领域进行，以正面教育为主，“不搞政治运动”。通知把坚持四项基本原则与坚持改革开放称为三中全会以来路线的“两个基本点”，十三大沿用了这个提法。
+  voices:
+    - { voice: officialLater, text: 搞资产阶级自由化，即否定社会主义制度、主张资本主义制度，核心是否定党的领导, cite: ws-1987-01-deng-student-unrest, quote: true }
+    - { voice: officialLater, text: 但这场斗争严格限于党内，主要在政治思想领域内进行, cite: ws-1987-01-deng-student-unrest, quote: true }
+    - { voice: officialLater, text: 团结绝大多数的方针，不搞政治运动, cite: ws-1987-01-deng-student-unrest, quote: true }
+  cites: [ws-1987-01-deng-student-unrest]
+
+- id: 1987-11-24-village-committees
+  date: 1987-11-24
+  title: 《村民委员会组织法（试行）》：村委会由村民直接选举
+  lane: local
+  weight: 1
+  summary: 六届人大常委会第二十三次会议通过《村民委员会组织法（试行）》，自 1988 年 6 月 1 日起试行。村民委员会定为村民自我管理、自我教育、自我服务的基层群众性自治组织；主任、副主任和委员由村民直接选举，任期三年；年满十八周岁的村民不分“家庭出身”等都有选举权和被选举权。
+  voices:
+    - { voice: doc, text: 村民委员会主任、副主任和委员，由村民直接选举产生, cite: ws-1987-11-24-village-committees, quote: true }
+    - { voice: doc, text: 年满十八周岁的村民，不分民族、种族、性别、职业、家庭出身、宗教信仰、教育程度、财产状况、居住期限，都有选举权和被选举权, cite: ws-1987-11-24-village-committees, quote: true }
+  cites: [ws-1987-11-24-village-committees]
+
+- id: 1988-04-13-enterprise-law
+  date: 1988-04-13
+  title: 《全民所有制工业企业法》：厂长负责制写入法律
+  lane: econ
+  weight: 1
+  summary: 七届人大一次会议通过《全民所有制工业企业法》，自 1988 年 8 月 1 日起施行。法律规定企业实行厂长（经理）负责制；企业中的党组织对方针政策的贯彻执行“实行保证监督”；企业通过职工代表大会实行民主管理。这把 1986 年三个条例的试点做法写成了法律。
+  voices:
+    - { voice: doc, text: 企业实行厂长（经理）负责制, cite: ws-1988-04-13-enterprise-law, quote: true }
+    - { voice: doc, text: 中国共产党在企业中的基层组织，对党和国家的方针、政策在本企业的贯彻执行实行保证监督, cite: ws-1988-04-13-enterprise-law, quote: true }
+  cites: [ws-1988-04-13-enterprise-law]
+
+- id: 1988-06-25-private-enterprise
+  date: 1988-06-25
+  title: 《私营企业暂行条例》：雇工八人以上为私营企业
+  lane: econ
+  weight: 2
+  summary: 国务院令第 4 号发布《私营企业暂行条例》，自 1988 年 7 月 1 日起施行，落实两个月前的宪法修正案。条例把私营企业定义为资产属于私人所有、雇工八人以上的营利性经济组织，重申“私营经济是社会主义公有制经济的补充”。
+  voices:
+    - { voice: doc, text: 本条例所称私营企业是指企业资产属于私人所有、雇工八人以上的营利性的经济组织, cite: ws-1988-06-private-enterprise, quote: true }
+    - { voice: doc, text: 私营经济是社会主义公有制经济的补充, cite: ws-1988-06-private-enterprise, quote: true }
+  cites: [ws-1988-06-private-enterprise]
