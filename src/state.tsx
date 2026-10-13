@@ -2,7 +2,7 @@
 //   #/<view>?sel=<type>:<id>[:<sub>]&t=<fractional year>
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode, type SetStateAction } from 'react'
 import type { EntityType, Index, Ref } from './data/atlas'
-import { adoptEntry, beginRestore, currentEntry, getUi, pushEntry, restoreScroll, setUi, stepsBackTo } from './lib/history'
+import { adoptEntry, beginRestore, currentEntry, findBack, getUi, pushEntry, restoreScroll, setUi } from './lib/history'
 
 export const VIEWS = {
   timeline: '时间线',
@@ -75,6 +75,18 @@ type Ctx = State & {
   // from a profile page up to its list: go back through history when the list is there, so it comes back
   // where it was left; otherwise open the list fresh
   up: (view: View) => void
+  // a profile page's back link: to the page it was opened from, else up to the list
+  back: (list: View) => { label: string; run: () => void }
+}
+
+function pageName(ix: Index, s: { view: View; doc?: string }): string {
+  if (s.view === 'people') return (s.doc && ix.person.get(s.doc)?.name) || '人物'
+  if (s.view === 'orgs') {
+    const o = s.doc ? ix.org.get(s.doc) : undefined
+    return o ? (o.short ?? o.name) : '机构'
+  }
+  if (s.view === 'docs') return '文献'
+  return VIEWS[s.view]
 }
 
 const AppCtx = createContext<Ctx | null>(null)
@@ -137,12 +149,21 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
       openPerson: (id) => update({ view: 'people', doc: id, sel: undefined }),
       openOrg: (id) => update({ view: 'orgs', doc: id, sel: undefined }),
       up: (view) => {
-        const n = stepsBackTo((h) => {
+        const b = findBack((h) => {
           const s = parseHash(h)
           return s.view === view && !s.doc
         })
-        if (n) history.go(-n)
+        if (b) history.go(-b.n)
         else update({ view, doc: undefined, sel: undefined })
+      },
+      // entries that only differ in the drawer or the time are the same page and are skipped
+      back: (list) => {
+        const b = findBack((h) => {
+          const s = parseHash(h)
+          return s.view !== state.view || s.doc !== state.doc
+        })
+        if (!b) return { label: pageName(ix, { view: list }), run: () => update({ view: list, doc: undefined, sel: undefined }) }
+        return { label: pageName(ix, parseHash(b.hash)), run: () => history.go(-b.n) }
       },
     }),
     [state, ix, update],

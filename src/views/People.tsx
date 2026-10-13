@@ -224,7 +224,7 @@ function Directory() {
 }
 
 function Profile({ id }: { id: string }) {
-  const { ix, t, up } = useApp()
+  const { ix, t, back } = useApp()
   const p = ix.person.get(id)
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
@@ -250,14 +250,15 @@ function Profile({ id }: { id: string }) {
   ].filter((s) => s.n !== undefined && s.n > 0)
   const pull = p.assess.find((v) => v.quote && v.text.length <= 150 && !p.quotes.some((q) => v.text.startsWith(q.text)))
   const placed = placeQuotes(p)
+  const ret = back('people')
 
   return (
     <div className="view">
       <div className="profile" ref={wrap}>
         <div className="profile-inner">
           <nav className="crumbs">
-            <button className="linklike" onClick={() => up('people')}>
-              ← 人物
+            <button className="linklike" onClick={ret.run}>
+              ← {ret.label}
             </button>
           </nav>
           <header className="profile-head hero" style={{ '--fc': ix.primaryFaction(p)?.color ?? 'var(--accent)' } as CSSProperties}>

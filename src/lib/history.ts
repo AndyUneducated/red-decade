@@ -62,11 +62,12 @@ export function pushEntry(hash: string) {
   )
 }
 
-// how many steps back the nearest entry whose hash passes the test is, if this session's history reaches it
-export function stepsBackTo(test: (hash: string) => boolean): number | undefined {
+// the nearest earlier entry whose hash passes the test, and how many steps back it is, if this session's
+// history reaches it
+export function findBack(test: (hash: string) => boolean): { n: number; hash: string } | undefined {
   let prev = entries.get(current)?.prev
   for (let n = 1; prev && n <= 50; n++) {
-    if (test(prev.hash)) return n
+    if (test(prev.hash)) return { n, hash: prev.hash }
     prev = entries.get(prev.key)?.prev
   }
 }

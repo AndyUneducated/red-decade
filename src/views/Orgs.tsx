@@ -517,7 +517,7 @@ function Succession({ list, x, width }: { list: Band[]; x: ScaleLinear<number, n
 }
 
 function OrgPage({ id }: { id: string }) {
-  const { ix, t, up } = useApp()
+  const { ix, t, back } = useApp()
   const o = ix.org.get(id)
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
@@ -567,14 +567,15 @@ function OrgPage({ id }: { id: string }) {
   chron.sort((a, b) => toT(a.date) - toT(b.date))
 
   const names = [o.short, ...o.aliases].filter((n, i, xs): n is string => !!n && n !== o.name && xs.indexOf(n) === i)
+  const ret = back('orgs')
 
   return (
     <div className="view">
       <div className="profile" ref={wrap}>
         <div className="profile-inner">
           <nav className="crumbs">
-            <button className="linklike" onClick={() => up('orgs')}>
-              ← 机构
+            <button className="linklike" onClick={ret.run}>
+              ← {ret.label}
             </button>
             {o.under.length > 0 && (
               <>
