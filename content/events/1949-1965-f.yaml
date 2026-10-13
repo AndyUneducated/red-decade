@@ -1,0 +1,319 @@
+# 1949–1965 第六批：维基文库第七批原文（m5-ws-7）。
+# 信阳地委 1960 年 12 月的报告把信阳事件定性为“反革命复辟”，这是当时的官方口径；1981 年以后的口径不同，摘要只转述，不采信。
+# 嵖岈山公社简章与两年后信阳地委报告里嵖岈山的死亡数并列，二者出自不同文件。
+
+- id: 1950-08-04-class-status
+  date: 1950-08-04
+  title: 政务院《关于划分农村阶级成份的决定》
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: 1950 年 8 月 4 日，政务院为实施土地改革法通过划分农村阶级成份的决定，把 1933 年瑞金政府的《怎样分析农村阶级》等两个文件“稍加删改并加以补充”后重新公布。决定规定了地主、富农、中农、贫农、工人的划分标准；知识分子不算一种阶级成份；地主在土改后守法劳动“连续五年以上”，经乡人民代表大会通过、县政府批准，可以改变成份。
+  voices:
+    - { voice: doc, text: 佔有土地，自己不勞動，或只有附帶的勞動，而靠剝削爲生的，叫做地主（政务院决定·怎样分析农村阶级）, cite: ws-1950-08-04-class-status, quote: true }
+    - { voice: doc, text: 中農一般不要出賣勞動力，貧農一般要出賣小部分勞動力，這是分別中農與貧農的主要標準（同上）, cite: ws-1950-08-04-class-status, quote: true }
+    - { voice: doc, text: 知識分子不應該看做一種階級成份。知識分子的階級出身，依其家庭成份决定，其本人的階級成份，依本人取得主要生活來源的方法决定（同上）, cite: ws-1950-08-04-class-status, quote: true }
+    - { voice: doc, text: 沒有任何反動行爲，連續五年以上者，經鄉人民代表大會通過，縣人民政府批准後，得按照其所從事之勞動或經營的性質，改變其地主成份爲勞動者的成份或其他成份（政务院的若干新决定）, cite: ws-1950-08-04-class-status, quote: true }
+  cites: [ws-1950-08-04-class-status]
+
+- id: 1950-11-21-suburban-land-reform
+  date: 1950-11-21
+  title: 《城市郊区土地改革条例》：郊区土地归国家所有
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 1950 年 11 月 10 日政务院通过、21 日公布《城市郊区土地改革条例》。与农村土改不同，城市郊区没收和征收来的农业土地“一律归国家所有”，由市人民政府管理，分给农民耕种使用，发国有土地使用证；国家因市政建设收回时给予安置和补偿。
+  voices:
+    - { voice: doc, text: 城市郊区所有没收和征收得来的农业土地，一律归国家所有，由市人民政府管理（城市郊区土地改革条例第九条）, cite: ws-1950-11-21-suburban-land-reform, quote: true }
+    - { voice: doc, text: 对分得国有土地的农民，由市人民政府发给国有土地使用证，保障农民对该项土地的使用权（第十七条）, cite: ws-1950-11-21-suburban-land-reform, quote: true }
+  cites: [ws-1950-11-21-suburban-land-reform]
+
+- id: 1952-08-11-security-committees
+  date: 1952-08-11
+  title: 普遍建立治安保卫委员会
+  lane: mass
+  weight: 1
+  summary: 政务院 1952 年 6 月 27 日批准、公安部 8 月 11 日发布《治安保卫委员会暂行组织条例》，规定城市在镇反开展后、农村在土改完成后普遍建立治安保卫委员会，城市以机关、工厂、学校、街道为单位，农村以行政村为单位。委员会负责检举、监视反革命分子，监督被管制者，但“无审讯、关押、处理之权”。1960 年谢富治的报告说全国已有“六百多万”治保委员会成员。
+  voices:
+    - { voice: doc, text: 特规定全国各城市于镇压反革命运动开展后、农村于土地改革完成后，普遍建立治安保卫委员会（暂行组织条例第一条）, cite: ws-1952-08-11-security-committees, quote: true }
+    - { voice: doc, text: 对现行的反革命分子与通缉在逃的罪犯，有捕送政府、公安机关之责；但无审讯、关押、处理之权（第六条）, cite: ws-1952-08-11-security-committees, quote: true }
+    - { voice: doc, text: 监督被管制者劳动生产，不准其乱说乱动，并向公安机关及时反映其表现情况之责（同上）, cite: ws-1952-08-11-security-committees, quote: true }
+    - { voice: doc, text: 全国有六百多万基层治安保卫委员会的成员（谢富治 1960 年报告）, cite: ws-1960-02-11-xie-fuzhi-security, quote: true }
+  cites: [ws-1952-08-11-security-committees, ws-1960-02-11-xie-fuzhi-security]
+
+- id: 1953-11-23-grain-market
+  date: 1953-11-23
+  title: 《粮食市场管理暂行办法》：私商不准经营粮食
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 与统购统销命令同日，政务院 1953 年 11 月 23 日颁发《粮食市场管理暂行办法》。私营粮商“一律不准私自经营粮食”，只能受国家委托代销；私营加工厂不得自购原料、自销成品；城乡粮食交易场所改为国家粮食市场，“严禁场外成交”；农民完成公粮和统购后的余粮可自由存储，但“严禁投机倒把”。
+  voices:
+    - { voice: doc, text: 所有私营粮商，在粮食实行统购统销后，一律不准私自经营粮食（暂行办法第二条）, cite: ws-1953-11-23-grain-market, quote: true }
+    - { voice: doc, text: 凡进行粮食交易者，均须入场交易，严禁场外成交（第六条）, cite: ws-1953-11-23-grain-market, quote: true }
+  cites: [ws-1953-11-23-grain-market]
+
+- id: 1954-04-29-tibet-india-trade
+  date: 1954-04-29
+  title: 中印西藏通商交通协定：五项原则写入序言
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 1954 年 4 月 29 日，章汉夫与印度大使赖嘉文在北京签订《关于中国西藏地方和印度之间的通商和交通协定》。序言写明以互相尊重领土主权、互不侵犯、互不干涉内政、平等互惠、和平共处为原则；双方互设商务代理处，中方在新德里、加尔各答、噶伦堡，印方在亚东、江孜、噶大克；协定有效期八年。据维基文库注，协定 1962 年 6 月 3 日期满后未再延期。
+  voices:
+    - { voice: doc, text: 双方同意基于（一）互相尊重领土主权、（二）互不侵犯、（三）互不干涉内政、（四）平等互惠、（五）和平共处的原则（协定序言）, cite: ws-1954-04-29-tibet-india-trade, quote: true }
+    - { voice: doc, text: 中国政府同意印度政府得在亚东、江孜、噶大克三地设立商务代理处（第一条）, cite: ws-1954-04-29-tibet-india-trade, quote: true }
+    - { voice: doc, text: 本协定自双方政府批准之日起生效，其有效期为八年（第六条）, cite: ws-1954-04-29-tibet-india-trade, quote: true }
+  cites: [ws-1954-04-29-tibet-india-trade]
+
+- id: 1955-04-22-dual-nationality
+  date: 1955-04-22
+  title: 中印尼双重国籍条约
+  lane: intl
+  weight: 1
+  summary: 亚非会议期间，周恩来与印尼外长苏纳约 1955 年 4 月 22 日在万隆签订关于双重国籍问题的条约。同时具有两国国籍的人须按自愿原则在两年内择一；逾期未选的按父亲是哪国人后裔认定（父亲不明时按母亲）；两国勉励本国侨民尊重侨居国法律，“不参加侨居国的政治活动”。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 凡属同时具有中华人民共和国国籍和印度尼西亚共和国国籍的人，都应根据本人自愿的原则，就中华人民共和国国籍和印度尼西亚共和国国籍中选择一种国籍（条约第一条）, cite: ws-1955-04-22-dual-nationality, quote: true }
+    - { voice: doc, text: 尊重侨居国政府的法律和社会习惯，不参加侨居国的政治活动（第十一条）, cite: ws-1955-04-22-dual-nationality, quote: true }
+    - { voice: doc, text: 1955年4月22日订于万隆，共两份（落款）, cite: ws-1955-04-22-dual-nationality, quote: true }
+  cites: [ws-1955-04-22-dual-nationality]
+
+- id: 1955-05-04-japan-trade-3
+  date: 1955-05-04
+  title: 第三次中日民间贸易协定
+  lane: intl
+  weight: 1
+  summary: 中日没有外交关系，贸易以民间协定进行。1955 年 5 月 4 日，雷任民率领的中国访日贸易代表团与日本国际贸易促进协会、日本国会议员促进日中贸易联盟签订第三次民间贸易协定，双方进出口各 3000 万英镑，以英镑计价；双方同意互设常驻商务代表机构并享有外交官待遇，“努力促其尽早实现”。
+  voices:
+    - { voice: doc, text: 在本协定有效时期内每方输出和输入的总额各为3000万英镑（协定第一条）, cite: ws-1955-05-04-japan-trade-3, quote: true }
+    - { voice: doc, text: 双方的商务代表机构及代表机构的人员享有外交官待遇的权利。双方并同意努力促其尽早实现（第十条）, cite: ws-1955-05-04-japan-trade-3, quote: true }
+  cites: [ws-1955-05-04-japan-trade-3]
+
+- id: 1958-03-05-japan-trade-4
+  date: 1958-03-05
+  title: 第四次中日民间贸易协定：商务代表处可挂国旗
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1958 年 3 月 5 日，中国国际贸易促进委员会（南汉宸、雷任民签字）与日方三团体在北京签订第四次民间贸易协定，双方进出口各 3500 万英镑；互设常驻民间商务代表机构，各自取得本国政府同意给予安全保证，备忘录规定代表机构“有权在其建筑物悬挂本国国旗”，人员“不按指纹”。
+  voices:
+    - { voice: doc, text: 在本协定有效期间内，每方输出和输入的总额各为3500万英镑（协定第一条）, cite: ws-1958-03-05-japan-trade-4, quote: true }
+    - { voice: doc, text: 双方同意，相互在对方国家设置常驻的民间商务代表机构（第十一条）, cite: ws-1958-03-05-japan-trade-4, quote: true }
+    - { voice: doc, text: 商务代表机构有权在其建筑物悬挂本国国旗（备忘录）, cite: ws-1958-03-05-japan-trade-4, quote: true }
+  cites: [ws-1958-03-05-japan-trade-4, ws-1955-05-04-japan-trade-3]
+
+- id: 1956-09-12-coop-leadership
+  date: 1956-09-12
+  title: 合作化高潮后的整顿：限制扣留、允许自留地
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1956 年 9 月 12 日，中共中央、国务院发出加强农业社生产领导和组织建设的指示，说“到今年春间我国大多数地区已经基本上实现了农业合作化”，要求 1957 年基本实现高级合作化；同时承认运动中有“急躁情绪”，规定公积金公益金一般不超过总收入的 5%，60–70% 分给社员，争取 90% 社员增加收入，自留地要“允许社员留够”，并批评合作化以后“命令主义和简单化的作风普遍有所滋长”。
+  voices:
+    - { voice: doc, text: 由于经验不足和部分同志在革命高潮面前一度产生的某些急躁情绪，因而在某些工作中带来了若干缺点（中共中央、国务院指示）, cite: ws-1956-09-12-coop-leadership, quote: true }
+    - { voice: doc, text: 要做到使合作社收入的60-70%真正能够分配给社员，在年景正常的地区，要努力争取实现90%的社员都增加收入（同上）, cite: ws-1956-09-12-coop-leadership, quote: true }
+    - { voice: doc, text: 自留地有的地方留得太少，甚至不留。为了满足社员家庭饲养业和日常生活的需要，应按社章规定允许社员留够（同上）, cite: ws-1956-09-12-coop-leadership, quote: true }
+    - { voice: doc, text: 命令主义和简单化的作风普遍有所滋长，并且大大地减弱了农村的政治工作（同上）, cite: ws-1956-09-12-coop-leadership, quote: true }
+  cites: [ws-1956-09-12-coop-leadership]
+
+- id: 1956-10-12-grain-sales
+  date: 1956-10-12
+  title: 1956 年秋粮食“销量盲目扩大，征购要求减少”
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 合作化后国务院对农业社的粮食统购统销作出规定（维基文库页首日期 1956 年 10 月 6 日），以社为单位按 1955 年“三定”数字核算，余粮社增产不增购，灾年增购不超过增产部分的 40%。10 月 12 日中共中央、国务院又发指示说，当年 7–9 月粮食销量比上年同期多 43 亿斤，夏征少收 30 亿斤，要求控制销量，并说“1954年7月至1955年6月粮食紧张的教训是不应当重复的”。
+  voices:
+    - { voice: doc, text: 7、8、9三个月合计共此去年同期多销四十三亿斤（中共中央、国务院指示）, cite: ws-1956-10-12-grain-sales, quote: true }
+    - { voice: doc, text: 总之，销量盲目扩大，征购要求减少，这是目前粮食工作上需要严重注意的问题（同上）, cite: ws-1956-10-12-grain-sales, quote: true }
+    - { voice: doc, text: 我国粮食需要的增长仍远远走在粮食生产增长的前面，这种产销矛盾的情况，在一个较长时期以内将仍然存在（同上）, cite: ws-1956-10-12-grain-sales, quote: true }
+    - { voice: doc, text: 增购数量不得超过余粮社增产部分的百分之四十（国务院规定）, cite: ws-1956-10-06-coop-grain, quote: true }
+  cites: [ws-1956-10-12-grain-sales, ws-1956-10-06-coop-grain]
+
+- id: 1956-11-16-remnant-counterrevs
+  date: 1956-11-16
+  title: 宽大处理和安置城市残余反革命分子
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: 1956 年 11 月 16 日，全国人大常委会决定宽大处理城市残余反革命分子：一般反革命分子坦白认罪的“一概不咎既往”，罪行严重的坦白后“一律免处死刑”；不予追究、刑满释放和解除管制的人取消反革命分子身份，可称工人、店员、社员等，但“在一定时期内”不得担任重要职务；反革命分子家属不得歧视。
+  voices:
+    - { voice: doc, text: 只要彻底坦白认罪，一概不咎既往（人大常委会决定第一条）, cite: ws-1956-11-16-remnant-counterrevs, quote: true }
+    - { voice: doc, text: 这些反革命分子中彻底坦白认罪的，可以从宽处理；罪当处死的，一律免处死刑（第二条）, cite: ws-1956-11-16-remnant-counterrevs, quote: true }
+    - { voice: doc, text: 但是在一定时期内，都不得担任工厂、企业、机关、团体、学校等任何重要职务（第五条）, cite: ws-1956-11-16-remnant-counterrevs, quote: true }
+    - { voice: doc, text: 反革命分子的家属凡是没有参与反革命活动的，应当和人民群众有同样的就业、就学的机会，不得歧视（第八条）, cite: ws-1956-11-16-remnant-counterrevs, quote: true }
+  cites: [ws-1956-11-16-remnant-counterrevs]
+
+- id: 1957-06-25-private-plots
+  date: 1957-06-25
+  title: 自留地上限提到人均土地的 10%
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 根据周恩来的议案，全国人大常委会 1957 年 6 月 25 日补充高级社示范章程第十六条，允许合作社按养猪头数分给社员饲料地，连同菜地合计不超过当地人均土地的 10%。此前 6 月 14 日的夏收分配指示也说，缺劳力的社员“可以允许他们多留一些自留地”。1958 年的嵖岈山公社简章则把社员的自留地全部转为公有（见该条）。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 每人使用的这种土地，连同高级农业生产合作社示范章程所规定的分配给社员种植蔬菜的土地，合计不能超过当地每人平均土地数的百分之十（人大常委会决定）, cite: ws-1957-06-25-private-plots, quote: true }
+    - { voice: doc, text: 在社员同意之下，还可以允许他们多留一些自留地，充分发挥这些辅助劳力的作用（夏收分配指示）, cite: ws-1957-06-14-summer-distribution, quote: true }
+  cites: [ws-1957-06-25-private-plots, ws-1957-06-14-summer-distribution]
+
+- id: 1958-03-23-materials-allocation
+  date: 1958-03-23
+  title: 成都会议：物资分配下放，超产按“第二本帐”提成
+  lane: econ
+  weight: 1
+  summary: 1958 年 3 月 23 日成都会议通过、4 月 2 日政治局会议同意的物资分配体制意见（据维基文库页首注）说，规定草案“此次会议暂不作决定”，先发各地研究，但先作两项改变：各省、市、自治区可以调剂中央企业的多余物资，对超过“第二本帐”的产量按比例提成（一般企业不超过 50%，大型企业不超过 30%）；草案提出生产资料分配实行“双轨制”，并为“今年工农业生产的大跃进”把企业库存钢材拨出 20% 交地方调剂。
+  voices:
+    - { voice: doc, text: 省、市、自治区得按照中央第二本帐为基础，对超额生产的部分，根据各地需要情况，按比例提成（中共中央意见）, cite: ws-1958-03-23-materials-allocation, quote: true }
+    - { voice: doc, text: 为保证今年工农业生产的大跃进，将现有企业库存钢材，拨出百分之二十交给各省、市、自治区统一调剂（规定草案第九条）, cite: ws-1958-03-23-materials-allocation, quote: true }
+  cites: [ws-1958-03-23-materials-allocation]
+
+- id: 1958-chayashan-commune
+  date: 1958
+  title: 嵖岈山卫星人民公社简章
+  lane: local
+  weight: 2
+  summary: 河南遂平县嵖岈山附近 27 个高级社、9369 户于 1958 年 4 月 20 日组成嵖岈山卫星人民公社，其试行简章（初次草案）规定各社财产全部交公社，“多者不退，少者不补”；社员的自留地、房基、牲畜、林木全部转为公有；逐步实行工资制，条件具备时实行粮食供给制；组织公共食堂，但“不愿意参加食堂和托儿所的听其自便”；未摘帽的地主、富农、反革命分子只能做没有选举权的“非正式社员”。两年后的信阳地委报告说，嵖岈山公社原报死六百余人，揭发后近四千人（见该条）。
+  voices:
+    - { voice: doc, text: 应该将一切公有财产全部交给公社，多者不退，少者不补，实现共产主义的大合作（简章第四条）, cite: ws-1958-chayashan-commune, quote: true }
+    - { voice: doc, text: 应该将仍然属于本人私有的全部自留地、房屋基地、牧畜、林木、农具等生产资料转为全社公有（第五条）, cite: ws-1958-chayashan-commune, quote: true }
+    - { voice: doc, text: 在社会的产品很丰富和人民有高度觉悟的条件下，逐步地从“各尽所能，按劳取酬”过渡到“各尽所能，各取所需”（第二条）, cite: ws-1958-chayashan-commune, quote: true }
+    - { voice: doc, text: 遂平县楂岈山人民公社，过去只报死六百余人，现在揭发死人近四千人，占总人口百分之十（信阳地委 1960 年报告）, cite: ws-1960-12-22-xinyang-rectification, quote: true }
+  cites: [ws-1958-chayashan-commune, ws-1960-12-22-xinyang-rectification]
+
+- id: 1960-02-11-xie-fuzhi-security
+  date: 1960-02-11
+  title: 谢富治第十次全国公安会议报告：“一九五八年捕了一百万人”
+  lane: mass
+  weight: 2
+  summary: 1960 年 2 月，公安部长谢富治在第十次全国公安会议上报告（密级绝密）：1958 年“捕了一百万人”；1959 年转为“少杀、少捕、管制也要比过去少”的“三少”政策，仍捕 213356 人、杀 4481 人、劳动教养 116273 人；全国有一千多万“五类分子”、一百八十多万劳改罪犯、四十四万多劳教人员。报告拟定 1960 年“捕十六万至十八万，杀三千至四千”。
+  people: [xie-fuzhi]
+  voices:
+    - { voice: doc, text: 一九五七年到一九五八年我们采取了连续紧的策略。一九五八年捕了一百万人（谢富治报告）, cite: ws-1960-02-11-xie-fuzhi-security, quote: true }
+    - { voice: doc, text: 一年来，全国捕了反革命分子和其他犯罪分子二十一万三千三百五十六名，杀了四千四百八十一名，管制十八万零五百一十三名，劳动教养十一万六千二百七十三名（同上，1959 年）, cite: ws-1960-02-11-xie-fuzhi-security, quote: true }
+    - { voice: doc, text: 我们拟定的控制数字是：捕十六万至十八万，杀三千至四千，新管十三万左右（同上，1960 年）, cite: ws-1960-02-11-xie-fuzhi-security, quote: true }
+    - { voice: doc, text: 现在全国有一百八十多万劳改罪犯（同上）, cite: ws-1960-02-11-xie-fuzhi-security, quote: true }
+  cites: [ws-1960-02-11-xie-fuzhi-security]
+
+- id: 1960-11-03-urgent-letter
+  date: 1960-11-03
+  title: 紧急指示信（十二条）：纠正“共产风”
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 1960 年 11 月 3 日，中共中央发出关于农村人民公社当前政策问题的紧急指示信，要求读给全体党员、干部和农民听。指示信承认“一平二调”的“共产风”在大部分地方纠正不彻底；规定以生产队为基础的三级所有制“至少七年不变”，平调的财物必须清理退还；恢复自留地（不超过人均土地的 5%）和集市贸易；口粮按低标准落实，“十二个月的口粮按十三个月安排”；当年冬季普遍开展整风整社，严禁干部用“不准打饭”处罚社员。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 大部分地方和社队糾正的不徹底，有遺留問題，或者在去年冬季以后又刮起“共产風”（中共中央紧急指示信）, cite: ws-1960-11-03-urgent-letter, quote: true }
+    - { voice: doc, text: 以生产队为基础的三級所有制，是現阶段人民公社的根本制度，从一九六一年算起，至少七年不变（同上）, cite: ws-1960-11-03-urgent-letter, quote: true }
+    - { voice: doc, text: 应該允許社員經营少量的自留地（同上）, cite: ws-1960-11-03-urgent-letter, quote: true }
+    - { voice: doc, text: 十二个月的口粮按十三个月安排，留有余地。必須算了再吃，絶不能吃了再算（同上）, cite: ws-1960-11-03-urgent-letter, quote: true }
+    - { voice: doc, text: 严禁干部用“不准打飯”和“不发口粮”的办法来处罰社員（同上）, cite: ws-1960-11-03-urgent-letter, quote: true }
+  cites: [ws-1960-11-03-urgent-letter]
+
+- id: 1960-12-22-xinyang-rectification
+  date: 1960-12-22
+  title: 信阳地委整风报告：死亡数“越揭发越严重”
+  lane: local
+  weight: 3
+  place: 信阳
+  summary: 1960 年 12 月 22 日，中共信阳地委向河南省委并中央、中南局报告整风和救灾情况。报告按当时上级的定性，称信阳事件是“反革命复辟”、敌人“打着我们的招牌”进行“阶级报复”；同时承认各县原报死亡数严重偏低：正阳县原报一万八千多人，揭发达八万多人；新蔡县原报三万来人，增至近十万人；全区十六个县市中十五个列为“三类”。报告说已逮捕法办二百七十五人，撤职查办等九百八十三人，并按十二条安排救灾。
+  people: [lu-xianwen]
+  voices:
+    - { voice: doc, text: 正阳县原报去冬今春死一万八千多人，现初步揭发已达八万多人；新蔡县原报去冬今春死三万来人，现在增加到近十万人（信阳地委报告）, cite: ws-1960-12-22-xinyang-rectification, quote: true }
+    - { voice: doc, text: 凡是整风运动深入开展的地方，揭发的问题比我们原来了解的严重很多，而且是越揭发越严重（同上）, cite: ws-1960-12-22-xinyang-rectification, quote: true }
+    - { voice: official1966, text: 愈来愈清楚地证明信阳事件的性质是反革命复辟，是民主革命不彻底，是内部肃反、社会镇反不彻底（同上，当时定性）, cite: ws-1960-12-22-xinyang-rectification, quote: true }
+    - { voice: doc, text: 不少干部认为信阳问题是工作上犯错误所造成的，是属于人民内部矛盾的性质（同上，被批评的看法）, cite: ws-1960-12-22-xinyang-rectification, quote: true }
+    - { voice: editor, text: 报告把干部的意见“路宪文是犯了左倾冒险主义”“信阳事件是我们党犯了错误”列为“糊涂观念”。这是 1960 年底的口径，与后来的结论不同，本条只转述。 }
+  cites: [ws-1960-12-22-xinyang-rectification, ws-1960-11-03-urgent-letter]
+
+- id: 1961-01-25-zhangbei-letter
+  date: 1961-01-25
+  title: 张北县致外流社员的信
+  lane: local
+  weight: 1
+  summary: 1961 年春节前，河北张北县给“流出县境”的社员写公开信，承认干部“领导作风不民主”和坏分子违法乱纪“伤害了人民群众的利益”，说外出“寻找更好的生活门路……没有错误”，承诺回乡后“绝不打击、不歧视”，口粮照发，被拆的住房照价赔偿。信引紧急指示信为依据。
+  voices:
+    - { voice: doc, text: 你们为了寻找更好的生活门路，流出县境，奔波各地，这样做没有错误（张北县公开信）, cite: ws-1961-01-25-zhangbei-letter, quote: true }
+    - { voice: doc, text: 回来后绝不打击、不歧视（同上）, cite: ws-1961-01-25-zhangbei-letter, quote: true }
+    - { voice: doc, text: 走后住房如果被拆掉的要照价赔偿，并要安置住居（同上）, cite: ws-1961-01-25-zhangbei-letter, quote: true }
+  cites: [ws-1961-01-25-zhangbei-letter]
+
+- id: 1961-06-19-pingdiao-refund
+  date: 1961-06-19
+  title: 中央规定彻底退赔平调
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1961 年 6 月 19 日，中共中央规定坚决纠正平调错误、彻底退赔。规定说十二条和 1961 年 1 月中央工作会议纪要发出后，“退賠工作还是做得很不徹底的”；从中央各部门到生产队，凡违背等价交换无偿调用的生产资料、生活资料和劳动力都要清算退赔，“誰平調的誰退賠”，以实物为主，“三年基本解决”，五年内完全解决，各级设退赔委员会。
+  voices:
+    - { voice: doc, text: 但是，总的来說，退賠工作还是做得很不徹底的（中共中央规定）, cite: ws-1961-06-19-pingdiao-refund, quote: true }
+    - { voice: doc, text: 誰平調的誰退賠，从那里平調的退賠給那里（同上）, cite: ws-1961-06-19-pingdiao-refund, quote: true }
+    - { voice: doc, text: 要使干部認識到，在任何时候都不能剥夺农民（同上）, cite: ws-1961-06-19-pingdiao-refund, quote: true }
+  cites: [ws-1961-06-19-pingdiao-refund, ws-1960-11-03-urgent-letter]
+
+- id: 1962-09-27-consolidate-collective
+  date: 1962-09-27
+  title: 巩固集体经济决定：“至少三十年不变”
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 八届十中全会 1962 年 9 月 27 日通过关于巩固人民公社集体经济、发展农业生产的决定。决定提出国民经济计划“必须以发展农业为出发点”，次序是农业、轻工业、重工业；征购数量在一定时期内稳定，不准各级自行加税摊派；生产队为基本核算单位，“至少三十年不变”；允许家庭副业和自留地。决定把前几年农业下降归于“連續的严重自然灾害，还由于我們工作中发生过的缺点和錯誤”。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 安排經济計划的次序，是农业、輕工业、重工业（十中全会决定）, cite: ws-1962-09-27-consolidate-collective, quote: true }
+    - { voice: doc, text: 条例規定，这种基本核算單位制度定下来以后，至少三十年不变（同上）, cite: ws-1962-09-27-consolidate-collective, quote: true }
+    - { voice: doc, text: 前几年农业生产下降，是由于連續的严重自然灾害，还由于我們工作中发生过的缺点和錯誤（同上）, cite: ws-1962-09-27-consolidate-collective, quote: true }
+  cites: [ws-1962-09-27-consolidate-collective]
+
+- id: 1964-02-05-daqing
+  date: 1964-02-05
+  title: 中央传达大庆石油会战报告
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1964 年 2 月 5 日，中共中央通知在全国工交、财贸、文教系统和各级机关、部队中普遍传达石油工业部关于大庆石油会战的报告，“一直传达到基层单位”，并制成录音播放。通知说大庆“坚持政治挂帅”，“系統地学习和运用解放軍政治工作經驗”，是“一个多快好省的典型”。
+  voices:
+    - { voice: doc, text: 現在，中央决定在全国工交、財貿、文敎系統和各級机关、团体、部队中，普遍传达这个报吿，一直传达到基层单位（中共中央通知）, cite: ws-1964-02-05-daqing, quote: true }
+    - { voice: doc, text: 系統地学习和运用解放軍政治工作經驗，把政治思想、革命干勁和科学管理紧密結合起来（同上）, cite: ws-1964-02-05-daqing, quote: true }
+  cites: [ws-1964-02-05-daqing]
+
+- id: 1961-10-05-nepal-boundary
+  date: 1961-10-05
+  title: 中尼边界条约
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1961 年 10 月 5 日，中国与尼泊尔在北京签订边界条约，以 1960 年 3 月 21 日的边界协定为基础，按传统习惯线划界。条约所附界线经卓奥友山、珠穆朗玛峰（萨加·玛塔）、洛子峰到马卡鲁山。
+  voices:
+    - { voice: doc, text: 经过卓奥友山、普莫里山(尼尔朗古)、珠穆朗玛峰(萨加·玛塔)和洛子峰，到马卡鲁山（条约第二条界线描述）, cite: ws-1961-10-05-nepal-boundary, quote: true }
+    - { voice: doc, text: 本条约于一九六一年十月五日在北京签订（落款）, cite: ws-1961-10-05-nepal-boundary, quote: true }
+  cites: [ws-1961-10-05-nepal-boundary]
+
+- id: 1963-03-02-pakistan-boundary
+  date: 1963-03-02
+  title: 中巴边界协定：克什米尔问题解决后重新谈判
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1963 年 3 月 2 日，陈毅与巴基斯坦外长布托在北京签订协定，划定中国新疆与“由巴基斯坦实际控制其防务的各个地区”之间的边界，大体沿喀喇昆仑山脉大分水岭，经乔戈里峰（K2）到喀喇昆仑山口。协定规定，巴印关于克什米尔的争议解决后，有关主权当局将同中国重新谈判，签订正式边界条约。
+  people: [chen-yi]
+  voices:
+    - { voice: doc, text: 鉴于中国新疆和由巴基斯坦实际控制其防务的各个地区相接壤的边界从未正式划定（协定第一条）, cite: ws-1963-03-02-pakistan-boundary, quote: true }
+    - { voice: doc, text: 双方同意，在巴基斯坦和印度关于克什米尔的争议获得解决以后，有关的主权当局将就本协定第二条所述的边界，同中华人民共和国政府重新进行谈判（第六条）, cite: ws-1963-03-02-pakistan-boundary, quote: true }
+  cites: [ws-1963-03-02-pakistan-boundary]
+
+- id: 1958-rightists-disposal
+  date: 1958
+  title: 处理右派分子；1980 年的复查数字
+  lane: center
+  weight: 2
+  summary: 1980 年中央统战部的请示报告回顾，1957 年反右“全国划了右派分子四十九万余人”，以后陆续加划，共五十五万余人；1959–1964 年分五批摘帽约三十余万人，1978 年全部摘帽，之后改正错划。1958 年初中央转发对九十六名右派的处理意见，1980 年统战部提议对其中二十七名上层人士改正二十二人（章乃器、费孝通等），章伯钧、罗隆基、储安平等五人维持原案；“章罗同盟”在组织上“不存在”，但作为政治势力“仍应认为存在”。
+  people: [zhang-bojun, luo-longji, chu-anping, zhang-naiqi, fei-xiaotong]
+  voices:
+    - { voice: officialLater, text: 一九五七年开展的反右派斗争，全国划了右派分子四十九万余人，以后又陆续划了几批，共计五十五万余人（中央统战部 1980 年报告）, cite: ws-1980-05-08-rightist-review, quote: true }
+    - { voice: officialLater, text: 从一九五九年到—九六四年，先后五批摘掉约三十余万人的右派帽子（同上）, cite: ws-1980-05-08-rightist-review, quote: true }
+    - { voice: officialLater, text: “章罗同盟”在组织上应肯定其不存在，但在作为资产阶级右派政治势力的代表的意义上仍应认为存在（同上）, cite: ws-1980-05-08-rightist-review, quote: true }
+    - { voice: officialLater, text: 后来又对形势估计得过于严重，随着运动的发展，特别在后期，确实犯了扩大化的错误（同上）, cite: ws-1980-05-08-rightist-review, quote: true }
+  cites: [ws-1980-05-08-rightist-review]

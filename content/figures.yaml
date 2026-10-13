@@ -169,8 +169,8 @@
   title: 信阳事件（1959–1960）
   period: 1959–1960
   region: 河南信阳专区
-  summary: 大饥荒中死亡最惨重的地区之一。同一事件留下三层数字：1960 年 4 月地委向上报的全区数字；县委书记授意的瞒报数字；1961 年整风整社后县里重新统计的数字。商城一个县一年后的统计，就超过了地委一年前报的全区总数。
-  events: []
+  summary: 大饥荒中死亡最惨重的地区之一。同一事件留下三层数字：1960 年 4 月地委向上报的全区数字；县委书记授意的瞒报数字；1961 年整风整社后县里重新统计的数字。商城一个县一年后的统计，就超过了地委一年前报的全区总数。1960 年 12 月地委的整风报告也承认，正阳、新蔡两县和嵖岈山公社的原报数字只有揭发数的几分之一。
+  events: [1960-12-22-xinyang-rectification, 1958-chayashan-commune]
   people: [lu-xianwen]
   counts:
     - { measure: reported, what: 地委上报（全区，含正常死亡）, scope: 截至 1960 年 3 月底, value: 71658, voice: doc, cite: ws-1960-04-04-xinyang-deaths-report, quote: 71658人（包括正常死亡在内） }
@@ -178,12 +178,18 @@
     - { measure: reported, what: 县委书记授意上报, scope: 商城县, value: 3000, approx: 多, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 关于死人问题只准向地委报三千多人 }
     - { measure: reported, what: 实际报省委, scope: 商城县, value: 12000, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 向省委只报一万二千人，瞒报一万六千人 }
     - { measure: deaths, what: 1961 年统计, scope: 商城县, value: 96256, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 人口死了九万六千二百五十六人，占全县总人口四十二万五千人的百分之二十一点七 }
+    - { measure: reported, what: 县里原报, scope: 正阳县 · 1959 年冬至 1960 年春, value: 18000, approx: 多, voice: doc, cite: ws-1960-12-22-xinyang-rectification, quote: 正阳县原报去冬今春死一万八千多人 }
+    - { measure: deaths, what: 1960 年 12 月整风初步揭发, scope: 正阳县 · 1959 年冬至 1960 年春, value: 80000, approx: 多, voice: doc, cite: ws-1960-12-22-xinyang-rectification, quote: 现初步揭发已达八万多人 }
+    - { measure: reported, what: 县里原报, scope: 新蔡县 · 1959 年冬至 1960 年春, value: 30000, approx: 来, voice: doc, cite: ws-1960-12-22-xinyang-rectification, quote: 新蔡县原报去冬今春死三万来人 }
+    - { measure: deaths, what: 1960 年 12 月整风揭发, scope: 新蔡县 · 1959 年冬至 1960 年春, value: 100000, approx: 近, voice: doc, cite: ws-1960-12-22-xinyang-rectification, quote: 现在增加到近十万人 }
+    - { measure: reported, what: 过去上报, scope: 遂平县嵖岈山公社, value: 600, approx: 余, voice: doc, cite: ws-1960-12-22-xinyang-rectification, quote: 遂平县楂岈山人民公社，过去只报死六百余人 }
+    - { measure: deaths, what: 1960 年 12 月整风揭发, scope: 遂平县嵖岈山公社, value: 4000, approx: 近, voice: doc, cite: ws-1960-12-22-xinyang-rectification, quote: 现在揭发死人近四千人，占总人口百分之十 }
     - { measure: deaths, what: 饿死 / 逼死, scope: 西平县, value: 9792, voice: doc, cite: ws-1961-04-29-xinyang-cadres-disposal, quote: 使全县饿死9792人，逼死1742人 }
     - { measure: deaths, what: 饿打而死, scope: 潢川县一个大队, value: 517, voice: doc, cite: ws-1962-huangchuan-zhang-zuohe, quote: 饿打而死的群众517人 }
     - { measure: none, what: 潢川县委的布置, scope: 潢川县, voice: doc, cite: ws-1962-huangchuan-zhang-zuohe, quote: 死人数字不经县委同意，不向他（指省委来的同志）汇报 }
     - { measure: reported, what: 铁佛寺水库溃坝 · 上报, scope: 1960-05-17 商城, value: 1090, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 实死一千一百四十多人，张念仲为逃避罪责只上报一千零九十人 }
     - { measure: deaths, what: 铁佛寺水库溃坝 · 估计, scope: 1960-05-17 商城, value: 2000, approx: 多, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 估计死亡两千多人 }
-  caveats: 全区的最终统计（1961 年以后）本库尚未找到一手文本。1960 年报告把死亡归因于“浮肿病、紫疳病和其他疫病”，并“包括正常死亡在内”；1961 年的县级报告归因于“反瞒产”与断粮，两者不是同一口径。
+  caveats: 全区的最终统计（1961 年以后）本库尚未找到一手文本。1960 年报告把死亡归因于“浮肿病、紫疳病和其他疫病”，并“包括正常死亡在内”；1961 年的县级报告归因于“反瞒产”与断粮，两者不是同一口径。1960 年 12 月的地委报告把死亡归于敌人“打着我们的招牌”进行“阶级报复”，那是当时上级给出的定性；报告里的揭发数是“初步”数字。
 
 - id: jiabiangou
   title: 甘肃夹边沟劳教农场
