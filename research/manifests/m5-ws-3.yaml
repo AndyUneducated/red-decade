@@ -1,0 +1,178 @@
+# M5-1 中文原文（维基文库）第 3 批：朝鲜战争与停战、台海、中印、西藏、外交报告、调整时期条例、特赦、文字改革、林彪《人民战争胜利万岁》、吴晗《论海瑞》。
+# 日期按页面 header 的年月日与正文题注核对。繁体页面照原样保存与引用。
+# 三份 1958 年《告台湾同胞书》以国防部（部长彭德怀）名义发表，维基文库 header 的作者栏为毛泽东。
+wikisource:
+  - id: ws-1953-07-27-armistice
+    title: 朝鮮人民軍最高司令官及中國人民志願軍司令員一方與聯合國軍總司令另一方關於朝鮮軍事停戰的協定
+    date: 1953-07-27
+    author: 朝鲜人民军最高司令官、中国人民志愿军司令员、联合国军总司令
+    kind: party-doc
+    alias: 朝鲜停战协定（1953）
+  - id: ws-1953-09-12-peng-cpv-report
+    title: 關於中國人民志願軍抗美援朝工作報告
+    date: 1953-09-12
+    author: 彭德怀
+    kind: speech
+    alias: 彭德怀关于中国人民志愿军抗美援朝工作报告（1953）
+  - id: ws-1958-10-30-cpv-eight-years
+    title: 中国人民志愿军八年来抗美援朝工作报告
+    date: 1958-10-30
+    author: 杨勇
+    kind: speech
+    alias: 中国人民志愿军八年来抗美援朝工作报告（杨勇，1958）
+  - id: ws-1958-02-19-prc-dprk-statement
+    title: 中华人民共和国政府和朝鮮民主主义人民共和国政府联合声明 (1958年2月19日)
+    date: 1958-02-19
+    author: 中朝两国政府
+    kind: party-doc
+    alias: 中朝联合声明（志愿军撤出朝鲜，1958）
+  - id: ws-1954-08-11-zhou-foreign-report
+    title: 在中央人民政府委員會第三十三次會議上周恩來總理兼外長的外交報告
+    date: 1954-08-11
+    author: 周恩来
+    kind: speech
+    alias: 周恩来在中央人民政府委员会第三十三次会议上的外交报告（日内瓦会议，1954）
+  - id: ws-1958-10-06-taiwan-1
+    title: 中华人民共和国国防部告台湾同胞书
+    date: 1958-10-06
+    author: 国防部（毛泽东起草）
+    kind: party-doc
+    alias: 国防部告台湾同胞书（1958 年 10 月 6 日）
+  - id: ws-1958-10-25-taiwan-2
+    title: 中华人民共和国国防部部長彭德怀再告台灣同胞書
+    date: 1958-10-25
+    author: 国防部部长彭德怀（毛泽东起草）
+    kind: party-doc
+    alias: 国防部长彭德怀再告台湾同胞书（1958 年 10 月 25 日）
+  - id: ws-1958-11-taiwan-3
+    title: 中华人民共和国国防部三告台湾同胞书
+    date: 1958-11
+    author: 国防部（毛泽东起草）
+    kind: party-doc
+    alias: 国防部三告台湾同胞书（1958 年 11 月）
+  - id: ws-1959-03-28-tibet-dissolve
+    title: 国务院关于解散西藏地方政府由西藏自治区筹备委员会行使西藏地方政府职权的命令
+    date: 1959-03-28
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于解散西藏地方政府的命令（1959）
+  - id: ws-1959-04-28-npc-tibet
+    title: 中华人民共和国第二届全国人民代表大会第一次会议关于西藏问题的决议
+    date: 1959-04-28
+    author: 第二届全国人民代表大会第一次会议
+    kind: party-doc
+    alias: 二届人大一次会议关于西藏问题的决议（1959）
+  - id: ws-1959-05-06-tibet-nehru
+    title: 西藏的革命和尼赫鲁的哲学
+    date: 1959-05-06
+    author: 人民日报编辑部
+    kind: editorial
+    alias: 西藏的革命和尼赫鲁的哲学（1959）
+  - id: ws-1959-09-08-zhou-nehru
+    title: 国务院总理周恩来关于中印边界問題复印度共和国总理尼赫魯的信
+    date: 1959-09-08
+    author: 周恩来
+    kind: party-doc
+    alias: 周恩来关于中印边界问题复尼赫鲁的信（1959）
+  - id: ws-1961-12-06-mfa-india
+    title: 中华人民共和国外交部声明 (1961年12月6日)
+    date: 1961-12-06
+    author: 外交部
+    kind: party-doc
+    alias: 外交部关于中印边界问题的声明（1961）
+  - id: ws-1962-10-27-nehru-philosophy
+    title: 从中印边界问题再论尼赫鲁的哲学
+    date: 1962-10-27
+    author: 人民日报编辑部
+    kind: editorial
+    alias: 从中印边界问题再论尼赫鲁的哲学（1962）
+  - id: ws-1957-11-16-moscow-declaration
+    title: 莫斯科宣言
+    date: 1957-11-16
+    author: 社会主义国家共产党和工人党代表会议
+    kind: party-doc
+    alias: 社会主义国家共产党和工人党代表会议宣言（莫斯科宣言，1957）
+  - id: ws-1965-09-03-people-war
+    title: 人民战争胜利万岁
+    date: 1965-09-03
+    author: 林彪
+    kind: editorial
+    alias: 林彪《人民战争胜利万岁》（1965）
+  - id: ws-1955-07-30-first-plan-resolution
+    title: 中华人民共和国第一届全国人民代表大会第二次会议关于发展国民经济的第一个五年计划的决议
+    date: 1955-07-30
+    author: 第一届全国人民代表大会第二次会议
+    kind: party-doc
+    alias: 一届人大二次会议关于第一个五年计划的决议（1955）
+  - id: ws-1955-11-07-urban-rural
+    title: 国务院关于城乡划分标准的规定
+    date: 1955-11-07
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于城乡划分标准的规定（1955）
+  - id: ws-1952-08-06-employment
+    title: 中央人民政府政务院关于劳动就业问题的决定
+    date: 1952-08-06
+    author: 政务院
+    kind: party-doc
+    alias: 政务院关于劳动就业问题的决定（1952）
+  - id: ws-1951-05-22-labor-reform
+    title: 中共中央批发第三次全国公安会议《关于组织全国犯人劳动改造问题的决议》的通知
+    date: 1951-05-22
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央批发第三次全国公安会议关于组织犯人劳动改造问题的决议（1951）
+  - id: ws-1956-01-27-script-reform
+    title: 中共中央关于文字改革工作问题的指示
+    date: 1956-01-27
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于文字改革工作问题的指示（1956）
+  - id: ws-1958-02-03-wu-yuzhang-script-report
+    title: 关于当前文字改革和汉语拼音方案的报告
+    date: 1958-02-03
+    author: 吴玉章
+    kind: speech
+    alias: 吴玉章关于当前文字改革和汉语拼音方案的报告（1958）
+  - id: ws-1959-09-17-amnesty
+    title: 中华人民共和国主席特赦令 (1959年)
+    date: 1959-09-17
+    author: 刘少奇
+    kind: party-doc
+    alias: 中华人民共和国主席特赦令（1959）
+  - id: ws-1959-09-17-wu-han-hai-rui
+    title: 论海瑞
+    date: 1959-09-17
+    author: 吴晗
+    kind: editorial
+    alias: 吴晗《论海瑞》（《人民日报》1959 年 9 月 17 日）
+  - id: ws-1960-03-11-anshan-innovation
+    title: 鞍山市委关于工业战线上的技术革新和技术革命运动开展情况的报告
+    date: 1960-03-11
+    author: 中共鞍山市委
+    kind: party-doc
+    alias: 鞍山市委关于技术革新和技术革命运动的报告（1960）
+  - id: ws-1961-05-03-anhui-responsibility
+    title: 中共中央办公厅转发安徽省委关于试行包工包产责任制情况的报告
+    date: 1961-05-03
+    author: 中共安徽省委
+    kind: party-doc
+    alias: 安徽省委关于试行包工包产责任制情况的报告（中央办公厅转发，1961）
+  - id: ws-1961-06-15-sixty-revised
+    title: 农村人民公社工作条例（修正草案）
+    date: 1961-06-15
+    author: 中共中央
+    kind: party-doc
+    alias: 农村人民公社工作条例（修正草案，1961 年 6 月）
+  - id: ws-1961-industry-seventy
+    title: 国营工业企业工作条例（草案）
+    date: 1961
+    author: 中共中央
+    kind: party-doc
+    alias: 国营工业企业工作条例（草案）（1961）
+  - id: ws-1952-05-07-gao-gang-emulation
+    title: 开展爱国生产竞赛，为完成国家工业生产计划与增产节约八百万吨粮食的财富而奋斗
+    date: 1952-05-07
+    author: 高岗
+    kind: speech
+    alias: 高岗《开展爱国生产竞赛，为完成国家工业生产计划与增产节约八百万吨粮食的财富而奋斗》（1952）

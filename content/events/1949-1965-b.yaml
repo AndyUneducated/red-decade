@@ -1,0 +1,272 @@
+# 1949–1965 second batch (M5-2/M5-3): from the wikisource texts in research/manifests/m5-ws-3.yaml.
+# Traditional-character sources are quoted as printed.
+
+- id: 1951-05-22-labor-reform
+  date: 1951-05-22
+  title: 中共中央批发第三次全国公安会议关于犯人劳动改造的决议
+  lane: mass
+  weight: 2
+  summary: 1951 年 5 月 22 日，中共中央批发第三次全国公安会议《关于组织全国犯人劳动改造问题的决议》，要求按“惩办与改造相结合”的原则，“不让判处徒刑的犯人坐吃闲饭”，有劳动条件的犯人“一律强迫其参加”劳动，由县、专署、省市、大行政区和中央五级分工负责。
+  voices:
+    - { voice: doc, text: 为了改造这些犯人，为了解决监狱的困难，为了不让判处徒刑的犯人坐吃闲饭，必须根据惩办与改造相结合的原则，并适应全国各项建设的需要，立即着手制定通盘计划，组织劳动改造工作（第三次全国公安会议决议）, cite: ws-1951-05-22-labor-reform, quote: true }
+    - { voice: doc, text: 凡有劳动条件的犯人，应一律强迫其参加（同上）, cite: ws-1951-05-22-labor-reform, quote: true }
+  cites: [ws-1951-05-22-labor-reform]
+
+- id: 1951-07-10-armistice-talks
+  date: 1951-07-10
+  title: 朝鲜停战谈判开始
+  lane: intl
+  weight: 1
+  summary: 按彭德怀 1953 年的报告，1951 年 7 月 10 日朝中方面与联合国军方面开始停战谈判。到 1952 年 5 月，双方已就军事分界线、停火安排等达成协议，“剩下的只是一个战俘问题”，谈判前后历时两年。
+  people: [peng-dehuai]
+  voices:
+    - { voice: official1966, text: 並於一九五一年七月十日與聯合國軍方面開始舉行朝鮮停戰談判（彭德怀报告，1953）, cite: ws-1953-09-12-peng-cpv-report, quote: true }
+    - { voice: official1966, text: 到一九五二年五月，雙方已對建立軍事分界線、停火與停戰的具體安排和向雙方有關各國政府建議事項等問題取得了協議，剩下的只是一個戰俘問題（同上）, cite: ws-1953-09-12-peng-cpv-report, quote: true }
+  cites: [ws-1953-09-12-peng-cpv-report]
+
+- id: 1952-05-07-northeast-emulation
+  date: 1952-05-07
+  title: 高岗部署东北增产节约：“八百万吨粮食的财富”
+  lane: econ
+  weight: 1
+  place: 沈阳
+  summary: 1952 年 5 月 7 日，高岗在东北爱国增产节约运动动员大会上作报告，号召在国家计划之外为国家增产节约“价值八百万吨粮食的财富”，以巩固“三反”“五反”的成果、支援志愿军。报告称八百万吨粮食将近东北农民上一年粮食总产量的一半。
+  people: [gao-gang]
+  voices:
+    - { voice: official1966, text: 我们的总目标，就是完成国家计划，并为增产节约价值八百万吨粮食的财富而奋斗（高岗报告）, cite: ws-1952-05-07-gao-gang-emulation, quote: true }
+    - { voice: official1966, text: 八百万吨粮食，将近东北全体农民去年粮食总产量的一半（同上）, cite: ws-1952-05-07-gao-gang-emulation, quote: true }
+  cites: [ws-1952-05-07-gao-gang-emulation]
+
+- id: 1952-08-06-employment
+  date: 1952-08-06
+  title: 政务院关于劳动就业问题的决定
+  lane: econ
+  weight: 1
+  summary: 1952 年 8 月 6 日，政务院发布关于劳动就业问题的决定，称旧政权遗留的失业工人和失业知识分子绝大部分已重新就业，截至 1951 年 12 月失业工人重新就业者一百二十余万人，其中国营工矿企业新吸收职工约六十万人。
+  voices:
+    - { voice: doc, text: 截至一九五一年十二月为止，失业工人重新就业者已达一百二十余万人，其中国营工矿企业新吸收的职工约六十万人（政务院决定）, cite: ws-1952-08-06-employment, quote: true }
+  cites: [ws-1952-08-06-employment]
+
+- id: 1953-07-27-armistice
+  date: 1953-07-27
+  title: 朝鲜停战协定签字
+  lane: intl
+  weight: 3
+  summary: 1953 年 7 月 27 日，朝鲜人民军最高司令官、中国人民志愿军司令员与联合国军总司令签署朝鲜军事停战协定，确定军事分界线，双方各后退二公里建立非军事区。9 月 12 日，志愿军司令员彭德怀在关于抗美援朝工作的报告中称战争共进行了三年零三十二天，并说西方侵略者在东方海岸架几尊大炮就可霸占一个国家的时代“一去不复返了”。
+  people: [peng-dehuai]
+  voices:
+    - { voice: doc, text: 一、確定一軍事分界綫，雙方各由此綫後退二公里，以便在敵對軍隊之間建立一非軍事區（停战协定）, cite: ws-1953-07-27-armistice, quote: true }
+    - { voice: official1966, text: 英雄的朝鮮人民為捍衛獨立自由而展開的反侵略戰爭，一共進行了三年零三十二天（彭德怀报告，1953 年 9 月 12 日）, cite: ws-1953-09-12-peng-cpv-report, quote: true }
+    - { voice: official1966, text: 西方侵略者幾百年來只要在東方一個海岸上架起幾尊大炮就可霸占一個國家的時代是一去不覆返了（同上）, cite: ws-1953-09-12-peng-cpv-report, quote: true }
+  cites: [ws-1953-07-27-armistice, ws-1953-09-12-peng-cpv-report]
+
+- id: 1954-geneva-conference
+  date: 1954-04-26
+  end: 1954-07-21
+  title: 日内瓦会议
+  lane: intl
+  weight: 2
+  place: 日内瓦
+  summary: 1954 年 4 月 26 日起，苏、美、法、英、中华人民共和国和其他有关国家代表在日内瓦开会，讨论朝鲜问题和恢复印度支那和平问题，7 月 21 日结束。8 月 11 日周恩来向中央人民政府委员会作外交报告，称“印度支那的和平也恢复了”。
+  people: [zhou-enlai]
+  voices:
+    - { voice: official1966, text: 由蘇聯、美國、法國、英國、中華人民共和國和其他有關國家的代表，從一九五四年四月二十六日起在日內瓦擧行會議，分別討論和平解決朝鮮問題和恢復印度支那和平問題（周恩来外交报告）, cite: ws-1954-08-11-zhou-foreign-report, quote: true }
+    - { voice: official1966, text: 現在，朝鮮的戰爭早已停了，印度支那的和平也恢復了（同上）, cite: ws-1954-08-11-zhou-foreign-report, quote: true }
+  cites: [ws-1954-08-11-zhou-foreign-report]
+
+- id: 1955-07-30-first-plan-adopted
+  date: 1955-07-30
+  title: 一届人大二次会议通过第一个五年计划
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1955 年 7 月 30 日，一届人大二次会议听取李富春的报告，通过发展国民经济的第一个五年计划。决议称计划由中共中央和毛泽东“主持拟定”，是实现过渡时期总任务的“带有决定意义的纲领”，并要求学习苏联的经验。
+  people: [li-fuchun, mao-zedong]
+  voices:
+    - { voice: doc, text: 中国共产党中央委员会和毛泽东主席主持拟定的我国发展国民经济的第一个五年计划，是全国人民为实现过渡时期总任务而奋斗的带有决定意义的纲领（一届人大二次会议决议）, cite: ws-1955-07-30-first-plan-resolution, quote: true }
+  cites: [ws-1955-07-30-first-plan-resolution, ws-1954-09-23-zhou-report]
+
+- id: 1955-11-07-urban-rural
+  date: 1955-11-07
+  title: 国务院规定城乡划分标准
+  lane: econ
+  weight: 1
+  summary: 1955 年 11 月 7 日，国务院发布城乡划分标准，供各部门计划、统计统一使用。常住人口二千人以上、居民半数以上为非农业人口的居民区算作城镇。文件附注引 1953 年人口调查资料，全国有城镇（不含各级市）五千四百个，共三千三百七十三万人。
+  voices:
+    - { voice: doc, text: 乙、常住人口在二千人以上，居民50%以上是非农业人口的居民区（城乡划分标准）, cite: ws-1955-11-07-urban-rural, quote: true }
+    - { voice: doc, text: 根据1953年全国人口调查登记统计资料，全国现有城镇共计五千四百个（各级市未包括在内），这些城镇共有三千三百七十三万人。（同上，附注）, cite: ws-1955-11-07-urban-rural, quote: true }
+  cites: [ws-1955-11-07-urban-rural]
+
+- id: 1956-01-27-script-reform
+  date: 1956-01-27
+  title: 汉字简化方案与推广普通话
+  lane: culture
+  weight: 2
+  summary: 1956 年 1 月 27 日，中共中央发出关于文字改革工作问题的指示，同意汉字简化方案由国务院公布，第一批 230 个简化字自公布之日起推行，其余 285 个简化字和 54 个简化偏旁分批试用；在汉族中推广以北京语音为标准音的普通话。1958 年 2 月 3 日，吴玉章代表中国文字改革委员会向全国人民代表大会报告汉语拼音方案（草案已于 1957 年 11 月 1 日经国务院通过）。
+  voices:
+    - { voice: doc, text: 其中的第一批230个简化汉字自公布的日子起正式推行（中共中央指示）, cite: ws-1956-01-27-script-reform, quote: true }
+    - { voice: doc, text: 在全国汉族人民中大力推广以北京语音为标准音的普通话，是加强我国在政治、经济、国防、文化各方面的统一和发展的重要措施，是一个迫切的政治任务（同上）, cite: ws-1956-01-27-script-reform, quote: true }
+    - { voice: official1966, text: 于一九五七年十一月一日由国务院全体会议第六十次会议通过，现在提请全国人民代表大会讨论和批准（吴玉章报告，1958）, cite: ws-1958-02-03-wu-yuzhang-script-report, quote: true }
+  cites: [ws-1956-01-27-script-reform, ws-1958-02-03-wu-yuzhang-script-report]
+
+- id: 1957-11-16-moscow-declaration
+  date: 1957-11-16
+  title: 莫斯科会议宣言：“主要的危险是修正主义”
+  lane: intl
+  weight: 2
+  place: 莫斯科
+  summary: 1957 年 11 月，社会主义国家共产党和工人党代表会议在莫斯科举行，11 月 16 日发表宣言，要求克服修正主义和教条主义，并称在当时条件下“主要的危险是修正主义，或者说右倾机会主义”。中共 1963 年的总路线建议援引这份宣言和 1960 年声明作为“革命原则”。
+  concepts: [revisionism]
+  voices:
+    - { voice: doc, text: 在反对教条主义的同时，共產党認为，在目前条件下，主要的危險是修正主义，或者說右傾机会主义（莫斯科宣言）, cite: ws-1957-11-16-moscow-declaration, quote: true }
+    - { voice: doc, text: 資產階級影响的存在，是修正主义的國內根源（同上）, cite: ws-1957-11-16-moscow-declaration, quote: true }
+  cites: [ws-1957-11-16-moscow-declaration, ws-1963-06-14-general-line]
+
+- id: 1958-cpv-withdrawal
+  date: 1958-02-19
+  end: 1958-10
+  title: 中国人民志愿军全部撤出朝鲜
+  lane: intl
+  weight: 2
+  summary: 1958 年 2 月 19 日中朝两国政府发表联合声明，中国政府向志愿军提出主动撤出朝鲜的建议，志愿军决定在 1958 年年底以前分批全部撤出，第一批 4 月 30 日前撤完。10 月 30 日，志愿军代表杨勇向全国人大常委会和全国政协常委会报告，志愿军“已经全部返回祖国”。
+  voices:
+    - { voice: doc, text: 中国人民志願軍完全同意中国政府的这一建議，幷且决定在1958年年底以前分批全部撤出朝鮮，第一批將在1958年4月30日以前撤完（中朝联合声明）, cite: ws-1958-02-19-prc-dprk-statement, quote: true }
+    - { voice: official1966, text: 祖国人民所派遣的优秀儿女--中国人民志愿军，在朝鲜坚持八年抗美援朝持久斗争以后，现在已经全部返回祖国了（杨勇报告，1958 年 10 月 30 日）, cite: ws-1958-10-30-cpv-eight-years, quote: true }
+  cites: [ws-1958-02-19-prc-dprk-statement, ws-1958-10-30-cpv-eight-years]
+
+- id: 1958-10-taiwan-messages
+  date: 1958-10-06
+  end: 1958-11
+  title: 炮击金门与三份《告台湾同胞书》
+  lane: army
+  weight: 2
+  place: 福建
+  summary: 1958 年 10 月 6 日，国防部发表《告台湾同胞书》，称“我们都是中国人。三十六计，和为上计”，宣布从当天起福建前线停止炮击七天，条件是没有美国人护航。10 月 25 日《再告台湾同胞书》宣布逢双日不打金门机场、码头、海滩和船只；11 月三告又推广到其他一切军事目标，“打炮一律于单日行之”。三份文告以国防部名义发表，维基文库均署毛泽东为作者。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 为了人道主义，我已命令福建前线，从十月六日起，暂以七天为期，停止炮击，你们可以充分地自由地输送供应品，但以没有美国人护航为条件（告台湾同胞书）, cite: ws-1958-10-06-taiwan-1, quote: true }
+    - { voice: doc, text: 三十六计，和为上计（同上）, cite: ws-1958-10-06-taiwan-1, quote: true }
+    - { voice: doc, text: 我已命令福建前綫，逢双日不打金門的飞机場、料羅灣的碼头、海灘和船只（再告台湾同胞书）, cite: ws-1958-10-25-taiwan-2, quote: true }
+    - { voice: doc, text: 逢双日都不打炮，打炮一律于单日行之（三告台湾同胞书）, cite: ws-1958-11-taiwan-3, quote: true }
+  cites: [ws-1958-10-06-taiwan-1, ws-1958-10-25-taiwan-2, ws-1958-11-taiwan-3]
+
+- id: 1959-03-tibet
+  date: 1959-03-10
+  end: 1959-04-28
+  title: 西藏事件：拉萨武装冲突与解散西藏地方政府
+  lane: local
+  weight: 3
+  place: 拉萨
+  summary: 按中国政府文件，1959 年 3 月 10 日原西藏地方政府和上层集团“举行叛乱”，3 月 19 日夜指挥藏军和武装人员进攻驻拉萨的解放军。3 月 28 日国务院命令解散西藏地方政府，由西藏自治区筹备委员会行使其职权；称达赖喇嘛“被劫持”，由班禅额尔德尼代理筹委会主任，撤销十八名筹委会委员的职务。4 月 28 日二届人大一次会议通过决议，同意国务院的措施。《人民日报》编辑部 5 月 6 日称叛乱后将进行一场“不流血的革命”。本站目前只有中国政府一方的文本。
+  voices:
+    - { voice: doc, text: 并且于三月十九日夜间指挥西藏地方军队和叛乱分子向驻拉萨的人民解放军发动全面进攻（国务院命令）, cite: ws-1959-03-28-tibet-dissolve, quote: true }
+    - { voice: doc, text: 特决定自即日起，解散西藏地方政府，由西藏自治区筹备委员会行使西藏地方政府职权（同上）, cite: ws-1959-03-28-tibet-dissolve, quote: true }
+    - { voice: doc, text: （一）会议完全同意国务院对于原西藏地方政府和上层反动集团在一九五九年三月十日举行叛乱后所采取的各项措施（二届人大一次会议决议）, cite: ws-1959-04-28-npc-tibet, quote: true }
+    - { voice: official1966, text: 在叛乱平定之后接着进行的革命，将是一场和平的革命，就是说，不流血的革命（人民日报编辑部，1959 年 5 月 6 日）, cite: ws-1959-05-06-tibet-nehru, quote: true }
+  cites: [ws-1959-03-28-tibet-dissolve, ws-1959-04-28-npc-tibet, ws-1959-05-06-tibet-nehru, ws-1951-05-23-tibet-agreement]
+
+- id: 1959-09-08-zhou-nehru
+  date: 1959-09-08
+  title: 周恩来复尼赫鲁信：不承认麦克马洪线
+  lane: intl
+  weight: 2
+  summary: 1959 年 9 月 8 日，周恩来就中印边界问题复信尼赫鲁，称两国立场“有着基本的分歧”；所谓麦克马洪线是英国与西藏地方代表 1914 年在德里背着中国中央政府以秘密换文决定的，“从未被中国的任何一个中央政府所承認”。
+  people: [zhou-enlai]
+  voices:
+    - { voice: official1966, text: 所謂的麦克馬洪綫是英国对中国西藏地方执行侵略政策的产物，从未被中国的任何一个中央政府所承認，因此肯定是不合法的（周恩来致尼赫鲁信）, cite: ws-1959-09-08-zhou-nehru, quote: true }
+  cites: [ws-1959-09-08-zhou-nehru]
+
+- id: 1959-09-17-amnesty
+  date: 1959-09-17
+  title: 建国十周年特赦战犯与罪犯
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 1959 年 9 月 17 日，国家主席刘少奇发布特赦令，为庆祝建国十周年和“大跃进和人民公社运动的辉煌成就”，特赦确实改恶从善的蒋介石集团和伪满洲国战争罪犯、反革命罪犯和普通刑事罪犯；关押满十年、确实改恶从善的战争罪犯予以释放。
+  people: [liu-shaoqi]
+  voices:
+    - { voice: doc, text: 为了庆祝伟大的中华人民共和国成立十周年，庆祝中国共产党的社会主义建设总路线的胜利，庆祝大跃进和人民公社运动的辉煌成就（主席特赦令）, cite: ws-1959-09-17-amnesty, quote: true }
+    - { voice: doc, text: 一、蒋介石集团和伪满洲国的战争罪犯，关押已满十年，确实改恶从善的，予以释放（同上）, cite: ws-1959-09-17-amnesty, quote: true }
+  cites: [ws-1959-09-17-amnesty]
+
+- id: 1959-09-17-on-hai-rui
+  date: 1959-09-17
+  title: 吴晗《论海瑞》
+  lane: culture
+  weight: 2
+  summary: 1959 年 9 月 17 日，吴晗发表《论海瑞》，称海瑞是 16 世纪“有名的好官、清官”，是“言行一致的政治家”。
+  people: [wu-han]
+  voices:
+    - { voice: doc, text: 海瑞（1514—1587，明武宗正德九年至神宗万历十五年）是我国16世纪有名的好官、清官，是深深得到广大人民爱戴的言行一致的政治家（吴晗《论海瑞》）, cite: ws-1959-09-17-wu-han-hai-rui, quote: true }
+  cites: [ws-1959-09-17-wu-han-hai-rui]
+
+- id: 1960-03-11-anshan
+  date: 1960-03-11
+  title: 鞍山市委关于技术革新和技术革命运动的报告
+  lane: econ
+  weight: 1
+  place: 鞍山
+  summary: 1960 年 3 月 11 日，中共鞍山市委向中央报告工业战线的技术革新和技术革命运动，称运动已形成“波澜壮阔的群众运动”，并把它归功于两年“连续大跃进”和总路线精神“深入人心”。
+  voices:
+    - { voice: doc, text: 在中央和省委的正确领导下，鞍山地区的技术革新和技术革命，已经形成波澜壮阔的群众运动，并已进入一个新的阶段（鞍山市委报告）, cite: ws-1960-03-11-anshan-innovation, quote: true }
+  cites: [ws-1960-03-11-anshan-innovation]
+
+- id: 1961-03-anhui-responsibility
+  date: 1961-03-06
+  end: 1961-05-03
+  title: 安徽试行“包工包产责任制”
+  lane: econ
+  weight: 2
+  place: 安徽
+  summary: 按安徽省委的报告，安徽从 1961 年 3 月 6 日开始试行包工包产责任制，3 月 20 日接到“希圣同志”从广州打来的电话后即停止。报告说试行地方社员“生产积极性大大提高”，但有少数群众把它“误解为包产到户，甚至误解为分田”。5 月 3 日，这份报告根据中央书记处的指示转发各地。
+  voices:
+    - { voice: doc, text: 我省试行包工包产责任制的办法是从三月六日开始的，到三月二十日接到希圣同志由广州发来的电话后即行停止（安徽省委报告）, cite: ws-1961-05-03-anhui-responsibility, quote: true }
+    - { voice: doc, text: 在试行这个办法的地方，社员的生产责任心大大加强，生产积极性大大提高（同上）, cite: ws-1961-05-03-anhui-responsibility, quote: true }
+    - { voice: doc, text: 但是，在试行中，有些地方由于宣传工作做得不深不透，以致有少数群众把这个办法误解为“包产到户”，甚至误解为“分田”（同上）, cite: ws-1961-05-03-anhui-responsibility, quote: true }
+  cites: [ws-1961-05-03-anhui-responsibility]
+
+- id: 1961-06-15-sixty-revised
+  date: 1961-06-15
+  title: 农村人民公社工作条例修正草案（1961 年 6 月）：食堂由社员决定
+  lane: econ
+  weight: 2
+  summary: 1961 年 6 月 15 日的《农村人民公社工作条例（修正草案）》规定公社分公社、生产大队、生产队三级，以生产大队为基本核算单位；生产队办不办食堂“完全由社员讨论决定”，办食堂的实行“自愿参加”和“自由退出”。1962 年 9 月的再修正草案把基本核算单位下放到生产队。
+  voices:
+    - { voice: doc, text: 三十六、在生产队办不办食堂，完全由社员讨论决定（1961 年修正草案）, cite: ws-1961-06-15-sixty-revised, quote: true }
+    - { voice: doc, text: 凡是要办食堂的，都办社员的合伙食堂，实行自愿参加、自由结合、自己管理、自负开销和自由退出的原则（同上）, cite: ws-1961-06-15-sixty-revised, quote: true }
+    - { voice: doc, text: 生产大队是基本核算单位（同上）, cite: ws-1961-06-15-sixty-revised, quote: true }
+  cites: [ws-1961-06-15-sixty-revised, ws-1962-09-27-sixty-articles]
+
+- id: 1961-industry-seventy
+  date: 1961
+  title: 《国营工业企业工作条例（草案）》（“工业七十条”）
+  lane: econ
+  weight: 1
+  summary: 1961 年中共中央制定《国营工业企业工作条例（草案）》，规定国营工业企业实行“党委领导下的行政管理上的厂长负责制”，作为企业管理的根本制度。
+  voices:
+    - { voice: doc, text: 在国营工业企业中，实行党委领导下的行政管理上的厂长负责制，这是我国企业管理的根本制度（工业七十条草案）, cite: ws-1961-industry-seventy, quote: true }
+  cites: [ws-1961-industry-seventy]
+
+- id: 1962-10-20-sino-indian-war
+  date: 1962-10-20
+  title: 中印边界战争
+  lane: intl
+  weight: 3
+  summary: 1962 年 10 月 20 日，中印边界东段和西段爆发大规模武装冲突。《人民日报》编辑部 10 月 27 日的文章称是印度军队在这一天“发动了大规模的全面进攻”，并称印度把东北边界推到中国不承认的麦克马洪线附近，“侵占了属于中国的九万多平方公里的领土”。本站目前只有中方文本，印方说法待补。
+  voices:
+    - { voice: official1966, text: 在他们的进攻部署完成之后，印度军队终于在1962年10月20日发动了大规模的全面进攻（人民日报编辑部，1962 年 10 月 27 日）, cite: ws-1962-10-27-nehru-philosophy, quote: true }
+    - { voice: official1966, text: 把印度的东北边界强力推移到中国从来不承认的所谓麦克马洪线附近，侵占了属于中国的九万多平方公里的领土（同上）, cite: ws-1962-10-27-nehru-philosophy, quote: true }
+  cites: [ws-1962-10-27-nehru-philosophy, ws-1959-09-08-zhou-nehru, ws-1961-12-06-mfa-india]
+
+- id: 1965-09-03-people-war
+  date: 1965-09-03
+  title: 林彪《人民战争胜利万岁》
+  lane: army
+  weight: 2
+  summary: 1965 年 9 月 3 日，抗日战争胜利二十周年之际，林彪发表《人民战争胜利万岁》，把抗战胜利归于毛泽东的人民战争理论，把“以农村包围城市，最后夺取城市”说成中国革命的胜利道路，并称掌握人民战争这个武器对付美帝国主义已成为许多国家人民的“迫切需要”。
+  people: [lin-biao, mao-zedong]
+  concepts: [mao-thought]
+  voices:
+    - { voice: official1966, text: 依靠农民，建立农村根据地，以农村包围城市，最后夺取城市，这是中国革命所走过的胜利的道路（林彪文章）, cite: ws-1965-09-03-people-war, quote: true }
+    - { voice: official1966, text: 掌握和运用人民战争这个武器来对付美帝国主义及其走狗，已经成为许多国家人民的迫切需要（同上）, cite: ws-1965-09-03-people-war, quote: true }
+  cites: [ws-1965-09-03-people-war]
