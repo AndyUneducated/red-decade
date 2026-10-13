@@ -586,13 +586,20 @@ export type Atlas = {
   places: Place[]
   events: Event[]
   relations: Relation[]
-  concepts: (Concept & { hits: ConceptHit[] })[]
+  // near: people named close to the concept's terms, per period (insight A)
+  concepts: (Concept & { hits: ConceptHit[]; near: { period: string; people: { id: string; n: number }[] }[] })[]
   // carriers resolved: `person` is set when the name is in people.yaml
   isms: (Omit<Ism, 'carriers'> & { carriers: { name: string; person?: string }[]; hits: ConceptHit[] })[]
   line: LinePoint[]
   // characters of dated text per year, the denominator for term frequencies
   corpus: { year: number; chars: number; docs: number }[]
   press: Press
+  // whom official texts invoke, year by year (insight B); same shape as press, over the official texts 1949–1989
+  authorities: Press
+  // phrases counted in each self-criticism text (insight E)
+  selfcrit: { texts: { id: string; chars: number }[]; phrases: { id: string; name: string; hits: ConceptHit[] }[] }
+  // a text names an earlier document in 《》 n times (insight F)
+  citations: { from: string; to: string; n: number }[]
   documents: (DocumentMeta & { source: Source })[]
   sources: Source[]
   claims: Claim[]

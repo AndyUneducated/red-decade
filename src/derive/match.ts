@@ -31,6 +31,23 @@ export function positionMatcher(orgs: Org[]) {
   }
 }
 
+// The people a text names, in order of first mention. Same longest-at-position rule as orgMentioner, so
+// 林立果 does not also count for a shorter name it starts with.
+export function personMentioner(people: Person[]) {
+  const byFirst = new Map<string, { name: string; id: string }[]>()
+  for (const p of people) if (p.name.length >= 2) byFirst.set(p.name[0], [...(byFirst.get(p.name[0]) ?? []), { name: p.name, id: p.id }])
+  for (const list of byFirst.values()) list.sort((a, b) => b.name.length - a.name.length)
+  return (text: string): string[] => {
+    const hit = new Set<string>()
+    for (let i = 0; i < text.length; ) {
+      const m = byFirst.get(text[i])?.find((n) => text.startsWith(n.name, i))
+      if (m) hit.add(m.id)
+      i += m ? m.name.length : 1
+    }
+    return [...hit]
+  }
+}
+
 // The orgs a text mentions by name, short name or alias. Each position in the text credits only the
 // longest name starting there, so 中共中央文革小组 does not also count for 中共中央. Two-character names
 // are accepted only for mass organisations (西纠、联动).

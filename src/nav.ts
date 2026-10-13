@@ -15,7 +15,11 @@ const NAV_CONFIG: { label: string; pages: Entry[] }[] = [
   { label: '派系', pages: ['river', 'control', 'factions'] },
   { label: '空间', pages: ['map'] },
   { label: '思想', pages: ['lineage', 'spectrum', 'ism-stream', 'press', 'concepts'] },
-  { label: '洞察', pages: ['survival', 'overlap', 'parallel', 'moments', 'flows', 'paralysis', 'outcomes'] },
+  // ideas, then people, then factions, orgs and the economy
+  {
+    label: '洞察',
+    pages: ['drift', 'authority', 'spread', 'attribution', 'selfcrit', 'citations', 'survival', 'overlap', 'parallel', 'moments', 'flows', 'paralysis', 'outcomes'],
+  },
   { label: '史料', pages: ['docs', 'figures', 'series', 'narratives', 'research'] },
 ]
 

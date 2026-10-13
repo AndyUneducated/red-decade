@@ -38,6 +38,63 @@ export function termHits(texts: CorpusText[], terms: string[], except: string[] 
   return hits
 }
 
+// A set of tracked terms counted year by year: hits sorted so the first is the earliest, and per-year counts.
+// The year totals of the same texts are the denominator for rates.
+export function tally<D extends { terms: string[]; except: string[] }>(texts: CorpusText[], defs: D[]) {
+  return {
+    years: yearTotals(texts),
+    terms: defs.map(({ except, ...d }) => {
+      const hits = termHits(texts, d.terms, except).sort((a, b) => firstKey(a.date).localeCompare(firstKey(b.date)))
+      const counts = [...groupBy(hits, (h) => Number(h.date.slice(0, 4)))].map(([year, hs]) => ({ year, n: hs.reduce((n, h) => n + h.count, 0) }))
+      return { ...d, counts, first: hits[0], total: hits.reduce((n, h) => n + h.count, 0) }
+    }),
+  }
+}
+
+// How often each name occurs within `radius` characters of a term: every term occurrence opens a passage,
+// overlapping passages are merged, and a name counts once per passage. Longer names are matched first and
+// masked, so 刘少奇 is not also counted as 少奇.
+export function namesNear(texts: CorpusText[], terms: string[], names: { id: string; names: string[] }[], radius = 60): Map<string, number> {
+  const byLength = names.flatMap((n) => n.names.map((name) => ({ id: n.id, name }))).sort((a, b) => b.name.length - a.name.length)
+  const out = new Map<string, number>()
+  for (const t of texts) {
+    const spans: [number, number][] = []
+    for (const term of terms)
+      for (let i = t.body.indexOf(term); i >= 0; i = t.body.indexOf(term, i + term.length)) spans.push([Math.max(0, i - radius), i + term.length + radius])
+    spans.sort((a, b) => a[0] - b[0])
+    const merged: [number, number][] = []
+    for (const s of spans) {
+      const last = merged.at(-1)
+      if (last && s[0] <= last[1]) last[1] = Math.max(last[1], s[1])
+      else merged.push([...s])
+    }
+    for (const [a, b] of merged) {
+      let passage = t.body.slice(a, b)
+      const seen = new Set<string>()
+      for (const { id, name } of byLength) {
+        if (!passage.includes(name)) continue
+        passage = passage.replaceAll(name, '□'.repeat(name.length))
+        seen.add(id)
+      }
+      for (const id of seen) out.set(id, (out.get(id) ?? 0) + 1)
+    }
+  }
+  return out
+}
+
+// Texts that name another document in book-title marks (《二月提纲》). Only documents dated no later than the
+// citing text count, so a later reprint with the same title is not taken for a citation.
+export function titleMentions(texts: CorpusText[], docs: { id: string; date: string; names: string[] }[]): { from: string; to: string; n: number }[] {
+  const out: { from: string; to: string; n: number }[] = []
+  for (const t of texts)
+    for (const d of docs) {
+      if (d.id === t.id || firstKey(d.date) > firstKey(t.date)) continue
+      const n = d.names.reduce((k, name) => k + t.body.split(`《${name}》`).length - 1, 0)
+      if (n) out.push({ from: t.id, to: d.id, n })
+    }
+  return out
+}
+
 // documents and characters per year
 export const yearTotals = (texts: CorpusText[]) =>
   [...groupBy(texts, (t) => Number(t.date.slice(0, 4)))].map(([year, ts]) => ({ year, docs: ts.length, chars: ts.reduce((n, t) => n + t.body.length, 0) }))

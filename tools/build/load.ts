@@ -1,5 +1,6 @@
 // Stage 1: read every YAML file and source text and validate each record against its schema.
 import { readdirSync, readFileSync } from 'node:fs'
+import { z } from 'zod'
 import {
   ClaimSchema,
   ConceptSchema,
@@ -103,9 +104,21 @@ function loadCounties() {
   return counties
 }
 
+function loadInsightTerms() {
+  const f = (read('content', 'insight-terms.yaml') ?? {}) as { authorities?: unknown; selfcrit?: { texts?: unknown; phrases?: unknown } }
+  return {
+    authorities: load(PressTermSchema, f.authorities, 'insight-terms authorities'),
+    selfcrit: {
+      texts: load(z.string(), f.selfcrit?.texts, 'insight-terms selfcrit.texts'),
+      phrases: load(PressTermSchema, f.selfcrit?.phrases, 'insight-terms selfcrit.phrases'),
+    },
+  }
+}
+
 export function loadAll() {
   const one = <T extends Parameters<typeof load>[0]>(schema: T, file: string, dir = 'content') => load(schema, read(dir, `${file}.yaml`), file)
   return {
+    ...loadInsightTerms(),
     ...loadSources(),
     people: loadPeople(),
     factions: one(FactionSchema, 'factions'),

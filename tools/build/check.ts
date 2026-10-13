@@ -166,6 +166,7 @@ export function check(d: Data) {
     c.factions.forEach((id) => need(ids.faction, id, `claim ${c.id}`))
     c.evidence.forEach((e) => needCite(e.cite, `claim ${c.id}`))
   }
+  for (const id of d.selfcrit.texts) if (!d.texts.has(id)) errors.push(`insight-terms selfcrit: ${id} has no text`)
   for (const f of d.figures) {
     f.people.forEach((id) => need(ids.person, id, `figure ${f.id}`))
     f.events.forEach((id) => need(ids.event, id, `figure ${f.id}`))

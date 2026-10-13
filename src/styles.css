@@ -408,6 +408,8 @@ kbd {
   border: 1px solid var(--rule-2);
   border-radius: 8px;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+  max-height: calc(100vh - 70px);
+  overflow-y: auto;
 }
 .tabs .navmenu button {
   display: block;
@@ -3381,4 +3383,95 @@ h2.sec {
 }
 .flow td button[aria-pressed='true'] {
   box-shadow: inset 0 0 0 2px var(--ink);
+}
+.drift {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+  max-width: 1200px;
+}
+.drift-col h3 {
+  font-size: 13px;
+  margin: 0 0 6px;
+}
+.drift-col ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.drift-col li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 0;
+}
+.drift-col .bar {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--accent);
+  opacity: 0.6;
+}
+.drift-col small {
+  color: var(--muted);
+  font-size: 11px;
+}
+.heat {
+  border-collapse: collapse;
+  font-size: 11.5px;
+}
+.heat th {
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  padding: 2px 8px 2px 0;
+}
+.heat th.yr {
+  font-weight: 400;
+  color: var(--muted);
+  writing-mode: vertical-rl;
+  padding: 0 0 4px;
+  height: 34px;
+  vertical-align: bottom;
+}
+.heat td {
+  width: 18px;
+  min-width: 18px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid var(--paper);
+}
+.attribution th {
+  width: 88px;
+  vertical-align: top;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.attribution .only .chip {
+  box-shadow: 0 0 0 1.5px var(--accent);
+}
+.selfcrit th.doc {
+  min-width: 110px;
+  max-width: 150px;
+  padding: 0 6px 6px;
+  vertical-align: bottom;
+  white-space: normal;
+  font-weight: 400;
+}
+.selfcrit th.doc small {
+  display: block;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+.selfcrit td {
+  height: 24px;
+  text-align: center;
+}
+.selfcrit td button {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
 }
