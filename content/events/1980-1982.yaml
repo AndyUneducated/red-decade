@@ -305,6 +305,7 @@
   cites: [ccrd-1987-gx-guanyang-31]
 
 - id: 1982-03-31-religion-document
+  topics: [ethnic-religion]
   date: 1982-03-31
   title: 中央 19 号文件：宗教问题的基本观点和基本政策
   lane: ideology
@@ -328,6 +329,7 @@
   cites: [ws-1980-08-26-guangdong-sez]
 
 - id: 1982-08-17-us-communique
+  topics: [hk-macau-taiwan]
   date: 1982-08-17
   title: 中美“八一七公报”：美国售台武器“逐步减少”
   lane: intl

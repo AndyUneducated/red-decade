@@ -1,0 +1,199 @@
+# M9 个人视角补链：这些人物已有传记，但此前没有任何事件或关系把他们连进全站。每条事件取自其传记已引用的原文。
+
+- id: 1958-01-31-npc-rightists-removal
+  date: 1958-01-31
+  title: 人大常委会建议：章乃器、章伯钧、罗隆基、龙云、黄绍竑等 38 名右派不再出席人大
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 1957 年 7 月一届人大四次会议把撤销右派分子代表资格和其他职务的问题交常委会处理。1958 年 1 月 31 日常委会向五次会议提出：钱端升、冯雪峰、曾昭抡等 16 人已由原选举单位撤销代表资格；章乃器、章伯钧、罗隆基、费孝通、储安平、丁玲、龙云、黄绍竑等 38 人“已经丧失继续执行全国人民代表大会代表职务的合法根据”，不应出席五次会议；并建议罢免黄绍竑、龙云、陈铭枢的人大常委会委员职务和龙云的国防委员会副主席职务。
+  people: [zhang-naiqi, zhang-bojun, luo-longji, fei-xiaotong, chu-anping, long-yun, huang-shaohong]
+  voices:
+    - { voice: doc, text: 认为他们已经丧失继续执行全国人民代表大会代表职务的合法根据，不应当出席第一届全国人民代表大会第五次会议（人大常委会建议）, cite: ws-1958-npc-rightists-removal, quote: true }
+    - { voice: doc, text: 常务委员会决定建议大会罢免黄绍竑、龙云、陈铭枢全国人民代表大会常务委员会委员的职务（同上）, cite: ws-1958-npc-rightists-removal, quote: true }
+    - { voice: doc, text: 罢免龙云国防委员会副主席的职务（同上）, cite: ws-1958-npc-rightists-removal, quote: true }
+  cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
+
+- id: 1958-liuzhuang-satellite-field
+  date: 1958
+  title: 刘庄只种 3 亩“卫星田”：史来贺不放“亩产 7.5 万公斤”
+  lane: local
+  weight: 1
+  place: 河南新乡刘庄
+  summary: 大跃进中公社派人坐镇各村放小麦高产“卫星”，要求挖地三尺、每亩上粪 100 车、下种 150 公斤，实现亩产 7.5 万公斤。刘庄党支部书记史来贺只同意拿 3 亩地试验，其余照原计划种植；3 亩“卫星田”亩产只有 130 公斤。此前 1956 年他拒任乡高级社社长，坚持以村为单位办社。材料出自 2003 年《人民日报》的纪念通讯。
+  people: [shi-laihe]
+  voices:
+    - { voice: officialLater, text: 史来贺勉强同意搞3亩地进行试验，其他仍按原计划种植（2003 年《人民日报》通讯）, cite: rmrb-2003-09-15-shi-laihe, quote: true }
+    - { voice: officialLater, text: 3亩“卫星田”平均亩产仅130公斤，连种子都没打够（同上）, cite: rmrb-2003-09-15-shi-laihe, quote: true }
+  cites: [rmrb-2003-09-15-shi-laihe]
+
+- id: 1964-economics-institute-four-cleanups
+  date: 1964
+  title: 经济研究所“四清”批孙冶方，顾准再戴右派帽子
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 中国科学院经济研究所的“四清”运动把矛头指向所长孙冶方的“价值规律论”。1962 年经孙冶方力争回所的研究员顾准也被牵连，第二次被戴上右派帽子。顾准 1957 年任中苏黑龙江流域联合考察组中方副组长时，“因维护中方利益”已被划过一次右派。
+  people: [gu-zhun, sun-yefang]
+  voices:
+    - { voice: scholar, text: 1964年经济研究所开展“四清”运动，矛头直指孙冶方的“价值规律论”，顾准未能幸免，被再次戴上“右派”帽子（中国社科院经济所介绍）, cite: cass-ie-gu-zhun, quote: true }
+  cites: [cass-ie-gu-zhun]
+
+- id: 1966-09-02-fu-lei-note
+  date: 1966-09-02
+  title: 傅雷、朱梅馥写下遗书后自尽
+  lane: culture
+  weight: 2
+  place: 上海
+  summary: 翻译家傅雷家 1966 年 8 月底被红卫兵连日抄家、批斗，抄出的“反党罪证”是一面小镜子和一张褪色的旧画报。9 月 2 日夜，他和妻子朱梅馥给朱梅馥的哥哥朱人秀写下遗书，否认罪证是自己的东西，然后逐条交代房租、别人寄存的手表和存单、给保姆的生活费和自己的火葬费，随后两人自尽。1979 年平反。
+  people: [fu-lei, zhu-meifu]
+  voices:
+    - { voice: witness, text: 我们纵有千万罪行，却从来不曾有过变天思想（傅雷、朱梅馥遗书）, cite: fu-lei-1966-09-02-note, quote: true }
+    - { voice: witness, text: 只是含冤不白，无法洗刷的日子比坐牢还要难过（同上）, cite: fu-lei-1966-09-02-note, quote: true }
+    - { voice: witness, text: 现钞53.30元，作为我们火葬费（同上）, cite: fu-lei-1966-09-02-note, quote: true }
+  cites: [fu-lei-1966-09-02-note]
+
+- id: 1968-01-05-jiangxi-revcom
+  date: 1968-01-05
+  title: 江西省革命委员会成立，程世清任主任
+  lane: local
+  weight: 1
+  place: 南昌
+  summary: 南昌举行大会庆祝江西省革委会成立。主任程世清是 1967 年率第二十六军到江西“支左”、8 月被任命为江西省军区政委的军队干部；副主任杨栋梁、黄先、于厚德、万里浪。程世清的讲话要把江西“办成红彤彤的毛泽东思想大学校”。九一三事件后他因与林彪的关系被撤职审查。
+  people: [cheng-shiqing]
+  voices:
+    - { voice: official1966, text: 江西省革命委员会主任程世清，副主任杨栋梁、黄先、于厚德、万里浪（1968 年新华社报道）, cite: rmrb-1968-01-07-jiangxi-revcom, quote: true }
+    - { voice: official1966, text: 把毛主席亲手创建的第一个红色革命根据地办成红彤彤的毛泽东思想大学校（程世清讲话）, cite: rmrb-1968-01-07-jiangxi-revcom, quote: true }
+  cites: [rmrb-1968-01-07-jiangxi-revcom, song-yongyi-database]
+
+- id: 1968-01-27-henan-revcom
+  date: 1968-01-27
+  title: 河南省革命委员会成立，刘建勋任主任
+  lane: local
+  weight: 1
+  place: 郑州
+  summary: 郑州举行大会庆祝河南省革委会成立。主任刘建勋 1961 年起任河南省委第一书记，1966 年 9 月调华北局，1967 年回河南任省革委会筹备小组组长。他在大会上说“紧跟伟大统帅毛主席就是胜利”。
+  people: [liu-jianxun]
+  voices:
+    - { voice: official1966, text: 回顾一年多来的战斗历程，我们的经验有千条万条，最深刻、最根本的一条是：紧跟伟大统帅毛主席就是胜利！（刘建勋讲话，1968 年新华社报道）, cite: rmrb-1968-01-30-henan-revcom, quote: true }
+  cites: [rmrb-1968-01-30-henan-revcom, czmingren-liu-jianxun]
+
+- id: 1968-04-08-yan-fengying
+  date: 1968-04-08
+  title: 黄梅戏演员严凤英服药自杀，遗体被剖腹
+  lane: culture
+  weight: 1
+  place: 合肥
+  summary: 为追究 1964 年所谓“天津黑会”反江青，1968 年 4 月 5 日《红安徽》报点了严凤英的名，造反派连日逼供，她的搭档王少舫也贴出揭发她的大字报。4 月 7 日夜她服下大量安眠药，8 日清晨死去；军代表以“肚子里有发报机”为由当众剖开了她的遗体。1978 年 5 月安徽省委为她平反。经过来自苏晓康 1988 年对她丈夫王冠亚的采访记录。
+  people: [yan-fengying]
+  voices:
+    - { voice: witness, text: 六八年四月五日《红安徽》报点了严凤英的名（王冠亚口述，苏晓康采访记录）, cite: su-xiaokang-yan-fengying, quote: true }
+    - { voice: witness, text: 严吃安眠药自杀后，被剖腹（苏晓康 1988 年 12 月 19 日采访日记）, cite: su-xiaokang-yan-fengying, quote: true }
+  cites: [su-xiaokang-yan-fengying]
+
+- id: 1968-05-23-xiong-shili
+  date: 1968-05-23
+  title: 熊十力在上海病逝
+  lane: culture
+  weight: 1
+  place: 上海
+  summary: 现代新儒家哲学家熊十力 1954 年起定居上海，任全国政协委员、北京大学一级教授。文革中受到冲击，1968 年 5 月 23 日因肺炎心力衰竭在上海虹口医院去世，享年 84 岁。
+  people: [xiong-shili]
+  voices:
+    - { voice: scholar, text: “文化大革命”中，他受到冲击（2017 年《光明日报》）, cite: gmrb-2017-02-20-xiong-shili, quote: true }
+    - { voice: scholar, text: 1968年5月23日，熊十力因患肺炎而心力衰竭，在上海虹口医院病逝，享年84岁（同上）, cite: gmrb-2017-02-20-xiong-shili, quote: true }
+  cites: [gmrb-2017-02-20-xiong-shili]
+
+- id: 1968-11-23-shangguan-yunzhu
+  date: 1968-11-23
+  title: 电影演员上官云珠跳楼身亡
+  lane: culture
+  weight: 1
+  place: 上海
+  summary: 上官云珠 1940 年代主演《一江春水向东流》《乌鸦与麻雀》，1962 年被评为“新中国二十二大电影明星”之一，1956、1957 年两次受毛泽东接见。1965 年底她查出乳腺癌，术后又发现颅内癌细胞，做了第二次手术。文革中她主演的《早春二月》《舞台姐妹》被批。1968 年 11 月 23 日凌晨从家中四楼跳下身亡，年 48 岁。1978 年 12 月上影为她平反。
+  people: [shangguan-yunzhu]
+  voices:
+    - { voice: scholar, text: 1968年11月23日，上官云珠自杀（2018 年《文汇报》）, cite: whb-2018-11-23-shangguan-yunzhu, quote: true }
+    - { voice: scholar, text: 选择从自家四楼阳台上纵身跳下的方式，永远离去了（同上）, cite: whb-2018-11-23-shangguan-yunzhu, quote: true }
+  cites: [whb-2018-11-23-shangguan-yunzhu]
+
+- id: 1970-01-27-wang-peiying
+  date: 1970-01-27
+  title: 王佩英被处决：她在 1964 年提出毛泽东应退出中央领导层
+  lane: local
+  weight: 1
+  place: 北京
+  summary: 北京职工王佩英 1964 年夏公开提出毛泽东应退出中央领导层，并要求退党；1964 年至 1968 年书写散发标语一千九百余张、诗词三十余首，说中国共产党应退出历史舞台。1968 年 10 月被捕，1970 年 1 月 27 日被处决，时年五十四岁。1980 年 5 月 8 日平反。
+  people: [wang-peiying]
+  voices:
+    - { voice: scholar, text: 1964年夏，公然提出：毛泽东应退出中央领导层（2024 年《华夏文摘》“血祭”系列，转述判决罪名）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+    - { voice: scholar, text: 判处极刑后，因反抗被勒死于刑车（同上）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: 1972-01-27-iron-man-wang-jinxi
+  date: 1972-01-27
+  title: 《人民日报》长篇通讯：“铁人”王进喜
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 大庆钻井队长王进喜 1970 年 11 月病逝。一年多后《人民日报》以《工业学大庆中国工人阶级的先锋战士——铁人王进喜》为题发表长篇通讯，重述他 1960 年率 1205 钻井队从玉门到大庆会战、跳进泥浆池压井喷的故事，把他作为“工业学大庆”的旗帜。通讯也写到 1967 年初大庆的风波：有人在辩论会上说“铁人也是假的”，通讯把这说成“一小撮阶级敌人”的破坏。
+  people: [wang-jinxi]
+  voices:
+    - { voice: official1966, text: 我国工人阶级的先锋战士，大庆油田的英雄代表，铁人王进喜同志逝世已经一年多了（1972 年《人民日报》通讯）, cite: rmrb-1972-01-27-wang-jinxi, quote: true }
+    - { voice: official1966, text: 一九六七年初，一小撮阶级敌人阴谋从极“左”的方面破坏大庆油田的文化大革命（同上）, cite: rmrb-1972-01-27-wang-jinxi, quote: true }
+  cites: [rmrb-1972-01-27-wang-jinxi, xinhua-2019-wang-jinxi]
+
+- id: 1972-08-13-xiao-shan-death
+  date: 1972-08-13
+  title: 巴金的妻子萧珊病逝：“理由很简单，她是我的妻子”
+  lane: culture
+  weight: 1
+  place: 上海
+  summary: 文革中巴金被关进上海作协的“牛棚”，萧珊也因为是他的妻子被关进“牛棚”、扫马路。1972 年 7 月她患癌住院，巴金在干校劳动，不被允许探望；8 月 13 日她去世。六年后的忌日，巴金写文章纪念她。
+  people: [ba-jin, xiao-shan]
+  voices:
+    - { voice: witness, text: 她也给关进“牛棚”，挂上“牛鬼蛇神”的小纸牌，还扫过马路（巴金 1978 年纪念萧珊的文章）, cite: ifeng-ba-jin-xiao-shan, quote: true }
+    - { voice: witness, text: 理由很简单，她是我的妻子（同上）, cite: ifeng-ba-jin-xiao-shan, quote: true }
+  cites: [ifeng-ba-jin-xiao-shan, xinhua-2005-ba-jin]
+
+- id: 1973-08-07-yang-rongguo-confucius
+  date: 1973-08-07
+  title: 杨荣国在《人民日报》发表《孔子——顽固地维护奴隶制的思想家》
+  lane: ideology
+  weight: 1
+  place: 北京
+  summary: 中山大学哲学系教授杨荣国的文章把孔子定为维护奴隶制的思想家。文章发表在十大召开前夕，五个月后“批林批孔”运动在全国展开，杨荣国随即成为“红极一时”的儒法斗争学者，1975 年当选全国人大常委。
+  people: [yang-rongguo]
+  voices:
+    - { voice: official1966, text: 二千多年来，一直被反动的统治阶级尊为“圣人”的孔子，究竟是个什么人？（杨荣国文章开头）, cite: rmrb-1973-08-07-yang-rongguo, quote: true }
+  cites: [rmrb-1973-08-07-yang-rongguo, ifeng-2007-yang-rongguo]
+
+- id: 1978-06-30-cao-yu-rehab
+  date: 1978-06-30
+  title: 北京市文化局为曹禺平反，恢复北京人艺院长职务
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 曹禺文革中作为“反动权威”被关押、劳动，1973 年后被逼一遍遍写“认罪检查”，又被派去看传达室。粉碎“四人帮”近两年后，北京市文化局才正式发文为他平反，恢复他的北京人民艺术剧院院长职务。
+  people: [cao-yu]
+  voices:
+    - { voice: witness, text: 一直到了1978年6月30日，北京市文化局才正式发出文件，为曹禺师平反落实政策，恢复了他在北京人艺的院长职务（2010 年学生回忆）, cite: chinanews-2010-cao-yu, quote: true }
+  cites: [chinanews-2010-cao-yu, chinawriter-cao-yu]
+
+- id: 1980-11-20-indictment-victims
+  date: 1980-11-20
+  title: 特别检察厅起诉书列出的被诬陷、迫害者
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 起诉书在“诬陷、迫害党和国家领导人”一节下逐条列名：康生、曹轶欧指使郭玉峰 1968 年 8 月 27 日编造的两份“政治情况的报告”，把三届人大常委会 115 名委员中的 60 人、四届政协常委会 159 名委员中的 74 人诬为“叛徒”“特务”等，名单里有朱德、李达、李立三、胡耀邦、华罗庚等；另有几张长名单列出受诬陷的中央委员、各部委和各省市负责人、军队高级干部，如谭启龙、王恩茂、阎红彦、魏文伯、秦基伟。文艺界、体育界各列了被迫害致死者，如赵树理、容国团。起诉书只列姓名，没有逐人写经过，各人遭遇见各自的人物页。
+  people: [kang-sheng, zhu-de, li-da, li-lisan, hu-yaobang, hua-luogeng, yan-hongyan, wei-wenbo, qin-jiwei, tan-qilong, wang-enmao, zhao-shuli, rong-guotuan, zhou-xinfang, zheng-junli, sun-weishi, lao-she]
+  voices:
+    - { voice: judicial1980, text: 一百一十五名全国人大常委会委员，有六十人被分别诬陷为“叛徒”、“叛徒嫌疑”、“特务”、“特务嫌疑”、“反革命修正主义分子、走资派、三反分子”、“有严重问题”（1980 年起诉书第六项）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 王树声、王恩茂、邓华（起诉书名单节录）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 江渭清、谭启龙、张仲良（同上）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 赵紫阳、吴芝圃、阎红彦、魏文伯、曾希圣（起诉书第十九项名单节录）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 杨嘉瑞、秦基伟、胡荣贵（同上）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 著名作家、艺术家老舍、赵树理、周信芳、盖叫天、潘天寿、应云卫、郑君里、孙维世等迫害致死（起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 优秀教练傅其芳、容国团、姜永宁被迫害致死（起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]

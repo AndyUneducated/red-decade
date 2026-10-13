@@ -977,3 +977,130 @@
   caveats: 本库没有收录这一提法最早的出处；1988 年规定称之为中央的“一贯精神”，只说明它在 1985–1988 年被当作既定原则使用。
   events: [1985-03-28-lingling-principles, 1988-cr-books-rules]
   logged: 2026-10-13
+
+# —— M7 横向专题 ——
+
+- id: C062
+  statement: 1982 年中央 19 号文件检讨文革的宗教政策，理由不只是“侵犯信仰自由”，还有“适得其反”：强行禁止使宗教活动场所从解放初的十万多所减到三万多所，却“使宗教活动在秘密和分散的状态下得到某些发展”。
+  status: supported
+  method: 通读 1982 年文件回顾历史的段落，摘出它对文革后果的两种表述及场所数字。
+  evidence:
+    - { cite: ws-1982-03-31-religion-document, quote: 他们强行禁止信教群众的正常宗教生活，把宗教界爱国人士以至一般信教群众当作“专政对象” }
+    - { cite: ws-1982-03-31-religion-document, quote: 他们在宗教问题上使用暴力，结果却使宗教活动在秘密和分散的状态下得到某些发展 }
+    - { cite: ws-1982-03-31-religion-document, quote: 全国各种宗教的活动场所，解放初总共约有十万多所，现在连同寺观教堂、简易活动点和教徒自行建立的活动场所合计在内，约有三万多所 }
+  caveats: 两个数字口径不同，1982 年的三万多所包括简易活动点和教徒自建场所；文件没有给出 1966–1976 年间的数字，减少的部分有多少发生在文革期间，文件没有说。
+  events: [1982-03-31-religion-document]
+  topics: [ethnic-religion]
+  logged: 2026-10-13
+
+- id: C063
+  statement: 中央在文革中把边疆当作“反修前哨”特别处理：1966 年 9 月限制边境地区群众直接“罢官”，1968 年 9 月西藏、新疆是除台湾外最后成立革委会的两个省区。但特别处理并没有让边疆免于清查，同在边境名单上的内蒙古，正是“内人党”案受害最广的地方。
+  status: supported
+  method: 对照 1966 年边境电报的适用范围、1968 年“全国山河一片红”报道和 1980 年起诉书的内蒙古数字。
+  evidence:
+    - { cite: ws-1967-border-areas, quote: 为了保障边境安全，不使苏修有机可乘 }
+    - { cite: ws-1967-border-areas, quote: 内蒙古靠苏联、蒙古的满洲里、海拉尔、二连等城镇和边防要点 }
+    - { cite: rmrb-1968-09-07-tibet-xinjiang, quote: 至此，全国除台湾省以外的省、市、自治区都成立了革命委员会 }
+    - { cite: ws-1980-indictment, quote: 内蒙古自治区因“内人党”等冤案，有三十四万六千多名干部、群众遭到诬陷、迫害，一万六千二百二十二人被迫害致死 }
+  caveats: 1966 年电报限制的是群众罢官和外地学生串联，不涉及专案清查；“内人党”案由内蒙古革委会主导，与群众罢官是两回事。起诉书数字是 1980 年官方统计。
+  events: [1966-09-07-border-areas, 1968-09-05-whole-country-red, 1968-04-26-neirendang]
+  topics: [ethnic-religion]
+  logged: 2026-10-13
+
+- id: C064
+  statement: 1988 年西藏人大关于拉萨骚乱的决议沿用了 1982 年宗教文件的双重表述：一面说“僧尼正常的宗教活动受到了保护”，号召“进一步清除‘左’的影响”；一面援引刑法反革命罪条文要求惩处分裂活动。官方没有回到文革式的全面禁止宗教。
+  status: supported
+  method: 对照 1982 年 19 号文件与 1988 年 1 月西藏人大决议中关于宗教保护和打击分裂的条文。
+  evidence:
+    - { cite: ws-1987-tibet-anti-separatism-resolution, quote: 广大群众和僧尼正常的宗教活动受到了保护 }
+    - { cite: ws-1987-tibet-anti-separatism-resolution, quote: 进一步清除“左”的影响，排除来自“左”的和右的两方面的干扰 }
+    - { cite: ws-1987-tibet-anti-separatism-resolution, quote: 以反革命为目的的 }
+    - { cite: ws-1982-03-31-religion-document, quote: 一定要警惕和反对任何利用宗教狂热来分裂人民，破坏各民族之间团结的言论和行动 }
+  caveats: 本库关于 1987–1989 年拉萨只有官方文件，没有寺院、僧尼或目击者的叙述；“受到了保护”是决议的说法，不是独立核实的状况。
+  events: [1987-09-lhasa-unrest, 1982-03-31-religion-document, 1989-03-07-lhasa-martial-law]
+  topics: [ethnic-religion]
+  logged: 2026-10-13
+
+- id: C065
+  statement: 1958 年和 1979 年的两份《告台湾同胞书》相隔二十年，政策从炮击转为停火、通邮、通商，但都把国民党当局自己的“一个中国”立场当作谈判基础。变化最大的是对美国的定位：1958 年美国是“共同敌人”，1979 年中美关系正常化成了有利于统一的“潮流”。
+  status: supported
+  method: 逐段对照两份文告中关于一个中国、炮击和美国的表述。
+  evidence:
+    - { cite: ws-1958-10-06-taiwan-1, quote: 世界上只有一个中国，没有两个中国。这一点，也是你们同意的，见之于你们领导人的文告 }
+    - { cite: ws-1979-01-01-taiwan-message, quote: 台湾当局一贯坚持一个中国的立场，反对台湾独立。这就是我们共同的立场，合作的基础 }
+    - { cite: ws-1958-10-06-taiwan-1, quote: 归根结底，美帝国主义是我们的共同敌人 }
+    - { cite: ws-1979-01-01-taiwan-message, quote: 中日和平友好条约的签定，和中美两国关系正常化的实现，更可见潮流所至 }
+    - { cite: ws-1979-01-01-taiwan-message, quote: 中国政府已经命令人民解放军从今天起停止对金门等岛屿的炮击 }
+  caveats: 1958 年的文告是同月三份之一，这里只对照第一份。
+  events: [1958-10-taiwan-messages, 1979-01-01-taiwan-message]
+  topics: [hk-macau-taiwan]
+  logged: 2026-10-13
+
+- id: C066
+  statement: 1974 年两岸都把孔子当作政治符号，方向相反：大陆的批林批孔把林彪说成“孔老二的信徒”，蒋介石同年给中华文化复兴运动的致词则以“孔孟之道”为国民生活之道，称“毁孔子即是与全民为敌”，并把这一运动称作“反共的文化战线”。
+  status: supported
+  method: 对照 1974 年 2 月《人民日报》社论与同年 11 月蒋介石致词中关于孔子的表述。
+  evidence:
+    - { cite: ws-1974-02-02-editorial, quote: 资产阶级野心家、阴谋家、两面派、叛徒、卖国贼林彪，就是一个地地道道的孔老二的信徒 }
+    - { cite: ws-1974-chiang-culture-renaissance, quote: 孔孟之道，久已成為國民生活不可須臾離的大道 }
+    - { cite: ws-1974-chiang-culture-renaissance, quote: 毀孔子即是與全民為敵，而自取滅亡 }
+    - { cite: ws-1974-chiang-culture-renaissance, quote: 在反共的文化戰線上，已有顯著的進展 }
+  caveats: 库内只有这一篇文化复兴运动的文献，运动 1966–1967 年发起时的文件没有入库，不能据此判断运动最初是否为回应文革而发起。
+  events: [1974-02-02-pilin-pikong, 1974-11-11-chiang-culture-renaissance]
+  topics: [hk-macau-taiwan]
+  logged: 2026-10-13
+
+- id: C067
+  statement: 1987 年中葡澳门联合声明几乎逐句照搬 1984 年中英香港联合声明，但把“保持香港原有的资本主义制度和生活方式”改成了“保持现行的社会、经济制度和生活方式”，澳门文本里没有“资本主义”一词。
+  status: supported
+  method: 对照两份声明附件一第一节的同一句，并在澳门文本中检索“资本主义”。
+  evidence:
+    - { cite: ws-1984-09-26-hongkong-declaration, quote: 规定香港特别行政区成立后不实行社会主义的制度和政策，保持香港原有的资本主义制度和生活方式，五十年不变 }
+    - { cite: ws-1987-04-13-macau-declaration, quote: 规定澳门特别行政区成立后不实行社会主义的制度和政策，保持现行的社会、经济制度和生活方式，五十年不变 }
+  caveats: 改动的原因，库内材料没有说明；香港、澳门两部基本法的对应条文尚未入库对照。
+  events: [1984-09-26-hongkong-declaration, 1987-04-13-macau-declaration]
+  topics: [hk-macau-taiwan]
+  logged: 2026-10-13
+
+- id: C068
+  statement: 1967 年缅甸排华时，北京集会公开声明支持“缅甸人民在缅共领导下进行武装斗争”；而 1971–1973 年中方关于柬埔寨的报道只写西哈努克亲王和民族统一阵线，乔森潘、英·萨利以王国政府副首相、“国内特使”的身份出现，柬埔寨共产党一次也没有被提到。
+  status: supported
+  method: 在 1967 年缅甸报道和库内五篇 1971–1973 年柬埔寨文本中检索“共产党”“缅共”“红色高棉”“波尔布特”。
+  evidence:
+    - { cite: rmrb-1967-07-04-burma-protest, quote: 我们坚决支持缅甸人民在缅共领导下进行武装斗争 }
+    - { cite: rmrb-1973-04-13-sihanouk-banquet, quote: 西哈努克亲王同王国民族团结政府副首相、民族解放人民武装力量总司令乔森潘 }
+    - { cite: rmrb-1973-04-13-sihanouk-banquet, quote: 柬埔寨民族统一阵线和王国民族团结政府国内特使英·萨利 }
+    - { cite: ws-cambodia-victorious-year, quote: 柬埔寨民族统一阵线高举抗美救国的大旗 }
+  caveats: 这是对库内有限文本的检索结论；1975 年金边解放和 1977 年波尔布特访华的报道尚未入库，中方何时第一次公开点名柬埔寨共产党还不能确定。
+  events: [1967-07-03-burma, 1971-cambodia-coverage]
+  topics: [global]
+  logged: 2026-10-13
+
+- id: C069
+  statement: 1965 年《人民战争胜利万岁》把“以农村包围城市”提升为各国可用的道路，六年后《人民日报》写柬埔寨战争，正是用这个模板：柬埔寨民族解放武装力量“用枪杆子打出了农村包围城市的大好形势”，再配上毛泽东“小国人民”能够战胜大国的语录。
+  status: supported
+  method: 在林彪文章和 1971 年柬埔寨文章中检索“农村包围城市”及所引毛泽东语录。
+  evidence:
+    - { cite: ws-1965-09-03-people-war, quote: 依靠农民，建立农村根据地，以农村包围城市，最后夺取城市，这是中国革命所走过的胜利的道路 }
+    - { cite: ws-1965-09-03-people-war, quote: 掌握和运用人民战争这个武器来对付美帝国主义及其走狗，已经成为许多国家人民的迫切需要 }
+    - { cite: ws-cambodia-victorious-year, quote: 用枪杆子打出了农村包围城市的大好形势 }
+    - { cite: ws-cambodia-victorious-year, quote: 小国人民只要敢于起来斗争，敢于拿起武器，掌握自己国家的命运，就一定能够战胜大国的侵略 }
+  caveats: 这说明的是中方报道的写法，不说明柬埔寨方面实际的战略来源。
+  events: [1965-09-03-people-war, 1971-cambodia-coverage]
+  concepts: [mao-thought]
+  topics: [global]
+  logged: 2026-10-13
+
+- id: C070
+  statement: 库内 1974 年的美国政府档案读文革，看的是高层权力：2 月国家安全委员会预计批林批孔中“高层领导人可能倒台”，11 月联络处报告转述毛泽东“八年已经够了”，判断中国此时承受不起另一场文革，并注意到邓小平已代行总理职责。
+  status: supported
+  method: 摘出 1974 年两份美方文件对运动走向的判断。
+  evidence:
+    - { cite: frus-v18-d69, quote: 'It thus seems clear that high leaders are likely to fall during this new phase of mass criticism' }
+    - { cite: frus-v18-d91, quote: 'Apparently it was agreed that China could not afford another Cultural Revolution at this time' }
+    - { cite: frus-v18-d91, quote: 'Teng Hsiao-ping now seems clearly to have moved into the Acting Premier’s role' }
+  caveats: 只有美国一国的政府档案；其他国家政府（苏联、日本、欧洲各国）的判断库内没有原始材料。
+  events: [1974-02-02-pilin-pikong, 1974-11-eight-years-enough]
+  people: [deng-xiaoping, mao-zedong]
+  topics: [global]
+  logged: 2026-10-13

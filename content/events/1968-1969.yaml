@@ -24,6 +24,7 @@
   verify: true
 
 - id: 1968-04-26-neirendang
+  topics: [ethnic-religion]
   date: 1968-04-26
   end: 1969-05-22
   title: 内蒙古“挖肃”与“内人党”冤案
@@ -110,6 +111,7 @@
   cites: [rmrb-1968-08-26-workers-lead, ws-1968-09-01-news-front]
 
 - id: 1968-09-05-whole-country-red
+  topics: [ethnic-religion]
   date: 1968-09-05
   title: “全国山河一片红”：西藏、新疆革委会成立
   lane: local
@@ -294,6 +296,7 @@
   cites: [ws-1968-03-30-revcom-good, ws-1981-resolution]
 
 - id: 1968-04-16-black-americans
+  topics: [global]
   date: 1968-04-16
   title: 毛泽东发表支持美国黑人抗暴斗争的声明
   lane: intl
@@ -305,6 +308,7 @@
   cites: [ws-1968-04-16-black-americans]
 
 - id: 1968-05-25-france
+  topics: [global]
   date: 1968-05-25
   title: 《人民日报》头版报道法国“五月风暴”
   lane: intl
@@ -321,6 +325,7 @@
   weight: 1
   place: 青海
   summary: 中共中央、中央军委、中央文革发布命令，追授青海省军区某部副教导员门合称号，号召全军学习。命令说门合 1967 年 9 月 5 日在巴仓农场支左时，土火箭炸药意外爆炸，他扑上去保护了 27 人。命令特别表彰他“揭露了中国赫鲁晓夫推行‘三自一包’”、抵制“彭德怀、罗瑞卿的资产阶级军事路线”，并把他的誓言概括为“一切想着毛主席，一切服从毛主席，一切紧跟毛主席，一切为着毛主席”。
+  people: [men-he]
   concepts: [mao-thought]
   voices:
     - { voice: official1966, text: 门合同志以他光辉的一生，实践了自己的誓言：一切想着毛主席，一切服从毛主席，一切紧跟毛主席，一切为着毛主席。（1968 年 5 月命令）, cite: rmrb-1968-05-28-men-he, quote: true }

@@ -265,3 +265,55 @@
 - { a: tang-yijie, b: zhou-yiliang, type: ally, from: 1974-01, note: 批林批孔大会上他主讲材料，周一良解释典故, cite: aisixiang-song-chengyou-zhou-yiliang }
 - { a: mao-zedong, b: li-xifan, type: patron, from: 1954, note: 读到他与蓝翎的文章，称他们为“小人物”；不赞成他去研究所，说“那不是战斗的岗位”, cite: sdu-li-xifan }
 - { a: zhou-yang, b: li-xifan, type: link, from: 1954, note: 回信转达毛泽东的意见，他因此进了人民日报社, cite: sdu-li-xifan }
+- { a: kuai-dafu, b: shen-ruhuai, type: attack, from: 1967-04-14, to: 1968-07-27, note: 清华井冈山兵团分裂为“团派”和沈如槐的“四一四”派，1968 年“百日大武斗”, cite: walder-fractured }
+- { a: kang-sheng, b: qi-jinghe, type: subordinate, note: 秘书；按康生的授意主持刘仁专案组, cite: ws-1983-qi-jinghe-case }
+- { a: qi-jinghe, b: liu-ren, type: persecute, from: 1967-08-02, to: 1973-10, note: 诬“三特问题”；1968 年 1 月的报告促成康生批示逮捕, cite: ws-1983-qi-jinghe-case }
+- { a: qi-jinghe, b: wang-guangmei, type: persecute, from: 1968-03-16, to: 1968-05-06, note: 三份报告诬“美国女特务”, cite: ws-1983-qi-jinghe-case }
+- { a: qi-jinghe, b: he-long, type: persecute, from: 1967-12-14, to: 1968-05-08, note: 四份报告诬组织“反革命‘地下军’”, cite: ws-1983-qi-jinghe-case }
+- { a: xie-fuzhi, b: zhao-dengcheng, type: subordinate, from: 1968-12, note: 按谢富治“抓组织”“追后台”的授意制造“中国（马列）共产党”假案, cite: ws-1983-zhao-dengcheng-case }
+- { a: zhao-dengcheng, b: zhu-de, type: persecute, from: 1968-12, to: 1969-08, note: 诬为“中国（马列）共产党”“书记”, cite: ws-1983-zhao-dengcheng-case }
+- { a: wang-hongwen, b: chen-ada, type: subordinate, from: 1966-11, note: 安亭事件、围攻上柴均在王洪文指挥下, cite: ws-1982-chen-ada-case }
+- { a: chen-ada, b: pan-guoping, type: ally, from: 1966-11, cite: ws-1982-chen-ada-case }
+- { a: chen-ada, b: wang-xiuzhen, type: ally, from: 1967-07, to: 1976-10, note: 1976 年 10 月 8 日王秀珍召集策动武装叛乱会议，他参加, cite: ws-1982-chen-ada-case }
+- { a: hua-linsen, b: wang-hongwen, type: link, from: 1973, to: 1976-10, note: 1973 年因吹捧王洪文得到赏识；1974 年起把苏州市委的报告改头换面以个人名义专报王洪文, cite: ws-1979-hua-linsen-case }
+- { a: xu-yingnian, b: sun-changde, type: ally, from: 1967-01, note: 同在贵阳地球化学研究所，1967 年 1 月都参与李再含夺取贵州省领导权, cite: ws-1982-xu-yingnian-case }
+- { a: hu-yong, b: ye-weidong, type: ally, from: 1976-04, to: 1976-10, note: 与唐忠富策划向湖南省委夺权、召开“促转弯子”大会, cite: ws-1982-ye-weidong-case }
+- { a: ye-qun, b: lei-yingfu, type: link, from: 1966-08-11, to: 1966-08-14, note: 口授诬陷刘少奇的材料，让他写成给林彪、毛泽东的信, cite: ws-1980-indictment }
+- { a: lin-biao, b: liu-peifeng, type: patron, from: 1969-02-16, note: 亲笔信要周宇驰、刘沛丰“让老虎多单独行动”, cite: ws-1972-lin-material-3 }
+- { a: zhou-yuchi, b: yu-xinye, type: ally, from: 1971-03-20, to: 1971-09-13, note: 同写《“571工程”纪要》，同乘直升机外逃，同自杀, cite: ws-1972-lin-material-2 }
+- { a: lin-liguo, b: hu-ping, type: subordinate, from: 1970, to: 1971-09-13, note: 秘密据点；9 月 12 日安排南逃飞机, cite: ws-1980-indictment }
+- { a: gu-tongzhou, b: ye-qun, type: link, from: 1971-09-05, note: 书面密报毛泽东在长沙的谈话, cite: ws-1980-indictment }
+- { a: lin-liguo, b: lu-min, type: subordinate, from: 1971-09-08, to: 1971-09-12, note: 向他传达政变手令；他参与拟定南逃名单, cite: ws-1980-indictment }
+- { a: lin-liguo, b: guan-guanglie, type: subordinate, from: 1971-09-08, to: 1971-09-11, note: 在秘密据点向他传达政变手令, cite: ws-1980-indictment }
+- { a: jiang-tengjiao, b: zhou-jianping, type: ally, from: 1971-03-31, note: 三国四方会议；江腾蛟负责南京、上海、杭州“三点联系”, cite: ws-1980-indictment }
+- { a: kang-sheng, b: cao-yiou, type: spouse, cite: ws-1980-indictment }
+- { a: kang-sheng, b: guo-yufeng, type: subordinate, from: 1968-01, note: 指使他列图表、写报告诬陷历任中组部部长, cite: ws-1980-indictment }
+- { a: cao-yiou, b: guo-yufeng, type: subordinate, from: 1968-08-23, to: 1968-08-27, note: 与康生指使他编造三个“政治情况的报告”, cite: ws-1980-indictment }
+- { a: li-zhen, b: zhao-dengcheng, type: ally, from: 1968-05, to: 1969-08, note: 合办苏枚案和“中国（马列）共产党”假案, cite: ws-1983-zhao-dengcheng-case }
+- { a: kang-sheng, b: zhao-jianmin, type: persecute, from: 1968-01-21, note: 京西宾馆当面说“你是个叛徒”，谢富治当场宣布逮捕, cite: ws-1980-indictment }
+- { a: liu-yinnong, b: zhao-jianmin, type: attack, from: 1968-03, to: 1969-01, note: 诬“反革命联盟”，大揪“赵健民之流”, cite: ws-1982-liu-yinnong-case }
+- { a: lu-xianwen, b: xu-wenbo, type: subordinate, from: 1959-11, to: 1960-01, note: 信阳地委第一书记与罗山县委第一书记；“前三关地委应该负责任，后两关是自己的发挥”, cite: ws-1962-04-23-xu-wenbo-punishment }
+- { a: chi-qun, b: zhou-rongxin, type: persecute, from: 1975-11-22, to: 1976-04-12, cite: ws-1982-chi-qun-case }
+- { a: nie-yuanzi, b: chang-xiping, type: persecute, from: 1966-07, to: 1968-05-25, cite: ws-1982-10-05-nie-yuanzi-case }
+- { a: nie-yuanzi, b: sun-pengyi, type: ally, from: 1966-07, note: 同写大字报，同到上海, cite: ws-1982-10-05-nie-yuanzi-case }
+- { a: li-zaihan, b: sun-changde, type: subordinate, from: 1967-01, note: 受李再含指派到安顺“支持夺权”、传达他镇压贵工的指令, cite: ws-1982-sun-changde-case }
+- { a: li-zaihan, b: xu-yingnian, type: subordinate, from: 1967-01-25, note: 在北京与李再含商定贵州夺权；在他指使下攻打龙广, cite: ws-1982-xu-yingnian-case }
+- { a: tang-zhongfu, b: hu-yong, type: ally, from: 1974-02, to: 1976-10, cite: ws-1982-hu-yong-case }
+- { a: ye-weidong, b: zhang-pinghua, type: persecute, from: 1967-01-15, to: 1967-01-25, note: 抓走关押十天, cite: ws-1982-ye-weidong-case }
+- { a: hu-yong, b: zhang-pinghua, type: attack, from: 1976-02, to: 1976-10, note: “大树不倒，猢狲不散”, cite: ws-1982-hu-yong-case }
+- { a: ba-jin, b: xiao-shan, type: spouse, from: 1944, to: 1972-08-13, cite: ifeng-ba-jin-xiao-shan }
+- { a: kang-sheng, b: cui-yueli, type: persecute, from: 1968-01-04, note: 批示“铐起来，进行严厉的突击审讯”, cite: ws-1983-qi-jinghe-case }
+- { a: kang-sheng, b: feng-jiping, type: persecute, from: 1968-01-04, note: 批示“铐起来，进行严厉的突击审讯”, cite: ws-1983-qi-jinghe-case }
+- { a: kang-sheng, b: xu-zirong, type: persecute, from: 1968-01-04, to: 1969-06, note: 批示逮捕；1969 年 6 月死于狱中, cite: ws-1983-qi-jinghe-case }
+- { a: xu-jingxian, b: wang-shaoyong, type: ally, from: 1968-02, to: 1976-10, note: 诬陷周信芳、陈丕显；1976 年 10 月同在“一号指挥点”, cite: ws-1982-xu-jingxian-case }
+- { a: wang-weiguo, b: jiang-guozhang, type: subordinate, from: 1970-05, to: 1971-09-13, note: “上海小组”和“教导队”, cite: ws-1982-wang-weiguo-case }
+- { a: zhou-yuchi, b: chen-xiuwen, type: persecute, from: 1971-09-13, note: 劫持他驾驶的直升机，降落时将他杀害, cite: ws-1980-indictment }
+- { a: lin-liguo, b: liu-shiying, type: subordinate, from: 1971-09-08, to: 1971-09-12, cite: ws-1980-indictment }
+- { a: zhou-yuchi, b: cheng-hongzhen, type: subordinate, from: 1971-02-08, to: 1971-09-11, note: 指使他描绘钓鱼台地形图, cite: ws-1972-lin-material-3 }
+- { a: wang-pu, b: gu-tongzhou, type: ally, from: 1971-09, note: 同在广州军区空军，九月上旬都把毛泽东谈话报告林彪, cite: ws-1972-lin-material-2 }
+- { a: wang-xiuzhen, b: ye-changming, type: ally, from: 1967-07, to: 1976-10, note: 1976 年 10 月 8 日“二号指挥点”, cite: ws-1982-08-21-wang-xiuzhen-case }
+- { a: wang-xiuzhen, b: huang-jinhai, type: ally, from: 1976-10-08, to: 1976-10-12, note: “二号指挥点”, cite: ws-1982-08-21-wang-xiuzhen-case }
+- { a: chen-ada, b: dai-liqing, type: ally, from: 1967-07, to: 1976-10, note: 围攻上柴；1976 年设叛乱秘密联络点, cite: ws-1982-chen-ada-case }
+- { a: xu-jingxian, b: sang-weichuan, type: persecute, from: 1969-11, to: 1975-10, cite: ws-1982-xu-jingxian-case }
+- { a: liu-yinnong, b: chen-kang, type: attack, from: 1968-03, to: 1976, note: “批王(必成)、打陈(康)”, cite: ws-1982-liu-yinnong-case }
+- { a: fu-lei, b: zhu-meifu, type: spouse, to: 1966-09-03, cite: fu-lei-1966-09-02-note }

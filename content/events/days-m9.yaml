@@ -1,0 +1,362 @@
+# M9“历史上的今天”补缺：此前全库没有任何内容落在这些月日上。每条都取自库内原文写到日的记载，事件本身照常进入时间线。
+
+- id: 1953-01-29-liu-ningxiang-telegram
+  date: 1953-01-29
+  title: 刘少奇复电宁乡县：杨剑雄“所称……营救我出狱等语，并无其事”
+  lane: local
+  weight: 1
+  place: 湖南宁乡
+  summary: 宁乡县人民政府 1953 年 1 月 18 日判处恶霸地主杨剑雄死刑。杨在审讯中说曾参加 1924 年营救刘少奇出狱，县公安局执行前致函刘少奇核对，刘 1 月 29 日复电否认，并说仍按判决处理。“文化大革命”中专案组把这件事说成刘少奇“杀人灭口”；1980 年中共中央为刘少奇平反的审查报告逐一核对时间，认定判决在先、询问在后，刘事前不知情。
+  people: [liu-shaoqi]
+  voices:
+    - { voice: officialLater, text: 我一九二五年在长沙被捕，因有很多人营救……得以出狱，但这与杨剑雄毫无关系。杨犯罪恶仍应按你们判决处理（刘少奇复电，1980 年平反报告引）, cite: ws-1980-02-29-liu-rehab, quote: true }
+    - { voice: officialLater, text: 原专案组把这件事说成刘少奇同志蓄意“杀人灭口”，完全是强加罪名（1980 年平反报告）, cite: ws-1980-02-29-liu-rehab, quote: true }
+  cites: [ws-1980-02-29-liu-rehab]
+
+- id: 1967-01-29-kang-sheng-deng
+  date: 1967-01-29
+  title: 康生说邓小平是“赫鲁晓夫那样的人物”
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 1980 年特别检察厅起诉书在“诬陷、迫害邓小平”一项下列了两句话：1966 年 12 月 6 日林彪说邓小平是“黑帮分子”“反党分子”；1967 年 1 月 29 日康生说邓小平是“赫鲁晓夫那样的人物”。这个说法出自 1966 年《五一六通知》，当时公开指的是刘少奇。
+  people: [kang-sheng, deng-xiaoping, lin-biao]
+  voices:
+    - { voice: judicial1980, text: 一九六七年一月二十九日，康生诽谤邓小平是“赫鲁晓夫那样的人物。”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: doc, text: 有些正在受到我们信用，被培养为我们的接班人，例如赫鲁晓夫那样的人物，他们现正睡在我们的身旁（1966 年《五一六通知》）, cite: ws-1966-05-16-notice, quote: true }
+  cites: [ws-1980-indictment, ws-1966-05-16-notice]
+
+- id: 1974-01-29-xisha-prisoners
+  date: 1974-01-29
+  title: 新华社受权公布：西沙之战俘获南越官兵 48 名、美国人 1 名，分批遣返
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1974 年 1 月 19 日、20 日西沙群岛之战后，新华社受权公布俘获南越西贡军队官兵范文红少校等 48 名、美国人 1 名，中国政府决定分批遣返；第一批伤病俘 5 名、美国病俘 1 名于 1 月 31 日在深圳遣返，由中国红十字会通知红十字国际委员会和美国红十字会派员接收。
+  voices:
+    - { voice: official1966, text: 中国人民解放军和民兵、渔民俘获入侵我国的南越西贡军队官兵范文红少校等四十八名，美国人一名（新华社 1974 年 1 月 29 日电）, cite: rmrb-1974-01-30-repatriate, quote: true }
+    - { voice: official1966, text: 第一批西贡军队伤病俘五名、美国病俘一名，于一月三十一日在我国广东省深圳遣返（同上）, cite: rmrb-1974-01-30-repatriate, quote: true }
+  cites: [rmrb-1974-01-30-repatriate]
+
+- id: 1967-02-06-guiyang-seize-power-resolution
+  date: 1967-02-06
+  title: 贵阳造反派决议：“最关键的问题是夺权没夺权和夺权彻底不彻底的问题”
+  lane: local
+  weight: 1
+  place: 贵阳
+  summary: 1967 年 1 月下旬李再含等夺取贵州省领导权后，“贵州造反总指挥部”总指挥孙昌德为造反派全体会议起草《关于贵阳地区革命群众组织的发展问题的决议》，提出夺权是否彻底是“最关键的问题”，鼓动各单位“彻底夺权”。孙后任贵州省革命委员会常委、副主任，1982 年被判刑。
+  people: [sun-changde, li-zaihan]
+  voices:
+    - { voice: judicial1980, text: 最关键的问题是夺权没夺权和夺权彻底不彻底的问题（孙昌德起草的决议，1982 年判决书引）, cite: ws-1982-sun-changde-case, quote: true }
+  cites: [ws-1982-sun-changde-case]
+
+- id: 1966-02-13-army-political-work
+  date: 1966-02-13
+  title: 中共中央批示全军政治工作会议文件：“继续大力突出政治”
+  lane: army
+  weight: 1
+  place: 北京
+  summary: 中共中央批示完全同意总政治部主任萧华在全军政治工作会议上的报告，以及会议通过的两个文件《继续大力突出政治，坚决执行五项原则》《继续大力突出政治，狠抓四好连队运动，切实搞好基层建设》，要求全军“活学活用毛主席著作，坚持四个第一”。批示全文只有三段，抄送各中央局、各省市区党委和中央各部委。
+  people: [xiao-hua]
+  voices:
+    - { voice: doc, text: 继续高举毛泽东思想的伟大红旗，活学活用毛主席著作，坚持四个第一，贯彻执行突出政治的五项原则（中共中央批示）, cite: ws-1966-02-13-army-political-work, quote: true }
+  cites: [ws-1966-02-13-army-political-work]
+
+- id: 1982-02-09-liu-zhang-indicted
+  date: 1982-02-09
+  title: 四川省人民检察院起诉刘结挺、张西挺
+  lane: local
+  weight: 1
+  place: 成都
+  summary: 四川省人民检察院指控刘结挺（1963 年前任宜宾地委书记，“文化大革命”中任四川省革命委员会副主任）、张西挺犯阴谋颠覆政府罪、诬告陷害罪和反革命杀人、伤人罪。四川省高级人民法院 3 月 6 日至 20 日在成都公开审理，判处刘结挺有期徒刑二十年、张西挺十七年；二人上诉称“是认识问题”，被驳回。
+  people: [liu-jieting, zhang-xiting]
+  voices:
+    - { voice: judicial1980, text: 四川省人民检察院于一九八二年二月九日，指控被告人刘结挺、张西挺，共同犯有《中华人民共和国刑法》规定的阴谋颠覆政府罪，诬告陷害罪，反革命杀人、伤人罪（四川省高级人民法院判决书）, cite: ws-1982-liu-zhang-case, quote: true }
+    - { voice: judicial1980, text: 判处被告人刘结挺有期徒刑二十年，剥夺政治权利五年（同上）, cite: ws-1982-liu-zhang-case, quote: true }
+  cites: [ws-1982-liu-zhang-case]
+
+- id: 1978-03-14-tianjin-organization-meeting
+  date: 1978-03-14
+  title: 天津市委组织工作会议：“万张集团案”等宣布平反
+  lane: local
+  weight: 1
+  place: 天津
+  summary: 天津市委召开全市组织工作会议，各部门负责人 230 余人参加。会议认为“文化大革命”中的冤假错案和审干遗留问题没有及时平反，主要责任在市委及主要负责人。会议最后一天约一千多人的大会上，对“万张集团案”“深泽叛徒集团案”“献县叛徒集团案”“黑戏、黑会案”等宣布平反。
+  voices:
+    - { voice: officialLater, text: 没有及时地进行平反和昭雪，使一些干部长期蒙受不白之冤（天津地方志记载）, cite: difangwenge-tianjin-1978, quote: true }
+  cites: [difangwenge-tianjin-1978]
+
+- id: 1970-05-02-lin-biao-who-is-head
+  date: 1970-05-02
+  title: 林彪接见林立果等人：“谁是你们的头？”
+  lane: army
+  weight: 1
+  place: 北京
+  summary: 1969 年 10 月吴法宪任命林立果为空军司令部办公室副主任兼作战部副部长，说“空军的一切都要向立果同志汇报”。林立果与周宇驰、王飞等组成“调研小组”。1970 年 5 月 2 日晚林彪接见林立果、周宇驰、王飞和刘沛丰，问谁是他们的头；次日周宇驰、王飞等开会，共推林立果为“头”。这个小组同年 10 月改称“联合舰队”。
+  people: [lin-biao, lin-liguo, zhou-yuchi, wang-fei, wu-faxian, liu-peifeng]
+  voices:
+    - { voice: judicial1980, text: 一九七零年五月二日晚，林彪接见林立果、周宇驰、王飞和空军司令部办公室处长刘沛丰等，林彪问：谁是你们的头？（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 五月三日，周宇驰、王飞等开会向林彪表忠心，并共推林立果为“头”（同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1963-05-09-mao-change-colour
+  date: 1963-05-09
+  title: 毛泽东批语：不然“整个中国就要改变颜色了”
+  lane: ideology
+  weight: 2
+  summary: 毛泽东对《浙江省七个关于干部参加劳动的好材料》写批语，把阶级斗争、生产斗争和科学实验称为“三项伟大革命运动”，说如果干部对“地、富、反、坏、牛鬼蛇神”不闻不问，少则几年、多则几十年就会出现“全国性的反革命复辟”。这段话一年后被写进《九评》（1964 年 7 月 14 日），注明出处为这条批语。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 那就不要很多时间，少则几年、十几年，多则几十年，就不可避免地要出现全国性的反革命复辟，马列主义的党就一定会变成修正主义的党，变成法西斯党，整个中国就要改变颜色了（1964 年《九评》引毛泽东 1963 年 5 月 9 日批语）, cite: ws-1964-07-14-ninth-comment, quote: true }
+    - { voice: editor, text: 批语原件本库没有文本；日期和标题见《九评》第⑦⑩条注。 }
+  cites: [ws-1964-07-14-ninth-comment]
+
+- id: 1950-05-11-weifang-merger
+  date: 1950-05-11
+  title: 山东省政府决定省辖潍坊市与昌潍专区合并
+  lane: local
+  weight: 1
+  place: 山东潍坊
+  summary: 建国初地方建制频繁调整的一例。1950 年 5 月至 12 月，原中共潍坊市委的工作由昌潍地委兼代。同一份沿革图接着记到 1967 年 3 月市委、市政府被夺权，至 1977 年 2 月由市革委会一元化领导。
+  voices:
+    - { voice: officialLater, text: 1950年5月11日，省政府决定将潍坊市（省辖）与昌潍专区合并（《山东省志》中共潍坊市委机构沿革图说明）, cite: sdz-c71-1-410, quote: true }
+  cites: [sdz-c71-1-410]
+
+- id: 1968-05-30-tsinghua-bathhouse
+  date: 1968-05-30
+  title: 清华“百日大武斗”：蒯大富下令攻打东区浴室楼，三人死亡
+  lane: mass
+  weight: 2
+  place: 北京清华大学
+  summary: 5 月 29 日蒯大富召开“井冈山兵团文攻武卫总指挥部”头头会，决定 30 日凌晨三时攻打东区浴室楼里的学生。他亲自下令拉闸断电作为进攻信号，偷袭、强攻、火攻，学生卞雨林、许恭生和工人段洪水死亡，四人重伤。7 月又决定“封锁”科学馆，下令对进出的人可以开枪，7 月 4 日、5 日又有两名学生被枪杀。
+  people: [kuai-dafu]
+  voices:
+    - { voice: judicial1980, text: 蒯大富亲自去电厂下令拉闸断电，发出进攻信号，挑起武斗（1983 年蒯大富案判决书）, cite: ws-1982-12-kuai-dafu-case, quote: true }
+    - { voice: judicial1980, text: 造成学生卞雨林、许恭生，工人段洪水等三人死亡（同上）, cite: ws-1982-12-kuai-dafu-case, quote: true }
+  cites: [ws-1982-12-kuai-dafu-case]
+
+- id: 1966-08-14-lei-yingfu-letter
+  date: 1966-08-14
+  title: 林彪让雷英夫写信附诬陷刘少奇材料，批送江青“酌转”
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 八届十一中全会期间，刘少奇仍是国家主席并重新当选政治局常委。叶群 8 月 11 日、12 日两次找总参作战部副部长雷英夫，把她和林彪拟的诬陷刘少奇的材料口授给他；14 日林彪让雷英夫以给林彪和毛泽东写信的形式附上材料，说“这样更政治化些”，当天批送江青转毛泽东。这是 1980 年起诉书所列刘少奇案的第一项。
+  people: [lin-biao, ye-qun, jiang-qing, liu-shaoqi, lei-yingfu]
+  voices:
+    - { voice: judicial1980, text: 八月十四日，林彪在他的住处告诉雷英夫，用给林彪和毛泽东主席写信的形式，附上诬陷材料，由他批转毛泽东主席，并说“这样更政治化些”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 当天，林彪就把雷英夫的信和诬陷刘少奇的材料批送给江青“酌转”毛泽东主席（同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1960-09-10-ccp-reply-cpsu
+  date: 1960-09-10
+  title: 中共中央答复苏共中央 6 月 21 日通知书，提出五项建议
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 1960 年 6 月 21 日苏共中央致中共通知书，接着在布加勒斯特会谈中对中共“突然袭击”；7 月苏联决定一个月内撤走全部在华专家。9 月 10 日中共中央书面答复，系统阐述对国际形势和共运问题的观点，驳斥苏共的批评，并提出解决分歧的五项建议。1963 年《一评》回顾这段经过时，把这份答复书当作中方“摆事实、讲道理”的证据。
+  voices:
+    - { voice: official1966, text: 中共中央采取摆事实、讲道理的态度，对国际形势和国际共产主义运动的一系列重大原则性问题，系统地阐明了自己的观点（1963 年《一评》）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: editor, text: 答复书本身没有公开全文，本库只有《一评》的转述及其附件三的五项建议。 }
+  cites: [ws-1963-09-06-first-comment]
+
+- id: 1971-09-10-huang-ye-calls
+  date: 1971-09-10
+  title: 黄永胜、叶群五次通电话；林彪索取雷达部署图和外国航线图
+  lane: army
+  weight: 1
+  place: 北京、北戴河
+  summary: 9 月 8 日林彪下达手令后，林立果一方面布置在上海途中谋害毛泽东，一方面为南逃广州或外逃做准备。9 月 10 日王飞把叶群的密封亲启件送给黄永胜，黄、叶当天通话五次；同日周宇驰等从空军司令部索取雷达兵部署图、周边国家电台频率表和北京至乌兰巴托、伊尔库茨克航线图。
+  people: [huang-yongsheng, ye-qun, lin-biao, lin-liguo, zhou-yuchi, wang-fei]
+  voices:
+    - { voice: judicial1980, text: 九月十日，黄永胜叶群频繁联系，五次通电话，最长的两次分别达九十分钟和一百三十五分钟（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 北京至乌兰巴托、伊尔库茨克航线图和机场位置、呼号、频率表（同上，九月十日索取的资料）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1971-09-11-wang-weiguo-tipoff
+  date: 1971-09-11
+  title: 王维国密报：毛泽东已离开上海回北京
+  lane: army
+  weight: 1
+  place: 上海
+  summary: 9 月 11 日晚，空四军政委王维国打电话向林立果、周宇驰报告毛泽东已离开上海北返。林彪、叶群得知在途中谋害毛泽东的计划落空，转而准备带黄永胜、吴法宪、李作鹏、邱会作南逃广州“另立中央”。次日晚周恩来追查去山海关的 256 号专机，命令其返京。
+  people: [wang-weiguo, lin-liguo, zhou-yuchi, lin-biao, ye-qun]
+  voices:
+    - { voice: judicial1980, text: 一九七一年九月十一日晚，王维国打电话向林立果、周宇驰密报，毛泽东主席已离开上海回北京（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment]
+
+- id: 1976-09-11-gang-direct-provinces
+  date: 1976-09-11
+  title: 毛泽东吊唁开始；“四人帮”通知各省重大问题向他们请示
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 毛泽东 9 月 9 日逝世，11 日人民大会堂吊唁开始，至 17 日结束。1977 年十一大政治报告说，同一天“四人帮”背着党中央通知各省、市、自治区重大问题要向他们请示报告，是他们“急于发难”的开端。这一说法出自粉碎“四人帮”之后的报告。
+  people: [jiang-qing, wang-hongwen, zhang-chunqiao]
+  voices:
+    - { voice: doc, text: 九月十一日到九月十七日，在人民大会堂举行吊唁（治丧委员会公告）, cite: ws-1976-09-mao-funeral-notice, quote: true }
+    - { voice: officialLater, text: 九月十一日，他们背着党中央，私自通知各省、市、自治区，重大问题要向他们请示报告（1977 年十一大政治报告）, cite: ws-1977-08-12-eleventh-congress-report, quote: true }
+  cites: [ws-1976-09-mao-funeral-notice, ws-1977-08-12-eleventh-congress-report]
+
+- id: 1976-09-21-zhang-chunqiao-xu-jingxian
+  date: 1976-09-21
+  title: 张春桥单独接见徐景贤：“要注意阶级斗争的动向”
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 1976 年 8 月南京军区司令员丁盛到上海与马天水、徐景贤、王秀珍密谈，说驻沪一线的部队“我根本调不动”；上海随即突击给民兵发枪七万余支。9 月 21 日张春桥在北京单独听取徐景贤汇报这两件事。1981 年特别法庭把这些列为上海武装叛乱准备的证据。
+  people: [zhang-chunqiao, xu-jingxian, ding-sheng, ma-tianshui, wang-xiuzhen]
+  voices:
+    - { voice: judicial1980, text: 张春桥对徐景贤说：“要谨慎小心，要注意阶级斗争的动向。”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 随后突击发枪七万四千二百二十支、炮三百门、各种弹药一千多万发（同上）, cite: ws-1980-indictment, quote: true }
+  cites: [ws-1980-indictment, ws-1982-xu-jingxian-case]
+
+- id: 1975-10-19-dazhai-conference-closes
+  date: 1975-10-19
+  title: 第一次全国农业学大寨会议闭幕：普及大寨县、1980 年基本实现农业机械化
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 会议开了一个多月，代表参观了大寨和昔阳，闭幕大会七千多人出席。陈永贵致闭幕词，华国锋宣布闭幕。陈说代表们讨论了邓小平的重要报告和华国锋的总结报告，提出普及大寨县和 1980 年基本实现农业机械化，并要求“大批修正主义，大批资本主义，大干社会主义”。
+  people: [chen-yonggui, hua-guofeng, deng-xiaoping]
+  voices:
+    - { voice: official1966, text: 讨论了普及大寨县和一九八○年基本上实现农业机械化的问题（陈永贵闭幕词，新华社报道）, cite: rmrb-1975-10-21-dazhai-close, quote: true }
+    - { voice: official1966, text: 大批修正主义，大批资本主义，大干社会主义（同上）, cite: rmrb-1975-10-21-dazhai-close, quote: true }
+  cites: [rmrb-1975-10-21-dazhai-close]
+
+- id: 1950-11-04-democratic-parties-declaration
+  date: 1950-11-04
+  title: 各民主党派联合宣言拥护抗美援朝
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 志愿军入朝后不久，全国各民主党派发表联合宣言，拥护抗美援朝、保家卫国。周恩来 1951 年 10 月在政协会议上的报告回顾出兵经过时提到这份宣言。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 全国各民主党派于一九五○年十一月四日发表了联合宣言，拥护这一正义的行动（周恩来 1951 年政协报告）, cite: ws-1951-10-23-zhou-cppcc-report, quote: true }
+  cites: [ws-1951-10-23-zhou-cppcc-report]
+
+- id: 1972-11-08-un-hk-macau-colonies
+  date: 1972-11-08
+  title: 联合国大会批准把香港、澳门从殖民地名单中删除
+  lane: intl
+  weight: 1
+  place: 纽约
+  summary: 中华人民共和国 1971 年恢复联合国席位后，常驻代表 1972 年 3 月 8 日致信联合国非殖民化特别委员会，称香港、澳门问题属中国主权范围内的问题，不应列入殖民地名单。特委会 6 月 15 日据此建议，第二十七届联大 11 月 8 日通过决议批准。1984 年人大常委会听取中英谈判情况的报告时回顾了这段经过。
+  voices:
+    - { voice: doc, text: 解决香港、澳门问题完全是属于中国主权范围内的问题，根本不属于通常的所谓‘殖民地’范畴（1972 年 3 月 8 日中国常驻代表致特委会信，1984 年报告引）, cite: ws-1984-hongkong-report, quote: true }
+    - { voice: doc, text: 1972年11月8日，第二十七届联合国大会通过决议，批准了该特委会的报告（1984 年报告）, cite: ws-1984-hongkong-report, quote: true }
+  cites: [ws-1984-hongkong-report]
+
+- id: 1959-11-08-luoshan-five-counties
+  date: 1959-11-08
+  title: 信阳“反瞒产”：许文波在罗山五县会议上介绍“依靠五类分子反瞒产”的经验
+  lane: local
+  weight: 1
+  place: 河南罗山
+  summary: 1959 年 11 月，罗山县委先后分片召集一千八百多名“五类分子”开训话会，让他们“坦白”和检举干部、社员瞒产。11 月 8 日，在信阳地委第一书记路宪文确定召开的潢川、正阳等五县负责人会议上，县委第一书记许文波介绍了这一经验。按这些检举去斗争、搜查，全县五十二个大队斗争、吊打干部 47 人，致死 3 人，搜查社员八百余户。
+  people: [lu-xianwen, xu-wenbo]
+  voices:
+    - { voice: doc, text: 一九五九年十一月八日许还在原地委第一书记路宪文确定在罗山召开的潢川、正阳等五县负责同志会议上，介绍了依靠五类分 子反瞒产的经验（1962 年罗山县委处分决定）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+    - { voice: doc, text: 以五类分子的假检举为依据，斗争、吊、 打干部四十七人，拘留二人（二天），撤销职务十八人，致死杨世政等三人（同上）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+  cites: [ws-1962-04-23-xu-wenbo-punishment]
+
+- id: 1959-11-13-luoshan-seed-grain
+  date: 1959-11-13
+  title: 许文波电话会议：征购“放不出来，就用统管粮抵”
+  lane: local
+  weight: 1
+  place: 河南罗山
+  summary: 罗山县委第一书记许文波在各公社第一书记电话会议上要求，地委分配的征购任务“一定要完成”，完不成就拿大队统一管理的口粮、种子粮抵交。各公社把五百余万斤统管粮（大部分是种子粮）抵了征购任务。1962 年县委处分决定说，这是“夺取了群众的渡命粮”。
+  people: [xu-wenbo]
+  voices:
+    - { voice: doc, text: 在公余粮方面，地委分配的任务一定要完成，不能动摇，今天明天放卫星，如放不出来，就用统管粮抵（许文波电话会议指示，1962 年处分决定引）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+    - { voice: doc, text: 借粮食统管（即大队统一管理口粮、种、饲料、储备粮）之名，夺取了群众的渡命粮（1962 年罗山县委处分决定）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+  cites: [ws-1962-04-23-xu-wenbo-punishment]
+
+- id: 1975-11-22-zhou-rongxin-speeches
+  date: 1975-11-22
+  title: 迟群、谢静宜把教育部长周荣鑫的讲话汇编送给江青
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 迟群、谢静宜按江青的意思，把教育部长周荣鑫 1975 年下半年在各种会议上的讲话汇编成册，11 月 22 日送给江青，诬称其中一些话“是明显针对毛主席”的；同时指挥“北大、清华写作班子”编印《周荣鑫右倾翻案言行》等八种材料，铅印两万册。周荣鑫 1976 年 4 月被批斗致死。
+  people: [chi-qun, xie-jingyi, jiang-qing, zhou-rongxin]
+  voices:
+    - { voice: judicial1980, text: 把教育部长周荣鑫在一些会议上的讲话汇编成册，于同年十一月二十二日送给江青，诬陷讲话中的一些话“是明显针对毛主席”的（1983 年迟群案判决书）, cite: ws-1982-chi-qun-case, quote: true }
+  cites: [ws-1982-chi-qun-case]
+
+- id: 1959-11-25-zhangfan-longtang
+  date: 1959-11-25
+  title: 商城“张畈、龙堂惨案”：张念仲借反“瞒产”斗争逼粮
+  lane: local
+  weight: 1
+  place: 河南商城
+  summary: 信阳地区商城县，县委负责人张念仲在双铺管理区借反“瞒产”为名，一进村就向张畈大队副支书余传道、龙堂大队生产组长芦伯成要粮，召开三百多人的斗争会，用推、踏、打、拔头发、扒衣服、受冻等手段斗争二人。芦伯成当场昏倒，十天后死去。1961 年对张念仲的处理材料称他为惨案的“主谋者”和“杀人的凶手”。
+  people: [zhang-nianzhong]
+  voices:
+    - { voice: doc, text: 你是要粮，你是要命（张念仲对昏倒的芦伯成说，1961 年处理材料）, cite: ws-1961-zhang-nianzhong, quote: true }
+    - { voice: doc, text: 芦因受伤残重，架回十天后死去（同上）, cite: ws-1961-zhang-nianzhong, quote: true }
+  cites: [ws-1961-zhang-nianzhong]
+
+- id: 1959-12-09-nehru-confront
+  date: 1959-12-09
+  title: 尼赫鲁：中印“将要彼此对峙……千百年之久”
+  lane: intl
+  weight: 1
+  summary: 1959 年中印边界争端公开化，9 月周恩来致信尼赫鲁陈述中方立场。尼赫鲁 12 月 9 日的这句话，三年后中印战争期间被 1962 年 10 月 27 日《人民日报》编辑部文章引作尼赫鲁敌视中国的证据。
+  voices:
+    - { voice: official1966, text: 我们目前彼此怒气冲冲地对峙着，我们将要彼此对峙，不是在今天或明天，而是千百年之久（尼赫鲁 1959 年 12 月 9 日语，1962 年《人民日报》编辑部文章中译引）, cite: ws-1962-10-27-nehru-philosophy, quote: true }
+    - { voice: editor, text: 英文原话本库没有文本，这里只能照录中译；讲话场合文章未注明。 }
+  cites: [ws-1962-10-27-nehru-philosophy]
+
+- id: 1966-12-13-nie-yuanzi-shanghai
+  date: 1966-12-13
+  title: 聂元梓在上海：“打倒常是打开陈、曹的一个缺口”
+  lane: mass
+  weight: 1
+  place: 上海
+  summary: 聂元梓 11 月 19 日受江青、陈伯达等支使到上海，与张春桥密谈后，以打倒上海市委教育卫生部长常溪萍为突破口，图谋夺取上海领导权。12 月 13 日在研究“打常”的会议上她说打倒常溪萍可以打开陈丕显、曹荻秋的缺口，又召集“工总司”等组织的头头，要求开十五万到二十万人的大会，要求中央罢曹荻秋的官。她 16 日离沪，留孙蓬一继续活动。
+  people: [nie-yuanzi, zhang-chunqiao, cao-diqiu, chang-xiping, sun-pengyi]
+  voices:
+    - { voice: judicial1980, text: 打倒常是打开陈、曹（陈丕显，中共上海市委第一书记；曹荻秋，上海市市长）的一个缺口，对上对下都有影响（1983 年聂元梓案判决书）, cite: ws-1982-10-05-nie-yuanzi-case, quote: true }
+  cites: [ws-1982-10-05-nie-yuanzi-case]
+
+- id: 1959-12-17-xu-wenbo-five-passes
+  date: 1959-12-17
+  title: 许文波的“五关”：病死说是饿死是“造谣关”
+  lane: local
+  weight: 1
+  place: 河南罗山
+  summary: 信阳地委要干部过叫喊关、停伙关、外流关“三关”，罗山县委第一书记许文波在凡店现场会上加了“不搞生产关”和“造谣关”，说能过这“五关”的是好干部。处分决定说，会后全县掀起新的反瞒产高潮，“死人更多”；一个月前他还在县委扩大会上说“死人是不可抗拒的疾病，不是饿死的”。
+  people: [xu-wenbo, lu-xianwen]
+  voices:
+    - { voice: doc, text: 粮食问题不是实际问题，而是思想问题，死人是不可抗拒的疾病，不是饿死的（许文波 1959 年 11 月 17 日县委扩大会讲话，1962 年处分决定引）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+    - { voice: doc, text: 能经过这“五关”的，是很好的干部（许文波 1959 年 12 月 17 日凡店现场会总结，同上）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+    - { voice: doc, text: 凡店现场会后，全县又欣起了新的所谓反瞒产高潮，违法乱纪更为严重，死人更多（同上）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+  cites: [ws-1962-04-23-xu-wenbo-punishment]
+
+- id: 1976-12-17-shi-yunfeng-sentenced
+  date: 1976-12-17
+  title: 史云峰被判死刑：“四人帮”倒台两个月后
+  lane: local
+  weight: 1
+  place: 吉林长春
+  summary: 长春青年史云峰 1974 年 10 月散发传单，反对“四人帮”，为刘少奇鸣冤，主张“全面审查文革中的错误”。他 1974 年 12 月被捕，1976 年 12 月 17 日被判死刑，两天后枪决，时年 27 岁；1980 年 3 月平反。判决发生在粉碎“四人帮”两个多月之后。
+  people: [shi-yunfeng]
+  voices:
+    - { voice: scholar, text: 1976年12月17日判死刑，两日后枪决，是年二十七岁, cite: hyh-2024-blood-sacrifice-4, quote: true }
+    - { voice: scholar, text: 临刑前，史云峰嘴塞纱布用缝合线紧紧勒住，以防喊“反动”口号（同上）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: 1974-12-23-mao-jiang-ambition
+  date: 1974-12-23
+  title: 毛泽东：“江青有野心，有没有，我看是有”
+  lane: center
+  weight: 1
+  summary: 四届人大筹备期间，江青托人向毛泽东提出让王洪文任全国人大常委会副委员长。毛泽东 11 月已批评“江青有野心”；12 月 23 日又说了这句话，次日批评“不要搞宗派”。他确定四届人大和国务院的人事安排由周恩来负责，提议邓小平任党中央副主席、国务院副总理和中央军委副主席兼总参谋长。
+  people: [mao-zedong, jiang-qing, wang-hongwen, zhou-enlai, deng-xiaoping]
+  voices:
+    - { voice: officialLater, text: 一九七四年十二月二十三日，毛主席又说：“江青有野心，有没有，我看是有。”（1976 年中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
+    - { voice: officialLater, text: 不要搞宗派，搞宗派要摔跤的（1977 年十一大政治报告，二十四日语）, cite: ws-1977-08-12-eleventh-congress-report, quote: true }
+  cites: [ws-1976-10-18-notice, ws-1977-08-12-eleventh-congress-report]

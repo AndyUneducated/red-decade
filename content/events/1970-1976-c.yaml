@@ -14,6 +14,7 @@
   cites: [rmrb-1970-10-01-national-day]
 
 - id: 1970-12-25-snow
+  topics: [global]
   date: 1970-12-25
   title: 《人民日报》刊登毛泽东、林彪与斯诺在天安门城楼上的照片
   lane: intl

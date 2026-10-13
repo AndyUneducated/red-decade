@@ -3,6 +3,7 @@
 # 中苏论战两条（再论陶里亚蒂、赫鲁晓夫下台）是中共一方的叙述。
 
 - id: 1950-11-28-wu-xiuquan-un
+  topics: [hk-macau-taiwan]
   date: 1950-11-28
   title: 伍修权在联合国安理会控诉美国侵略台湾
   lane: intl
@@ -43,6 +44,7 @@
   cites: [ws-1954-09-27-npc-announcement]
 
 - id: 1954-12-08-mutual-defense-statement
+  topics: [hk-macau-taiwan]
   date: 1954-12-08
   title: 周恩来声明美蒋《共同防御条约》“非法无效”
   lane: intl
@@ -56,6 +58,7 @@
   cites: [ws-1954-12-08-zhou-mutual-defense]
 
 - id: 1955-01-24-zhou-taiwan
+  topics: [hk-macau-taiwan]
   date: 1955-01-24
   title: 一江山岛战后周恩来拒绝“停火”
   lane: intl
@@ -317,6 +320,7 @@
   cites: [ws-1965-01-03-npc-announcement]
 
 - id: 1965-08-25-tibet-region
+  topics: [ethnic-religion]
   date: 1965-08-25
   title: 人大常委会决议成立西藏自治区
   lane: local

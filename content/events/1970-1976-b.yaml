@@ -162,6 +162,7 @@
   cites: [ws-1971-wages]
 
 - id: 1971-12-30-diaoyu
+  topics: [hk-macau-taiwan]
   date: 1971-12-30
   title: 外交部声明：钓鱼岛是台湾的附属岛屿
   lane: intl
@@ -281,7 +282,7 @@
   weight: 2
   place: 黑龙江
   summary: 国务院、中央军委通报，黑龙江生产建设兵团十六团原团长黄砚田、原参谋长李耀东利用职权奸污、猥亵女知识青年多人，批准判处二人死刑，立即执行。通报把他们定为“林彪修正主义路线的余孽”，要求切实做好知青上山下乡工作。通报中说上山下乡的知识青年有“几百万”。
-  people: []
+  people: [huang-yantian, li-yaodong]
   voices:
     - { voice: official1966, text: 国务院、中央军委批准判处奸污迫害上山下乡女知识青年罪犯黄砚田、李耀东以死刑，立即执行（1973 年通报）, cite: ws-1973-bingtuan-case, quote: true }
     - { voice: official1966, text: 几百万知识青年上山下乡，生气勃勃地活跃在农村的各条战线上（同一通报）, cite: ws-1973-bingtuan-case, quote: true }
@@ -319,10 +320,11 @@
   lane: center
   weight: 2
   place: 北京
-  summary: 十届一中全会选举毛泽东为中央委员会主席，周恩来、王洪文、康生、叶剑英、李德生为副主席。政治局委员中有江青、张春桥、姚文元、华国锋、陈永贵等。
-  people: [mao-zedong, zhou-enlai, wang-hongwen, kang-sheng, ye-jianying, li-desheng, jiang-qing, zhang-chunqiao, yao-wenyuan, hua-guofeng, chen-yonggui]
+  summary: 十届一中全会选举毛泽东为中央委员会主席，周恩来、王洪文、康生、叶剑英、李德生为副主席。政治局委员中有江青、张春桥、姚文元、华国锋、陈永贵等；候补委员四人：纺织女工出身的吴桂贤、海军的苏振华、钳工出身的倪志福和新疆的赛福鼎。
+  people: [mao-zedong, zhou-enlai, wang-hongwen, kang-sheng, ye-jianying, li-desheng, jiang-qing, zhang-chunqiao, yao-wenyuan, hua-guofeng, chen-yonggui, wu-guixian, su-zhenhua, ni-zhifu]
   voices:
     - { voice: doc, text: 中央委员会副主席：周恩来、王洪文、康生、叶剑英、李德生（1973 年十届一中全会公报）, cite: ws-1973-08-30-first-plenum, quote: true }
+    - { voice: doc, text: 中央政治局候补委员：吴桂贤（女）、苏振华、倪志福、赛福鼎（同上）, cite: ws-1973-08-30-first-plenum, quote: true }
   cites: [ws-1973-08-30-first-plenum]
 
 - id: 1973-11-12-dam-failures
@@ -470,6 +472,7 @@
   cites: [ws-1975-war-criminals]
 
 - id: 1975-04-05-chiang-death
+  topics: [hk-macau-taiwan]
   date: 1975-04-05
   title: 蒋介石在台湾去世
   lane: intl

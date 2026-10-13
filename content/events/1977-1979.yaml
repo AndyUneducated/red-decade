@@ -150,6 +150,7 @@
   cites: [ws-1978-12-third-plenum, ws-1981-resolution]
 
 - id: 1978-12-16-us-normalization
+  topics: [hk-macau-taiwan]
   date: 1978-12-16
   title: 中美建交联合公报
   lane: intl
@@ -161,6 +162,7 @@
   cites: [ws-1978-12-15-us-normalization]
 
 - id: 1979-01-01-taiwan-message
+  topics: [hk-macau-taiwan]
   date: 1979-01-01
   title: 《告台湾同胞书》，停止炮击金门
   lane: intl
@@ -199,6 +201,7 @@
   cites: [ccrd-1979-gz-jan-seizure]
 
 - id: 1979-02-17-vietnam-war
+  topics: [global]
   date: 1979-02-17
   end: 1979-03-16
   title: 对越“自卫还击”
@@ -295,6 +298,7 @@
   cites: [ws-1979-old-cc-files-notice]
 
 - id: 1979-kmt-defectors-policy
+  topics: [hk-macau-taiwan]
   date: 1979
   title: 落实原国民党起义投诚人员政策：全国五十余万人，约十余万需安置
   lane: center
@@ -317,6 +321,7 @@
   cites: [ws-1977-10-college-admissions]
 
 - id: 1979-01-17-kmt-notice-6
+  topics: [hk-macau-taiwan]
   date: 1979-01-17
   title: 中发〔1979〕6 号：国民党起义投诚人员“一律摘掉”历史反革命帽子
   lane: center

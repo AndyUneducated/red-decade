@@ -203,6 +203,7 @@
   cites: [ws-1984-liandong-rehab]
 
 - id: 1984-09-26-hongkong-declaration
+  topics: [hk-macau-taiwan]
   date: 1984-09-26
   title: 中英联合声明草签：“一国两制”，五十年不变
   lane: intl
@@ -420,6 +421,7 @@
   cites: [ccrd-1987-gx-liuzhou-pref-47]
 
 - id: 1985-04-10-hk-basic-law-committee
+  topics: [hk-macau-taiwan]
   date: 1985-04-10
   title: 成立香港特别行政区基本法起草委员会
   lane: intl
@@ -495,6 +497,7 @@
   cites: [ws-1986-12-02-election-law-amendment]
 
 - id: 1984-05-31-regional-autonomy
+  topics: [ethnic-religion]
   date: 1984-05-31
   title: 《民族区域自治法》通过
   lane: center

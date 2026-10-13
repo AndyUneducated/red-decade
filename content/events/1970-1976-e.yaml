@@ -36,7 +36,7 @@
   weight: 2
   place: 上海
   summary: 按 1971–72 年中共中央下发的材料和 1980 年代的起诉书、判决书，林立果、周宇驰等 1971 年 3 月 22 日至 24 日在上海制订武装政变计划《“571工程”纪要》。3 月 31 日晚，林立果在上海召集江腾蛟、王维国、陈励耘、周建平开所谓“三国四方会议”，指定王维国为上海的“头”、陈励耘为杭州的“头”。
-  people: [lin-liguo, zhou-yuchi, jiang-tengjiao, wang-weiguo, chen-liyun, lin-biao]
+  people: [lin-liguo, zhou-yuchi, jiang-tengjiao, wang-weiguo, chen-liyun, lin-biao, yu-xinye, li-weixin, zhou-jianping]
   voices:
     - { voice: official1966, text: 三月底，林立果在上海召集江腾蛟、王维国、陈励耘、周建平，开了一个所谓“三国四方会议”（1972 年中共中央下发的材料之三）, cite: ws-1972-lin-material-3, quote: true }
     - { voice: judicial1980, text: 一九七一年三月，林立果、周宇驰等人在上海制订了武装政变计划，取名为《“571工程”纪要》（1981 年特别法庭判决书）, cite: ws-1981-01-25-judgment, quote: true }
@@ -63,12 +63,13 @@
   title: 毛泽东南巡谈话：“甩石头、掺沙子、挖墙角”
   lane: center
   weight: 2
-  summary: 1971 年 8 月中旬至 9 月 12 日，毛泽东到南方巡视，沿途同各地负责人多次谈话，讲庐山会议以后他采取的“三项办法”。林彪一方设法探听谈话内容。九一三事件后，谈话纪要于 1972 年 3 月印发全党，作为批林整风的材料。
-  people: [mao-zedong, lin-biao, ye-qun, lin-liguo, zhou-yuchi]
+  summary: 1971 年 8 月中旬至 9 月 12 日，毛泽东到南方巡视，沿途同各地负责人多次谈话，讲庐山会议以后他采取的“三项办法”。林彪一方设法探听谈话内容：按 1980 年起诉书，9 月 6 日李作鹏在武汉从武汉部队政委刘丰处得知毛泽东的谈话内容，当天回京告诉黄永胜、邱会作。九一三事件后，谈话纪要于 1972 年 3 月印发全党，作为批林整风的材料。
+  people: [mao-zedong, lin-biao, ye-qun, lin-liguo, zhou-yuchi, li-zuopeng, liu-feng, huang-yongsheng, qiu-huizuo, gu-tongzhou, yu-xinye]
   voices:
     - { voice: official1966, text: 一九七一年八月中旬至九月十二日，我们的伟大领袖毛主席到外地巡视，同沿途各地负责同志进行了多次重要谈话（1972 年 3 月 17 日中共中央通知）, cite: ws-1972-03-17-notice, quote: true }
     - { voice: doc, text: 庐山会议以后，我采取了三项办法，一个是甩石头，一个是掺沙子，一个是挖墙角（毛泽东南巡谈话纪要）, cite: ws-1972-03-17-notice, quote: true }
     - { voice: judicial1980, text: 周宇驰、于新野打电话给顾同舟，探听到毛泽东主席在长沙同一些负责人谈话的内容，当即密报林立果、叶群（1980 年起诉书，说 9 月 5 日晚）, cite: ws-1980-indictment, quote: true }
+    - { voice: judicial1980, text: 李作鹏在武汉得到武汉部队政治委员刘丰关于毛泽东主席在武汉同一些负责人谈话内容的密报，当天返回北京，分别告诉黄永胜、邱会作（同上，9 月 6 日）, cite: ws-1980-indictment, quote: true }
   cites: [ws-1972-03-17-notice, ws-1971-10-06-notice, ws-1980-indictment]
 
 - id: 1974-01-mazhenfu

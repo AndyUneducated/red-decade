@@ -17,6 +17,7 @@
     - { voice: official1966, text: 是毛主席无产阶级革命路线的伟大胜利，是无产阶级文化大革命的又一丰硕成果（同日《人民日报》）, cite: rmrb-1970-04-26-satellite, quote: true }
   cites: [rmrb-1970-04-26-satellite]
 - id: 1970-05-20-mao-statement
+  topics: [global]
   date: 1970-05-20
   title: 毛泽东“五·二〇声明”：“当前世界的主要倾向是革命”
   lane: intl
@@ -162,6 +163,7 @@
   cites: [ws-1972-01-13-notice-3, ws-1972-01-13-notice-4, ws-1972-lin-material-2]
 
 - id: 1972-02-21-mao-nixon
+  topics: [global]
   date: 1972-02-21
   title: 毛泽东会见尼克松
   lane: intl
@@ -176,6 +178,7 @@
   cites: [rmrb-1972-02-22-mao-nixon, frus-v17-d194, frus-v17-d193]
 
 - id: 1972-02-27-shanghai-communique
+  topics: [hk-macau-taiwan]
   date: 1972-02-27
   title: 中美上海公报
   lane: intl
@@ -248,7 +251,7 @@
   weight: 1
   place: 北京
   summary: 社论称几年来“几百万青年学生”下乡，树邢燕子、侯隽为典型，要求各地继续做好安置工作。1975 年周恩来政府工作报告说“近千万知识青年上山下乡”。
-  people: []
+  people: [xing-yanzi]
   voices:
     - { voice: official1966, text: 几年来，几百万青年学生满怀革命豪情，奔向祖国的农村、边疆（1973 年 8 月 7 日社论）, cite: rmrb-1973-08-07-zhiqing-editorial, quote: true }
     - { voice: official1966, text: 近千万知识青年上山下乡（1975 年政府工作报告）, cite: ws-1975-01-13-zhou-report, quote: true }
@@ -313,6 +316,7 @@
   cites: [ws-1974-02-02-editorial, frus-v18-d69, frus-v18-d65]
 
 - id: 1974-11-eight-years-enough
+  topics: [global]
   date: 1974-11-18
   title: 美方报告：毛泽东称八年文革“已经够了”
   lane: center
@@ -393,6 +397,7 @@
   cites: [rmrb-1975-04-01-zhang-dictatorship, ws-1975-01-13-zhang-report]
 
 - id: 1975-04-30-saigon
+  topics: [global]
   date: 1975-04-30
   title: 西贡解放，毛泽东、朱德、周恩来致电祝贺
   lane: intl
@@ -418,6 +423,7 @@
   cites: [rmrb-1975-09-04-shuihu]
 
 - id: 1975-10-21-mao-kissinger
+  topics: [global]
   date: 1975-10-21
   title: 毛泽东会见基辛格：“我们都死了以后，你们还活着”
   lane: intl

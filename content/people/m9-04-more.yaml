@@ -1,0 +1,431 @@
+# M9 补人物：林彪集团案里的驾驶员和办公室人员，上海 1976 年 10 月武装叛乱策划者，以及几位受害者。
+
+- id: chen-xiuwen
+  name: 陈修文
+  died: 1971-09-13
+  deathKind: killed
+  deathPlace: 北京怀柔
+  tier: 3
+  role1966: 空军飞行员
+  pinyin: Chén Xiūwén
+  gender: m
+  bio: 空军直升机驾驶员、中队长。1971 年 9 月 13 日凌晨被骗驾驶 3685 号直升机载周宇驰、于新野、李伟信从沙河机场外逃，发觉后设法飞回，在北京怀柔降落时与周宇驰夺枪搏斗被杀害。中央材料称他“烈士”。
+  life:
+    - h: 被骗起飞
+      from: 1971-09-13
+      to: 1971-09-13
+      text: |
+        9 月 13 日三点十五分，周宇驰、于新野、李伟信携带机密文件和美钞在北京沙河机场劫持 3685 号直升机外逃，向蒙古乌兰巴托方向飞去。中央材料说陈修文是“被骗去驾驶直升飞机”的。
+      cites: [ws-1980-indictment, ws-1972-lin-material-3]
+    - h: 飞回
+      from: 1971-09-13
+      to: 1971-09-13
+      text: |
+        起诉书说他“发觉后，采取措施飞回到北京市怀柔县”，降落时被周宇驰杀害。李伟信和另一驾驶员陈士印被活捉。
+      cites: [ws-1980-indictment, ws-1972-lin-material-3]
+    - h: 烈士
+      from: 1971-09-18
+      to: 1972
+      text: |
+        1971 年 9 月 18 日中央通知说“周宇驰、于新野打死驾驶员”；1972 年材料称“驾驶员中队长陈修文烈士与叛徒周宇驰夺枪搏斗，被杀害”，“在机上与叛徒搏斗，光荣牺牲”。
+      cites: [ws-1971-09-18-notice, ws-1972-lin-material-2, ws-1972-lin-material-3]
+  factions: [models]
+  fate:
+    - { date: 1971-09-13, s: dead, note: 在直升机上被周宇驰杀害, cite: ws-1980-indictment }
+  cites: [ws-1980-indictment, ws-1971-09-18-notice, ws-1972-lin-material-2, ws-1972-lin-material-3]
+
+- id: pan-jingyin
+  name: 潘景寅
+  died: 1971-09-13
+  deathKind: accident
+  deathPlace: 蒙古温都尔汗
+  tier: 3
+  role1966: 空军飞行员
+  pinyin: Pān Jǐngyín
+  gender: m
+  bio: 三叉戟 256 号专机驾驶员。1971 年 9 月 13 日凌晨驾驶载林彪、叶群、林立果、刘沛丰的飞机从山海关机场强行起飞，副驾驶员、领航员、通讯员都未上机，飞机在蒙古温都尔汗坠毁，机上全部死亡。
+  life:
+    - h: 256 号专机
+      from: 1971-09-12
+      to: 1971-09-12
+      text: |
+        9 月 12 日 256 号专机被秘密调往山海关供林彪、叶群、林立果使用；周恩来追查时，胡萍谎报是飞行训练。
+      cites: [ws-1981-01-25-judgment]
+    - h: 起飞与坠毁
+      from: 1971-09-13
+      to: 1971-09-13
+      text: |
+        12 日深夜林彪一行仓皇登机，“不等副驾驶员、领航员、通讯服务员上机，飞机航行灯也没有开”，13 日零点三十二分强行起飞，在温都尔汗机毁人亡。9 月 18 日中央通知写明同机的有“驾驶员潘景寅”。
+      cites: [ws-1980-indictment, ws-1971-09-18-notice]
+  factions: [lin]
+  fate:
+    - { date: 1971-09-13, s: dead, note: 驾机坠毁, cite: ws-1971-09-18-notice }
+  cites: [ws-1971-09-18-notice, ws-1980-indictment, ws-1981-01-25-judgment]
+
+- id: jiang-guozhang
+  name: 蒋国璋
+  tier: 3
+  role1966: 空四军干部
+  pinyin: Jiǎng Guózhāng
+  gender: m
+  bio: 空四军司令部军务处处长，林立果在上海秘密建立的“上海小组”主要成员，负责组建和训练“教导队”。1971 年 9 月 12 日晚接李伟信电话，通知“小组”和“教导队”全体带武器准备随机出发，报告了王维国。林彪出逃后与王维国订立攻守同盟，解散“教导队”和“上海小组”。
+  life:
+    - h: 上海小组
+      from: 1970-05
+      to: 1971-03
+      text: |
+        “上海小组”原是为林立果“找对象”的“找人小组”，又称“八人小组”，由蒋国璋、袭著显等八人组成；1970 年 5 月经林立果、王维国整顿，成为林立果“进行反革命阴谋活动的工具”。
+      cites: [ws-1982-wang-weiguo-case, ws-1972-lin-material-3]
+    - h: 教导队
+      from: 1971-03
+      to: 1971-09-12
+      text: |
+        1971 年 3 月下旬起在上海新华一村秘密据点组建“教导队”，具体工作由他和袭著显负责，进行捕俘、格斗、巷战等训练。李伟信笔供记林立果的话：“小组里以袭著显、蒋国璋为主”。9 月 9 日“上海小组”进入“一等准备”，他报告了王维国。
+      cites: [ws-1982-wang-weiguo-case, ws-1972-lin-material-2]
+    - h: 九月十二日以后
+      from: 1971-09-12
+      to: 1971-09-13
+      text: |
+        12 日晚李伟信打电话要他立即报告王维国：“明天有一架大飞机到上海，‘小组’全体、‘教导队’全体带武器和战斗化行李随机出发。”他作了安排并报告王维国。13 日林彪出逃、中央下达禁航令后，与王维国、袭著显订立攻守同盟，解散“教导队”和“上海小组”。
+      cites: [ws-1982-wang-weiguo-case]
+  factions: [lin]
+  fate:
+    - { date: 1971-03, s: power, note: 负责“教导队”, cite: ws-1982-wang-weiguo-case }
+  cites: [ws-1982-wang-weiguo-case, ws-1972-lin-material-2, ws-1972-lin-material-3]
+
+- id: liu-shiying
+  name: 刘世英
+  tier: 3
+  role1966: 空军干部
+  pinyin: Liú Shìyīng
+  gender: m
+  bio: 空军党委办公室（空军司令部办公室）副主任。他与李伟信、程洪珍证实了《“571工程”纪要》是于新野手记的。1971 年 9 月 8 日至 11 日林立果、周宇驰向他传达林彪的武装政变手令；12 日晚参加“七人黑会”，南逃人员名单大部分是他写的。
+  life:
+    - h: 政变手令
+      from: 1971-09-08
+      to: 1971-09-11
+      text: |
+        林立果、周宇驰在空军学院和西郊机场的秘密据点向他和刘沛丰、江腾蛟、王飞、鲁珉、程洪珍、关光烈等传达林彪的武装政变手令。
+      cites: [ws-1980-indictment]
+    - h: 南逃名单
+      from: 1971-09-12
+      to: 1971-09-12
+      text: |
+        12 日晚九时许参加王飞、于新野召集的“七人黑会”，拟定随林彪南逃广州的行动计划和人员名单。名单从直升机上缴获，“大部份人名是刘世英写的”。
+      cites: [ws-1972-lin-material-3]
+    - h: 证实与供词
+      from: 1971-09
+      to: 1972
+      text: |
+        他和李伟信、程洪珍证实《“571工程”纪要》，并经笔迹核对确认是于新野手记。他的亲笔供词收入 1972 年中央下发的材料之三。
+      cites: [ws-1972-lin-material-2, ws-1972-lin-material-3]
+  factions: [lin]
+  fate:
+    - { date: 1971-09-12, s: power, note: 拟定南逃名单, cite: ws-1972-lin-material-3 }
+  cites: [ws-1980-indictment, ws-1972-lin-material-2, ws-1972-lin-material-3]
+
+- id: cheng-hongzhen
+  name: 程洪珍
+  tier: 3
+  role1966: 空军干部
+  pinyin: Chéng Hóngzhēn
+  gender: m
+  bio: 空军党委办公室一处秘书。他的工作日记和笔记记下了“联合舰队”1971 年 2 月 8 日收集情报的布置、3 月底“三国四方会议”的分工和谋害毛泽东的计划，都被缴获作为林彪集团的罪证；钓鱼台地形图也是周宇驰指使他描绘的。
+  life:
+    - h: 记录
+      from: 1971-02-08
+      to: 1971-04-01
+      text: |
+        1971 年 2 月 8 日周宇驰在“联合舰队”布置收集情报的讲话由他手记。他的日记记载“三国四方会议”：“组织上明确了三点，每点的头：上海──王（维国），杭州──陈（励耘），南京──周（建平），互相配合。江（腾蛟）进行三点联系，配合、协同作战。”
+      cites: [ws-1972-lin-material-2, ws-1972-lin-material-3]
+    - h: 九月
+      from: 1971-09-08
+      to: 1971-09-11
+      text: |
+        9 月 8 日至 11 日林立果、周宇驰向他等人传达林彪的武装政变手令。周宇驰指使他描绘钓鱼台地形图，11 日林立果、王飞、江腾蛟、关光烈、于新野到钓鱼台周围看了地形。
+      cites: [ws-1980-indictment, ws-1972-lin-material-3]
+    - h: 罪证
+      from: 1971-09
+      to: 1972
+      text: |
+        他的日记从林立果在北京的秘密据点缴获，笔记从他随身携带的手提包中缴获，连同亲笔供词收入 1972 年中央下发的材料之三。
+      cites: [ws-1972-lin-material-3]
+  factions: [lin]
+  fate:
+    - { date: 1971-09-08, s: power, note: 听传达政变手令, cite: ws-1980-indictment }
+  cites: [ws-1980-indictment, ws-1972-lin-material-2, ws-1972-lin-material-3]
+
+- id: wang-pu
+  name: 王璞
+  tier: 3
+  role1966: 解放军干部
+  pinyin: Wáng Pú
+  gender: m
+  bio: 广州军区空军司令员。1972 年中央下发的材料说，1971 年 9 月上旬他与刘丰、顾同舟、陈励耘、王维国等把毛泽东南巡中同一些负责人的谈话内容报告了林彪。
+  life:
+    - h: 九月上旬
+      from: 1971-09
+      to: 1971-09-12
+      text: |
+        “一九七一年九月上旬，刘丰［武汉军区原政委］、王璞［广州军区空军原司令员］、顾同舟［广州军区空军原参谋长］、陈励耘、王维国等人，把毛主席同一些负责人的谈话内容，报告了林彪”，材料说这“为林贼发动反革命政变选择时机，提供了线索”。
+      cites: [ws-1972-lin-material-2]
+  factions: [lin]
+  fate:
+    - { date: 1971-09, s: power, note: 向林彪报告毛泽东谈话, cite: ws-1972-lin-material-2 }
+  cites: [ws-1972-lin-material-2]
+
+- id: ye-changming
+  name: 叶昌明
+  tier: 3
+  role1966: 上海工人
+  pinyin: Yè Chāngmíng
+  gender: m
+  bio: 上海“工总司”创始人之一。1966 年 11 月“工总司”成立大会的七人主席团中有他；与王洪文、陈阿大等策划夺上海领导权、围攻上海柴油机厂。1969 年国庆在京观礼代表的带队人名单中有他。1976 年 10 月 8 日在王秀珍的“二号指挥点”参与策划武装叛乱，在工会系统具体布置。
+  life:
+    - h: 工总司
+      from: 1966-11-06
+      to: 1966-11-09
+      text: |
+        潘国平 1996 年回忆，座谈会选出的大会主席团是“我、王洪文、叶昌明、陈阿大、范佐东、蒋周法、徐美英七个人”。陈阿大案起诉书说，11 月 6 日至 9 日陈阿大和王洪文、潘国平、叶昌明、黄金海等密谋策划，提出“我们要夺权”。
+      cites: [bjzc-1996-09-pan-guoping, ws-1982-chen-ada-case]
+    - h: 上柴
+      from: 1967-07
+      to: 1969-10-01
+      text: |
+        1967 年 7–8 月在王洪文指挥下与陈阿大、戴立清、王秀珍等策划围攻上海柴油机厂，7 月 31 日参与绑架关押群众二十五人。1969 年国庆报道把他列在各省市代表的“带队”人中。
+      cites: [ws-1982-chen-ada-case, rmrb-1969-10-02-national-day]
+    - h: 1976 年 10 月
+      from: 1976-10-08
+      to: 1976-10-12
+      text: |
+        10 月 8 日晚王秀珍在“二号指挥点”召集陈阿大、叶昌明、黄金海、马振龙等策划武装叛乱；12 日与陈阿大、黄金海、戴立清等在市工人文化宫密谋设立秘密联络点。判决书说他们“分别在工会、财贸、轻工业系统以及上海后方基地，具体策划和布置了武装叛乱”。
+      cites: [ws-1982-08-21-wang-xiuzhen-case, ws-1982-chen-ada-case]
+  factions: [shgang, rebels]
+  fate:
+    - { date: 1966-11, s: rise, note: 工总司主席团成员, cite: bjzc-1996-09-pan-guoping }
+    - { date: 1976-10-08, s: power, note: 参与策划上海武装叛乱, cite: ws-1982-08-21-wang-xiuzhen-case }
+  cites: [ws-1982-chen-ada-case, ws-1982-08-21-wang-xiuzhen-case, bjzc-1996-09-pan-guoping, rmrb-1969-10-02-national-day]
+
+- id: huang-jinhai
+  name: 黄金海
+  tier: 3
+  role1966: 上海工人
+  pinyin: Huáng Jīnhǎi
+  gender: m
+  bio: 上海“工总司”头头之一，判决书列为江青集团在上海的“重要骨干”。1966 年 11 月参与密谋夺上海领导权；1967 年与王洪文、陈阿大策划调集队伍图谋围攻青浦县。1975 年 9 月在全国农业学大寨会议主席台就座。1976 年 10 月参与策划上海武装叛乱，在上海第三十一棉纺织厂设秘密联络点，起草叛乱用的标语口号。
+  life:
+    - h: 夺权与青浦
+      from: 1966-11-06
+      to: 1967-10
+      text: |
+        1966 年 11 月 6 日至 9 日与陈阿大、王洪文、潘国平、叶昌明等密谋召开大会，提出“我们要夺权”。1967 年 10 月王洪文、陈阿大、黄金海等策划从市区、安亭调集队伍，图谋围攻青浦县。
+      cites: [ws-1982-chen-ada-case]
+    - h: 大寨会议
+      from: 1975-09-15
+      to: 1975-09-15
+      text: |
+        1975 年 9 月 15 日全国农业学大寨会议开幕，他列在主席台就座的“各省、市、自治区党委和革委会的负责人以及有关单位的代表”中。
+      cites: [rmrb-1975-09-16-dazhai-open]
+    - h: 秘密联络点
+      from: 1976-10-08
+      to: 1976-10-12
+      text: |
+        10 月 8 日晚到“二号指挥点”参与策划武装叛乱。12 日下午在市工人文化宫与陈阿大、叶昌明、戴立清等决定由黄金海、戴立清在上海第三十一棉纺织厂设立秘密联络点，主持起草武装叛乱用的标语口号。
+      cites: [ws-1982-chen-ada-case, ws-1982-xu-jingxian-case]
+  factions: [shgang, rebels]
+  fate:
+    - { date: 1966-11, s: rise, cite: ws-1982-chen-ada-case }
+    - { date: 1976-10-12, s: power, note: 设立叛乱秘密联络点, cite: ws-1982-chen-ada-case }
+  cites: [ws-1982-chen-ada-case, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case, rmrb-1975-09-16-dazhai-open]
+
+- id: dai-liqing
+  name: 戴立清
+  tier: 3
+  role1966: 上海工人
+  pinyin: Dài Lìqīng
+  gender: m
+  bio: 判决书列为江青集团在上海的“重要骨干”之一。1967 年 7–8 月与陈阿大、叶昌明等在王洪文指挥下围攻上海柴油机厂；与徐景贤、马天水在上海科技系统制造冤案，冶金研究所所长周仁被关押迫害致死。1976 年 10 月在上海后方基地具体布置武装叛乱。
+  life:
+    - h: 上柴
+      from: 1967-07
+      to: 1967-08-04
+      text: |
+        7 月 31 日与陈阿大、张宝林、胡永年等绑架、关押群众二十五人，其中七人被关押八年；8 月 4 日参与水陆围攻上海柴油机厂，关押、伤残六百五十人。
+      cites: [ws-1982-chen-ada-case]
+    - h: 科技系统
+      from: 1968-11
+      to: 1969-10
+      text: |
+        徐景贤和马天水、戴立清等在上海科技系统制造冤案：1968 年 11 月诬陷冶金研究所所长周仁是“特务嫌疑”，将其关押迫害致死；1969 年 10 月诬陷七〇八研究所副总工程师袁随善是“特务”。
+      cites: [ws-1982-xu-jingxian-case]
+    - h: 1976 年 10 月
+      from: 1976-10-12
+      to: 1976-10-12
+      text: |
+        12 日与黄金海在上海第三十一棉纺织厂设立秘密联络点，起草叛乱用的标语口号；判决书说陈阿大、叶昌明、黄金海、马振龙、戴立清分别在工会、财贸、轻工业系统及上海后方基地布置武装叛乱。
+      cites: [ws-1982-chen-ada-case, ws-1982-xu-jingxian-case]
+  factions: [shgang, rebels]
+  fate:
+    - { date: 1967-07, s: rise, cite: ws-1982-chen-ada-case }
+    - { date: 1976-10-12, s: power, note: 设立叛乱秘密联络点, cite: ws-1982-chen-ada-case }
+  cites: [ws-1982-chen-ada-case, ws-1982-xu-jingxian-case]
+
+- id: sang-weichuan
+  name: 桑伟川
+  tier: 3
+  role1966: 上海煤气公司技术员
+  pinyin: Sāng Wěichuān
+  gender: m
+  bio: 上海煤气公司助理技术员。1969 年 11 月写《评上海的早晨——与丁学雷商榷》，反对徐景贤对小说《上海的早晨》的批判，被马天水、徐景贤、王秀珍诬为“现行反革命”，批斗、抄家；1975 年 10 月被逮捕，判刑七年。1982 年上海的几份判决书把这列为他们的罪行之一。
+  life:
+    - h: 一篇文章
+      from: 1969-11
+      to: 1969-11
+      text: |
+        1969 年 11 月写了一篇《评上海的早晨——与丁学雷商榷》的文章，“反对徐景贤对小说《上海的早晨》的批判”。
+      cites: [ws-1982-xu-jingxian-case]
+    - h: “现行反革命”
+      from: 1969-11
+      to: 1975-10
+      text: |
+        马天水、徐景贤、王秀珍诬陷他是“现行反革命”，陈阿大参与，指使人对他批斗、抄家。1975 年 10 月陈阿大等参与决定将他逮捕，判刑七年，“致桑的身心遭到严重摧残”。
+      cites: [ws-1982-chen-ada-case, ws-1982-xu-jingxian-case]
+    - h: 判决书
+      from: 1982
+      to: 1982-08-21
+      text: |
+        1982 年徐景贤、王秀珍、陈阿大三案的起诉书和判决书都把迫害桑伟川列为罪行。
+      cites: [ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case, ws-1982-chen-ada-case]
+  factions: [dissent]
+  fate:
+    - { date: 1969-11, s: attacked, note: 被诬为“现行反革命”, cite: ws-1982-xu-jingxian-case }
+    - { date: 1975-10, s: detained, note: 被捕，判刑七年, cite: ws-1982-chen-ada-case }
+  cites: [ws-1982-xu-jingxian-case, ws-1982-chen-ada-case, ws-1982-08-21-wang-xiuzhen-case]
+
+- id: chen-kang
+  name: 陈康
+  tier: 2
+  role1966: 昆明军区副司令员
+  pinyin: Chén Kāng
+  gender: m
+  bio: 昆明军区副司令员。1968 年 3 月被刘殷农等诬为与赵健民、张力雄结成“反革命联盟”；8 月云南省革委会成立时任副主任并在大会上讲话。九届起为中央委员。1974 年任云南省委常务书记兼昆明军区副司令员，刘殷农等又以“批王（必成）、打陈（康）”为“战役”攻击他。
+  life:
+    - h: “反革命联盟”
+      from: 1968-03
+      to: 1968-03
+      text: |
+        1968 年 3 月刘殷农等诬陷赵健民和昆明军区副司令员陈康、云南军区政委张力雄结成“反革命联盟”，“屠杀革命群众”。
+      cites: [ws-1982-liu-yinnong-case]
+    - h: 革委会与中央委员
+      from: 1968-08-13
+      to: 1969-10-01
+      text: |
+        1968 年 8 月云南省革委会成立大会上，“云南省革命委员会副主任、昆明部队副司令员陈康同志”讲话。1969 年国庆报道列他为在京的中共中央委员。
+      cites: [rmrb-1968-08-15-yunnan-revcom, rmrb-1969-10-02-national-day]
+    - h: “打陈”
+      from: 1974
+      to: 1976-09
+      text: |
+        1974 年刘殷农与黄兆其等组成“八人领导核心”，制定“批王(必成)、打陈(康)”的“三大战役”，诬陷“省委常务书记兼昆明军区副司令员陈康是‘复辟势力的急先锋’”。1976 年 1 月、9 月周恩来、毛泽东治丧名单中他列在中共中央委员里。
+      cites: [ws-1982-liu-yinnong-case, rmrb-1976-01-16-zhou-memorial, rmrb-1976-09-19-mao-memorial]
+  factions: [provincial]
+  fate:
+    - { date: 1968-03, s: attacked, note: 被诬“反革命联盟”, cite: ws-1982-liu-yinnong-case }
+    - { date: 1968-08-13, s: power, note: 云南省革委会副主任, cite: rmrb-1968-08-15-yunnan-revcom }
+    - { date: 1974, s: attacked, note: “批王打陈”, cite: ws-1982-liu-yinnong-case }
+  cites: [ws-1982-liu-yinnong-case, rmrb-1968-08-15-yunnan-revcom, rmrb-1969-10-02-national-day]
+
+- id: wang-shaoyong
+  name: 王少庸
+  tier: 3
+  role1966: 上海市革委会副主任（1967 年起）
+  pinyin: Wáng Shàoyōng
+  gender: m
+  bio: 上海市革命委员会副主任。1967 年 10 月向张春桥的特务组织“游雪涛小组”传达张春桥的话；1968 年与徐景贤诬陷上海京剧院院长周信芳，1970 年参与审定把陈丕显定为“叛徒”的审查报告。1976 年 10 月随徐景贤进入“一号指挥点”，12 日晚与朱永嘉、陈阿大等开会策划罢工、游行，提出“还我江青”等口号。
+  life:
+    - h: 游雪涛小组
+      from: 1967-10-26
+      to: 1967-10-26
+      text: |
+        1967 年 10 月 26 日，“上海市革命委员会副主任王少庸向游雪涛传达张春桥的话，说：‘要当心，你们去搞人家的特务活动，人家也会搞你们的特务活动的。’”
+      cites: [ws-1980-indictment]
+    - h: 周信芳与陈丕显
+      from: 1968-02
+      to: 1970-11
+      text: |
+        1968 年 2–3 月与徐景贤诬陷周信芳是“反共老手”“反革命分子”，决定将其关押，周信芳被迫害致死。1970 年 11 月与徐景贤、王洪文审定陈丕显的审查报告，诬陷他是“叛徒”“现行反革命分子”。
+      cites: [ws-1982-xu-jingxian-case]
+    - h: 1976 年 10 月
+      from: 1976-10-08
+      to: 1976-10-12
+      text: |
+        10 月 8 日深夜随徐景贤进入丁香花园“一号指挥点”。12 日晚与朱永嘉、黄涛、陈阿大等开会，策划停产罢工、游行示威，控制报社、电台，提出“还我江青”“还我春桥”“还我文元”“还我洪文”，要“决一死战”。
+      cites: [ws-1982-xu-jingxian-case, ws-1980-indictment, ws-1981-01-25-judgment]
+  factions: [shgang]
+  fate:
+    - { date: 1967-10-26, s: power, note: 上海市革委会副主任, cite: ws-1980-indictment }
+    - { date: 1976-10-08, s: power, note: 进入“一号指挥点”, cite: ws-1982-xu-jingxian-case }
+  cites: [ws-1980-indictment, ws-1982-xu-jingxian-case, ws-1981-01-25-judgment, ws-1982-zhu-yongjia-case]
+
+- id: zhu-meifu
+  name: 朱梅馥
+  died: 1966-09-03
+  deathKind: suicide
+  deathPlace: 上海
+  tier: 3
+  role1966: 傅雷的妻子
+  pinyin: Zhū Méifù
+  gender: f
+  bio: 傅雷的妻子。1966 年 8 月底红卫兵在他们家里搜出所谓“反党罪证”（一面小镜子和一张褪色的旧画报），9 月 2 日夜她与傅雷给她的哥哥朱人秀写下遗书，交代房租、寄存物品和火葬费，随后两人自尽。
+  life:
+    - h: 搜查
+      from: 1966-08
+      to: 1966-09-02
+      text: |
+        遗书说罪证“是在我们家里搜出的，百口莫辩的，可是我们至死也不承认是我们自己的东西（实系寄存箱内理出之物）”；姑母傅仪和三姐朱纯寄存的饰物“同时被红卫兵取去没收”。
+      cites: [fu-lei-1966-09-02-note]
+    - h: 遗书
+      from: 1966-09-02
+      to: 1966-09-02
+      text: |
+        遗书落款“傅雷 梅馥一九六六年九月二日夜”，托朱人秀：“因为你是梅馥的胞兄，因为我们别无至亲骨肉，善后事只能委托你了。”留给保姆周菊娣六百元存单，“她是劳动人民，一生孤苦，我们不愿她无故受累”；“现钞53.30元，作为我们火葬费”。
+      cites: [fu-lei-1966-09-02-note]
+  factions: [academics]
+  fate:
+    - { date: 1966-08, s: attacked, note: 被抄家, cite: fu-lei-1966-09-02-note }
+    - { date: 1966-09-03, s: dead, note: 与傅雷一起自尽, cite: fu-lei-1966-09-02-note }
+  cites: [fu-lei-1966-09-02-note]
+
+- id: xu-zirong
+  name: 徐子荣
+  died: 1969-06
+  deathKind: persecuted
+  tier: 3
+  role1966: 公安部副部长
+  pinyin: Xú Zǐróng
+  gender: m
+  bio: 公安部副部长，三届全国人大常委会委员。1960 年底信阳事件后与王从吾、王任重一起向信阳地区作过指示。文革中被诬为罗瑞卿在公安部的“代理人”，1968 年 1 月 9 日与刘仁、冯基平、崔月犁一起被加铐关进监狱，1969 年 6 月在狱中被摧残致死。
+  life:
+    - h: 信阳与人大
+      from: 1960-12
+      to: 1965-01-03
+      text: |
+        1960 年 12 月信阳地委的整风报告说，会议传达了“王从吾、徐子荣、王任重同志的指示”。1965 年 1 月 3 日当选三届全国人大常委会委员。
+      cites: [ws-1960-12-22-xinyang-rectification, ws-1965-01-03-npc-announcement]
+    - h: 入狱
+      from: 1968-01-03
+      to: 1968-08-27
+      text: |
+        1968 年 1 月 3 日齐景和报告诬陷刘仁、冯基平、徐子荣、崔月犁出卖情报，4 日康生批示逮捕，9 日加铐入狱。8 月郭玉峰编造的三届人大常委“政治情况的报告”也诬陷了他。
+      cites: [ws-1983-qi-jinghe-case, ws-1980-indictment]
+    - h: 死于狱中
+      from: 1969-06
+      to: 1971
+      text: |
+        1969 年 6 月在狱中被摧残致死。1971 年中央批转的《第十五次全国公安会议纪要》仍称“罗瑞卿离开公安部以后，仍指使其代理人叛徒徐子荣等”干扰毛泽东路线。
+      cites: [ws-1983-qi-jinghe-case, ws-1971-public-security-15]
+  factions: [plly]
+  fate:
+    - { date: 1968-01-09, s: detained, note: 加铐入狱, cite: ws-1983-qi-jinghe-case }
+    - { date: 1969-06, s: dead, note: 狱中被迫害致死, cite: ws-1983-qi-jinghe-case }
+  cites: [ws-1983-qi-jinghe-case, ws-1980-indictment, ws-1965-01-03-npc-announcement, ws-1960-12-22-xinyang-rectification]

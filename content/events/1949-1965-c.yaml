@@ -57,6 +57,7 @@
   cites: [ws-1951-10-24-cppcc-resist-us]
 
 - id: 1952-02-22-national-coalition
+  topics: [ethnic-religion]
   date: 1952-02-22
   title: 政务院：建立民族民主联合政府
   lane: local
@@ -141,6 +142,7 @@
   cites: [ws-1952-06-13-end-five-anti]
 
 - id: 1952-08-08-regional-autonomy
+  topics: [ethnic-religion]
   date: 1952-08-08
   title: 《民族区域自治实施纲要》
   lane: local
@@ -189,6 +191,7 @@
   cites: [ws-1954-03-04-joint-venture-report]
 
 - id: 1954-03-06-suiyuan-merger
+  topics: [ethnic-religion]
   date: 1954-03-06
   title: 撤销绥远省，并入内蒙古
   lane: local
@@ -213,6 +216,7 @@
   cites: [ws-1954-09-02-joint-venture-rules]
 
 - id: 1954-10-10-chiang-national-day
+  topics: [hk-macau-taiwan]
   date: 1954-10-10
   title: 蒋介石国庆文告：号召大陆“配合国军反攻”
   lane: intl
@@ -372,6 +376,7 @@
   cites: [ws-1963-09-06-first-comment]
 
 - id: 1962-04-yili
+  topics: [ethnic-religion]
   date: 1962-04
   end: 1962-05
   title: 伊犁事件：几万人越境入苏
@@ -418,6 +423,7 @@
   cites: [ws-1963-07-31-nuclear-ban-statement]
 
 - id: 1963-09-06-first-comment
+  topics: [global]
   date: 1963-09-06
   title: 一评：《苏共领导同我们分歧的由来和发展》
   lane: ideology

@@ -27,7 +27,7 @@
   weight: 3
   place: 北戴河—山海关—蒙古温都尔汗
   summary: 1971 年 3 月林立果等在上海制订《“571工程”纪要》。8–9 月毛泽东南巡，沿途批评林彪；9 月 8 日林彪下手令“盼照立果、宇驰同志传达的命令办”，林立果部署在途中谋害毛泽东。毛泽东突然改变行程，12 日回到北京。13 日凌晨林彪、叶群、林立果乘三叉戟从山海关起飞北逃，在蒙古温都尔汗附近坠毁，机上全部死亡；周宇驰、于新野劫持的直升机被迫降。此后黄永胜、吴法宪、李作鹏、邱会作被隔离审查，全国传达“林彪反党集团”的材料。
-  people: [lin-biao, ye-qun, lin-liguo, zhou-yuchi, mao-zedong, zhou-enlai, huang-yongsheng, wu-faxian, li-zuopeng, qiu-huizuo, jiang-tengjiao, wang-fei, wang-weiguo, chen-liyun]
+  people: [lin-biao, ye-qun, lin-liguo, zhou-yuchi, mao-zedong, zhou-enlai, huang-yongsheng, wu-faxian, li-zuopeng, qiu-huizuo, jiang-tengjiao, wang-fei, wang-weiguo, chen-liyun, liu-peifeng, yu-xinye, li-weixin, hu-ping, pan-jingyin, chen-xiuwen]
   voices:
     - { voice: official1966, text: 林彪于一九七一年九月十三日仓惶出逃，狼狈投敌，叛党叛国，自取灭亡（1971 年 9 月 18 日中共中央通知）, cite: ws-1971-09-18-notice, quote: true }
     - { voice: official1966, text: 根据确实消息，出境的三叉戟飞机已于蒙古境内温都尔汗附近坠毁（同一通知）, cite: ws-1971-09-18-notice, quote: true }
@@ -38,6 +38,7 @@
   cites: [ws-1971-09-18-notice, ws-1971-09-29-notice, ws-1971-12-lin-chen-material-1, ws-1981-01-25-judgment, frus-v17-d157]
 
 - id: 1971-10-25-un-seat
+  topics: [hk-macau-taiwan]
   date: 1971-10-25
   title: 联合国恢复中华人民共和国席位
   lane: intl
@@ -58,8 +59,8 @@
   lane: center
   weight: 2
   place: 北京
-  summary: 文革开始后第一次召开全国人大，通过新宪法（不设国家主席）。病中的周恩来作政府工作报告，重提“在本世纪内，全面实现农业、工业、国防和科学技术的现代化”；邓小平任第一副总理，张春桥任副总理。江青一派想安排自己人进内阁，1974 年 10 月派王洪文到长沙向毛泽东告周恩来的状，没有成功。会后邓小平主持日常工作，开始“整顿”。
-  people: [zhou-enlai, deng-xiaoping, zhang-chunqiao, wang-hongwen, jiang-qing, mao-zedong, ji-dengkui, hua-guofeng]
+  summary: 文革开始后第一次召开全国人大，通过新宪法（不设国家主席）。病中的周恩来作政府工作报告，重提“在本世纪内，全面实现农业、工业、国防和科学技术的现代化”；邓小平任第一副总理，张春桥任副总理；工人出身的吴桂贤、孙健也任副总理，营业员出身的李素文任人大常委会副委员长，乒乓球运动员庄则栋任国家体委主任。江青一派想安排自己人进内阁，1974 年 10 月派王洪文到长沙向毛泽东告周恩来的状，没有成功。会后邓小平主持日常工作，开始“整顿”。
+  people: [zhou-enlai, deng-xiaoping, zhang-chunqiao, wang-hongwen, jiang-qing, mao-zedong, ji-dengkui, hua-guofeng, wu-guixian, sun-jian, li-suwen, zhuang-zedong]
   voices:
     - { voice: official1966, text: 一九七四年十月，“四人帮”背着中央政治局，私自派王洪文去见毛主席，告周恩来总理的状，妄图利用十届二中全会和四届人大组织他们的“内阁”，遭到毛主席的痛斥（1976 年 10 月中共中央通知）, cite: ws-1976-10-18-notice, quote: true }
     - { voice: official1966, text: 第二步，在本世纪内，全面实现农业、工业、国防和科学技术的现代化，使我国国民经济走在世界的前列（周恩来政府工作报告）, cite: ws-1975-01-13-zhou-report, quote: true }

@@ -186,6 +186,7 @@
   cites: [ws-1967-04-06-ten-orders, ws-1967-04-13-inner-mongolia, ws-1967-08-13-qinghai]
 
 - id: 1967-04-13-inner-mongolia-decision
+  topics: [ethnic-religion]
   date: 1967-04-13
   title: 中央处理内蒙古问题的决定
   lane: local
@@ -293,6 +294,7 @@
   cites: [ws-1980-indictment]
 
 - id: 1967-08-22-british-office
+  topics: [hk-macau-taiwan, global]
   date: 1967-08-22
   title: 火烧英国驻华代办处
   lane: intl
@@ -544,6 +546,7 @@
   cites: [ws-1967-04-28-army-people, ws-1967-04-06-ten-orders]
 
 - id: 1967-05-01-may-day
+  topics: [global]
   date: 1967-05-01
   title: 天安门“五一”：三百万人与新贵上城楼
   lane: mass
@@ -630,6 +633,7 @@
   cites: [ws-1967-07-01-party-road]
 
 - id: 1967-07-03-burma
+  topics: [global]
   date: 1967-07-03
   title: 缅甸排华事件，北京集会声讨奈温政府
   lane: intl
@@ -644,6 +648,7 @@
   verify: true
 
 - id: 1967-07-08-shatoujiao
+  topics: [hk-macau-taiwan]
   date: 1967-07-08
   title: 沙头角枪战，香港“反英抗暴”升级
   lane: intl
@@ -759,6 +764,7 @@
   cites: [rmrb-1967-10-21-cadre-policy]
 
 - id: 1967-11-inner-mongolia-revcom
+  topics: [ethnic-religion]
   date: 1967-11
   title: 内蒙古自治区革命委员会成立
   lane: local
@@ -848,6 +854,7 @@
   verify: true
 
 - id: 1967-xinjiang-renegades
+  topics: [ethnic-religion]
   date: 1967
   title: “新疆叛徒集团”冤案
   lane: local

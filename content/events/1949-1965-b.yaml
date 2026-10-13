@@ -135,6 +135,7 @@
   cites: [ws-1958-02-19-prc-dprk-statement, ws-1958-10-30-cpv-eight-years]
 
 - id: 1958-10-taiwan-messages
+  topics: [hk-macau-taiwan]
   date: 1958-10-06
   end: 1958-11
   title: 炮击金门与三份《告台湾同胞书》
@@ -153,6 +154,7 @@
   cites: [ws-1958-10-06-taiwan-1, ws-1958-10-25-taiwan-2, ws-1958-11-taiwan-3]
 
 - id: 1959-03-tibet
+  topics: [ethnic-religion]
   date: 1959-03-10
   end: 1959-04-28
   title: 西藏事件：拉萨武装冲突与解散西藏地方政府
@@ -261,6 +263,7 @@
   cites: [ws-1962-10-27-nehru-philosophy, ws-1959-09-08-zhou-nehru, ws-1961-12-06-mfa-india]
 
 - id: 1965-09-03-people-war
+  topics: [global]
   date: 1965-09-03
   title: 林彪《人民战争胜利万岁》
   lane: army

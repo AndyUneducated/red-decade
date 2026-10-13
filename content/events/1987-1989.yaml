@@ -352,6 +352,7 @@
   cites: [ws-1988-cr-books-rules]
 
 - id: 1989-03-07-lhasa-martial-law
+  topics: [ethnic-religion]
   date: 1989-03-07
   title: 国务院令：拉萨市戒严
   lane: local
@@ -363,6 +364,7 @@
   cites: [ws-1989-03-07-lhasa-martial-law]
 
 - id: 1990-04-lhasa-lift-martial-law
+  topics: [ethnic-religion]
   date: 1990-04
   title: 国务院令：自 1990 年 5 月 1 日起解除拉萨戒严
   lane: local
@@ -395,6 +397,7 @@
   cites: [ws-1989-10-31-assembly-law]
 
 - id: 1987-09-lhasa-unrest
+  topics: [ethnic-religion]
   date: 1987-09
   end: 1987-10
   title: 拉萨骚乱与西藏人大反分裂决议
@@ -409,6 +412,7 @@
   cites: [ws-1987-tibet-anti-separatism-resolution]
 
 - id: 1989-06-tibet-telegram
+  topics: [ethnic-religion]
   date: 1989-06
   title: 西藏党政军拥护“平息暴乱”电：拉萨戒严继续
   lane: local

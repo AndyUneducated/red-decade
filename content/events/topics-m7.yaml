@@ -1,0 +1,47 @@
+# M7 横向专题新增事件。按专题收集，日期跨越各时期，时间线上照常按日期出现。
+
+- id: 1971-cambodia-coverage
+  topics: [global]
+  date: 1971-01
+  end: 1972
+  title: 《人民日报》的柬埔寨报道：西哈努克、统一阵线与“农村包围城市”
+  lane: intl
+  weight: 1
+  summary: 1970 年 3 月 18 日朗诺政变后，《人民日报》把西哈努克亲王为首的柬埔寨民族统一阵线和王国民族团结政府写作柬埔寨抗美战争的领导者。1971 年 1 月《人民日报》评论员文章引毛泽东“弱国能够打败强国，小国能够打败大国”；3 月郭志的文章说柬埔寨民族解放武装力量“用枪杆子打出了农村包围城市的大好形势”；社论称中国要做柬埔寨抗美战争的“坚强后盾和可靠后方”；1972 年新华社通讯写东北部解放区农民组织互助组，“为实行农业合作化作好准备”。这些文章只写西哈努克亲王和统一阵线的领导，没有提到柬埔寨共产党。
+  voices:
+    - { voice: official1966, text: 弱国能够打败强国，小国能够打败大国（1971 年 1 月评论员文章引毛泽东语）, cite: ws-cambodia-advance, quote: true }
+    - { voice: official1966, text: 柬埔寨民族解放武装力量在柬埔寨民族统一阵线的领导下，用枪杆子打出了农村包围城市的大好形势（1971 年 3 月郭志文章）, cite: ws-cambodia-victorious-year, quote: true }
+    - { voice: official1966, text: 中国人民遵照伟大领袖毛主席的教导，誓作柬埔寨人民抗美救国战争的坚强后盾和可靠后方（1971 年社论）, cite: ws-cambodia-heroic-people, quote: true }
+    - { voice: official1966, text: 在生产方面，这个省的农民们组织了互助组，为实行农业合作化作好准备（1972 年新华社通讯，腊塔纳基里省）, cite: ws-cambodia-liberated-areas, quote: true }
+    - { voice: editor, text: 四篇文章都没有落款日期，年月由正文推定，见来源说明。“没有提到柬埔寨共产党”是对这四篇和 1973 年西哈努克宴会报道逐字检索的结果。, cite: ws-cambodia-advance }
+  cites: [ws-cambodia-advance, ws-cambodia-victorious-year, ws-cambodia-heroic-people, ws-cambodia-liberated-areas, rmrb-1973-04-13-sihanouk-banquet]
+
+- id: 1974-11-11-chiang-culture-renaissance
+  topics: [hk-macau-taiwan]
+  date: 1974-11-11
+  title: 蒋介石致词中华文化复兴运动推行委员会：“毁孔子即是与全民为敌”
+  lane: culture
+  weight: 1
+  place: 台北
+  summary: 台湾的中华文化复兴运动推行委员会成立满七年，蒋介石向第七次全体委员会议书面致词。他把这一运动定位为“反共的文化战线”，称“文化战又是总体战的前卫”，把孔孟之道、伦常与三民主义连成一体；对大陆，他说“毁孔子即是与全民为敌”，又说毛泽东“自命超出嬴秦一百倍”，必步秦亡后尘。致词发表时大陆的批林批孔运动已进行了大半年。这是对立一方的文告。
+  voices:
+    - { voice: doc, text: 文化復興運動的影響，在反共的文化戰線上，已有顯著的進展，且已給予毛共匪徒以嚴重的打擊（蒋介石致词）, cite: ws-1974-chiang-culture-renaissance, quote: true }
+    - { voice: doc, text: 文化建設為一切建設的源頭，而文化戰又是總體戰的前衛（同上）, cite: ws-1974-chiang-culture-renaissance, quote: true }
+    - { voice: doc, text: 毀孔子即是與全民為敵，而自取滅亡（同上）, cite: ws-1974-chiang-culture-renaissance, quote: true }
+    - { voice: doc, text: 毛賊腆顏無恥，竟自命超出嬴秦一百倍（同上）, cite: ws-1974-chiang-culture-renaissance, quote: true }
+    - { voice: official1966, text: 一场群众性的深入批林批孔的政治斗争，正在各个方面展开（1974 年 2 月 2 日《人民日报》社论）, cite: ws-1974-02-02-editorial, quote: true }
+  cites: [ws-1974-chiang-culture-renaissance, ws-1974-02-02-editorial]
+
+- id: 1987-04-13-macau-declaration
+  topics: [hk-macau-taiwan]
+  date: 1987-04-13
+  title: 中葡关于澳门问题的联合声明签订：1999 年 12 月 20 日恢复行使主权
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 中葡两国政府在北京签订联合声明，确认澳门是中国领土，中国于 1999 年 12 月 20 日恢复行使主权，过渡期内由葡萄牙负责行政管理。澳门特别行政区不实行社会主义的制度和政策，五十年不变。条文几乎照搬 1984 年中英联合声明，但香港文本的“保持香港原有的资本主义制度和生活方式”，在澳门文本里写作“保持现行的社会、经济制度和生活方式”。
+  voices:
+    - { voice: doc, text: 澳门地区（包括澳门半岛、氹仔岛和路环岛，以下称澳门）是中国领土，中华人民共和国政府将于1999年12月20日对澳门恢复行使主权（联合声明第一条）, cite: ws-1987-04-13-macau-declaration, quote: true }
+    - { voice: doc, text: 规定澳门特别行政区成立后不实行社会主义的制度和政策，保持现行的社会、经济制度和生活方式，五十年不变（附件一）, cite: ws-1987-04-13-macau-declaration, quote: true }
+    - { voice: doc, text: 规定香港特别行政区成立后不实行社会主义的制度和政策，保持香港原有的资本主义制度和生活方式，五十年不变（1984 年中英联合声明附件一）, cite: ws-1984-09-26-hongkong-declaration, quote: true }
+  cites: [ws-1987-04-13-macau-declaration, ws-1984-09-26-hongkong-declaration]
