@@ -169,8 +169,8 @@
   title: 信阳事件（1959–1960）
   period: 1959–1960
   region: 河南信阳专区
-  summary: 大饥荒中死亡最惨重的地区之一。同一事件留下三层数字：1960 年 4 月地委向上报的全区数字；县委书记授意的瞒报数字；1961 年整风整社后县里重新统计的数字。商城一个县一年后的统计，就超过了地委一年前报的全区总数。1960 年 12 月地委的整风报告也承认，正阳、新蔡两县和嵖岈山公社的原报数字只有揭发数的几分之一。
-  events: [1960-12-22-xinyang-rectification, 1958-chayashan-commune]
+  summary: 大饥荒中死亡最惨重的地区之一。同一事件留下三层数字：1960 年 4 月地委向上报的全区数字；县委书记授意的瞒报数字；1961 年整风整社后县里重新统计的数字。商城一个县一年后的统计，就超过了地委一年前报的全区总数。1960 年 12 月地委的整风报告也承认，正阳、新蔡两县和嵖岈山公社的原报数字只有揭发数的几分之一。1962 年的处分决定又给出两组对照：地区公安处统计 1959 年死亡 23 万人，地委让“重新统计”成 19 万人再上报；罗山县委书记 1960 年 4 月报 3224 人，实际死亡三万五千余人。
+  events: [1960-12-22-xinyang-rectification, 1958-chayashan-commune, 1960-08-26-shangcheng-self-criticism, 1960-09-07-huangchuan-conclusion, 1962-04-23-xu-wenbo-punishment]
   people: [lu-xianwen]
   counts:
     - { measure: reported, what: 地委上报（全区，含正常死亡）, scope: 截至 1960 年 3 月底, value: 71658, voice: doc, cite: ws-1960-04-04-xinyang-deaths-report, quote: 71658人（包括正常死亡在内） }
@@ -189,7 +189,18 @@
     - { measure: none, what: 潢川县委的布置, scope: 潢川县, voice: doc, cite: ws-1962-huangchuan-zhang-zuohe, quote: 死人数字不经县委同意，不向他（指省委来的同志）汇报 }
     - { measure: reported, what: 铁佛寺水库溃坝 · 上报, scope: 1960-05-17 商城, value: 1090, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 实死一千一百四十多人，张念仲为逃避罪责只上报一千零九十人 }
     - { measure: deaths, what: 铁佛寺水库溃坝 · 估计, scope: 1960-05-17 商城, value: 2000, approx: 多, voice: doc, cite: ws-1961-zhang-nianzhong, quote: 估计死亡两千多人 }
-  caveats: 全区的最终统计（1961 年以后）本库尚未找到一手文本。1960 年报告把死亡归因于“浮肿病、紫疳病和其他疫病”，并“包括正常死亡在内”；1961 年的县级报告归因于“反瞒产”与断粮，两者不是同一口径。1960 年 12 月的地委报告把死亡归于敌人“打着我们的招牌”进行“阶级报复”，那是当时上级给出的定性；报告里的揭发数是“初步”数字。
+    - { measure: deaths, what: 地区公安处据各县统计, scope: 全区 · 1959 年, value: 230000, voice: doc, cite: ws-1962-07-10-lu-xianwen-punishment, quote: 1959年死人23万，其中浮肿病死八万人 }
+    - { measure: reported, what: 重新统计后报省公安厅, scope: 全区 · 1959 年, value: 190000, voice: doc, cite: ws-1962-07-10-lu-xianwen-punishment, quote: 让重新统计十九万人后，才上报省公安厅 }
+    - { measure: reported, what: 县委第一书记许文波上报, scope: 罗山县 · 1960-04-21, value: 3224, voice: doc, cite: ws-1962-04-23-xu-wenbo-punishment, quote: 许文波于一九六零年四月二十一日上报只死亡三千二百二十四人 }
+    - { measure: deaths, what: 1962 年县委处分决定所记实际死亡, scope: 罗山县, value: 35000, approx: 余, voice: doc, cite: ws-1962-04-23-xu-wenbo-punishment, quote: 全县实际死亡三万五千余人 }
+    - { measure: deaths, what: 收容外流灾民致死, scope: 罗山县收容所, value: 659, voice: doc, cite: ws-1962-04-23-xu-wenbo-punishment, quote: 收容外流人口七千五百零一人……致死灾民六百五十九人 }
+    - { measure: deaths, what: 1962 年县委结论所记死亡, scope: 光山县孙铺公社, value: 8000, approx: 余, voice: doc, cite: ws-1962-06-05-wu-liangbao-conclusion, quote: 孙铺公社公死亡8000余人，其中劳力4000余人，死绝710多户 }
+    - { measure: none, what: 1960 年 8 月县委检查只记外流, scope: 罗山县, voice: doc, cite: ws-1960-08-24-luoshan-outflow, quote: 全县共发生人口外流4611人（包括劳力3134人）, note: 这份检查写了外流人数，没有写死亡人数；同一县委 1962 年的处分决定记全县实际死亡三万五千余人。 }
+    - { measure: deaths, what: 县委 1960 年 8 月检查统计, scope: 商城县 · 1959 年 11 月至 1960 年 3 月底, value: 44756, voice: doc, cite: ws-1960-08-26-shangcheng-self-criticism, quote: 共死亡的 44756人，其中因疫病死亡的 30292人，正常死亡的 14464人（可能大些） }
+    - { measure: reported, what: 扩干会统计（未上报）, scope: 潢川县 · 1960 年 5 月, value: 31800, approx: 多, voice: doc, cite: ws-1960-09-07-huangchuan-conclusion, quote: 在一次扩干会上统计全县死亡 31800多人 }
+    - { measure: reported, what: 公社“重作研究”后报县委, scope: 潢川县 · 1960 年 5 月, value: 27330, voice: doc, cite: ws-1960-09-07-huangchuan-conclusion, quote: 二次向县委报告全县死亡 27330人 }
+    - { measure: deaths, what: 省委检查组澄清的伤亡, scope: 潢川县 · 占原有人口 12%, value: 55032, voice: doc, cite: ws-1960-09-07-huangchuan-conclusion, quote: 经过省委检查组最后澄清实际伤亡 55032人，超过县委原统计报告数字一万余人 }
+  caveats: 全区的最终统计（1961 年以后）本库尚未找到一手文本；1962 年路宪文处分决定所引的 23 万人只到 1959 年底。罗山县委书记许文波 1962 年 1 月的交代逐月对照：1959 年 12 月“已经死到一万余人，只给地委汇报死一千余人”，1960 年 2 月“已经死到三万余人，只给地委汇报四千余人”。1960 年报告把死亡归因于“浮肿病、紫疳病和其他疫病”，并“包括正常死亡在内”；1961 年的县级报告归因于“反瞒产”与断粮，两者不是同一口径。1960 年 12 月的地委报告把死亡归于敌人“打着我们的招牌”进行“阶级报复”，那是当时上级给出的定性；报告里的揭发数是“初步”数字。
 
 - id: jiabiangou
   title: 甘肃夹边沟劳教农场
@@ -201,6 +212,35 @@
   counts:
     - { measure: detained, what: 送场劳教人数, value: 2369, voice: doc, cite: ws-1964-01-25-jiabiangou, quote: 原送该场劳教的共二千三百六十九人 }
     - { measure: none, what: 死亡人数, voice: doc, cite: ws-1964-01-25-jiabiangou, quote: 为了从酒泉夹边沟劳教人员大批死亡的事件中，认真总结经验教训 }
+
+- id: guangxi-1956
+  title: 广西 1955–1956 年因灾饿死人
+  period: 1955–1956
+  region: 广西平乐、荔浦、横县等地
+  summary: 大跃进之前的一次饥荒。1957 年 6 月国务院的处分决定承认平乐、荔浦、横县等地农民“大批逃荒和饿死”，撤销了代理省长和分管粮食的副省长的职务；中共中央已先撤销省委第一书记陈漫远的职务。决定通篇没有死亡人数。
+  events: [1957-06-17-guangxi-famine-punishment]
+  counts:
+    - { measure: none, what: 死亡人数, voice: doc, cite: ws-1957-06-17-guangxi-famine-punishment, quote: 以致在1956年造成平乐、荔浦、横县等地农民大批逃荒和饿死的严重情况, note: 国务院决定只写“大批”，不给数字。 }
+  caveats: 决定把灾荒归于“严重的自然灾害”和省里干部的“骄傲情绪”，同时肯定粮食统购统销“起了巨大的作用”。监察部给国务院的报告本身本库没有文本。
+
+- id: shouyang-1960
+  title: 山西寿阳浮肿病调查（1960）
+  period: '1960'
+  region: 山西寿阳县松塔公社
+  summary: 山西省公安厅、检察院、高级法院 1960 年 7 月联名上报的一份典型调查，只涉及一个公社的四个管理区。报告列出的原因是“劳多逸少”和个别生产队对病人“不给吃饭”，没有提到口粮标准。
+  events: []
+  counts:
+    - { measure: deaths, what: 浮肿病患者中死亡, scope: 松塔公社四个管理区, value: 9, voice: doc, cite: ws-1960-07-12-shouyang-edema, quote: 最近患浮肿病的社员共有104人，其中严重的28人，死亡9人 }
+    - { measure: none, what: 一名支部干部的布置, scope: 下龙泉管理区, voice: doc, cite: ws-1960-07-12-shouyang-edema, quote: 硬死一口人，也不让荒一亩苗，谁不参加劳动，就不给谁吃饭 }
+  caveats: 这是政法机关对一个公社的抽查，不是全县或全省的统计；山西全省的数字本库没有一手文本。
+
+- id: famine-national
+  title: 大饥荒的全国死亡人数
+  period: 1959–1961
+  region: 全国
+  summary: 本库目前的一手文本都是县、地区一级的。1960 年 12 月中共中央转发山东、河南、甘肃、贵州“严重情况”的指示，把这些地区的问题定性为“封建势力在地方上篡夺领导”，没有给出死亡数字。国家统计局 1959–1978 年间的公报本库也没有（见研究结论 C047）。
+  events: [1960-12-08-four-provinces-directive]
+  need: 国家统计局后来公布的 1959–1961 年人口数据，以及各种人口学估算所依据的原始文本
 
 - id: beijing-1989
   title: 1989 年 6 月北京

@@ -317,3 +317,48 @@
     - { voice: officialLater, text: “章罗同盟”在组织上应肯定其不存在，但在作为资产阶级右派政治势力的代表的意义上仍应认为存在（同上）, cite: ws-1980-05-08-rightist-review, quote: true }
     - { voice: officialLater, text: 后来又对形势估计得过于严重，随着运动的发展，特别在后期，确实犯了扩大化的错误（同上）, cite: ws-1980-05-08-rightist-review, quote: true }
   cites: [ws-1980-05-08-rightist-review]
+
+- id: 1957-06-17-guangxi-famine-punishment
+  date: 1957-06-17
+  title: 国务院处分广西 1956 年饿死人的失职干部
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 国务院全体会议第五十二次会议听取监察部关于广西农民大量逃荒死亡的报告后作出决定：广西许多地区 1955–1956 年遭受严重自然灾害，省里领导干部“盲目乐观”，1955 年已出现逃荒和饿死之后仍未吸取教训，以致 1956 年平乐、荔浦、横县等地农民大批逃荒和饿死。实际代理省长职务的副省长郝中士、分管财经粮食的副省长肖一舟撤职；中共中央已撤销省委第一书记陈漫远的职务，国务院撤销其省人民委员会委员职务；平乐专署副专员撤职，荔浦县副县长记大过。决定没有死亡人数。
+  voices:
+    - { voice: doc, text: 以致在1956年造成平乐、荔浦、横县等地农民大批逃荒和饿死的严重情况（国务院决定）, cite: ws-1957-06-17-guangxi-famine-punishment, quote: true }
+    - { voice: doc, text: 没有抓紧救灾工作，严重失职，并且在事后检查的时候，企图推托责任，决定给予撤职处分（同上，对郝中士）, cite: ws-1957-06-17-guangxi-famine-punishment, quote: true }
+    - { voice: doc, text: 广西省人民委员会这种对人民生命安全漠不关心的作风和严重失职的行为（同上）, cite: ws-1957-06-17-guangxi-famine-punishment, quote: true }
+    - { voice: editor, text: 这是大跃进之前中央因饿死人处分省级干部的一例。决定同时肯定统购统销“对灾区人民克服困难度过灾荒起了巨大的作用”，把问题归于省里没有正确执行这一政策。 }
+  cites: [ws-1957-06-17-guangxi-famine-punishment]
+
+- id: 1960-12-08-four-provinces-directive
+  date: 1960-12-08
+  title: 中央指示：山东、河南、甘肃、贵州的“严重情况”是阶级斗争
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1960 年 12 月 8 日，中共中央转发中央监委关于贵州遵义、毕节地区的监察工作情况反映，并指示山东、河南、甘肃、贵州省委检查纠正。指示说这些地区干部中有铺张浪费、贪污腐化、违法乱纪、不顾人民死活的情况，其中某些破坏行为“显然是封建势力在地方上篡夺领导”，是“农村中阶级斗争的最激烈表现”；引毛泽东的话，要“继续实行社会主义革命”并“彻底完成民主革命的未了任务”。指示要求把十二条紧急指示“无保留地传达到群众中去”，“先分是非，后清敌我”。全文没有死亡数字。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 其中某些反革命的破坏行为，显然是封建势力在地方上篡夺领导，实行绝望性的破坏性的报复。这是农村中阶级斗争的最激烈表现（中共中央指示）, cite: ws-1960-12-08-four-provinces, quote: true }
+    - { voice: doc, text: 毛泽东同志说，我们不仅要继续实行社会主义革命而且还要彻底完成民主革命的未了任务（同上）, cite: ws-1960-12-08-four-provinces, quote: true }
+    - { voice: doc, text: 大好形势还占主要部分，但是，这部分现象却是大不好形势，性质极其严重（同上）, cite: ws-1960-12-08-four-provinces, quote: true }
+    - { voice: doc, text: 先分是非，后清敌我（同上）, cite: ws-1960-12-08-four-provinces, quote: true }
+    - { voice: editor, text: 同月 22 日信阳地委的整风报告把信阳事件定性为“反革命复辟”“民主革命不彻底”（见该条），用的是同一套说法。中央监委的那份反映本身本库没有文本。 }
+  cites: [ws-1960-12-08-four-provinces, ws-1960-12-22-xinyang-rectification]
+
+- id: 1962-04-23-xu-wenbo-punishment
+  date: 1962-04-23
+  title: 罗山县委处分许文波：报死 3224 人，实际三万五千余人
+  lane: local
+  weight: 2
+  place: 信阳
+  summary: 河南信阳地区罗山县原县委第一书记许文波 1961 年 1 月已被开除党籍、逮捕。1962 年 4 月罗山县委的处分决定称他为“阶级异己分子”，列举其在 1959 年冬至 1960 年春“反瞒产”、扣压统销粮、设站收容外流农民（收容 7501 人，致死 659 人）、向省委和中央检查组瞒报死亡等事；全县实际死亡三万五千余人，他 1960 年 4 月上报三千二百二十四人。决定维持开除党籍，建议判处十年有期徒刑。
+  voices:
+    - { voice: doc, text: 全县实际死亡三万五千余人，许文波于一九六零年四月二十一日上报只死亡三千二百二十四人（罗山县委处分决定）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+    - { voice: doc, text: 十二月分已经死到一万余人，只给地委汇报死一千余人（同上，引许文波 1962 年 1 月的交代）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+    - { voice: doc, text: 外流人口是富裕中农向我们的猖狂进攻，制造社会秩序混乱（同上，引许文波 1959 年的电话会讲话）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+    - { voice: doc, text: 原开除党籍处分不变，并建议政府依法判处十年有期徒刑（同上）, cite: ws-1962-04-23-xu-wenbo-punishment, quote: true }
+    - { voice: editor, text: 同一县委 1960 年 8 月的外流人口检查只写外流 4611 人，没有写死亡人数（罗山县委关于外流人口情况的检查报告）。处分决定原文“许文波”“徐文波”混用，引文照录。 }
+  cites: [ws-1962-04-23-xu-wenbo-punishment, ws-1960-08-24-luoshan-outflow]
