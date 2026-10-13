@@ -1,0 +1,171 @@
+# M5-1 中文原文（维基文库）第 7 批：划分阶级成份、城郊土改、治安保卫委员会、粮食市场管理、中印西藏通商协定、
+# 中印尼双重国籍条约、三次与四次中日民间贸易协定、农业社生产领导与粮食统购统销、1956 年粮食销售指示、
+# 宽大处理城市残余反革命、夏收分配、自留地、成都会议物资分配、嵖岈山公社简章、谢富治 1960 年公安会议报告、
+# 紧急指示信（十二条）、信阳地委 1960 年整风救灾报告、张北县致外流社员信、平调退赔、巩固集体经济决定、
+# 大庆会战报告通知、中尼边界条约、中巴边界协定，以及 1980 年统战部右派复查报告（回顾 1957 年）。
+# 扫描页（紧急指示信、平调退赔、1962 决定、大庆）按 <pages from to> 展开，记录每页 revid。
+# 取消军衔决定、中印总理联合声明、中蒙边界条约的扫描页只按 section 截取，工具不支持，未收。
+# 农业社粮食统购统销规定 1956 年 7 月 13 日国务院会议通过，header 为 10 月 6 日，id 按 header。
+wikisource:
+  - id: ws-1950-08-04-class-status
+    title: 中央人民政府政務院關於劃分農村階級成份的决定
+    date: 1950-08-04
+    author: 政务院
+    kind: party-doc
+    alias: 政务院关于划分农村阶级成份的决定（1950）
+  - id: ws-1950-11-21-suburban-land-reform
+    title: 城市郊区土地改革条例
+    date: 1950-11-21
+    author: 政务院
+    kind: party-doc
+    alias: 城市郊区土地改革条例（1950）
+  - id: ws-1952-08-11-security-committees
+    title: 治安保卫委员会暂行组织条例
+    date: 1952-08-11
+    author: 公安部
+    kind: party-doc
+    alias: 治安保卫委员会暂行组织条例（1952）
+  - id: ws-1953-11-23-grain-market
+    title: 粮食市场管理暂行办法
+    date: 1953-11-23
+    author: 政务院
+    kind: party-doc
+    alias: 粮食市场管理暂行办法（1953）
+  - id: ws-1954-04-29-tibet-india-trade
+    title: 中華人民共和國、印度共和國關於中國西藏地方和印度之間的通商和交通協定
+    date: 1954-04-29
+    author: 中华人民共和国中央人民政府、印度共和国政府
+    kind: party-doc
+    alias: 中印关于中国西藏地方和印度之间的通商和交通协定（1954）
+  - id: ws-1954-11-02-nanchang-courts
+    title: 最高人民法院对江西省人民法院《关于南昌、新建两县法院工作检查报告》的通报的函
+    date: 1954-11-02
+    author: 最高人民法院
+    kind: party-doc
+    alias: 最高人民法院对江西南昌、新建两县法院检查报告的复函（1954）
+  - id: ws-1955-04-22-dual-nationality
+    title: 中华人民共和国和印度尼西亚共和国关于双重国籍問題的条約
+    date: 1955-04-22
+    author: 中华人民共和国、印度尼西亚共和国
+    kind: party-doc
+    alias: 中印尼关于双重国籍问题的条约（1955）
+  - id: ws-1955-05-04-japan-trade-3
+    title: 第三次中日民間貿易協定
+    date: 1955-05-04
+    author: 中华人民共和国访问日本贸易代表团、日本国际贸易促进协会等
+    kind: party-doc
+    alias: 第三次中日民间贸易协定（1955）
+  - id: ws-1958-03-05-japan-trade-4
+    title: 第四次中日民间贸易协定
+    date: 1958-03-05
+    author: 中国国际贸易促进委员会、日本国会议员促进日中贸易联盟等
+    kind: party-doc
+    alias: 第四次中日民间贸易协定（1958）
+  - id: ws-1956-09-12-coop-leadership
+    title: 中共中央、国务院关于加强农业生产合作社的生产领导和组织建设的指示
+    date: 1956-09-12
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中共中央、国务院关于加强农业生产合作社的生产领导和组织建设的指示（1956）
+  - id: ws-1956-10-06-coop-grain
+    title: 国务院关于农业生产合作社粮食统购统销的规定
+    date: 1956-10-06
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于农业生产合作社粮食统购统销的规定（1956）
+  - id: ws-1956-10-12-grain-sales
+    title: 中共中央、国务院关于目前粮食销售和秋后粮食统购统销工作的指示（1956）
+    date: 1956-10-12
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中共中央、国务院关于目前粮食销售和秋后粮食统购统销工作的指示（1956）
+  - id: ws-1956-11-16-remnant-counterrevs
+    title: 全国人民代表大会常务委员会关于宽大处理和安置城市残余反革命分子的决定
+    date: 1956-11-16
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会关于宽大处理和安置城市残余反革命分子的决定（1956）
+  - id: ws-1957-06-14-summer-distribution
+    title: 中共中央、国务院关于做好夏收分配工作的指示
+    date: 1957-06-14
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中共中央、国务院关于做好夏收分配工作的指示（1957）
+  - id: ws-1957-06-25-private-plots
+    title: 全国人民代表大会常务委员会关于增加农业生产合作社社员自留地的决定
+    date: 1957-06-25
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会关于增加农业生产合作社社员自留地的决定（1957）
+  - id: ws-1958-03-23-materials-allocation
+    title: 中共中央关于改进物资分配体制问题的意见
+    date: 1958-03-23
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于改进物资分配体制问题的意见（1958 成都会议）
+  - id: ws-1958-chayashan-commune
+    title: 嵖岈山卫星人民公社试行简章（初次草案）
+    date: 1958
+    author: 嵖岈山卫星人民公社
+    kind: party-doc
+    alias: 嵖岈山卫星人民公社试行简章（初次草案）
+  - id: ws-1960-02-11-xie-fuzhi-security
+    title: 公安部部长在第十次全国公安会议上的报告
+    date: 1960-02-11
+    author: 谢富治
+    kind: speech
+    alias: 谢富治在第十次全国公安会议上的报告（1960）
+  - id: ws-1960-11-03-urgent-letter
+    title: 中共中央关于农村人民公社当前政策問題的紧急指示信
+    date: 1960-11-03
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于农村人民公社当前政策问题的紧急指示信（十二条）
+  - id: ws-1960-12-22-xinyang-rectification
+    title: 关于整风运动和生产救灾工作情况的报告
+    date: 1960-12-22
+    author: 中共信阳地委
+    kind: party-doc
+    alias: 信阳地委关于整风运动和生产救灾工作情况的报告（1960）
+  - id: ws-1961-01-25-zhangbei-letter
+    title: 给流出县境社员的一封信
+    date: 1961-01-25
+    author: 张北县
+    kind: party-doc
+    alias: 张北县给流出县境社员的一封信（1961）
+  - id: ws-1961-06-19-pingdiao-refund
+    title: 中共中央关于坚决糾正平調錯誤、彻底退賠的規定
+    date: 1961-06-19
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于坚决纠正平调错误、彻底退赔的规定（1961）
+  - id: ws-1962-09-27-consolidate-collective
+    title: 关于进一步巩固人民公社集体經济、发展农业生产的决定
+    date: 1962-09-27
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于进一步巩固人民公社集体经济、发展农业生产的决定（1962）
+  - id: ws-1964-02-05-daqing
+    title: 中央关于传达石油工业部关于大庆石油会战情况的报告的通知
+    date: 1964-02-05
+    author: 中共中央
+    kind: party-doc
+    alias: 中央关于传达石油工业部关于大庆石油会战情况的报告的通知（1964）
+  - id: ws-1961-10-05-nepal-boundary
+    title: 中华人民共和国和尼泊尔王国边界条约
+    date: 1961-10-05
+    author: 中华人民共和国主席、尼泊尔国王
+    kind: party-doc
+    alias: 中华人民共和国和尼泊尔王国边界条约（1961）
+  - id: ws-1963-03-02-pakistan-boundary
+    title: 中华人民共和国政府和巴基斯坦政府关于中国新疆和由巴基斯坦实际控制其防务的各个地区相接壤的边界的协定
+    date: 1963-03-02
+    author: 中华人民共和国政府、巴基斯坦政府
+    kind: party-doc
+    alias: 中巴边界协定（1963）
+  - id: ws-1980-05-08-rightist-review
+    title: 中央统一战线工作部关于爱国人士中的右派复查问题的请示报告
+    date: 1980-05-08
+    author: 中央统战部
+    kind: party-doc
+    alias: 中央统战部关于爱国人士中的右派复查问题的请示报告（1980）
