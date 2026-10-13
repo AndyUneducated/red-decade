@@ -1,0 +1,206 @@
+# M5-1 中文原文（维基文库）第 4 批：婚姻法与工会法、三反五反的处理规定、公私合营、民族区域自治、基层选举、
+# 粮食定量与精减城镇人口、中苏论战（一评、七评、莫斯科声明）、核试验、中法建交、国民党方面的 1954 年国庆文告。
+# 日期按页面 header 的年月日与正文题注核对。繁体页面照原样保存与引用。
+# 《关于“三反”运动中成立人民法庭的规定》header 记 3 月 30 日，题注为 3 月 28 日政务会议通过、31 日见报，按 header。
+# 《为争取“五反”运动底完全的彻底的胜利而斗争》题注为陈毅 1952 年 2 月 25 日的报告，3 月 28 日《人民日报》刊载。
+# 《莫斯科声明》按 1960 年 12 月 6 日《人民日报》刊载日期。
+# 扬州市人民政府对左桂华的五反结论通知书只有一句、无日期，未收。
+wikisource:
+  - id: ws-1950-04-30-marriage-law
+    title: 中華人民共和國婚姻法 (1950年)
+    date: 1950-04-30
+    author: 中央人民政府委员会
+    kind: party-doc
+    alias: 中华人民共和国婚姻法（1950）
+  - id: ws-1950-06-29-trade-union-law
+    title: 中華人民共和國工會法 (1950年)
+    date: 1950-06-29
+    author: 中央人民政府委员会
+    kind: party-doc
+    alias: 中华人民共和国工会法（1950）
+  - id: ws-1951-10-23-zhou-cppcc-report
+    title: 在政协第一届全国委员会第三次会议上政治报告
+    date: 1951-10-23
+    author: 周恩来
+    kind: speech
+    alias: 周恩来在政协一届三次会议上的政治报告（1951）
+  - id: ws-1951-10-24-cppcc-resist-us
+    title: 人民政協第一屆全國委員會第三次會議關於抗美援朝工作的决議
+    date: 1951-10-24
+    author: 政协第一届全国委员会第三次会议
+    kind: party-doc
+    alias: 政协一届三次会议关于抗美援朝工作的决议（1951）
+  - id: ws-1952-02-22-national-coalition
+    title: 中央人民政府政務院關於地方民族民主聯合政府實施辦法的决定
+    date: 1952-02-22
+    author: 政务院
+    kind: party-doc
+    alias: 政务院关于地方民族民主联合政府实施办法的决定（1952）
+  - id: ws-1952-02-25-chen-yi-five-anti
+    title: 为争取“五反”运动底完全的彻底的胜利而斗争
+    date: 1952-02-25
+    author: 陈毅
+    kind: speech
+    alias: 陈毅：为争取“五反”运动底完全的彻底的胜利而斗争（1952）
+  - id: ws-1952-03-08-three-anti-rules
+    title: 中央节约检查委员会关于处理贪污、浪费及克服官僚主义错误的若干规定
+    date: 1952-03-08
+    author: 中央节约检查委员会
+    kind: party-doc
+    alias: 中央节约检查委员会关于处理贪污、浪费及克服官僚主义错误的若干规定（1952）
+  - id: ws-1952-03-12-beijing-five-anti
+    title: 北京市人民政府在「五反」運動中關於工商戶分類處理的標準和辦法
+    date: 1952-03-12
+    author: 北京市人民政府
+    kind: party-doc
+    alias: 北京市“五反”运动中工商户分类处理的标准和办法（1952）
+  - id: ws-1952-03-24-five-anti-tribunal
+    title: 关于“五反”运动中成立人民法庭的规定
+    date: 1952-03-24
+    author: 政务院
+    kind: party-doc
+    alias: 关于“五反”运动中成立人民法庭的规定（1952）
+  - id: ws-1952-03-30-three-anti-tribunal
+    title: 关于"三反"运动中成立人民法庭的规定
+    date: 1952-03-30
+    author: 政务院
+    kind: party-doc
+    alias: 关于“三反”运动中成立人民法庭的规定（1952）
+  - id: ws-1952-06-13-end-five-anti
+    title: 中央人民政府政務院關於結束「五反」運動中幾個問題的指示
+    date: 1952-06-13
+    author: 政务院
+    kind: party-doc
+    alias: 政务院关于结束“五反”运动中几个问题的指示（1952）
+  - id: ws-1952-08-08-regional-autonomy
+    title: 中華人民共和國民族區域自治實施綱要
+    date: 1952-08-08
+    author: 中央人民政府委员会
+    kind: party-doc
+    alias: 中华人民共和国民族区域自治实施纲要（1952）
+  - id: ws-1953-03-16-hubei-sects
+    title: 湖北省公安厅关于开展取缔反动会道门运动的报告
+    date: 1953-03-16
+    author: 湖北省公安厅
+    kind: archive
+    alias: 湖北省公安厅关于开展取缔反动会道门运动的报告（1953）
+  - id: ws-1953-04-03-basic-elections
+    title: 中央选举委员会关于基层选举工作的指示
+    date: 1953-04-03
+    author: 中央选举委员会
+    kind: party-doc
+    alias: 中央选举委员会关于基层选举工作的指示（1953）
+  - id: ws-1954-03-04-joint-venture-report
+    title: 中共中央批准中财委（资）关于公私合营的报告和意见
+    date: 1954-03-04
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央批准中财委（资）关于公私合营的报告和意见（1954）
+  - id: ws-1954-03-05-suiyuan-merger
+    title: 关于绥远、内蒙古合并，撤销绥远省建制，统一由内蒙古自治区人民政府领导的命令
+    date: 1954-03-05
+    author: 内蒙古自治区人民政府
+    kind: party-doc
+    alias: 关于绥远、内蒙古合并的命令（1954）
+  - id: ws-1954-09-02-joint-venture-rules
+    title: 公私合营暂行条例
+    date: 1954-09-02
+    author: 政务院
+    kind: party-doc
+    alias: 公私合营工业企业暂行条例（1954）
+  - id: ws-1954-10-10-chiang-national-day
+    title: 中華民國四十三年國慶紀念告全國軍民同胞書
+    date: 1954-10-10
+    author: 蒋中正
+    kind: speech
+    alias: 蒋介石 1954 年国庆告全国军民同胞书
+  - id: ws-1955-07-30-rehe-xikang
+    title: 中華人民共和國第一屆全國人民代表大會第二次會議關於撤銷熱河省、西康省並修改中華人民共和國地方各級人民代表大會和地方各級人民委員會組織法第二十五條第二款第一項規定的決議
+    date: 1955-07-30
+    author: 第一届全国人民代表大会第二次会议
+    kind: party-doc
+    alias: 一届人大二次会议关于撤销热河省、西康省的决议（1955）
+  - id: ws-1955-08-25-urban-grain-ration
+    title: 市镇粮食定量供应暂行办法
+    date: 1955-08-25
+    author: 国务院
+    kind: party-doc
+    alias: 市镇粮食定量供应暂行办法（1955）
+  - id: ws-1956-09-26-party-constitution
+    title: 中国共产党章程 (1956年)
+    date: 1956-09-26
+    author: 中国共产党第八次全国代表大会
+    kind: party-doc
+    alias: 中国共产党章程（1956）
+  - id: ws-1958-10-13-mnd-order
+    title: 中华人民共和国国防部命令 (1958年10月13日)
+    date: 1958-10-13
+    author: 国防部（毛泽东起草）
+    kind: party-doc
+    alias: 国防部命令（金门炮击再停两星期，1958 年 10 月 13 日）
+  - id: ws-1960-04-10-agri-program
+    title: 一九五六年到一九六七年全国农业发展纲要
+    date: 1960-04-10
+    author: 第二届全国人民代表大会第二次会议
+    kind: party-doc
+    alias: 一九五六年到一九六七年全国农业发展纲要（1960 年通过）
+  - id: ws-1960-12-06-moscow-statement
+    title: 莫斯科声明
+    date: 1960-12-06
+    author: 各国共产党和工人党代表会议
+    kind: party-doc
+    alias: 各国共产党和工人党代表会议声明（莫斯科声明，1960）
+  - id: ws-1961-06-16-urban-population-check
+    title: 中共中央关于核实城市人口和粮食供应的紧急指示
+    date: 1961-06-16
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于核实城市人口和粮食供应的紧急指示（1961）
+  - id: ws-1961-06-28-cut-staff-notice
+    title: 中共中央关于精减职工工作若干问题的通知
+    date: 1961-06-28
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于精减职工工作若干问题的通知（1961）
+  - id: ws-1962-05-27-cut-urban-population
+    title: 中共中央、国务院关于进一步精减职工和减少城镇人口的决定
+    date: 1962-05-27
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中共中央、国务院关于进一步精减职工和减少城镇人口的决定（1962）
+  - id: ws-1963-07-31-nuclear-ban-statement
+    title: 中国政府主张全面、彻底、干净、坚决地禁止和销毁核武器、倡议召开世界各国政府首脑会议的声明
+    date: 1963-07-31
+    author: 中华人民共和国政府
+    kind: party-doc
+    alias: 中国政府主张全面禁止和销毁核武器的声明（1963）
+  - id: ws-1963-09-06-first-comment
+    title: 苏共领导同我们分歧的由来和发展
+    date: 1963-09-06
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 苏共领导同我们分歧的由来和发展（一评，1963）
+  - id: ws-1964-01-27-france
+    title: 中华人民共和国政府和法兰西共和国政府关于中法两国建立外交关系的联合公报
+    date: 1964-01-27
+    author: 中法两国政府
+    kind: party-doc
+    alias: 中法建交联合公报（1964）
+  - id: ws-1964-02-04-seventh-comment
+    title: 苏共领导是当代最大的分裂主义者
+    date: 1964-02-04
+    author: 人民日报编辑部、红旗杂志编辑部
+    kind: editorial
+    alias: 苏共领导是当代最大的分裂主义者（七评，1964）
+  - id: ws-1964-10-16-bomb-statement
+    title: 中华人民共和国政府声明 (1964年10月16日)
+    date: 1964-10-16
+    author: 中华人民共和国政府
+    kind: party-doc
+    alias: 中国政府关于第一次核试验的声明（1964）
+  - id: ws-1965-02-26-southwest-third-front
+    title: 中共中央、国务院关西南三綫建設体制問題的决定
+    date: 1965-02-26
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中共中央、国务院关于西南三线建设体制问题的决定（1965）
