@@ -1,0 +1,40 @@
+# M5-4 大饥荒专题（维基文库）：1957 年国务院处分广西 1956 年饿死人失职人员的决定、山西寿阳浮肿病调查、
+# 罗山县委外流人口检查、中共中央转发山东河南甘肃贵州严重情况的指示、罗山县委对许文波的处分决定、
+# 光山县委对吴良保的结论。日期按页面 header 与落款。
+wikisource:
+  - id: ws-1957-06-17-guangxi-famine-punishment
+    title: 国务院关于广西省1956年因灾饿死人问题给有关失职人员处分的决定
+    date: 1957-06-17
+    author: 国务院
+    kind: party-doc
+    alias: 国务院关于广西省 1956 年因灾饿死人问题的处分决定（1957）
+  - id: ws-1960-07-12-shouyang-edema
+    title: 山西省公安厅、山西省人民检察院、山西省高级人民法院关于寿阳县对浮肿病患者的典型调查报告
+    date: 1960-07-12
+    author: 山西省公安厅、山西省人民检察院、山西省高级人民法院
+    kind: party-doc
+    alias: 山西寿阳县浮肿病典型调查报告（1960）
+  - id: ws-1960-08-24-luoshan-outflow
+    title: 罗山县委关于外流人口情况的检查报告
+    date: 1960-08-24
+    author: 中共罗山县委
+    kind: party-doc
+    alias: 罗山县委关于外流人口情况的检查报告（1960）
+  - id: ws-1960-12-08-four-provinces
+    title: 中共中央关于山东、河南、甘肃和贵州某些地区所发生的严重情况的指示
+    date: 1960-12-08
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于山东、河南、甘肃和贵州某些地区严重情况的指示（1960）
+  - id: ws-1962-04-23-xu-wenbo-punishment
+    title: 对阶级异己分子许文波在“信阳事件”中所犯错误的处分决定
+    date: 1962-04-23
+    author: 中共罗山县委
+    kind: party-doc
+    alias: 罗山县委对许文波的处分决定（1962）
+  - id: ws-1962-06-05-wu-liangbao-conclusion
+    title: 中共光山县委对吴良保所犯错误的结论
+    date: 1962-06-05
+    author: 中共光山县委
+    kind: party-doc
+    alias: 光山县委对吴良保所犯错误的结论（1962）
