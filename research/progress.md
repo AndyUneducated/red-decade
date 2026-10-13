@@ -15,7 +15,7 @@
 | A-4 | CI 跑两种测试后再部署 | ✔ `.github/workflows/pages.yml` |
 | B-1 | 共享派生层 `src/derive/`：构建脚本与前端共用的纯函数（引文核对、语料计数、地名与机构匹配），Vitest 可测；atlas 索引与下载分开，测试可直接索引真实数据；洞察的计算也放这里（需要全文的在构建时算，只用结构化数据的在浏览器算） | ✔ `src/derive/quotes.ts`、`corpus.ts`、`match.ts`；`src/data/atlas.ts` 的 `indexAtlas`；部分日期比较 `after` 进 `src/lib/dates.ts`（该文件不得有 import，构建在纯 Node 下直接读它）。`src/derive/` 内部 import 带 `.ts` 后缀，原因同上。单元测试 12 项（`tests/unit/derive.test.ts`），含对真实 atlas 的索引 |
 | B-2 | 构建脚本按阶段拆成几个文件（读取、关联、校验、引文、语料与输出），不做插件式注册表 | ✔ `tools/build/{io,load,link,check,quotes,emit}.ts`，`tools/build-data.ts` 只按顺序调用。拆分前后 `atlas.json` 除构建时间外逐字段相同。构建脚本纳入 `tsc -b`（`tsconfig.node.json`）。加一种数据：schema → `load.ts` 一行 → `check.ts` 校验 → `emit.ts` 输出 |
-| B-3 | `Drawer.tsx` 按实体种类拆文件，加一张“种类 → 卡片”对照表 | 待做 |
+| B-3 | `Drawer.tsx` 按实体种类拆文件，加一张“种类 → 卡片”对照表 | ✔ `src/components/drawer/`：每种卡片一个文件，`lists.tsx` 放人物页、机构页共用的列表，`cards.ts` 是对照表（`Record<EntityType, …>`，新种类没配卡片就编译不过）。冒烟测试加 8 种卡片各一个样例（64 项全过）；顺带发现旧探测脚本里的概念 id `capitalist-roader` 少了 s |
 
 **2026-10-13 用户安排（夜间长时间执行）：** 架构做轻量版，避免为设计而设计 → B 完成后做 MI（“洞察”组放在“思想”与“史料”之间）→ MI 完成后进入 M6。期间只在本地分阶段提交，**不推送**；用户醒来后一次推送并发布。
 | MI-0 | “洞察”菜单组与页内嵌入块框架；P 洞见卡 | 待做 |

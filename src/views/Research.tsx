@@ -1,5 +1,5 @@
 import { PageTitle } from '../components/PageTitle'
-import { ClaimCard } from '../components/Drawer'
+import { ClaimCard } from '../components/drawer/ClaimCard'
 import { fmtDate } from '../lib/dates'
 import { useApp } from '../state'
 import { shortTitle } from '../lib/sources'

@@ -13,8 +13,19 @@ const urls = PAGE_IDS.flatMap((p) => {
   const title = TITLED_BY_ENTITY.has(p) ? undefined : itemOf(p).label
   return [{ hash: `#/${p}`, title }, ...(s ? [{ hash: `#/${p}/${s}`, title: undefined }] : [])]
 })
-urls.push({ hash: '#/timeline?sel=person:mao-zedong', title: itemOf('timeline').label })
-urls.push({ hash: '#/lineage?sel=concept:capitalist-roader', title: itemOf('lineage').label })
+// one drawer card of each entity type
+const CARD_SAMPLES = [
+  'person:mao-zedong',
+  'event:1960-12-08-four-provinces-directive',
+  'concept:capitalist-roaders',
+  'faction:lin',
+  'doc:ws-1966-05-16-notice',
+  'org:ccrg',
+  'ism:class-struggle-key-link',
+  'claim:C001',
+]
+for (const s of CARD_SAMPLES) urls.push({ hash: `#/timeline?sel=${s}`, title: itemOf('timeline').label })
+urls.push({ hash: '#/lineage?sel=concept:capitalist-roaders', title: itemOf('lineage').label })
 
 for (const { hash, title } of urls)
   test(hash, async ({ page }) => {
@@ -28,6 +39,7 @@ for (const { hash, title } of urls)
     await expect(h1).toBeVisible()
     if (title) await expect(h1).toContainText(title)
     else await expect(h1).not.toBeEmpty()
+    if (hash.includes('?sel=')) await expect(page.locator('.drawer header').first()).not.toBeEmpty()
     await page.waitForLoadState('networkidle')
 
     const clipped = await page.evaluate(() => {
