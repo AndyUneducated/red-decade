@@ -2,7 +2,8 @@ import * as d3 from 'd3'
 import { useMemo, useRef, useState } from 'react'
 import { useTheme } from '../lib/theme'
 import { useSize } from '../lib/useSize'
-import { useApp } from '../state'
+import { GroupCrumb } from '../components/GroupCrumb'
+import { itemOf, useApp } from '../state'
 import { Lineage } from './ideas/Lineage'
 import { Press } from './ideas/Press'
 import { Spectrum } from './ideas/Spectrum'
@@ -16,45 +17,32 @@ export const shortTitle = (s: { title: string; alias?: string }) =>
 
 const TABS = {
   tree: {
-    name: '主义谱系',
     desc: '1921–1989 年间的主义、路线、民间异端与罪名。横向是时间，色条是它作为现实主张存在的时期；实线连向它的源头，虚线连向它所针对的对象。点开看代表人物、源流和语料中的出现。',
   },
   spectrum: {
-    name: '光谱漂移',
     desc: '两条轴：横轴经济（计划、公有 ↔ 市场、多种所有制），纵轴政治（阶级斗争、群众动员 ↔ 宽松、制度化、多元）。红线是中央实际路线到此刻为止的轨迹，圆点是此刻存在的各家主张。位置是编者的判断，只表示相对立场，不是测量；罪名的位置是批判者对被批判者的描述。',
   },
   stream: {
-    name: '主义词频',
     desc: '各主义的匹配词在本站原始文献中每万字出现的次数。语料集中在 1966–1967 年；字数太少的年份不画，以免一两份文献决定整年的形状。',
   },
   press: {
-    name: '报刊词频',
     desc: '一组口号与关键词在 1966–1976 年社论和新闻报道中逐年每万字出现的次数，黑框标出首现年份，行末是首现的日期与文本。按首现排序，可以看出口号如何一代接一代更替：“夺权”“大联合”在 1967 年，“最新指示”“清理阶级队伍”在 1968 年，“批修整风”在 1972–1973 年，“孔老二”“法家”在 1974 年，“资产阶级法权”在 1975 年。点关键词跳到对应的概念或主义。',
   },
   concepts: {
-    name: '概念 × 文献',
     desc: '行＝概念，列＝原始文献（按日期排序），格子颜色＝该概念相关词在文中出现的次数。可以直接看出一个说法在哪份文件里第一次出现、在哪里突然变多。点格子看这份文献里的原文语境；按住 Shift 滚动滚轮可左右移动。',
   },
 } as const
 type Tab = keyof typeof TABS
 
 export function Ideas() {
-  const { doc, go } = useApp()
+  const { doc } = useApp()
   const tab: Tab = doc && doc in TABS ? (doc as Tab) : 'tree'
   return (
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1>思想谱系</h1>
+          <h1><GroupCrumb />{itemOf('ideas', tab).label}</h1>
           <p>{TABS[tab].desc}</p>
-        </div>
-        <div className="spacer" />
-        <div className="legend">
-          {(Object.keys(TABS) as Tab[]).map((k) => (
-            <button key={k} className="chip" aria-pressed={tab === k} onClick={() => go('ideas', k)}>
-              {TABS[k].name}
-            </button>
-          ))}
         </div>
       </div>
       {tab === 'tree' && <Lineage />}

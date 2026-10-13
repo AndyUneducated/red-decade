@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import { Drawer } from './components/Drawer'
+import { Nav } from './components/Nav'
 import { Search } from './components/Search'
 import { setTheme, useTheme } from './lib/theme'
-import { groupOf, NAV, useApp, type View } from './state'
+import { useApp, type View } from './state'
 import { Docs } from './views/Docs'
+import { Factions } from './views/Factions'
 import { Fates } from './views/Fates'
 import { Figures } from './views/Figures'
 import { Ideas } from './views/Ideas'
@@ -22,7 +24,9 @@ const COMPONENTS: Record<View, () => React.ReactNode> = {
   orgs: Orgs,
   network: Network,
   fates: Fates,
-  river: River,
+  river: () => <River part="people" />,
+  control: () => <River part="orgs" />,
+  factions: Factions,
   map: MapView,
   ideas: Ideas,
   narratives: Narratives,
@@ -51,7 +55,7 @@ function ThemeButton() {
 }
 
 export default function App() {
-  const { view, doc, go, up, select, sel } = useApp()
+  const { view, select, sel } = useApp()
   const [searching, setSearching] = useState(false)
 
   useEffect(() => {
@@ -92,13 +96,7 @@ export default function App() {
           </b>
           <span>1949–1989 · 当前深描 1966–1976</span>
         </div>
-        <nav className="tabs">
-          {NAV.map((g) => (
-            <button key={g.label} aria-current={g === groupOf(view) ? 'page' : undefined} onClick={() => (doc && (view === 'people' || view === 'orgs') && view === g.views[0] ? up(view) : go(g.views[0]))}>
-              {g.label}
-            </button>
-          ))}
-        </nav>
+        <Nav />
         <button className="searchbtn" onClick={() => setSearching(true)}>
           <span className="sb-long">搜索人物、事件、概念、文献</span>
           <span className="sb-short">搜索</span> <kbd>Ctrl K</kbd>

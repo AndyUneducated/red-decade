@@ -471,7 +471,7 @@ function IsmCard({ id }: { id: string }) {
 }
 
 function FactionCard({ id }: { id: string }) {
-  const { ix, t } = useApp()
+  const { ix, t, go } = useApp()
   const f = ix.faction.get(id)
   if (!f) return null
   const members = ix.people.filter((p) => p.factions.includes(id))
@@ -484,7 +484,12 @@ function FactionCard({ id }: { id: string }) {
           <i style={{ width: 14, height: 14, borderRadius: 3, background: f.color, display: 'inline-block' }} />
           {f.name}
         </h2>
-        <div className="meta">{f.from || f.to ? fmtRange(f.from ?? '', f.to) : ''}</div>
+        <div className="meta">
+          {f.from || f.to ? `${fmtRange(f.from ?? '', f.to)} · ` : ''}
+          <button className="linklike" onClick={() => go('factions', id)}>
+            派系档案 →
+          </button>
+        </div>
       </header>
       <section>
         <p>{f.summary}</p>

@@ -373,25 +373,72 @@ kbd {
 .viewhead .spacer {
   flex: 1;
 }
-.subnav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px 16px;
-  margin-bottom: 6px;
-  font-size: 12.5px;
-}
-.subnav button {
-  padding: 1px 0;
+.h1-group {
+  margin-right: 8px;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
   color: var(--muted);
-  border-bottom: 1.5px solid transparent;
 }
-.subnav button:hover {
-  color: var(--ink);
+
+/* top bar groups and their menus */
+.navgroup {
+  display: flex;
+  height: 100%;
 }
-.subnav button[aria-current='page'] {
-  color: var(--ink);
+.navcaret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  vertical-align: 2px;
+  border: 3.5px solid transparent;
+  border-top: 4px solid currentColor;
+  border-bottom: 0;
+  opacity: 0.5;
+}
+.navmenu {
+  position: fixed;
+  z-index: 30;
+  width: 260px;
+  margin-top: -2px;
+  padding: 5px;
+  background: var(--card);
+  border: 1px solid var(--rule-2);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+}
+.tabs .navmenu button {
+  display: block;
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 5px;
+  text-align: left;
+  white-space: normal;
+}
+.tabs .navmenu button:hover,
+.tabs .navmenu button:focus-visible {
+  background: var(--paper-2);
+  outline: none;
+}
+.tabs .navmenu button[aria-current='page'] {
+  background: var(--accent-soft);
+}
+.tabs .navmenu button[aria-current='page']::after {
+  display: none;
+}
+.navmenu b {
+  display: block;
+  font-size: 13.5px;
   font-weight: 600;
-  border-bottom-color: var(--accent);
+  color: var(--ink);
+}
+.navmenu small {
+  display: block;
+  margin-top: 1px;
+  font-size: 11.5px;
+  color: var(--muted);
 }
 .legend {
   display: flex;
@@ -837,6 +884,130 @@ kbd {
   letter-spacing: 0.1em;
   color: var(--muted);
 }
+
+/* ── factions (派系档案) ─────────────────────────────── */
+.factions {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  min-height: 0;
+}
+.faction-list {
+  border-right: 1px solid var(--rule);
+  overflow-y: auto;
+  padding: 4px 0 16px;
+}
+.faction-list .group {
+  padding: 14px 16px 4px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.faction-list button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 16px;
+  text-align: left;
+  font-size: 13px;
+  border-left: 3px solid transparent;
+}
+.faction-list button:hover {
+  background: var(--paper-2);
+}
+.faction-list button[aria-current='true'] {
+  border-left-color: var(--fc);
+  background: var(--card);
+  font-weight: 600;
+}
+.faction-list i {
+  width: 9px;
+  height: 9px;
+  flex: none;
+  border-radius: 2px;
+  background: var(--fc);
+}
+.faction-list span {
+  flex: 1;
+  min-width: 0;
+}
+.faction-list small {
+  color: var(--muted);
+  font-size: 11px;
+}
+.faction-detail {
+  overflow-y: auto;
+  padding: 18px 28px 48px;
+}
+.faction-head {
+  max-width: 760px;
+  padding-left: 14px;
+  border-left: 4px solid var(--fc);
+  margin-bottom: 18px;
+}
+.faction-head h2 {
+  margin: 2px 0 6px;
+  font-family: var(--serif);
+  font-size: 24px;
+}
+.faction-head p {
+  margin: 0 0 8px;
+  color: var(--ink-2);
+  font-size: 13.5px;
+  line-height: 1.75;
+}
+.faction-detail section {
+  margin-top: 18px;
+}
+.faction-detail h3 {
+  margin: 0 0 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--ink-2);
+}
+.faction-detail h3 small {
+  margin-left: 8px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--muted);
+}
+.faction-detail .stats {
+  max-width: 760px;
+}
+@media (max-width: 760px) {
+  .factions {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+  .faction-list {
+    display: flex;
+    overflow-x: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+    padding: 0 6px;
+  }
+  .faction-list > div {
+    display: flex;
+    flex: none;
+  }
+  .faction-list .group {
+    display: none;
+  }
+  .faction-list button {
+    width: auto;
+    white-space: nowrap;
+    border-left: 0;
+    border-bottom: 3px solid transparent;
+  }
+  .faction-list button[aria-current='true'] {
+    border-bottom-color: var(--fc);
+  }
+  .faction-detail {
+    padding: 14px 14px 40px;
+  }
+}
 .reader {
   overflow-y: auto;
   min-height: 0;
@@ -1246,6 +1417,50 @@ h2.sec {
   color: var(--muted);
   font-weight: 400;
   margin-left: 4px;
+}
+.people-group button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 3px 0;
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  text-align: left;
+}
+.people-group b {
+  min-width: 190px;
+  font-weight: inherit;
+}
+.people-group button:disabled {
+  cursor: default;
+}
+.people-group .fold {
+  width: 0;
+  height: 0;
+  margin: 0 8px 0 2px;
+  border: 4px solid transparent;
+  border-left: 5px solid currentColor;
+  border-right: 0;
+  transition: transform 0.15s;
+}
+.people-group button[aria-expanded='true'] .fold {
+  transform: rotate(90deg);
+}
+.people-group button:disabled .fold {
+  opacity: 0.35;
+}
+.status-mix {
+  display: flex;
+  width: 140px;
+  height: 6px;
+  margin-left: 0 !important;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.status-mix i {
+  display: block;
+  min-width: 2px;
 }
 .people-row {
   display: grid;

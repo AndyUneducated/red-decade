@@ -1,4 +1,4 @@
-import { SubNav } from '../components/SubNav'
+import { GroupCrumb } from '../components/GroupCrumb'
 import * as d3 from 'd3'
 import { Fragment, useMemo, useRef, type CSSProperties } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
@@ -91,6 +91,26 @@ function endLabel(p: Person) {
   return '生卒未录'
 }
 
+// a folded group's status make-up at t, one segment per status in legend order
+function StatusMix({ people, t }: { people: Person[]; t: number }) {
+  const n = new Map<Status, number>()
+  for (const p of people) {
+    const s = statusNow(p, t)
+    if (s) n.set(s, (n.get(s) ?? 0) + 1)
+  }
+  const total = [...n.values()].reduce((a, b) => a + b, 0)
+  if (!total) return null
+  return (
+    <span className="status-mix" title={(Object.keys(STATUSES) as Status[]).filter((s) => n.has(s)).map((s) => `${STATUSES[s]} ${n.get(s)}`).join(' · ')}>
+      {(Object.keys(STATUSES) as Status[])
+        .filter((s) => n.has(s))
+        .map((s) => (
+          <i key={s} style={{ flexGrow: n.get(s), background: `var(--s-${s})` }} />
+        ))}
+    </span>
+  )
+}
+
 function Directory() {
   const { ix, openPerson, t } = useApp()
   const wrap = useRef<HTMLDivElement>(null)
@@ -99,6 +119,9 @@ function Directory() {
   const [q, setQ] = useHistoryState('people.q', '')
   const [alive, setAlive] = useHistoryState('people.alive', false)
   const [st, setSt] = useHistoryState<Status | undefined>('people.status', undefined)
+  // groups start folded; a name search or a status filter shows every match
+  const [unfolded, setUnfolded] = useHistoryState<string[]>(`people.open.${group}`, [])
+  const filtering = !!q || !!st
 
   const narrow = width > 0 && width < 760
   const nameW = narrow ? 116 : 150
@@ -148,6 +171,8 @@ function Directory() {
     return [...out.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([, g]) => g)
   }, [ix, group, q, alive, st, t])
   const shown = groups.reduce((n, g) => n + g.people.length, 0)
+  const isOpen = (label: string) => filtering || unfolded.includes(label)
+  const allOpen = groups.every((g) => isOpen(g.label))
 
   const full = ix.people.filter((p) => p.life.length >= 3).length
 
@@ -155,8 +180,7 @@ function Directory() {
     <div className="view">
       <div className="viewhead">
         <div>
-          <SubNav />
-          <h1>人物</h1>
+          <h1><GroupCrumb />名录</h1>
           <p>
             每行一人，色带是一生的状态（{T0}–{T1} 同一时间轴），红线是时间轴上的此刻。点名字看完整传记。已完成完整传记 {full} / {ix.people.length} 人；{fmtT(t, 'month')}在世 {living} 人。底部按此刻的状态计数，点一种状态只看这些人。
           </p>
@@ -172,6 +196,11 @@ function Directory() {
               {GROUPS[k]}
             </button>
           ))}
+          {!filtering && (
+            <button className="chip" onClick={() => setUnfolded(allOpen ? [] : groups.map((g) => g.label))}>
+              {allOpen ? '全部收起' : '全部展开'}
+            </button>
+          )}
         </div>
       </div>
       <Scrubber min={S0} max={S1} marks={LONG_MARKS} />
@@ -190,9 +219,19 @@ function Directory() {
         {groups.map((g) => (
           <section key={g.label}>
             <h2 className="people-group">
-              {g.label} <span>{g.people.length}</span>
+              <button
+                aria-expanded={isOpen(g.label)}
+                disabled={filtering}
+                onClick={() => setUnfolded((u) => (u.includes(g.label) ? u.filter((l) => l !== g.label) : [...u, g.label]))}
+              >
+                <span className="fold" aria-hidden />
+                <b>
+                  {g.label} <span>{g.people.length}</span>
+                </b>
+                {!isOpen(g.label) && <StatusMix people={g.people} t={t} />}
+              </button>
             </h2>
-            {g.people.map((p) => {
+            {isOpen(g.label) && g.people.map((p) => {
               const now = statusNow(p, t)
               return (
                 <button

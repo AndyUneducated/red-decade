@@ -1,4 +1,4 @@
-import { SubNav } from '../components/SubNav'
+import { GroupCrumb } from '../components/GroupCrumb'
 import * as d3 from 'd3'
 import { useMemo, useRef } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
@@ -44,8 +44,12 @@ function span(f: Faction): string {
 
 type Lane = { f: Faction; members: Person[]; top: number; h: number }
 
-export function River() {
+// part 'people' is 派系消长 (the river and each faction's members), 'orgs' is 派系与机构 (what each held)
+export function River({ part }: { part: 'people' | 'orgs' }) {
   const { ix, sel, select, t, setT } = useApp()
+  const people = part === 'people'
+  // the year axis sits under the river, or at the top when there is none
+  const AX = people ? RIVER_H : 6
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
   const { tip, setTip } = useTip()
@@ -145,6 +149,7 @@ export function River() {
 
   const [open, setOpen] = useHistoryState<Set<string>>('river.open', () => new Set())
   const control = useMemo(() => {
+    if (people) return undefined
     const keys = ix.factions.map((f) => f.id)
     const all = ix.orgs.map((o) => ({ o, runs: controlRuns(ix, o).filter((r) => r.b > T0 && r.a < T1) })).filter((x) => x.runs.length)
     const data = months.map((tt) => {
@@ -157,7 +162,7 @@ export function River() {
       return r
     })
     const series = d3.stack<Record<string, number>>().keys(keys)(data)
-    const top0 = lanes.bottom + 34
+    const top0 = AX + AXIS_H + 52
     const y = d3
       .scaleLinear()
       .domain([0, d3.max(series, (s) => d3.max(s, (d) => d[1]))! || 1])
@@ -191,9 +196,9 @@ export function River() {
       top += GAP
     }
     return { y, top0, shapes, groups, bottom: top, total: all.length }
-  }, [ix, months, x, T0, T1, lanes.bottom, open])
+  }, [ix, months, x, T0, T1, AX, people, open])
 
-  const height = control.bottom + 10
+  const height = (control ? control.bottom : lanes.bottom) + 10
   const tip_ = (e: React.MouseEvent, content: React.ReactNode) => {
     const rect = wrap.current!.getBoundingClientRect()
     setTip({ x: e.clientX - rect.left, y: e.clientY - rect.top + wrap.current!.scrollTop, content })
@@ -230,9 +235,12 @@ export function River() {
     <div className="view">
       <div className="viewhead">
         <div>
-          <SubNav />
-          <h1>派系河流</h1>
-          <p>上方河流的宽度是每个派系仍“在位”（未受批判、靠边、打倒、关押或死亡）的人数，按每人的第一归属计。下方每条带子是一个派系全体成员的状态构成；带子下方的点是成员遭难的时刻。最下方是各派系掌控的机构：按此刻负责人的派系计，色浅的是没有负责人记录、按机构本身的派系标注计的（多为群众组织）。</p>
+          <h1><GroupCrumb />{people ? '派系消长' : '派系与机构'}</h1>
+          {people ? (
+            <p>上方河流的宽度是每个派系仍“在位”（未受批判、靠边、打倒、关押或死亡）的人数，按每人的第一归属计。下方每条带子是一个派系全体成员的状态构成；带子下方的点是成员遭难的时刻。</p>
+          ) : (
+            <p>各派系掌控的机构，按此刻负责人的派系计（同时有几位负责人时取最后上任者）；色浅的是没有负责人记录、按机构本身的派系标注计的（多为群众组织）。上方是各派掌握机构数的堆叠，下方每行一个机构。</p>
+          )}
         </div>
         <div className="spacer" />
         <div className="legend">
@@ -252,17 +260,21 @@ export function River() {
       <div className="canvas" ref={wrap} style={{ overflowY: 'auto' }} onMouseLeave={() => setTip(null)}>
         <svg width="100%" height={height} style={{ display: 'block' }}>
           <rect x={LABEL_W} width={plotW} height={height} fill="transparent" onClick={(e) => setT(tAt(e))} />
-          <text x={16} y={46} fontSize={12.5} fontWeight={500} fill="var(--ink-2)">
-            在位人数
-          </text>
-          <text x={16} y={62} fontSize={10.5} fill="var(--muted)">
-            {ix.people.length} 人 · 按第一归属
-          </text>
+          {people && (
+            <>
+              <text x={16} y={46} fontSize={12.5} fontWeight={500} fill="var(--ink-2)">
+                在位人数
+              </text>
+              <text x={16} y={62} fontSize={10.5} fill="var(--muted)">
+                {ix.people.length} 人 · 按第一归属
+              </text>
+            </>
+          )}
 
-          <g transform={`translate(0, ${RIVER_H})`} pointerEvents="none">
+          <g transform={`translate(0, ${AX})`} pointerEvents="none">
             {d3.range(T0, T1 + 1).map((yr) => (
               <g key={yr}>
-                <line x1={x(yr)} x2={x(yr)} y1={-RIVER_H + 24} y2={height} stroke="var(--rule)" />
+                <line x1={x(yr)} x2={x(yr)} y1={people ? -RIVER_H + 24 : 18} y2={height} stroke="var(--rule)" />
                 <text x={x(yr) + 3} y={15} fontSize={10.5} fill="var(--ink-2)">
                   {plotW / (T1 - T0) > 44 ? yr : yr % 2 ? '' : yr}
                 </text>
@@ -274,7 +286,7 @@ export function River() {
               )}
           </g>
 
-          {river.map((r) => {
+          {people && river.map((r) => {
             const dim = (selFaction && selFaction !== r.f.id) || (selPerson && !ix.person.get(selPerson)?.factions.includes(r.f.id))
             return (
               <path
@@ -307,7 +319,7 @@ export function River() {
             )
           })}
           <g pointerEvents="none">
-            {river.map((r) => {
+            {people && river.map((r) => {
               if (!r.label) return null
               const half = r.f.name.length * 5.6 + 6
               return (
@@ -327,7 +339,7 @@ export function River() {
             })}
           </g>
 
-          {laneShapes.map(({ ln, paths, marks }) => {
+          {people && laneShapes.map(({ ln, paths, marks }) => {
             const active = selFaction === ln.f.id || (selPerson && ln.members.some((p) => p.id === selPerson))
             const from = ln.f.from ? toT(ln.f.from) : undefined
             const to = ln.f.to ? toT(ln.f.to, true) : undefined
@@ -393,8 +405,8 @@ export function River() {
             )
           })}
 
+          {control && (
           <g>
-            <line x1={0} x2={LABEL_W + plotW + 8} y1={control.top0 - 30} y2={control.top0 - 30} stroke="var(--rule-2)" />
             <text x={16} y={control.top0 - 10} fontSize={13} fontWeight={600} fill="var(--ink)">
               派系掌控的机构
             </text>
@@ -507,13 +519,14 @@ export function River() {
               </g>
             ))}
           </g>
+          )}
 
           {ix.events
             .filter((ev) => ev.weight === 3 && toT(ev.date) >= T0 && toT(ev.date) <= T1)
             .map((ev) => (
               <path
                 key={ev.id}
-                d={`M${x(toT(ev.date))},${RIVER_H + 18}l4,4l-4,4l-4,-4z`}
+                d={`M${x(toT(ev.date))},${AX + 18}l4,4l-4,4l-4,-4z`}
                 fill="var(--ink-2)"
                 style={{ cursor: 'pointer' }}
                 onClick={() => {
@@ -534,9 +547,9 @@ export function River() {
 
           {t >= T0 && t <= T1 && (
             <g pointerEvents="none">
-              <line x1={x(t)} x2={x(t)} y1={24} y2={height} stroke="var(--accent)" strokeWidth={1.4} />
-              <rect x={x(t) - 50} y={RIVER_H + 2} width={100} height={16} rx={3} fill="var(--accent)" />
-              <text x={x(t)} y={RIVER_H + 14} textAnchor="middle" fontSize={11} fill="var(--on-accent)">
+              <line x1={x(t)} x2={x(t)} y1={people ? 24 : AX + 18} y2={height} stroke="var(--accent)" strokeWidth={1.4} />
+              <rect x={x(t) - 50} y={AX + 2} width={100} height={16} rx={3} fill="var(--accent)" />
+              <text x={x(t)} y={AX + 14} textAnchor="middle" fontSize={11} fill="var(--on-accent)">
                 {fmtT(t)}
               </text>
             </g>
@@ -544,9 +557,11 @@ export function River() {
         </svg>
         {tip}
       </div>
-      <div style={{ padding: '6px 20px 8px', borderTop: '1px solid var(--rule)' }}>
-        <StatusLegend />
-      </div>
+      {people && (
+        <div style={{ padding: '6px 20px 8px', borderTop: '1px solid var(--rule)' }}>
+          <StatusLegend />
+        </div>
+      )}
     </div>
   )
 }

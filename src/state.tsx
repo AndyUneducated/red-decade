@@ -6,32 +6,77 @@ import { adoptEntry, beginRestore, currentEntry, findBack, getUi, pushEntry, res
 
 export const VIEWS = {
   timeline: '时间线',
-  people: '名录',
-  orgs: '机构',
-  network: '人物网络',
+  people: '人物名录',
+  network: '关系网络',
   fates: '命运矩阵',
-  river: '派系河流',
+  orgs: '机构',
+  river: '派系消长',
+  control: '派系与机构',
+  factions: '派系档案',
   map: '革委会地图',
   ideas: '思想谱系',
-  narratives: '叙事对照',
-  figures: '数字争议',
   docs: '文献',
+  figures: '数字争议',
+  narratives: '叙事对照',
   research: '研究',
 } as const
 export type View = keyof typeof VIEWS
 
-// The top bar shows these groups; views that share a group get a sub-nav above their title.
+// The top bar runs from the concrete to the abstract: events in time, persons, the formal networks they
+// make up (orgs), the informal ones beneath (factions), places, ideas, and the evidence for all of it.
+// A group with several items opens a menu; an item with doc is a tab inside a view (思想谱系).
 // Every view keeps its own route, so old links still open.
-export const NAV: { label: string; views: View[] }[] = [
-  { label: '时间线', views: ['timeline'] },
-  { label: '人物', views: ['people', 'network', 'fates'] },
-  { label: '机构与派系', views: ['orgs', 'river'] },
-  { label: '革委会地图', views: ['map'] },
-  { label: '思想谱系', views: ['ideas'] },
-  { label: '争议', views: ['figures', 'narratives', 'research'] },
-  { label: '文献', views: ['docs'] },
+export type NavItem = { view: View; doc?: string; label: string; desc: string }
+export const NAV: { label: string; items: NavItem[] }[] = [
+  { label: '时间', items: [{ view: 'timeline', label: '时间线', desc: '按日期排列的事件，可切换国际对照' }] },
+  {
+    label: '人物',
+    items: [
+      { view: 'people', label: '名录', desc: '每人一生的状态色带与完整传记' },
+      { view: 'network', label: '关系网络', desc: '此刻有效的人际关系' },
+      { view: 'fates', label: '命运矩阵', desc: '1965–1980 年每人的政治命运' },
+    ],
+  },
+  { label: '机构', items: [{ view: 'orgs', label: '机构', desc: '党、政、军、群团与群众组织的隶属和存续' }] },
+  {
+    label: '派系',
+    items: [
+      { view: 'river', label: '派系消长', desc: '各派在位人数与成员命运' },
+      { view: 'control', label: '派系与机构', desc: '各派此刻掌握哪些机构' },
+      { view: 'factions', label: '派系档案', desc: '每派的成员、核心人物与掌控变化' },
+    ],
+  },
+  { label: '空间', items: [{ view: 'map', label: '革委会地图', desc: '省、县革委会成立与地方暴力分布' }] },
+  {
+    label: '思想',
+    items: [
+      { view: 'ideas', doc: 'tree', label: '主义谱系', desc: '主义、路线、异端与罪名的源流' },
+      { view: 'ideas', doc: 'spectrum', label: '光谱漂移', desc: '人物在两条轴上的位置变化' },
+      { view: 'ideas', doc: 'stream', label: '主义词频', desc: '各主义在语料中的逐年出现' },
+      { view: 'ideas', doc: 'press', label: '报刊词频', desc: '口号逐年词频与首现日期' },
+      { view: 'ideas', doc: 'concepts', label: '概念 × 文献', desc: '概念在哪些文献里出现' },
+    ],
+  },
+  {
+    label: '史料',
+    items: [
+      { view: 'docs', label: '文献', desc: '一手文献全文' },
+      { view: 'figures', label: '数字争议', desc: '死亡与迫害数字按出处并列' },
+      { view: 'narratives', label: '叙事对照', desc: '同一事件不同立场的说法' },
+      { view: 'research', label: '研究', desc: '本站结论与来源登记' },
+    ],
+  },
 ]
-export const groupOf = (v: View) => NAV.find((g) => g.views.includes(v))!
+export const groupOf = (v: View) => NAV.find((g) => g.items.some((i) => i.view === v))!
+// the item a page belongs to; for 思想谱系 the tab in doc, defaulting to the first
+export const itemOf = (v: View, doc?: string) => {
+  const items = groupOf(v).items.filter((i) => i.view === v)
+  return items.find((i) => i.doc === doc) ?? items[0]
+}
+
+// the item last shown in each group, so the group's tab returns to it; kept for the session
+const lastShown = new Map<string, NavItem>()
+export const lastItem = (g: (typeof NAV)[number]) => lastShown.get(g.label) ?? g.items[0]
 
 // doc is the second path segment: a document id in docs, a person id in people, an org id in orgs;
 // entry identifies the history entry, which carries remembered scroll offsets and UI state
@@ -86,6 +131,8 @@ function pageName(ix: Index, s: { view: View; doc?: string }): string {
     return o ? (o.short ?? o.name) : '机构'
   }
   if (s.view === 'docs') return '文献'
+  if (s.view === 'factions') return (s.doc && ix.faction.get(s.doc)?.name) || VIEWS.factions
+  if (s.view === 'ideas') return itemOf('ideas', s.doc).label
   return VIEWS[s.view]
 }
 
@@ -96,6 +143,10 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
   const latest = useRef(state)
   latest.current = state
   const restoreTo = useRef<string>(undefined)
+
+  useEffect(() => {
+    lastShown.set(groupOf(state.view).label, itemOf(state.view, state.doc))
+  }, [state.view, state.doc])
 
   // back/forward (popstate) and hand-edited hashes (hashchange) both land here; the second of a pair is a no-op
   useEffect(() => {
