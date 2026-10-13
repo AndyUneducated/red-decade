@@ -497,7 +497,7 @@
   docs: [rmrb-1966-06-18-exam-postponed, rmrb-1966-06-18-education-editorial]
   voices:
     - { voice: doc, text: 决定一九六六年高等学校招收新生的工作推迟半年进行, cite: rmrb-1966-06-18-exam-postponed, quote: true }
-    - { voice: editor, text: 通知只说“推迟半年”，并安排未完成运动的高中毕业生留校、已完成的“下乡下厂参加生产劳动”。“中断十一年”不是当时的决定，而是推迟一再延续的结果；1977 年恢复高考的原文尚未入库。 }
+    - { voice: editor, text: 通知只说“推迟半年”，并安排未完成运动的高中毕业生留校、已完成的“下乡下厂参加生产劳动”。“中断十一年”不是当时的决定，而是推迟一再延续的结果。恢复统一考试见 1977 年 10 月教育部招生意见。 }
   cites: [rmrb-1966-06-18-exam-postponed, rmrb-1966-06-18-education-editorial]
 
 - id: 1966-07-16-yangtze

@@ -372,3 +372,24 @@
   voices:
     - { voice: doc, text: 自一九九〇年五月一日起，解除在西藏自治区拉萨市的戒严, cite: ws-1990-lhasa-lift-martial-law, quote: true }
   cites: [ws-1990-lhasa-lift-martial-law]
+
+- id: 1989-04-04-administrative-litigation
+  date: 1989-04-04
+  title: 《行政诉讼法》通过：公民可以起诉行政机关
+  lane: center
+  weight: 1
+  summary: 七届人大二次会议通过《行政诉讼法》，自 1990 年 10 月 1 日起施行。公民、法人认为行政机关的具体行政行为侵犯其合法权益，有权向人民法院起诉；受案范围包括对拘留、罚款、吊销许可证和执照等不服的诉讼。
+  voices:
+    - { voice: doc, text: 公民、法人或者其他组织认为行政机关和行政机关工作人员的具体行政行为侵犯其合法权益，有权依照本法向人民法院提起诉讼, cite: ws-1989-04-04-administrative-litigation, quote: true }
+  cites: [ws-1989-04-04-administrative-litigation]
+
+- id: 1989-10-31-assembly-law
+  date: 1989-10-31
+  title: 《集会游行示威法》：须申请并获得许可
+  lane: center
+  weight: 2
+  summary: 北京戒严期间，七届人大常委会第十次会议通过《集会游行示威法》，自公布之日起施行。法律规定举行集会、游行、示威必须向公安机关申请并获得许可，负责人须在五日前递交书面申请，载明目的、标语、口号、人数和路线；行使这些权利“不得反对宪法所确定的基本原则”。主管机关逾期不通知的视为许可。
+  voices:
+    - { voice: doc, text: 举行集会、游行、示威，必须依照本法规定向主管机关提出申请并获得许可, cite: ws-1989-10-31-assembly-law, quote: true }
+    - { voice: doc, text: 不得反对宪法所确定的基本原则, cite: ws-1989-10-31-assembly-law, quote: true }
+  cites: [ws-1989-10-31-assembly-law]
