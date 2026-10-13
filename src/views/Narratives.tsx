@@ -1,3 +1,4 @@
+import { SubNav } from '../components/SubNav'
 import * as d3 from 'd3'
 import { useMemo, useRef } from 'react'
 import { Cite, useTip } from '../components/bits'
@@ -73,6 +74,7 @@ export function Narratives() {
     <div className="view">
       <div className="viewhead">
         <div>
+          <SubNav />
           <h1>叙事对照</h1>
           <p>
             同一事件，不同时间、不同立场的文本怎么说。列按写作时间排列：当时的原始文件与官方报刊 → 亲历者 → 1980 年起诉书与 1981 年决议 → 学术研究 → 本站。

@@ -1,3 +1,4 @@
+import { SubNav } from '../components/SubNav'
 import * as d3 from 'd3'
 import { Fragment, useMemo, useRef, type CSSProperties } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
@@ -154,6 +155,7 @@ function Directory() {
     <div className="view">
       <div className="viewhead">
         <div>
+          <SubNav />
           <h1>人物</h1>
           <p>
             每行一人，色带是一生的状态（{T0}–{T1} 同一时间轴），红线是时间轴上的此刻。点名字看完整传记。已完成完整传记 {full} / {ix.people.length} 人；{fmtT(t, 'month')}在世 {living} 人。底部按此刻的状态计数，点一种状态只看这些人。

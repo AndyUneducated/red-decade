@@ -6,7 +6,7 @@ import { adoptEntry, beginRestore, currentEntry, getUi, pushEntry, restoreScroll
 
 export const VIEWS = {
   timeline: '时间线',
-  people: '人物',
+  people: '名录',
   orgs: '机构',
   network: '人物网络',
   fates: '命运矩阵',
@@ -19,6 +19,19 @@ export const VIEWS = {
   research: '研究',
 } as const
 export type View = keyof typeof VIEWS
+
+// The top bar shows these groups; views that share a group get a sub-nav above their title.
+// Every view keeps its own route, so old links still open.
+export const NAV: { label: string; views: View[] }[] = [
+  { label: '时间线', views: ['timeline'] },
+  { label: '人物', views: ['people', 'network', 'fates'] },
+  { label: '机构与派系', views: ['orgs', 'river'] },
+  { label: '革委会地图', views: ['map'] },
+  { label: '思想谱系', views: ['ideas'] },
+  { label: '争议', views: ['figures', 'narratives', 'research'] },
+  { label: '文献', views: ['docs'] },
+]
+export const groupOf = (v: View) => NAV.find((g) => g.views.includes(v))!
 
 // doc is the second path segment: a document id in docs, a person id in people, an org id in orgs;
 // entry identifies the history entry, which carries remembered scroll offsets and UI state

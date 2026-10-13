@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Drawer } from './components/Drawer'
 import { Search } from './components/Search'
 import { setTheme, useTheme } from './lib/theme'
-import { useApp, VIEWS, type View } from './state'
+import { groupOf, NAV, useApp, type View } from './state'
 import { Docs } from './views/Docs'
 import { Fates } from './views/Fates'
 import { Figures } from './views/Figures'
@@ -93,9 +93,9 @@ export default function App() {
           <span>1949–1989 · 当前深描 1966–1976</span>
         </div>
         <nav className="tabs">
-          {(Object.keys(VIEWS) as View[]).map((v) => (
-            <button key={v} aria-current={v === view ? 'page' : undefined} onClick={() => go(v)}>
-              {VIEWS[v]}
+          {NAV.map((g) => (
+            <button key={g.label} aria-current={g === groupOf(view) ? 'page' : undefined} onClick={() => go(g.views[0])}>
+              {g.label}
             </button>
           ))}
         </nav>

@@ -1,3 +1,4 @@
+import { SubNav } from '../components/SubNav'
 import * as d3 from 'd3'
 import type { ScaleLinear } from 'd3'
 import { useMemo, useRef, type ReactNode } from 'react'
@@ -148,6 +149,7 @@ function Directory() {
     <div className="view">
       <div className="viewhead">
         <div>
+          <SubNav />
           <h1>机构</h1>
           <p>
             党、政、军、群团、群众组织与单位共 {ix.orgs.length} 个，{fmtT(t, 'month')}存在的有 {alive} 个。缩进是此刻的隶属关系，随时间轴改变，下属机构跟随上级排列（如军队在中央军委之下）；色条是存续期（{T0}–{T1}），虚线框为停止活动。右侧是此刻的负责人；没有负责人名单的机构显示库中在此任职的人数（此刻在任 / 总数）。

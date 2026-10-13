@@ -1,3 +1,4 @@
+import { SubNav } from '../components/SubNav'
 import { ClaimCard } from '../components/Drawer'
 import { fmtDate } from '../lib/dates'
 import { useApp } from '../state'
@@ -31,6 +32,7 @@ export function Research() {
       <div className="research">
         <div className="viewhead" style={{ padding: '0 0 14px', border: 0 }}>
           <div>
+            <SubNav />
             <h1>研究</h1>
             <p>
               本站的每一条判断都应能追溯到原文。下面是基于一手文献逐字比对得出的结论，以及全部来源的登记表。完整的研究日志、方法与待办见{' '}

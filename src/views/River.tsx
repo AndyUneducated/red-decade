@@ -1,3 +1,4 @@
+import { SubNav } from '../components/SubNav'
 import * as d3 from 'd3'
 import { useMemo, useRef } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
@@ -229,6 +230,7 @@ export function River() {
     <div className="view">
       <div className="viewhead">
         <div>
+          <SubNav />
           <h1>派系河流</h1>
           <p>上方河流的宽度是每个派系仍“在位”（未受批判、靠边、打倒、关押或死亡）的人数，按每人的第一归属计。下方每条带子是一个派系全体成员的状态构成；带子下方的点是成员遭难的时刻。最下方是各派系掌控的机构：按此刻负责人的派系计，色浅的是没有负责人记录、按机构本身的派系标注计的（多为群众组织）。</p>
         </div>
