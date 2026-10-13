@@ -394,12 +394,13 @@
   title: 职工人数
   group: people
   unit: 万人
-  caveats: 1980 年代公报写明是全民所有制和城镇集体所有制单位的职工，城镇个体劳动者另列。1958 年数是全年平均人数，不是年末数。1971 年数是国务院 1972 年报告转述的“突破了五千万人”，只是下限。
-  events: [1972-grain]
+  caveats: 1980 年代公报写明是全民所有制和城镇集体所有制单位的职工，城镇个体劳动者另列。1958 年数是全年平均人数，不是年末数。1961 年数出自 1962 年精减决定，1971 年数是国务院 1972 年报告转述的“突破了五千万人”，只是下限。
+  events: [1961-06-28-cut-staff, 1962-05-27-cut-urban-population, 1972-grain]
   points:
     - { year: 1955, value: 1850, approx: true, cite: rmrb-1956-06-15-stats-1955, quote: "全国的职工人数是1，850多万人" }
     - { year: 1957, value: 2451, cite: rmrb-1959-04-14-stats-fyp1, quote: "我国职工人数已经达到2，451万人" }
     - { year: 1958, value: 3200, approx: true, kind: variant, cite: rmrb-1959-04-15-stats-1958, quote: "1958年全国职工平均人数达到3，200多万人", note: 全年平均人数 }
+    - { year: 1961, value: 4170, cite: ws-1962-05-27-cut-urban-population, quote: "全国职工人数应当在一九六一年年末的四千一百七十万人的基础上，再减少一千零五十六万人至一千零七十二万人", note: 中共中央、国务院 1962 年 5 月精减决定 }
     - { year: 1971, value: 5000, approx: true, cite: ws-1972-grain, quote: "职工人数突破了五千万人", note: 周恩来 1972 年初的说法，下限 }
     - { year: 1978, value: 9499, cite: rmrb-1979-06-28-stats-1978, quote: "我国职工总数达到九千四百九十九万人" }
     - { year: 1979, value: 9967, cite: rmrb-1980-05-01-stats-1979, quote: "全国职工总数达九千九百六十七万人" }
