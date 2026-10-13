@@ -1,0 +1,328 @@
+# 1949–1965 第四批：维基文库第五批原文（m5-ws-5）。
+# 潢川、商城两县的检查是县委自己在 1960 年整风中写的，死亡数字是当时县里和省委检查组的统计口径。
+# 中苏论战两条（再论陶里亚蒂、赫鲁晓夫下台）是中共一方的叙述。
+
+- id: 1950-11-28-wu-xiuquan-un
+  date: 1950-11-28
+  title: 伍修权在联合国安理会控诉美国侵略台湾
+  lane: intl
+  weight: 2
+  place: 纽约
+  summary: 1950 年 11 月 28 日，伍修权以中华人民共和国中央人民政府代表身份在联合国安理会发言，“控诉美国政府武装侵略中国领土台湾”，抗议联合国仍容留国民党政府的代表，并拒绝参加安理会所谓“控诉侵略大韩民国”议程的讨论。发言说台湾“根本不存在什么地位问题”；谈到朝鲜，说中国人民“志愿援助朝鲜人民”，政府“没有任何理由可以阻止他们志愿前往朝鲜”。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 我奉中华人民共和国中央人民政府之命，代表全中国四万万七千五百万人民，来这里控诉美国政府武装侵略中国领土台湾（伍修权发言）, cite: ws-1950-11-28-wu-xiuquan-un, quote: true }
+    - { voice: doc, text: 台湾的地位早就决定了，台湾根本不存在什么地位问题（同上）, cite: ws-1950-11-28-wu-xiuquan-un, quote: true }
+    - { voice: doc, text: 中国人民政府没有任何理由可以阻止他们志愿前往朝鲜，在朝鲜民主主义人民共和国政府的指挥之下，参加朝鲜人民反抗美国侵略的伟大解放斗争（同上）, cite: ws-1950-11-28-wu-xiuquan-un, quote: true }
+  cites: [ws-1950-11-28-wu-xiuquan-un]
+
+- id: 1952-04-18-anti-corruption-act
+  date: 1952-04-18
+  title: 《惩治贪污条例》批准
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: “三反”运动中，《中华人民共和国惩治贪污条例》1952 年 3 月 28 日经政务院会议通过，4 月 18 日经中央人民政府委员会批准。条例把国家机关、企业、学校工作人员侵吞、盗窃、骗取国家财物和收受贿赂等行为定为贪污罪，个人贪污（旧币）一亿元以上的判处十年以上有期徒刑或无期徒刑，情节特别严重的判处死刑。
+  voices:
+    - { voice: doc, text: 一切國家機關、企業、學校及其附屬機構的工作人員，凡侵吞、盜竊、騙取、套取國家財物，強索他人財物，收受賄賂以及其他假公濟私違法取利之行為，均為貪污罪（惩治贪污条例第二条）, cite: ws-1952-04-18-anti-corruption-act, quote: true }
+    - { voice: doc, text: 個人貪污的數額，在人民幣一億元以上者，判處十年以上有期徒刑或無期徒刑；其情節特別嚴重者判處死刑（第三条）, cite: ws-1952-04-18-anti-corruption-act, quote: true }
+  cites: [ws-1952-04-18-anti-corruption-act]
+
+- id: 1954-09-27-npc-elections
+  date: 1954-09-27
+  title: 一届人大选举：毛泽东任国家主席，刘少奇任委员长，周恩来任总理
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 一届人大一次会议 9 月 20 日通过宪法后，9 月 27 日选举毛泽东为中华人民共和国主席、朱德为副主席，刘少奇为全国人大常委会委员长，彭真为秘书长；根据主席提名决定周恩来为国务院总理。董必武当选最高人民法院院长，张鼎丞当选最高人民检察院检察长。
+  people: [mao-zedong, zhu-de, liu-shaoqi, zhou-enlai, peng-zhen]
+  voices:
+    - { voice: doc, text: 第一屆全國人民代表大會第一次會議已於一九五四年九月二十七日選舉……毛澤東為中華人民共和國主席（人大公告）, cite: ws-1954-09-27-npc-announcement, quote: true }
+    - { voice: doc, text: 委員長　劉少奇（同上）, cite: ws-1954-09-27-npc-announcement, quote: true }
+    - { voice: doc, text: 根據中華人民共和國主席的提名，決定周恩來為中華人民共和國國務院總理（同上）, cite: ws-1954-09-27-npc-announcement, quote: true }
+  cites: [ws-1954-09-27-npc-announcement]
+
+- id: 1954-12-08-mutual-defense-statement
+  date: 1954-12-08
+  title: 周恩来声明美蒋《共同防御条约》“非法无效”
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 美国政府与台湾的国民党政府 1954 年 12 月 2 日签订《共同防御条约》。12 月 8 日，外交部长周恩来发表声明，称条约“根本是非法的、無效的”，要求美国从台湾、澎湖和台湾海峡撤走一切武装力量。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 竟在一九五四年十二月二日同逃竄在台灣的蔣介石賣國集團簽訂了所謂「共同防禦條約」（周恩来声明）, cite: ws-1954-12-08-zhou-mutual-defense, quote: true }
+    - { voice: doc, text: 蔣介石賣國集團沒有任何權利同任何國家簽訂任何條約。美蔣「共同防禦條約」根本是非法的、無效的（同上）, cite: ws-1954-12-08-zhou-mutual-defense, quote: true }
+  cites: [ws-1954-12-08-zhou-mutual-defense]
+
+- id: 1955-01-24-zhou-taiwan
+  date: 1955-01-24
+  title: 一江山岛战后周恩来拒绝“停火”
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 解放军攻占一江山岛后，美国策动经联合国在台湾海峡“停火”。1955 年 1 月 24 日，周恩来以总理兼外长身份发表声明，说解放台湾是中国的主权和内政，中国政府“絕對不能同意”与国民党政府实行停火，要求美国武装力量撤出台湾和台湾海峡。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 美國政府在中國人民最近勝利地解放了一江山島之後，就一面加緊軍事行動，進行戰爭挑釁，另一面策動通過聯合國進行所謂停火的詭計（周恩来声明）, cite: ws-1955-01-24-zhou-taiwan, quote: true }
+    - { voice: doc, text: 中華人民共和國政府絕對不能同意同中國人民所唾棄了的蔣介石賣國集團實行所謂停火（同上）, cite: ws-1955-01-24-zhou-taiwan, quote: true }
+  cites: [ws-1955-01-24-zhou-taiwan]
+
+- id: 1955-02-08-officer-service
+  date: 1955-02-08
+  title: 《军官服役条例》：设立军衔制度
+  lane: army
+  weight: 2
+  place: 北京
+  summary: 1955 年 2 月 8 日通过的《中国人民解放军军官服役条例》，目的是“從志願兵制改變為義務兵制”和加强军队正规化现代化建设。条例规定军官军衔分元帅（大元帅、元帅）、将官、校官、尉官四等十四级，大元帅军衔授予“創建全國人民武裝力量”的最高统帅。
+  voices:
+    - { voice: doc, text: 為了從志願兵制改變為義務兵制和加強中國人民解放軍正規化現代化的建設，制定本條例（军官服役条例第一条）, cite: ws-1955-02-08-officer-service, quote: true }
+    - { voice: doc, text: 元帥：中華人民共和國大元帥、中華人民共和國元帥……將官：大將、上將、中將、少將（第七条）, cite: ws-1955-02-08-officer-service, quote: true }
+    - { voice: doc, text: 對創建全國人民武裝力量和領導全國人民武裝力量進行革命戰爭、立有卓越功勳的最高統帥，授予中華人民共和國大元帥軍銜（第九条）, cite: ws-1955-02-08-officer-service, quote: true }
+  cites: [ws-1955-02-08-officer-service]
+
+- id: 1955-07-30-military-service-law
+  date: 1955-07-30
+  title: 《兵役法》：实行义务兵役制
+  lane: army
+  weight: 2
+  place: 北京
+  summary: 一届人大二次会议 1955 年 7 月 30 日通过《兵役法》，同日由国家主席公布。年满十八岁的男性公民都有服兵役的义务，陆军和公安军服现役三年，空军四年，海军舰艇部队五年；“反革命分子”和被剥夺政治权利的地主、官僚资本家等不得服兵役。
+  voices:
+    - { voice: doc, text: 中華人民共和國年滿十八歲的男性公民，不分民族、種族、職業、社會出身、宗教信仰和教育程度，都有義務依照本法的規定服兵役（兵役法第二条）, cite: ws-1955-07-30-military-service-law, quote: true }
+    - { voice: doc, text: 反革命分子和依照法律在一定時期內被剝奪政治權利的封建地主、官僚資本家和其他被剝奪政治權利的人，都不得服兵役（第三条）, cite: ws-1955-07-30-military-service-law, quote: true }
+    - { voice: doc, text: 陸軍、公安軍的軍士和兵服現役三年（第七条）, cite: ws-1955-07-30-military-service-law, quote: true }
+  cites: [ws-1955-07-30-military-service-law]
+
+- id: 1955-09-23-ten-marshals
+  date: 1955-09-23
+  title: 授予十位元帅军衔
+  lane: army
+  weight: 3
+  place: 北京
+  summary: 1955 年 9 月 23 日，全国人大常委会根据《军官服役条例》，审议周恩来总理的建议，决定授予朱德、彭德怀、林彪、刘伯承、贺龙、陈毅、罗荣桓、徐向前、聂荣臻、叶剑英十人中华人民共和国元帅军衔。条例中的“大元帅”军衔没有授予。
+  people: [zhu-de, peng-dehuai, lin-biao, liu-bocheng, he-long, chen-yi, xu-xiangqian, nie-rongzhen, ye-jianying, zhou-enlai]
+  voices:
+    - { voice: doc, text: 決定授予朱德、彭德懷、林彪、劉伯承、賀龍、陳毅、羅榮桓、徐向前、聶榮臻、葉劍英以中華人民共和國元帥軍銜（人大常委会决议）, cite: ws-1955-09-23-marshal-ranks, quote: true }
+    - { voice: editor, text: 十人中，彭德怀 1959 年庐山会议后被撤去国防部长，贺龙、彭德怀死于文革期间，林彪 1971 年出逃身亡；见各人档案。 }
+  cites: [ws-1955-09-23-marshal-ranks, ws-1955-02-08-officer-service]
+
+- id: 1956-04-05-dictatorship-experience
+  date: 1956-04-05
+  title: 《关于无产阶级专政的历史经验》：对苏共二十大的回应
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 苏共二十大批判斯大林个人崇拜后，人民日报编辑部 1956 年 4 月 5 日发表《关于无产阶级专政的历史经验》。文章肯定苏共“勇敢的自我批评”，同时说斯大林“是一个伟大的马克思列宁主义者，但是也是一个犯了几个严重错误而不自觉其为错误的马克思列宁主义者”，列举他在肃反扩大化、战前缺乏警惕、农业、南斯拉夫问题上的错误；又说无产阶级专政的高度集中“必须和高度的民主相结合”。
+  voices:
+    - { voice: official1966, text: 有些人认为斯大林完全错了，这是严重的误解。斯大林是一个伟大的马克思列宁主义者，但是也是一个犯了几个严重错误而不自觉其为错误的马克思列宁主义者（人民日报编辑部）, cite: ws-1956-04-05-dictatorship-experience, quote: true }
+    - { voice: official1966, text: 在肃反问题上扩大化；在反法西斯战争前夜缺乏必要的警惕，对于农业的进一步发展和农民的物质福利缺乏应有的注意（同上，列举斯大林的错误）, cite: ws-1956-04-05-dictatorship-experience, quote: true }
+    - { voice: official1966, text: 为着战胜强大的敌人，无产阶级专政要求权力的高度集中。这个高度集中的权力，是必须和高度的民主相结合的（同上）, cite: ws-1956-04-05-dictatorship-experience, quote: true }
+  cites: [ws-1956-04-05-dictatorship-experience]
+
+- id: 1956-12-29-dictatorship-experience-2
+  date: 1956-12-29
+  title: 《再论无产阶级专政的历史经验》：两类矛盾的提法
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 匈牙利事件和铁托 11 月 11 日的普拉演说之后，人民日报编辑部 1956 年 12 月 29 日发表《再论无产阶级专政的历史经验》，讨论苏联道路、斯大林功过、反对教条主义和修正主义。文章把矛盾分为“敌我之间的矛盾”和“人民内部的矛盾”两种，这一提法几个月后在毛泽东《关于正确处理人民内部矛盾的问题》中展开。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 第一种是敌我之间的矛盾……这是根本的矛盾，它的基础是敌对阶级之间的利害冲突。第二种是人民内部的矛盾（人民日报编辑部）, cite: ws-1956-12-29-dictatorship-experience-2, quote: true }
+    - { voice: official1966, text: 人民内部的矛盾可以而且应该从团结的愿望出发，经过批评或者斗争获得解决，从而在新的条件下得到新的团结（同上）, cite: ws-1956-12-29-dictatorship-experience-2, quote: true }
+    - { voice: official1966, text: 在一九五六年四月间，我们发表过《关于无产阶级专政的历史经验》一篇论文。针对着铁托集团这次进攻，我们在一九五六年十二月底，又发表了《再论无产阶级专政的历史经验》（1963 年《再论陶里亚蒂》回顾）, cite: ws-1963-03-togliatti-again, quote: true }
+  cites: [ws-1956-12-29-dictatorship-experience-2, ws-1963-03-togliatti-again]
+
+- id: 1956-11-24-autumn-distribution
+  date: 1956-11-24
+  title: 高级社第一次秋收分配
+  lane: econ
+  weight: 1
+  summary: 1956 年 11 月 24 日，中共中央、国务院就农业社秋收分配发出指示。中央曾要求“90%的社员增加收入”，指示承认一些社因灾减产或铺张浪费做不到，也批评个别社为凑数而不扣生产费用、乱伐树木。指示要求退还强迫入社的零星树木和家畜，并说下层干部的强迫命令往往来自上级的主观主义。
+  voices:
+    - { voice: doc, text: 在全国农业发展纲要（草案）中，中央要求农业生产合作社做到90%的社员增加收入（中共中央、国务院指示）, cite: ws-1956-11-24-autumn-distribution, quote: true }
+    - { voice: doc, text: 已经入社的零星树木（包括果树）和零散家畜，社员要求抽回的，应该退还给社员（同上）, cite: ws-1956-11-24-autumn-distribution, quote: true }
+    - { voice: doc, text: 有些错误和缺点，是来自上级领导方面的主观主义。领导机关的主观主义，就难免造成下层干部的强迫命令（同上）, cite: ws-1956-11-24-autumn-distribution, quote: true }
+    - { voice: doc, text: 今年冬季还有占农村总户数30%左右的农户要由初级社转为高级社（同上）, cite: ws-1956-11-24-autumn-distribution, quote: true }
+  cites: [ws-1956-11-24-autumn-distribution]
+
+- id: 1959-04-18-zhou-gov-report
+  date: 1959-04-18
+  title: 周恩来政府工作报告：1958 年粮食“增加了三千八百亿斤”
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1959 年 4 月 18 日，周恩来在二届人大一次会议上作政府工作报告。报告按当时的统计说，1958 年钢产量达到 1108 万吨，粮食比上年增加 3800 亿斤，全国农民组成了二万六千多个人民公社；并提出 1959 年钢 1800 万吨、粮食 10500 亿斤等“四项指标”。四个月后的八届八中全会以“去年农业产量的核实情况”为由下调了 1959 年计划（见该条）。
+  people: [zhou-enlai]
+  voices:
+    - { voice: official1966, text: 而一九五八年比一九五七年，钢增加了五百七十三万吨，煤增加了一亿四千万吨，机床增加了二万二千台，粮食增加了三千八百亿斤（周恩来报告）, cite: ws-1959-04-18-zhou-gov-report, quote: true }
+    - { voice: official1966, text: 全国一亿二千万户农民在农业生产合作化的基础上，进一步组成了二万六千多个大规模的、工农商学兵相结合的、政社合一的人民公社（同上）, cite: ws-1959-04-18-zhou-gov-report, quote: true }
+    - { voice: official1966, text: 提出了钢产量一千八百万吨、煤产量三亿八千万吨、粮食产量一万零五百亿斤、棉花产量一亿担的四项指标（同上，谈八届六中全会）, cite: ws-1959-04-18-zhou-gov-report, quote: true }
+    - { voice: official1966, text: 在农业机器和化学肥料还很少的条件下，即使每年增产百分之十到二十，就已经算得是跃进了（同上）, cite: ws-1959-04-18-zhou-gov-report, quote: true }
+  cites: [ws-1959-04-18-zhou-gov-report, ws-1959-08-16-thrift-resolution]
+
+- id: 1959-04-27-liu-chairman
+  date: 1959-04-27
+  title: 刘少奇当选国家主席
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 1959 年 4 月 27 日，二届人大一次会议选举刘少奇为中华人民共和国主席，宋庆龄、董必武为副主席，朱德为全国人大常委会委员长，彭真兼秘书长；根据主席提名决定周恩来继续任国务院总理。毛泽东此后不再担任国家主席。
+  people: [liu-shaoqi, zhu-de, zhou-enlai, peng-zhen, mao-zedong]
+  voices:
+    - { voice: doc, text: 第二届全国人民代表大会第一次会议于一九五九年四月二十七日选举刘少奇为中华人民共和国主席，宋庆龄、董必武为中华人民共和国副主席（人大公告）, cite: ws-1959-04-27-npc-announcement, quote: true }
+    - { voice: doc, text: 委员长：朱德（同上）, cite: ws-1959-04-27-npc-announcement, quote: true }
+  cites: [ws-1959-04-27-npc-announcement, ws-1954-09-27-npc-announcement]
+
+- id: 1959-09-23-rural-fairs
+  date: 1959-09-23
+  title: 恢复农村集市贸易
+  lane: econ
+  weight: 1
+  summary: 公社化后，1959 年 9 月 23 日中共中央、国务院发出关于组织农村集市贸易的指示，说集市贸易是“社会主义统一市场的一个组成部分”，原则是“活而不乱、管而不死”。社员家庭副业产品和手工业品可以上市，一、二类物资须先完成国家交售任务；公社、生产队和社员不得贩运、开店。
+  voices:
+    - { voice: doc, text: 领导和组织农村集市贸易的原则，应当是活而不乱、管而不死（中共中央、国务院指示）, cite: ws-1959-09-23-rural-fairs, quote: true }
+    - { voice: doc, text: 人民公社社员家庭和个人生产的副业产品、手工业品，不论属于第一类、第二类或者第三类物资，都可以在集市出售（同上）, cite: ws-1959-09-23-rural-fairs, quote: true }
+    - { voice: doc, text: 公社、生产队和社员，都不得进行商品贩运和开设店铺（同上）, cite: ws-1959-09-23-rural-fairs, quote: true }
+  cites: [ws-1959-09-23-rural-fairs]
+
+- id: 1960-08-26-shangcheng-self-criticism
+  date: 1960-08-26
+  title: 商城县委检查：全县死亡 44756 人
+  lane: local
+  weight: 3
+  place: 信阳
+  summary: 河南信阳地区商城县委 1960 年 8 月 26 日向上级写的检查承认，1959 年全县实际产粮一亿四千五百万斤，却按三亿五千万斤分配和征购，又以“反瞒产”挤粮，造成食堂停伙、外流和大批死亡。据县委统计，1959 年 11 月到 1960 年 3 月底全县死亡 44756 人，占总人口 10.9%，死绝 1220 户，孤儿 1482 人；反瞒产中因违法乱纪和强迫命令致死 76 人。检查也承认县委要求商城“保证红旗”而助长虚报。1962 年对信阳地委第一书记路宪文的处分决定提到商城的吃人肉惨案。
+  people: [lu-xianwen]
+  voices:
+    - { voice: doc, text: 全县粮食实际产量是一亿四千五百万斤，而按三亿五千万斤进行分配、征购和安排群众生活（商城县委检查）, cite: ws-1960-08-26-shangcheng-self-criticism, quote: true }
+    - { voice: doc, text: 共死亡的 44756人，其中因疫病死亡的 30292人，正常死亡的 14464人（可能大些），死亡人数占总人数的 10.9%（同上）, cite: ws-1960-08-26-shangcheng-self-criticism, quote: true }
+    - { voice: doc, text: 全县死绝的有1220户；无依无靠（指都无大人的）全靠公社、大队抚养的孤儿1482人（同上）, cite: ws-1960-08-26-shangcheng-self-criticism, quote: true }
+    - { voice: doc, text: 特别惨痛的是因违法乱纪和强迫命令而死亡的76人，残废的41人（同上）, cite: ws-1960-08-26-shangcheng-self-criticism, quote: true }
+    - { voice: doc, text: 商城县是红旗县，要保证红旗（同上，县委当时的提法）, cite: ws-1960-08-26-shangcheng-self-criticism, quote: true }
+    - { voice: official1966, text: 同年12月商城县委书记处书记张念仲，为了掩盖吃人肉的真相，叫公安局长王志刚故意强逼群众吃人肉，造成惨案（1962 年路宪文处分决定）, cite: ws-1962-07-10-lu-xianwen-punishment, quote: true }
+    - { voice: editor, text: 检查把死亡分成“因疫病死亡”和“正常死亡”两类，没有“饿死”的说法；同一份检查又承认死亡是粮食征购透底、群众生活困难造成的。 }
+  cites: [ws-1960-08-26-shangcheng-self-criticism, ws-1962-07-10-lu-xianwen-punishment]
+
+- id: 1960-09-07-huangchuan-conclusion
+  date: 1960-09-07
+  title: 潢川县委结论：伤亡 55032 人，曾瞒报一万余人
+  lane: local
+  weight: 3
+  place: 信阳
+  summary: 信阳地区潢川县委 1960 年 9 月 7 日的结论（初稿）说，1959 年秋全县实产粮 14700 万斤，县委却定为 35000 万斤作为征购依据，随后全县“反瞒产”。县委当着省委工作组的面说“没有县委介绍信，不准随便统计死人数字”，先后报过 31800 多人和 27330 人；省委检查组最后澄清全县伤亡 55032 人，占原有总人口的 12%，345 户死绝。
+  voices:
+    - { voice: doc, text: 我们错误的把秋季粮食产量确定为 35000万斤（潢川县委结论）, cite: ws-1960-09-07-huangchuan-conclusion, quote: true }
+    - { voice: doc, text: 今后没有县委介绍信，不准随便统计死人数字（同上，县委对省委工作组的话）, cite: ws-1960-09-07-huangchuan-conclusion, quote: true }
+    - { voice: doc, text: 经过省委检查组最后澄清实际伤亡 55032人，超过县委原统计报告数字一万余人（同上）, cite: ws-1960-09-07-huangchuan-conclusion, quote: true }
+    - { voice: doc, text: 全县伤亡人数占原有总人口的 12%（同上）, cite: ws-1960-09-07-huangchuan-conclusion, quote: true }
+    - { voice: doc, text: 死人最严重时期，死了人无人抬，一个坑埋八个，一个坑埋十二个（同上）, cite: ws-1960-09-07-huangchuan-conclusion, quote: true }
+    - { voice: doc, text: 给予弓治英（平舆县委第一书记）赵勋远（潢川县委第一书记）以撤职查办、管教反省（1961 年信阳地委处理决定）, cite: ws-1961-04-29-xinyang-cadres-disposal, quote: true }
+  cites: [ws-1960-09-07-huangchuan-conclusion, ws-1961-04-29-xinyang-cadres-disposal]
+
+- id: 1960-09-07-lower-grain-ration
+  date: 1960-09-07
+  title: 中央指示压低城乡口粮标准
+  lane: econ
+  weight: 2
+  summary: 1960 年 9 月 7 日，中共中央指示全国“立即采取压低城乡口粮标准的方针”。指示说全年受灾面积九亿亩左右，粮食产量可能达不到北戴河会议估计的四千五百亿斤，山东某些地方麦收后肿病和非正常死亡仍在发生。淮河以北农村口粮压到每人每年原粮三百斤左右，城市人口除重体力劳动者外每人每月压低两斤左右。
+  voices:
+    - { voice: doc, text: 因此，全国必须立即采取压低城乡口粮标准的方针，要求农村少吃，城市也要少吃；丰收区少吃，灾区更要少吃（中共中央指示）, cite: ws-1960-09-07-lower-grain-ration, quote: true }
+    - { voice: doc, text: 全国总计，全年受灾面积达到九亿亩左右（同上）, cite: ws-1960-09-07-lower-grain-ration, quote: true }
+    - { voice: doc, text: 山东某些地方在麦收以后，肿病、非正常死亡和人口外流的现象还在继续发生（同上）, cite: ws-1960-09-07-lower-grain-ration, quote: true }
+    - { voice: doc, text: 淮河以北地区的口粮标准，应当压低到平均每人全年原粮三百斤左右（同上）, cite: ws-1960-09-07-lower-grain-ration, quote: true }
+    - { voice: doc, text: 其余的全部城市人口，每人每月必须压低口粮标准两斤左右（商品粮）（同上）, cite: ws-1960-09-07-lower-grain-ration, quote: true }
+  cites: [ws-1960-09-07-lower-grain-ration]
+
+- id: 1961-04-26-hu-qiaomu-canteens
+  date: 1961-04-26
+  title: 胡乔木韶山、湘乡调查：食堂“势在必散”
+  lane: local
+  weight: 2
+  place: 韶山
+  summary: 1961 年 4 月，胡乔木带中央调查组在湖南韶山公社调查，给毛泽东写信并附调查材料，4 月 26 日中共中央按毛泽东的指示转发各地。材料说大多数食堂“已经成了发展生产的障碍”，韶山片 153 个食堂中坚决要求散伙的有 65 个；信中又报告湘乡县楠香、石匠两个大队三年来死亡率都达百分之二十左右，县委说全县三年约死三万人。
+  people: [hu-qiaomu, mao-zedong]
+  voices:
+    - { voice: doc, text: 根据毛泽东同志的指示，现将胡乔木同志的一封信和附文四件转给你们（中共中央转发语）, cite: ws-1961-04-26-hu-qiaomu-canteens, quote: true }
+    - { voice: doc, text: 从群众反映看来，大多数食堂目前实际上已经成了发展生产的障碍，成了党群关系中的一个疙瘩（调查组报告）, cite: ws-1961-04-26-hu-qiaomu-canteens, quote: true }
+    - { voice: doc, text: 从一九五八年十月到一九六一年三月，三个大队死七百零七人，占现有人口百分之十三点五（胡乔木信，谈湘乡）, cite: ws-1961-04-26-hu-qiaomu-canteens, quote: true }
+    - { voice: doc, text: 据县委说，全县三年约死三万人，去年约死二万人，而以去年年底最为严重（同上）, cite: ws-1961-04-26-hu-qiaomu-canteens, quote: true }
+  cites: [ws-1961-04-26-hu-qiaomu-canteens]
+
+- id: 1963-03-togliatti-again
+  date: 1963-03
+  title: 《再论陶里亚蒂同志同我们的分歧》
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 意大利共产党领导人陶里亚蒂 1962 年 12 月在意共十大上批评中共，《人民日报》12 月 31 日发表社论回应。1963 年 3 月，红旗杂志编辑部发表长文《再论陶里亚蒂同志同我们的分歧》，说中共原本不准备公开争论，既然对方“挑起了公开争论”，“我们一定要回答”。同年 6 月中共又发表《关于国际共产主义运动总路线的建议》（见该条）。
+  voices:
+    - { voice: official1966, text: 难道“只许州官放火，不许百姓点灯”吗？不行，不行，不行。我们一定要回答（红旗编辑部）, cite: ws-1963-03-togliatti-again, quote: true }
+    - { voice: official1966, text: 为此，我们的《人民日报》在一九六二年十二月三十一日发表了《陶里亚蒂同志同我们的分歧》的社论（同上）, cite: ws-1963-03-togliatti-again, quote: true }
+  cites: [ws-1963-03-togliatti-again]
+
+- id: 1963-10-22-second-urban-work
+  date: 1963-10-22
+  title: 第二次城市工作会议纪要
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 中共中央、国务院 1963 年 9 月 16 日至 10 月 12 日召开第二次城市工作会议，10 月 22 日批转会议纪要。纪要说前九个月工业生产比上年同期增长 8.2%，集市贸易价格下降 40%，但粮、油、布供应“仍然很不足”，城市人口“还是过多”；要求城市“五反”运动力争在 1964 年内获得全胜。
+  voices:
+    - { voice: doc, text: 中共中央和国务院，于一九六三年九月十六日到十月十二日，召开了第二次城市工作会议（会议纪要）, cite: ws-1963-10-22-second-urban-work, quote: true }
+    - { voice: doc, text: 今年前九个月，全国的工业生产，比去年同期增长百分之八点二（同上）, cite: ws-1963-10-22-second-urban-work, quote: true }
+    - { voice: doc, text: 粮、油、布等主要生活必需品的供应，仍然很不足……城市人口的出生率太高，城市人口还是过多（同上）, cite: ws-1963-10-22-second-urban-work, quote: true }
+    - { voice: doc, text: 整个“五反”运动，要力争在明年以内，获得全胜（同上）, cite: ws-1963-10-22-second-urban-work, quote: true }
+  cites: [ws-1963-10-22-second-urban-work]
+
+- id: 1963-12-03-npc-fourth-session
+  date: 1963-11-17
+  end: 1963-12-03
+  title: 二届人大四次会议：宣布国民经济“开始全面好转”
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 二届人大四次会议 1963 年 11 月 17 日至 12 月 3 日在北京举行，听取李富春、李先念的计划和预算报告。公报说已经战胜“连续三年严重自然灾害”和“撤退专家”造成的困难，国民经济“已经开始全面好转”，对苏联的借款和利息将在 1965 年底前全部还清；会议决定三届人大代表名额扩大一倍多。
+  people: [li-fuchun, li-xiannian, zhou-enlai, peng-zhen]
+  voices:
+    - { voice: official1966, text: 我们已经战胜了连续三年严重自然灾害以及由于别人片面破坏协议、撤退专家的背信弃义行为给我们造成的经济困难……我国的国民经济已经开始全面好转（会议公报）, cite: ws-1963-12-03-npc-communique, quote: true }
+    - { voice: official1966, text: 自一九五○年以来，我国向苏联所借的外债和应付利息，现在绝大部分都已偿还，剩下的一小部分将按照协定在一九六五年年底以前全部还清（同上）, cite: ws-1963-12-03-npc-communique, quote: true }
+  cites: [ws-1963-12-03-npc-communique]
+
+- id: 1964-11-21-khrushchev-fall
+  date: 1964-11-21
+  title: 《红旗》社论《赫鲁晓夫是怎样下台的》
+  lane: intl
+  weight: 2
+  place: 北京
+  summary: 赫鲁晓夫下台后，《红旗》杂志 1964 年 11 月 21 日发表社论《赫鲁晓夫是怎样下台的》，称这是“一件大好事”，说他垮台不是由于年迈和健康，而是推行“修正主义总路线”的结果；同时警告苏联新领导不要搞“没有赫鲁晓夫的赫鲁晓夫主义”。
+  voices:
+    - { voice: official1966, text: 赫鲁晓夫下台了……这是一件大好事，一件对世界人民革命事业有利的大好事（红旗社论）, cite: ws-1964-11-21-khrushchev-fall, quote: true }
+    - { voice: official1966, text: 像赫鲁晓夫这样的一个人物之所以垮台，绝不是由于什么年迈和健康恶化，也不只是由于他的工作方法和领导作风的错误，而正是由于他推行修正主义总路线的一系列错误政策的结果（同上）, cite: ws-1964-11-21-khrushchev-fall, quote: true }
+    - { voice: official1966, text: 希望事情依然按照赫鲁晓夫所规定的路线继续做下去，实行所谓“没有赫鲁晓夫的赫鲁晓夫主义”。可以断言，这条路是走不通的（同上）, cite: ws-1964-11-21-khrushchev-fall, quote: true }
+  cites: [ws-1964-11-21-khrushchev-fall]
+
+- id: 1965-01-03-third-npc
+  date: 1965-01-03
+  title: 三届人大：刘少奇连任国家主席
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1965 年 1 月 3 日，三届人大一次会议选举刘少奇为中华人民共和国主席，宋庆龄、董必武为副主席；朱德为人大常委会委员长，彭真、康生等为副委员长；根据主席提名决定周恩来为国务院总理。
+  people: [liu-shaoqi, zhu-de, zhou-enlai, peng-zhen, kang-sheng]
+  voices:
+    - { voice: doc, text: 第三届全国人民代表大会第一次会议于一九六五年一月三日选出中华人民共和国主席和中华人民共和国副主席……中华人民共和国主席　刘少奇（人大公告）, cite: ws-1965-01-03-npc-announcement, quote: true }
+    - { voice: doc, text: 根据中华人民共和国主席的提名，决定周恩来为中华人民共和国国务院总理（同上）, cite: ws-1965-01-03-npc-announcement, quote: true }
+  cites: [ws-1965-01-03-npc-announcement]
+
+- id: 1965-08-25-tibet-region
+  date: 1965-08-25
+  title: 人大常委会决议成立西藏自治区
+  lane: local
+  weight: 2
+  place: 拉萨
+  summary: 1965 年 8 月 25 日，三届全国人大常委会第十五次会议决议，批准国务院的议案，成立西藏自治区。
+  voices:
+    - { voice: doc, text: 第三届全国人民代表大会常务委员会第十五次会议决议：批准国务院提出的议案，成立西藏自治区（人大常委会决议）, cite: ws-1965-08-25-tibet-region, quote: true }
+  cites: [ws-1965-08-25-tibet-region]
