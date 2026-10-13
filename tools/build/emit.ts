@@ -77,6 +77,7 @@ export function compile(d: Data) {
     sources: d.sources,
     claims: d.claims,
     topics: d.topics,
+    essays: d.essays,
     archive: d.archive,
     figures: d.figures,
     counties: d.counties,

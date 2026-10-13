@@ -42,6 +42,7 @@ export const PAGE_COMPONENTS: Record<PageId, LazyExoticComponent<ComponentType>>
   figures: view(() => import('./views/Figures'), 'Figures'),
   series: view(() => import('./views/Series'), 'SeriesView'),
   narratives: view(() => import('./views/Narratives'), 'Narratives'),
+  essays: view(() => import('./views/Essays'), 'Essays'),
   research: view(() => import('./views/Research'), 'Research'),
   data: view(() => import('./views/OpenData'), 'OpenData'),
 }

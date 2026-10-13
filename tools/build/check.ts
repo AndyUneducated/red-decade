@@ -185,6 +185,14 @@ export function check(d: Data) {
     c.topics.forEach((id) => need(ids.topic, id, `claim ${c.id}`))
     c.evidence.forEach((e) => needCite(e.cite, `claim ${c.id}`))
   }
+  const claimIds = new Set(d.claims.map((c) => c.id))
+  for (const e of d.essays)
+    for (const s of e.sections) {
+      s.claims.forEach((id) => need(claimIds, id, `essay ${e.id} ${s.h}`))
+      s.cites.forEach((c) => needCite(c, `essay ${e.id} ${s.h}`))
+      if (!s.claims.length && !s.cites.length) errors.push(`essay ${e.id} ${s.h}: a section needs claims or cites`)
+    }
+  if (new Set(d.essays.map((e) => e.id)).size !== d.essays.length) errors.push('essays: duplicate id')
   for (const id of d.selfcrit.texts) if (!d.texts.has(id)) errors.push(`insight-terms selfcrit: ${id} has no text`)
   for (const f of d.figures) {
     f.people.forEach((id) => need(ids.person, id, `figure ${f.id}`))

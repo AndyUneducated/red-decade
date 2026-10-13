@@ -18,6 +18,7 @@
 | [`sources`](#sources) 来源 | 全部来源的登记：一手文献（多数有全文）与书目 | 是 | `#/docs/{id}` |
 | [`documents`](#documents) 文献注释 | 重点文献的提要、意义与逐条对照 | 是 | `#/docs/{id}` |
 | [`claims`](#claims) 研究结论 | 本站由原文推出的结论，附证据、方法与保留意见 | 是 | `#/research?sel=claim:{id}` |
+| [`essays`](#essays) 专题长文 | 研究栏目的长文，由研究结论与原文写成 | 是 | `#/essays/{id}` |
 | [`evidence`](#evidence) 结论证据 | 每条研究结论的证据 | 否，经 claims 引用 | — |
 | [`topics`](#topics) 专题 | 跨时期的专题；事件与结论通过各自的 topics 字段归入 | 是 | `#/topics/{id}` |
 | [`archive`](#archive) 视觉档案 | 宣传画、像章、邮票、样板戏、书刊与歌曲，每条有日期、出处与版权状态 | 是 | — |
@@ -343,6 +344,25 @@
 |---|---|
 | `evidence` | 证据，CSV 见 evidence 表 |
 | `history` | 修订记录：date、note |
+
+## essays
+
+**专题长文**：研究栏目的长文，由研究结论与原文写成。文件 `open/essays.json`、`open/essays.csv`。
+
+| 列 | 说明 |
+|---|---|
+| `id` | 稳定 id |
+| `title` | 标题 |
+| `period` | 所论时期 |
+| `summary` | 提要 |
+| `written` | 写作日期，日期，YYYY、YYYY-MM 或 YYYY-MM-DD，只写到原文能确定的精度 |
+| `claims` | 依据的研究结论（claims 的 id）（只在 CSV，由 JSON 字段算出） |
+
+只在 JSON 中的嵌套字段：
+
+| 字段 | 说明 |
+|---|---|
+| `sections` | 分节：h 标题、text 正文（段落以空行分隔，“”内四字以上的引文构建时逐字核对）、claims 依据的结论、cites 出处 |
 
 ## evidence
 

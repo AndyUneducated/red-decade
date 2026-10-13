@@ -21,7 +21,8 @@ const NAV_CONFIG: { label: string; pages: Entry[] }[] = [
     label: '洞察',
     pages: ['drift', 'authority', 'spread', 'attribution', 'selfcrit', 'citations', 'survival', 'overlap', 'parallel', 'moments', 'flows', 'rhetoric', 'paralysis', 'outcomes'],
   },
-  { label: '史料', pages: ['docs', 'archive', 'figures', 'series', 'narratives', 'research', 'data'] },
+  { label: '史料', pages: ['docs', 'archive', 'figures', 'series', 'narratives', 'data'] },
+  { label: '研究', pages: [{ page: 'essays', label: '长文' }, { page: 'research', label: '结论与来源' }] },
 ]
 
 export const NAV: NavGroup[] = NAV_CONFIG.map((g) => ({

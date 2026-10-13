@@ -7,6 +7,7 @@ import {
   ConceptSchema,
   CountySchema,
   DocumentSchema,
+  EssaySchema,
   EventSchema,
   FactionSchema,
   FigureSchema,
@@ -172,6 +173,8 @@ export function loadAll() {
     documents: one(DocumentSchema, 'documents'),
     claims: one(ClaimSchema, 'claims', 'research'),
     topics: one(TopicSchema, 'topics'),
+    // one essay per file, in file-name order
+    essays: exists('content', 'essays') ? yamlFiles('content', 'essays').flatMap((p) => load(EssaySchema, [read(...p)], p.join('/'))) : [],
     archive: loadArchive(src.sources),
     figures: one(FigureSchema, 'figures'),
     counties: loadCounties(),

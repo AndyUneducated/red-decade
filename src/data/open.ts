@@ -417,6 +417,23 @@ export const OPEN_TABLES: OpenTable[] = [
     nested: { evidence: '证据，CSV 见 evidence 表', history: '修订记录：date、note' },
   }),
   table({
+    id: 'essays',
+    name: '专题长文',
+    about: '研究栏目的长文，由研究结论与原文写成',
+    link: '#/essays/{id}',
+    rows: (a) => a.essays,
+    key: byId,
+    cols: [
+      { key: 'id', about: '稳定 id' },
+      { key: 'title', about: '标题' },
+      { key: 'period', about: '所论时期' },
+      { key: 'summary', about: '提要' },
+      { key: 'written', about: `写作日期，${DATE}` },
+      { key: 'claims', about: '依据的研究结论（claims 的 id）', get: (e) => [...new Set(e.sections.flatMap((s) => s.claims))] },
+    ],
+    nested: { sections: `分节：h 标题、text 正文（段落以空行分隔，“”内四字以上的引文构建时逐字核对）、claims 依据的结论、cites 出处` },
+  }),
+  table({
     id: 'evidence',
     name: '结论证据',
     about: '每条研究结论的证据',

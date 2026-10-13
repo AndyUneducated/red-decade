@@ -1,6 +1,6 @@
 import { orgMentioner } from '../derive/match'
 import { toT } from '../lib/dates'
-import type { Atlas, Event, Faction, Org, Person, Place, Relation, Status, Topic } from './schema'
+import type { Atlas, Essay, Event, Faction, Org, Person, Place, Relation, Status, Topic } from './schema'
 
 export type Position = Person['positions'][number]
 export type Tenure = { person: Person; pos: Position }
@@ -31,6 +31,7 @@ export type Index = Atlas & {
   ismOpposed: Map<string, Ism[]>
   place: Map<string, Place>
   topic: Map<string, Topic>
+  essay: Map<string, Essay>
   eventsByTopic: Map<string, Event[]>
   eventsByPerson: Map<string, Event[]>
   relationsByPerson: Map<string, Relation[]>
@@ -108,6 +109,7 @@ export function indexAtlas(atlas: Atlas): Index {
     ismOpposed,
     place: by(atlas.places),
     topic: by(atlas.topics),
+    essay: by(atlas.essays),
     eventsByTopic,
     eventsByPerson,
     relationsByPerson,

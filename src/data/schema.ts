@@ -471,6 +471,20 @@ export const TopicSchema = z.object({
   cites: z.array(Cite).default([]),
 })
 
+// A long-form essay for the 研究 column (M11), one per file in content/essays/. Each section rests on claims
+// and sources: a passage in “” of four characters or more must occur verbatim in one of the section's cites
+// or in a source its claims' evidence cites.
+export const EssaySchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  period: z.string(),
+  summary: z.string(),
+  written: PartialDate,
+  sections: z
+    .array(z.object({ h: z.string(), text: z.string(), claims: z.array(z.string()).default([]), cites: z.array(Cite).default([]) }))
+    .min(1),
+})
+
 export const ARCHIVE_KINDS = {
   poster: '宣传画',
   badge: '像章与徽章',
@@ -618,6 +632,7 @@ export type DocumentMeta = z.infer<typeof DocumentSchema>
 export type Source = z.infer<typeof SourceSchema>
 export type Claim = z.infer<typeof ClaimSchema>
 export type Topic = z.infer<typeof TopicSchema>
+export type Essay = z.infer<typeof EssaySchema>
 export type Place = z.infer<typeof PlaceSchema>
 export type Org = z.infer<typeof OrgSchema>
 export type Ism = z.infer<typeof IsmSchema>
@@ -657,6 +672,7 @@ export type Atlas = {
   sources: Source[]
   claims: Claim[]
   topics: Topic[]
+  essays: Essay[]
   archive: ArchiveItem[]
   figures: Figure[]
   counties: County[]

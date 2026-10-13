@@ -5,7 +5,7 @@ import type { Index } from './data/atlas'
 
 // a page with `detail` takes an entity id as its second path segment (#/people/<id>); open(kind, id) finds the
 // page by kind, so the profile page for a kind can be renamed or moved freely. A day is "MM-DD".
-export type DetailKind = 'person' | 'org' | 'faction' | 'doc' | 'topic' | 'day'
+export type DetailKind = 'person' | 'org' | 'faction' | 'doc' | 'topic' | 'day' | 'essay'
 
 export type PageDef = {
   title: string
@@ -87,6 +87,12 @@ export const PAGES = {
   figures: { title: '数字争议', desc: '死亡与迫害数字按出处并列' },
   series: { title: '经济与人口', desc: '粮食、钢、人口等序列，逐点附公报原文' },
   narratives: { title: '叙事对照', desc: '同一事件不同立场的说法' },
+  essays: {
+    title: '专题长文',
+    desc: '把研究结论连成文章：1966 年的程序之争、红八月、革委会、接班人、饥荒数字、处遗与平反',
+    detail: { kind: 'essay', name: (ix, id) => ix.essay.get(id)?.title },
+    sample: 'procedure-1966',
+  },
   research: { title: '研究', desc: '本站结论与来源登记' },
   data: { title: '开放数据', desc: '全部数据的 JSON 与 CSV 下载、字段说明与引用方式' },
 } satisfies Record<string, PageDef>
