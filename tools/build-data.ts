@@ -23,6 +23,7 @@ import {
   PressTermSchema,
   RelationSchema,
   RevcomSchema,
+  SeriesSchema,
   SourceSchema,
   type Atlas,
   type ConceptHit,
@@ -117,6 +118,7 @@ const counties = ['counties.yaml', ...readdirSync(join(ROOT, 'content')).filter(
   load(CountySchema, read('content', f), f),
 )
 const revcoms = load(RevcomSchema, read('content', 'revcoms.yaml'), 'revcoms')
+const series = load(SeriesSchema, read('content', 'series.yaml'), 'series')
 const orgs = yamlFiles('content', 'orgs').flatMap((p) => load(OrgSchema, read(...p), p.join('/')))
 for (const p of yamlFiles('content', 'leaders'))
   for (const [id, list] of Object.entries((read(...p) ?? {}) as Record<string, unknown>)) {
@@ -399,6 +401,18 @@ function checkQuote(sourceId: string, quote: string, where: string) {
 }
 for (const c of claims) for (const e of c.evidence) if (e.quote) checkQuote(e.cite.split('@')[0], e.quote, `claim ${c.id}`)
 for (const f of figures) for (const c of f.counts) checkQuote(c.cite.split('@')[0], c.quote, `figure ${f.id} "${c.what}"`)
+for (const s of series) {
+  s.events.forEach((id) => need(ids.event, id, `series ${s.id}`))
+  // two first-published numbers for one year that disagree are a revision and must be marked as one
+  const first = new Map<number, number>()
+  for (const p of s.points) {
+    needCite(p.cite, `series ${s.id} ${p.year}`)
+    checkQuote(p.cite.split('@')[0], p.quote, `series ${s.id} ${p.year}`)
+    if (p.kind !== 'reported') continue
+    if (first.has(p.year) && first.get(p.year) !== p.value) errors.push(`series ${s.id}: two reported values for ${p.year}`)
+    first.set(p.year, p.value)
+  }
+}
 for (const u of counties) for (const c of u.counts) checkQuote(c.cite.split('@')[0], c.quote, `county ${u.id}`)
 for (const u of counties) if (u.revcom) checkQuote(u.revcom.cite.split('@')[0], u.revcom.quote, `county ${u.id} revcom`)
 for (const r of revcoms) checkQuote(r.cite.split('@')[0], r.quote, `revcom ${r.province}`)
@@ -522,6 +536,7 @@ const atlas: Atlas = {
   figures,
   counties,
   revcoms: revcoms.sort((a, b) => a.date.localeCompare(b.date)),
+  series: series.map((s) => ({ ...s, points: s.points.sort((a, b) => a.year - b.year) })),
 }
 
 const out = join(ROOT, 'public', 'data')
@@ -549,6 +564,7 @@ console.log(
     `claims     ${claims.length}`,
     `figures    ${figures.length}  (${figures.reduce((n, f) => n + f.counts.length, 0)} counts, ${figures.filter((f) => f.need).length} awaiting sources)`,
     `counties   ${counties.length}  (${counties.reduce((n, u) => n + u.counts.length, 0)} counts, ${new Set(counties.flatMap((u) => u.counts.map((c) => c.cite))).size} sources; ${counties.length - unplaced.length} placed${unplaced.length ? ', unplaced: ' + unplaced.join(' ') : ''})`,
+    `series     ${series.length}  (${series.reduce((n, s) => n + s.points.length, 0)} points, ${new Set(series.flatMap((s) => s.points.map((p) => p.cite))).size} sources)`,
     `revcoms    ${revcoms.length}  (${revcomDrift.length} org dates differ: ${revcomDrift.join(', ') || '—'})`,
   ].join('\n'),
 )

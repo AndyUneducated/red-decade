@@ -16,6 +16,7 @@ import { Orgs } from './views/Orgs'
 import { People } from './views/People'
 import { Research } from './views/Research'
 import { River } from './views/River'
+import { SeriesView } from './views/Series'
 import { Timeline } from './views/Timeline'
 
 const COMPONENTS: Record<View, () => React.ReactNode> = {
@@ -31,6 +32,7 @@ const COMPONENTS: Record<View, () => React.ReactNode> = {
   ideas: Ideas,
   narratives: Narratives,
   figures: Figures,
+  series: SeriesView,
   docs: Docs,
   research: Research,
 }

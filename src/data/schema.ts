@@ -522,10 +522,38 @@ export const RevcomSchema = z.object({
   note: z.string().optional(),
 })
 
+// Economic and population series. A point is one number a source prints for one year, quoted as printed;
+// value is in the series unit, so 亿斤 and 万担 are converted while the quote keeps the original.
+// A year can carry several points: the number first published, a later correction, a count on another basis.
+export const SERIES_GROUPS = { agri: '农业', industry: '工业', people: '人口与就业', money: '投资、商业与外贸' } as const
+export const POINT_KINDS = { reported: '当时公布', revised: '后来修正', variant: '另一口径' } as const
+export const SeriesPointSchema = z.object({
+  year: z.number().int().min(1949).max(1989),
+  value: z.number().nonnegative(),
+  // the source hedges (左右 / 多 / 约)
+  approx: z.boolean().default(false),
+  kind: z.enum(Object.keys(POINT_KINDS) as [keyof typeof POINT_KINDS, ...(keyof typeof POINT_KINDS)[]]).default('reported'),
+  cite: Cite,
+  quote: z.string(),
+  note: z.string().optional(),
+})
+export const SeriesSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  group: z.enum(Object.keys(SERIES_GROUPS) as [keyof typeof SERIES_GROUPS, ...(keyof typeof SERIES_GROUPS)[]]),
+  unit: z.string(),
+  summary: z.string().optional(),
+  caveats: z.string().optional(),
+  events: z.array(z.string()).default([]),
+  points: z.array(SeriesPointSchema).min(2),
+})
+
 export type Count = z.infer<typeof CountSchema>
 export type Figure = z.infer<typeof FigureSchema>
 export type County = z.infer<typeof CountySchema>
 export type Revcom = z.infer<typeof RevcomSchema>
+export type Series = z.infer<typeof SeriesSchema>
+export type SeriesPoint = z.infer<typeof SeriesPointSchema>
 export type Fate = z.infer<typeof FateSchema>
 export type Person = z.infer<typeof PersonSchema>
 export type Faction = z.infer<typeof FactionSchema>
@@ -569,4 +597,5 @@ export type Atlas = {
   figures: Figure[]
   counties: County[]
   revcoms: Revcom[]
+  series: Series[]
 }

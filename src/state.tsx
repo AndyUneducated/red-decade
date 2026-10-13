@@ -17,6 +17,7 @@ export const VIEWS = {
   ideas: '思想谱系',
   docs: '文献',
   figures: '数字争议',
+  series: '经济与人口',
   narratives: '叙事对照',
   research: '研究',
 } as const
@@ -62,6 +63,7 @@ export const NAV: { label: string; items: NavItem[] }[] = [
     items: [
       { view: 'docs', label: '文献', desc: '一手文献全文' },
       { view: 'figures', label: '数字争议', desc: '死亡与迫害数字按出处并列' },
+      { view: 'series', label: '经济与人口', desc: '粮食、钢、人口等序列，逐点附公报原文' },
       { view: 'narratives', label: '叙事对照', desc: '同一事件不同立场的说法' },
       { view: 'research', label: '研究', desc: '本站结论与来源登记' },
     ],

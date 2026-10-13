@@ -1,0 +1,528 @@
+# 经济与人口序列。每个点是某份文献对某一年印出的一个数字，quote 照原文；
+# value 换算到序列单位（1亿斤 = 5万吨，1万担 = 0.05万吨，亿度 = 亿千瓦时，公尺 = 米），原单位留在 quote 里。
+# kind: reported 当时公布 / revised 后来的文献改动的数 / variant 同一年另一口径的数。
+# 本库 1959–1976 年几乎没有国家统计局公报，这些年份的空白是史料空白，不是零。
+
+# ── 农业 ────────────────────────────────────────────────
+- id: grain
+  title: 粮食总产量
+  group: agri
+  unit: 万吨
+  summary: 1958 年公报宣布 7500 亿斤，比上年“增长了一倍”；四个月后八届八中全会改为 5000 亿斤。1955 年公报的 3680 亿斤，谭震林 1960 年的报告作 3496 亿斤。
+  caveats: 1950 年代原文以亿斤计，这里乘 5 换算为万吨。1959 年数来自谭震林 1960 年政府工作报告，1971、1972 年数来自国务院 1972 年粮食报告；1960–1970 年本库没有找到全国数字。
+  events: [1959-08-16-eighth-plenum, 1959-08-16-targets-cut, 1960-04-06-tan-report, 1972-grain]
+  points:
+    - { year: 1955, value: 18400, approx: true, cite: rmrb-1956-06-15-stats-1955, quote: "粮食总产量达到3，680亿斤（18，400万吨）左右" }
+    - { year: 1955, value: 17480, kind: revised, cite: ws-1960-04-06-tan-agri-report, quote: "从一九五五年的三千四百九十六亿斤", note: 谭震林 1960 年报告给出的 1955 年数，比当年公报少 184 亿斤 }
+    - { year: 1957, value: 18500, cite: rmrb-1959-04-14-stats-fyp1, quote: "粮食总产量达到3，700亿斤" }
+    - { year: 1958, value: 37500, cite: rmrb-1959-04-15-stats-1958, quote: "粮食总产量达到7，500亿斤，比上年增长了一倍" }
+    - { year: 1958, value: 25000, kind: revised, cite: ws-1959-08-eighth-plenum, quote: "过去发表的一九五八年的农业产品产量的统计偏高……一九五八年的粮食的实际收获量为五千亿斤", note: 八届八中全会公报，1959 年 8 月 }
+    - { year: 1959, value: 27005, cite: ws-1960-04-06-tan-agri-report, quote: "增加到了一九五九年的五千四百零一亿斤" }
+    - { year: 1971, value: 25015, cite: ws-1972-grain, quote: "比去年实报五千零三亿斤", note: 同一报告另处作“一九七一年粮食产量达到了五千亿斤” }
+    - { year: 1972, value: 24060, approx: true, cite: ws-1972-grain, quote: "初步估计，粮食产量可达四千八百一十二亿斤", note: 当年的初步估计 }
+    - { year: 1977, value: 28275, cite: rmrb-1979-06-28-stats-1978, quote: "粮 食 30，475万吨 28，275万吨" }
+    - { year: 1978, value: 30475, cite: rmrb-1979-06-28-stats-1978, quote: "粮 食 30，475万吨 28，275万吨" }
+    - { year: 1979, value: 33211.5, cite: rmrb-1980-05-01-stats-1979, quote: "粮食 33，211．5万吨" }
+    - { year: 1980, value: 31822, cite: rmrb-1981-04-30-stats-1980, quote: "粮食 31，822万吨" }
+    - { year: 1980, value: 32052, kind: revised, cite: rmrb-1982-04-30-stats-1981, quote: "一九八○年粮食产量由原来的31，822万吨改为32，052万吨" }
+    - { year: 1981, value: 32502, cite: rmrb-1982-04-30-stats-1981, quote: "粮食（注四） 32，502．0万吨" }
+    - { year: 1982, value: 35343, cite: rmrb-1983-04-30-stats-1982, quote: "粮食 35，343万吨" }
+    - { year: 1983, value: 38728, cite: rmrb-1984-04-30-stats-1983, quote: "粮 食 38，728 万吨" }
+    - { year: 1984, value: 40712, cite: rmrb-1985-03-10-stats-1984, quote: "粮食 40，712 万吨" }
+    - { year: 1985, value: 37898, cite: rmrb-1986-03-01-stats-1985, quote: "粮 食 三万七千八百九十八万吨" }
+    - { year: 1986, value: 39109, cite: rmrb-1987-02-21-stats-1986, quote: "粮 食 39109万吨" }
+    - { year: 1987, value: 40241, cite: rmrb-1988-02-24-stats-1987, quote: "粮食 ４０２４１万吨" }
+    - { year: 1988, value: 39401, cite: rmrb-1989-03-01-stats-1988, quote: "粮 食 ３９４０１万吨" }
+    - { year: 1989, value: 40745, cite: rmrb-1990-02-21-stats-1989, quote: "粮食 ４０７４５万吨" }
+
+- id: cotton
+  title: 棉花产量
+  group: agri
+  unit: 万吨
+  summary: 1958 年公报宣布 6638 万担，八届八中全会改为 4200 万担。
+  caveats: 1957、1958 年原文以万担计，这里乘 0.05 换算为万吨；1955 年公报自己给出了万吨数。
+  events: [1959-08-16-eighth-plenum]
+  points:
+    - { year: 1955, value: 151.8, approx: true, cite: rmrb-1956-06-15-stats-1955, quote: "棉花产量达到3，036万担（151.8万吨）左右" }
+    - { year: 1957, value: 164, cite: rmrb-1959-04-14-stats-fyp1, quote: "棉花总产量达到3，280万担" }
+    - { year: 1958, value: 331.9, cite: rmrb-1959-04-15-stats-1958, quote: "棉花总产量达到6，638万担" }
+    - { year: 1958, value: 210, kind: revised, cite: ws-1959-08-eighth-plenum, quote: "棉花实际收获量为四千二百万担", note: 八届八中全会公报，1959 年 8 月 }
+    - { year: 1977, value: 204.9, cite: rmrb-1979-06-28-stats-1978, quote: "棉 花 216．7万吨 204．9万吨" }
+    - { year: 1978, value: 216.7, cite: rmrb-1979-06-28-stats-1978, quote: "棉 花 216．7万吨 204．9万吨" }
+    - { year: 1979, value: 220.7, cite: rmrb-1980-05-01-stats-1979, quote: "棉花 220．7万吨" }
+    - { year: 1980, value: 270.7, cite: rmrb-1981-04-30-stats-1980, quote: "棉花 270．7万吨" }
+    - { year: 1981, value: 296.8, cite: rmrb-1982-04-30-stats-1981, quote: "棉花 296．8万吨" }
+    - { year: 1982, value: 359.8, cite: rmrb-1983-04-30-stats-1982, quote: "棉花 359．8万吨" }
+    - { year: 1983, value: 463.7, cite: rmrb-1984-04-30-stats-1983, quote: "棉 花 463．7 万吨" }
+    - { year: 1984, value: 607.7, cite: rmrb-1985-03-10-stats-1984, quote: "棉花 607.7万吨" }
+    - { year: 1985, value: 415, cite: rmrb-1986-03-01-stats-1985, quote: "棉 花 四百一十五万吨" }
+    - { year: 1986, value: 354, cite: rmrb-1987-02-21-stats-1986, quote: "棉 花 354万吨" }
+    - { year: 1987, value: 419, cite: rmrb-1988-02-24-stats-1987, quote: "棉花 ４１９万吨" }
+    - { year: 1988, value: 420, cite: rmrb-1989-03-01-stats-1988, quote: "棉 花 ４２０万吨" }
+    - { year: 1989, value: 379, cite: rmrb-1990-02-21-stats-1989, quote: "棉花 ３７９万吨" }
+
+- id: oilcrops
+  title: 油料产量
+  group: agri
+  unit: 万吨
+  caveats: 本库的 1950 年代公报没有油料总产量，只有花生、油菜籽等的增长百分比。
+  points:
+    - { year: 1977, value: 401.5, cite: rmrb-1979-06-28-stats-1978, quote: "油 料 521．8万吨 401．5万吨" }
+    - { year: 1978, value: 521.8, cite: rmrb-1979-06-28-stats-1978, quote: "油 料 521．8万吨 401．5万吨" }
+    - { year: 1979, value: 643.5, cite: rmrb-1980-05-01-stats-1979, quote: "油料 643．5万吨" }
+    - { year: 1980, value: 769.1, cite: rmrb-1981-04-30-stats-1980, quote: "油料 769．1万吨" }
+    - { year: 1981, value: 1020.5, cite: rmrb-1982-04-30-stats-1981, quote: "油料 1，020．5万吨" }
+    - { year: 1982, value: 1181.7, cite: rmrb-1983-04-30-stats-1982, quote: "油料 1，181．7万吨" }
+    - { year: 1983, value: 1055, cite: rmrb-1984-04-30-stats-1983, quote: "油 料 1，055 万吨" }
+    - { year: 1984, value: 1185.2, cite: rmrb-1985-03-10-stats-1984, quote: "油料 1，185.2万吨" }
+    - { year: 1985, value: 1578, cite: rmrb-1986-03-01-stats-1985, quote: "油 料 一千五百七十八万吨" }
+    - { year: 1986, value: 1473, cite: rmrb-1987-02-21-stats-1986, quote: "油 料 1473万吨" }
+    - { year: 1987, value: 1525, cite: rmrb-1988-02-24-stats-1987, quote: "油料 １５２５万吨" }
+    - { year: 1988, value: 1320, cite: rmrb-1989-03-01-stats-1988, quote: "油 料 １３２０万吨" }
+    - { year: 1989, value: 1291, cite: rmrb-1990-02-21-stats-1989, quote: "油料 １２９１万吨" }
+
+# ── 工业 ────────────────────────────────────────────────
+- id: steel
+  title: 钢产量
+  group: industry
+  unit: 万吨
+  summary: 1958 年公报宣布 1108 万吨，注明“包括一部分土钢”；八届八中全会说明其中 308 万吨是土法生产的，新式设备生产的“洋钢”是 800 万吨。
+  events: [1959-08-16-eighth-plenum, 1958-12-sixth-plenum]
+  points:
+    - { year: 1952, value: 135, cite: rmrb-1959-04-14-stats-fyp1, quote: "钢 135万吨 535万吨" }
+    - { year: 1957, value: 535, cite: rmrb-1959-04-14-stats-fyp1, quote: "钢 135万吨 535万吨" }
+    - { year: 1958, value: 1108, cite: rmrb-1959-04-15-stats-1958, quote: "钢 535万吨 1，108万吨" }
+    - { year: 1958, value: 800, kind: variant, cite: ws-1959-08-eighth-plenum, quote: "有三百零八万吨是土法生产的……的产量为八百万吨", note: 不计土法炼的钢 }
+    - { year: 1977, value: 2374, cite: rmrb-1979-06-28-stats-1978, quote: "钢 3，178万吨 2，374万吨" }
+    - { year: 1978, value: 3178, cite: rmrb-1979-06-28-stats-1978, quote: "钢 3，178万吨 2，374万吨" }
+    - { year: 1979, value: 3448, cite: rmrb-1980-05-01-stats-1979, quote: "钢 3，448万吨" }
+    - { year: 1980, value: 3712, cite: rmrb-1981-04-30-stats-1980, quote: "钢 3，712万吨" }
+    - { year: 1981, value: 3560, cite: rmrb-1982-04-30-stats-1981, quote: "钢 3，560万吨" }
+    - { year: 1982, value: 3716, cite: rmrb-1983-04-30-stats-1982, quote: "钢 3，716万吨" }
+    - { year: 1983, value: 4002, cite: rmrb-1984-04-30-stats-1983, quote: "钢 4，002 万吨" }
+    - { year: 1984, value: 4337, cite: rmrb-1985-03-10-stats-1984, quote: "钢 4，337 万吨" }
+    - { year: 1985, value: 4666, cite: rmrb-1986-03-01-stats-1985, quote: "钢 四千六百六十六万吨" }
+    - { year: 1986, value: 5205, cite: rmrb-1987-02-21-stats-1986, quote: "钢 5205万吨" }
+    - { year: 1987, value: 5602, cite: rmrb-1988-02-24-stats-1987, quote: "钢 ５６０２万吨" }
+    - { year: 1988, value: 5918, cite: rmrb-1989-03-01-stats-1988, quote: "钢 5918万吨" }
+    - { year: 1989, value: 6124, cite: rmrb-1990-02-21-stats-1989, quote: "钢 ６１２４万吨" }
+
+- id: iron
+  title: 生铁产量
+  group: industry
+  unit: 万吨
+  caveats: 1950 年代的数字包括手工业产量，1958 年公报注明“包括一部分土铁”。1985、1986、1989 年公报的产品表没有生铁一项。
+  points:
+    - { year: 1952, value: 193, cite: rmrb-1959-04-14-stats-fyp1, quote: "生铁 193万吨 594万吨" }
+    - { year: 1957, value: 594, cite: rmrb-1959-04-14-stats-fyp1, quote: "生铁 193万吨 594万吨" }
+    - { year: 1958, value: 1369, cite: rmrb-1959-04-15-stats-1958, quote: "生铁 594万吨 1，369万吨" }
+    - { year: 1977, value: 2505, cite: rmrb-1979-06-28-stats-1978, quote: "生铁 3，479万吨 2，505万吨" }
+    - { year: 1978, value: 3479, cite: rmrb-1979-06-28-stats-1978, quote: "生铁 3，479万吨 2，505万吨" }
+    - { year: 1979, value: 3673, cite: rmrb-1980-05-01-stats-1979, quote: "生铁 3，673万吨" }
+    - { year: 1980, value: 3802, cite: rmrb-1981-04-30-stats-1980, quote: "生铁 3，802万吨" }
+    - { year: 1981, value: 3417, cite: rmrb-1982-04-30-stats-1981, quote: "生铁 3，417万吨" }
+    - { year: 1982, value: 3551, cite: rmrb-1983-04-30-stats-1982, quote: "生铁 3，551万吨" }
+    - { year: 1983, value: 3738, cite: rmrb-1984-04-30-stats-1983, quote: "生 铁 3，738 万吨" }
+    - { year: 1984, value: 3998, cite: rmrb-1985-03-10-stats-1984, quote: "生 铁 3，998 万吨" }
+
+- id: coal
+  title: 原煤产量
+  group: industry
+  unit: 亿吨
+  points:
+    - { year: 1952, value: 0.6649, cite: rmrb-1959-04-14-stats-fyp1, quote: "煤炭 6，649万吨 13，000万吨" }
+    - { year: 1957, value: 1.3, cite: rmrb-1959-04-14-stats-fyp1, quote: "煤炭 6，649万吨 13，000万吨" }
+    - { year: 1958, value: 2.7, cite: rmrb-1959-04-15-stats-1958, quote: "煤炭 1.3亿吨 2.7亿吨" }
+    - { year: 1977, value: 5.5, cite: rmrb-1979-06-28-stats-1978, quote: "原煤 6．18亿吨 5．5亿吨" }
+    - { year: 1978, value: 6.18, cite: rmrb-1979-06-28-stats-1978, quote: "原煤 6．18亿吨 5．5亿吨" }
+    - { year: 1979, value: 6.35, cite: rmrb-1980-05-01-stats-1979, quote: "原煤 6．35亿吨" }
+    - { year: 1980, value: 6.2, cite: rmrb-1981-04-30-stats-1980, quote: "原煤 6．2亿吨" }
+    - { year: 1981, value: 6.2, cite: rmrb-1982-04-30-stats-1981, quote: "原煤 6．2亿吨" }
+    - { year: 1982, value: 6.66, cite: rmrb-1983-04-30-stats-1982, quote: "原煤 6．66亿吨" }
+    - { year: 1983, value: 7.15, cite: rmrb-1984-04-30-stats-1983, quote: "原 煤……7．15 亿吨" }
+    - { year: 1984, value: 7.72, cite: rmrb-1985-03-10-stats-1984, quote: "原 煤 7.72 亿吨" }
+    - { year: 1985, value: 8.5, cite: rmrb-1986-03-01-stats-1985, quote: "原煤 八点五亿吨" }
+    - { year: 1986, value: 8.7, cite: rmrb-1987-02-21-stats-1986, quote: "原煤 8.7亿吨" }
+    - { year: 1987, value: 9.2, cite: rmrb-1988-02-24-stats-1987, quote: "原煤 ９．２亿吨" }
+    - { year: 1988, value: 9.7, cite: rmrb-1989-03-01-stats-1988, quote: "原煤 9.7亿吨" }
+    - { year: 1989, value: 10.4, cite: rmrb-1990-02-21-stats-1989, quote: "原煤 １０．４亿吨" }
+
+- id: crude
+  title: 原油产量
+  group: industry
+  unit: 万吨
+  events: [1964-02-05-daqing]
+  points:
+    - { year: 1952, value: 43.6, cite: rmrb-1959-04-14-stats-fyp1, quote: "原油 43.6万吨 146万吨" }
+    - { year: 1957, value: 146, cite: rmrb-1959-04-14-stats-fyp1, quote: "原油 43.6万吨 146万吨" }
+    - { year: 1958, value: 226, cite: rmrb-1959-04-15-stats-1958, quote: "原油 146万吨 226万吨" }
+    - { year: 1977, value: 9364, cite: rmrb-1979-06-28-stats-1978, quote: "原油 10，405万吨 9，364万吨" }
+    - { year: 1978, value: 10405, cite: rmrb-1979-06-28-stats-1978, quote: "原油 10，405万吨 9，364万吨" }
+    - { year: 1979, value: 10615, cite: rmrb-1980-05-01-stats-1979, quote: "原油 10，615万吨" }
+    - { year: 1980, value: 10595, cite: rmrb-1981-04-30-stats-1980, quote: "原油 10，595万吨" }
+    - { year: 1981, value: 10122, cite: rmrb-1982-04-30-stats-1981, quote: "原油 10，122万吨" }
+    - { year: 1982, value: 10212, cite: rmrb-1983-04-30-stats-1982, quote: "原油 10，212万吨" }
+    - { year: 1983, value: 10607, cite: rmrb-1984-04-30-stats-1983, quote: "原 油 10，607 万吨" }
+    - { year: 1984, value: 11453, cite: rmrb-1985-03-10-stats-1984, quote: "原 油 11，453 万吨" }
+    - { year: 1985, value: 12500, cite: rmrb-1986-03-01-stats-1985, quote: "原油 一点二五亿吨" }
+    - { year: 1986, value: 13100, cite: rmrb-1987-02-21-stats-1986, quote: "原油 1.31亿吨" }
+    - { year: 1987, value: 13400, cite: rmrb-1988-02-24-stats-1987, quote: "原油 １．３４亿吨" }
+    - { year: 1988, value: 13700, cite: rmrb-1989-03-01-stats-1988, quote: "原油 1.37亿吨" }
+    - { year: 1989, value: 13700, cite: rmrb-1990-02-21-stats-1989, quote: "原油 １．３７亿吨" }
+
+- id: power
+  title: 发电量
+  group: industry
+  unit: 亿千瓦时
+  caveats: 1985 年及以前的公报写作“亿度”，1 度即 1 千瓦时。
+  points:
+    - { year: 1952, value: 72.6, cite: rmrb-1959-04-14-stats-fyp1, quote: "发电量 72.6亿度 193亿度" }
+    - { year: 1957, value: 193, cite: rmrb-1959-04-14-stats-fyp1, quote: "发电量 72.6亿度 193亿度" }
+    - { year: 1958, value: 275, cite: rmrb-1959-04-15-stats-1958, quote: "发电量 193亿度 275亿度" }
+    - { year: 1977, value: 2234, cite: rmrb-1979-06-28-stats-1978, quote: "发电量 2，565．5亿度 2，234亿度" }
+    - { year: 1978, value: 2565.5, cite: rmrb-1979-06-28-stats-1978, quote: "发电量 2，565．5亿度 2，234亿度" }
+    - { year: 1979, value: 2819.5, cite: rmrb-1980-05-01-stats-1979, quote: "发电量 2，819．5亿度" }
+    - { year: 1980, value: 3006, cite: rmrb-1981-04-30-stats-1980, quote: "发电量 3，006亿度" }
+    - { year: 1981, value: 3093, cite: rmrb-1982-04-30-stats-1981, quote: "发电量 3，093亿度" }
+    - { year: 1982, value: 3277, cite: rmrb-1983-04-30-stats-1982, quote: "发电量 3，277亿度" }
+    - { year: 1983, value: 3514, cite: rmrb-1984-04-30-stats-1983, quote: "发电量 3，514 亿度" }
+    - { year: 1984, value: 3746, cite: rmrb-1985-03-10-stats-1984, quote: "发电量 3，746 亿度" }
+    - { year: 1985, value: 4073, cite: rmrb-1986-03-01-stats-1985, quote: "发电量 四千零七十三亿度" }
+    - { year: 1986, value: 4455, cite: rmrb-1987-02-21-stats-1986, quote: "发电量 4455亿千瓦小时" }
+    - { year: 1987, value: 4960, cite: rmrb-1988-02-24-stats-1987, quote: "发电量 ４９６０亿千瓦小时" }
+    - { year: 1988, value: 5430, cite: rmrb-1989-03-01-stats-1988, quote: "发电量 5430亿千瓦小时" }
+    - { year: 1989, value: 5820, cite: rmrb-1990-02-21-stats-1989, quote: "发电量 ５８２０亿千瓦小时" }
+
+- id: cement
+  title: 水泥产量
+  group: industry
+  unit: 万吨
+  points:
+    - { year: 1952, value: 286, cite: rmrb-1959-04-14-stats-fyp1, quote: "水泥 286万吨 686万吨" }
+    - { year: 1957, value: 686, cite: rmrb-1959-04-14-stats-fyp1, quote: "水泥 286万吨 686万吨" }
+    - { year: 1958, value: 930, cite: rmrb-1959-04-15-stats-1958, quote: "水泥 686万吨 930万吨" }
+    - { year: 1977, value: 5565, cite: rmrb-1979-06-28-stats-1978, quote: "水泥 6，524万吨 5，565万吨" }
+    - { year: 1978, value: 6524, cite: rmrb-1979-06-28-stats-1978, quote: "水泥 6，524万吨 5，565万吨" }
+    - { year: 1979, value: 7390, cite: rmrb-1980-05-01-stats-1979, quote: "水泥 7，390万吨" }
+    - { year: 1980, value: 7986, cite: rmrb-1981-04-30-stats-1980, quote: "水泥 7，986万吨" }
+    - { year: 1981, value: 8400, cite: rmrb-1982-04-30-stats-1981, quote: "水泥 8，400万吨" }
+    - { year: 1982, value: 9520, cite: rmrb-1983-04-30-stats-1982, quote: "水泥 9，520万吨" }
+    - { year: 1983, value: 10825, cite: rmrb-1984-04-30-stats-1983, quote: "水 泥……10，825 万吨" }
+    - { year: 1984, value: 12108, cite: rmrb-1985-03-10-stats-1984, quote: "水 泥 12，108 万吨" }
+    - { year: 1985, value: 14246, cite: rmrb-1986-03-01-stats-1985, quote: "水泥 一万四千二百四十六万吨" }
+    - { year: 1986, value: 16156, cite: rmrb-1987-02-21-stats-1986, quote: "水泥 16156万吨" }
+    - { year: 1987, value: 18000, cite: rmrb-1988-02-24-stats-1987, quote: "水泥 １．８亿吨" }
+    - { year: 1988, value: 20300, cite: rmrb-1989-03-01-stats-1988, quote: "水泥 2.03亿吨" }
+    - { year: 1989, value: 20700, cite: rmrb-1990-02-21-stats-1989, quote: "水泥 ２．０７亿吨" }
+
+- id: fertilizer
+  title: 化肥产量
+  group: industry
+  unit: 万吨
+  caveats: 1950 年代的数字注明“不包括硝酸铵”，没有说明是否折算有效成份；1978、1987、1988 年公报注明按 100% 有效成份计算。两段不宜直接比较。1986 年公报的产品表本库没有提取到化肥一项。
+  points:
+    - { year: 1952, value: 18.1, cite: rmrb-1959-04-14-stats-fyp1, quote: "化学肥料（不包括硝酸铵） 18.1万吨 63.1万吨" }
+    - { year: 1957, value: 63.1, cite: rmrb-1959-04-14-stats-fyp1, quote: "化学肥料（不包括硝酸铵） 18.1万吨 63.1万吨" }
+    - { year: 1958, value: 81.1, cite: rmrb-1959-04-15-stats-1958, quote: "化学肥料（不包括硝酸铵） 63.1万吨 81.1万吨" }
+    - { year: 1977, value: 723.8, cite: rmrb-1979-06-28-stats-1978, quote: "化肥（按100％有效成份计算）869．3万吨 723．8万吨" }
+    - { year: 1978, value: 869.3, cite: rmrb-1979-06-28-stats-1978, quote: "化肥（按100％有效成份计算）869．3万吨 723．8万吨" }
+    - { year: 1979, value: 1065.4, cite: rmrb-1980-05-01-stats-1979, quote: "化肥 1，065．4万吨" }
+    - { year: 1980, value: 1232, cite: rmrb-1981-04-30-stats-1980, quote: "化肥 1，232万吨" }
+    - { year: 1981, value: 1239, cite: rmrb-1982-04-30-stats-1981, quote: "化肥 1，239万吨" }
+    - { year: 1982, value: 1278.1, cite: rmrb-1983-04-30-stats-1982, quote: "化肥 1，278．1万吨" }
+    - { year: 1983, value: 1378.9, cite: rmrb-1984-04-30-stats-1983, quote: "化 肥 1，378．9 万吨" }
+    - { year: 1984, value: 1482, cite: rmrb-1985-03-10-stats-1984, quote: "化 肥 1，482 万吨" }
+    - { year: 1985, value: 1335, cite: rmrb-1986-03-01-stats-1985, quote: "化肥 一千三百三十五万吨" }
+    - { year: 1987, value: 1703, cite: rmrb-1988-02-24-stats-1987, quote: "化肥（折合有效成份１００％） １７０３万吨" }
+    - { year: 1988, value: 1767, cite: rmrb-1989-03-01-stats-1988, quote: "化肥④ 1767万吨" }
+    - { year: 1989, value: 1855, cite: rmrb-1990-02-21-stats-1989, quote: "化肥 １８５５万吨" }
+
+- id: cloth
+  title: 布产量
+  group: industry
+  unit: 亿米
+  caveats: 1980 年及以前公报写“棉布”，1981 年起写“布”。1950 年代的数字包括手工业产量。
+  points:
+    - { year: 1952, value: 38.3, cite: rmrb-1959-04-14-stats-fyp1, quote: "棉布 38.3亿公尺 50.5亿公尺" }
+    - { year: 1957, value: 50.5, cite: rmrb-1959-04-14-stats-fyp1, quote: "棉布 38.3亿公尺 50.5亿公尺" }
+    - { year: 1958, value: 57, cite: rmrb-1959-04-15-stats-1958, quote: "棉布 50.5亿公尺 57亿公尺" }
+    - { year: 1977, value: 101.51, cite: rmrb-1979-06-28-stats-1978, quote: "棉布 110．29亿米（折102．86亿平方米）101．51亿米" }
+    - { year: 1978, value: 110.29, cite: rmrb-1979-06-28-stats-1978, quote: "棉布 110．29亿米（折102．86亿平方米）101．51亿米" }
+    - { year: 1979, value: 121.5, cite: rmrb-1980-05-01-stats-1979, quote: "棉布 121．5亿米" }
+    - { year: 1980, value: 134.7, cite: rmrb-1981-04-30-stats-1980, quote: "棉布 134．7亿米" }
+    - { year: 1981, value: 142.7, cite: rmrb-1982-04-30-stats-1981, quote: "布 142．7亿米" }
+    - { year: 1982, value: 153.5, cite: rmrb-1983-04-30-stats-1982, quote: "布……153．5亿米" }
+    - { year: 1983, value: 148.8, cite: rmrb-1984-04-30-stats-1983, quote: "布 148．8 亿米" }
+    - { year: 1984, value: 134, cite: rmrb-1985-03-10-stats-1984, quote: "布 134 亿米" }
+    - { year: 1985, value: 143, cite: rmrb-1986-03-01-stats-1985, quote: "布 一百四十三亿米" }
+    - { year: 1986, value: 158, cite: rmrb-1987-02-21-stats-1986, quote: "布 158亿米" }
+    - { year: 1987, value: 167, cite: rmrb-1988-02-24-stats-1987, quote: "布 １６７亿米" }
+    - { year: 1988, value: 176, cite: rmrb-1989-03-01-stats-1988, quote: "布 176亿米" }
+    - { year: 1989, value: 186, cite: rmrb-1990-02-21-stats-1989, quote: "布 １８６亿米" }
+
+- id: sugar
+  title: 糖产量
+  group: industry
+  unit: 万吨
+  points:
+    - { year: 1952, value: 45.1, cite: rmrb-1959-04-14-stats-fyp1, quote: "糖 45.1万吨 86.4万吨" }
+    - { year: 1957, value: 86.4, cite: rmrb-1959-04-14-stats-fyp1, quote: "糖 45.1万吨 86.4万吨" }
+    - { year: 1958, value: 90, cite: rmrb-1959-04-15-stats-1958, quote: "糖 86.4万吨 90万吨" }
+    - { year: 1977, value: 181.6, cite: rmrb-1979-06-28-stats-1978, quote: "食糖 226．7万吨 181．6万吨" }
+    - { year: 1978, value: 226.7, cite: rmrb-1979-06-28-stats-1978, quote: "食糖 226．7万吨 181．6万吨" }
+    - { year: 1979, value: 250, cite: rmrb-1980-05-01-stats-1979, quote: "糖 250万吨" }
+    - { year: 1980, value: 257, cite: rmrb-1981-04-30-stats-1980, quote: "糖 257万吨" }
+    - { year: 1981, value: 316.6, cite: rmrb-1982-04-30-stats-1981, quote: "糖 316．6万吨" }
+    - { year: 1982, value: 338.4, cite: rmrb-1983-04-30-stats-1982, quote: "糖 338．4万吨" }
+    - { year: 1983, value: 337.1, cite: rmrb-1984-04-30-stats-1983, quote: "糖 337．1 万吨" }
+    - { year: 1984, value: 374, cite: rmrb-1985-03-10-stats-1984, quote: "糖 374 万吨" }
+    - { year: 1985, value: 445, cite: rmrb-1986-03-01-stats-1985, quote: "糖 四百四十五万吨" }
+    - { year: 1986, value: 524, cite: rmrb-1987-02-21-stats-1986, quote: "糖 524万吨" }
+    - { year: 1987, value: 511, cite: rmrb-1988-02-24-stats-1987, quote: "糖 ５１１万吨" }
+    - { year: 1988, value: 455, cite: rmrb-1989-03-01-stats-1988, quote: "糖 455万吨" }
+    - { year: 1989, value: 496, cite: rmrb-1990-02-21-stats-1989, quote: "糖 ４９６万吨" }
+
+- id: bicycles
+  title: 自行车产量
+  group: industry
+  unit: 万辆
+  caveats: 1950 年代公报的产品表没有列自行车。
+  points:
+    - { year: 1977, value: 743, cite: rmrb-1979-06-28-stats-1978, quote: "自行车 854万辆 743万辆" }
+    - { year: 1978, value: 854, cite: rmrb-1979-06-28-stats-1978, quote: "自行车 854万辆 743万辆" }
+    - { year: 1979, value: 1009, cite: rmrb-1980-05-01-stats-1979, quote: "自行车 1，009万辆" }
+    - { year: 1980, value: 1302, cite: rmrb-1981-04-30-stats-1980, quote: "自行车 1，302万辆" }
+    - { year: 1981, value: 1754, cite: rmrb-1982-04-30-stats-1981, quote: "自行车 1，754万辆" }
+    - { year: 1982, value: 2420, cite: rmrb-1983-04-30-stats-1982, quote: "自行车 2，420万辆" }
+    - { year: 1983, value: 2758, cite: rmrb-1984-04-30-stats-1983, quote: "自行车 2，758 万辆" }
+    - { year: 1984, value: 2857, cite: rmrb-1985-03-10-stats-1984, quote: "自行车 2，857 万辆" }
+    - { year: 1985, value: 3235, cite: rmrb-1986-03-01-stats-1985, quote: "自行车 三千二百三十五万辆" }
+    - { year: 1986, value: 3570, cite: rmrb-1987-02-21-stats-1986, quote: "自行车 3570万辆" }
+    - { year: 1987, value: 4091, cite: rmrb-1988-02-24-stats-1987, quote: "自行车 ４０９１万辆" }
+    - { year: 1988, value: 4122, cite: rmrb-1989-03-01-stats-1988, quote: "自行车 4122万辆" }
+    - { year: 1989, value: 3672, cite: rmrb-1990-02-21-stats-1989, quote: "自行车 ３６７２万辆" }
+
+# ── 人口与就业 ──────────────────────────────────────────
+- id: population
+  title: 全国人口
+  group: people
+  unit: 万人
+  summary: 三次人口普查（1953、1964、1982）和 1978 年起的年末数。口径有几处变化：是否含台湾省和国外华侨，是否含现役军人。
+  caveats: 1953 年公报的总数 6 亿零 194 万含台湾省 759 万和国外华侨、留学生 1174 万；这里的主线取直接调查与边远地区两项之和。1978 年公报的数字含台湾省，1979 年公报改用不含台湾省的 1978 年数。1982 年公报把 1981 年数改为 100072 万，注明 1981、1982 两年数字“都包括现役军人”。1987 年公报只给到“10.8 亿”。
+  points:
+    - { year: 1953, value: 58260.3, cite: rmrb-1954-11-01-census-1953, quote: "直接调查登记的人口为五亿七千四百二十万五千九百四十人……没有进行基层选举的和交通不便的边远地区八百三十九万七千四百七十七人", note: 两项相加，1953 年 6 月 30 日 }
+    - { year: 1953, value: 60193.8, kind: variant, cite: rmrb-1954-11-01-census-1953, quote: "全国人口总数为六亿零一百九十三万八千零三十五人", note: 含台湾省和国外华侨、留学生 }
+    - { year: 1964, value: 69458.2, cite: rmrb-1982-10-28-census-1982, quote: "第二次全国人口普查的1964年7月1日0时的694，581，759人", note: 29 个省市区和现役军人 }
+    - { year: 1978, value: 95809, cite: rmrb-1980-05-01-stats-1979, quote: "比一九七八年九亿五千八百零九万人", note: 1979 年公报给出的 1978 年数，不含台湾省 }
+    - { year: 1978, value: 97523, kind: variant, cite: rmrb-1979-06-28-stats-1978, quote: "全国人口为九亿七千五百二十三万人……公报中全国人口数字，包括台湾省", note: 含台湾省 }
+    - { year: 1979, value: 97092, cite: rmrb-1980-05-01-stats-1979, quote: "全国人口为九亿七千零九十二万人" }
+    - { year: 1980, value: 98255, cite: rmrb-1981-04-30-stats-1980, quote: "全国人口为98，255万人" }
+    - { year: 1981, value: 99622, cite: rmrb-1982-04-30-stats-1981, quote: "全国人口为99，622万人" }
+    - { year: 1981, value: 100072, kind: variant, cite: rmrb-1983-04-30-stats-1982, quote: "比上年末的100，072万人④……一九八一年和一九八二年全国人口数字中都包括现役军人", note: 1982 年公报改用含现役军人的口径 }
+    - { year: 1982, value: 101541, cite: rmrb-1983-04-30-stats-1982, quote: "一九八二年末全国人口101，541万人" }
+    - { year: 1982, value: 100817.5, kind: variant, cite: rmrb-1982-10-28-census-1982, quote: "大陆29个省市区人口和现役军人1，008，175，288人", note: 第三次人口普查，1982 年 7 月 1 日 }
+    - { year: 1983, value: 102495, cite: rmrb-1984-04-30-stats-1983, quote: "1983年末全国人口为十万二千四百九十五万人" }
+    - { year: 1984, value: 103604, cite: rmrb-1985-03-10-stats-1984, quote: "1984年末全国人口为103，604万人" }
+    - { year: 1985, value: 104639, cite: rmrb-1986-03-01-stats-1985, quote: "年末全国总人口为十亿四千六百三十九万人" }
+    - { year: 1986, value: 106008, cite: rmrb-1987-02-21-stats-1986, quote: "年末全国总人口为106008万人" }
+    - { year: 1987, value: 108000, approx: true, cite: rmrb-1988-02-24-stats-1987, quote: "年末全国总人口为１０．８亿人" }
+    - { year: 1988, value: 109614, cite: rmrb-1989-03-01-stats-1988, quote: "年末全国总人口为１０９６１４万人" }
+    - { year: 1989, value: 111191, cite: rmrb-1990-02-21-stats-1989, quote: "年末全国总人口为１１１１９１万人" }
+
+- id: birth-rate
+  title: 人口出生率
+  group: people
+  unit: ‰
+  caveats: 1981 年数来自第三次人口普查；1982–1987 年公报注明来自抽样调查。1980 年公报没有给出生率。
+  points:
+    - { year: 1979, value: 17.9, cite: rmrb-1980-05-01-stats-1979, quote: "一九七九年人口出生率为千分之十七点九" }
+    - { year: 1981, value: 20.91, cite: rmrb-1982-10-28-census-1982, quote: "1981年人口出生率为20．91‰" }
+    - { year: 1982, value: 21.09, cite: rmrb-1983-04-30-stats-1982, quote: "一九八二年人口出生率为21．09‰" }
+    - { year: 1983, value: 18.62, cite: rmrb-1984-04-30-stats-1983, quote: "1983年人口出生率为18．62‰" }
+    - { year: 1984, value: 17.5, cite: rmrb-1985-03-10-stats-1984, quote: "1984年人口出生率为17.50‰" }
+    - { year: 1985, value: 17.8, cite: rmrb-1986-03-01-stats-1985, quote: "1985年人口出生率为17.8‰" }
+    - { year: 1986, value: 20.77, cite: rmrb-1987-02-21-stats-1986, quote: "1986年人口出生率为20.77‰" }
+    - { year: 1987, value: 21.04, cite: rmrb-1988-02-24-stats-1987, quote: "１９８７年人口出生率为２１．０４‰" }
+    - { year: 1988, value: 20.78, cite: rmrb-1989-03-01-stats-1988, quote: "１９８８年全国人口出生率为２０．７８‰" }
+    - { year: 1989, value: 20.83, cite: rmrb-1990-02-21-stats-1989, quote: "１９８９年全国人口出生率为千分之二十点八三" }
+
+- id: death-rate
+  title: 人口死亡率
+  group: people
+  unit: ‰
+  caveats: 1950–1970 年代的全国死亡率，本库没有找到当时公布的数字；大饥荒年份的死亡估计见“数字争议”页。
+  points:
+    - { year: 1979, value: 6.2, cite: rmrb-1980-05-01-stats-1979, quote: "死亡率为千分之六点二" }
+    - { year: 1981, value: 6.36, cite: rmrb-1982-10-28-census-1982, quote: "1981年人口出生率为20．91‰，死亡率为6．36‰" }
+    - { year: 1982, value: 6.6, cite: rmrb-1983-04-30-stats-1982, quote: "死亡率为6．60‰" }
+    - { year: 1983, value: 7.08, cite: rmrb-1984-04-30-stats-1983, quote: "死亡率为7．08‰" }
+    - { year: 1984, value: 6.69, cite: rmrb-1985-03-10-stats-1984, quote: "1984年人口出生率为17.50‰，死亡率为6.69‰" }
+    - { year: 1985, value: 6.57, cite: rmrb-1986-03-01-stats-1985, quote: "死亡率为6.57‰" }
+    - { year: 1986, value: 6.69, cite: rmrb-1987-02-21-stats-1986, quote: "1986年人口出生率为20.77‰，死亡率为6.69‰" }
+    - { year: 1987, value: 6.65, cite: rmrb-1988-02-24-stats-1987, quote: "死亡率为６．６５‰" }
+    - { year: 1988, value: 6.58, cite: rmrb-1989-03-01-stats-1988, quote: "死亡率为６．５８‰" }
+    - { year: 1989, value: 6.5, cite: rmrb-1990-02-21-stats-1989, quote: "死亡率为千分之六点五" }
+
+- id: growth-rate
+  title: 人口自然增长率
+  group: people
+  unit: ‰
+  points:
+    - { year: 1978, value: 12, cite: rmrb-1979-06-28-stats-1978, quote: "人口自然增长率为千分之十二" }
+    - { year: 1979, value: 11.7, cite: rmrb-1980-05-01-stats-1979, quote: "自然增长率为千分之十一点七" }
+    - { year: 1981, value: 14.55, cite: rmrb-1982-10-28-census-1982, quote: "自然增长率为14．55‰" }
+    - { year: 1982, value: 14.49, cite: rmrb-1983-04-30-stats-1982, quote: "自然增长率为14．49‰" }
+    - { year: 1983, value: 11.54, cite: rmrb-1984-04-30-stats-1983, quote: "自然增长率为11．54‰" }
+    - { year: 1984, value: 10.81, cite: rmrb-1985-03-10-stats-1984, quote: "自然增长率为10.81‰" }
+    - { year: 1985, value: 11.23, cite: rmrb-1986-03-01-stats-1985, quote: "1985年人口出生率为17.8‰，死亡率为6.57‰，自然增长率为11.23‰" }
+    - { year: 1986, value: 14.08, cite: rmrb-1987-02-21-stats-1986, quote: "上升为14.08‰" }
+    - { year: 1987, value: 14.39, cite: rmrb-1988-02-24-stats-1987, quote: "上升为１４．３９‰" }
+    - { year: 1988, value: 14.2, cite: rmrb-1989-03-01-stats-1988, quote: "自然增长率为１４．２‰" }
+    - { year: 1989, value: 14.33, cite: rmrb-1990-02-21-stats-1989, quote: "自然增长率为千分之十四点三三" }
+
+- id: urban-share
+  title: 城镇人口比重
+  group: people
+  unit: '%'
+  caveats: 1953 年是“城镇人口”占直接调查人口的比重，1964、1982 年是“市镇总人口”占普查人口的比重，定义不完全相同。
+  points:
+    - { year: 1953, value: 13.26, cite: rmrb-1954-11-01-census-1953, quote: "城镇人口七千七百二十五万七千二百八十二人，占百分之十三点二六" }
+    - { year: 1964, value: 18.4, cite: rmrb-1982-10-28-census-1982, quote: "由1964年的18．4％上升为20．6％" }
+    - { year: 1982, value: 20.6, cite: rmrb-1982-10-28-census-1982, quote: "由1964年的18．4％上升为20．6％" }
+
+- id: workers
+  title: 职工人数
+  group: people
+  unit: 万人
+  caveats: 1980 年代公报写明是全民所有制和城镇集体所有制单位的职工，城镇个体劳动者另列。1958 年数是全年平均人数，不是年末数。1971 年数是国务院 1972 年报告转述的“突破了五千万人”，只是下限。
+  events: [1972-grain]
+  points:
+    - { year: 1955, value: 1850, approx: true, cite: rmrb-1956-06-15-stats-1955, quote: "全国的职工人数是1，850多万人" }
+    - { year: 1957, value: 2451, cite: rmrb-1959-04-14-stats-fyp1, quote: "我国职工人数已经达到2，451万人" }
+    - { year: 1958, value: 3200, approx: true, kind: variant, cite: rmrb-1959-04-15-stats-1958, quote: "1958年全国职工平均人数达到3，200多万人", note: 全年平均人数 }
+    - { year: 1971, value: 5000, approx: true, cite: ws-1972-grain, quote: "职工人数突破了五千万人", note: 周恩来 1972 年初的说法，下限 }
+    - { year: 1978, value: 9499, cite: rmrb-1979-06-28-stats-1978, quote: "我国职工总数达到九千四百九十九万人" }
+    - { year: 1979, value: 9967, cite: rmrb-1980-05-01-stats-1979, quote: "全国职工总数达九千九百六十七万人" }
+    - { year: 1980, value: 10444, cite: rmrb-1981-04-30-stats-1980, quote: "年末全民所有制和集体所有制职工人数达10，444万人" }
+    - { year: 1981, value: 10940, cite: rmrb-1982-04-30-stats-1981, quote: "职工人数达10，940万人" }
+    - { year: 1982, value: 11281, cite: rmrb-1983-04-30-stats-1982, quote: "年末全国职工人数达11，281万人" }
+    - { year: 1983, value: 11515, cite: rmrb-1984-04-30-stats-1983, quote: "年末全国职工人数为一万一千五百一十五万人" }
+    - { year: 1984, value: 11824, cite: rmrb-1985-03-10-stats-1984, quote: "年末全国职工人数11，824万人" }
+    - { year: 1985, value: 12296, cite: rmrb-1986-03-01-stats-1985, quote: "年末全国职工人数为一亿二千二百九十六万人" }
+    - { year: 1986, value: 12768, cite: rmrb-1987-02-21-stats-1986, quote: "年末全国职工人数为12768万人" }
+    - { year: 1987, value: 13190, cite: rmrb-1988-02-24-stats-1987, quote: "年末全国职工人数为１．３１９亿人" }
+    - { year: 1988, value: 13573, cite: rmrb-1989-03-01-stats-1988, quote: "年末全国职工人数为１３５７３万人" }
+    - { year: 1989, value: 13740, cite: rmrb-1990-02-21-stats-1989, quote: "年末全国职工人数为１３７４０万人" }
+
+- id: wage
+  title: 职工平均货币工资
+  group: people
+  unit: 元/年
+  summary: 1957 年全国职工平均 637 元；1978 年公报给出的全民所有制职工平均 644 元，比上年增加 42 元。
+  caveats: 名义工资，没有扣除物价。1978、1979 年公报只给全民所有制单位职工的平均工资，比全国职工平均高；1987、1988 年公报没有给平均工资。
+  points:
+    - { year: 1957, value: 637, cite: rmrb-1959-04-14-stats-fyp1, quote: "1957年全国职工的平均工资达到637元" }
+    - { year: 1978, value: 644, kind: variant, cite: rmrb-1979-06-28-stats-1978, quote: "一九七八年全民所有制职工平均工资为六百四十四元", note: 全民所有制单位 }
+    - { year: 1979, value: 705, kind: variant, cite: rmrb-1980-05-01-stats-1979, quote: "一九七九年全民所有制职工平均工资为七百零五元", note: 全民所有制单位 }
+    - { year: 1980, value: 762, cite: rmrb-1981-04-30-stats-1980, quote: "全国职工平均货币工资为762元" }
+    - { year: 1980, value: 803, kind: variant, cite: rmrb-1981-04-30-stats-1980, quote: "全民所有制职工平均货币工资为803元", note: 全民所有制单位 }
+    - { year: 1981, value: 772, cite: rmrb-1982-04-30-stats-1981, quote: "全国职工平均货币工资为772元" }
+    - { year: 1981, value: 812, kind: variant, cite: rmrb-1982-04-30-stats-1981, quote: "全民所有制单位职工平均为812元", note: 全民所有制单位 }
+    - { year: 1982, value: 798, cite: rmrb-1983-04-30-stats-1982, quote: "一九八二年全国职工平均货币工资为798元" }
+    - { year: 1982, value: 836, kind: variant, cite: rmrb-1983-04-30-stats-1982, quote: "全民所有制单位职工平均货币工资为836元", note: 全民所有制单位 }
+    - { year: 1983, value: 826, cite: rmrb-1984-04-30-stats-1983, quote: "全国职工平均货币工资为八百二十六元" }
+    - { year: 1984, value: 961, cite: rmrb-1985-03-10-stats-1984, quote: "全国职工平均货币工资961元" }
+    - { year: 1985, value: 1142, cite: rmrb-1986-03-01-stats-1985, quote: "职工平均货币工资为一千一百四十二元" }
+    - { year: 1986, value: 1332, cite: rmrb-1987-02-21-stats-1986, quote: "职工平均货币工资为1332元" }
+    - { year: 1989, value: 1950, cite: rmrb-1990-02-21-stats-1989, quote: "职工平均货币工资１９５０元" }
+
+- id: students
+  title: 高等学校在校学生
+  group: people
+  unit: 万人
+  caveats: 1978–1981 年公报写“高等学校”，1982 年起写“普通高等学校”，都不含广播电视大学、业余大学等成人高校。1982 年的下降，公报解释为 1978 年春秋两季入学的四年制学生同年毕业。
+  points:
+    - { year: 1978, value: 85, cite: rmrb-1979-06-28-stats-1978, quote: "全国高等学校达到五百九十八所，比上年增加近二百所，在校学生八十五万人" }
+    - { year: 1979, value: 102, cite: rmrb-1980-05-01-stats-1979, quote: "在校学生一百零二万人" }
+    - { year: 1980, value: 114.4, cite: rmrb-1981-04-30-stats-1980, quote: "全国高等学校达到675所，比上年增加42所；在校学生114．4万人" }
+    - { year: 1981, value: 128, cite: rmrb-1982-04-30-stats-1981, quote: "高等学校在校学生128万人" }
+    - { year: 1982, value: 115.4, cite: rmrb-1983-04-30-stats-1982, quote: "在校学生115．4万人，比上年减少12．5万人" }
+    - { year: 1983, value: 120.7, cite: rmrb-1984-04-30-stats-1983, quote: "在校学生一百二十点七万人" }
+    - { year: 1984, value: 139.6, cite: rmrb-1985-03-10-stats-1984, quote: "在校学生139.6万人" }
+    - { year: 1985, value: 170.3, cite: rmrb-1986-03-01-stats-1985, quote: "在校学生一百七十点三万人" }
+    - { year: 1986, value: 188, cite: rmrb-1987-02-21-stats-1986, quote: "在校学生188万人" }
+    - { year: 1987, value: 195.9, cite: rmrb-1988-02-24-stats-1987, quote: "在校学生１９5．９万人" }
+    - { year: 1988, value: 206.6, cite: rmrb-1989-03-01-stats-1988, quote: "在校学生２０６．６万人" }
+    - { year: 1989, value: 208.2, cite: rmrb-1990-02-21-stats-1989, quote: "在校学生２０８．２万人" }
+
+# ── 投资、商业与外贸 ────────────────────────────────────
+- id: investment
+  title: 基本建设投资
+  group: money
+  unit: 亿元
+  summary: 1958 年 267 亿元，公报说“相当于第一个五年计划期间投资总额的一半”。1981 年调整时压缩到 428 亿元。
+  caveats: 1955 年是“国家实际完成”，1958、1978、1979 年是“全国”，1980 年起是“全民所有制单位”，1989 年注明含车船购置。名义值。
+  events: [1972-capital-construction]
+  points:
+    - { year: 1955, value: 86.3, cite: rmrb-1956-06-15-stats-1955, quote: "国家实际完成的基本建设投资总额为86.3亿元" }
+    - { year: 1956, value: 140, cite: rmrb-1959-04-14-stats-fyp1, quote: "1956年一年的投资额达到140亿元" }
+    - { year: 1958, value: 267, cite: rmrb-1959-04-15-stats-1958, quote: "全国完成基本建设投资总额267亿元，相当于第一个五年计划期间投资总额的一半" }
+    - { year: 1978, value: 479, cite: rmrb-1979-06-28-stats-1978, quote: "一九七八年全国完成基本建设投资总额四百七十九亿元" }
+    - { year: 1979, value: 500, cite: rmrb-1980-05-01-stats-1979, quote: "全国完成基本建设投资总额五百亿元" }
+    - { year: 1980, value: 539, cite: rmrb-1981-04-30-stats-1980, quote: "全国全民所有制单位完成基本建设投资总额539亿元" }
+    - { year: 1981, value: 428, cite: rmrb-1982-04-30-stats-1981, quote: "全民所有制单位完成基本建设投资总额428亿元，比上年减少111亿元" }
+    - { year: 1982, value: 555, cite: rmrb-1983-04-30-stats-1982, quote: "基本建设投资555亿元" }
+    - { year: 1983, value: 594, cite: rmrb-1984-04-30-stats-1983, quote: "1983年全民所有制单位基本建设投资五百九十四亿元" }
+    - { year: 1984, value: 735, cite: rmrb-1985-03-10-stats-1984, quote: "基本建设投资735亿元" }
+    - { year: 1985, value: 1061, cite: rmrb-1986-03-01-stats-1985, quote: "基本建设投资一千零六十一亿元" }
+    - { year: 1986, value: 1152, cite: rmrb-1987-02-21-stats-1986, quote: "基本建设投资1152亿元" }
+    - { year: 1987, value: 1324, cite: rmrb-1988-02-24-stats-1987, quote: "全民所有制单位基本建设投资１３２４亿元" }
+    - { year: 1988, value: 1543, cite: rmrb-1989-03-01-stats-1988, quote: "全民所有制单位基本建设投资１５４３亿元" }
+    - { year: 1989, value: 1538, cite: rmrb-1990-02-21-stats-1989, quote: "全民所有制单位基本建设投资１５３８亿元（含车船购置）" }
+
+- id: retail
+  title: 社会商品零售总额
+  group: money
+  unit: 亿元
+  caveats: 名义值，没有扣除物价。1980 年起计入农民对非农业居民的零售，1979 年数相应由 1752.5 亿元改为 1800 亿元。
+  points:
+    - { year: 1978, value: 1527.5, cite: rmrb-1979-06-28-stats-1978, quote: "社会商品零售总额一千五百二十七亿五千万元" }
+    - { year: 1979, value: 1752.5, cite: rmrb-1980-05-01-stats-1979, quote: "社会商品零售总额一千七百五十二亿五千万元" }
+    - { year: 1979, value: 1800, kind: revised, cite: rmrb-1981-04-30-stats-1980, quote: "1979年的社会商品零售总额相应由原来的1，752．5亿元改为1，800亿元", note: 改为计入农民对非农业居民零售 }
+    - { year: 1980, value: 2140, cite: rmrb-1981-04-30-stats-1980, quote: "社会商品零售总额（注3）2，140亿元" }
+    - { year: 1981, value: 2350, cite: rmrb-1982-04-30-stats-1981, quote: "一九八一年社会商品零售总额2，350亿元" }
+    - { year: 1982, value: 2570, cite: rmrb-1983-04-30-stats-1982, quote: "一九八二年社会商品零售总额2，570亿元" }
+    - { year: 1983, value: 2849, cite: rmrb-1984-04-30-stats-1983, quote: "1983年社会商品零售总额二千八百四十九亿元" }
+    - { year: 1984, value: 3357, cite: rmrb-1985-03-10-stats-1984, quote: "1984年社会商品零售总额3，357亿元" }
+    - { year: 1985, value: 4305, cite: rmrb-1986-03-01-stats-1985, quote: "1985年社会商品零售总额四千三百零五亿元" }
+    - { year: 1986, value: 4950, cite: rmrb-1987-02-21-stats-1986, quote: "1986年社会商品零售总额4950亿元" }
+    - { year: 1987, value: 5820, cite: rmrb-1988-02-24-stats-1987, quote: "１９８７年社会商品零售总额５８２０亿元" }
+    - { year: 1988, value: 7440, cite: rmrb-1989-03-01-stats-1988, quote: "１９８８年社会商品零售总额７４４０亿元" }
+    - { year: 1989, value: 8101, cite: rmrb-1990-02-21-stats-1989, quote: "１９８９年社会商品零售总额８１０１亿元" }
+
+- id: trade-yuan
+  title: 进出口总额（人民币）
+  group: money
+  unit: 亿元
+  caveats: 1950 年代公报只给增长百分比。1985 年起公报改以美元计，见下一序列。
+  points:
+    - { year: 1978, value: 355, cite: rmrb-1979-06-28-stats-1978, quote: "全年进出口贸易总额三百五十五亿元" }
+    - { year: 1979, value: 455, cite: rmrb-1980-05-01-stats-1979, quote: "进出口贸易总额四百五十五亿元" }
+    - { year: 1980, value: 563, cite: rmrb-1981-04-30-stats-1980, quote: "全国进出口贸易总额为563亿元" }
+    - { year: 1980, value: 570, kind: revised, cite: rmrb-1982-04-30-stats-1981, quote: "比上年的570亿元增长29％", note: 1981 年公报引用的 1980 年数 }
+    - { year: 1981, value: 735.3, cite: rmrb-1982-04-30-stats-1981, quote: "全国进出口总额735 ．3亿元" }
+    - { year: 1982, value: 772, cite: rmrb-1983-04-30-stats-1982, quote: "全国进出口总额为772亿元" }
+    - { year: 1983, value: 860.1, cite: rmrb-1984-04-30-stats-1983, quote: "全国进出口总额为八百六十点一亿元" }
+    - { year: 1984, value: 1201.2, cite: rmrb-1985-03-10-stats-1984, quote: "全国进出口总额为1，201.2亿元" }
+
+- id: trade-usd
+  title: 进出口总额（美元）
+  group: money
+  unit: 亿美元
+  caveats: 海关统计。1988、1989 年公报写作“进出口货物总额”。
+  points:
+    - { year: 1985, value: 696.2, cite: rmrb-1986-03-01-stats-1985, quote: "全国进出口总额达六百九十六点二亿美元" }
+    - { year: 1986, value: 738, cite: rmrb-1987-02-21-stats-1986, quote: "进出口总额达738亿美元" }
+    - { year: 1987, value: 827, cite: rmrb-1988-02-24-stats-1987, quote: "进出口总额达８２７亿美元" }
+    - { year: 1988, value: 1027.9, cite: rmrb-1989-03-01-stats-1988, quote: "进出口货物总额达１０２７．９亿美元" }
+    - { year: 1989, value: 1116, cite: rmrb-1990-02-21-stats-1989, quote: "进出口货物总额达１１１６亿美元" }
