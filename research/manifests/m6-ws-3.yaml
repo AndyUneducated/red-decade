@@ -1,0 +1,62 @@
+# M6（1977–1989）第 3 批维基文库原文：1988 年修宪、法律、拉萨戒严、海南建省、宗教政策、文革图书出版规定、起义投诚人员政策。日期取自页面头部或正文落款，见 note。1979 年修宪决议页面未找到，1980 年取消“四大”的决议页面是扫描件转录、正文为空，均未收。
+wikisource:
+  - id: ws-1988-04-12-constitution-amendment
+    title: 中华人民共和国宪法修正案 (1988年)
+    date: 1988-04-12
+    kind: party-doc
+    alias: 1988 年宪法修正案
+    note: 七届全国人大一次会议，页面头部载 1988 年 4 月 12 日。
+  - id: ws-1986-04-12-civil-law
+    title: 中华人民共和国民法通则 (1986年)
+    date: 1986-04-12
+    kind: party-doc
+    alias: 民法通则
+    note: 六届全国人大四次会议 1986 年 4 月 12 日通过，1987 年 1 月 1 日施行（页面头部）。
+  - id: ws-1986-04-12-compulsory-education
+    title: 中华人民共和国义务教育法 (1986年)
+    date: 1986-04-12
+    kind: party-doc
+    alias: 义务教育法
+    note: 1986 年 4 月 12 日通过，7 月 1 日施行（页面头部与第十八条）。
+  - id: ws-1989-03-07-lhasa-martial-law
+    title: 国务院关于在西藏自治区拉萨市实行戒严的命令
+    date: 1989-03-07
+    kind: party-doc
+    alias: 拉萨戒严令
+    note: 页面头部载 1989 年 3 月 7 日；正文说自 3 月 8 日零时起戒严。
+  - id: ws-1990-lhasa-lift-martial-law
+    title: 国务院关于解除在西藏自治区拉萨市戒严的命令
+    date: 1990-04
+    kind: party-doc
+    alias: 解除拉萨戒严令
+    note: 国发〔1990〕27号；正文说自 1990 年 5 月 1 日起解除，发布日取 4 月。
+  - id: ws-1988-04-13-hainan-province
+    title: 全国人民代表大会关于设立海南省的决定
+    date: 1988-04-13
+    kind: party-doc
+    alias: 设立海南省的决定
+    note: 七届全国人大一次会议，页面头部载 1988 年 4 月 13 日。
+  - id: ws-1985-04-10-hk-basic-law-committee
+    title: 中华人民共和国第六届全国人民代表大会第三次会议关于成立中华人民共和国香港特别行政区基本法起草委员会的决定
+    date: 1985-04-10
+    kind: party-doc
+    alias: 成立香港基本法起草委员会的决定
+    note: 页面头部载 1985 年 4 月 10 日。
+  - id: ws-1982-03-31-religion-document
+    title: 中共中央关于印发《关于我国社会主义时期宗教问题的基本观点和基本政策》的通知
+    date: 1982-03-31
+    kind: party-doc
+    alias: 1982 年宗教问题文件（19 号文件）
+    note: 页面落款一九八二年三月三十一日。
+  - id: ws-1988-cr-books-rules
+    title: 中共中央宣传部、新闻出版署关于出版“文化大革命”图书问题的若干规定
+    date: 1988
+    kind: party-doc
+    alias: 出版文革图书的若干规定
+    note: 页面只载年份 1988。
+  - id: ws-kmt-defectors-policy
+    title: 关于落实对原国民党起义投诚人员政策的若干问题的说明
+    date: 1979
+    kind: party-doc
+    alias: 落实起义投诚人员政策的说明
+    note: 正文说中发〔1979〕6 号文件（1979 年 1 月 17 日）“下达半年多以来”，当在 1979 年下半年。
