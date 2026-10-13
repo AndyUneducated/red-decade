@@ -146,6 +146,8 @@
   voices:
     - { voice: doc, text: 为了人道主义，我已命令福建前线，从十月六日起，暂以七天为期，停止炮击，你们可以充分地自由地输送供应品，但以没有美国人护航为条件（告台湾同胞书）, cite: ws-1958-10-06-taiwan-1, quote: true }
     - { voice: doc, text: 三十六计，和为上计（同上）, cite: ws-1958-10-06-taiwan-1, quote: true }
+    - { voice: doc, text: 金门炮击，从本日起，再停两星期，借以观察敌方动态，并使金门军民同胞得到充分补给，包括粮食和军事装备在内，以利他们固守（10 月 13 日国防部命令）, cite: ws-1958-10-13-mnd-order, quote: true }
+    - { voice: doc, text: 金门海域，美国人不得护航。如有护航，立即开炮（同上）, cite: ws-1958-10-13-mnd-order, quote: true }
     - { voice: doc, text: 我已命令福建前綫，逢双日不打金門的飞机場、料羅灣的碼头、海灘和船只（再告台湾同胞书）, cite: ws-1958-10-25-taiwan-2, quote: true }
     - { voice: doc, text: 逢双日都不打炮，打炮一律于单日行之（三告台湾同胞书）, cite: ws-1958-11-taiwan-3, quote: true }
   cites: [ws-1958-10-06-taiwan-1, ws-1958-10-25-taiwan-2, ws-1958-11-taiwan-3]

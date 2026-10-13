@@ -1,0 +1,477 @@
+# 1949–1965 第三批：维基文库第四批原文（m5-ws-4）。
+# 中苏论战各条依据 1963–1964 年中共的“评苏共中央公开信”，是中共一方的叙述。
+
+- id: 1950-04-30-marriage-law
+  date: 1950-04-30
+  title: 《婚姻法》公布
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1950 年 4 月 30 日，中央人民政府命令公布《中华人民共和国婚姻法》，自 5 月 1 日起施行。婚姻法宣布废除“包办强迫、男尊女卑、漠视子女利益”的封建主义婚姻制度，规定结婚须男女双方完全自愿，男二十岁、女十八岁始得结婚，禁止重婚、纳妾、童养媳，禁止干涉寡妇婚姻自由；男女一方坚决要求离婚、经区人民政府和司法机关调解无效的，也准予离婚。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 廢除包辦強迫、男尊女卑、漠視子女利益的封建主義婚姻制度。實行男女婚姻自由、一夫一妻、男女權利平等、保護婦女和子女合法權益的新民主主義婚姻制度（婚姻法第一条）, cite: ws-1950-04-30-marriage-law, quote: true }
+    - { voice: doc, text: 禁止重婚、納妾。禁止童養媳。禁止干涉寡婦婚姻自由（第二条）, cite: ws-1950-04-30-marriage-law, quote: true }
+    - { voice: doc, text: 男女一方堅決要求離婚的，經區人民政府和司法機關調解無效時，亦准予離婚（第十七条）, cite: ws-1950-04-30-marriage-law, quote: true }
+  cites: [ws-1950-04-30-marriage-law]
+
+- id: 1950-06-29-trade-union-law
+  date: 1950-06-29
+  title: 《工会法》公布
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 1950 年 6 月 29 日公布的《工会法》规定，工会是“工人阶级自愿结合的群众组织”，在私营企业中有代表职工与资方交涉、谈判、缔结集体合同之权；企业行政方面或资方按职工实际工资总额的百分之二按月拨交工会经费。
+  voices:
+    - { voice: doc, text: 工會是工人階級自願結合的群眾組織（工会法第一条）, cite: ws-1950-06-29-trade-union-law, quote: true }
+    - { voice: doc, text: 在私營企業中，工會有代表受僱工人、職員群眾與資方進行交涉、談判、參加勞資協商會議並與資方締結集體合同之權（第六条）, cite: ws-1950-06-29-trade-union-law, quote: true }
+    - { voice: doc, text: 實際工資（包括貨幣部分、實物部分與伙食）總額的百分之二，按月撥交工會組織作為工會經費（第二十二条）, cite: ws-1950-06-29-trade-union-law, quote: true }
+  cites: [ws-1950-06-29-trade-union-law]
+
+- id: 1951-10-23-zhou-report
+  date: 1951-10-23
+  title: 周恩来政协报告：土改进度与“死缓”政策
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: 1951 年 10 月 23 日，周恩来在全国政协一届三次会议上作政治报告。他说截至当年 8 月底，华东、中南、西南、西北已有一亿五千余万农业人口地区完成土地改革，连同老区全国共三亿一千余万，尚有九千余万农业人口地区待进行。关于镇压反革命，报告说运动达到高潮后，根据毛泽东的指示采取“适当收缩和更加谨慎的方针”，对罪该处死但没有血债、民愤不大的罪犯判处死刑、缓期二年执行、强迫劳动。
+  people: [zhou-enlai, mao-zedong]
+  voices:
+    - { voice: official1966, text: 连以前的老区在内，全国总计有三亿一千余万农业人口地区完成了土地改革，有九千余万农业人口地区尚待进行土地改革（周恩来报告）, cite: ws-1951-10-23-zhou-cppcc-report, quote: true }
+    - { voice: official1966, text: 据新区调查，占人口百分之五左右的地主占有土地百分之四十至八十，而占人口百分之五十至六十的贫农和雇农只占有土地百分之四至十五（同上）, cite: ws-1951-10-23-zhou-cppcc-report, quote: true }
+    - { voice: official1966, text: 为了巩固已经获得的成绩和避免可能产生的错误，根据毛主席的指示，我们采取了适当收缩和更加谨慎的方针（同上，谈镇反）, cite: ws-1951-10-23-zhou-cppcc-report, quote: true }
+    - { voice: official1966, text: 对于那些罪该处死但没有血债、民愤不大和虽然严重地损害国家利益但尚未达到最严重程度的罪犯，则采取判处死刑、缓期二年执行、强迫劳动、以观后效的政策（同上）, cite: ws-1951-10-23-zhou-cppcc-report, quote: true }
+  cites: [ws-1951-10-23-zhou-cppcc-report]
+
+- id: 1951-10-24-cppcc-resist-us
+  date: 1951-10-24
+  title: 政协决议：继续抗美援朝，开展增产节约
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 1951 年 10 月 24 日，全国政协一届三次会议通过关于抗美援朝工作的决议，同意彭真的报告，决定继续动员人力、物力、财力支援在朝鲜的志愿军，大规模开展爱国增产节约运动，完成并继续扩大捐献武器运动。
+  people: [peng-zhen]
+  voices:
+    - { voice: doc, text: 繼續動員我們的人力、物力和財力，支援朝鮮前綫的中國人民志願軍和朝鮮人民軍（政协决议）, cite: ws-1951-10-24-cppcc-resist-us, quote: true }
+    - { voice: doc, text: 大規模地開展愛國增產節約運動，加强抗美援朝和國家建設的力量（同上）, cite: ws-1951-10-24-cppcc-resist-us, quote: true }
+  cites: [ws-1951-10-24-cppcc-resist-us]
+
+- id: 1952-02-22-national-coalition
+  date: 1952-02-22
+  title: 政务院：建立民族民主联合政府
+  lane: local
+  weight: 1
+  summary: 1952 年 2 月 22 日，政务院决定在少数民族人口达总人口百分之十以上、或民族关系显著的省、市、专区、县、区、乡建立民族民主联合政府，目的是“保障少数民族在地方政权中的平等权利”；人民代表会议中各民族的代表名额以人口比例为基础协商分配。
+  voices:
+    - { voice: doc, text: 建立地方民族民主聯合政府的目的，是爲了保障少數民族在地方政權中的平等權利（政务院决定）, cite: ws-1952-02-22-national-coalition, quote: true }
+  cites: [ws-1952-02-22-national-coalition]
+
+- id: 1952-02-25-shanghai-five-anti
+  date: 1952-02-25
+  title: 陈毅宣布上海“五反”开始
+  lane: mass
+  weight: 2
+  place: 上海
+  summary: 1952 年 2 月 25 日，上海市市长陈毅向全上海市民宣布上海“五反”斗争正式开始（讲话 3 月 28 日刊于《人民日报》）。他把上海十六万三千四百户工商业（十一万户摊贩在外）分为五类，估计严重违法和完全违法户不超过总户数的百分之五；所有资本家都要经过工人、店员的审查。他同时说“五反”不同于土地改革，不是像消灭地主阶级一样消灭资产阶级。
+  people: [chen-yi]
+  voices:
+    - { voice: official1966, text: 我宣布：我们上海的反行贿、反偷税漏税、反盗窃国家资财、反偷工减料和反盗窃国家经济情报的斗争，正式开始（陈毅报告）, cite: ws-1952-02-25-chen-yi-five-anti, quote: true }
+    - { voice: official1966, text: 上海的“五反”斗争只许成功，不许失败（同上）, cite: ws-1952-02-25-chen-yi-five-anti, quote: true }
+    - { voice: official1966, text: 严重违法户和完全违法户，估计不会超过工商业总户数的百分之五（同上）, cite: ws-1952-02-25-chen-yi-five-anti, quote: true }
+    - { voice: official1966, text: 所有的资本家都要经过工人、店员的这种审查。如果工人、店员不通过，就不能给他们作出结论（同上）, cite: ws-1952-02-25-chen-yi-five-anti, quote: true }
+  cites: [ws-1952-02-25-chen-yi-five-anti]
+
+- id: 1952-03-08-three-anti-rules
+  date: 1952-03-08
+  title: “三反”贪污分子处理规定
+  lane: mass
+  weight: 1
+  summary: 1952 年 3 月，中央节约检查委员会规定“三反”中贪污分子的处理办法，方针是“改造与惩治相结合”：贪污未满一百万元、情节不严重又彻底坦白的，一律不以贪污分子看待；数额越大处分越重。刑事处分分机关管制、劳役改造、有期徒刑、无期徒刑、死刑五种。
+  voices:
+    - { voice: doc, text: 必须采取改造与惩治相结合的方针：对大多数情节较轻或彻底坦白，立功自赎者，从宽处理；对少数情节严重恶劣而又拒不坦白者，予以严惩（中央节约检查委员会规定）, cite: ws-1952-03-08-three-anti-rules, quote: true }
+    - { voice: doc, text: 凡贪污未满一百万元者，只要其情节不严重恶劣，彻底承认错误，保证不再犯，一律不以贪污分子看待，并不予行政处分（同上）, cite: ws-1952-03-08-three-anti-rules, quote: true }
+    - { voice: doc, text: 刑事处分，除免刑者外，采用机关管制（一年至二年）、劳役改造（二年至四年）、有期徒刑、无期徒刑、死刑五种办法（同上）, cite: ws-1952-03-08-three-anti-rules, quote: true }
+  cites: [ws-1952-03-08-three-anti-rules]
+
+- id: 1952-03-12-beijing-five-anti
+  date: 1952-03-12
+  title: 北京“五反”：工商户分五类处理
+  lane: mass
+  weight: 1
+  place: 北京
+  summary: 1952 年 3 月 12 日公布的北京市人民政府“五反”分类处理标准，把工商户分为守法户、基本守法户、半守法半违法户、严重违法户、完全违法户五类。半守法半违法户“补退不罚”；完全违法户除退出违法所得外从重罚金或判刑，最重可判死刑并没收财产。
+  voices:
+    - { voice: doc, text: 對於以上兩種半守法半違法戶的處理辦法是「補退不罰」（北京市分类处理标准）, cite: ws-1952-03-12-beijing-five-anti, quote: true }
+    - { voice: doc, text: 對於以上四種完全違法戶的處理辦法，應予法辦，除令其退出違法所得外，並按其情節從重處以罰金，或判徒刑，最重者可判死刑，並沒收其財産的一部或全部（同上）, cite: ws-1952-03-12-beijing-five-anti, quote: true }
+  cites: [ws-1952-03-12-beijing-five-anti]
+
+- id: 1952-03-24-five-anti-tribunal
+  date: 1952-03-24
+  title: “五反”人民法庭：判决即终审
+  lane: mass
+  weight: 1
+  summary: 1952 年 3 月 24 日公布的政务院规定，“五反”中违法案件较多的城市可设立市人民法庭，副审判长和审判员可从有关机关、人民团体负责人及“五反”积极分子中任命。市人民法庭有权判处罚金、没收财产直至死刑，其判决为终审判决。
+  voices:
+    - { voice: doc, text: 副审判长和审判员，可就有关机关和人民团体负责人及“五反”运动中的积极分子中任命之（政务院规定）, cite: ws-1952-03-24-five-anti-tribunal, quote: true }
+    - { voice: doc, text: 市人民法庭（或市、县人民法院）有逮捕并判处退出违法所得、赔偿损失、罚金、没收财产、剥夺政治权利、管制、劳役改造、有期徒刑、无期徒刑、死刑及酌予缓刑或免予处分之权（同上）, cite: ws-1952-03-24-five-anti-tribunal, quote: true }
+    - { voice: doc, text: 市人民法庭（或市、县人民法院）之判决，为终审判决（同上）, cite: ws-1952-03-24-five-anti-tribunal, quote: true }
+  cites: [ws-1952-03-24-five-anti-tribunal]
+
+- id: 1952-03-30-three-anti-tribunal
+  date: 1952-03-30
+  title: “三反”人民法庭：机关首长任审判长
+  lane: mass
+  weight: 1
+  summary: 1952 年 3 月 30 日公布的规定，凡专区以上机关、团以上部队可成立人民法庭审判“三反”中的贪污分子。审判长、副审判长一般由机关首长或副首长担任，审判员吸收“三反”积极分子参加；法庭有权判处管制直至死刑。死刑须由政务院及大行政区人民政府（军队为军委及大军区）批准，被告可在三日内上诉。
+  voices:
+    - { voice: doc, text: 审判长、副审判长一般应由机关首长或副首长担任，审判员应吸收"三反"运动中的群众积极分子以及机关中各民主党派、无党派民主人士参加（三反人民法庭规定）, cite: ws-1952-03-30-three-anti-tribunal, quote: true }
+    - { voice: doc, text: 所有判处死刑者，应分别由中央人民政府政务院及大行政区人民政府或人民革命军事委员会及大军区批准（同上）, cite: ws-1952-03-30-three-anti-tribunal, quote: true }
+  cites: [ws-1952-03-30-three-anti-tribunal]
+
+- id: 1952-06-13-end-five-anti
+  date: 1952-06-13
+  title: 政务院：“五反”结束阶段，核实定案
+  lane: econ
+  weight: 1
+  summary: 1952 年 6 月 13 日，政务院指示各大中城市“五反”进入结束阶段，定案的原则是“斗争从严，处理从宽”。指示承认各地计算违法所得“偏高偏广”，要求重新核实，不应该计算的一定不要计算；已多退的款项经评议后归还，退款时间可延至冬季以后。
+  voices:
+    - { voice: doc, text: 處理的原則是「鬥爭從嚴，處理從寬；應當嚴者嚴之，應當寬者寬之」（政务院指示）, cite: ws-1952-06-13-end-five-anti, quote: true }
+    - { voice: doc, text: 由於追算較遠、折價較高、計算範圍較廣、標準先後不同以及其他原因，以致計算偏高偏廣的（同上）, cite: ws-1952-06-13-end-five-anti, quote: true }
+    - { voice: doc, text: 必須重新核實定案，不應該計算的一定不要計算，可計算可不計算的也不要計算，而應該計算的則必須計算（同上）, cite: ws-1952-06-13-end-five-anti, quote: true }
+  cites: [ws-1952-06-13-end-five-anti]
+
+- id: 1952-08-08-regional-autonomy
+  date: 1952-08-08
+  title: 《民族区域自治实施纲要》
+  lane: local
+  weight: 2
+  summary: 1952 年 8 月 8 日，中央人民政府委员会批准《民族区域自治实施纲要》。纲要规定各民族自治区“统为中华人民共和国领土的不可分离的一部分”，自治机关在中央人民政府统一领导下；自治区的内部改革依照本民族大多数人民及有联系的领袖人物的志愿；上级政府应克服大民族主义和狭隘民族主义的倾向。
+  voices:
+    - { voice: doc, text: 各民族自治区统为中华人民共和国领土的不可分离的一部分（纲要）, cite: ws-1952-08-08-regional-autonomy, quote: true }
+    - { voice: doc, text: 各民族自治区的内部改革，依照各民族大多数人民及与人民有联系的领袖人物的志愿（同上）, cite: ws-1952-08-08-regional-autonomy, quote: true }
+  cites: [ws-1952-08-08-regional-autonomy]
+
+- id: 1953-03-16-hubei-sects
+  date: 1953-03-16
+  title: 湖北取缔会道门：已打击会首四千余人
+  lane: mass
+  weight: 1
+  place: 武汉
+  summary: 1953 年 3 月，湖北省公安厅报告全省定于 4 月 7 日统一行动取缔反动会道门。报告说全省有 165 种会道门，其中 41 种是反动的，有反动会首 11604 人、会众约 40 余万。报告列出已杀、关押、管制的会首人数，以及自杀、病亡 1169 名，合计已打击 4688 名，占原有会首的 40.4%；同时要求宣传教育被骗会众，“绝不能反会众”。
+  voices:
+    - { voice: doc, text: 全省有165种会道门，其中有41种是反动的（湖北省公安厅报告）, cite: ws-1953-03-16-hubei-sects, quote: true }
+    - { voice: doc, text: 全省已杀1265名，占原有的10.9％，关了1433名，占原有的12.4％，管制821名，占7.1％；自杀、病亡1169名，占10％，合计已打击4688名，占原有会首的40.4％（同上）, cite: ws-1953-03-16-hubei-sects, quote: true }
+    - { voice: doc, text: 取缔反动会门斗争就必须贯彻宣传教育提高广大被骗会众觉悟的方针，绝不能反会众（同上）, cite: ws-1953-03-16-hubei-sects, quote: true }
+  cites: [ws-1953-03-16-hubei-sects]
+
+- id: 1953-04-03-basic-elections
+  date: 1953-04-03
+  title: 中央选举委员会：基层普选与人口调查
+  lane: center
+  weight: 1
+  summary: 1953 年 3 月 1 日公布选举法后，中央选举委员会 4 月 3 日指示，5 月到 10 月为全国乡、镇等基层单位的选举时间。选民登记既不能错误剥夺公民的选举权，也不能让“反动分子或未经改变成份的地主阶级分子”取得选举权；与选民登记同时完成全国人口调查。
+  voices:
+    - { voice: doc, text: 从今年五月到十月，为全国乡、镇、市辖区和不设区的市等基层单位的选举时间（中央选举委员会指示）, cite: ws-1953-04-03-basic-elections, quote: true }
+    - { voice: doc, text: 不能让一个公民被错误地剥夺了庄严的选举权利，也不能让一个反动分子或未经改变成份的地主阶级分子非法窃取了庄严的选举权利（同上）, cite: ws-1953-04-03-basic-elections, quote: true }
+    - { voice: doc, text: 与选民登记同时，完成全国的人口调查（同上）, cite: ws-1953-04-03-basic-elections, quote: true }
+  cites: [ws-1953-04-03-basic-elections]
+
+- id: 1954-03-04-joint-venture-plan
+  date: 1954-03-04
+  title: 中央批准扩展公私合营工业计划
+  lane: econ
+  weight: 1
+  summary: 1954 年 3 月 4 日，中共中央批准中财委关于扩展公私合营工业的报告，以及“有步骤地将有十个工人以上的资本主义工业基本上改造为公私合营企业”的意见。计划会议上各地原拟合营 1295 个企业，压缩到 651 个作为框框，当年扩展合营的年产总值最后定为 14.77 万亿元（按 1953 年计算）。报告说荣毅仁、郭棣活两家尚未表示愿意合营，暂不列入计划。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 此外，荣毅仁、郭棣活两家尚未明确表示愿意合营，在他们未明确要求以前，不宜正式列入计划（中财委报告）, cite: ws-1954-03-04-joint-venture-report, quote: true }
+    - { voice: doc, text: “经过国家资本主义完成由资本主义到社会主义的改造，是较健全的方针和办法。”（中财委意见引毛泽东）, cite: ws-1954-03-04-joint-venture-report, quote: true }
+  cites: [ws-1954-03-04-joint-venture-report]
+
+- id: 1954-03-06-suiyuan-merger
+  date: 1954-03-06
+  title: 撤销绥远省，并入内蒙古
+  lane: local
+  weight: 1
+  place: 呼和浩特
+  summary: 根据政务院“绥远、内蒙古合并”的命令，1954 年 3 月 6 日撤销绥远省建制，原绥远各盟、专区、市统一由内蒙古自治区人民政府领导，集宁专区改为平地泉行政区，陕坝专区改为河套行政区。命令要求各地照常进行春耕和普选。
+  voices:
+    - { voice: doc, text: 遵于一九五四年三月六日撤销绥远省建制，绥远省人民政府自即日起停止行使职权（内蒙古自治区人民政府命令）, cite: ws-1954-03-05-suiyuan-merger, quote: true }
+    - { voice: doc, text: 不论区划建制有无变动，各项工作仍应照常进行，尤其是当前的春耕、普选工作，更应特别抓紧（同上）, cite: ws-1954-03-05-suiyuan-merger, quote: true }
+  cites: [ws-1954-03-05-suiyuan-merger]
+
+- id: 1954-09-02-joint-venture-rules
+  date: 1954-09-02
+  title: 《公私合营工业企业暂行条例》
+  lane: econ
+  weight: 2
+  summary: 1954 年 9 月 2 日，政务院公布《公私合营工业企业暂行条例》。合营要根据“国家的需要、企业改造的可能和资本家的自愿”；合营企业中社会主义成分居于领导地位，私人股份的合法权益受到保护。全年盈余中，股东股息红利加上董事、经理、厂长的酬劳金共占百分之二十五左右。
+  voices:
+    - { voice: doc, text: 對資本主義工業企業實行公私合營，應當根據國家的需要、企業改造的可能和資本家的自願（暂行条例）, cite: ws-1954-09-02-joint-venture-rules, quote: true }
+    - { voice: doc, text: 合營企業中，社會主義成分居於領導地位，私人股份的合法權益受到保護（同上）, cite: ws-1954-09-02-joint-venture-rules, quote: true }
+    - { voice: doc, text: 股東股息紅利，加上董事、經理和廠長等人的酬勞金，共可占到全年盈餘總額的百分之二十五左右（同上）, cite: ws-1954-09-02-joint-venture-rules, quote: true }
+  cites: [ws-1954-09-02-joint-venture-rules]
+
+- id: 1954-10-10-chiang-national-day
+  date: 1954-10-10
+  title: 蒋介石国庆文告：号召大陆“配合国军反攻”
+  lane: intl
+  weight: 1
+  summary: 1954 年 10 月 10 日，台湾的蒋介石发表国庆文告，称大陆当年夏天江、淮、河、汉四大流域洪水同时决堤，指过渡时期总路线是要把大陆同胞带上“更黑暗、更奴役的一条绝路”。他承诺“光复”后现有农地准其继续耕种，号召大陆同胞扩大游击武力、配合国军反攻。这是对立一方的宣传文告。
+  voices:
+    - { voice: doc, text: 匪所謂的過渡時期總路線，就是要把大陸同胞，過渡到更黑暗、更奴役的一條絕路（蒋介石国庆文告）, cite: ws-1954-10-10-chiang-national-day, quote: true }
+    - { voice: doc, text: 到今夏卻使這江、淮、河、漢四大流域的洪水，同時決堤崩潰（同上）, cite: ws-1954-10-10-chiang-national-day, quote: true }
+    - { voice: doc, text: 勉勵大陸同胞，忍痛待變，擴大游擊武力，建立敵後政權，配合國軍反攻（同上）, cite: ws-1954-10-10-chiang-national-day, quote: true }
+    - { voice: doc, text: 現有農地，準其繼續耕種（同上）, cite: ws-1954-10-10-chiang-national-day, quote: true }
+  cites: [ws-1954-10-10-chiang-national-day]
+
+- id: 1955-07-30-rehe-xikang
+  date: 1955-07-30
+  title: 撤销热河、西康两省
+  lane: local
+  weight: 1
+  summary: 1955 年 7 月 30 日，一届人大二次会议决定撤销热河省，所属地区分别划归河北、辽宁和内蒙古自治区；撤销西康省，划归四川省。
+  voices:
+    - { voice: doc, text: 一、撤銷熱河省，將熱河省所屬行政區域，按國務院建議分別劃歸河北省、遼寧省和內蒙古自治區（人大决议）, cite: ws-1955-07-30-rehe-xikang, quote: true }
+    - { voice: doc, text: 二、撤銷西康省，將西康省所屬行政區域劃歸四川省（同上）, cite: ws-1955-07-30-rehe-xikang, quote: true }
+  cites: [ws-1955-07-30-rehe-xikang]
+
+- id: 1955-08-25-grain-ration
+  date: 1955-08-25
+  title: 市镇粮食定量供应：口粮分等、凭证购粮
+  lane: econ
+  weight: 2
+  summary: 1955 年 8 月 25 日，国务院公布《市镇粮食定量供应暂行办法》，对市镇非农业人口一律实行居民口粮分等定量，按劳动强度和年龄分等，例如以大米为主食的地区重体力劳动者每月三十五至四十四斤、一般居民二十二至二十六斤。供应凭证分为市镇居民粮食供应证、全国通用粮票、地方粮票等七种。
+  voices:
+    - { voice: doc, text: 凡实行本办法的市镇，对非农业人口一律实施居民口粮分等定量，工商行业用粮按户定量、牲畜饲料用粮分类定量的供应制度（暂行办法）, cite: ws-1955-08-25-urban-grain-ration, quote: true }
+    - { voice: doc, text: 重体力劳动者--三十五至四十四斤，其平均数不得超过四十斤（同上）, cite: ws-1955-08-25-urban-grain-ration, quote: true }
+    - { voice: doc, text: 一般居民和十周岁以上儿童--二十二至二十六斤，其平均数不得超过二十五斤（同上）, cite: ws-1955-08-25-urban-grain-ration, quote: true }
+    - { voice: doc, text: 供应凭证分为市镇居民粮食供应证、工商行业用粮供应证、市镇饲料供应证、市镇居民粮食供应转移证、全国通用粮票、地方粮票、地方料票七种（同上）, cite: ws-1955-08-25-urban-grain-ration, quote: true }
+  cites: [ws-1955-08-25-urban-grain-ration]
+
+- id: 1956-09-26-party-constitution
+  date: 1956-09-26
+  title: 八大党章：只写马克思列宁主义
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 中共八大通过新党章。总纲称党“以马克思列宁主义作为自己行动的指南”；党的各级组织实行集体领导和个人负责相结合，任何重大问题都由集体决定；全国代表大会每届任期五年；中央委员会认为必要时可设名誉主席一人。邓小平在大会上作修改党章的报告。1969 年九大党章把“毛泽东思想”写入总纲。
+  people: [deng-xiaoping, mao-zedong]
+  voices:
+    - { voice: doc, text: 中国共产党以马克思列宁主义作为自己行动的指南（1956 年党章总纲）, cite: ws-1956-09-26-party-constitution, quote: true }
+    - { voice: doc, text: 党的各级组织实行集体领导和个人负责相结合的原则，任何重大问题都由集体决定，同时使个人充分发挥应有的作用（同上）, cite: ws-1956-09-26-party-constitution, quote: true }
+    - { voice: doc, text: 中央委员会认为有必要的时候，可以设立中央委员会名誉主席一人（同上）, cite: ws-1956-09-26-party-constitution, quote: true }
+    - { voice: official1966, text: 恰恰正是在这个报告中，邓小平同志详细论述了党的民主集中制的问题，领袖和群众的相互关系问题（1963 年一评，回应苏共说邓的报告肯定了“反对个人迷信”）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: doc, text: 中国共产党以马克思主义、列宁主义、毛泽东思想作为指导思想的理论基础（1969 年党章总纲）, cite: ws-1969-04-constitution, quote: true }
+  cites: [ws-1956-09-26-party-constitution, ws-1963-09-06-first-comment, ws-1969-04-constitution]
+
+- id: 1956-02-cpsu-twentieth
+  date: 1956-02
+  title: 苏共二十大：中共后来认定的分歧起点
+  lane: intl
+  weight: 2
+  summary: 1963 年 9 月中共发表的一评，把中苏分歧的起点定在 1956 年的苏共二十大，指责其“全盘否定斯大林”和提出“议会道路”和平过渡。文章说二十大后不到两个月，毛泽东已向米高扬和苏联驻华大使表示对斯大林问题的意见；4 月 5 日中共发表《关于无产阶级专政的历史经验》。这是中共七年后的说法。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 具体地说，这是从一九五六年的苏共第二十次代表大会开始的（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: official1966, text: 特别是借口所谓“反对个人迷信”全盘否定斯大林和通过所谓“议会道路”和平过渡到社会主义这两个问题，更是极其重大的原则错误（同上）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: official1966, text: 一九五六年四月，即在苏共第二十次代表大会以后不到两个月，毛泽东同志先后同苏共中央主席团委员米高扬同志，同苏联驻中国大使的谈话，都对斯大林问题表示了我们的意见（同上）, cite: ws-1963-09-06-first-comment, quote: true }
+  cites: [ws-1963-09-06-first-comment]
+
+- id: 1959-06-nuclear-agreement
+  date: 1959-06
+  title: 苏联撕毁国防新技术协定
+  lane: intl
+  weight: 2
+  summary: 据 1963 年的一评，1958 年苏共领导提出“企图从军事上控制中国”的要求遭到拒绝；1959 年 6 月，苏联政府片面撕毁 1957 年 10 月签订的国防新技术协定，拒绝提供原子弹样品和技术资料。9 月 9 日，塔斯社就中印边境事件发表声明，一评说这是把中苏分歧“公开暴露在全世界面前”。
+  voices:
+    - { voice: official1966, text: 一九五八年，苏共领导提出企图从军事上控制中国的无理要求，遭到中国政府正当的、坚决的拒绝（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: official1966, text: 一九五九年六月，苏联政府就片面地撕毁了中苏双方在一九五七年十月签订的关于国防新技术的协定，拒绝向中国提供原子弹样品和生产原子弹的技术资料（同上）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: official1966, text: 苏共领导就把中苏分歧公开暴露在全世界面前（同上，谈塔斯社 9 月 9 日声明）, cite: ws-1963-09-06-first-comment, quote: true }
+  cites: [ws-1963-09-06-first-comment]
+
+- id: 1960-04-10-agri-program
+  date: 1960-04-10
+  title: 人大通过《全国农业发展纲要》
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1960 年 4 月 10 日，二届人大二次会议通过《一九五六年到一九六七年全国农业发展纲要》。纲要要求十二年内把粮食亩产从 1955 年水平提高到三个地区的四百斤、五百斤、八百斤，并在一切可能的地方基本消灭老鼠、臭虫、苍蝇和蚊子。
+  voices:
+    - { voice: doc, text: 粮食每亩平均年产量，在黄河、秦岭、白龙江、黄河（青海境内）以北地区，由一九五五年的一百五十多斤增加到四百斤；黄河以南、淮河以北地区，由一九五五年的二百零八斤增加到五百斤；淮河、秦岭、白龙江以南地区，由一九五五年的四百斤增加到八百斤（纲要）, cite: ws-1960-04-10-agri-program, quote: true }
+    - { voice: doc, text: 基本上消灭老鼠、臭虫、苍蝇和蚊子（同上）, cite: ws-1960-04-10-agri-program, quote: true }
+  cites: [ws-1960-04-10-agri-program]
+
+- id: 1960-06-24-bucharest
+  date: 1960-06-24
+  end: 1960-06-26
+  title: 布加勒斯特会谈
+  lane: intl
+  weight: 1
+  summary: 1960 年 6 月 24 日至 26 日，各国兄弟党代表在布加勒斯特会谈。据 1963 年的一评，苏共领导在会上把矛头转向中共，对中共“发动了一次突然袭击”。
+  voices:
+    - { voice: official1966, text: 兄弟党代表布加勒斯特会谈，是在六月二十四日到二十六日举行的（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: official1966, text: 苏共领导竟然背弃自己的约言，把本来应该针对美帝国主义的斗争矛头转向中国共产党，在布加勒斯特对中国共产党发动了一次突然袭击（同上）, cite: ws-1963-09-06-first-comment, quote: true }
+  cites: [ws-1963-09-06-first-comment]
+
+- id: 1960-07-soviet-experts
+  date: 1960-07
+  title: 苏联撤走全部在华专家
+  lane: intl
+  weight: 3
+  summary: 1960 年 7 月，苏联政府决定在一个月内撤走全部在华专家。1963 年的一评说这“撕毁了几百个协议和合同”；1964 年的七评给出数字：撤走 1390 名专家，撕毁 343 个专家合同和合同补充书，废除 257 个科学技术合作项目。
+  voices:
+    - { voice: official1966, text: 七月间，苏联政府突然片面决定，在一个月内撤走全部在中国的苏联专家，从而撕毁了几百个协议和合同（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: official1966, text: 片面地决定撤走在中国帮助工作的一千三百九十名苏联专家，撕毁了三百四十三个专家合同和合同补充书，废除了二百五十七个科学技术合作项目（七评，1964）, cite: ws-1964-02-04-seventh-comment, quote: true }
+  cites: [ws-1963-09-06-first-comment, ws-1964-02-04-seventh-comment]
+
+- id: 1960-12-06-moscow-statement
+  date: 1960-12-06
+  title: 八十一党莫斯科会议声明
+  lane: intl
+  weight: 2
+  summary: 1960 年 12 月 6 日，《人民日报》刊载各国共产党和工人党莫斯科会议的声明。声明以和平共处原则为社会主义各国对外政策“不可动摇的基础”，并预言“中国将成为强大的工业国家”。据 1963 年的一评，中共代表团在会上同意照顾苏共，保留关于苏共二十大的提法，但告诉苏共只能再照顾这一次。
+  voices:
+    - { voice: doc, text: 列宁的社会主义国家同资本主义国家实行和平共处和进行经济竞赛的原则，是社会主义各国对外政策的不可动摇的基础（莫斯科声明）, cite: ws-1960-12-06-moscow-statement, quote: true }
+    - { voice: doc, text: 苏联将成为世界第一个工业强国。中国将成为强大的工业国家（同上）, cite: ws-1960-12-06-moscow-statement, quote: true }
+    - { voice: official1966, text: 关于苏共第二十次代表大会的提法，我们只能再照顾这一次，以后决不能照顾了（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
+  cites: [ws-1960-12-06-moscow-statement, ws-1963-09-06-first-comment]
+
+- id: 1961-06-16-urban-population-check
+  date: 1961-06-16
+  title: 核实城镇人口与粮食供应
+  lane: econ
+  weight: 1
+  summary: 1961 年 6 月 16 日，中共中央决定对全国城镇特别是 183 个大中城市的人口和粮食供应进行彻底普查核实，做到一人一份粮；查出的“黑人黑户”一般遣返农村或原居住城镇。中央成立核实城市人口和粮食供应小组，安子文任组长，谢富治等为成员。
+  people: [an-ziwen, xie-fuzhi]
+  voices:
+    - { voice: doc, text: 对全国城镇特别是一百八十三个大中城市的人口数和粮食供应数，进行一次彻底的普查核实工作（中共中央决定）, cite: ws-1961-06-16-urban-population-check, quote: true }
+    - { voice: doc, text: 对于查出的黑人黑户，要分别情况迅速处理，一般地都应该遣返农村或者原居住城镇（同上）, cite: ws-1961-06-16-urban-population-check, quote: true }
+    - { voice: doc, text: 中央已成立核实城市人口和粮食供应小组，由安子文、谢富治、马文瑞、陈国栋、王思华五同志组成，安子文同志任组长（同上）, cite: ws-1961-06-16-urban-population-check, quote: true }
+  cites: [ws-1961-06-16-urban-population-check]
+
+- id: 1961-06-28-cut-staff
+  date: 1961-06-28
+  title: 精减职工：1958 年后进城的农村职工回乡
+  lane: econ
+  weight: 2
+  summary: 1961 年 6 月 28 日，中共中央通知，精减的主要对象是 1958 年 1 月以来从农村来的新职工，让他们回乡参加农业生产，并要求精减一个人就同时减少一个人的粮食和工资。
+  voices:
+    - { voice: doc, text: 这次精减的主要对象，是一九五八年一月以来参加工作的来自农村的新职工(包括临时工、合同工、学徒和正式工)，使他们回到各自的家乡，参加农业生产（中共中央通知）, cite: ws-1961-06-28-cut-staff-notice, quote: true }
+    - { voice: doc, text: 减少一个人，就必须减少一个人的粮食，减少一个人的工资（同上）, cite: ws-1961-06-28-cut-staff-notice, quote: true }
+  cites: [ws-1961-06-28-cut-staff-notice]
+
+- id: 1961-10-cpsu-twentysecond
+  date: 1961-10
+  title: 苏共二十二大
+  lane: intl
+  weight: 1
+  summary: 1961 年 10 月，苏共举行第二十二次代表大会。1963 年的一评称这次大会是苏共领导反对马克思列宁主义、分裂社会主义阵营的“一个新的高峰”。
+  voices:
+    - { voice: official1966, text: 一九六一年十月举行的苏共第二十二次代表大会，是苏共领导反对马克思列宁主义、分裂社会主义阵营和国际共产主义运动的一个新的高峰（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
+  cites: [ws-1963-09-06-first-comment]
+
+- id: 1962-04-yili
+  date: 1962-04
+  end: 1962-05
+  title: 伊犁事件：几万人越境入苏
+  lane: intl
+  weight: 1
+  summary: 据 1963 年的一评，1962 年 4 月到 5 月间，苏联驻新疆的机构和人员在伊犁地区“进行了大规模的颠覆活动”，引诱和胁迫几万中国公民越境进入苏联。本站目前只有中方文本。
+  voices:
+    - { voice: official1966, text: 一九六二年四月到五月间，苏共领导通过他们驻中国新疆的机构和人员，在伊犁地区进行了大规模的颠覆活动，引诱和胁迫几万中国公民跑到苏联境内（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
+  cites: [ws-1963-09-06-first-comment]
+
+- id: 1962-05-27-cut-urban-population
+  date: 1962-05-27
+  title: 再减城镇人口二千万
+  lane: econ
+  weight: 2
+  summary: 1962 年 5 月 27 日，中共中央、国务院决定，全国职工在 1961 年末 4170 万人的基础上再减少 1056 万至 1072 万人，城镇人口在 1961 年末一亿二千多万的基础上再减少二千万人。决定还规定从即日起不准任何职工家属搬进城，县办工业至少关掉三分之二。
+  voices:
+    - { voice: doc, text: 全国职工人数应当在一九六一年年末的四千一百七十万人的基础上，再减少一千零五十六万人至一千零七十二万人（中共中央、国务院决定）, cite: ws-1962-05-27-cut-urban-population, quote: true }
+    - { voice: doc, text: 全国城镇人口应当在一九六一年年末一亿二千多万人的基础上，再减少二千万人(包括从城镇减到农村去的职工在内)（同上）, cite: ws-1962-05-27-cut-urban-population, quote: true }
+    - { voice: doc, text: 从现在起，不准任何职工家属(包括军官和干部家属)搬进城来（同上）, cite: ws-1962-05-27-cut-urban-population, quote: true }
+    - { voice: doc, text: 县办工业企业有三百二十万人，要迅速进行清理，大关一批企业，至少应当关掉三分之二（同上）, cite: ws-1962-05-27-cut-urban-population, quote: true }
+  cites: [ws-1962-05-27-cut-urban-population]
+
+- id: 1962-10-caribbean
+  date: 1962-10
+  title: 加勒比海危机
+  lane: intl
+  weight: 1
+  summary: 1962 年 10 月发生加勒比海（古巴）危机。1963 年的一评指责苏共领导在危机中“屈服于美帝国主义的核讹诈”。
+  voices:
+    - { voice: official1966, text: 苏共领导在加勒比海危机中屈服于美帝国主义的核讹诈（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
+  cites: [ws-1963-09-06-first-comment]
+
+- id: 1963-07-31-test-ban
+  date: 1963-07-31
+  title: 中国政府声明反对部分禁止核试验条约
+  lane: intl
+  weight: 2
+  summary: 1963 年 7 月 31 日，中国政府发表声明，称美英苏在莫斯科签订的部分禁止核试验条约是“愚弄全世界人民的大骗局”，指责苏联联合美国反对中国，并主张全面、彻底、干净、坚决地禁止和销毁核武器。
+  voices:
+    - { voice: doc, text: 在莫斯科签订的这个条约，是一个愚弄全世界人民的大骗局（中国政府声明）, cite: ws-1963-07-31-nuclear-ban-statement, quote: true }
+    - { voice: doc, text: 联合战争力量，反对和平力量；联合帝国主义，反对社会主义；联合美国，反对中国；联合各国反动派，反对世界各国人民（同上）, cite: ws-1963-07-31-nuclear-ban-statement, quote: true }
+    - { voice: doc, text: 全面、彻底、干净、坚决地禁止和销毁核武器（同上）, cite: ws-1963-07-31-nuclear-ban-statement, quote: true }
+  cites: [ws-1963-07-31-nuclear-ban-statement]
+
+- id: 1963-09-06-first-comment
+  date: 1963-09-06
+  title: 一评：《苏共领导同我们分歧的由来和发展》
+  lane: ideology
+  weight: 2
+  summary: 1963 年 9 月 6 日，《人民日报》编辑部和《红旗》杂志编辑部发表第一篇评苏共中央公开信的文章，系统叙述中共一方所说的分歧经过，从苏共二十大一直讲到撤专家、伊犁事件和加勒比海危机。文章说，苏共中央公开信发表后，苏联全国性报刊发表了近三百篇攻击中国的文章和材料。
+  voices:
+    - { voice: official1966, text: 具体地说，这是从一九五六年的苏共第二十次代表大会开始的（一评）, cite: ws-1963-09-06-first-comment, quote: true }
+    - { voice: official1966, text: 苏联全国性报刊上又发表了近三百篇攻击中国的文章和材料（同上）, cite: ws-1963-09-06-first-comment, quote: true }
+  cites: [ws-1963-09-06-first-comment]
+
+- id: 1964-01-27-france
+  date: 1964-01-27
+  title: 中法建交
+  lane: intl
+  weight: 2
+  summary: 1964 年 1 月 27 日，中法两国政府发表联合公报，决定建立外交关系，并商定在三个月内任命大使。
+  voices:
+    - { voice: doc, text: 中华人民共和国政府和法兰西共和国政府一致决定建立外交关系。两国政府为此商定在三个月內任命大使（联合公报）, cite: ws-1964-01-27-france, quote: true }
+  cites: [ws-1964-01-27-france]
+
+- id: 1964-02-04-seventh-comment
+  date: 1964-02-04
+  title: 七评：苏共领导是“分裂主义者”
+  lane: ideology
+  weight: 1
+  summary: 1964 年 2 月 4 日发表的七评，列举撤走苏联专家等事，指苏共领导是当代最大的分裂主义者。文章还说赫鲁晓夫不止一次对中共领导人表示，中共党内的反党分子是他的“好朋友”。
+  voices:
+    - { voice: official1966, text: 片面地决定撤走在中国帮助工作的一千三百九十名苏联专家，撕毁了三百四十三个专家合同和合同补充书，废除了二百五十七个科学技术合作项目（七评）, cite: ws-1964-02-04-seventh-comment, quote: true }
+    - { voice: official1966, text: 赫鲁晓夫甚至不止一次地对中共中央领导同志表示，中国共产党内的反党分子是他的“好朋友”（同上）, cite: ws-1964-02-04-seventh-comment, quote: true }
+  cites: [ws-1964-02-04-seventh-comment]
+
+- id: 1964-10-16-atomic-bomb
+  date: 1964-10-16
+  title: 第一颗原子弹爆炸
+  lane: army
+  weight: 3
+  summary: 1964 年 10 月 16 日 15 时，中国爆炸了一颗原子弹，进行了第一次核试验。中国政府当天发表声明，郑重宣布中国在任何时候、任何情况下都不会首先使用核武器，并引毛泽东“原子弹是纸老虎”的说法。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 一九六四年十月十六日十五时，中国爆炸了一颗原子弹，成功地进行了第一次核試驗（中国政府声明）, cite: ws-1964-10-16-bomb-statement, quote: true }
+    - { voice: doc, text: 中国政府郑重宣布，中国在任何时候、任何情况下，都不会首先使用核武器（同上）, cite: ws-1964-10-16-bomb-statement, quote: true }
+    - { voice: doc, text: 原子弹是紙老虎（同上，引毛泽东）, cite: ws-1964-10-16-bomb-statement, quote: true }
+  cites: [ws-1964-10-16-bomb-statement]
+
+- id: 1965-02-26-southwest-third-front
+  date: 1965-02-26
+  title: 西南三线建设体制：攀枝花特区
+  lane: econ
+  weight: 2
+  place: 攀枝花
+  summary: 1965 年 2 月 26 日，中共中央、国务院决定西南三线建设的体制：攀枝花钢铁工业基地、以重庆为中心的常规兵器工业配套建设等由中央主管部统一指挥；成立攀枝花特区党委和工地指挥部，由冶金工业部统一领导；成立西南局三线建设委员会，李井泉任主任。
+  people: [li-jingquan]
+  voices:
+    - { voice: doc, text: 以鋼鉄为中心的攀枝花工业基地的建設、以重庆为中心的常規兵器工业的套建設（中共中央、国务院决定）, cite: ws-1965-02-26-southwest-third-front, quote: true }
+    - { voice: doc, text: 成立攀枝花特区党委、工地指揮部，由冶金工业部統一領导（同上）, cite: ws-1965-02-26-southwest-third-front, quote: true }
+    - { voice: doc, text: 决定成立西南局三綫建設委員会，幷撤銷原攀枝花基本建設筹建小組，由李井泉同志任該委員会主任（同上）, cite: ws-1965-02-26-southwest-third-front, quote: true }
+  cites: [ws-1965-02-26-southwest-third-front]
