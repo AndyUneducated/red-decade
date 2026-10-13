@@ -1,6 +1,6 @@
 import { orgMentioner } from '../derive/match'
 import { toT } from '../lib/dates'
-import type { Atlas, Event, Faction, Org, Person, Place, Relation, Status } from './schema'
+import type { Atlas, Event, Faction, Org, Person, Place, Relation, Status, Topic } from './schema'
 
 export type Position = Person['positions'][number]
 export type Tenure = { person: Person; pos: Position }
@@ -14,7 +14,7 @@ export type EntityType = 'person' | 'event' | 'concept' | 'doc' | 'faction' | 'c
 // sub narrows a selection, e.g. a concept within one source document
 export type Ref = { type: EntityType; id: string; sub?: string }
 export type Claim = Atlas['claims'][number]
-export type ClaimTarget = 'person' | 'event' | 'concept' | 'ism' | 'faction' | 'org'
+export type ClaimTarget = 'person' | 'event' | 'concept' | 'ism' | 'faction' | 'org' | 'topic'
 
 export type Index = Atlas & {
   person: Map<string, Person>
@@ -30,6 +30,8 @@ export type Index = Atlas & {
   ismChildren: Map<string, Ism[]>
   ismOpposed: Map<string, Ism[]>
   place: Map<string, Place>
+  topic: Map<string, Topic>
+  eventsByTopic: Map<string, Event[]>
   eventsByPerson: Map<string, Event[]>
   relationsByPerson: Map<string, Relation[]>
   tenuresByOrg: Map<string, Tenure[]>
@@ -54,6 +56,8 @@ export function indexAtlas(atlas: Atlas): Index {
   const eventsByPerson = new Map<string, Event[]>()
   for (const e of atlas.events)
     for (const p of e.people) eventsByPerson.set(p, [...(eventsByPerson.get(p) ?? []), e])
+  const eventsByTopic = new Map<string, Event[]>()
+  for (const e of atlas.events) for (const id of e.topics) push(eventsByTopic, id, e)
   const relationsByPerson = new Map<string, Relation[]>()
   for (const r of atlas.relations)
     for (const p of [r.a, r.b]) relationsByPerson.set(p, [...(relationsByPerson.get(p) ?? []), r])
@@ -79,8 +83,9 @@ export function indexAtlas(atlas: Atlas): Index {
     for (const a of m.against) push(ismOpposed, a, m)
   }
   // claims are tagged explicitly, except orgs: a claim concerns an org when its statement names it
-  const claimsBy: Index['claimsBy'] = { person: new Map(), event: new Map(), concept: new Map(), ism: new Map(), faction: new Map(), org: new Map() }
+  const claimsBy: Index['claimsBy'] = { person: new Map(), event: new Map(), concept: new Map(), ism: new Map(), faction: new Map(), org: new Map(), topic: new Map() }
   for (const c of atlas.claims) {
+    c.topics.forEach((id) => push(claimsBy.topic, id, c))
     c.people.forEach((id) => push(claimsBy.person, id, c))
     c.events.forEach((id) => push(claimsBy.event, id, c))
     c.concepts.forEach((id) => push(claimsBy.concept, id, c))
@@ -102,6 +107,8 @@ export function indexAtlas(atlas: Atlas): Index {
     ismChildren,
     ismOpposed,
     place: by(atlas.places),
+    topic: by(atlas.topics),
+    eventsByTopic,
     eventsByPerson,
     relationsByPerson,
     tenuresByOrg,

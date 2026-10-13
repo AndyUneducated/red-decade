@@ -51,13 +51,20 @@ export function Timeline() {
   return list ? <TimelineList onChart={() => setList(false)} /> : <TimelineChart onList={() => setList(true)} />
 }
 
+// in the personal view, only the person's events
+function useEvents(): Event[] {
+  const { ix, lens } = useApp()
+  return useMemo(() => (lens ? ix.events.filter((e) => lens.events.has(e.id)) : ix.events), [ix.events, lens])
+}
+
 function TimelineList({ onChart }: { onChart: () => void }) {
-  const { ix, sel, select, t, setT } = useApp()
+  const { sel, select, t, setT } = useApp()
+  const events = useEvents()
   const [lane, setLane] = useHistoryState<Lane | ''>('timeline.lane', '')
   const years = useMemo(() => {
-    const evs = ix.events.filter((e) => !lane || e.lane === lane).sort((a, b) => a.date.localeCompare(b.date))
+    const evs = events.filter((e) => !lane || e.lane === lane).sort((a, b) => a.date.localeCompare(b.date))
     return d3.groups(evs, (e) => e.date.slice(0, 4))
-  }, [ix.events, lane])
+  }, [events, lane])
   const nowYear = String(Math.floor(t))
   const listRef = useRef<HTMLDivElement>(null)
   useEffect(() => {
@@ -117,7 +124,16 @@ function TimelineList({ onChart }: { onChart: () => void }) {
 }
 
 function TimelineChart({ onList }: { onList: () => void }) {
-  const { ix, sel, select, t, setT } = useApp()
+  const { ix, sel, select, t, setT, lens } = useApp()
+  const events = useEvents()
+  // the personal view opens on the span of the person's events
+  const initial = useMemo((): [number, number] => {
+    if (!lens || !events.length) return INITIAL
+    const ts = events.map((e) => toT(e.date))
+    const a = Math.max(DOMAIN[0], Math.min(...ts) - 0.5)
+    const b = Math.min(DOMAIN[1], Math.max(...ts) + 0.5)
+    return b - a < 1 ? [Math.max(DOMAIN[0], a - 0.5), Math.min(DOMAIN[1], b + 0.5)] : [a, b]
+  }, [lens, events])
   const wrap = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
   const { width, height } = useSize(wrap)
@@ -169,7 +185,7 @@ function TimelineChart({ onList }: { onList: () => void }) {
     if (!svgRef.current || !width) return
     const svg = d3.select(svgRef.current)
     svg.call(zoom)
-    const [a, b] = transform ? transform.rescaleX(prevBase.current ?? base).domain() : INITIAL
+    const [a, b] = transform ? transform.rescaleX(prevBase.current ?? base).domain() : initial
     const k = (DOMAIN[1] - DOMAIN[0]) / (b - a)
     svg.call(zoom.transform, d3.zoomIdentity.translate(GUTTER - k * base(a), 0).scale(k))
     prevBase.current = base
@@ -198,8 +214,8 @@ function TimelineChart({ onList }: { onList: () => void }) {
     const rowCount = Math.max(1, Math.floor((laneH - DOT_Y - 6) / LABEL_ROW))
     for (let li = 0; li < rowLabels.length; li++) {
       const rows: [number, number][][] = Array.from({ length: rowCount }, () => [])
-      const evs = ix.events
-        .filter((e) => rowOf.get(e.id) === li && e.weight >= minWeight)
+      const evs = events
+        .filter((e) => rowOf.get(e.id) === li && (e.weight >= minWeight || !!lens))
         .sort((a, b) => b.weight - a.weight || a.date.localeCompare(b.date))
       for (const e of evs) {
         const lx = x(toT(e.date))
@@ -212,7 +228,7 @@ function TimelineChart({ onList }: { onList: () => void }) {
       }
     }
     return out
-  }, [ix.events, x, pxPerYear, plotW, laneH, rowOf, rowLabels.length])
+  }, [events, lens, x, pxPerYear, plotW, laneH, rowOf, rowLabels.length])
 
   // fate pulse: stacked counts of statuses over time
   const pulse = useMemo(() => {
@@ -248,9 +264,9 @@ function TimelineChart({ onList }: { onList: () => void }) {
 
   const mini = d3.scaleLinear().domain(DOMAIN).range([GUTTER, GUTTER + plotW])
   const density = useMemo(() => {
-    const bins = d3.bin<Event, number>().domain(DOMAIN).thresholds(d3.range(DOMAIN[0], DOMAIN[1], 1 / 4)).value((e) => toT(e.date))(ix.events)
+    const bins = d3.bin<Event, number>().domain(DOMAIN).thresholds(d3.range(DOMAIN[0], DOMAIN[1], 1 / 4)).value((e) => toT(e.date))(events)
     return bins
-  }, [ix.events])
+  }, [events])
   const densMax = d3.max(density, (b) => b.length) ?? 1
 
   const lanesTop = TOP
@@ -472,7 +488,7 @@ function TimelineChart({ onList }: { onList: () => void }) {
 
           {/* events */}
           <g clipPath="url(#plot)">
-            {ix.events.map((e) => {
+            {events.map((e) => {
               const li = rowOf.get(e.id)
               if (li === undefined) return null
               const cy = lanesTop + li * laneH + DOT_Y

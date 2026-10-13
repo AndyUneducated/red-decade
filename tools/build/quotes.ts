@@ -25,6 +25,7 @@ export function checkQuotes(d: Data) {
     if (u.revcom) check(u.revcom.cite, u.revcom.quote, `county ${u.id} revcom`)
   }
   for (const r of d.revcoms) check(r.cite, r.quote, `revcom ${r.province}`)
+  for (const a of d.archive) if (a.cite && a.quote) check(a.cite, a.quote, `archive ${a.id}`)
   for (const p of d.people) {
     for (const q of p.quotes) check(q.cite, q.text, `person ${p.id} quote`)
     for (const v of p.assess) marked(v, `person ${p.id} assess ${v.voice}`)

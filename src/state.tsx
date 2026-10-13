@@ -2,6 +2,7 @@
 // pages.ts and arranged into the menu in nav.ts; nothing here knows where a page sits in the menu.
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode, type SetStateAction } from 'react'
 import type { Index, Ref } from './data/atlas'
+import { lensOf, type Lens } from './derive/lens'
 import { adoptEntry, beginRestore, currentEntry, findBack, getUi, pushEntry, restoreScroll, setUi } from './lib/history'
 import { groupOf, type NavGroup } from './nav'
 import { detailPage, page as pageDef, type DetailKind, type PageId } from './pages'
@@ -32,6 +33,9 @@ type Ctx = State & {
   up: (page: PageId) => void
   // a detail page's back link: to the page it was opened from, else up to the list
   back: (list: PageId) => { label: string; run: () => void }
+  // the personal view: the chosen person's share of the atlas, on every page until cleared
+  lens?: Lens
+  setLens: (id?: string) => void
 }
 
 export function pageName(ix: Index, r: { page: PageId; param?: string }): string {
@@ -122,6 +126,8 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
         if (!b) return { label: pageName(ix, { page: list }), run: () => update({ page: list, param: undefined, sel: undefined }) }
         return { label: pageName(ix, parseHash(b.hash)), run: () => history.go(-b.n) }
       },
+      lens: state.as ? lensOf(ix, state.as) : undefined,
+      setLens: (id) => update({ as: id }),
     }
   }, [state, ix, update])
   return <AppCtx.Provider value={value}>{children}</AppCtx.Provider>

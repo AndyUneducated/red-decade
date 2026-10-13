@@ -13,8 +13,10 @@ export function check(d: Data) {
     org: new Set(d.orgs.map((o) => o.id)),
     place: new Set(d.places.map((p) => p.id)),
     ism: new Set(d.isms.map((m) => m.id)),
+    topic: new Set(d.topics.map((t) => t.id)),
   }
   for (const [kind, list] of [
+    ['topic', d.topics],
     ['person', d.people],
     ['faction', d.factions],
     ['event', d.events],
@@ -42,6 +44,8 @@ export function check(d: Data) {
     const where = `person ${p.id}`
     p.memberships?.forEach((m) => needCite(m.cite, `${where} membership`))
     p.factions.forEach((f) => need(ids.faction, f, where))
+    // the network and fates views group people by their first faction
+    if (!p.factions.length) errors.push(`${where}: no faction`)
     p.cites.forEach((c) => needCite(c, where))
     p.fate.forEach((f) => (needCite(f.cite, `${where} fate`), f.place && need(ids.place, f.place, `${where} fate`)))
     if (p.birthAt) need(ids.place, p.birthAt, `${where} birthAt`)
@@ -128,6 +132,20 @@ export function check(d: Data) {
     e.cites.forEach((c) => needCite(c, `event ${e.id}`))
     e.voices.forEach((v) => needCite(v.cite, `event ${e.id} voice`))
     if (!e.cites.length && !e.verify) errors.push(`event ${e.id}: no cites and not marked verify`)
+    e.topics.forEach((id) => need(ids.topic, id, `event ${e.id}`))
+  }
+  for (const t of d.topics) {
+    t.cites.forEach((c) => needCite(c, `topic ${t.id}`))
+    t.sections.forEach((s) => s.cites.forEach((c) => needCite(c, `topic ${t.id} ${s.h}`)))
+    if (!d.events.some((e) => e.topics.includes(t.id))) errors.push(`topic ${t.id}: no events`)
+  }
+  const archiveIds = new Set<string>()
+  for (const a of d.archive) {
+    if (archiveIds.has(a.id)) errors.push(`archive ${a.id}: duplicate id`)
+    archiveIds.add(a.id)
+    if (!a.url && !a.cite) errors.push(`archive ${a.id}: neither a source page nor a cite`)
+    needCite(a.cite, `archive ${a.id}`)
+    if (a.quote && !a.cite) errors.push(`archive ${a.id}: quote without a cite`)
   }
   for (const r of d.relations) {
     need(ids.person, r.a, `relation ${r.a}→${r.b}`)
@@ -164,6 +182,7 @@ export function check(d: Data) {
     c.events.forEach((id) => need(ids.event, id, `claim ${c.id}`))
     c.isms.forEach((id) => need(ids.ism, id, `claim ${c.id}`))
     c.factions.forEach((id) => need(ids.faction, id, `claim ${c.id}`))
+    c.topics.forEach((id) => need(ids.topic, id, `claim ${c.id}`))
     c.evidence.forEach((e) => needCite(e.cite, `claim ${c.id}`))
   }
   for (const id of d.selfcrit.texts) if (!d.texts.has(id)) errors.push(`insight-terms selfcrit: ${id} has no text`)

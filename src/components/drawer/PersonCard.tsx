@@ -3,6 +3,7 @@ import { STATUSES } from '../../data/schema'
 import { lifespan } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Cite, Entity, StatusDot, Verify } from '../bits'
+import { LensButton } from '../LensBar'
 import { PersonFacts, PositionList } from '../PersonFacts'
 import { Portrait } from '../Portrait'
 import { PersonInsights } from './InsightNotes'
@@ -37,6 +38,7 @@ export function PersonCard({ id }: { id: string }) {
             <button className="linklike" onClick={() => openPerson(id)}>
               完整传记 →
             </button>
+            <LensButton id={id} before=" · " />
           </div>
           <div className="chips" style={{ marginTop: 8 }}>
             {p.factions.map((f) => (

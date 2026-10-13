@@ -9,18 +9,19 @@ export type NavGroup = { label: string; items: NavItem[] }
 
 type Entry = PageId | { page: PageId; label?: string; desc?: string }
 const NAV_CONFIG: { label: string; pages: Entry[] }[] = [
-  { label: '时间', pages: ['timeline'] },
+  { label: '时间', pages: [{ page: 'today', label: '今天' }, 'timeline'] },
   { label: '人物', pages: [{ page: 'people', label: '名录' }, 'network', 'fates'] },
   { label: '机构', pages: ['orgs'] },
   { label: '派系', pages: ['river', 'control', 'factions'] },
   { label: '空间', pages: ['map'] },
+  { label: '专题', pages: ['topics'] },
   { label: '思想', pages: ['lineage', 'spectrum', 'ism-stream', 'press', 'concepts'] },
   // ideas, then people, then factions, orgs and the economy
   {
     label: '洞察',
     pages: ['drift', 'authority', 'spread', 'attribution', 'selfcrit', 'citations', 'survival', 'overlap', 'parallel', 'moments', 'flows', 'rhetoric', 'paralysis', 'outcomes'],
   },
-  { label: '史料', pages: ['docs', 'figures', 'series', 'narratives', 'research'] },
+  { label: '史料', pages: ['docs', 'archive', 'figures', 'series', 'narratives', 'research'] },
 ]
 
 export const NAV: NavGroup[] = NAV_CONFIG.map((g) => ({

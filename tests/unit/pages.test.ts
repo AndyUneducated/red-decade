@@ -70,11 +70,13 @@ describe('routes', () => {
 const ATLAS = new URL('../../public/data/atlas.json', import.meta.url)
 describe.skipIf(!existsSync(ATLAS))('sample detail pages', () => {
   const atlas = JSON.parse(readFileSync(ATLAS, 'utf8')) as Record<string, { id: string }[]>
-  const LISTS: Record<DetailKind, string> = { person: 'people', org: 'orgs', faction: 'factions', doc: 'sources' }
+  // a day is not an entity in the atlas; its sample only has to name a day
+  const LISTS: Record<Exclude<DetailKind, 'day'>, string> = { person: 'people', org: 'orgs', faction: 'factions', doc: 'sources', topic: 'topics' }
   it('open entities that exist', () => {
     for (const p of PAGE_IDS) {
       const d = page(p).detail
-      if (d) expect(atlas[LISTS[d.kind]].map((x) => x.id), `${p}: ${page(p).sample}`).toContain(page(p).sample)
+      if (d?.kind === 'day') expect(page(p).sample).toMatch(/^\d\d-\d\d$/)
+      else if (d) expect(atlas[LISTS[d.kind]].map((x) => x.id), `${p}: ${page(p).sample}`).toContain(page(p).sample)
     }
   })
 })

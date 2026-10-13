@@ -25,7 +25,7 @@ function firstFall(p: Person) {
 }
 
 export function Fates() {
-  const { ix, sel, select, t, setT } = useApp()
+  const { ix, sel, select, t, setT, lens } = useApp()
   const wrap = useRef<HTMLDivElement>(null)
   const { width } = useSize(wrap)
   const { tip, setTip } = useTip()
@@ -36,13 +36,18 @@ export function Fates() {
 
   const rows = useMemo(() => {
     const fOrder = new Map(ix.factions.map((f, i) => [f.id, i]))
-    const people = [...ix.people]
+    // personal view: the person first, then everyone linked to them by a relation
+    const linked = lens && new Set(lens.relations.map((r) => (r.a === lens.person.id ? r.b : r.a)))
+    const people = linked ? ix.people.filter((p) => linked.has(p.id)) : [...ix.people]
     if (sort === 'faction')
       people.sort((a, b) => fOrder.get(a.factions[0])! - fOrder.get(b.factions[0])! || a.tier - b.tier || firstFall(a) - firstFall(b))
     if (sort === 'fall') people.sort((a, b) => firstFall(a) - firstFall(b) || a.tier - b.tier)
     if (sort === 'tier') people.sort((a, b) => a.tier - b.tier || firstFall(a) - firstFall(b))
-    const list: ({ kind: 'group'; label: string; color: string } | { kind: 'person'; p: Person })[] = []
+    const list: ({ kind: 'group'; label: string; color: string } | { kind: 'person'; p: Person })[] = lens
+      ? [{ kind: 'group', label: '本人', color: 'var(--accent)' }, { kind: 'person', p: lens.person }]
+      : []
     let last = ''
+    if (lens && sort !== 'faction') list.push({ kind: 'group', label: '有关系的人', color: 'var(--muted)' })
     for (const p of people) {
       if (sort === 'faction' && p.factions[0] !== last) {
         last = p.factions[0]
@@ -52,7 +57,7 @@ export function Fates() {
       list.push({ kind: 'person', p })
     }
     return list
-  }, [ix, sort])
+  }, [ix, sort, lens])
 
   const runs = (p: Person) => {
     const pts = p.fate.map((f) => ({ t: toT(f.date), f }))

@@ -4,13 +4,15 @@
 import type { Index } from './data/atlas'
 
 // a page with `detail` takes an entity id as its second path segment (#/people/<id>); open(kind, id) finds the
-// page by kind, so the profile page for a kind can be renamed or moved freely
-export type DetailKind = 'person' | 'org' | 'faction' | 'doc'
+// page by kind, so the profile page for a kind can be renamed or moved freely. A day is "MM-DD".
+export type DetailKind = 'person' | 'org' | 'faction' | 'doc' | 'topic' | 'day'
 
 export type PageDef = {
   title: string
   desc: string
   detail?: { kind: DetailKind; name: (ix: Index, id: string) => string | undefined }
+  // what the page narrows to in the personal view (?as=<person>); pages without it show everything
+  lens?: string
   // shown only by URL, not in the menu (work in progress, or reached from another page)
   hidden?: boolean
   // id of an entity the smoke test opens as a sample detail page
@@ -18,15 +20,22 @@ export type PageDef = {
 }
 
 export const PAGES = {
-  timeline: { title: '时间线', desc: '按日期排列的事件，可切换国际对照' },
+  today: {
+    title: '历史上的今天',
+    desc: '1949–1989 年同一天的事件、文件、生卒与命运转折',
+    detail: { kind: 'day', name: (_ix, id) => (/^\d\d-\d\d$/.test(id) ? `${+id.slice(0, 2)}月${+id.slice(3)}日` : undefined) },
+    sample: '08-18',
+    lens: '只列与此人有关的条目',
+  },
+  timeline: { title: '时间线', desc: '按日期排列的事件，可切换国际对照', lens: '只列此人参与的事件' },
   people: {
     title: '人物名录',
     desc: '每人一生的状态色带与完整传记',
     detail: { kind: 'person', name: (ix, id) => ix.person.get(id)?.name },
     sample: 'liu-shaoqi',
   },
-  network: { title: '关系网络', desc: '此刻有效的人际关系' },
-  fates: { title: '命运矩阵', desc: '1965–1980 年每人的政治命运' },
+  network: { title: '关系网络', desc: '此刻有效的人际关系', lens: '只画此人与直接关联的人' },
+  fates: { title: '命运矩阵', desc: '1965–1980 年每人的政治命运', lens: '只列此人与直接关联的人' },
   orgs: {
     title: '机构',
     desc: '党、政、军、群团与群众组织的隶属和存续',
@@ -42,6 +51,13 @@ export const PAGES = {
     sample: 'lin',
   },
   map: { title: '革委会地图', desc: '省、县革委会成立与地方暴力分布' },
+  archive: { title: '视觉档案', desc: '宣传画、像章、邮票、样板戏、书刊与歌曲：每条有日期、出处与版权状态', lens: '只列标题或说明提到此人的' },
+  topics: {
+    title: '专题',
+    desc: '民族与宗教、港澳台、全球：跨时期的事件集与结论',
+    detail: { kind: 'topic', name: (ix, id) => ix.topic.get(id)?.name },
+    sample: 'ethnic-religion',
+  },
   lineage: { title: '主义谱系', desc: '主义、路线、异端与罪名的源流' },
   spectrum: { title: '光谱漂移', desc: '各主义在经济、政治两轴上的位置与中央路线的轨迹' },
   'ism-stream': { title: '主义词频', desc: '各主义在语料中的逐年出现' },
@@ -66,6 +82,7 @@ export const PAGES = {
     desc: '一手文献全文',
     detail: { kind: 'doc', name: (ix, id) => ix.source.get(id)?.alias ?? ix.source.get(id)?.title },
     sample: 'ws-1966-05-16-notice',
+    lens: '只列此人写的与有关的文本',
   },
   figures: { title: '数字争议', desc: '死亡与迫害数字按出处并列' },
   series: { title: '经济与人口', desc: '粮食、钢、人口等序列，逐点附公报原文' },
@@ -77,7 +94,7 @@ export type PageId = keyof typeof PAGES
 export const PAGE_IDS = Object.keys(PAGES) as PageId[]
 export const page = (id: PageId): PageDef => PAGES[id]
 export const isPage = (s: string): s is PageId => Object.hasOwn(PAGES, s)
-export const DEFAULT_PAGE: PageId = 'timeline'
+export const DEFAULT_PAGE: PageId = 'today'
 
 export function detailPage(kind: DetailKind): PageId {
   const id = PAGE_IDS.find((p) => page(p).detail?.kind === kind)

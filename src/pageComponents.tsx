@@ -7,6 +7,7 @@ function view<M>(load: () => Promise<M>, name: keyof M): LazyExoticComponent<Com
 }
 
 export const PAGE_COMPONENTS: Record<PageId, LazyExoticComponent<ComponentType>> = {
+  today: view(() => import('./views/Today'), 'Today'),
   timeline: view(() => import('./views/Timeline'), 'Timeline'),
   people: view(() => import('./views/People'), 'People'),
   network: view(() => import('./views/Network'), 'Network'),
@@ -16,6 +17,8 @@ export const PAGE_COMPONENTS: Record<PageId, LazyExoticComponent<ComponentType>>
   control: view(() => import('./views/River'), 'RiverOrgs'),
   factions: view(() => import('./views/Factions'), 'Factions'),
   map: view(() => import('./views/Map'), 'MapView'),
+  topics: view(() => import('./views/Topics'), 'Topics'),
+  archive: view(() => import('./views/Archive'), 'Archive'),
   lineage: view(() => import('./views/Ideas'), 'LineagePage'),
   spectrum: view(() => import('./views/Ideas'), 'SpectrumPage'),
   'ism-stream': view(() => import('./views/Ideas'), 'StreamPage'),

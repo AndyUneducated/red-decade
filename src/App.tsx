@@ -1,5 +1,6 @@
 import { Suspense, useEffect, useState } from 'react'
 import { Drawer } from './components/Drawer'
+import { LensBar } from './components/LensBar'
 import { Nav } from './components/Nav'
 import { Search } from './components/Search'
 import { setTheme, useTheme } from './lib/theme'
@@ -78,6 +79,7 @@ export default function App() {
         </button>
         <ThemeButton />
       </header>
+      <LensBar />
       <main className="main">
         <Suspense fallback={<div className="view loading">载入中</div>}>
           <Current />

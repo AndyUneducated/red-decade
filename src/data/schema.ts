@@ -323,6 +323,7 @@ export const EventSchema = z.object({
   voices: z.array(Voiced).default([]),
   cites: z.array(Cite).default([]),
   verify: z.boolean().optional(),
+  topics: z.array(z.string()).default([]),
 })
 
 export const RelationSchema = z.object({
@@ -451,9 +452,60 @@ export const ClaimSchema = z.object({
   events: z.array(z.string()).default([]),
   isms: z.array(z.string()).default([]),
   factions: z.array(z.string()).default([]),
+  topics: z.array(z.string()).default([]),
   logged: PartialDate,
   history: z.array(z.object({ date: PartialDate, note: z.string() })).default([]),
 })
+
+// A cross-period theme (M7). Events and claims join a topic through their own `topics` field; the topic
+// itself holds only the framing text.
+export const TopicSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  from: PartialDate,
+  to: PartialDate.optional(),
+  summary: z.string(),
+  sections: z.array(z.object({ h: z.string(), text: z.string(), cites: z.array(Cite).default([]) })).default([]),
+  // what the sources in the library cannot yet answer
+  gaps: z.array(z.string()).default([]),
+  cites: z.array(Cite).default([]),
+})
+
+export const ARCHIVE_KINDS = {
+  poster: '宣传画',
+  badge: '像章与徽章',
+  stamp: '邮票',
+  opera: '样板戏与舞台',
+  publication: '书刊与报头',
+  song: '歌曲',
+  film: '电影',
+  photo: '照片',
+} as const
+export type ArchiveKind = keyof typeof ARCHIVE_KINDS
+
+// One item of the visual archive (M8). Commons items (content/archive/commons.yaml, written by
+// tools/fetch-archive.ts) carry the file page and its licence; items written by hand from the library carry
+// a cite and, when the date or title rests on a sentence, the quote.
+export const ArchiveItemSchema = z.object({
+  id: z.string(),
+  kind: z.enum(Object.keys(ARCHIVE_KINDS) as [ArchiveKind, ...ArchiveKind[]]),
+  title: z.string(),
+  date: PartialDate,
+  // where the date comes from: the Commons file's date field, a year in its file name, or the cited source
+  dateFrom: z.enum(['metadata', 'title', 'source']).default('source'),
+  file: z.string().optional(),
+  url: z.string().optional(),
+  cite: Cite.optional(),
+  quote: z.string().optional(),
+  author: z.string().optional(),
+  license: z.string(),
+  licenseUrl: z.string().optional(),
+  description: z.string().optional(),
+  via: z.string().optional(),
+  // set by the loader when public/archive/<id>.jpg exists
+  image: z.string().optional(),
+})
+export type ArchiveItem = z.infer<typeof ArchiveItemSchema>
 
 export const MEASURES = {
   deaths: '致死',
@@ -565,6 +617,7 @@ export type Concept = z.infer<typeof ConceptSchema>
 export type DocumentMeta = z.infer<typeof DocumentSchema>
 export type Source = z.infer<typeof SourceSchema>
 export type Claim = z.infer<typeof ClaimSchema>
+export type Topic = z.infer<typeof TopicSchema>
 export type Place = z.infer<typeof PlaceSchema>
 export type Org = z.infer<typeof OrgSchema>
 export type Ism = z.infer<typeof IsmSchema>
@@ -603,6 +656,8 @@ export type Atlas = {
   documents: (DocumentMeta & { source: Source })[]
   sources: Source[]
   claims: Claim[]
+  topics: Topic[]
+  archive: ArchiveItem[]
   figures: Figure[]
   counties: County[]
   revcoms: Revcom[]

@@ -2,6 +2,7 @@
 import { readdirSync, readFileSync } from 'node:fs'
 import { z } from 'zod'
 import {
+  ArchiveItemSchema,
   ClaimSchema,
   ConceptSchema,
   CountySchema,
@@ -21,6 +22,7 @@ import {
   RevcomSchema,
   SeriesSchema,
   SourceSchema,
+  TopicSchema,
   type Source,
 } from '../../src/data/schema.ts'
 import { errors, exists, load, path, read, yamlFiles } from './io.ts'
@@ -104,6 +106,47 @@ function loadCounties() {
   return counties
 }
 
+// content/archive/commons.yaml maps id → record (generated); every other file there is a hand-written list.
+// Each People's Daily page the library transcribes from is an item too, one per page however many articles.
+function loadArchive(sources: Source[]) {
+  const files = exists('content', 'archive') ? yamlFiles('content', 'archive') : []
+  const items = files.flatMap((p) => {
+    const raw = read(...p)
+    const list = p.at(-1) === 'commons.yaml' ? Object.entries((raw ?? {}) as Record<string, { skip?: boolean }>).filter(([, r]) => !r.skip).map(([id, r]) => ({ ...r, id, skip: undefined })) : raw
+    return load(ArchiveItemSchema, list, p.join('/'))
+  })
+  const pages = new Map<string, Source[]>()
+  for (const s of sources) {
+    const m = s.hasText && s.via?.match(/^《人民日报》(\d{4}-\d{2}-\d{2}) 第 (\d+) 版/)
+    if (m) pages.set(`${m[1]}-${m[2]}`, [...(pages.get(`${m[1]}-${m[2]}`) ?? []), s])
+  }
+  for (const [key, list] of pages) {
+    const [date, n] = [key.slice(0, 10), key.slice(11)]
+    items.push(
+      ...load(
+        ArchiveItemSchema,
+        [
+          {
+            id: `rmrb-page-${key}`,
+            kind: 'publication',
+            title: `《人民日报》${date} 第 ${n} 版`,
+            date,
+            cite: list[0].id,
+            url: list[0].url,
+            // legal-person works: 50 years from first publication (PRC Copyright Law)
+            license: +date.slice(0, 4) <= 1976 ? '发表已满 50 年（法人作品著作权保护期 50 年）' : '版权状态未明',
+            description: `库内收录本版 ${list.length} 篇：${list.map((s) => s.title).join('；')}`.slice(0, 300),
+            via: list[0].via,
+          },
+        ],
+        `archive ${key}`,
+      ),
+    )
+  }
+  for (const a of items) if (exists('public', 'archive', `${a.id}.jpg`)) a.image = `archive/${a.id}.jpg`
+  return items.sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id))
+}
+
 function loadInsightTerms() {
   const f = (read('content', 'insight-terms.yaml') ?? {}) as { authorities?: unknown; selfcrit?: { texts?: unknown; phrases?: unknown } }
   return {
@@ -117,9 +160,10 @@ function loadInsightTerms() {
 
 export function loadAll() {
   const one = <T extends Parameters<typeof load>[0]>(schema: T, file: string, dir = 'content') => load(schema, read(dir, `${file}.yaml`), file)
+  const src = loadSources()
   return {
     ...loadInsightTerms(),
-    ...loadSources(),
+    ...src,
     people: loadPeople(),
     factions: one(FactionSchema, 'factions'),
     events: yamlFiles('content', 'events').flatMap((p) => load(EventSchema, read(...p), p.join('/'))),
@@ -127,6 +171,8 @@ export function loadAll() {
     concepts: one(ConceptSchema, 'concepts'),
     documents: one(DocumentSchema, 'documents'),
     claims: one(ClaimSchema, 'claims', 'research'),
+    topics: one(TopicSchema, 'topics'),
+    archive: loadArchive(src.sources),
     figures: one(FigureSchema, 'figures'),
     counties: loadCounties(),
     revcoms: one(RevcomSchema, 'revcoms'),

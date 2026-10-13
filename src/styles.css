@@ -217,9 +217,13 @@ textarea {
 /* ── shell ─────────────────────────────────────────── */
 .shell {
   display: grid;
-  grid-template-rows: 52px 1fr;
+  /* the middle row is the personal-view bar, empty unless a person is chosen */
+  grid-template-rows: 52px auto minmax(0, 1fr);
   grid-template-columns: minmax(0, 1fr);
   height: 100%;
+}
+.shell > .main {
+  grid-row: 3;
 }
 .topbar {
   display: flex;
@@ -2349,7 +2353,7 @@ h2.sec {
 }
 @media (max-width: 720px) {
   .shell {
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto minmax(0, 1fr);
   }
   .topbar {
     flex-wrap: wrap;
@@ -3480,3 +3484,115 @@ h2.sec {
 .insight-note h3 { display: flex; gap: 10px; align-items: baseline; }
 .insight-note h3 .linklike { letter-spacing: 0; font-weight: 400; text-transform: none; }
 .insight-note p { margin: 0 0 6px; }
+
+/* visual archive (M8) */
+.archive-hist {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 160px;
+}
+.archive-bar { cursor: pointer; }
+.archive-hit { fill: transparent; }
+.archive-bar:hover .archive-hit,
+.archive-bar[data-on] .archive-hit { fill: var(--paper-2); }
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 14px;
+}
+.archive-card {
+  margin: 0;
+  min-width: 0;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+}
+.archive-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  background: var(--paper-2);
+  overflow: hidden;
+}
+.archive-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.archive-noimg {
+  font-family: var(--serif);
+  font-size: 15px;
+  letter-spacing: 0.2em;
+}
+.archive-card figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 10px 10px;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.archive-card figcaption b { font-weight: 600; line-height: 1.35; }
+.archive-meta { color: var(--muted); display: flex; align-items: center; gap: 5px; }
+.archive-meta i { width: 7px; height: 7px; border-radius: 2px; flex: none; }
+.archive-desc { color: var(--ink-2); }
+.archive-rights, .archive-src { color: var(--muted); font-size: 11.5px; }
+.archive-more { margin: 16px 0 8px; }
+
+/* personal view (M9) */
+.lensbar {
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 20px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--accent-soft);
+  font-size: 12.5px;
+  min-width: 0;
+}
+.lensbar .portrait { flex: none; }
+.lens-who { display: flex; flex-direction: column; min-width: 0; }
+.lens-who b { font-family: var(--serif); font-size: 14px; }
+.lens-who small { color: var(--ink-2); font-size: 11px; white-space: nowrap; }
+.lens-pages { display: flex; flex-wrap: wrap; gap: 4px; min-width: 0; }
+.lens-note { color: var(--muted); font-size: 11.5px; margin-left: auto; }
+.lens-close { font-size: 18px; line-height: 1; padding: 2px 8px; color: var(--ink-2); }
+.lens-close:hover { color: var(--accent); }
+.lens-empty { color: var(--ink-2); font-size: 12.5px; margin: 0 0 10px; }
+@media (max-width: 720px) {
+  .lensbar { flex-wrap: wrap; padding: 6px 12px; gap: 6px 10px; }
+  .lens-pages { order: 3; width: 100%; flex-wrap: nowrap; overflow-x: auto; }
+  .lens-note { display: none; }
+}
+
+/* 历史上的今天 (M9) */
+.today-head { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 6px; }
+.today-date { margin: 0 6px; font-family: var(--serif); font-size: 26px; font-weight: 600; }
+.today-sum { color: var(--ink-2); font-size: 12.5px; margin: 4px 0 14px; }
+.today-year h3 {
+  margin: 18px 0 2px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--ink-2);
+}
+.today-year h3 span { color: var(--muted); font-weight: 400; margin-left: 4px; }
+.today-item {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 10px;
+  width: 100%;
+  padding: 6px 0 6px 4px;
+  text-align: left;
+  border-top: 1px solid var(--rule);
+}
+.today-item:hover,
+.today-item[aria-pressed='true'] { background: var(--paper-2); }
+.today-item em { font-style: normal; color: var(--muted); font-size: 11.5px; padding-top: 2px; }
+.today-item b { font-family: var(--serif); font-size: 14px; font-weight: 600; line-height: 1.5; }
+.today-item small { display: block; color: var(--muted); font-size: 11.5px; overflow-wrap: anywhere; }
+.today-pics { margin-top: 8px; }

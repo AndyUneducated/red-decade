@@ -12,16 +12,22 @@ const DEFAULT_DOC = 'ws-1966-05-16-notice'
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 export function Docs() {
-  const { ix, param, openDoc } = useApp()
+  const { ix, param, openDoc, lens } = useApp()
   const [filter, setFilter] = useHistoryState('docs.filter', '')
-  const id = param && ix.source.get(param)?.hasText ? param : DEFAULT_DOC
 
+  // personal view: the person's own texts first, then the others tied to them, each by kind
   const groups = useMemo(() => {
-    const list = ix.sources.filter((s) => s.hasText && (!filter || (s.title + (s.alias ?? '')).includes(filter)))
-    return Object.entries(KINDS)
-      .map(([k, label]) => ({ label, items: list.filter((s) => s.kind === k).sort((a, b) => a.date.localeCompare(b.date)) }))
-      .filter((g) => g.items.length)
-  }, [ix, filter])
+    const list = ix.sources.filter((s) => s.hasText && (!lens || lens.sources.has(s.id)) && (!filter || (s.title + (s.alias ?? '')).includes(filter)))
+    const byKind = (xs: typeof list) =>
+      Object.entries(KINDS)
+        .map(([k, label]) => ({ label, items: xs.filter((s) => s.kind === k).sort((a, b) => a.date.localeCompare(b.date)) }))
+        .filter((g) => g.items.length)
+    if (!lens) return byKind(list)
+    const own = list.filter((s) => lens.wrote.has(s.id)).sort((a, b) => a.date.localeCompare(b.date))
+    return [...(own.length ? [{ label: `${lens.person.name}所写`, items: own }] : []), ...byKind(list.filter((s) => !lens.wrote.has(s.id)))]
+  }, [ix, filter, lens])
+  const first = groups[0]?.items[0]?.id
+  const id = param && ix.source.get(param)?.hasText ? param : lens && first ? first : DEFAULT_DOC
 
   return (
     <div className="view">

@@ -17,7 +17,7 @@ const W = 1000
 const H = 760
 
 export function Network() {
-  const { ix, sel, select, t } = useApp()
+  const { ix, sel, select, t, lens } = useApp()
   const wrap = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
   const { width, height } = useSize(wrap)
@@ -26,18 +26,25 @@ export function Network() {
   const [types, setTypes] = useHistoryState<Set<RelationType>>('network.types', () => new Set(Object.keys(RELATION_TYPES) as RelationType[]))
   const [view, setView] = useState(d3.zoomIdentity)
 
-  // Layout is computed once over all relations so the picture stays stable while time moves.
+  // Layout is computed once over all relations so the picture stays stable while time moves. In the personal
+  // view it covers the person, pinned at the centre, and everyone linked to them by a relation.
+  const people = useMemo(() => {
+    if (!lens) return ix.people
+    const ids = new Set([lens.person.id, ...lens.relations.map((r) => (r.a === lens.person.id ? r.b : r.a))])
+    return ix.people.filter((p) => ids.has(p.id))
+  }, [ix.people, lens])
   const layout = useMemo(() => {
-    const groups = [...new Set(ix.people.map((p) => p.factions[0]))]
+    const groups = [...new Set(people.map((p) => p.factions[0]))]
     const centers = new Map(
       groups.map((g, i) => {
         const a = (i / groups.length) * Math.PI * 2 - Math.PI / 2
         return [g, { x: W / 2 + Math.cos(a) * 300, y: H / 2 + Math.sin(a) * 260 }]
       }),
     )
-    const nodes: Node[] = ix.people.map((p) => {
+    const nodes: Node[] = people.map((p) => {
       const c = centers.get(p.factions[0])!
-      return { id: p.id, p, r: [0, 13, 9, 6.5][p.tier], group: p.factions[0], x: c.x, y: c.y }
+      const pin = lens?.person.id === p.id ? { fx: W / 2, fy: H / 2 } : {}
+      return { id: p.id, p, r: [0, 13, 9, 6.5][p.tier], group: p.factions[0], x: c.x, y: c.y, ...pin }
     })
     const byId = new Map(nodes.map((n) => [n.id, n]))
     const links: Link[] = ix.relations
@@ -52,7 +59,7 @@ export function Network() {
       .stop()
       .tick(400)
     return { nodes, links, byId, groups }
-  }, [ix])
+  }, [ix, people, lens])
 
   const fit = useMemo(() => {
     if (!width || !height) return d3.zoomIdentity
@@ -102,7 +109,7 @@ export function Network() {
   })
 
   const counts = d3.rollup(
-    ix.people,
+    people,
     (v) => v.length,
     (p) => statusAt(p, t) ?? 'normal',
   )
@@ -282,11 +289,11 @@ export function Network() {
         {tip}
         <div style={{ position: 'absolute', left: 16, bottom: 12, background: 'var(--card)', border: '1px solid var(--rule)', borderRadius: 8, padding: '8px 10px', fontSize: 12 }}>
           <div style={{ marginBottom: 6, color: 'var(--muted)' }}>
-            此刻 {active.length} 条关系有效 · {ix.people.length} 人中：
+            此刻 {active.length} 条关系有效 · {people.length} 人中：
           </div>
           <div style={{ display: 'flex', height: 8, width: 300, borderRadius: 2, overflow: 'hidden', marginBottom: 6 }}>
             {(Object.keys(STATUSES) as (keyof typeof STATUSES)[]).map((k) => (
-              <div key={k} title={`${STATUSES[k]} ${counts.get(k) ?? 0}`} style={{ width: `${((counts.get(k) ?? 0) / ix.people.length) * 100}%`, background: statusColor(k) }} />
+              <div key={k} title={`${STATUSES[k]} ${counts.get(k) ?? 0}`} style={{ width: `${((counts.get(k) ?? 0) / people.length) * 100}%`, background: statusColor(k) }} />
             ))}
           </div>
           <StatusLegend />
