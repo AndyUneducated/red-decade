@@ -1,6 +1,6 @@
 // The top bar: groups of pages, from the concrete to the abstract — events in time, persons, the formal
-// networks they make up (orgs), the informal ones beneath (factions), places, ideas, insights that read
-// across all of these, and the evidence for all of it. Moving a page is moving its line here; `label` overrides the page title inside its group.
+// networks they make up (orgs), the informal ones beneath (factions), ideas, insights that read
+// across all of these, the evidence for all of it, and the research written from it. Moving a page is moving its line here; `label` overrides the page title inside its group.
 // A group with several pages opens a menu. nav.test.ts checks every visible page appears exactly once.
 import { page, PAGE_IDS, type PageId } from './pages'
 
@@ -13,16 +13,15 @@ const NAV_CONFIG: { label: string; pages: Entry[] }[] = [
   { label: '人物', pages: [{ page: 'people', label: '名录' }, 'network', 'fates'] },
   { label: '机构', pages: ['orgs'] },
   { label: '派系', pages: ['river', 'control', 'factions'] },
-  { label: '空间', pages: ['map'] },
-  { label: '专题', pages: ['topics'] },
   { label: '思想', pages: ['lineage', 'spectrum', 'ism-stream', 'press', 'concepts'] },
   // ideas, then people, then factions, orgs and the economy
   {
     label: '洞察',
-    pages: ['drift', 'authority', 'spread', 'attribution', 'selfcrit', 'citations', 'survival', 'overlap', 'parallel', 'moments', 'flows', 'rhetoric', 'paralysis', 'outcomes'],
+    pages: ['drift', 'authority', 'spread', 'attribution', 'selfcrit', 'citations', 'survival', 'overlap', 'parallel', 'flows', 'rhetoric', 'paralysis', 'outcomes'],
   },
-  { label: '史料', pages: ['docs', 'archive', 'figures', 'series', 'narratives', 'data'] },
-  { label: '研究', pages: [{ page: 'essays', label: '长文' }, { page: 'research', label: '结论与来源' }] },
+  // sources as found, then what this site wrote from them
+  { label: '史料', pages: ['docs', 'archive', { page: 'map', label: '地图' }, 'figures', 'series', 'narratives', 'data'] },
+  { label: '研究', pages: [{ page: 'essays', label: '长文' }, 'topics', { page: 'research', label: '结论与来源' }] },
 ]
 
 export const NAV: NavGroup[] = NAV_CONFIG.map((g) => ({

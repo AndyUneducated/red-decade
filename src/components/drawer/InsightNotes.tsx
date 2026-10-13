@@ -49,7 +49,6 @@ const nowrap = { whiteSpace: 'nowrap' } as const
 export const PersonInsights = ({ id }: { id: string }) => (
   <>
     <PersonAuthority id={id} />
-    <PersonMoments id={id} />
     <PersonActs id={id} />
     <NearLives id={id} />
   </>
@@ -111,20 +110,6 @@ export function PersonActs({ id }: { id: string }) {
           : falls.length
             ? `被打倒在先（${fmtDate(falls[0].date)}）。`
             : `1949 年 10 月以后没有被打倒或关押的记录${p.died ? `；${fmtDate(p.died)}${p.death ? ` ${p.death}` : ' 去世'}` : ''}。`}
-      </p>
-    </Note>
-  )
-}
-
-// I
-export function PersonMoments({ id }: { id: string }) {
-  const { ix } = useApp()
-  const said = (ix.person.get(id)?.quotes ?? []).filter((q) => q.date && !q.by).sort((a, b) => toT(a.date) - toT(b.date))
-  if (!said.length) return null
-  return (
-    <Note to="moments" on={{ type: 'person', id }}>
-      <p className="muted-note">
-        本人带日期的原话 {said.length} 条{said.length > 1 ? `，${fmtDate(said[0].date)} 至 ${fmtDate(said.at(-1)!.date)}` : `，${fmtDate(said[0].date)}`}；与同一时刻其他人的表态并排看。
       </p>
     </Note>
   )

@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { Cite, PersonChip } from '../../components/bits'
 import { VOICES, type Voice } from '../../data/schema'
 import { personMentioner } from '../../derive/match'
-import { fmtDate } from '../../lib/dates'
+import { fmtDate, toT } from '../../lib/dates'
 import { useApp } from '../../state'
 import { Insight } from './Insight'
 import { ATTRIBUTION_MIN_KINDS as MIN_KINDS } from './shared'
@@ -16,11 +16,12 @@ export function Attribution() {
     () =>
       ix.events
         .filter((e) => new Set(e.voices.map((v) => v.voice)).size >= MIN_KINDS)
-        .map((e) => ({ e, kinds: new Set(e.voices.map((v) => v.voice)).size })),
+        .map((e) => ({ e, kinds: new Set(e.voices.map((v) => v.voice)).size }))
+        .sort((a, b) => toT(a.e.date) - toT(b.e.date)),
     [ix],
   )
   const picked = sel?.type === 'event' ? events.find((x) => x.e.id === sel.id) : undefined
-  const cur = picked ?? [...events].sort((a, b) => b.kinds - a.kinds)[0]
+  const cur = picked ?? events[0]
   const rows = useMemo(() => {
     if (!cur) return []
     return [...cur.e.voices]

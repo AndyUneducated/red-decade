@@ -33,7 +33,6 @@ export const PAGE_COMPONENTS: Record<PageId, LazyExoticComponent<ComponentType>>
   survival: view(() => import('./views/insights/Survival'), 'Survival'),
   overlap: view(() => import('./views/insights/Overlap'), 'Overlap'),
   parallel: view(() => import('./views/insights/Parallel'), 'Parallel'),
-  moments: view(() => import('./views/insights/Moments'), 'Moments'),
   paralysis: view(() => import('./views/insights/Paralysis'), 'Paralysis'),
   outcomes: view(() => import('./views/insights/Outcomes'), 'Outcomes'),
   flows: view(() => import('./views/insights/Flows'), 'Flows'),
