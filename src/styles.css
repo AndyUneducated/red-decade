@@ -3256,3 +3256,72 @@ h2.sec {
     padding: 12px 12px 48px;
   }
 }
+.overlap-head {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  padding: 4px 0;
+  border: 0;
+  border-top: 1px solid var(--rule);
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.overlap-head:hover b,
+.overlap-head[aria-expanded='true'] b {
+  color: var(--accent);
+}
+.overlap-head b {
+  font-size: 13px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.overlap-head .strip {
+  display: block;
+  overflow: hidden;
+}
+.overlap-axis {
+  position: sticky;
+  top: -16px;
+  z-index: 1;
+  background: var(--paper);
+}
+.overlap-detail {
+  margin: 4px 0 10px 130px;
+  max-width: 760px;
+}
+@media (max-width: 720px) {
+  .overlap-detail {
+    margin-left: 0;
+  }
+}
+.said {
+  margin: 0;
+  padding: 8px 0 8px 12px;
+  border-left: 2px solid var(--rule-2);
+}
+.said + .said {
+  margin-top: 6px;
+}
+.said-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+}
+.said-head time {
+  color: var(--muted);
+  font-size: 11.5px;
+  margin-right: 4px;
+}
+.said p {
+  margin: 4px 0 0;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.75;
+}

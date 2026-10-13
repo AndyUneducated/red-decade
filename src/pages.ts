@@ -48,6 +48,9 @@ export const PAGES = {
   press: { title: '报刊词频', desc: '口号逐年词频与首现日期' },
   concepts: { title: '概念 × 文献', desc: '概念在哪些文献里出现' },
   survival: { title: '生存曲线', desc: '各派成员从 1965 年底起多久被打倒' },
+  overlap: { title: '加害与受害', desc: '批判、诬陷他人的人，后来是否自己被打倒' },
+  parallel: { title: '平行人生', desc: '命运轨迹最相近、同起点而分岔的人' },
+  moments: { title: '表态时刻', desc: '各个转折关头，谁先开口、说了什么' },
   docs: {
     title: '文献',
     desc: '一手文献全文',
