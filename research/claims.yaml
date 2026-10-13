@@ -795,3 +795,173 @@
   caveats: 没有找到不等于没有发表；1956、1957 年的公报本库也没有找到。“经济与人口”页的图上把这段空白画成灰色。
   events: [1959-08-16-eighth-plenum, 1960-04-06-tan-report, 1972-grain]
   logged: 2026-10-12
+
+- id: C048
+  statement: 官方公布的文革刑事冤案规模：到 1981 年底，各级法院复查文革期间判处的刑事案件一百二十万件，改判纠正三十万零一千余件，涉及三十二万六千余人，约每四件中有一件被认定为冤、假、错案。
+  status: supported
+  method: 读 1983 年 6 月最高人民法院工作报告中复查冤假错案的一节，按报告给出的件数计算比例。
+  evidence:
+    - { cite: ws-1983-06-supreme-court-report, quote: 已复查了“文化大革命”中判处的刑事案件一百二十万件 }
+    - { cite: ws-1983-06-supreme-court-report, quote: 改判纠正了冤、假、错案三十万零一千余件，涉及当事人三十二万六千余人 }
+    - { cite: ws-1983-06-supreme-court-report, quote: 全错的全平，部分错的部分平，不错的不平 }
+  caveats: 只计法院判处的刑事案件，不含党内处分、单位审查、群众专政和未经审判的打死；按“部分错的部分平”的原则，改判里包括部分改判。
+  events: [1983-06-court-review-figures]
+  logged: 2026-10-13
+
+- id: C049
+  statement: “严打”三年多里法院判决的人数，是文革十年刑事冤案改判人数的五倍多：1983 年 8 月到 1986 年底判决一百七十二万余人，文革期间判处、后被改判的当事人是三十二万六千余人；严打审结的刑事案件（一百四十万件）也多于文革十年判处、后来复查的案件（一百二十万件）。
+  status: supported
+  method: 对照 1983 年和 1987 年两份最高人民法院工作报告的数字。
+  evidence:
+    - { cite: ws-1987-04-supreme-court-report, quote: 自1983年8月到1986年底，全国各级人民法院共审结刑事案件140万余件，判决人犯172.1万多名 }
+    - { cite: ws-1983-06-supreme-court-report, quote: 改判纠正了冤、假、错案三十万零一千余件，涉及当事人三十二万六千余人 }
+    - { cite: ws-1983-09-02-strike-hard, quote: 可以在刑法规定的最高刑以上处刑，直至判处死刑 }
+  caveats: 两组数字口径不同：前者是全部判决人数，不等于冤案；后者只是改判人数。比较只说明 1980 年代刑事司法的规模，不说明两个时期性质相同。
+  events: [1983-09-02-strike-hard, 1983-06-court-review-figures]
+  logged: 2026-10-13
+
+- id: C050
+  statement: 零陵地区十一个县市 1987 年的处遗总结，各自报出的文革死亡数合计约九千一百四十六人，其中道县一县四千五百零九人，接近一半。
+  status: supported
+  method: 逐份读库内十一份县市报告，取各报告的死亡合计相加：道县 4509、宁远 1093、江华 788、新田 786、江永 426（被杀 407 加自缢 19）、东安 422、双牌 344、永州市 249、祁阳 245、蓝山 149、冷水滩 135。
+  evidence:
+    - { cite: ccrd-1987-hn-daoxian-15, quote: 全县共死亡 4509 人，其中被杀 4070 人，被迫自杀 439 人 }
+    - { cite: ccrd-1987-hn-ningyuan-9, quote: 被杀889人，还有的被迫自杀的204人，共计1093人 }
+    - { cite: ccrd-1987-hn-jianghua-3, quote: 合计788人，占当时全县人口的3.3％ }
+    - { cite: ccrd-1987-hn-xintian-20, quote: 被杀、自杀合计786人 }
+    - { cite: ccrd-1987-hn-shuangpai-1, quote: 对全县被杀和自缢的344人，发给抚恤金49650元 }
+  caveats: 各县口径不一：冷水滩包括整个文革期间批斗致死的 73 人，东安包括县属机关的自杀者，多数县把被迫自杀计入；都是县委自报的数字。
+  events: [1987-11-30-daoxian-report, 1987-07-10-ningyuan-report, 1987-05-20-jianghua-report, 1987-04-03-xintian-report, 1987-05-08-jiangyong-report, 1987-03-03-dongan-report, 1987-01-10-shuangpai-report, 1987-05-20-yongzhou-report, 1987-06-02-qiyang-report, 1987-05-31-lanshan-report, 1987-03-lengshuitan-report]
+  logged: 2026-10-13
+
+- id: C051
+  statement: 零陵各县死者的成分差别很大：道县死者中“四类分子”及地富子女占 91.6%，江华占 79%，东安只占 55%，贫下中农占 39%。东安的 422 人中自杀 283 人，同时有 1178 人因抓所谓“反共救国军”被打伤打残。按成分清除并不能解释所有县的死亡。
+  status: partial
+  method: 按道县、江华、东安三份报告各自的成分分类计算比例。
+  evidence:
+    - { cite: ccrd-1987-hn-daoxian-15, quote: 分别占总数的 43.8%、47.8%、8.6% }
+    - { cite: ccrd-1987-hn-jianghua-3, quote: 有四类分子343人，四类分子子女280人，贫下中农109人，其他56人 }
+    - { cite: ccrd-1987-hn-dongan-17, quote: 属四类分子的 95 人、四类分子子女 137 人、 贫下中农 164 人 }
+    - { cite: ccrd-1987-hn-dongan-17, quote: 全县还因抓所谓“反共救国军”被打伤、打残 }
+  caveats: 东安的数字包括县属机关死亡的 81 人，报告没有把农村部分的成分单列；“反共救国军”与贫下中农死亡之间的联系是推断，报告本身没有这样说。
+  events: [1987-11-30-daoxian-report, 1987-05-20-jianghua-report, 1987-03-03-dongan-report]
+  concepts: [class-struggle, bloodline]
+  logged: 2026-10-13
+
+- id: C052
+  statement: 广西早期的处遗，结论和抚恤先落在干部身上：灌阳 1982 年只给 13 名死亡干部、工人的遗属发了抚恤金，未作死亡结论的 118 人里有 102 人是“四类分子”；苍梧先把 53 名干部、职工的死亡结论由“非正常死亡”改为“逝世”。湖南双牌到 1987 年才给全部 344 名死者发抚恤。
+  status: partial
+  method: 读灌阳、苍梧县文革大事记中 1980–1982 年的处遗条目，与双牌 1987 年总结对照。
+  evidence:
+    - { cite: ccrd-1987-gx-guanyang-31, quote: 对非正常死亡的13名国家干部工人的遗属发放了16726元抚恤金 }
+    - { cite: ccrd-1987-gx-guanyang-31, quote: 未作定性结论的118人，其中“四类分子”102人 }
+    - { cite: ccrd-1987-gx-cangwu-70, quote: 有53人由原来的结论“非正常死亡”改为“逝世” }
+    - { cite: ccrd-1987-hn-shuangpai-1, quote: 对全县被杀和自缢的344人，发给抚恤金49650元 }
+  caveats: 只有三个县的记录；1983 年广西统一部署处遗以后，龙州、崇左等县的抚恤对象已是全部被害者家属。
+  events: [1982-05-23-guanyang-report, 1980-cangwu-death-verdicts, 1987-01-10-shuangpai-report, 1984-chuyi-compensation-gx]
+  logged: 2026-10-13
+
+- id: C053
+  statement: 县级死亡数字随处遗推进而上升：灌阳县委 1982 年 5 月向上报 241 人非正常死亡，同年 12 月县处遗办公室的统计是被迫害致死 304 人。
+  status: partial
+  method: 对照灌阳县文革大事记 1982 年 5 月 23 日和 12 月 14 日两条。
+  evidence:
+    - { cite: ccrd-1987-gx-guanyang-31, quote: 灌阳1967年至1968年共有241人非正常死亡 }
+    - { cite: ccrd-1987-gx-guanyang-31, quote: 全县在“文化大革命”中被迫害致死的304人 }
+  caveats: 前一个数字限 1967–1968 年，后一个是整个文革；只有一个县，能否推广到广西其他县未核。
+  events: [1982-05-23-guanyang-report]
+  logged: 2026-10-13
+
+- id: C054
+  statement: 1980 年代的平反常要做两次，第二次的理由是第一次“不彻底”：贺龙 1974 年平反、1982 年彻底平反；卫恒 1979 年平反、1985 年彻底平反；“西纠”“联动”1979 年北京市公安局平反、1984 年再发文彻底平反，理由是当时对彻底否定文革“思想界限不清”。
+  status: supported
+  method: 对照三组前后两次的平反文件或记载。
+  evidence:
+    - { cite: ws-1982-he-long-rehab, quote: 但《通知》对贺龙同志的平反是不彻底的，有些提法是错误的 }
+    - { cite: lczf-wei-heng, quote: 1979年1月，中共山西省委作出决定，为卫恒平反昭雪，恢复名誉 }
+    - { cite: rmrb-1986-01-26-wei-heng, quote: 1985年6月，中共山西省委在为卫恒同志彻底平反的决定中指出 }
+    - { cite: ws-1984-liandong-rehab, quote: 虽经北京市公安局于1979年7月进行了恢复平反，但由于当时对彻底否定“文化大革命”的思想界限不清 }
+  caveats: 三例都是库内能找到前后两份文件的；其他平反是否也有两轮，未系统统计。
+  people: [he-long, wei-heng]
+  events: [1984-liandong-rehab, 1985-06-wei-heng-rehab]
+  logged: 2026-10-13
+
+- id: C055
+  statement: 1983 年以后处理文革暴力的办法，是把组织与个人分开：组织（“西纠”“联动”）彻底平反，其中犯罪的“极少数”按清理“三种人”处理；零陵处理道县杀人，也是查处“极少数”、团结教育“绝大多数”。
+  status: partial
+  method: 对照 1983 年整党决定、1984 年联动平反通知稿和 1985 年零陵地委报告的处理原则。
+  evidence:
+    - { cite: ws-1984-liandong-rehab, quote: 对这两个中学红卫兵组织中极少数犯有严重错误或罪行的人，应按中央《关于清理“三种人”若干问题的补充通知》规定处理 }
+    - { cite: ccrd-1985-hn-lingling-daoxian-13, quote: 既坚决慎重地查处极少数犯有严重杀人罪行的人员，又团结教育绝大多数 }
+    - { cite: ws-1983-10-11-party-rectification, quote: 清理“三种人”，是纯洁组织的关键问题 }
+  caveats: 库内材料没有给出被追究刑事责任或开除党籍的人数，“极少数”究竟多少无法核对。
+  events: [1984-liandong-rehab, 1985-03-28-lingling-principles, 1983-10-11-party-rectification]
+  concepts: [factionalism]
+  logged: 2026-10-13
+
+- id: C056
+  statement: 本库的县级文革史料大多产生于 1983–1987 年的整党：广西各县的“文革大事记”署名各县“整党领导小组办公室”，北京大兴“八三一”事件的调查署名县委“核查‘三种人’领导小组”。地方上的文革记录是在清理“三种人”的过程中写成的。
+  status: supported
+  method: 核对数据库题录中的作者署名和兴安县大事记的序言。
+  evidence:
+    - { cite: ccrd-1987-gx-xingan-171, quote: 选择了那些在全县影响较大的事件，客观的加以记载，作为史料存查备考 }
+    - { cite: ccrd-1987-gx-binyang-159, note: 作者署名“中共宾阳县委整党领导小组办公室”，崇左、龙州、柳州地区、武宣、金秀、兴安、苍梧、钟山同 }
+    - { cite: ccrd-1986-bj-daxing-0, note: 作者署名“中共大兴县委核查‘三种人’领导小组” }
+  caveats: 署名取自数据库题录，不是原件影印；零陵各县的总结署名县委，不是整党机构。
+  events: [1987-gx-county-chronicles, 1986-daxing-831-report, 1983-10-11-party-rectification]
+  logged: 2026-10-13
+
+- id: C057
+  statement: 两案主犯 1981 年判决之后，文革中下层执行者的审判集中在少数几天：上海王秀珍、徐景贤 1982 年 6 月 26 日同日被起诉，北京赵登程、齐景和、刘庆棠 1983 年 11 月 2 日同日判决。
+  status: supported
+  method: 核对各份起诉书和判决书的落款日期。
+  evidence:
+    - { cite: ws-1982-08-21-wang-xiuzhen-case, quote: 于一九八二年六月二十六日向本院提起公诉 }
+    - { cite: ws-1982-xu-jingxian-case, quote: 于一九八二年六月二十六日向本院提起公诉 }
+    - { cite: ws-1983-zhao-dengcheng-case, quote: 一九八三年十一月二日 }
+    - { cite: ws-1983-qi-jinghe-case, quote: 一九八三年十一月二日 }
+    - { cite: ws-1983-liu-qingtang-case, quote: 一九八三年十一月二日 }
+  caveats: 只是库内找到的案件，同期其他省份的审判没有系统收集。
+  people: [wang-xiuzhen, xu-jingxian, liu-qingtang]
+  events: [1983-11-02-zhao-dengcheng-sentenced, 1983-11-02-qi-jinghe-sentenced, 1983-11-02-liu-qingtang-sentenced]
+  logged: 2026-10-13
+
+- id: C058
+  statement: 1989 年的戒严令和天津市委电报沿用了文革时期的词：“串联”和“打、砸、抢”。1983 年整党决定也以“打砸抢分子”指文革中的施暴者。
+  status: supported
+  method: 对照 1989 年北京市政府戒严令、6 月 7 日天津市委电报与 1983 年整党决定的用词。
+  evidence:
+    - { cite: ws-1989-05-20-martial-law-orders, quote: 严禁任何人以任何方式制造和散布谣言，进行串联、演讲，散发传单 }
+    - { cite: ws-1989-05-20-martial-law-orders, quote: 严禁打、砸、抢、烧等一切破坏活动 }
+    - { cite: ws-1989-tianjin-telegram, quote: 对于扰乱社会治安，搞打、砸、抢、烧的不法分子，坚决依法惩处 }
+    - { cite: ws-1983-10-11-party-rectification, quote: 帮派思想严重的人，打砸抢分子 }
+  caveats: 只说明官方用词的延续，不说明两个时期的事件性质相同。
+  events: [1989-05-20-beijing-orders, 1989-06-07-tianjin-telegram, 1983-10-11-party-rectification]
+  concepts: [mass-democracy]
+  logged: 2026-10-13
+
+- id: C059
+  statement: 1989 年春天之前，官方统计和政府报告已经承认经济失控：零售物价 1987 年上涨 7.3%，1988 年上涨 18.5%（12 月同比 26.7%），1989 年 3 月的政府工作报告承认“急于求成”。
+  status: supported
+  method: 对照 1987、1988 年统计公报与 1989 年政府工作报告。
+  evidence:
+    - { cite: rmrb-1988-02-24-stats-1987, quote: １９８７年全年零售物价总水平比上年平均上升７．３％ }
+    - { cite: rmrb-1989-03-01-stats-1988, quote: １９８８年零售物价总水平比上年上升１８．５％ }
+    - { cite: ws-1989-03-gov-report, quote: 总的来看，在经济建设中，存在着急于求成的倾向 }
+  caveats: 物价与 4–6 月的抗议之间的关系，本库只有官方材料，没有当时参与者的说法。
+  people: [li-peng]
+  events: [1988-02-24-inflation-1987, 1988-inflation-18-5, 1989-03-retrenchment]
+  logged: 2026-10-13
+
+- id: C060
+  statement: 零陵各县的杀人是一县传一县的：新田县委说，道县、宁远的杀人被新田的造反派和一些干部当作“抓阶级斗争的经验”推广；江华县委说本县是“受外县杀人风的波及影响”。两县的杀人都在 9–10 月，晚于道县的 8 月。
+  status: supported
+  method: 对照新田、江华两县总结中对杀人起因的叙述和日期，与道县报告的起止日期对照。
+  evidence:
+    - { cite: ccrd-1987-hn-xintian-20, quote: 被新田一些造反派和部份不明真相的干部群众作为镇压阶级敌人，抓阶级斗争的经验加以推广 }
+    - { cite: ccrd-1987-hn-jianghua-3, quote: 受外县杀人风的波及影响，1967年的9、10月间，我县出现了严重的杀人事件 }
+    - { cite: ccrd-1987-hn-daoxian-15, quote: 至十月十七日的六十六天中 }
+  caveats: 是县委在二十年后的自述；新田总结同时把“支左”人员传达 47 军电文的断章取义列为原因之一。
+  events: [1987-04-03-xintian-report, 1987-05-20-jianghua-report, 1987-11-30-daoxian-report]
+  concepts: [class-struggle]
+  logged: 2026-10-13
