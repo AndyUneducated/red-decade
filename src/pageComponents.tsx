@@ -21,6 +21,7 @@ export const PAGE_COMPONENTS: Record<PageId, LazyExoticComponent<ComponentType>>
   'ism-stream': view(() => import('./views/Ideas'), 'StreamPage'),
   press: view(() => import('./views/Ideas'), 'PressPage'),
   concepts: view(() => import('./views/Ideas'), 'ConceptsPage'),
+  survival: view(() => import('./views/insights/Survival'), 'Survival'),
   docs: view(() => import('./views/Docs'), 'Docs'),
   figures: view(() => import('./views/Figures'), 'Figures'),
   series: view(() => import('./views/Series'), 'SeriesView'),

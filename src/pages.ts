@@ -47,6 +47,7 @@ export const PAGES = {
   'ism-stream': { title: '主义词频', desc: '各主义在语料中的逐年出现' },
   press: { title: '报刊词频', desc: '口号逐年词频与首现日期' },
   concepts: { title: '概念 × 文献', desc: '概念在哪些文献里出现' },
+  survival: { title: '生存曲线', desc: '各派成员从 1965 年底起多久被打倒' },
   docs: {
     title: '文献',
     desc: '一手文献全文',

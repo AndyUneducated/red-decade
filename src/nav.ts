@@ -1,6 +1,6 @@
 // The top bar: groups of pages, from the concrete to the abstract — events in time, persons, the formal
-// networks they make up (orgs), the informal ones beneath (factions), places, ideas, and the evidence for
-// all of it. Moving a page is moving its line here; `label` overrides the page title inside its group.
+// networks they make up (orgs), the informal ones beneath (factions), places, ideas, insights that read
+// across all of these, and the evidence for all of it. Moving a page is moving its line here; `label` overrides the page title inside its group.
 // A group with several pages opens a menu. nav.test.ts checks every visible page appears exactly once.
 import { page, PAGE_IDS, type PageId } from './pages'
 
@@ -15,6 +15,7 @@ const NAV_CONFIG: { label: string; pages: Entry[] }[] = [
   { label: '派系', pages: ['river', 'control', 'factions'] },
   { label: '空间', pages: ['map'] },
   { label: '思想', pages: ['lineage', 'spectrum', 'ism-stream', 'press', 'concepts'] },
+  { label: '洞察', pages: ['survival'] },
   { label: '史料', pages: ['docs', 'figures', 'series', 'narratives', 'research'] },
 ]
 

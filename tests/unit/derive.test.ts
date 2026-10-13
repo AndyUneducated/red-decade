@@ -1,8 +1,9 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { indexAtlas } from '../../src/data/atlas'
-import type { Atlas, Org, Place } from '../../src/data/schema'
+import type { Atlas, Org, Person, Place, Status } from '../../src/data/schema'
 import { firstKey, termHits, yearTotals } from '../../src/derive/corpus'
+import { firstFall, kaplanMeier, survivalSubject } from '../../src/derive/fates'
 import { orgMentioner, placeMatcher, positionMatcher } from '../../src/derive/match'
 import { quoteMisses, stripAttribution } from '../../src/derive/quotes'
 import { after } from '../../src/lib/dates'
@@ -89,5 +90,35 @@ describe.skipIf(!existsSync(ATLAS))('the built atlas', () => {
   })
   it('links events to the orgs they name', () => {
     expect(ix.eventsByOrg.get('ccrg')?.length).toBeGreaterThan(0)
+  })
+  it('files every claim under its tagged entities', () => {
+    for (const c of ix.claims) for (const f of c.factions) expect(ix.claimsBy.faction.get(f)).toContain(c)
+  })
+})
+
+describe('fates', () => {
+  const person = (fate: [string, Status][], extra: Partial<Person> = {}) => ({ fate: fate.map(([date, s]) => ({ date, s })), ...extra }) as unknown as Person
+  const STRICT = new Set<Status>(['purged', 'detained'])
+  const t0 = 1966
+  it('finds the first fall on or after t0, counting an unnatural death', () => {
+    expect(firstFall(person([['1959-08', 'purged'], ['1966-12', 'detained']]), t0, STRICT)).toBeCloseTo(1966 + 11 / 12)
+    expect(firstFall(person([['1968-10', 'dead']], { deathKind: 'persecuted' }), t0, STRICT)).toBeCloseTo(1968.75)
+    expect(firstFall(person([['1968-10', 'dead']], { deathKind: 'natural' }), t0, STRICT)).toBeUndefined()
+  })
+  it('leaves out those already down at t0 and censors a natural death', () => {
+    expect(survivalSubject(person([['1959-08', 'purged']]), t0, 1979, STRICT)).toBeUndefined()
+    expect(survivalSubject(person([['1972-01', 'dead']], { died: '1972-01', deathKind: 'natural' }), t0, 1979, STRICT)).toEqual({ t: 1972, fell: false })
+  })
+  it('divides each fall by those still observed', () => {
+    const km = kaplanMeier(
+      [
+        { t: 1967, fell: true },
+        { t: 1968, fell: false },
+        { t: 1969, fell: true },
+        { t: 1979, fell: false },
+      ],
+      t0,
+    )
+    expect(km.map((k) => k.s)).toEqual([1, 0.75, 0.375])
   })
 })
