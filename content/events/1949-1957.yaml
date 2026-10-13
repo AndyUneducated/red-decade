@@ -1,0 +1,370 @@
+# 1949–1957 first batch (M5-2): from the wikisource texts in research/manifests/m5-ws-1.yaml and m5-ws-2.yaml
+# and the 1981 resolution. Traditional-character sources are quoted as printed.
+
+- id: 1949-09-cppcc
+  date: 1949-09
+  end: 1949-09-30
+  title: 政协第一届全体会议：组织法、共同纲领与建国宣言
+  lane: center
+  weight: 3
+  place: 北平
+  summary: 1949 年 9 月，中国人民政治协商会议第一届全体会议在北平举行，9 月 27 日通过《中国人民政治协商会议组织法》。9 月 30 日会议发表宣言，宣布中华人民共和国成立、中央人民政府产生，称政府将遵照共同纲领实施人民民主专政。共同纲领此后被土地改革法、惩治反革命条例和统购统销命令援引为立法依据。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 全國同胞們，中華人民共和國現已宣告成立，中國人民業已有了自己的中央政府（政协第一届全体会议宣言，1949 年 9 月 30 日）, cite: ws-1949-09-30-cppcc-declaration, quote: true }
+    - { voice: doc, text: 這個政府將遵照共同綱領在全中國境內實施人民民主專政（同上）, cite: ws-1949-09-30-cppcc-declaration, quote: true }
+  cites: [ws-1949-09-27-cppcc-organic-law, ws-1949-09-30-cppcc-declaration]
+
+- id: 1950-02-14-sino-soviet-treaty
+  date: 1950-02-14
+  title: 中苏友好同盟互助条约签订
+  lane: intl
+  weight: 2
+  place: 莫斯科
+  summary: 1950 年 2 月 14 日，中苏两国在克里姆林宫签订友好同盟互助条约和关于中国长春铁路、旅顺口及大连的协定等文件。按协定，对日和约缔结后，中长铁路移交中国，苏军撤出旅顺口。中方由周恩来签字，苏方由维辛斯基签字。1954 年政府工作报告称苏联已将中长铁路交还中国。
+  people: [mao-zedong, zhou-enlai]
+  voices:
+    - { voice: doc, text: 談判業經於二月十四日在克里姆林宮簽訂下列文件而告結束：（一）中蘇友好同盟互助條約；（两国公告）, cite: ws-1950-02-14-sino-soviet-treaty, quote: true }
+    - { voice: doc, text: 在對日和約締結後，中國長春鐵路將移交為中華人民共和國完全所有，而蘇聯軍隊則將自旅順口撤退（同上）, cite: ws-1950-02-14-sino-soviet-treaty, quote: true }
+    - { voice: official1966, text: 我國同偉大的和平堡壘蘇聯已經締結了友好同盟互助條約（周恩来 1954 年政府工作报告）, cite: ws-1954-09-23-zhou-report, quote: true }
+  cites: [ws-1950-02-14-sino-soviet-treaty, ws-1954-09-23-zhou-report]
+
+- id: 1950-06-land-reform-law
+  date: 1950-06-14
+  end: 1950-06-30
+  title: 刘少奇作土地改革报告，《土地改革法》公布
+  lane: mass
+  weight: 3
+  place: 北京
+  summary: 1950 年 6 月 14 日，刘少奇在政协一届二次会议上作《关于土地改革问题的报告》，提出土地改革的基本内容是没收地主土地分给无地少地的农民，并提议今后的土改“保存富农经济”。6 月 28 日中央人民政府委员会通过《土地改革法》，6 月 30 日公布施行。按 1953 年周恩来的报告，除部分少数民族地区外，全国约四亿五千万农业人口的地区已完成土改。
+  people: [liu-shaoqi]
+  voices:
+    - { voice: official1966, text: 土地改革的基本內容，就是沒收地主階級的土地，分配給無地少地的農民（刘少奇报告，1950 年 6 月 14 日）, cite: ws-1950-06-14-liu-land-report, quote: true }
+    - { voice: official1966, text: 正由於這個基本理由和基本目的，所以中共中央提議在今後的土地改革中保存富農經濟不受破壞（同上）, cite: ws-1950-06-14-liu-land-report, quote: true }
+    - { voice: doc, text: 第一條　廢除地主階級封建剝削的土地所有制，實行農民的土地所有制，藉以解放農村生產力，發展農業生產，為新中國的工業化開辟道路（土地改革法）, cite: ws-1950-06-30-land-reform-law, quote: true }
+    - { voice: official1966, text: 除一部分少数民族地区之外，全国约有四亿五千万农业人口的地区完成了土地改革（周恩来 1953 年 2 月政协报告）, cite: ws-1953-02-04-zhou-cppcc-report, quote: true }
+  cites: [ws-1950-06-14-liu-land-report, ws-1950-06-30-land-reform-law, ws-1953-02-04-zhou-cppcc-report]
+
+- id: 1950-10-10-double-ten
+  date: 1950-10-10
+  title: 中共中央“双十指示”：纠正镇压反革命中的“宽大无边”
+  lane: mass
+  weight: 2
+  summary: 1950 年 10 月 10 日，中共中央发出关于镇压反革命活动的指示（“双十指示”），认为不少干部和党委把“镇压与宽大相结合”误解为片面的宽大，在镇压反革命问题上发生了“严重的右的偏向”，群众抱怨“宽大无边”“有天无法”，要求各级党委督促主管部门处理已捕和未捕的反革命分子。
+  voices:
+    - { voice: doc, text: 因此，在镇压反革命问题上，发生了严重的右的偏向（中共中央指示）, cite: ws-1950-10-10-suppress-directive, quote: true }
+    - { voice: doc, text: 这不仅助长了反革命的气焰，而且引起了群众的抱怨，说我们“宽大无边”、“有天无法”（同上）, cite: ws-1950-10-10-suppress-directive, quote: true }
+  cites: [ws-1950-10-10-suppress-directive]
+
+- id: 1951-02-20-counterrev-regulations
+  date: 1951-02-20
+  title: 《惩治反革命条例》颁布，镇压反革命运动推向高潮
+  lane: mass
+  weight: 3
+  place: 北京
+  summary: 1951 年 2 月 20 日，中央人民政府委员会第十一次会议听取彭真关于镇压反革命和惩治反革命条例问题的报告，批准《惩治反革命条例》，条例当日生效。条例对勾结帝国主义、策动叛变、持械叛乱等罪规定死刑或无期徒刑。彭真在报告中援引民间说法“天不怕，地不怕，就怕共产党讲宽大”，说明前一时期“过分宽大”的偏向。该条例 1987 年被全国人大常委会列为不再适用的法律。
+  people: [peng-zhen]
+  voices:
+    - { voice: doc, text: 第三條　勾結帝國主義背叛祖國者，處死刑或無期徒刑（惩治反革命条例）, cite: ws-1951-02-20-counterrev-regulations, quote: true }
+    - { voice: official1966, text: 很多地方發生了過分寛大的偏向，曾經引起各階層人民對人民政府的不滿（彭真报告）, cite: ws-1951-02-20-peng-zhen-counterrev, quote: true }
+  cites: [ws-1951-02-20-counterrev-regulations, ws-1951-02-20-peng-zhen-counterrev]
+
+- id: 1951-05-23-tibet-agreement
+  date: 1951-05-23
+  title: 中央人民政府与西藏地方政府签订“十七条协议”
+  lane: local
+  weight: 2
+  place: 北京
+  summary: 1951 年 5 月 23 日，中央人民政府与西藏地方政府（噶厦）在北京签订关于和平解放西藏办法的协议（十七条协议）。协议规定西藏回到“祖国大家庭”，同时承诺对西藏的现行政治制度和达赖喇嘛的固有地位及职权“不予变更”。
+  voices:
+    - { voice: doc, text: 一、西藏人民團結起來，驅逐帝國主義侵略勢力出西藏，西藏人民回到中華人民共和國祖國大家庭中來（十七条协议）, cite: ws-1951-05-23-tibet-agreement, quote: true }
+    - { voice: doc, text: 四、對於西藏的現行政治制度，中央不予變更（同上）, cite: ws-1951-05-23-tibet-agreement, quote: true }
+    - { voice: doc, text: 達賴喇嘛的固有地位及職權，中央亦不予變更（同上）, cite: ws-1951-05-23-tibet-agreement, quote: true }
+  cites: [ws-1951-05-23-tibet-agreement]
+
+- id: 1951-12-15-mutual-aid
+  date: 1951-12-15
+  title: 中共中央《关于农业生产互助合作的决议（草案）》
+  lane: econ
+  weight: 2
+  summary: 1951 年 12 月 15 日，中共中央印发关于农业生产互助合作的决议草案，既承认土改后农民“个体经济的积极性”不可避免，又提倡“劳动互助的积极性”，把互助合作分为临时互助组、常年互助组和以土地入股的农业生产合作社三种形式。决议称互助组织在华北已包括全体农民的百分之六十，东北达百分之七十。
+  voices:
+    - { voice: doc, text: 农民在土地改革基础上所发扬起来的生产积极性，表现在两个方面：一方面是个体经济的积极性，另方面是劳动互助的积极性（决议草案）, cite: ws-1951-12-15-mutual-aid, quote: true }
+    - { voice: doc, text: 以上两种形式的互助组织所包括的农民，在华北已发展到占全体农民的百分之六十，在东北则达到了百分之七十（同上）, cite: ws-1951-12-15-mutual-aid, quote: true }
+  cites: [ws-1951-12-15-mutual-aid]
+
+- id: 1953-02-04-zhou-three-years
+  date: 1953-02-04
+  title: 周恩来总结建国三年：土改、镇反、抗美援朝、“三反”“五反”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1953 年 2 月 4 日，周恩来在政协一届全国委员会第四次会议上作政治报告，称国家经济恢复阶段已经结束、第一个五年计划正在开始，把过去三年概括为土地改革、镇压反革命、抗美援朝、“三反”“五反”和知识分子思想改造等“伟大的斗争”，并称这些成就主要是在抗美援朝的过程中取得的。
+  people: [zhou-enlai]
+  voices:
+    - { voice: official1966, text: 在过去三年当中，我们依靠人民群众的力量，进行了土地改革、镇压反革命、抗美援朝、“三反”“五反”和知识分子思想改造等项伟大的斗争（周恩来报告）, cite: ws-1953-02-04-zhou-cppcc-report, quote: true }
+    - { voice: official1966, text: 抗美援朝运动实际上保证并促进了我们社会改造和经济恢复的事业的早日胜利完成（同上）, cite: ws-1953-02-04-zhou-cppcc-report, quote: true }
+    - { voice: official1981, text: 在胜利完成繁重的社会改革任务和进行伟大的抗美援朝、保家卫国战争的同时，我们迅速恢复了在旧中国遭到严重破坏的国民经济，全国工农业生产一九五二年底已经达到历史的最高水平（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1953-02-04-zhou-cppcc-report, ws-1981-resolution]
+
+- id: 1953-11-grain-monopoly
+  date: 1953-11
+  title: 粮食统购统销
+  lane: econ
+  weight: 3
+  summary: 1953 年 11 月，政务院发布命令，在全国实行粮食的计划收购（统购）和计划供应（统销），以共同纲领第二十八条为依据。生产粮食的农民须按国家规定的粮种、价格和分配数量把余粮卖给国家。维基文库页面标注该命令据 1954 年 3 月 1 日《人民日报》刊印，统购部分 1985 年改为合同定购。1981 年决议把统购统销列为引导资本主义工商业走上社会主义改造的“必要的措施”之一。
+  people: [zhou-enlai]
+  voices:
+    - { voice: doc, text: 一、生产粮食的农民应按国家规定的收购粮种、收购价格和计划收购的分配数量将余粮售给国家（政务院命令）, cite: ws-1953-11-grain-procurement, quote: true }
+    - { voice: official1981, text: 打击投机倒把、调整和改组工商业、进行“五反”运动、工人监督生产、粮棉统购统销等一系列必要的措施和步骤（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1953-11-grain-procurement, ws-1981-resolution]
+
+- id: 1954-02-10-party-unity
+  date: 1954-02-10
+  title: 七届四中全会《关于增强党的团结的决议》
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1954 年 2 月 10 日，中共七届四中全会根据毛泽东的建议通过《关于增强党的团结的决议》，批评部分干部“把自己所领导的地区和部门看作个人的资本和独立王国”，并规定避开组织和中央散布个人或小集团政治意见属“非法活动”。决议没有点名；1981 年决议把 1955 年 3 月党的全国代表会议总结为“反对野心家高岗、饶漱石”的斗争。
+  people: [mao-zedong, gao-gang, rao-shushi, liu-shaoqi]
+  voices:
+    - { voice: doc, text: 甚至把自己所領導的地區和部門看作個人的資本和獨立王國（七届四中全会决议）, cite: ws-1954-02-10-party-unity, quote: true }
+    - { voice: doc, text: 如果避開黨的組織和避開中央來散布個人的或小集團的政治意見，這在黨內就是一種非法活動（同上）, cite: ws-1954-02-10-party-unity, quote: true }
+  cites: [ws-1954-02-10-party-unity, ws-1981-resolution]
+
+- id: 1954-09-15-cotton-monopoly
+  date: 1954-09-15
+  title: 棉布计划收购、计划供应开始
+  lane: econ
+  weight: 1
+  summary: 1954 年 9 月 9 日，商业部部长曾山在政务院第 224 次会议上报告，提请从 9 月 15 日起实行棉布计划收购、计划供应，秋季新棉上市时实行棉花计划收购，理由是取缔投机囤积、防止“小生产者的惜售和消费者的争购”。
+  voices:
+    - { voice: doc, text: 商业部特提请政务院批准从1954年9月15日起，开始实行棉布计划收购、计划供应（曾山报告）, cite: ws-1954-09-09-cotton-procurement, quote: true }
+  cites: [ws-1954-09-09-cotton-procurement]
+
+- id: 1954-09-20-constitution
+  date: 1954-09-20
+  title: 一届人大一次会议通过第一部宪法
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 1954 年 9 月 20 日，第一届全国人民代表大会第一次会议通过《中华人民共和国宪法》。序言把建国到社会主义建成定为“过渡时期”，总任务是社会主义工业化和对农业、手工业、资本主义工商业的社会主义改造；第一条规定国家是“工人阶级领导的、以工农联盟为基础的人民民主国家”。宪法以 1949 年的共同纲领为基础。按周恩来四天后的报告，会议先听取了刘少奇关于宪法草案的报告，讨论三天后通过。
+  people: [liu-shaoqi]
+  voices:
+    - { voice: doc, text: 國家在過渡時期的總任務是逐步實現國家的社會主義工業化，逐步完成對農業、手工業和資本主義工商業的社會主義改造（1954 年宪法序言）, cite: ws-1954-09-20-constitution, quote: true }
+    - { voice: doc, text: 第一條　中華人民共和國是工人階級領導的、以工農聯盟為基礎的人民民主國家（同上）, cite: ws-1954-09-20-constitution, quote: true }
+    - { voice: official1981, text: 一九五二年，党中央按照毛泽东同志的建议，提出了过渡时期的总路线（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1954-09-20-constitution, ws-1981-resolution]
+
+- id: 1954-09-23-first-five-year
+  date: 1954-09-23
+  title: 周恩来政府工作报告：第一个五年计划“集中主要力量发展重工业”
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1954 年 9 月 23 日，周恩来在一届人大一次会议上作政府工作报告，称第一个五年计划从 1953 年开始，但计划的全部制订工作“还没有最后完成”。计划方针是集中力量发展冶金、燃料、动力、机械制造和化学等重工业，建立工业化和国防现代化的基础。
+  people: [zhou-enlai]
+  voices:
+    - { voice: official1966, text: 第一個五年計劃的方針是大家已經知道的，這就是：集中主要力量發展重工業，建立國家工業化和國防現代化的基礎（周恩来报告）, cite: ws-1954-09-23-zhou-report, quote: true }
+    - { voice: official1966, text: 製訂第一個五年計劃的全部工作現在還沒有最後完成，對於計劃的許多細節還在進行補充和修訂（同上）, cite: ws-1954-09-23-zhou-report, quote: true }
+  cites: [ws-1954-09-23-zhou-report]
+
+- id: 1955-03-gao-rao
+  date: 1955-03
+  title: 党的全国代表会议总结高岗、饶漱石事件
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1955 年 3 月，中共召开全国代表会议。1981 年决议称这次会议总结了“反对野心家高岗、饶漱石阴谋分裂党、篡夺党和国家最高权力”的斗争。一年前七届四中全会的团结决议没有点名，只批评把地区和部门当作“独立王国”。
+  people: [gao-gang, rao-shushi, mao-zedong]
+  voices:
+    - { voice: official1981, text: 一九五五年三月召开的党的全国代表会议，总结了反对野心家高岗、饶漱石阴谋分裂党、篡夺党和国家最高权力的重大斗争，增强了党的团结（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1981-resolution, ws-1954-02-10-party-unity]
+
+- id: 1955-07-01-sufan
+  date: 1955-07-01
+  title: 肃反运动：从胡风案到“肃清一切暗藏的反革命分子”
+  lane: mass
+  weight: 3
+  summary: 1955 年 7 月 1 日，中共中央发出《关于展开斗争肃清暗藏的反革命分子的指示》，各地机关“在肃清胡风反革命集团的斗争的基础上”展开肃反。7 月 24 日，最高人民检察院检察长张鼎丞在一届人大二次会议上说，暗藏的反革命分子在进行“更加阴险和更加隐蔽”的破坏。1956 年 1 月 31 日，最高人民法院院长董必武在政协会上报告，“从一九五五年夏在全国范围内”开展了这场斗争。
+  people: [hu-feng]
+  voices:
+    - { voice: doc, text: 七月一日中央發出《關於展開鬥爭肅清暗藏的反革命分子的指示》以後，全國各省、市、自治區、人民解放軍和中央一級黨的、政府和群眾團體的機關，都在肅清胡風反革命集團的鬥爭的基礎上，開始展開了肅清一切暗藏的反革命分子的鬥爭（中共中央 1955 年 8 月 25 日指示）, cite: ws-1955-08-25-purge-hidden, quote: true }
+    - { voice: official1966, text: 一个隐藏的反革命分子，就可以造成很大的破坏（张鼎丞，1955 年 7 月 24 日）, cite: ws-1955-07-24-procurator-speech, quote: true }
+    - { voice: official1966, text: 为了彻底粉碎残余反革命分子的活动，保障我国社会主义革命的顺利进行，我们从一九五五年夏在全国范围内开展了肃清一切暗藏反革命分子的斗争（董必武，1956 年 1 月 31 日）, cite: ws-1956-01-31-dong-counterrev-report, quote: true }
+  cites: [ws-1955-08-25-purge-hidden, ws-1955-07-24-procurator-speech, ws-1956-01-31-dong-counterrev-report]
+
+- id: 1955-08-25-five-percent
+  date: 1955-08-25
+  title: 中共中央肃反指示：“百分之五左右”
+  lane: mass
+  weight: 2
+  summary: 1955 年 8 月 25 日，中共中央发出《关于彻底肃清暗藏的反革命分子的指示》，估计机关等人员中“大约百分之五左右”是暗藏的反革命分子或其他坏分子。指示承认许多省市初步排队后发现有问题的人超过这个比例，又说这一比例“只是一种总的估计”，不可机械硬套；未轮到的地方“不许擅自展开运动”。
+  voices:
+    - { voice: doc, text: 但是同時，這些人員中，也有百分之幾（大約百分之五左右）是暗藏的反革命分子或其他壞分子（中共中央指示）, cite: ws-1955-08-25-purge-hidden, quote: true }
+    - { voice: doc, text: 現在有許多省市，在提高了警惕，對所有人員進行初步排隊之後，發現有問題的人超過“百分之五左右”這個比例（同上）, cite: ws-1955-08-25-purge-hidden, quote: true }
+    - { voice: doc, text: 還須指出，所謂“百分之五左右”的比例，只是一種總的估計，對於每個單位來說，可能有高有低，不可機械硬套（同上）, cite: ws-1955-08-25-purge-hidden, quote: true }
+  cites: [ws-1955-08-25-purge-hidden]
+
+- id: 1955-10-11-coop-high-tide
+  date: 1955-10-11
+  title: 七届六中全会农业合作化决议：批判“右倾机会主义”
+  lane: econ
+  weight: 3
+  place: 北京
+  summary: 1955 年 10 月 11 日，中共七届六中全会（扩大）根据毛泽东 7 月 31 日在省委、市委、区党委书记会议上的报告通过《关于农业合作化问题的决议》，宣布农村合作化的高潮“即将在全国到来”，批判此前“坚决收缩”、解散合作社的方针为右倾机会主义。1981 年决议认为 1955 年夏季以后的改造“要求过急，工作过粗，改变过快”。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 事实正如党中央的估计，农村中合作化的社会改革的高潮，即将在全国到来，有些地方已经到来了（七届六中全会决议）, cite: ws-1955-10-11-coop-resolution, quote: true }
+    - { voice: doc, text: 他们提出了“坚决收缩”的右倾机会主义的方针，并且在有些地方用强迫命令的方法大批地解散合作社（同上）, cite: ws-1955-10-11-coop-resolution, quote: true }
+    - { voice: official1981, text: 在一九五五年夏季以后，农业合作化以及对手工业和个体商业的改造要求过急，工作过粗，改变过快，形式也过于简单划一，以致在长期间遗留了一些问题（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1955-10-11-coop-resolution, ws-1981-resolution]
+
+- id: 1955-11-09-coop-charter
+  date: 1955-11-09
+  title: 《农业生产合作社示范章程（草案）》
+  lane: econ
+  weight: 1
+  summary: 1955 年 11 月 9 日，全国人大常委会第二十四次会议通过《农业生产合作社示范章程（草案）》，规定合作社按“自愿和互利的原则”组织，入社“决不能用强迫的方法”，同时要求逐步吸收全体劳动农民入社。
+  voices:
+    - { voice: doc, text: 农业生产合作社要达到这个目的，决不能用强迫的方法，应该用劝说的方法（示范章程草案）, cite: ws-1955-11-09-coop-model-charter, quote: true }
+    - { voice: doc, text: 农业生产合作社应该逐步地吸收全体劳动农民入社，使社会主义在农村中得到完全的胜利（同上）, cite: ws-1955-11-09-coop-model-charter, quote: true }
+  cites: [ws-1955-11-09-coop-model-charter]
+
+- id: 1956-01-10-beijing-joint-ownership
+  date: 1956-01-10
+  title: 北京全行业公私合营
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 按陈叔通 1956 年 1 月 31 日在政协二届二次会议上的报告，1956 年 1 月上旬北京的资本主义工商业改造“如巨浪激流似的”展开，1 月 10 日全部资本主义工商业过渡到国家资本主义高级形式，成为第一个实现全市全行业公私合营的城市。报告称全国各城市的资本主义工商业基本上实现了全行业公私合营。
+  voices:
+    - { voice: official1966, text: 今年1月上旬，北京市资本主义工商业的社会主义改造如巨浪激流似的汹涌地展开，于1月10日全部资本主义工商业就过渡到了国家资本主义的高级形式（陈叔通报告）, cite: ws-1956-01-31-chen-shutong-commerce, quote: true }
+    - { voice: official1966, text: 全国各城市的资本主义工商业基本上已纳入了国家资本主义高级形式，实现了全行业的公私合营（同上）, cite: ws-1956-01-31-chen-shutong-commerce, quote: true }
+  cites: [ws-1956-01-31-chen-shutong-commerce, ws-1981-resolution]
+
+- id: 1956-01-intellectuals
+  date: 1956-01
+  title: 中共中央知识分子问题会议
+  lane: culture
+  weight: 2
+  place: 北京
+  summary: 1956 年 1 月，中共中央召开知识分子问题会议。郭沫若 1 月 31 日在政协会上说，会议决定对科学研究、工程技术、医药卫生、教育、文艺进行全面规划，使最急需的科学部门“在12年内接近世界的先进水平”。1981 年决议认为这次会议和随后的“双百”方针规定了对知识分子的正确政策。
+  people: [zhou-enlai, guo-moruo]
+  voices:
+    - { voice: official1966, text: 使各种最重要、最必需的知识部门，特别是最急需的科学部门，能在12年内接近世界的先进水平（郭沫若报告）, cite: ws-1956-01-31-guo-intellectuals, quote: true }
+    - { voice: official1981, text: 一九五六年一月党中央召开的知识分子问题会议和随后提出的“百花齐放、百家争鸣”方针，规定了对知识分子和教育科学文化工作的正确政策（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1956-01-31-guo-intellectuals, ws-1981-resolution]
+
+- id: 1956-04-ten-relationships
+  date: 1956-04
+  title: 毛泽东《论十大关系》
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 1956 年 4 月，毛泽东发表《论十大关系》的讲话。1981 年决议称这篇讲话初步总结了社会主义建设的经验，提出探索适合中国国情的建设道路的任务。讲话原文不在本站语料中。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1981, text: 一九五六年四月，毛泽东同志发表《论十大关系》的讲话，初步总结了我国社会主义建设的经验，提出了探索适合我国国情的社会主义建设道路的任务（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1981-resolution]
+
+- id: 1956-06-30-advanced-coop
+  date: 1956-06-30
+  title: 《高级农业生产合作社示范章程》
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1956 年 6 月 30 日，一届人大三次会议通过《高级农业生产合作社示范章程》，规定把社员私有的主要生产资料转为合作社集体所有，组织集体劳动，实行“各尽所能，按劳取酬”。
+  voices:
+    - { voice: doc, text: 第二条　农业生产合作社按照社会主义的原则，把社员私有的主要生产资料转为合作社集体所有，组织集体劳动，实行“各尽所能，按劳取酬”，不分男女老少，同工同酬（高级社示范章程）, cite: ws-1956-06-30-advanced-coop-charter, quote: true }
+  cites: [ws-1956-06-30-advanced-coop-charter]
+
+- id: 1956-09-eighth-congress
+  date: 1956-09-15
+  end: 1956-09-27
+  title: 中共八大：国内主要矛盾的新提法
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 1956 年 9 月 15 日至 27 日，中共第八次全国代表大会举行。刘少奇作政治报告，提出“百花齐放，百家争鸣”方针。9 月 27 日大会决议称，国内的主要矛盾已经是人民对建立先进工业国的要求同落后农业国现实之间的矛盾，实质是“先进的社会主义制度同落后的社会生产力之间的矛盾”。1957 年反右以后，毛泽东改为把无产阶级同资产阶级的矛盾定为主要矛盾（见 1981 年决议）。
+  people: [liu-shaoqi, mao-zedong, zhou-enlai]
+  voices:
+    - { voice: doc, text: 这一矛盾的实质，在我国社会主义制度已经建立的情况下，也就是先进的社会主义制度同落后的社会生产力之间的矛盾（八大决议）, cite: ws-1956-09-27-eighth-resolution, quote: true }
+    - { voice: official1966, text: 为了繁荣我国的科学和艺术，使它们为社会主义建设服务，党中央提出了“百花齐放，百家争鸣”的方针（刘少奇政治报告）, cite: ws-1956-09-15-eighth-report, quote: true }
+    - { voice: official1981, text: 八大的路线是正确的，它为新时期社会主义事业的发展和党的建设指明了方向（1981 年决议）, cite: ws-1981-resolution, quote: true }
+    - { voice: official1981, text: 发展了他在一九五七年反右派斗争以后提出的无产阶级同资产阶级的矛盾仍然是我国社会的主要矛盾的观点（同上）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1956-09-15-eighth-report, ws-1956-09-27-eighth-resolution, ws-1956-09-16-zhou-second-plan, ws-1981-resolution]
+
+- id: 1957-02-contradictions
+  date: 1957-02
+  title: 毛泽东讲正确处理人民内部矛盾
+  lane: ideology
+  weight: 2
+  place: 北京
+  summary: 1957 年 2 月和 3 月，毛泽东在扩大的最高国务会议和中央召开的宣传工作会议上作了两个报告。4 月 27 日的中央整风指示把这两个报告定为整风运动的“思想的指导”。1981 年决议称毛泽东 1957 年春提出要区分和处理两类不同性质的矛盾，把正确处理人民内部矛盾作为国家政治生活的主题。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 这次整风运动应当以毛泽东同志今年二月在扩大的最高国务会议上和三月在中央召开的宣传会议上代表中央所作的两个报告为思想的指导（中共中央整风指示）, cite: ws-1957-04-27-rectification, quote: true }
+    - { voice: official1981, text: 毛泽东同志在一九五七年春提出必须正确区分和处理社会主义社会两类不同性质的社会矛盾，把正确处理人民内部矛盾作为国家政治生活的主题（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1957-04-27-rectification, ws-1981-resolution]
+
+- id: 1957-03-25-strikes
+  date: 1957-03-25
+  title: 中共中央关于处理罢工罢课问题的指示
+  lane: mass
+  weight: 2
+  summary: 1957 年 3 月 25 日，中共中央发出指示，承认近半年内工人罢工、学生罢课和群众游行请愿“显著的增加”，全国约一万多工人罢工、一万多学生罢课。指示把原因首先归于“领导者的官僚主义”，并说在官僚主义极端严重、群众没有民主权利时，罢工罢课“不可避免的，甚至是必要的”。
+  voices:
+    - { voice: doc, text: 全国各地，大大小小，大约共有一万多工人罢工，一万多学生罢课（中共中央指示）, cite: ws-1957-03-25-strikes-directive, quote: true }
+    - { voice: doc, text: 这类事件的发生，首先是由于我们的工作没有作好，特别是由于领导者的官僚主义（同上）, cite: ws-1957-03-25-strikes-directive, quote: true }
+    - { voice: doc, text: 那么，群众采取罢工罢课游行请愿等类非常方式就会成为不可避免的，甚至是必要的（同上）, cite: ws-1957-03-25-strikes-directive, quote: true }
+  cites: [ws-1957-03-25-strikes-directive]
+
+- id: 1957-04-27-rectification
+  date: 1957-04-27
+  title: 中共中央整风运动指示
+  lane: center
+  weight: 3
+  summary: 1957 年 4 月 27 日，中共中央发出整风运动指示（5 月 1 日《人民日报》刊出），要求全党开展反官僚主义、反宗派主义、反主观主义的整风，称这应是“既严肃认真又和风细雨”的思想教育运动。1981 年决议认为这一年开展整风、发动群众提批评建议是“发扬社会主义民主的正常步骤”。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 几年以来，在我们党内，脱离群众和脱离实际的官僚主义、宗派主义和主观主义，有了新的滋长（中共中央指示）, cite: ws-1957-04-27-rectification, quote: true }
+    - { voice: doc, text: 这次整风运动，应该是一次既严肃认真又和风细雨的思想教育运动（同上）, cite: ws-1957-04-27-rectification, quote: true }
+    - { voice: official1981, text: 这一年在全党开展整风运动，发动群众向党提出批评建议，是发扬社会主义民主的正常步骤（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1957-04-27-rectification, ws-1981-resolution]
+
+- id: 1957-06-08-anti-rightist
+  date: 1957-06-08
+  title: 中共中央“组织力量准备反击右派分子进攻”，反右开始
+  lane: center
+  weight: 3
+  summary: 1957 年 6 月 8 日，中共中央发出党内指示（维基文库注明为毛泽东起草），称“反动分子猖狂进攻”，要求以大字报为武器，组织各民主党派开座谈会让“正反两面意见都让其暴露”，并“巧妙地推动左中分子发言，反击右派”。1981 年决议认为对右派的反击“完全正确和必要”，但斗争“被严重地扩大化了”。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 反动分子人数不过百分之几，最积极疯狂分子不过百分之一，故不足怕（中共中央指示）, cite: ws-1957-06-08-counter-rightists, quote: true }
+    - { voice: doc, text: 要组织每个党派自己开座谈会，左中右的人都参加，正反两面意见都让其暴露，派记者予以报道（同上）, cite: ws-1957-06-08-counter-rightists, quote: true }
+    - { voice: doc, text: 我们巧妙地推动左中分子发言，反击右派（同上）, cite: ws-1957-06-08-counter-rightists, quote: true }
+    - { voice: official1981, text: 但是反右派斗争被严重地扩大化了，把一批知识分子、爱国人士和党内干部错划为“右派分子”，造成了不幸的后果（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1957-06-08-counter-rightists, ws-1981-resolution]
+
+- id: 1957-09-04-no-rightists-workers
+  date: 1957-09-04
+  title: 中共中央通知：工人、农民中不划右派分子
+  lane: mass
+  weight: 1
+  summary: 1957 年 9 月 4 日，中共中央通知，农村社会主义教育和工厂整风中，对地主、富农、反革命和其他坏分子按原来成份对待或恢复原来的“帽子”，“但不要叫右派分子”。
+  voices:
+    - { voice: doc, text: 已经改变了成分又进行捣乱破坏的，可以分别恢复他原来的成分，戴上原来的帽子，但不要叫右派分子（中共中央通知）, cite: ws-1957-09-04-no-rightists-workers, quote: true }
+  cites: [ws-1957-09-04-no-rightists-workers]
+
+- id: 1957-10-15-rightist-criteria
+  date: 1957-10-15
+  title: 中共中央下发《划分右派分子的标准》
+  lane: center
+  weight: 2
+  summary: 1957 年 10 月 15 日，中共中央下发统一的《划分右派分子的标准》，称各地自定标准“有畸轻畸重”，右派名单须报县一级以上党的领导机关审批。通知认为反右“一般是进行得健康的”，同时承认“有划多了和划少了的情况”；标准规定界于右派和中右之间的疑似分子在查实前“一概不划为右派分子”。
+  voices:
+    - { voice: doc, text: 全国反右派斗争一般是进行得健康的，所划的右派分子，一般是适当的，但是也有划多了和划少了的情况（中共中央通知）, cite: ws-1957-10-15-rightist-criteria, quote: true }
+    - { voice: doc, text: 凡是各单位确定为右派分子的名单，必须报告县一级或县一级以上的党的领导机关审查批准（同上）, cite: ws-1957-10-15-rightist-criteria, quote: true }
+    - { voice: official1981, text: 但是反右派斗争被严重地扩大化了，把一批知识分子、爱国人士和党内干部错划为“右派分子”，造成了不幸的后果（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1957-10-15-rightist-criteria, ws-1981-resolution]

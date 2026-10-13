@@ -1,0 +1,338 @@
+# 1958–1965 first batch (M5-3): from the wikisource texts in research/manifests/m5-ws-1.yaml and m5-ws-2.yaml
+# and the 1981 resolution.
+
+- id: 1958-01-09-hukou
+  date: 1958-01-09
+  title: 《户口登记条例》
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1958 年 1 月 9 日，全国人大常委会通过《中华人民共和国户口登记条例》，城乡统一实行户口登记，公民迁出须申报、领取迁移证件。公安部部长罗瑞卿在草案说明中说，原有制度的缺点之一是“没有规定制止农村人口盲目流入城市”。
+  people: [luo-ruiqing]
+  voices:
+    - { voice: doc, text: 第十条　公民迁出本戶口管轄区，由本人或者戶主在迁出前向戶口登記机关申报迁出登記，領取迁移証件，注銷戶口（户口登记条例）, cite: ws-1958-01-09-hukou-regulations, quote: true }
+    - { voice: official1966, text: 例如：公共户口管理不健全，没有规定制止农村人口盲目流入城市和控制迁往边防地区的户口（罗瑞卿说明）, cite: ws-1958-01-09-hukou-explanation, quote: true }
+  cites: [ws-1958-01-09-hukou-regulations, ws-1958-01-09-hukou-explanation]
+
+- id: 1958-02-25-chen-dazhi
+  date: 1958-02-25
+  title: 监察部对“右派分子”陈达之的结论
+  lane: mass
+  weight: 1
+  place: 北京
+  summary: 1958 年 2 月 25 日，监察部整风领导小组对本部研究室副主任陈达之作出结论，开除党籍、撤职、留用察看并降低待遇。结论列举的“罪状”包括：散布合作化后农民生活没有改善、统购统销留粮过少；反对中央对“广西饿死人事件”的处理，认为有关地委、县委书记应杀头或判刑；1957 年 5 月为胡风“喊冤”。这是一份处分方的文件，所列言论是否属实、原话如何，本站没有其他来源。
+  people: [hu-feng]
+  voices:
+    - { voice: doc, text: 他到处散布农业合作化以后农民生活没有改善和粮食统购统销留粮过少等谬论（监察部结论）, cite: ws-1958-02-25-rightist-chen-dazhi, quote: true }
+    - { voice: doc, text: 他反对中央对广西饿死人事件的处理，认为有关地、县委书记应该杀头或判刑（同上）, cite: ws-1958-02-25-rightist-chen-dazhi, quote: true }
+    - { voice: doc, text: 根据上述情况，决定开除其党籍，撤销研究室副主任职务，留用察看，降低原有待遇（同上）, cite: ws-1958-02-25-rightist-chen-dazhi, quote: true }
+  cites: [ws-1958-02-25-rightist-chen-dazhi]
+
+- id: 1958-general-line
+  date: 1958
+  title: 八大二次会议通过社会主义建设总路线，“大跃进”发动
+  lane: center
+  weight: 3
+  summary: 1958 年，中共八大第二次会议通过“鼓足干劲、力争上游、多快好省地建设社会主义”的总路线（八届八中全会决议称这是毛泽东提出的路线），随后“大跃进”全面展开。1981 年决议称，总路线提出后“轻率地发动了‘大跃进’运动和农村人民公社化运动”，高指标、瞎指挥、浮夸风和“共产风”泛滥。会议月份本站来源未载。
+  people: [mao-zedong]
+  voices:
+    - { voice: official1966, text: 一九五八年党的第八届全国代表大会第二次会议所通过的鼓足干劲、力争上游、多快好省地建设社会主义的总路线，是毛泽东同志总结了我国社会主义建设的经验而提出的一条创造性的马克思列宁主义的路线（八届八中全会决议，1959）, cite: ws-1959-08-16-defend-general-line, quote: true }
+    - { voice: official1981, text: 就在总路线提出后轻率地发动了“大跃进”运动和农村人民公社化运动，使得以高指标、瞎指挥、浮夸风和“共产风”为主要标志的左倾错误严重地泛滥开来（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1959-08-16-defend-general-line, ws-1981-resolution]
+
+- id: 1958-08-29-communes
+  date: 1958-08-29
+  title: 北戴河会议：《关于在农村建立人民公社问题的决议》
+  lane: center
+  weight: 3
+  place: 北戴河
+  summary: 1958 年 8 月 29 日，中共中央政治局北戴河扩大会议通过在农村建立人民公社的决议。决议称“组织军事化、行动战斗化、生活集体化”已成为群众性的行动，建立“工农商学兵互相结合”的人民公社是“提前建成社会主义并逐步过渡到共产主义”的基本方针；社的规模一般一乡一社、两千户左右，并社初期可以“上动下不动”。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 打破社界、乡界、县界的大协作，组织军事化、行动战斗化、生活集体化成为群众性的行动，进一步提高了五亿农民的共产主义觉悟（北戴河决议）, cite: ws-1958-08-29-commune-resolution, quote: true }
+    - { voice: doc, text: 在目前形势下，建立农林牧副渔全面发展、工农商学兵互相结合的人民公社，是指导农民加速社会主义建设，提前建成社会主义并逐步过渡到共产主义所必须采取的基本方针（同上）, cite: ws-1958-08-29-commune-resolution, quote: true }
+    - { voice: doc, text: 二、社的组织规模，就目前说，一般以一乡一社、两千户左右较为合适（同上）, cite: ws-1958-08-29-commune-resolution, quote: true }
+  cites: [ws-1958-08-29-commune-resolution, ws-1981-resolution]
+
+- id: 1958-11-zhengzhou-wuchang
+  date: 1958-11-02
+  end: 1958-11-27
+  title: 郑州会议与武昌会议
+  lane: center
+  weight: 2
+  summary: 按八届六中全会公报，1958 年 11 月 2 日至 10 日，毛泽东在郑州召集部分中央和地方领导人开会；11 月 21 日至 27 日又在武昌召集部分中央领导人和各省、市、自治区党委第一书记开会，为六中全会作准备。1981 年决议称，从 1958 年底到 1959 年 7 月庐山会议前期，毛泽东和党中央曾努力纠正已经觉察到的错误。
+  people: [mao-zedong]
+  voices:
+    - { voice: doc, text: 在六中全会之前，十一月二日至十日，毛泽东同志曾在郑州召集了有部分中央领导同志和部分地方领导同志参加的会议（八届六中全会公报）, cite: ws-1958-12-10-sixth-plenum, quote: true }
+    - { voice: official1981, text: 从一九五八年底到一九五九年七月中央政治局庐山会议前期，毛泽东同志和党中央曾经努力领导全党纠正已经觉察到的错误（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1958-12-10-sixth-plenum, ws-1981-resolution]
+
+- id: 1958-12-sixth-plenum
+  date: 1958-11-28
+  end: 1958-12-10
+  title: 八届六中全会（武昌）：人民公社决议，毛泽东不作下届国家主席候选人
+  lane: center
+  weight: 3
+  place: 武昌
+  summary: 1958 年 11 月 28 日至 12 月 10 日，中共八届六中全会在武昌举行，通过《关于人民公社若干问题的决议》，并讨论“不提名毛泽东同志作下届中华人民共和国主席候选人”。决议批评有人“太性急了”，以为公社现在就可放弃按劳分配、实行按需分配。公报预计 1958 年钢产 1100 万吨左右、粮食 7500 亿斤左右，提出 1959 年钢 1800 万吨、粮食 10500 亿斤左右的指标。1959 年 8 月八中全会根据“去年农业产量的核实情况”调低了 1959 年计划。
+  people: [mao-zedong, liu-shaoqi]
+  voices:
+    - { voice: doc, text: 八届六中全会的主要议程是：关于人民公社问题，关于一九五九年国民经济计划问题，关于不提名毛泽东同志作下届中华人民共和国主席候选人问题（六中全会公报）, cite: ws-1958-12-10-sixth-plenum, quote: true }
+    - { voice: doc, text: 这是我们自己队伍中的好心人，只是太性急了，他们把高度发展的现代工业等等看得非常容易，把全面地实现社会主义的全民所有制以至实现共产主义看得非常容易（关于人民公社若干问题的决议）, cite: ws-1958-12-10-commune-questions, quote: true }
+    - { voice: doc, text: 钢产量将从今年预计产量一千一百万吨左右增加到一千八百万吨左右（六中全会公报）, cite: ws-1958-12-10-sixth-plenum, quote: true }
+  cites: [ws-1958-12-10-sixth-plenum, ws-1958-12-10-commune-questions, ws-1959-08-16-thrift-resolution]
+
+- id: 1959-04-05-seventh-plenum
+  date: 1959-04-02
+  end: 1959-04-05
+  title: 八届七中全会（上海）
+  lane: center
+  weight: 1
+  place: 上海
+  summary: 1959 年 4 月 2 日至 5 日，中共八届七中全会在上海举行，通过按六中全会“四大指标”（钢 1800 万吨、煤 3.8 亿吨、粮食 10500 亿斤、棉花 1 亿担）编制的 1959 年国民经济计划草案，检查人民公社整顿工作，决定国家机构领导人员候选人的提名。公报没有公布候选人名单。
+  voices:
+    - { voice: doc, text: 这个国民经济计划草案，是根据八届六中全会提出的钢产量一千八百万吨、煤产量三亿八千万吨、粮食产量一万零五百亿斤、棉花产量一亿担这四大指标和今年第一季度生产和建设的情况而编制的（七中全会公报）, cite: ws-1959-04-05-seventh-plenum, quote: true }
+  cites: [ws-1959-04-05-seventh-plenum]
+
+- id: 1959-07-14-peng-letter
+  date: 1959-07-14
+  title: 庐山会议：彭德怀致毛泽东的“意见书”
+  lane: center
+  weight: 3
+  place: 庐山
+  summary: 1959 年 7 月中共中央政治局在庐山举行扩大会议。7 月 14 日彭德怀写信给毛泽东（八中全会决议称“意见书”）；按八中全会决议，信中把群众的热情说成“小资产阶级的狂热性”。信的原文不在本站语料中；以下说法出自八中全会对彭的决议。1981 年决议称庐山会议后期毛泽东“错误地发动了对彭德怀同志的批判”。
+  people: [peng-dehuai, mao-zedong]
+  voices:
+    - { voice: official1966, text: 彭德怀在庐山会议前期，即一九五九年七月十四日写给毛泽东同志的意见书，和他在整个庐山会议期间的一些发言和谈话，是代表右倾机会主义分子向党进攻的纲领（八届八中全会决议）, cite: ws-1959-08-16-peng-resolution, quote: true }
+    - { voice: official1966, text: 他在意见书中公然把党和几亿人民的革命热情污蔑为“小资产阶级的狂热性”（同上）, cite: ws-1959-08-16-peng-resolution, quote: true }
+    - { voice: official1981, text: 但是，庐山会议后期，毛泽东同志错误地发动了对彭德怀同志的批判，进而在全党错误地开展了“反右倾”斗争（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1959-08-16-peng-resolution, ws-1981-resolution]
+
+- id: 1959-08-16-eighth-plenum
+  date: 1959-08-16
+  title: 八届八中全会：彭、黄、张、周“反党集团”决议与“反右倾”
+  lane: center
+  weight: 3
+  summary: 1959 年 8 月 16 日，中共八届八中全会通过关于以彭德怀为首的“反党集团”的决议和《为保卫党的总路线、反对右倾机会主义而斗争》。决议把彭德怀、黄克诚、张闻天、周小舟定为“右倾机会主义反党集团”，并称彭、黄早与高岗结成联盟，张闻天参加过高岗的宗派活动。此后全党开展“反右倾”斗争。1981 年决议称这一决议“是完全错误的”。
+  people: [peng-dehuai, huang-kecheng, zhang-wentian, zhou-xiaozhou, mao-zedong, gao-gang]
+  voices:
+    - { voice: official1966, text: 在我们党内出现了以彭德怀为首、包括黄克诚、张闻天、周小舟等一小批右倾机会主义反党集团反对党的总路线、反对大跃进、反对人民公社的猖狂进攻（八届八中全会决议）, cite: ws-1959-08-16-peng-resolution, quote: true }
+    - { voice: official1966, text: 现在已经查明，彭德怀和黄克诚早就同高岗形成了反党的联盟，并且是这一联盟中的重要成员（同上）, cite: ws-1959-08-16-peng-resolution, quote: true }
+    - { voice: official1966, text: 右倾机会主义分子的攻击的矛头，是针对着党中央和党的领袖毛泽东同志，针对着无产阶级和劳动人民的社会主义事业（为保卫党的总路线而斗争）, cite: ws-1959-08-16-defend-general-line, quote: true }
+    - { voice: official1981, text: 八届八中全会关于所谓“彭德怀、黄克诚、张闻天、周小舟反党集团”的决议是完全错误的（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1959-08-16-peng-resolution, ws-1959-08-16-defend-general-line, ws-1981-resolution]
+
+- id: 1959-08-16-targets-cut
+  date: 1959-08-16
+  title: 八中全会调低 1959 年指标：钢由 1800 万吨改为 1200 万吨
+  lane: econ
+  weight: 2
+  summary: 同一次全会通过《关于开展增产节约运动的决议》，根据“去年农业产量的核实情况”和灾害情况，建议把 1959 年不含土钢的钢产量定为 1200 万吨（原定 1800 万吨），土钢不再列入国家计划。决议同时称调整后的计划“仍然是一个继续跃进的计划”。
+  voices:
+    - { voice: doc, text: 根据去年农业产量的核实情况、今年上半年国民经济计划的完成情况和最近时期的灾害情况，八届八中全会建议国务院向全国人民代表大会常务委员会对一九五九年的计划提出适当的调整：把不包括土钢的钢产量定为一千二百万吨（增产节约决议）, cite: ws-1959-08-16-thrift-resolution, quote: true }
+    - { voice: doc, text: 很明显，调整以后的国民经济计划，仍然是一个继续跃进的计划（同上）, cite: ws-1959-08-16-thrift-resolution, quote: true }
+  cites: [ws-1959-08-16-thrift-resolution]
+
+- id: 1959-1961-hardship
+  date: 1959
+  end: 1961
+  title: 1959–1961 年的严重困难（大饥荒）
+  lane: econ
+  weight: 3
+  summary: 1959 年到 1961 年，农业严重减产，1960 年中共中央的批示已提到“灾荒严重、副食品供应十分紧张的地区”。当时和后来的官方文件对原因的说法不同。1961 年九中全会公报称农业减产是因为连续两年遭到“百年未有的严重自然灾害”。1962 年刘少奇在七千人大会的书面报告中说，减产一方面由于自然灾害，另一方面“在很大程度上”由于工作和作风上的错误。1981 年决议称“主要由于‘大跃进’和‘反右倾’的错误”，再加上自然灾害和苏联撕毁合同。死亡人数的各种估算见专题页（M5-4）。
+  people: [mao-zedong, liu-shaoqi]
+  voices:
+    - { voice: official1966, text: 农业方面，由于在一九五九年的严重的自然灾害之后，一九六○年又遭到百年未有的严重自然灾害，农业生产计划没有完成（八届九中全会公报，1961）, cite: ws-1961-01-18-ninth-plenum, quote: true }
+    - { voice: official1966, text: 一九五九年和一九六○年农业的严重减产，一九六一年工业产量的被迫下降，以及目前的许多困难，一方面，是由于自然灾害的影响，另一方面，在很大程度上是由于上述工作上和作风上的错误所引起的（刘少奇书面报告，1962）, cite: ws-1962-01-27-liu-7000, quote: true }
+    - { voice: official1981, text: 主要由于“大跃进”和“反右倾”的错误，加上当时自然灾害和苏联政府背信弃义地撕毁合同，我国国民经济在一九五九年到一九六一年发生严重困难，国家和人民遭到重大损失（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1961-01-18-ninth-plenum, ws-1962-01-27-liu-7000, ws-1981-resolution, ws-1960-11-09-special-supply]
+
+- id: 1960-04-06-tan-report
+  date: 1960-04-06
+  title: 谭震林报告：争取提前实现农业发展纲要
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 1960 年 4 月 6 日，国务院副总理谭震林在二届人大二次会议上作关于提前实现 1956–1967 年全国农业发展纲要的报告，称 1958、1959 两年粮食增长百分之四十六、棉花增长百分之四十七。不到一年后，九中全会公报承认 1960 年农业生产计划没有完成。
+  people: [tan-zhenlin]
+  voices:
+    - { voice: official1966, text: 农村人民公社化的实现，为生产力的更大发展开辟了广阔的道路，使我们在一九五八年和一九五九年取得了农业生产的连续大跃进，粮食两年增长百分之四十六，棉花两年增长百分之四十七（谭震林报告）, cite: ws-1960-04-06-tan-agri-report, quote: true }
+  cites: [ws-1960-04-06-tan-agri-report, ws-1961-01-18-ninth-plenum]
+
+- id: 1960-11-09-special-supply
+  date: 1960-11-09
+  title: 中央批转在京高级干部和高级知识分子副食品“特需供应”报告
+  lane: econ
+  weight: 1
+  summary: 1960 年 11 月 9 日，中共中央批转齐燕铭关于对在京高级干部和高级知识分子在副食品供应方面给予照顾的报告，要求各地统一特需供应规定，范围“宜定得小些”，在“灾荒严重、副食品供应十分紧张的地区”控制得更紧；对党外民主人士和高级知识分子可稍宽，对党内干部从严。
+  voices:
+    - { voice: doc, text: 齐燕铭同志关于对在京高级干部和高级知识分子在副食品供应方面给予照顾问题的报告，已经中央批准，发给在京各单位遵照执行（中共中央批示）, cite: ws-1960-11-09-special-supply, quote: true }
+    - { voice: doc, text: 在灾荒严重、副食品供应十分紧张的地区，要以控制得紧些为有利（同上）, cite: ws-1960-11-09-special-supply, quote: true }
+    - { voice: doc, text: 实行副食品特需供应的照顾面，对党外民主人士和高级知识分子可以稍宽，对党内干部必须从严（同上）, cite: ws-1960-11-09-special-supply, quote: true }
+  cites: [ws-1960-11-09-special-supply]
+
+- id: 1961-01-ninth-plenum
+  date: 1961-01-14
+  end: 1961-01-18
+  title: 八届九中全会：“大办农业、大办粮食”，转向调整
+  lane: econ
+  weight: 3
+  place: 北京
+  summary: 1961 年 1 月 14 日至 18 日，中共八届九中全会在北京举行，决定 1961 年集中力量加强农业，“全党全民大办农业、大办粮食”，重工业缩小基本建设规模、调整速度，采取“巩固、充实和提高的方针”。1981 年决议把 1960 年冬起的纠正和“调整、巩固、充实、提高”方针视为这一阶段的“重要转变”，称其在刘少奇、周恩来、陈云、邓小平等主持下执行。
+  people: [mao-zedong, liu-shaoqi, zhou-enlai, chen-yun, deng-xiaoping, li-fuchun]
+  voices:
+    - { voice: doc, text: 一九六一年全国必须集中力量加强农业战线，贯彻执行国民经济以农业为基础，全党全民大办农业、大办粮食的方针（九中全会公报）, cite: ws-1961-01-18-ninth-plenum, quote: true }
+    - { voice: doc, text: 一九六一年应当适当地缩小基本建设的规模，调整发展的速度，在已有的胜利的基础上，采取巩固、充实和提高的方针（同上）, cite: ws-1961-01-18-ninth-plenum, quote: true }
+    - { voice: official1981, text: 一九六〇年冬，党中央和毛泽东同志开始纠正农村工作中的左倾错误，并且决定对国民经济实行“调整、巩固、充实、提高”的方针（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1961-01-18-ninth-plenum, ws-1981-resolution]
+
+- id: 1962-01-seven-thousand
+  date: 1962-01-27
+  title: 七千人大会：刘少奇书面报告
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 1962 年 1 月，中共中央在北京召开扩大的中央工作会议（“七千人大会”），地委、县委和重要厂矿的负责人也参加。1 月 27 日刘少奇代表中央提出书面报告，列举指标过高、基建战线过长、“共产风”、分散主义等错误，称“首先要负责的是中央”，其次是省一级。维基文库注明这份书面报告“有删节”。1981 年决议称会议“初步总结”了“大跃进”的经验教训。
+  people: [liu-shaoqi, mao-zedong]
+  voices:
+    - { voice: official1966, text: 中央认为，有必要在这一次扩大的中央工作会议上指出，对于这几年来的工作中的缺点和错误，首先要负责的是中央（刘少奇书面报告）, cite: ws-1962-01-27-liu-7000, quote: true }
+    - { voice: official1966, text: 第一，工农业生产的计划指标过高，基本建设的战线过长，使国民经济各部门的比例关系，消费和积累的比例关系，发生了严重不协调的现象（同上）, cite: ws-1962-01-27-liu-7000, quote: true }
+    - { voice: official1981, text: 一九六二年一月召开的有七千人参加的扩大的中央工作会议，初步总结了“大跃进”中的经验教训，开展了批评和自我批评（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1962-01-27-liu-7000, ws-1981-resolution]
+
+- id: 1962-09-tenth-plenum
+  date: 1962-09-24
+  end: 1962-09-27
+  title: 八届十中全会：阶级斗争存在于“整个历史时期”
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 1962 年 9 月 24 日至 27 日，中共八届十中全会在北京举行。公报称在由资本主义过渡到共产主义的“整个历史时期”存在无产阶级和资产阶级的阶级斗争、两条道路的斗争，“被推翻的反动统治阶级”总是企图复辟。1981 年决议认为毛泽东在这次全会上把阶级斗争“扩大化和绝对化”，并断言资产阶级是党内产生修正主义的根源。
+  people: [mao-zedong]
+  concepts: [class-struggle, revisionism]
+  voices:
+    - { voice: doc, text: 八届十中全会指出，在无产阶级革命和无产阶级专政的整个历史时期，在由资本主义过渡到共产主义的整个历史时期（这个时期需要几十年，甚至更多的时间）存在着无产阶级和资产阶级之间的阶级斗争，存在着社会主义和资本主义这两条道路的斗争（十中全会公报）, cite: ws-1962-09-27-tenth-plenum, quote: true }
+    - { voice: official1981, text: 在一九六二年九月的八届十中全会上，毛泽东同志把社会主义社会中一定范围内存在的阶级斗争扩大化和绝对化（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1962-09-27-tenth-plenum, ws-1981-resolution]
+
+- id: 1962-09-sixty-articles
+  date: 1962-09-27
+  title: 《农村人民公社工作条例修正草案》（“六十条”）：生产队为基本核算单位
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1962 年 9 月 27 日，八届十中全会通过《农村人民公社工作条例修正草案》，规定人民公社的基本核算单位是生产队，这一制度定下来以后“至少三十年不变”；生产队的土地包括社员自留地一律不准出租和买卖。1981 年决议称调整时期制定的各项工作条例草案“至今对我们仍然有重要的借鉴作用”。
+  voices:
+    - { voice: doc, text: 二十、生产队是人民公社中的基本核算单位（六十条修正草案）, cite: ws-1962-09-27-sixty-articles, quote: true }
+    - { voice: doc, text: 这种制度定下来以后，至少三十年不变（同上）, cite: ws-1962-09-27-sixty-articles, quote: true }
+    - { voice: official1981, text: 党中央在调整国民经济过程中陆续制定的农村人民公社工作条例草案和有关工业、商业、教育、科学、文艺等方面的工作条例草案，比较系统地总结了社会主义建设的经验（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1962-09-27-sixty-articles, ws-1981-resolution]
+
+- id: 1962-10-20-rightists-resettled
+  date: 1962-10-20
+  title: 中央统战部关于摘帽右派与右派分子精简安置的规定
+  lane: mass
+  weight: 1
+  summary: 1962 年 10 月 20 日，中央统战部关于第二次全国改造右派分子工作会议的报告附有规定（经中共中央批发）：精简中对摘掉右派帽子的人员和右派分子“既不要抱着卸包袱的态度”，也“不能特殊照顾”，按一般精简原则安置；文件中的人数以“××”代替。
+  voices:
+    - { voice: doc, text: 在精简中，对于摘掉右派帽子的人员和右派分子，既不要抱着卸包袱的态度，借机一概推出不管，也不能特殊照顾，应当按照一般精简原则处理和安置（统战部规定）, cite: ws-1962-10-20-rightist-removal-rules, quote: true }
+  cites: [ws-1962-10-20-rightist-removal-rules]
+
+- id: 1963-03-01-five-anti
+  date: 1963-03-01
+  title: 中共中央“五反”运动指示
+  lane: mass
+  weight: 2
+  summary: 1963 年 3 月 1 日，中共中央发出指示（中发〔63〕133 号），在全国开展增产节约和反对贪污盗窃、反对投机倒把、反对铺张浪费、反对分散主义、反对官僚主义的“五反”运动，称“新生长起来一批资产阶级分子和一股资本主义势力”。指示把它与 1952 年的“三反”“五反”相比。
+  concepts: [class-struggle]
+  voices:
+    - { voice: doc, text: 尤其严重的是，贪污盗窃国家资财、投机倒把、长途贩运、私设地下工厂、牟取暴利等破坏社会主义计划经济的资本主义的活动猖狂起来了，并且新生长起来一批资产阶级分子和一股资本主义势力（中共中央指示）, cite: ws-1963-03-01-five-anti, quote: true }
+    - { voice: doc, text: 一九五二年在全国范围内进行的“三反”、“五反”运动，打退了资产阶级的猖狂进攻（同上）, cite: ws-1963-03-01-five-anti, quote: true }
+  cites: [ws-1963-03-01-five-anti]
+
+- id: 1963-socialist-education
+  date: 1963
+  end: 1965
+  title: 城乡社会主义教育运动（“四清”）
+  lane: mass
+  weight: 3
+  summary: 1963 年至 1965 年，部分农村和少数城市基层开展社会主义教育运动，农村的运动以“四清”为内容，城市同时开展 1963 年 3 月部署的“五反”。1964 年中央转发王光美的桃园经验；1965 年 1 月“二十三条”把运动重点定为整“党内那些走资本主义道路的当权派”。1981 年决议称运动对解决干部作风和经济管理问题起了一定作用，但把不同性质的问题都当作阶级斗争，1964 年下半年使不少基层干部“受到不应有的打击”。
+  concepts: [class-struggle, capitalist-roaders]
+  voices:
+    - { voice: official1981, text: 一九六三年至一九六五年间，在部分农村和少数城市基层开展的社会主义教育运动，虽然对于解决干部作风和经济管理等方面的问题起了一定作用，但由于把这些不同性质的问题都认为是阶级斗争或者是阶级斗争在党内的反映，在一九六四年下半年使不少基层干部受到不应有的打击（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1981-resolution, ws-1964-09-01-taoyuan, ws-1965-01-14-twenty-three, ws-1963-03-01-five-anti]
+
+- id: 1963-06-14-general-line
+  date: 1963-06-14
+  title: 《关于国际共产主义运动总路线的建议》
+  lane: intl
+  weight: 3
+  summary: 1963 年 6 月 14 日，中共中央复信苏共中央 3 月 30 日来信，提出《关于国际共产主义运动总路线的建议》，反对把总路线归结为“和平共处”“和平竞赛”“和平过渡”，称世界历史上还没有从资本主义和平过渡到社会主义的先例。此后人民日报、红旗杂志编辑部陆续发表“九评”苏共中央公开信。
+  concepts: [revisionism]
+  voices:
+    - { voice: doc, text: 如果把国际共产主义运动的总路线片面地归结为“和平共处”、“和平竞赛”、“和平过渡”，那就是违反一九五七年宣言和一九六○年声明的革命原则（中共中央复信）, cite: ws-1963-06-14-general-line, quote: true }
+    - { voice: doc, text: 事实上，迄今为止，世界历史上还没有过从资本主义和平过渡到社会主义的先例（同上）, cite: ws-1963-06-14-general-line, quote: true }
+  cites: [ws-1963-06-14-general-line, ws-1963-09-13-stalin, ws-1964-07-14-ninth-comment]
+
+- id: 1963-09-13-on-stalin
+  date: 1963-09-13
+  title: 二评苏共中央公开信《关于斯大林问题》
+  lane: intl
+  weight: 1
+  summary: 1963 年 9 月 13 日，人民日报编辑部、红旗杂志编辑部发表《关于斯大林问题》，称赫鲁晓夫在苏共二十大上“全盘否定斯大林”，事前不同兄弟党商量，事后强迫兄弟党接受。
+  concepts: [revisionism]
+  voices:
+    - { voice: official1966, text: 中国共产党一向认为，赫鲁晓夫同志利用所谓“反对个人迷信”，全盘否定斯大林，是完全错误的，是别有用心的（二评）, cite: ws-1963-09-13-stalin, quote: true }
+  cites: [ws-1963-09-13-stalin]
+
+- id: 1964-07-14-ninth-comment
+  date: 1964-07-14
+  title: 九评《关于赫鲁晓夫的假共产主义及其在世界历史上的教训》：苏联的“特权阶层”
+  lane: intl
+  weight: 2
+  summary: 1964 年 7 月 14 日，人民日报编辑部、红旗杂志编辑部发表九评，称赫鲁晓夫集团篡夺了苏联党和国家的领导，苏联社会上出现了一个由蜕化变质的领导干部和资产阶级知识分子构成的“资产阶级特权阶层”。
+  concepts: [revisionism, khrushchev]
+  voices:
+    - { voice: official1966, text: 但是，在今天的苏联，问题的严重性在于，赫鲁晓夫修正主义集团篡夺了苏联党和国家的领导，在苏联社会上出现了一个资产阶级特权阶层（九评）, cite: ws-1964-07-14-ninth-comment, quote: true }
+    - { voice: official1966, text: 目前苏联社会上的特权阶层，是由党政机关和企业、农庄的领导干部中的蜕化变质分子和资产阶级知识分子构成的（同上）, cite: ws-1964-07-14-ninth-comment, quote: true }
+  cites: [ws-1964-07-14-ninth-comment]
+
+- id: 1964-09-01-taoyuan
+  date: 1964-09-01
+  title: 中央转发王光美“桃园经验”
+  lane: mass
+  weight: 2
+  summary: 1964 年 9 月 1 日，中共中央批示转发《关于一个大队的社会主义教育运动的经验总结》，即王光美在河北省委工作会议上关于桃园大队的报告记录，称这是“比较完全、比较细致的典型经验总结”，具有普遍意义，同时提醒“不要把它变为框框，到处套用”。
+  people: [wang-guangmei]
+  voices:
+    - { voice: doc, text: 《关于一个大队的社会主义教育运动的经验总结》，是王光美同志在河北省委工作会议上的报告记录，是在农村进行社会主义教育的一个比较完全、比较细致的典型经验总结（中共中央批示）, cite: ws-1964-09-01-taoyuan, quote: true }
+    - { voice: doc, text: 所以桃园大队的经验只能作为参考，不要把它变为框框，到处套用（同上）, cite: ws-1964-09-01-taoyuan, quote: true }
+  cites: [ws-1964-09-01-taoyuan]
+
+- id: 1964-12-21-four-modernizations
+  date: 1964-12-21
+  title: 周恩来政府工作报告：建设“现代农业、现代工业、现代国防和现代科学技术”的强国
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 1964 年 12 月 21 日至 22 日，周恩来在三届人大一次会议上作政府工作报告（维基文库所收为摘要），称国民经济调整的任务基本完成，提出在不太长的历史时期内把中国建成具有现代农业、现代工业、现代国防和现代科学技术的社会主义强国，并为 1966 年开始的第三个五年计划作准备。
+  people: [zhou-enlai]
+  voices:
+    - { voice: official1966, text: 争取在不太长的历史时期内，把我国建成一个具有现代农业、现代工业、现代国防和现代科学技术的社会主义强国（周恩来报告摘要）, cite: ws-1964-12-21-zhou-report, quote: true }
+    - { voice: official1966, text: 在有阶级存在的社会内，阶级斗争不会完结（同上）, cite: ws-1964-12-21-zhou-report, quote: true }
+  cites: [ws-1964-12-21-zhou-report]
+
+- id: 1965-01-14-twenty-three
+  date: 1965-01-14
+  title: “二十三条”：运动重点是整“党内那些走资本主义道路的当权派”
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 1965 年 1 月 14 日，中共中央印发政治局召集的全国工作会议讨论纪要《农村社会主义教育运动中目前提出的一些问题》（“二十三条”，中发〔65〕26 号），否定把运动性质说成“四清和四不清的矛盾”或“党内外矛盾的交叉”，提出运动重点是整“党内那些走资本主义道路的当权派”。1981 年决议认为这一提法是错误的。
+  people: [mao-zedong]
+  concepts: [capitalist-roaders, class-struggle]
+  voices:
+    - { voice: doc, text: 这次运动的重点，是整党内那些走资本主义道路的当权派，进一步地巩固和发展城乡社会主义的阵地（二十三条）, cite: ws-1965-01-14-twenty-three, quote: true }
+    - { voice: doc, text: 那些走资本主义道路的当权派，有在幕前的，有在幕后的（同上）, cite: ws-1965-01-14-twenty-three, quote: true }
+    - { voice: official1981, text: 在一九六五年初又错误地提出了运动的重点是整所谓“党内走资本主义道路的当权派”（1981 年决议）, cite: ws-1981-resolution, quote: true }
+  cites: [ws-1965-01-14-twenty-three, ws-1981-resolution]
