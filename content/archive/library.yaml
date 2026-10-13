@@ -1,0 +1,108 @@
+# 视觉档案中按库内原文登记的条目：作品本身不在库里，只登记原文中可核对的一次出现（日期、出处、原句）。
+# license 写作品本身的版权状态；这些条目不复制作品。
+
+- id: lib-opera-zhiqu
+  kind: opera
+  title: 革命现代京剧《智取威虎山》
+  date: 1967-05-10
+  cite: ws-1967-05-10-opera
+  quote: 《智取威虎山》、《海港》、《红灯记》、《沙家浜》、《奇袭白虎团》等京剧样板戏的出现
+  license: 集体创作，版权状态未明；本条只登记文献记载
+  description: 1967 年 5 月《红旗》社论纪念《讲话》二十五周年，把五出京剧称为“京剧样板戏”。
+- id: lib-opera-haigang
+  kind: opera
+  title: 革命现代京剧《海港》
+  date: 1967-05-10
+  cite: ws-1967-05-10-opera
+  quote: 《智取威虎山》、《海港》、《红灯记》、《沙家浜》、《奇袭白虎团》等京剧样板戏的出现
+  license: 集体创作，版权状态未明；本条只登记文献记载
+- id: lib-opera-hongdeng
+  kind: opera
+  title: 革命现代京剧《红灯记》
+  date: 1967-05-10
+  cite: ws-1967-05-10-opera
+  quote: 《智取威虎山》、《海港》、《红灯记》、《沙家浜》、《奇袭白虎团》等京剧样板戏的出现
+  license: 集体创作，版权状态未明；本条只登记文献记载
+- id: lib-opera-shajiabang
+  kind: opera
+  title: 革命现代京剧《沙家浜》
+  date: 1967-05-10
+  cite: ws-1967-05-10-opera
+  quote: 《智取威虎山》、《海港》、《红灯记》、《沙家浜》、《奇袭白虎团》等京剧样板戏的出现
+  license: 集体创作，版权状态未明；本条只登记文献记载
+- id: lib-opera-qixi
+  kind: opera
+  title: 革命现代京剧《奇袭白虎团》
+  date: 1967-05-10
+  cite: ws-1967-05-10-opera
+  quote: 《智取威虎山》、《海港》、《红灯记》、《沙家浜》、《奇袭白虎团》等京剧样板戏的出现
+  license: 集体创作，版权状态未明；本条只登记文献记载
+- id: lib-opera-niangzijun
+  kind: opera
+  title: 革命现代舞剧《红色娘子军》
+  date: 1969-09-30
+  cite: rmrb-1969-09-30-model-operas
+  quote: 革命现代舞剧《红色娘子军》
+  license: 集体创作，版权状态未明；本条只登记文献记载
+  description: 1969 年国庆二十周年，一批样板戏自 10 月 2 日起在首都再度公演。
+- id: lib-opera-shajiabang-symphony
+  kind: opera
+  title: 革命交响音乐《沙家浜》
+  date: 1969-09-30
+  cite: rmrb-1969-09-30-model-operas
+  quote: 革命交响音乐《沙家浜》
+  license: 集体创作，版权状态未明；本条只登记文献记载
+- id: lib-opera-piano-hongdeng
+  kind: opera
+  title: 钢琴伴唱《红灯记》
+  date: 1969-09-30
+  cite: rmrb-1969-09-30-model-operas
+  quote: 钢琴伴唱〈红灯记〉
+  license: 集体创作，版权状态未明；本条只登记文献记载
+- id: lib-song-dahai
+  kind: song
+  title: 歌曲《大海航行靠舵手》
+  date: 1968-04-10
+  cite: rmrb-1968-04-10-hunan-revcom
+  quote: 高唱《大海航行靠舵手》
+  license: 版权状态未明；本条只登记文献记载
+  description: 湖南省革委会成立大会上，长沙三十万军民高唱此歌入场。
+- id: lib-song-dongfanghong
+  kind: song
+  title: 乐曲《东方红》
+  date: 1968-04-12
+  cite: rmrb-1968-04-12-ningxia-revcom
+  quote: 庆祝大会在雄壮的《东方红》乐曲声中开始
+  license: 版权状态未明；本条只登记文献记载
+  description: 1968 年各省区革委会成立大会多以《东方红》开场，宁夏、湖南两篇报道用的是同一句话。
+- id: lib-song-internationale-stockholm
+  kind: song
+  title: 《国际歌》（斯德哥尔摩声援法国五月风暴的游行）
+  date: 1968-05-26
+  cite: rmrb-1968-05-26-france
+  quote: 有的示威者高举着毛主席画像，举着中国国旗和打着红旗
+  license: 公有领域（作品）；本条只登记文献记载
+  description: 《人民日报》报道法国五月罢工时写到瑞典示威者举着毛泽东画像、高唱《国际歌》。
+- { id: lib-hongqi-1967-01, kind: publication, title: 《红旗》1967 年第 1 期, date: 1967-01-01, cite: ws-1967-red-flag-index, quote: 一九六七年第一期(1967年1月1日), license: 发表已满 50 年（法人作品著作权保护期 50 年）, description: 首篇为林彪《〈毛主席语录〉再版前言》。 }
+- { id: lib-hongqi-1967-02, kind: publication, title: 《红旗》1967 年第 2 期, date: 1967-01-16, cite: ws-1967-red-flag-index, quote: 一九六七年第二期(1967年1月16日), license: 发表已满 50 年（法人作品著作权保护期 50 年）, description: 收中共中央、国务院、中央军委、中央文革小组给上海市各革命造反团体的贺电和《告上海全市人民书》。 }
+- { id: lib-hongqi-1967-03, kind: publication, title: 《红旗》1967 年第 3 期, date: 1967-02-03, cite: ws-1967-red-flag-index, quote: 一九六七年第三期(1967年2月3日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-04, kind: publication, title: 《红旗》1967 年第 4 期, date: 1967-03-01, cite: ws-1967-red-flag-index, quote: 一九六七年第四期(1967年3月1日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-05, kind: publication, title: 《红旗》1967 年第 5 期, date: 1967-03-30, cite: ws-1967-red-flag-index, quote: 一九六七年第五期(1967年3月30日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-06, kind: publication, title: 《红旗》1967 年第 6 期, date: 1967-05-08, cite: ws-1967-red-flag-index, quote: 一九六七年第六期(1967年5月8日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-07, kind: publication, title: 《红旗》1967 年第 7 期, date: 1967-05-20, cite: ws-1967-red-flag-index, quote: 一九六七年第七期(1967年5月20日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-08, kind: publication, title: 《红旗》1967 年第 8 期, date: 1967-05-23, cite: ws-1967-red-flag-index, quote: 一九六七年第八期(1967年5月23日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-09, kind: publication, title: 《红旗》1967 年第 9 期, date: 1967-05-27, cite: ws-1967-red-flag-index, quote: 一九六七年第九期(1967年5月27日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-10, kind: publication, title: 《红旗》1967 年第 10 期, date: 1967-06-21, cite: ws-1967-red-flag-index, quote: 一九六七年第十期(1967年6月21日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-11, kind: publication, title: 《红旗》1967 年第 11 期, date: 1967-07-09, cite: ws-1967-red-flag-index, quote: 一九六七年第十一期(1967年7月9日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-12, kind: publication, title: 《红旗》1967 年第 12 期, date: 1967-08-01, cite: ws-1967-red-flag-index, quote: 一九六七年第十二期(1967年8月1日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-13, kind: publication, title: 《红旗》1967 年第 13 期, date: 1967-08-17, cite: ws-1967-red-flag-index, quote: 一九六七年第十三期(1967年8月17日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-14, kind: publication, title: 《红旗》1967 年第 14 期, date: 1967-09-17, cite: ws-1967-red-flag-index, quote: 一九六七年第十四期(1967年9月17日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-15, kind: publication, title: 《红旗》1967 年第 15 期, date: 1967-10-06, cite: ws-1967-red-flag-index, quote: 一九六七年第十五期(1967年10月6日), license: 发表已满 50 年（法人作品著作权保护期 50 年） }
+- { id: lib-hongqi-1967-16, kind: publication, title: 《红旗》1967 年第 16 期, date: 1967-11-23, cite: ws-1967-red-flag-index, quote: 一九六七年第十六期(1967年11月23日), license: 发表已满 50 年（法人作品著作权保护期 50 年）, description: 库内目录所列 1967 年的最后一期。 }
+- id: lib-pub-quotations-ningxia
+  kind: publication
+  title: 《毛主席语录》（宁夏革委会成立大会）
+  date: 1968-04-12
+  cite: rmrb-1968-04-12-ningxia-revcom
+  quote: 手持红彤彤的《毛主席语录》
+  license: 版权状态未明；本条只登记文献记载
