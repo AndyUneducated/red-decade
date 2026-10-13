@@ -2,10 +2,11 @@ import { existsSync, readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { indexAtlas } from '../../src/data/atlas'
 import type { Atlas, Org, Person, Place, Status } from '../../src/data/schema'
-import { firstKey, termHits, yearTotals } from '../../src/derive/corpus'
-import { firstFall, kaplanMeier, survivalSubject } from '../../src/derive/fates'
-import { orgMentioner, placeMatcher, positionMatcher } from '../../src/derive/match'
+import { firstKey, namesNear, tally, termHits, titleMentions, yearTotals } from '../../src/derive/corpus'
+import { firstFall, kaplanMeier, lifeDistance, survivalSubject, yearCodes } from '../../src/derive/fates'
+import { orgMentioner, personMentioner, placeMatcher, positionMatcher } from '../../src/derive/match'
 import { quoteMisses, stripAttribution } from '../../src/derive/quotes'
+import { perHead, popAt } from '../../src/derive/series'
 import { after } from '../../src/lib/dates'
 
 describe('quotes', () => {
@@ -53,6 +54,44 @@ describe('corpus', () => {
     ])
     expect(firstKey('1966') > firstKey('1966-12-31')).toBe(true)
   })
+  it('tallies a term by year with its earliest hit first', () => {
+    const { terms } = tally(texts, [{ id: 'dqp', terms: ['当权派'], except: [] }])
+    expect(terms[0]).toMatchObject({ id: 'dqp', total: 3, counts: [{ year: 1966, n: 2 }, { year: 1967, n: 1 }] })
+    expect(terms[0].first.source).toBe('a')
+  })
+  it('counts a name once per merged passage around the terms, longest name first', () => {
+    const names = [
+      { id: 'liu', names: ['刘少奇', '少奇'] },
+      { id: 'deng', names: ['邓小平'] },
+    ]
+    const near = namesNear([{ id: 'x', date: '1967', body: '刘少奇、邓小平是当权派，少奇是当权派。' + '无'.repeat(80) + '邓小平' }], ['当权派'], names, 20)
+    expect(near.get('liu')).toBe(1)
+    expect(near.get('deng')).toBe(1)
+  })
+  it('takes a 《title》 as a citation only when the cited document is not later', () => {
+    const docs = [
+      { id: 'outline', date: '1966-02-12', names: ['二月提纲'] },
+      { id: 'later', date: '1968', names: ['二月提纲'] },
+    ]
+    const refs = titleMentions([{ id: 'notice', date: '1966-05-16', body: '《二月提纲》……《二月提纲》' }], docs)
+    expect(refs).toEqual([{ from: 'notice', to: 'outline', n: 2 }])
+  })
+})
+
+describe('per head', () => {
+  const pt = (year: number, value: number, kind = 'reported') => ({ year, value, kind }) as never
+  const pop = [pt(1953, 58000), pt(1964, 69000), pt(1960, 0, 'estimate')]
+  it('reads published population and interpolates between counts, never beyond', () => {
+    expect(popAt(pop, 1953)?.value).toBe(58000)
+    expect(popAt(pop, 1958)?.value).toBeCloseTo(63000)
+    expect(popAt(pop, 1950)).toBeUndefined()
+    expect(popAt(pop, 1970)).toBeUndefined()
+  })
+  it('converts 万吨 over 万人 to 公斤 per head', () => {
+    const grain = { unit: '万吨', points: [pt(1953, 16683)] } as never
+    expect(perHead(grain, { points: pop } as never)[0].value).toBeCloseTo((16683e7 / 58000e4), 5)
+    expect(perHead({ unit: '%', points: [pt(1953, 1)] } as never, { points: pop } as never)).toEqual([])
+  })
 })
 
 describe('name matching', () => {
@@ -76,6 +115,10 @@ describe('name matching', () => {
     const orgOf = positionMatcher(orgs)
     expect(orgOf({ title: '中共中央文革小组组长', orgName: '中共中央' } as never)).toBe('ccrg')
     expect(orgOf({ title: '委员', orgName: '中共中央' } as never)).toBe('ccp')
+  })
+  it('lists people in order of first mention without crediting a shorter name inside a longer one', () => {
+    const who = personMentioner([{ id: 'lin', name: '林彪' }, { id: 'lgg', name: '林立果' }, { id: 'zhou', name: '周恩来' }] as never)
+    expect(who('林立果见周恩来，又见林彪')).toEqual(['lgg', 'zhou', 'lin'])
   })
 })
 
@@ -120,5 +163,13 @@ describe('fates', () => {
       t0,
     )
     expect(km.map((k) => k.s)).toEqual([1, 0.75, 0.375])
+  })
+  it('codes each year by the last fate node before mid-year', () => {
+    const p = person([['1949-10', 'power'], ['1966-08', 'attacked'], ['1967-04', 'detained']], { born: '1898', died: '1969-11' })
+    expect(yearCodes(p, [1890, 1960, 1966, 1967, 1968, 1970])).toEqual([null, 'up', 'up', 'down', 'down', 'dead'])
+  })
+  it('compares two lives over the years either is alive and both are known', () => {
+    expect(lifeDistance(['up', 'up', 'dead', null], ['up', 'down', 'dead', 'up'], 2)).toBe(0.5)
+    expect(lifeDistance(['up'], ['up'])).toBeUndefined()
   })
 })
