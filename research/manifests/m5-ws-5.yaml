@@ -1,0 +1,151 @@
+# M5-1 中文原文（维基文库）第 5 批：两篇“无产阶级专政的历史经验”、军衔与兵役、台海危机声明、伍修权联合国发言、
+# 惩治贪污条例、三届人大的选举公告、第二次城市工作会议、胡乔木食堂调查、秋收分配与集市贸易、压低口粮标准、
+# 潢川县粮食工作检查（信阳事件）、西藏自治区成立、赫鲁晓夫下台、再论陶里亚蒂、1959 年政府工作报告。
+# 日期按页面 header（有的用 年/月/日 字段）与落款核对。
+# 《关于对去冬今春在粮食工作上所犯严重错误的检查》落款是中共商城县委，1960 年 8 月 26 日，不是潢川；id 按商城改。
+# 《惩治贪污条例》header 有两组日期（3 月 28 日、4 月 18 日），按 4 月 18 日中央人民政府委员会批准。
+wikisource:
+  - id: ws-1956-04-05-dictatorship-experience
+    title: 关于无产阶级专政的历史经验
+    date: 1956-04-05
+    author: 人民日报编辑部
+    kind: editorial
+    alias: 关于无产阶级专政的历史经验（1956）
+  - id: ws-1956-12-29-dictatorship-experience-2
+    title: 再论无产阶级专政的历史经验
+    date: 1956-12-29
+    author: 人民日报编辑部
+    kind: editorial
+    alias: 再论无产阶级专政的历史经验（1956）
+  - id: ws-1955-09-23-marshal-ranks
+    title: 全國人民代表大會常務委員會關於授予中華人民共和國元帥軍銜的決議
+    date: 1955-09-23
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会关于授予元帅军衔的决议（1955）
+  - id: ws-1955-02-08-officer-service
+    title: 中國人民解放軍軍官服役條例 (1955年)
+    date: 1955-02-08
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 中国人民解放军军官服役条例（1955）
+  - id: ws-1955-07-30-military-service-law
+    title: 中華人民共和國兵役法 (1955年)
+    date: 1955-07-30
+    author: 全国人民代表大会
+    kind: party-doc
+    alias: 中华人民共和国兵役法（1955）
+  - id: ws-1954-12-08-zhou-mutual-defense
+    title: 中華人民共和國外交部長周恩來關於美蔣「共同防禦條約」的聲明
+    date: 1954-12-08
+    author: 周恩来
+    kind: party-doc
+    alias: 周恩来关于美蒋“共同防御条约”的声明（1954）
+  - id: ws-1955-01-24-zhou-taiwan
+    title: 國務院總理兼外交部部長周恩來關於美國政府干涉中國人民解放台灣的聲明
+    date: 1955-01-24
+    author: 周恩来
+    kind: party-doc
+    alias: 周恩来关于美国政府干涉中国人民解放台湾的声明（1955）
+  - id: ws-1950-11-28-wu-xiuquan-un
+    title: 伍修权在联合国安全理事会上控诉美国武装侵略中国领土台湾的发言
+    date: 1950-11-28
+    author: 伍修权
+    kind: speech
+    alias: 伍修权在联合国安理会的发言（1950）
+  - id: ws-1964-11-21-khrushchev-fall
+    title: 赫鲁晓夫是怎样下台的
+    date: 1964-11-21
+    author: 红旗杂志编辑部
+    kind: editorial
+    alias: 赫鲁晓夫是怎样下台的（1964）
+  - id: ws-1952-04-18-anti-corruption-act
+    title: 中華人民共和國懲治貪污條例
+    date: 1952-04-18
+    author: 中央人民政府委员会
+    kind: party-doc
+    alias: 中华人民共和国惩治贪污条例（1952）
+  - id: ws-1954-09-27-npc-announcement
+    title: 中华人民共和国全国人民代表大会公告/1954年
+    date: 1954-09-27
+    author: 一届人大一次会议主席团
+    kind: party-doc
+    alias: 全国人民代表大会公告（1954）
+  - id: ws-1959-04-27-npc-announcement
+    title: 中华人民共和国全国人民代表大会公告/1959年
+    date: 1959-04-27
+    author: 二届人大一次会议主席团
+    kind: party-doc
+    alias: 全国人民代表大会公告（1959）
+  - id: ws-1965-01-03-npc-announcement
+    title: 中华人民共和国全国人民代表大会公告/1965年
+    date: 1965-01-03
+    author: 三届人大一次会议主席团
+    kind: party-doc
+    alias: 全国人民代表大会公告（1965）
+  - id: ws-1963-12-03-npc-communique
+    title: 第二届全国人民代表大会第四次会议新闻公报
+    date: 1963-12-03
+    author: 新华社
+    kind: news
+    alias: 二届人大四次会议新闻公报（1963）
+  - id: ws-1963-10-22-second-urban-work
+    title: 中共中央、国务院批准《第二次城市工作会议纪要》的指示
+    date: 1963-10-22
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中共中央、国务院批准《第二次城市工作会议纪要》的指示（1963）
+  - id: ws-1961-04-26-hu-qiaomu-canteens
+    title: 中共中央转发毛泽东批示的几个重要文件——胡乔木关于公社食堂问题的调查材料
+    date: 1961-04-26
+    author: 胡乔木
+    kind: archive
+    alias: 胡乔木关于公社食堂问题的调查材料（1961）
+  - id: ws-1956-11-24-autumn-distribution
+    title: 中共中央、国务院关于农业生产合作社秋收分配中若干具体问题的指示
+    date: 1956-11-24
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中共中央、国务院关于农业生产合作社秋收分配中若干具体问题的指示（1956）
+  - id: ws-1960-09-07-lower-grain-ration
+    title: 中共中央关于压低农村和城市的口粮标准的指示
+    date: 1960-09-07
+    author: 中共中央
+    kind: party-doc
+    alias: 中共中央关于压低农村和城市的口粮标准的指示（1960）
+  - id: ws-1960-09-07-huangchuan-conclusion
+    title: 关于潢川县去冬今春在粮食工作上所犯严重错误的结论（初稿）
+    date: 1960-09-07
+    author: 中共潢川县委
+    kind: archive
+    alias: 关于潢川县去冬今春在粮食工作上所犯严重错误的结论（初稿）
+  - id: ws-1960-08-26-shangcheng-self-criticism
+    title: 关于对去冬今春在粮食工作上所犯严重错误的检查
+    date: 1960-08-26
+    author: 中共商城县委
+    kind: archive
+    alias: 商城县委关于对去冬今春在粮食工作上所犯严重错误的检查（1960）
+  - id: ws-1959-09-23-rural-fairs
+    title: 中共中央、国务院关于组织农村集市贸易的指示
+    date: 1959-09-23
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 中共中央、国务院关于组织农村集市贸易的指示（1959）
+  - id: ws-1965-08-25-tibet-region
+    title: 全国人民代表大会常务委员会关于成立西藏自治区的决议
+    date: 1965-08-25
+    author: 全国人大常委会
+    kind: party-doc
+    alias: 全国人大常委会关于成立西藏自治区的决议（1965）
+  - id: ws-1959-04-18-zhou-gov-report
+    title: 1959年中华人民共和国国务院政府工作报告
+    date: 1959-04-18
+    author: 周恩来
+    kind: speech
+    alias: 1959 年政府工作报告（周恩来）
+  - id: ws-1963-03-togliatti-again
+    title: 再论陶里亚蒂同志同我们的分歧
+    date: 1963-03
+    author: 红旗杂志编辑部
+    kind: editorial
+    alias: 再论陶里亚蒂同志同我们的分歧（1963）
