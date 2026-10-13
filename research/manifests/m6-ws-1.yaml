@@ -1,0 +1,343 @@
+# M6（1977–1989）第 1 批维基文库原文：转折、摘帽平反、改革与 1989。日期取自页面头部或正文落款，见 note。
+wikisource:
+  # 1977–1978：两个凡是到三中全会
+  - id: ws-1977-08-12-eleventh-congress-report
+    title: 在中国共产党第十一次全国代表大会上的政治报告
+    date: 1977-08-12
+    author: 华国锋
+    kind: party-doc
+    alias: 十一大政治报告
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1978-02-26-gov-report
+    title: 1978年中华人民共和国国务院政府工作报告
+    date: 1978-02-26
+    author: 华国锋
+    kind: party-doc
+    alias: 1978 年政府工作报告
+    note: 五届全国人大一次会议。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1978-03-01-constitution-report
+    title: 关于修改宪法的报告 (1978年)
+    date: 1978-03-01
+    author: 叶剑英
+    kind: party-doc
+    alias: 1978 年修宪报告
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1978-03-05-constitution
+    title: 中华人民共和国宪法 (1978年)
+    date: 1978-03-05
+    author: 第五届全国人民代表大会第一次会议
+    kind: party-doc
+    alias: 1978 年宪法
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1978-04-rightist-caps-report
+    title: 中央统战部、公安部关于全部摘掉右派分子帽子的请示报告
+    date: 1978-04
+    author: 中共中央统战部、公安部
+    kind: party-doc
+    alias: 统战部、公安部《关于全部摘掉右派分子帽子的请示报告》
+    note: 页面未载日期。中共中央 1978 年 4 月 5 日通知批准此报告，故不晚于该日。
+  - id: ws-1978-04-05-cc-notice
+    title: 中共中央通知 (1978年4月5日)
+    date: 1978-04-05
+    author: 中共中央
+    kind: party-doc
+    alias: 中发〔1978〕11号（批准全部摘掉右派帽子）
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1978-09-17-cc-notice
+    title: 中共中央通知 (1978年9月17日)
+    date: 1978-09-17
+    author: 中共中央
+    kind: party-doc
+    alias: 中发〔1978〕55号（右派改正）
+    note: 批转五部门《贯彻中央关于全部摘掉右派分子帽子决定的实施方案》。日期取自页面标题。
+  - id: ws-1978-12-15-us-normalization
+    title: 中华人民共和国和美利坚合众国关于建立外交关系的联合公报
+    date: 1978-12-16
+    author: 中华人民共和国政府、美利坚合众国政府
+    kind: party-doc
+    alias: 中美建交公报
+    note: 北京时间 1978 年 12 月 16 日发表。页面未载日期，取通行的会议或发布日期。
+  # 1979–1980：摘帽、对台、法制、准则
+  - id: ws-1979-01-01-taiwan-message
+    title: 中华人民共和国全国人民代表大会常务委员会告台湾同胞书
+    date: 1979-01-01
+    author: 全国人民代表大会常务委员会
+    kind: party-doc
+    alias: 1979 年《告台湾同胞书》
+    note: 正文自述“今天是一九七九年元旦”。
+  - id: ws-1979-01-01-stop-shelling
+    title: 中华人民共和国国防部关于停止对大金门等岛屿炮击的声明
+    date: 1979-01-01
+    author: 中华人民共和国国防部
+    kind: party-doc
+    alias: 1979 年国防部停止炮击金门声明
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1979-01-landlord-caps
+    title: 中共中央关于地主、富农分子摘帽问题和地、富子女成份问题的决定
+    date: 1979-01
+    author: 中共中央
+    kind: party-doc
+    alias: 1979 年地主富农摘帽决定（中发〔1979〕5号）
+    note: 页面未载日期。公安部党组后来的报告称“中央一九七九年一月作出”，文号中发[1979]5号。
+  - id: ws-1983-four-classes-caps
+    title: 中共中央办公厅转发公安部党组关于给现有四类分子摘掉帽子的请示报告
+    date: 1983
+    author: 中共中央办公厅、公安部党组
+    kind: party-doc
+    alias: 给现有四类分子摘帽
+    note: 页面未载日期。报告引用“到一九八二年底”的统计，转发语要求“于今年年底前结束”，故定为 1983 年或稍后。
+  - id: ws-1979-06-18-gov-report
+    title: 1979年中华人民共和国国务院政府工作报告
+    date: 1979-06-18
+    author: 华国锋
+    kind: party-doc
+    alias: 1979 年政府工作报告
+    note: 五届全国人大二次会议。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1979-rightist-followup
+    title: 批转中央五部门《关于继续贯彻执行中央〔1978〕55号文件几个问题的请示》
+    date: 1979
+    author: 中共中央
+    kind: party-doc
+    alias: 右派改正与安置遗留问题的请示（中央批转）
+    note: 页面未载日期。请示称 55 号文件（1978 年）为“去年”、统计到“七月中旬”，故为 1979 年下半年。页面中的人数原文即以“××”隐去。
+  - id: ws-1980-02-29-party-life-norms
+    title: 关于党内政治生活的若干准则/1980年
+    date: 1980-02-29
+    author: 中国共产党第十一届中央委员会第五次全体会议
+    kind: party-doc
+    alias: 《关于党内政治生活的若干准则》
+    note: 页面头部：1980 年 2 月 29 日十一届五中全会通过。
+  - id: ws-1980-08-18-leadership-reform
+    title: 党和国家领导制度的改革
+    date: 1980-08-18
+    author: 邓小平
+    kind: speech
+    alias: 邓小平《党和国家领导制度的改革》
+    note: 中央政治局扩大会议上的讲话。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1980-09-25-population-letter
+    title: 中共中央关于控制我国人口增长问题致全体共产党员共青团员的公开信
+    date: 1980-09-25
+    author: 中共中央
+    kind: party-doc
+    alias: 1980 年计划生育公开信
+    note: 页面头部：一九八○年九月二十五日。
+  - id: ws-1981-09-county-elections
+    title: 民政部关于全国县级直接选举工作的总结报告
+    date: 1981-09
+    author: 民政部
+    kind: party-doc
+    alias: 民政部县级直接选举总结
+    note: 页面未载日期。向全国人大常委会所作，统计“到今年八月”，选举 1980 年下半年全面铺开，故为 1981 年 9 月前后。
+  - id: ws-1979-old-cc-files-notice
+    title: 中共中央关于清理历史遗留问题中涉及到有关中央文件的处理办法的通知
+    date: 1979
+    author: 中共中央
+    kind: party-doc
+    alias: 清理历史遗留问题中涉及的中央文件处理办法
+    note: 页面未载日期。文中提到“去年十一月、今年四月两次中央工作会议”和五届人大第二次会议（1979 年 6 月），故为 1979 年下半年。
+  - id: ws-1980-09-07-hua-npc-speech
+    title: 在第五届全国人民代表大会第三次会议上的讲话
+    date: 1980-09-07
+    author: 华国锋
+    kind: speech
+    alias: 华国锋在五届人大三次会议上的讲话
+    note: 页面头部：一九八〇年九月七日。
+  # 1981–1984：干部、整党、严打、改革
+  - id: ws-1981-gov-report
+    title: 1981年中华人民共和国国务院政府工作报告
+    date: 1981-11-30
+    author: 赵紫阳
+    kind: party-doc
+    alias: 1981 年政府工作报告
+    note: 五届全国人大四次会议。页面未载日期，取通行的会议或发布日期。
+  - id: ws-1981-culture-ministry-report
+    title: 文化部关于目前文化艺术工作的一些情况和问题的报告（1981年）
+    date: 1981
+    author: 文化部
+    kind: party-doc
+    alias: 1981 年文化部文艺工作情况报告
+    note: 向五届全国人大常委会第二十次会议所作。年份取自页面标题。
+  - id: ws-1982-02-20-cadre-retirement
+    title: 中共中央关于建立老干部退休制度的决定
+    date: 1982-02-20
+    author: 中共中央
+    kind: party-doc
+    alias: 老干部退休制度决定
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1982-09-01-twelfth-congress-report
+    title: 全面开创社会主义现代化建设的新局面
+    date: 1982-09-01
+    author: 胡耀邦
+    kind: party-doc
+    alias: 十二大报告
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1982-12-gov-report
+    title: 1982年中华人民共和国国务院政府工作报告
+    date: 1982-11-30
+    author: 赵紫阳
+    kind: party-doc
+    alias: 1982 年政府工作报告（六五计划）
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1982-procuratorate-report
+    title: 1982年中华人民共和国最高人民检察院工作报告
+    date: 1982-12
+    author: 黄火青（最高人民检察院检察长）
+    kind: party-doc
+    alias: 1982 年最高检工作报告
+    note: 在五届全国人大五次会议（1982 年 11–12 月）上所作，正文提到彭真的修宪报告与赵紫阳的六五计划报告。
+  - id: ws-1982-12-04-constitution
+    title: 中华人民共和国宪法 (1982年)
+    date: 1982-12-04
+    author: 第五届全国人民代表大会第五次会议
+    kind: party-doc
+    alias: 1982 年宪法
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1983-09-02-strike-hard
+    title: 全国人民代表大会常务委员会关于严惩严重危害社会治安的犯罪分子的决定
+    date: 1983-09-02
+    author: 全国人民代表大会常务委员会
+    kind: party-doc
+    alias: 1983 年严打决定
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1983-09-02-swift-trial
+    title: 全国人民代表大会常务委员会关于迅速审判严重危害社会治安的犯罪分子的程序的决定
+    date: 1983-09-02
+    author: 全国人民代表大会常务委员会
+    kind: party-doc
+    alias: 1983 年迅速审判程序决定
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1983-10-11-party-rectification
+    title: 中共中央关于整党的决定
+    date: 1983-10-11
+    author: 中国共产党第十二届中央委员会第二次全体会议
+    kind: party-doc
+    alias: 1983 年整党决定
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1988-09-public-security-report
+    title: 关于公安工作和当前社会治安情况的报告
+    date: 1988-09
+    author: 公安部（受国务院委托）
+    kind: party-doc
+    alias: 1988 年公安部关于公安工作和社会治安情况的报告
+    note: 页面未载日期。向七届全国人大常委会第三次会议（1988 年 8–9 月）汇报，回顾 1983 年以来的“严打”。
+  - id: ws-1984-10-20-economic-reform
+    title: 中共中央关于经济体制改革的决定
+    date: 1984-10-20
+    author: 中国共产党第十二届中央委员会第三次全体会议
+    kind: party-doc
+    alias: 1984 年经济体制改革决定
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1984-hongkong-report
+    title: 关于中英关于香港问题协议文件的报告
+    date: 1984-11-06
+    author: 吴学谦
+    kind: party-doc
+    alias: 吴学谦关于中英香港问题协议文件的报告
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1984-09-26-hongkong-declaration
+    title: 中华人民共和国政府和大不列颠及北爱尔兰联合王国政府关于香港问题的联合声明（草签文本）
+    date: 1984-09-26
+    author: 中华人民共和国政府、大不列颠及北爱尔兰联合王国政府
+    kind: party-doc
+    alias: 中英联合声明（草签文本）
+    note: 吴学谦报告：9 月 26 日草签。页面取自公报扫描，前后夹有同期其他文件的片段。
+  # 1985–1989
+  - id: ws-1985-education-reform
+    title: 中共中央关于教育体制改革的决定
+    date: 1985-05-27
+    author: 中共中央
+    kind: party-doc
+    alias: 1985 年教育体制改革决定
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1985-science-reform
+    title: 中共中央关于科学技术体制改革的决定
+    date: 1985-03-13
+    author: 中共中央
+    kind: party-doc
+    alias: 1985 年科学技术体制改革决定
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1984-ban-cadre-business
+    title: 中共中央、国务院关于严禁党政机关和党政干部经商、办企业的决定
+    date: 1984-12-03
+    author: 中共中央、国务院
+    kind: party-doc
+    alias: 严禁党政机关和干部经商办企业的决定
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1987-01-student-protest-chronology
+    title: 中共中央关于向全体党员和干部群众传达邓小平同志关于当前学生闹事问题的讲话要点的通知
+    date: 1987-01
+    author: 佚名（大事记）
+    kind: chronology
+    alias: 1986–1987 年学潮与反自由化大事记
+    note: 页面以通知为题，正文实为 1986 年 12 月中下旬至 1987 年 1 月 28 日的大事记，不是通知原文；其中引号内的邓小平谈话是摘录。
+  - id: ws-1987-gov-report
+    title: 1987年中华人民共和国国务院政府工作报告
+    date: 1987-03-25
+    author: 赵紫阳
+    kind: party-doc
+    alias: 1987 年政府工作报告
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1987-npcsc-report
+    title: 1987年中华人民共和国全国人民代表大会常务委员会工作报告
+    date: 1987-04
+    author: 全国人民代表大会常务委员会
+    kind: party-doc
+    alias: 1987 年全国人大常委会工作报告
+    note: 在六届全国人大五次会议（1987 年 3–4 月）上所作，回顾“六届全国人大第四次会议以来”的工作。
+  - id: ws-1987-10-25-thirteenth-congress-report
+    title: 沿着有中国特色的社会主义道路前进
+    date: 1987-10-25
+    author: 赵紫阳
+    kind: party-doc
+    alias: 十三大报告
+    note: 页面未载日期，取通行的会议或发布日期。
+  - id: ws-1989-05-20-martial-law-orders
+    title: 北京市人民政府令第1号
+    date: 1989-05-20
+    author: 国务院（李鹏签署）、北京市人民政府
+    kind: party-doc
+    alias: 1989 年 5 月 20 日国务院戒严令与北京市人民政府令
+    note: 页面取自报纸版面，含国务院戒严令全文（“自1989年5月20日10时起”）与北京市人民政府令三道，开头是前一篇文章的结尾。维基文库上国务院戒严令的单独页面是扫描嵌入，取不到文字。
+  - id: ws-1989-07-06-npcsc-resolution
+    title: 全国人民代表大会常务委员会关于制止动乱和平息反革命暴乱的决议
+    date: 1989-07-06
+    author: 全国人民代表大会常务委员会
+    kind: party-doc
+    alias: 1989 年全国人大常委会关于平息暴乱的决议
+    note: 页面头部：1989 年 7 月 6 日七届人大常委会第八次会议通过。
+  - id: ws-1989-propaganda-notice
+    title: 中共中央关于加强宣传、思想工作的通知
+    date: 1989
+    author: 中共中央
+    kind: party-doc
+    alias: 1989 年中央关于加强宣传、思想工作的通知
+    note: 页面未载日期。依据“党的十三届四中全会精神”（1989 年 6 月），故为 1989 年下半年。
+  - id: ws-1989-tianjin-telegram
+    title: 中共天津市委坚决拥护平息在首都发生的反革命暴乱电
+    date: 1989-06-07
+    author: 中共天津市委
+    kind: party-doc
+    alias: 1989 年天津市委拥护平息暴乱电
+    note: 落款：１９８９年６月７日。
+  - id: ws-1990-01-10-lift-martial-law
+    title: 国务院关于解除在北京市部分地区戒严的命令
+    date: 1990-01-10
+    author: 国务院
+    kind: party-doc
+    alias: 1990 年解除北京戒严令
+    note: 国发〔1990〕6号，正文：“自一九九〇年一月十一日起”解除。
+  # 平反
+  - id: ws-1984-liandong-rehab
+    title: 关于《联动》、《西纠》彻底平反通知
+    date: 1984
+    author: 中共中央组织部、公安部、共青团中央
+    kind: party-doc
+    alias: 关于“联动”“西纠”彻底平反的通知（文件稿）
+    note: 页面未载日期，自称“该文件稿”。文中引用中央《关于清理“三种人”若干问题的补充通知》（1984 年），故不早于 1984 年；也提到北京市公安局 1979 年 7 月的第一次平反。
+  - id: ws-1980-liu-wenhui-rehab
+    title: 刘文辉平反判决书
+    date: 1979
+    author: 上海市高级人民法院
+    kind: judicial
+    alias: 刘文辉平反判决书
+    note: 页面未载判决日期，只知晚于 1979 年 3 月 17 日驳回申诉的裁定；年份按此取下限。
