@@ -1,4 +1,4 @@
-import { GroupCrumb } from '../components/GroupCrumb'
+import { PageTitle } from '../components/PageTitle'
 import * as d3 from 'd3'
 import { useMemo, useRef } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
@@ -99,7 +99,7 @@ export function Fates() {
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1><GroupCrumb />命运矩阵</h1>
+          <PageTitle />
           <p>每一行是一个人 1965–1980 年的政治命运。上方堆叠图是全体人物的状态构成。点击任意位置把时间游标移到那里。</p>
         </div>
         <div className="spacer" />

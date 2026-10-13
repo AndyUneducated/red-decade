@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 import { useMemo, useRef, type CSSProperties } from 'react'
 import { Cite, StatusDot } from '../components/bits'
-import { GroupCrumb } from '../components/GroupCrumb'
+import { PageTitle } from '../components/PageTitle'
 import { LifeStrip } from '../components/LifeStrip'
 import { LONG_MARKS, Scrubber } from '../components/Scrubber'
 import { factionAt, statusAt } from '../data/atlas'
@@ -30,8 +30,8 @@ const STANDING = new Set<Status>(['power', 'rise', 'restored', 'normal'])
 const statusNow = (p: Person, t: number): Status | undefined => (p.died && toT(p.died) <= t ? 'dead' : statusAt(p, t))
 
 export function Factions() {
-  const { ix, doc, go } = useApp()
-  const f = (doc && ix.faction.get(doc)) || ix.factions[0]
+  const { ix, param, open } = useApp()
+  const f = (param && ix.faction.get(param)) || ix.factions[0]
   const members = useMemo(() => {
     const m = new Map<string, number>()
     for (const p of ix.people) for (const id of p.factions) m.set(id, (m.get(id) ?? 0) + 1)
@@ -42,7 +42,7 @@ export function Factions() {
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1><GroupCrumb />派系档案</h1>
+          <PageTitle />
           <p>
             1965–1966 年格局下划分的 {ix.factions.length} 个派系与群体：党内派别、中央小组、体制内系统、群众组织、被打击的群体和异见者。一人可属几派，“在位”与“掌控”按每人此刻的归属计。拖动时间轴看各派此刻的状态。
           </p>
@@ -58,7 +58,7 @@ export function Factions() {
               <div key={k}>
                 <div className="group">{KINDS[k]}</div>
                 {list.map((x) => (
-                  <button key={x.id} aria-current={x.id === f.id} onClick={() => go('factions', x.id)} style={{ '--fc': x.color } as CSSProperties}>
+                  <button key={x.id} aria-current={x.id === f.id} onClick={() => open('faction', x.id)} style={{ '--fc': x.color } as CSSProperties}>
                     <i />
                     <span>{x.name}</span>
                     <small>{members.get(x.id) ?? 0}</small>
@@ -184,7 +184,9 @@ function FactionDetail({ f }: { f: Faction }) {
           {held.map(({ o, runs }) => (
             <button key={o.id} className="people-row" onClick={() => select({ type: 'org', id: o.id })} style={{ gridTemplateColumns: `130px minmax(0, 1fr) ${stripW}px` }}>
               <span className="nm">
-                <b style={{ fontSize: 13 }}>{o.short ?? o.name}</b>
+                <b style={{ fontSize: 13 }} title={o.name}>
+                  {o.short ?? o.name}
+                </b>
               </span>
               <span className="role">{ORG_LEVELS[o.level]}</span>
               <span className="strip">

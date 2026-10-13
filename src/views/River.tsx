@@ -1,4 +1,4 @@
-import { GroupCrumb } from '../components/GroupCrumb'
+import { PageTitle } from '../components/PageTitle'
 import * as d3 from 'd3'
 import { useMemo, useRef } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
@@ -44,8 +44,11 @@ function span(f: Faction): string {
 
 type Lane = { f: Faction; members: Person[]; top: number; h: number }
 
+export const RiverPeople = () => <River part="people" />
+export const RiverOrgs = () => <River part="orgs" />
+
 // part 'people' is 派系消长 (the river and each faction's members), 'orgs' is 派系与机构 (what each held)
-export function River({ part }: { part: 'people' | 'orgs' }) {
+function River({ part }: { part: 'people' | 'orgs' }) {
   const { ix, sel, select, t, setT } = useApp()
   const people = part === 'people'
   // the year axis sits under the river, or at the top when there is none
@@ -235,7 +238,7 @@ export function River({ part }: { part: 'people' | 'orgs' }) {
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1><GroupCrumb />{people ? '派系消长' : '派系与机构'}</h1>
+          <PageTitle />
           {people ? (
             <p>上方河流的宽度是每个派系仍“在位”（未受批判、靠边、打倒、关押或死亡）的人数，按每人的第一归属计。下方每条带子是一个派系全体成员的状态构成；带子下方的点是成员遭难的时刻。</p>
           ) : (

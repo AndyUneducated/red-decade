@@ -1,6 +1,7 @@
 import * as d3 from 'd3'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { StatusLegend, statusColor, useTip } from '../components/bits'
+import { PageTitle } from '../components/PageTitle'
 import { statusAt } from '../data/atlas'
 import { LANES, type Event, type Lane, type Status } from '../data/schema'
 import { fmtRange, fmtT, toT } from '../lib/dates'
@@ -67,7 +68,7 @@ function TimelineList({ onChart }: { onChart: () => void }) {
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1>时间线</h1>
+          <PageTitle />
           <p>按日期排列的事件；点事件看详情并把时间游标移到当天。虚线圆点为待核。</p>
         </div>
         <div className="legend">
@@ -273,7 +274,7 @@ function TimelineChart({ onList }: { onList: () => void }) {
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1>时间线</h1>
+          <PageTitle />
           <p>
             {compare
               ? '国际对照：上方四条国内主线，下方外事事件按标题归入中苏、印度支那、中美、建交与联合国各轨，最下一行是已收的美国外交档案（FRUS）。点档案可读原文，并高亮引用它的事件。'

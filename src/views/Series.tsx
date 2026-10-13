@@ -1,4 +1,4 @@
-import { GroupCrumb } from '../components/GroupCrumb'
+import { PageTitle } from '../components/PageTitle'
 import { Cite, Entity } from '../components/bits'
 import { POINT_KINDS, SERIES_GROUPS, type Series, type SeriesPoint } from '../data/schema'
 import { useApp, useHistoryState } from '../state'
@@ -140,10 +140,7 @@ export function SeriesView() {
       <div className="research figures">
         <div className="viewhead" style={{ padding: '0 0 14px', border: 0 }}>
           <div>
-            <h1>
-              <GroupCrumb />
-              经济与人口
-            </h1>
+            <PageTitle />
             <p>
               {ix.series.length} 个序列、{points} 个数字，出自 {sources.size} 份文献，主要是国家统计局历年公报（《人民日报》刊载）和三次人口普查公报。每个数字附原文，构建时逐字核对；原文以亿斤、万担计的换算成万吨，原单位留在引文里。同一年有几个数时并列：当时公布的数连成线，后来修正的、另一口径的单独标出。1959–1976
               年的全国数字，本库只从个别会议文件和报告里找到几个；图上留白处是史料空白，不是数字为零。点任一个点看原文。

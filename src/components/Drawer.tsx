@@ -5,6 +5,7 @@ import { fmtDate, fmtRange, fmtT, lifespan, toT } from '../lib/dates'
 import { AXES, describe, ismColor } from '../lib/isms'
 import { existsAt, isHead, parentAt, suspendedAt, within } from '../lib/orgs'
 import { scrollWhenReady } from '../lib/history'
+import { detailPage, page as pageDef } from '../pages'
 import { useApp } from '../state'
 import { Cite, Entity, PersonChip, StatusDot, Verify, Voices } from './bits'
 import { PersonFacts, PositionList } from './PersonFacts'
@@ -273,7 +274,7 @@ function highlight(text: string, terms: string[]) {
 }
 
 function ConceptCard({ id, doc }: { id: string; doc?: string }) {
-  const { ix, go, view, select } = useApp()
+  const { ix, go, page, select } = useApp()
   const c = ix.concept.get(id)
   if (!c) return null
   const events = ix.events.filter((e) => e.concepts.includes(id))
@@ -287,11 +288,11 @@ function ConceptCard({ id, doc }: { id: string; doc?: string }) {
         <h2>{c.name}</h2>
         <div className="meta">
           在 {c.hits.length} 份原始文献中出现 {total} 次
-          {view !== 'ideas' && (
+          {page !== 'concepts' && (
             <>
               {' · '}
-              <button className="linklike" onClick={() => go('ideas', 'concepts')}>
-                概念 × 文献 →
+              <button className="linklike" onClick={() => go('concepts')}>
+                {pageDef('concepts').title} →
               </button>
             </>
           )}
@@ -374,7 +375,7 @@ function MiniSpectrum({ points }: { points: { x: number; y: number }[] }) {
 }
 
 function IsmCard({ id }: { id: string }) {
-  const { ix, go, view } = useApp()
+  const { ix, go, page } = useApp()
   const m = ix.ism.get(id)
   if (!m) return null
   const total = m.hits.reduce((s, h) => s + h.count, 0)
@@ -390,11 +391,11 @@ function IsmCard({ id }: { id: string }) {
         <div className="meta">
           {fmtDate(m.from)}
           {m.to ? `–${fmtDate(m.to)}` : ' 起'}
-          {view !== 'ideas' && (
+          {page !== 'lineage' && (
             <>
               {' · '}
-              <button className="linklike" onClick={() => go('ideas', 'tree')}>
-                主义谱系 →
+              <button className="linklike" onClick={() => go('lineage')}>
+                {pageDef('lineage').title} →
               </button>
             </>
           )}
@@ -471,7 +472,7 @@ function IsmCard({ id }: { id: string }) {
 }
 
 function FactionCard({ id }: { id: string }) {
-  const { ix, t, go } = useApp()
+  const { ix, t, open } = useApp()
   const f = ix.faction.get(id)
   if (!f) return null
   const members = ix.people.filter((p) => p.factions.includes(id))
@@ -486,8 +487,8 @@ function FactionCard({ id }: { id: string }) {
         </h2>
         <div className="meta">
           {f.from || f.to ? `${fmtRange(f.from ?? '', f.to)} · ` : ''}
-          <button className="linklike" onClick={() => go('factions', id)}>
-            派系档案 →
+          <button className="linklike" onClick={() => open('faction', id)}>
+            {pageDef(detailPage('faction')).title} →
           </button>
         </div>
       </header>

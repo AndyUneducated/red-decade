@@ -2,6 +2,7 @@ import * as d3 from 'd3'
 import type { ScaleLinear } from 'd3'
 import { useMemo, useRef, type ReactNode } from 'react'
 import { Cite, Entity, Verify } from '../components/bits'
+import { PageTitle } from '../components/PageTitle'
 import { EventList } from '../components/Drawer'
 import { LONG_MARKS, Scrubber } from '../components/Scrubber'
 import type { Tenure } from '../data/atlas'
@@ -41,8 +42,8 @@ const IN: Record<OrgLink, [string, string]> = {
 }
 
 export function Orgs() {
-  const { doc } = useApp()
-  return doc ? <OrgPage key={doc} id={doc} /> : <Directory />
+  const { param } = useApp()
+  return param ? <OrgPage key={param} id={param} /> : <Directory />
 }
 
 function OrgLinkBtn({ id }: { id: string }) {
@@ -148,7 +149,7 @@ function Directory() {
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1>机构</h1>
+          <PageTitle />
           <p>
             党、政、军、群团、群众组织与单位共 {ix.orgs.length} 个，{fmtT(t, 'month')}存在的有 {alive} 个。缩进是此刻的隶属关系，随时间轴改变，下属机构跟随上级排列（如军队在中央军委之下）；色条是存续期（{T0}–{T1}），虚线框为停止活动。右侧是此刻的负责人；没有负责人名单的机构显示库中在此任职的人数（此刻在任 / 总数）。
           </p>

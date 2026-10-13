@@ -2459,6 +2459,14 @@ h2.sec {
   .people-row .nm {
     overflow: hidden;
   }
+  .people-row .nm b {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* ── figures (数字争议) ────────────────────────────── */

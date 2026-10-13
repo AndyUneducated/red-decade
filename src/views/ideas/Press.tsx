@@ -4,7 +4,7 @@ import { useTip } from '../../components/bits'
 import { useTheme } from '../../lib/theme'
 import { useSize } from '../../lib/useSize'
 import { useApp, useHistoryState } from '../../state'
-import { shortTitle } from '../Ideas'
+import { shortTitle } from '../../lib/sources'
 
 const ROW = 24
 const HEAD_H = 58

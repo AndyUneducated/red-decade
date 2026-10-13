@@ -13,6 +13,8 @@ dist
 public/data
 dist-ssr
 .probe
+test-results
+playwright-report
 *.local
 
 # Editor directories and files

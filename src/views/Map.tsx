@@ -2,6 +2,7 @@ import * as d3 from 'd3'
 import type { FeatureCollection, Geometry } from 'geojson'
 import { useEffect, useRef, useState } from 'react'
 import { Cite } from '../components/bits'
+import { PageTitle } from '../components/PageTitle'
 import { COUNTY_KINDS, LANES, REVCOM_DATES, type County, type Revcom } from '../data/schema'
 import { fmtDate, fmtT, toT } from '../lib/dates'
 import { useSize } from '../lib/useSize'
@@ -248,7 +249,7 @@ export function MapView() {
       <div className="research map-view">
         <div className="viewhead" style={{ padding: '0 0 14px', border: 0 }}>
           <div>
-            <h1>革委会地图</h1>
+            <PageTitle />
             <p>
               1967 年 1 月黑龙江到 1968 年 9 月西藏、新疆，29 个省级革命委员会依次建立，“全国山河一片红”用了一年零八个月。日期一律照当时《人民日报》报道正文；多数报道只写庆祝大会之日，单独标出。黑点是此前半年内有地点的事件，逐渐淡出；空心圆是县志和处遗记录所载的死亡人数，方块是山东各县革委会。点开看原文。
             </p>

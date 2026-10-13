@@ -4,7 +4,7 @@ import type { Ref } from '../data/atlas'
 import { SOURCE_KINDS } from '../data/schema'
 import { fmtDate } from '../lib/dates'
 import { useApp, useHistoryState } from '../state'
-import { shortTitle } from './Ideas'
+import { shortTitle } from '../lib/sources'
 
 const KINDS = SOURCE_KINDS
 const DEFAULT_DOC = 'ws-1966-05-16-notice'
@@ -12,9 +12,9 @@ const DEFAULT_DOC = 'ws-1966-05-16-notice'
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 export function Docs() {
-  const { ix, doc, openDoc } = useApp()
+  const { ix, param, openDoc } = useApp()
   const [filter, setFilter] = useHistoryState('docs.filter', '')
-  const id = doc && ix.source.get(doc)?.hasText ? doc : DEFAULT_DOC
+  const id = param && ix.source.get(param)?.hasText ? param : DEFAULT_DOC
 
   const groups = useMemo(() => {
     const list = ix.sources.filter((s) => s.hasText && (!filter || (s.title + (s.alias ?? '')).includes(filter)))

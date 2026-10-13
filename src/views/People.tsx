@@ -1,4 +1,4 @@
-import { GroupCrumb } from '../components/GroupCrumb'
+import { PageTitle } from '../components/PageTitle'
 import * as d3 from 'd3'
 import { Fragment, useMemo, useRef, type CSSProperties } from 'react'
 import { Cite, Entity, StatusLegend, Verify, Voices } from '../components/bits'
@@ -30,8 +30,8 @@ const S1 = 1990
 const statusNow = (p: Person, t: number): Status | undefined => (p.died && toT(p.died) <= t ? 'dead' : statusAt(p, t))
 
 export function People() {
-  const { doc } = useApp()
-  return doc ? <Profile key={doc} id={doc} /> : <Directory />
+  const { param } = useApp()
+  return param ? <Profile key={param} id={param} /> : <Directory />
 }
 
 // Where each quote goes on the profile. Dated ones join the life section that had begun by then; undated
@@ -180,7 +180,7 @@ function Directory() {
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1><GroupCrumb />名录</h1>
+          <PageTitle />
           <p>
             每行一人，色带是一生的状态（{T0}–{T1} 同一时间轴），红线是时间轴上的此刻。点名字看完整传记。已完成完整传记 {full} / {ix.people.length} 人；{fmtT(t, 'month')}在世 {living} 人。底部按此刻的状态计数，点一种状态只看这些人。
           </p>

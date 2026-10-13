@@ -1,4 +1,4 @@
-import { GroupCrumb } from '../components/GroupCrumb'
+import { PageTitle } from '../components/PageTitle'
 import { Cite, Entity } from '../components/bits'
 import { COUNTY_KINDS, MEASURES, SOURCE_KINDS, VOICES, type County, type Figure } from '../data/schema'
 import { fmtDate } from '../lib/dates'
@@ -214,7 +214,7 @@ export function Figures() {
       <div className="research figures">
         <div className="viewhead" style={{ padding: '0 0 14px', border: 0 }}>
           <div>
-            <h1><GroupCrumb />数字争议</h1>
+            <PageTitle />
             <p>
               同一案件的死亡与迫害数字，按出处并列，不取其一。每个数字都附原文，构建时逐字核对。横条用同一把对数刻度，各案之间可以比较数量级；原文只说“大批”“数千”的，照录不折算。
             </p>

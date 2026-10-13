@@ -1,20 +1,18 @@
 import { useEffect, useRef, useState } from 'react'
-import { groupOf, itemOf, lastItem, NAV, useApp, type NavItem } from '../state'
-
-type Group = (typeof NAV)[number]
+import { groupOf, NAV, type NavGroup, type NavItem } from '../nav'
+import { lastPage, useApp } from '../state'
 
 // The menu is position: fixed so the scrolling tab strip does not clip it. With a mouse it opens on
 // hover and a click on the tab goes to the group's last page; on a touch screen the first tap opens it.
-function GroupTab({ g, open, setOpen }: { g: Group; open: boolean; setOpen: (o: boolean) => void }) {
-  const { view, doc, go, up } = useApp()
+function GroupTab({ g, open, setOpen }: { g: NavGroup; open: boolean; setOpen: (o: boolean) => void }) {
+  const { page, param, go, up } = useApp()
   const btn = useRef<HTMLButtonElement>(null)
   const menu = useRef<HTMLDivElement>(null)
   const timer = useRef<number>(undefined)
   const tapOpened = useRef(false)
   const [pos, setPos] = useState<{ left: number; top: number }>()
   const multi = g.items.length > 1
-  const active = groupOf(view) === g
-  const current = itemOf(view, doc)
+  const active = groupOf(page) === g
 
   const place = () => {
     const r = btn.current!.getBoundingClientRect()
@@ -29,10 +27,11 @@ function GroupTab({ g, open, setOpen }: { g: Group; open: boolean; setOpen: (o: 
   }
   useEffect(() => () => clearTimeout(timer.current), [])
 
-  const visit = (it: NavItem) => {
+  // from a detail page, its own list comes back where it was left
+  const visit = (p: NavItem['page']) => {
     setOpen(false)
-    if (doc && (view === 'people' || view === 'orgs') && it.view === view && !it.doc) up(view)
-    else go(it.view, it.doc)
+    if (param && p === page) up(page)
+    else go(p)
   }
 
   return (
@@ -52,7 +51,7 @@ function GroupTab({ g, open, setOpen }: { g: Group; open: boolean; setOpen: (o: 
         }}
         onClick={() => {
           if (tapOpened.current) tapOpened.current = false
-          else visit(lastItem(g))
+          else visit(lastPage(g))
         }}
         onKeyDown={(e) => {
           if (!multi) return
@@ -87,7 +86,7 @@ function GroupTab({ g, open, setOpen }: { g: Group; open: boolean; setOpen: (o: 
           }}
         >
           {g.items.map((it) => (
-            <button key={it.label} role="menuitem" aria-current={active && it === current ? 'page' : undefined} onClick={() => visit(it)}>
+            <button key={it.page} role="menuitem" aria-current={it.page === page ? 'page' : undefined} onClick={() => visit(it.page)}>
               <b>{it.label}</b>
               <small>{it.desc}</small>
             </button>
@@ -99,9 +98,9 @@ function GroupTab({ g, open, setOpen }: { g: Group; open: boolean; setOpen: (o: 
 }
 
 export function Nav() {
-  const { view, doc } = useApp()
+  const { page, param } = useApp()
   const [open, setOpen] = useState<string>()
-  useEffect(() => setOpen(undefined), [view, doc])
+  useEffect(() => setOpen(undefined), [page, param])
   // a tap or click anywhere outside closes an open menu
   useEffect(() => {
     if (!open) return

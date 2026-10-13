@@ -1,41 +1,10 @@
-import { useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import { Drawer } from './components/Drawer'
 import { Nav } from './components/Nav'
 import { Search } from './components/Search'
 import { setTheme, useTheme } from './lib/theme'
-import { useApp, type View } from './state'
-import { Docs } from './views/Docs'
-import { Factions } from './views/Factions'
-import { Fates } from './views/Fates'
-import { Figures } from './views/Figures'
-import { Ideas } from './views/Ideas'
-import { MapView } from './views/Map'
-import { Narratives } from './views/Narratives'
-import { Network } from './views/Network'
-import { Orgs } from './views/Orgs'
-import { People } from './views/People'
-import { Research } from './views/Research'
-import { River } from './views/River'
-import { SeriesView } from './views/Series'
-import { Timeline } from './views/Timeline'
-
-const COMPONENTS: Record<View, () => React.ReactNode> = {
-  timeline: Timeline,
-  people: People,
-  orgs: Orgs,
-  network: Network,
-  fates: Fates,
-  river: () => <River part="people" />,
-  control: () => <River part="orgs" />,
-  factions: Factions,
-  map: MapView,
-  ideas: Ideas,
-  narratives: Narratives,
-  figures: Figures,
-  series: SeriesView,
-  docs: Docs,
-  research: Research,
-}
+import { PAGE_COMPONENTS } from './pageComponents'
+import { pageName, useApp } from './state'
 
 function ThemeButton() {
   const theme = useTheme()
@@ -57,8 +26,12 @@ function ThemeButton() {
 }
 
 export default function App() {
-  const { view, select, sel } = useApp()
+  const { page, param, ix, select, sel } = useApp()
   const [searching, setSearching] = useState(false)
+
+  useEffect(() => {
+    document.title = `${pageName(ix, { page, param })} · 红色年代`
+  }, [ix, page, param])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -88,7 +61,7 @@ export default function App() {
     return () => document.removeEventListener('click', onClick)
   }, [sel, searching, select])
 
-  const Current = COMPONENTS[view]
+  const Current = PAGE_COMPONENTS[page]
   return (
     <div className="shell">
       <header className="topbar">
@@ -106,7 +79,9 @@ export default function App() {
         <ThemeButton />
       </header>
       <main className="main">
-        <Current />
+        <Suspense fallback={<div className="view loading">载入中</div>}>
+          <Current />
+        </Suspense>
         <Drawer />
       </main>
       {searching && <Search onClose={() => setSearching(false)} />}

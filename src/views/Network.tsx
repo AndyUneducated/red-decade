@@ -1,4 +1,4 @@
-import { GroupCrumb } from '../components/GroupCrumb'
+import { PageTitle } from '../components/PageTitle'
 import * as d3 from 'd3'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { RELATION_STYLE, StatusLegend, statusColor, useTip } from '../components/bits'
@@ -111,7 +111,7 @@ export function Network() {
     <div className="view">
       <div className="viewhead">
         <div>
-          <h1><GroupCrumb />关系网络</h1>
+          <PageTitle />
           <p>节点颜色＝此刻的政治命运，外圈＝所属派系；连线只显示在当前时刻有效的关系。拖动下方时间轴，看网络如何重组。</p>
         </div>
         <div className="spacer" />
