@@ -418,3 +418,33 @@
   voices:
     - { voice: officialLater, text: 1985年12月统计，全地区在“文革”中被迫害致死的6323人（柳州地区文革大事记）, cite: ccrd-1987-gx-liuzhou-pref-47, quote: true }
   cites: [ccrd-1987-gx-liuzhou-pref-47]
+
+- id: 1985-04-10-hk-basic-law-committee
+  date: 1985-04-10
+  title: 成立香港特别行政区基本法起草委员会
+  lane: intl
+  weight: 1
+  summary: 六届人大三次会议决定成立香港特别行政区基本法起草委员会，负责基本法的起草工作，向全国人民代表大会负责。这是 1984 年中英联合声明之后的立法步骤。
+  voices:
+    - { voice: doc, text: 决定成立中华人民共和国香港特别行政区基本法起草委员会，负责香港特别行政区基本法的起草工作, cite: ws-1985-04-10-hk-basic-law-committee, quote: true }
+  cites: [ws-1985-04-10-hk-basic-law-committee]
+
+- id: 1986-04-12-civil-law
+  date: 1986-04-12
+  title: 《民法通则》通过：名誉权与人格尊严
+  lane: center
+  weight: 1
+  summary: 六届人大四次会议通过《民法通则》，自 1987 年 1 月 1 日起施行。第一百零一条规定公民、法人享有名誉权，禁止用侮辱、诽谤等方式损害名誉；第一百条规定肖像权。
+  voices:
+    - { voice: doc, text: 公民、法人享有名誉权，公民的人格尊严受法律保护，禁止用侮辱、诽谤等方式损害公民、法人的名誉, cite: ws-1986-04-12-civil-law, quote: true }
+  cites: [ws-1986-04-12-civil-law]
+
+- id: 1986-04-12-compulsory-education
+  date: 1986-04-12
+  title: 《义务教育法》通过：九年制义务教育
+  lane: culture
+  weight: 1
+  summary: 同日通过的《义务教育法》规定国家实行九年制义务教育，凡年满六周岁的儿童不分性别、民族、种族应当入学，由各省根据本地经济文化状况确定推行步骤。它把 1985 年教育体制改革决定中的九年义务教育写成法律。
+  voices:
+    - { voice: doc, text: 国家实行九年制义务教育, cite: ws-1986-04-12-compulsory-education, quote: true }
+  cites: [ws-1986-04-12-compulsory-education]

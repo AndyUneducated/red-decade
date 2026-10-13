@@ -234,11 +234,12 @@
   title: 政府工作报告：海南建省，广东、福建实行更开放的政策
   lane: econ
   weight: 1
-  summary: 李鹏在七届人大一次会议上作政府工作报告，提出对广东、福建和海南岛实行更加开放的政策，建立改革开放综合试验区，国务院建议成立海南省。报告同时列出五年来国民生产总值平均每年增长 11.1%。
+  summary: 李鹏在七届人大一次会议上作政府工作报告，提出对广东、福建和海南岛实行更加开放的政策，建立改革开放综合试验区，国务院建议成立海南省。报告同时列出五年来国民生产总值平均每年增长 11.1%。4 月 13 日，大会决定批准设立海南省，撤销海南行政区。
   people: [li-peng]
   voices:
     - { voice: officialLater, text: 同时在这个基础上对广东、福建和海南岛实行更加开放的政策，建立改革开放综合试验区（1988 年政府工作报告）, cite: ws-1988-03-gov-report, quote: true }
-  cites: [ws-1988-03-gov-report]
+    - { voice: doc, text: 批准设立海南省，撤销海南行政区（1988 年 4 月 13 日七届人大一次会议决定）, cite: ws-1988-04-13-hainan-province, quote: true }
+  cites: [ws-1988-03-gov-report, ws-1988-04-13-hainan-province]
 
 - id: 1988-inflation-18-5
   date: 1988
@@ -326,3 +327,48 @@
   voices:
     - { voice: doc, text: 国务院决定：自一九九〇年一月十一日起，解除在北京市部分地区的戒严（1990 年国务院令）, cite: ws-1990-01-10-lift-martial-law, quote: true }
   cites: [ws-1990-01-10-lift-martial-law]
+
+- id: 1988-04-12-constitution-amendment
+  date: 1988-04-12
+  title: 宪法修正案：允许私营经济，土地使用权可以转让
+  lane: econ
+  weight: 2
+  summary: 七届人大一次会议通过宪法修正案两条：第十一条增加“国家允许私营经济在法律规定的范围内存在和发展”，称其为社会主义公有制经济的补充；第十条中“不得侵占、买卖、出租”土地的规定改为不得非法转让，土地的使用权可以依法转让。
+  voices:
+    - { voice: doc, text: 国家允许私营经济在法律规定的范围内存在和发展, cite: ws-1988-04-12-constitution-amendment, quote: true }
+    - { voice: doc, text: 土地的使用权可以依照法律的规定转让, cite: ws-1988-04-12-constitution-amendment, quote: true }
+  cites: [ws-1988-04-12-constitution-amendment]
+
+- id: 1988-cr-books-rules
+  date: 1988
+  title: 中宣部、新闻出版署：出版“文革”图书的若干规定
+  lane: culture
+  weight: 3
+  summary: 规定称一些出版社以“文革”期间的“轶事”“秘闻”“内幕”招徕读者，援引“团结一致向前看，历史问题宜粗不宜细”的一贯精神，宣布相当时期内不考虑出版《文革辞典》。九条规定：“文革”辞典等工具书一律不得安排；专门研究或叙述“文革”历史的著作一般不安排，个别选题须层报中宣部审批；回忆录不得违背 1981 年《历史决议》精神，不得使用中央未公开的材料，不得涉及党和国家领导人个人品德；违反者没收利润、罚款、追究领导责任。
+  voices:
+    - { voice: officialLater, text: 根据中央团结一致向前看，历史问题宜粗不宜细的一贯精神, cite: ws-1988-cr-books-rules, quote: true }
+    - { voice: officialLater, text: 有关“文化大革命”的辞典等工具书，今后相当时期内，各出版社均不得安排, cite: ws-1988-cr-books-rules, quote: true }
+    - { voice: officialLater, text: 不得随意使用中央未正式公开的历史材料，不得随意涉及党和国家领导人个人品德问题, cite: ws-1988-cr-books-rules, quote: true }
+  cites: [ws-1988-cr-books-rules]
+
+- id: 1989-03-07-lhasa-martial-law
+  date: 1989-03-07
+  title: 国务院令：拉萨市戒严
+  lane: local
+  weight: 2
+  place: 西藏拉萨
+  summary: 国务院以“少数分裂主义分子不断在西藏自治区拉萨市制造骚乱”为由，依宪法第八十九条第十六项决定自 3 月 8 日零时起在拉萨市实行戒严，由西藏自治区人民政府组织实施。两个半月后，北京也宣布戒严。
+  voices:
+    - { voice: doc, text: 国务院决定，自一九八九年三月八日零时起在拉萨市实行戒严, cite: ws-1989-03-07-lhasa-martial-law, quote: true }
+  cites: [ws-1989-03-07-lhasa-martial-law]
+
+- id: 1990-04-lhasa-lift-martial-law
+  date: 1990-04
+  title: 国务院令：自 1990 年 5 月 1 日起解除拉萨戒严
+  lane: local
+  weight: 1
+  place: 西藏拉萨
+  summary: 国务院宣布拉萨戒严“任务已胜利完成”，自 1990 年 5 月 1 日起解除。拉萨戒严持续约十四个月，比北京戒严（1990 年 1 月 11 日解除）更长。
+  voices:
+    - { voice: doc, text: 自一九九〇年五月一日起，解除在西藏自治区拉萨市的戒严, cite: ws-1990-lhasa-lift-martial-law, quote: true }
+  cites: [ws-1990-lhasa-lift-martial-law]

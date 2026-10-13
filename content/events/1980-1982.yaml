@@ -303,3 +303,14 @@
   voices:
     - { voice: officialLater, text: 对其中123人作出了死亡定性结论，未作定性结论的118人，其中“四类分子”102人，无亲属的15人（灌阳县文革大事记，1982 年 5 月 23 日条）, cite: ccrd-1987-gx-guanyang-31, quote: true }
   cites: [ccrd-1987-gx-guanyang-31]
+
+- id: 1982-03-31-religion-document
+  date: 1982-03-31
+  title: 中央 19 号文件：宗教问题的基本观点和基本政策
+  lane: ideology
+  weight: 2
+  summary: 中共中央印发《关于我国社会主义时期宗教问题的基本观点和基本政策》。文件称林彪、江青集团把宗教界爱国人士以至一般信教群众当作“专政对象”，在宗教界制造了大量冤假错案，并把某些少数民族的风俗习惯视为宗教迷信强行禁止；文件同时承认，使用暴力的结果是宗教活动在秘密和分散状态下得到某些发展。
+  voices:
+    - { voice: officialLater, text: 把宗教界爱国人士以至一般信教群众当作“专政对象”，在宗教界制造了大量冤假错案, cite: ws-1982-03-31-religion-document, quote: true }
+    - { voice: officialLater, text: 他们在宗教问题上使用暴力，结果却使宗教活动在秘密和分散的状态下得到某些发展, cite: ws-1982-03-31-religion-document, quote: true }
+  cites: [ws-1982-03-31-religion-document]

@@ -293,3 +293,13 @@
   voices:
     - { voice: officialLater, text: 中央过去所发文件的内容、提法和决定，同中央新发文件的内容、提法和决定相矛盾、相抵触的，一律应以新的文件为准，旧的文件或其中的有关部分自然失效，除少数特殊情况外，不必再一一宣布撤销（1979 年中共中央通知）, cite: ws-1979-old-cc-files-notice, quote: true }
   cites: [ws-1979-old-cc-files-notice]
+
+- id: 1979-kmt-defectors-policy
+  date: 1979
+  title: 落实原国民党起义投诚人员政策：全国五十余万人，约十余万需安置
+  lane: center
+  weight: 1
+  summary: 中发〔1979〕6 号文件下达半年多后，落实起义投诚人员政策领导小组发出说明：初步查明全国还有五十余万名原国民党起义投诚人员，其中需要落实政策、安置工作或生活的约十余万人。说明随后逐条界定各类人员的政策界限。
+  voices:
+    - { voice: doc, text: 初步查明，现在全国还有五十余万名原国民党起义投诚人员，其中按照中央6号文件的精神，需要落实政策安置工作或做其他生活安置的约十余万人, cite: ws-kmt-defectors-policy, quote: true }
+  cites: [ws-kmt-defectors-policy]
