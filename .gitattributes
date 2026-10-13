@@ -1,1 +1,7 @@
 * text=auto eol=lf
+# pages served with mixed CRLF and LF: kept byte for byte so their SHA-256 matches research/fetch-log.jsonl
+sources/raw/chen-yinke-1953-12-01-reply.html -text
+sources/raw/people-2013-wu-guixian.html -text
+sources/raw/people-xiao-hua.html -text
+sources/raw/people-wang-shangrong.html -text
+sources/raw/mzd-1975-11-18-wang-mantian.html -text
