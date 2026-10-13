@@ -18,7 +18,7 @@ const NAV_CONFIG: { label: string; pages: Entry[] }[] = [
   // ideas, then people, then factions, orgs and the economy
   {
     label: '洞察',
-    pages: ['drift', 'authority', 'spread', 'attribution', 'selfcrit', 'citations', 'survival', 'overlap', 'parallel', 'moments', 'flows', 'paralysis', 'outcomes'],
+    pages: ['drift', 'authority', 'spread', 'attribution', 'selfcrit', 'citations', 'survival', 'overlap', 'parallel', 'moments', 'flows', 'rhetoric', 'paralysis', 'outcomes'],
   },
   { label: '史料', pages: ['docs', 'figures', 'series', 'narratives', 'research'] },
 ]

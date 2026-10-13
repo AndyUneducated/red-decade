@@ -2,7 +2,7 @@
 // The constants here are also the insight pages' own, so a card and its page always agree.
 import type { ReactNode } from 'react'
 import { factionAt, type Index, type Ref } from '../../data/atlas'
-import { VOICES, type Status } from '../../data/schema'
+import { VOICES, type Relation, type Status } from '../../data/schema'
 import { nearest, survivalSubject, yearCodes, type Code } from '../../derive/fates'
 import { toT } from '../../lib/dates'
 import { page as pageDef, type PageId } from '../../pages'
@@ -28,6 +28,8 @@ export function lifeCodes(ix: Index): Map<string, Code[]> {
 }
 
 export const ATTRIBUTION_MIN_KINDS = 3
+
+export const HOSTILE: ReadonlySet<Relation['type']> = new Set(['attack', 'persecute'])
 
 // on is the entity the note is about; the insight page opens with it selected where the page follows a selection
 function Note({ to, on, children }: { to: PageId; on: Ref; children: ReactNode }) {

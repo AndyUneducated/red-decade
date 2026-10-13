@@ -1,6 +1,7 @@
 import * as d3 from 'd3'
 import { useMemo, useState } from 'react'
 import { Cite, PersonChip } from '../../components/bits'
+import { HOSTILE } from '../../components/drawer/InsightNotes'
 import { factionAt } from '../../data/atlas'
 import { RELATION_TYPES, type Relation } from '../../data/schema'
 import { fmtDate, toT } from '../../lib/dates'
@@ -14,7 +15,6 @@ const PERIODS = [
   { id: 'cr2', label: '1970–1976', a: 1970, b: 1977 },
   { id: 'post', label: '1977–1989', a: 1977, b: 1990 },
 ] as const
-const HOSTILE: ReadonlySet<Relation['type']> = new Set(['attack', 'persecute'])
 
 type Hit = { r: Relation; from: string; to: string }
 

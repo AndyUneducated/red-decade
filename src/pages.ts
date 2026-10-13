@@ -60,6 +60,7 @@ export const PAGES = {
   paralysis: { title: '机构瘫痪', desc: '党政机构停止运转、被夺权与革委会取代的时间' },
   outcomes: { title: '人均产量', desc: '粮食、布等按人口平均，公布数与修正数并列' },
   flows: { title: '派系流向', desc: '批判与诬陷在派系之间的流向，跨派系的人' },
+  rhetoric: { title: '说辞重合', desc: '各派文本用词的重合度，对立双方共用与独有的词' },
   docs: {
     title: '文献',
     desc: '一手文献全文',

@@ -34,6 +34,7 @@ export const PAGE_COMPONENTS: Record<PageId, LazyExoticComponent<ComponentType>>
   paralysis: view(() => import('./views/insights/Paralysis'), 'Paralysis'),
   outcomes: view(() => import('./views/insights/Outcomes'), 'Outcomes'),
   flows: view(() => import('./views/insights/Flows'), 'Flows'),
+  rhetoric: view(() => import('./views/insights/Rhetoric'), 'Rhetoric'),
   docs: view(() => import('./views/Docs'), 'Docs'),
   figures: view(() => import('./views/Figures'), 'Figures'),
   series: view(() => import('./views/Series'), 'SeriesView'),
