@@ -248,7 +248,7 @@
   summary: 上海工人刘文辉在文革初期写了“十六条”传单，由弟弟寄往全国十四所大中院校，1967 年 3 月以反革命罪被枪决。家属申诉，1979 年 3 月 17 日上海市高级人民法院仍裁定驳回；继续申诉后，高院才撤销原判，认定“错判错杀”，宣告无罪。判决书上未见改判日期。
   people: [liu-wenhui]
   voices:
-    - { voice: judicial1980, text: 因此原判对刘文辉以反革命罪判处死刑,立即执行属于错判错杀,应予平反纠正（上海市高级人民法院改判判决）, cite: ws-1980-liu-wenhui-rehab, quote: true }
+    - { voice: judicial1980, text: '因此原判对刘文辉以反革命罪判处死刑,立即执行属于错判错杀,应予平反纠正（上海市高级人民法院改判判决）', cite: ws-1980-liu-wenhui-rehab, quote: true }
   cites: [ws-1980-liu-wenhui-rehab]
 
 - id: 1979-12-zhang-qinli-sentenced

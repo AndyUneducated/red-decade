@@ -1,0 +1,279 @@
+# Events, 1980–1982 (M6 第 2 批)：准则、领导制度改革、华国锋让出总理、平反与开除、计划生育、各地文革掌权者起诉、十二大、1982 宪法。
+
+- id: 1980-02-29-party-life-norms
+  date: 1980-02-29
+  title: 《关于党内政治生活的若干准则》
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 十一届五中全会通过十二条准则，第一条坚持政治路线和思想路线之后，依次是坚持集体领导、反对个人专断，维护集中统一，坚持党性、根绝派性，要讲真话，发扬党内民主、正确对待不同意见，保障党员权利，正确对待犯错误的同志，不准搞特权等，针对的是文革中的个人专断、整人和派性。半年后中央开除康生、谢富治党籍时，要求全党以他们为戒“认真地执行”这份准则。
+  people: [hu-yaobang, deng-xiaoping, chen-yun]
+  concepts: [factionalism]
+  voices:
+    - { voice: officialLater, text: 集体领导是党的领导的最高原则之一（1980 年《关于党内政治生活的若干准则》第二条“坚持集体领导，反对个人专断”）, cite: ws-1980-02-29-party-life-norms, quote: true }
+  cites: [ws-1980-02-29-party-life-norms]
+
+- id: 1980-05-20-luo-ruiqing-rehab
+  date: 1980-05-20
+  title: 中央撤销 1966 年罗瑞卿问题文件
+  lane: army
+  weight: 1
+  summary: 罗瑞卿 1965 年底在上海会议上受林彪方面揭发，1966 年 3 月跳楼未遂，被定为“彭罗陆杨反党集团”成员，关押到 1973 年；1977 年复出，1978 年去世，中央军委在追悼会悼词中已为他平反。1980 年中央正式撤销 1966 年 5 月 16 日批转的中发〔66〕268 号文件，受株连的人一并平反。
+  people: [luo-ruiqing, lin-biao, ye-qun]
+  voices:
+    - { voice: officialLater, text: 现中央决定：撤销一九六六年五月十六日《中央批转中央工作小组关于罗瑞卿同志错误问题的报告》（即中发［66］268号文件及附件）（1980 年中共中央通知）, cite: ws-1980-05-20-luo-rehab, quote: true }
+  cites: [ws-1980-05-20-luo-rehab]
+
+- id: 1980-08-18-leadership-reform
+  date: 1980-08-18
+  title: 邓小平《党和国家领导制度的改革》
+  lane: ideology
+  weight: 3
+  place: 北京
+  summary: 邓小平在政治局扩大会议上讲话，宣布华国锋不再兼任总理，邓小平、李先念、陈云、徐向前、王震不再兼任副总理，理由是权力不宜过分集中、兼职不宜过多。讲话把领导制度的主要弊端列为官僚主义、权力过分集中、家长制、领导职务终身制和特权，后来被视为八十年代政治体制改革的纲领。
+  people: [deng-xiaoping, hua-guofeng, zhao-ziyang, li-xiannian, chen-yun, xu-xiangqian, wang-zhen]
+  voices:
+    - { voice: doc, text: 从党和国家的领导制度、干部制度方面来说，主要的弊端就是官僚主义现象，权力过分集中的现象，家长制现象，干部领导职务终身制现象和形形色色的特权现象（1980 年邓小平讲话）, cite: ws-1980-08-18-leadership-reform, quote: true }
+    - { voice: doc, text: 权力过分集中，妨碍社会主义民主制度和党的民主集中制的实行，妨碍社会主义建设的发展，妨碍集体智慧的发挥，容易造成个人专断，破坏集体领导（同一讲话）, cite: ws-1980-08-18-leadership-reform, quote: true }
+  cites: [ws-1980-08-18-leadership-reform]
+
+- id: 1980-09-third-npc-session
+  date: 1980-08-30
+  end: 1980-09-10
+  title: 五届人大三次会议：华国锋不再兼任总理，赵紫阳接任
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 华国锋在会上说，他“向中共中央提出并经中共中央决定”不再兼任国务院总理，邓小平等五位老同志也不再兼任副总理；会议决定赵紫阳任总理。华国锋仍是党的主席，到 1981 年六中全会才辞去。
+  people: [hua-guofeng, zhao-ziyang, deng-xiaoping, li-xiannian, chen-yun, xu-xiangqian, wang-zhen]
+  voices:
+    - { voice: officialLater, text: 根据以上的原则，我向中共中央提出并经中共中央决定，我不再兼任国务院总理（1980 年 9 月 7 日华国锋讲话）, cite: ws-1980-09-07-hua-npc-speech, quote: true }
+  cites: [ws-1980-09-07-hua-npc-speech, ws-1980-08-18-leadership-reform]
+
+- id: 1980-09-25-one-child-letter
+  date: 1980-09-25
+  title: 中央公开信：“提倡一对夫妇只生育一个孩子”
+  lane: econ
+  weight: 3
+  summary: 中共中央致全体党员、团员的公开信，目标是本世纪末人口控制在十二亿以内。信中说建国三十年净增人口四亿三千多万，三十岁以下的人约占百分之六十五，要求党员团员带头只生一个，同时要求“坚决不干强迫命令违法乱纪的事”。此后各地以指标、罚款和手术推行，执行中的强制在库内材料里尚无记录。1950 年代主张节育而被批判的马寅初此时已经平反。
+  people: [ma-yinchu, hua-guofeng, zhao-ziyang]
+  voices:
+    - { voice: officialLater, text: 为了争取在本世纪末把我国人口总数控制在十二亿以内，国务院已经向全国人民发出号召，提倡一对夫妇只生育一个孩子（1980 年中共中央公开信）, cite: ws-1980-09-25-population-letter, quote: true }
+    - { voice: officialLater, text: 而中华人民共和国建立以后的三十年中，出生了人口六亿多，除去死亡，净增四亿三千多万人（同一公开信）, cite: ws-1980-09-25-population-letter, quote: true }
+    - { voice: officialLater, text: 并且坚决不干强迫命令违法乱纪的事，也劝说别人不干强迫命令违法乱纪的事（同一公开信）, cite: ws-1980-09-25-population-letter, quote: true }
+  cites: [ws-1980-09-25-population-letter]
+
+- id: 1980-09-29-hu-feng-rehab
+  date: 1980-09-29
+  title: 中央为“胡风反革命集团”案平反
+  lane: culture
+  weight: 2
+  summary: 1955 年毛泽东亲自写按语定性的“胡风反革命集团”案，中央复查后定为“一件错案”，凡定为胡风分子的一律改正。但这次平反仍保留了“错误言论、宗派活动”的说法。胡风 1979 年才获释，1985 年去世，1988 年才彻底平反。
+  people: [hu-feng, mao-zedong]
+  voices:
+    - { voice: officialLater, text: 将有错误言论、宗派活动的一些同志定为反革命分子、反革命集团的一件错案。中央决定，予以平反（1980 年中共中央批转的复查报告）, cite: cpc-1980-09-29-hu-feng-rehab, quote: true }
+  cites: [cpc-1980-09-29-hu-feng-rehab]
+
+- id: 1980-10-zhao-dan-testament
+  date: 1980-10-08
+  title: 赵丹：“管得太具体，文艺没希望”
+  lane: culture
+  weight: 2
+  summary: 《人民日报》讨论“改善党对文艺的领导”时，发表病中的电影演员赵丹的文章，说艺术家一听到“加强党的领导”就“条件反射地发怵”，“党管文艺管得太具体，文艺就没有希望”。两天后（10 月 10 日）赵丹病逝，这篇文章被看作他的遗言。
+  people: [zhao-dan]
+  voices:
+    - { voice: witness, text: 文艺，是文艺家自己的事，如果党管文艺管得太具体，文艺就没有希望，就完蛋了（1980 年赵丹文章）, cite: rmrb-1980-10-08-zhao-dan, quote: true }
+    - { voice: witness, text: 我们有些艺术家——为党的事业忠心耿耿、不屈不挠的艺术家，一听到要“加强党的领导”，就会条件反射地发怵（同一文章）, cite: rmrb-1980-10-08-zhao-dan, quote: true }
+  cites: [rmrb-1980-10-08-zhao-dan]
+
+- id: 1980-10-16-kang-xie-expelled
+  date: 1980-10-16
+  title: 康生、谢富治被开除党籍，撤销悼词
+  lane: center
+  weight: 2
+  summary: 康生 1975 年、谢富治 1972 年去世时都以高规格追悼。中纪委审查认定两人参与林彪、江青集团的阴谋，中央决定把他们的罪行向全党公布，撤销悼词，开除党籍。一个月后特别法庭的起诉书把两人列为已死亡、不再追究刑事责任的主犯。
+  people: [kang-sheng, xie-fuzhi]
+  voices:
+    - { voice: officialLater, text: 现在中央决定把康生、谢富治的反革命罪行向全党公布，同时撤销对这两人的《悼词》，并决定开除他们的党籍（1980 年中共中央批语）, cite: ws-1980-kang-xie-reports, quote: true }
+  cites: [ws-1980-kang-xie-reports, ws-1980-indictment]
+
+- id: 1980-county-direct-elections
+  date: 1980-07
+  end: 1981-08
+  title: 县级人大代表直接选举与差额选举
+  lane: local
+  weight: 2
+  summary: 1979 年选举法把直接选举扩大到县一级，并规定差额选举。1979 年下半年和 1980 年上半年两次试点，1980 年下半年全面铺开，到 1981 年 8 月全国二千七百五十六个县级单位中二千三百六十八个完成选举。民政部的总结说差额选举“受到了广大群众的热烈拥护”。北京等地高校里出现了学生自荐竞选，库内尚无这方面的原始材料。
+  voices:
+    - { voice: officialLater, text: 已有二千三百六十八个单位完成了选举工作（1981 年民政部总结报告）, cite: ws-1981-09-county-elections, quote: true }
+    - { voice: officialLater, text: 实行差额选举，是我国选举制度的一项重要改革，受到了广大群众的热烈拥护（同一报告）, cite: ws-1981-09-county-elections, quote: true }
+  cites: [ws-1981-09-county-elections]
+
+- id: 1981-bitter-love
+  date: 1981
+  title: 批判《苦恋》
+  lane: culture
+  weight: 2
+  summary: 军队作家白桦的电影剧本《苦恋》拍成影片《太阳和人》，送审后未获公映。1981 年文化部向五届人大常委会第二十次会议的报告，把它作为文艺界“错误倾向”的代表，要求“立场坚定、旗帜鲜明地进行批评和必要的斗争”。这是三中全会后第一次由官方点名批判一部作品。
+  voices:
+    - { voice: officialLater, text: 我们对这种错误倾向，绝不能听之任之，必须立场坚定、旗帜鲜明地进行批评和必要的斗争（1981 年文化部报告）, cite: ws-1981-culture-ministry-report, quote: true }
+    - { voice: officialLater, text: 根据《苦恋》拍成的影片《太阳和人》送审片，看后不能不使人得出这样的印象，共产党不好，社会主义制度不好，新中国不如旧中国、不如外国（同一报告）, cite: ws-1981-culture-ministry-report, quote: true }
+  cites: [ws-1981-culture-ministry-report]
+
+- id: 1981-11-fourth-npc-session
+  date: 1981-11-30
+  title: 五届人大四次会议：赵紫阳的“十条方针”
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 赵紫阳第一次作政府工作报告，主题是经济，提出以提高经济效益为中心的十条方针，说这是“调整、改革、整顿、提高方针的具体体现”。
+  people: [zhao-ziyang]
+  voices:
+    - { voice: officialLater, text: 围绕着提高经济效益，走出一条经济建设的新路子，必须认真贯彻执行下列十条方针（1981 年政府工作报告）, cite: ws-1981-gov-report, quote: true }
+  cites: [ws-1981-gov-report]
+
+- id: 1982-02-20-cadre-retirement
+  date: 1982-02-20
+  title: 中央建立老干部离休退休制度
+  lane: center
+  weight: 2
+  summary: 建国前参加革命、仍健在的老干部有二百五十万人，大部分还在岗位上。中央规定部长、省级正职一般不超过六十五岁，副职和司局级一般不超过六十岁，离休后政治待遇和生活待遇不变。这是邓小平所说废除领导职务终身制的第一步；同年十二大设中央顾问委员会安置老一辈。
+  people: [deng-xiaoping, chen-yun, hu-yaobang]
+  voices:
+    - { voice: officialLater, text: 在大革命时期、土地革命战争时期、抗日战争时期和解放战争时期中参加革命的老干部，至今健在的还有250万人。其中已经离休退休的只是少部分人，大部分人还留在工作岗位上（1982 年中共中央决定）, cite: ws-1982-02-20-cadre-retirement, quote: true }
+  cites: [ws-1982-02-20-cadre-retirement, ws-1980-08-18-leadership-reform]
+
+- id: 1982-03-liu-zhang-indicted
+  date: 1982-03-24
+  title: 四川起诉刘结挺、张西挺
+  lane: local
+  weight: 2
+  place: 成都
+  summary: 刘结挺、张西挺夫妇 1963 年因违法乱纪被撤职，1967 年被中央“平反”后成为四川省革委会副主任，主导四川的派性斗争。1978 年 6 月被捕，1982 年四川省人民检察院起诉，指控他们夺权、诬陷西南局和四川省委领导人、残酷迫害干部群众。
+  people: [liu-jieting, zhang-xiting, li-jingquan]
+  voices:
+    - { voice: judicial1980, text: 诬陷党和国家领导人，诬陷迫害中共中央西南局和四川省委的领导人，残酷迫害、镇压干部、群众，给四川人民造成重大灾难（1982 年四川省人民检察院起诉书）, cite: ws-1982-liu-zhang-case, quote: true }
+  cites: [ws-1982-liu-zhang-case]
+
+- id: 1982-04-liu-yinnong-indicted
+  date: 1982-04-09
+  title: 昆明起诉刘殷农
+  lane: local
+  weight: 1
+  place: 昆明
+  summary: 刘殷农文革中是云南造反派头头，任省革委会常委、昆明市革委会副主任。1982 年昆明市人民检察院以参与林彪、江青集团推翻政权起诉，称他是“林彪、江青反革命集团在云南的案犯”。
+  voices:
+    - { voice: judicial1980, text: 现查明：被告人刘殷农是林彪、江青反革命集团在云南的案犯（1982 年昆明市人民检察院起诉书）, cite: ws-1982-liu-yinnong-case, quote: true }
+  cites: [ws-1982-liu-yinnong-case]
+
+- id: 1982-hunan-rebels-tried
+  date: 1982-04-20
+  end: 1982-10-14
+  title: 长沙审判叶卫东、胡勇
+  lane: local
+  weight: 1
+  place: 长沙
+  summary: 叶卫东（原名叶冬初，曾任中学教员）和胡勇（原名胡世满）文革中都是湖南造反派头头、省革委会副主任，1977 年起先后被审查、逮捕。1982 年 4 月长沙市人民检察院以阴谋颠覆政府等罪起诉，长沙市中级人民法院同年判决。胡勇案有律师出庭辩护。
+  voices:
+    - { voice: judicial1980, text: 被告人叶卫东，原名叶冬初，男，现年四十三岁，湖南省宁远县人，汉族，大学文化，一九六一年参加工作，曾任大学助教，中学教员，“文化大革命”中任湖南省革筹小组成员、省革命委员会副主任（1982 年长沙市人民检察院起诉书）, cite: ws-1982-ye-weidong-case, quote: true }
+    - { voice: judicial1980, text: 辩护人：律师易延礼（胡勇案判决书）, cite: ws-1982-hu-yong-case, quote: true }
+  cites: [ws-1982-ye-weidong-case, ws-1982-hu-yong-case]
+
+- id: 1982-05-ma-yinchu-death
+  date: 1982-05-10
+  title: 马寅初逝世
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 马寅初 1957 年发表《新人口论》，1960 年被迫辞去北京大学校长。三中全会后平反，“新人口论”被肯定为正确；1981 年百岁寿辰时公开纪念，一年后去世。他的去世与一胎化公开信只隔一年多。
+  people: [ma-yinchu]
+  voices:
+    - { voice: officialLater, text: 党的三中全会后，在中央的直接关怀下，马寅初同志的问题，得到了彻底平反，肯定了他的新人口论和综合平衡的经济理论，都是正确的（1982 年新华社报道）, cite: rmrb-1982-05-23-ma-yinchu, quote: true }
+  cites: [rmrb-1982-05-23-ma-yinchu]
+
+- id: 1982-07-shanghai-cases
+  date: 1982-07-02
+  title: 上海起诉朱永嘉、陈阿大
+  lane: local
+  weight: 1
+  place: 上海
+  summary: 朱永嘉是上海市委写作组负责人，陈阿大是工人出身的“工总司”头头、市革委会常委，两人都被列为江青集团在上海的骨干。起诉书指控朱永嘉在 1976 年 10 月策划上海武装叛乱时主张“拉出民兵来”，陈阿大参与 1966 年的“安亭事件”。
+  people: [zhu-yongjia, wang-hongwen, pan-guoping, xu-jingxian, wang-xiuzhen]
+  voices:
+    - { voice: judicial1980, text: 会上，朱永嘉提出要“拉出民兵来，打一个礼拜不行，打五天三天也好，让全世界都知道”（1982 年上海市人民检察院分院起诉书）, cite: ws-1982-zhu-yongjia-case, quote: true }
+    - { voice: judicial1980, text: “文化大革命”初期，陈阿大参与王洪文、潘国平等人制造的“安亭事件”，冲砸《解放日报》社，诬陷中共上海市委，煽动夺取上海市领导权（陈阿大案起诉书）, cite: ws-1982-chen-ada-case, quote: true }
+  cites: [ws-1982-zhu-yongjia-case, ws-1982-chen-ada-case]
+
+- id: 1982-09-twelfth-congress
+  date: 1982-09-01
+  end: 1982-09-11
+  title: 中共十二大：“翻两番”，不设主席，设顾问委员会
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 胡耀邦作报告《全面开创社会主义现代化建设的新局面》，提出到 2000 年工农业年总产值“翻两番”。新党章不设主席，只设总书记；中央和省一级设顾问委员会，让老同志起“参谋作用”，邓小平任中顾委主任。华国锋仍当选中央委员。
+  people: [hu-yaobang, deng-xiaoping, chen-yun, ye-jianying, zhao-ziyang, li-xiannian, hua-guofeng]
+  voices:
+    - { voice: officialLater, text: 力争使全国工农业的年总产值翻两番，即由一九八○年的七千一百亿元增加到二○○○年的二万八千亿元左右（1982 年十二大报告）, cite: ws-1982-09-01-twelfth-congress-report, quote: true }
+    - { voice: officialLater, text: 新党章规定，党中央不设主席只设总书记（同一报告）, cite: ws-1982-09-01-twelfth-congress-report, quote: true }
+  cites: [ws-1982-09-01-twelfth-congress-report]
+
+- id: 1982-10-27-census
+  date: 1982-10-27
+  title: 第三次人口普查：十亿三千万
+  lane: econ
+  weight: 2
+  summary: 1982 年 7 月 1 日零时为标准时间的第三次全国人口普查，第一次用电子计算机处理。公布全国人口十亿三千一百八十八万余人，1981 年出生率千分之二十点九一。这为计划生育和此后的人口研究（包括对大饥荒死亡人数的推算）提供了基础数据。
+  voices:
+    - { voice: officialLater, text: 一、总人口。全国人口为1，031，882，511人（1982 年国家统计局人口普查公报）, cite: rmrb-1982-10-28-census-1982, quote: true }
+    - { voice: officialLater, text: 1981年人口出生率为20．91‰，死亡率为6．36‰，自然增长率为14．55‰（同一公报）, cite: rmrb-1982-10-28-census-1982, quote: true }
+  cites: [rmrb-1982-10-28-census-1982]
+
+- id: 1982-11-guizhou-cases
+  date: 1982-11-27
+  title: 贵州起诉孙昌德、徐英年
+  lane: local
+  weight: 1
+  place: 贵阳
+  summary: 孙昌德原是贵阳地球化学研究所的研究实习员，徐英年也是“一·二五夺权”的核心成员，两人文革中先后任贵州省革委会常委、副主任或委员。1982 年 3 月被拘留，贵州省人民检察院同年起诉，指控他们参与李再含策划的夺权、迫害干部。
+  voices:
+    - { voice: judicial1980, text: 一九六三年留学回国后分配在中国科学院地质研究所工作。一九六六年九月调贵阳地球化学研究所任研究实习员。“文化大革命”中曾任贵州省革命委员会常委、副主任、党的核心小组成员（1982 年孙昌德案起诉书）, cite: ws-1982-sun-changde-case, quote: true }
+    - { voice: judicial1980, text: “文化大革命”中曾任贵州省革命委员会委员、常委、党的核心领导小组成员，中共贵州省委委员（徐英年案起诉书）, cite: ws-1982-xu-yingnian-case, quote: true }
+  cites: [ws-1982-sun-changde-case, ws-1982-xu-yingnian-case, ccrd-1979-gz-jan-seizure]
+
+- id: 1982-12-04-constitution
+  date: 1982-12-04
+  title: 1982 年宪法
+  lane: center
+  weight: 3
+  place: 北京
+  summary: 五届人大五次会议通过现行宪法，彭真主持起草。恢复国家主席，全文不再出现“继续革命”和“大字报”，罢工自由也不再写入；公民的基本权利和义务一章移到国家机构之前，新增“人格尊严不受侵犯”，针对的是文革中的批斗和游街。
+  people: [peng-zhen, ye-jianying, hu-qiaomu]
+  concepts: [continuous-revolution, mass-democracy]
+  voices:
+    - { voice: officialLater, text: 中华人民共和国公民的人格尊严不受侵犯。禁止用任何方法对公民进行侮辱、诽谤和诬告陷害（1982 年宪法第三十八条）, cite: ws-1982-12-04-constitution, quote: true }
+  cites: [ws-1982-12-04-constitution, ws-1978-03-05-constitution]
+
+- id: 1982-economic-crime-campaign
+  date: 1982-04
+  end: 1982-12
+  title: 打击经济领域严重犯罪
+  lane: econ
+  weight: 1
+  summary: 1982 年开展打击“经济领域中的严重犯罪活动”。最高人民检察院年底的工作报告把它和整顿城乡社会治安并列为一年的中心工作，同时强调检察机关只办“触犯刑法”的案件，一般违纪交党纪、政纪处理。
+  voices:
+    - { voice: officialLater, text: '各级检察机关紧紧围绕打击经济领域中的严重犯罪活动和整顿城乡社会治安,积极开展各项检察业务工作（1982 年最高人民检察院工作报告）', cite: ws-1982-procuratorate-report, quote: true }
+    - { voice: officialLater, text: '至于一般违反党纪、政纪并不触犯刑法的案件,概由党的纪律检查部门和政府部门去处理（同一报告）', cite: ws-1982-procuratorate-report, quote: true }
+  cites: [ws-1982-procuratorate-report]
+
+- id: 1982-12-sixth-five-year-plan
+  date: 1982-11-30
+  title: 第六个五年计划（1981–1985）
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 六五计划在执行到第二年时才正式通过，因为 1980 年的轮廓赶上调整。赵紫阳的报告重申二十年“翻两番”，并要求 1983–1987 年实现国家财政经济状况的根本好转。
+  people: [zhao-ziyang]
+  voices:
+    - { voice: officialLater, text: 要求从一九八三年到一九八七年的五年间争取实现国家财政经济状况的根本好转（1982 年政府工作报告）, cite: ws-1982-12-gov-report, quote: true }
+  cites: [ws-1982-12-gov-report]
