@@ -1,0 +1,4 @@
+# Ids that were published (research/ids.txt) and later renamed, merged or withdrawn.
+# id and to are <table>/<id>; leave out `to` when the record was withdrawn without a successor.
+# - { id: people/old-id, to: people/new-id, date: 2026-10-13, note: 改用通行拼音 }
+[]

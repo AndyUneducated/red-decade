@@ -3,6 +3,22 @@
 > 中断后先读这个文件。每完成一个阶段都会更新这里并提交推送。
 > 更早的细节见 `log/` 下的当日日志；整体计划见 `milestones.md`。
 
+## 已完成：M10（开放数据）
+
+**验收（`milestones.md`）：** 外部用户只看文档即可复现构建、引用任意一条数据。用户口径：不做 `CITATION.cff` 与版本发布（Zenodo），只做数据下载与文档。
+
+| 阶段 | 内容 | 状态 |
+|---|---|---|
+| M10-1 | 表格清单 `src/data/open.ts`：23 张表（17 张主表有稳定 id，6 张是嵌套列表展开的子表），每列一句中文说明，枚举值列出全部取值；构建、开放数据页与字段文档都读这一份 | ✔ |
+| M10-2 | 构建第 6 阶段 `tools/build/open.ts`：写出 `public/data/open/<表>.json`（完整记录）与 `.csv`（UTF-8 带 BOM、CRLF、RFC 4180 引号，列表用 `;`），`index.json`（构建时间、commit、许可、条数、字段），`ids.txt`、`moved.json`；生成 `docs/fields.md` | ✔ 共 6.7 MB；用 PowerShell `Import-Csv` 读回，行数与 JSON 一致 |
+| M10-3 | 稳定 id：主表 id 只许小写字母、数字、单个连字符（结论为 `C` 加三位数字），表内不得重复；关系生成 `a~type~b`；`research/ids.txt` 登记发布过的 4299 个 id，消失即构建失败，除非写进 `content/ids-moved.yaml` | ✔ 新检查当场查出来源 `ws-1959-08-16-peng-resolution` 在 `lives.yaml` 与 `m5-ws-2.yaml` 各登记一次，删去后者 |
+| M10-4 | 页面 `#/data`（史料 › 开放数据）：许可与版本、引用生成器（选表、输 id，不存在时提示）、23 张表的下载链接与可展开的字段表 | ✔ 1440×900 与 390×844 截图检查；冒烟 104 项全过 |
+| M10-5 | 文档：`docs/data.md`（下载、格式约定、稳定 id、引用格式、许可）、`docs/build.md`（复现步骤、六个构建阶段、原文来源与版本锁定、目录）、`CONTRIBUTING.md`（新增来源、事件、人物、结论、改名，提交前检查，审核规则）；README 加入口；`methods.md` 第 6 节更新照片与档案的版权做法 | ✔ |
+| M10-6 | 可复现：`tools/verify-sources.ts` 离线核对 `sources/raw/` 与抓取日志的 SHA-256（1138/1138 吻合），加入 CI；同一 commit 两次构建，`open/` 逐字节相同，`atlas.json` 去掉 `builtAt` 后相同 | ✔ |
+| M10-7 | 单元测试 `tests/unit/open.test.ts`：每张表的每个字段都有说明、`docs/fields.md` 与清单一致、站内网址模板指向存在的页面、每个 id 都已登记 | ✔ 单元测试 67 项 |
+
+**M10 验收：** 只读 `docs/build.md` 即可从任一 commit 复现构建并核对原文 ✔；只读 `docs/data.md` 即可按 `<表>/<id>` 加数据版本引用任意一条数据，站内另有引用生成器 ✔。**缺口：** 旧 id 的站内跳转没有做（改名只记录在 `moved.json`，旧网址打开会落到默认页）。**M10 完成，进入 M11。**
+
 ## 已完成：M9（个人视角与历史上的今天）
 
 **验收（`milestones.md`）：** 至少 300 个人物可用个人视角；任意一天都有内容可看。

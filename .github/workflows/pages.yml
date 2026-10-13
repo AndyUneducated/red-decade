@@ -26,6 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
+      - run: node tools/verify-sources.ts
       - run: npx playwright install --with-deps chromium
       - run: npm run test:smoke
         env:

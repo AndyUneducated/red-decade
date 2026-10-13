@@ -88,6 +88,7 @@ export const PAGES = {
   series: { title: '经济与人口', desc: '粮食、钢、人口等序列，逐点附公报原文' },
   narratives: { title: '叙事对照', desc: '同一事件不同立场的说法' },
   research: { title: '研究', desc: '本站结论与来源登记' },
+  data: { title: '开放数据', desc: '全部数据的 JSON 与 CSV 下载、字段说明与引用方式' },
 } satisfies Record<string, PageDef>
 
 export type PageId = keyof typeof PAGES

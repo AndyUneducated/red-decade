@@ -45,6 +45,10 @@
 3. **多声部并列。** 不把不同叙事合成一个“标准答案”；数字类注明口径。
 4. **过程可复现。** 检索、抓取、阅读、结论全部记录在 [`research/`](research/README.md)。
 
+## 开放数据
+
+全部数据可以下载为 JSON 与 CSV，每条记录有稳定 id，可以单独引用：站内见“史料 › 开放数据”，说明见 [`docs/data.md`](docs/data.md)，字段表见 [`docs/fields.md`](docs/fields.md)。复现构建见 [`docs/build.md`](docs/build.md)，参与贡献见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
+
 ## 开发
 
 需要 Node 24+（直接运行 TypeScript 工具脚本）。

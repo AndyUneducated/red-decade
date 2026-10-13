@@ -21,7 +21,7 @@ const NAV_CONFIG: { label: string; pages: Entry[] }[] = [
     label: '洞察',
     pages: ['drift', 'authority', 'spread', 'attribution', 'selfcrit', 'citations', 'survival', 'overlap', 'parallel', 'moments', 'flows', 'rhetoric', 'paralysis', 'outcomes'],
   },
-  { label: '史料', pages: ['docs', 'archive', 'figures', 'series', 'narratives', 'research'] },
+  { label: '史料', pages: ['docs', 'archive', 'figures', 'series', 'narratives', 'research', 'data'] },
 ]
 
 export const NAV: NavGroup[] = NAV_CONFIG.map((g) => ({

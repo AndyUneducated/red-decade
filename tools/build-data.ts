@@ -6,6 +6,7 @@ import { compile, stats, write } from './build/emit.ts'
 import { errors } from './build/io.ts'
 import { link } from './build/link.ts'
 import { loadAll } from './build/load.ts'
+import { openData, openStats, writeOpen } from './build/open.ts'
 import { checkQuotes } from './build/quotes.ts'
 
 const data = loadAll()
@@ -13,10 +14,12 @@ link(data)
 check(data)
 checkQuotes(data)
 const { atlas, pressTexts } = compile(data)
+const open = openData(atlas)
 
 if (errors.length) {
   console.error(`\n${errors.length} error(s):\n` + errors.map((e) => `  ✗ ${e}`).join('\n'))
   process.exit(1)
 }
 write(data, atlas)
-console.log(stats(data, pressTexts.length))
+writeOpen(open)
+console.log(stats(data, pressTexts.length) + '\n' + openStats(open))
