@@ -1,0 +1,44 @@
+# M7 横向专题第 1 批维基文库原文：台湾“中华文化复兴运动”、中葡澳门联合声明、《人民日报》关于柬埔寨的社论与通讯。日期取自页面头部或正文，见 note。
+wikisource:
+  - id: ws-1974-chiang-culture-renaissance
+    title: 總統對中華文化復興運動推行委員會第 7次全體委員會議訓詞
+    date: 1974-11-11
+    author: 蒋介石
+    kind: speech
+    alias: 蒋介石对中华文化复兴运动推行委员会第七次全体委员会议书面致词
+    note: 页面头部 notes 作“中華民國六十三年十一月十一日”；正文称“本會成立至今屆滿七年”。
+  - id: ws-1987-04-13-macau-declaration
+    title: 中华人民共和国政府和葡萄牙共和国政府关于澳门问题的联合声明
+    date: 1987-04-13
+    author: 中华人民共和国政府、葡萄牙共和国政府
+    kind: party-doc
+    alias: 中葡关于澳门问题的联合声明
+    note: 正文落款“1987年4月13日在北京签订”。
+  - id: ws-cambodia-liberated-areas
+    title: 柬埔寨解放区人民的新生活
+    date: 1972
+    author: 新华社
+    kind: news
+    alias: 新华社通讯《柬埔寨解放区人民的新生活》
+    note: 页面无日期；正文写到“一九七一年——一九七二年旱季初期”，推定为 1972 年。
+  - id: ws-cambodia-heroic-people
+    title: 英雄的柬埔寨人民必胜
+    date: 1971
+    author: 《人民日报》社论
+    kind: editorial
+    alias: 社论《英雄的柬埔寨人民必胜》
+    note: 页面无日期；正文称“今天是柬埔寨王国国庆十八周年”，政变在“去年三月”，政变为 1970 年 3 月 18 日（见同批通讯），推定为 1971 年。
+  - id: ws-cambodia-victorious-year
+    title: 柬埔寨人民辉煌胜利的一年
+    date: 1971-03
+    author: 郭志
+    kind: essay
+    alias: 郭志《柬埔寨人民辉煌胜利的一年》
+    note: 页面无日期；正文称抗美救国战争“已经一年了”，并写到“从二月初到三月初为止的一个月中”，推定为 1971 年 3 月。
+  - id: ws-cambodia-advance
+    title: 柬埔寨人民乘胜前进
+    date: 1971-01
+    author: 《人民日报》评论员
+    kind: editorial
+    alias: 评论员文章《柬埔寨人民乘胜前进》
+    note: 页面无日期；正文评论“一月十八日”的号召书，并称政变以来“十个月来”，推定为 1971 年 1 月。

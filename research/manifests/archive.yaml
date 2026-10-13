@@ -1,0 +1,47 @@
+# M8 文化视觉档案：tools/fetch-archive.ts 从这些 Wikimedia Commons 分类与检索词取图。
+# kind：poster 宣传画、badge 像章与徽章、stamp 邮票、opera 样板戏与舞台、publication 书刊与报头、photo 照片、song 歌曲与乐谱。
+# 只保留 1949–1990 年有日期（文件日期或文件名中的年份）的图；每条都登记来源页、作者与许可。
+commons:
+  - { category: Propaganda posters of the Cultural Revolution, kind: poster, depth: 1 }
+  - { category: Propaganda posters of the People's Republic of China, kind: poster, depth: 1 }
+  - { category: Chinese propaganda posters, kind: poster, depth: 1 }
+  - { search: 宣传画 1950年代, kind: poster, limit: 150 }
+  - { search: 宣传画 文化大革命, kind: poster, limit: 150 }
+  - { search: Chinese propaganda poster 1958, kind: poster, limit: 150 }
+  - { search: Chinese propaganda poster 1970, kind: poster, limit: 150 }
+  - { category: Mao badges, kind: badge, depth: 1 }
+  - { search: 毛主席像章, kind: badge, limit: 100 }
+  - { search: Mao badge, kind: badge, limit: 100 }
+  - { search: 中国人民邮政 文 1967, kind: stamp, limit: 150 }
+  - { search: 中国人民邮政 1958, kind: stamp, limit: 150 }
+  - { search: Stamp of China 1968, kind: stamp, limit: 150 }
+  - { search: Stamp of China 1973, kind: stamp, limit: 150 }
+  - { search: 样板戏, kind: opera, limit: 100 }
+  - { search: 红色娘子军, kind: opera, limit: 60 }
+  - { search: 智取威虎山, kind: opera, limit: 60 }
+  - { search: 红灯记, kind: opera, limit: 60 }
+  - { search: 沙家浜, kind: opera, limit: 60 }
+  - { search: 白毛女 芭蕾, kind: opera, limit: 60 }
+  - { search: 毛主席语录, kind: publication, limit: 100 }
+  - { search: Quotations from Chairman Mao, kind: publication, limit: 100 }
+  - { search: 人民日报 头版, kind: publication, limit: 100 }
+  - { search: 红旗 杂志 1967, kind: publication, limit: 60 }
+  - { search: 红卫兵 小报, kind: publication, limit: 60 }
+  - { search: 东方红 乐谱, kind: song, limit: 40 }
+  - { search: Red Guards 1966, kind: photo, limit: 150 }
+  - { search: 大字报 1966, kind: photo, limit: 100 }
+  - { search: 上山下乡 知识青年, kind: photo, limit: 100 }
+  - { search: 1976 四五运动 天安门, kind: photo, limit: 100 }
+  # 第二轮：美术馆藏宣传画带年份、画报、照片。按邮票志号（Wen、Ji、Te）的 intitle 检索命中的几乎全是荷兰语、
+  # 瑞典语与日文文件，已撤下；留下的命中按“与中国相关”的规则筛过（见 fetch-archive.ts 的 aboutChina）
+  - { search: 'People''s Republic of China lithograph Jordan Schnitzer', kind: poster, limit: 150 }
+  - { search: 'Chinese poster 1950s', kind: poster, limit: 150 }
+  - { search: 'Chinese poster 1960s', kind: poster, limit: 150 }
+  - { search: 人民画报, kind: publication, limit: 100 }
+  - { search: 解放军画报, kind: publication, limit: 100 }
+  - { search: 'People''s Daily 1966', kind: publication, limit: 60 }
+  - { search: 1966年 红卫兵, kind: photo, limit: 150 }
+  - { search: 1968年 知青, kind: photo, limit: 100 }
+  - { search: 1974年 批林批孔, kind: photo, limit: 60 }
+  - { search: 1958年 大跃进, kind: photo, limit: 150 }
+  - { search: 1956年 公私合营, kind: photo, limit: 60 }

@@ -1,0 +1,38 @@
+# M7 横向专题第 1 批《人民日报》版面（govopendata 转录）：1966 年澳门“一二·三”事件、1975 年金边解放贺电、1977 年波尔布特访华。
+web:
+  - id: rmrb-1966-12-11-macau-warning
+    title: 严厉警告澳门葡萄牙当局
+    date: 1966-12-11
+    author: 《人民日报》
+    kind: editorial
+    alias: 《人民日报》《严厉警告澳门葡萄牙当局》（1966）
+    url: https://cn.govopendata.com/renminribao/1966/12/11/1/
+    via: 《人民日报》1966-12-11 第 1 版（govopendata 转录）
+    article: 严厉警告澳门葡萄牙当局
+  - id: rmrb-1966-12-11-macau-meeting
+    title: 澳门各界同胞代表会议强烈抗议澳葡当局的法西斯暴行
+    date: 1966-12-11
+    author: 新华社
+    kind: news
+    alias: 1966 年《人民日报》澳门各界同胞代表会议报道
+    url: https://cn.govopendata.com/renminribao/1966/12/11/1/
+    via: 《人民日报》1966-12-11 第 1 版（govopendata 转录）
+    article: 澳门各界同胞代表会议强烈抗议澳葡当局的法西斯暴行
+  - id: rmrb-1975-04-18-phnom-penh
+    title: 最热烈祝贺柬埔寨民族解放人民武装力量完全解放金边
+    date: 1975-04-18
+    author: 新华社
+    kind: news
+    alias: 1975 年《人民日报》祝贺金边解放的贺电
+    url: https://cn.govopendata.com/renminribao/1975/4/18/1/
+    via: 《人民日报》1975-04-18 第 1 版（govopendata 转录）
+    article: 最热烈祝贺柬埔寨民族解放人民武装力量完全解放金边
+  - id: rmrb-1977-09-29-pol-pot
+    title: 波尔布特同志等抵京 华主席和十多万人隆重欢迎
+    date: 1977-09-29
+    author: 新华社
+    kind: news
+    alias: 1977 年《人民日报》波尔布特访华报道
+    url: https://cn.govopendata.com/renminribao/1977/9/29/1/
+    via: 《人民日报》1977-09-29 第 1 版（govopendata 转录）
+    article: 波尔布特同志等抵京
