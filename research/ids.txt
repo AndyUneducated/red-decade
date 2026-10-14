@@ -3317,6 +3317,11 @@ sources/nbs-retro-sugar
 sources/nfpeople-2018-pan-guoping
 sources/nie-yuanzi-memoir
 sources/peng-zhen-chronicle
+sources/people-2009-deng-chronology
+sources/people-2009-liu-chronology
+sources/people-2009-mao-chronology
+sources/people-2009-zhou-chronology
+sources/people-2009-zhu-chronology
 sources/people-2013-wu-guixian
 sources/people-2014-ren-zhongyi-zhang-zhixin
 sources/people-2014-xiaojinzhuang

@@ -25,14 +25,14 @@
   party: 中国共产党
   joinedParty: 1921
   positions:
-    - { title: 中共中央政治局主席、中央书记处主席, orgName: 中共中央政治局, from: 1943-03, to: 1945-06, verify: true }
+    - { title: 中共中央政治局主席、中央书记处主席, orgName: 中共中央政治局, from: 1943-03, to: 1945-06, cite: people-2009-mao-chronology }
     - { title: 中共中央委员会主席, orgName: 中共中央, from: 1945-06, to: 1976-09-09, cite: ws-1976-09-09-mao-message }
     - { title: 中共中央军事委员会主席, orgName: 中共中央军委, from: 1945-08, to: 1976-09-09, cite: ws-1976-09-09-mao-message, note: 1936 年起任中华苏维埃中央革命军事委员会主席；起点待核 }
     - { title: 中央人民政府主席, orgName: 中央人民政府, from: 1949-10-01, to: 1954-09, verify: true }
     - { title: 中华人民共和国主席, orgName: 中华人民共和国, from: 1954-09-27, to: 1959-04-27, verify: true }
     - { title: 全国政协主席、名誉主席, orgName: 全国政协, from: 1949-10, to: 1976-09-09, note: 1954 年 12 月起为名誉主席, cite: ws-1976-09-09-mao-message }
   afterlife:
-    - { date: 1976-09-18, text: 天安门广场举行追悼大会, verify: true }
+    - { date: 1976-09-18, text: 天安门广场举行追悼大会, cite: rmrb-1976-09-19-mao-memorial }
     - { date: 1977-09-09, text: 毛主席纪念堂落成，遗体在堂内保存, verify: true }
     - { date: 1981-06-27, text: 十一届六中全会决议：“他的功绩是第一位的，错误是第二位的。”, cite: ws-1981-resolution }
   tier: 1
@@ -124,16 +124,16 @@
     - { title: 炮打司令部——我的一张大字报, date: 1966-08-05, cite: ws-1967-08-bombard-anniv }
   factions: [mao]
   fate:
-    - { date: 1921-07, s: normal, note: 出席中共一大, verify: true }
-    - { date: 1923-06, s: rise, note: 三大当选中央局成员, verify: true }
+    - { date: 1921-07, s: normal, note: 出席中共一大, cite: people-2009-mao-chronology }
+    - { date: 1923-06, s: rise, note: 三大当选中央执行委员，会后任中央局委员兼秘书, cite: people-2009-mao-chronology }
     - { date: 1927-11, s: sidelined, note: 秋收起义后被临时中央撤销政治局候补委员, verify: true }
-    - { date: 1928-04, s: rise, note: 井冈山朱毛会师，组成红四军, verify: true }
-    - { date: 1931-11, s: power, note: 中华苏维埃共和国临时中央政府主席, verify: true }
+    - { date: 1928-04, s: rise, note: 井冈山朱毛会师，组成红四军, cite: people-2009-mao-chronology }
+    - { date: 1931-11, s: power, note: 当选中华苏维埃共和国中央执行委员会主席, cite: people-2009-mao-chronology }
     - { date: 1932-10, s: sidelined, note: 宁都会议后被解除红军指挥权, verify: true }
-    - { date: 1935-01, s: rise, note: 遵义会议进入政治局常委, verify: true }
-    - { date: 1943-03, s: power, note: 政治局主席、书记处主席, verify: true }
+    - { date: 1935-01, s: rise, note: 遵义会议进入政治局常委, cite: people-2009-mao-chronology }
+    - { date: 1943-03, s: power, note: 政治局主席、书记处主席, cite: people-2009-mao-chronology }
     - { date: 1949-10, s: power, note: 中华人民共和国成立 }
-    - { date: 1959-04, s: power, note: 不再连任国家主席，退居“二线”, verify: true }
+    - { date: 1959-04, s: power, note: 不再连任国家主席，退居“二线”；4 月 27 日二届人大选举刘少奇为国家主席, cite: ws-1959-04-27-npc-announcement }
     - { date: 1966-05-16, s: power, note: 《五·一六通知》发动文革, cite: ws-1966-05-16-notice }
     - { date: 1976-09-09, s: dead, cite: ws-1976-09-09-mao-message }
   cites: [ws-1966-05-16-notice-attachment, ws-1967-08-bombard-anniv, ws-1976-09-09-mao-message, ws-1981-resolution]
@@ -163,11 +163,11 @@
   joinedRevolution: 1920
   positions:
     - { title: 湖北省总工会秘书长, orgName: 湖北省总工会, from: 1927, to: 1927, cite: ws-1980-02-29-liu-rehab }
-    - { title: 中共满洲省委书记, orgName: 中共满洲省委, from: 1929, to: 1929, verify: true }
-    - { title: 中共中央北方局书记, orgName: 中共中央北方局, from: 1936, to: 1938, verify: true }
-    - { title: 中共中央中原局书记、新四军政治委员, orgName: 中共中央中原局, from: 1938-11, to: 1942, verify: true }
-    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1943-03, to: 1956-09, verify: true }
-    - { title: 全国人大常委会委员长, orgName: 全国人大常委会, from: 1954-09, to: 1959-04, verify: true }
+    - { title: 中共满洲省委书记, orgName: 中共满洲省委, from: 1929-07, to: 1929, cite: people-2009-liu-chronology }
+    - { title: 中共中央北方局书记, orgName: 中共中央北方局, from: 1936, to: 1938, note: 1936 年以中央代表身份赴北方局，1937 年任书记, cite: people-2009-liu-chronology }
+    - { title: 中共中央中原局书记、新四军政治委员, orgName: 中共中央中原局, from: 1938-11, to: 1942, note: 新四军政委、华中局书记为 1941 年皖南事变后, cite: people-2009-liu-chronology }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1943-03, to: 1956-09, cite: people-2009-liu-chronology }
+    - { title: 全国人大常委会委员长, orgName: 全国人大常委会, from: 1954-09, to: 1959-04, cite: people-2009-liu-chronology }
     - { title: 中共中央副主席, orgName: 中共中央, from: 1956-09, to: 1966-08, note: 八届十一中全会后不再任副主席, cite: ws-1980-02-29-liu-rehab }
     - { title: 中华人民共和国主席, orgName: 中华人民共和国, from: 1959-04-27, to: 1968-10, note: 1966 年后“实际上撤销”，1968 年八届十二中全会撤销其党内外一切职务, cite: ws-1980-02-29-liu-rehab }
   rehab:
@@ -251,8 +251,8 @@
     - { date: 1926-01-16, s: normal, note: 经各方营救获释，转赴广州, cite: ws-1980-02-29-liu-rehab }
     - { date: 1929-08-22, s: detained, note: 在沈阳奉天纱厂被捕, place: shenyang, cite: ws-1980-02-29-liu-rehab }
     - { date: 1929-09, s: normal, note: 关押半个多月后取保释放, cite: ws-1980-02-29-liu-rehab }
-    - { date: 1936, s: rise, note: 以中央代表身份主持北方局, verify: true }
-    - { date: 1943-03, s: power, note: 中央书记处书记，党内地位仅次于毛, verify: true }
+    - { date: 1936, s: rise, note: 以中央代表身份赴北方局指导工作，次年任北方局书记, cite: people-2009-liu-chronology }
+    - { date: 1943-03, s: power, note: 任中央书记处书记、中央革命军事委员会副主席（与毛任书记处主席同时改组）, cite: people-2009-liu-chronology }
     - { date: 1959-04, s: power, note: 当选国家主席 }
     - { date: 1966-08-05, s: attacked, note: 《炮打司令部》点出“五十多天”的“资产阶级专政”, cite: ws-1967-08-bombard-anniv }
     - { date: 1966-12-25, s: purged, note: 清华蒯大富等在张春桥授意下公开喊出“打倒刘少奇”, cite: ws-1980-indictment }
@@ -369,10 +369,10 @@
   factions: [premier]
   fate:
     - { date: 1920-01, s: detained, note: 天津请愿被捕，关押半年, place: tianjin, verify: true }
-    - { date: 1921, s: normal, note: 在巴黎加入共产主义小组, verify: true }
-    - { date: 1924-11, s: rise, note: 黄埔军校政治部主任, verify: true }
-    - { date: 1927-08-01, s: rise, note: 领导南昌起义, verify: true }
-    - { date: 1928-07, s: power, note: 六大后主持中央日常工作, verify: true }
+    - { date: 1921, s: normal, note: 在欧洲勤工俭学期间参加中国共产党, cite: people-2009-zhou-chronology }
+    - { date: 1924, s: rise, note: 回国，任中共广东区委委员长、黄埔军校政治部主任, cite: people-2009-zhou-chronology }
+    - { date: 1927-08-01, s: rise, note: 领导南昌起义, cite: people-2009-zhou-chronology }
+    - { date: 1928, s: power, note: 六大当选政治局常委，任组织部长、军委书记，在上海坚持中央领导工作至 1931 年底, cite: people-2009-zhou-chronology }
     - { date: 1935-01, s: power, note: 遵义会议后三人军事指挥小组成员, verify: true }
     - { date: 1949-10, s: power, note: 政务院总理兼外交部长 }
     - { date: 1958-01, s: attacked, note: 南宁会议上“反冒进”受批评并检讨, verify: true }
@@ -521,7 +521,7 @@
   joinedParty: 1924
   joinedRevolution: 1922
   positions:
-    - { title: 中共中央秘书长, orgName: 中共中央, from: 1927-12, to: 1929, verify: true }
+    - { title: 中共中央秘书长, orgName: 中共中央, from: 1927-12, to: 1929, cite: people-2009-deng-chronology }
     - { title: 红七军、红八军政治委员, orgName: 红七军, from: 1929-12, to: 1931, cite: ws-1997-02-19-deng-message }
     - { title: 八路军一二九师政治委员, orgName: 八路军一二九师, from: 1938-01, to: 1945, cite: ws-1997-02-19-deng-message }
     - { title: 中共中央中原局第一书记, orgName: 中共中央中原局, from: 1947, to: 1949, cite: ws-1997-02-19-deng-message }
@@ -534,7 +534,7 @@
     - { title: 中共中央副主席、国务院副总理、总参谋长（恢复）, orgName: 中共中央, from: 1977-07, to: 1982-09, verify: true }
     - { title: 全国政协主席, orgName: 全国政协, from: 1978-03, to: 1983-06, verify: true }
     - { title: 中共中央军事委员会主席, orgName: 中共中央军委, from: 1981-06, to: 1989-11, cite: ws-1997-02-19-deng-message }
-    - { title: 中央顾问委员会主任, orgName: 中央顾问委员会, from: 1982-09, to: 1987-11, verify: true }
+    - { title: 中央顾问委员会主任, orgName: 中央顾问委员会, from: 1982-09, to: 1987-11, cite: people-2009-deng-chronology }
   afterlife:
     - { date: 1997-02-25, text: 人民大会堂举行追悼大会，江泽民致悼词, verify: true }
     - { date: 1997-03-02, text: 骨灰按遗愿撒入大海, verify: true }
@@ -613,8 +613,8 @@
     - { title: 在武昌、深圳、珠海、上海等地的谈话要点, date: 1992-01 }
   factions: [frontline]
   fate:
-    - { date: 1924, s: normal, note: 在法国转为中共党员, verify: true }
-    - { date: 1927-12, s: rise, note: 二十三岁任中共中央秘书长, verify: true }
+    - { date: 1924, s: normal, note: 在法国转为中共党员, cite: people-2009-deng-chronology }
+    - { date: 1927-12, s: rise, note: 二十三岁任中共中央秘书长, cite: people-2009-deng-chronology }
     - { date: 1929-12-11, s: rise, note: 发动百色起义，创建红七军, cite: ws-1997-02-19-deng-message }
     - { date: 1933-05, s: purged, note: 被“左”倾领导者撤职（“邓毛谢古”）, cite: ws-1997-02-19-deng-message }
     - { date: 1935-01, s: normal, note: 以中央秘书长身份出席遵义会议, cite: ws-1997-02-19-deng-message }
@@ -623,11 +623,11 @@
     - { date: 1956-09, s: power, note: 政治局常委、总书记 }
     - { date: 1966-10-23, s: attacked, note: 中央工作会议上作检讨, verify: true }
     - { date: 1966-12-06, s: purged, note: 林彪称其“黑帮分子”, cite: ws-1980-indictment }
-    - { date: 1969-10, s: detained, note: 下放江西新建县, place: nanchang-xinjian, verify: true }
+    - { date: 1969, s: detained, note: 被送到江西南昌新建县拖拉机修造厂劳动, place: nanchang-xinjian, cite: people-2009-deng-chronology }
     - { date: 1973-03, s: restored, note: 恢复国务院副总理职务, cite: ws-1997-02-19-deng-message }
     - { date: 1975-01, s: power, note: 主持党政军日常工作，开展整顿, cite: ws-1997-02-19-deng-message }
     - { date: 1976-04-07, s: purged, note: 天安门事件后再次被撤销一切职务, cite: ws-1981-resolution }
-    - { date: 1977-07, s: restored, note: 十届三中全会恢复职务, verify: true }
+    - { date: 1977-07, s: restored, note: 十届三中全会恢复职务, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1978-12, s: power, note: 十一届三中全会后成为中央领导核心, cite: ws-1997-02-19-deng-message }
     - { date: 1989-11, s: normal, note: 辞去中央军委主席，完全退休, cite: ws-1997-02-19-deng-message }
     - { date: 1997-02-19, s: dead, cite: ws-1997-02-19-deng-message }
@@ -2177,11 +2177,11 @@
   joinedParty: 1922-11
   positions:
     - { title: 滇军旅长、云南陆军宪兵司令, orgName: 滇军, from: 1916, to: 1921, verify: true }
-    - { title: 红四军军长, orgName: 红四军, from: 1928-04, to: 1930, verify: true }
+    - { title: 红四军军长, orgName: 红四军, from: 1928-04, to: 1930, cite: people-2009-zhu-chronology }
     - { title: 中国工农红军总司令、中革军委主席, orgName: 中国工农红军, from: 1931-11, to: 1937-08, verify: true }
     - { title: 八路军（第十八集团军）总司令, orgName: 八路军, from: 1937-08, to: 1946, verify: true }
     - { title: 中国人民解放军总司令, orgName: 中国人民解放军, from: 1946, to: 1954, verify: true }
-    - { title: 中华人民共和国副主席, orgName: 国家副主席, from: 1954-09, to: 1959-04, verify: true }
+    - { title: 中华人民共和国副主席, orgName: 国家副主席, from: 1954-09, to: 1959-04, cite: people-2009-zhu-chronology }
     - { title: 中共中央副主席, orgName: 中共中央, from: 1956-09, to: 1966-08, verify: true }
     - { title: 全国人大常委会委员长, orgName: 全国人大常委会, from: 1959-04, to: 1976-07-06, cite: ws-1976-07-07-zhu-obituary }
   rank: { rank: 中华人民共和国元帅, date: 1955-09-27 }
@@ -2243,14 +2243,14 @@
   rehab:
     - { date: 1981-06-27, text: 历史决议说朱德、陈云在 1967 年“也受到错误的批判”, cite: ws-1981-resolution }
   fate:
-    - { date: 1909, s: normal, note: 入云南陆军讲武堂, verify: true }
-    - { date: 1911-10, s: normal, note: 参加昆明重九起义, place: kunming, verify: true }
-    - { date: 1916, s: rise, note: 护国战争，升任滇军旅长, verify: true }
-    - { date: 1922-11, s: normal, note: 柏林入党, verify: true }
-    - { date: 1927-08-01, s: rise, note: 参加南昌起义, verify: true }
-    - { date: 1928-04, s: rise, note: 井冈山会师，任红四军军长, verify: true }
-    - { date: 1931-11, s: power, note: 红军总司令, verify: true }
-    - { date: 1937-08, s: power, note: 八路军总司令, verify: true }
+    - { date: 1909, s: normal, note: 在云南陆军讲武堂，秘密加入同盟会, cite: people-2009-zhu-chronology }
+    - { date: 1911-10, s: normal, note: 辛亥革命爆发后参加云南起义, place: kunming, cite: people-2009-zhu-chronology }
+    - { date: 1916, s: rise, note: 护国战争，升任滇军旅长（人民网年表作 1915 年参加护国战争、任团长）, verify: true }
+    - { date: 1922-11, s: normal, note: 柏林入党（人民网年表作 10 月在德国入党）, verify: true }
+    - { date: 1927-08-01, s: rise, note: 参加领导南昌起义, cite: people-2009-zhu-chronology }
+    - { date: 1928-04, s: rise, note: 井冈山会师，任红四军军长, cite: people-2009-zhu-chronology }
+    - { date: 1931-11, s: power, note: 中华苏维埃共和国中央革命军事委员会主席（1933 年 5 月任红军总司令）, cite: people-2009-zhu-chronology }
+    - { date: 1937, s: power, note: 红军改编为八路军，任总指挥，后改称第十八集团军总司令, cite: people-2009-zhu-chronology }
     - { date: 1949-10, s: power }
     - { date: 1959-04, s: power, note: 全国人大常委会委员长, cite: ws-1976-07-07-zhu-obituary }
     - { date: 1966-09, s: attacked, cite: ws-1980-indictment }

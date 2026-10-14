@@ -299,14 +299,13 @@
   lane: intl
   weight: 3
   place: 北京
-  summary: 香港“反英抗暴”中港英当局封闭左派报纸、抓走记者。8 月 21 日《人民日报》评论员文章说，外交部“昨天”照会英国政府，限四十八小时内撤销对三家报纸的停刊令、释放被捕新闻工作者。据邹一民记姚登山的文章，“反帝反修联络站”中的大专院校造反派不顾周恩来多次指示，打伤二十余名解放军战士，冲入日坛公园附近的英国代办处，殴打代办霍普森和工作人员，烧了九辆汽车，最后放火烧毁大楼；同日，在外交部当权的姚登山又在外交公寓指挥揪斗霍普森，理由是抗议英方袭击中国驻英代办处。
+  summary: 香港“反英抗暴”中港英当局封闭左派报纸、抓走记者。8 月 21 日《人民日报》评论员文章说，外交部“昨天”照会英国政府，限四十八小时内撤销对三家报纸的停刊令、释放被捕新闻工作者。据邹一民记姚登山的文章，“反帝反修联络站”中的大专院校造反派不顾周恩来多次指示，打伤二十余名解放军战士，冲入日坛公园附近的英国代办处，殴打代办霍普森和工作人员，烧了九辆汽车，最后放火烧毁大楼；同日，在外交部当权的姚登山又在外交公寓指挥揪斗霍普森，理由是抗议英方袭击中国驻英代办处。当周英国《旁观者》周刊说，代办处在最后通牒期满的“星期一”被烧毁，霍普森头缠绷带在黎明带人撤出；1967 年 8 月 22 日是星期二，按 20 日照会、四十八小时期限推算，期满正是 22 日。
   people: [zhou-enlai, wang-li, yao-dengshan]
   voices:
     - { voice: doc, text: 限令英国政府和港英当局在四十八小时内撤销对香港我三家爱国报纸的停刊令（1967 年 8 月 21 日《人民日报》评论员）, cite: ws-1967-08-hk-british, quote: true }
     - { voice: witness, text: 冲入位于日坛公园附近的英国驻华代办处，打了英国驻华代办唐纳德?霍普森及代办处工作人员，砸了代办处的陈设，烧了九辆汽车，最后放火烧毁了英国驻华代办处大楼（邹一民《文革中外交部昙花一现的姚登山》）, cite: zou-yimin-yao-dengshan, quote: true }
-  cites: [ws-1967-08-hk-british, zou-yimin-yao-dengshan]
-  verify: true
-  why: 库内尚无当时的直接记录。邹一民文是节选，把纵火写在“8 月 15 日”一段之后的“同日深夜”，与通行的 8 月 22 日不合；伦敦冲突的经过和事后毛泽东归责王力出自党史著作，需英方档案或当事人回忆
+    - { voice: foreign, text: 'Bed Guards broke into the British Mission in Peking and burnt it to the ground on Monday, when the -Chinese ultimatum on Hong Kong ex- pired, and Mr Donald Hopson led his men from the ruined building at dawn with a bandage round his head.（英国《旁观者》周刊 1967 年 8 月 25 日；OCR 原文，“Bed”即“Red”）', cite: spectator-1967-08-25-week, quote: true }
+  cites: [ws-1967-08-hk-british, zou-yimin-yao-dengshan, spectator-1967-08-25-week]
 
 - id: 1967-08-30-wang-guan-fall
   date: 1967-08-30

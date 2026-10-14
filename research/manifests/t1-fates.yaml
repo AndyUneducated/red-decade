@@ -1,0 +1,62 @@
+# T1 待核命运节点：1 级人物 1949 年前的经历，用人民网“毛主席纪念堂”专题的领袖大事年表（中共官方的后来叙述，网页转录）。
+web:
+  - id: people-2009-mao-chronology
+    title: 领袖大事年表：毛泽东
+    date: 2009-12-08
+    author: 人民网-中国共产党新闻网
+    kind: annals
+    tier: 2
+    alias: 人民网《领袖大事年表：毛泽东》
+    url: http://cpc.people.com.cn/GB/143527/143544/10536428.html
+    via: 人民网“毛主席纪念堂”专题
+    start: 1893年 12月26日
+    end: 第一至第四卷于1991年出版。
+    note: 中共官方的后来叙述（2009 年网页），只列职务和事件，不含评价分歧；网页转录，未核原书。
+  - id: people-2009-zhou-chronology
+    title: 领袖大事年表：周恩来
+    date: 2009-12-08
+    author: 人民网-中国共产党新闻网
+    kind: annals
+    tier: 2
+    alias: 人民网《领袖大事年表：周恩来》
+    url: http://cpc.people.com.cn/GB/143527/147173/10536441.html
+    via: 人民网“毛主席纪念堂”专题
+    start: 1898年 3月5日
+    end: 《周恩来选集》下卷出版。
+    note: 中共官方的后来叙述（2009 年网页），只列职务和事件；网页转录，未核原书。
+  - id: people-2009-liu-chronology
+    title: 领袖大事年表：刘少奇
+    date: 2009-12-08
+    author: 人民网-中国共产党新闻网
+    kind: annals
+    tier: 2
+    alias: 人民网《领袖大事年表：刘少奇》
+    url: http://cpc.people.com.cn/GB/143527/147174/10536454.html
+    via: 人民网“毛主席纪念堂”专题
+    start: 1898年 11月24日
+    end: 《刘少奇选集》下卷出版。
+    note: 中共官方的后来叙述（2009 年网页），只列职务和事件；网页转录，未核原书。
+  - id: people-2009-zhu-chronology
+    title: 领袖大事年表：朱德
+    date: 2009-12-08
+    author: 人民网-中国共产党新闻网
+    kind: annals
+    tier: 2
+    alias: 人民网《领袖大事年表：朱德》
+    url: http://cpc.people.com.cn/GB/143527/147175/10536603.html
+    via: 人民网“毛主席纪念堂”专题
+    start: 1886年 12月1日
+    end: 《朱德选集》出版。
+    note: 中共官方的后来叙述（2009 年网页），只列职务和事件；网页转录，未核原书。
+  - id: people-2009-deng-chronology
+    title: 领袖大事年表：邓小平
+    date: 2009-12-08
+    author: 人民网-中国共产党新闻网
+    kind: annals
+    tier: 2
+    alias: 人民网《领袖大事年表：邓小平》
+    url: http://cpc.people.com.cn/GB/143527/147177/10536615.html
+    via: 人民网“毛主席纪念堂”专题
+    start: 1904年 8月22日
+    end: 2月19日，在北京逝世。
+    note: 中共官方的后来叙述（2009 年网页），只列职务和事件；网页转录，未核原书。

@@ -9,4 +9,7 @@ web:
     alias: 英国《旁观者》周刊 1967 年 8 月 25 日“本周纪事”
     url: https://archive.spectator.co.uk/article/25th-august-1967/2/portrait-of-the-week
     via: The Spectator Archive（扫描件 OCR 文本）
-    note: 当时英国报刊的简讯，OCR 文本有个别错字
+    start: Bed Guards broke into
+    end: shot down over Chinese territory.
+    note: 当时英国报刊的简讯，只取第一段。OCR 文本有个别错字（“Red Guards”作“Bed Guards”），原样保留。
+
