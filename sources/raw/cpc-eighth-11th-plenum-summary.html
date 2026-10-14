@@ -1,0 +1,346 @@
+<HTML>
+<HEAD>
+<TITLE>中国共产党历次全国代表大会数据库</TITLE>
+<meta http-equiv="content-type" content="text/html;charset=GB2312"/>
+<style type="text/css">
+body{
+	margin:0;
+	padding:0;
+	color:#000;
+	text-align:center;
+	font-size:14px;
+	background-color: DDDADA;
+}
+td{ font-size:14px;line-height: 180%;}
+a.red{
+	color:#BB0300;
+	text-decoration:none;
+	font-weight:bold;
+	font-size: 14px;
+}
+a.blue{
+	color:#023E82;
+	text-decoration:none;
+	font-weight:bold;
+	font-size: 12px;
+}
+a.blue12{
+	color:#023E82;
+	text-decoration:none;
+	font-weight:bold;
+	font-size: 14px;
+}
+a.black{color:#000000;text-decoration:none;font-weight:400;}
+.bt1 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #040404;
+}
+.td2 {
+	font-size: 14px;
+	color: #040404;
+}
+a.white{color:#FFFFFF;text-decoration:none;font-weight:400;}
+.STYLE2 {
+	color: #BB0300;
+	font-weight: bold;
+}
+.STYLE3 {color: #FFFFFF}
+.STYLE5 {color: #BA0404; font-weight: bold; }
+.STYLE6 {color: #023E82}
+</style>
+<SCRIPT language=JavaScript src="/img/2007cpc_wenben/content.js"></SCRIPT>
+<script language="JavaScript">
+//加到频道的脚本
+function FieldSearchFormTwo_onsubmit(){
+	var SQLTitle="";
+	if(document.FieldSearchFormTwo.Content.value!=""){
+		var oldStr=document.FieldSearchFormTwo.Content.value;
+		 var searchStr=searchWordPro(oldStr);
+			 SQLTitle="("+"正文=("+ searchStr + ") or "+"标题=("+searchStr+ ") or "+"作者=("+searchStr  + "))";
+			SQLTitle=searchStr;
+			document.FieldSearchFormTwo.searchword.value=SQLTitle;
+			return true;
+	}else
+	{
+	alert("检索表达式不允许为空！");
+	return false;
+	}
+}
+function searchWordPro(vsearchWord){
+	var tempStr="";
+	var isSpace=false;
+	vsearchWord=alltrim(vsearchWord);
+	var word_array =vsearchWord.split(" ");
+	if(word_array.length<2) return vsearchWord;
+	for (loop=0; loop < word_array.length;loop++)
+	{
+		if((alltrim(word_array[loop]).toLowerCase()=="or") ||(alltrim(word_array[loop]).toLowerCase()=="and")){
+			return vsearchWord;
+		}else{
+			if(loop==0)
+				tempStr=word_array[loop];
+			else{
+				if(alltrim(word_array[loop])!="")
+					tempStr=tempStr+" and "+word_array[loop];
+				}
+		}
+	}
+	return tempStr;
+}
+function alltrim(a_strVarContent) 
+{ 
+var pos1, pos2, newstring; 
+pos1 = 0; 
+pos2 = 0; 
+newstring = "" 
+if ( a_strVarContent.length > 0 ) 
+{ 
+for( i=0; i<a_strVarContent.length; i++) 
+{ 
+if ( a_strVarContent.charAt(i) == " " ) 
+pos1 = pos1 + 1; 
+else 
+break; 
+} 
+for( i=a_strVarContent.length-1; i>=0 ; i--) 
+{ 
+if ( a_strVarContent.charAt(i) == " " ) 
+pos2 = pos2 + 1; 
+else 
+break; 
+} 
+newstring = a_strVarContent.substring(pos1, a_strVarContent.length-pos2) 
+} 
+return newstring; 
+} 
+
+</script>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<!-- ImageReady Slices (head) -->
+<table width="994" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" background="/img/17dadata/images/bj_1.jpg"><TABLE WIDTH=980 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+      <TR>
+        <TD COLSPAN=4><IMG SRC="/img/17dadata/images/head_1.jpg" WIDTH=980 HEIGHT=52 ALT=""></TD>
+      </TR>
+      <TR>
+        <TD COLSPAN=4><IMG SRC="/img/17dadata/images/head_2.jpg" WIDTH=980 HEIGHT=56 ALT=""></TD>
+      </TR>
+      <TR>
+        <TD COLSPAN=4><IMG SRC="/img/17dadata/images/head_3.jpg" WIDTH=980 HEIGHT=19 ALT=""></TD>
+      </TR>
+      <TR>
+          <TD width="252" align="center" bgcolor="#F30000"><span class="STYLE3"><a href="aa" class="white">&nbsp;&nbsp;</a></span></TD>
+        <TD><IMG SRC="/img/17dadata/images/head_5.jpg" WIDTH=440 HEIGHT=43 ALT=""></TD>
+        <TD><IMG SRC="/img/17dadata/images/head_6.jpg" ALT="" WIDTH=110 HEIGHT=43 border="0" usemap="#Map"></TD>
+        <TD><IMG SRC="/img/17dadata/images/head_7.jpg" ALT="" WIDTH=178 HEIGHT=43 border="0" usemap="#Map2"></TD>
+      </TR>
+    </TABLE></td>
+  </tr>
+  <tr>
+    <td align="center" background="/img/17dadata/images/bj_1.jpg"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="43" valign="top"><img src="/img/17dadata/images/bj_left.jpg" width="43" height="484"></td>
+        <td valign="top"><table width="97%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              
+			  <tr><FORM name=FieldSearchFormTwo onsubmit="return FieldSearchFormTwo_onsubmit();" 
+    action=http://search.people.com.cn/was40/cpc/GB/cpccongressindex.jsp?type=1&channel=历次党代会 method=post>
+                <td width="32%" height="34" align="center" valign="bottom">
+                  <input name="Content" type="text" size="25" maxlength="50"><input  type="hidden"name="searchword">
+                  &nbsp;<input type="image" src="/img/17dadata/images/js_2.jpg" width="37" height="20" border="0" align="absmiddle"  name="Submit" value="submit"></td></form>
+                <td width="68%" height="34"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td background="/img/17dadata/images/top_bj.jpg"><a href="http://cpc.people.com.cn/" class="red">中国共产党新闻</a> &gt;&gt; <a href="http://cpc.people.com.cn/GB/64162/index.html" class="red">资料中心</a> &gt;&gt; <a href="http://cpc.people.com.cn/GB/64162/64168/index.html" class="red">历次党代会</a> &gt;&gt; <a href="http://cpc.people.com.cn/GB/64162/64168/64560/index.html" class="red">第八次（1956年9月15日至27日 北京）</a> &gt;&gt; <a href="http://cpc.people.com.cn/GB/64162/64168/64560/65354/index.html" class="red">十一中全会</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="/img/17dadata/images/top_p1.jpg" width="586" height="3"></td>
+                  </tr>
+                </table></td>
+                </tr>
+            </table>
+              <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="32%" align="center" valign="top"><table width="237" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                      <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href="/GB/64162/64168/index.html" class="blue12">返回首页</a></td>
+                      <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                    </tr>
+                  </table>
+                    <table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/415039/index.html' target='_blank' class="red">中国共产党第十九次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/351850/index.html' target='_blank' class="red">中国共产党第十八次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/106155/index.html' target='_blank' class="red">中国共产党第十七次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64569/index.html' target='_blank' class="red">中国共产党第十六次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64568/index.html' target='_blank' class="red">中国共产党第十五次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64567/index.html' target='_blank' class="red">中国共产党第十四次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64566/index.html' target='_blank' class="red">中国共产党第十三次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64565/index.html' target='_blank' class="red">中国共产党第十二次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64563/index.html' target='_blank' class="red">中国共产党第十一次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64562/index.html' target='_blank' class="red">中国共产党第十次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64561/index.html' target='_blank' class="red">中国共产党第九次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64560/index.html' target='_blank' class="red">中国共产党第八次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64559/index.html' target='_blank' class="red">中国共产党第七次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64558/index.html' target='_blank' class="red">中国共产党第六次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64557/index.html' target='_blank' class="red">中国共产党第五次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64556/index.html' target='_blank' class="red">中国共产党第四次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64555/index.html' target='_blank' class="red">中国共产党第三次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64554/index.html' target='_blank' class="red">中国共产党第二次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table><table width="242" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="7" valign="middle"><img src="/img/17dadata/images/td_left.jpg" width="7" height="33"></td>
+                        <td align="center" background="/img/17dadata/images/td_bj.jpg"><a href='http://cpc.people.com.cn/GB/64162/64168/64553/index.html' target='_blank' class="red">中国共产党第一次全国代表大会</a></td>
+                        <td width="7"><img src="/img/17dadata/images/td_right.jpg" width="7" height="33"></td>
+                      </tr>
+                    </table> 
+                        <p>&nbsp;</p>                    </td>
+                  <td width="68%" align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tr>
+                      <td height="35" align="center" ></td>
+                    </tr>
+                    <tr>
+                      <td height="35" align="center" class="bt1">中国共产党八届十一中全会简介</td>
+                    </tr>
+ <tr>
+                      <td height="35" align="center"></td>
+                    </tr>
+                    <tr>
+                      <td align="right"><span class="STYLE6">【</span><a href="#" class="blue">字号</a> <a onclick="return doZoom(16)" class="blue">大</a> <a onclick="return doZoom(14)" class="blue">中</a> <a onclick="return doZoom(12)" class="blue">小</a><span class="STYLE6">】【</span><a href='http://bbs1.people.com.cn/boardList.do?action=postList&boardId=12' class="blue">论坛</a><span class="STYLE6">】</span><a  href="#" onclick="window.print();" class="blue">【打印</a><span class="STYLE6">】</span><a 
+					  onclick="window.close();" href="#" class="blue">【关闭</a><span class="STYLE6">】</span></td>
+                    </tr>
+                    <tr>
+                      <td align="center"></td>
+                    </tr>
+                    <tr>
+                      <td><img src="/img/17dadata/images/td_bjt.jpg" width="573" height="13"></td>
+                    </tr>
+                    <tr>
+                      <td><p><FONT class=fbody id=zoom>&nbsp;&nbsp;&nbsp;&nbsp;1966年８月１～12日在北京举行。毛泽东主持会议。邓小平、周恩来、刘少奇先后讲了话。刘少奇的讲话列举了自十中全会以来的在国际、国内方面的一些工作，对派工作组承担了责任。８月５日，毛泽东写了《炮打司令部――我的一张大字报》。８月７日，会议转为集中揭发批判刘少奇。朱德、陈云、邓子恢、薄一波等也受到不同程度的批判。８月８日全会通过《关于无产阶级文化大革命的决定》（即《十六条》）。８月12日，根据毛泽东提议，全会改组了中央领导机构，选举毛泽东任主席，林彪任副主席，选举毛泽东、林彪、周恩来、陶铸、陈伯达、邓小平、康生、刘少奇、朱德、李富春、陈云为政治局常委；补选陶铸、陈伯达、康生、徐向前、聂荣臻、叶剑英为政治局委员，李雪峰、谢富治、宋任穷为政治局候补委员；补选谢富治、刘宁一为书记处书记；候补中央委员递补中央委员的有杨得志、韦国清、罗贵波、张经武、谢觉哉、叶飞；撤销彭真、罗瑞卿、陆定一的中共中央书记处书记职务，杨尚昆的中共中央书记处候补书记职务。</font></p>
+                            <br>
+                           <br>
+                        </p></td>
+                    </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table></td>
+        <td width="49" valign="top"><img src="/img/17dadata/images/bj_right.jpg" width="50" height="555"></td>
+      </tr>
+    </table>
+      <table width="994" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="21"><table width="994" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+          <img src="/img/17dadata/images/bottom.jpg" width="994" height="35"></td>
+        </tr>
+        <tr>
+          <td height="79" align="center" valign="middle" bgcolor="#DDDADA">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>
+Copyright &copy; 1997-2007 by www.people.com.cn. all rights reserved<br></td>
+        </tr>
+      </table>
+    </tr>
+      </table></td>
+  </tr>
+</table>
+<!-- End ImageReady Slices -->
+<img src="http://counter.people.cn:8000/c.gif?id=4442081" width=0 height=0 style="display:none;"> 
+<map name="Map"><area shape="rect" coords="11,1,104,38" href="#"></map>
+<map name="Map2"><area shape="rect" coords="4,2,130,42" href="#"></map></BODY>
+</HTML>

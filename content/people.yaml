@@ -126,10 +126,10 @@
   fate:
     - { date: 1921-07, s: normal, note: 出席中共一大, cite: people-2009-mao-chronology }
     - { date: 1923-06, s: rise, note: 三大当选中央执行委员，会后任中央局委员兼秘书, cite: people-2009-mao-chronology }
-    - { date: 1927-11, s: sidelined, note: 秋收起义后被临时中央撤销政治局候补委员, verify: true }
+    - { date: 1927-11, s: sidelined, note: 中央临时政治局扩大会议《政治纪律决议案》指秋收起义“完全违背中央策略”，开除其临时政治局候补委员, place: shanghai, cite: dangshi-1927-11-politburo-meeting }
     - { date: 1928-04, s: rise, note: 井冈山朱毛会师，组成红四军, cite: people-2009-mao-chronology }
     - { date: 1931-11, s: power, note: 当选中华苏维埃共和国中央执行委员会主席, cite: people-2009-mao-chronology }
-    - { date: 1932-10, s: sidelined, note: 宁都会议后被解除红军指挥权, verify: true }
+    - { date: 1932-10, s: sidelined, note: 宁都会议后被调专做政府工作，10 月 26 日撤销红一方面军总政委职务（周恩来兼任）, cite: dswxyjy-2013-ningdu-meeting }
     - { date: 1935-01, s: rise, note: 遵义会议进入政治局常委, cite: people-2009-mao-chronology }
     - { date: 1943-03, s: power, note: 政治局主席、书记处主席, cite: people-2009-mao-chronology }
     - { date: 1949-10, s: power, note: 中华人民共和国成立 }
@@ -368,7 +368,7 @@
     - { title: 政府工作报告（四届人大）, date: 1975-01-13 }
   factions: [premier]
   fate:
-    - { date: 1920-01, s: detained, note: 天津请愿被捕，关押半年, place: tianjin, verify: true }
+    - { date: 1920-01-29, s: detained, note: 领导学生赴省公署请愿时被捕，7 月 17 日获释, place: tianjin, cite: people-2019-zhou-tianjin-arrest }
     - { date: 1921, s: normal, note: 在欧洲勤工俭学期间参加中国共产党, cite: people-2009-zhou-chronology }
     - { date: 1924, s: rise, note: 回国，任中共广东区委委员长、黄埔军校政治部主任, cite: people-2009-zhou-chronology }
     - { date: 1927-08-01, s: rise, note: 领导南昌起义, cite: people-2009-zhou-chronology }
@@ -816,7 +816,7 @@
     - { date: 1956-09, s: sidelined, note: 八届一中全会只当选政治局候补委员（七届为政治局委员）, cite: cppcc-kang-sheng }
     - { date: 1962-09, s: power, note: 增选为中央书记处书记 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组顾问, cite: ws-1966-05-ccrg-list }
-    - { date: 1966-08, s: power, note: 进入政治局常委, verify: true }
+    - { date: 1966-08-12, s: power, note: 八届十一中全会改组中央领导机构，当选政治局常委, cite: cpc-eighth-11th-plenum-summary }
     - { date: 1973-08, s: power, note: 十大任中央副主席, cite: ws-1981-01-25-judgment }
     - { date: 1975-12-16, s: dead }
   cites: [ws-1966-05-16-notice-attachment@1966-02-03, ws-1980-indictment, ws-1980-kang-xie-reports, ws-1981-01-25-judgment]
@@ -919,8 +919,8 @@
     - { date: 1976-10-06, s: detained, note: 被隔离审查, cite: ws-1976-10-18-notice }
     - { date: 1977-07, s: purged, note: 定为“叛徒”，永远开除党籍, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1981-01-25, s: detained, note: 判处死刑缓期二年执行, cite: ws-1981-01-25-judgment }
-    - { date: 1984, s: detained, note: 保外就医, verify: true }
-    - { date: 1991-05-14, s: dead, verify: true }
+    - { date: 1984-05-04, s: detained, note: 保外就医（1983 年 1 月改判无期徒刑）, cite: ws-1991-06-04-jiang-qing-death }
+    - { date: 1991-05-14, s: dead, note: 保外就医期间凌晨在北京居住地自杀, place: beijing, cite: ws-1991-06-04-jiang-qing-death }
   cites: [ws-1966-03-army-arts, ws-1966-05-ccrg-list, ws-1976-10-18-notice, ws-1977-07-tenth-third-plenum, ws-1980-indictment, ws-1981-01-25-judgment, ws-1981-resolution]
 
 - id: zhang-chunqiao
@@ -1017,7 +1017,7 @@
     - { date: 1977-07, s: purged, note: 定为“国民党特务分子”，永远开除党籍, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1981-01-25, s: detained, note: 判处死刑缓期二年执行, cite: ws-1981-01-25-judgment }
     - { date: 1998-01, s: normal, note: 保外就医（此前 1997 年 12 月减为有期徒刑 18 年）, cite: people-qiyi-zhang-chunqiao }
-    - { date: 2005-04-21, s: dead, note: 七一导航只记“2005年4月病亡”, verify: true }
+    - { date: 2005-04-21, s: dead, note: 因患癌症病亡, cite: xinhua-2005-05-10-zhang-chunqiao-death }
   cites: [ws-1966-05-ccrg-list, ws-1976-10-18-notice, ws-1977-07-tenth-third-plenum, ws-1980-indictment, ws-1981-01-25-judgment, ws-1981-resolution]
 
 # ── 中央文革小组成员 ────────────────────────────────────────

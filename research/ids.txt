@@ -3237,14 +3237,17 @@ sources/chinawriter-2020-jin-jingmai
 sources/chinawriter-cao-yu
 sources/chinawriter-yang-hansheng
 sources/cpc-1980-09-29-hu-feng-rehab
+sources/cpc-eighth-11th-plenum-summary
 sources/cppcc-kang-sheng
 sources/cppcc-wang-enmao
 sources/crt-2025-wu-guixian
 sources/czmingren-liu-jianxun
+sources/dangshi-1927-11-politburo-meeting
 sources/dangshi-2012-sun-weishi
 sources/difangwenge-tianjin-1978
 sources/ding-kaiwen-lin
 sources/dong-bian-tian-jiaying
+sources/dswxyjy-2013-ningdu-meeting
 sources/frus-1964-68-xxx
 sources/frus-v17-d139
 sources/frus-v17-d140
@@ -3335,6 +3338,7 @@ sources/people-2014-hu-yaobang-chronology
 sources/people-2014-ren-zhongyi-zhang-zhixin
 sources/people-2014-xiaojinzhuang
 sources/people-2015-07-23-wan-li
+sources/people-2019-zhou-tianjin-arrest
 sources/people-2020-shen-jilan
 sources/people-leaders-memorial
 sources/people-lin-biao-bio
@@ -4288,6 +4292,7 @@ sources/ws-1989-propaganda-notice
 sources/ws-1989-tianjin-telegram
 sources/ws-1990-01-10-lift-martial-law
 sources/ws-1990-lhasa-lift-martial-law
+sources/ws-1991-06-04-jiang-qing-death
 sources/ws-1997-02-19-deng-message
 sources/ws-1998-09-yang-shangkun-obituary
 sources/ws-2009-liu-xiaobo-judgment
@@ -4322,6 +4327,7 @@ sources/xhrb-2015-07-09-jiang-weiqing
 sources/xinhua-1997-qin-jiwei
 sources/xinhua-2003-zhang-aiping
 sources/xinhua-2005-01-29-zhao-ziyang
+sources/xinhua-2005-05-10-zhang-chunqiao-death
 sources/xinhua-2005-ba-jin
 sources/xinhua-2006-liao-hansheng
 sources/xinhua-2008-hua-guofeng-bio

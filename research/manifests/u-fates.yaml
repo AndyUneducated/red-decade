@@ -1,0 +1,68 @@
+# U: 1 级人物剩余待核命运节点的出处（2026-10-14 早上继续）。
+# 新华社通报与主席令是当时的原文；党史网站、纪念网的叙述是官方后来的说法，定 2 级。
+wikisource:
+  - id: ws-1991-06-04-jiang-qing-death
+    title: 江青自杀身亡
+    date: 1991-06-04
+    author: 新华社
+    kind: news
+    alias: 新华社《江青自杀身亡》（1991-06-04）
+web:
+  - id: xinhua-2005-05-10-zhang-chunqiao-death
+    title: 张春桥病亡
+    date: 2005-05-10
+    author: 新华社
+    kind: news
+    alias: 新华社《张春桥病亡》（2005-05-10）
+    url: https://web.archive.org/web/20121105164631id_/http://news.xinhuanet.com/newscenter/2005-05/10/content_2939710.htm
+    via: 新华网（Wayback Machine 2012-11-05 快照）
+    start: 新华网北京５月１０日电
+    end: １９９８年１月保外就医。（完）
+  - id: dangshi-1927-11-politburo-meeting
+    title: 中央临时政治局扩大会议(1927年11月9-10日)
+    date: 2010
+    author: 中国共产党新闻网资料
+    kind: chronology
+    tier: 2
+    alias: 人民网党史频道《中央临时政治局扩大会议（1927 年 11 月）》
+    url: https://web.archive.org/web/20181028193304id_/http://dangshi.people.com.cn/GB/151935/176588/176591/10555414.html
+    via: 中国共产党新闻网党史频道（Wayback Machine 2018-10-28 快照）
+    note: 官方的后来叙述；网页未注明日期，侧栏已列“2010年全国党史工作会议”，取 2010（不早于此年）；网页转录，未核原书。
+    start: 八七会议后，中国共产党在短时间里
+    end: (中国共产党新闻网资料)
+  - id: dswxyjy-2013-ningdu-meeting
+    title: 1932年10月中、下旬为什么要召开宁都会议？
+    date: 2013-01-25
+    author: 韩广富、曹希岭主编《中国共产党历史上的1000个为什么》
+    kind: article
+    tier: 2
+    alias: 中共中央党史和文献研究院网站《为什么要召开宁都会议？》（2013）
+    url: https://www.dswxyjy.org.cn/n/2013/0125/c244514-20324450.html
+    via: 中共中央党史和文献研究院网站“党史1000问”
+    note: 官方的后来叙述；选自中共党史出版社《中国共产党历史上的1000个为什么》，网页转录，未核原书。
+    start: 1932年7月，蒋介石发动第四次反革命军事
+    end: 中共党史出版社 出版
+  - id: people-2019-zhou-tianjin-arrest
+    title: 周恩来主办《天津学生联合会报》
+    date: 2019-04-29
+    author: 周巍、曹冬梅（中共天津市委党校）
+    kind: article
+    tier: 2
+    alias: 周巍、曹冬梅《周恩来主办〈天津学生联合会报〉》（《天津日报》2019）
+    url: http://zhouenlai.people.cn/n1/2019/0429/c409117-31058099.html
+    via: 人民网周恩来纪念网（转自《天津日报》）
+    note: 官方的后来叙述；网页转录，未核原书。
+    start: 2019年是五四运动100周年。
+    end: （执笔：周巍 曹冬梅）
+  - id: cpc-eighth-11th-plenum-summary
+    title: 中国共产党八届十一中全会简介
+    date: 2007
+    author: 人民网“中国共产党历次全国代表大会数据库”
+    kind: chronology
+    tier: 2
+    alias: 人民网历次全会数据库《八届十一中全会简介》
+    url: http://cpc.people.com.cn/GB/64162/64168/64560/65354/4442081.html
+    via: 中国共产党新闻网“中国共产党历次全国代表大会数据库”
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份 2007；网页转录，未核原书。
+    start: 1966年８月１～12日在北京举行。
+    end: 杨尚昆的中共中央书记处候补书记职务。
