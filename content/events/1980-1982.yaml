@@ -115,11 +115,14 @@
   title: 批判《苦恋》
   lane: culture
   weight: 2
-  summary: 军队作家白桦的电影剧本《苦恋》拍成影片《太阳和人》，送审后未获公映。1981 年文化部向五届人大常委会第二十次会议的报告，把它作为文艺界“错误倾向”的代表，要求“立场坚定、旗帜鲜明地进行批评和必要的斗争”。这是三中全会后第一次由官方点名批判一部作品。
+  summary: 军队作家白桦的电影剧本《苦恋》拍成影片《太阳和人》，送审后未获公映。1981 年文化部向五届人大常委会第二十次会议的报告，把它作为文艺界“错误倾向”的代表，要求“立场坚定、旗帜鲜明地进行批评和必要的斗争”。这是三中全会后第一次由官方点名批判一部作品。7 月 17 日邓小平同中央宣传部门负责人谈话，肯定《解放军报》的批评“是应该的”，要《文艺报》写评论文章，由《人民日报》转载。
+  people: [deng-xiaoping, hu-yaobang]
   voices:
     - { voice: officialLater, text: 我们对这种错误倾向，绝不能听之任之，必须立场坚定、旗帜鲜明地进行批评和必要的斗争（1981 年文化部报告）, cite: ws-1981-culture-ministry-report, quote: true }
     - { voice: officialLater, text: 根据《苦恋》拍成的影片《太阳和人》送审片，看后不能不使人得出这样的印象，共产党不好，社会主义制度不好，新中国不如旧中国、不如外国（同一报告）, cite: ws-1981-culture-ministry-report, quote: true }
-  cites: [ws-1981-culture-ministry-report]
+    - { voice: doc, text: 关于《苦恋》，《解放军报》进行了批评，是应该的。首先要肯定应该批评（邓小平 1981 年 7 月 17 日同中央宣传部门负责同志的谈话）, cite: reformdata-1981-deng-ideological-front, quote: true }
+    - { voice: doc, text: 我们今后不搞反右派运动，但是对于各种错误倾向决不能不进行严肃的批评（同一谈话）, cite: reformdata-1981-deng-ideological-front, quote: true }
+  cites: [ws-1981-culture-ministry-report, reformdata-1981-deng-ideological-front]
 
 - id: 1981-11-fourth-npc-session
   date: 1981-11-30
@@ -138,11 +141,13 @@
   title: 中央建立老干部离休退休制度
   lane: center
   weight: 2
-  summary: 建国前参加革命、仍健在的老干部有二百五十万人，大部分还在岗位上。中央规定部长、省级正职一般不超过六十五岁，副职和司局级一般不超过六十岁，离休后政治待遇和生活待遇不变。这是邓小平所说废除领导职务终身制的第一步；同年十二大设中央顾问委员会安置老一辈。
+  summary: 建国前参加革命、仍健在的老干部有二百五十万人，大部分还在岗位上。中央规定部长、省级正职一般不超过六十五岁，副职和司局级一般不超过六十岁，离休后政治待遇和生活待遇不变。这是邓小平所说废除领导职务终身制的第一步；同年十二大设中央顾问委员会安置老一辈。一个多月前的 1 月 13 日，邓小平在政治局讨论中央机构精简时说，这是“对体制的革命”，要涉及“几百万人”。
   people: [deng-xiaoping, chen-yun, hu-yaobang]
   voices:
     - { voice: officialLater, text: 在大革命时期、土地革命战争时期、抗日战争时期和解放战争时期中参加革命的老干部，至今健在的还有250万人。其中已经离休退休的只是少部分人，大部分人还留在工作岗位上（1982 年中共中央决定）, cite: ws-1982-02-20-cadre-retirement, quote: true }
-  cites: [ws-1982-02-20-cadre-retirement, ws-1980-08-18-leadership-reform]
+    - { voice: doc, text: 这场革命不搞，让老人、病人挡住比较年轻、有干劲、有能力的人的路，不只是四个现代化没有希望，甚至于要涉及到亡党亡国的问题，可能要亡党亡国（邓小平 1982 年 1 月 13 日《精简机构是一场革命》）, cite: reformdata-1982-deng-streamlining, quote: true }
+    - { voice: doc, text: 副部长、司局长要选年轻的，尽量选年轻的（同一讲话）, cite: reformdata-1982-deng-streamlining, quote: true }
+  cites: [ws-1982-02-20-cadre-retirement, ws-1980-08-18-leadership-reform, reformdata-1982-deng-streamlining]
 
 - id: 1982-03-liu-zhang-indicted
   date: 1982-03-24
@@ -213,12 +218,13 @@
   lane: center
   weight: 3
   place: 北京
-  summary: 胡耀邦作报告《全面开创社会主义现代化建设的新局面》，提出到 2000 年工农业年总产值“翻两番”。新党章不设主席，只设总书记；中央和省一级设顾问委员会，让老同志起“参谋作用”，邓小平任中顾委主任。华国锋仍当选中央委员。
+  summary: 胡耀邦作报告《全面开创社会主义现代化建设的新局面》，提出到 2000 年工农业年总产值“翻两番”。新党章不设主席，只设总书记；中央和省一级设顾问委员会，让老同志起“参谋作用”，邓小平任中顾委主任。华国锋仍当选中央委员。邓小平致开幕词，提出“走自己的道路，建设有中国特色的社会主义”。
   people: [hu-yaobang, deng-xiaoping, chen-yun, ye-jianying, zhao-ziyang, li-xiannian, hua-guofeng]
   voices:
     - { voice: officialLater, text: 力争使全国工农业的年总产值翻两番，即由一九八○年的七千一百亿元增加到二○○○年的二万八千亿元左右（1982 年十二大报告）, cite: ws-1982-09-01-twelfth-congress-report, quote: true }
     - { voice: officialLater, text: 新党章规定，党中央不设主席只设总书记（同一报告）, cite: ws-1982-09-01-twelfth-congress-report, quote: true }
-  cites: [ws-1982-09-01-twelfth-congress-report]
+    - { voice: doc, text: 把马克思主义的普遍真理同我国的具体实际结合起来，走自己的道路，建设有中国特色的社会主义，这就是我们总结长期历史经验得出的基本结论（邓小平 9 月 1 日开幕词）, cite: reformdata-1982-deng-twelfth-congress-opening, quote: true }
+  cites: [ws-1982-09-01-twelfth-congress-report, reformdata-1982-deng-twelfth-congress-opening]
 
 - id: 1982-10-27-census
   date: 1982-10-27
@@ -262,11 +268,14 @@
   title: 打击经济领域严重犯罪
   lane: econ
   weight: 1
-  summary: 1982 年开展打击“经济领域中的严重犯罪活动”。最高人民检察院年底的工作报告把它和整顿城乡社会治安并列为一年的中心工作，同时强调检察机关只办“触犯刑法”的案件，一般违纪交党纪、政纪处理。
+  summary: 1982 年开展打击“经济领域中的严重犯罪活动”。最高人民检察院年底的工作报告把它和整顿城乡社会治安并列为一年的中心工作，同时强调检察机关只办“触犯刑法”的案件，一般违纪交党纪、政纪处理。4 月 10 日中央政治局讨论中共中央、国务院的打击经济犯罪决定时，邓小平说卷进来的“不是小量的，而是大量的”，要“从快从严从重”，每个省四五月间“要抓几个大案”。
+  people: [deng-xiaoping]
   voices:
     - { voice: officialLater, text: '各级检察机关紧紧围绕打击经济领域中的严重犯罪活动和整顿城乡社会治安,积极开展各项检察业务工作（1982 年最高人民检察院工作报告）', cite: ws-1982-procuratorate-report, quote: true }
     - { voice: officialLater, text: '至于一般违反党纪、政纪并不触犯刑法的案件,概由党的纪律检查部门和政府部门去处理（同一报告）', cite: ws-1982-procuratorate-report, quote: true }
-  cites: [ws-1982-procuratorate-report]
+    - { voice: doc, text: 所以，现在刹这个风，一定要从快从严从重（邓小平 1982 年 4 月 10 日在中央政治局会议上的讲话）, cite: reformdata-1982-deng-economic-crime, quote: true }
+    - { voice: doc, text: 我们要有两手，一手就是坚持对外开放和对内搞活经济的政策，一手就是坚决打击经济犯罪活动（同一讲话）, cite: reformdata-1982-deng-economic-crime, quote: true }
+  cites: [ws-1982-procuratorate-report, reformdata-1982-deng-economic-crime]
 
 - id: 1982-12-sixth-five-year-plan
   date: 1982-11-30

@@ -104,7 +104,9 @@
   people: [deng-xiaoping, hu-yaobang, hua-guofeng, mao-zedong, chen-yun, ye-jianying, zhao-ziyang]
   voices:
     - { voice: official1981, text: 一九六六年五月至一九七六年十月的“文化大革命”，使党、国家和人民遭到建国以来最严重的挫折和损失。这场“文化大革命”是毛泽东同志发动和领导的（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1981-resolution]
+    - { voice: doc, text: 对于毛泽东同志的错误，不能写过头。写过头，给毛泽东同志抹黑，也就是给我们党、我们国家抹黑（邓小平 1980 年 10 月 25 日谈决议起草）, cite: reformdata-1980-deng-resolution-drafting, quote: true }
+    - { voice: doc, text: 我和陈云同志那时是政治局常委，起码我们两个负有责任（邓小平 1981 年 6 月 22 日在六中全会预备会期间的讲话，谈过去的错误由集体承担责任）, cite: reformdata-1980-deng-resolution-drafting, quote: true }
+  cites: [ws-1981-resolution, reformdata-1980-deng-resolution-drafting]
 
 - id: 1987-01-anti-liberalization
   date: 1987-01-13

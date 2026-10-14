@@ -44,12 +44,14 @@
   lane: econ
   weight: 2
   place: 北京
-  summary: 赵紫阳在六届人大一次会议上作政府工作报告，把农民“创造”的家庭联产承包责任制写成十一届三中全会以来的基本农村政策，要求“继续稳定和完善”。1962 年邓子恢支持安徽“责任田”被批为“单干风”，到这时同类做法成为国家政策。
-  people: [zhao-ziyang]
+  summary: 赵紫阳在六届人大一次会议上作政府工作报告，把农民“创造”的家庭联产承包责任制写成十一届三中全会以来的基本农村政策，要求“继续稳定和完善”。1962 年邓子恢支持安徽“责任田”被批为“单干风”，到这时同类做法成为国家政策。此前 1980 年 5 月 31 日，邓小平在同中央负责工作人员谈话时已肯定安徽肥西的包产到户和凤阳的大包干。
+  people: [zhao-ziyang, deng-xiaoping]
   concepts: [two-lines]
   voices:
     - { voice: officialLater, text: 特别重要的是，我国农民在党的领导下创造了多种形式的家庭联产承包责任制，克服长期存在的生产上的瞎指挥和分配上的平均主义（1983 年政府工作报告）, cite: ws-1983-06-gov-report, quote: true }
-  cites: [ws-1983-06-gov-report]
+    - { voice: doc, text: 安徽肥西县绝大多数生产队搞了包产到户，增产幅度很大（邓小平 1980 年 5 月 31 日《关于农村政策问题》）, cite: reformdata-1980-deng-rural-policy, quote: true }
+    - { voice: doc, text: 有的同志担心，这样搞会不会影响集体经济。我看这种担心是不必要的（同一谈话）, cite: reformdata-1980-deng-rural-policy, quote: true }
+  cites: [ws-1983-06-gov-report, reformdata-1980-deng-rural-policy]
 
 - id: 1983-09-02-strike-hard
   date: 1983-09-02
@@ -160,22 +162,26 @@
   title: 开放十四个沿海港口城市和海南岛
   lane: econ
   weight: 2
-  summary: 六届人大二次会议的政府工作报告宣布扩大厦门特区，并开放大连到北海十四个沿海港口城市和海南岛，实行经济特区的某些特殊政策。
-  people: [zhao-ziyang]
+  summary: 六届人大二次会议的政府工作报告宣布扩大厦门特区，并开放大连到北海十四个沿海港口城市和海南岛，实行经济特区的某些特殊政策。这一步出自邓小平：他 2 月 24 日视察广东、福建三个特区回京后提出，厦门特区要扩到全岛，再开放大连、青岛等港口城市，开发海南岛。
+  people: [zhao-ziyang, deng-xiaoping]
   voices:
     - { voice: officialLater, text: 进一步开放大连、秦皇岛、天津、烟台、青岛、连云港、南通、上海、宁波、温州、福州、广州、湛江、北海等十四个沿海港口城市和海南岛（1984 年政府工作报告）, cite: ws-1984-05-gov-report, quote: true }
-  cites: [ws-1984-05-gov-report]
+    - { voice: doc, text: 除现在的特区之外，可以考虑再开放几个港口城市，如大连、青岛。这些地方不叫特区，但可以实行特区的某些政策（邓小平 1984 年 2 月 24 日同几位中央负责同志的谈话）, cite: reformdata-1984-deng-special-zones, quote: true }
+    - { voice: doc, text: 厦门特区地方划得太小，要把整个厦门岛搞成特区（同一谈话）, cite: reformdata-1984-deng-special-zones, quote: true }
+  cites: [ws-1984-05-gov-report, reformdata-1984-deng-special-zones]
 
 - id: 1984-commune-dissolution
   date: 1984
   title: 政社分开，建立乡政府：人民公社解体
   lane: local
   weight: 2
-  summary: 1984 年政府工作报告说，县级政府机构改革和“政社分开、建立乡政府”在全国陆续展开。1958 年起政权、生产和分配合一的人民公社，从此退回为乡政府和村。1967 年道县 519 个农村大队中有 468 个杀了人，组织单位正是公社和大队。
+  summary: 1984 年政府工作报告说，县级政府机构改革和“政社分开、建立乡政府”在全国陆续展开。1958 年起政权、生产和分配合一的人民公社，从此退回为乡政府和村。1967 年道县 519 个农村大队中有 468 个杀了人，组织单位正是公社和大队。部署来自 1983 年 10 月 12 日中共中央、国务院的通知：同时按乡建立乡党委，乡的编制不得超过原公社，“大体上在一九八四年底以前完成”。
   people: []
   voices:
     - { voice: officialLater, text: 县级政府的机构改革和政社分开、建立乡政府的工作在全国陆续展开（1984 年政府工作报告）, cite: ws-1984-05-gov-report, quote: true }
-  cites: [ws-1984-05-gov-report]
+    - { voice: doc, text: 当前的首要任务是把政社分开，建立乡政府，同时按乡建立乡党委，并根据生产的需要和群众的意愿逐步建立经济组织（1983 年 10 月 12 日中共中央、国务院通知）, cite: reformdata-1983-10-12-commune-separation, quote: true }
+    - { voice: doc, text: 政社分开、建立乡政府的工作要与选举乡人民代表大会代表的工作结合进行，大体上在一九八四年底以前完成（同一通知）, cite: reformdata-1983-10-12-commune-separation, quote: true }
+  cites: [ws-1984-05-gov-report, reformdata-1983-10-12-commune-separation]
 
 - id: 1984-grain-record
   date: 1984
@@ -273,12 +279,14 @@
   title: 改革农产品统购派购制度
   lane: econ
   weight: 2
-  summary: 1985 年起粮棉等主要农产品取消统购派购，改为合同定购和市场收购。统购统销始于 1953 年，是大跃进饥荒时期征购过头的制度基础。同年统计公报也承认总需求超过总供给、物价上涨幅度较大。
+  summary: 1985 年起粮棉等主要农产品取消统购派购，改为合同定购和市场收购（中共中央、国务院 1 月 1 日《关于进一步活跃农村经济的十项政策》），并规定“任何单位都不得再向农民下达指令性生产计划”。统购统销始于 1953 年，是大跃进饥荒时期征购过头的制度基础。同年统计公报也承认总需求超过总供给、物价上涨幅度较大。
   people: []
   voices:
     - { voice: officialLater, text: 1985年我国农村在改革农产品统购派购制度、调整产业结构方面迈出了重大的一步（1985 年统计公报）, cite: rmrb-1986-03-01-stats-1985, quote: true }
     - { voice: officialLater, text: 表现在固定资产投资规模过大，社会购买力超过商品供应量，进口增加过快，物价上涨幅度较大（同一公报）, cite: rmrb-1986-03-01-stats-1985, quote: true }
-  cites: [rmrb-1986-03-01-stats-1985]
+    - { voice: doc, text: 从今年起，除个别品种外，国家不再向农民下达农产品统购派购任务，按照不同情况，分别实行合同定购和市场收购（1985 年中共中央、国务院十项政策）, cite: reformdata-1985-ten-rural-policies, quote: true }
+    - { voice: doc, text: 粮食、棉花取消统购，改为合同定购（同一文件）, cite: reformdata-1985-ten-rural-policies, quote: true }
+  cites: [rmrb-1986-03-01-stats-1985, reformdata-1985-ten-rural-policies]
 
 - id: 1985-03-consumption-figures
   date: 1985-03-27

@@ -1,0 +1,116 @@
+# V4 邓小平当时的讲话与谈话：取自《邓小平文选》第二、三卷，经中国（海南）改革发展研究院“改革大数据服务平台”转录。
+# 文选本是 1983、1993 年编定的整理稿（tier 2），与当时的记录稿可能有出入。
+web:
+  - id: reformdata-1980-deng-resolution-drafting
+    title: 对起草《关于建国以来党的若干历史问题的决议》的意见
+    date: 1980-03-19
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《对起草〈关于建国以来党的若干历史问题的决议〉的意见》（1980 年 3 月至 1981 年 6 月九次谈话节录，《邓小平文选》第二卷）
+    url: http://www.reformdata.org/1980/0301/5185.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第二卷
+    note: 九次谈话的节录，最早一次 1980 年 3 月 19 日，最晚一次 1981 年 6 月 22 日；日期取第一次。
+    start: 中心的意思应该是三条。
+    end: 这是其中九次谈话的节录。
+  - id: reformdata-1980-deng-rural-policy
+    title: 关于农村政策问题
+    date: 1980-05-31
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《关于农村政策问题》（1980 年 5 月 31 日同中央负责工作人员的谈话，《邓小平文选》第二卷）
+    url: http://www.reformdata.org/1980/0531/5187.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第二卷
+    start: 一九八○年五月三十一日
+    end: 不是行政命令的，而是生产发展本身必然提出的要求。
+  - id: reformdata-1981-deng-ideological-front
+    title: 关于思想战线上的问题的谈话
+    date: 1981-07-17
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《关于思想战线上的问题的谈话》（1981 年 7 月 17 日同中央宣传部门负责同志的谈话要点，《邓小平文选》第二卷）
+    url: http://www.reformdata.org/1981/0717/5196.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第二卷
+    start: 六中全会以前，总政提出了批评《苦恋》的问题。
+    end: 并且由《人民日报》转载。
+  - id: reformdata-1982-deng-economic-crime
+    title: 坚决打击经济犯罪活动
+    date: 1982-04-10
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《坚决打击经济犯罪活动》（1982 年 4 月 10 日在中央政治局会议上的讲话，《邓小平文选》第二卷）
+    url: http://www.reformdata.org/1982/0410/5291.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第二卷
+    start: 一九八二年四月十日
+    end: 还会有大批的人变坏，包括一些老干部。
+  - id: reformdata-1982-deng-streamlining
+    title: 精简机构是一场革命
+    date: 1982-01-13
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《精简机构是一场革命》（1982 年 1 月 13 日在中央政治局讨论中央机构精简问题会议上的讲话，《邓小平文选》第二卷）
+    url: http://www.reformdata.org/1982/0113/5290.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第二卷
+    start: 一九八二年一月十三日
+    end: 我就讲这么四点意见。
+  - id: reformdata-1982-deng-twelfth-congress-opening
+    title: 中国共产党第十二次全国代表大会开幕词
+    date: 1982-09-01
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《中国共产党第十二次全国代表大会开幕词》（1982 年 9 月 1 日，《邓小平文选》第三卷）
+    url: http://www.reformdata.org/1982/0901/1544.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第三卷
+    note: 页首编者摘要重复了开头两段，取正文第三段起。
+    start: 完成这次代表大会的任务，
+    end: 推进人类进步事业，而努力奋斗。
+  - id: reformdata-1983-10-12-commune-separation
+    title: 中共中央、国务院关于实行政社分开建立乡政府的通知
+    date: 1983-10-12
+    author: 中共中央、国务院
+    kind: party-doc
+    tier: 1
+    alias: 中共中央、国务院《关于实行政社分开建立乡政府的通知》（1983 年 10 月 12 日）
+    url: http://www.reformdata.org/1983/1012/6027.shtml
+    via: 改革大数据服务平台转录（页首另有编者摘要，记 1985 年 6 月新华社报道的建乡结果）
+    start: 随着农村经济体制的改革，现行农村政社合一的体制显得很不适应。
+    end: 望及时报告党中央、国务院。
+  - id: reformdata-1985-ten-rural-policies
+    title: 中共中央、国务院关于进一步活跃农村经济的十项政策
+    date: 1985-01-01
+    author: 中共中央、国务院
+    kind: party-doc
+    tier: 1
+    alias: 中共中央、国务院《关于进一步活跃农村经济的十项政策》（1985 年 1 月 1 日，第四个“一号文件”）
+    url: http://www.reformdata.org/1985/0101/5454.shtml
+    via: 改革大数据服务平台转录
+    note: 页首编者摘要重复了第一段的前半，取正文第二段起；日期据转载页所署。
+    start: 但是应当看到，在农村生产向商品经济转化中
+    end: 不断取得新的胜利。
+  - id: reformdata-1984-deng-special-zones
+    title: 办好经济特区，增加对外开放城市
+    date: 1984-02-24
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《办好经济特区，增加对外开放城市》（1984 年 2 月 24 日同几位中央负责同志的谈话，《邓小平文选》第三卷）
+    url: http://www.reformdata.org/1984/0224/1616.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第三卷
+    start: 最近，我专门到广东、福建，跑了三个经济特区
+    end: 那就是很大的胜利。
+  - id: reformdata-1988-deng-price-reform
+    title: 理顺物价，加速改革
+    date: 1988-05-19
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《理顺物价，加速改革》（1988 年 5 月 19 日会见朝鲜军事代表团时的谈话，《邓小平文选》第三卷）
+    url: http://www.reformdata.org/1988/0519/7037.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第三卷
+    start: 理顺物价，改革才能加快步伐。
+    end: 如果前怕狼后怕虎，就走不了路。

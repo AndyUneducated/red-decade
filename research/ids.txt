@@ -3374,6 +3374,16 @@ sources/people-xiao-hua
 sources/pku-2014-tang-yijie
 sources/pku-feng-youlan
 sources/qi-benyu-memoir
+sources/reformdata-1980-deng-resolution-drafting
+sources/reformdata-1980-deng-rural-policy
+sources/reformdata-1981-deng-ideological-front
+sources/reformdata-1982-deng-economic-crime
+sources/reformdata-1982-deng-streamlining
+sources/reformdata-1982-deng-twelfth-congress-opening
+sources/reformdata-1983-10-12-commune-separation
+sources/reformdata-1984-deng-special-zones
+sources/reformdata-1985-ten-rural-policies
+sources/reformdata-1988-deng-price-reform
 sources/rfa-2001-03-03-yu-luowen
 sources/rmrb-1954-11-01-census-1953
 sources/rmrb-1955-09-23-stats-1954

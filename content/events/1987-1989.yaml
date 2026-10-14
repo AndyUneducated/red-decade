@@ -249,11 +249,13 @@
   title: 1988 年零售物价上涨 18.5%
   lane: econ
   weight: 2
-  summary: 国家统计局 1988 年公报承认“零售物价上涨过猛”：全年上升 18.5%，12 月比上年同月上升 26.7%。1989 年 3 月的政府工作报告随即以“治理整顿”为主题。
-  people: []
+  summary: 国家统计局 1988 年公报承认“零售物价上涨过猛”：全年上升 18.5%，12 月比上年同月上升 26.7%。1989 年 3 月的政府工作报告随即以“治理整顿”为主题。这一年 5 月，邓小平说“物价改革非搞不可”，肉、蛋、菜、糖四种副食品价格先放开，放开后“就有人抢购”。
+  people: [deng-xiaoping]
   voices:
     - { voice: officialLater, text: 零售物价上涨过猛（1988 年统计公报）, cite: rmrb-1989-03-01-stats-1988, quote: true }
-  cites: [rmrb-1989-03-01-stats-1988, ws-1989-03-gov-report]
+    - { voice: doc, text: 最近我们决定放开肉、蛋、菜、糖四种副食品价格，先走一步（邓小平 1988 年 5 月 19 日《理顺物价，加速改革》）, cite: reformdata-1988-deng-price-reform, quote: true }
+    - { voice: doc, text: 但是物价改革非搞不可，要迎着风险、迎着困难上（同一谈话）, cite: reformdata-1988-deng-price-reform, quote: true }
+  cites: [rmrb-1989-03-01-stats-1988, ws-1989-03-gov-report, reformdata-1988-deng-price-reform]
 
 - id: 1989-03-retrenchment
   date: 1989-03-20
