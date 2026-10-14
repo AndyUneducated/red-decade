@@ -92,6 +92,15 @@ describe('per head', () => {
     expect(perHead(grain, { points: pop } as never)[0].value).toBeCloseTo((16683e7 / 58000e4), 5)
     expect(perHead({ unit: '%', points: [pt(1953, 1)] } as never, { points: pop } as never)).toEqual([])
   })
+  it('divides a retrospective number by the retrospective population of that year only', () => {
+    const both = [...pop, pt(1958, 66000, 'retro')]
+    const grain = { unit: '万吨', points: [pt(1958, 19766, 'retro'), pt(1959, 16969, 'retro'), pt(1958, 25000)] } as never
+    const rows = perHead(grain, { points: both } as never)
+    expect(rows.map((r) => [r.year, r.point.kind, r.pop])).toEqual([
+      [1958, 'retro', 66000],
+      [1958, 'reported', 63000],
+    ])
+  })
 })
 
 describe('name matching', () => {

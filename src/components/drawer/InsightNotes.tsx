@@ -277,18 +277,28 @@ export function EventOutcomes({ id }: { id: string }) {
   const rows = ix.series
     .filter((s) => s.events?.includes(id) && s.id !== 'population' && PER_HEAD[s.unit])
     .flatMap((s) => {
-      const r = perHead(s, pop).find((x) => x.year === year)
-      return r ? [{ s, r }] : []
+      const all = perHead(s, pop).filter((x) => x.year === year)
+      const then = all.find((x) => x.point.kind !== 'retro')
+      const retro = all.find((x) => x.point.kind === 'retro')
+      return then || retro ? [{ s, then, retro }] : []
     })
   if (!rows.length) return null
+  const fmt = (v: number) => v.toFixed(v < 10 ? 1 : 0)
   return (
     <Note to="outcomes" on={{ type: 'event', id }}>
       <ul className="minilist">
-        {rows.map(({ s, r }) => (
+        {rows.map(({ s, then, retro }) => (
           <li key={s.id}>
-            {year} 年{s.title}按人口折合每人 {r.value.toFixed(r.value < 10 ? 1 : 0)} {PER_HEAD[s.unit].unit}
-            {r.point.kind === 'revised' ? '（修订数）' : ''}
-            {r.popFrom.length > 1 ? '，人口为前后两次统计之间的插值' : ''}
+            {year} 年{s.title}按人口折合每人
+            {then && (
+              <>
+                {' '}
+                {fmt(then.value)} {PER_HEAD[s.unit].unit}
+                {then.point.kind === 'revised' ? '（修订数）' : ''}
+                {then.popFrom.length > 1 ? '，人口为前后两次统计之间的插值' : ''}
+              </>
+            )}
+            {retro && (then ? `；后来官方回溯的数字折合 ${fmt(retro.value)} ${PER_HEAD[s.unit].unit}` : ` ${fmt(retro.value)} ${PER_HEAD[s.unit].unit}（后来官方回溯的数字）`)}
           </li>
         ))}
       </ul>

@@ -1,0 +1,149 @@
+# R4 国家统计局后来回溯的 1949 年以来逐年数字（国家统计局数据库，聚汇数据网页转录）。
+# 这些是 1980 年代以后按统一口径整理的数字，不是当年公布的；序列里标为 kind: retro（后来官方·回溯）。
+# 转录，未核原书：没有对照《中国统计年鉴》《新中国五十年统计资料汇编》原书逐页核对。
+# 人口、出生率、死亡率已与《新中国五十年统计资料汇编》表 A-1 的扫描件逐年比对，差异写在 content/series.yaml 的 caveats。
+# 原煤一页的 1965 年数（33200 万吨）前后不连贯，疑为转录错误，未收。
+web:
+  - id: nbs-retro-grain
+    title: 全国粮食产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国粮食产量
+    url: https://www.gotohui.com/ndata/show-59239
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国粮食产量数据如下
+    end: '1949 11318.40'
+  - id: nbs-retro-cotton
+    title: 全国棉花产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国棉花产量
+    url: https://www.gotohui.com/ndata/show-59230
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国棉花产量数据如下
+    end: '1949 44.50'
+  - id: nbs-retro-oilcrops
+    title: 全国油料产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国油料产量
+    url: https://www.gotohui.com/ndata/show-84050
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国油料产量数据如下
+    end: '1949 256.44'
+  - id: nbs-retro-steel
+    title: 中国粗钢生产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·中国粗钢生产量
+    url: https://www.gotohui.com/ndata/show-59114
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 中国粗钢生产量数据如下
+    end: '1949 16.00'
+  - id: nbs-retro-cloth
+    title: 全国布生产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国布生产量
+    url: https://www.gotohui.com/ndata/show-94209
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国布生产量数据如下
+    end: '1949 18.90'
+  - id: nbs-retro-cement
+    title: 全国水泥生产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国水泥生产量
+    url: https://www.gotohui.com/ndata/show-94320
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国水泥生产量数据如下
+    end: '1949 66.00'
+  - id: nbs-retro-crude
+    title: 全国天然原油生产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国天然原油生产量
+    url: https://www.gotohui.com/ndata/show-94010
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国天然原油生产量数据如下
+    end: '1949 12.00'
+  - id: nbs-retro-power
+    title: 全国发电量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国发电量
+    url: https://www.gotohui.com/ndata/show-59080
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国发电量数据如下
+    end: '1949 43.00'
+  - id: nbs-retro-population
+    title: 全国年末总人口（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国年末总人口
+    url: https://population.gotohui.com/show-84487
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国年末总人口数据如下
+    end: '1949 54167.00'
+  - id: nbs-retro-birth-rate
+    title: 全国人口出生率（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国人口出生率
+    url: https://population.gotohui.com/show-1368060
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国人口出生率数据如下
+    end: '1949 36.00'
+  - id: nbs-retro-death-rate
+    title: 全国人口死亡率（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国人口死亡率
+    url: https://population.gotohui.com/show-1368061
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国人口死亡率数据如下
+    end: '1949 20.00'

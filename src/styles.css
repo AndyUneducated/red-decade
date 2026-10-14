@@ -2723,6 +2723,11 @@ h2.sec {
   stroke-width: 1;
   stroke-dasharray: 2 2;
 }
+.series-retro {
+  fill: none;
+  stroke-width: 1.1;
+  opacity: 0.85;
+}
 .series-pt {
   cursor: pointer;
 }
@@ -2786,6 +2791,10 @@ h2.sec {
 }
 .series-legend span[data-kind='reported'] i {
   border-radius: 50%;
+}
+.series-legend span[data-kind='retro'] i {
+  height: 2px;
+  border-radius: 1px;
 }
 .series-gap-swatch {
   background: var(--paper-2);

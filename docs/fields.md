@@ -528,7 +528,7 @@
 | `year` | 年份 |
 | `value` | 数值，已换算为序列单位 |
 | `approx` | true 表示原文是约数 |
-| `kind` | 口径：reported 当时公布、revised 后来修正、variant 另一口径 |
+| `kind` | 口径：reported 当时公布、revised 后来修正、variant 另一口径、retro 后来官方·回溯 |
 | `cite` | 出处：sources 表的 id，可带 @ 后的页码或段落 |
 | `quote` | 原文引文，构建时与出处全文逐字核对；保留原单位 |
 | `note` | 说明 |

@@ -1,7 +1,8 @@
 # 经济与人口序列。每个点是某份文献对某一年印出的一个数字，quote 照原文；
 # value 换算到序列单位（1亿斤 = 5万吨，1万担 = 0.05万吨，亿度 = 亿千瓦时，公尺 = 米），原单位留在 quote 里。
-# kind: reported 当时公布 / revised 后来的文献改动的数 / variant 同一年另一口径的数。
-# 本库 1959–1976 年几乎没有国家统计局公报，这些年份的空白是史料空白，不是零。
+# kind: reported 当时公布 / revised 后来的文献改动的数 / variant 同一年另一口径的数 /
+# retro 国家统计局后来按统一口径回溯的逐年数（research/manifests/r4-retro.yaml，网页转录，未核原书）。
+# 本库 1959–1976 年几乎没有当时公布的国家统计局公报，这些年份当时数的空白是史料空白，不是零。
 
 # ── 农业 ────────────────────────────────────────────────
 - id: grain
@@ -9,7 +10,7 @@
   group: agri
   unit: 万吨
   summary: 1958 年公报宣布 7500 亿斤，比上年“增长了一倍”；四个月后八届八中全会改为 5000 亿斤。1955 年公报的 3680 亿斤，谭震林 1960 年的报告作 3496 亿斤。
-  caveats: 1950 年代原文以亿斤计，这里乘 5 换算为万吨。1959 年数来自谭震林 1960 年政府工作报告，1971、1972 年数来自国务院 1972 年粮食报告；1960–1970 年本库没有找到全国数字。
+  caveats: 1950 年代原文以亿斤计，这里乘 5 换算为万吨。1959 年数来自谭震林 1960 年政府工作报告，1971、1972 年数来自国务院 1972 年粮食报告；1960–1970 年本库没有找到当时的全国数字。回溯序列 1958 年为 19766.3 万吨，比八届八中全会改过的 2.5 亿吨还少约两成，1959–1961 年连续三年下降。
   events: [1959-08-16-eighth-plenum, 1959-08-16-targets-cut, 1960-04-06-tan-report, 1972-grain]
   points:
     - { year: 1955, value: 18400, approx: true, cite: rmrb-1956-06-15-stats-1955, quote: "粮食总产量达到3，680亿斤（18，400万吨）左右" }
@@ -34,13 +35,54 @@
     - { year: 1987, value: 40241, cite: rmrb-1988-02-24-stats-1987, quote: "粮食 ４０２４１万吨" }
     - { year: 1988, value: 39401, cite: rmrb-1989-03-01-stats-1988, quote: "粮 食 ３９４０１万吨" }
     - { year: 1989, value: 40745, cite: rmrb-1990-02-21-stats-1989, quote: "粮食 ４０７４５万吨" }
+    - { year: 1949, value: 11318.4, kind: retro, cite: nbs-retro-grain, quote: "1949 11318.40" }
+    - { year: 1950, value: 13212.9, kind: retro, cite: nbs-retro-grain, quote: "1950 13212.90" }
+    - { year: 1951, value: 14368.9, kind: retro, cite: nbs-retro-grain, quote: "1951 14368.90" }
+    - { year: 1952, value: 16393.1, kind: retro, cite: nbs-retro-grain, quote: "1952 16393.10" }
+    - { year: 1953, value: 16684.1, kind: retro, cite: nbs-retro-grain, quote: "1953 16684.10" }
+    - { year: 1954, value: 16952.8, kind: retro, cite: nbs-retro-grain, quote: "1954 16952.80" }
+    - { year: 1955, value: 18394.6, kind: retro, cite: nbs-retro-grain, quote: "1955 18394.60" }
+    - { year: 1956, value: 19275.6, kind: retro, cite: nbs-retro-grain, quote: "1956 19275.60" }
+    - { year: 1957, value: 19504.5, kind: retro, cite: nbs-retro-grain, quote: "1957 19504.50" }
+    - { year: 1958, value: 19766.3, kind: retro, cite: nbs-retro-grain, quote: "1958 19766.30" }
+    - { year: 1959, value: 16969.2, kind: retro, cite: nbs-retro-grain, quote: "1959 16969.20" }
+    - { year: 1960, value: 14385.7, kind: retro, cite: nbs-retro-grain, quote: "1960 14385.70" }
+    - { year: 1961, value: 13650.9, kind: retro, cite: nbs-retro-grain, quote: "1961 13650.90" }
+    - { year: 1962, value: 15441.4, kind: retro, cite: nbs-retro-grain, quote: "1962 15441.40" }
+    - { year: 1963, value: 16574.1, kind: retro, cite: nbs-retro-grain, quote: "1963 16574.10" }
+    - { year: 1964, value: 18088.7, kind: retro, cite: nbs-retro-grain, quote: "1964 18088.70" }
+    - { year: 1965, value: 19452.5, kind: retro, cite: nbs-retro-grain, quote: "1965 19452.50" }
+    - { year: 1966, value: 21400.9, kind: retro, cite: nbs-retro-grain, quote: "1966 21400.90" }
+    - { year: 1967, value: 21782.3, kind: retro, cite: nbs-retro-grain, quote: "1967 21782.30" }
+    - { year: 1968, value: 20906, kind: retro, cite: nbs-retro-grain, quote: "1968 20906.00" }
+    - { year: 1969, value: 21097.3, kind: retro, cite: nbs-retro-grain, quote: "1969 21097.30" }
+    - { year: 1970, value: 23995.5, kind: retro, cite: nbs-retro-grain, quote: "1970 23995.50" }
+    - { year: 1971, value: 25014, kind: retro, cite: nbs-retro-grain, quote: "1971 25014.00" }
+    - { year: 1972, value: 24048, kind: retro, cite: nbs-retro-grain, quote: "1972 24048.00" }
+    - { year: 1973, value: 26493.5, kind: retro, cite: nbs-retro-grain, quote: "1973 26493.50" }
+    - { year: 1974, value: 27527, kind: retro, cite: nbs-retro-grain, quote: "1974 27527.00" }
+    - { year: 1975, value: 28451.5, kind: retro, cite: nbs-retro-grain, quote: "1975 28451.50" }
+    - { year: 1976, value: 28630.5, kind: retro, cite: nbs-retro-grain, quote: "1976 28630.50" }
+    - { year: 1977, value: 28272.5, kind: retro, cite: nbs-retro-grain, quote: "1977 28272.50" }
+    - { year: 1978, value: 30476.5, kind: retro, cite: nbs-retro-grain, quote: "1978 30476.50" }
+    - { year: 1979, value: 33211.5, kind: retro, cite: nbs-retro-grain, quote: "1979 33211.50" }
+    - { year: 1980, value: 32055.5, kind: retro, cite: nbs-retro-grain, quote: "1980 32055.50" }
+    - { year: 1981, value: 32502, kind: retro, cite: nbs-retro-grain, quote: "1981 32502.00" }
+    - { year: 1982, value: 35450, kind: retro, cite: nbs-retro-grain, quote: "1982 35450.00" }
+    - { year: 1983, value: 38727.5, kind: retro, cite: nbs-retro-grain, quote: "1983 38727.50" }
+    - { year: 1984, value: 40730.5, kind: retro, cite: nbs-retro-grain, quote: "1984 40730.50" }
+    - { year: 1985, value: 37910.8, kind: retro, cite: nbs-retro-grain, quote: "1985 37910.80" }
+    - { year: 1986, value: 39151.2, kind: retro, cite: nbs-retro-grain, quote: "1986 39151.20" }
+    - { year: 1987, value: 40473.1, kind: retro, cite: nbs-retro-grain, quote: "1987 40473.10" }
+    - { year: 1988, value: 39408.1, kind: retro, cite: nbs-retro-grain, quote: "1988 39408.10" }
+    - { year: 1989, value: 40754.9, kind: retro, cite: nbs-retro-grain, quote: "1989 40754.90" }
 
 - id: cotton
   title: 棉花产量
   group: agri
   unit: 万吨
   summary: 1958 年公报宣布 6638 万担，八届八中全会改为 4200 万担。
-  caveats: 1957、1958 年原文以万担计，这里乘 0.05 换算为万吨；1955 年公报自己给出了万吨数。
+  caveats: 1957、1958 年原文以万担计，这里乘 0.05 换算为万吨；1955 年公报自己给出了万吨数。回溯序列 1958 年为 196.88 万吨，低于八届八中全会改过的 4200 万担（210 万吨）。
   events: [1959-08-16-eighth-plenum]
   points:
     - { year: 1955, value: 151.8, approx: true, cite: rmrb-1956-06-15-stats-1955, quote: "棉花产量达到3，036万担（151.8万吨）左右" }
@@ -60,12 +102,53 @@
     - { year: 1987, value: 419, cite: rmrb-1988-02-24-stats-1987, quote: "棉花 ４１９万吨" }
     - { year: 1988, value: 420, cite: rmrb-1989-03-01-stats-1988, quote: "棉 花 ４２０万吨" }
     - { year: 1989, value: 379, cite: rmrb-1990-02-21-stats-1989, quote: "棉花 ３７９万吨" }
+    - { year: 1949, value: 44.5, kind: retro, cite: nbs-retro-cotton, quote: "1949 44.50" }
+    - { year: 1950, value: 69.25, kind: retro, cite: nbs-retro-cotton, quote: "1950 69.25" }
+    - { year: 1951, value: 103.06, kind: retro, cite: nbs-retro-cotton, quote: "1951 103.06" }
+    - { year: 1952, value: 130.4, kind: retro, cite: nbs-retro-cotton, quote: "1952 130.40" }
+    - { year: 1953, value: 117.48, kind: retro, cite: nbs-retro-cotton, quote: "1953 117.48" }
+    - { year: 1954, value: 106.49, kind: retro, cite: nbs-retro-cotton, quote: "1954 106.49" }
+    - { year: 1955, value: 151.85, kind: retro, cite: nbs-retro-cotton, quote: "1955 151.85" }
+    - { year: 1956, value: 144.52, kind: retro, cite: nbs-retro-cotton, quote: "1956 144.52" }
+    - { year: 1957, value: 164, kind: retro, cite: nbs-retro-cotton, quote: "1957 164.00" }
+    - { year: 1958, value: 196.88, kind: retro, cite: nbs-retro-cotton, quote: "1958 196.88" }
+    - { year: 1959, value: 170.88, kind: retro, cite: nbs-retro-cotton, quote: "1959 170.88" }
+    - { year: 1960, value: 106.29, kind: retro, cite: nbs-retro-cotton, quote: "1960 106.29" }
+    - { year: 1961, value: 74.8, kind: retro, cite: nbs-retro-cotton, quote: "1961 74.80" }
+    - { year: 1962, value: 70.15, kind: retro, cite: nbs-retro-cotton, quote: "1962 70.15" }
+    - { year: 1963, value: 113.7, kind: retro, cite: nbs-retro-cotton, quote: "1963 113.70" }
+    - { year: 1964, value: 166.27, kind: retro, cite: nbs-retro-cotton, quote: "1964 166.27" }
+    - { year: 1965, value: 209.78, kind: retro, cite: nbs-retro-cotton, quote: "1965 209.78" }
+    - { year: 1966, value: 233.68, kind: retro, cite: nbs-retro-cotton, quote: "1966 233.68" }
+    - { year: 1967, value: 235.4, kind: retro, cite: nbs-retro-cotton, quote: "1967 235.40" }
+    - { year: 1968, value: 235.43, kind: retro, cite: nbs-retro-cotton, quote: "1968 235.43" }
+    - { year: 1969, value: 207.93, kind: retro, cite: nbs-retro-cotton, quote: "1969 207.93" }
+    - { year: 1970, value: 227.7, kind: retro, cite: nbs-retro-cotton, quote: "1970 227.70" }
+    - { year: 1971, value: 210.48, kind: retro, cite: nbs-retro-cotton, quote: "1971 210.48" }
+    - { year: 1972, value: 195.82, kind: retro, cite: nbs-retro-cotton, quote: "1972 195.82" }
+    - { year: 1973, value: 256.18, kind: retro, cite: nbs-retro-cotton, quote: "1973 256.18" }
+    - { year: 1974, value: 246.08, kind: retro, cite: nbs-retro-cotton, quote: "1974 246.08" }
+    - { year: 1975, value: 238.1, kind: retro, cite: nbs-retro-cotton, quote: "1975 238.10" }
+    - { year: 1976, value: 205.55, kind: retro, cite: nbs-retro-cotton, quote: "1976 205.55" }
+    - { year: 1977, value: 204.88, kind: retro, cite: nbs-retro-cotton, quote: "1977 204.88" }
+    - { year: 1978, value: 216.7, kind: retro, cite: nbs-retro-cotton, quote: "1978 216.70" }
+    - { year: 1979, value: 220.74, kind: retro, cite: nbs-retro-cotton, quote: "1979 220.74" }
+    - { year: 1980, value: 270.67, kind: retro, cite: nbs-retro-cotton, quote: "1980 270.67" }
+    - { year: 1981, value: 296.76, kind: retro, cite: nbs-retro-cotton, quote: "1981 296.76" }
+    - { year: 1982, value: 359.85, kind: retro, cite: nbs-retro-cotton, quote: "1982 359.85" }
+    - { year: 1983, value: 463.7, kind: retro, cite: nbs-retro-cotton, quote: "1983 463.70" }
+    - { year: 1984, value: 625.84, kind: retro, cite: nbs-retro-cotton, quote: "1984 625.84" }
+    - { year: 1985, value: 414.67, kind: retro, cite: nbs-retro-cotton, quote: "1985 414.67" }
+    - { year: 1986, value: 354.04, kind: retro, cite: nbs-retro-cotton, quote: "1986 354.04" }
+    - { year: 1987, value: 424.51, kind: retro, cite: nbs-retro-cotton, quote: "1987 424.51" }
+    - { year: 1988, value: 414.87, kind: retro, cite: nbs-retro-cotton, quote: "1988 414.87" }
+    - { year: 1989, value: 378.79, kind: retro, cite: nbs-retro-cotton, quote: "1989 378.79" }
 
 - id: oilcrops
   title: 油料产量
   group: agri
   unit: 万吨
-  caveats: 本库的 1950 年代公报没有油料总产量，只有花生、油菜籽等的增长百分比。
+  caveats: 本库的 1950 年代公报没有油料总产量，只有花生、油菜籽等的增长百分比。回溯序列不含大豆和木本油料。
   points:
     - { year: 1977, value: 401.5, cite: rmrb-1979-06-28-stats-1978, quote: "油 料 521．8万吨 401．5万吨" }
     - { year: 1978, value: 521.8, cite: rmrb-1979-06-28-stats-1978, quote: "油 料 521．8万吨 401．5万吨" }
@@ -80,6 +163,47 @@
     - { year: 1987, value: 1525, cite: rmrb-1988-02-24-stats-1987, quote: "油料 １５２５万吨" }
     - { year: 1988, value: 1320, cite: rmrb-1989-03-01-stats-1988, quote: "油 料 １３２０万吨" }
     - { year: 1989, value: 1291, cite: rmrb-1990-02-21-stats-1989, quote: "油料 １２９１万吨" }
+    - { year: 1949, value: 256.44, kind: retro, cite: nbs-retro-oilcrops, quote: "1949 256.44" }
+    - { year: 1950, value: 294, kind: retro, cite: nbs-retro-oilcrops, quote: "1950 294.00" }
+    - { year: 1951, value: 350.16, kind: retro, cite: nbs-retro-oilcrops, quote: "1951 350.16" }
+    - { year: 1952, value: 419.38, kind: retro, cite: nbs-retro-oilcrops, quote: "1952 419.38" }
+    - { year: 1953, value: 381.62, kind: retro, cite: nbs-retro-oilcrops, quote: "1953 381.62" }
+    - { year: 1954, value: 418.53, kind: retro, cite: nbs-retro-oilcrops, quote: "1954 418.53" }
+    - { year: 1955, value: 472.36, kind: retro, cite: nbs-retro-oilcrops, quote: "1955 472.36" }
+    - { year: 1956, value: 506.9, kind: retro, cite: nbs-retro-oilcrops, quote: "1956 506.90" }
+    - { year: 1957, value: 419.68, kind: retro, cite: nbs-retro-oilcrops, quote: "1957 419.68" }
+    - { year: 1958, value: 476.94, kind: retro, cite: nbs-retro-oilcrops, quote: "1958 476.94" }
+    - { year: 1959, value: 410.41, kind: retro, cite: nbs-retro-oilcrops, quote: "1959 410.41" }
+    - { year: 1960, value: 194.05, kind: retro, cite: nbs-retro-oilcrops, quote: "1960 194.05" }
+    - { year: 1961, value: 181.4, kind: retro, cite: nbs-retro-oilcrops, quote: "1961 181.40" }
+    - { year: 1962, value: 200.4, kind: retro, cite: nbs-retro-oilcrops, quote: "1962 200.40" }
+    - { year: 1963, value: 245.84, kind: retro, cite: nbs-retro-oilcrops, quote: "1963 245.84" }
+    - { year: 1964, value: 336.87, kind: retro, cite: nbs-retro-oilcrops, quote: "1964 336.87" }
+    - { year: 1965, value: 362.62, kind: retro, cite: nbs-retro-oilcrops, quote: "1965 362.62" }
+    - { year: 1966, value: 391.9, kind: retro, cite: nbs-retro-oilcrops, quote: "1966 391.90" }
+    - { year: 1967, value: 398.46, kind: retro, cite: nbs-retro-oilcrops, quote: "1967 398.46" }
+    - { year: 1968, value: 343.24, kind: retro, cite: nbs-retro-oilcrops, quote: "1968 343.24" }
+    - { year: 1969, value: 333.1, kind: retro, cite: nbs-retro-oilcrops, quote: "1969 333.10" }
+    - { year: 1970, value: 377.19, kind: retro, cite: nbs-retro-oilcrops, quote: "1970 377.19" }
+    - { year: 1971, value: 411.36, kind: retro, cite: nbs-retro-oilcrops, quote: "1971 411.36" }
+    - { year: 1972, value: 411.83, kind: retro, cite: nbs-retro-oilcrops, quote: "1972 411.83" }
+    - { year: 1973, value: 418.72, kind: retro, cite: nbs-retro-oilcrops, quote: "1973 418.72" }
+    - { year: 1974, value: 441.39, kind: retro, cite: nbs-retro-oilcrops, quote: "1974 441.39" }
+    - { year: 1975, value: 452.15, kind: retro, cite: nbs-retro-oilcrops, quote: "1975 452.15" }
+    - { year: 1976, value: 400.86, kind: retro, cite: nbs-retro-oilcrops, quote: "1976 400.86" }
+    - { year: 1977, value: 401.58, kind: retro, cite: nbs-retro-oilcrops, quote: "1977 401.58" }
+    - { year: 1978, value: 521.79, kind: retro, cite: nbs-retro-oilcrops, quote: "1978 521.79" }
+    - { year: 1979, value: 643.54, kind: retro, cite: nbs-retro-oilcrops, quote: "1979 643.54" }
+    - { year: 1980, value: 769.06, kind: retro, cite: nbs-retro-oilcrops, quote: "1980 769.06" }
+    - { year: 1981, value: 1020.52, kind: retro, cite: nbs-retro-oilcrops, quote: "1981 1020.52" }
+    - { year: 1982, value: 1181.73, kind: retro, cite: nbs-retro-oilcrops, quote: "1982 1181.73" }
+    - { year: 1983, value: 1054.97, kind: retro, cite: nbs-retro-oilcrops, quote: "1983 1054.97" }
+    - { year: 1984, value: 1190.95, kind: retro, cite: nbs-retro-oilcrops, quote: "1984 1190.95" }
+    - { year: 1985, value: 1578.42, kind: retro, cite: nbs-retro-oilcrops, quote: "1985 1578.42" }
+    - { year: 1986, value: 1473.76, kind: retro, cite: nbs-retro-oilcrops, quote: "1986 1473.76" }
+    - { year: 1987, value: 1527.78, kind: retro, cite: nbs-retro-oilcrops, quote: "1987 1527.78" }
+    - { year: 1988, value: 1320.27, kind: retro, cite: nbs-retro-oilcrops, quote: "1988 1320.27" }
+    - { year: 1989, value: 1295.22, kind: retro, cite: nbs-retro-oilcrops, quote: "1989 1295.22" }
 
 # ── 工业 ────────────────────────────────────────────────
 - id: steel
@@ -87,6 +211,7 @@
   group: industry
   unit: 万吨
   summary: 1958 年公报宣布 1108 万吨，注明“包括一部分土钢”；八届八中全会说明其中 308 万吨是土法生产的，新式设备生产的“洋钢”是 800 万吨。
+  caveats: 回溯序列是粗钢，1958 年取 800 万吨，即不计土钢的口径。
   events: [1959-08-16-eighth-plenum, 1958-12-sixth-plenum]
   points:
     - { year: 1952, value: 135, cite: rmrb-1959-04-14-stats-fyp1, quote: "钢 135万吨 535万吨" }
@@ -106,6 +231,47 @@
     - { year: 1987, value: 5602, cite: rmrb-1988-02-24-stats-1987, quote: "钢 ５６０２万吨" }
     - { year: 1988, value: 5918, cite: rmrb-1989-03-01-stats-1988, quote: "钢 5918万吨" }
     - { year: 1989, value: 6124, cite: rmrb-1990-02-21-stats-1989, quote: "钢 ６１２４万吨" }
+    - { year: 1949, value: 16, kind: retro, cite: nbs-retro-steel, quote: "1949 16.00" }
+    - { year: 1950, value: 61, kind: retro, cite: nbs-retro-steel, quote: "1950 61.00" }
+    - { year: 1951, value: 90, kind: retro, cite: nbs-retro-steel, quote: "1951 90.00" }
+    - { year: 1952, value: 135, kind: retro, cite: nbs-retro-steel, quote: "1952 135.00" }
+    - { year: 1953, value: 177, kind: retro, cite: nbs-retro-steel, quote: "1953 177.00" }
+    - { year: 1954, value: 223, kind: retro, cite: nbs-retro-steel, quote: "1954 223.00" }
+    - { year: 1955, value: 285, kind: retro, cite: nbs-retro-steel, quote: "1955 285.00" }
+    - { year: 1956, value: 447, kind: retro, cite: nbs-retro-steel, quote: "1956 447.00" }
+    - { year: 1957, value: 535, kind: retro, cite: nbs-retro-steel, quote: "1957 535.00" }
+    - { year: 1958, value: 800, kind: retro, cite: nbs-retro-steel, quote: "1958 800.00" }
+    - { year: 1959, value: 1387, kind: retro, cite: nbs-retro-steel, quote: "1959 1387.00" }
+    - { year: 1960, value: 1866, kind: retro, cite: nbs-retro-steel, quote: "1960 1866.00" }
+    - { year: 1961, value: 870, kind: retro, cite: nbs-retro-steel, quote: "1961 870.00" }
+    - { year: 1962, value: 667, kind: retro, cite: nbs-retro-steel, quote: "1962 667.00" }
+    - { year: 1963, value: 762, kind: retro, cite: nbs-retro-steel, quote: "1963 762.00" }
+    - { year: 1964, value: 964, kind: retro, cite: nbs-retro-steel, quote: "1964 964.00" }
+    - { year: 1965, value: 1223, kind: retro, cite: nbs-retro-steel, quote: "1965 1223.00" }
+    - { year: 1966, value: 1532, kind: retro, cite: nbs-retro-steel, quote: "1966 1532.00" }
+    - { year: 1967, value: 1029, kind: retro, cite: nbs-retro-steel, quote: "1967 1029.00" }
+    - { year: 1968, value: 904, kind: retro, cite: nbs-retro-steel, quote: "1968 904.00" }
+    - { year: 1969, value: 1333, kind: retro, cite: nbs-retro-steel, quote: "1969 1333.00" }
+    - { year: 1970, value: 1779, kind: retro, cite: nbs-retro-steel, quote: "1970 1779.00" }
+    - { year: 1971, value: 2132, kind: retro, cite: nbs-retro-steel, quote: "1971 2132.00" }
+    - { year: 1972, value: 2338, kind: retro, cite: nbs-retro-steel, quote: "1972 2338.00" }
+    - { year: 1973, value: 2522, kind: retro, cite: nbs-retro-steel, quote: "1973 2522.00" }
+    - { year: 1974, value: 2112, kind: retro, cite: nbs-retro-steel, quote: "1974 2112.00" }
+    - { year: 1975, value: 2390, kind: retro, cite: nbs-retro-steel, quote: "1975 2390.00" }
+    - { year: 1976, value: 2046, kind: retro, cite: nbs-retro-steel, quote: "1976 2046.00" }
+    - { year: 1977, value: 2374, kind: retro, cite: nbs-retro-steel, quote: "1977 2374.00" }
+    - { year: 1978, value: 3178, kind: retro, cite: nbs-retro-steel, quote: "1978 3178.00" }
+    - { year: 1979, value: 3448, kind: retro, cite: nbs-retro-steel, quote: "1979 3448.00" }
+    - { year: 1980, value: 3712, kind: retro, cite: nbs-retro-steel, quote: "1980 3712.00" }
+    - { year: 1981, value: 3560, kind: retro, cite: nbs-retro-steel, quote: "1981 3560.00" }
+    - { year: 1982, value: 3716, kind: retro, cite: nbs-retro-steel, quote: "1982 3716.00" }
+    - { year: 1983, value: 4002, kind: retro, cite: nbs-retro-steel, quote: "1983 4002.00" }
+    - { year: 1984, value: 4347, kind: retro, cite: nbs-retro-steel, quote: "1984 4347.00" }
+    - { year: 1985, value: 4679, kind: retro, cite: nbs-retro-steel, quote: "1985 4679.00" }
+    - { year: 1986, value: 5220, kind: retro, cite: nbs-retro-steel, quote: "1986 5220.00" }
+    - { year: 1987, value: 5628, kind: retro, cite: nbs-retro-steel, quote: "1987 5628.00" }
+    - { year: 1988, value: 5943, kind: retro, cite: nbs-retro-steel, quote: "1988 5943.00" }
+    - { year: 1989, value: 6159, kind: retro, cite: nbs-retro-steel, quote: "1989 6159.00" }
 
 - id: iron
   title: 生铁产量
@@ -169,6 +335,47 @@
     - { year: 1987, value: 13400, cite: rmrb-1988-02-24-stats-1987, quote: "原油 １．３４亿吨" }
     - { year: 1988, value: 13700, cite: rmrb-1989-03-01-stats-1988, quote: "原油 1.37亿吨" }
     - { year: 1989, value: 13700, cite: rmrb-1990-02-21-stats-1989, quote: "原油 １．３７亿吨" }
+    - { year: 1949, value: 12, kind: retro, cite: nbs-retro-crude, quote: "1949 12.00" }
+    - { year: 1950, value: 20, kind: retro, cite: nbs-retro-crude, quote: "1950 20.00" }
+    - { year: 1951, value: 31, kind: retro, cite: nbs-retro-crude, quote: "1951 31.00" }
+    - { year: 1952, value: 44, kind: retro, cite: nbs-retro-crude, quote: "1952 44.00" }
+    - { year: 1953, value: 62, kind: retro, cite: nbs-retro-crude, quote: "1953 62.00" }
+    - { year: 1954, value: 79, kind: retro, cite: nbs-retro-crude, quote: "1954 79.00" }
+    - { year: 1955, value: 97, kind: retro, cite: nbs-retro-crude, quote: "1955 97.00" }
+    - { year: 1956, value: 116, kind: retro, cite: nbs-retro-crude, quote: "1956 116.00" }
+    - { year: 1957, value: 146, kind: retro, cite: nbs-retro-crude, quote: "1957 146.00" }
+    - { year: 1958, value: 226, kind: retro, cite: nbs-retro-crude, quote: "1958 226.00" }
+    - { year: 1959, value: 373, kind: retro, cite: nbs-retro-crude, quote: "1959 373.00" }
+    - { year: 1960, value: 520, kind: retro, cite: nbs-retro-crude, quote: "1960 520.00" }
+    - { year: 1961, value: 531, kind: retro, cite: nbs-retro-crude, quote: "1961 531.00" }
+    - { year: 1962, value: 575, kind: retro, cite: nbs-retro-crude, quote: "1962 575.00" }
+    - { year: 1963, value: 648, kind: retro, cite: nbs-retro-crude, quote: "1963 648.00" }
+    - { year: 1964, value: 848, kind: retro, cite: nbs-retro-crude, quote: "1964 848.00" }
+    - { year: 1965, value: 1131, kind: retro, cite: nbs-retro-crude, quote: "1965 1131.00" }
+    - { year: 1966, value: 1455, kind: retro, cite: nbs-retro-crude, quote: "1966 1455.00" }
+    - { year: 1967, value: 1388, kind: retro, cite: nbs-retro-crude, quote: "1967 1388.00" }
+    - { year: 1968, value: 1599, kind: retro, cite: nbs-retro-crude, quote: "1968 1599.00" }
+    - { year: 1969, value: 2174, kind: retro, cite: nbs-retro-crude, quote: "1969 2174.00" }
+    - { year: 1970, value: 3065, kind: retro, cite: nbs-retro-crude, quote: "1970 3065.00" }
+    - { year: 1971, value: 3941, kind: retro, cite: nbs-retro-crude, quote: "1971 3941.00" }
+    - { year: 1972, value: 4567, kind: retro, cite: nbs-retro-crude, quote: "1972 4567.00" }
+    - { year: 1973, value: 5361, kind: retro, cite: nbs-retro-crude, quote: "1973 5361.00" }
+    - { year: 1974, value: 6485, kind: retro, cite: nbs-retro-crude, quote: "1974 6485.00" }
+    - { year: 1975, value: 7706, kind: retro, cite: nbs-retro-crude, quote: "1975 7706.00" }
+    - { year: 1976, value: 8716, kind: retro, cite: nbs-retro-crude, quote: "1976 8716.00" }
+    - { year: 1977, value: 9364, kind: retro, cite: nbs-retro-crude, quote: "1977 9364.00" }
+    - { year: 1978, value: 10405, kind: retro, cite: nbs-retro-crude, quote: "1978 10405.00" }
+    - { year: 1979, value: 10615, kind: retro, cite: nbs-retro-crude, quote: "1979 10615.00" }
+    - { year: 1980, value: 10595, kind: retro, cite: nbs-retro-crude, quote: "1980 10595.00" }
+    - { year: 1981, value: 10122, kind: retro, cite: nbs-retro-crude, quote: "1981 10122.00" }
+    - { year: 1982, value: 10212, kind: retro, cite: nbs-retro-crude, quote: "1982 10212.00" }
+    - { year: 1983, value: 10607, kind: retro, cite: nbs-retro-crude, quote: "1983 10607.00" }
+    - { year: 1984, value: 11461, kind: retro, cite: nbs-retro-crude, quote: "1984 11461.00" }
+    - { year: 1985, value: 12490, kind: retro, cite: nbs-retro-crude, quote: "1985 12490.00" }
+    - { year: 1986, value: 13069, kind: retro, cite: nbs-retro-crude, quote: "1986 13069.00" }
+    - { year: 1987, value: 13414, kind: retro, cite: nbs-retro-crude, quote: "1987 13414.00" }
+    - { year: 1988, value: 13705, kind: retro, cite: nbs-retro-crude, quote: "1988 13705.00" }
+    - { year: 1989, value: 13764, kind: retro, cite: nbs-retro-crude, quote: "1989 13764.00" }
 
 - id: power
   title: 发电量
@@ -192,6 +399,47 @@
     - { year: 1987, value: 4960, cite: rmrb-1988-02-24-stats-1987, quote: "发电量 ４９６０亿千瓦小时" }
     - { year: 1988, value: 5430, cite: rmrb-1989-03-01-stats-1988, quote: "发电量 5430亿千瓦小时" }
     - { year: 1989, value: 5820, cite: rmrb-1990-02-21-stats-1989, quote: "发电量 ５８２０亿千瓦小时" }
+    - { year: 1949, value: 43, kind: retro, cite: nbs-retro-power, quote: "1949 43.00" }
+    - { year: 1950, value: 46, kind: retro, cite: nbs-retro-power, quote: "1950 46.00" }
+    - { year: 1951, value: 57, kind: retro, cite: nbs-retro-power, quote: "1951 57.00" }
+    - { year: 1952, value: 73, kind: retro, cite: nbs-retro-power, quote: "1952 73.00" }
+    - { year: 1953, value: 92, kind: retro, cite: nbs-retro-power, quote: "1953 92.00" }
+    - { year: 1954, value: 110, kind: retro, cite: nbs-retro-power, quote: "1954 110.00" }
+    - { year: 1955, value: 123, kind: retro, cite: nbs-retro-power, quote: "1955 123.00" }
+    - { year: 1956, value: 166, kind: retro, cite: nbs-retro-power, quote: "1956 166.00" }
+    - { year: 1957, value: 193, kind: retro, cite: nbs-retro-power, quote: "1957 193.00" }
+    - { year: 1958, value: 275, kind: retro, cite: nbs-retro-power, quote: "1958 275.00" }
+    - { year: 1959, value: 423, kind: retro, cite: nbs-retro-power, quote: "1959 423.00" }
+    - { year: 1960, value: 594, kind: retro, cite: nbs-retro-power, quote: "1960 594.00" }
+    - { year: 1961, value: 480, kind: retro, cite: nbs-retro-power, quote: "1961 480.00" }
+    - { year: 1962, value: 458, kind: retro, cite: nbs-retro-power, quote: "1962 458.00" }
+    - { year: 1963, value: 490, kind: retro, cite: nbs-retro-power, quote: "1963 490.00" }
+    - { year: 1964, value: 560, kind: retro, cite: nbs-retro-power, quote: "1964 560.00" }
+    - { year: 1965, value: 676, kind: retro, cite: nbs-retro-power, quote: "1965 676.00" }
+    - { year: 1966, value: 825, kind: retro, cite: nbs-retro-power, quote: "1966 825.00" }
+    - { year: 1967, value: 774, kind: retro, cite: nbs-retro-power, quote: "1967 774.00" }
+    - { year: 1968, value: 716, kind: retro, cite: nbs-retro-power, quote: "1968 716.00" }
+    - { year: 1969, value: 940, kind: retro, cite: nbs-retro-power, quote: "1969 940.00" }
+    - { year: 1970, value: 1159, kind: retro, cite: nbs-retro-power, quote: "1970 1159.00" }
+    - { year: 1971, value: 1384, kind: retro, cite: nbs-retro-power, quote: "1971 1384.00" }
+    - { year: 1972, value: 1524, kind: retro, cite: nbs-retro-power, quote: "1972 1524.00" }
+    - { year: 1973, value: 1668, kind: retro, cite: nbs-retro-power, quote: "1973 1668.00" }
+    - { year: 1974, value: 1668, kind: retro, cite: nbs-retro-power, quote: "1974 1668.00" }
+    - { year: 1975, value: 1958, kind: retro, cite: nbs-retro-power, quote: "1975 1958.00" }
+    - { year: 1976, value: 2031, kind: retro, cite: nbs-retro-power, quote: "1976 2031.00" }
+    - { year: 1977, value: 2234, kind: retro, cite: nbs-retro-power, quote: "1977 2234.00" }
+    - { year: 1978, value: 2566, kind: retro, cite: nbs-retro-power, quote: "1978 2566.00" }
+    - { year: 1979, value: 2820, kind: retro, cite: nbs-retro-power, quote: "1979 2820.00" }
+    - { year: 1980, value: 3006.3, kind: retro, cite: nbs-retro-power, quote: "1980 3006.30" }
+    - { year: 1981, value: 3092.7, kind: retro, cite: nbs-retro-power, quote: "1981 3092.70" }
+    - { year: 1982, value: 3276.8, kind: retro, cite: nbs-retro-power, quote: "1982 3276.80" }
+    - { year: 1983, value: 3514.4, kind: retro, cite: nbs-retro-power, quote: "1983 3514.40" }
+    - { year: 1984, value: 3769.9, kind: retro, cite: nbs-retro-power, quote: "1984 3769.90" }
+    - { year: 1985, value: 4106.9, kind: retro, cite: nbs-retro-power, quote: "1985 4106.90" }
+    - { year: 1986, value: 4495.3, kind: retro, cite: nbs-retro-power, quote: "1986 4495.30" }
+    - { year: 1987, value: 4972.7, kind: retro, cite: nbs-retro-power, quote: "1987 4972.70" }
+    - { year: 1988, value: 5452.1, kind: retro, cite: nbs-retro-power, quote: "1988 5452.10" }
+    - { year: 1989, value: 5848.1, kind: retro, cite: nbs-retro-power, quote: "1989 5848.10" }
 
 - id: cement
   title: 水泥产量
@@ -214,6 +462,47 @@
     - { year: 1987, value: 18000, cite: rmrb-1988-02-24-stats-1987, quote: "水泥 １．８亿吨" }
     - { year: 1988, value: 20300, cite: rmrb-1989-03-01-stats-1988, quote: "水泥 2.03亿吨" }
     - { year: 1989, value: 20700, cite: rmrb-1990-02-21-stats-1989, quote: "水泥 ２．０７亿吨" }
+    - { year: 1949, value: 66, kind: retro, cite: nbs-retro-cement, quote: "1949 66.00" }
+    - { year: 1950, value: 141, kind: retro, cite: nbs-retro-cement, quote: "1950 141.00" }
+    - { year: 1951, value: 249, kind: retro, cite: nbs-retro-cement, quote: "1951 249.00" }
+    - { year: 1952, value: 286, kind: retro, cite: nbs-retro-cement, quote: "1952 286.00" }
+    - { year: 1953, value: 388, kind: retro, cite: nbs-retro-cement, quote: "1953 388.00" }
+    - { year: 1954, value: 460, kind: retro, cite: nbs-retro-cement, quote: "1954 460.00" }
+    - { year: 1955, value: 450, kind: retro, cite: nbs-retro-cement, quote: "1955 450.00" }
+    - { year: 1956, value: 639, kind: retro, cite: nbs-retro-cement, quote: "1956 639.00" }
+    - { year: 1957, value: 686, kind: retro, cite: nbs-retro-cement, quote: "1957 686.00" }
+    - { year: 1958, value: 930, kind: retro, cite: nbs-retro-cement, quote: "1958 930.00" }
+    - { year: 1959, value: 1227, kind: retro, cite: nbs-retro-cement, quote: "1959 1227.00" }
+    - { year: 1960, value: 1565, kind: retro, cite: nbs-retro-cement, quote: "1960 1565.00" }
+    - { year: 1961, value: 621, kind: retro, cite: nbs-retro-cement, quote: "1961 621.00" }
+    - { year: 1962, value: 600, kind: retro, cite: nbs-retro-cement, quote: "1962 600.00" }
+    - { year: 1963, value: 806, kind: retro, cite: nbs-retro-cement, quote: "1963 806.00" }
+    - { year: 1964, value: 1209, kind: retro, cite: nbs-retro-cement, quote: "1964 1209.00" }
+    - { year: 1965, value: 1634, kind: retro, cite: nbs-retro-cement, quote: "1965 1634.00" }
+    - { year: 1966, value: 2015, kind: retro, cite: nbs-retro-cement, quote: "1966 2015.00" }
+    - { year: 1967, value: 1462, kind: retro, cite: nbs-retro-cement, quote: "1967 1462.00" }
+    - { year: 1968, value: 1262, kind: retro, cite: nbs-retro-cement, quote: "1968 1262.00" }
+    - { year: 1969, value: 1829, kind: retro, cite: nbs-retro-cement, quote: "1969 1829.00" }
+    - { year: 1970, value: 2575, kind: retro, cite: nbs-retro-cement, quote: "1970 2575.00" }
+    - { year: 1971, value: 3158, kind: retro, cite: nbs-retro-cement, quote: "1971 3158.00" }
+    - { year: 1972, value: 3547, kind: retro, cite: nbs-retro-cement, quote: "1972 3547.00" }
+    - { year: 1973, value: 3731, kind: retro, cite: nbs-retro-cement, quote: "1973 3731.00" }
+    - { year: 1974, value: 3709, kind: retro, cite: nbs-retro-cement, quote: "1974 3709.00" }
+    - { year: 1975, value: 4626, kind: retro, cite: nbs-retro-cement, quote: "1975 4626.00" }
+    - { year: 1976, value: 4670, kind: retro, cite: nbs-retro-cement, quote: "1976 4670.00" }
+    - { year: 1977, value: 5565, kind: retro, cite: nbs-retro-cement, quote: "1977 5565.00" }
+    - { year: 1978, value: 6524, kind: retro, cite: nbs-retro-cement, quote: "1978 6524.00" }
+    - { year: 1979, value: 7390, kind: retro, cite: nbs-retro-cement, quote: "1979 7390.00" }
+    - { year: 1980, value: 7986, kind: retro, cite: nbs-retro-cement, quote: "1980 7986.00" }
+    - { year: 1981, value: 8290, kind: retro, cite: nbs-retro-cement, quote: "1981 8290.00" }
+    - { year: 1982, value: 9520, kind: retro, cite: nbs-retro-cement, quote: "1982 9520.00" }
+    - { year: 1983, value: 10825, kind: retro, cite: nbs-retro-cement, quote: "1983 10825.00" }
+    - { year: 1984, value: 12302, kind: retro, cite: nbs-retro-cement, quote: "1984 12302.00" }
+    - { year: 1985, value: 14595, kind: retro, cite: nbs-retro-cement, quote: "1985 14595.00" }
+    - { year: 1986, value: 16606, kind: retro, cite: nbs-retro-cement, quote: "1986 16606.00" }
+    - { year: 1987, value: 18625, kind: retro, cite: nbs-retro-cement, quote: "1987 18625.00" }
+    - { year: 1988, value: 21014, kind: retro, cite: nbs-retro-cement, quote: "1988 21014.00" }
+    - { year: 1989, value: 21029, kind: retro, cite: nbs-retro-cement, quote: "1989 21029.00" }
 
 - id: fertilizer
   title: 化肥产量
@@ -259,6 +548,47 @@
     - { year: 1987, value: 167, cite: rmrb-1988-02-24-stats-1987, quote: "布 １６７亿米" }
     - { year: 1988, value: 176, cite: rmrb-1989-03-01-stats-1988, quote: "布 176亿米" }
     - { year: 1989, value: 186, cite: rmrb-1990-02-21-stats-1989, quote: "布 １８６亿米" }
+    - { year: 1949, value: 18.9, kind: retro, cite: nbs-retro-cloth, quote: "1949 18.90" }
+    - { year: 1950, value: 25.2, kind: retro, cite: nbs-retro-cloth, quote: "1950 25.20" }
+    - { year: 1951, value: 30.6, kind: retro, cite: nbs-retro-cloth, quote: "1951 30.60" }
+    - { year: 1952, value: 38.3, kind: retro, cite: nbs-retro-cloth, quote: "1952 38.30" }
+    - { year: 1953, value: 46.9, kind: retro, cite: nbs-retro-cloth, quote: "1953 46.90" }
+    - { year: 1954, value: 52.3, kind: retro, cite: nbs-retro-cloth, quote: "1954 52.30" }
+    - { year: 1955, value: 43.6, kind: retro, cite: nbs-retro-cloth, quote: "1955 43.60" }
+    - { year: 1956, value: 57.7, kind: retro, cite: nbs-retro-cloth, quote: "1956 57.70" }
+    - { year: 1957, value: 50.5, kind: retro, cite: nbs-retro-cloth, quote: "1957 50.50" }
+    - { year: 1958, value: 64.6, kind: retro, cite: nbs-retro-cloth, quote: "1958 64.60" }
+    - { year: 1959, value: 75.7, kind: retro, cite: nbs-retro-cloth, quote: "1959 75.70" }
+    - { year: 1960, value: 54.5, kind: retro, cite: nbs-retro-cloth, quote: "1960 54.50" }
+    - { year: 1961, value: 31.1, kind: retro, cite: nbs-retro-cloth, quote: "1961 31.10" }
+    - { year: 1962, value: 25.3, kind: retro, cite: nbs-retro-cloth, quote: "1962 25.30" }
+    - { year: 1963, value: 33.4, kind: retro, cite: nbs-retro-cloth, quote: "1963 33.40" }
+    - { year: 1964, value: 47.1, kind: retro, cite: nbs-retro-cloth, quote: "1964 47.10" }
+    - { year: 1965, value: 62.8, kind: retro, cite: nbs-retro-cloth, quote: "1965 62.80" }
+    - { year: 1966, value: 73.1, kind: retro, cite: nbs-retro-cloth, quote: "1966 73.10" }
+    - { year: 1967, value: 65.6, kind: retro, cite: nbs-retro-cloth, quote: "1967 65.60" }
+    - { year: 1968, value: 64.3, kind: retro, cite: nbs-retro-cloth, quote: "1968 64.30" }
+    - { year: 1969, value: 82.1, kind: retro, cite: nbs-retro-cloth, quote: "1969 82.10" }
+    - { year: 1970, value: 91.5, kind: retro, cite: nbs-retro-cloth, quote: "1970 91.50" }
+    - { year: 1971, value: 84.2, kind: retro, cite: nbs-retro-cloth, quote: "1971 84.20" }
+    - { year: 1972, value: 83.5, kind: retro, cite: nbs-retro-cloth, quote: "1972 83.50" }
+    - { year: 1973, value: 87.1, kind: retro, cite: nbs-retro-cloth, quote: "1973 87.10" }
+    - { year: 1974, value: 80.8, kind: retro, cite: nbs-retro-cloth, quote: "1974 80.80" }
+    - { year: 1975, value: 94, kind: retro, cite: nbs-retro-cloth, quote: "1975 94.00" }
+    - { year: 1976, value: 88.4, kind: retro, cite: nbs-retro-cloth, quote: "1976 88.40" }
+    - { year: 1977, value: 101.5, kind: retro, cite: nbs-retro-cloth, quote: "1977 101.50" }
+    - { year: 1978, value: 110.3, kind: retro, cite: nbs-retro-cloth, quote: "1978 110.30" }
+    - { year: 1979, value: 121.5, kind: retro, cite: nbs-retro-cloth, quote: "1979 121.50" }
+    - { year: 1980, value: 134.7, kind: retro, cite: nbs-retro-cloth, quote: "1980 134.70" }
+    - { year: 1981, value: 142.7, kind: retro, cite: nbs-retro-cloth, quote: "1981 142.70" }
+    - { year: 1982, value: 153.5, kind: retro, cite: nbs-retro-cloth, quote: "1982 153.50" }
+    - { year: 1983, value: 148.8, kind: retro, cite: nbs-retro-cloth, quote: "1983 148.80" }
+    - { year: 1984, value: 137, kind: retro, cite: nbs-retro-cloth, quote: "1984 137.00" }
+    - { year: 1985, value: 146.7, kind: retro, cite: nbs-retro-cloth, quote: "1985 146.70" }
+    - { year: 1986, value: 164.7, kind: retro, cite: nbs-retro-cloth, quote: "1986 164.70" }
+    - { year: 1987, value: 173, kind: retro, cite: nbs-retro-cloth, quote: "1987 173.00" }
+    - { year: 1988, value: 187.9, kind: retro, cite: nbs-retro-cloth, quote: "1988 187.90" }
+    - { year: 1989, value: 189.2, kind: retro, cite: nbs-retro-cloth, quote: "1989 189.20" }
 
 - id: sugar
   title: 糖产量
@@ -308,7 +638,7 @@
   group: people
   unit: 万人
   summary: 三次人口普查（1953、1964、1982）和 1978 年起的年末数。口径有几处变化：是否含台湾省和国外华侨，是否含现役军人。
-  caveats: 1953 年公报的总数 6 亿零 194 万含台湾省 759 万和国外华侨、留学生 1174 万；这里的主线取直接调查与边远地区两项之和。1978 年公报的数字含台湾省，1979 年公报改用不含台湾省的 1978 年数。1982 年公报把 1981 年数改为 100072 万，注明 1981、1982 两年数字“都包括现役军人”。1987 年公报只给到“10.8 亿”。
+  caveats: 1953 年公报的总数 6 亿零 194 万含台湾省 759 万和国外华侨、留学生 1174 万；这里的主线取直接调查与边远地区两项之和。1978 年公报的数字含台湾省，1979 年公报改用不含台湾省的 1978 年数。1982 年公报把 1981 年数改为 100072 万，注明 1981、1982 两年数字“都包括现役军人”。1987 年公报只给到“10.8 亿”。回溯序列是年末人口，不含台湾省，与 1999 年《新中国五十年统计资料汇编》表 A-1 的扫描件逐年一致（舍去小数后）。
   points:
     - { year: 1953, value: 58260.3, cite: rmrb-1954-11-01-census-1953, quote: "直接调查登记的人口为五亿七千四百二十万五千九百四十人……没有进行基层选举的和交通不便的边远地区八百三十九万七千四百七十七人", note: 两项相加，1953 年 6 月 30 日 }
     - { year: 1953, value: 60193.8, kind: variant, cite: rmrb-1954-11-01-census-1953, quote: "全国人口总数为六亿零一百九十三万八千零三十五人", note: 含台湾省和国外华侨、留学生 }
@@ -328,12 +658,53 @@
     - { year: 1987, value: 108000, approx: true, cite: rmrb-1988-02-24-stats-1987, quote: "年末全国总人口为１０．８亿人" }
     - { year: 1988, value: 109614, cite: rmrb-1989-03-01-stats-1988, quote: "年末全国总人口为１０９６１４万人" }
     - { year: 1989, value: 111191, cite: rmrb-1990-02-21-stats-1989, quote: "年末全国总人口为１１１１９１万人" }
+    - { year: 1949, value: 54167, kind: retro, cite: nbs-retro-population, quote: "1949 54167.00" }
+    - { year: 1950, value: 55196, kind: retro, cite: nbs-retro-population, quote: "1950 55196.00" }
+    - { year: 1951, value: 56300, kind: retro, cite: nbs-retro-population, quote: "1951 56300.00" }
+    - { year: 1952, value: 57482, kind: retro, cite: nbs-retro-population, quote: "1952 57482.00" }
+    - { year: 1953, value: 58796, kind: retro, cite: nbs-retro-population, quote: "1953 58796.00" }
+    - { year: 1954, value: 60266.4, kind: retro, cite: nbs-retro-population, quote: "1954 60266.40" }
+    - { year: 1955, value: 61465, kind: retro, cite: nbs-retro-population, quote: "1955 61465.00" }
+    - { year: 1956, value: 62828.3, kind: retro, cite: nbs-retro-population, quote: "1956 62828.30" }
+    - { year: 1957, value: 64653.3, kind: retro, cite: nbs-retro-population, quote: "1957 64653.30" }
+    - { year: 1958, value: 65994.3, kind: retro, cite: nbs-retro-population, quote: "1958 65994.30" }
+    - { year: 1959, value: 67206.9, kind: retro, cite: nbs-retro-population, quote: "1959 67206.90" }
+    - { year: 1960, value: 66207, kind: retro, cite: nbs-retro-population, quote: "1960 66207.00" }
+    - { year: 1961, value: 65859.1, kind: retro, cite: nbs-retro-population, quote: "1961 65859.10" }
+    - { year: 1962, value: 67295.5, kind: retro, cite: nbs-retro-population, quote: "1962 67295.50" }
+    - { year: 1963, value: 69172, kind: retro, cite: nbs-retro-population, quote: "1963 69172.00" }
+    - { year: 1964, value: 70499.1, kind: retro, cite: nbs-retro-population, quote: "1964 70499.10" }
+    - { year: 1965, value: 72538, kind: retro, cite: nbs-retro-population, quote: "1965 72538.00" }
+    - { year: 1966, value: 74542, kind: retro, cite: nbs-retro-population, quote: "1966 74542.00" }
+    - { year: 1967, value: 76368.2, kind: retro, cite: nbs-retro-population, quote: "1967 76368.20" }
+    - { year: 1968, value: 78534.2, kind: retro, cite: nbs-retro-population, quote: "1968 78534.20" }
+    - { year: 1969, value: 80671.2, kind: retro, cite: nbs-retro-population, quote: "1969 80671.20" }
+    - { year: 1970, value: 82992, kind: retro, cite: nbs-retro-population, quote: "1970 82992.00" }
+    - { year: 1971, value: 85229, kind: retro, cite: nbs-retro-population, quote: "1971 85229.00" }
+    - { year: 1972, value: 87177, kind: retro, cite: nbs-retro-population, quote: "1972 87177.00" }
+    - { year: 1973, value: 89211, kind: retro, cite: nbs-retro-population, quote: "1973 89211.00" }
+    - { year: 1974, value: 90859, kind: retro, cite: nbs-retro-population, quote: "1974 90859.00" }
+    - { year: 1975, value: 92420, kind: retro, cite: nbs-retro-population, quote: "1975 92420.00" }
+    - { year: 1976, value: 93717, kind: retro, cite: nbs-retro-population, quote: "1976 93717.00" }
+    - { year: 1977, value: 94974, kind: retro, cite: nbs-retro-population, quote: "1977 94974.00" }
+    - { year: 1978, value: 96259, kind: retro, cite: nbs-retro-population, quote: "1978 96259.00" }
+    - { year: 1979, value: 97542, kind: retro, cite: nbs-retro-population, quote: "1979 97542.00" }
+    - { year: 1980, value: 98705, kind: retro, cite: nbs-retro-population, quote: "1980 98705.00" }
+    - { year: 1981, value: 100072, kind: retro, cite: nbs-retro-population, quote: "1981 100072.00" }
+    - { year: 1982, value: 101654, kind: retro, cite: nbs-retro-population, quote: "1982 101654.00" }
+    - { year: 1983, value: 103008, kind: retro, cite: nbs-retro-population, quote: "1983 103008.00" }
+    - { year: 1984, value: 104357, kind: retro, cite: nbs-retro-population, quote: "1984 104357.00" }
+    - { year: 1985, value: 105851, kind: retro, cite: nbs-retro-population, quote: "1985 105851.00" }
+    - { year: 1986, value: 107507, kind: retro, cite: nbs-retro-population, quote: "1986 107507.00" }
+    - { year: 1987, value: 109300, kind: retro, cite: nbs-retro-population, quote: "1987 109300.00" }
+    - { year: 1988, value: 111026, kind: retro, cite: nbs-retro-population, quote: "1988 111026.00" }
+    - { year: 1989, value: 112704, kind: retro, cite: nbs-retro-population, quote: "1989 112704.00" }
 
 - id: birth-rate
   title: 人口出生率
   group: people
   unit: ‰
-  caveats: 1981 年数来自第三次人口普查；1982–1987 年公报注明来自抽样调查。1980 年公报没有给出生率。
+  caveats: 1981 年数来自第三次人口普查；1982–1987 年公报注明来自抽样调查。1980 年公报没有给出生率。回溯序列取统计局数据库的现行数；1999 年《新中国五十年统计资料汇编》表 A-1 的 1961–1977 年出生率比它低 0.09–0.23 个千分点（如 1961 年作 18.02‰），这一段在 1999 年以后又改过。
   points:
     - { year: 1979, value: 17.9, cite: rmrb-1980-05-01-stats-1979, quote: "一九七九年人口出生率为千分之十七点九" }
     - { year: 1981, value: 20.91, cite: rmrb-1982-10-28-census-1982, quote: "1981年人口出生率为20．91‰" }
@@ -345,12 +716,53 @@
     - { year: 1987, value: 21.04, cite: rmrb-1988-02-24-stats-1987, quote: "１９８７年人口出生率为２１．０４‰" }
     - { year: 1988, value: 20.78, cite: rmrb-1989-03-01-stats-1988, quote: "１９８８年全国人口出生率为２０．７８‰" }
     - { year: 1989, value: 20.83, cite: rmrb-1990-02-21-stats-1989, quote: "１９８９年全国人口出生率为千分之二十点八三" }
+    - { year: 1949, value: 36, kind: retro, cite: nbs-retro-birth-rate, quote: "1949 36.00" }
+    - { year: 1950, value: 37, kind: retro, cite: nbs-retro-birth-rate, quote: "1950 37.00" }
+    - { year: 1951, value: 37.8, kind: retro, cite: nbs-retro-birth-rate, quote: "1951 37.80" }
+    - { year: 1952, value: 37, kind: retro, cite: nbs-retro-birth-rate, quote: "1952 37.00" }
+    - { year: 1953, value: 37, kind: retro, cite: nbs-retro-birth-rate, quote: "1953 37.00" }
+    - { year: 1954, value: 37.97, kind: retro, cite: nbs-retro-birth-rate, quote: "1954 37.97" }
+    - { year: 1955, value: 32.6, kind: retro, cite: nbs-retro-birth-rate, quote: "1955 32.60" }
+    - { year: 1956, value: 31.9, kind: retro, cite: nbs-retro-birth-rate, quote: "1956 31.90" }
+    - { year: 1957, value: 34.03, kind: retro, cite: nbs-retro-birth-rate, quote: "1957 34.03" }
+    - { year: 1958, value: 29.22, kind: retro, cite: nbs-retro-birth-rate, quote: "1958 29.22" }
+    - { year: 1959, value: 24.78, kind: retro, cite: nbs-retro-birth-rate, quote: "1959 24.78" }
+    - { year: 1960, value: 20.86, kind: retro, cite: nbs-retro-birth-rate, quote: "1960 20.86" }
+    - { year: 1961, value: 18.13, kind: retro, cite: nbs-retro-birth-rate, quote: "1961 18.13" }
+    - { year: 1962, value: 37.22, kind: retro, cite: nbs-retro-birth-rate, quote: "1962 37.22" }
+    - { year: 1963, value: 43.6, kind: retro, cite: nbs-retro-birth-rate, quote: "1963 43.60" }
+    - { year: 1964, value: 39.34, kind: retro, cite: nbs-retro-birth-rate, quote: "1964 39.34" }
+    - { year: 1965, value: 38, kind: retro, cite: nbs-retro-birth-rate, quote: "1965 38.00" }
+    - { year: 1966, value: 35.21, kind: retro, cite: nbs-retro-birth-rate, quote: "1966 35.21" }
+    - { year: 1967, value: 34.12, kind: retro, cite: nbs-retro-birth-rate, quote: "1967 34.12" }
+    - { year: 1968, value: 35.75, kind: retro, cite: nbs-retro-birth-rate, quote: "1968 35.75" }
+    - { year: 1969, value: 34.25, kind: retro, cite: nbs-retro-birth-rate, quote: "1969 34.25" }
+    - { year: 1970, value: 33.59, kind: retro, cite: nbs-retro-birth-rate, quote: "1970 33.59" }
+    - { year: 1971, value: 30.74, kind: retro, cite: nbs-retro-birth-rate, quote: "1971 30.74" }
+    - { year: 1972, value: 29.92, kind: retro, cite: nbs-retro-birth-rate, quote: "1972 29.92" }
+    - { year: 1973, value: 28.07, kind: retro, cite: nbs-retro-birth-rate, quote: "1973 28.07" }
+    - { year: 1974, value: 24.95, kind: retro, cite: nbs-retro-birth-rate, quote: "1974 24.95" }
+    - { year: 1975, value: 23.13, kind: retro, cite: nbs-retro-birth-rate, quote: "1975 23.13" }
+    - { year: 1976, value: 20.01, kind: retro, cite: nbs-retro-birth-rate, quote: "1976 20.01" }
+    - { year: 1977, value: 19.03, kind: retro, cite: nbs-retro-birth-rate, quote: "1977 19.03" }
+    - { year: 1978, value: 18.25, kind: retro, cite: nbs-retro-birth-rate, quote: "1978 18.25" }
+    - { year: 1979, value: 17.82, kind: retro, cite: nbs-retro-birth-rate, quote: "1979 17.82" }
+    - { year: 1980, value: 18.21, kind: retro, cite: nbs-retro-birth-rate, quote: "1980 18.21" }
+    - { year: 1981, value: 20.91, kind: retro, cite: nbs-retro-birth-rate, quote: "1981 20.91" }
+    - { year: 1982, value: 22.28, kind: retro, cite: nbs-retro-birth-rate, quote: "1982 22.28" }
+    - { year: 1983, value: 20.19, kind: retro, cite: nbs-retro-birth-rate, quote: "1983 20.19" }
+    - { year: 1984, value: 19.9, kind: retro, cite: nbs-retro-birth-rate, quote: "1984 19.90" }
+    - { year: 1985, value: 21.04, kind: retro, cite: nbs-retro-birth-rate, quote: "1985 21.04" }
+    - { year: 1986, value: 22.43, kind: retro, cite: nbs-retro-birth-rate, quote: "1986 22.43" }
+    - { year: 1987, value: 23.33, kind: retro, cite: nbs-retro-birth-rate, quote: "1987 23.33" }
+    - { year: 1988, value: 22.37, kind: retro, cite: nbs-retro-birth-rate, quote: "1988 22.37" }
+    - { year: 1989, value: 21.58, kind: retro, cite: nbs-retro-birth-rate, quote: "1989 21.58" }
 
 - id: death-rate
   title: 人口死亡率
   group: people
   unit: ‰
-  caveats: 1950–1970 年代的全国死亡率，本库没有找到当时公布的数字；大饥荒年份的死亡估计见“数字争议”页。
+  caveats: 1950–1970 年代的全国死亡率，本库没有找到当时公布的数字；大饥荒年份的死亡估计见“数字争议”页。回溯序列 1960 年为 25.43‰，与 1999 年《新中国五十年统计资料汇编》表 A-1 相同；该书 1961–1977 年的死亡率大多比现行数低 0.02–0.09 个千分点（如 1961 年作 14.24‰），这一段在 1999 年以后又改过。
   points:
     - { year: 1979, value: 6.2, cite: rmrb-1980-05-01-stats-1979, quote: "死亡率为千分之六点二" }
     - { year: 1981, value: 6.36, cite: rmrb-1982-10-28-census-1982, quote: "1981年人口出生率为20．91‰，死亡率为6．36‰" }
@@ -362,6 +774,47 @@
     - { year: 1987, value: 6.65, cite: rmrb-1988-02-24-stats-1987, quote: "死亡率为６．６５‰" }
     - { year: 1988, value: 6.58, cite: rmrb-1989-03-01-stats-1988, quote: "死亡率为６．５８‰" }
     - { year: 1989, value: 6.5, cite: rmrb-1990-02-21-stats-1989, quote: "死亡率为千分之六点五" }
+    - { year: 1949, value: 20, kind: retro, cite: nbs-retro-death-rate, quote: "1949 20.00" }
+    - { year: 1950, value: 18, kind: retro, cite: nbs-retro-death-rate, quote: "1950 18.00" }
+    - { year: 1951, value: 17.8, kind: retro, cite: nbs-retro-death-rate, quote: "1951 17.80" }
+    - { year: 1952, value: 17, kind: retro, cite: nbs-retro-death-rate, quote: "1952 17.00" }
+    - { year: 1953, value: 14, kind: retro, cite: nbs-retro-death-rate, quote: "1953 14.00" }
+    - { year: 1954, value: 13.18, kind: retro, cite: nbs-retro-death-rate, quote: "1954 13.18" }
+    - { year: 1955, value: 12.28, kind: retro, cite: nbs-retro-death-rate, quote: "1955 12.28" }
+    - { year: 1956, value: 11.4, kind: retro, cite: nbs-retro-death-rate, quote: "1956 11.40" }
+    - { year: 1957, value: 10.8, kind: retro, cite: nbs-retro-death-rate, quote: "1957 10.80" }
+    - { year: 1958, value: 11.98, kind: retro, cite: nbs-retro-death-rate, quote: "1958 11.98" }
+    - { year: 1959, value: 14.59, kind: retro, cite: nbs-retro-death-rate, quote: "1959 14.59" }
+    - { year: 1960, value: 25.43, kind: retro, cite: nbs-retro-death-rate, quote: "1960 25.43" }
+    - { year: 1961, value: 14.33, kind: retro, cite: nbs-retro-death-rate, quote: "1961 14.33" }
+    - { year: 1962, value: 10.08, kind: retro, cite: nbs-retro-death-rate, quote: "1962 10.08" }
+    - { year: 1963, value: 10.1, kind: retro, cite: nbs-retro-death-rate, quote: "1963 10.10" }
+    - { year: 1964, value: 11.56, kind: retro, cite: nbs-retro-death-rate, quote: "1964 11.56" }
+    - { year: 1965, value: 9.5, kind: retro, cite: nbs-retro-death-rate, quote: "1965 9.50" }
+    - { year: 1966, value: 8.87, kind: retro, cite: nbs-retro-death-rate, quote: "1966 8.87" }
+    - { year: 1967, value: 8.47, kind: retro, cite: nbs-retro-death-rate, quote: "1967 8.47" }
+    - { year: 1968, value: 8.25, kind: retro, cite: nbs-retro-death-rate, quote: "1968 8.25" }
+    - { year: 1969, value: 8.06, kind: retro, cite: nbs-retro-death-rate, quote: "1969 8.06" }
+    - { year: 1970, value: 7.64, kind: retro, cite: nbs-retro-death-rate, quote: "1970 7.64" }
+    - { year: 1971, value: 7.34, kind: retro, cite: nbs-retro-death-rate, quote: "1971 7.34" }
+    - { year: 1972, value: 7.65, kind: retro, cite: nbs-retro-death-rate, quote: "1972 7.65" }
+    - { year: 1973, value: 7.08, kind: retro, cite: nbs-retro-death-rate, quote: "1973 7.08" }
+    - { year: 1974, value: 7.38, kind: retro, cite: nbs-retro-death-rate, quote: "1974 7.38" }
+    - { year: 1975, value: 7.36, kind: retro, cite: nbs-retro-death-rate, quote: "1975 7.36" }
+    - { year: 1976, value: 7.29, kind: retro, cite: nbs-retro-death-rate, quote: "1976 7.29" }
+    - { year: 1977, value: 6.91, kind: retro, cite: nbs-retro-death-rate, quote: "1977 6.91" }
+    - { year: 1978, value: 6.25, kind: retro, cite: nbs-retro-death-rate, quote: "1978 6.25" }
+    - { year: 1979, value: 6.21, kind: retro, cite: nbs-retro-death-rate, quote: "1979 6.21" }
+    - { year: 1980, value: 6.34, kind: retro, cite: nbs-retro-death-rate, quote: "1980 6.34" }
+    - { year: 1981, value: 6.36, kind: retro, cite: nbs-retro-death-rate, quote: "1981 6.36" }
+    - { year: 1982, value: 6.6, kind: retro, cite: nbs-retro-death-rate, quote: "1982 6.60" }
+    - { year: 1983, value: 6.9, kind: retro, cite: nbs-retro-death-rate, quote: "1983 6.90" }
+    - { year: 1984, value: 6.82, kind: retro, cite: nbs-retro-death-rate, quote: "1984 6.82" }
+    - { year: 1985, value: 6.78, kind: retro, cite: nbs-retro-death-rate, quote: "1985 6.78" }
+    - { year: 1986, value: 6.86, kind: retro, cite: nbs-retro-death-rate, quote: "1986 6.86" }
+    - { year: 1987, value: 6.72, kind: retro, cite: nbs-retro-death-rate, quote: "1987 6.72" }
+    - { year: 1988, value: 6.64, kind: retro, cite: nbs-retro-death-rate, quote: "1988 6.64" }
+    - { year: 1989, value: 6.54, kind: retro, cite: nbs-retro-death-rate, quote: "1989 6.54" }
 
 - id: growth-rate
   title: 人口自然增长率

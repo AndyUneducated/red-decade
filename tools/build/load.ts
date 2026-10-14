@@ -48,8 +48,8 @@ function loadSources() {
       hasText: hasText(s.id),
     })),
   )
-  // article/start/end/keep only steer the fetcher
-  const web = manifests.flatMap((m) => (m.web ?? []).map(({ article, start, end, keep, ...s }) => ({ ...s, tier: 1, hasText: hasText(s.id) })))
+  // article/start/end/keep only steer the fetcher; a web text is tier 1 unless its entry says otherwise
+  const web = manifests.flatMap((m) => (m.web ?? []).map(({ article, start, end, keep, ...s }) => ({ tier: 1, ...s, hasText: hasText(s.id) })))
   const extra = exists('content', 'sources.yaml') ? read('content', 'sources.yaml') : []
   const sources: Source[] = load(SourceSchema, [...wikisource, ...web, ...extra], 'sources')
   const texts = new Map<string, string>()

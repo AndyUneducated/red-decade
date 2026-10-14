@@ -596,7 +596,8 @@ export const RevcomSchema = z.object({
 // value is in the series unit, so 亿斤 and 万担 are converted while the quote keeps the original.
 // A year can carry several points: the number first published, a later correction, a count on another basis.
 export const SERIES_GROUPS = { agri: '农业', industry: '工业', people: '人口与就业', money: '投资、商业与外贸' } as const
-export const POINT_KINDS = { reported: '当时公布', revised: '后来修正', variant: '另一口径' } as const
+// retro: the statistics bureau's later year-by-year series, compiled on one basis long after the year
+export const POINT_KINDS = { reported: '当时公布', revised: '后来修正', variant: '另一口径', retro: '后来官方·回溯' } as const
 export const SeriesPointSchema = z.object({
   year: z.number().int().min(1949).max(1989),
   value: z.number().nonnegative(),

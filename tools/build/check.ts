@@ -217,12 +217,15 @@ export function check(d: Data) {
   for (const s of d.series) {
     s.events.forEach((id) => need(ids.event, id, `series ${s.id}`))
     s.points.forEach((p) => needCite(p.cite, `series ${s.id} ${p.year}`))
-    // two first-published numbers for one year that disagree are a revision and must be marked as one
-    const first = new Map<number, number>()
-    for (const p of s.points) {
-      if (p.kind !== 'reported') continue
-      if (first.has(p.year) && first.get(p.year) !== p.value) errors.push(`series ${s.id}: two reported values for ${p.year}`)
-      first.set(p.year, p.value)
+    // two first-published numbers for one year that disagree are a revision and must be marked as one;
+    // the retrospective series has one number a year
+    for (const kind of ['reported', 'retro'] as const) {
+      const first = new Map<number, number>()
+      for (const p of s.points) {
+        if (p.kind !== kind) continue
+        if (first.has(p.year) && first.get(p.year) !== p.value) errors.push(`series ${s.id}: two ${kind} values for ${p.year}`)
+        first.set(p.year, p.value)
+      }
     }
   }
   for (const p of d.pressTerms) {

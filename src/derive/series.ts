@@ -1,5 +1,7 @@
-// Per-head values from two series: an output series divided by population. Population is read as published
-// (kind 'reported'); between two census-style counts it is interpolated linearly, never extrapolated.
+// Per-head values from two series: an output series divided by population. A contemporaneous output number
+// is divided by population as published (kind 'reported'); between two census-style counts it is interpolated
+// linearly, never extrapolated. A retrospective number (kind 'retro') is divided by the retrospective
+// year-end population of the same year, so the two kinds are never mixed.
 import type { Series, SeriesPoint } from '../data/schema.ts'
 
 // series unit → per-head unit and the factor to whole units (population is in 万人)
@@ -12,10 +14,11 @@ export const PER_HEAD: Record<string, { unit: string; factor: number }> = {
 
 export type PerHead = { year: number; value: number; point: SeriesPoint; pop: number; popFrom: SeriesPoint[] }
 
-export function popAt(pop: SeriesPoint[], year: number): { value: number; from: SeriesPoint[] } | undefined {
-  const pts = pop.filter((p) => p.kind === 'reported').sort((a, b) => a.year - b.year)
+export function popAt(pop: SeriesPoint[], year: number, kind: 'reported' | 'retro' = 'reported'): { value: number; from: SeriesPoint[] } | undefined {
+  const pts = pop.filter((p) => p.kind === kind).sort((a, b) => a.year - b.year)
   const same = pts.find((p) => p.year === year)
   if (same) return { value: same.value, from: [same] }
+  if (kind === 'retro') return
   const i = pts.findIndex((p) => p.year > year)
   if (i <= 0) return
   const [a, b] = [pts[i - 1], pts[i]]
@@ -26,7 +29,7 @@ export function perHead(s: Series, pop: Series): PerHead[] {
   const u = PER_HEAD[s.unit]
   if (!u) return []
   return s.points.flatMap((point) => {
-    const p = popAt(pop.points, point.year)
+    const p = popAt(pop.points, point.year, point.kind === 'retro' ? 'retro' : 'reported')
     return p ? [{ year: point.year, value: (point.value * u.factor) / (p.value * 1e4), point, pop: p.value, popFrom: p.from }] : []
   })
 }

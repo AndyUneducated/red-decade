@@ -430,3 +430,17 @@
   want:
     - M4 外国档案：美国对 1966 年中国局势的观察
   note: 美国政府作品，公有领域。
+
+- id: nbs-50-years
+  title: 新中国五十年统计资料汇编
+  author: 国家统计局国民经济综合统计司 编
+  publisher: 中国统计出版社
+  date: 1999-11
+  kind: chronology
+  tier: 2
+  locator: 表号
+  access: partial
+  url: https://scalar.usc.edu/works/chinese-studies-reference-collection/media/HA4631%20.H75%20%E6%96%B0%E4%B8%AD%E5%9B%BD%E4%BA%94%E5%8D%81%E5%B9%B4%E7%BB%9F%E8%AE%A1%E8%B5%84%E6%96%99%E6%B1%87%E7%BC%96_OCR.pdf
+  want:
+    - R4 人均产量：核对国家统计局数据库回溯序列（表 A-30 农产品、A-35 工业产品）
+  note: 只见南加州大学图书馆网上的 5 页扫描（版权页、目录、表 A-1 全国人口状况），用来比对回溯的人口、出生率、死亡率；其余各表未见。

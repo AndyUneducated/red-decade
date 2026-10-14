@@ -6,6 +6,7 @@
 // Extraction: `article` picks a People's Daily article by heading; otherwise `start`/`end`
 // mark the first and last characters of the wanted text (inclusive).
 // `excerpt: true` + `keep: [...]` keeps only paragraphs containing one of the `keep` strings.
+// `rows: true` keeps each table row on one line.
 // Usage:
 //   node tools/fetch-web.ts [--force] [id ...]
 //   node tools/fetch-web.ts --list <url> ...    People's Daily headings -> .probe/rmrb-list.txt
@@ -17,7 +18,20 @@ import { parse } from 'yaml'
 const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')
 const UA = 'Mozilla/5.0 (red-decade-research; github.com/AndyUneducated/red-decade)'
 
-type Entry = { id: string; title: string; url: string; article?: string; start?: string; end?: string; excerpt?: boolean; keep?: string[]; unwrap?: boolean; breaks?: string; frus?: boolean }
+type Entry = {
+  id: string
+  title: string
+  url: string
+  article?: string
+  start?: string
+  end?: string
+  excerpt?: boolean
+  keep?: string[]
+  unwrap?: boolean
+  breaks?: string
+  frus?: boolean
+  rows?: boolean
+}
 
 const args = process.argv.slice(2)
 if (args[0] === '--list') {
@@ -69,7 +83,9 @@ for (const e of entries) {
   } else {
     // `breaks`: plain-text dumps inside <pre> mark paragraphs only by an indent run (a regex source)
     // and wrap visual lines with a bare CR, which is dropped
-    const all = htmlToText(e.frus ? frusBody(html) : e.breaks ? html.replace(/\r(?!\n)/g, '').replace(new RegExp(e.breaks, 'g'), '\n') : html)
+    // `rows`: data tables lay one cell per source line; a table row is kept as one line of cells
+    const src = e.rows ? html.replace(/<tr[\s\S]*?<\/tr>/gi, (r) => r.replace(/<\/t[dh]>/gi, ' ').replace(/\s+/g, ' ')) : html
+    const all = htmlToText(e.frus ? frusBody(src) : e.breaks ? src.replace(/\r(?!\n)/g, '').replace(new RegExp(e.breaks, 'g'), '\n') : src)
     const i = e.start ? all.indexOf(e.start) : 0
     const j = e.end ? all.indexOf(e.end, Math.max(0, i)) : -1
     if (i < 0 || (e.end && j < 0)) {

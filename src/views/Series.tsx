@@ -14,7 +14,7 @@ const x = (year: number) => PAD.l + ((year - Y0) / (Y1 - Y0)) * (W - PAD.l - PAD
 const SOLID = 1
 const DASHED = 6
 
-const KIND_COLOR: Record<SeriesPoint['kind'], string> = { reported: 'var(--ink)', revised: 'var(--accent)', variant: 'var(--sys-gov)' }
+const KIND_COLOR: Record<SeriesPoint['kind'], string> = { reported: 'var(--ink)', revised: 'var(--accent)', variant: 'var(--sys-gov)', retro: 'var(--org-mass)' }
 
 const fmtNum = (v: number) => v.toLocaleString('en-US', { maximumFractionDigits: 2 })
 
@@ -37,6 +37,8 @@ function Chart({ s, pick, onPick }: { s: Series; pick: number; onPick: (i: numbe
     else gaps.push([a.year, b.year])
   })
   const reportedIn = new Map(main.map((p) => [p.year, p.value]))
+  const retro = s.points.filter((p) => p.kind === 'retro').sort((a, b) => a.year - b.year)
+  const retroPath = retro.map((p, i) => `${i && p.year - retro[i - 1].year === 1 ? 'L' : 'M'}${x(p.year)},${y(p.value)}`).join('')
   return (
     <svg className="series-chart" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`${s.title}，${s.points.length} 个数据点`}>
       {gaps.map(([a, b]) => (
@@ -44,11 +46,12 @@ function Chart({ s, pick, onPick }: { s: Series; pick: number; onPick: (i: numbe
           <rect className="series-gap" x={x(a + 0.5)} y={PAD.t} width={x(b - 0.5) - x(a + 0.5)} height={H - PAD.t - PAD.b} />
           {x(b - 0.5) - x(a + 0.5) > 50 && (
             <text className="series-gap-label" x={(x(a + 0.5) + x(b - 0.5)) / 2} y={PAD.t + 14} textAnchor="middle">
-              本库无数
+              {retro.some((p) => p.year > a && p.year < b) ? '当时无公布数' : '本库无数'}
             </text>
           )}
         </g>
       ))}
+      {retroPath && <path className="series-retro" d={retroPath} style={{ stroke: KIND_COLOR.retro }} />}
       {[0, max / 2, max].map((v) => (
         <g key={v}>
           <line className="series-rule" x1={PAD.l} x2={W - PAD.r} y1={y(v)} y2={y(v)} />
@@ -66,7 +69,7 @@ function Chart({ s, pick, onPick }: { s: Series; pick: number; onPick: (i: numbe
         <line key={a.year} className="series-line" data-dashed={dashed || undefined} x1={x(a.year)} y1={y(a.value)} x2={x(b.year)} y2={y(b.value)} />
       ))}
       {s.points.map((p, i) =>
-        p.kind !== 'reported' && reportedIn.has(p.year) ? (
+        p.kind !== 'reported' && p.kind !== 'retro' && reportedIn.has(p.year) ? (
           <line key={`r${i}`} className="series-drop" x1={x(p.year)} x2={x(p.year)} y1={y(reportedIn.get(p.year)!)} y2={y(p.value)} style={{ stroke: KIND_COLOR[p.kind] }} />
         ) : null,
       )}
@@ -80,7 +83,7 @@ function Chart({ s, pick, onPick }: { s: Series; pick: number; onPick: (i: numbe
           {p.kind === 'variant' ? (
             <rect x={x(p.year) - 3} y={y(p.value) - 3} width={6} height={6} />
           ) : (
-            <circle cx={x(p.year)} cy={y(p.value)} r={p.kind === 'revised' ? 3.6 : 2.6} />
+            <circle cx={x(p.year)} cy={y(p.value)} r={p.kind === 'revised' ? 3.6 : p.kind === 'retro' ? 1.6 : 2.6} />
           )}
         </g>
       ))}
@@ -90,16 +93,19 @@ function Chart({ s, pick, onPick }: { s: Series; pick: number; onPick: (i: numbe
 
 function Card({ s }: { s: Series }) {
   // open on the first correction or other-basis number, since that is where the series has a story
-  const first = s.points.findIndex((p) => p.kind !== 'reported')
-  const [pick, setPick] = useHistoryState(`series.${s.id}`, first >= 0 ? first : s.points.length - 1)
+  const first = s.points.findIndex((p) => p.kind === 'revised' || p.kind === 'variant')
+  const lastReported = s.points.findLastIndex((p) => p.kind === 'reported')
+  const [pick, setPick] = useHistoryState(`series.${s.id}`, first >= 0 ? first : lastReported >= 0 ? lastReported : s.points.length - 1)
   const p = s.points[pick] ?? s.points[0]
   const years = s.points.filter((q) => q.kind === 'reported').map((q) => q.year)
+  const retroYears = s.points.filter((q) => q.kind === 'retro').map((q) => q.year)
   return (
     <article className="series-card" id={`series-${s.id}`}>
       <header>
         <h3>{s.title}</h3>
         <span>
-          {s.unit} · {years[0]}–{years[years.length - 1]} 年 · {new Set(years).size} 个年份
+          {s.unit} · 当时公布 {years[0]}–{years[years.length - 1]} 年 {new Set(years).size} 个年份
+          {retroYears.length > 0 && ` · 回溯 ${Math.min(...retroYears)}–${Math.max(...retroYears)} 年逐年`}
         </span>
       </header>
       {s.summary && <p>{s.summary}</p>}
@@ -143,7 +149,8 @@ export function SeriesView() {
             <PageTitle />
             <p>
               {ix.series.length} 个序列、{points} 个数字，出自 {sources.size} 份文献，主要是国家统计局历年公报（《人民日报》刊载）和三次人口普查公报。每个数字附原文，构建时逐字核对；原文以亿斤、万担计的换算成万吨，原单位留在引文里。同一年有几个数时并列：当时公布的数连成线，后来修正的、另一口径的单独标出。1959–1976
-              年的全国数字，本库只从个别会议文件和报告里找到几个；图上留白处是史料空白，不是数字为零。点任一个点看原文。
+              年当时公布的全国数字，本库只从个别会议文件和报告里找到几个；图上留白处是当时的数字空白，不是数字为零。金色细线是国家统计局后来按统一口径回溯的 1949–1989
+              年逐年数，事后整理，不是当年公布的；取自统计局数据库的网页转录，未核原书。点任一个点看原文。
             </p>
           </div>
         </div>
@@ -156,7 +163,7 @@ export function SeriesView() {
           ))}
           <span>
             <i className="series-gap-swatch" />
-            本库没有找到数字的年份
+            本库没有找到当时公布数的年份
           </span>
         </div>
         <nav className="fig-index">
