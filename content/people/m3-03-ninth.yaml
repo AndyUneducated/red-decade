@@ -441,18 +441,18 @@
     - { voice: scholar, text: 傅高义等指出，华国锋在 1977–1978 年已开始推动引进外资和平反部分冤案，他与邓小平的差别更多在于权力基础和对毛泽东遗产的姿态，而不全在经济政策。, cite: vogel-deng }
   factions: [mao]
   fate:
-    - { date: 1938, s: normal, note: 入党, verify: true }
-    - { date: 1949, s: normal, note: 南下湖南, verify: true }
-    - { date: 1959, s: rise, note: 湖南省委书记处书记, verify: true }
-    - { date: 1967, s: attacked, note: 湖南造反派揪斗, verify: true }
-    - { date: 1970-12, s: power, note: 湖南省委第一书记, verify: true }
-    - { date: 1973, s: rise, note: 公安部长、政治局委员, verify: true }
+    - { date: 1938-10, s: normal, note: 入党, cite: xinhua-2008-hua-guofeng-bio }
+    - { date: 1949, s: normal, note: 随军南下湖南, cite: xinhua-2008-hua-guofeng-bio }
+    - { date: 1959-09, s: rise, note: 湖南省委书记处书记, cite: xinhua-2008-hua-guofeng-bio }
+    - { date: 1967, s: attacked, note: 湖南造反派揪斗（2008 年生平只说“文化大革命”初期受到冲击并被批斗；1967 年 7 月起任省革委会筹备小组副组长）, verify: true }
+    - { date: 1970-11, s: power, note: 湖南省委第一书记, cite: xinhua-2008-hua-guofeng-bio }
+    - { date: 1973-08, s: rise, note: 十届一中全会当选政治局委员（公安部长是 1975 年 1 月）, cite: xinhua-2008-hua-guofeng-bio }
     - { date: 1976-02, s: rise, note: 国务院代总理, cite: ws-1976-10-18-notice }
     - { date: 1976-04-07, s: rise, note: 中共中央第一副主席、国务院总理, cite: ws-1976-10-18-notice }
     - { date: 1976-10-07, s: power, note: 中共中央主席、军委主席, cite: ws-1977-07-tenth-third-plenum }
-    - { date: 1980-09, s: sidelined, note: 辞去国务院总理, verify: true }
+    - { date: 1980-09, s: sidelined, note: 不再兼任国务院总理, cite: xinhua-2008-hua-guofeng-bio }
     - { date: 1981-06-29, s: sidelined, note: 辞去中央主席, cite: ws-1981-resolution }
-    - { date: 2008-08-20, s: dead, verify: true }
+    - { date: 2008-08-20, s: dead, note: 在北京病逝, cite: xinhua-2008-hua-guofeng-bio }
   cites: [ws-1976-10-18-notice, ws-1977-07-tenth-third-plenum, ws-1981-resolution, ws-1980-indictment, ws-1978-12-third-plenum]
 
 - id: yu-huiyong

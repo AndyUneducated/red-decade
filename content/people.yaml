@@ -404,18 +404,18 @@
     - { school: 黄埔军校第四期, from: 1925-10, to: 1926-10, verify: true }
   party: 中国共产党
   positions:
-    - { title: 红一军团军团长, orgName: 红一军团, from: 1932-03, to: 1935, verify: true }
-    - { title: 中国人民抗日红军大学校长, orgName: 红军大学, from: 1936-06, to: 1937, verify: true }
+    - { title: 红一军团军团长, orgName: 红一军团, from: 1932-03, to: 1935, note: 起初称总指挥；1935 年 9 月改任陕甘支队副司令员，到陕北后重任军团长, cite: people-lin-biao-bio }
+    - { title: 中国人民抗日红军大学校长, orgName: 红军大学, from: 1936-06, to: 1937, cite: people-lin-biao-bio }
     - { title: 八路军一一五师师长, orgName: 八路军一一五师, from: 1937-08, to: 1938-03, verify: true }
     - { title: 东北民主联军司令员、东北野战军司令员, orgName: 东北野战军, from: 1946-06, to: 1949-03, verify: true }
-    - { title: 第四野战军司令员、中南军政委员会主席, orgName: 第四野战军, from: 1949-03, to: 1954, verify: true }
+    - { title: 第四野战军司令员、中南军政委员会主席, orgName: 第四野战军, from: 1949-03, to: 1954, cite: people-lin-biao-bio }
     - { title: 国务院副总理, orgName: 国务院, from: 1954-09, to: 1971-09-13, verify: true }
     - { title: 中共中央副主席, orgName: 中共中央, from: 1958-05, to: 1971-09-13, note: 1966 年 8 月起为唯一副主席, cite: ws-1981-01-25-judgment }
     - { title: 国防部长、中央军委第一副主席, orgName: 国防部, from: 1959-09, to: 1971-09-13, cite: ws-1981-01-25-judgment }
   rank: { rank: 中华人民共和国元帅, date: 1955-09-27 }
   afterlife:
     - { date: 1971-12-07, text: 中共中央下发《粉碎林陈反党集团反革命政变的斗争》（材料之一），开始在党内传达, cite: ws-1971-12-lin-chen-material-1 }
-    - { date: 1973-08-20, text: 中共中央批准关于林彪反党集团的审查报告，永远开除其党籍, verify: true }
+    - { date: 1973-08-20, text: 中共中央决定开除其党籍, cite: people-lin-biao-bio }
     - { date: 1981-01-25, text: 特别法庭判决书认定其为林彪、江青反革命集团案主犯，因已死亡不再追究刑事责任, cite: ws-1981-01-25-judgment }
   tier: 1
   role1966: 国防部长 → 中共中央唯一副主席
@@ -481,14 +481,14 @@
     - { title: 《毛主席语录》再版前言, date: 1966-12-16 }
   factions: [lin]
   fate:
-    - { date: 1925, s: normal, note: 入社会主义青年团，考入黄埔军校, verify: true }
-    - { date: 1928-04, s: rise, note: 随朱德上井冈山, verify: true }
-    - { date: 1932-03, s: rise, note: 任红一军团军团长, verify: true }
-    - { date: 1937-09-25, s: rise, note: 指挥平型关战斗, verify: true }
-    - { date: 1938-03, s: sidelined, note: 负伤，后赴苏联治疗至 1942 年, verify: true }
-    - { date: 1945-09, s: power, note: 赴东北，任东北民主联军总司令, verify: true }
-    - { date: 1950-10, s: sidelined, note: 以健康原因未赴朝鲜，长期休养, verify: true }
-    - { date: 1958-05, s: power, note: 增选为中央副主席, verify: true }
+    - { date: 1925, s: normal, note: 秋考入黄埔军校第四期，在校由共青团转入中共（1923 年入团）, cite: people-lin-biao-bio }
+    - { date: 1928-04, s: rise, note: 随湘南起义军到井冈山, cite: people-lin-biao-bio }
+    - { date: 1932-03, s: rise, note: 任红一军团总指挥（后称军团长）, cite: people-lin-biao-bio }
+    - { date: 1937-09-25, s: rise, note: 与聂荣臻指挥平型关战斗, cite: people-lin-biao-bio }
+    - { date: 1938-03, s: sidelined, note: 被阎锡山部哨兵误伤，同年冬赴苏联治疗，1942 年 2 月回延安, cite: people-lin-biao-bio }
+    - { date: 1945-09, s: power, note: 转赴东北，此后任东北人民自治军、东北民主联军总司令, cite: people-lin-biao-bio }
+    - { date: 1950-10, s: sidelined, note: 因病脱离工作，经中央批准再次赴苏联就医；1951 年回国后仍以休养为主, cite: people-lin-biao-bio }
+    - { date: 1958-05, s: power, note: 八届五中全会增选为政治局常委、中央副主席, cite: people-lin-biao-bio }
     - { date: 1959-09, s: power, note: 接替彭德怀任国防部长 }
     - { date: 1966-08-12, s: rise, note: 成为唯一副主席与接班人, cite: ws-1966-10-liu-self-criticism }
     - { date: 1969-04, s: power, note: 九大党章写明为“接班人”, cite: ws-1969-04-constitution }
@@ -745,11 +745,11 @@
   party: 中国共产党
   joinedParty: 1925
   positions:
-    - { title: 中共中央组织部部长（临时中央）, orgName: 中共中央组织部, from: 1932, to: 1933, verify: true }
+    - { title: 中共中央组织部部长（临时中央）, orgName: 中共中央组织部, from: 1932, to: 1933, note: 全国政协网简历作 1931 年任组织部长, verify: true }
     - { title: 中共驻共产国际代表团副团长, orgName: 中共驻共产国际代表团, from: 1933-07, to: 1937-11, verify: true }
     - { title: 中共中央社会部部长、情报部部长, orgName: 中共中央社会部, from: 1939, to: 1946, verify: true }
     - { title: 中共中央华东局山东分局书记, orgName: 中共山东分局, from: 1949, to: 1950, verify: true }
-    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1962-09, to: 1966, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1962-09, to: 1966, cite: cppcc-kang-sheng }
     - { title: 中央文革小组顾问, orgName: 中央文革小组, from: 1966-05-28, to: 1969-04, cite: ws-1981-01-25-judgment }
     - { title: 中共中央政治局常委, orgName: 中共中央政治局, from: 1966-08, to: 1975-12-16, verify: true }
     - { title: 中共中央副主席, orgName: 中共中央, from: 1973-08, to: 1975-12-16, cite: ws-1981-01-25-judgment }
@@ -806,13 +806,13 @@
     - { title: 关于小说《刘志丹》的指控（八届十中全会）, date: 1962-09 }
   factions: [ccrg]
   fate:
-    - { date: 1925, s: normal, note: 入党，参加上海工人运动, verify: true }
-    - { date: 1931, s: rise, note: 中央特科、中央组织部负责人, verify: true }
-    - { date: 1933-07, s: rise, note: 驻共产国际代表团副团长, verify: true }
-    - { date: 1938, s: power, note: 中央社会部部长，主管情报保卫, verify: true }
+    - { date: 1925-04, s: normal, note: 入党，参加五卅运动，此后在上海做白区党的工作, cite: cppcc-kang-sheng }
+    - { date: 1931, s: rise, note: 任中共中央组织部部长、中央职工部部长, cite: cppcc-kang-sheng }
+    - { date: 1933-07, s: rise, note: 去苏联，为中共驻共产国际代表团主要负责人之一, cite: cppcc-kang-sheng }
+    - { date: 1937, s: power, note: 回国后任中央党校校长、中央社会部部长、情报部部长等职, cite: cppcc-kang-sheng }
     - { date: 1943, s: power, note: 主持“抢救运动”, verify: true }
-    - { date: 1950, s: sidelined, note: 称病长期休养, verify: true }
-    - { date: 1956-09, s: sidelined, note: 八大降为政治局候补委员, verify: true }
+    - { date: 1950, s: sidelined, note: 此后长期养病, cite: cppcc-kang-sheng }
+    - { date: 1956-09, s: sidelined, note: 八届一中全会只当选政治局候补委员（七届为政治局委员）, cite: cppcc-kang-sheng }
     - { date: 1962-09, s: power, note: 增选为中央书记处书记 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组顾问, cite: ws-1966-05-ccrg-list }
     - { date: 1966-08, s: power, note: 进入政治局常委, verify: true }
@@ -944,12 +944,13 @@
     - { title: 中央文革小组副组长, orgName: 中央文革小组, from: 1966-05-28, to: 1969-04, cite: ws-1981-01-25-judgment }
     - { title: 上海市革命委员会主任, orgName: 上海市革命委员会, from: 1967-02, to: 1976-10, cite: ws-1981-01-25-judgment }
     - { title: 中共中央政治局委员、常委, orgName: 中共中央政治局, from: 1969-04, to: 1976-10-06, note: 九届为委员，十届为常委, cite: ws-1981-01-25-judgment }
-    - { title: 国务院副总理、总政治部主任, orgName: 国务院, from: 1975-01, to: 1976-10-06, verify: true }
+    - { title: 国务院副总理、总政治部主任, orgName: 国务院, from: 1975-01, to: 1976-10-06, cite: people-qiyi-zhang-chunqiao }
   afterlife:
     - { date: 1977-07, text: 十届三中全会认定“张春桥是国民党特务分子”，永远开除党籍，撤销党内外一切职务, cite: ws-1977-07-tenth-third-plenum }
-    - { date: 1983-01, text: 死缓期满，改判无期徒刑, verify: true }
-    - { date: 1998-12, text: 减为有期徒刑十八年, verify: true }
-    - { date: 2002-12, text: 刑满释放，此后居上海, verify: true }
+    - { date: 1983-01, text: 死缓期满，减为无期徒刑, cite: people-qiyi-zhang-chunqiao }
+    - { date: 1997-12, text: 减为有期徒刑 18 年，剥夺政治权利 10 年, cite: people-qiyi-zhang-chunqiao }
+    - { date: 1998-01, text: 保外就医, cite: people-qiyi-zhang-chunqiao }
+    - { date: 2002-12, text: 刑满释放，此后居上海（七一导航未记刑满日期）, verify: true }
   tier: 1
   role1966: 上海市委书记处书记、中央文革小组副组长
   bio: 1930 年代上海左翼文人，延安时期进入中共新闻宣传系统，1950–60 年代任上海市委宣传主管，1958 年以《破除资产阶级的法权思想》受毛泽东赏识。文革中任中央文革小组副组长、上海市革委会主任，1973 年进入政治局常委，1975 年任副总理，是“四人帮”的理论主将。1976 年被捕，1981 年判处死缓，拒绝在法庭上回答审问，2002 年获释，2005 年病逝。主持组织姚文元批判《海瑞罢官》的文章；1966 年 12 月 18 日单独接见蒯大富授意“把他们搞臭”，12 月 28 日电话指示“胜利果实不能被赤卫队夺去”，引发康平路武斗（据 1980 年起诉书）。
@@ -1002,20 +1003,20 @@
     - { title: 论对资产阶级的全面专政, date: 1975-04 }
   factions: [ccrg, shanghai]
   fate:
-    - { date: 1938, s: normal, note: 在延安入党, verify: true }
-    - { date: 1949-05, s: rise, note: 随军进入上海新闻系统, verify: true }
+    - { date: 1938-08, s: normal, note: 到延安后入党，长期隐瞒参加华蒂社（复兴社外围组织）的历史, cite: people-qiyi-zhang-chunqiao }
+    - { date: 1949, s: rise, note: 随军南下，建国后任上海《解放日报》副总编辑、社长兼总编辑, cite: people-qiyi-zhang-chunqiao }
     - { date: 1958-10, s: rise, note: 《破除资产阶级的法权思想》经毛泽东加按语转载, verify: true }
     - { date: 1965-01, s: power, note: 上海市委书记处书记 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组副组长, cite: ws-1966-05-ccrg-list }
     - { date: 1967-02, s: power, note: 上海市革命委员会主任, cite: ws-1981-01-25-judgment }
     - { date: 1969-04, s: power, note: 九大进入政治局, cite: ws-1981-01-25-judgment }
     - { date: 1973-08, s: power, note: 十大任政治局常委, cite: ws-1981-01-25-judgment }
-    - { date: 1975-01, s: power, note: 国务院副总理兼总政治部主任, verify: true }
+    - { date: 1975-01, s: power, note: 国务院副总理兼总政治部主任, cite: people-qiyi-zhang-chunqiao }
     - { date: 1976-10-06, s: detained, note: 被隔离审查, cite: ws-1976-10-18-notice }
     - { date: 1977-07, s: purged, note: 定为“国民党特务分子”，永远开除党籍, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1981-01-25, s: detained, note: 判处死刑缓期二年执行, cite: ws-1981-01-25-judgment }
-    - { date: 2002-12, s: normal, note: 刑满释放, verify: true }
-    - { date: 2005-04-21, s: dead, verify: true }
+    - { date: 1998-01, s: normal, note: 保外就医（此前 1997 年 12 月减为有期徒刑 18 年）, cite: people-qiyi-zhang-chunqiao }
+    - { date: 2005-04-21, s: dead, note: 七一导航只记“2005年4月病亡”, verify: true }
   cites: [ws-1966-05-ccrg-list, ws-1976-10-18-notice, ws-1977-07-tenth-third-plenum, ws-1980-indictment, ws-1981-01-25-judgment, ws-1981-resolution]
 
 # ── 中央文革小组成员 ────────────────────────────────────────
@@ -1566,12 +1567,12 @@
   party: 中国共产党
   joinedParty: 1923
   positions:
-    - { title: 中共晋察冀分局书记, orgName: 中共中央北方分局, from: 1938, to: 1941, verify: true }
-    - { title: 中共中央党校教育长、中央组织部部长, orgName: 中共中央组织部, from: 1941, to: 1945, verify: true }
+    - { title: 中共晋察冀分局书记, orgName: 中共中央北方分局, from: 1938, to: 1941, cite: rmrb-1997-05-03-peng-zhen-life }
+    - { title: 中共中央党校教育长、中央组织部部长, orgName: 中共中央组织部, from: 1941, to: 1945, cite: rmrb-1997-05-03-peng-zhen-life }
     - { title: 中共中央东北局书记, orgName: 中共中央东北局, from: 1945-09, to: 1946-06, verify: true }
     - { title: 中共北京市委书记、第一书记, orgName: 中共北京市委, from: 1948-12, to: 1966-05, cite: ws-1966-05-16-notice }
     - { title: 北京市市长, orgName: 北京市人民政府, from: 1951-02, to: 1966-05, verify: true }
-    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1956-09, to: 1966-05, verify: true }
+    - { title: 中共中央书记处书记, orgName: 中共中央书记处, from: 1956-09, to: 1966-05, cite: rmrb-1997-05-03-peng-zhen-life }
     - { title: 文化革命五人小组组长, orgName: 文化革命五人小组, from: 1964-07, to: 1966-05-16, cite: ws-1966-02-outline }
     - { title: 中央政法委员会书记, orgName: 中央政法委, from: 1980-01, to: 1982, verify: true }
     - { title: 全国人大常委会委员长, orgName: 全国人大常委会, from: 1983-06, to: 1988-04, verify: true }
@@ -1629,9 +1630,9 @@
     - h: 晚年与去世
       from: 1988
       text: |
-        1988 年 4 月卸任后退休。1997 年 4 月 26 日在北京病逝，终年九十五岁，新华社发布讣告与生平（原文待入库）。
+        1988 年 4 月卸任后退休。1997 年 4 月 26 日在北京病逝，终年九十五岁。新华社 5 月 2 日播发《彭真同志光辉战斗的一生》，说他 1989 年春夏之交发表《用宪法和法律统一思想》的讲话。
       verify: true
-      cites: [peng-zhen-chronicle]
+      cites: [peng-zhen-chronicle, rmrb-1997-05-03-peng-zhen-life]
   assess:
     - { voice: official1966, text: 采取了极不正当的手段，武断专横，滥用职权，盗窃中央的名义，匆匆忙忙发到全党（《五·一六通知》论《二月提纲》）, cite: ws-1966-05-16-notice, quote: true }
     - { voice: official1981, text: 对所谓“彭真、罗瑞卿、陆定一、杨尚昆反党集团”和对所谓“刘少奇、邓小平司令部”进行了错误的斗争, cite: ws-1981-resolution, quote: true }
@@ -1641,11 +1642,11 @@
     - { title: 关于中华人民共和国宪法修改草案的报告, date: 1982-11-26 }
   factions: [plly, bjcommittee]
   fate:
-    - { date: 1923, s: normal, note: 在太原入党, verify: true }
-    - { date: 1929-06, s: detained, note: 在天津被捕, place: tianjin, verify: true }
-    - { date: 1935, s: normal, note: 刑满出狱，协助北方局工作, verify: true }
-    - { date: 1938, s: rise, note: 晋察冀分局书记, verify: true }
-    - { date: 1945-06, s: power, note: 七大当选政治局委员, verify: true }
+    - { date: 1923, s: normal, note: 入党，是山西党组织创建人之一, cite: rmrb-1997-05-03-peng-zhen-life }
+    - { date: 1929, s: detained, note: 因叛徒出卖在天津被捕, place: tianjin, cite: rmrb-1997-05-03-peng-zhen-life }
+    - { date: 1935, s: normal, note: 刑满出狱，任中共天津工作组负责人；次年任北方局代表、组织部部长, cite: rmrb-1997-05-03-peng-zhen-life }
+    - { date: 1938, s: rise, note: 晋察冀分局书记, cite: rmrb-1997-05-03-peng-zhen-life }
+    - { date: 1945-06, s: power, note: 七大当选政治局委员, cite: rmrb-1997-05-03-peng-zhen-life }
     - { date: 1946-06, s: sidelined, note: 东北局改由林彪主持，调回中央, verify: true }
     - { date: 1948-12, s: power, note: 北平市委书记 }
     - { date: 1966-04-09, s: attacked, note: 书记处会议批判, cite: ws-1966-05-16-notice-attachment@1966-04-09 }
@@ -1653,9 +1654,9 @@
     - { date: 1966-12, s: detained, verify: true }
     - { date: 1975-05, s: detained, note: 下放陕西商洛, verify: true }
     - { date: 1979-02, s: restored, verify: true }
-    - { date: 1983-06, s: power, note: 全国人大常委会委员长, verify: true }
-    - { date: 1988-04, s: normal, note: 卸任退休, verify: true }
-    - { date: 1997-04-26, s: dead }
+    - { date: 1983-06, s: power, note: 全国人大常委会委员长, cite: rmrb-1997-05-03-peng-zhen-life }
+    - { date: 1988, s: normal, note: 从领导岗位退下来, cite: rmrb-1997-05-03-peng-zhen-life }
+    - { date: 1997-04-26, s: dead, cite: rmrb-1997-05-03-peng-zhen-life }
   cites: [ws-1966-02-outline, ws-1966-05-16-notice, ws-1966-05-16-notice-attachment, ws-1981-resolution]
 
 - id: luo-ruiqing

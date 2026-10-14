@@ -60,12 +60,12 @@
     - { voice: editor, text: 1987 年公报说他“在重大的政治原则问题上的失误”，两年后的讣告称他为“伟大的无产阶级革命家、政治家”，对辞职一事只字未提，只写“１９８２年９月至１９８７年１月担任中央委员会总书记”。, cite: rmrb-1989-04-16-hu-yaobang-obit }
   factions: [reform]
   fate:
-    - { date: 1952-08, s: power, note: 青年团中央第一书记, verify: true }
-    - { date: 1966-08, s: attacked, note: 团中央被冲击，本人被揪斗, verify: true }
-    - { date: 1969, s: sidelined, note: 下放河南潢川五七干校, verify: true }
-    - { date: 1975-07, s: restored, note: 到中国科学院主持工作, verify: true }
-    - { date: 1976-03, s: attacked, note: “反击右倾翻案风”中被批判, verify: true }
-    - { date: 1977-12, s: power, note: 中央组织部部长, verify: true }
+    - { date: 1952-08, s: power, note: 当选青年团中央书记（1957 年 5 月共青团三届一中全会起为第一书记）, cite: people-2014-hu-yaobang-chronology }
+    - { date: 1966-08-13, s: attacked, note: 团中央书记处被改组，本人被关“牛棚”，失去人身自由, cite: people-2014-hu-yaobang-chronology }
+    - { date: 1969-04, s: sidelined, note: 九大后下放河南潢川黄湖农场团中央五七干校，1971 年 10 月回京, cite: people-2014-hu-yaobang-chronology }
+    - { date: 1975-06, s: restored, note: 任中国科学院党的核心领导小组第一副组长、副院长，主持科学院工作, cite: people-2014-hu-yaobang-chronology }
+    - { date: 1976, s: attacked, note: 被“四人帮”诬为“右倾翻案风”四名黑干将之一, cite: people-2014-hu-yaobang-chronology }
+    - { date: 1977-12-10, s: power, note: 中央组织部部长, cite: people-2014-hu-yaobang-chronology }
     - { date: 1980-02-29, s: power, note: 中央书记处总书记、政治局常委, cite: rmrb-1980-03-01-fifth-plenum }
     - { date: 1987-01-16, s: sidelined, note: 辞去总书记，保留常委, cite: rmrb-1987-01-17-politburo }
     - { date: 1989-04-15, s: dead, note: 心肌梗塞逝世, cite: rmrb-1989-04-16-hu-yaobang-obit }

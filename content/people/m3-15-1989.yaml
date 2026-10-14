@@ -55,12 +55,12 @@
     - { voice: editor, text: 公开文件里，戒严的决定一律写作“中共中央、国务院断然决定”；签署戒严令的是李鹏，向四中全会提出撤销赵紫阳职务报告的也是李鹏。, cite: ws-1989-06-30-chen-xitong-report }
   factions: [reform]
   fate:
-    - { date: 1979, s: rise, note: 电力工业部部长, verify: true }
-    - { date: 1983-06, s: rise, note: 国务院副总理, verify: true }
-    - { date: 1987-11, s: power, note: 政治局常委、代总理, verify: true }
+    - { date: 1979-04, s: rise, note: 任电力工业部副部长，后任部长, cite: xinhua-2019-li-peng-bio }
+    - { date: 1983-06, s: rise, note: 国务院副总理, cite: xinhua-2019-li-peng-bio }
+    - { date: 1987-11, s: power, note: 政治局常委、代总理, cite: xinhua-2019-li-peng-bio }
     - { date: 1989-05-20, s: power, note: 签署北京部分地区戒严令, cite: ws-1989-06-30-chen-xitong-report }
-    - { date: 2003-03, s: normal, note: 卸任全国人大常委会委员长, verify: true }
-    - { date: 2019-07-22, s: dead, note: 在北京病逝, verify: true }
+    - { date: 2003-03, s: normal, note: 卸任全国人大常委会委员长, cite: xinhua-2019-li-peng-bio }
+    - { date: 2019-07-22, s: dead, note: 在北京病逝, cite: xinhua-2019-li-peng-bio }
   cites: [ws-1989-06-24-fourth-plenum, ws-1989-06-zhao-errors-report, ws-1989-06-30-chen-xitong-report]
 
 - id: jiang-zemin
@@ -79,7 +79,7 @@
     - { title: 市长, orgName: 上海市人民政府, from: 1985-07, to: 1988-04, verify: true }
     - { title: 书记, orgName: 中共上海市委员会, from: 1987-11, to: 1989-06, verify: true }
     - { title: 总书记, orgName: 中国共产党中央委员会, from: 1989-06-24, to: 2002-11, cites: [ws-1989-06-24-fourth-plenum] }
-    - { title: 主席, orgName: 中共中央军事委员会, from: 1989-11, to: 2004-09, verify: true }
+    - { title: 主席, orgName: 中共中央军事委员会, from: 1989-11, to: 2004-09, cite: xinhua-2022-jiang-zemin-life }
     - { title: 主席, orgName: 中华人民共和国主席, from: 1993-03, to: 2003-03, verify: true }
   bio: 江苏扬州人，上海交通大学电机系毕业，1946 年入党。建国后在一机部、长春第一汽车制造厂和武汉热工机械研究所工作，1980 年代任电子工业部部长、上海市市长、上海市委书记。1989 年 4 月处理上海《世界经济导报》，6 月十三届四中全会上被选为中共中央总书记，11 月接替邓小平任中央军委主席，1993 年起兼任国家主席。2002 年、2004 年先后卸任总书记和军委主席，2022 年在上海病逝。
   life:
@@ -113,12 +113,12 @@
     - { voice: editor, text: 四中全会之前他只是政治局委员，不在常委之列；同一次全会把他从上海直接选为总书记，常委七人中有三人是新增补的。, cite: ws-1989-06-24-fourth-plenum }
   factions: [reform]
   fate:
-    - { date: 1982, s: rise, note: 电子工业部副部长、部长, verify: true }
-    - { date: 1985-07, s: rise, note: 上海市市长, verify: true }
-    - { date: 1987-11, s: power, note: 上海市委书记、政治局委员, verify: true }
+    - { date: 1982, s: rise, note: 电子工业部第一副部长，1983 年任部长, cite: xinhua-2022-jiang-zemin-message }
+    - { date: 1985, s: rise, note: 上海市市长、市委副书记, cite: xinhua-2022-jiang-zemin-message }
+    - { date: 1987-11, s: power, note: 十三届一中全会当选政治局委员，同年任上海市委书记, cite: xinhua-2022-jiang-zemin-life }
     - { date: 1989-06-24, s: power, note: 中共中央总书记, cite: ws-1989-06-24-fourth-plenum }
-    - { date: 2004-09, s: normal, note: 卸任中央军委主席, verify: true }
-    - { date: 2022-11-30, s: dead, note: 在上海病逝, verify: true }
+    - { date: 2004-09, s: normal, note: 十六届四中全会同意他辞去中央军委主席, cite: xinhua-2022-jiang-zemin-life }
+    - { date: 2022-11-30, s: dead, note: 在上海病逝, cite: xinhua-2022-jiang-zemin-message }
   cites: [ws-1989-06-24-fourth-plenum]
 
 - id: li-ruihuan

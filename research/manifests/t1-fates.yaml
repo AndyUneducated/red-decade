@@ -60,3 +60,100 @@ web:
     start: 1904年 8月22日
     end: 2月19日，在北京逝世。
     note: 中共官方的后来叙述（2009 年网页），只列职务和事件；网页转录，未核原书。
+  - id: xinhua-2008-hua-guofeng-bio
+    title: 华国锋同志生平
+    date: 2008-08-31
+    author: 新华社
+    kind: obituary
+    alias: 2008 年新华社《华国锋同志生平》
+    url: https://web.archive.org/web/20230715090519/https://www.gov.cn/gjjg/2008-09/01/content_1084312.htm
+    via: 中国政府网 2008-09-01（新华社电，Wayback 存档）
+    start: 新华社北京２００８年８月３１日电
+    end: 华国锋同志永垂不朽！
+  - id: xinhua-2019-li-peng-bio
+    title: 李鹏同志生平
+    date: 2019-07-29
+    author: 新华社
+    kind: obituary
+    alias: 2019 年新华社《李鹏同志生平》
+    url: http://politics.people.com.cn/n1/2019/0729/c1001-31262715.html
+    via: 人民网转载
+    start: 新华社北京7月29日电 李鹏同志生平
+    end: 李鹏同志永垂不朽！
+  - id: xinhua-2022-jiang-zemin-message
+    title: 告全党全军全国各族人民书（江泽民逝世）
+    date: 2022-11-30
+    author: 中共中央、全国人大常委会、国务院、全国政协、中央军委
+    kind: obituary
+    alias: 2022 年《告全党全军全国各族人民书》
+    url: https://www.gov.cn/xinwen/2022-11/30/content_5729659.htm
+    via: 中国政府网（新华社电）
+    start: 新华社北京11月30日电
+    end: 江泽民同志永垂不朽！
+  - id: xinhua-2022-jiang-zemin-life
+    title: 江泽民伟大光辉的一生
+    date: 2022-12-02
+    author: 新华社
+    kind: bio
+    alias: 2022 年新华社《江泽民伟大光辉的一生》
+    url: https://www.news.cn/politics/2022-12/02/c_1129179786.htm
+    via: 新华网
+    start: 新华社北京12月2日电 江泽民伟大光辉的一生
+    end: 全面推进中华民族伟大复兴而不懈奋斗。
+  - id: rmrb-1997-05-03-peng-zhen-life
+    title: 彭真同志光辉战斗的一生
+    date: 1997-05-03
+    author: 新华社
+    kind: obituary
+    alias: 1997 年《人民日报》《彭真同志光辉战斗的一生》
+    url: https://cn.govopendata.com/renminribao/1997/05/03/1/
+    via: 《人民日报》1997-05-03 第 1 版（govopendata 转录）
+    article: 彭真同志光辉战斗的一生
+  - id: cppcc-kang-sheng
+    title: 康生（1898—1975）
+    date: 2011-09-28
+    author: 中国人民政治协商会议全国委员会
+    kind: bio
+    tier: 2
+    alias: 全国政协网《康生（1898—1975）》
+    url: http://www.cppcc.gov.cn/2011/09/28/ARTI1317197404875325.shtml
+    via: 全国政协网“往届副主席”
+    start: 中国人民政治协商会议第三届全国委员会副主席。
+    end: 并撤销其《悼词》。
+    note: 官方的后来叙述；网页转录，未核原书。
+  - id: people-qiyi-zhang-chunqiao
+    title: 张春桥（七一导航）
+    date: 2013-02-26
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网“七一导航”《张春桥》
+    url: http://cpc.people.com.cn/daohang/n/2013/0226/c357263-20607120.html
+    via: 人民网“七一导航—党员干部上网指南”
+    start: 张春桥(1917—2005)
+    end: 2005年4月病亡。
+    note: 官方的后来叙述；网页转录，未核原书。
+  - id: people-lin-biao-bio
+    title: 林彪（资料中心）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《林彪》
+    url: http://cpc.people.com.cn/GB/64162/126778/126780/7490123.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中华人民共和国元帅（1955）。
+    end: 被确认为反革命集团案主犯。
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-2014-hu-yaobang-chronology
+    title: 胡耀邦生平大事年表（1915—1989）
+    date: 2014-01-06
+    author: 陈利明
+    kind: annals
+    tier: 2
+    alias: 陈利明《胡耀邦生平大事年表（1915—1989）》（人民网 2014 连载）
+    url: http://dangshi.people.com.cn/n/2014/0106/c85037-24033792-2.html
+    via: 人民网党史频道连载《从红小鬼到总书记 胡耀邦》（人民日报出版社）第 2 页
+    start: 7月，奉调进京。
+    end: 落实党的干部政策的新局面。
+    note: 传记作者编的年表，人民网连载，只取第 2 页（1952—1977）；网页转录，未核原书。

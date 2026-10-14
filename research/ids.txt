@@ -458,6 +458,7 @@ archive/rmrb-page-1992-10-04-4
 archive/rmrb-page-1993-03-20-4
 archive/rmrb-page-1994-12-19-4
 archive/rmrb-page-1997-02-19-4
+archive/rmrb-page-1997-05-03-1
 archive/rmrb-page-1999-04-29-4
 archive/rmrb-page-2002-05-31-4
 archive/rmrb-page-2003-02-06-4
@@ -3230,6 +3231,7 @@ sources/chinawriter-2020-jin-jingmai
 sources/chinawriter-cao-yu
 sources/chinawriter-yang-hansheng
 sources/cpc-1980-09-29-hu-feng-rehab
+sources/cppcc-kang-sheng
 sources/cppcc-wang-enmao
 sources/crt-2025-wu-guixian
 sources/czmingren-liu-jianxun
@@ -3323,11 +3325,14 @@ sources/people-2009-mao-chronology
 sources/people-2009-zhou-chronology
 sources/people-2009-zhu-chronology
 sources/people-2013-wu-guixian
+sources/people-2014-hu-yaobang-chronology
 sources/people-2014-ren-zhongyi-zhang-zhixin
 sources/people-2014-xiaojinzhuang
 sources/people-2015-07-23-wan-li
 sources/people-2020-shen-jilan
 sources/people-leaders-memorial
+sources/people-lin-biao-bio
+sources/people-qiyi-zhang-chunqiao
 sources/people-wang-shangrong
 sources/people-xiao-hua
 sources/pku-2014-tang-yijie
@@ -3510,6 +3515,7 @@ sources/rmrb-1990-02-21-stats-1989
 sources/rmrb-1992-10-04-hu-qiaomu
 sources/rmrb-1993-03-20-wang-zhen
 sources/rmrb-1994-12-19-yao-yilin
+sources/rmrb-1997-05-03-peng-zhen-life
 sources/rmrb-1999-04-29-ye-fei
 sources/rmrb-2002-05-31-xi-zhongxun
 sources/rmrb-2003-02-06-tan-qilong
@@ -4311,12 +4317,16 @@ sources/xinhua-2003-zhang-aiping
 sources/xinhua-2005-01-29-zhao-ziyang
 sources/xinhua-2005-ba-jin
 sources/xinhua-2006-liao-hansheng
+sources/xinhua-2008-hua-guofeng-bio
 sources/xinhua-2013-ni-zhifu
 sources/xinhua-2013-yang-baibing
 sources/xinhua-2013-zhuang-zedong
 sources/xinhua-2017-wang-hairong
 sources/xinhua-2018-li-xifan
+sources/xinhua-2019-li-peng-bio
 sources/xinhua-2019-wang-jinxi
+sources/xinhua-2022-jiang-zemin-life
+sources/xinhua-2022-jiang-zemin-message
 sources/yang-jisheng-overturn
 sources/ycwb-2004-liu-qingtang
 sources/yhcqw-xie-chengnian-daoxian
