@@ -105,7 +105,17 @@ export function openData(atlas: Atlas) {
   files.set('index.json', JSON.stringify(index, null, 1))
   files.set('moved.json', JSON.stringify(moved, null, 1))
   files.set('ids.txt', register.join('\n') + '\n')
-  return { files, register }
+  // the site link of each table, so a renamed record's old link can be sent to the new one
+  const linkOf = (ref: string) => {
+    const [table, id] = ref.split('/')
+    return OPEN_TABLES.find((t) => t.id === table)?.link?.replace('{id}', id)
+  }
+  const relinks = moved.flatMap((m) => {
+    const from = linkOf(m.id)
+    const to = m.to && linkOf(m.to)
+    return from && to ? [{ from, to }] : []
+  })
+  return { files, register, relinks }
 }
 
 export function writeOpen({ files, register }: ReturnType<typeof openData>) {

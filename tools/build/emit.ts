@@ -83,6 +83,7 @@ export function compile(d: Data) {
     counties: d.counties,
     revcoms: d.revcoms.sort((a, b) => a.date.localeCompare(b.date)),
     series: d.series.map((s) => ({ ...s, points: s.points.sort((a, b) => a.year - b.year) })),
+    moved: [],
   }
   return { atlas, pressTexts }
 }

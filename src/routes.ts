@@ -27,6 +27,20 @@ export function parseHash(hash: string): Route {
   }
 }
 
+// an old link to a renamed record (atlas.moved, site hashes old → new) points at the new record: its detail
+// page, and a selection of it wherever it is open (a person's drawer card as well as #/people/<id>).
+// Undefined when nothing moved.
+export function relink(r: Route, moved: { from: string; to: string }[]): Route | undefined {
+  const asSel = (h: Route): Ref | undefined => h.sel ?? (h.param ? { type: page(h.page).detail?.kind as EntityType, id: h.param } : undefined)
+  for (const m of moved) {
+    const a = parseHash(m.from)
+    const b = parseHash(m.to)
+    if (a.param && r.page === a.page && r.param === a.param) return { ...r, page: b.page, param: b.param }
+    const [sa, sb] = [asSel(a), asSel(b)]
+    if (sa && sb && r.sel?.type === sa.type && r.sel.id === sa.id) return { ...r, sel: { ...r.sel, type: sb.type, id: sb.id } }
+  }
+}
+
 export function toHash(r: Route): string {
   const q = new URLSearchParams()
   if (r.sel) q.set('sel', `${r.sel.type}:${r.sel.id}${r.sel.sub ? `:${r.sel.sub}` : ''}`)

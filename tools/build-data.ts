@@ -15,6 +15,7 @@ check(data)
 checkQuotes(data)
 const { atlas, pressTexts } = compile(data)
 const open = openData(atlas)
+atlas.moved = open.relinks
 
 if (errors.length) {
   console.error(`\n${errors.length} error(s):\n` + errors.map((e) => `  ✗ ${e}`).join('\n'))

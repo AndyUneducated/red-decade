@@ -6,7 +6,7 @@ import { lensOf, type Lens } from './derive/lens'
 import { adoptEntry, beginRestore, currentEntry, findBack, getUi, pushEntry, restoreScroll, setUi } from './lib/history'
 import { groupOf, type NavGroup } from './nav'
 import { detailPage, page as pageDef, type DetailKind, type PageId } from './pages'
-import { parseHash, toHash, type Route } from './routes'
+import { parseHash, relink, toHash, type Route } from './routes'
 
 // the page last shown in each menu group, so the group's tab returns to it; kept for the session
 const lastShown = new Map<string, PageId>()
@@ -45,8 +45,16 @@ export function pageName(ix: Index, r: { page: PageId; param?: string }): string
 
 const AppCtx = createContext<Ctx | null>(null)
 
+// the route in the address bar; an old link to a renamed record is rewritten in place to the new one
+function readHash(ix: Index): Route {
+  const r = parseHash(location.hash)
+  const moved = ix.moved.length ? relink(r, ix.moved) : undefined
+  if (moved) history.replaceState(history.state, '', toHash(moved))
+  return moved ?? r
+}
+
 export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }) {
-  const [state, setState] = useState<State>(() => ({ ...parseHash(location.hash), entry: adoptEntry().key }))
+  const [state, setState] = useState<State>(() => ({ ...readHash(ix), entry: adoptEntry().key }))
   const latest = useRef(state)
   latest.current = state
   const restoreTo = useRef<string>(undefined)
@@ -66,7 +74,7 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
         beginRestore()
         restoreTo.current = key
       }
-      setState((latest.current = { ...parseHash(location.hash), entry: key }))
+      setState((latest.current = { ...readHash(ix), entry: key }))
     }
     addEventListener('popstate', onNav)
     addEventListener('hashchange', onNav)
@@ -74,7 +82,7 @@ export function AppProvider({ ix, children }: { ix: Index; children: ReactNode }
       removeEventListener('popstate', onNav)
       removeEventListener('hashchange', onNav)
     }
-  }, [])
+  }, [ix])
 
   // runs after every child has rendered the restored entry and reset its own scrollers
   useEffect(() => {

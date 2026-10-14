@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { groupOf, itemOf, NAV, navProblems } from '../../src/nav'
 import { DEFAULT_PAGE, detailPage, page, PAGE_IDS, type DetailKind } from '../../src/pages'
-import { DEFAULT_T, parseHash, toHash, type Route } from '../../src/routes'
+import { DEFAULT_T, parseHash, relink, toHash, type Route } from '../../src/routes'
 
 describe('page registry and menu', () => {
   it('lists every visible page in exactly one menu group', () => {
@@ -63,6 +63,18 @@ describe('routes', () => {
     expect(parseHash('#/no-such-page/x').param).toBeUndefined()
     expect(parseHash('#/network/liu-shaoqi')).toMatchObject({ page: 'network', param: undefined })
     expect(parseHash('#/timeline?t=abc').t).toBe(DEFAULT_T)
+  })
+
+  it('sends an old link to a renamed record to the new one', () => {
+    const moved = [
+      { from: '#/people/old-id', to: '#/people/new-id' },
+      { from: '#/timeline?sel=event:old-ev', to: '#/timeline?sel=event:new-ev' },
+    ]
+    expect(relink(parseHash('#/people/old-id?t=1967.000'), moved)).toMatchObject({ page: 'people', param: 'new-id', t: 1967 })
+    expect(relink(parseHash('#/map?sel=event:old-ev'), moved)).toMatchObject({ page: 'map', sel: { type: 'event', id: 'new-ev' } })
+    expect(relink(parseHash('#/people/liu-shaoqi'), moved)).toBeUndefined()
+    expect(relink(parseHash('#/network?sel=person:old-id'), moved)).toMatchObject({ page: 'network', sel: { type: 'person', id: 'new-id' } })
+    expect(relink(parseHash('#/network?sel=event:old-id'), moved)).toBeUndefined()
   })
 })
 
