@@ -572,7 +572,7 @@ export const CountySchema = z.object({
   kind: z.enum(Object.keys(COUNTY_KINDS) as [keyof typeof COUNTY_KINDS, ...(keyof typeof COUNTY_KINDS)[]]).default('county'),
   counts: z.array(CountSchema).default([]),
   // founding of the county revolutionary committee, as the source dates it
-  revcom: z.object({ date: PartialDate, cite: Cite, quote: z.string() }).optional(),
+  revcom: z.object({ date: PartialDate, cite: Cite, quote: z.string(), note: z.string().optional() }).optional(),
   note: z.string().optional(),
   // drawing position, merged at build from county-geo.yaml
   geo: z.object({ lon: z.number(), lat: z.number(), wd: z.string(), as: z.string().optional() }).optional(),

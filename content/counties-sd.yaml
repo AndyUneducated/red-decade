@@ -150,6 +150,7 @@
   province: 山东
   prefecture: 济宁
   kind: city
+  revcom: { date: 1968-05, cite: sdz-c82-1-312, quote: "1968年5月，造反组织联合夺取县委、县人委领导权，成立济宁县革命委员会", note: "原文作“济宁县革命委员会”。" }
   counts:
     - { measure: deaths, what: "文革中非正常死亡的脱产干部", value: 143, voice: officialLater, cite: sdz-b8-1-628, quote: "“文化大革命”中非正常死亡的脱产干部143人， 已全部作出结论。" }
 - id: sd-jining-shizhong

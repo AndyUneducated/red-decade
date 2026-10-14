@@ -619,6 +619,7 @@
   level: provincial
   from: 1949-05
   under: [{ org: cc }]
+  suspended: [{ from: 1968-02-05, to: 1971, note: 革委会成立后由其行使党政职权 }]
   places: [{ at: wuhan }]
   summary: 王任重 1954–1966 年任第一书记，1966 年 8 月调中央文革小组任副组长。1967 年武汉“七二〇事件”后省委瘫痪，由湖北省革委会行使职权。
   verify: true
@@ -636,6 +637,7 @@
   level: provincial
   from: 1949-10
   under: [{ org: cc }]
+  suspended: [{ from: 1968-02-21, to: 1971, note: 革委会成立后由其行使党政职权 }]
   places: [{ at: guangzhou }]
   summary: 陶铸 1955–1965 年任第一书记，赵紫阳 1965 年接任，文革中两人先后被打倒。1978 年底起习仲勋、任仲夷主政，推动“特殊政策、灵活措施”和经济特区。
   verify: true
@@ -655,6 +657,7 @@
   kind: party
   level: provincial
   under: [{ org: cc }]
+  suspended: [{ from: 1968-02-03, to: 1971, note: 革委会成立后由其行使党政职权 }]
   places:
     - { at: baoding, to: 1958-04 }
     - { at: tianjin, from: 1958-04, to: 1966-04 }
@@ -676,6 +679,7 @@
   from: 1968-02-03
   to: 1979-12
   places: [{ at: shijiazhuang }]
+  links: [{ org: hebei-committee, kind: takeover, date: 1968-02-03, verify: true }]
   summary: 1968 年 2 月 3 日在石家庄举行成立庆祝大会。李雪峰任主任，1970 年庐山会议后被撤职。
   verify: true
 
@@ -685,6 +689,7 @@
   kind: party
   level: provincial
   under: [{ org: cc }]
+  suspended: [{ from: 1968-08-13, to: 1970, note: 革委会成立后由其行使党政职权 }]
   places: [{ at: kunming }]
   summary: 谢富治 1950 年代任第一书记兼昆明军区政委。第一书记阎红彦 1967 年 1 月在昆明自杀；1970 年任第一书记的谭甫仁同年 12 月在昆明遇刺身亡。
   verify: true

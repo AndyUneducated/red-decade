@@ -12,30 +12,35 @@
   name: 武鸣县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-03-25, cite: ccrd-1987-gx-wuming-213, quote: "3月25日，经广西革筹小组、广西军区批准，成立武鸣县革命委员会" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 2403, voice: officialLater, cite: ccrd-1987-gx-wuming-213, quote: "全县被迫害致死2403人" }
 - id: gx-longan
   name: 隆安县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-03-25, cite: ccrd-1987-gx-longan-56, quote: "25日，在县城召开庆祝县革委成立的万人大会", note: "原文“25日”承上文 3 月；同月 18 日先成立县革委会筹备小组。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1363, voice: officialLater, cite: ccrd-1987-gx-longan-56, quote: "合计 1363", note: "大事记附表“被打死和逼害致死人数及分类”的合计栏；同表打死 811、自杀 534、失踪 18。" }
 - id: gx-mashan
   name: 马山县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-04-17, cite: ccrd-1987-gx-mashan-202, quote: "1968年4月17日马山县革命委员会成立" }
   counts:
     - { measure: deaths, what: "被“联指”及民兵、纠察队杀害、斗殴、逼死", scope: "至 1968 年底", value: 1276, voice: officialLater, cite: ccrd-1987-gx-mashan-202, quote: "逼死1276人" }
 - id: gx-shanglin
   name: 上林县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-03-27, cite: ccrd-1987-gx-shanglin-169, quote: "3月27日，广西革筹小组批准上林县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1923, voice: officialLater, cite: ccrd-1987-gx-shanglin-169, quote: "全县被打死（含被逼自杀）1923人" }
 - id: gx-binyang
   name: 宾阳县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-03-27, cite: ccrd-1987-gx-binyang-159, quote: "1968年3月27日，宾阳县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "1968 年 7 月下旬至 8 月上旬十多天", value: 3681, voice: officialLater, cite: ccrd-1987-gx-binyang-69, quote: "共被打死和被迫害致死的3681人" }
     - { measure: deaths, what: "“文革”中死亡", value: 3951, voice: officialLater, cite: ccrd-1987-gx-binyang-159, quote: "对“文革”期间被无辜打死和被迫害致死的3951人平反昭雪" }
@@ -43,24 +48,28 @@
   name: 横县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-04-06, cite: ccrd-1987-gx-hengxian-64, quote: "1968年4月6日“革委会”成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1411, voice: officialLater, cite: ccrd-1987-gx-hengxian-64, quote: "全县人民无辜被打死或被迫害致死达1411人" }
 - id: gx-fusui
   name: 扶绥县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-03-15, cite: ccrd-1987-gx-fusui-199, quote: "3月15日，在广场召开大会，庆祝扶绥县“革命委员会”成立", note: "前一日区革筹小组批准成立。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 570, voice: officialLater, cite: ccrd-1987-gx-fusui-199, quote: "无辜被迫害致死570人" }
 - id: gx-chongzuo
   name: 崇左县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-03-28, cite: ccrd-1987-gx-chongzuo-25, quote: "1968年3月28日，县革委虽然成立了" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1029, voice: officialLater, cite: ccrd-1987-gx-chongzuo-25, quote: "我县干部、职工、群众被迫害致死共1029人" }
 - id: gx-daxin
   name: 大新县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-03-15, cite: ccrd-1987-gx-daxin-29, quote: "3月15日，成立大新县“革命委员会”" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 789, voice: officialLater, cite: ccrd-1987-gx-daxin-29, quote: "全县有789人被打死、逼死" }
 - id: gx-tiandeng
@@ -80,6 +89,7 @@
   name: 龙州县
   province: 广西
   prefecture: 南宁地区
+  revcom: { date: 1968-03-29, cite: ccrd-1987-gx-nanning-pref-43, quote: "1968年3月29日，龙州县革命委员会成立", note: "龙州县大事件记 4 月 1 日召开庆祝成立大会。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 325, voice: officialLater, cite: ccrd-1987-gx-longzhou-66, quote: "迫害自杀等共325人" }
     - { measure: deaths, what: "“文革”中死亡", value: 386, voice: officialLater, cite: ccrd-1987-gx-longzhou-67, quote: "占全县“文革”中死了386人的40％" }
@@ -88,6 +98,7 @@
   province: 广西
   prefecture: 南宁地区
   kind: city
+  revcom: { date: 1968-04-13, cite: ccrd-1987-gx-nanning-city-82, quote: "于4月13日举行市革委会成立和庆祝大会" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "含市辖两县；南宁市区 1503 人", value: 5086, voice: officialLater, cite: ccrd-1987-gx-nanning-city-82, quote: "被打死、迫害致死以及失踪后作死亡结论的共5,086人" }
 - id: gx-liuzhou-pref
@@ -101,12 +112,14 @@
   name: 鹿寨县
   province: 广西
   prefecture: 柳州地区
+  revcom: { date: 1968-03-23, cite: ccrd-1987-gx-liuzhou-pref-47, quote: "3月23日，鹿寨县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1043, voice: officialLater, cite: ccrd-1987-gx-luzhai-36, quote: "全县因“文革”而死的有1043人" }
 - id: gx-sanjiang
   name: 三江侗族自治县
   province: 广西
   prefecture: 柳州地区
+  revcom: { date: 1968-04-09, cite: ccrd-1987-gx-sanjiang-84, quote: "1968年4月9日三江县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 954, voice: officialLater, cite: ccrd-1987-gx-sanjiang-84, quote: "全县被迫害致死的干部、职工、人民群众达954人" }
 - id: gx-rongshui
@@ -119,6 +132,7 @@
   name: 融安县
   province: 广西
   prefecture: 柳州地区
+  revcom: { date: 1968-08-10, cite: ccrd-1987-gx-rongan-44, quote: "融安县革委会（8月10日成立）" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "1968 年“8·20”会议后至 9 月 12 日", value: 723, voice: officialLater, cite: ccrd-1987-gx-rongan-44, quote: "全县共乱打死723人" }
 - id: gx-laibin
@@ -131,24 +145,28 @@
   name: 象州县
   province: 广西
   prefecture: 柳州地区
+  revcom: { date: 1968-03-24, cite: ccrd-1987-gx-xiangzhou-110, quote: "我县1968年3月24日成立县革委委员会", note: "柳州地区大事记作 3 月 28 日“正式宣告成立”。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 196, voice: officialLater, cite: ccrd-1987-gx-xiangzhou-110, quote: "全县被迫害致死196人" }
 - id: gx-wuxuan
   name: 武宣县
   province: 广西
   prefecture: 柳州地区
+  revcom: { date: 1968-04-15, cite: ccrd-1987-gx-wuxuan-10, quote: "4月15日，成立“武宣县革命委员会”" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 526, voice: officialLater, cite: ccrd-1987-gx-wuxuan-10, quote: "全县因“文革”事件死亡共526人" }
 - id: gx-jinxiu
   name: 金秀瑶族自治县
   province: 广西
   prefecture: 柳州地区
+  revcom: { date: 1968-04-23, cite: ccrd-1987-gx-jinxiu-102, quote: "4月23日，广西区革命委员会筹备小组批准成立“金秀瑶族自治县革命委员会”" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "不含桐木镇、头排区", value: 148, voice: officialLater, cite: ccrd-1987-gx-jinxiu-102, quote: "查明我县“文革”期间被迫害致死共148人" }
 - id: gx-xincheng
   name: 忻城县
   province: 广西
   prefecture: 柳州地区
+  revcom: { date: 1968-03-28, cite: ccrd-1987-gx-liuzhou-pref-47, quote: "该县革委会于3月28日正式成立", note: "原文承上句忻城县。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 602, voice: officialLater, cite: ccrd-1987-gx-xincheng-215, quote: "全县被迫害致死的602人" }
 - id: gx-liuzhou-city
@@ -163,12 +181,14 @@
   province: 广西
   prefecture: 桂林地区
   kind: prefecture
+  revcom: { date: 1968-04-29, cite: ccrd-1987-gx-guilin-city-77, quote: "4月29日上午，地区在市体育场召开庆祝地区革委会成立大会", note: "庆祝大会之日。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "1967、1968 两年非武斗死亡，不含临桂、阳朔", value: 9878, voice: officialLater, cite: ccrd-1987-gx-guilin-pref-177, quote: "全地区被乱打死、迫害致死9878人" }
 - id: gx-lingui
   name: 临桂县
   province: 广西
   prefecture: 桂林地区
+  revcom: { date: 1968-08-26, cite: ccrd-1987-gx-lingui-65, quote: "8月26日临桂县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 2051, voice: officialLater, cite: ccrd-1987-gx-lingui-65, quote: "全县被残酷打死和被迫害死的干部群众达2051人" }
 - id: gx-lingchuan
@@ -193,6 +213,7 @@
   name: 灌阳县
   province: 广西
   prefecture: 桂林地区
+  revcom: { date: 1968-04-18, cite: ccrd-1987-gx-guanyang-31, quote: "4月18日，经广西壮族自治区革命委员会筹备小组批准，成立“灌阳县革命委员会”" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "1982 年 5 月县委报告，1967–1968 年", value: 241, voice: officialLater, cite: ccrd-1987-gx-guanyang-31, quote: "灌阳1967年至1968年共有241人非正常死亡" }
     - { measure: deaths, what: "“文革”中死亡", scope: "县“处遗”办统计", value: 304, voice: officialLater, cite: ccrd-1987-gx-guanyang-31, quote: "全县在“文化大革命”中被迫害致死的304人" }
@@ -200,6 +221,7 @@
   name: 资源县
   province: 广西
   prefecture: 桂林地区
+  revcom: { date: 1968-08-26, cite: ccrd-1987-gx-ziyuan-149, quote: "8月26日，在县体育场举行资源县革命委员会成立大会", note: "8 月 19 日区革筹小组批准。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 762, voice: officialLater, cite: ccrd-1987-gx-ziyuan-149, quote: "全县在“文革”中受迫害致死的干部群众共762人" }
     - { measure: deaths, what: "“文革”中死亡", value: 757, voice: officialLater, cite: ccrd-1987-gx-ziyuan-150, quote: "其中死亡757人" }
@@ -219,6 +241,7 @@
   name: 平乐县
   province: 广西
   prefecture: 桂林地区
+  revcom: { date: 1968-04-23, cite: ccrd-1987-gx-pingle-140, quote: "宣布平乐县革命委员会于1968年4月23日诞生" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1926, voice: officialLater, cite: ccrd-1987-gx-pingle-141, quote: "全县无辜被打死、逼死1926人（1968年死1858人）" }
     - { measure: deaths, what: "“文革”中死亡", scope: "1968 年县革委常委会议记录本", value: 1298, voice: officialLater, cite: ccrd-1987-gx-pingle-140, quote: "被“专政”死和迫害致死的共1298人" }
@@ -232,6 +255,7 @@
   name: 恭城县
   province: 广西
   prefecture: 桂林地区
+  revcom: { date: 1968-04-09, cite: ccrd-1987-gx-gongcheng-74, quote: "4月9日，经广西革筹小组批准“恭城县革命委员会”正式成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 404, voice: officialLater, cite: ccrd-1987-gx-gongcheng-74, quote: "被枪杀、打死、逼死的干部、工人和群众达404人" }
 - id: gx-guilin-city
@@ -239,6 +263,7 @@
   province: 广西
   prefecture: 桂林地区
   kind: city
+  revcom: { date: 1968-04-14, cite: ccrd-1987-gx-guilin-city-77, quote: "4月14日，市革筹不考虑“造反大军”的意见，按原定人选成立市革委" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "含武斗死亡 406 人", value: 1128, voice: officialLater, cite: ccrd-1987-gx-guilin-city-77, quote: "全市（不含两县）非正常死亡达1128人" }
 - id: gx-wuzhou-pref
@@ -246,6 +271,7 @@
   province: 广西
   prefecture: 梧州地区
   kind: prefecture
+  revcom: { date: 1968-05-23, cite: ccrd-1987-gx-wuzhou-pref-212, quote: "1968年5月23日专区革委成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 5379, voice: officialLater, cite: ccrd-1987-gx-wuzhou-pref-212, quote: "全地区在“文革”期间被迫害致死的有5379人" }
 - id: gx-cangwu
@@ -259,30 +285,35 @@
   name: 藤县
   province: 广西
   prefecture: 梧州地区
+  revcom: { date: 1968-04-07, cite: ccrd-1987-gx-tengxian-101, quote: "藤县革命委员会是在县武装部支左支持一派压倒一派的情况下，于1968年4月7日成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 556, voice: officialLater, cite: ccrd-1987-gx-tengxian-101, quote: "被枪杀、斗打逼死556人" }
 - id: gx-cenxi
   name: 岑溪县
   province: 广西
   prefecture: 梧州地区
+  revcom: { date: 1968-04-05, cite: ccrd-1987-gx-cenxi-189, quote: "1968年4月5日成立岑溪县革命委员会" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 268, voice: officialLater, cite: ccrd-1987-gx-cenxi-189, quote: "无辜被打死和迫害致死的干部、职工和群众达268人" }
 - id: gx-mengshan
   name: 蒙山县
   province: 广西
   prefecture: 梧州地区
+  revcom: { date: 1968-04, cite: ccrd-1987-gx-mengshan-109, quote: "蒙山县革命委员会是在1968年4月成立的" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "1968–1971 年", value: 859, voice: officialLater, cite: ccrd-1987-gx-mengshan-109, quote: "全县惨遭杀害和被迫致死859人" }
 - id: gx-hexian
   name: 贺县
   province: 广西
   prefecture: 梧州地区
+  revcom: { date: 1968-04-07, cite: ccrd-1987-gx-hexian-181, quote: "1968年4月7日成立了贺县革命委员会" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1462, voice: officialLater, cite: ccrd-1987-gx-hexian-181, quote: "全县被无辜杀害的达1462人" }
 - id: gx-zhongshan
   name: 钟山县
   province: 广西
   prefecture: 梧州地区
+  revcom: { date: 1968-04-10, cite: ccrd-1987-gx-zhongshan-217, quote: "1968年4月10日，钟山县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "1983 年调查核实，含失踪", value: 631, voice: officialLater, cite: ccrd-1987-gx-zhongshan-217, quote: "因“文革”而死亡的共631人" }
 - id: gx-wuzhou-city
@@ -309,6 +340,7 @@
   name: 灵山县
   province: 广西
   prefecture: 钦州地区
+  revcom: { date: 1968-04-06, cite: ccrd-1987-gx-lingshan-33, quote: "县革委成立（4月6日）" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", scope: "至 1968 年 8 月 1 日", value: 3220, voice: officialLater, cite: ccrd-1987-gx-lingshan-33, quote: "全县属于这些不正常死亡的人共3220人" }
 - id: gx-hepu
@@ -321,6 +353,7 @@
   name: 浦北县
   province: 广西
   prefecture: 钦州地区
+  revcom: { date: 1967-03-09, cite: ccrd-1987-gx-pubei-16, quote: "1967年3月9日，“县执委会”宣告成立有解放军、领导干部、群众组织的代表参加的“三结合”权力机构——“浦北县革命委员会”", note: "未经上级批准，1968 年 3 月两派协议取消，后由区革筹小组批准成立的县革委会代替。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 543, voice: officialLater, cite: ccrd-1987-gx-pubei-16, quote: "无辜被打死的543人" }
 - id: gx-qinzhou
@@ -354,18 +387,21 @@
   name: 田阳县
   province: 广西
   prefecture: 百色地区
+  revcom: { date: 1968-03-14, cite: ccrd-1987-gx-tianyang-184, quote: "3月14日，在田阳中学广场开庆祝县革委成立大会", note: "庆祝大会之日。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 412, voice: officialLater, cite: ccrd-1987-gx-tianyang-184, quote: "非法斗打死、枪杀逼死的共412人" }
 - id: gx-tiandong
   name: 田东县
   province: 广西
   prefecture: 百色地区
+  revcom: { date: 1968-03-17, cite: ccrd-1987-gx-tiandong-157, quote: "3月15日，经区革筹批准，17日田东县革命委员会（以下简称革委会）成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 380, voice: officialLater, cite: ccrd-1987-gx-tiandong-157, quote: "全县被打死、逼死380人" }
 - id: gx-debao
   name: 德保县
   province: 广西
   prefecture: 百色地区
+  revcom: { date: 1968-03, cite: ccrd-1987-gx-debao-34, quote: "1968年3月县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 312, voice: officialLater, cite: ccrd-1987-gx-debao-34, quote: "被打死、斗死、逼死的干部群众共312人" }
     - { measure: deaths, what: "“文革”中死亡", value: 306, voice: officialLater, cite: ccrd-1987-gx-debao-164, quote: "被打死、斗死、逼死的干部群众306人" }
@@ -373,18 +409,21 @@
   name: 靖西县
   province: 广西
   prefecture: 百色地区
+  revcom: { date: 1968-03-07, cite: ccrd-1987-gx-baise-pref-158, quote: "3月7日，自治区革筹小组批准成立靖西县革命委员会", note: "靖西县大事件记作 3 月 10 日经代表会议选举产生、报请批准。" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 426, voice: officialLater, cite: ccrd-1987-gx-jingxi-79, quote: "全县被打死和被迫害致死的426人" }
 - id: gx-xilin
   name: 西林县
   province: 广西
   prefecture: 百色地区
+  revcom: { date: 1968-03, cite: ccrd-1987-gx-xilin-144, quote: "特别是1968年3月县革委会成立后" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 119, voice: officialLater, cite: ccrd-1987-gx-xilin-144, quote: "全县被打死和被逼害致死的干部群众119人" }
 - id: gx-longlin
   name: 隆林各族自治县
   province: 广西
   prefecture: 百色地区
+  revcom: { date: 1968-03-13, cite: ccrd-1987-gx-longlin-190, quote: "1968年3月13日，经广西壮族自治区革命委员会筹备小组、广西军区批准，隆林各族自治县革命委员会正式成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 288, voice: officialLater, cite: ccrd-1987-gx-longlin-190, quote: "全县被打死、逼死的288人" }
 - id: gx-hechi-pref
@@ -404,42 +443,49 @@
   name: 东兰县
   province: 广西
   prefecture: 河池地区
+  revcom: { date: 1968-03, cite: ccrd-1987-gx-donglan-128, quote: "3月22日至25日，县召开干部职工和贫下中农代表大会，到会代表有1282人，选举成立东兰县革命委员会" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 399, voice: officialLater, cite: ccrd-1987-gx-donglan-128, quote: "东兰全县被打死及迫害致死共399人" }
 - id: gx-bama
   name: 巴马瑶族自治县
   province: 广西
   prefecture: 河池地区
+  revcom: { date: 1968-03-30, cite: ccrd-1987-gx-hechi-pref-178, quote: "1968年3月30日，巴马瑶族自治县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1287, voice: officialLater, cite: ccrd-1987-gx-bama-92, quote: "全县被迫害致死1287人" }
 - id: gx-yishan
   name: 宜山县
   province: 广西
   prefecture: 河池地区
+  revcom: { date: 1968-04-12, cite: ccrd-1987-gx-yishan-93, quote: "1968年4月12日，宜山县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1355, voice: officialLater, cite: ccrd-1987-gx-yishan-93, quote: "被迫害致死的有1355人" }
 - id: gx-luocheng
   name: 罗城仫佬族自治县
   province: 广西
   prefecture: 河池地区
+  revcom: { date: 1968-03-24, cite: ccrd-1987-gx-luocheng-201, quote: "1968年3月24日，我县两派群众组织实现了所谓大联合，成立了罗城县革命委员会" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 1389, voice: officialLater, cite: ccrd-1987-gx-luocheng-201, quote: "全县被打死和迫害致死1389人" }
 - id: gx-huanjiang
   name: 环江毛南族自治县
   province: 广西
   prefecture: 河池地区
+  revcom: { date: 1968-03-28, cite: ccrd-1987-gx-huanjiang-161, quote: "3月28日，经广西革筹小组批准，环江县革命委员会宣告成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 145, voice: officialLater, cite: ccrd-1987-gx-huanjiang-161, quote: "全县被迫害死145人" }
 - id: gx-tiane
   name: 天峨县
   province: 广西
   prefecture: 河池地区
+  revcom: { date: 1968-03-19, cite: ccrd-1987-gx-tiane-210, quote: "1968年3月19日，天峨县革命委员会成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 146, voice: officialLater, cite: ccrd-1987-gx-tiane-210, quote: "非正常死亡人员共146人" }
 - id: gx-hechi-city
   name: 河池县
   province: 广西
   prefecture: 河池地区
+  revcom: { date: 1968-03-22, cite: ccrd-1987-gx-hechi-city-54, quote: "3月22日，经广西区革委批准，河池县革命委员会正式成立" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 293, voice: officialLater, cite: ccrd-1987-gx-hechi-city-54, quote: "全县被迫害致死293人", note: "编者署“河池市委”，正文称“全县”。" }
 - id: hn-daoxian
@@ -476,6 +522,7 @@
   name: 东安县
   province: 湖南
   prefecture: 零陵地区
+  revcom: { date: 1967-09-14, cite: ccrd-1987-hn-dongan-17, quote: "一九六七年九月十四日正式成立县革命委员会" }
   counts:
     - { measure: deaths, what: "“文革”中死亡", value: 422, voice: officialLater, cite: ccrd-1987-hn-dongan-17, quote: "全县被杀、自杀的共 422 人" }
 - id: hn-shuangpai

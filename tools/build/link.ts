@@ -53,8 +53,14 @@ export function link(d: Data) {
     o.leaders.sort((a, b) => (a.from ?? o.from ?? '').localeCompare(b.from ?? o.from ?? ''))
   }
   for (const p of d.people) for (const m of p.memberships ?? []) if (!p.factions.includes(m.f)) p.factions.push(m.f)
+  // a province revcom's takeover is the founding the dated report describes
   for (const r of d.revcoms) {
     const o = orgById.get(r.org)
     if (o && !o.cites.includes(r.cite)) o.cites.push(r.cite)
+    for (const l of o?.links ?? [])
+      if (l.kind === 'takeover' && !l.cite) {
+        l.cite = r.cite
+        if (l.date === r.date) l.verify = false
+      }
   }
 }
