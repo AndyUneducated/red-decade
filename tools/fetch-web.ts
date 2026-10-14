@@ -6,7 +6,7 @@
 // Extraction: `article` picks a People's Daily article by heading; otherwise `start`/`end`
 // mark the first and last characters of the wanted text (inclusive).
 // `excerpt: true` + `keep: [...]` keeps only paragraphs containing one of the `keep` strings.
-// `rows: true` keeps each table row on one line.
+// `rows: true` keeps each table row on one line. `charset: gbk` overrides the detected encoding.
 // Usage:
 //   node tools/fetch-web.ts [--force] [id ...]
 //   node tools/fetch-web.ts --list <url> ...    People's Daily headings -> .probe/rmrb-list.txt
@@ -31,6 +31,7 @@ type Entry = {
   breaks?: string
   frus?: boolean
   rows?: boolean
+  charset?: string
 }
 
 const args = process.argv.slice(2)
@@ -62,7 +63,7 @@ for (const e of entries) {
   if (only.size && !only.has(e.id)) continue
   const textPath = join(ROOT, 'sources', 'text', `${e.id}.txt`)
   if (existsSync(textPath) && !force && !peek) continue
-  const html = await get(e.url)
+  const html = await get(e.url, e.charset)
   let text: string
   if (e.article) {
     const articles = rmrbArticles(html)
@@ -135,15 +136,16 @@ for (const e of entries) {
 }
 console.log(`\n${fetched} fetched`)
 
-async function get(url: string): Promise<string> {
+async function get(url: string, forced?: string): Promise<string> {
   const res = await fetch(url, { headers: { 'User-Agent': UA } })
   if (!res.ok) throw new Error(`${res.status} ${url}`)
   // some older Chinese sites are GBK; Wayback snapshots keep the original bytes but send a utf-8
-  // header, so the page's own <meta charset> wins over the HTTP header
+  // header, so the page's own <meta charset> wins over the HTTP header. A GBK page with no
+  // <meta charset> needs `charset:` in its manifest entry.
   const buf = new Uint8Array(await res.arrayBuffer())
   const head = new TextDecoder('latin1').decode(buf.slice(0, 8192))
   const meta = head.match(/<meta[^>]+charset=["']?([\w-]+)/i)?.[1]
-  const charset = (meta ?? res.headers.get('content-type')?.match(/charset=([\w-]+)/i)?.[1] ?? 'utf-8').toLowerCase()
+  const charset = (forced ?? meta ?? res.headers.get('content-type')?.match(/charset=([\w-]+)/i)?.[1] ?? 'utf-8').toLowerCase()
   return new TextDecoder(charset === 'gb2312' ? 'gbk' : charset).decode(buf)
 }
 

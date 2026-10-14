@@ -17,6 +17,14 @@ web:
     url: https://history.state.gov/historicaldocuments/frus1977-80v13/d140
     via: "FRUS 1977–1980, vol. XIII, China, Document 140（history.state.gov）"
     frus: true
+  - id: frus-7780v13-d153
+    title: "Memorandum From Michel Oksenberg of the National Security Council Staff to the President’s Assistant for National Security Affairs (Brzezinski) (Washington, November 15, 1978)"
+    date: 1978-11-15
+    kind: archive
+    alias: 奥克森伯格致布热津斯基备忘录《中国政治温度上升及对美国政策的含义》（1978 年 11 月 15 日）
+    url: https://history.state.gov/historicaldocuments/frus1977-80v13/d153
+    via: "FRUS 1977–1980, vol. XIII, China, Document 153（history.state.gov）"
+    frus: true
   - id: frus-7780v13-d167
     title: "Backchannel Message From the Chief of the Liaison Office in China (Woodcock) to Secretary of State Vance and the President’s Assistant for National Security Affairs (Brzezinski) (Beijing, December 13, 1978, 1145Z)"
     date: 1978-12-13

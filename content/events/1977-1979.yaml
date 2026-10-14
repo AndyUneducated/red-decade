@@ -23,14 +23,16 @@
   lane: ideology
   weight: 3
   place: 北京
-  summary: 1977 年 2 月 7 日“两报一刊”社论提出“凡是毛主席作出的决策，我们都坚决维护，凡是毛主席的指示，我们都始终不渝地遵循”。1978 年 5 月《光明日报》以特约评论员名义发表《实践是检验真理的唯一标准》，引发全国讨论，汪东兴等人指责其“砍旗”，邓小平、罗瑞卿、胡耀邦支持。十一届三中全会肯定了讨论，1981 年决议把“两个凡是”列为华国锋的主要错误。两篇文章在维基文库上都没有单独页面，本站暂以决议的转述为据。
+  summary: 1977 年 2 月 7 日“两报一刊”社论提出“凡是毛主席作出的决策，我们都坚决维护，凡是毛主席的指示，我们都始终不渝地遵循”。1978 年 5 月《光明日报》以特约评论员名义发表《实践是检验真理的唯一标准》，引发全国讨论，汪东兴等人指责其“砍旗”，邓小平、罗瑞卿、胡耀邦支持。十一届三中全会肯定了讨论，1981 年决议把“两个凡是”列为华国锋的主要错误。两篇文章在维基文库上都没有单独页面，本站暂以决议的转述为据。党史学者韩钢 2008 年据李鑫的检讨和理论务虚会发言等材料另有说法：社论里的“两个凡是”是中央理论学习组在李鑫主持下起草、汪东兴批发的，原意是应对要求邓小平复出和为天安门事件平反的舆论；1977 年 3 月中央工作会议以后华国锋没有再提。
   people: [hua-guofeng, wang-dongxing, deng-xiaoping, hu-yaobang, luo-ruiqing]
   voices:
     - { voice: official1981, text: 他推行和迟迟不改正“两个凡是”（即“凡是毛主席作出的决策，我们都坚决维护，凡是毛主席的指示，我们都始终不渝地遵循”）的错误方针；压制一九七八年开展的对拨乱反正具有重大意义的关于真理标准问题的讨论（1981 年历史决议评华国锋）, cite: ws-1981-resolution, quote: true }
     - { voice: official1981, text: 这次全会坚决批判了“两个凡是”的错误方针，充分肯定了必须完整地、准确地掌握毛泽东思想的科学体系；高度评价了关于真理标准问题的讨论（同一决议评三中全会）, cite: ws-1981-resolution, quote: true }
     - { voice: foreign, text: 'Teng’s differences with the collective leadership led by Hua are currently manifested in a continuing dispute over what role Maoist theory (Mao Tsetung Thought) should play in the solution of China’s problems（1978 年 10 月美国中央情报局评估）', cite: frus-7780v13-d140, quote: true }
     - { voice: foreign, text: 'Hua has recently shifted to the right to endorse a number of Teng’s pragmatic programs designed to accelerate China’s modernization（同一评估）', cite: frus-7780v13-d140, quote: true }
-  cites: [ws-1981-resolution, frus-7780v13-d140]
+    - { voice: scholar, text: 上述经过说明，这个经典表述不出自华国锋（韩钢 2008 年《还原华国锋》）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
+    - { voice: scholar, text: 1977年3月中央工作会议以后，华再未提过“两个凡是”，官方文件、官方媒体也不再出现“两个凡是”（同一文章）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
+  cites: [ws-1981-resolution, frus-7780v13-d140, aisixiang-2008-han-gang-hua-guofeng]
 
 - id: 1978-02-fifth-npc
   date: 1978-02-26
@@ -44,7 +46,8 @@
   voices:
     - { voice: doc, text: 国家计划新建和续建一百二十个大型项目，其中有十大钢铁基地，九大有色金属基地，八大煤炭基地，十大油气田，三十个大电站，六条铁路新干线和五个重点港口（1978 年政府工作报告）, cite: ws-1978-02-26-gov-report, quote: true }
     - { voice: doc, text: “四人帮”攻击国务院务虚会是“右倾翻案风风源”，把十年规划纲要说成是“修正主义文件”，这完全是恶毒的诽谤和污蔑（同一报告）, cite: ws-1978-02-26-gov-report, quote: true }
-  cites: [ws-1978-02-26-gov-report]
+    - { voice: scholar, text: 所以，即便把当年的引进规模扩大说成是“洋跃进”，也不是华一个人的主张，事实上邓小平比华国锋更积极（韩钢 2008 年据房维中编年和政治局讨论记录梳理 1977–1978 年引进决策）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
+  cites: [ws-1978-02-26-gov-report, aisixiang-2008-han-gang-hua-guofeng]
 
 - id: 1978-03-05-constitution
   date: 1978-03-05
@@ -149,7 +152,8 @@
   voices:
     - { voice: officialLater, text: 会议指出：一九七六年四月五日的天安门事件完全是革命行动（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
     - { voice: official1981, text: 拖延和阻挠恢复老干部工作和平反历史上冤假错案（包括“天安门事件”）的进程（1981 年历史决议评华国锋）, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1978-12-third-plenum, ws-1981-resolution]
+    - { voice: foreign, text: 'The poster attacks tend to implicate Wang Tung-hsing and Chen Hsi-lien, the Peking Military Region Commander. All three were involved in the suppression of pro-Teng rioters in April 1976（1978 年 11 月 15 日奥克森伯格致布热津斯基备忘录，“三人”指吴德、汪东兴、陈锡联）', cite: frus-7780v13-d153, quote: true }
+  cites: [ws-1978-12-third-plenum, ws-1981-resolution, frus-7780v13-d153]
 
 - id: 1978-12-16-us-normalization
   topics: [hk-macau-taiwan]
@@ -367,7 +371,8 @@
     - { voice: witness, text: 他第一次听到判决书，来不及申辩一个字，立即押赴刑场枪决，年仅31岁（同上）, cite: ywang-wang-shenyou, quote: true }
     - { voice: officialLater, text: 第三种意见认为王申酉应平反，但也不宜评价过高，他是勤奋学习热爱祖国的好青年（上海市委书记陈国栋向记者转述，市委采纳了这种意见）, cite: ywang-wang-shenyou, quote: true }
     - { voice: officialLater, text: 总之，文章虽好，还是不宜发表（中宣部领导对金凤通讯的意见，同上）, cite: ywang-wang-shenyou, quote: true }
-  cites: [ywang-wang-shenyou]
+    - { voice: scholar, text: 王、李案件的最终判决，都同五号、六号和三十号文件有关（韩钢 2008 年，指 1977 年中央“打击政治谣言”等文件和国务院三十号文件）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
+  cites: [ywang-wang-shenyou, aisixiang-2008-han-gang-hua-guofeng]
 
 - id: 1977-11-01-li-qinglin-arrested
   date: 1977-11-01

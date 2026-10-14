@@ -29,7 +29,9 @@
     - { voice: officialLater, text: 把全党工作的着重点和全国人民的注意力转移到社会主义现代化建设上来（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
     - { voice: officialLater, text: 全会决定撤销中央发出的有关“反击右倾翻案风”运动和天安门事件的文件（同一公报）, cite: ws-1978-12-third-plenum, quote: true }
     - { voice: official1981, text: 一九七八年十二月召开的十一届三中全会，是建国以来我党历史上具有深远意义的伟大转折（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1978-12-third-plenum, ws-1981-resolution]
+    - { voice: scholar, text: 到1978年冬，在“重点转移”的问题上，华与邓没有根本性分歧（韩钢 2008 年，据华国锋 1978 年 10–11 月讲话传达记录）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
+    - { voice: scholar, text: 但对华国锋来说，这次会议成了他政治上的“滑铁卢”。富有意味的是，这个结果同他的包容和宽厚有关（同一文章）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
+  cites: [ws-1978-12-third-plenum, ws-1981-resolution, aisixiang-2008-han-gang-hua-guofeng]
 
 - id: 1979-07-15-special-zones
   date: 1979-07-15
@@ -41,7 +43,8 @@
   people: [xi-zhongxun, gu-mu, deng-xiaoping]
   voices:
     - { voice: officialLater, text: 关于出口特区，可先在深圳、珠海两市试办，待取得经验后，再考虑在汕头、厦门设置的问题（中发〔1979〕50 号）, cite: ws-1979-07-15-guangdong-fujian, quote: true }
-  cites: [ws-1979-07-15-guangdong-fujian]
+    - { voice: scholar, text: 这实际上是后来建立深圳、珠海经济特区的最早酝酿，也是对外开放实施“两头在外”战略的最初萌芽（韩钢 2008 年，评 1978 年 6 月华国锋对赴港澳考察组建议在宝安、珠海搞出口基地的表态）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
+  cites: [ws-1979-07-15-guangdong-fujian, aisixiang-2008-han-gang-hua-guofeng]
 
 - id: 1979-10-16-wei-jingsheng-sentenced
   date: 1979-10-16
@@ -49,12 +52,14 @@
   lane: center
   weight: 2
   place: 北京
-  summary: 魏京生 3 月 29 日被捕，10 月 16 日北京市中级人民法院公开审理，以向外国人供给军事情报和反革命宣传鼓动两项罪名判处有期徒刑十五年、剥夺政治权利三年。新华社详细报道了庭审，旁听者四百多人，外国记者和他的朋友没能进入法庭。这是民主墙参与者中判得最重的一个，此后民间刊物陆续停办。
+  summary: 魏京生 3 月 29 日被捕，10 月 16 日北京市中级人民法院公开审理，以向外国人供给军事情报和反革命宣传鼓动两项罪名判处有期徒刑十五年、剥夺政治权利三年。新华社详细报道了庭审，旁听者四百多人，外国记者和他的朋友没能进入法庭。这是民主墙参与者中判得最重的一个，此后民间刊物陆续停办。据魏京生 2014 年口述，他在庭上的辩护被中央电视台摄制组的曲磊磊藏录音机录下，朋友们连夜整理成文字贴到民主墙，《四五论坛》的刘青因此被捕。
   people: [wei-jingsheng]
   voices:
     - { voice: officialLater, text: 他写的这些反动文章，有的在西单墙上张贴；有的登在他主编的名为《探索》的反动刊物上（1979 年新华社报道，转述起诉书）, cite: rmrb-1979-10-17-wei-jingsheng-trial, quote: true }
     - { voice: officialLater, text: 判处魏京生有期徒刑十五年，刑满后剥夺政治权利三年（同一报道）, cite: rmrb-1979-10-17-wei-jingsheng-trial, quote: true }
-  cites: [rmrb-1979-10-17-wei-jingsheng-trial]
+    - { voice: witness, text: 过了三个小时才重新开庭了。开庭后法官脸上很不好看。宣判说得很快，十五年（魏京生 2014 年口述，说休庭时听见法官和“上面人”在隔壁争吵）, cite: univie-2014-wei-jingsheng-interview, quote: true }
+    - { voice: witness, text: 本来我以为是判死刑的，结果法官一说十五年，我高兴得都开始打晃了（同一访谈）, cite: univie-2014-wei-jingsheng-interview, quote: true }
+  cites: [rmrb-1979-10-17-wei-jingsheng-trial, univie-2014-wei-jingsheng-interview]
 
 - id: 1980-02-fifth-plenum
   date: 1980-02-23
@@ -69,7 +74,8 @@
     - { voice: officialLater, text: 选举胡耀邦同志为中央委员会总书记（1980 年十一届五中全会公报）, cite: rmrb-1980-03-01-fifth-plenum, quote: true }
     - { voice: officialLater, text: 决定批准汪东兴、纪登奎、吴德、陈锡联四位同志的辞职请求（同一公报）, cite: rmrb-1980-03-01-fifth-plenum, quote: true }
     - { voice: officialLater, text: 恢复刘少奇同志作为伟大的马克思主义者和无产阶级革命家、党和国家的主要领导人之一的名誉（1980 年五中全会为刘少奇平反的决议）, cite: ws-1980-02-29-liu-rehab, quote: true }
-  cites: [rmrb-1980-03-01-fifth-plenum, ws-1980-02-29-liu-rehab]
+    - { voice: foreign, text: 'Teng seems intent on eliminating several top leaders who acquiesced in his 1975 tumble and who are foot-dragging on his bold modernization campaign（1978 年 11 月 15 日奥克森伯格致布热津斯基备忘录，一年多前的判断）', cite: frus-7780v13-d153, quote: true }
+  cites: [rmrb-1980-03-01-fifth-plenum, ws-1980-02-29-liu-rehab, frus-7780v13-d153]
 
 - id: 1980-11-20-special-court
   date: 1980-11-20

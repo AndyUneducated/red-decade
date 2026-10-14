@@ -435,6 +435,7 @@ export const SOURCE_KINDS: Record<string, string> = {
   collected: '文集 · 文稿',
   annals: '年谱 · 组织史',
   memoir: '回忆录 · 口述',
+  article: '文章 · 研究',
   monograph: '学术专著',
   database: '资料库',
   archive: '外国档案',

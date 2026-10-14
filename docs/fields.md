@@ -287,7 +287,7 @@
 | `title` | 标题 |
 | `date` | 日期，YYYY、YYYY-MM 或 YYYY-MM-DD，只写到原文能确定的精度 |
 | `author` | 作者或发布机关 |
-| `kind` | 类别：party-doc 中央文件、editorial 社论 · 评论、speech 讲话 · 检讨、news 新闻报道、redguard 红卫兵 · 群众组织文献、essay 民间思想、chronology 资料汇编、judicial 司法文书、index 目录 · 索引、collected 文集 · 文稿、annals 年谱 · 组织史、memoir 回忆录 · 口述、monograph 学术专著、database 资料库、archive 外国档案、gazetteer 地方志、local-record 地方处遗材料 |
+| `kind` | 类别：party-doc 中央文件、editorial 社论 · 评论、speech 讲话 · 检讨、news 新闻报道、redguard 红卫兵 · 群众组织文献、essay 民间思想、chronology 资料汇编、judicial 司法文书、index 目录 · 索引、collected 文集 · 文稿、annals 年谱 · 组织史、memoir 回忆录 · 口述、article 文章 · 研究、monograph 学术专著、database 资料库、archive 外国档案、gazetteer 地方志、local-record 地方处遗材料 |
 | `alias` | 通称 |
 | `tier` | 层级：1 原文、2 官方、3 亲历、4 研究 |
 | `url` | 取自何处 |

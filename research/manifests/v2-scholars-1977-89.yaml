@@ -1,0 +1,40 @@
+# V2 学者与当事人声部：1977–1989 年事件的研究者论述（tier 4）、口述访谈（tier 3）和当时的民间文本（tier 1），均为网页转录。
+web:
+  - id: univie-2014-wei-jingsheng-interview
+    title: 采访魏京生
+    date: 2014-06-09
+    author: 魏京生口述，Helmut Opletal（欧普雷）采访
+    kind: memoir
+    tier: 3
+    alias: 魏京生访谈（2014 年 6 月 9 日，维也纳大学“北京之春”口述项目）
+    url: https://pekinger-fruehling.univie.ac.at/%E8%AE%BF%E8%B0%88%E6%8A%84%E5%86%99/%E9%AD%8F%E4%BA%AC%E7%94%9F/
+    via: 维也纳大学东亚研究所汉学系“北京之春”项目网站（访谈抄写）
+    note: 当事人 35 年后的口述；其中关于政治局、北京市委定刑的说法是他事后听人转告的，无从核对。
+    start: 采访魏京生
+    end: 在历史的最关键的时刻，他放弃责任，最后酿成这么大的一个灾难。
+  - id: cnd-1999-hunger-strike-declaration
+    title: 绝食宣言（89.5.13）等五篇
+    date: 1989-05-13
+    author: 首都高校自愿绝食者
+    kind: essay
+    tier: 1
+    alias: 《绝食宣言》（1989 年 5 月 13 日，《华夏文摘》增刊 1999 年文件搜集）
+    url: https://web.archive.org/web/2024id_/http://www.cnd.org/HXWZ/ZK99/zk182.gb.html
+    via: 《华夏文摘》增刊第一八二期（1999）“文件搜集”，Wayback 快照
+    charset: gbk
+    note: 当时张贴、散发的文本，十年后由海外中文电子刊物汇编，每篇注“据油印传单”；取《绝食宣言》到北京大学绝食团《绝食书》的五篇。网页转录，未核原件。
+    start: 各位亲爱的同胞，在继前几次声势浩大的游行示威活动之后
+    end: 北京大学绝食团全体同学
+    unwrap: true
+  - id: aisixiang-2008-han-gang-hua-guofeng
+    title: 还原华国锋——关于华国锋的若干史实
+    date: 2008-11-14
+    author: 韩钢
+    kind: article
+    tier: 4
+    alias: 韩钢《还原华国锋——关于华国锋的若干史实》（原载《往事》第七十四期，2008，爱思想转载）
+    url: https://web.archive.org/web/20250812202427id_/https://www.aisixiang.com/data/22330.html
+    via: 爱思想网（文末注“原载《往事》第七十四期 二零零八年十一月十四日”），Wayback 快照
+    note: 华东师范大学历史系教授据年谱、传记、讲话记录和口述材料，对 1981 年决议给华国锋的“一正四负”评价逐条辨析；日期据文末原载注。另有网页称此文刊于《炎黄春秋》2011 年第 2 期，未核。网页转录，文中所引未刊讲话记录无从核对。
+    start: 继毛泽东之后，华国锋作为中国最高领导人
+    end: 原载《往事》第七十四期 二零零八年十一月十四日

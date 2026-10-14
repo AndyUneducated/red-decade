@@ -3125,6 +3125,7 @@ series/trade-yuan
 series/urban-share
 series/wage
 series/workers
+sources/aisixiang-2008-han-gang-hua-guofeng
 sources/aisixiang-chen-xiaoping-liang-feng
 sources/aisixiang-song-chengyou-zhou-yiliang
 sources/bjd-2022-xing-yanzi
@@ -3239,6 +3240,7 @@ sources/chinawriter-2014-jin-jingmai
 sources/chinawriter-2020-jin-jingmai
 sources/chinawriter-cao-yu
 sources/chinawriter-yang-hansheng
+sources/cnd-1999-hunger-strike-declaration
 sources/cnd-2016-yu-ruxin-zhao-ziyang
 sources/cnd-2024-du-junfu-516
 sources/cpc-1980-09-29-hu-feng-rehab
@@ -3260,6 +3262,7 @@ sources/dswxyjy-2014-nanning-meeting
 sources/frus-1964-68-xxx
 sources/frus-7780v13-d125
 sources/frus-7780v13-d140
+sources/frus-7780v13-d153
 sources/frus-7780v13-d167
 sources/frus-7780v13-d170
 sources/frus-7780v13-d207
@@ -3666,6 +3669,7 @@ sources/thepaper-2014-tang-yijie
 sources/thepaper-2016-xia-yan
 sources/thepaper-2020-qian-haoliang
 sources/thepaper-2024-wang-guofan
+sources/univie-2014-wei-jingsheng-interview
 sources/vogel-deng
 sources/walder-fractured
 sources/wang-li-memoir

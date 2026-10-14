@@ -37,12 +37,14 @@
   lane: mass
   weight: 3
   place: 北京天安门广场
-  summary: 戈尔巴乔夫来访前两天，数百名学生在广场开始绝食，人数很快增加到三千人，北京各界上百万人上街声援，中苏首脑会谈的欢迎仪式被迫改地点。5 月 18 日李鹏在人民大会堂会见王丹、吾尔开希等学生代表；19 日凌晨赵紫阳到广场看望绝食学生，说“我们来得太晚了”。
+  summary: 戈尔巴乔夫来访前两天，数百名学生在广场开始绝食。当天以油印传单散发的《绝食宣言》只提两项要求：政府与北京高校对话代表团对话，并为学生运动“正名”，肯定它是“爱国民主的学生运动”。绝食人数很快增加到三千人，北京各界上百万人上街声援，中苏首脑会谈的欢迎仪式被迫改地点。5 月 18 日李鹏在人民大会堂会见王丹、吾尔开希等学生代表；19 日凌晨赵紫阳到广场看望绝食学生，说“我们来得太晚了”。
   people: [wang-dan, li-peng, zhao-ziyang, liu-xiaobo, yan-jiaqi]
   voices:
     - { voice: officialLater, text: 发动了一场历时7天、前后有3000多人参加的大绝食，从此长期占据了天安门广场（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
     - { voice: officialLater, text: 在长达7天的绝食期间，没有发生一起学生因绝食而死亡的事件（同一报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
-  cites: [ws-1989-06-30-chen-xitong-report]
+    - { voice: doc, text: 第二，要求政府为这次学生运动正名，并给予公正评价，肯定这是一场爱国民主的学生运动（1989 年 5 月 13 日《绝食宣言》，据油印传单）, cite: cnd-1999-hunger-strike-declaration, quote: true }
+    - { voice: doc, text: 我们不想死，我们想好好地活着，因为我们正是人生最美好之年龄（同日北京大学绝食团《绝食书》）, cite: cnd-1999-hunger-strike-declaration, quote: true }
+  cites: [ws-1989-06-30-chen-xitong-report, cnd-1999-hunger-strike-declaration]
 
 - id: 1989-05-20-martial-law
   date: 1989-05-20
