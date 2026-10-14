@@ -26,6 +26,18 @@ web:
     start: 各位亲爱的同胞，在继前几次声势浩大的游行示威活动之后
     end: 北京大学绝食团全体同学
     unwrap: true
+  - id: cnd-2009-zhao-ziyang-fourth-plenum
+    title: 十三届四中全会上的发言
+    date: 1989-06-23
+    author: 赵紫阳
+    kind: speech
+    tier: 1
+    alias: 赵紫阳《在十三届四中全会上的发言》（1989 年 6 月 23 日，华夏快递 2009 年转载）
+    url: http://hx.cnd.org/2009/06/08/%E8%B5%B5%E7%B4%AB%E9%98%B3%E5%85%B3%E4%BA%8E%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6%E7%9A%84%E8%87%AA%E8%BE%A9%E5%8F%91%E8%A8%80/
+    via: CND 华夏快递（2009 年 6 月 8 日读者推荐，题作《赵紫阳关于“六四”事件的自辩发言》）
+    note: 赵紫阳在撤销其职务的全会上的申辩；日期据转载本题下所署。网页转录，未核会议印发件。
+    start: 这次党的十三届四中全会将对我的问题做出组织处理
+    end: 我今天就着重对这两个指责提出申辩，希望予以考虑。
   - id: aisixiang-2008-han-gang-hua-guofeng
     title: 还原华国锋——关于华国锋的若干史实
     date: 2008-11-14

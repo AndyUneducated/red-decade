@@ -28,7 +28,8 @@
     - { voice: officialLater, text: 《人民日报》4月26日的社论，体现了政治局常委的决定和邓小平同志的讲话精神，指明了动乱的性质（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
     - { voice: doc, text: 常委并报小平同志，我完全同意小平同志就对付当前动乱问题所作出的决策（赵紫阳在朝鲜访问时给中央的回电，李鹏 6 月报告引）, cite: ws-1989-06-zhao-errors-report, quote: true }
     - { voice: officialLater, text: 但是，只过了两天，他突然改变了态度，指责根据常委决定写的《人民日报》社论定性错误，提出要加以纠正（李鹏 6 月报告，指赵紫阳 5 月 3 日起的态度）, cite: ws-1989-06-zhao-errors-report, quote: true }
-  cites: [ws-1989-06-30-chen-xitong-report, ws-1989-06-zhao-errors-report]
+    - { voice: doc, text: 与当时这个想法联系，我还觉得4月26日社论有个问题，就是没有肯定多数人的主流，而是从整体上做了一个多数人难以接受的笼统的敌我矛盾性质的定性（赵紫阳 6 月 23 日在四中全会上的申辩）, cite: cnd-2009-zhao-ziyang-fourth-plenum, quote: true }
+  cites: [ws-1989-06-30-chen-xitong-report, ws-1989-06-zhao-errors-report, cnd-2009-zhao-ziyang-fourth-plenum]
 
 - id: 1989-05-13-hunger-strike
   date: 1989-05-13
@@ -58,7 +59,8 @@
     - { voice: officialLater, text: 在极端紧急的情况下，中共中央、国务院断然决定于20日上午10时起在首都部分地区实行戒严（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
     - { voice: officialLater, text: 赵紫阳同志顽固坚持同中央正确决策相对立的错误立场，既不同意和李鹏同志一道在大会上发表讲话，也不同意主持大会，甚至连出席一下大会都不同意（同一报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
     - { voice: doc, text: 每一位全国人大常委会委员，每一位全国人大代表，投下神圣的一票，废除戒严令，罢免李鹏总理职务（严家其、包遵信文章，陈希同报告引述）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
-  cites: [ws-1989-06-30-chen-xitong-report, ws-1989-06-zhao-errors-report]
+    - { voice: doc, text: 我表示：有决策比没有决策好，但我非常担心它将带来的严重后果。由我来组织执行这个决策很难得力（赵紫阳 6 月 23 日在四中全会上追述 5 月 17 日常委会上的表态）, cite: cnd-2009-zhao-ziyang-fourth-plenum, quote: true }
+  cites: [ws-1989-06-30-chen-xitong-report, ws-1989-06-zhao-errors-report, cnd-2009-zhao-ziyang-fourth-plenum]
 
 - id: 1989-06-04-crackdown
   date: 1989-06-03
@@ -87,9 +89,11 @@
   title: 十三届四中全会：撤销赵紫阳全部职务，江泽民任总书记
   lane: center
   weight: 3
-  summary: 全会认定赵紫阳“犯了支持动乱和分裂党的错误”，撤销其总书记、常委、政治局委员、中央委员和军委第一副主席职务，“对他的问题继续进行审查”；选举江泽民为总书记，增选江泽民、宋平、李瑞环为政治局常委。此后各地开始清查，参与学潮的人被逮捕、通缉或流亡。
+  summary: 全会认定赵紫阳“犯了支持动乱和分裂党的错误”，撤销其总书记、常委、政治局委员、中央委员和军委第一副主席职务，“对他的问题继续进行审查”；选举江泽民为总书记，增选江泽民、宋平、李瑞环为政治局常委。赵紫阳在会上发言，对撤职没有意见，但对“支持动乱”“分裂党”两项指责引党章申辩。此后各地开始清查，参与学潮的人被逮捕、通缉或流亡。
   people: [zhao-ziyang, jiang-zemin, li-ruihuan, li-peng, deng-xiaoping, bao-tong]
   voices:
     - { voice: officialLater, text: 赵紫阳同志在关系党和国家生死存亡的关键时刻犯了支持动乱和分裂党的错误，对动乱的形成和发展负有不可推卸的责任（1989 年十三届四中全会公报）, cite: ws-1989-06-24-fourth-plenum, quote: true }
     - { voice: officialLater, text: 选举江泽民同志为中央委员会总书记（同一公报）, cite: ws-1989-06-24-fourth-plenum, quote: true }
-  cites: [ws-1989-06-24-fourth-plenum, ws-1989-06-zhao-errors-report]
+    - { voice: doc, text: '我对李鹏同志的报告中提出的撤销我领导职务的建议没有意见，但对我提出的”支持动乱”和”分裂党”这两项指责，我有保留意见（赵紫阳 6 月 23 日在全会上的发言）', cite: cnd-2009-zhao-ziyang-fourth-plenum, quote: true }
+    - { voice: doc, text: 我们党从来没有把在党的会议上提出不同意见，甚至表示保留意见就叫做分裂党的（同一发言）, cite: cnd-2009-zhao-ziyang-fourth-plenum, quote: true }
+  cites: [ws-1989-06-24-fourth-plenum, ws-1989-06-zhao-errors-report, cnd-2009-zhao-ziyang-fourth-plenum]
