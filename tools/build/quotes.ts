@@ -39,14 +39,15 @@ export function checkQuotes(d: Data) {
       check(doc.id, p.rebuttal, `document ${doc.id} pair ${p.point}`)
     }
 
-  // essays: a passage in “” of four characters or more is a quote from the section's sources; shorter ones are
-  // terms. ‘’ inside a passage stands for the source's “”, as in the rules above.
+  // essays and topics: a passage in “” of four characters or more is a quote from the section's sources;
+  // shorter ones are terms. ‘’ inside a passage stands for the source's “”, as in the rules above.
   const claimById = new Map(d.claims.map((c) => [c.id, c]))
-  for (const e of d.essays)
-    for (const s of e.sections) {
-      const ids = new Set([...s.cites, ...s.claims.flatMap((id) => claimById.get(id)?.evidence.map((x) => x.cite) ?? [])].map((c) => c.split('@')[0]))
-      const bodies = [...ids].flatMap((id) => (d.texts.has(id) ? [d.texts.get(id)!] : []))
-      for (const [, q] of s.text.matchAll(/“([^“”]+)”/g))
-        if ([...q].length >= 4 && !bodies.some((b) => !quoteMisses(b, q).length)) errors.push(`essay ${e.id} ${s.h}: quote not found in the section's sources: "${q.slice(0, 40)}"`)
-    }
+  const prose = (where: string, s: { h: string; text: string; cites: string[]; claims?: string[] }) => {
+    const ids = new Set([...s.cites, ...(s.claims ?? []).flatMap((id) => claimById.get(id)?.evidence.map((x) => x.cite) ?? [])].map((c) => c.split('@')[0]))
+    const bodies = [...ids].flatMap((id) => (d.texts.has(id) ? [d.texts.get(id)!] : []))
+    for (const [, q] of s.text.matchAll(/“([^“”]+)”/g))
+      if ([...q].length >= 4 && !bodies.some((b) => !quoteMisses(b, q).length)) errors.push(`${where} ${s.h}: quote not found in the section's sources: "${q.slice(0, 40)}"`)
+  }
+  for (const e of d.essays) for (const s of e.sections) prose(`essay ${e.id}`, s)
+  for (const t of d.topics) for (const s of t.sections) prose(`topic ${t.id}`, s)
 }

@@ -4301,6 +4301,12 @@ sources/ywang-zheng-junli
 sources/zhdsb-2014-yang-rongguo
 sources/zhou-chronicle-1949
 sources/zou-yimin-yao-dengshan
+topics/class-status
+topics/dissent
 topics/ethnic-religion
+topics/famine
 topics/global
 topics/hk-macau-taiwan
+topics/mass-violence
+topics/redress
+topics/send-down

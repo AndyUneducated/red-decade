@@ -137,6 +137,8 @@ export function check(d: Data) {
   for (const t of d.topics) {
     t.cites.forEach((c) => needCite(c, `topic ${t.id}`))
     t.sections.forEach((s) => s.cites.forEach((c) => needCite(c, `topic ${t.id} ${s.h}`)))
+    t.events.forEach((id) => need(ids.event, id, `topic ${t.id} events`))
+    t.claims.forEach((id) => need(new Set(d.claims.map((c) => c.id)), id, `topic ${t.id} claims`))
     if (!d.events.some((e) => e.topics.includes(t.id))) errors.push(`topic ${t.id}: no events`)
   }
   const archiveIds = new Set<string>()

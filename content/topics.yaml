@@ -1,4 +1,5 @@
-# 横向专题（M7）。专题只写框架文字；事件和研究结论用各自的 topics 字段加入专题。
+# 横向专题（M7）。专题只写框架文字；事件和研究结论用各自的 topics 字段，或专题的 events / claims 清单加入专题。
+# 正文中四字以上的“”引文须见于该段 cites 所列原文（构建时核对）。
 - id: ethnic-religion
   name: 民族与宗教
   from: 1949
@@ -9,7 +10,7 @@
       text: 1952 年的《民族区域自治实施纲要》和民族民主联合政府决定，1984 年的《民族区域自治法》，是这个专题的两端。中间的西藏自治区（1965）和各自治区革委会（1967–1968）都在这个框架内设立。
       cites: [ws-1952-02-22-national-coalition, ws-1965-08-25-tibet-region]
     - h: 文革中的边疆
-      text: 1966 年 9 月中央电报要求伊犁、塔城等边境地区不采取群众直接“罢官”的办法，理由是“不使苏修有机可乘”；但内蒙古“内人党”案和“新疆叛徒集团”案说明，边疆并没有因此免于清查。
+      text: 1966 年 9 月中央电报要求伊犁、塔城等边境地区不采取群众直接“罢官”的办法，理由是“不使苏修有机可乘”；但内蒙古“内人党”案和新疆所谓叛徒集团案说明，边疆并没有因此免于清查。
       cites: [ws-1967-border-areas, ws-1968-04-26-neirendang-report]
     - h: 宗教
       text: 1982 年中央 19 号文件是库内唯一系统回顾宗教政策的文件。它说文革中“根本取消了党对宗教的工作”，各种宗教的活动场所“解放初总共约有十万多所”，1982 年连同简易活动点“约有三万多所”；又说强行禁止的结果，“却使宗教活动在秘密和分散的状态下得到某些发展”。
@@ -30,7 +31,7 @@
       text: 1967 年香港的“反英抗暴”与沙头角枪战、北京火烧英国代办处，是文革波及港英的一组事件。
       cites: [ws-1967-08-hk-british, rmrb-1967-07-10-hk-border]
     - h: 两岸对照
-      text: 1958 年炮击金门时的《告台湾同胞书》与 1979 年元旦的《告台湾同胞书》用同一题目写出了不同的政策，却共用一个前提：国民党当局自己也坚持“一个中国”。台湾一侧，库内有蒋介石 1954 年号召“配合国军反攻”的国庆文告和 1974 年给中华文化复兴运动的致词，后者与大陆同年的批孔正好相反。
+      text: 1958 年炮击金门时的《告台湾同胞书》与 1979 年元旦的《告台湾同胞书》用同一题目写出了不同的政策，却共用一个前提：国民党当局自己也坚持“一个中国”。台湾一侧，库内有蒋介石 1954 年号召大陆同胞配合国军反攻的国庆文告和 1974 年给中华文化复兴运动的致词，后者与大陆同年的批孔正好相反。
       cites: [ws-1958-10-06-taiwan-1, ws-1979-01-01-taiwan-message, ws-1954-10-10-chiang-national-day, ws-1974-chiang-culture-renaissance]
     - h: 一国两制
       text: 1984 年中英联合声明和 1987 年中葡联合声明用几乎相同的条文安排香港、澳门的回归，“五十年不变”。两份文本的一处差别是澳门文本不提“资本主义”。
@@ -51,13 +52,178 @@
       text: 1965 年林彪的《人民战争胜利万岁》把“以农村包围城市”提升为世界范围的战略，称掌握人民战争的武器已是许多国家人民的“迫切需要”。
       cites: [ws-1965-09-03-people-war]
     - h: 外国怎样看文革
-      text: 库内的外国判断主要来自美国政府档案。1974 年 11 月美国驻北京联络处的报告转述毛泽东说八年文革“已经够了”，判断中国此时承受不起另一场文革，同时注意到邓小平已代行总理职责；1975 年的谈话记录里，毛泽东当着邓小平谈身后之事。
+      text: 库内的外国判断主要来自美国政府档案。1974 年 11 月美国驻北京联络处的报告转述毛泽东说八年文革已经够了，判断中国此时承受不起另一场文革，同时注意到邓小平已代行总理职责；1975 年的谈话记录里，毛泽东当着邓小平谈身后之事。
       cites: [frus-v18-d91, frus-v18-d124]
     - h: 印度支那
       text: 中国对柬埔寨战争的报道把西哈努克和民族统一阵线放在台前，用“农村包围城市”和“小国能够打败大国”来讲述这场战争；同一时期对缅甸，则公开支持缅共的武装斗争。
-      cites: [ws-cambodia-victorious-year, rmrb-1973-04-13-sihanouk-banquet, rmrb-1967-07-04-burma-protest]
+      cites: [ws-cambodia-victorious-year, ws-cambodia-advance, rmrb-1973-04-13-sihanouk-banquet, rmrb-1967-07-04-burma-protest]
   gaps:
     - 秘鲁“光辉道路”、印度纳萨尔派、法国毛派组织的原始文献尚未入库。
     - 1975 年金边解放、1977 年波尔布特访华的《人民日报》报道已找到版面，尚未入库。
     - 1965 年印尼“九·三〇”事件及其后的排华与中印尼断交，库内没有原始材料。
   cites: [ws-1965-09-03-people-war]
+
+- id: mass-violence
+  name: 大规模暴力
+  from: 1950
+  to: 1989
+  summary: 从建国初的镇压反革命，到文革中的抄家打人、武斗、清队和农村杀戮，再到 1980 年代整党中的“处遗”调查。这里把库内有原始文件的几次大规模暴力放在一起，看当时的文件怎样下达指标、怎样纠偏，事后的调查又怎样计数、怎样追责。
+  events: [1950-10-10-double-ten, 1951-02-20-counterrev-regulations, 1955-08-25-five-percent, 1960-02-11-xie-fuzhi-security, 1966-08-05-bian-zhongyun, 1966-08-red-august, 1966-08-23-lao-she, 1966-08-27-daxing, 1967-05-07-jinan-compound, 1967-06-06-tongling, 1968-03-25-gaozhou-posters, 1968-04-26-neirendang, 1968-05-clean-ranks, 1968-05-30-tsinghua-bathhouse, 1968-07-03-notice, 1968-07-24-notice, 1970-01-31-yida, 1970-03-05-yu-luoke-executed, 1971-02-public-security, 1983-04-guangxi-chuyi, 1983-1984-liuzhou-chuyi, 1985-03-28-lingling-principles, 1985-12-liuzhou-pref-count, 1986-daxing-831-report, 1987-03-03-dongan-report, 1987-04-03-xintian-report, 1987-05-20-jianghua-report, 1987-07-10-ningyuan-report, 1987-11-30-daoxian-report, 1989-06-04-crackdown]
+  claims: [C010, C013, C019, C026, C043, C050, C051, C053, C060]
+  sections:
+    - h: 指标与控制数字
+      text: 1950 年 10 月中共中央关于镇压反革命活动的指示批评各地在镇反中发生了“严重的右的偏向”，次年 2 月《惩治反革命条例》颁布。1955 年的肃反指示给出了一个比例：机关等人员中约百分之五是暗藏的反革命分子或其他坏分子，同时说这只是总的估计，不可机械硬套。1960 年 2 月公安部长谢富治的报告说“一九五八年捕了一百万人”，1959 年改行“少杀、少捕”，并为 1960 年拟定“捕十六万至十八万，杀三千至四千”的控制数字。
+      cites: [ws-1950-10-10-suppress-directive, ws-1951-02-20-counterrev-regulations, ws-1955-08-25-purge-hidden, ws-1960-02-11-xie-fuzhi-security]
+    - h: 红八月与按出身划界
+      text: 1966 年 8 月的“破四旧”得到官方公开背书，《人民日报》社论说红卫兵“正在横扫一切剥削阶级的旧思想、旧文化、旧风俗、旧习惯的灰尘”。西城纠察队的通令按出身划定查抄对象：“不是黑六类的家一律不查！国家负责干部的家绝对不许查！”同月底，大兴县十余个公社集体杀戮四类分子及其家属，1986 年县委的调查记几天内打杀 324 人。两年后，广东高州的陈焯在大字报里写下当地“滥捕滥杀成风”。
+      cites: [ws-1966-08-23-very-good, ws-1966-08-xicheng-4, ccrd-1986-bj-daxing-0, ws-gaozhou-chen-zhuo]
+    - h: 武斗、清队与“一打三反”
+      text: 1967 年 6 月的六六通令规定除专政机关外“任何团体和个人，都不准抓人”，当年夏天武斗反而升级。1968 年 7 月的布告要求广西“立即停止武斗，拆除工事，撤离据点”，随后的围剿中南宁、桂林等地出现大规模杀戮。同年铺开的清理阶级队伍和内蒙古“内人党”案，1980 年起诉书称后者使“三十四万六千多名干部、群众遭到诬陷、迫害”。1970 年的“一打三反”要求对反革命破坏活动“稳、准、狠地予以打击”，遇罗克就是在这场运动中被判处死刑的。
+      cites: [ws-1967-06-06-tongling, ws-1968-07-03-notice, rmrb-1968-11-02-twelfth-plenum, ws-1980-indictment, ws-1970-01-31-yida, rmrb-1970-10-01-national-day, ws-1970-yu-luoke-death-sentence]
+    - h: 事后的计数
+      text: 库内多数县级死亡数字产生于 1983–1987 年的整党和处遗。道县的总结写 1967 年秋六十六天里“全县共死亡 4509 人，其中被杀 4070 人，被迫自杀 439 人”；柳州地区 1985 年统计全区文革中“被迫害致死的6323人”。数字随调查推进而上升：灌阳县 1982 年 5 月上报 241 人非正常死亡，同年 12 月县处遗办公室的统计是 304 人。1985 年零陵地委定下的处理原则是“宜粗不宜细，宜宽不宜严，宜少不宜多”。
+      cites: [ccrd-1987-hn-daoxian-15, ccrd-1987-gx-liuzhou-pref-47, ccrd-1987-gx-guanyang-31, ccrd-1985-hn-lingling-daoxian-13]
+    - h: 定论里的空白
+      text: 1981 年《历史决议》没有出现“红卫兵”“抄家”“武斗”等词，只说初期卷入运动的大多数人“不赞成对党的各级领导干部进行残酷斗争”；1980 年起诉书把死亡归于林彪、江青两个集团。以出身为界、针对普通居民的暴力，在两份定论里都没有位置（见结论 C013、C026）。
+      cites: [ws-1981-resolution, ws-1980-indictment]
+  gaps:
+    - 广西 1968 年布告之后的杀戮，库内只有布告本身和柳州、灌阳等少数县市的事后统计，没有自治区一级的汇总。
+    - 土地改革和镇压反革命中的死亡人数，库内没有原始统计。
+    - 清理阶级队伍的全国受害人数至今没有公布。
+    - 1989 年 6 月的死亡人数，库内只有各方说法并列，见该事件。
+  cites: [ws-1980-indictment, ccrd-1987-hn-daoxian-15]
+
+- id: famine
+  name: 大饥荒
+  from: 1958
+  to: 1962
+  summary: 1959–1961 年的大饥荒在库内主要由三类文件构成：大跃进时期的产量公报和征购指示，河南信阳地区事后的整风报告、检查和处分决定，以及中央的纠偏文件。这里把它们放在一起，看浮夸的产量怎样变成征购任务，死亡怎样被瞒报、又怎样被揭发。
+  events: [1957-06-17-guangxi-famine-punishment, 1958-general-line, 1958-chayashan-commune, 1958-liuzhuang-satellite-field, 1958-08-29-communes, 1959-04-18-zhou-gov-report, 1959-07-14-peng-letter, 1959-08-16-eighth-plenum, 1959-1961-hardship, 1959-11-08-luoshan-five-counties, 1959-11-13-luoshan-seed-grain, 1959-11-25-zhangfan-longtang, 1959-12-17-xu-wenbo-five-passes, 1960-08-26-shangcheng-self-criticism, 1960-09-07-huangchuan-conclusion, 1960-09-07-lower-grain-ration, 1960-11-03-urgent-letter, 1960-12-22-xinyang-rectification, 1961-01-ninth-plenum, 1961-06-15-sixty-revised, 1961-06-16-urban-population-check, 1962-01-seven-thousand, 1962-04-23-xu-wenbo-punishment, 1962-05-27-cut-urban-population, 1962-09-sixty-articles]
+  claims: [C038, C039, C040, C041, C042, C045, C047]
+  sections:
+    - h: 产量与征购
+      text: 1959 年 4 月的统计公报宣布 1958 年粮食“比上年增长了一倍”，周恩来的政府工作报告说粮食“增加了三千八百亿斤”。四个月后八届八中全会承认“过去发表的一九五八年的农业产品产量的统计偏高”，核实为五千亿斤。在信阳商城县，县委事后检查说当年“全县粮食实际产量是一亿四千五百万斤，而按三亿五千万斤进行分配、征购和安排群众生活”。
+      cites: [rmrb-1959-04-15-stats-1958, ws-1959-04-18-zhou-gov-report, ws-1959-08-eighth-plenum, ws-1960-08-26-shangcheng-self-criticism]
+    - h: 反瞒产
+      text: 1959 年冬，信阳各县以“反瞒产”挤粮。罗山县委第一书记许文波在五县负责人会议上介绍依靠五类分子检举反瞒产的经验；他在县委扩大会上说“死人是不可抗拒的疾病，不是饿死的”。1962 年的处分决定说，此后的凡店现场会后“死人更多”。
+      cites: [ws-1962-04-23-xu-wenbo-punishment]
+    - h: 瞒报与揭发
+      text: 死亡人数的上报数与揭发数相差数倍。1960 年 12 月信阳地委的整风报告说，正阳县“原报去冬今春死一万八千多人，现初步揭发已达八万多人”，并说“越揭发越严重”。罗山县“全县实际死亡三万五千余人”，许文波 1960 年 4 月上报的是三千二百二十四人。商城县委的检查把 44756 名死者分成“因疫病死亡”和“正常死亡”，没有饿死的说法。
+      cites: [ws-1960-12-22-xinyang-rectification, ws-1962-04-23-xu-wenbo-punishment, ws-1960-08-26-shangcheng-self-criticism]
+    - h: 压低口粮与纠偏
+      text: 1960 年 9 月中共中央指示全国“立即采取压低城乡口粮标准的方针”，淮河以北农村“平均每人全年原粮三百斤左右”。11 月的紧急指示信承认“共产风”纠正得不彻底，规定“十二个月的口粮按十三个月安排”，恢复自留地。1961 年的六十条修正草案规定办不办食堂“完全由社员讨论决定”；1962 年 5 月中央决定城镇人口“再减少二千万人”。
+      cites: [ws-1960-09-07-lower-grain-ration, ws-1960-11-03-urgent-letter, ws-1961-06-15-sixty-revised, ws-1962-05-27-cut-urban-population]
+    - h: 原因的三种说法
+      text: 1961 年九中全会公报把农业减产归于“百年未有的严重自然灾害”；1962 年刘少奇在七千人大会的书面报告说，一方面是自然灾害，另一方面“在很大程度上是由于上述工作上和作风上的错误所引起的”；1981 年决议说“主要由于‘大跃进’和‘反右倾’的错误”。
+      cites: [ws-1961-01-18-ninth-plenum, ws-1962-01-27-liu-7000, ws-1981-resolution]
+  gaps:
+    - 全国死亡人数的各种估算（按官方人口统计推算的和学者的研究）尚未系统入库；库内的死亡数字只有信阳地区几个县的当时文件。
+    - 1959–1978 年间国家统计局没有公开发表年度公报，这二十年的全国产量多来自后来的回溯数字（见“经济与人口”）。
+    - 安徽、四川、甘肃等重灾省份没有原始文件入库。
+  cites: [ws-1960-12-22-xinyang-rectification, ws-1981-resolution]
+
+- id: send-down
+  name: 知青上山下乡
+  from: 1968
+  to: 1981
+  summary: 1968 年底“知识青年到农村去”的指示发表后，城镇中学毕业生被大规模送往农村和边疆兵团。库内的材料多是当时的宣传和经验文章，也有 1973 年中央处理迫害知青案件的通报、推荐入学制下的招生文件，和 1981 年安置城镇待业人员的决定。
+  events: [1966-06-13-exam-postponed, 1968-10-05-may-seventh-schools, 1968-12-22-send-down, 1969-08-15-jin-xunhua, 1970-zhiqing-reeducation, 1970-06-enrollment, 1971-zhiqing-line, 1973-bingtuan-case, 1973-enrollment, 1973-08-07-zhiqing-editorial, 1973-08-10-zhang-tiesheng, 1974-enrollment, 1981-urban-employment]
+  claims: [C032, C033]
+  sections:
+    - h: 指示与动员
+      text: 1968 年 12 月 22 日《人民日报》发表毛泽东的话：“知识青年到农村去，接受贫下中农的再教育，很有必要”。1970 年的文章把下乡说成“不是单纯安置劳动力的临时措施”；一个大队的经验说，不能光看他“脸晒黑了，更重要的是看他心炼红了没有”。
+      cites: [rmrb-1968-12-22-two-hands, ws-1970-zhiqing-work, ws-1970-zhiqing-yifenwei]
+    - h: 典型与规模
+      text: 1969 年在黑龙江山洪中溺亡的上海知青金训华被树为“革命青年的榜样”。官方对下乡人数的说法逐年上升：1973 年社论说“几百万青年学生”，1975 年政府工作报告说“近千万知识青年上山下乡”。
+      cites: [ws-1969-jin-xunhua, rmrb-1969-12-06-jin-xunhua, rmrb-1973-08-07-zhiqing-editorial, ws-1975-01-13-zhou-report]
+    - h: 1973 年的处理
+      text: 1973 年国务院、中央军委通报黑龙江兵团两名干部迫害女知青案并判处二人死刑，承认这类案件“在其他地方也有发生，有的相当严重”，云南兵团有的团“捆绑吊打成风”。但通报把作案者定为“林彪修正主义路线的余孽”，同时重申上山下乡是“毛主席革命路线的伟大胜利”；同年 8 月的社论把“变相劳改”一类说法归为“反动谬论”。
+      cites: [ws-1973-bingtuan-case, rmrb-1973-08-07-zhiqing-editorial]
+    - h: 招生与回城
+      text: 高校 1966 年停止招生后，1970 年改行推荐入学，要“废除修正主义的招生考试制度”；1973 年张铁生交“白卷”的信见报，次年的招生意见把“闭卷考试”“凭分录取”当作修正主义路线的表现。知青返城之后，城镇待业成了问题，1981 年中共中央、国务院的决定说“近三年来安置了二千多万人就业”。
+      cites: [ws-1970-06-27-enrollment, rmrb-1973-08-10-zhang-tiesheng, ws-1974-enrollment, ws-1981-urban-employment]
+  gaps:
+    - 1978–1979 年云南等地知青请愿、返城的原始文件尚未入库。
+    - 下乡总人数（事件条目中“一千六百多万”的说法）尚无入库的官方统计出处。
+    - 知青本人的书信、日记一类材料库内很少。
+  cites: [rmrb-1968-12-22-two-hands, ws-1973-bingtuan-case]
+
+- id: redress
+  name: 平反与审判
+  from: 1978
+  to: 1989
+  summary: 1978 年以后，三十年间的运动结论被逐案复查。右派改正、地富摘帽、刘少奇平反、天安门事件改定，与两案审判和各地对文革中下层执行者的起诉几乎同时进行。这里看平反的范围怎样划定，审判与平反又怎样把责任分配到不同的人身上。
+  events: [1974-09-29-he-long-rehab, 1978-03-14-tianjin-organization-meeting, 1978-04-05-rightist-caps, 1978-06-30-cao-yu-rehab, 1978-06-30-shi-chuanxiang, 1978-09-17-rightist-correction, 1978-11-tiananmen-rehab, 1978-11-26-wuhan-720-rehab, 1978-12-third-plenum, 1979-01-landlord-caps, 1979-yu-luoke-acquittal, 1979-12-hua-linsen-sentenced, 1980-02-fifth-plenum, 1980-09-29-hu-feng-rehab, 1980-11-20-special-court, 1980-11-20-indictment-victims, 1982-02-09-liu-zhang-indicted, 1982-04-liu-yinnong-indicted, 1982-hunan-rebels-tried, 1982-07-shanghai-cases, 1982-11-guizhou-cases, 1983-06-court-review-figures, 1983-10-11-party-rectification, 1983-11-02-zhao-dengcheng-sentenced, 1983-11-02-qi-jinghe-sentenced, 1983-11-02-liu-qingtang-sentenced, 1984-liandong-rehab, 1984-chuyi-compensation-gx, 1985-03-28-lingling-principles, 1985-06-wei-heng-rehab, 1988-cr-books-rules]
+  claims: [C035, C044, C048, C049, C052, C054, C055, C057, C061]
+  sections:
+    - h: 摘帽与改正
+      text: 1978 年 4 月中央批准把右派帽子全部摘掉，但通知仍称反右是“一场伟大的政治战线和思想战线上的革命”，报告也说一般不搞甄别平反。半年后中发〔1978〕55 号文件改口：“已经发现划错了的，尽管事隔多年，也应予以改正”。1979 年 1 月，地主、富农分子经群众评审“一律摘掉帽子”。1980 年统战部的复查报告说反右“确实犯了扩大化的错误”，但章伯钧、罗隆基等五人维持原案。
+      cites: [ws-1978-04-05-cc-notice, ws-1978-04-rightist-caps-report, ws-1978-09-17-cc-notice, ws-1979-01-landlord-caps, ws-1980-05-08-rightist-review]
+    - h: 定性的改写
+      text: 天安门事件的定性改写了三次：1976 年《人民日报》称之为“有预谋、有计划、有组织地制造反革命政治事件”，1978 年三中全会改定为“完全是革命行动”，1981 年决议才写明“中央政治局和毛泽东同志对天安门事件的性质作出了错误的判断”。刘少奇 1980 年平反；胡风案同年被定为错案，但复查报告仍保留“错误言论、宗派活动”的说法。
+      cites: [rmrb-1976-04-08-tiananmen, ws-1978-12-third-plenum, ws-1981-resolution, ws-1980-02-29-liu-rehab, cpc-1980-09-29-hu-feng-rehab]
+    - h: 两案与下层执行者
+      text: 1980 年 11 月至 1981 年 1 月，特别法庭审理林彪、江青集团案主犯，江青被判处死刑、缓期二年执行。此后各地起诉本地的执行者：上海王秀珍、徐景贤 1982 年 6 月 26 日同日被起诉，北京赵登程、齐景和、刘庆棠 1983 年 11 月 2 日同日判决。苏州的华林森早在 1979 年底就以反革命罪被判刑。
+      cites: [ws-1981-01-25-judgment, ws-1982-08-21-wang-xiuzhen-case, ws-1982-xu-jingxian-case, ws-1983-zhao-dengcheng-case, ws-1983-qi-jinghe-case, ws-1983-liu-qingtang-case, ws-1979-hua-linsen-case]
+    - h: 规模与原则
+      text: 最高法院 1983 年报告，复查文革刑事案件的原则是“全错的全平，部分错的部分平，不错的不平”，到 1981 年底“改判纠正了冤、假、错案三十万零一千余件，涉及当事人三十二万六千余人”。同一时期的“严打”，1983 年 8 月到 1986 年底判决一百七十二万余人。对文革暴力的处理把组织与个人分开：“联动”“西纠”彻底平反，其中“极少数犯有严重错误或罪行的人”按清理“三种人”的规定处理。
+      cites: [ws-1983-06-supreme-court-report, ws-1987-04-supreme-court-report, ws-1984-liandong-rehab, ws-1983-10-11-party-rectification]
+    - h: 不彻底与宜粗不宜细
+      text: 平反常要做两次。贺龙 1974 年恢复名誉，1982 年的文件说那次平反“是不彻底的”；“联动”“西纠”1979 年已由北京市公安局平反，1984 年再发文，理由是当时“对彻底否定‘文化大革命’的思想界限不清”。另一方面，1988 年中宣部、新闻出版署以“历史问题宜粗不宜细”为由限制文革图书的出版。
+      cites: [ws-1982-he-long-rehab, ws-1984-liandong-rehab, ws-1988-cr-books-rules]
+  gaps:
+    - 各地平反、改正的完整人数常在流传的文件中隐去（如 1979 年右派改正人数写作“××万余人”）。
+    - 1980 年代被起诉的造反派头头只有少数判决书入库，辩护与上诉材料更少。
+    - 胡风案 1988 年的彻底平反文件未入库。
+  cites: [ws-1983-06-supreme-court-report, ws-1981-resolution]
+
+- id: dissent
+  name: 异见与思想审判
+  from: 1955
+  to: 1989
+  summary: 从胡风案和反右，到遇罗克、林昭、杨曦光，再到西单民主墙、批判《苦恋》和反对资产阶级自由化，这四十年里有人写下与官方不同的看法，并因此受到处分或审判。这里收集库内这些文本本身，以及给它们定罪、后来又改判的文件。
+  events: [1955-07-01-sufan, 1957-06-08-anti-rightist, 1957-10-15-rightist-criteria, 1959-07-14-peng-letter, 1959-08-16-eighth-plenum, 1964-economics-institute-four-cleanups, 1967-01-18-origin-theory, 1967-10-shengwulian, 1968-01-whither-china, 1968-03-25-gaozhou-posters, 1968-04-29-lin-zhao-executed, 1970-03-05-yu-luoke-executed, 1976-04-05-tiananmen, 1978-12-05-fifth-modernization, 1979-yu-luoke-acquittal, 1979-10-16-wei-jingsheng-sentenced, 1980-09-29-hu-feng-rehab, 1981-bitter-love, 1986-09-28-spiritual-civilization, 1987-01-anti-liberalization, 1987-01-28-anti-liberalization-notice, 1989-04-15-hu-death, 1989-05-13-hunger-strike]
+  claims: [C005, C035, C044, C058]
+  sections:
+    - h: 鸣放与反右
+      text: 1957 年 6 月 8 日的中共中央指示要求组织各党派座谈，“正反两面意见都让其暴露”，并“巧妙地推动左中分子发言，反击右派”。1980 年统战部的复查报告说全国共划右派“五十五万余人”。1959 年彭德怀在庐山写给毛泽东的信，被八届八中全会定为“右倾机会主义分子向党进攻的纲领”。
+      cites: [ws-1957-06-08-counter-rightists, ws-1980-05-08-rightist-review, ws-1959-08-16-peng-resolution]
+    - h: 文革中的异端
+      text: 遇罗克的《出身论》批评血统论“偷换了概念”，为的是转移“斗争的方向”；杨曦光的《中国向何处去？》主张像巴黎公社那样另建政权，“省无联”随即被定为反革命组织。两人一个 1970 年被判处死刑，一个被判刑十年。林昭 1968 年在上海被枪决，判决书写的是“判处反革命犯林昭死刑，立即执行”。
+      cites: [ws-1967-yu-origin-theory, ws-1967-12-21-shengwulian-decision, ws-1970-yu-luoke-death-sentence, ws-1968-04-19-lin-zhao-death-sentence]
+    - h: 民主墙
+      text: 1978 年冬西单墙上出现大字报和民间刊物。魏京生的《第五个现代化》写道：“人民的民主、自由与幸福，是我们实现现代化的唯一目的”。1979 年 10 月他被判处有期徒刑十五年，新华社的报道说他的文章“有的在西单墙上张贴；有的登在他主编的名为《探索》的反动刊物上”。同年遇罗克被改判无罪，再审判决说原判“从认定的事实和适用法律上都是错误的”。
+      cites: [wjs-1978-fifth-modernization, rmrb-1979-10-17-wei-jingsheng-trial, ws-1979-yu-luoke-acquittal]
+    - h: 资产阶级自由化
+      text: 1981 年文化部的报告点名批判《苦恋》，要求“立场坚定、旗帜鲜明地进行批评和必要的斗争”。1986 年的精神文明决议把资产阶级自由化界定为“否定社会主义制度、主张资本主义制度”；1987 年初王若望、方励之、刘宾雁被开除党籍，胡耀邦辞职，中央通知说这场斗争“严格限于党内”，“不搞政治运动”。两年后学生的要求之一，就是为这次运动中受处分的人平反。
+      cites: [ws-1981-culture-ministry-report, ws-1986-09-28-spiritual-civilization, rmrb-1987-01-15-wang-ruowang, rmrb-1987-01-25-liu-binyan, rmrb-1987-01-17-politburo, ws-1987-01-deng-student-unrest, ws-1989-06-30-chen-xitong-report]
+  gaps:
+    - 胡风的“三十万言书”、林昭的狱中文字、李一哲大字报（1974）尚未入库。
+    - 民主墙时期的民间刊物（《探索》《北京之春》《四五论坛》）只有魏京生一篇大字报入库。
+    - 方励之、刘宾雁、王若望本人的讲演和文章没有入库，库内只有处分决定。
+  cites: [ws-1967-yu-origin-theory, wjs-1978-fifth-modernization]
+
+- id: class-status
+  name: 出身与成分
+  from: 1950
+  to: 1984
+  summary: 土改时划定的阶级成分，此后三十年决定了一个人和他子女的处境：运动中的打击对象、抄家的范围、升学和招工的资格。这里沿着这条线看成分怎样划定、怎样变成打击对象的名单，又在 1979 年怎样在文件上取消。
+  events: [1950-06-land-reform-law, 1950-08-04-class-status, 1957-09-04-no-rightists-workers, 1966-08-red-august, 1966-08-27-daxing, 1967-01-18-origin-theory, 1968-03-25-gaozhou-posters, 1970-03-05-yu-luoke-executed, 1979-yu-luoke-acquittal, 1979-01-landlord-caps, 1987-03-03-dongan-report, 1987-05-20-jianghua-report, 1987-11-30-daoxian-report]
+  claims: [C005, C026, C051]
+  sections:
+    - h: 划定
+      text: 1950 年 6 月的《土地改革法》和 8 月政务院划分农村阶级成份的决定，规定了地主、富农、中农、贫农等的划分标准，并允许守法劳动满五年的地主经批准改变成份。高州林氏兄弟 1968 年的申诉则说，土改工作队以“地主富农的户数要达到总农户的百分之八”为指标改划了他们的成分。
+      cites: [ws-1950-06-30-land-reform-law, ws-1950-08-04-class-status, ws-1969-03-01-gaozhou-lin]
+    - h: 从成分到打击名单
+      text: 1966 年 8 月西城纠察队的通令以出身划定抄家对象，“不是黑六类的家一律不查”。遇罗克的《出身论》批评这种做法让斗争的矛头离开了“党内走资本主义道路的当权派”。1967 年的道县，县委总结把死者分为四类分子、地富子女和其他三类，“分别占总数的 43.8%、47.8%、8.6%”；但邻近的东安县，死者中贫下中农占到三成以上。
+      cites: [ws-1966-08-xicheng-4, ws-1967-yu-origin-theory, ccrd-1987-hn-daoxian-15, ccrd-1987-hn-dongan-17]
+    - h: 被管制一方的声音
+      text: 库内唯一出自被管制一方的当时记录，是高州陈焯 1968 年的大字报：“很多地方的五类分子及其子孙已被杀绝”。他要求“立即解放地主富农”，被以“大肆煽动五类分子起来造我无产阶级的反”判处有期徒刑二十年。
+      cites: [ws-gaozhou-chen-zhuo]
+    - h: 取消
+      text: 1979 年 1 月的中发〔1979〕5 号文件规定，地富反坏分子经群众评审“一律摘掉帽子，给予农村人民公社社员的待遇”，地富子女的成份不再算地富。公安部党组后来统计，文件发出前全国有地富反坏分子“六百一十四万余名”；此后“不再采用戴帽子的处理办法”。
+      cites: [ws-1979-01-landlord-caps, ws-1983-four-classes-caps]
+  gaps:
+    - 城市中的资本家、小业主等成分，以及招工、升学中的政审规定，库内缺少原始文件。
+    - 1950 年代土改复查与改划成分的地方材料没有入库。
+  cites: [ws-1950-08-04-class-status, ws-1979-01-landlord-caps]

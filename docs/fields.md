@@ -386,6 +386,8 @@
 | `from` | 起，日期，YYYY、YYYY-MM 或 YYYY-MM-DD，只写到原文能确定的精度 |
 | `to` | 止，日期，YYYY、YYYY-MM 或 YYYY-MM-DD，只写到原文能确定的精度 |
 | `summary` | 概述 |
+| `events` | 由专题一侧列入的事件 id（已并入事件的 topics） |
+| `claims` | 由专题一侧列入的结论 id（已并入结论的 topics） |
 | `gaps` | 现有材料还回答不了的问题 |
 | `cites` | 出处列表（sources 的 id） |
 

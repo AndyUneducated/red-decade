@@ -459,6 +459,8 @@ export const OPEN_TABLES: OpenTable[] = [
       { key: 'from', about: `起，${DATE}` },
       { key: 'to', about: `止，${DATE}` },
       { key: 'summary', about: '概述' },
+      { key: 'events', about: '由专题一侧列入的事件 id（已并入事件的 topics）' },
+      { key: 'claims', about: '由专题一侧列入的结论 id（已并入结论的 topics）' },
       { key: 'gaps', about: '现有材料还回答不了的问题' },
       { key: 'cites', about: CITES },
     ],

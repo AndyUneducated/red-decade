@@ -32,6 +32,20 @@ export function link(d: Data) {
   }
   if (exists('.probe')) writeFileSync(path('.probe', 'org-links.txt'), report.join('\n'))
 
+  // topics list members from their own side too; unknown ids are left for check
+  const eventById = new Map(d.events.map((e) => [e.id, e]))
+  const claimById = new Map(d.claims.map((c) => [c.id, c]))
+  for (const t of d.topics) {
+    for (const id of t.events) {
+      const e = eventById.get(id)
+      if (e && !e.topics.includes(t.id)) e.topics.push(t.id)
+    }
+    for (const id of t.claims) {
+      const c = claimById.get(id)
+      if (c && !c.topics.includes(t.id)) c.topics.push(t.id)
+    }
+  }
+
   // leaders lists name people by their usual name; those in the atlas get linked
   const personByName = new Map(d.people.map((p) => [p.name, p.id]))
   for (const o of d.orgs) {

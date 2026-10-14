@@ -457,14 +457,16 @@ export const ClaimSchema = z.object({
   history: z.array(z.object({ date: PartialDate, note: z.string() })).default([]),
 })
 
-// A cross-period theme (M7). Events and claims join a topic through their own `topics` field; the topic
-// itself holds only the framing text.
+// A cross-period theme (M7). Events and claims join a topic through their own `topics` field or through the
+// topic's `events` / `claims` lists, merged into those fields at build.
 export const TopicSchema = z.object({
   id: z.string(),
   name: z.string(),
   from: PartialDate,
   to: PartialDate.optional(),
   summary: z.string(),
+  events: z.array(z.string()).default([]),
+  claims: z.array(z.string()).default([]),
   sections: z.array(z.object({ h: z.string(), text: z.string(), cites: z.array(Cite).default([]) })).default([]),
   // what the sources in the library cannot yet answer
   gaps: z.array(z.string()).default([]),
