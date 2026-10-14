@@ -257,13 +257,16 @@
   lane: local
   weight: 3
   place: 湖南零陵
-  summary: 零陵地委向省委报告道县 1967 年杀人问题的处理意见，定下的原则是只查处“极少数”严重杀人者、团结教育绝大多数，以“平息民愤，消除隐患”和稳定局面为目标。1967 年 8–10 月道县死亡 4509 人；死者中“四类分子”1977 人、地富子女 2145 人。
-  people: []
+  summary: 零陵地委向省委报告道县 1967 年杀人问题的处理意见，定下的原则是只查处“极少数”严重杀人者、团结教育绝大多数，以“平息民愤，消除隐患”和稳定局面为目标。1967 年 8–10 月道县死亡 4509 人；死者中“四类分子”1977 人、地富子女 2145 人。参与处遗、执笔起草意见的谢承年 2009 年回忆：这份意见经省委批复成为省委〔1985〕12 号文件；1980 年胡耀邦视察零陵时说过“这样的事情不要声张了”；1985 年省委会议决定请公安部《啄木鸟》杂志不要刊登道县杀人的文章。
+  people: [hu-yaobang]
   concepts: [class-struggle, factionalism]
   voices:
     - { voice: officialLater, text: 坚持宜粗不宜细，宜宽不宜严，宜少不宜多的原则（1985 年零陵地委报告）, cite: ccrd-1985-hn-lingling-daoxian-13, quote: true }
     - { voice: officialLater, text: 既坚决慎重地查处极少数犯有严重杀人罪行的人员，又团结教育绝大多数（同一报告）, cite: ccrd-1985-hn-lingling-daoxian-13, quote: true }
-  cites: [ccrd-1985-hn-lingling-daoxian-13, ccrd-1987-hn-daoxian-15]
+    - { voice: witness, text: '我执笔起草了《关于处理道县“文革”杀人遗留问题的意见》，经省委批复，形成省委[1985]12号文件（谢承年《道县“文革”杀人遗留问题处理经过》，2009）', cite: yhcqw-xie-chengnian-daoxian, quote: true }
+    - { voice: witness, text: 现在已经13年了，这样的事情不要声张了，处理完了就算了，慢慢让它平息下去（同一文章，记 1980 年 12 月 6 日胡耀邦在零陵的话）, cite: yhcqw-xie-chengnian-daoxian, quote: true }
+    - { voice: witness, text: 会议确定由省长刘正负责，向公安部做好解释说明工作，请他们不要刊发这类文章（同一文章，记 1985 年 10 月省委常委会）, cite: yhcqw-xie-chengnian-daoxian, quote: true }
+  cites: [ccrd-1985-hn-lingling-daoxian-13, ccrd-1987-hn-daoxian-15, yhcqw-xie-chengnian-daoxian]
 
 - id: 1985-unified-purchase-reform
   date: 1985

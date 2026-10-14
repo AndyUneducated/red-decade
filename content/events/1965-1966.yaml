@@ -823,15 +823,16 @@
   lane: local
   weight: 3
   place: 上海 / 安亭
-  summary: 王洪文等成立“上海工人革命造反总司令部”，市委拒绝承认；工人卧轨安亭，沪宁线中断。张春桥赴现场签字承认其合法，越过了“工人不要离厂串连”的指示。
+  summary: 王洪文、潘国平等成立“上海工人革命造反总司令部”。据潘国平 1996 年的访谈，工人随即乘火车北上，被上海市委“锁在安亭”，现场最多时一万多人，许多人睡在列车与铁轨之间；11 月 12 日凌晨中央文革小组派张春桥到场，他起初说不了解情况，不肯承认工总司。回上海第二天，张春桥在文化广场签了五条书面协议，其中包括承认工总司是“革命的合法组织”，工人北上的后果“全部由华东局、上海市委负责”。
   people: [wang-hongwen, pan-guoping, zhang-chunqiao, cao-diqiu]
   concepts: [rebellion, two-lines]
   docs: [ws-1966-11-shanghai-wgs]
   voices:
     - { voice: doc, text: 我们上海市工人革命造反总司令部就在以毛主席为代表的无产阶级革命路线与资产阶级反动路线的大搏斗中宣告成立了！, cite: ws-1966-11-shanghai-wgs, quote: true }
-  cites: [ws-1966-11-shanghai-wgs]
-  verify: true
-  why: 工总司宣言只有成立；安亭卧轨和张春桥签字承认出自起诉书以外的党史著作，库内尚无原文
+    - { voice: witness, text: 在事件的现场最多时有一万多工人，很多人睡在列车与铁轨之间（1996 年潘国平答亚衣访谈）, cite: bjzc-1996-09-pan-guoping, quote: true }
+    - { voice: witness, text: 张春桥在上面签了字（同一访谈，指回上海第二天在文化广场的书面协议）, cite: bjzc-1996-09-pan-guoping, quote: true }
+    - { voice: witness, text: 他和“中央文革小组”代表张春桥谈判，后者签字承认了“工总司”是“革命群众组织”（2018 年魏承思《起起伏伏潘司令》）, cite: nfpeople-2018-pan-guoping, quote: true }
+  cites: [ws-1966-11-shanghai-wgs, bjzc-1996-09-pan-guoping, nfpeople-2018-pan-guoping]
 
 - id: 1966-12-05-liandong
   date: 1966-12-05
@@ -918,7 +919,12 @@
   people: [yu-luoke, yu-luowen, mou-zhijing]
   concepts: [bloodline, successor]
   docs: [ws-1967-yu-origin-theory]
-  cites: [ws-1967-yu-origin-theory]
+  voices:
+    - { voice: doc, text: 毛主席提出的革命接班人的五项条件，有出身这一条吗？（遇罗克《出身论》）, cite: ws-1967-yu-origin-theory, quote: true }
+    - { voice: witness, text: 《中学文革报》在1967年1月18日正式发行了（牟志京《〈出身论〉与〈中学文革报〉》）, cite: mou-zhijing-chushenlun, quote: true }
+    - { voice: witness, text: 我们还为《出身论》印了专刊，印数达十几万份（遇罗文 2001 年答自由亚洲电台）, cite: rfa-2001-03-03-yu-luowen, quote: true }
+    - { voice: witness, text: 戚本禹作为中央文革的重要成员，在1967年4月13日的一次讲话中，点名批判了《出身论》和《中学文革报》（牟志京文）, cite: mou-zhijing-chushenlun, quote: true }
+  cites: [ws-1967-yu-origin-theory, mou-zhijing-chushenlun, rfa-2001-03-03-yu-luowen]
 
 # ── E7 补充：1966 年边境地区与学校军训
 - id: 1966-09-07-border-areas

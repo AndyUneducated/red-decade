@@ -123,12 +123,14 @@
   lane: mass
   weight: 2
   place: 天津宝坻
-  summary: 新华社长篇通讯介绍天津宝坻县小靳庄大队（101 户、582 人）的“十件新事”：政治夜校、赛诗会等。通讯说批林批孔以来大队办了六次大型赛诗会，写诗六百多首，“全村有一百多人经常参加创作”。
-  people: []
+  summary: 新华社长篇通讯介绍天津宝坻县小靳庄大队（101 户、582 人）的“十件新事”：政治夜校、赛诗会等。通讯说批林批孔以来大队办了六次大型赛诗会，写诗六百多首，“全村有一百多人经常参加创作”。据当时在场的陈大斌 2014 年的回忆，小靳庄是天津市委推荐给江青的农村“点”，江青在村里给社员改名，连天津市委书记解学恭也被她改成“解学工”。
+  people: [jiang-qing]
   voices:
     - { voice: official1966, text: 这个只有一百零一户、五百八十二人的村庄（1974 年新华社通讯）, cite: rmrb-1974-08-04-xiaojinzhuang, quote: true }
     - { voice: official1966, text: 运动开展以来，大队举办了六次大型赛诗会，当场献诗的有一百七十多人，写出诗歌六百多首（同一通讯）, cite: rmrb-1974-08-04-xiaojinzhuang, quote: true }
-  cites: [rmrb-1974-08-04-xiaojinzhuang]
+    - { voice: witness, text: 在抓天津站这个“点”的同时，江青还要抓一个农村的“点”。天津市委便向她推荐了市属宝坻县的一个大队——林亭口公社的小靳庄大队（陈大斌《亲历江青在小靳庄的一场闹剧》，2014）, cite: people-2014-xiaojinzhuang, quote: true }
+    - { voice: witness, text: 后来，一次我看到天津市委写给江青的一份报告，解学恭真的就签上了“解学工”三个字！（同一文章，记江青给解学恭改名）, cite: people-2014-xiaojinzhuang, quote: true }
+  cites: [rmrb-1974-08-04-xiaojinzhuang, people-2014-xiaojinzhuang]
 
 - id: 1975-09-15-dazhai-conference
   date: 1975-09-15

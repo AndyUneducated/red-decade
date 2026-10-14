@@ -243,12 +243,13 @@
   lane: culture
   weight: 2
   place: 北京工人体育场
-  summary: 1966–67 年写作并油印《出身论》、反对“血统论”的遇罗克，1968 年被捕，在“一打三反”运动中于北京工人体育场公判大会上被判处死刑并立即执行，年二十七岁。1979 年北京市中级人民法院宣告无罪。
-  people: [yu-luoke, yu-luowen]
+  summary: 1966–67 年写作并油印《出身论》、反对“血统论”的遇罗克被捕（牟志京回忆是 1967 年底），在“一打三反”运动中于北京工人体育场公判大会上被判处死刑并立即执行，年二十七岁。牟志京说他起初被判刑 15 年，拒绝在判决书上签字，后来突然改判死刑。1979 年北京市中级人民法院宣告无罪。
+  people: [yu-luoke, yu-luowen, mou-zhijing]
   concepts: [bloodline]
   voices:
     - { voice: doc, text: 判处现行反革命分子遇罗克死刑，立即执行（1970 年判决书）, cite: ws-1970-yu-luoke-death-sentence, quote: true }
-  cites: [ws-1970-yu-luoke-death-sentence]
+    - { voice: witness, text: 遇罗克在1967年底被捕之后，曾被判刑15年，罗克拒在判刑书上签字，但不想忽然改判为死刑（牟志京《〈出身论〉与〈中学文革报〉》）, cite: mou-zhijing-chushenlun, quote: true }
+  cites: [ws-1970-yu-luoke-death-sentence, mou-zhijing-chushenlun]
 
 # ── E3 补充：1968 年（革委会、对外表态、教育革命、整党、工宣队）
 - id: 1968-01-01-total-victory
