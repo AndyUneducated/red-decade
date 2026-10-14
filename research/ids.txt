@@ -302,6 +302,7 @@ archive/rmrb-page-1954-11-01-1
 archive/rmrb-page-1955-09-23-2
 archive/rmrb-page-1956-06-15-2
 archive/rmrb-page-1958-02-12-1
+archive/rmrb-page-1958-10-13-7
 archive/rmrb-page-1959-04-14-2
 archive/rmrb-page-1959-04-15-2
 archive/rmrb-page-1966-05-05-2
@@ -3247,10 +3248,12 @@ sources/crt-2025-wu-guixian
 sources/czmingren-liu-jianxun
 sources/dangshi-1927-11-politburo-meeting
 sources/dangshi-2012-sun-weishi
+sources/dangshi-2016-gouba-meeting
 sources/difangwenge-tianjin-1978
 sources/ding-kaiwen-lin
 sources/dong-bian-tian-jiaying
 sources/dswxyjy-2013-ningdu-meeting
+sources/dswxyjy-2014-nanning-meeting
 sources/frus-1964-68-xxx
 sources/frus-v17-d139
 sources/frus-v17-d140
@@ -3285,6 +3288,7 @@ sources/fu-lei-1966-09-02-note
 sources/gao-wenqian-zhou
 sources/gmrb-2017-02-20-xiong-shili
 sources/gmw-2004-liang-shuming-shengping
+sources/gmw-2009-chen-boda-secretary
 sources/gpnu-liang-shuming
 sources/gu-xiaoyang-2020-mou-zhijing
 sources/hbds-lv-yulan
@@ -3294,6 +3298,7 @@ sources/huang-zheng-wang-guangmei
 sources/hybsl-2015-gao-tianding-peng-zhen
 sources/hyh-2024-blood-sacrifice-4
 sources/ifeng-2007-yang-rongguo
+sources/ifeng-2009-jiang-qing-kang-sheng
 sources/ifeng-ba-jin-xiao-shan
 sources/ifeng-qian-haoliang
 sources/ipk-mu-xin-qincheng
@@ -3357,6 +3362,7 @@ sources/rmrb-1954-11-01-census-1953
 sources/rmrb-1955-09-23-stats-1954
 sources/rmrb-1956-06-15-stats-1955
 sources/rmrb-1958-02-12-presidential-order
+sources/rmrb-1958-10-13-zhang-bourgeois-right
 sources/rmrb-1959-04-14-stats-fyp1
 sources/rmrb-1959-04-15-stats-1958
 sources/rmrb-1966-05-05-guo-moruo

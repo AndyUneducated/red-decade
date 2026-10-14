@@ -373,9 +373,9 @@
     - { date: 1924, s: rise, note: 回国，任中共广东区委委员长、黄埔军校政治部主任, cite: people-2009-zhou-chronology }
     - { date: 1927-08-01, s: rise, note: 领导南昌起义, cite: people-2009-zhou-chronology }
     - { date: 1928, s: power, note: 六大当选政治局常委，任组织部长、军委书记，在上海坚持中央领导工作至 1931 年底, cite: people-2009-zhou-chronology }
-    - { date: 1935-01, s: power, note: 遵义会议后三人军事指挥小组成员, verify: true }
+    - { date: 1935-03-12, s: power, note: 苟坝中央政治局会议决定由毛泽东、周恩来、王稼祥组成三人小组（新“三人团”），全权指挥红军军事行动, cite: dangshi-2016-gouba-meeting }
     - { date: 1949-10, s: power, note: 政务院总理兼外交部长 }
-    - { date: 1958-01, s: attacked, note: 南宁会议上“反冒进”受批评并检讨, verify: true }
+    - { date: 1958-01-19, s: attacked, note: 南宁会议上毛泽东再三批评反冒进，19 日全体大会上与刘少奇就此作自我批评, place: nanning, cite: dswxyjy-2014-nanning-meeting }
     - { date: 1958-02-11, s: power, note: 一届人大五次会议决定免去兼任的外交部部长职务，陈毅兼任；仍任总理, cite: rmrb-1958-02-12-presidential-order }
     - { date: 1967-08, s: attacked, note: “五一六兵团”散发矛头指向周的传单, verify: true }
     - { date: 1971-09, s: power, note: 林彪事件后主持中央日常工作, cite: ws-1981-resolution }
@@ -713,7 +713,7 @@
     - { date: 1927-04, s: normal, note: 4 月下旬在上海入党，随后撤往武汉，后被派往莫斯科中山大学, place: shanghai, cite: chinanews-2009-chen-boda-secretary }
     - { date: 1931-04-08, s: detained, note: 到天津当天随中共顺直省委机关一同被捕，9 月押解北平，判刑两年半，关押北平军人反省院, place: tianjin, cite: chinanews-2009-chen-boda-secretary }
     - { date: 1932, s: normal, note: 出狱；1933 年初被派往张家口吉鸿昌部队工作, cite: chinanews-2009-chen-boda-secretary }
-    - { date: 1939, s: rise, note: 任毛泽东政治秘书, verify: true }
+    - { date: 1939, s: rise, note: 毛泽东提名调到毛泽东办公室，任“中央军委主席办公室副秘书长”，此后一直任毛的政治秘书, place: yanan, cite: gmw-2009-chen-boda-secretary }
     - { date: 1956-09, s: rise, note: 八大后当选政治局候补委员, cite: rmwz-2012-chen-boda }
     - { date: 1958-06, s: power, note: 《红旗》总编辑 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组组长, cite: ws-1966-05-ccrg-list }
@@ -906,10 +906,10 @@
     - { title: 林彪同志委托江青同志召开的部队文艺工作座谈会纪要, date: 1966-02, cite: ws-1966-03-army-arts }
   factions: [ccrg]
   fate:
-    - { date: 1933, s: normal, note: 在青岛入党, verify: true }
-    - { date: 1934-10, s: detained, note: 在上海被捕，数月后出狱, place: shanghai, verify: true }
+    - { date: 1933-02, s: normal, note: 在青岛由黄敬介绍入党（叶永烈称见 1977 年中共中央有关她的专案文件）；7 月黄敬被捕后赴上海，未带组织关系, place: qingdao, cite: ifeng-2009-jiang-qing-kang-sheng }
+    - { date: 1934, s: detained, note: 在上海兆丰公园被捕，关押一个多月后由上海基督教女青年会出面保释（叶永烈：此前 9 月左翼教联党委已决定同意她重新入党）, place: shanghai, cite: ifeng-2009-jiang-qing-kang-sheng }
     - { date: 1935, s: normal, note: 出狱后在上海演剧, verify: true }
-    - { date: 1937-08, s: normal, note: 到延安, place: yanan, verify: true }
+    - { date: 1937-08, s: normal, note: 8 月下旬到延安，经中组部两个月审查恢复党籍，入中央党校学习, place: yanan, cite: ifeng-2009-jiang-qing-kang-sheng }
     - { date: 1963, s: rise, note: 介入京剧改革, verify: true }
     - { date: 1965-11-10, s: rise, note: 组织写作的姚文元文章发表, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
     - { date: 1966-02-02, s: rise, note: 主持部队文艺工作座谈会, cite: ws-1966-05-16-notice-attachment@1966-02-02 }
@@ -1006,7 +1006,7 @@
   fate:
     - { date: 1938-08, s: normal, note: 到延安后入党，长期隐瞒参加华蒂社（复兴社外围组织）的历史, cite: people-qiyi-zhang-chunqiao }
     - { date: 1949, s: rise, note: 随军南下，建国后任上海《解放日报》副总编辑、社长兼总编辑, cite: people-qiyi-zhang-chunqiao }
-    - { date: 1958-10, s: rise, note: 《破除资产阶级的法权思想》经毛泽东加按语转载, verify: true }
+    - { date: 1958-10-13, s: rise, note: 《破除资产阶级的法权思想》（原载上海《解放》半月刊第六期）由《人民日报》转载，编者按称“张文基本上是正确的，但有一些片面性”, cite: rmrb-1958-10-13-zhang-bourgeois-right }
     - { date: 1965-01, s: power, note: 上海市委书记处书记 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组副组长, cite: ws-1966-05-ccrg-list }
     - { date: 1967-02, s: power, note: 上海市革命委员会主任, cite: ws-1981-01-25-judgment }

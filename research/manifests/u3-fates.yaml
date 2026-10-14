@@ -1,0 +1,59 @@
+# U3: 1 级人物待核命运节点，第三批（2026-10-14）。
+web:
+  - id: rmrb-1958-10-13-zhang-bourgeois-right
+    title: 破除资产阶级的法权思想
+    date: 1958-10-13
+    author: 张春桥
+    kind: editorial
+    alias: 张春桥《破除资产阶级的法权思想》（《人民日报》1958-10-13 转载，附编者按）
+    url: https://cn.govopendata.com/renminribao/1958/10/13/7/
+    via: 《人民日报》1958-10-13 第 7 版（govopendata 转录）
+    article: 破除资产阶级的法权思想
+  - id: dangshi-2016-gouba-meeting
+    title: 苟坝会议让毛泽东难以忘怀
+    date: 2016-07-19
+    author: 林茂前（《福建党史月刊》）
+    kind: article
+    tier: 2
+    alias: 林茂前《苟坝会议让毛泽东难以忘怀》（人民网党史频道 2016）
+    url: http://dangshi.people.com.cn/n1/2016/0719/c85037-28564682.html
+    via: 中国共产党新闻网党史频道（《福建党史月刊》授权）
+    note: 官方党史刊物的后来叙述；网页转录，未核原刊。
+    start: 1935年3月10日至12日，长征途中
+    end: 何等难忘、何等重要。
+  - id: dswxyjy-2014-nanning-meeting
+    title: 发动“大跃进”的1958年南宁会议
+    date: 2014-12-23
+    author: 罗平汉（《党史文苑》）
+    kind: article
+    tier: 2
+    alias: 罗平汉《发动“大跃进”的1958年南宁会议》（党史和文献研究院网站 2014）
+    url: https://www.dswxyjy.org.cn/n/2014/1223/c218997-26260852.html
+    via: 中共中央党史和文献研究院网站（来源《党史文苑》）
+    note: 党史学者的后来叙述；网页转录，未核原刊。
+    start: 1958年，共和国历史上的“大跃进”之年。
+    end: 南宁会议之后，“大跃进”运动在全国迅速展开。
+  - id: gmw-2009-chen-boda-secretary
+    title: 陈伯达是怎样成为毛泽东秘书的
+    date: 2009-04-19
+    author: 赵庚文（《党史博览》2009 年第 4 期）
+    kind: bio
+    tier: 2
+    alias: 赵庚文《陈伯达是怎样成为毛泽东秘书的》（《文摘报》2009 摘自《党史博览》）
+    url: https://www.gmw.cn/01wzb/2009-04/19/content_911288.htm
+    via: 光明网《文摘报》
+    note: 传记性文章摘编；网页转录，未核原刊。
+    start: 延安初识毛泽东
+    end: (《党史博览》2009年第4期 赵庚文)
+  - id: ifeng-2009-jiang-qing-kang-sheng
+    title: 江青与促成其成为第一夫人的康生有无私密关系
+    date: 2009-11-30
+    author: 叶永烈
+    kind: bio
+    tier: 2
+    alias: 叶永烈谈江青入党与早年经历（凤凰网历史 2009）
+    url: https://news.ifeng.com/history/zhongguojindaishi/200911/1130_7180_1455893_1.shtml
+    via: 凤凰网历史频道，第 1 页
+    note: 传记作家据采访的叙述，称入党时间见 1977 年中共中央有关江青的专案文件；只取第 1 页；网页转录，未核原书。
+    start: 关于江青入党的问题
+    end: 进入中共中央党校第十二班学习。
