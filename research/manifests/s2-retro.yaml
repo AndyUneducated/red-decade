@@ -1,0 +1,57 @@
+# S2 补 R4 的回溯缺口：生铁、原煤、化肥、糖（国家统计局数据库，网页转录，未核原书）。
+# 原煤改用聚汇数据以亿吨计的一页（show-94449）：R4 弃用的以万吨计的一页（show-59144）1965 年作 33200，
+# 这一页作 2.32，与 1964、1966 年衔接。
+# 糖：聚汇数据只有 1998 年以后的统计局数，改用前瞻数据库“全国:成品糖产量”（1997 年及以前名称为糖，包括土糖）。
+web:
+  - id: nbs-retro-iron
+    title: 全国生铁生产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国生铁生产量
+    url: https://www.gotohui.com/ndata/show-94603
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国生铁生产量数据如下
+    end: '1949 25.00'
+  - id: nbs-retro-coal
+    title: 全国原煤生产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国原煤生产量
+    url: https://www.gotohui.com/ndata/show-94449
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 全国原煤生产量数据如下
+    end: '1949 0.32'
+  - id: nbs-retro-fertilizer
+    title: 中国农用氮、磷、钾化学肥料总计（折纯）生产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·化肥生产量（折纯）
+    url: https://www.gotohui.com/ndata/show-59133
+    via: 聚汇数据（gotohui.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 生产量数据如下
+    end: '1949 0.60'
+  - id: nbs-retro-sugar
+    title: 全国成品糖产量（1949 年以来逐年）
+    date: 2026-10
+    author: 国家统计局
+    kind: database
+    tier: 2
+    alias: 统计局回溯·全国成品糖产量
+    url: https://d.qianzhan.com/xdata/details/af2aa1ecd461ca40.html
+    via: 前瞻数据库（qianzhan.com）转录国家统计局数据库
+    note: 转录，未核原书
+    rows: true
+    start: 成品糖产量 的数据如下
+    end: '1949 20.00'
