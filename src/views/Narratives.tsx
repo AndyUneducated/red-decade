@@ -33,6 +33,14 @@ type Filter = keyof typeof FILTERS
 
 const MAP_ROW = 15
 const MAP_LABEL = 92
+// the periods of tools/audit.ts
+const PERIODS = [
+  [1949, 1965],
+  [1966, 1966],
+  [1967, 1969],
+  [1970, 1976],
+  [1977, 1989],
+] as const
 
 export function Narratives() {
   const { ix, sel, select } = useApp()
@@ -51,6 +59,15 @@ export function Narratives() {
   )
   const rows = voiced.filter((r) => FILTERS[filter].test(r.set))
   const counts = Object.fromEntries(COLS.map((v) => [v, voiced.filter((r) => r.set.has(v)).length])) as Record<Voice, number>
+  const cover = useMemo(
+    () =>
+      PERIODS.map(([from, to]) => {
+        const inP = ix.events.filter((e) => +e.date.slice(0, 4) >= from && +e.date.slice(0, 4) <= to)
+        const n = inP.filter((e) => FILTERS.multi.test(new Set(e.voices.map((v) => v.voice)))).length
+        return { name: from === to ? `${from}` : `${from}–${to}`, n, total: inP.length }
+      }),
+    [ix],
+  )
 
   const x = useMemo(() => {
     const ts = voiced.map((r) => toT(r.e.date))
@@ -79,6 +96,17 @@ export function Narratives() {
             同一事件，不同时间、不同立场的文本怎么说。列按写作时间排列：当时的原始文件与官方报刊 → 亲历者 → 1980 年起诉书与 1981 年决议 → 学术研究 → 本站。
             <q>引号</q>内为逐字引文（构建时与原文核对），其余为转述。空格表示本站尚未收录该类说法，不一定是原文沉默。
           </p>
+          <p className="nar-cover">
+            有两种以上声音（不计本站）的事件占比：
+            {cover.map((c) => (
+              <span key={c.name}>
+                {c.name} <b>{c.total ? Math.round((100 * c.n) / c.total) : 0}%</b>
+                <small>
+                  （{c.n}/{c.total}）
+                </small>
+              </span>
+            ))}
+          </p>
         </div>
         <div className="spacer" />
         <div className="legend">
@@ -98,20 +126,17 @@ export function Narratives() {
 
       <div className="nar-map" ref={mapRef} onMouseLeave={() => setTip(null)}>
         <svg width="100%" height={mapH} style={{ display: 'block' }}>
-          {d3.range(1965, 1968).flatMap((y) =>
-            d3.range(0, 12, 3).map((m) => {
-              const t = y + m / 12
-              if (t < x.domain()[0] || t > x.domain()[1]) return null
-              return (
-                <g key={t}>
-                  <line x1={x(t)} x2={x(t)} y1={4} y2={mapH - 18} stroke="var(--rule)" />
-                  <text x={x(t) + 3} y={mapH - 6} fontSize={10} fill="var(--muted)">
-                    {m ? `${m + 1}月` : `${y}年`}
-                  </text>
-                </g>
-              )
-            }),
-          )}
+          {d3
+            .range(Math.ceil(x.domain()[0] / 5) * 5, x.domain()[1], width < 640 ? 10 : 5)
+            .filter((y) => x(y) + 34 <= width)
+            .map((y) => (
+              <g key={y}>
+                <line x1={x(y)} x2={x(y)} y1={4} y2={mapH - 18} stroke="var(--rule)" />
+                <text x={x(y) + 3} y={mapH - 6} fontSize={10} fill="var(--muted)">
+                  {y}年
+                </text>
+              </g>
+            ))}
           {COLS.map((v, i) => (
             <g key={v} transform={`translate(0, ${6 + i * MAP_ROW})`}>
               <text x={MAP_LABEL - 8} y={MAP_ROW / 2 + 3.5} textAnchor="end" fontSize={10.5} fill={VOICE_COLOR[v]} fontWeight={600}>
