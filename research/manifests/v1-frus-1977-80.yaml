@@ -1,0 +1,60 @@
+# V1 外国档案：美国《对外关系文件》（FRUS）1977–1980 年第 13 卷（中国）。美国政府出版物，属公有领域。
+# 为 1977–1989 年事件补“外国档案”声部；正文取 history.state.gov 的文件页（`frus: true`）；date 按文件抬头的日期行。
+web:
+  - id: frus-7780v13-d125
+    title: "Intelligence Assessment Prepared in the National Foreign Assessment Center, Central Intelligence Agency (Washington, June 1978)"
+    date: 1978-06
+    kind: archive
+    alias: 美国中央情报局国家外国评估中心情报评估（1978 年 6 月）
+    url: https://history.state.gov/historicaldocuments/frus1977-80v13/d125
+    via: "FRUS 1977–1980, vol. XIII, China, Document 125（history.state.gov）"
+    frus: true
+  - id: frus-7780v13-d140
+    title: "Intelligence Assessment Prepared in the National Foreign Assessment Center, Central Intelligence Agency (Washington, October 1978)"
+    date: 1978-10
+    kind: archive
+    alias: 美国中央情报局国家外国评估中心情报评估（1978 年 10 月）
+    url: https://history.state.gov/historicaldocuments/frus1977-80v13/d140
+    via: "FRUS 1977–1980, vol. XIII, China, Document 140（history.state.gov）"
+    frus: true
+  - id: frus-7780v13-d167
+    title: "Backchannel Message From the Chief of the Liaison Office in China (Woodcock) to Secretary of State Vance and the President’s Assistant for National Security Affairs (Brzezinski) (Beijing, December 13, 1978, 1145Z)"
+    date: 1978-12-13
+    kind: archive
+    alias: 伍德科克致万斯、布热津斯基密电（1978 年 12 月 13 日，评邓小平谈判姿态）
+    url: https://history.state.gov/historicaldocuments/frus1977-80v13/d167
+    via: "FRUS 1977–1980, vol. XIII, China, Document 167（history.state.gov）"
+    frus: true
+  - id: frus-7780v13-d170
+    title: "Backchannel Message From the Chief of the Liaison Office in China (Woodcock) to Secretary of State Vance and the President’s Assistant for National Security Affairs (Brzezinski) (Beijing, December 15, 1978, 1024Z)"
+    date: 1978-12-15
+    kind: archive
+    alias: 伍德科克致万斯、布热津斯基密电（1978 年 12 月 15 日，对台军售分歧）
+    url: https://history.state.gov/historicaldocuments/frus1977-80v13/d170
+    via: "FRUS 1977–1980, vol. XIII, China, Document 170（history.state.gov）"
+    frus: true
+  - id: frus-7780v13-d208
+    title: "Memorandum of Conversation (Washington, January 30, 1979, 9:40 a.m.)"
+    date: 1979-01-30
+    kind: archive
+    alias: 卡特与邓小平第三次会谈记录（1979 年 1 月 30 日上午）
+    url: https://history.state.gov/historicaldocuments/frus1977-80v13/d208
+    via: "FRUS 1977–1980, vol. XIII, China, Document 208（history.state.gov）"
+    frus: true
+  - id: frus-7780v13-d207
+    title: "Memorandum of Conversation (Washington, January 30, 1979)"
+    date: 1979-01-30
+    kind: archive
+    alias: 卡特与邓小平椭圆形办公室单独会谈记录（1979 年 1 月 30 日）
+    url: https://history.state.gov/historicaldocuments/frus1977-80v13/d207
+    via: "FRUS 1977–1980, vol. XIII, China, Document 207（history.state.gov）"
+    frus: true
+  - id: frus-7780v13-d212
+    title: "Oral Message From Chinese Vice Premier Deng Xiaoping to President Carter"
+    date: 1979-02-15
+    kind: archive
+    alias: 邓小平致卡特口信（1979 年 2 月 15 日递交）
+    url: https://history.state.gov/historicaldocuments/frus1977-80v13/d212
+    via: "FRUS 1977–1980, vol. XIII, China, Document 212（history.state.gov）"
+    note: 文件抬头作“Washington, undated”；据编者脚注，柴泽民于 2 月 15 日上午将口信交给奥克森伯格，日期据此。
+    frus: true

@@ -28,7 +28,9 @@
   voices:
     - { voice: official1981, text: 他推行和迟迟不改正“两个凡是”（即“凡是毛主席作出的决策，我们都坚决维护，凡是毛主席的指示，我们都始终不渝地遵循”）的错误方针；压制一九七八年开展的对拨乱反正具有重大意义的关于真理标准问题的讨论（1981 年历史决议评华国锋）, cite: ws-1981-resolution, quote: true }
     - { voice: official1981, text: 这次全会坚决批判了“两个凡是”的错误方针，充分肯定了必须完整地、准确地掌握毛泽东思想的科学体系；高度评价了关于真理标准问题的讨论（同一决议评三中全会）, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1981-resolution]
+    - { voice: foreign, text: 'Teng’s differences with the collective leadership led by Hua are currently manifested in a continuing dispute over what role Maoist theory (Mao Tsetung Thought) should play in the solution of China’s problems（1978 年 10 月美国中央情报局评估）', cite: frus-7780v13-d140, quote: true }
+    - { voice: foreign, text: 'Hua has recently shifted to the right to endorse a number of Teng’s pragmatic programs designed to accelerate China’s modernization（同一评估）', cite: frus-7780v13-d140, quote: true }
+  cites: [ws-1981-resolution, frus-7780v13-d140]
 
 - id: 1978-02-fifth-npc
   date: 1978-02-26
@@ -155,11 +157,13 @@
   title: 中美建交联合公报
   lane: intl
   weight: 3
-  summary: 中美商定自 1979 年 1 月 1 日起建立外交关系，美国承认中华人民共和国政府是中国唯一合法政府，同时与台湾断交、废约、撤军，保持非官方关系。1979 年 1 月底邓小平访美。
+  summary: 中美商定自 1979 年 1 月 1 日起建立外交关系，美国承认中华人民共和国政府是中国唯一合法政府，同时与台湾断交、废约、撤军，保持非官方关系。1979 年 1 月底邓小平访美。美方档案显示，公报发表前邓小平与美国驻华联络处主任伍德科克在北京连谈数次；到 12 月 15 日双方在美国继续对台售武上仍没谈拢，邓小平同意照原定日程建交，但表示如果美方公开说要继续售武，中方会公开回应。
   people: [deng-xiaoping, hua-guofeng]
   voices:
     - { voice: doc, text: 美利坚合众国政府承认中国的立场，即只有一个中国，台湾是中国的一部分（1978 年中美建交公报）, cite: ws-1978-12-15-us-normalization, quote: true }
-  cites: [ws-1978-12-15-us-normalization]
+    - { voice: foreign, text: 'Teng opted for movement rather than legalistic quibbling over details（1978 年 12 月 13 日伍德科克致华盛顿密电，评邓小平的谈判姿态）', cite: frus-7780v13-d167, quote: true }
+    - { voice: foreign, text: 'We cannot agree on the arms sales question but we can agree to disagree（1978 年 12 月 15 日伍德科克密电，谈对台售武）', cite: frus-7780v13-d170, quote: true }
+  cites: [ws-1978-12-15-us-normalization, frus-7780v13-d167, frus-7780v13-d170]
 
 - id: 1979-01-01-taiwan-message
   topics: [hk-macau-taiwan]
@@ -208,11 +212,15 @@
   lane: army
   weight: 2
   place: 中越边境
-  summary: 解放军从广西、云南两路攻入越南北部，攻占谅山等地后于 3 月撤回。政府工作报告称之为“被迫进行了有节制的自卫还击”，同一报告号召学习“自卫还击战英雄们”。库内没有官方伤亡数字。
+  summary: 解放军从广西、云南两路攻入越南北部，攻占谅山等地后于 3 月撤回。政府工作报告称之为“被迫进行了有节制的自卫还击”，同一报告号召学习“自卫还击战英雄们”。库内没有官方伤亡数字。美方档案显示，邓小平 1 月 30 日访美时已在白宫单独向卡特说明要“教训”越南、行动“十到二十天”后撤出，卡特则念了美方立场，说孤立越南是更好的惩罚；2 月 15 日开战前两天，中方又以邓小平口信正式通知美方。
   people: [deng-xiaoping, xu-shiyou]
   voices:
     - { voice: officialLater, text: 我们在忍无可忍的情况下，被迫进行了有节制的自卫还击（1979 年政府工作报告）, cite: ws-1979-06-18-gov-report, quote: true }
-  cites: [ws-1979-06-18-gov-report]
+    - { voice: foreign, text: 'The relationship between Peking and Hanoi already has moved into a new and probably protracted stage of open political warfare and heightened military tensions（1978 年 6 月美国中央情报局评估）', cite: frus-7780v13-d125, quote: true }
+    - { voice: foreign, text: 'China must still teach Vietnam a lesson（1979 年 1 月 30 日卡特转述与邓小平的单独会谈）', cite: frus-7780v13-d207, quote: true }
+    - { voice: foreign, text: 'The action will be quick, lasting 10–20 days, to be followed by withdrawal（同一记录）', cite: frus-7780v13-d207, quote: true }
+    - { voice: foreign, text: 'We are forced to make the decision to take necessary self-defense operations against Vietnam（2 月 15 日邓小平致卡特口信，美方档案中的英文本）', cite: frus-7780v13-d212, quote: true }
+  cites: [ws-1979-06-18-gov-report, frus-7780v13-d125, frus-7780v13-d207, frus-7780v13-d212]
 
 - id: 1979-06-second-npc-adjustment
   date: 1979-06-18

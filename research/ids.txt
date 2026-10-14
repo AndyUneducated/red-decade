@@ -3258,6 +3258,13 @@ sources/dswxyjy-2013-cao-ying-rectification
 sources/dswxyjy-2013-ningdu-meeting
 sources/dswxyjy-2014-nanning-meeting
 sources/frus-1964-68-xxx
+sources/frus-7780v13-d125
+sources/frus-7780v13-d140
+sources/frus-7780v13-d167
+sources/frus-7780v13-d170
+sources/frus-7780v13-d207
+sources/frus-7780v13-d208
+sources/frus-7780v13-d212
 sources/frus-v17-d139
 sources/frus-v17-d140
 sources/frus-v17-d144
