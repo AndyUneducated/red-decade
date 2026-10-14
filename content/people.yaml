@@ -650,7 +650,7 @@
   education:
     - { school: 集美学校师范部, from: 1919, to: 1923, verify: true }
     - { school: 上海劳动大学, from: 1927, to: 1927, verify: true }
-    - { school: 莫斯科中山大学, from: 1927, to: 1930, verify: true }
+    - { school: 莫斯科中山大学, from: 1927, to: 1930, note: 1930 年底回国, cite: chinanews-2009-chen-boda-secretary }
   party: 中国共产党
   joinedParty: 1927
   positions:
@@ -661,7 +661,7 @@
     - { title: 中央文革小组组长, orgName: 中央文革小组, from: 1966-05-28, to: 1969-04, cite: ws-1981-01-25-judgment }
     - { title: 中共中央政治局常委, orgName: 中共中央政治局, from: 1966-08, to: 1970-09, note: 八、九届, cite: ws-1981-01-25-judgment }
   afterlife:
-    - { date: 1988-10, text: 刑满释放，此后在北京居住, verify: true }
+    - { date: 1988-10-17, text: 刑满（十八年刑期从 1970 年 10 月 18 日就地监禁起算）, cite: rmwz-2012-chen-boda }
   tier: 1
   role1966: 中央文革小组组长
   bio: 中共理论家，1939 年起长期任毛泽东的政治秘书，起草过大量中央文件和毛的文稿，1958 年创办《红旗》并任总编辑。文革中任中央文革小组组长、政治局常委，排名一度居第四；1970 年庐山会议上与林彪一方提出“天才论”，被毛泽东批判倒台。1981 年被判处有期徒刑十八年，1988 年刑满，次年病逝。1980 年起诉书称“横扫一切牛鬼蛇神”等社论由其“组织编写和审定”。
@@ -670,10 +670,10 @@
       from: 1904
       to: 1937
       text: |
-        1904 年 7 月 29 日生于福建惠安，原名陈建相，字尚友。在集美学校师范部读书，1924 年后到上海，曾在国民党方面任职，参加北伐。1927 年入党，同年被派往莫斯科中山大学学习，1930 年回国。1931 年在北平从事地下工作时被捕，1932 年获释。
+        1904 年 7 月 29 日生于福建惠安，原名陈建相，字尚友。在集美学校师范部读书，1924 年后到上海，曾在国民党方面任职，参加北伐。1927 年 4 月下旬在上海入党，后被派往莫斯科中山大学学习，1930 年底回国。1931 年 4 月 8 日被派到天津中共顺直省委，抵达当天随省委机关一同被捕，9 月押解北平，判刑两年半，1932 年出狱。
 
         这段经历在 1971 年被毛泽东定性：“陈伯达早期就是一个国民党反共分子。混入党内以后，又在一九三一年被捕叛变，成了特务。”此后的官方文件沿用这一说法；陈本人晚年否认“叛变”，获释经过的细节各方说法不一（待核）。1930 年代中期在北平中国大学任教，参与发起“新启蒙运动”。
-      cites: [ws-1971-12-lin-chen-material-1]
+      cites: [ws-1971-12-lin-chen-material-1, chinanews-2009-chen-boda-secretary]
       verify: true
     - h: 毛泽东的秘书
       from: 1937
@@ -695,12 +695,13 @@
       from: 1970
       to: 1989
       text: |
-        1970 年庐山会议后被审查，后关押于秦城监狱。1980–1981 年受审，是供认犯罪事实的被告之一，1981 年 1 月 25 日被判处有期徒刑十八年，剥夺政治权利五年。保外就医期间于 1988 年刑满，1989 年 9 月 20 日在北京病逝。晚年接受其子陈晓农的访谈，口述整理为《陈伯达最后口述回忆》。
-      cites: [ws-1981-01-25-judgment]
+        1970 年庐山会议后被审查，10 月 18 日起在家中被就地监禁，1976 年 9 月补办逮捕手续，后关押于秦城监狱。1980–1981 年受审，是供认犯罪事实的被告之一，1981 年 1 月 25 日被判处有期徒刑十八年，剥夺政治权利五年。保外就医期间于 1988 年刑满，1989 年 9 月 20 日在北京病逝。晚年接受其子陈晓农的访谈，口述整理为《陈伯达最后口述回忆》。
+      cites: [ws-1981-01-25-judgment, rmwz-2012-chen-boda]
       verify: true
   assess:
     - { voice: official1966, text: 陈伯达早期就是一个国民党反共分子。混入党内以后，又在一九三一年被捕叛变，成了特务, cite: ws-1971-12-lin-chen-material-1, quote: true }
     - { voice: judicial1980, text: 陈伯达控制宣传舆论工具，进行反革命宣传煽动，一九六六年提出“横扫一切牛鬼蛇神”等口号, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: scholar, text: 陈伯达被捕，不在“1976年9月”，而是1970年10月18日，或者严格地说，在1970年10月18日被拘押，直至1976年9月才补办了逮捕手续（叶永烈《陈伯达传》，纠正《简明不列颠百科全书》条目）, cite: rmwz-2012-chen-boda, quote: true }
     - { voice: witness, text: 陈晓农整理的口述称陈伯达自认在文革中“犯了大罪”，但否认“叛徒”结论和庐山会议上的“阴谋”定性（亲属整理，待核）。 }
   works:
     - { title: 中国四大家族, date: 1946 }
@@ -709,20 +710,20 @@
     - { title: 无产阶级文化大革命中的两条路线, date: 1966-10-16 }
   factions: [ccrg]
   fate:
-    - { date: 1927, s: normal, note: 入党，赴莫斯科学习, place: moscow, verify: true }
-    - { date: 1931, s: detained, note: 在北平被捕，次年获释, place: beijing, cite: ws-1971-12-lin-chen-material-1, verify: true }
-    - { date: 1932, s: normal, note: 获释后在北平任教, verify: true }
+    - { date: 1927-04, s: normal, note: 4 月下旬在上海入党，随后撤往武汉，后被派往莫斯科中山大学, place: shanghai, cite: chinanews-2009-chen-boda-secretary }
+    - { date: 1931-04-08, s: detained, note: 到天津当天随中共顺直省委机关一同被捕，9 月押解北平，判刑两年半，关押北平军人反省院, place: tianjin, cite: chinanews-2009-chen-boda-secretary }
+    - { date: 1932, s: normal, note: 出狱；1933 年初被派往张家口吉鸿昌部队工作, cite: chinanews-2009-chen-boda-secretary }
     - { date: 1939, s: rise, note: 任毛泽东政治秘书, verify: true }
-    - { date: 1956-09, s: rise, note: 八大政治局候补委员, verify: true }
+    - { date: 1956-09, s: rise, note: 八大后当选政治局候补委员, cite: rmwz-2012-chen-boda }
     - { date: 1958-06, s: power, note: 《红旗》总编辑 }
     - { date: 1966-05-28, s: rise, note: 中央文革小组组长, cite: ws-1966-05-ccrg-list }
     - { date: 1966-08, s: power, note: 进入政治局常委, cite: ws-1981-01-25-judgment }
     - { date: 1970-09, s: purged, note: 九届二中全会后被审查, cite: ws-1971-12-lin-chen-material-1 }
-    - { date: 1971, s: detained, note: 关押于秦城监狱, verify: true }
+    - { date: 1970-10-18, s: detained, note: 在北京家中被就地监禁，后来的刑期从这天算起（1976 年 9 月才补办逮捕手续）, place: beijing, cite: rmwz-2012-chen-boda }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑十八年, cite: ws-1981-01-25-judgment }
-    - { date: 1988-10, s: normal, note: 刑满释放, verify: true }
-    - { date: 1989-09-20, s: dead }
-  cites: [ws-1966-05-ccrg-list, ws-1971-12-lin-chen-material-1, ws-1980-indictment, ws-1981-01-25-judgment]
+    - { date: 1988-10-17, s: normal, note: 刑满, cite: rmwz-2012-chen-boda }
+    - { date: 1989-09-20, s: dead, note: 在北京远郊住处因心肌梗塞去世, cite: rmwz-2012-chen-boda }
+  cites: [ws-1966-05-ccrg-list, ws-1971-12-lin-chen-material-1, ws-1980-indictment, ws-1981-01-25-judgment, chinanews-2009-chen-boda-secretary, rmwz-2012-chen-boda]
 
 - id: kang-sheng
   name: 康生

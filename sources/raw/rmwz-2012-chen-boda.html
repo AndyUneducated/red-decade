@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="utf-8">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="content-language" content="utf-8" />
+<meta name="robots" content="all" />
+<meta name="author" content="" />
+<meta name="copyright" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="../../../tplimg/mulu.css" type="text/css" rel="stylesheet" rev="stylesheet" media="all" />
+<title>人民文摘</title>
+<!--[if !IE]><!-->
+<link href="../../../tplimg/hack.css" type="text/css" rel="stylesheet" rev="stylesheet" media="all" />
+<!--<![endif]-->
+<!--[if IE 7]>
+<link href="../../../tplimg/hackie7.css" type="text/css" rel="stylesheet" rev="stylesheet" media="all" />
+<![endif]-->
+<SCRIPT language=Javascript src="../../../tplimg/prototype.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/mp.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/calendar2.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/new.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/range.js"></SCRIPT>
+<script type="text/javascript">
+function nTabs(tabObj,obj){
+	var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+	for(i=0; i <tabList.length; i++)
+	{
+		if (tabList[i].id == obj.id)
+		{
+			document.getElementById(tabObj+"_Title"+i).className = "active";
+    		document.getElementById(tabObj+"_Content"+i).style.display = "block";
+		}else{
+			document.getElementById(tabObj+"_Title"+i).className = "normal";
+			document.getElementById(tabObj+"_Content"+i).style.display = "none";
+		}
+	}
+}
+function CopyAll()
+
+{
+
+         var obj = document.getElementById("articleContent");
+
+         if(obj!=null){
+
+                   var content = obj.innerText;
+
+                   window.clipboardData.setData("Text",content);
+
+                   alert("复制成功");
+
+         }
+
+}
+
+function zoomIn() {
+ newZoom= parseInt(ozoom.style.zoom)+10+'%'
+ ozoom.style.zoom =newZoom;
+ }
+function zoomOut() {
+ newZoom= parseInt(ozoom.style.zoom)-10+'%'
+ ozoom.style.zoom =newZoom;
+ }
+
+</script>
+<script type="text/javascript">
+ var focus_width=260;
+ var focus_height=180;
+ var text_height=20;
+ var swf_height = focus_height+text_height;
+ var pics ="";
+ var links ="";
+ var texts ="";
+ var resCount=0;
+ function showArtPics()
+ {
+ if(resCount>0)
+ {
+ pics = pics.substring(0, pics.length-1);
+ links = links.substring(0, links.length-1);
+ texts = texts.substring(0, texts.length-1);
+ var content = "";
+ content += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">';
+ content += '<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="../../../tplimg/picflash.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">';
+ content += '<param name="menu" value="false"/><param name="wmode" value="opaque"/>';
+ content += '<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">';
+ content += '<embed src="../../../tplimg/picflash.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ focus_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />';
+ content += '<\/object>';
+ document.getElementById("showArtPicsDiv").innerHTML = content;
+ }
+}
+</script>
+</head>
+<SPAN id=leveldiv title=点击查看内容
+style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; Z-INDEX: 100; LEFT: 233px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 210px; CURSOR: hand; POSITION: absolute; TOP: 123px; HEIGHT: 34px; BORDER-RIGHT-WIDTH: 0px"></SPAN>
+<body onLoad="initialize();initMPPage();showArtPics();">
+<!--头部-->
+<div class="head"> </div>
+<!--菜单-->
+<div class="menu"> </div>
+<!--内容部分-->
+<div class="content">
+  <!--左侧版面图部分-->
+  <div class="left_c">
+    <div class="ban">
+      <div>
+        <map name=PagePicMap></map><img  width=400 height=575 src=../../../page/2012-07/01/08/page_b.jpg border=0 USEMAP=#PagePicMap>
+      </div>
+    </div>
+    <div class="title">
+      <div>友情链接</div>
+    </div>
+    <div class="pai f_link"></div>
+  </div>
+  <!--右侧目录部分-->
+  <div class="right_c">
+    <div class="head_c"> <span onMouseOver="document.getElementById('rmrbbx').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx').style.display = 'none';">日&nbsp;报<img src="../../../tplimg/ico10.gif" border="0" alt="" /></span><span onMouseOver="document.getElementById('rmrbbx1').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx1').style.display = 'none';">周&nbsp;报<img src="../../../tplimg/ico10.gif" border="0" alt="" /></span><span onMouseOver="document.getElementById('rmrbbx2').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx2').style.display = 'none';">杂&nbsp;志<img src="../../../tplimg/ico10.gif" border="0" alt="" /></span> <a href="http://www.people.com.cn" target="_blank"><img src="../../../tplimg/logo.jpg" style="float:right;margin:-12px 15px 0 0;" border="0" alt="人民网" /></a></div>
+    <div style="margin:-30px 0 8px 0;height:18px;">
+      </div>
+    <div class="menu_c">往期回顾 <a onClick="autoShowDate();" style="cursor:hand;" title="鼠标点击，显示日历牌"><img src="../../../tplimg/ico1.gif" border="0" alt="" /></a>&nbsp;
+  &nbsp;<img src="../../../tplimg/ico2.gif" border="0" alt="" /><a href="http://search.people.com.cn/rmw/GB/bkzzsearch/index.jsp" target="_blank">分类检索</a>&nbsp;<span style="float:right;"><a href="node_1329.htm">返回目录</a></span></div>
+    <!--目录与标题-->
+    <div class="list_t">
+      <div class="text_c">
+        
+<h3></h3>
+<h1>“第四号人物”陈伯达之死</h1>
+<h2></h2>
+
+        <div class="lai">
+          叶永烈
+          《
+          人民文摘
+          》（<span style="font-weight:400;color:#2E9BC6;float:none;" id='periodName'></span>）</div>
+        <div class="c_c">
+          
+          <DIV id=ozoom style="zoom:100%;">
+            <div id="showArtPicsDiv" align="center"></div>
+            <script language=javascript>
+							/*	if(picResCount>0){
+									document.getElementById("picres").style.display="block";
+									document.write("<br />");
+								}*/
+ 			  				</script>
+            <!--enpcontent--><P><p>&nbsp;&nbsp;&nbsp;&nbsp;凡是经历过“文革”的人，都知道陈伯达的“大名”。虽然他一再逊称自己是“小小老百姓”，当年却是仅次于毛泽东、林彪、周恩来的“第四号人物”，是“中央文革”的组长，号称：“理论家”、“中共一支笔”、“中国舆论总管”。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;陈伯达在接受采访时，回顾一生，不胜感慨：我是一个犯了大罪的人，在“文化大革命”中，我愚蠢至极，负罪很多，“文化大革命”是一个疯狂的年代，那时候我是一个发疯的人。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;如果说我的回忆能为大家提供一些史料，我就慢慢谈一些。不过，我要再三说明，人的记忆往往不可靠。你要把我的回忆跟别人的回忆加以核对，特别是要跟当时的记录、文章、档案核对。我的记忆如有欠实之处，请以当时的文字记载为准。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;古人云：“能补过者，君子也。”但我不过是一个不足齿数的小小的“小人”之辈，我仍愿永远地批评自己，以求能够稍稍弥补我的罪过……1989年9月17日傍晚开始，北京骤降暴雨，竟整整下了一夜。翌日，气温剧降。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;9月20日中午，在北京远郊一幢六层楼房的最顶层，85岁的陈伯达正在吃饭。他的儿媳小张当时在场：“父亲突然头一歪，碰到墙上，食物吐出……”儿媳赶紧敲响隔壁老萧的门。老萧马上拨电话到某医院。20分钟之内，医生就赶到了。可是，陈伯达的心脏已停止跳动，抢救无效。经医生诊断，陈伯达因天气骤凉，死于心肌梗塞。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;陈伯达死前和他的儿子陈晓农、儿媳小张以及小孙子生活在一起。突然发病之际，陈晓农却不在家，而在北京驶往河北石家庄的列车上——去看望他的母亲余文菲。余文菲是陈伯达的第二个妻子，已经离婚多年。陈晓农是陈伯达和余文菲所生的孩子。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;据陈晓农事后告诉笔者：“前几年父亲住院已检查出患有老年性冠心病，但因他心电图一向较好，又从未有过明显的心绞痛，仅是超声波检查有冠状动脉硬化，所以医生和我们都缺乏足够的重视。9月20日那天，北京天气很冷，早上刚下过雨。我9时多临走时，看父亲睡得正香，不忍叫醒他，给他加了条毯子，又把毛裤放到床前椅上。我爱人说父亲起来后，说天冷。现在想来，天气骤冷易使血管收缩，老人血管已脆，经受不住，这可能是发生心肌梗塞的原因……”当天下午，陈伯达所在单位负责人徐主任等赶来，和陈伯达的亲属商议处理后事。亲属明确表示：“听从组织意见，而且父亲生前也一再说过，他去世后一切从简。”根据领导意见，陈伯达以他原名陈建相，送往北京八宝山火化。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;尽管八宝山不知举行过多少回遗体告别仪式，但是陈伯达的遗体告别仪式与众不同：没有讣告，没有悼词。前来与他作最后诀别的，都是闻讯而来，没有接到任何正式的、以组织名义发出的通知。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;9月28日上午10时20分，陈伯达的遗体出现在八宝山第一告别室。这些年来他总是躲着照相机的镜头，连家中都找不到他现成的遗像。陈晓农记起去年冬天一位朋友为他拍过一次照片，赶紧请摄影者找出底片放大，才算有了一张遗像。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;在哀乐声中，40多人向他的遗体投注了最后一瞥。这些人有的是陈伯达的亲戚，有的是他的老朋友，有的是他的老秘书，有的是他的旧部下，有的是他的学生。陈伯达的遗体旁，放着许多花圈。花圈上写着：“陈建相先生千古。”由于一般人并不知道陈伯达的原名，所以没有引起注意。有一个花圈署名“刘叔宴”送。刘叔宴是陈伯达分居多年的妻子。&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;为了使读者在进入正题之前，能对陈伯达有一个简要的了解，下面全文引述《简明不列颠百科全书》中文版第二卷第262页《陈伯达》条目：陈伯达ChenBoda（1904~1989）福建惠安人。1927年加入中国共产党，同年去莫斯科中山大学学习。1930年从苏联回国，在北平中国大学任教。1937年在延安中共中央党校、马列学院教书，并在中共中央宣传部、军委、中央秘书处、中央政治研究室等机构工作。在此期间写过《中国四大家族》、《窃国大盗袁世凯》、《人民公敌蒋介石》等政治论著，成为在党内有影响的理论宣传家之一。1945年在中国共产党第七次全国代表大会上被选为中央候补委员，七届二中全会递补为中央委员，中共八大后当选中央政治局候补委员。曾任中共中央宣传部副部长、中国科学院副院长及党中央机关刊物《红旗》杂志总编辑等职。著有《毛泽东论中国革命》等书，并协助毛泽东起草过一些党的文件。“文化大革命”（1966~1976）期间任“中央文化革命小组”组长、中共中央政治局常委。因积极参与林彪、江青夺取党和国家最高权力的阴谋活动，1973年中国共产党第十次全国代表大会上被开除出党。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;1976年9月被捕。作为林彪、江青反革命集团主犯之一，1981年1月25日被中华人民共和国最高人民法院特别法庭判处有期徒刑18年。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;这一条目基本是准确的，但有一处明显的错误：陈伯达被捕，不在“1976年9月”，而是1970年10月18日，或者严格地说，在1970年10月18日被拘押，直至1976年9月才补办了逮捕手续。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;且把时间倒拨到1970年8月。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;毛泽东主席第二次选择了庐山作为中共中央全会开会的地方。从1970年8月23日至9月6日在庐山召开的中共九届二中全会，成为陈伯达一生政治生涯的终点，他一下子成了全党批判的对象。毛泽东写了《我的一点意见》，号召全党不要上“号称懂得马克思，而实际上根本不懂马克思”那样一些人的当。毛泽东的这段话，是针对陈伯达说的。陈伯达顿时从政治的峰巅，跌入峡谷之中。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;毛泽东在庐山发动了一场新的运动——名曰“批陈整风”，迅速推向全国。“批陈”，也就是批陈伯达。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;陈伯达怏怏地从庐山回到了北京地安门大街米粮库胡同家中。那是一座宽敞的四合院，原是外交部副部长、中国人民解放军副总参谋长李克农上将住的。陈伯达怕冷，搬进去时修了个玻璃走廊。这位“大秀才”嗜书如命，乃“万卷户”，秘书“二王”——王文耀、王保春特地为他修了个书库。书库里，放满陈伯达个人的藏书：3万多册自然科学书籍，3万多册社会科学书籍。另外，还有一间房子专放线装古书。陈伯达不抽烟，不喝酒，像样的衣服也没几件。他的一些稿费，都花在买书上。此刻，原本门庭若市的陈宅，冷冷落落，门可罗雀。他躲进了书房。平素与书为友的他如今竟怎么也看不进书。陈伯达产生一种强烈的愿望：见一见毛泽东主席！希望向毛主席一吐心中的痛楚。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;陈伯达一次次给主席秘书徐业夫挂电话，求见主席。得到的答复，要么是“主席已经休息”了，要么“主席正忙”，反正休息了不能见，工作时也不能见。显然，毛泽东婉拒了他的求见。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;就连他的秘书也接到通知，不许往外走，不许往外打电话。不言而喻，陈伯达失去了行动的自由。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;这一天毕竟来临了——1970年10月18日。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;这一天，陈宅原先的警卫调走了，新来的8341部队不再是“保卫中央首长安全”，却是对他实行就地监禁。后来，他的刑期就从这一天算起，他被判处18年徒刑，刑满之日为1988年10月17日，不多一天，不少一日。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;在1970年10月18日这一天，他的两位秘书王文耀、王保春也失去了自由。他们被押送到北京政法学院，隔离起来。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;也就在这一天，陈伯达不再配有轿车：黑色的“红旗”、灰色的“吉姆”和褐色的“伏尔加”，他的司机于子云也被拘押。就连他家的女工、保姆，原福建泉州制药厂女工陈顺意，也在这一天被关押。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;他在1966年8月党的八届十一中全会上，被选为中共中央政治局常委。当时他名列第五。1967年初，在陶铸被打倒之后，他成为“第四号人物”，如今，他这个“第四号人物”被一笔勾销了。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;波诡云谲的中国政治舞台上，又倒下了一名主角。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;摘自《陈伯达传》作家出版社出版</p></P><!--/enpcontent-->
+<INPUT type=checkbox value=0 name=titlecheckbox sourceid="<Source>SourcePh</Source>" style="display:none">
+          </DIV>
+        </div>
+      </div>
+    </div>
+    <!--工具条-->
+    <div class="tool_t">
+      <a href="node_1329.htm">返回目录</a>
+&nbsp;&nbsp;&nbsp;<a href="#" onclick="zoomIn();"><img src="../../../tplimg/ico5.gif" border="0" alt="" />放大</a><a href="#" onclick="zoomOut();"><img src="../../../tplimg/ico6.gif" border="0" alt="" />缩小</a><a href="#" onclick="CopyAll();"><img src="../../../tplimg/ico7.gif" border="0" alt="" />全文复制</a>&nbsp;&nbsp;&nbsp;
+      <a class=preart href="content_1101513.htm?div=-1"><img src='../../../tplimg/ico8.gif' border=0 /> 上一篇</a>&nbsp;&nbsp;<a class=preart href="content_1101518.htm?div=-1">下一篇 <img src='../../../tplimg/ico9.gif' border=0 /></a>
+    </div>
+    <!-- 以下是供复制全文用 -->
+    <div style="display:none" id="articleContent">
+      
+			<!--enpcontent--><P><p>&nbsp;&nbsp;&nbsp;&nbsp;凡是经历过“文革”的人，都知道陈伯达的“大名”。虽然他一再逊称自己是“小小老百姓”，当年却是仅次于毛泽东、林彪、周恩来的“第四号人物”，是“中央文革”的组长，号称：“理论家”、“中共一支笔”、“中国舆论总管”。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;陈伯达在接受采访时，回顾一生，不胜感慨：我是一个犯了大罪的人，在“文化大革命”中，我愚蠢至极，负罪很多，“文化大革命”是一个疯狂的年代，那时候我是一个发疯的人。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;如果说我的回忆能为大家提供一些史料，我就慢慢谈一些。不过，我要再三说明，人的记忆往往不可靠。你要把我的回忆跟别人的回忆加以核对，特别是要跟当时的记录、文章、档案核对。我的记忆如有欠实之处，请以当时的文字记载为准。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;古人云：“能补过者，君子也。”但我不过是一个不足齿数的小小的“小人”之辈，我仍愿永远地批评自己，以求能够稍稍弥补我的罪过……1989年9月17日傍晚开始，北京骤降暴雨，竟整整下了一夜。翌日，气温剧降。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;9月20日中午，在北京远郊一幢六层楼房的最顶层，85岁的陈伯达正在吃饭。他的儿媳小张当时在场：“父亲突然头一歪，碰到墙上，食物吐出……”儿媳赶紧敲响隔壁老萧的门。老萧马上拨电话到某医院。20分钟之内，医生就赶到了。可是，陈伯达的心脏已停止跳动，抢救无效。经医生诊断，陈伯达因天气骤凉，死于心肌梗塞。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;陈伯达死前和他的儿子陈晓农、儿媳小张以及小孙子生活在一起。突然发病之际，陈晓农却不在家，而在北京驶往河北石家庄的列车上——去看望他的母亲余文菲。余文菲是陈伯达的第二个妻子，已经离婚多年。陈晓农是陈伯达和余文菲所生的孩子。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;据陈晓农事后告诉笔者：“前几年父亲住院已检查出患有老年性冠心病，但因他心电图一向较好，又从未有过明显的心绞痛，仅是超声波检查有冠状动脉硬化，所以医生和我们都缺乏足够的重视。9月20日那天，北京天气很冷，早上刚下过雨。我9时多临走时，看父亲睡得正香，不忍叫醒他，给他加了条毯子，又把毛裤放到床前椅上。我爱人说父亲起来后，说天冷。现在想来，天气骤冷易使血管收缩，老人血管已脆，经受不住，这可能是发生心肌梗塞的原因……”当天下午，陈伯达所在单位负责人徐主任等赶来，和陈伯达的亲属商议处理后事。亲属明确表示：“听从组织意见，而且父亲生前也一再说过，他去世后一切从简。”根据领导意见，陈伯达以他原名陈建相，送往北京八宝山火化。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;尽管八宝山不知举行过多少回遗体告别仪式，但是陈伯达的遗体告别仪式与众不同：没有讣告，没有悼词。前来与他作最后诀别的，都是闻讯而来，没有接到任何正式的、以组织名义发出的通知。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;9月28日上午10时20分，陈伯达的遗体出现在八宝山第一告别室。这些年来他总是躲着照相机的镜头，连家中都找不到他现成的遗像。陈晓农记起去年冬天一位朋友为他拍过一次照片，赶紧请摄影者找出底片放大，才算有了一张遗像。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;在哀乐声中，40多人向他的遗体投注了最后一瞥。这些人有的是陈伯达的亲戚，有的是他的老朋友，有的是他的老秘书，有的是他的旧部下，有的是他的学生。陈伯达的遗体旁，放着许多花圈。花圈上写着：“陈建相先生千古。”由于一般人并不知道陈伯达的原名，所以没有引起注意。有一个花圈署名“刘叔宴”送。刘叔宴是陈伯达分居多年的妻子。&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;为了使读者在进入正题之前，能对陈伯达有一个简要的了解，下面全文引述《简明不列颠百科全书》中文版第二卷第262页《陈伯达》条目：陈伯达ChenBoda（1904~1989）福建惠安人。1927年加入中国共产党，同年去莫斯科中山大学学习。1930年从苏联回国，在北平中国大学任教。1937年在延安中共中央党校、马列学院教书，并在中共中央宣传部、军委、中央秘书处、中央政治研究室等机构工作。在此期间写过《中国四大家族》、《窃国大盗袁世凯》、《人民公敌蒋介石》等政治论著，成为在党内有影响的理论宣传家之一。1945年在中国共产党第七次全国代表大会上被选为中央候补委员，七届二中全会递补为中央委员，中共八大后当选中央政治局候补委员。曾任中共中央宣传部副部长、中国科学院副院长及党中央机关刊物《红旗》杂志总编辑等职。著有《毛泽东论中国革命》等书，并协助毛泽东起草过一些党的文件。“文化大革命”（1966~1976）期间任“中央文化革命小组”组长、中共中央政治局常委。因积极参与林彪、江青夺取党和国家最高权力的阴谋活动，1973年中国共产党第十次全国代表大会上被开除出党。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;1976年9月被捕。作为林彪、江青反革命集团主犯之一，1981年1月25日被中华人民共和国最高人民法院特别法庭判处有期徒刑18年。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;这一条目基本是准确的，但有一处明显的错误：陈伯达被捕，不在“1976年9月”，而是1970年10月18日，或者严格地说，在1970年10月18日被拘押，直至1976年9月才补办了逮捕手续。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;且把时间倒拨到1970年8月。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;毛泽东主席第二次选择了庐山作为中共中央全会开会的地方。从1970年8月23日至9月6日在庐山召开的中共九届二中全会，成为陈伯达一生政治生涯的终点，他一下子成了全党批判的对象。毛泽东写了《我的一点意见》，号召全党不要上“号称懂得马克思，而实际上根本不懂马克思”那样一些人的当。毛泽东的这段话，是针对陈伯达说的。陈伯达顿时从政治的峰巅，跌入峡谷之中。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;毛泽东在庐山发动了一场新的运动——名曰“批陈整风”，迅速推向全国。“批陈”，也就是批陈伯达。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;陈伯达怏怏地从庐山回到了北京地安门大街米粮库胡同家中。那是一座宽敞的四合院，原是外交部副部长、中国人民解放军副总参谋长李克农上将住的。陈伯达怕冷，搬进去时修了个玻璃走廊。这位“大秀才”嗜书如命，乃“万卷户”，秘书“二王”——王文耀、王保春特地为他修了个书库。书库里，放满陈伯达个人的藏书：3万多册自然科学书籍，3万多册社会科学书籍。另外，还有一间房子专放线装古书。陈伯达不抽烟，不喝酒，像样的衣服也没几件。他的一些稿费，都花在买书上。此刻，原本门庭若市的陈宅，冷冷落落，门可罗雀。他躲进了书房。平素与书为友的他如今竟怎么也看不进书。陈伯达产生一种强烈的愿望：见一见毛泽东主席！希望向毛主席一吐心中的痛楚。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;陈伯达一次次给主席秘书徐业夫挂电话，求见主席。得到的答复，要么是“主席已经休息”了，要么“主席正忙”，反正休息了不能见，工作时也不能见。显然，毛泽东婉拒了他的求见。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;就连他的秘书也接到通知，不许往外走，不许往外打电话。不言而喻，陈伯达失去了行动的自由。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;这一天毕竟来临了——1970年10月18日。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;这一天，陈宅原先的警卫调走了，新来的8341部队不再是“保卫中央首长安全”，却是对他实行就地监禁。后来，他的刑期就从这一天算起，他被判处18年徒刑，刑满之日为1988年10月17日，不多一天，不少一日。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;在1970年10月18日这一天，他的两位秘书王文耀、王保春也失去了自由。他们被押送到北京政法学院，隔离起来。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;也就在这一天，陈伯达不再配有轿车：黑色的“红旗”、灰色的“吉姆”和褐色的“伏尔加”，他的司机于子云也被拘押。就连他家的女工、保姆，原福建泉州制药厂女工陈顺意，也在这一天被关押。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;他在1966年8月党的八届十一中全会上，被选为中共中央政治局常委。当时他名列第五。1967年初，在陶铸被打倒之后，他成为“第四号人物”，如今，他这个“第四号人物”被一笔勾销了。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;波诡云谲的中国政治舞台上，又倒下了一名主角。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;摘自《陈伯达传》作家出版社出版</p></P><!--/enpcontent-->
+			
+    </div>
+    <!--结束工具条-->
+  </div>
+</div>
+<!--结束内容部分-->
+<!--版权部分-->
+<div class="copyright">	<p class="p1"><span class="red">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</span><br />
+        <span class="black">Copyright &copy; 1997-2008 by www.people.com.cn.
+        all rights reserved</span><a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=0102000101300040" target="_blank"><img src="../../../tplimg/gongshang.gif" width="40" style="float:right;margin:-45px 0px 0 10px;" height="48" alt="" align="middle" border="0" /></a></p>
+        </div>
+    <!--日报-->
+    <DIV  id="rmrbbx" style="display:none;position:absolute;top:50px;left:50%;margin-left:-40px;" onMouseOver="document.getElementById('rmrbbx').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx').style.display = 'none';">
+      <table width="100" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#007CD2">
+        <tr>
+          <td bgcolor="#D8EFFF" style="padding: 3px;"><table width="100" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#FFFFFF" style="padding: 1px;" valign="top">
+                  <table width="100" border="0" cellpadding="0" cellspacing="0" height="23">
+                    <tr>
+                      <td width="99" bgcolor="#ffffff" align="center" valign="top"><table width="85" border="0" cellpadding="0" cellspacing="0"  style="margin: 5px 0;">
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../rmrb/paperindex.htm" target="_blank">人民日报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+						  <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../rmrbhwb/paperindex.htm" target="_blank">人民日报海外版</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="http://www.huanqiu.com/" target="_blank">环球时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../jhsb/paperindex.htm" target="_blank">京华时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../gjjrb/paperindex.htm" target="_blank">国际金融报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../jnsb/paperindex.htm" target="_blank">江南时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="http://www.p5w.net/index.htm" target="_blank">证券时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+    <!--结束日报-->
+    <!--周报-->
+    <DIV  id="rmrbbx1" style="display:none;position:absolute;top:50px;left:50%;margin-left:75px;" onMouseOver="document.getElementById('rmrbbx1').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx1').style.display = 'none';">
+      <table width="100" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#007CD2">
+        <tr>
+          <td bgcolor="#D8EFFF" style="padding: 3px;"><table width="100" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#FFFFFF" style="padding: 1px;" valign="top">
+                  <table width="100" border="0" cellpadding="0" cellspacing="0" height="23">
+                    <tr>
+                      <td width="99" bgcolor="#ffffff" align="center" valign="top"><table width="85" border="0" cellpadding="0" cellspacing="0"  style="margin: 5px 0;">
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../scb/paperindex.htm" target="_blank">市场报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../smsb/paperindex.htm" target="_blank">生命时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../jksb/paperindex.htm" target="_blank">健康时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../fcyym/paperindex.htm" target="_blank">讽刺与幽默</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+    <!--结束周报-->
+    <DIV  id="rmrbbx2" style="display:none;position:absolute;top:50px;left:50%;margin-left:185px;" onMouseOver="document.getElementById('rmrbbx2').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx2').style.display = 'none';">
+     <table width="110" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#007CD2">
+        <tr>
+          <td bgcolor="#D8EFFF" style="padding: 3px;"><table width="110" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#FFFFFF" style="padding: 1px;" valign="top">
+                  <table width="115" border="0" cellpadding="0" cellspacing="0" height="23">
+                    <tr>
+                      <td width="115" bgcolor="#ffffff" align="center" valign="top"><table width="115" border="0" cellpadding="0" cellspacing="0"  style="margin: 5px 0 0 1px;">
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../xwzx/paperindex.htm" target="_blank">新闻战线</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../dd/paperindex.htm" target="_blank">大地</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../hqrw/paperindex.htm" target="_blank">环球人物</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../rmlt/paperindex.htm" target="_blank">人民论坛</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../paperindex.htm" target="_blank">人民文摘</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../zgjjzk/paperindex.htm" target="_blank">中国经济周刊</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../xaq/paperindex.htm" target="_blank">新安全</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../xxdk/paperindex.htm" target="_blank">信息导刊·中国债券</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../qcz/paperindex.htm" target="_blank">汽车族</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../zgby/paperindex.htm" target="_blank">中国报业</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+    <!--结束杂志-->
+<script language=JavaScript>
+<!--
+document.write("<div id=detail style=position:absolute;width:300px;></div>");
+//-->
+</script>
+  <!-------rqdh版面导航------>
+    <div id=daydh style="display:none; position:absolute; left:50%;margin-left:-100px; top:110px; filter:alpha(opacity=90);"  onmouseover="document.getElementById('daydh').style.display='block';" >
+      <form name=CLD style="padding:0px;margin:0px;">
+        <table width="210" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#007CD2">
+          <tr>
+            <td bgcolor="#D8EFFF" style="padding: 3px;"><table cellspacing=0 cellpadding=0 width="100%" align=center border=0 bgcolor="#D8EFFF">
+              <tr>
+                <td><table width="100%" align=center border="0" cellpadding="1" cellspacing="1">
+                  <tr class="default" align=center>
+                    <td height=15 colspan=7 bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="2" cellspacing="0">
+                      <tr align="center">
+                        <td align="left" nowrap><img src="../../../tplimg/d1.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SY,0)" /></td>
+                        <td><select class=jumpmenu onChange=changeMPCld() name=SY>
+                          <script language=JavaScript>
+					for(i=2006;i<2051;i++)
+					document.write('<option>'+i+'</option>')
+        			</script>
+                        </select>
+                        </td>
+                        <td><img src="../../../tplimg/d.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SY,1)" /></td>
+                        <td align="center" nowrap><img src="../../../tplimg/d1.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SM,0)" /></td>
+                        <td><select class=jumpmenu onChange=changeMPCld() name=SM>
+                          <script language=JavaScript>
+				<!--
+					for(i=1;i<13;i++) document.write('<option>'+i+'</option>')
+				//-->
+        			</script>
+                        </select>
+                        </td>
+                        <td><img src="../../../tplimg/d.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SM,1)" /></td>
+                        <td align="right" nowrap><strong><font id=GZ fface="Arial, Helvetica, sans-serif"></font></strong></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr align=middle bgcolor="#FFFFFF" class="default">
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">日</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">一</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">二</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">三</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">四</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">五</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">六</font></b> </td>
+                  </tr>
+                  <script language=JavaScript>
+		<!--
+			var gNum;
+			for(i=0;i<6;i++)
+			{
+				document.write('<tr align=center>');
+				for(j=0;j<7;j++)
+				{
+					gNum = i*7+j;
+					document.write('<td  bgcolor="#FFFFFF" class="default" align=center id="GD' + gNum +'" style="cursor: default;" width="14%"><a href="" id="CD' + gNum + '"><span class="date" style="font-family:Verdana, Arial;font-size:11px;"><font _onMouseOver="mOvr(' + gNum +')" onMouseOut="mOut()" id="SD' + gNum +'"');
+					document.write('></font></span></a><br><font id="LD' + gNum + '" size=2 class=pt9 style=display:none></font></td>');
+				}
+				document.write('</tr>');
+			}
+		//-->
+        	</script>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+		  <tr><td align="center" height="22"><a href="#" onClick="autoShowDate();">关闭</a></td></tr>
+        </table>
+      </form>
+    </div>
+    <!-------rqdh版面导航END------>
+<!-------文章显示标题开始------>
+<div style="display:none">
+  <table width="265" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px;">
+
+  <tr>
+	<td width="16" align="left"><img src="3.files/icon07.jpg" /></td>
+	<td width="271" align="left" class="fontstyle" height="22">
+<a href=content_1101510.htm?div=-1><div style="display:inline" id=mp1101510>从未公开发表的毛泽东手迹</div></a>
+	</td>
+  </tr>
+  <tr><td background="3.files/dian01.jpg" colspan="2" height="1"></td></tr>
+  <tr>
+	<td width="16" align="left"  bgcolor="#D8EFFF"><img src="3.files/icon07.jpg" /></td>
+	<td width="271" align="left" class="fontstyle" height="22"  bgcolor="#D8EFFF">
+<a href=content_1101513.htm?div=-1><div style="display:inline" id=mp1101513>揭秘十大元帅授衔幕后</div></a>
+	</td>
+  </tr>
+  <tr><td background="3.files/dian01.jpg" colspan="2" height="1"></td></tr>
+  <tr>
+	<td width="16" align="left"><img src="3.files/icon07.jpg" /></td>
+	<td width="271" align="left" class="fontstyle" height="22">
+<a href=./content_1101516.htm?div=-1><div style="display:inline" id=mp1101516>“第四号人物”陈伯达之死</div></a>
+	</td>
+  </tr>
+  <tr><td background="3.files/dian01.jpg" colspan="2" height="1"></td></tr>
+  <tr>
+	<td width="16" align="left"  bgcolor="#D8EFFF"><img src="3.files/icon07.jpg" /></td>
+	<td width="271" align="left" class="fontstyle" height="22"  bgcolor="#D8EFFF">
+<a href=content_1101518.htm?div=-1><div style="display:inline" id=mp1101518>延安时期的“战时共产主义”生活</div></a>
+	</td>
+  </tr>
+  <tr><td background="3.files/dian01.jpg" colspan="2" height="1"></td></tr>
+
+</table>
+</div>
+<!-------文章显示标题结束------>
+<img src="../../../tplimg/left_ico.gif" style="display:none;" /> <img src="../../../tplimg/right_ico.gif" style="display:none;" /> <img src="../../../tplimg/ico10.gif" style="display:none;" /> <img src="../../../tplimg/ico8.gif" style="display:none;" /> <img src="../../../tplimg/ico9.gif" style="display:none;" /> <img src="../../../tplimg/ti.gif" style="display:none;" /> <img src="../../../tplimg/fb.gif" style="display:none;" /><img src="../../../tplimg/nav_bg.gif" style="display:none;" /><img src="../../../tplimg/line_bg1.gif" style="display:none;" /><img src="../../../tplimg/top_bg.gif" style="display:none;" /> <img src="../../../tplimg/line_bg.gif" style="display:none;" />
+</body>
+</html>
+<script language="javascript">
+if(document.getElementById('ozoom')!=null&&document.getElementById('ozoom').offsetHeight<=357)
+	document.getElementById('ozoom').style.height = '357px';
+</script>
+
+<!--mpproperty <founder-date>
+2012-07-01
+</founder-date>
+<founder-author>
+叶永烈
+</founder-author>
+<founder-title>“第四号人物”陈伯达之死
+</founder-title>
+<founder-nodename></founder-nodename>
+<founder-keyword>
+
+</founder-keyword><founder-ChannelID>
+1,321
+</founder-ChannelID><founder-imp>0</founder-imp>
+<founder-subtitle></founder-subtitle>
+<founder-type>1</founder-type>
+<founder-introtitle></founder-introtitle>
+<founder-pagepicurl>../../../page/2012-07/01/08/page_b.jpg</founder-pagepicurl>
+<founder-pagenum>08</founder-pagenum>
+<founder-papername>人民文摘</founder-papername>
+<founder-nodeid>1,329</founder-nodeid> /mpproperty-->
+
+
