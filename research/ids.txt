@@ -301,6 +301,7 @@ archive/lib-song-internationale-stockholm
 archive/rmrb-page-1954-11-01-1
 archive/rmrb-page-1955-09-23-2
 archive/rmrb-page-1956-06-15-2
+archive/rmrb-page-1958-02-12-1
 archive/rmrb-page-1959-04-14-2
 archive/rmrb-page-1959-04-15-2
 archive/rmrb-page-1966-05-05-2
@@ -3133,6 +3134,7 @@ sources/cass-ie-gu-zhun
 sources/ccom-chen-liyun-interview
 sources/ccp-figures-bios
 sources/ccp-org-history
+sources/ccrd-1966-10-23-deng-self-criticism
 sources/ccrd-1967-01-22-jiang-weiqing
 sources/ccrd-1967-12-07-pan-fusheng
 sources/ccrd-1979-gz-jan-seizure
@@ -3240,6 +3242,7 @@ sources/cpc-1980-09-29-hu-feng-rehab
 sources/cpc-eighth-11th-plenum-summary
 sources/cppcc-kang-sheng
 sources/cppcc-wang-enmao
+sources/cppcc-zhao-ziyang
 sources/crt-2025-wu-guixian
 sources/czmingren-liu-jianxun
 sources/dangshi-1927-11-politburo-meeting
@@ -3288,6 +3291,7 @@ sources/hbds-lv-yulan
 sources/hebcdi-2021-men-he
 sources/hljxxw-pan-fusheng
 sources/huang-zheng-wang-guangmei
+sources/hybsl-2015-gao-tianding-peng-zhen
 sources/hyh-2024-blood-sacrifice-4
 sources/ifeng-2007-yang-rongguo
 sources/ifeng-ba-jin-xiao-shan
@@ -3352,6 +3356,7 @@ sources/rfa-2001-03-03-yu-luowen
 sources/rmrb-1954-11-01-census-1953
 sources/rmrb-1955-09-23-stats-1954
 sources/rmrb-1956-06-15-stats-1955
+sources/rmrb-1958-02-12-presidential-order
 sources/rmrb-1959-04-14-stats-fyp1
 sources/rmrb-1959-04-15-stats-1958
 sources/rmrb-1966-05-05-guo-moruo

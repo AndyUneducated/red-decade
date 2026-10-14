@@ -376,7 +376,7 @@
     - { date: 1935-01, s: power, note: 遵义会议后三人军事指挥小组成员, verify: true }
     - { date: 1949-10, s: power, note: 政务院总理兼外交部长 }
     - { date: 1958-01, s: attacked, note: 南宁会议上“反冒进”受批评并检讨, verify: true }
-    - { date: 1958-02, s: power, note: 辞去外交部长，留任总理, verify: true }
+    - { date: 1958-02-11, s: power, note: 一届人大五次会议决定免去兼任的外交部部长职务，陈毅兼任；仍任总理, cite: rmrb-1958-02-12-presidential-order }
     - { date: 1967-08, s: attacked, note: “五一六兵团”散发矛头指向周的传单, verify: true }
     - { date: 1971-09, s: power, note: 林彪事件后主持中央日常工作, cite: ws-1981-resolution }
     - { date: 1974-01, s: attacked, note: “批林批孔”矛头指向周, cite: ws-1981-resolution }
@@ -621,7 +621,7 @@
     - { date: 1938-01, s: rise, note: 八路军一二九师政委, cite: ws-1997-02-19-deng-message }
     - { date: 1948-11, s: power, note: 淮海战役总前委书记, cite: ws-1997-02-19-deng-message }
     - { date: 1956-09, s: power, note: 政治局常委、总书记 }
-    - { date: 1966-10-23, s: attacked, note: 中央工作会议上作检讨, verify: true }
+    - { date: 1966-10-23, s: attacked, note: 中央工作会议上作检讨，称“代表资产阶级的反动路线的，在中央领导同志中，在全党范围内，就是刘少奇同志和我两人”, cite: ccrd-1966-10-23-deng-self-criticism }
     - { date: 1966-12-06, s: purged, note: 林彪称其“黑帮分子”, cite: ws-1980-indictment }
     - { date: 1969, s: detained, note: 被送到江西南昌新建县拖拉机修造厂劳动, place: nanchang-xinjian, cite: people-2009-deng-chronology }
     - { date: 1973-03, s: restored, note: 恢复国务院副总理职务, cite: ws-1997-02-19-deng-message }
@@ -1578,7 +1578,7 @@
     - { title: 中央政法委员会书记, orgName: 中央政法委, from: 1980-01, to: 1982, verify: true }
     - { title: 全国人大常委会委员长, orgName: 全国人大常委会, from: 1983-06, to: 1988-04, verify: true }
   rehab:
-    - { date: 1979-02, text: 中共中央为彭真平反，恢复名誉；9 月十一届四中全会增补为中央委员, verify: true }
+    - { date: 1979-02-17, text: 中共中央发出《关于为彭真同志平反的通知》，家人的冤案同时平反；此前中组部 2 月 8 日的复查报告认定他 1929 年被捕后“不存在叛变问题”, cite: hybsl-2015-gao-tianding-peng-zhen }
   afterlife:
     - { date: 1997-05-06, text: 八宝山革命公墓举行遗体告别，骨灰撒入大海（待核）, verify: true }
   tier: 1
@@ -1618,9 +1618,8 @@
       from: 1966
       to: 1978
       text: |
-        1966 年 12 月被红卫兵从家中揪走批斗，此后由卫戍区“监护”，1968 年起关押于秦城监狱。1975 年 5 月被“下放”陕西商洛，在当地居住至 1978 年。
-      verify: true
-      cites: [peng-zhen-chronicle]
+        1966 年 5 月 22 日起被软禁家中，7 月 9 日康生主持成立彭真专案小组。11 月 28 日江青公开点名，号召造反派批斗；从 12 月到 1968 年 7 月关进秦城监狱前，被批斗二百余次。1975 年 5 月 19 日根据中央决定获释，与妻子张洁清被送到陕西商洛干休所监视居住，专案结论仍定为“叛徒、反党分子”。1978 年 12 月 28 日全家从西安乘飞机回到北京。
+      cites: [hybsl-2015-gao-tianding-peng-zhen]
     - h: 复出与法制建设
       from: 1979
       to: 1988
@@ -1652,9 +1651,10 @@
     - { date: 1948-12, s: power, note: 北平市委书记 }
     - { date: 1966-04-09, s: attacked, note: 书记处会议批判, cite: ws-1966-05-16-notice-attachment@1966-04-09 }
     - { date: 1966-05-16, s: purged, cite: ws-1966-05-16-notice }
-    - { date: 1966-12, s: detained, verify: true }
-    - { date: 1975-05, s: detained, note: 下放陕西商洛, verify: true }
-    - { date: 1979-02, s: restored, verify: true }
+    - { date: 1966-05-22, s: detained, note: 中央决定不再给他看文件、收走家中文件，从当天起被软禁家中, place: beijing, cite: hybsl-2015-gao-tianding-peng-zhen }
+    - { date: 1966-12, s: attacked, note: 11 月 28 日江青公开点名后，到 1968 年 7 月关进秦城监狱前被批斗二百余次, place: beijing, cite: hybsl-2015-gao-tianding-peng-zhen }
+    - { date: 1975-05-19, s: detained, note: 根据中央决定从秦城监狱释放，随后与张洁清被送到陕西商洛，在地区干休所监视居住, cite: hybsl-2015-gao-tianding-peng-zhen }
+    - { date: 1979-02-17, s: restored, note: 中共中央发出《关于为彭真同志平反的通知》, cite: hybsl-2015-gao-tianding-peng-zhen }
     - { date: 1983-06, s: power, note: 全国人大常委会委员长, cite: rmrb-1997-05-03-peng-zhen-life }
     - { date: 1988, s: normal, note: 从领导岗位退下来, cite: rmrb-1997-05-03-peng-zhen-life }
     - { date: 1997-04-26, s: dead, cite: rmrb-1997-05-03-peng-zhen-life }

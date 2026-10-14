@@ -1,0 +1,48 @@
+# U2: 1 级人物待核命运节点，第二批（2026-10-14 早上）。
+web:
+  - id: rmrb-1958-02-12-presidential-order
+    title: 中华人民共和国主席令（1958 年 2 月 11 日任免）
+    date: 1958-02-11
+    author: 毛泽东（中华人民共和国主席）
+    kind: party-doc
+    alias: 中华人民共和国主席令（1958-02-11，《人民日报》1958-02-12）
+    url: "http://www.rmrb.zhouenlai.info/%E5%91%A8%E6%80%BB%E7%90%86%E4%B8%93%E6%A0%8F/%E6%80%BB%E7%90%86%E7%9B%B8%E5%85%B3/1958/1958-02-12%200187344%20%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E4%B8%BB%E5%B8%AD%E4%BB%A4.htm"
+    via: 《人民日报》1958-02-12 第 1 版（rmrb.zhouenlai.info 转录）
+    note: 网页转录，未核原报。
+    start: 根据第一届全国人民代表大会第五次会议的决定
+    end: 一九五八年二月十一日
+  - id: ccrd-1966-10-23-deng-self-criticism
+    title: 邓小平在中央工作会议上的检讨
+    date: 1966-10-23
+    author: 邓小平
+    kind: speech
+    alias: 邓小平《在中央工作会议上的检讨》（1966-10-23，记录稿）
+    url: "https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/2/000001.htm"
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    note: 记录稿；数据库注明录自 1967 年 1 月清华大学井冈山兵团《触目惊心——邓小平言行录》第 22 至 26 页，网页转录，未核原件。
+    start: 〖记录稿〗
+    end: 第22至26页
+  - id: cppcc-zhao-ziyang
+    title: 赵紫阳（1919—2005）
+    date: 2011-09-28
+    author: 中国人民政治协商会议全国委员会
+    kind: bio
+    tier: 2
+    alias: 全国政协网《赵紫阳（1919—2005）》
+    url: http://www.cppcc.gov.cn/2011/09/28/ARTI1317197350703283.shtml
+    via: 全国政协网“往届副主席”
+    note: 官方的后来叙述；网页转录，未核原书。
+    start: 中国人民政治协商会议第五届全国委员会副主席。
+    end: 2005年1月17日逝世。
+  - id: hybsl-2015-gao-tianding-peng-zhen
+    title: 彭真蒙冤及平反始末
+    date: 2015-07-08
+    author: 高天鼎
+    kind: article
+    tier: 2
+    alias: 高天鼎《彭真蒙冤及平反始末》（胡耀邦史料信息网 2015）
+    url: https://web.archive.org/web/2023id_/http://w.hybsl.cn/article/13/53123
+    via: 胡耀邦史料信息网（Wayback Machine 快照）
+    start: 新中国成立后，彭真长期担任党和国家的领导职务。
+    end: 为祖国的统一和各民族的团结，作出了重大贡献。
+    note: 后来的叙述，多据中组部复查报告与中央通知；网页转录，未核原书。
