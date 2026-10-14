@@ -1,0 +1,88 @@
+# U4: 1 级人物待核命运节点，第四批（2026-10-14）。
+web:
+  - id: cnd-2016-yu-ruxin-zhao-ziyang
+    title: 赵紫阳与广东文革
+    date: 2016-02-09
+    author: 余汝信
+    kind: article
+    tier: 2
+    alias: 余汝信《赵紫阳与广东文革》（《华夏文摘》增刊 2016）
+    url: https://web.archive.org/web/2024id_/http://www.cnd.org/cr/ZK16/cr850.gb.html
+    via: 华夏文摘增刊第一〇一八期（文革博物馆通讯八五〇），Wayback 快照
+    note: 文革史研究者据广东档案材料的叙述；网页转录，未核原文所引档案。
+    start: １９６５年２月，四十五岁的赵紫阳
+    end: 就叫我赵老头吧！”
+    unwrap: true
+  - id: dswxyjy-2013-cao-ying-rectification
+    title: 在延安参加整风运动
+    date: 2013-10-23
+    author: 曹瑛
+    kind: memoir
+    tier: 2
+    alias: 曹瑛《在延安参加整风运动》（原载《中共党史资料》，党史和文献研究院网站 2013）
+    url: https://www.dswxyjy.org.cn/n/2013/1023/c244516-23295201.html
+    via: 中共中央党史和文献研究院网站（摘自中共中央党史研究室编《中共党史资料》）
+    note: 时任中央办公厅秘书处干部的回忆；网页转录，未核原刊。
+    start: 1942年，我党开展了具有伟大历史意义的整风运动。
+    end: （摘自：中共中央党史研究室编：《中共党史资料》，中共党史出版社）
+  - id: fzu-2017-northeast-bureau-1946
+    title: 东北局扩大会议(1946年7月3-11日)
+    date: 2017-11-21
+    author: 人民网·党史百科
+    kind: article
+    tier: 2
+    alias: 《东北局扩大会议（1946 年 7 月 3—11 日）》（人民网党史百科，福州大学树人网转载 2017）
+    url: https://sr.fzu.edu.cn/info/1003/1315.htm
+    via: 福州大学树人网（注明信息来源人民网/党史百科）
+    note: 官方党史条目的转载；网页转录，未核原条目。
+    start: 1945年9月，中共中央确定
+    end: 为把东北建设成全国解放战争的战略基地奠定了重要的基础。
+  - id: cnd-2024-du-junfu-516
+    title: 清查五一六运动始末
+    date: 2024-02-20
+    author: 杜钧福
+    kind: article
+    tier: 2
+    alias: 杜钧福《清查五一六运动始末》（《华夏文摘》增刊 2024）
+    url: https://web.archive.org/web/20250214035223id_/http://museums.cnd.org/CR/ZK24/cr1236.gb.html
+    via: 华夏文摘增刊第一四〇四期（文革博物馆通讯一二三六），Wayback 快照
+    note: 文革史研究者的叙述；只取第一节“首都五一六红卫兵团”；网页转录。
+    start: 第一个实在的“五一六”是在
+    end: 处理湖南问题的“二四通知”有关。
+    unwrap: true
+  - id: yyl-jiang-qing-zhuan-ch4
+    title: 江青传 第四章 明星生涯
+    date: 1988
+    author: 叶永烈
+    kind: bio
+    tier: 2
+    alias: 叶永烈《江青传》第四章“明星生涯”（网页转录）
+    url: https://www.weilishi.org/zhuanjiwenxue/j/jiangqingzhuan-yeyonglie/3818.html
+    via: 子午坊（weilishi.org）转录
+    note: 传记作家据采访与旧报刊的叙述；页面无出版日期，章内注释引崔万秋《江青前传》1988 年版，故记为不早于 1988 年；网页转录，未核原书。
+    excerpt: true
+    keep: [促成了江青第三次前来上海, 一九三五年的春天, 江青新来乍到, 此时，她取了艺名蓝苹, 一九三五年六月二十七日, 《娜拉》在这里首演]
+  - id: substack-2025-chen-tushou-jiang-qing-opera
+    title: 江青改戏记：京剧革命的波澜与纠结
+    date: 2025-04-29
+    author: 陈徒手
+    kind: article
+    tier: 2
+    alias: 陈徒手《江青改戏记：京剧革命的波澜与纠结》（《人文中国》Substack 2025）
+    url: https://humanitieschina.substack.com/p/271
+    via: 《人文中国》Humanities China（Substack）
+    note: 文史作者据文化部档案与当事人材料的叙述；网页转录。
+    excerpt: true
+    keep: [1962年江青奉毛泽东指示, 1963年11月，江青开始正式介入]
+  - id: netease-2025-miao-changqing-hua-guofeng
+    title: “文革”初期的华国锋
+    date: 2025-03-06
+    author: 苗长青（《党史博览》）
+    kind: bio
+    tier: 2
+    alias: 苗长青《“文革”初期的华国锋》（《党史博览》，网易订阅 2025）
+    url: https://www.163.com/dy/article/JLRUD74H0550VN9Q.html
+    via: 网易订阅（来源《党史博览》）
+    note: 官方党史刊物的后来叙述；网页转录，未核原刊。
+    start: 1966年5月，“文化大革命”爆发。在湖南
+    end: 华国锋、杨大易、章伯森、刘顺文、胡勇、叶卫东任副主任。

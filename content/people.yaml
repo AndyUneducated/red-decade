@@ -377,7 +377,7 @@
     - { date: 1949-10, s: power, note: 政务院总理兼外交部长 }
     - { date: 1958-01-19, s: attacked, note: 南宁会议上毛泽东再三批评反冒进，19 日全体大会上与刘少奇就此作自我批评, place: nanning, cite: dswxyjy-2014-nanning-meeting }
     - { date: 1958-02-11, s: power, note: 一届人大五次会议决定免去兼任的外交部部长职务，陈毅兼任；仍任总理, cite: rmrb-1958-02-12-presidential-order }
-    - { date: 1967-08, s: attacked, note: “五一六兵团”散发矛头指向周的传单, verify: true }
+    - { date: 1967-08-09, s: attacked, note: “首都五一六红卫兵团”把攻击周恩来的大字报贴上北京街头，并邮寄、散发传单, place: beijing, cite: cnd-2024-du-junfu-516 }
     - { date: 1971-09, s: power, note: 林彪事件后主持中央日常工作, cite: ws-1981-resolution }
     - { date: 1974-01, s: attacked, note: “批林批孔”矛头指向周, cite: ws-1981-resolution }
     - { date: 1976-01-08, s: dead, cite: ws-1976-01-09-zhou-obituary }
@@ -811,7 +811,7 @@
     - { date: 1931, s: rise, note: 任中共中央组织部部长、中央职工部部长, cite: cppcc-kang-sheng }
     - { date: 1933-07, s: rise, note: 去苏联，为中共驻共产国际代表团主要负责人之一, cite: cppcc-kang-sheng }
     - { date: 1937, s: power, note: 回国后任中央党校校长、中央社会部部长、情报部部长等职, cite: cppcc-kang-sheng }
-    - { date: 1943, s: power, note: 主持“抢救运动”, verify: true }
+    - { date: 1943-07-15, s: power, note: 在杨家岭中央大礼堂作“抢救失足者”的报告，延安和陕甘宁边区随即掀起“抢救运动”, place: yanan, cite: dswxyjy-2013-cao-ying-rectification }
     - { date: 1950, s: sidelined, note: 此后长期养病, cite: cppcc-kang-sheng }
     - { date: 1956-09, s: sidelined, note: 八届一中全会只当选政治局候补委员（七届为政治局委员）, cite: cppcc-kang-sheng }
     - { date: 1962-09, s: power, note: 增选为中央书记处书记 }
@@ -861,9 +861,9 @@
       text: |
         1914 年 3 月生于山东诸城，原名李进孩，后名李云鹤。幼年随母离家，辗转济南、天津。1929 年考入山东省立实验剧院学习话剧，1931 年到青岛大学图书馆做职员并旁听课程，与中共地下党员俞启威（黄敬）同居，1933 年经俞介绍入党。
 
-        1933 年到上海，参加左翼戏剧活动，以艺名“蓝苹”演出《娜拉》《大雷雨》和电影《王老五》等。1934 年 10 月在上海被捕，数月后出狱；出狱经过与是否写过“自首”声明，日后成为她的政治隐患，文革中经手过此事的知情人多遭迫害。1936 年与影评人唐纳的婚变成为上海小报新闻。
+        据叶永烈的查证，她 1933 年 2 月在青岛由黄敬介绍入党；7 月黄敬被捕后她去上海，没有带组织关系，在晨更工学团任教，由徐明清介绍入共青团。1934 年 9 月上海左翼教联党委决定同意她重新入党，未及通知她，她就在兆丰公园被捕，关押一个多月后由上海基督教女青年会出面保释。1935 年春第三次到上海，取艺名“蓝苹”，6 月 27 日她演娜拉、赵丹演郝尔茂的《娜拉》在金城大戏院首演；此后演出《大雷雨》和电影《王老五》等（待核）。出狱经过与是否写过“自首”声明，日后成为她的政治隐患，文革中经手过此事的知情人多遭迫害。1936 年与影评人唐纳的婚变成为上海小报新闻。
       verify: true
-      cites: [ccp-figures-bios]
+      cites: [ccp-figures-bios, ifeng-2009-jiang-qing-kang-sheng, yyl-jiang-qing-zhuan-ch4]
     - h: 延安与毛泽东
       from: 1937
       to: 1949
@@ -875,9 +875,9 @@
       from: 1949
       to: 1965
       text: |
-        建国后名义上任毛泽东秘书、中宣部电影处处长，1951 年参与发起批判电影《武训传》。1950 年代多次赴苏联治病。1963 年起介入京剧改革，抓《红灯记》《沙家浜》《智取威虎山》等“革命现代京剧”，1964 年京剧现代戏观摩演出大会后影响上升。1965 年在上海与张春桥组织姚文元写作《评新编历史剧〈海瑞罢官〉》，文章 11 月 10 日发表。
+        建国后名义上任毛泽东秘书、中宣部电影处处长，1951 年参与发起批判电影《武训传》。1950 年代多次赴苏联治病。1963 年 11 月起正式介入“京剧革命”，抓《红灯记》《沙家浜》《智取威虎山》等“革命现代京剧”，1964 年京剧现代戏观摩演出大会后影响上升。1965 年在上海与张春桥组织姚文元写作《评新编历史剧〈海瑞罢官〉》，文章 11 月 10 日发表。
       verify: true
-      cites: [ws-1966-05-16-notice-attachment]
+      cites: [ws-1966-05-16-notice-attachment, substack-2025-chen-tushou-jiang-qing-opera]
     - h: 文化大革命
       from: 1966
       to: 1976
@@ -908,14 +908,14 @@
   fate:
     - { date: 1933-02, s: normal, note: 在青岛由黄敬介绍入党（叶永烈称见 1977 年中共中央有关她的专案文件）；7 月黄敬被捕后赴上海，未带组织关系, place: qingdao, cite: ifeng-2009-jiang-qing-kang-sheng }
     - { date: 1934, s: detained, note: 在上海兆丰公园被捕，关押一个多月后由上海基督教女青年会出面保释（叶永烈：此前 9 月左翼教联党委已决定同意她重新入党）, place: shanghai, cite: ifeng-2009-jiang-qing-kang-sheng }
-    - { date: 1935, s: normal, note: 出狱后在上海演剧, verify: true }
+    - { date: 1935-06-27, s: normal, note: 1935 年春第三次到上海，取艺名蓝苹；她演娜拉、赵丹演郝尔茂的《娜拉》在金城大戏院首演, place: shanghai, cite: yyl-jiang-qing-zhuan-ch4 }
     - { date: 1937-08, s: normal, note: 8 月下旬到延安，经中组部两个月审查恢复党籍，入中央党校学习, place: yanan, cite: ifeng-2009-jiang-qing-kang-sheng }
-    - { date: 1963, s: rise, note: 介入京剧改革, verify: true }
+    - { date: 1963-11, s: rise, note: 正式介入“京剧革命”：指导北京京剧一团排练《芦荡火种》，从十二种《红灯记》剧本中选定上海爱华沪剧团的本子交中国京剧院改编, place: beijing, cite: substack-2025-chen-tushou-jiang-qing-opera }
     - { date: 1965-11-10, s: rise, note: 组织写作的姚文元文章发表, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
     - { date: 1966-02-02, s: rise, note: 主持部队文艺工作座谈会, cite: ws-1966-05-16-notice-attachment@1966-02-02 }
     - { date: 1966-05-28, s: power, note: 中央文革小组第一副组长, cite: ws-1966-05-ccrg-list }
     - { date: 1969-04, s: power, note: 九大进入政治局, cite: ws-1981-01-25-judgment }
-    - { date: 1975-05, s: attacked, note: 毛泽东批评“不要搞四人帮”, cite: ws-1981-resolution, verify: true }
+    - { date: 1975-05-03, s: attacked, note: 毛泽东在中央政治局会议上说“不要搞四人帮，你们不要搞了，为什么照样搞呀？”, cite: ws-1976-10-18-notice }
     - { date: 1976-10-06, s: detained, note: 被隔离审查, cite: ws-1976-10-18-notice }
     - { date: 1977-07, s: purged, note: 定为“叛徒”，永远开除党籍, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1981-01-25, s: detained, note: 判处死刑缓期二年执行, cite: ws-1981-01-25-judgment }
@@ -1596,9 +1596,9 @@
       from: 1935
       to: 1948
       text: |
-        出狱后在天津协助刘少奇主持北方局组织工作。1938 年任晋察冀分局书记，参与创建晋察冀根据地。1941 年到延安，任中央党校教育长，1944 年任中央组织部代部长，七大当选中央委员、政治局委员。1945 年 9 月赴东北任东北局书记，与林彪对东北战略有分歧，1946 年 6 月改由林彪主持东北局，彭真调回中央。
+        出狱后在天津协助刘少奇主持北方局组织工作。1938 年任晋察冀分局书记，参与创建晋察冀根据地。1941 年到延安，任中央党校教育长，1944 年任中央组织部代部长，七大当选中央委员、政治局委员。1945 年 9 月 15 日东北局成立，他任书记，10 月起兼东北人民自治军政委；与林彪对东北战略有分歧。1946 年 6 月 16 日中共中央决定林彪任东北局书记兼东北民主联军总司令、政委，他改任副书记兼副政委，仍是五人常委之一，7 月参加哈尔滨东北局扩大会议。此后调离东北的时间待核。
       verify: true
-      cites: [ccp-figures-bios, peng-zhen-chronicle]
+      cites: [ccp-figures-bios, peng-zhen-chronicle, fzu-2017-northeast-bureau-1946]
     - h: 北京市委书记十七年
       from: 1948
       to: 1965
@@ -1647,7 +1647,7 @@
     - { date: 1935, s: normal, note: 刑满出狱，任中共天津工作组负责人；次年任北方局代表、组织部部长, cite: rmrb-1997-05-03-peng-zhen-life }
     - { date: 1938, s: rise, note: 晋察冀分局书记, cite: rmrb-1997-05-03-peng-zhen-life }
     - { date: 1945-06, s: power, note: 七大当选政治局委员, cite: rmrb-1997-05-03-peng-zhen-life }
-    - { date: 1946-06, s: sidelined, note: 东北局改由林彪主持，调回中央, verify: true }
+    - { date: 1946-06-16, s: sidelined, note: 中共中央决定林彪任东北局书记兼东北民主联军总司令、政委，彭真改任副书记兼副政委, cite: fzu-2017-northeast-bureau-1946 }
     - { date: 1948-12, s: power, note: 北平市委书记 }
     - { date: 1966-04-09, s: attacked, note: 书记处会议批判, cite: ws-1966-05-16-notice-attachment@1966-04-09 }
     - { date: 1966-05-16, s: purged, cite: ws-1966-05-16-notice }

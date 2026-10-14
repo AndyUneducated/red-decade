@@ -416,9 +416,9 @@
       from: 1966
       to: 1976-02
       text: |
-        1967 年湖南“湘江风雷”等造反派冲击省委，他被揪斗，后被周恩来点名参加湖南省革委会筹备，1968 年任副主任。1970 年 12 月任湖南省委第一书记、省革委会主任。1971 年九一三事件后参与林彪专案，1973 年十大当选政治局委员，任公安部长，1975 年任国务院副总理。
+        1966 年秋起被造反派批斗。1967 年 5 月 9 日他与万达合写大字报呼吁两派团结，当天被“工联”抓走批斗，关押四五十天；6 月周恩来三次打电话要人，他被解救后于 21 日赴京。8 月 10 日中共中央决定成立以黎原、华国锋、章伯森为首的湖南省革委会筹备小组，9 月 5 日筹备小组成立，他任副组长；1968 年 4 月 8 日任省革委会副主任（苗长青文）。1970 年 12 月任湖南省委第一书记、省革委会主任。1971 年九一三事件后参与林彪专案，1973 年十大当选政治局委员，任公安部长，1975 年任国务院副总理。
       verify: true
-      cites: [ccp-figures-bios, macfarquhar-schoenhals]
+      cites: [netease-2025-miao-changqing-hua-guofeng, ccp-figures-bios, macfarquhar-schoenhals]
     - h: 1976 年
       from: 1976-02
       to: 1976-10
@@ -444,7 +444,8 @@
     - { date: 1938-10, s: normal, note: 入党, cite: xinhua-2008-hua-guofeng-bio }
     - { date: 1949, s: normal, note: 随军南下湖南, cite: xinhua-2008-hua-guofeng-bio }
     - { date: 1959-09, s: rise, note: 湖南省委书记处书记, cite: xinhua-2008-hua-guofeng-bio }
-    - { date: 1967, s: attacked, note: 湖南造反派揪斗（2008 年生平只说“文化大革命”初期受到冲击并被批斗；1967 年 7 月起任省革委会筹备小组副组长）, verify: true }
+    - { date: 1967-05-09, s: detained, note: 与万达合写大字报呼吁两派团结，当天被“工联”抓走批斗，此后关押四五十天、转移六七处，6 月经周恩来电话要人获救, place: changsha, cite: netease-2025-miao-changqing-hua-guofeng }
+    - { date: 1967-09-05, s: power, note: 湖南省革委会筹备小组成立，任副组长（组长黎原）, place: changsha, cite: netease-2025-miao-changqing-hua-guofeng }
     - { date: 1970-11, s: power, note: 湖南省委第一书记, cite: xinhua-2008-hua-guofeng-bio }
     - { date: 1973-08, s: rise, note: 十届一中全会当选政治局委员（公安部长是 1975 年 1 月）, cite: xinhua-2008-hua-guofeng-bio }
     - { date: 1976-02, s: rise, note: 国务院代总理, cite: ws-1976-10-18-notice }

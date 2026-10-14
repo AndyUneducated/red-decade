@@ -3239,6 +3239,8 @@ sources/chinawriter-2014-jin-jingmai
 sources/chinawriter-2020-jin-jingmai
 sources/chinawriter-cao-yu
 sources/chinawriter-yang-hansheng
+sources/cnd-2016-yu-ruxin-zhao-ziyang
+sources/cnd-2024-du-junfu-516
 sources/cpc-1980-09-29-hu-feng-rehab
 sources/cpc-eighth-11th-plenum-summary
 sources/cppcc-kang-sheng
@@ -3252,6 +3254,7 @@ sources/dangshi-2016-gouba-meeting
 sources/difangwenge-tianjin-1978
 sources/ding-kaiwen-lin
 sources/dong-bian-tian-jiaying
+sources/dswxyjy-2013-cao-ying-rectification
 sources/dswxyjy-2013-ningdu-meeting
 sources/dswxyjy-2014-nanning-meeting
 sources/frus-1964-68-xxx
@@ -3285,6 +3288,7 @@ sources/frus-v18-d65
 sources/frus-v18-d69
 sources/frus-v18-d91
 sources/fu-lei-1966-09-02-note
+sources/fzu-2017-northeast-bureau-1946
 sources/gao-wenqian-zhou
 sources/gmrb-2017-02-20-xiong-shili
 sources/gmw-2004-liang-shuming-shengping
@@ -3334,6 +3338,7 @@ sources/nbs-retro-population
 sources/nbs-retro-power
 sources/nbs-retro-steel
 sources/nbs-retro-sugar
+sources/netease-2025-miao-changqing-hua-guofeng
 sources/nfpeople-2018-pan-guoping
 sources/nie-yuanzi-memoir
 sources/peng-zhen-chronicle
@@ -3647,6 +3652,7 @@ sources/spectator-1967-08-25-week
 sources/su-wang-wuhan-bio
 sources/su-xiaokang-yan-fengying
 sources/su-yang-killings
+sources/substack-2025-chen-tushou-jiang-qing-opera
 sources/sxu-li-shunda
 sources/thepaper-2014-tang-yijie
 sources/thepaper-2016-xia-yan
@@ -4356,6 +4362,7 @@ sources/ycwb-2004-liu-qingtang
 sources/yhcqw-xie-chengnian-daoxian
 sources/ywang-wang-shenyou
 sources/ywang-zheng-junli
+sources/yyl-jiang-qing-zhuan-ch4
 sources/zhdsb-2014-yang-rongguo
 sources/zhou-chronicle-1949
 sources/zou-yimin-yao-dengshan

@@ -94,9 +94,9 @@
       from: 1919-10
       to: 1971-03
       text: |
-        2005 年的官方消息只给出一段简历：“１９１９年１０月生于河南省滑县，１９３２年３月加入中国共产主义青年团，１９３７年参加革命工作，１９３８年２月加入中国共产党”，此后“在地方先后担任过中共县委、地委、省委主要领导职务”。1951 年他南下广东，在土改、合作化中历任华南分局、广东省委书记处书记，1965 年任省委第一书记。1967 年 1 月广东造反派夺权，他被批斗、关押，后下放湖南湘潭一家工厂当钳工。
+        2005 年的官方消息只给出一段简历：“１９１９年１０月生于河南省滑县，１９３２年３月加入中国共产主义青年团，１９３７年参加革命工作，１９３８年２月加入中国共产党”，此后“在地方先后担任过中共县委、地委、省委主要领导职务”。1951 年他南下广东，在土改、合作化中历任华南分局、广东省委书记处书记，1965 年任省委第一书记。1967 年 1 月 22 日广东造反派“省革联”向省委夺权，他签署交印协议；5 月 5 日起由军队“监护”，多次被拉去批斗；1970 年 6 月 30 日解除监护，化名赵明下放湖南涟源的国营湘中机械厂劳动（余汝信文）。
       verify: true
-      cites: [xinhua-2005-01-29-zhao-ziyang]
+      cites: [xinhua-2005-01-29-zhao-ziyang, cnd-2016-yu-ruxin-zhao-ziyang]
     - h: 四川与国务院
       from: 1971-04
       to: 1986-12
@@ -127,8 +127,10 @@
     - { voice: editor, text: 1989 年的定性是“支持动乱和分裂党”，2005 年的官方消息改称“犯了严重错误”，“动乱”一词也换成了“政治风波”。1989 年宣布的“继续进行审查”此后没有公开过结论。, cite: xinhua-2005-01-29-zhao-ziyang }
   factions: [reform, provincial]
   fate:
-    - { date: 1965-02, s: power, note: 广东省委第一书记, verify: true }
-    - { date: 1967-01, s: purged, note: 被造反派夺权、批斗, verify: true }
+    - { date: 1965-02, s: power, note: 接替陶铸任广东省委第一书记, place: guangzhou, cite: cnd-2016-yu-ruxin-zhao-ziyang }
+    - { date: 1967-01-22, s: sidelined, note: 省革联宣布向广东省委夺权，他与在场书记处成员签署交印协议，省委在造反派监督下继续工作, place: guangzhou, cite: cnd-2016-yu-ruxin-zhao-ziyang }
+    - { date: 1967-05-05, s: detained, note: 按周恩来“对广东省几个当权派实行监护”的指示，由广州警备区送往军区营房监护，此后被拉去批斗, place: guangzhou, cite: cnd-2016-yu-ruxin-zhao-ziyang }
+    - { date: 1970-06-30, s: sidelined, note: 解除监护，化名赵明下放湖南涟源的国营湘中机械厂（九八一厂）劳动, cite: cnd-2016-yu-ruxin-zhao-ziyang }
     - { date: 1971, s: restored, note: 复出，任内蒙古自治区党委书记，后回广东任省委第一书记, cite: cppcc-zhao-ziyang }
     - { date: 1975-10, s: power, note: 四川省委第一书记兼成都军区第一政治委员, cite: cppcc-zhao-ziyang }
     - { date: 1980-02-29, s: power, note: 政治局常委, cite: rmrb-1980-03-01-fifth-plenum }
