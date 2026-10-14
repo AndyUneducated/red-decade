@@ -3341,6 +3341,7 @@ sources/nbs-retro-sugar
 sources/netease-2025-miao-changqing-hua-guofeng
 sources/nfpeople-2018-pan-guoping
 sources/nie-yuanzi-memoir
+sources/open-2007-04-wu-guoguang-zhao-legacy
 sources/peng-zhen-chronicle
 sources/people-2009-deng-chronology
 sources/people-2009-liu-chronology

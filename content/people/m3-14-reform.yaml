@@ -116,10 +116,10 @@
       from: 1989-06
       to: 2005-01-29
       text: |
-        1989 年 6 月 23–24 日十三届四中全会审议通过李鹏代表政治局提出的报告，认为他“在关系党和国家生死存亡的关键时刻犯了支持动乱和分裂党的错误，对动乱的形成和发展负有不可推卸的责任”，撤销他的总书记、政治局常委、政治局委员、中央委员和中央军委第一副主席职务，“对他的问题继续进行审查”。审查始终没有公开结论，他在北京富强胡同的家中被软禁到去世。
+        1989 年 6 月 23–24 日十三届四中全会审议通过李鹏代表政治局提出的报告，认为他“在关系党和国家生死存亡的关键时刻犯了支持动乱和分裂党的错误，对动乱的形成和发展负有不可推卸的责任”，撤销他的总书记、政治局常委、政治局委员、中央委员和中央军委第一副主席职务，“对他的问题继续进行审查”。审查始终没有公开结论，他在北京富强胡同的家中被软禁到去世；吴国光算作从 1989 年 5 月 19 日起共五千六百八十六天。1991 年 7 月起老友宗凤鸣以“气功师”名义来访一百多次，回家后追记谈话，后整理成《赵紫阳软禁中的谈话》一书。
         2005 年 1 月 17 日他在北京病逝，官方没有发表生平，只在遗体火化当天发了一则消息，结论是“在１９８９年春夏之交的政治风波中赵紫阳同志犯了严重错误”。
       verify: true
-      cites: [ws-1989-06-24-fourth-plenum, xinhua-2005-01-29-zhao-ziyang]
+      cites: [ws-1989-06-24-fourth-plenum, xinhua-2005-01-29-zhao-ziyang, open-2007-04-wu-guoguang-zhao-legacy]
   assess:
     - { voice: officialLater, text: 赵紫阳同志在关系党和国家生死存亡的关键时刻犯了支持动乱和分裂党的错误，对动乱的形成和发展负有不可推卸的责任，其错误的性质和造成的后果是极为严重的（1989 年十三届四中全会公报）, cite: ws-1989-06-24-fourth-plenum, quote: true }
     - { voice: officialLater, text: 特别是他主持中央工作以来，消极对待坚持四项基本原则、反对资产阶级自由化的方针，严重忽视党的建设、精神文明建设和思想政治工作（1989 年十三届四中全会公报）, cite: ws-1989-06-24-fourth-plenum, quote: true }
@@ -136,9 +136,9 @@
     - { date: 1980-02-29, s: power, note: 政治局常委, cite: rmrb-1980-03-01-fifth-plenum }
     - { date: 1987-01-16, s: power, note: 代理总书记, cite: rmrb-1987-01-17-politburo }
     - { date: 1989-05-19, s: attacked, note: 凌晨到天安门广场看望绝食学生；当晚中央召开首都党政军机关干部大会宣布制止动乱的决策，他不同意出席, cite: ws-1989-06-zhao-errors-report }
+    - { date: 1989-05-19, s: detained, note: 吴国光记他从这天起到去世，幽居北京富强胡同六号共五千六百八十六天，院外有持枪士兵看守、大门不许他出入, place: beijing, cite: open-2007-04-wu-guoguang-zhao-legacy }
     - { date: 1989-06-24, s: purged, note: 撤销全部职务，继续审查, cite: ws-1989-06-24-fourth-plenum }
     - { date: 1989-07, s: purged, note: 七届全国人大常委会第八次会议撤销其国家中央军委副主席职务, cite: cppcc-zhao-ziyang }
-    - { date: 1989-07, s: detained, note: 在北京家中软禁, verify: true }
     - { date: 2005-01-17, s: dead, note: 病逝, cite: xinhua-2005-01-29-zhao-ziyang }
   cites: [ws-1989-06-24-fourth-plenum, ws-1989-06-zhao-errors-report, xinhua-2005-01-29-zhao-ziyang, rmrb-1980-03-01-fifth-plenum, rmrb-1987-01-17-politburo]
 
