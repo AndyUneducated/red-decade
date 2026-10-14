@@ -1,13 +1,14 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { PageTitle } from '../components/PageTitle'
 import { StatusDot } from '../components/bits'
 import type { Index } from '../data/atlas'
 import { LANES, SOURCE_KINDS, STATUSES } from '../data/schema'
 import type { Lens } from '../derive/lens'
-import { DAYS, dayIndex, FIRST_YEAR, isDay, LAST_YEAR, shiftDay, todayKey, type DayItem } from '../derive/today'
+import { DAYS, dayIndex, FIRST_YEAR, isDay, KIND_COLOR, LAST_YEAR, shiftDay, todayKey, type DayItem } from '../derive/today'
 import { fmtDate } from '../lib/dates'
 import { useApp } from '../state'
 import { ArchiveCard } from './Archive'
+import { TodayRings } from './TodayRings'
 
 const ORDER: Record<DayItem['kind'], number> = { event: 0, fate: 1, died: 2, born: 3, doc: 4, archive: 5 }
 const TAG: Record<DayItem['kind'], string> = { event: '事件', fate: '命运', died: '逝世', born: '出生', doc: '文本', archive: '档案' }
@@ -81,6 +82,9 @@ export function Today() {
   const lensDays = useMemo(() => (lens ? DAYS.filter((d) => index.get(d)?.some((it) => inLens(it, lens))) : []), [lens, index])
   const nextLensDays = lensDays.filter((d) => d > day).concat(lensDays.filter((d) => d <= day)).filter((d) => d !== day).slice(0, 12)
   const go = (d: string) => open('day', d)
+  const ringIndex = useMemo(() => (lens ? new Map([...index].map(([d, xs]) => [d, xs.filter((it) => inLens(it, lens))])) : index), [index, lens])
+  const [focus, setFocus] = useState<number>()
+  const focused = focus === undefined ? undefined : byYear.get(String(focus))
 
   return (
     <div className="view">
@@ -93,6 +97,18 @@ export function Today() {
             </p>
           </div>
         </div>
+        <div className="today-top">
+          <TodayRings
+            day={day}
+            index={ringIndex}
+            items={items}
+            focus={focus}
+            onFocus={setFocus}
+            onDay={go}
+            title={label(day)}
+            sub={items.length ? `${years.length} 个年份 · ${items.length} 条` : '这一天没有记录'}
+          />
+          <aside className="today-side">
         <div className="today-head">
           <button className="chip" onClick={() => go(shiftDay(day, -1))} aria-label="前一天">
             ‹ {label(shiftDay(day, -1))}
@@ -132,6 +148,47 @@ export function Today() {
             ))}
           </div>
         )}
+            <div className="legend rings-legend">
+              {(Object.keys(TAG) as DayItem['kind'][]).map((k) => (
+                <span key={k}>
+                  <i style={{ background: KIND_COLOR[k], borderRadius: '50%' }} />
+                  {TAG[k]}
+                </span>
+              ))}
+            </div>
+            <div className="rings-card">
+              {focused ? (
+                <>
+                  <h3>
+                    {fmtDate(`${focus}-${day}`)} <span>{focused.length}</span>
+                    <button className="linklike rings-close" onClick={() => setFocus(undefined)} aria-label="回到各年份">
+                      ×
+                    </button>
+                  </h3>
+                  {focused.map((it) => (
+                    <Line key={`${it.kind}:${it.id}`} it={it} ix={ix} />
+                  ))}
+                  {focused.some((it) => it.kind === 'archive') && <p className="muted-note">另有视觉档案，见下方该年。</p>}
+                </>
+              ) : (
+                <>
+                {years.length > 0 && (
+                  <div className="chips" style={{ marginBottom: 8 }}>
+                    {years.map(([y, xs]) => (
+                      <button key={y} className="chip" onClick={() => setFocus(+y)}>
+                        {y} <small>{xs.length}</small>
+                      </button>
+                    ))}
+                  </div>
+                )}
+                <p className="muted-note">
+                  每一圈是一年，里圈 {FIRST_YEAR}，外圈 {LAST_YEAR}；浅色点是库里写到日的全部记录，竖线下亮起的是这一天。{focus ? `${focus} 年这一天没有记录。` : '指到某一圈（手机上点亮点）看那一年；点表盘其他地方，转到那一天。'}
+                </p>
+                </>
+              )}
+            </div>
+          </aside>
+        </div>
         {years.map(([y, xs]) => {
           const pics = xs.filter((it) => it.kind === 'archive')
           return (

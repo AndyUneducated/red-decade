@@ -13,6 +13,15 @@ export type DayItem =
   | { kind: 'fate'; date: string; id: string; s: Status; note?: string }
   | { kind: 'archive'; date: string; id: string }
 
+export const KIND_COLOR: Record<DayItem['kind'], string> = {
+  event: 'var(--accent)',
+  doc: 'var(--sys-gov)',
+  archive: 'var(--org-popular)',
+  fate: 'var(--org-mass)',
+  died: 'var(--ink-2)',
+  born: 'var(--sys-army)',
+}
+
 // "MM-DD" for every day of a leap year, January 1 first
 export const DAYS: string[] = Array.from({ length: 366 }, (_, i) => {
   const d = new Date(2000, 0, 1 + i)

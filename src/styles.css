@@ -3605,6 +3605,62 @@ h2.sec {
 .today-item b { font-family: var(--serif); font-size: 14px; font-weight: 600; line-height: 1.5; }
 .today-item small { display: block; color: var(--muted); font-size: 11.5px; overflow-wrap: anywhere; }
 .today-pics { margin-top: 8px; }
+.today-top {
+  display: grid;
+  grid-template-columns: minmax(0, 620px) minmax(0, 1fr);
+  gap: 8px 28px;
+  align-items: start;
+  margin-bottom: 18px;
+}
+.today-side { min-width: 0; padding-top: 18px; }
+.rings { width: 100%; }
+.rings-svg { display: block; max-width: 100%; height: auto; cursor: crosshair; touch-action: manipulation; }
+.rings-face { fill: url(#rings-face); stroke: var(--rule-2); }
+.rings-band { fill: none; stroke: var(--accent); opacity: 0.06; }
+.rings-ring { fill: none; stroke: var(--rule); stroke-width: 0.6; transition: stroke 0.2s, stroke-width 0.2s; }
+.rings-ring[data-decade] { stroke: var(--rule-2); stroke-width: 0.9; }
+.rings-ring[data-lit] { stroke: var(--accent); stroke-opacity: 0.4; stroke-width: 0.9; }
+.rings-ring[data-on] { stroke: var(--accent); stroke-opacity: 1; stroke-width: 1.6; }
+.rings-dial { transition: transform 0.9s cubic-bezier(0.22, 0.8, 0.24, 1); }
+.rings-month { transition: transform 0.9s cubic-bezier(0.22, 0.8, 0.24, 1); }
+.rings-dot { fill: var(--ink-2); }
+.rings-tick { stroke: var(--rule-2); stroke-width: 1; }
+.rings-month { font-size: 10px; fill: var(--muted); letter-spacing: 0.05em; }
+.rings-hand { stroke: var(--accent); stroke-width: 1.2; opacity: 0.7; }
+.rings-sweep { fill: var(--accent); pointer-events: none; }
+.rings-year { pointer-events: none; font-size: 9px; fill: var(--muted); font-variant-numeric: tabular-nums; paint-order: stroke; stroke: var(--card); stroke-width: 3px; }
+.rings-year[data-on] { fill: var(--accent); font-weight: 600; font-size: 10.5px; }
+.rings-lit g { cursor: pointer; animation: rings-in 0.6s ease-out both; }
+.rings-glow { fill: currentColor; transform-box: fill-box; transform-origin: center; animation: rings-pop 0.7s ease-out both; animation-delay: inherit; }
+.rings-halo { fill: none; stroke: currentColor; stroke-width: 1; transform-box: fill-box; transform-origin: center; animation: rings-pulse 2.6s ease-out infinite; }
+.rings-lit g[data-on] .rings-halo { stroke-width: 1.5; }
+@keyframes rings-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes rings-pop {
+  from { transform: scale(0.2); }
+  60% { transform: scale(1.6); }
+  to { transform: scale(1); }
+}
+@keyframes rings-pulse {
+  from { opacity: 0.9; transform: scale(0.8); }
+  to { opacity: 0; transform: scale(2.4); }
+}
+.rings-bezel { stroke: var(--rule-2); stroke-width: 0.6; }
+.rings-core { stroke: var(--rule); }
+.rings-date { font-family: var(--serif); font-weight: 600; fill: var(--ink); }
+.rings-sub { fill: var(--muted); }
+.rings-legend { margin: 4px 0 10px; }
+.rings-card { border-top: 1px solid var(--rule); padding-top: 8px; }
+.rings-card h3 { font-family: var(--serif); font-size: 15px; margin: 0 0 4px; }
+.rings-card h3 span { color: var(--muted); font-weight: 400; margin-left: 4px; }
+.rings-close { float: right; font-size: 16px; line-height: 1; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) {
+  .rings-dial, .rings-month { transition: none; }
+  .rings-lit g, .rings-glow, .rings-halo { animation: none; }
+}
+@media (max-width: 860px) {
+  .today-top { grid-template-columns: minmax(0, 1fr); }
+  .today-side { padding-top: 0; }
+}
 
 /* 专题长文 (M11) */
 .factions:has(.essay) { --fc: var(--accent); grid-template-columns: 250px minmax(0, 1fr); }
