@@ -235,12 +235,13 @@
   lane: center
   weight: 2
   place: 北京
-  summary: 遇罗克因《出身论》被捕，1970 年被北京市公检法军管会以“现行反革命”判处死刑立即执行。1978 年 11 月起他的父亲遇崇基多次申诉，法院再审认定原判“从认定的事实和适用法律上都是错误的”，撤销原判，宣告无罪。判决书页面未载日期，通行说法是 1979 年。
+  summary: 遇罗克因《出身论》被捕，1970 年被北京市公检法军管会以“现行反革命”判处死刑立即执行。1978 年 11 月起他的父亲遇崇基多次申诉，法院再审认定原判“从认定的事实和适用法律上都是错误的”，撤销原判，宣告无罪。判决书页面未载日期，通行说法是 1979 年；《中学文革报》的创办人牟志京回忆时则说平反在 1980 年。
   people: [yu-luoke, yu-luowen]
   concepts: [bloodline]
   voices:
     - { voice: judicial1980, text: 原判以遇罗克犯反革命罪，判处死刑，从认定的事实和适用法律上都是错误的，应予纠正（遇罗克再审判决）, cite: ws-1979-yu-luoke-acquittal, quote: true }
-  cites: [ws-1979-yu-luoke-acquittal]
+    - { voice: witness, text: 十三年后的1980年，在遇罗克平反的前夕，我再度召集部分成员相聚时，却从不少人嘴里听到了对当时的冒失的烦恼（牟志京 1999 年回忆《中学文革报》）, cite: mou-zhijing-chushenlun, quote: true }
+  cites: [ws-1979-yu-luoke-acquittal, mou-zhijing-chushenlun]
 
 - id: 1979-liu-wenhui-acquittal
   date: 1979
@@ -344,3 +345,48 @@
     - { voice: doc, text: 以暴力或者其他方法，包括用＂大字报＂、＂小字报＂，公然侮辱他人或者捏造事实诽谤他人, cite: ws-1979-07-01-criminal-law, quote: true }
     - { voice: doc, text: 以反革命为目的，进行下列行为之一的, cite: ws-1979-07-01-criminal-law, quote: true }
   cites: [ws-1979-07-01-criminal-law]
+
+- id: 1977-04-wang-shenyou-executed
+  date: 1977-04
+  title: 王申酉在上海公审后被枪决
+  lane: local
+  weight: 2
+  place: 上海卢湾区体育馆
+  summary: 华东师范大学物理系学生王申酉 1976 年 9 月因写给女友的长信再次入狱，在狱中写下六万字的“自供状”，否定反右、反右倾和文化大革命，主张充分发展商品经济、开展对外贸易。1977 年春，上海市革委会决定在“五一”前公审镇压一批反革命分子；区法院判他“死缓”，市法院院长怕被认为“右倾”，改为“死刑，立即执行”，市革委会领导一天内同意了 56 个死刑判决。4 月中旬他在卢湾区体育馆三万人的公审大会上第一次听到判决，随即枪决，时年 31 岁。后来上海市委常委为他的平反开了 19 次会；记者写成的长篇通讯因“牵涉到中央领导同志”没有发表。
+  people: [wang-shenyou, su-zhenhua, hua-guofeng]
+  voices:
+    - { voice: witness, text: 上海市革委会领导在一天内听取并同意了56个死刑判决案，平均每6分钟通过一个死刑案，王申酉不幸名在其中（金凤据采访和案卷所记，2001 年发表）, cite: ywang-wang-shenyou, quote: true }
+    - { voice: witness, text: 他第一次听到判决书，来不及申辩一个字，立即押赴刑场枪决，年仅31岁（同上）, cite: ywang-wang-shenyou, quote: true }
+    - { voice: officialLater, text: 第三种意见认为王申酉应平反，但也不宜评价过高，他是勤奋学习热爱祖国的好青年（上海市委书记陈国栋向记者转述，市委采纳了这种意见）, cite: ywang-wang-shenyou, quote: true }
+    - { voice: officialLater, text: 总之，文章虽好，还是不宜发表（中宣部领导对金凤通讯的意见，同上）, cite: ywang-wang-shenyou, quote: true }
+  cites: [ywang-wang-shenyou]
+
+- id: 1977-12-li-jiulian-executed
+  date: 1977-12
+  end: 1978-04-30
+  title: 李九莲、钟海源在江西先后被处决
+  lane: local
+  weight: 1
+  place: 江西
+  summary: 李九莲 1969 年因怀疑文革、怀疑林彪、为刘少奇鸣冤被捕，林彪倒台后获释，结论仍是“现行反革命性质”；1974 年贴出《反林彪无罪》等大字报再次被捕，判刑十五年。1976 年 12 月她在狱中写《我的政治态度》，被定为“恶毒攻击英明领袖华主席”，1977 年 12 月被处决。为她散发传单的钟海源在狱中说“华国锋不如邓小平”，四个月后的 1978 年 4 月 30 日也被处决。两人 1980 年在胡耀邦支持下平反。
+  people: [li-jiulian, zhong-haiyuan, hua-guofeng, hu-yaobang]
+  voices:
+    - { voice: scholar, text: 1976年12月，李九莲在狱中写下了《我的政治态度》，后还当众念出，犯了“恶毒攻击英明领袖华主席”的死罪（何与怀 2024 年《血祭》）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+    - { voice: scholar, text: 李九莲被杀四个月后，钟海源也被判处死刑，立即执行（同上）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+    - { voice: editor, text: 两人最后的死罪都和华国锋有关，处决都在文革结束一年以后。何与怀记李九莲处决于 1977 年 12 月 24 日，其他记载不一，本站只记到月份。, cite: hyh-2024-blood-sacrifice-4 }
+  cites: [hyh-2024-blood-sacrifice-4]
+
+- id: 1979-03-31-zhang-zhixin-rehab
+  date: 1979-03-31
+  title: 辽宁省委为张志新平反，追认为烈士
+  lane: local
+  weight: 2
+  place: 辽宁沈阳
+  summary: 张志新 1975 年 4 月 4 日在沈阳被枪决。1979 年 1 月案情在辽宁省委扩大会议上被揭露，省委第一书记任仲夷要求清查；3 月 31 日省委召开平反昭雪大会，追认她为革命烈士。平反定调为“张志新是反对林彪、‘四人帮’”，她批评毛泽东的言论被笼统地归为神志不清时所讲；任仲夷没有为此请示中央。4 月 5 日《辽宁日报》发表长篇通讯，胡耀邦说她是“刘胡兰式的英雄人物”，5 月 25 日《人民日报》转载，6 月 11 日摘登她的狱中答辩。
+  people: [zhang-zhixin, ren-zhongyi, hu-yaobang, hua-guofeng]
+  voices:
+    - { voice: doc, text: 我认为自己没有错，没有和广大人民为敌，而是和他们出自一个心愿（张志新 1969 年狱中答辩，《人民日报》1979 年 6 月 11 日摘登）, cite: rmrb-1979-06-11-zhang-zhixin, quote: true }
+    - { voice: officialLater, text: 宣读了《关于为张志新同志彻底平反昭雪，追认她为革命烈士的决定》，宣布为她恢复名誉，恢复党籍，追认为革命烈士（2014 年《任仲夷画传》摘编）, cite: people-2014-ren-zhongyi-zhang-zhixin, quote: true }
+    - { voice: officialLater, text: 将张志新批评毛主席的言论笼统地列入神志不清时所讲（同上）, cite: people-2014-ren-zhongyi-zhang-zhixin, quote: true }
+    - { voice: scholar, text: 特别是，她指明毛泽东是文革灾难的“总头子”（何与怀 2024 年《血祭》）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+  cites: [people-2014-ren-zhongyi-zhang-zhixin, rmrb-1979-06-11-zhang-zhixin, hyh-2024-blood-sacrifice-4]

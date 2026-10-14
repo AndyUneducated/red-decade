@@ -349,6 +349,20 @@
     - { voice: scholar, text: 临刑前，史云峰嘴塞纱布用缝合线紧紧勒住，以防喊“反动”口号（同上）, cite: hyh-2024-blood-sacrifice-4, quote: true }
   cites: [hyh-2024-blood-sacrifice-4]
 
+- id: 1975-04-04-zhang-zhixin-executed
+  date: 1975-04-04
+  title: 张志新在沈阳被枪决
+  lane: local
+  weight: 1
+  place: 辽宁沈阳
+  summary: 辽宁省委宣传部干部张志新 1969 年 9 月因怀疑林彪、江青，反对打倒刘少奇，批评文革和毛泽东晚年的错误被捕，1970 年 8 月 24 日以现行反革命罪判处无期徒刑。她在狱中不认罪，被说成“装疯卖傻”“抗拒改造”。1975 年 4 月 3 日宣布加处死刑，次日执行，临刑前被割断喉咙。四年后辽宁省委为她平反。
+  people: [zhang-zhixin]
+  voices:
+    - { voice: doc, text: 我之所以至今不能认罪，因为我对路线斗争及与之有关的一系列问题的疑问，起之有因、看法观点立之有据、坚持不改有理（张志新 1969 年狱中答辩，《人民日报》1979 年摘登）, cite: rmrb-1979-06-11-zhang-zhixin, quote: true }
+    - { voice: officialLater, text: “四人帮”死党指令杀害她， 1975年4月3日宣布对她加处死刑，次日4月4日即执行枪决（2014 年《任仲夷画传》摘编）, cite: people-2014-ren-zhongyi-zhang-zhixin, quote: true }
+    - { voice: scholar, text: 行刑前，张志新被惨无人道地割断喉管，以防喊“反动”口号（何与怀 2024 年《血祭》）, cite: hyh-2024-blood-sacrifice-4, quote: true }
+  cites: [rmrb-1979-06-11-zhang-zhixin, people-2014-ren-zhongyi-zhang-zhixin, hyh-2024-blood-sacrifice-4]
+
 - id: 1974-12-23-mao-jiang-ambition
   date: 1974-12-23
   title: 毛泽东：“江青有野心，有没有，我看是有”

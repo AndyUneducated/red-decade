@@ -11,6 +11,7 @@
   voices:
     - { voice: doc, text: 我们要人民生活得现代化，人民的民主、自由与幸福，是我们实现现代化的唯一目的（魏京生大字报）, cite: wjs-1978-fifth-modernization, quote: true }
     - { voice: doc, text: 西单民主墙成为他们向一切反动势力所作斗争的第一个阵地（同一大字报）, cite: wjs-1978-fifth-modernization, quote: true }
+    - { voice: officialLater, text: 他写的这些反动文章，有的在西单墙上张贴；有的登在他主编的名为《探索》的反动刊物上（1979 年 10 月新华社审判报道，转述起诉书）, cite: rmrb-1979-10-17-wei-jingsheng-trial, quote: true }
   cites: [wjs-1978-fifth-modernization, rmrb-1979-10-17-wei-jingsheng-trial]
 
 - id: 1978-12-third-plenum

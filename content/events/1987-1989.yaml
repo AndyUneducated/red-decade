@@ -134,13 +134,16 @@
   lane: local
   weight: 3
   place: 湖南道县
-  summary: 道县县委的总结报告。1967 年 8 月 13 日到 10 月 17 日的 66 天里，全县 519 个农村大队中有 468 个杀了人，共死亡 4509 人，其中被杀 4070 人、被迫自杀 439 人，占全县人口 1.18%；207 户全家被杀绝。8 月 22–30 日九天内杀 3231 人。死者中“四类分子”1977 人、地富子女 2145 人，13 岁以下 386 人；还有 9 名中共党员、18 名共青团员。库内零陵地区十一个县市的总结里，道县的人数最多。
-  people: []
+  summary: 道县县委的总结报告。1967 年 8 月 13 日到 10 月 17 日的 66 天里，全县 519 个农村大队中有 468 个杀了人，共死亡 4509 人，其中被杀 4070 人、被迫自杀 439 人，占全县人口 1.18%；207 户全家被杀绝。8 月 22–30 日九天内杀 3231 人。死者中“四类分子”1977 人、地富子女 2145 人，13 岁以下 386 人；还有 9 名中共党员、18 名共青团员。库内零陵地区十一个县市的总结里，道县的人数最多。参与处遗的谢承年后来回忆，胡耀邦 1980 年在零陵说过这样的事“不要声张了”，1985 年湖南省委又请公安部不要刊发道县杀人的文章。
+  people: [hu-yaobang]
   concepts: [class-struggle, bloodline]
   voices:
     - { voice: officialLater, text: 全县共死亡 4509 人，其中被杀 4070 人，被迫自杀 439 人（1987 年道县县委总结报告）, cite: ccrd-1987-hn-daoxian-15, quote: true }
     - { voice: officialLater, text: 还有中共党员九名、共青团员十八名也惨遭杀害（同一报告）, cite: ccrd-1987-hn-daoxian-15, quote: true }
-  cites: [ccrd-1987-hn-daoxian-15, ccrd-1985-hn-lingling-daoxian-13]
+    - { voice: witness, text: 共被杀和被迫自杀4519人（谢承年 2009 年回忆；他是零陵地区处遗工作的参与者和执笔人，所记人数与县委报告差 10 人）, cite: yhcqw-xie-chengnian-daoxian, quote: true }
+    - { voice: witness, text: 现在已经13年了，这样的事情不要声张了，处理完了就算了，慢慢让它平息下去（谢承年回忆胡耀邦 1980 年 12 月 6 日在零陵的话）, cite: yhcqw-xie-chengnian-daoxian, quote: true }
+    - { voice: witness, text: 会议确定由省长刘正负责，向公安部做好解释说明工作，请他们不要刊发这类文章（谢承年回忆 1985 年 10 月湖南省委的专题会议）, cite: yhcqw-xie-chengnian-daoxian, quote: true }
+  cites: [ccrd-1987-hn-daoxian-15, ccrd-1985-hn-lingling-daoxian-13, yhcqw-xie-chengnian-daoxian]
 
 - id: 1987-gx-county-chronicles
   date: 1987-04

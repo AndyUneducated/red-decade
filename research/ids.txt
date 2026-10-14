@@ -1319,6 +1319,7 @@ events/1975-02-22-theory-instructions
 events/1975-03-01-yao-social-basis
 events/1975-03-17-war-criminals
 events/1975-04-01-zhang-dictatorship
+events/1975-04-04-zhang-zhixin-executed
 events/1975-04-05-chiang-death
 events/1975-04-23-empiricism
 events/1975-04-30-saigon
@@ -1363,9 +1364,11 @@ events/1976-10-21-celebrations
 events/1976-12-17-shi-yunfeng-sentenced
 events/1976-anhui-commune-enterprise
 events/1976-hefei-manure
+events/1977-04-wang-shenyou-executed
 events/1977-07-tenth-third-plenum
 events/1977-08-eleventh-congress
 events/1977-10-06-college-admissions
+events/1977-12-li-jiulian-executed
 events/1977-two-whatevers
 events/1978-02-fifth-npc
 events/1978-03-05-constitution
@@ -1386,6 +1389,7 @@ events/1979-01-17-kmt-notice-6
 events/1979-01-landlord-caps
 events/1979-02-17-vietnam-war
 events/1979-02-gz-january-seizure
+events/1979-03-31-zhang-zhixin-rehab
 events/1979-06-second-npc-adjustment
 events/1979-07-01-criminal-law
 events/1979-07-15-special-zones
@@ -3225,6 +3229,7 @@ sources/ccrd-1987-hn-yongzhou-city-5
 sources/chen-pixian-memoir
 sources/chen-yinke-1953-12-01-reply
 sources/china-2010-mu-xin
+sources/chinanews-2009-chen-boda-secretary
 sources/chinanews-2010-cao-yu
 sources/chinawriter-2014-jin-jingmai
 sources/chinawriter-2020-jin-jingmai
@@ -3520,6 +3525,7 @@ sources/rmrb-1999-04-29-ye-fei
 sources/rmrb-2002-05-31-xi-zhongxun
 sources/rmrb-2003-02-06-tan-qilong
 sources/rmrb-2003-09-15-shi-laihe
+sources/rmwz-2012-chen-boda
 sources/rujia-gan-chunsong-liang-shuming
 sources/sdcg-shandong-rgw
 sources/sdu-li-xifan

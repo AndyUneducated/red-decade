@@ -95,6 +95,7 @@
   people: [kang-sheng, xie-fuzhi]
   voices:
     - { voice: officialLater, text: 现在中央决定把康生、谢富治的反革命罪行向全党公布，同时撤销对这两人的《悼词》，并决定开除他们的党籍（1980 年中共中央批语）, cite: ws-1980-kang-xie-reports, quote: true }
+    - { voice: judicial1980, text: 林彪、江青反革命集团主犯林彪、康生、谢富治、叶群、林立果、周宇驰已经死亡，依照“中华人民共和国刑事诉讼法”第十一条第五项的规定，不再追究刑事责任（1980 年特别检察厅起诉书）, cite: ws-1980-indictment, quote: true }
   cites: [ws-1980-kang-xie-reports, ws-1980-indictment]
 
 - id: 1980-county-direct-elections
@@ -202,7 +203,8 @@
   voices:
     - { voice: judicial1980, text: 会上，朱永嘉提出要“拉出民兵来，打一个礼拜不行，打五天三天也好，让全世界都知道”（1982 年上海市人民检察院分院起诉书）, cite: ws-1982-zhu-yongjia-case, quote: true }
     - { voice: judicial1980, text: “文化大革命”初期，陈阿大参与王洪文、潘国平等人制造的“安亭事件”，冲砸《解放日报》社，诬陷中共上海市委，煽动夺取上海市领导权（陈阿大案起诉书）, cite: ws-1982-chen-ada-case, quote: true }
-  cites: [ws-1982-zhu-yongjia-case, ws-1982-chen-ada-case]
+    - { voice: witness, text: 粉碎“四人帮”后当局对我进行审判时我说过，对安亭事件我有责任，上海市委也有责任（潘国平 1996 年访谈；他 1977 年 9 月被捕，判刑八年）, cite: bjzc-1996-09-pan-guoping, quote: true }
+  cites: [ws-1982-zhu-yongjia-case, ws-1982-chen-ada-case, bjzc-1996-09-pan-guoping]
 
 - id: 1982-09-twelfth-congress
   date: 1982-09-01

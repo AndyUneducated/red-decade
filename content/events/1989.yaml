@@ -11,6 +11,8 @@
   summary: 胡耀邦 4 月 15 日病逝，北京高校学生到天安门广场送花圈，很快提出“重新评价胡耀邦同志的功过”、新闻自由、公布领导人收入等要求。4 月 22 日追悼会时数万学生聚集在人民大会堂外，三名学生跪递请愿书。官方报告说“学潮从一开始就被极少数人所操纵和利用”。
   people: [hu-yaobang, wang-dan, li-peng, zhao-ziyang]
   voices:
+    - { voice: doc, text: 在“文化大革命”期间，他不顾个人安危，同林彪、江青反革命集团进行了不懈的斗争（1989 年 4 月 15 日中共中央讣告）, cite: rmrb-1989-04-16-hu-yaobang-obit, quote: true }
+    - { voice: doc, text: １９８２年９月至１９８７年１月担任中央委员会总书记（同一讣告；没有提 1987 年 1 月辞职的原因）, cite: rmrb-1989-04-16-hu-yaobang-obit, quote: true }
     - { voice: officialLater, text: 4月15日胡耀邦同志的逝世，使酝酿已久的学潮和动乱提前爆发（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
     - { voice: officialLater, text: 一是重新评价胡耀邦同志的功过，彻底否定1987年初中央对胡耀邦同志辞职的处理（1989 年李鹏报告，转述学潮的要求）, cite: ws-1989-06-zhao-errors-report, quote: true }
   cites: [rmrb-1989-04-16-hu-yaobang-obit, ws-1989-06-30-chen-xitong-report, ws-1989-06-zhao-errors-report]
@@ -24,6 +26,8 @@
   people: [deng-xiaoping, li-peng, zhao-ziyang]
   voices:
     - { voice: officialLater, text: 《人民日报》4月26日的社论，体现了政治局常委的决定和邓小平同志的讲话精神，指明了动乱的性质（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
+    - { voice: doc, text: 常委并报小平同志，我完全同意小平同志就对付当前动乱问题所作出的决策（赵紫阳在朝鲜访问时给中央的回电，李鹏 6 月报告引）, cite: ws-1989-06-zhao-errors-report, quote: true }
+    - { voice: officialLater, text: 但是，只过了两天，他突然改变了态度，指责根据常委决定写的《人民日报》社论定性错误，提出要加以纠正（李鹏 6 月报告，指赵紫阳 5 月 3 日起的态度）, cite: ws-1989-06-zhao-errors-report, quote: true }
   cites: [ws-1989-06-30-chen-xitong-report, ws-1989-06-zhao-errors-report]
 
 - id: 1989-05-13-hunger-strike

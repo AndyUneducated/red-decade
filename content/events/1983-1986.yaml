@@ -311,7 +311,8 @@
   summary: 卫恒是文革开始时的山西省委第一书记，1967 年 1 月 15 日被单独关押，30 日死亡；1979 年 1 月省委已为他平反。1985 年 6 月山西省委作出彻底平反决定，人民日报 1986 年 1 月的纪念文章引了薄一波的批注“十八载奇冤大案”。文章作者感叹“彻底否定‘文化大革命’竟如此艰难”。
   people: [wei-heng, bo-yibo]
   voices:
-    - { voice: officialLater, text: 沉冤长时间不得昭雪，时间好象凝固了似的。彻底否定“文化大革命”竟如此艰难！（1986 年人民日报纪念文章）, cite: rmrb-1986-01-26-wei-heng, quote: true }
+    - { voice: officialLater, text: 在“文化大革命”的动乱中，面对林彪、江青反革命集团的淫威，他坚贞不屈，正气凛然（1985 年 6 月山西省委彻底平反的决定，纪念文章引）, cite: rmrb-1986-01-26-wei-heng, quote: true }
+    - { voice: witness, text: 沉冤长时间不得昭雪，时间好象凝固了似的。彻底否定“文化大革命”竟如此艰难！（1986 年郭钦安等五人在人民日报的纪念文章）, cite: rmrb-1986-01-26-wei-heng, quote: true }
   cites: [rmrb-1986-01-26-wei-heng, lczf-wei-heng]
 
 - id: 1985-06-12-hua-luogeng-death
