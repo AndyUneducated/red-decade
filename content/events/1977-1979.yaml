@@ -361,6 +361,19 @@
     - { voice: officialLater, text: 总之，文章虽好，还是不宜发表（中宣部领导对金凤通讯的意见，同上）, cite: ywang-wang-shenyou, quote: true }
   cites: [ywang-wang-shenyou]
 
+- id: 1977-11-01-li-qinglin-arrested
+  date: 1977-11-01
+  title: 李庆霖被捕，后判无期徒刑
+  lane: local
+  weight: 1
+  place: 福建莆田
+  summary: 福建莆田小学教师李庆霖 1972 年写信给毛泽东反映下乡知青“无米之炊”，1973 年得到毛泽东复信和三百元，由此成名，1975 年任四届人大常委，1976 年 6 月成为国务院知青工作领导小组成员。粉碎“四人帮”后他被视为“四人帮”的“小爬虫”，1976 年 11 月隔离审查，1977 年 11 月 1 日正式逮捕；一年多以后莆田地区中级人民法院以“现行反革命罪”判处他无期徒刑，剥夺政治权利终身。1994 年 3 月提前出狱。
+  people: [li-qinglin]
+  voices:
+    - { voice: witness, text: 自失去自由，直至获释出狱生还家门，历时17个春秋，如此漫长的岁月，不堪回首！（李庆霖出狱后，《名人传记》2007 年引述）, cite: jwb-2007-li-qinglin, quote: true }
+    - { voice: editor, text: 判决书库内没有，罪名和刑期只见于这篇 2007 年的传记文章；文章说他自己“怎么也弄不明白”为什么会被视为“四人帮”的亲信。, cite: jwb-2007-li-qinglin }
+  cites: [jwb-2007-li-qinglin]
+
 - id: 1977-12-li-jiulian-executed
   date: 1977-12
   end: 1978-04-30

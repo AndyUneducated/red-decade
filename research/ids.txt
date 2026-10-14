@@ -1368,6 +1368,7 @@ events/1977-04-wang-shenyou-executed
 events/1977-07-tenth-third-plenum
 events/1977-08-eleventh-congress
 events/1977-10-06-college-admissions
+events/1977-11-01-li-qinglin-arrested
 events/1977-12-li-jiulian-executed
 events/1977-two-whatevers
 events/1978-02-fifth-npc
