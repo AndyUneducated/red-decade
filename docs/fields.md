@@ -134,6 +134,7 @@
 | `topics` | 所属专题（topics 的 id） |
 | `cites` | 出处列表（sources 的 id） |
 | `verify` | true 表示尚未找到原文出处（待核） |
+| `why` | 待核的原因：缺哪类原文，或摘要中哪处超出所引原文 |
 
 只在 JSON 中的嵌套字段：
 

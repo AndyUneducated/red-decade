@@ -323,6 +323,8 @@ export const EventSchema = z.object({
   voices: z.array(Voiced).default([]),
   cites: z.array(Cite).default([]),
   verify: z.boolean().optional(),
+  // required with verify: which kind of source is missing, or which detail goes beyond the cited text
+  why: z.string().optional(),
   topics: z.array(z.string()).default([]),
 })
 
@@ -681,4 +683,6 @@ export type Atlas = {
   counties: County[]
   revcoms: Revcom[]
   series: Series[]
+  // renamed or merged records (content/ids-moved.yaml) as site hashes, old → new, so old links still land
+  moved: { from: string; to: string }[]
 }

@@ -49,7 +49,9 @@
   weight: 1
   summary: 与姚文元文章同日。杨尚昆后与彭真、罗瑞卿、陆定一并称“彭罗陆杨”。
   people: [yang-shangkun]
+  cites: [ws-1966-05-16-notice-attachment]
   verify: true
+  why: 免职日期出自党史著作；库内原文只有 1966 年 5 月政治局扩大会议“讨论彭真、陆定一、罗瑞卿、杨尚昆四同志的错误问题”
 
 - id: 1965-11-beijing-silence
   date: 1965-11-11
@@ -93,9 +95,9 @@
   lane: army
   weight: 2
   place: 上海
-  summary: 政治局常委扩大会议上，叶群等揭发总参谋长罗瑞卿“反对突出政治”。罗瑞卿被停职。
+  summary: 1965 年 12 月 8 日至 15 日，中央在上海开会，“揭发和批判了罗瑞卿的错误，和他进行了背靠背的斗争”。1966 年 4 月的工作小组报告给他列的罪名之一是“擅自决定三军大比武，反对突出政治”。
   people: [luo-ruiqing, lin-biao, ye-qun]
-  verify: true
+  cites: [ws-1966-04-luo-report]
 
 - id: 1965-12-21-mao-dismissal
   date: 1965-12-21
@@ -195,9 +197,9 @@
   lane: army
   weight: 1
   place: 北京
-  summary: 在接受批判期间跳楼，致腿部重伤。
+  summary: 1966 年 3 月讨论罗瑞卿问题的小组会第二阶段，3 月 18 日罗瑞卿跳楼，报告记为“跳楼自杀（受伤）”，会议因此“转为背靠背的斗争”。报告说他是“以‘跳楼自杀’向党进行要挟”。
   people: [luo-ruiqing]
-  verify: true
+  cites: [ws-1966-04-luo-report]
 
 - id: 1966-03-22-cpsu-letter
   date: 1966-03-22
@@ -343,6 +345,7 @@
     - { voice: editor, text: 邓拓死于 5 月，早于中央文革小组成立和林彪、江青掌握实权；起诉书把这桩死亡与 1968 年的北京市公安局冤案写在同一段里，时间上的因果并不清楚。日期与方式待核。 }
   cites: [ws-1980-indictment]
   verify: true
+  why: 日期与方式出自党史著作和家属回忆；起诉书只把邓拓列为“被迫害致死”
 
 - id: 1966-05-23-tian-jiaying
   date: 1966-05-23
@@ -353,6 +356,7 @@
   summary: 毛泽东秘书，被停职审查后次日自杀。
   people: [tian-jiaying]
   verify: true
+  why: 库内尚无原文；停职审查与死亡日期出自党史著作和家属回忆
 
 - id: 1966-05-25-nie-dazibao
   date: 1966-05-25
@@ -396,6 +400,7 @@
     - { voice: editor, text: 名称出现的日期、成员与发起人，需以当事人回忆或清华附中校史核对；工作组时期的大字报原件没有入库。 }
   cites: [rmrb-1966-08-24-rebel-1]
   verify: true
+  why: “5 月 29 日”和发起人出自当事人回忆与清华附中校史；库内最早的“红卫兵”署名原文是 6 月 24 日
 
 - id: 1966-06-24-rebel-essays
   date: 1966-06-24
@@ -542,6 +547,7 @@
   summary: 北京大专院校和中学师生文化革命积极分子大会，刘少奇、邓小平、周恩来讲话检讨工作组问题。
   people: [liu-shaoqi, deng-xiaoping, zhou-enlai]
   verify: true
+  why: 库内尚无大会讲话原文；刘少奇“老革命遇到新问题”一语出自讲话记录稿的转述
 
 # ── 1966 年 8 月 十一中全会与红八月 ─────────────────────────
 - id: 1966-08-01-plenum
@@ -584,6 +590,7 @@
   summary: 副校长卞仲耘在校内批斗中被殴打致死。工作组撤离后，北京中学的暴力迅速升级。
   people: [bian-zhongyun]
   verify: true
+  why: 库内尚无原文；经过出自王友琴等人的调查与亲历者回忆
 
 - id: 1966-08-08-sixteen-points
   date: 1966-08-08
@@ -674,6 +681,7 @@
     - { voice: editor, text: 起诉书把老舍之死列入林彪、江青集团的罪责，但没有给出日期和经过；孔庙批斗的实施者是红卫兵学生，这一层在起诉书中不出现。日期与经过待核（亲历者回忆、王友琴《文革受难者》）。 }
   cites: [ws-1980-indictment]
   verify: true
+  why: 孔庙批斗和次日投湖的经过出自亲历者回忆；起诉书只把老舍列为“迫害致死”
 
 - id: 1966-08-23-very-good
   date: 1966-08-23
@@ -706,6 +714,7 @@
   summary: 在“红八月”气氛下，大兴县十余个公社对“四类分子”及其家属集体杀戮。具体死亡人数各来源说法不一，待核。
   concepts: [bloodline]
   verify: true
+  why: 库内尚无原文；各来源死亡人数说法不一，需地方志或 1980 年代复查材料
 
 # ── 1966 年 9–12 月 串连、造反与路线斗争 ─────────────────────
 - id: 1966-09-05-exchange
@@ -822,6 +831,7 @@
     - { voice: doc, text: 我们上海市工人革命造反总司令部就在以毛主席为代表的无产阶级革命路线与资产阶级反动路线的大搏斗中宣告成立了！, cite: ws-1966-11-shanghai-wgs, quote: true }
   cites: [ws-1966-11-shanghai-wgs]
   verify: true
+  why: 工总司宣言只有成立；安亭卧轨和张春桥签字承认出自起诉书以外的党史著作，库内尚无原文
 
 - id: 1966-12-05-liandong
   date: 1966-12-05
@@ -857,6 +867,7 @@
   people: [peng-dehuai]
   summary: 北京航空学院等红卫兵赴成都，将彭德怀押回北京。
   verify: true
+  why: 库内尚无原文；起诉书只写 1967 年 7 月戚本禹布置批斗彭德怀，成都押回北京的经过出自党史著作
 
 - id: 1966-12-18-zhang-kuai
   date: 1966-12-18
@@ -933,4 +944,3 @@
   voices:
     - { voice: doc, text: 派军队干部训练革命师生的方法很好。训练一下和不训练大不一样。（1966 年中央通知所引毛泽东语）, cite: ws-1967-military-training, quote: true }
   cites: [ws-1967-military-training]
-  verify: true

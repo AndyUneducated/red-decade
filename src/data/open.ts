@@ -204,6 +204,7 @@ export const OPEN_TABLES: OpenTable[] = [
       { key: 'topics', about: '所属专题（topics 的 id）' },
       { key: 'cites', about: CITES },
       { key: 'verify', about: VERIFY },
+      { key: 'why', about: '待核的原因：缺哪类原文，或摘要中哪处超出所引原文' },
     ],
     nested: { voices: `各声部的说法：voice（${values(VOICES)}）、text、cite、quote（true 为逐字引文）` },
   }),

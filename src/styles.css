@@ -536,6 +536,12 @@ kbd {
   border: 1px solid var(--warn-rule);
   white-space: nowrap;
 }
+.verify-why {
+  font-size: 12.5px;
+  color: var(--warn);
+  border-left: 2px solid var(--warn-rule);
+  padding-left: 8px;
+}
 .kicker {
   font-size: 11px;
   letter-spacing: 0.12em;

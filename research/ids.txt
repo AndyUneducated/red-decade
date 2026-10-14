@@ -3302,14 +3302,18 @@ sources/nbs-50-years
 sources/nbs-retro-birth-rate
 sources/nbs-retro-cement
 sources/nbs-retro-cloth
+sources/nbs-retro-coal
 sources/nbs-retro-cotton
 sources/nbs-retro-crude
 sources/nbs-retro-death-rate
+sources/nbs-retro-fertilizer
 sources/nbs-retro-grain
+sources/nbs-retro-iron
 sources/nbs-retro-oilcrops
 sources/nbs-retro-population
 sources/nbs-retro-power
 sources/nbs-retro-steel
+sources/nbs-retro-sugar
 sources/nfpeople-2018-pan-guoping
 sources/nie-yuanzi-memoir
 sources/peng-zhen-chronicle
@@ -3606,6 +3610,7 @@ sources/sdz-ch8-1-297
 sources/sdz-ch8-1-5
 sources/sdz-ch9-1-41
 sources/song-yongyi-database
+sources/spectator-1967-08-25-week
 sources/su-wang-wuhan-bio
 sources/su-xiaokang-yan-fengying
 sources/su-yang-killings
@@ -3942,6 +3947,7 @@ sources/ws-1967-08-20-pla-pillar
 sources/ws-1967-08-bombard-anniv
 sources/ws-1967-08-destroy-hq
 sources/ws-1967-08-hk-british
+sources/ws-1967-09-05-arms-order
 sources/ws-1967-09-20-production
 sources/ws-1967-09-tao-zhu-editorial
 sources/ws-1967-10-06-mao-thought
@@ -3957,6 +3963,7 @@ sources/ws-1967-12-21-shengwulian-decision
 sources/ws-1967-anshan-decision
 sources/ws-1967-border-areas
 sources/ws-1967-military-training
+sources/ws-1967-qinghai-decision
 sources/ws-1967-red-flag-index
 sources/ws-1967-shanghai-court-14
 sources/ws-1967-taoyuan-survey

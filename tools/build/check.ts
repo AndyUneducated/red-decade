@@ -132,6 +132,8 @@ export function check(d: Data) {
     e.cites.forEach((c) => needCite(c, `event ${e.id}`))
     e.voices.forEach((v) => needCite(v.cite, `event ${e.id} voice`))
     if (!e.cites.length && !e.verify) errors.push(`event ${e.id}: no cites and not marked verify`)
+    if (e.verify && !e.why) errors.push(`event ${e.id}: marked verify without saying why`)
+    if (e.why && !e.verify) errors.push(`event ${e.id}: has a why but is not marked verify`)
     e.topics.forEach((id) => need(ids.topic, id, `event ${e.id}`))
   }
   for (const t of d.topics) {

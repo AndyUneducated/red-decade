@@ -38,7 +38,7 @@ for (const p of PERIODS) {
   lines.push(
     `| ${p.name} | ${evs.length} | ${p.events ? `≥ ${p.events}` : '全部有一手出处'} | ${pct(evs.filter(primary).length, evs.length)} | ${evs.filter((e) => e.verify).length} | ${pct(evs.filter((e) => voices(e) >= 2).length, evs.length)} | ${claims.length} | ${srcs.length}（${srcs.filter((s) => s.hasText).length}） |`,
   )
-  for (const e of evs) if (!primary(e) || e.verify) short.push(`${p.name}  ${e.id}  ${!primary(e) ? '无一手出处 ' : ''}${e.verify ? '待核' : ''}`)
+  for (const e of evs) if (!primary(e) || e.verify) short.push(`${p.name}  ${e.id}  ${!primary(e) ? '无一手出处 ' : ''}${e.verify ? `待核：${e.why}` : ''}`)
 }
 console.log(lines.join('\n'))
 

@@ -23,6 +23,7 @@ export function EventCard({ id }: { id: string }) {
       </header>
       <section>
         <p>{e.summary}</p>
+        {e.verify && e.why && <p className="verify-why">待核：{e.why}</p>}
         <div className="chips">
           {e.cites.map((c) => (
             <Cite key={c} cite={c} />

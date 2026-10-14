@@ -1,0 +1,14 @@
+# S3: 待核事件补原文（维基文库），用于把摘要细节落到原文上。
+wikisource:
+  - id: ws-1967-09-05-arms-order
+    title: 中共中央、国务院、中央军委、中央文革命令 (1967年9月5日)
+    date: 1967-09-05
+    author: 中共中央、国务院、中央军委、中央文革小组
+    kind: party-doc
+    alias: 九五命令
+  - id: ws-1967-qinghai-decision
+    title: 中共中央、国务院、中央军委、中央文革小组关于青海问题的决定
+    date: 1967-03
+    author: 中共中央、国务院、中央军委、中央文革小组
+    kind: party-doc
+    alias: 青海问题的决定
