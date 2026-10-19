@@ -1,0 +1,74 @@
+# W4 从回忆录补新事件。回忆录一律 3 级，摘要里注明“据某某回忆”；与官方文件、当时报刊冲突处并列。
+web:
+  - id: marxists-qibenyu-2-08-eight-sima
+    title: 整风、反右派运动中的中南海“八司马事件”
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第二部分第八章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/2-08.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 作者是“八司马”之一；回忆录 2016 年香港出版，转录、未核原书；转录本夹有整理者按语。
+    excerpt: true
+    keep: [中南海的“八司马事件”始发于, 议论的结果，就是给何载写小字报, 工作组甚至布置人跟踪, 林克见到主席后嚎啕大哭, 毛主席5月3日回到北京, 主席接着说：“你们是两派, 在这一系列会议结束后, 在1958年5月中的八大二次会议前夕]
+  - id: marxists-qibenyu-2-09-xinfan
+    title: 毛主席派我们去四川种试验田
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第二部分第九章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/2-09.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [四川省委书记李井泉，在他的报告中, 1959年，刚过完春节, 最后得到的水稻单产也就是500多斤, 报告的题目就叫做]
+  - id: marxists-qibenyu-2-17-li-xiucheng
+    title: 《评李秀成自述》发表的前前后后
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第二部分第十七章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/2-17.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。毛泽东批语是作者转述江青的话。
+    excerpt: true
+    keep: [在1963年春节期间, 已经在八月出版的《历史研究》1963年第四期, 周扬在会上提出几个办法, 他批了十六个字]
+  - id: marxists-qibenyu-3-04-may-seventh
+    title: 毛主席作“五七指示”
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第四章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-04.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [是林彪转呈给毛主席的解放军总后勤部的一个报告, 我以前谈过张鲁, 第二天，即5月14日, 因为毛主席是在1966年5月7日作出这个批示的, 文革期间搞的“五七干校”]
+  - id: marxists-qibenyu-3-15-peng-luo-lu-yang
+    title: 批斗“彭、罗、陆、杨”、彭德怀等问题
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第十五章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-15.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1966年12月14日，中央文革在人民大会堂, 在1967年1月22日上吊自杀了, 对于张霖之的死，我当然负有重大责任]
+  - id: marxists-qibenyu-3-17-birthday
+    title: 参加毛主席的生日家宴
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第十七章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-17.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [12月26日下午4时许, 5时前，我们就来到了, 主席说，今天过个生日, 主席又说，斯大林是七十三岁死的, 为明年全国全面内战胜利干杯, 主席说“全面内战”这四个字]

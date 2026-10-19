@@ -862,6 +862,7 @@ events/1958-01-31-npc-rightists-removal
 events/1958-02-25-chen-dazhi
 events/1958-03-05-japan-trade-4
 events/1958-03-23-materials-allocation
+events/1958-05-03-eight-sima
 events/1958-08-29-communes
 events/1958-09-04-territorial-sea
 events/1958-10-taiwan-messages
@@ -890,6 +891,7 @@ events/1959-11-25-zhangfan-longtang
 events/1959-12-09-nehru-confront
 events/1959-12-17-xu-wenbo-five-passes
 events/1959-1961-hardship
+events/1959-xinfan-trial-field
 events/1960-02-11-xie-fuzhi-security
 events/1960-03-11-anshan
 events/1960-04-06-tan-report
@@ -940,6 +942,7 @@ events/1963-03-togliatti-again
 events/1963-05-09-mao-change-colour
 events/1963-06-14-general-line
 events/1963-07-31-test-ban
+events/1963-08-li-xiucheng-review
 events/1963-09-06-first-comment
 events/1963-09-13-on-stalin
 events/1963-09-26-third-comment
@@ -990,6 +993,7 @@ events/1966-04-10-summary-issued
 events/1966-04-16-beijing-daily
 events/1966-04-18-pla-daily
 events/1966-05-04-politburo
+events/1966-05-07-may-seventh-directive
 events/1966-05-10-three-family
 events/1966-05-16-notice
 events/1966-05-18-deng-tuo-death
@@ -1039,6 +1043,7 @@ events/1966-12-06-deng-black-gang
 events/1966-12-13-nie-yuanzi-shanghai
 events/1966-12-18-zhang-kuai
 events/1966-12-25-down-with-liu
+events/1966-12-26-mao-birthday-toast
 events/1966-12-30-kangping-road
 events/1966-12-military-training
 events/1966-12-peng-dehuai-seized
@@ -1049,6 +1054,7 @@ events/1967-01-13-public-security
 events/1967-01-16-rebels-unite
 events/1967-01-18-origin-theory
 events/1967-01-22-seize-power-editorial
+events/1967-01-22-zhang-linzhi-death
 events/1967-01-23-harbin
 events/1967-01-23-pla-support-left
 events/1967-01-28-eight-orders
@@ -3348,6 +3354,12 @@ sources/mao-manuscripts-12
 sources/marxists-1967-zhang-chunqiao-jiangsu
 sources/marxists-1968-01-yang-xiguang-whither-china
 sources/marxists-1968-07-30-five-leaders
+sources/marxists-qibenyu-2-08-eight-sima
+sources/marxists-qibenyu-2-09-xinfan
+sources/marxists-qibenyu-2-17-li-xiucheng
+sources/marxists-qibenyu-3-04-may-seventh
+sources/marxists-qibenyu-3-15-peng-luo-lu-yang
+sources/marxists-qibenyu-3-17-birthday
 sources/marxists-qibenyu-tian-jiaying
 sources/marxists-qibenyu-wuhan-720
 sources/moa-2009-xing-yanzi

@@ -1,0 +1,85 @@
+# W4 据回忆录补的事件。回忆录是 3 级出处，摘要写明“据某某回忆”；有官方文件或判决的并列。
+
+- id: 1958-05-03-eight-sima
+  date: 1958-05-03
+  title: 中南海“八司马事件”：毛泽东称工作组打的是“黑旗”
+  lane: center
+  weight: 1
+  place: 中南海菊香书屋
+  summary: 1957 年整风中，中央办公厅秘书室林克、李公绰、戚本禹等八名科级干部给秘书室副主任何载写小字报，反右派运动中反被中直机关工作组定为“反党小集团”，准备送新疆劳动改造。毛泽东从林克处得知后，5 月 3 日回京当晚在菊香书屋召集杨尚昆、田家英、工作组和当事人开会，说工作组一派“打的是黑旗”，此事因此又称“黑旗事件”。事后何载等四人被定为右派，王刚等八人受党纪处分。经过全部据当事人戚本禹的回忆，库内没有其他出处。
+  people: [mao-zedong, yang-shangkun, tian-jiaying, qi-benyu]
+  voices:
+    - { voice: witness, text: 一派打的是红旗，一派打的是黑旗。我是站在左派一边，是支持左派，反对右派的，主张拔黑旗，插红旗（毛泽东语，戚本禹回忆）, cite: marxists-qibenyu-2-08-eight-sima, quote: true }
+    - { voice: witness, text: 何载、王文等四人被定为右派分子（戚本禹回忆）, cite: marxists-qibenyu-2-08-eight-sima, quote: true }
+    - { voice: editor, text: 回忆者是事件中被整的一方，转录本还夹着整理者对人名、时间的疑问按语；工作组和中直党委一方的说法库内没有。, cite: marxists-qibenyu-2-08-eight-sima }
+  cites: [marxists-qibenyu-2-08-eight-sima]
+
+- id: 1959-xinfan-trial-field
+  date: 1959
+  title: 田家英、戚本禹到四川新繁县种试验田
+  lane: econ
+  weight: 1
+  place: 四川新繁县大丰人民公社
+  summary: 四川省委书记李井泉报告全省粮食最高亩产上万斤、平均两千多斤。据戚本禹回忆，1959 年春节后毛泽东派田家英带秘书室五人到新繁县大丰公社种试验田；他用最好的地、肥料和护理，水稻亩产五百多斤，小麦三百来斤，农民说报上去的两千斤“都是干部让报的”。他与史敬棠、李学谦联名写了《关于四川新繁县粮食生产真相的报告》。报告原文库内没有。
+  people: [tian-jiaying, qi-benyu, li-jingquan, mao-zedong]
+  voices:
+    - { voice: witness, text: 四川省委书记李井泉，在他的报告中就说，四川省粮食产量最高的是亩产上万斤，平均是亩产两千多斤（戚本禹回忆）, cite: marxists-qibenyu-2-09-xinfan, quote: true }
+    - { voice: witness, text: 最后得到的水稻单产也就是500多斤（戚本禹回忆）, cite: marxists-qibenyu-2-09-xinfan, quote: true }
+    - { voice: witness, text: 那都是干部让报的。你不多报点，他们怎么升官呢？（新繁农民语，戚本禹回忆）, cite: marxists-qibenyu-2-09-xinfan, quote: true }
+  cites: [marxists-qibenyu-2-09-xinfan]
+
+- id: 1963-08-li-xiucheng-review
+  date: 1963-08
+  title: 戚本禹《评李秀成自述》发表，毛泽东批“忠王不终”
+  lane: culture
+  weight: 1
+  summary: 戚本禹 1963 年春节写成《评李秀成自述》，刊于 8 月出版的《历史研究》第 4 期，认为李秀成被俘后的自述是“革命变节者的自白书”，与罗尔纲、梁岵庐、吕集义等人的看法相反。据他回忆，周扬随后在会上提出由中宣部通知各地不再转载、由刘大年写文章批驳；1964 年春江青告诉他，毛泽东在一份学术动态材料上批了十六个字表示支持。批语是戚本禹转述江青的话，原件库内没有。
+  people: [qi-benyu, zhou-yang, jiang-qing, mao-zedong]
+  voices:
+    - { voice: witness, text: 认为那是一个革命变节者的自白书（戚本禹回忆）, cite: marxists-qibenyu-2-17-li-xiucheng, quote: true }
+    - { voice: witness, text: 白纸黑字，铁证如山；忠王不终，不足为训（毛泽东批语，戚本禹转述江青）, cite: marxists-qibenyu-2-17-li-xiucheng, quote: true }
+    - { voice: witness, text: 一是中宣部先发一个通知，让各地不要再转载戚本禹的文章了（周扬的意见，戚本禹回忆）, cite: marxists-qibenyu-2-17-li-xiucheng, quote: true }
+  cites: [marxists-qibenyu-2-17-li-xiucheng]
+
+- id: 1966-05-07-may-seventh-directive
+  date: 1966-05-07
+  title: 毛泽东给林彪的批示（“五七指示”）
+  lane: ideology
+  weight: 2
+  summary: 毛泽东在林彪转呈的总后勤部报告上给林彪写了批示。据戚本禹回忆，毛泽东在上海召陈伯达、戚本禹等修改时说，军队战士除了军事训练还可以做工、务农、学文化，这是“未来共产主义社会的萌芽”；5 月 14 日批回，15 日政治局扩大会议通过，以中共中央名义下发，因批示写于 5 月 7 日而称“五七指示”。此后各地的“五七干校”即以此为名。批示原文库内没有。
+  people: [mao-zedong, lin-biao, chen-boda, qi-benyu, yang-chengwu]
+  voices:
+    - { voice: witness, text: 解放军战士除了军事训练，还可以做工，务农，还能学习文化知识，发展艺术才能（毛泽东语，戚本禹回忆）, cite: marxists-qibenyu-3-04-may-seventh, quote: true }
+    - { voice: witness, text: 1966年5月15日，在中央政治局扩大会议上一致通过了这个文件，并以中共中央的名义正式向全党下发了这个文件（戚本禹回忆）, cite: marxists-qibenyu-3-04-may-seventh, quote: true }
+    - { voice: witness, text: 有些人甚至把它看做是“牛棚”，是“劳改”，是一种政治迫害（戚本禹谈“五七干校”）, cite: marxists-qibenyu-3-04-may-seventh, quote: true }
+  cites: [marxists-qibenyu-3-04-may-seventh]
+
+- id: 1966-12-26-mao-birthday-toast
+  date: 1966-12-26
+  title: 毛泽东七十三岁生日家宴：“为明年全国全面内战胜利干杯”
+  lane: center
+  weight: 2
+  place: 中南海
+  summary: 毛泽东在中南海住处请中央文革小组的陈伯达、张春桥、王力、关锋、姚文元、戚本禹六人吃饭，江青、李讷、毛远新等在座，顾问康生没有请。据戚本禹回忆，毛泽东说斯大林七十三岁死后苏联复辟了，中国会不会复辟要看这次文化大革命；席间举杯“为明年全国全面内战胜利干杯”。王力的回忆说祝酒词是“祝全国全面的阶级斗争”，戚本禹书中注称王力记错。两说都是事后回忆。
+  people: [mao-zedong, jiang-qing, chen-boda, zhang-chunqiao, wang-li, guan-feng, yao-wenyuan, qi-benyu, mao-yuanxin]
+  voices:
+    - { voice: witness, text: 为明年全国全面内战胜利干杯！（毛泽东祝酒，戚本禹回忆）, cite: marxists-qibenyu-3-17-birthday, quote: true }
+    - { voice: witness, text: 斯大林是七十三岁死的。他死了，资本主义就在苏联复辟了（毛泽东语，戚本禹回忆）, cite: marxists-qibenyu-3-17-birthday, quote: true }
+    - { voice: witness, text: 吃饭时毛泽东举杯祝酒，说：“祝全国全面的阶级斗争。”（王力回忆，戚本禹书引）, cite: marxists-qibenyu-3-17-birthday, quote: true }
+  cites: [marxists-qibenyu-3-17-birthday]
+
+- id: 1967-01-22-zhang-linzhi-death
+  date: 1967-01-22
+  title: 煤炭工业部部长张霖之被批斗致死
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1966 年 12 月 14 日江青点名张霖之是“彭真死党”，19 日他被北京矿业学院一些人扣押，24 日戚本禹在矿业学院群众大会上号召“集中炮轰”。此后他在矿院和煤炭部被连续批斗毒打，1967 年 1 月 22 日死亡。1981 年对江青、1983 年对戚本禹的判决都列入此事。戚本禹回忆说张霖之是上吊自杀，承认自己“负有重大责任”，又说曾告诫群众不要武斗。
+  people: [zhang-linzhi, jiang-qing, qi-benyu, peng-zhen]
+  voices:
+    - { voice: judicial1980, text: 一九六六年十二月十四日，江青点名诬陷张霖之，使他被非法关押，并被打成重伤致死（1981 年特别法庭判决书）, cite: ws-1981-01-25-judgment, quote: true }
+    - { voice: judicial1980, text: 一九六六年十二月二十四日，被告人戚本禹按照江青的旨意，在北京矿业学院群众大会上诬陷煤炭工业部部长张霖之“是彭真死党”，并煽动他们“要集中炮轰，狠狠地打击”（1983 年北京市中级人民法院判决书）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
+    - { voice: officialLater, text: 张霖之多次受到批斗毒打，于1967年1月22日被迫害致死（1987 年《北京市文化大革命大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: witness, text: 他忍受不住了，在1967年1月22日上吊自杀了（戚本禹回忆）, cite: marxists-qibenyu-3-15-peng-luo-lu-yang, quote: true }
+    - { voice: witness, text: 对于张霖之的死，我当然负有重大责任（戚本禹回忆）, cite: marxists-qibenyu-3-15-peng-luo-lu-yang, quote: true }
+  cites: [ws-1981-01-25-judgment, ws-1983-11-02-qi-benyu-case, ccrd-1987-bj-chronology-192, marxists-qibenyu-3-15-peng-luo-lu-yang]
