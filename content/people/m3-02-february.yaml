@@ -70,15 +70,15 @@
     - { voice: scholar, text: 研究者多把怀仁堂冲突看作老干部唯一一次在正式会议上集体正面反对中央文革；毛泽东的震怒使此后几年政治局实际停摆，由中央文革碰头会取代。, cite: macfarquhar-schoenhals }
   factions: [premier]
   fate:
-    - { date: 1926, s: normal, note: 入党, verify: true }
+    - { date: 1926, s: normal, note: 入党, cite: rmrb-1983-10-03-tan-zhenlin-obituary }
     - { date: 1959-04, s: power, note: 国务院副总理, verify: true }
     - { date: 1967-01, s: attacked, note: 农林口造反派揪斗, verify: true }
     - { date: 1967-02-16, s: attacked, note: 怀仁堂碰头会上痛斥张春桥, verify: true }
     - { date: 1967-03, s: sidelined, note: 停职检讨, verify: true }
     - { date: 1969-04, s: sidelined, note: 九大落选中央委员, verify: true }
     - { date: 1973-08, s: restored, note: 十大恢复中央委员, verify: true }
-    - { date: 1975-01, s: normal, note: 全国人大常委会副委员长, verify: true }
-    - { date: 1983-09-30, s: dead, verify: true }
+    - { date: 1975-01-17, s: normal, note: 四届人大一次会议选为全国人大常委会副委员长, cite: rmrb-1975-01-19-npc-sc-list }
+    - { date: 1983-09-30, s: dead, cite: rmrb-1983-10-03-tan-zhenlin-obituary }
   cites: [ws-1981-resolution, ws-1969-04-ninth-report, ws-1980-indictment]
 
 - id: li-fuchun
@@ -449,7 +449,7 @@
     - { date: 1967-01, s: attacked, note: 造反派揪斗, verify: true }
     - { date: 1967-03, s: power, note: 回到计委、参加国务院业务组, verify: true }
     - { date: 1968-12, s: attacked, note: “中国（马列）共产党”假案, cite: ws-1980-indictment }
-    - { date: 1975-01, s: power, note: 国务院副总理, verify: true }
+    - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
     - { date: 1980-08, s: normal, note: 卸任计委主任, verify: true }
     - { date: 1999-02-03, s: dead, verify: true }
   cites: [ws-1980-indictment]
@@ -515,7 +515,7 @@
     - { date: 1966-08, s: normal, note: 到北京建筑工业学院, cite: ws-1967-07-09-liu-jiangong-review }
     - { date: 1967, s: attacked, note: 被揪斗, verify: true }
     - { date: 1969, s: restored, note: 回到国家建委, verify: true }
-    - { date: 1975-01, s: power, note: 国务院副总理, verify: true }
+    - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
     - { date: 1979-07, s: power, note: 主管对外开放与经济特区, verify: true }
     - { date: 1988-04, s: normal, note: 退休, verify: true }
     - { date: 2009-11-06, s: dead, verify: true }

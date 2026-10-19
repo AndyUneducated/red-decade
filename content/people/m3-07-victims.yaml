@@ -254,8 +254,8 @@
     - { date: 1959-09, s: sidelined, note: 调科学院经济所, verify: true }
     - { date: 1968-05, s: detained, note: 被“监护”, verify: true }
     - { date: 1969-10, s: sidelined, note: 遣送肇庆, verify: true }
-    - { date: 1976-07-01, s: dead, note: 在无锡去世, verify: true }
-    - { date: 1979-08, s: restored, note: 追悼会，平反, verify: true }
+    - { date: 1976-07-01, s: dead, note: 受迫害，在无锡含冤逝世, cite: rmrb-1979-08-26-zhang-wentian-memorial }
+    - { date: 1979-08-25, s: restored, note: 北京举行追悼会，邓小平致悼词, cite: rmrb-1979-08-26-zhang-wentian-memorial }
   cites: [ws-1959-08-16-peng-resolution, ws-1980-indictment, ws-1981-resolution]
 
 - id: lin-zhao

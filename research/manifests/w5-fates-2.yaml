@@ -66,3 +66,49 @@ web:
     url: https://cn.govopendata.com/renminribao/1995/04/12/1/
     via: 《人民日报》1995-04-12 第 1 版（govopendata 转录）
     article: 中共中央全国人大常委会国务院全国政协中央军委沉痛宣告陈云同志在北京逝世
+  # W5 第 4 批（2026-10-18）：讣告、生平与追悼会报道。
+  - id: rmrb-1983-10-03-tan-zhenlin-obituary
+    title: 中共中央、中央顾问委员会沉痛宣告谭震林同志逝世
+    date: 1983-10-03
+    author: 中共中央、中央顾问委员会
+    kind: obituary
+    alias: 1983 年谭震林讣告（《人民日报》1983-10-03）
+    url: https://cn.govopendata.com/renminribao/1983/10/03/1/
+    via: 《人民日报》1983-10-03 第 1 版（govopendata 转录）
+    article: "中共中央、中央顾问委员会沉痛宣告  杰出的无产阶级革命家谭震林同志逝世"
+  - id: rmrb-1986-03-27-chen-yonggui-death
+    title: 陈永贵同志在京逝世
+    date: 1986-03-27
+    author: 新华社
+    kind: obituary
+    alias: 1986 年新华社《陈永贵同志在京逝世》
+    url: https://cn.govopendata.com/renminribao/1986/03/27/4/
+    via: 《人民日报》1986-03-27 第 4 版（govopendata 转录）
+    article: "全国著名劳动模范、原山西省昔阳县大寨党支部书记  陈永贵同志在京逝世"
+  - id: rmrb-1989-05-08-li-jingquan-bio
+    title: 李井泉同志生平
+    date: 1989-05-08
+    author: 新华社
+    kind: obituary
+    alias: 1989 年新华社《李井泉同志生平》
+    url: https://cn.govopendata.com/renminribao/1989/05/08/4/
+    via: 《人民日报》1989-05-08 第 4 版（govopendata 转录）
+    article: 李井泉同志生平
+  - id: rmrb-1979-08-26-zhang-wentian-memorial
+    title: 张闻天同志追悼会隆重举行
+    date: 1979-08-26
+    author: 新华社
+    kind: obituary
+    alias: 1979 年张闻天追悼会报道（《人民日报》1979-08-26）
+    url: https://cn.govopendata.com/renminribao/1979/08/26/1/
+    via: 《人民日报》1979-08-26 第 1 版（govopendata 转录）
+    article: 张闻天同志追悼会隆重举行
+  - id: rmrb-1989-09-05-zhou-yang-farewell
+    title: 周扬同志遗体告别仪式在京举行
+    date: 1989-09-05
+    author: 新华社
+    kind: obituary
+    alias: 1989 年周扬遗体告别仪式报道（《人民日报》1989-09-05）
+    url: https://cn.govopendata.com/renminribao/1989/09/05/1/
+    via: 《人民日报》1989-09-05 第 1 版（govopendata 转录）
+    article: "周扬同志遗体告别仪式在京举行  江泽民杨尚昆李鹏万里乔石姚依林宋平李瑞环等参加"

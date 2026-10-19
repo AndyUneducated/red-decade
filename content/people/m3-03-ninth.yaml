@@ -504,7 +504,7 @@
     - { date: 1965, s: rise, note: 受江青注意，参与样板戏音乐设计, verify: true }
     - { date: 1968-05-23, s: rise, note: 《文汇报》文章提出“三突出”, verify: true }
     - { date: 1971-05, s: power, note: 国务院文化组副组长, verify: true }
-    - { date: 1975-01, s: power, note: 文化部长, verify: true }
+    - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为文化部部长, cite: rmrb-1975-01-19-state-council-list }
     - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
     - { date: 1977-08-28, s: dead, note: 服毒自杀, verify: true }
   cites: [macfarquhar-schoenhals, wang-nianyi-turmoil]
@@ -566,15 +566,15 @@
     - { voice: scholar, text: 研究者指出大寨在 1960 年代的成绩含有国家投入和数字夸大，文革中的“学大寨”更多是推行集体化与阶级斗争的政治运动；陈永贵本人则是毛泽东“农民当副总理”象征的产物。, cite: yang-jisheng-overturn }
   factions: [mao]
   fate:
-    - { date: 1948, s: normal, note: 入党, verify: true }
+    - { date: 1948, s: normal, note: 入党, cite: rmrb-1986-03-27-chen-yonggui-death }
     - { date: 1953, s: normal, note: 大寨党支部书记, verify: true }
     - { date: 1964, s: rise, note: “农业学大寨”, verify: true }
     - { date: 1967-03, s: power, note: 山西省革委会副主任, verify: true }
     - { date: 1973-08, s: rise, note: 政治局委员, cite: ws-1977-07-tenth-third-plenum }
-    - { date: 1975-01, s: power, note: 国务院副总理, verify: true }
+    - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
     - { date: 1980-09, s: sidelined, note: 辞去副总理, verify: true }
-    - { date: 1983, s: normal, note: 北京东郊农场顾问, verify: true }
-    - { date: 1986-03-26, s: dead, verify: true }
+    - { date: 1983, s: normal, note: 分配到北京东郊农场任顾问, cite: rmrb-1986-03-27-chen-yonggui-death }
+    - { date: 1986-03-26, s: dead, note: 肺癌病逝, cite: rmrb-1986-03-27-chen-yonggui-death }
   cites: [ws-1966-08-12-plenum-communique, ws-1967-red-flag-index, ws-1977-07-tenth-third-plenum]
 
 - id: su-zhenhua

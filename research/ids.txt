@@ -433,6 +433,7 @@ archive/rmrb-page-1978-07-06-4
 archive/rmrb-page-1979-06-11-2
 archive/rmrb-page-1979-06-28-2
 archive/rmrb-page-1979-07-09-2
+archive/rmrb-page-1979-08-26-1
 archive/rmrb-page-1979-10-17-4
 archive/rmrb-page-1980-03-01-1
 archive/rmrb-page-1980-05-01-2
@@ -443,12 +444,14 @@ archive/rmrb-page-1982-05-23-2
 archive/rmrb-page-1982-10-28-1
 archive/rmrb-page-1983-01-16-2
 archive/rmrb-page-1983-04-30-2
+archive/rmrb-page-1983-10-03-1
 archive/rmrb-page-1984-02-14-4
 archive/rmrb-page-1984-04-30-2
 archive/rmrb-page-1985-03-10-2
 archive/rmrb-page-1985-06-22-3
 archive/rmrb-page-1986-01-26-5
 archive/rmrb-page-1986-03-01-2
+archive/rmrb-page-1986-03-27-4
 archive/rmrb-page-1986-10-12-4
 archive/rmrb-page-1986-10-17-2
 archive/rmrb-page-1987-01-15-1
@@ -460,6 +463,8 @@ archive/rmrb-page-1988-02-24-2
 archive/rmrb-page-1988-08-02-4
 archive/rmrb-page-1989-03-01-2
 archive/rmrb-page-1989-04-16-1
+archive/rmrb-page-1989-05-08-4
+archive/rmrb-page-1989-09-05-1
 archive/rmrb-page-1990-02-21-2
 archive/rmrb-page-1992-06-27-1
 archive/rmrb-page-1992-10-04-4
@@ -3635,6 +3640,7 @@ sources/rmrb-1978-07-06-shi-chuanxiang
 sources/rmrb-1979-06-11-zhang-zhixin
 sources/rmrb-1979-06-28-stats-1978
 sources/rmrb-1979-07-09-xu-guangda
+sources/rmrb-1979-08-26-zhang-wentian-memorial
 sources/rmrb-1979-10-17-wei-jingsheng-trial
 sources/rmrb-1980-03-01-fifth-plenum
 sources/rmrb-1980-05-01-stats-1979
@@ -3645,12 +3651,14 @@ sources/rmrb-1982-05-23-ma-yinchu
 sources/rmrb-1982-10-28-census-1982
 sources/rmrb-1983-01-16-yang-yong
 sources/rmrb-1983-04-30-stats-1982
+sources/rmrb-1983-10-03-tan-zhenlin-obituary
 sources/rmrb-1984-02-14-su-yu
 sources/rmrb-1984-04-30-stats-1983
 sources/rmrb-1985-03-10-stats-1984
 sources/rmrb-1985-06-22-hua-luogeng
 sources/rmrb-1986-01-26-wei-heng
 sources/rmrb-1986-03-01-stats-1985
+sources/rmrb-1986-03-27-chen-yonggui-death
 sources/rmrb-1986-10-12-han-xianchu
 sources/rmrb-1986-10-17-liu-bocheng
 sources/rmrb-1987-01-15-wang-ruowang
@@ -3662,6 +3670,8 @@ sources/rmrb-1988-02-24-stats-1987
 sources/rmrb-1988-08-02-ji-dengkui-bio
 sources/rmrb-1989-03-01-stats-1988
 sources/rmrb-1989-04-16-hu-yaobang-obit
+sources/rmrb-1989-05-08-li-jingquan-bio
+sources/rmrb-1989-09-05-zhou-yang-farewell
 sources/rmrb-1990-02-21-stats-1989
 sources/rmrb-1992-06-27-li-xiannian-life
 sources/rmrb-1992-10-04-hu-qiaomu

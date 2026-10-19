@@ -3054,7 +3054,7 @@
     - { title: 关于马克思主义的几个理论问题的探讨, date: 1983-03 }
   factions: [propdept]
   fate:
-    - { date: 1927, s: normal, note: 入党, verify: true }
+    - { date: 1927, s: normal, note: 四一二政变后入党, cite: rmrb-1989-09-05-zhou-yang-farewell }
     - { date: 1933, s: rise, note: 左联党团书记, verify: true }
     - { date: 1949, s: power, note: 中宣部副部长, verify: true }
     - { date: 1966-07-01, s: purged, note: 《红旗》点名, cite: ws-1966-red-flag-index }

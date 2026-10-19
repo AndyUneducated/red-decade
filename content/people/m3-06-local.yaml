@@ -247,14 +247,15 @@
     - { voice: editor, text: 1967 年的中央通知和 1982 年的判决对宜宾案的结论正好相反：前者说刘、张是“坚持党的原则的好同志”，后者说他们 1963 年就因“严重违法乱纪、打击陷害干部群众”被撤职。他本人在大饥荒中的责任，两份文件都没有涉及。 }
   factions: [provincial]
   fate:
-    - { date: 1952-09, s: power, note: 四川省委第一书记, verify: true }
+    - { date: 1952, s: power, note: 秋任四川省委第一书记（此前数据作 1952-09）, cite: rmrb-1989-05-08-li-jingquan-bio }
     - { date: 1958-05, s: power, note: 增选为政治局委员, verify: true }
     - { date: 1960-11, s: power, note: 西南局第一书记, verify: true }
     - { date: 1967-01, s: attacked, note: 刘结挺、张西挺散发《李井泉罪行录》, cite: ws-1982-liu-zhang-case }
     - { date: 1967-04-04, s: purged, note: 中央通知定为“走资本主义道路当权派”, cite: ws-1967-04-04-yibin-rehab }
     - { date: 1973-08, s: restored, note: 当选十届中央委员, verify: true }
-    - { date: 1983-06, s: power, note: 全国人大常委会副委员长, verify: true }
-    - { date: 1989-04-24, s: dead, verify: true }
+    - { date: 1975-01-17, s: power, note: 四届人大一次会议选为全国人大常委会副委员长, cite: rmrb-1975-01-19-npc-sc-list }
+    - { date: 1983-06, s: power, note: 全国人大常委会副委员长；生平只写他任第三、四、五届副委员长，与此日期不合, verify: true }
+    - { date: 1989-04-24, s: dead, cite: rmrb-1989-05-08-li-jingquan-bio }
   cites: [ws-1967-04-04-yibin-rehab, ws-1982-liu-zhang-case, ws-1980-indictment]
 
 - id: liu-jieting
