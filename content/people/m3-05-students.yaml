@@ -253,9 +253,9 @@
   fate:
     - { date: 1948-10-06, s: normal, verify: true }
     - { date: 1967-10, s: rise, note: 省无联理论骨干, verify: true }
-    - { date: 1968-01, s: attacked, note: 《中国向何处去？》被中央点名, verify: true }
+    - { date: 1968-01, s: attacked, note: 《中国向何处去？》发表；1 月 24 日周恩来称“省无联”为反革命组织，康生、陈伯达称该文“是反革命的”（维基百科，未核原件）, cite: zhwiki-yang-xiaokai }
     - { date: 1968-02, s: detained, note: 被捕，后判刑十年, verify: true }
-    - { date: 1978, s: restored, note: 刑满释放，改名杨小凯, verify: true }
-    - { date: 1983, s: normal, note: 赴普林斯顿大学读经济学, verify: true }
-    - { date: 2004-07-07, s: dead, verify: true }
+    - { date: 1978, s: restored, note: 服刑十年后出狱，后以杨小凯为名（维基百科，未核原件）, cite: zhwiki-yang-xiaokai }
+    - { date: 1983, s: normal, note: 经邹至庄推荐赴普林斯顿大学读经济学；同年湖南高院撤销原判（维基百科，未核原件）, cite: zhwiki-yang-xiaokai }
+    - { date: 2004-07-07, s: dead, note: 在墨尔本病逝（维基百科，未核原件）, cite: zhwiki-yang-xiaokai }
   cites: [song-yongyi-database, walder-fractured]

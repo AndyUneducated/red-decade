@@ -140,13 +140,13 @@
   rehab:
     - { date: 1981-06-27, text: 历史决议说谭震林、陈毅、叶剑英、李富春等 1967 年 2 月前后对文革的错误作法提出批评，被诬为“二月逆流”而受到压制和打击, cite: ws-1981-resolution }
   fate:
-    - { date: 1922, s: normal, note: 在法国入党, verify: true }
+    - { date: 1922, s: normal, note: 勤工俭学期间入党，为旅欧总支部领导者之一, cite: rmrb-1975-01-16-li-fuchun-eulogy }
     - { date: 1954-09, s: power, note: 国务院副总理、国家计委主任, verify: true }
     - { date: 1966-08, s: rise, note: 进入政治局常委, verify: true }
     - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
     - { date: 1968-12, s: attacked, note: “中国（马列）共产党”假案中被诬为“总理”, cite: ws-1980-indictment }
     - { date: 1969-04-28, s: sidelined, note: 九届一中全会选出的政治局中没有他, cite: ws-1969-04-28-9th-cc-plenum }
-    - { date: 1975-01-09, s: dead, verify: true }
+    - { date: 1975-01-09, s: dead, note: 在北京病逝, cite: rmrb-1975-01-16-li-fuchun-eulogy }
   cites: [ws-1981-resolution, ws-1980-indictment]
 
 - id: li-xiannian

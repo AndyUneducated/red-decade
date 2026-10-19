@@ -1,0 +1,110 @@
+# W5 第 6 批（2026-10-18）：1980 年代异见者与学生领袖，中文维基百科条目（4 级，研究者与编者的综述，转录、未核原件；只留与待核节点有关的段落）。
+web:
+  - id: zhwiki-fang-lizhi
+    title: 方励之（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“方励之”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%96%B9%E5%8A%B1%E4%B9%8B
+    excerpt: true
+    keep: ["1957年，由于反右运动", "恢复了他的党籍", "1月17日，中共安徽省纪律检查委员会", "事件翌日与妻子避入", "准备出门到学校前"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-liu-binyan
+    title: 刘宾雁（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“刘宾雁”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%88%98%E5%AE%BE%E9%9B%81
+    excerpt: true
+    keep: ["被打成右派", "在1979年获得平反", "第四届大会上当选为副主席", "公开反对中国人民解放军的武力镇压", "2005年12月5日，当地时间"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-dan
+    title: 王丹（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王丹”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E4%B8%B9
+    excerpt: true
+    keep: ["1989年7月2日，王丹在北京被捕", "1993年2月获释后", "1995年5月21日，王丹再次被捕", "1998年4月19日"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-bao-tong
+    title: 鲍彤（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“鲍彤”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%B2%8D%E5%BD%A4
+    excerpt: true
+    keep: ["1980年改革开放时期开始", "1987年，在中共十三大上", "5月28日在北京被捕", "1996年5月，鲍刑满释放", "2022年11月9日7时08分"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-liu-xiaobo
+    title: 刘晓波（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“刘晓波”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%88%98%E6%99%93%E6%B3%A2
+    excerpt: true
+    keep: ["新时期十年文学讨论会", "6月6日，刘晓波被拘捕", "1999年10月7日", "7月13日17时35分，刘晓波在沈阳"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wei-jingsheng
+    title: 魏京生（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“魏京生”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%AD%8F%E4%BA%AC%E7%94%9F
+    excerpt: true
+    keep: ["1993年9月14日", "4月1日，他被北京警方", "1995年12月13日", "1997年11月16日"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-yang-xiaokai
+    title: 杨小凯（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“杨小凯”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9D%A8%E5%B0%8F%E5%87%AF
+    excerpt: true
+    keep: ["1月24日，周恩来称", "1968年至1978年，杨小凯在监狱", "1983年受到在武汉大学", "2004年7月7日早上"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-kuai-dafu
+    title: 蒯大富（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“蒯大富”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E8%92%AF%E5%A4%A7%E5%AF%8C
+    excerpt: true
+    keep: ["8月4日，陈伯达等人", "1968年7月28日凌晨", "1970年11月，蒯大富", "1987年10月31日"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-chen-xitong
+    title: 陈希同（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“陈希同”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%99%88%E5%B8%8C%E5%90%8C
+    excerpt: true
+    keep: ["1983年4月至1993年2月任北京市市长", "1995年4月27日", "1998年7月31日，陈希同被北京市高级", "2004年陈希同获", "2013年6月2日9点54分"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。

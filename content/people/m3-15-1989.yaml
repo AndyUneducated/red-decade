@@ -201,12 +201,12 @@
   factions: [reform, bjcommittee]
   fate:
     - { date: 1966, s: attacked, note: 北京市委改组后被批斗、下放（月份不详）, verify: true }
-    - { date: 1983-04, s: power, note: 北京市市长, verify: true }
+    - { date: 1983-04, s: power, note: 北京市市长（至 1993-02）（维基百科，未核原件）, cite: zhwiki-chen-xitong }
     - { date: 1989-06-30, s: power, note: 向全国人大常委会作平息“暴乱”的报告, cite: ws-1989-06-30-chen-xitong-report }
-    - { date: 1995-04, s: purged, note: 因王宝森案被免去北京市委书记, verify: true }
-    - { date: 1998-07, s: detained, note: 判处有期徒刑十六年, verify: true }
-    - { date: 2006, s: sidelined, note: 保外就医, verify: true }
-    - { date: 2013-06-02, s: dead, note: 病逝, verify: true }
+    - { date: 1995-04-27, s: purged, note: 因王宝森自杀引咎辞去北京市委书记（维基百科，未核原件）, cite: zhwiki-chen-xitong }
+    - { date: 1998-07-31, s: detained, note: 以贪污罪、玩忽职守罪判处有期徒刑十六年（维基百科，未核原件）, cite: zhwiki-chen-xitong }
+    - { date: 2004, s: sidelined, note: 保外就医（此前数据作 2006）（维基百科，未核原件）, cite: zhwiki-chen-xitong }
+    - { date: 2013-06-02, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-chen-xitong }
   cites: [ws-1989-06-30-chen-xitong-report]
 
 - id: yuan-mu
@@ -280,11 +280,11 @@
     - { voice: officialLater, text: 17日晚，鲍彤召集中央政治体制改革研究室的部分人员，在泄露了即将戒严的机密之后，发表了“告别演说”（同一报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
   factions: [reform]
   fate:
-    - { date: 1980, s: rise, note: 赵紫阳秘书, verify: true }
-    - { date: 1987-11, s: power, note: 中央委员、中央政治体制改革研究室主任, verify: true }
-    - { date: 1989-05-28, s: detained, note: 被拘押, verify: true }
-    - { date: 1996-05, s: sidelined, note: 刑满释放，长期受监控, verify: true }
-    - { date: 2022-11-09, s: dead, note: 在北京去世, verify: true }
+    - { date: 1980, s: rise, note: 国务院总理赵紫阳的政治秘书（维基百科，未核原件）, cite: zhwiki-bao-tong }
+    - { date: 1987, s: power, note: 十三大当选中央委员，任政治体制改革研究室主任（此前数据作 1987-11）（维基百科，未核原件）, cite: zhwiki-bao-tong }
+    - { date: 1989-05-28, s: detained, note: 在北京被捕（维基百科，未核原件）, cite: zhwiki-bao-tong }
+    - { date: 1996-05, s: sidelined, note: 刑满释放，长期受监控（维基百科，未核原件）, cite: zhwiki-bao-tong }
+    - { date: 2022-11-09, s: dead, note: 在北京去世（维基百科，未核原件）, cite: zhwiki-bao-tong }
   cites: [ws-1989-06-30-chen-xitong-report]
 
 - id: yan-jiaqi
@@ -359,13 +359,13 @@
     - { voice: editor, text: 官方报告把他列为动乱的幕后人物，但报告列举的都是 1 月到 4 月的言论和会议，没有写到他在 4–6 月学潮中的具体行动。, cite: ws-1989-06-30-chen-xitong-report }
   factions: [democracy]
   fate:
-    - { date: 1957, s: purged, note: 反右运动中被开除党籍, verify: true }
+    - { date: 1957, s: purged, note: 反右运动中被划为右派，开除党籍（维基百科，未核原件）, cite: zhwiki-fang-lizhi }
     - { date: 1966, s: attacked, note: 文革中受审查、被关押，下放淮南煤矿劳动（月份不详）, verify: true }
     - { date: 1978, s: restored, note: 恢复党籍, verify: true }
-    - { date: 1984, s: rise, note: 中国科学技术大学副校长, verify: true }
-    - { date: 1987-01, s: purged, note: 开除党籍、撤职, verify: true }
-    - { date: 1989-06-05, s: sidelined, note: 进入美国驻华使馆避难，被通缉, verify: true }
-    - { date: 2012-04-06, s: dead, note: 在美国图森去世, verify: true }
+    - { date: 1984-09-17, s: rise, note: 中国科学技术大学第一副校长（至 1987-01-12）（维基百科，未核原件）, cite: zhwiki-fang-lizhi }
+    - { date: 1987-01, s: purged, note: 撤销副校长职务，1 月 17 日安徽省纪委决定开除党籍（维基百科，未核原件）, cite: zhwiki-fang-lizhi }
+    - { date: 1989-06-05, s: sidelined, note: 与妻子避入美国驻华使馆，6 月 12 日起被北京市公安局通缉（维基百科，未核原件）, cite: zhwiki-fang-lizhi }
+    - { date: 2012-04-06, s: dead, note: 在美国图森寓所突然去世（维基百科，未核原件）, cite: zhwiki-fang-lizhi }
   cites: [ws-1989-06-30-chen-xitong-report]
 
 - id: liu-xiaobo
@@ -410,13 +410,13 @@
     - { voice: officialLater, text: 刘晓波等幕后策划者担心静坐请愿的学生难以坚持，就亲自走到前台，搞了一个4人参加的48小时至72小时的绝食闹剧（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
   factions: [democracy]
   fate:
-    - { date: 1986, s: rise, note: 以文学批评成名, verify: true }
-    - { date: 1989-06-06, s: detained, note: 被捕, verify: true }
+    - { date: 1986-09, s: rise, note: 社科院文学所会议上发言《新时期文学面临危机》，以文学批评成名（维基百科，未核原件）, cite: zhwiki-liu-xiaobo }
+    - { date: 1989-06-06, s: detained, note: 被拘捕，官方媒体称其为“黑手”（维基百科，未核原件）, cite: zhwiki-liu-xiaobo }
     - { date: 1991-01, s: sidelined, note: 免予刑事处分后释放, cite: ws-2009-liu-xiaobo-judgment }
     - { date: 1996-09, s: detained, note: 劳动教养三年, cite: ws-2009-liu-xiaobo-judgment }
-    - { date: 1999-10, s: sidelined, note: 解除劳教, verify: true }
+    - { date: 1999-10-07, s: sidelined, note: 劳教期满获释（维基百科，未核原件）, cite: zhwiki-liu-xiaobo }
     - { date: 2008-12-08, s: detained, note: 因《零八宪章》被拘传, cite: ws-2009-liu-xiaobo-judgment }
-    - { date: 2017-07-13, s: dead, note: 肝癌晚期，服刑期间保外就医时去世, verify: true }
+    - { date: 2017-07-13, s: dead, note: 服刑期间保外就医，在沈阳病逝（维基百科，未核原件）, cite: zhwiki-liu-xiaobo }
   cites: [ws-2009-liu-xiaobo-judgment, ws-1989-06-30-chen-xitong-report]
 
 - id: wang-dan
@@ -453,10 +453,10 @@
   factions: [democracy]
   fate:
     - { date: 1989-04, s: rise, note: 北京高校学生自治联合会负责人, verify: true }
-    - { date: 1989-07-02, s: detained, note: 被捕, verify: true }
-    - { date: 1993-02, s: sidelined, note: 提前释放, verify: true }
-    - { date: 1995-05, s: detained, note: 再次被拘，1996 年判刑十一年, verify: true }
-    - { date: 1998-04, s: sidelined, note: 保外就医送往美国, verify: true }
+    - { date: 1989-07-02, s: detained, note: 在北京被捕，关押秦城（维基百科，未核原件）, cite: zhwiki-wang-dan }
+    - { date: 1993-02, s: sidelined, note: 获释（维基百科，未核原件）, cite: zhwiki-wang-dan }
+    - { date: 1995-05-21, s: detained, note: 再次被捕，1996-10-30 以“阴谋颠覆政府罪”判刑十一年（维基百科，未核原件）, cite: zhwiki-wang-dan }
+    - { date: 1998-04-19, s: sidelined, note: 保外就医，递解美国（维基百科，未核原件）, cite: zhwiki-wang-dan }
   cites: [ws-1989-06-30-chen-xitong-report]
 
 - id: ding-zilin

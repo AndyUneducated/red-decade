@@ -43,9 +43,9 @@
   fate:
     - { date: 1978-12-05, s: rise, note: 西单墙贴出《第五个现代化》, cite: wjs-1978-fifth-modernization }
     - { date: 1979-03-29, s: detained, note: 被捕, cite: rmrb-1979-10-17-wei-jingsheng-trial }
-    - { date: 1993-09, s: sidelined, note: 提前获释, verify: true }
-    - { date: 1994-04, s: detained, note: 再次被拘，1995 年判刑十四年, verify: true }
-    - { date: 1997-11, s: sidelined, note: 保外就医送往美国, verify: true }
+    - { date: 1993-09-14, s: sidelined, note: 奥运申办投票前获释（维基百科，未核原件）, cite: zhwiki-wei-jingsheng }
+    - { date: 1994-04-01, s: detained, note: 以“收容审查”名义被关押，1995-12-13 一审判刑十四年（维基百科，未核原件）, cite: zhwiki-wei-jingsheng }
+    - { date: 1997-11-16, s: sidelined, note: 以“保外就医”名义押送美国（维基百科，未核原件）, cite: zhwiki-wei-jingsheng }
   cites: [wjs-1978-fifth-modernization, rmrb-1979-10-17-wei-jingsheng-trial]
 
 - id: liu-binyan
@@ -88,12 +88,12 @@
     - { voice: officialLater, text: 刘宾雁诋毁共产党“堕落”，说他写《人妖之间》、《千秋功罪》“都是为了展示一个真理，就是中国共产党的腐败”（同一决定）, cite: rmrb-1987-01-25-liu-binyan, quote: true }
   factions: [democracy, rightists]
   fate:
-    - { date: 1957, s: purged, note: 划为“极右分子”，开除党籍, verify: true }
-    - { date: 1979, s: restored, note: 右派改正，恢复党籍, verify: true }
-    - { date: 1985-01, s: rise, note: 中国作家协会副主席, verify: true }
+    - { date: 1957, s: purged, note: 被毛泽东指责后打成右派（维基百科，未核原件）, cite: zhwiki-liu-binyan }
+    - { date: 1979, s: restored, note: 获得平反，任《人民日报》记者（维基百科，未核原件）, cite: zhwiki-liu-binyan }
+    - { date: 1985, s: rise, note: 作协第四届大会当选为副主席（此前数据作 1985-01）（维基百科，未核原件）, cite: zhwiki-liu-binyan }
     - { date: 1987-01-23, s: purged, note: 人民日报社纪委开除党籍, cite: rmrb-1987-01-25-liu-binyan }
-    - { date: 1989-06, s: sidelined, note: 在美国，被拒绝回国, verify: true }
-    - { date: 2005-12-05, s: dead, note: 在美国新泽西去世, verify: true }
+    - { date: 1989-06, s: sidelined, note: 在美国公开反对镇压，开始流亡，被禁止回国；11 月被开除作协会籍（维基百科，未核原件）, cite: zhwiki-liu-binyan }
+    - { date: 2005-12-05, s: dead, note: 直肠癌，在美国新泽西去世（维基百科，未核原件）, cite: zhwiki-liu-binyan }
   cites: [rmrb-1987-01-25-liu-binyan]
 
 - id: wang-ruowang

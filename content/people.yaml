@@ -3956,15 +3956,15 @@
   fate:
     - { date: 1963-09, s: normal, note: 入清华, verify: true }
     - { date: 1966-06-24, s: attacked, note: 清华工作组开始“反蒯”（据 1967 年反工作组一方的调查报告）, cite: ws-1966-qinghua-workteam-survey }
-    - { date: 1966-08, s: rise, note: 工作组撤出后获平反, verify: true }
+    - { date: 1966-08-04, s: rise, note: 工作组撤出后，陈伯达等到清华为其平反（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1966-12-18, s: power, note: 张春桥单独接见, cite: ws-1980-indictment }
     - { date: 1967-04-20, s: power, note: 北京市革委会常委, cite: ws-1982-12-kuai-dafu-case, verify: true }
-    - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖, verify: true }
+    - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1968-12, s: sidelined, note: 分配到宁夏三〇四厂, place: yinchuan, cite: ws-1982-12-kuai-dafu-case }
-    - { date: 1970, s: detained, note: 清查“五一六”, verify: true }
+    - { date: 1970-11, s: detained, note: 以清查“五一六”名义被审查（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1978-04-19, s: detained, note: 逮捕, cite: ws-1982-12-kuai-dafu-case }
     - { date: 1983, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-12-kuai-dafu-case, verify: true }
-    - { date: 1987, s: normal, note: 刑满释放, verify: true }
+    - { date: 1987-10-31, s: normal, note: 刑满释放（刑期从 1970-11-01 隔离审查算起）（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
   cites: [ws-1966-qinghua-workteam-survey, ws-1966-10-liu-self-criticism, ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-12-kuai-dafu-case]
 
 - id: song-binbin

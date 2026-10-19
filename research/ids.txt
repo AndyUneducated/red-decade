@@ -404,6 +404,7 @@ archive/rmrb-page-1974-01-30-2
 archive/rmrb-page-1974-04-11-1
 archive/rmrb-page-1974-08-04-1
 archive/rmrb-page-1975-01-01-1
+archive/rmrb-page-1975-01-16-1
 archive/rmrb-page-1975-01-19-2
 archive/rmrb-page-1975-01-19-3
 archive/rmrb-page-1975-02-22-1
@@ -3612,6 +3613,7 @@ sources/rmrb-1974-01-30-repatriate
 sources/rmrb-1974-04-11-deng-un
 sources/rmrb-1974-08-04-xiaojinzhuang
 sources/rmrb-1975-01-01-newyear-editorial
+sources/rmrb-1975-01-16-li-fuchun-eulogy
 sources/rmrb-1975-01-19-npc-sc-list
 sources/rmrb-1975-01-19-state-council-list
 sources/rmrb-1975-02-22-marx-dictatorship
@@ -4547,6 +4549,15 @@ sources/ywang-zheng-junli
 sources/yyl-jiang-qing-zhuan-ch4
 sources/zhdsb-2014-yang-rongguo
 sources/zhou-chronicle-1949
+sources/zhwiki-bao-tong
+sources/zhwiki-chen-xitong
+sources/zhwiki-fang-lizhi
+sources/zhwiki-kuai-dafu
+sources/zhwiki-liu-binyan
+sources/zhwiki-liu-xiaobo
+sources/zhwiki-wang-dan
+sources/zhwiki-wei-jingsheng
+sources/zhwiki-yang-xiaokai
 sources/zou-yimin-yao-dengshan
 topics/class-status
 topics/dissent
