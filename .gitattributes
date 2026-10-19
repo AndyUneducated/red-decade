@@ -1,4 +1,5 @@
 * text=auto eol=lf
+*.pdf binary
 # pages served with mixed CRLF and LF: kept byte for byte so their SHA-256 matches research/fetch-log.jsonl
 sources/raw/chen-yinke-1953-12-01-reply.html -text
 sources/raw/people-2013-wu-guixian.html -text

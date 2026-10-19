@@ -587,10 +587,12 @@
   lane: mass
   weight: 2
   place: 北京师范大学女附中
-  summary: 副校长卞仲耘在校内批斗中被殴打致死。工作组撤离后，北京中学的暴力迅速升级。
+  summary: 副校长卞仲耘在校内批斗中被殴打致死。工作组撤离后，北京中学的暴力迅速升级。库内尚无当时的文件；经过出自该校学生王友琴 1986 年的亲历回忆，非一手档案。
   people: [bian-zhongyun]
-  verify: true
-  why: 库内尚无原文；经过出自王友琴等人的调查与亲历者回忆
+  voices:
+    - { voice: witness, text: 五个“黑帮”，五个学校的领导，从厕所被揪到了操场。, cite: wangyouqin-1986-female-barbarity, quote: true }
+    - { voice: witness, text: 当时学校“文化革命委员会”的副主席，一个高中三年级的学生，在广播喇叭里说，昨天晚上，校长死了。当然，她不说“校长”，而是说的女校长的姓名，她说“死了”，而不说“打死了”。, cite: wangyouqin-1986-female-barbarity, quote: true }
+  cites: [wangyouqin-1986-female-barbarity]
 
 - id: 1966-08-08-sixteen-points
   date: 1966-08-08

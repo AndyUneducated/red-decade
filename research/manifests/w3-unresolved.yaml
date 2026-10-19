@@ -1,0 +1,14 @@
+# W3 待核事件：库内没有一手原文的，按用户 2026-10-18 的决定改用党史著作（2 级）或亲历者回忆（3 级），
+# 事件摘要里注明经过出自非一手材料。
+web:
+  - id: wangyouqin-1986-female-barbarity
+    title: 女性的野蛮
+    date: 1986
+    author: 王友琴
+    kind: memoir
+    tier: 3
+    alias: 王友琴《女性的野蛮》（1986 年写，收入《校园随笔》，北京出版社 1988 年；作者时为北师大女附中学生）
+    url: http://ywang.uchicago.edu/history/docs/1986_00_00.pdf
+    via: 作者在芝加哥大学的个人网站（PDF）
+    pdf: true
+    unwrap: true

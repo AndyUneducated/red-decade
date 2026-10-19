@@ -7,6 +7,8 @@
 // mark the first and last characters of the wanted text (inclusive).
 // `excerpt: true` + `keep: [...]` keeps only paragraphs containing one of the `keep` strings.
 // `rows: true` keeps each table row on one line. `charset: gbk` overrides the detected encoding.
+// `pdf: true` keeps the PDF as sources/raw/<id>.pdf and extracts one line per PDF text line
+// (`pages: [first, last]` limits the pages; add `unwrap: true` to join wrapped lines).
 // Usage:
 //   node tools/fetch-web.ts [--force] [id ...]
 //   node tools/fetch-web.ts --list <url> ...    People's Daily headings -> .probe/rmrb-list.txt
@@ -30,6 +32,8 @@ type Entry = {
   unwrap?: boolean
   breaks?: string
   reflow?: boolean
+  pdf?: boolean
+  pages?: [number, number]
   frus?: boolean
   rows?: boolean
   charset?: string
@@ -64,9 +68,19 @@ for (const e of entries) {
   if (only.size && !only.has(e.id)) continue
   const textPath = join(ROOT, 'sources', 'text', `${e.id}.txt`)
   if (existsSync(textPath) && !force && !peek) continue
-  const html = await get(e.url, e.charset)
+  const bytes = e.pdf ? await getBytes(e.url) : undefined
+  const html = bytes ? '' : await get(e.url, e.charset)
   let text: string
-  if (e.article) {
+  if (bytes) {
+    const all = await pdfText(bytes, e.pages)
+    const i = e.start ? all.indexOf(e.start) : 0
+    const j = e.end ? all.indexOf(e.end, Math.max(0, i)) : -1
+    if (i < 0 || (e.end && j < 0)) {
+      console.error(`MARKERS NOT FOUND  ${e.id}  start=${i} end=${j}`)
+      continue
+    }
+    text = all.slice(i, e.end ? j + e.end.length : undefined).trim()
+  } else if (e.article) {
     const articles = rmrbArticles(html)
     // headings with a subtitle join the two with runs of spaces, so a unique prefix is accepted too
     const a = articles.find((x) => x.heading === e.article) ?? articles.find((x) => x.heading.startsWith(e.article!))
@@ -120,6 +134,7 @@ for (const e of entries) {
     continue
   }
   if (e.excerpt) paras = paras.filter((p) => (e.keep ?? []).some((k) => p.includes(k)))
+  else if (bytes) writeFileSync(join(ROOT, 'sources', 'raw', `${e.id}.pdf`), bytes)
   else writeFileSync(join(ROOT, 'sources', 'raw', `${e.id}.html`), html)
   text = paras.join('\n\n')
   writeFileSync(textPath, text + '\n')
@@ -131,7 +146,7 @@ for (const e of entries) {
       status: 'ok',
       at: new Date().toISOString(),
       url: e.url,
-      sha256: createHash('sha256').update(html).digest('hex'),
+      sha256: createHash('sha256').update(bytes ?? html).digest('hex'),
       chars: text.length,
       ...(e.excerpt ? { excerpt: true, fullChars } : {}),
     }) + '\n',
@@ -153,6 +168,41 @@ async function get(url: string, forced?: string): Promise<string> {
   const meta = head.match(/<meta[^>]+charset=["']?([\w-]+)/i)?.[1]
   const charset = (forced ?? meta ?? res.headers.get('content-type')?.match(/charset=([\w-]+)/i)?.[1] ?? 'utf-8').toLowerCase()
   return new TextDecoder(charset === 'gb2312' ? 'gbk' : charset).decode(buf)
+}
+
+async function getBytes(url: string): Promise<Uint8Array> {
+  const res = await fetch(url, { headers: { 'User-Agent': UA } })
+  if (!res.ok) throw new Error(`${res.status} ${url}`)
+  return new Uint8Array(await res.arrayBuffer())
+}
+
+// text items carry their own end-of-line flag; CJK PDFs often split one visual line into many items
+async function pdfText(bytes: Uint8Array, pages?: [number, number]): Promise<string> {
+  const { getDocument } = await import('pdfjs-dist/legacy/build/pdf.mjs')
+  const task = getDocument({ data: bytes.slice(), isEvalSupported: false, verbosity: 0 })
+  const doc = await task.promise
+  const [first, last] = pages ?? [1, doc.numPages]
+  const lines: string[] = []
+  for (let n = first; n <= Math.min(last, doc.numPages); n++) {
+    const page = await doc.getPage(n)
+    const content = await page.getTextContent()
+    let line = ''
+    for (const item of content.items) {
+      if (!('str' in item)) continue
+      line += item.str
+      if (item.hasEOL) {
+        lines.push(line)
+        line = ''
+      }
+    }
+    if (line) lines.push(line)
+    lines.push('')
+  }
+  await task.destroy()
+  return lines
+    .map((l) => l.replace(/[ \t\u3000]+/g, ' ').trim())
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
 }
 
 function decode(s: string): string {

@@ -1,6 +1,6 @@
 // Checks the source files in the repository against research/fetch-log.jsonl, offline: for each source in
 // research/manifests with a text file, the last successful fetch gives the SHA-256 of the raw page as
-// downloaded, which must equal the SHA-256 of sources/raw/<id>.wiki or .html. Excerpt sources keep no raw page.
+// downloaded, which must equal the SHA-256 of sources/raw/<id>.wiki, .html or .pdf. Excerpt sources keep no raw page.
 // git normalises line endings (.gitattributes), so a page fetched with CRLF is also hashed with CRLF restored.
 //   node tools/verify-sources.ts
 import { createHash } from 'node:crypto'
@@ -28,10 +28,13 @@ const sha = (s: string) => createHash('sha256').update(s).digest('hex')
 let ok = 0
 const bad: string[] = []
 for (const f of last.values()) {
-  const raw = ['wiki', 'html'].map((x) => join(ROOT, 'sources', 'raw', `${f.id}.${x}`)).find(existsSync)
+  const raw = ['wiki', 'html', 'pdf'].map((x) => join(ROOT, 'sources', 'raw', `${f.id}.${x}`)).find(existsSync)
   if (f.excerpt) ok++
   else if (!raw) bad.push(`${f.id}: no raw file`)
-  else {
+  else if (raw.endsWith('.pdf')) {
+    if (f.sha256 === createHash('sha256').update(readFileSync(raw)).digest('hex')) ok++
+    else bad.push(`${f.id}: raw file differs from the fetch on record`)
+  } else {
     const body = readFileSync(raw, 'utf8')
     if (f.sha256 === sha(body) || f.sha256 === sha(body.replaceAll('\n', '\r\n'))) ok++
     else bad.push(`${f.id}: raw file differs from the fetch on record`)
