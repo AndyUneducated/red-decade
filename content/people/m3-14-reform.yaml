@@ -264,8 +264,10 @@
     - { date: 1952-09, s: power, note: 中宣部部长, cite: rmrb-2002-05-31-xi-zhongxun }
     - { date: 1959-04, s: power, note: 国务院副总理兼秘书长, cite: rmrb-2002-05-31-xi-zhongxun }
     - { date: 1962-09, s: purged, note: “《刘志丹》小说问题”，撤职审查, cite: rmrb-2002-05-31-xi-zhongxun }
-    - { date: 1965, s: sidelined, note: 下放洛阳矿山机器厂, verify: true }
-    - { date: 1967, s: detained, note: 被揪回西安批斗，此后监护, verify: true }
+    - { date: 1965-12, s: sidelined, note: 下放洛阳矿山机器厂任副厂长，至 1967 年 1 月（维基百科，未核原件）, cite: zhwiki-xi-zhongxun }
+    - { date: 1967-09, s: attacked, note: 在陕西咸阳西北农学院被群众批斗（此前数据作 1967“被揪回西安批斗，此后监护”）（维基百科，未核原件）, cite: zhwiki-xi-zhongxun }
+    - { date: 1968, s: detained, note: 被接回北京卫戍区“监护”（维基百科，未核原件）, cite: zhwiki-xi-zhongxun }
+    - { date: 1975-05, s: sidelined, note: 解除“监护”，回洛阳继续接受审查，至 1978 年 2 月（维基百科，未核原件）, cite: zhwiki-xi-zhongxun }
     - { date: 1978-04, s: restored, note: 广东省委第二书记, cite: rmrb-2002-05-31-xi-zhongxun }
     - { date: 1979-07-15, s: power, note: 中央批准广东特殊政策, cite: ws-1979-07-15-guangdong-fujian }
     - { date: 1981-06, s: power, note: 中央书记处书记, cite: rmrb-2002-05-31-xi-zhongxun }
@@ -324,7 +326,7 @@
     - { date: 1966-06, s: sidelined, note: 秘书职务结束, cite: rmrb-1992-10-04-hu-qiaomu }
     - { date: 1975, s: restored, note: 国务院政治研究室主任, cite: rmrb-1992-10-04-hu-qiaomu }
     - { date: 1976-03, s: attacked, note: 政研室被批为“邓记谣言公司”, verify: true }
-    - { date: 1977-05, s: power, note: 中国社会科学院院长, verify: true }
+    - { date: 1977, s: power, note: 中国社会科学院院长（此前数据作 1977-05）（维基百科，未核原件）, cite: zhwiki-hu-qiaomu }
     - { date: 1980-02-29, s: power, note: 中央书记处书记, cite: rmrb-1980-03-01-fifth-plenum }
     - { date: 1992-09-28, s: dead, note: 病逝, cite: rmrb-1992-10-04-hu-qiaomu }
   cites: [rmrb-1992-10-04-hu-qiaomu, rmrb-1980-03-01-fifth-plenum, ws-1978-12-third-plenum]
@@ -389,7 +391,7 @@
     - { date: 1972, s: restored, note: 参与国务院经济工作, cite: rmrb-1993-03-20-wang-zhen }
     - { date: 1975-01, s: power, note: 国务院副总理, cite: rmrb-1993-03-20-wang-zhen }
     - { date: 1988-04, s: power, note: 国家副主席, cite: rmrb-1993-03-20-wang-zhen }
-    - { date: 1993-03-12, s: dead, note: 在广州病逝, verify: true }
+    - { date: 1993-03-12, s: dead, note: 在广州病逝（维基百科，未核原件）, cite: zhwiki-wang-zhen }
   cites: [rmrb-1993-03-20-wang-zhen, ws-1980-indictment, ws-1978-12-third-plenum, ws-1989-06-zhao-errors-report]
 
 - id: yao-yilin
@@ -444,5 +446,5 @@
     - { date: 1973-11, s: restored, note: 外贸部第一副部长, cite: rmrb-1994-12-19-yao-yilin }
     - { date: 1979-07, s: power, note: 国务院副总理, cite: rmrb-1994-12-19-yao-yilin }
     - { date: 1987-11, s: power, note: 政治局常委, cite: rmrb-1994-12-19-yao-yilin }
-    - { date: 1994-12-11, s: dead, note: 病逝, verify: true }
+    - { date: 1994-12-11, s: dead, note: 在北京逝世（维基百科，未核原件）, cite: zhwiki-yao-yilin }
   cites: [rmrb-1994-12-19-yao-yilin, ws-1980-indictment, rmrb-1980-03-01-fifth-plenum, ws-1989-06-zhao-errors-report]

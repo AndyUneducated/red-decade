@@ -286,7 +286,7 @@
     - { date: 1970-04, s: power, note: 总政治部主任（至 1973-12）, cite: xinhua-2011-li-desheng-bio }
     - { date: 1971-01, s: power, note: 北京军区司令员, cite: ws-1971-12-lin-chen-material-1 }
     - { date: 1973-08, s: rise, note: 十届一中全会当选政治局常委、中共中央副主席, cite: xinhua-2011-li-desheng-bio }
-    - { date: 1975-01, s: normal, note: 辞去副主席, verify: true }
+    - { date: 1975-01, s: normal, note: 十届二中全会上向毛泽东申请辞去中共中央副主席（维基百科，未核原件）, cite: zhwiki-li-desheng }
     - { date: 1985-11, s: normal, note: 新组建的国防大学政委（此前数据作 1985-12）, cite: xinhua-2011-li-desheng-bio }
     - { date: 2011-05-08, s: dead, cite: xinhua-2011-li-desheng-bio }
   cites: [ws-1971-12-lin-chen-material-1, ws-1969-04-28-9th-cc-plenum, ws-1977-07-tenth-third-plenum]

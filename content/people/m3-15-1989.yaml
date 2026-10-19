@@ -200,7 +200,7 @@
     - { voice: editor, text: 本站把他报告里的数字作为官方口径，与天安门母亲群体的名单、外国外交档案等其他说法并列（见 1989 年 6 月 3–4 日“戒严部队开枪进城、清场天安门广场”事件），不取其一。, cite: wp-1989-casualties }
   factions: [reform, bjcommittee]
   fate:
-    - { date: 1966, s: attacked, note: 北京市委改组后被批斗、下放（月份不详）, verify: true }
+    - { date: 1967, s: attacked, note: 因曾任刘仁秘书被下放劳动（此前数据作 1966“北京市委改组后被批斗、下放”）（维基百科，未核原件）, cite: zhwiki-chen-xitong }
     - { date: 1983-04, s: power, note: 北京市市长（至 1993-02）（维基百科，未核原件）, cite: zhwiki-chen-xitong }
     - { date: 1989-06-30, s: power, note: 向全国人大常委会作平息“暴乱”的报告, cite: ws-1989-06-30-chen-xitong-report }
     - { date: 1995-04-27, s: purged, note: 因王宝森自杀引咎辞去北京市委书记（维基百科，未核原件）, cite: zhwiki-chen-xitong }

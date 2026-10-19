@@ -88,7 +88,7 @@
     - { voice: editor, text: 这段经过出自 2014 年人民出版社的画传，属于后来的纪念性叙述；他把张志新批评毛泽东的言论说成“神志不清时所讲”，是平反得以通过的条件。, cite: people-2014-ren-zhongyi-zhang-zhixin }
   factions: [provincial, reform]
   fate:
-    - { date: 1966, s: attacked, note: 哈尔滨市委第一书记任上被打倒, verify: true }
+    - { date: 1966, s: attacked, note: 文革爆发后在黑龙江省委书记兼哈尔滨市委第一书记任上被解职、批斗（维基百科，未核原件）, cite: zhwiki-ren-zhongyi }
     - { date: 1978-09-04, s: rise, note: 中央任命为辽宁省委第一书记、省革委会主任, cite: dswxyjy-2015-ren-zhongyi }
     - { date: 1979-03-31, s: rise, note: 主持为张志新平反, cite: people-2014-ren-zhongyi-zhang-zhixin }
     - { date: 1980-11-09, s: rise, note: 中央任命为广东省委第一书记, cite: dswxyjy-2015-ren-zhongyi }

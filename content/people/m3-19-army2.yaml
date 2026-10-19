@@ -373,7 +373,7 @@
     - { date: 1959-09, s: power, note: 主持国防科技, cite: xinhua-2003-zhang-aiping }
     - { date: 1967, s: detained, note: 批斗、囚禁六年, cite: xinhua-2003-zhang-aiping }
     - { date: 1975-03, s: restored, note: 国防科委主任, cite: xinhua-2003-zhang-aiping }
-    - { date: 1976, s: sidelined, note: 批邓中再次被打倒, verify: true }
+    - { date: 1976, s: sidelined, note: “反击右倾翻案风”后再次被打倒（维基百科，未核原件）, cite: zhwiki-zhang-aiping }
     - { date: 1977-03, s: restored, note: 再次复出, cite: xinhua-2003-zhang-aiping }
     - { date: 1982-11, s: power, note: 国务委员兼国防部长, cite: xinhua-2003-zhang-aiping }
     - { date: 2003-07-05, s: dead, cite: xinhua-2003-zhang-aiping }
@@ -476,7 +476,7 @@
   factions: [provincial, reform]
   fate:
     - { date: 1957, s: power, note: 昆明军区司令员, cite: xinhua-1997-qin-jiwei }
-    - { date: 1967, s: attacked, note: 遭林彪、江青一伙迫害（年份待核）, verify: true }
+    - { date: 1967-01, s: attacked, note: 昆明军区瘫痪中被扣“保皇派”“走资派”帽子，后下放湖南常德西湖农场劳改（维基百科，未核原件）, cite: zhwiki-qin-jiwei }
     - { date: 1973-07, s: restored, note: 成都军区司令员, cite: xinhua-1997-qin-jiwei }
     - { date: 1988-04, s: power, note: 国务委员兼国防部长, cite: xinhua-1997-qin-jiwei }
     - { date: 1997-02-02, s: dead, cite: xinhua-1997-qin-jiwei }
@@ -532,7 +532,8 @@
     - { voice: editor, text: 生平对 1989 年只写“面对国际国内的复杂形势”；1992 年他进入政治局却离开军委，生平也没有解释。, cite: xinhua-2013-yang-baibing }
   factions: [reform]
   fate:
-    - { date: 1967, s: detained, note: 被诬为“反革命”关押八年（起始年份待核）, verify: true }
+    - { date: 1966-11, s: detained, note: 被成都军区逮捕，关押在军区政治部看守所九年（此前数据作 1967“关押八年”）（维基百科，未核原件）, cite: zhwiki-yang-baibing }
+    - { date: 1975, s: sidelined, note: 年初解除监禁（维基百科，未核原件）, cite: zhwiki-yang-baibing }
     - { date: 1979-04, s: restored, note: 北京军区政治部副主任, cite: xinhua-2013-yang-baibing }
     - { date: 1987-11, s: power, note: 总政治部主任, cite: xinhua-2013-yang-baibing }
     - { date: 1992-10, s: sidelined, note: 进入政治局，离开军委, cite: xinhua-2013-yang-baibing }

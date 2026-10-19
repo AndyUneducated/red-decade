@@ -443,7 +443,7 @@
   fate:
     - { date: 1947-05, s: power, note: 内蒙古自治政府主席, cite: people-jiangshuai-ulanhu }
     - { date: 1966-05, s: attacked, note: 前门饭店会议受批判, verify: true }
-    - { date: 1966-08, s: purged, note: 撤销内蒙古党政军职务, verify: true }
+    - { date: 1966-08, s: purged, note: 软禁于北京，撤销党政军领导职务（维基百科，未核原件）, cite: zhwiki-ulanhu }
     - { date: 1967-04-13, s: purged, note: 中央决定公开揭露, cite: ws-1967-04-13-inner-mongolia }
     - { date: 1973-08, s: restored, note: 当选十届中央委员, cite: people-jiangshuai-ulanhu }
     - { date: 1977, s: power, note: 中央统战部部长, cite: people-jiangshuai-ulanhu }

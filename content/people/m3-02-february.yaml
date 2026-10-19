@@ -376,7 +376,7 @@
     - { date: 1937, s: power, note: 开辟晋察冀根据地，任晋察冀军区司令员兼政委, cite: people-jiangshuai-nie-rongzhen }
     - { date: 1955-09-23, s: normal, note: 全国人大常委会决定授予元帅军衔, cite: ws-1955-09-23-marshal-ranks }
     - { date: 1958, s: power, note: 兼任国防科委主任、国家科委主任, cite: people-jiangshuai-nie-rongzhen }
-    - { date: 1966-08, s: rise, note: 政治局委员, verify: true }
+    - { date: 1966-08, s: rise, note: 八届十一中全会当选政治局委员（维基百科，未核原件）, cite: zhwiki-nie-rongzhen }
     - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
     - { date: 1968-04, s: attacked, note: “华北山头主义”批判, cite: ws-1980-indictment }
     - { date: 1969-04-28, s: sidelined, note: 九届一中全会选出的政治局中没有他, cite: ws-1969-04-28-9th-cc-plenum }
@@ -680,7 +680,7 @@
     - { date: 1936-09, s: normal, note: 经党组织营救，按国民党规定履行出狱手续出狱, cite: xinhua-2007-bo-yibo-bio }
     - { date: 1956-05, s: power, note: 国家经委主任, cite: xinhua-2007-bo-yibo-bio }
     - { date: 1966-12, s: attacked, note: 被红卫兵从广州揪回北京, verify: true }
-    - { date: 1967-03, s: detained, note: 定为“六十一人叛徒集团”，关押, verify: true }
+    - { date: 1967-03-16, s: purged, note: 中共中央印发批示，把其自首出狱重定为“自首叛变”（“六十一人叛徒集团案”；此前数据作 1967-03“关押”）（维基百科，未核原件）, cite: zhwiki-bo-yibo }
     - { date: 1978-12, s: restored, note: 平反, cite: ws-1978-12-third-plenum }
     - { date: 1979-07, s: power, note: 五届人大二次会议任命为国务院副总理, cite: xinhua-2007-bo-yibo-bio }
     - { date: 1982-09, s: power, note: 中顾委常务副主任, cite: xinhua-2007-bo-yibo-bio }

@@ -276,7 +276,7 @@
     - { voice: scholar, text: 多数研究认为“571 工程”纪要出自林立果和他的小圈子之手，林彪本人参与谋杀计划到什么程度是争议焦点；也有研究者认为林立果的计划多停留在纸面。, cite: macfarquhar-schoenhals }
   factions: [lin]
   fate:
-    - { date: 1967-03, s: normal, note: 进入空军党委办公室, verify: true }
+    - { date: 1967-03, s: normal, note: 参加空军，任空军司令部办公室秘书（此前数据作“进入空军党委办公室”）（维基百科，未核原件）, cite: zhwiki-lin-liguo }
     - { date: 1969-10-17, s: rise, note: 空军司令部办公室副主任兼作战部副部长, cite: ws-1971-12-lin-chen-material-1 }
     - { date: 1970-07-31, s: rise, note: “讲用报告”, cite: ws-1971-12-lin-chen-material-1 }
     - { date: 1970-10, s: power, note: 组成“联合舰队”, cite: ws-1980-indictment }

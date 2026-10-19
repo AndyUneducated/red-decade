@@ -1381,7 +1381,7 @@
     - { date: 1965-01, s: power }
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
     - { date: 1966-07-16, s: power, note: 陪同毛泽东畅游长江, cite: rmrb-1966-07-25-yangtze }
-    - { date: 1966-12, s: purged, verify: true }
+    - { date: 1966-12, s: purged, note: 12 月 5 日武汉造反派成立“赴广州专揪王任重革命造反团”（维基百科，未核原件）, cite: zhwiki-wang-renzhong }
     - { date: 1967-07-26, s: purged, note: 武汉军区公告定为七二〇事件“罪魁祸首”, place: wuhan, cite: ws-1967-07-26-wuhan-notice }
     - { date: 1978, s: restored, note: 恢复工作，任陕西省委第二书记、第一书记, cite: cppcc-2011-wang-renzhong-bio }
     - { date: 1978-12-22, s: restored, note: 增补为中央委员, cite: ws-1978-12-third-plenum }
@@ -2261,7 +2261,7 @@
     - { date: 1949-10, s: power }
     - { date: 1959-04, s: power, note: 全国人大常委会委员长, cite: ws-1976-07-07-zhu-obituary }
     - { date: 1966-09, s: attacked, cite: ws-1980-indictment }
-    - { date: 1969-10, s: sidelined, note: 疏散到广东从化, verify: true }
+    - { date: 1969-10, s: sidelined, note: 林彪“第一号令”后疏散，广州军区不许进广州市，直接送到从化（维基百科，未核原件）, cite: zhwiki-zhu-de }
     - { date: 1973-08-30, s: restored, note: 十届一中全会当选政治局常委, cite: ws-1973-08-30-first-plenum }
     - { date: 1976-07-06, s: dead, cite: ws-1976-07-07-zhu-obituary }
   cites: [ws-1976-07-07-zhu-obituary, ws-1980-indictment]
@@ -3957,7 +3957,7 @@
     - { voice: scholar, text: 魏昂德把北京高校造反派的分裂追溯到工作组时期的站队和对干部的不同态度，清华“团派”与“四一四派”是主要例证（待核）。, cite: walder-fractured }
   factions: [rebels]
   fate:
-    - { date: 1963-09, s: normal, note: 入清华, verify: true }
+    - { date: 1962, s: normal, note: 考入清华大学工程化学系（此前数据作 1963-09）（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1966-06-24, s: attacked, note: 清华工作组开始“反蒯”（据 1967 年反工作组一方的调查报告）, cite: ws-1966-qinghua-workteam-survey }
     - { date: 1966-08-04, s: rise, note: 工作组撤出后，陈伯达等到清华为其平反（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1966-12-18, s: power, note: 张春桥单独接见, cite: ws-1980-indictment }
@@ -4461,7 +4461,8 @@
   factions: [ccrg]
   fate:
     - { date: 1931, s: normal, note: 入党, cite: people-jiangshuai-xie-fuzhi }
-    - { date: 1937, s: rise, note: 一二九师旅政委, verify: true }
+    - { date: 1937, s: rise, note: 一二九师七七二团政治处主任、政委（此前数据作“一二九师旅政委”）（维基百科，未核原件）, cite: zhwiki-xie-fuzhi }
+    - { date: 1938, s: rise, note: 一二九师三八五旅政委（维基百科，未核原件）, cite: zhwiki-xie-fuzhi }
     - { date: 1955, s: power, note: 授上将, cite: people-jiangshuai-xie-fuzhi }
     - { date: 1959-09, s: power, note: 公安部长 }
     - { date: 1965-05-08, s: power, note: 沈阳冶炼厂报告被中央转发, cite: ws-1965-05-08-xie-fuzhi-shenyang }
