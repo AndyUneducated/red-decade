@@ -3689,7 +3689,7 @@
     - { date: 1966-05-25, s: rise, note: 贴出大字报, cite: rmrb-1966-06-02-nie-dazibao }
     - { date: 1966-06-01, s: rise, note: 毛泽东决定广播大字报, cite: ws-1967-01-16-rebels-unite }
     - { date: 1966-09, s: power, note: 北大校文革主任, verify: true }
-    - { date: 1967-04-20, s: power, note: 北京市革委会副主任, verify: true }
+    - { date: 1967-04-20, s: power, note: 北京市革委会副主任, cite: rmrb-1967-04-21-beijing-revcom }
     - { date: 1969-04, s: power, note: 九届中央候补委员, cite: ws-1982-10-05-nie-yuanzi-case, verify: true }
     - { date: 1971, s: detained, note: 隔离审查, verify: true }
     - { date: 1978-04-19, s: detained, note: 逮捕, cite: ws-1982-10-05-nie-yuanzi-case }
@@ -4457,12 +4457,12 @@
     - { voice: judicial1980, text: 谢富治在全国煽动“砸烂公检法”, cite: ws-1980-indictment, quote: true }
   factions: [ccrg]
   fate:
-    - { date: 1931, s: normal, note: 入党, verify: true }
+    - { date: 1931, s: normal, note: 入党, cite: people-jiangshuai-xie-fuzhi }
     - { date: 1937, s: rise, note: 一二九师旅政委, verify: true }
-    - { date: 1955, s: power, note: 云南省委第一书记、授上将, verify: true }
+    - { date: 1955, s: power, note: 授上将, cite: people-jiangshuai-xie-fuzhi }
     - { date: 1959-09, s: power, note: 公安部长 }
     - { date: 1965-05-08, s: power, note: 沈阳冶炼厂报告被中央转发, cite: ws-1965-05-08-xie-fuzhi-shenyang }
-    - { date: 1967-04, s: power, note: 北京市革委会主任, verify: true }
+    - { date: 1967-04-20, s: power, note: 北京市革委会主任, cite: rmrb-1967-04-21-beijing-revcom }
     - { date: 1969-04, s: power, note: 九大政治局委员, cite: ws-1981-01-25-judgment }
     - { date: 1972-03-26, s: dead }
   cites: [ws-1965-05-08-xie-fuzhi-shenyang, ws-1980-indictment, ws-1980-kang-xie-reports, ws-1981-01-25-judgment]

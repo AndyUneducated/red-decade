@@ -114,11 +114,11 @@
   fate:
     - { date: 1967-07, s: rise, note: 调任武汉军区司令员, verify: true }
     - { date: 1968-02-05, s: power, note: 湖北省革委会主任, verify: true }
-    - { date: 1969-04, s: power, note: 九届中央委员, verify: true }
+    - { date: 1969-04, s: power, note: 九届中央委员, cite: people-jiangshuai-zeng-siyu }
     - { date: 1973-12, s: power, note: 调任济南军区司令员, verify: true }
     - { date: 1974-05-21, s: attacked, note: 中央指示称其犯了严重错误、是“好人犯错误”, cite: ws-1974-05-21-hubei-instructions }
-    - { date: 1980-01, s: sidelined, note: 改任南京军区顾问, verify: true }
-    - { date: 2012-12-31, s: dead, verify: true }
+    - { date: 1980, s: sidelined, note: 改任南京军区顾问（至 1982 年）, cite: people-jiangshuai-zeng-siyu }
+    - { date: 2012-12-31, s: dead, note: 在大连逝世, cite: xinhua-2013-zeng-siyu-death }
   cites: [ws-1974-05-21-hubei-instructions, ws-1967-07-26-wuhan-notice]
 
 - id: liu-feng
@@ -440,14 +440,14 @@
     - { voice: editor, text: 打倒他的前门饭店会议是刘少奇、邓小平主持中央时召开的；1980 年起诉书只追究了此后康生、谢富治在“内人党”案中的责任。 }
   factions: [provincial]
   fate:
-    - { date: 1947-05, s: power, note: 内蒙古自治政府主席, verify: true }
+    - { date: 1947-05, s: power, note: 内蒙古自治政府主席, cite: people-jiangshuai-ulanhu }
     - { date: 1966-05, s: attacked, note: 前门饭店会议受批判, verify: true }
     - { date: 1966-08, s: purged, note: 撤销内蒙古党政军职务, verify: true }
     - { date: 1967-04-13, s: purged, note: 中央决定公开揭露, cite: ws-1967-04-13-inner-mongolia }
-    - { date: 1973-08, s: restored, note: 当选十届中央委员, verify: true }
-    - { date: 1977-05, s: power, note: 中央统战部部长, verify: true }
-    - { date: 1983-06, s: power, note: 国家副主席, verify: true }
-    - { date: 1988-12-08, s: dead, verify: true }
+    - { date: 1973-08, s: restored, note: 当选十届中央委员, cite: people-jiangshuai-ulanhu }
+    - { date: 1977, s: power, note: 中央统战部部长, cite: people-jiangshuai-ulanhu }
+    - { date: 1983, s: power, note: 六届全国人大选为国家副主席, cite: people-jiangshuai-ulanhu }
+    - { date: 1988-12-08, s: dead, cite: people-jiangshuai-ulanhu }
   cites: [ws-1967-04-13-inner-mongolia, ws-1968-04-26-neirendang-report, ws-1980-indictment]
 
 - id: teng-haiqing
@@ -572,9 +572,9 @@
     - { date: 1967, s: attacked, note: 被“四二二”攻击, verify: true }
     - { date: 1967-11-18, s: power, note: 中央决定肯定其检查，主持广西革筹, cite: ws-1967-11-18-guangxi-decision }
     - { date: 1968-08-26, s: power, note: 广西革委会主任, verify: true }
-    - { date: 1973-08, s: power, note: 当选政治局委员, verify: true }
-    - { date: 1977-08, s: power, note: 总政治部主任, verify: true }
-    - { date: 1989-06-14, s: dead, verify: true }
+    - { date: 1973-08-30, s: power, note: 十届一中全会当选政治局委员, cite: ws-1973-08-30-first-plenum }
+    - { date: 1977, s: power, note: 总政治部主任, cite: people-jiangshuai-wei-guoqing }
+    - { date: 1989-06-14, s: dead, cite: people-jiangshuai-wei-guoqing }
   cites: [ws-1967-11-18-guangxi-decision, ws-1977-07-tenth-third-plenum]
 
 - id: cheng-shiqing

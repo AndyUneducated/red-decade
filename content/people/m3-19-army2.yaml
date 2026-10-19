@@ -210,11 +210,11 @@
     - { voice: editor, text: 悼词写他“1912年8月出生”，通行资料多作 1913 年 10 月，本站不录生年。, cite: rmrb-1983-01-16-yang-yong }
   factions: [marshals]
   fate:
-    - { date: 1958-09, s: power, note: 北京军区司令员, verify: true }
+    - { date: 1958-10, s: power, note: 从朝鲜回国，任北京军区司令员（此前数据作 9 月）, cite: people-jiangshuai-yang-yong }
     - { date: 1967, s: detained, note: 被诬陷关押, cite: rmrb-1983-01-16-yang-yong }
     - { date: 1972, s: restored, note: 沈阳军区副司令员, cite: rmrb-1983-01-16-yang-yong }
     - { date: 1978, s: restored, note: 彻底平反，中央军委常委, cite: rmrb-1983-01-16-yang-yong }
-    - { date: 1983-01-06, s: dead, verify: true }
+    - { date: 1983-01-06, s: dead, cite: people-jiangshuai-yang-yong }
   cites: [rmrb-1983-01-16-yang-yong, ws-1980-indictment]
 
 - id: liao-hansheng

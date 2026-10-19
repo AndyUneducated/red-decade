@@ -142,3 +142,146 @@ web:
     via: 新华网 2004-02-22（Wayback 存档）
     start: 新华网北京２月２２日电
     end: 杨成武同志永垂不朽！
+  # 第 2 批：上将、中将（同一数据库），另加曾思玉逝世消息。
+  - id: xinhua-2013-zeng-siyu-death
+    title: 曾思玉同志逝世
+    date: 2013-01-08
+    author: 新华社
+    kind: obituary
+    alias: 2013 年新华社《曾思玉同志逝世》
+    url: https://cpc.people.com.cn/n/2013/0108/c87393-20134624.html
+    via: 人民网-中国共产党新闻网转载
+    start: 济南军区原司令员、南京军区原顾问曾思玉同志
+    end: （新华网大连１月８日电）
+  - id: people-jiangshuai-xu-shiyou
+    title: 许世友（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《许世友》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7537900.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-chen-xilian
+    title: 陈锡联（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《陈锡联》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7538676.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-chen-zaidao
+    title: 陈再道（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《陈再道》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7538681.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-huang-yongsheng
+    title: 黄永胜（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《黄永胜》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7592773.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-wei-guoqing
+    title: 韦国清（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《韦国清》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7537521.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-xie-fuzhi
+    title: 谢富治（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《谢富治》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7592801.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-yang-yong
+    title: 杨勇（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《杨勇》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7538126.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-ulanhu
+    title: 乌兰夫（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《乌兰夫》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7537530.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-qiu-huizuo
+    title: 邱会作（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《邱会作》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/130393/7587374.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军中将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-li-zuopeng
+    title: 李作鹏（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《李作鹏》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/130393/7587128.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军中将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-zeng-siyu
+    title: 曾思玉（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《曾思玉》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/130393/7587855.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军中将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。

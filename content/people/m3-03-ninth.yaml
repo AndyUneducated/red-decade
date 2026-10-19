@@ -208,7 +208,7 @@
     - { date: 1933, s: normal, note: 入党, verify: true }
     - { date: 1955, s: power, note: 吉林省委第一书记, verify: true }
     - { date: 1966-06-03, s: rise, note: 调任北京市委第二书记, cite: rmrb-1966-06-04-new-committee }
-    - { date: 1967-04-20, s: power, note: 北京市革委会副主任, verify: true }
+    - { date: 1967-04-20, s: power, note: 北京市革委会副主任, cite: rmrb-1967-04-21-beijing-revcom }
     - { date: 1972-10, s: power, note: 北京市委第一书记, verify: true }
     - { date: 1976-04-05, s: power, note: 天安门广场广播讲话, verify: true }
     - { date: 1978-10, s: sidelined, note: 离开北京市, verify: true }
@@ -353,16 +353,16 @@
     - { voice: scholar, text: 1980 年辞职的汪东兴、纪登奎、吴德、陈锡联四人被当时的非正式说法称为“小四人帮”；研究者指出这一说法夸大了四人的同质性，陈锡联的主要身份始终是军队将领。, cite: vogel-deng }
   factions: [mao]
   fate:
-    - { date: 1930, s: normal, note: 入党, verify: true }
-    - { date: 1937-10, s: normal, note: 夜袭阳明堡机场, verify: true }
-    - { date: 1955-09, s: normal, note: 授上将, verify: true }
-    - { date: 1959-09, s: power, note: 沈阳军区司令员, verify: true }
+    - { date: 1930, s: normal, note: 入党, cite: people-jiangshuai-chen-xilian }
+    - { date: 1937-10, s: normal, note: 夜袭阳明堡机场, cite: people-jiangshuai-chen-xilian }
+    - { date: 1955, s: normal, note: 授上将, cite: people-jiangshuai-chen-xilian }
+    - { date: 1959, s: power, note: 起任沈阳军区司令员, cite: people-jiangshuai-chen-xilian }
     - { date: 1968-05-10, s: power, note: 辽宁省革委会主任, verify: true }
     - { date: 1969-04-28, s: rise, note: 政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1973-12, s: power, note: 北京军区司令员, verify: true }
     - { date: 1976-02, s: power, note: 主持军委日常工作, verify: true }
-    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞职, verify: true }
-    - { date: 1999-06-10, s: dead, verify: true }
+    - { date: 1980-01, s: sidelined, note: 被免去政治局委员、国务院副总理和北京军区司令员职务（此前数据作 1980 年 2 月十一届五中全会辞职）, cite: people-jiangshuai-chen-xilian }
+    - { date: 1999-06-10, s: dead, cite: people-jiangshuai-chen-xilian }
   cites: [ws-1969-04-28-9th-cc-plenum, ws-1977-07-tenth-third-plenum]
 
 - id: hua-guofeng

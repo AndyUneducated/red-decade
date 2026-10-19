@@ -68,16 +68,16 @@
     - { voice: scholar, text: 研究者多认为黄永胜等“四大金刚”效忠的是林彪、叶群个人，但对“五七一工程”的谋杀计划是否知情，判决书只认定他 9 月 6 日的密报，学界和本人家属的说法有出入。, cite: macfarquhar-schoenhals }
   factions: [lin]
   fate:
-    - { date: 1927-09, s: normal, note: 参加秋收起义, verify: true }
+    - { date: 1927-09, s: normal, note: 参加秋收起义, cite: people-jiangshuai-huang-yongsheng }
     - { date: 1955-02, s: power, note: 广州军区司令员, verify: true }
     - { date: 1967-06-23, s: power, note: 批准调查叶剑英的“第一号调查方案”, cite: ws-1980-indictment }
     - { date: 1968-02-21, s: power, note: 广东省革委会主任, verify: true }
-    - { date: 1968-03-24, s: rise, note: 接任总参谋长, verify: true }
+    - { date: 1968-03-22, s: rise, note: 中共中央任命为总参谋长（此前数据作 3 月 24 日）, cite: ccrd-1987-bj-chronology-192 }
     - { date: 1969-04-28, s: power, note: 九届一中全会当选政治局委员, cite: ws-1980-indictment }
-    - { date: 1971-09-24, s: detained, note: 隔离审查, verify: true }
+    - { date: 1971-09, s: purged, note: 被撤职（此前数据作 9 月 24 日隔离审查）, cite: people-jiangshuai-huang-yongsheng }
     - { date: 1971-09-29, s: purged, note: 中共中央通知“离职反省”, cite: ws-1971-09-29-notice }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑十八年, cite: ws-1981-01-25-judgment }
-    - { date: 1983-04-26, s: dead, verify: true }
+    - { date: 1983-04-26, s: dead, note: 在青岛病逝, cite: people-jiangshuai-huang-yongsheng }
   cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-29-notice, ws-1972-lin-material-3, ws-1971-12-lin-chen-material-1]
 
 - id: li-zuopeng
@@ -139,8 +139,8 @@
     - { voice: witness, text: 李作鹏晚年回忆录称自己对林彪出逃事先不知情，转述命令时并无篡改之意（本人回忆，未入库，需对照）。 }
   factions: [lin]
   fate:
-    - { date: 1930, s: normal, note: 参加红军, verify: true }
-    - { date: 1955-09, s: normal, note: 授中将, verify: true }
+    - { date: 1930, s: normal, note: 参加红军, cite: people-jiangshuai-li-zuopeng }
+    - { date: 1955, s: normal, note: 授中将, cite: people-jiangshuai-li-zuopeng }
     - { date: 1962, s: rise, note: 海军副司令员, verify: true }
     - { date: 1967, s: power, note: 海军第一政委, cite: ws-1980-indictment }
     - { date: 1968-04-03, s: power, note: 写材料诬陷贺龙、叶剑英, cite: ws-1980-indictment }
@@ -210,8 +210,8 @@
     - { voice: witness, text: 邱会作的口述回忆录强调自己 1967 年先是造反派的受害者，对林彪的谋杀计划毫不知情（本人回忆，未入库，需对照）。 }
   factions: [lin]
   fate:
-    - { date: 1929, s: normal, note: 参加红军, verify: true }
-    - { date: 1955-09, s: normal, note: 授中将, verify: true }
+    - { date: 1929-12, s: normal, note: 参加红军, cite: people-jiangshuai-qiu-huizuo }
+    - { date: 1955, s: normal, note: 授中将, cite: people-jiangshuai-qiu-huizuo }
     - { date: 1959-09, s: power, note: 总后勤部部长, verify: true }
     - { date: 1967-01, s: attacked, note: 被总后造反派揪斗, verify: true }
     - { date: 1967-08, s: power, note: 进入军委办事组, verify: true }
@@ -219,7 +219,7 @@
     - { date: 1971-09-29, s: detained, note: 离职反省，隔离审查, cite: ws-1971-09-29-notice }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑十六年, cite: ws-1981-01-25-judgment }
     - { date: 1987, s: normal, note: 刑满，住西安, verify: true }
-    - { date: 2002-07-18, s: dead, verify: true }
+    - { date: 2002-07-18, s: dead, note: 人民网将帅名录作 2002 年 8 月 3 日在北京逝世，与此处不同, verify: true }
   cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-29-notice, ws-1971-12-lin-chen-material-1]
 
 - id: lin-liguo
@@ -536,16 +536,16 @@
     - { voice: scholar, text: 研究者一般认为七二〇事件是地方军队与中央文革在“支左”问题上的正面冲突，事后毛泽东先是保护陈再道，随后在林彪、江青方面的推动下全国掀起“揪军内一小撮”。, cite: macfarquhar-schoenhals }
   factions: [marshals]
   fate:
-    - { date: 1927-11, s: normal, note: 黄麻起义, verify: true }
+    - { date: 1927, s: normal, note: 参加黄麻起义, cite: people-jiangshuai-chen-zaidao }
     - { date: 1955-02, s: power, note: 武汉军区司令员, verify: true }
     - { date: 1967-03, s: power, note: 武汉军区宣布取缔“工人总部”, verify: true }
     - { date: 1967-07-20, s: power, note: 七二〇事件, cite: ws-1967-07-26-wuhan-notice }
     - { date: 1967-07-26, s: purged, note: 军区公告定为“罪魁祸首”, cite: ws-1967-07-26-wuhan-notice }
     - { date: 1967-08, s: detained, note: 在京西宾馆遭批斗，隔离审查, verify: true }
-    - { date: 1972, s: restored, note: 恢复工作, verify: true }
+    - { date: 1972, s: restored, note: 起任福州军区副司令员, cite: people-jiangshuai-chen-zaidao }
     - { date: 1977, s: power, note: 铁道兵司令员, verify: true }
     - { date: 1978-12, s: power, note: 增补为中央委员, cite: ws-1978-12-third-plenum }
-    - { date: 1993-04-06, s: dead, verify: true }
+    - { date: 1993-04-06, s: dead, cite: people-jiangshuai-chen-zaidao }
   cites: [ws-1967-07-26-wuhan-notice, ws-1978-12-third-plenum, ws-1980-indictment]
 
 - id: xu-shiyou
@@ -608,14 +608,14 @@
     - { voice: scholar, text: 许世友在文革中的地位来自毛泽东的个人信任；他既反对冲击军队的造反派，又与林彪集团保持距离，九一三后成为稳定南方军队的人物。, cite: macfarquhar-schoenhals }
   factions: [marshals]
   fate:
-    - { date: 1927-11, s: normal, note: 黄麻起义, verify: true }
-    - { date: 1948-09, s: normal, note: 指挥济南战役, verify: true }
+    - { date: 1927-11, s: normal, note: 黄麻起义, cite: people-jiangshuai-xu-shiyou }
+    - { date: 1948-09, s: normal, note: 被指定为济南战役攻城部队总指挥, cite: people-jiangshuai-xu-shiyou }
     - { date: 1955-02, s: power, note: 南京军区司令员, verify: true }
     - { date: 1967-01, s: attacked, note: 造反派冲击军区，一度离开南京, verify: true }
     - { date: 1968-03-23, s: power, note: 江苏省革委会主任, verify: true }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
-    - { date: 1973-12, s: power, note: 调任广州军区司令员, verify: true }
-    - { date: 1979-02, s: power, note: 对越作战东线指挥, verify: true }
-    - { date: 1982-09, s: normal, note: 中顾委副主任, verify: true }
-    - { date: 1985-10-22, s: dead, verify: true }
+    - { date: 1973, s: power, note: 调任广州军区司令员, cite: people-jiangshuai-xu-shiyou }
+    - { date: 1979, s: power, note: 指挥广西方向的对越作战, cite: people-jiangshuai-xu-shiyou }
+    - { date: 1982, s: normal, note: 中顾委副主任, cite: people-jiangshuai-xu-shiyou }
+    - { date: 1985-10-22, s: dead, cite: people-jiangshuai-xu-shiyou }
   cites: [ws-1969-04-28-9th-cc-plenum, ws-1977-07-tenth-third-plenum, ws-1982-xu-jingxian-case]
