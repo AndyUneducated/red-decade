@@ -1,0 +1,49 @@
+# W6（2026-10-18）：红卫兵组织原件（维基文库转录的通令、展览说明、批判文章）。日期据文末落款。
+wikisource:
+  - id: ws-1966-08-xicheng-3
+    title: 《首都红卫兵纠察队》西城指挥部第三号通令
+    date: 1966-08-27
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+    alias: 西城纠察队第三号通令（关于目前存在的一些问题的八点意见）
+  - id: ws-1966-09-xicheng-5
+    title: 《首都红卫兵纠察队》西城指挥部第五号通令
+    date: 1966-09-03
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+  - id: ws-1966-09-xicheng-6
+    title: 《首都红卫兵纠察队》西城指挥部第六号通令
+    date: 1966-09-09
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+  - id: ws-1966-09-xicheng-7
+    title: 《首都红卫兵纠察队》西城指挥部第七号通令
+    date: 1966-09-09
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+  - id: ws-1966-09-xicheng-8
+    title: 《首都红卫兵纠察队》西城指挥部第八号通令
+    date: 1966-09-11
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+    alias: 西城纠察队第八号通令（关于第六、七号通令的补充和说明）
+  - id: ws-1966-09-xicheng-10
+    title: 《首都红卫兵纠察队》西城指挥部第十号通令
+    date: 1966-09-14
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+  - id: ws-1966-10-xicheng-11
+    title: 《首都红卫兵纠察队》西城指挥部第十一号通令
+    date: 1966-10-06
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+  - id: ws-1967-09-liandong-exhibition
+    title: 摧毁反革命组织“联动”展览会内容介绍
+    date: 1967-09
+    author: 首都大专院校红代会《摧毁“联动”展览会》编辑部
+    kind: redguard
+  - id: ws-1967-01-10-confucius-black
+    title: “孔子讨论会”是牛鬼蛇神向党进攻的黑会
+    date: 1967-01-10
+    author: 北京师范大学毛泽东思想红卫兵井冈山战斗团
+    kind: redguard

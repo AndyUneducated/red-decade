@@ -68,7 +68,8 @@
     - { voice: witness, text: 最后，总理综合各方面看法，拿出了意见：与考古所相结合，作科学的清理（戚本禹回忆）, cite: marxists-qibenyu-3-13-intellectuals, quote: true }
     - { voice: witness, text: 文革结束后，有人说这些事情都是谭厚兰他们干的，其实不是，是曲阜市第二次大造孔子反的人干的（戚本禹回忆）, cite: marxists-qibenyu-3-13-intellectuals, quote: true }
     - { voice: editor, text: 人数各说不一：1983 年起诉书作“一百余人”，判决书和北京大事记作“二百余人”“200多人”。北京大事记把此事排在 1966 年 12 月 29 日“同日”条下，与判决书的 11 月 9 日不合，日期从判决书。, cite: ws-1983-11-02-qi-benyu-case }
-  cites: [ws-1983-11-02-qi-benyu-case, ccrd-1987-bj-chronology-192, marxists-qibenyu-3-13-intellectuals]
+    - { voice: doc, text: 我们北京师范大学毛泽东思想红卫兵井冈山战斗团，怀着保卫毛主席，捍卫伟大的毛泽东思想，树立毛泽东思想绝对权威的决心，到山东曲阜，大造封建主义老巢孔家店的反（1967 年 1 月 10 日该战斗团文章，追溯 1962 年 11 月山东“孔子讨论会”）, cite: ws-1967-01-10-confucius-black, quote: true }
+  cites: [ws-1983-11-02-qi-benyu-case, ccrd-1987-bj-chronology-192, marxists-qibenyu-3-13-intellectuals, ws-1967-01-10-confucius-black]
 
 - id: 1966-12-26-mao-birthday-toast
   date: 1966-12-26

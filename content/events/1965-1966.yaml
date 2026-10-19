@@ -672,11 +672,33 @@
   docs: [ws-1966-08-xicheng-4, ws-1966-08-23-very-good]
   voices:
     - { voice: official1966, text: “红卫兵”小将们以毛泽东思想为武器，正在横扫一切剥削阶级的旧思想、旧文化、旧风俗、旧习惯的灰尘。……好得很！, cite: ws-1966-08-23-very-good, quote: true }
+    - { voice: doc, text: 绝不允许何人擅自查抄国家机关、查抄国家负责干部的家！我们要保卫国家机密！保卫革命老首长的安全！（西城纠察队 8 月 27 日第三号通令）, cite: ws-1966-08-xicheng-3, quote: true }
     - { voice: doc, text: 不是黑六类的家一律不查！国家负责干部的家绝对不许查！（西城纠察队第四号通令）, cite: ws-1966-08-xicheng-4, quote: true }
     - { voice: editor, text: 通令要求“文斗”、“一切缴获要归公”，却以出身划定查抄对象并驱逐出京——这正是《出身论》所批判的“偷换概念”：把斗争矛头从“当权派”转向“黑六类”。, cite: ws-1967-yu-origin-theory }
     - { voice: official1981, text: “文化大革命”初期被卷入运动的大多数人，是出于对毛泽东同志和党的信赖，但是除了极少数极端分子以外，他们也不赞成对党的各级领导干部进行残酷斗争。, cite: ws-1981-resolution, quote: true }
     - { voice: editor, text: 1981 年决议全文没有出现“红卫兵”“抄家”“武斗”“四旧”；1980 年起诉书中“抄家”三次都指对刘少奇、彭罗陆杨等干部或张春桥的特务组织，“红卫兵”两次是“冒充红卫兵”和“交红卫兵审判”。红八月以出身为界的抄家、殴打与驱逐，在两份定论文件中都没有位置（C013）。, cite: ws-1981-resolution }
-  cites: [ws-1966-08-xicheng-4, ws-1966-08-23-very-good, ws-1981-resolution, ws-1980-indictment]
+    - { voice: doc, text: 农大附中“红旗红卫兵纠察队”一小撮暴徒一次就殴打131名所谓“非红五类”的师生（占全校人数2/3），造成骇人听闻的“八·二六事件”（1967 年 9 月造反派一方《摧毁“联动”展览会》内容介绍）, cite: ws-1967-09-liandong-exhibition, quote: true }
+  cites: [ws-1966-08-xicheng-3, ws-1966-08-xicheng-4, ws-1966-08-23-very-good, ws-1981-resolution, ws-1980-indictment, ws-1967-09-liandong-exhibition]
+
+- id: 1966-09-03-xicheng-no-beating
+  date: 1966-09-03
+  end: 1966-09-11
+  title: 西城纠察队通令“严禁打人”，八天后改口“打了就打了”
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: 林彪 8 月 31 日在第二次接见红卫兵时要求“要用文斗，不用武斗”。9 月 3 日首都红卫兵纠察队西城分队第五号通令宣布“严禁打人”，9 月 9 日第六号通令把下跪、弯腰、游街、挂黑牌、戴高帽都列为体罚和侮辱；同日第七号通令把“地、富、反、坏”离京的期限从 9 月 10 日延到 9 月 27 日，资本家和右派可以留京。9 月 11 日第八号通令改了口风，说前一阶段的抄家、驱逐“基本上都是正确的”，警告“反攻倒算”的人：“打了就打了”。
+  people: [lin-biao]
+  concepts: [verbal-struggle, bloodline]
+  voices:
+    - { voice: official1966, text: 我们一定要按照毛主席的教导，要用文斗，不用武斗。不要动手打人。斗争那些走资本主义道路的当权派，斗争那些地、富、反、坏、右分子，也是这样。（林彪 1966 年 8 月 31 日讲话）, cite: ws-1966-08-31-lin-speech, quote: true }
+    - { voice: doc, text: 以林彪同志八月三十一日讲话为界，今后红卫兵中违反最高指示，违反党的政策，随便打人者，一定要严肃的批评和教育。（第五号通令，1966 年 9 月 3 日）, cite: ws-1966-09-xicheng-5, quote: true }
+    - { voice: doc, text: 跪、趴、弯腰、游街、长时间站立、长时间举手、长时间低头、长时间做重活，等等，都属于体罚及变相体罚，都不是我们所应采取的斗争方法。（第六号通令，9 月 9 日）, cite: ws-1966-09-xicheng-6, quote: true }
+    - { voice: doc, text: 这四类人离京限期由原订九月十日以前，现改为九月二十七日以前（第七号通令，9 月 9 日）, cite: ws-1966-09-xicheng-7, quote: true }
+    - { voice: doc, text: 抄了就抄了，打了就打了，游了就游了，赶了就赶了，没有什么了不起的！（第八号通令，9 月 11 日）, cite: ws-1966-09-xicheng-8, quote: true }
+    - { voice: doc, text: 关于第六号通令中的不要长时间低头和站立的决定，应根据斗争的需要，由革命群众权宜处理。（同上）, cite: ws-1966-09-xicheng-8, quote: true }
+    - { voice: editor, text: 第五、六号通令只约束红卫兵自己；第八号通令把“打了就打了”说给被打的一方听，又把低头、站立的限度交还“革命群众”。, cite: ws-1966-09-xicheng-8 }
+  cites: [ws-1966-09-xicheng-5, ws-1966-09-xicheng-6, ws-1966-09-xicheng-7, ws-1966-09-xicheng-8, ws-1966-08-31-lin-speech]
 
 - id: 1966-08-23-lao-she
   date: 1966-08-23
@@ -735,7 +757,10 @@
   weight: 2
   summary: “自从……八月十八日在首都天安门上接见……以来，全国掀起了革命师生大串连的高潮。”来京师生“乘坐火车免费”，生活补助由国家财政开支。10 月 30 日又发指示要求工人不要离厂串连。
   docs: [ws-1966-09-exchange-notice, ws-1966-10-workers-no-exchange]
-  cites: [ws-1966-09-exchange-notice, ws-1966-10-workers-no-exchange]
+  voices:
+    - { voice: doc, text: 外地来京的同学，多部分出身红五类家庭，他们是来干革命的，是来学习的，我们应该热烈地欢迎自己的阶级兄弟。对于一部分出身于非红五类家庭的同学，只要他们是来干革命的，我们要热烈地欢迎，但是必须提高警惕（1966 年 9 月 14 日首都红卫兵纠察队西城分队第十号通令）, cite: ws-1966-09-xicheng-10, quote: true }
+    - { voice: doc, text: 绝对不允许学校的革命师生用任何借口以任何方式干预厂矿企业和农村公社的运动。（同一纠察队 10 月 6 日第十一号通令，对出京串连的规定）, cite: ws-1966-10-xicheng-11, quote: true }
+  cites: [ws-1966-09-exchange-notice, ws-1966-10-workers-no-exchange, ws-1966-09-xicheng-10, ws-1966-10-xicheng-11]
 
 - id: 1966-09-07-grasp-rev
   date: 1966-09-07
@@ -859,7 +884,10 @@
     - { voice: doc, text: 继资产阶级反动路线之后出现的资产阶级反动路线新形式乃是对当前运动的最大威胁。, cite: ws-1966-12-liandong, quote: true }
     - { voice: witness, text: 于是“联动”的人就聚集起来冲公安部。他们把公安部办公室玻璃窗砸了，还把公安部的副部长都打了（戚本禹回忆）, cite: marxists-qibenyu-3-12-liandong, quote: true }
     - { voice: witness, text: 主席看了董老的信之后，就让公安部把所有被抓的“联动”统统放了（戚本禹回忆，时间未写）, cite: marxists-qibenyu-3-12-liandong, quote: true }
-  cites: [ws-1966-12-liandong, marxists-qibenyu-3-12-liandong]
+    - { voice: doc, text: 在《003号通告》中，明文规定组织发展“第一阶段由中共中央、国务院、解放军及省市委干部子弟组成；第二阶段由基层组织（地委、专署、公社）干部子弟组成”（1967 年 9 月首都大专院校红代会《摧毁“联动”展览会》内容介绍）, cite: ws-1967-09-liandong-exhibition, quote: true }
+    - { voice: doc, text: 他们歇斯底里大发作，连续六次冲击我公安部，大砸大抢（同一展览）, cite: ws-1967-09-liandong-exhibition, quote: true }
+    - { voice: doc, text: 中央文革根据毛主席的英明指示，将“联动”的一些头目释放出来，允许他们公开活动（同一展览，与戚本禹的回忆相合）, cite: ws-1967-09-liandong-exhibition, quote: true }
+  cites: [ws-1966-12-liandong, marxists-qibenyu-3-12-liandong, ws-1967-09-liandong-exhibition]
 
 - id: 1966-12-06-deng-black-gang
   date: 1966-12-06

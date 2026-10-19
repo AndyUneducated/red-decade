@@ -1055,6 +1055,7 @@ events/1966-08-school-workers
 events/1966-09-02-cheng-xiance
 events/1966-09-02-fu-lei-note
 events/1966-09-03-chen-mengjia
+events/1966-09-03-xicheng-no-beating
 events/1966-09-04-dang-qingfan
 events/1966-09-05-exchange
 events/1966-09-07-border-areas
@@ -4071,15 +4072,22 @@ sources/ws-1966-08-18-lin-speech
 sources/ws-1966-08-23-very-good
 sources/ws-1966-08-31-lin-speech
 sources/ws-1966-08-sixteen-points-redflag
+sources/ws-1966-08-xicheng-3
 sources/ws-1966-08-xicheng-4
 sources/ws-1966-08-xicheng-founding
 sources/ws-1966-09-07-grasp-rev
 sources/ws-1966-09-exchange-notice
 sources/ws-1966-09-red-guard-praise
+sources/ws-1966-09-xicheng-10
+sources/ws-1966-09-xicheng-5
+sources/ws-1966-09-xicheng-6
+sources/ws-1966-09-xicheng-7
+sources/ws-1966-09-xicheng-8
 sources/ws-1966-10-01-lin-speech
 sources/ws-1966-10-01-mao-thought-road
 sources/ws-1966-10-liu-self-criticism
 sources/ws-1966-10-workers-no-exchange
+sources/ws-1966-10-xicheng-11
 sources/ws-1966-11-01-luxun
 sources/ws-1966-11-red-flag-two-lines
 sources/ws-1966-11-shanghai-wgs
@@ -4090,6 +4098,7 @@ sources/ws-1966-red-flag-index
 sources/ws-1966-tao-zhu-adviser
 sources/ws-1967-01-01-to-the-end
 sources/ws-1967-01-04-shanghai-letter
+sources/ws-1967-01-10-confucius-black
 sources/ws-1967-01-11-cc-telegram
 sources/ws-1967-01-12-anti-economism
 sources/ws-1967-01-13-public-security
@@ -4147,6 +4156,7 @@ sources/ws-1967-08-destroy-hq
 sources/ws-1967-08-hk-british
 sources/ws-1967-09-05-arms-order
 sources/ws-1967-09-20-production
+sources/ws-1967-09-liandong-exhibition
 sources/ws-1967-09-tao-zhu-editorial
 sources/ws-1967-10-06-mao-thought
 sources/ws-1967-10-14-resume-classes-notice

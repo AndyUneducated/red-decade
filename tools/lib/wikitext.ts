@@ -23,6 +23,10 @@ export function wikiToText(wikitext: string): string {
   s = s.replace(/<!--[\s\S]*?-->/g, '')
   s = s.replace(/<ref[^>/]*\/>/g, '').replace(/<ref[^>]*>[\s\S]*?<\/ref>/g, '')
   s = s.replace(/\{\{\s*(?:w|wp|wl)\s*\|([^{}|]*)(?:\|([^{}|]*))?\}\}/g, (_, target: string, label?: string) => label ?? target)
+  // layout wrappers keep their content: {{Indent pars|body}} closes on its own line,
+  // {{text-align|right|signature}} carries headings, signatures and dates
+  s = s.replace(/\{\{\s*Indent pars\s*\|([\s\S]*?)\n\}\}/gi, '$1\n\n')
+  s = s.replace(/\{\{\s*text-align\s*\|[^{}|]*\|([^{}]*)\}\}/gi, '$1')
   s = stripTemplates(s)
   s = s.replace(/\{\|[\s\S]*?\|\}/g, '')
   s = s.replace(/\[\[(?:Category|分类|File|Image|文件):[^\]]*\]\]/gi, '')
