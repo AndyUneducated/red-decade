@@ -54,6 +54,22 @@
     - { voice: witness, text: 有些人甚至把它看做是“牛棚”，是“劳改”，是一种政治迫害（戚本禹谈“五七干校”）, cite: marxists-qibenyu-3-04-may-seventh, quote: true }
   cites: [marxists-qibenyu-3-04-may-seventh]
 
+- id: 1966-11-09-qufu-anti-confucius
+  date: 1966-11-09
+  title: 谭厚兰带北师大红卫兵到曲阜“造孔家店的反”
+  lane: culture
+  weight: 2
+  place: 山东曲阜
+  summary: 1966 年 10 月戚本禹通过《红旗》杂志社林杰动员北京师范大学谭厚兰，11 月 9 日谭厚兰带人到曲阜，联合当地造反派成立“彻底捣毁孔家店革命造反联络站”，砸孔庙、孔府、孔林。1987 年北京大事记引曲阜县文物管理委员会统计：毁坏在册文物 6118 件、古书 2700 余册、字画 929 轴、石碑 1000 多尊，挖坟 2000 多座。1983 年判决把此事定为戚本禹“聚众打砸抢”罪。戚本禹回忆说这是周恩来在中央文革会上同意、要求“与考古所相结合，作科学的清理”的，他曾电话要山东省委保护明代以前和康熙、乾隆的碑匾，后来更大的破坏是他倒台后当地人第二次“造反”所为。
+  people: [tan-houlan, qi-benyu, chen-boda, guan-feng, zhou-enlai]
+  voices:
+    - { voice: judicial1980, text: 十一月九日谭厚兰带二百余人到曲阜，串联当地的一些人，砸毁孔庙、孔府、孔林的大量文物，使国家财产遭到严重毁坏（1983 年北京市中级人民法院判决书）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
+    - { voice: officialLater, text: 据曲阜县文物管理委员会统计：共破坏损失在册编号的文物6118件，烧毁各种古书、杂志2700余册，各种字画929轴，拉倒毁坏历代石碑1000多尊，挖坟2000多座（1987 年《北京市文化大革命大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: witness, text: 最后，总理综合各方面看法，拿出了意见：与考古所相结合，作科学的清理（戚本禹回忆）, cite: marxists-qibenyu-3-13-intellectuals, quote: true }
+    - { voice: witness, text: 文革结束后，有人说这些事情都是谭厚兰他们干的，其实不是，是曲阜市第二次大造孔子反的人干的（戚本禹回忆）, cite: marxists-qibenyu-3-13-intellectuals, quote: true }
+    - { voice: editor, text: 人数各说不一：1983 年起诉书作“一百余人”，判决书和北京大事记作“二百余人”“200多人”。北京大事记把此事排在 1966 年 12 月 29 日“同日”条下，与判决书的 11 月 9 日不合，日期从判决书。, cite: ws-1983-11-02-qi-benyu-case }
+  cites: [ws-1983-11-02-qi-benyu-case, ccrd-1987-bj-chronology-192, marxists-qibenyu-3-13-intellectuals]
+
 - id: 1966-12-26-mao-birthday-toast
   date: 1966-12-26
   title: 毛泽东七十三岁生日家宴：“为明年全国全面内战胜利干杯”
@@ -67,6 +83,22 @@
     - { voice: witness, text: 斯大林是七十三岁死的。他死了，资本主义就在苏联复辟了（毛泽东语，戚本禹回忆）, cite: marxists-qibenyu-3-17-birthday, quote: true }
     - { voice: witness, text: 吃饭时毛泽东举杯祝酒，说：“祝全国全面的阶级斗争。”（王力回忆，戚本禹书引）, cite: marxists-qibenyu-3-17-birthday, quote: true }
   cites: [marxists-qibenyu-3-17-birthday]
+
+- id: 1967-02-23-xining-shooting
+  date: 1967-02-23
+  title: 西宁“二·二三”事件：青海省军区部队向“八·一八”群众开枪
+  lane: local
+  weight: 2
+  place: 西宁
+  summary: 青海省军区副司令员赵永夫推翻司令员刘贤权后，调部队到青海日报社镇压守在那里的“八·一八”群众组织，并报告中央说对方先开枪。中央随后的决定说他“打死打伤革命群众三百余人”“逮捕革命群众近万人”，“八·一八”先开枪“毫无根据”，赵永夫隔离受审。戚本禹回忆的数字更高：当场打死 347 人、逮捕 13414 人；他说周恩来 3 月 24 日夜主持调查会，当场下令逮捕赵永夫，又说 1976 年后叶剑英下令释放赵永夫。这两条库内没有其他出处。
+  people: [zhou-enlai, ye-jianying, qi-benyu]
+  voices:
+    - { voice: doc, text: 赵永夫篡夺了军权之后，勾结二〇五部队副主任张晓川，对西宁“八·一八”等革命群众组织进行残酷的武装镇压，打死打伤革命群众三百余人，甚至向十五、六岁的女孩子开枪，逮捕革命群众近万人（1967 年 3 月中央关于青海问题的决定）, cite: ws-1967-qinghai-decision, quote: true }
+    - { voice: doc, text: 守卫青海日报社的“八·一八”群众，并没有枪枝（同上）, cite: ws-1967-qinghai-decision, quote: true }
+    - { voice: witness, text: 有347名群众被军队当场开枪打死，其中年龄最小的仅14岁，还是个中学生（戚本禹回忆）, cite: marxists-qibenyu-3-21-qinghai, quote: true }
+    - { voice: witness, text: 这时，总理当场宣布：把赵永夫抓起来（戚本禹回忆 3 月 24 日夜的调查会）, cite: marxists-qibenyu-3-21-qinghai, quote: true }
+    - { voice: editor, text: 决定说“打死打伤”三百余人，戚本禹说“打死”347 人，两者口径不同，库内没有核实的名单。, cite: ws-1967-qinghai-decision }
+  cites: [ws-1967-qinghai-decision, marxists-qibenyu-3-21-qinghai]
 
 - id: 1967-01-22-zhang-linzhi-death
   date: 1967-01-22
@@ -83,3 +115,17 @@
     - { voice: witness, text: 他忍受不住了，在1967年1月22日上吊自杀了（戚本禹回忆）, cite: marxists-qibenyu-3-15-peng-luo-lu-yang, quote: true }
     - { voice: witness, text: 对于张霖之的死，我当然负有重大责任（戚本禹回忆）, cite: marxists-qibenyu-3-15-peng-luo-lu-yang, quote: true }
   cites: [ws-1981-01-25-judgment, ws-1983-11-02-qi-benyu-case, ccrd-1987-bj-chronology-192, marxists-qibenyu-3-15-peng-luo-lu-yang]
+
+- id: 1983-11-02-qi-benyu-sentenced
+  date: 1983-11-02
+  title: 戚本禹被判有期徒刑十八年
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 戚本禹 1968 年倒台后长期关押，1980 年 7 月 14 日被正式逮捕，1983 年由北京市中级人民法院以反革命宣传煽动罪、诬告陷害罪和聚众“打砸抢”罪判处有期徒刑十八年。判决列举的罪行包括 1967 年 7 月三次讲话诬陷党和国家领导人、煽动批斗张霖之、策动谭厚兰到曲阜“打砸抢”。判决说他供认了大部分事实，但不承认犯反革命罪。他在回忆录里说曾为特别法庭作证，又转述江华之子的话，说加重判处是邓小平的指示，此说无其他出处。
+  people: [qi-benyu, zhang-linzhi, tan-houlan, deng-xiaoping]
+  voices:
+    - { voice: judicial1980, text: 判处被告人戚本禹有期徒刑十八年，剥夺政治权利四年（1983 年北京市中级人民法院判决书）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
+    - { voice: judicial1980, text: 被告人戚本禹供认了大部分犯罪事实，但不承认犯反革命罪（同上）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
+    - { voice: witness, text: 他父亲说，戚本禹的案子是邓小平亲自指示，要加重处理的（戚本禹转述友人转述江华之子）, cite: marxists-qibenyu-4-06-trial, quote: true }
+  cites: [ws-1983-11-02-qi-benyu-case, marxists-qibenyu-4-06-trial]

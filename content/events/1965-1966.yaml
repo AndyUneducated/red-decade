@@ -857,7 +857,9 @@
   docs: [ws-1966-12-liandong]
   voices:
     - { voice: doc, text: 继资产阶级反动路线之后出现的资产阶级反动路线新形式乃是对当前运动的最大威胁。, cite: ws-1966-12-liandong, quote: true }
-  cites: [ws-1966-12-liandong]
+    - { voice: witness, text: 于是“联动”的人就聚集起来冲公安部。他们把公安部办公室玻璃窗砸了，还把公安部的副部长都打了（戚本禹回忆）, cite: marxists-qibenyu-3-12-liandong, quote: true }
+    - { voice: witness, text: 主席看了董老的信之后，就让公安部把所有被抓的“联动”统统放了（戚本禹回忆，时间未写）, cite: marxists-qibenyu-3-12-liandong, quote: true }
+  cites: [ws-1966-12-liandong, marxists-qibenyu-3-12-liandong]
 
 - id: 1966-12-06-deng-black-gang
   date: 1966-12-06

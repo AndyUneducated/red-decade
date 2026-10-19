@@ -60,6 +60,54 @@ web:
     note: 回忆录 2016 年香港出版，转录、未核原书。
     excerpt: true
     keep: [1966年12月14日，中央文革在人民大会堂, 在1967年1月22日上吊自杀了, 对于张霖之的死，我当然负有重大责任]
+  - id: marxists-qibenyu-3-12-liandong
+    title: 文革运动中的“老红卫兵”、“西纠”和“联动”
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第十二章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-12.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [一次，北航附中的几个“联动”分子在偷摩托车的时候, 从1966年的年底开始，一些“联动”分子]
+  - id: marxists-qibenyu-3-21-qinghai
+    title: 青海军区开枪镇压革命群众惨案
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第二十一章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-21.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。伤亡、逮捕数字未注出处。
+    excerpt: true
+    keep: [1967年2月23日，在青海省的省会西宁市, 第四次调查是3月24日夜里, 当问到赵永夫，他说过这件事, 可是，主席、总理去世之后]
+  - id: marxists-qibenyu-3-13-intellectuals
+    title: 知识分子在文革运动中受到的打击
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第十三章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-13.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [就拿批孔、清理孔庙, 随后谭厚兰组织了一个队伍, 红卫兵在曲阜造反，山东省委, 在我和关锋被打倒后]
+  - id: marxists-qibenyu-4-06-trial
+    title: 邓小平上台后对我的“审判”
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第四部分第六章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/4-06.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。“邓小平亲自指示”一说是作者转述友人转述江华之子的话。
+    excerpt: true
+    keep: [我说，我可以出庭作证, 我有个朋友叫曹音]
   - id: marxists-qibenyu-3-17-birthday
     title: 参加毛主席的生日家宴
     date: 2016
