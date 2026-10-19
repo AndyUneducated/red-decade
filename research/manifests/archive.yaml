@@ -45,3 +45,19 @@ commons:
   - { search: 1974年 批林批孔, kind: photo, limit: 60 }
   - { search: 1958年 大跃进, kind: photo, limit: 150 }
   - { search: 1956年 公私合营, kind: photo, limit: 60 }
+  # 第三轮（W6，2026-10-18）：1977–1989。美国政府摄影（邓小平 1979 年访美、里根 1984 年访华）属公有领域；
+  # 其余照片按 Commons 登记的许可收录
+  - { search: Deng Xiaoping 1979 visit United States, kind: photo, limit: 80 }
+  - { search: Reagan China 1984, kind: photo, limit: 80 }
+  - { search: Hu Yaobang, kind: photo, limit: 60 }
+  - { search: Zhao Ziyang, kind: photo, limit: 60 }
+  - { search: 1978年 中国, kind: photo, limit: 100 }
+  - { search: 1980年代 中国, kind: photo, limit: 100 }
+  - { search: Beijing 1981, kind: photo, limit: 100 }
+  - { search: Shanghai 1983, kind: photo, limit: 100 }
+  - { search: Shenzhen 1980s, kind: photo, limit: 80 }
+  - { search: 1989 Tiananmen Square protests, kind: photo, limit: 150 }
+  - { search: 中国人民邮政 1980, kind: stamp, limit: 150 }
+  - { search: Stamp of China 1985, kind: stamp, limit: 150 }
+  - { search: 计划生育 宣传画, kind: poster, limit: 80 }
+  - { search: Chinese poster 1980s, kind: poster, limit: 150 }

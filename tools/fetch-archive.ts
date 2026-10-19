@@ -3,7 +3,7 @@
 // downloads a 320px thumbnail to public/archive/<id>.jpg and writes content/archive/commons.yaml.
 // Entries already in commons.yaml keep their title and date; `kind` and `skip` are re-derived on every run by
 // the rules in curate() unless the entry has `keep: true`.
-//   node tools/fetch-archive.ts [--curate]
+//   node tools/fetch-archive.ts [--curate] [pull substring ...]
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -49,10 +49,11 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 async function api(params: Record<string, string>) {
   const u = new URL('https://commons.wikimedia.org/w/api.php')
   for (const [k, v] of Object.entries({ format: 'json', ...params })) u.searchParams.set(k, v)
-  for (let i = 0; i < 3; i++) {
-    const r = await fetch(u, { headers: { 'User-Agent': UA } })
-    if (r.ok) return r.json()
-    await sleep(1500 * (i + 1))
+  // Commons answers 429 after bursts; back off for longer each time
+  for (let i = 0; i < 5; i++) {
+    const r = await fetch(u, { headers: { 'User-Agent': UA } }).catch(() => undefined)
+    if (r?.ok) return r.json()
+    await sleep(5000 * (i + 1))
   }
   throw new Error(`commons ${params.action} failed`)
 }
@@ -95,6 +96,13 @@ const ABOUT_CHINA = /Mao Zedong|Tiananmen/i
 const OFF_TOPIC =
   /Unstamp|airmail|USPS|U\.S\. stamp|us stamp|Stamps of Germany|Bhuten|Gershwin|Willa cather|Veille meteorologique|Cholon|Nung Chinese|Bao Ca|Operation Coburg|An Thoi|China Beach|South China Sea|Nguyen Van Thieu|LucyStone|KvindeMedFugl|Orpheu|IRON11|HK Timepiece|Red Guard badge 1918|Museu de l'Art de la Pell|estación 1978|map detail|boundary\. LOC|NK-44-7|Seal of the Embassy/i
 const OFF_TOPIC_2 = /Matchbox label|nian bei jing|Cardboard sleeve|Paper sleeve|Soviet Union 1966 CPA|Thailand’s anti-Communist|Grave of Ying-Hsing|44 Chinese prisoners|1958 Events (College|montage)|offense against the Indo-Chinese/i
+// the 1977–1989 searches match aircraft registrations, years of birth and foreign places
+const OFF_TOPIC_3 =
+  /Marines in relief party|Stilwell|China Lake|China Airlines|China Clipper|Taxkorgan|Ferrari|法拉利|Mijas|Benadalid|footballer|B-1981@|Volkswagen Santana|Pompeo|Events montage|^Map of |China Town|Postage Prepaid indicia|Boeing C-137B|Gewurztraminer|Dinah Shore|Wang Yaping \(|蒲志強|Naruyama|Kenhirano|Torata Nakamura|Kyoshiro Niwa|Sjöhistorisk|Caption- circa 1950|韩卫民/i
+// a later photograph of the period (anniversaries, museum objects): a year after 1990 in the file name, not part
+// of an archive number such as GPN-2002-000077
+const LATER = /(?<![\dA-Za-z-])(199[1-9]|20[0-2]\d)|anniversary|Remember|周年|紀念/i
+const NA_KEEP = 6
 // crops and recolourings of a file that is itself in the register; a person's name in brackets marks a crop of
 // a group photograph (MaoLiuZhouZhuLin19660915 (刘少奇).jpg)
 const CROP = /\(cropped[,)]|cropped\)|\(crop\)|\(colourised\)|detail, |^Face detail|\([\u4e00-\u9fff]{2,4}\)\.\w+$/i
@@ -149,10 +157,13 @@ function curate() {
   const bases = new Map<string, string[]>()
   for (const f of files) bases.set(base(f), [...(bases.get(base(f)) ?? []), f])
   let series = 0
+  let na = 0
   const near = new Map<string, number>()
   const rules: [string, (r: Rec) => boolean][] = [
     ['foreign stamp', (r) => FOREIGN_STAMP.test(r.file) && !ABOUT_CHINA.test(r.file)],
-    ['off topic', (r) => OFF_TOPIC.test(r.file) || OFF_TOPIC_2.test(r.file)],
+    ['off topic', (r) => OFF_TOPIC.test(r.file) || OFF_TOPIC_2.test(r.file) || OFF_TOPIC_3.test(r.file)],
+    ['photographed after 1990', (r) => r.date >= '1977' && LATER.test(r.file)],
+    [`more than ${NA_KEEP} Nationaal Archief photos of one visit`, (r) => /Bestanddeelnr/.test(r.file) && ++na > NA_KEEP],
     ['search hit with nothing about China', (r) => r.via.startsWith('search:') && !aboutChina(r)],
     ['crop of another file', (r) => CROP.test(r.file)],
     ['tif copy of a jpg', (r) => /\.tiff?$/i.test(r.file) && (bases.get(base(r.file)) ?? []).some((f) => f !== r.file && !/\.tiff?$/i.test(f))],
@@ -188,7 +199,11 @@ function shelve(from: string, to: string) {
 // a year inside the period, from the file's own date field first, then from its title
 function yearOf(dateText: string | undefined, title: string): { date: string; from: Rec['dateFrom'] } | undefined {
   const pick = (s: string) => [...s.matchAll(/(?<!\d)(19[4-9]\d)(?:[-./年](\d{1,2}))?(?:[-./月](\d{1,2}))?/g)].find((m) => +m[1] >= FROM && +m[1] <= TO)
-  const fmt = (m: RegExpMatchArray) => [m[1], m[2]?.padStart(2, '0'), m[2] && m[3] ? m[3].padStart(2, '0') : undefined].filter(Boolean).join('-')
+  // "1958-1959" is a range, not month 19
+  const fmt = (m: RegExpMatchArray) => {
+    const mo = m[2] && +m[2] >= 1 && +m[2] <= 12 ? m[2] : undefined
+    return [m[1], mo?.padStart(2, '0'), mo && m[3] ? m[3].padStart(2, '0') : undefined].filter(Boolean).join('-')
+  }
   const a = dateText && pick(dateText)
   if (a) return { date: fmt(a), from: 'metadata' }
   const b = pick(title)
@@ -197,9 +212,12 @@ function yearOf(dateText: string | undefined, title: string): { date: string; fr
 
 const report: string[] = []
 let added = 0
-// --curate re-applies the rules to the register without going online
+// --curate re-applies the rules to the register without going online; other arguments limit the run to the
+// pulls whose category or search contains one of them
+const only = process.argv.slice(2).filter((a) => !a.startsWith('--'))
 for (const p of process.argv.includes('--curate') ? [] : manifest.commons) {
   const via = p.category ? `category:${p.category}` : `search:${p.search}`
+  if (only.length && !only.some((s) => via.includes(s))) continue
   let titles: string[]
   try {
     titles = p.category ? await members(p.category, p.depth ?? 0) : await search(p.search!, p.limit ?? 100)
@@ -211,7 +229,11 @@ for (const p of process.argv.includes('--curate') ? [] : manifest.commons) {
   if (p.limit) titles = titles.slice(0, p.limit)
   let kept = 0
   for (let i = 0; i < titles.length; i += 50) {
-    const q = await api({ action: 'query', titles: titles.slice(i, i + 50).join('|'), prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: String(WIDTH) })
+    const q = await api({ action: 'query', titles: titles.slice(i, i + 50).join('|'), prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: String(WIDTH) }).catch((e: Error) => {
+      report.push(`${via}: batch ${i / 50 + 1} ${e.message}`)
+      return undefined
+    })
+    if (!q) continue
     for (const pg of Object.values(q.query?.pages ?? {}) as any[]) {
       const info = pg.imageinfo?.[0]
       if (!info?.thumburl) continue
