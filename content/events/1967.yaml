@@ -106,14 +106,14 @@
   lane: center
   weight: 3
   place: 北京中南海怀仁堂
-  summary: 周恩来主持的碰头会上，谭震林、陈毅、叶剑英、徐向前、聂荣臻、李富春、李先念等人当面批评中央文革搞乱党和军队，谭震林说“我不该活到六十五岁”。张春桥、王力等整理记录报告毛泽东，毛泽东 2 月 18 日严厉批评老帅，此事被称为“二月逆流”，政治局停止活动，中央文革碰头会取而代之。1968 年八届十二中全会又“严肃地批判”了它。
+  summary: 2 月 14 日、16 日，谭震林、陈毅、叶剑英等在中南海怀仁堂政治局碰头会和军委会议上，当面批评中央文革搞乱党和军队。18 日夜毛泽东召集部分政治局委员开会，严厉批评提意见的老同志“搞复辟，搞翻案”，此事被称为“二月逆流”。2 月 25 日至 3 月 18 日政治局在怀仁堂开了 7 次“政治生活会”批判他们，此后政治局实际上停止活动。1968 年八届十二中全会又“严肃地批判”了它。会议经过据 1987 年北京市大事记。
   people: [tan-zhenlin, chen-yi, ye-jianying, xu-xiangqian, nie-rongzhen, li-fuchun, li-xiannian, yu-qiuli, gu-mu, zhou-enlai, zhang-chunqiao, wang-li, jiang-qing, kang-sheng, mao-zedong]
   voices:
     - { voice: official1966, text: 全会严肃地批判了那个反对八届十一中全会决定、反对无产阶级文化大革命、反对以毛主席为首、林副主席为副的无产阶级司令部的一九六七年的“二月逆流”（1968 年八届十二中全会公报）, cite: rmrb-1968-11-02-twelfth-plenum, quote: true }
     - { voice: official1981, text: 一九六七年二月前后，谭震林、陈毅、叶剑英、李富春、李先念、徐向前、聂荣臻等政治局和军委的领导同志，在不同的会议上对“文化大革命”的错误作法提出了强烈的批评，但被诬为“二月逆流”而受到压制和打击（1981 年决议）, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1981-resolution, rmrb-1968-11-02-twelfth-plenum]
-  verify: true
-  why: 碰头会经过、谭震林原话、2 月 18 日毛泽东的批评和政治局停止活动出自党史著作与回忆录；库内原文只有 1968 年的定性和 1981 年的改判
+    - { voice: officialLater, text: 毛泽东召集部分政治局委员开会，严厉批评了在怀仁堂会议上提意见的一些老同志，指责他们是搞复辟，搞翻案。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: editor, text: 本条旧摘要还写有谭震林“我不该活到六十五岁”、张春桥王力整理记录报告毛泽东、中央文革碰头会取代政治局等细节，出自党史著作与回忆录；库内尚无原文，暂删。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [ws-1981-resolution, rmrb-1968-11-02-twelfth-plenum, ccrd-1987-bj-chronology-192]
 
 - id: 1967-02-23-cadres-editorial
   date: 1967-02-23
@@ -308,15 +308,17 @@
   cites: [ws-1967-08-hk-british, zou-yimin-yao-dengshan, spectator-1967-08-25-week]
 
 - id: 1967-08-30-wang-guan-fall
-  date: 1967-08-30
-  end: 1968-01-13
+  date: 1967-08
+  end: 1968-01
   title: 王力、关锋、戚本禹相继倒台
   lane: center
   weight: 3
-  summary: 8 月 26 日毛泽东在上海对杨成武说“王、关、戚是破坏文化大革命的，不是好人”，要求先把王力、关锋抓起来。8 月 30 日两人被隔离审查，戚本禹 1968 年 1 月被关押。三人被当作“五一六反革命集团”的后台，此后中央文革小组只剩陈伯达、江青、康生、张春桥、姚文元。
+  summary: 8 月底经毛泽东批准，中央文革小组成员王力、关锋被隔离审查；1968 年 1 月戚本禹也被隔离审查。日期据 1987 年北京市大事记，只到月。
   people: [wang-li, guan-feng, qi-benyu, mao-zedong, yang-chengwu, jiang-qing, chen-boda]
-  verify: true
-  why: 毛泽东 8 月 26 日对杨成武的话、隔离审查日期和戚本禹被关押出自党史著作与回忆录，库内尚无原文
+  voices:
+    - { voice: officialLater, text: 经毛泽东批准，王力、关锋被隔离审查，1968年1月，戚本禹也被隔离审查。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: editor, text: 本条旧版日期作 1967 年 8 月 30 日至 1968 年 1 月 13 日，摘要还写有 8 月 26 日毛泽东在上海对杨成武说“王、关、戚是破坏文化大革命的，不是好人”，以及三人被当作“五一六”后台；均出自党史著作与回忆录，库内尚无原文，改从大事记。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [ccrd-1987-bj-chronology-192]
 
 - id: 1967-08-renegade-group
   date: 1967-08-09
@@ -437,12 +439,14 @@
   lane: mass
   weight: 2
   place: 长沙
-  summary: 毛泽东 9 月在长沙要求“在革命的原则下联合起来”后，长沙二十多个造反组织成立“湖南省会无产阶级革命派大联合委员会”（省无联），反对由军队和老干部主导的革委会筹备小组。其成员杨曦光 1968 年 1 月写出《中国向何处去？》，主张推翻“红色资本家阶级”、建立“中华人民公社”；康生、江青随即点名“省无联”是“反革命大杂烩”，组织被取缔，杨曦光判刑十年。
-  people: [yang-xiguang, kang-sheng, jiang-qing]
+  summary: 毛泽东 9 月在长沙要求“在革命的原则下联合起来”后，长沙二十多个造反组织成立“湖南省会无产阶级革命派大联合委员会”（省无联），反对由军队和老干部主导的革委会筹备小组。其成员杨曦光 1968 年 1 月写出《中国向何处去？》，主张推翻“红色资本家阶级”、建立“中华人民公社”。1 月 24 日周恩来、康生、陈伯达等接见湖南学习班，陈伯达宣布“省无联”是“反革命的大杂烩”；杨曦光 1969 年 11 月被判刑十年（据其本人回忆）。
+  people: [yang-xiguang, kang-sheng, jiang-qing, chen-boda, zhou-enlai]
   concepts: [paris-commune]
-  cites: [ws-1967-12-21-shengwulian-decision]
-  verify: true
-  why: 杨曦光《中国向何处去？》、康生江青点名和判刑十年，库内只有“省无联”自己的决定；需 1968 年中央文件或当事人回忆
+  voices:
+    - { voice: official1966, text: “省无联”就是大杂烩，是反革命的大杂烩！（1968 年 1 月 24 日陈伯达讲话记录稿）, cite: ccrd-1968-01-24-hunan-reception, quote: true }
+    - { voice: witness, text: 我被以反革命罪判处有期徒刑十年（杨小凯《我的一生》）, cite: aisixiang-yang-xiaokai-my-life, quote: true }
+    - { voice: editor, text: 本条旧摘要作“康生、江青随即点名‘省无联’是‘反革命大杂烩’”；接见记录稿中这句话出自陈伯达，改从记录稿。, cite: ccrd-1968-01-24-hunan-reception }
+  cites: [ws-1967-12-21-shengwulian-decision, ccrd-1968-01-24-hunan-reception, aisixiang-yang-xiaokai-my-life]
 
 # ── E1 补充：1967 年上半年（夺权、军队介入、革委会、六六通令）────────────
 - id: 1967-01-16-rebels-unite

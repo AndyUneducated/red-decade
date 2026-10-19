@@ -3129,6 +3129,7 @@ series/workers
 sources/aisixiang-2008-han-gang-hua-guofeng
 sources/aisixiang-chen-xiaoping-liang-feng
 sources/aisixiang-song-chengyou-zhou-yiliang
+sources/aisixiang-yang-xiaokai-my-life
 sources/bjd-2022-xing-yanzi
 sources/bjzc-1996-09-pan-guoping
 sources/bu-weihua-smash
@@ -3137,9 +3138,12 @@ sources/cass-ie-gu-zhun
 sources/ccom-chen-liyun-interview
 sources/ccp-figures-bios
 sources/ccp-org-history
+sources/ccrd-1966-05-17-deng-tuo-letter
+sources/ccrd-1966-07-29-liu-shaoqi-speech
 sources/ccrd-1966-10-23-deng-self-criticism
 sources/ccrd-1967-01-22-jiang-weiqing
 sources/ccrd-1967-12-07-pan-fusheng
+sources/ccrd-1968-01-24-hunan-reception
 sources/ccrd-1979-gz-jan-seizure
 sources/ccrd-1985-hn-lingling-daoxian-13
 sources/ccrd-1986-bj-daxing-0
@@ -3242,6 +3246,7 @@ sources/chinawriter-2020-jin-jingmai
 sources/chinawriter-cao-yu
 sources/chinawriter-yang-hansheng
 sources/cnd-1999-hunger-strike-declaration
+sources/cnd-2006-yu-ruxin-1969-war-prep
 sources/cnd-2009-zhao-ziyang-fourth-plenum
 sources/cnd-2016-yu-ruxin-zhao-ziyang
 sources/cnd-2024-du-junfu-516
@@ -3331,6 +3336,9 @@ sources/macfarquhar-schoenhals
 sources/mao-chronicle-1949
 sources/mao-manuscripts-12
 sources/marxists-1967-zhang-chunqiao-jiangsu
+sources/marxists-1968-01-yang-xiguang-whither-china
+sources/marxists-1968-07-30-five-leaders
+sources/marxists-qibenyu-tian-jiaying
 sources/moa-2009-xing-yanzi
 sources/mou-zhijing-chushenlun
 sources/mzd-1975-11-18-wang-mantian
@@ -3696,6 +3704,7 @@ sources/wang-li-memoir
 sources/wang-nianyi-turmoil
 sources/wang-youqin-victims
 sources/wangyouqin-1986-female-barbarity
+sources/wangyouqin-lao-she
 sources/web-1966-10-16-chen-speech
 sources/whb-2018-11-23-shangguan-yunzhu
 sources/witke-jiang

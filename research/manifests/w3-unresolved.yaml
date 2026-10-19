@@ -12,3 +12,105 @@ web:
     via: 作者在芝加哥大学的个人网站（PDF）
     pdf: true
     unwrap: true
+  - id: ccrd-1966-05-17-deng-tuo-letter
+    title: 给市委的遗书
+    date: 1966-05-17
+    author: 邓拓
+    kind: letter
+    alias: 邓拓 1966 年 5 月 17 日给彭真、刘仁并北京市委的遗书
+    url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/8/2/000035.htm
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    note: CCRD 注出处为《邓拓全集》第五卷（花城出版社 2002 年）；转录，未核原书。
+    start: 彭真、刘仁同志并市委同志们：
+    end: 邓拓 一九六六年五月十七夜
+  - id: wangyouqin-lao-she
+    title: 老舍
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》“老舍”条（网络版）
+    url: http://ywang.uchicago.edu/history/LaoShe.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 作者据采访与已刊回忆写成；《文革受难者》2004 年香港开放杂志社出版。
+    start: 老舍，作家，本名舒舍予
+  - id: marxists-qibenyu-tian-jiaying
+    title: 田家英的自杀
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第五章“田家英的自杀”
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-05.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 作者是当时奉命接管田家英工作的三人小组成员；回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1966年5月21日上午, 第三天，即1966年5月23日]
+  - id: ccrd-1966-07-29-liu-shaoqi-speech
+    title: 刘少奇在北京市革命师生文化大革命积极分子大会上的讲话
+    date: 1966-07-29
+    author: 刘少奇
+    kind: speech
+    alias: 刘少奇 1966 年 7 月 29 日在北京市大专学校和中等学校师生文化革命积极分子大会上的讲话
+    url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/3/6/000036.htm
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    note: 1966 年北京化工学院等群众组织的记录稿，CCRD 转录，未核原件；与其他版本文字有出入。
+    start: 我同意刚才邓小平
+    end: 中国共产党万岁！
+  - id: marxists-1968-07-30-five-leaders
+    title: 毛主席关于制止武斗问题的指示
+    date: 1968-07-30
+    author: 聂元梓、蒯大富、谭厚兰、韩爱晶、王大宾
+    kind: speech
+    tier: 2
+    alias: 聂元梓等整理的《毛主席关于制止武斗问题的指示》（1968 年 7 月 30 日传达稿）
+    url: https://www.marxists.org/chinese/linbiao/mia-chinese-linbiao-19680730.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 五人据各自记录整理、经删减后统一公布的传达稿，不是谈话全记录；转录、未核原刊。
+    start: 七月二十八日凌晨三点半
+    end: 一九六八年七月三十日重印，以此为准。
+  - id: marxists-1968-01-yang-xiguang-whither-china
+    title: 中国向何处去？
+    date: 1968-01
+    author: 杨曦光
+    kind: essay
+    alias: 杨曦光《中国向何处去？》（1968 年 1 月征求意见稿）
+    url: https://www.marxists.org/chinese/reference-books/minjian-1966-1976/25.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 据 1968 年 3 月广州《广印红旗》转载本转录，未核油印原件。
+    start: 注：这是一份征求意见搞
+    end: 一九六八年三月
+  - id: ccrd-1968-01-24-hunan-reception
+    title: 中央首长接见毛泽东思想学习班湖南班全体同志的讲话
+    date: 1968-01-24
+    author: 周恩来、陈伯达、康生
+    kind: speech
+    alias: 1968 年 1 月 24 日周恩来、康生、陈伯达接见湖南学习班的讲话
+    url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/3/8/000240.htm
+    via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
+    note: 群众记录稿转录，未核原件。
+    start: 〖当周总理
+    end: （记录稿）
+  - id: aisixiang-yang-xiaokai-my-life
+    title: 我的一生
+    date: 2003
+    author: 杨小凯
+    kind: memoir
+    tier: 3
+    alias: 杨小凯（杨曦光）《我的一生》（《经济观察报》2003 年采访，据口述整理并经本人审校）
+    url: https://www.aisixiang.com/data/3733.html
+    via: 爱思想网转载
+    start: 我原名杨曦光
+    end: 编辑时有所删减。）
+  - id: cnd-2006-yu-ruxin-1969-war-prep
+    title: １９６９：对苏战备中的军委办事组、林彪与毛泽东
+    date: 2006-09-05
+    author: 余汝信
+    kind: article
+    tier: 3
+    alias: 余汝信《1969：对苏战备中的军委办事组、林彪与毛泽东》（《华夏文摘》增刊第 524 期，2006 年）
+    url: http://www.cnd.org/cr/ZK06/cr358.gb.html
+    via: 《华夏文摘》增刊·文革博物馆通讯（三五八）
+    unwrap: true
+    excerpt: true
+    keep: [官方当年标准的指控词是, 由北京抵达苏州, 总参谋部向各军区]

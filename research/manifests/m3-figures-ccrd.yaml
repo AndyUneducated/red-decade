@@ -7,8 +7,6 @@ web:
     kind: local-record
     url: https://ccrd2024.github.io/CCRD%20%E4%B8%AD%E5%9B%BD%E5%BD%93%E4%BB%A3%E6%94%BF%E6%B2%BB%E8%BF%90%E5%8A%A8%E5%8F%B2%E6%95%B0%E6%8D%AE%E5%BA%93%20%E7%82%B9%E6%AD%A4%E8%BF%9B%E5%85%A5%EF%BC%88HTML%EF%BC%89/0/7/8/000192.htm
     via: CCRD 中国当代政治运动史数据库（GitHub Pages 镜像）
-    excerpt: true
-    keep: [北京市被打死1772人, 全市在“清理阶级队伍”期间, 全市揪出的各种坏人已达68123人]
   - id: ccrd-1985-hn-lingling-daoxian-13
     title: 中共零陵地委关于道县“文化大革命”中杀人问题处理意见的报告
     date: 1985-03-28

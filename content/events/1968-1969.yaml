@@ -8,22 +8,28 @@
   lane: mass
   weight: 2
   place: 长沙
-  summary: 长沙一中学生、“省无联”成员杨曦光（杨小凯）写成大字报《中国向何处去？》，认为文革的对象是“红色资本家阶级”，三结合革委会是“资产阶级篡权”，主张像巴黎公社那样建立“中华人民公社”。1 月 24 日康生、陈伯达、江青接见湖南代表时点名批判，“省无联”被定为反革命组织，杨曦光判刑十年。
-  people: [yang-xiguang, kang-sheng, chen-boda, jiang-qing]
+  summary: 长沙一中学生、“省无联”成员杨曦光（杨小凯）写成大字报《中国向何处去？》，认为文革的对象是“红色资本家阶级”，三结合革委会是“资产阶级篡权”，主张像巴黎公社那样建立“中华人民公社”。1 月 24 日周恩来、康生、陈伯达等接见湖南学习班，康生说文章“绝不是中学生，甚至不是大学生写的”，背后有“反革命黑手”；陈伯达称“省无联”是“反革命的大杂烩”。杨曦光随后被关押，1969 年 11 月判刑十年（据其本人回忆），1983 年湖南省高级法院宣告无罪。
+  people: [yang-xiguang, kang-sheng, chen-boda, jiang-qing, zhou-enlai]
   concepts: [paris-commune]
-  cites: [ws-1967-12-21-shengwulian-decision]
-  verify: true
-  why: 库内尚无《中国向何处去？》原文和 1 月 24 日康生、陈伯达、江青的讲话；判刑十年出自当事人回忆
+  voices:
+    - { voice: doc, text: 要实现“中华人民公社”就必须推翻这个阶级。（《中国向何处去？》）, cite: marxists-1968-01-yang-xiguang-whither-china, quote: true }
+    - { voice: official1966, text: 他的理论，绝不是中学生，甚至不是大学生写的。他们背后有反革命黑手（1968 年 1 月 24 日康生讲话记录稿）, cite: ccrd-1968-01-24-hunan-reception, quote: true }
+    - { voice: witness, text: 我被以反革命罪判处有期徒刑十年（杨小凯《我的一生》，2003 年口述）, cite: aisixiang-yang-xiaokai-my-life, quote: true }
+    - { voice: editor, text: 本条旧摘要把 1 月 24 日的讲话者记为康生、陈伯达、江青；记录稿中讲话的是周恩来、康生、陈伯达，江青在场插话，改从记录稿。原文与讲话都是转录本，未核原件。, cite: ccrd-1968-01-24-hunan-reception }
+  cites: [marxists-1968-01-yang-xiguang-whither-china, ccrd-1968-01-24-hunan-reception, aisixiang-yang-xiaokai-my-life, ws-1967-12-21-shengwulian-decision]
 
 - id: 1968-03-yang-yu-fu
   date: 1968-03-22
   title: 杨成武、余立金、傅崇碧被撤职
   lane: army
   weight: 3
-  summary: 3 月 24 日林彪在人民大会堂万人大会上宣布代总参谋长杨成武、空军政委余立金、北京卫戍区司令员傅崇碧“犯了严重错误”被撤职，黄永胜任总参谋长。林彪集团借此进一步控制军委办事组；1974 年毛泽东说此事“搞错了”，三人恢复名誉。
+  summary: 中共中央决定撤销代总参谋长杨成武、空军政委余立金、北京卫戍区司令员傅崇碧的职务，余立金逮捕法办；黄永胜任总参谋长，温玉成兼北京卫戍区司令员，同时改组军委办事组。1979 年中共中央通知为“杨、余、傅事件”公开平反。经过据 1987 年北京市大事记。
   people: [yang-chengwu, yu-lijin, fu-chongbi, lin-biao, huang-yongsheng, ye-qun, wu-faxian, jiang-qing]
-  verify: true
-  why: 库内尚无原文；林彪 3 月 24 日的讲话和 1974 年毛泽东“搞错了”的话出自党史著作
+  voices:
+    - { voice: officialLater, text: 中共中央决定，撤销杨成武人民解放军代总参谋长、余立金空军政委、傅崇碧北京卫戍区司令员的职务。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: officialLater, text: 中央已经查明，所谓“杨、余、傅事件”纯系林彪、“四人帮”反党集团制造的冤案（1979 年中共中央通知，大事记引）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: editor, text: 本条旧摘要写的是 3 月 24 日林彪在人民大会堂万人大会上宣布撤职，以及 1974 年毛泽东说此事“搞错了”，出自党史著作；库内尚无原文，暂删。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [ccrd-1987-bj-chronology-192]
 
 - id: 1968-04-26-neirendang
   topics: [ethnic-religion]
@@ -58,13 +64,13 @@
   title: 清理阶级队伍
   lane: center
   weight: 3
-  summary: 中央转发毛泽东批示的北京新华印刷厂经验，“清理阶级队伍”在全国铺开，审查对象从“叛徒、特务、走资派”扩大到历史问题和“五类分子”，各单位设“牛棚”、专案组。十月的八届十二中全会要求“认真做好清理阶级队伍的工作”。这是文革中受害人数最多的运动之一，确切数字至今没有公布。
+  summary: 中共中央转发《北京新华印刷厂军管会发动群众开展对敌斗争的经验》，要求各地“有步骤地有领导地把清理阶级队伍这项工作做好”，“清理阶级队伍”在全国铺开。十月的八届十二中全会要求“认真做好清理阶级队伍的工作”。全国受害人数没有官方公布；北京市 1968 年 1 月至 1969 年 5 月底清队期间被打死和被迫害自杀的有 3731 人（1987 年北京市大事记）。
   people: [mao-zedong, kang-sheng, xie-fuzhi]
   voices:
     - { voice: official1966, text: 认真做好清理阶级队伍的工作，把混在广大群众中的一小撮反革命分子挖出来（1968 年八届十二中全会公报）, cite: rmrb-1968-11-02-twelfth-plenum, quote: true }
-  cites: [rmrb-1968-11-02-twelfth-plenum]
-  verify: true
-  why: 北京新华印刷厂经验的转发日期、审查对象的扩大和“牛棚”专案组出自党史著作；库内只有八届十二中全会公报
+    - { voice: officialLater, text: 中共中央转发《北京新华印刷厂军管会发动群众开展对敌斗争的经验》，要求全国各地区、各单位“有步骤地有领导地把清理阶级队伍这项工作做好”。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: editor, text: 本条旧摘要还写有“毛泽东批示”的经验、审查对象扩大到历史问题和“五类分子”、各单位设“牛棚”专案组，出自党史著作；库内大事记只记中央转发，暂删。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [rmrb-1968-11-02-twelfth-plenum, ccrd-1987-bj-chronology-192]
 
 # ── 1968 夏：停止武斗、工宣队 ────────────────────────────────
 - id: 1968-07-03-notice
@@ -97,10 +103,13 @@
   lane: mass
   weight: 3
   place: 北京清华大学、人民大会堂
-  summary: 7 月 27 日三万多名工人组成“首都工农兵毛泽东思想宣传队”开进清华，制止“百日大武斗”，被蒯大富一派开枪打死五人。次日凌晨毛泽东召见聂元梓、蒯大富、韩爱晶、谭厚兰、王大宾，说“现在是轮到你们小将犯错误的时候了”。红卫兵运动由此结束，几位“领袖”此后被分配到外地劳动、受审查。
+  summary: 7 月 27 日，根据毛泽东的决定，北京 61 个工厂企业近 3 万名工人组成“工农毛泽东思想宣传队”进入清华大学，制止武斗、收缴武器；蒯大富一派开枪、投掷手榴弹，5 名工人被打死，731 人受伤。次日凌晨毛泽东召见聂元梓、蒯大富、韩爱晶、谭厚兰、王大宾，说“现在是轮到你们小将犯错误的时候了”。人数与伤亡据 1987 年北京市大事记；谈话据五人 7 月 30 日整理公布的传达稿。
   people: [mao-zedong, kuai-dafu, nie-yuanzi, han-aijing, tan-houlan, wang-dabin, lin-biao, zhou-enlai, jiang-qing, chi-qun, xie-jingyi]
-  verify: true
-  why: 库内尚无原文；工宣队进清华的人数与伤亡、毛泽东召见五人的谈话出自谈话记录稿和当事人回忆
+  voices:
+    - { voice: doc, text: 现在是轮到你们小将犯错误的时候了。（1968 年 7 月 30 日五人整理的传达稿）, cite: marxists-1968-07-30-five-leaders, quote: true }
+    - { voice: officialLater, text: 致使王松林、张旭涛、潘志鸿、韩忠现、李文元等5名工人惨遭杀害，731人受伤。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: editor, text: 传达稿是五人据自己的记录整理、经删减的要点，不是谈话全记录。本条旧摘要还写有“红卫兵运动由此结束，几位‘领袖’此后被分配到外地劳动、受审查”，库内尚无出处，暂删。, cite: marxists-1968-07-30-five-leaders }
+  cites: [marxists-1968-07-30-five-leaders, ccrd-1987-bj-chronology-192]
 
 - id: 1968-08-26-workers-lead
   date: 1968-08-25
@@ -222,10 +231,13 @@
   title: 林彪“第一个号令”与战备疏散
   lane: army
   weight: 2
-  summary: 中苏边界谈判前，林彪在苏州口授紧急指示，黄永胜等以“林副主席指示第一个号令”下达全军进入紧急战备。同月中央把一批被打倒的老干部疏散到外地：朱德、董必武去广东，叶剑英去湖南，邓小平去江西，陈云去江西，刘少奇被送往开封。号令事先没有报告毛泽东，后来被当作林彪“擅权”的证据之一。
+  summary: 中苏边界谈判代表团来京前，林彪 10 月 16 日到苏州，17 日口授加强战备、防止敌人突然袭击的紧急指示；18 日晚黄永胜向军委办事组传达，总参以“林彪副主席紧急战备指示（第一个号令）”下达各军区和海、空军。“九一三”后中央文件指它“竟不请示毛主席，党中央”，是“篡党夺权的预演”。经过据余汝信的研究，非一手档案。
   people: [lin-biao, huang-yongsheng, deng-xiaoping, chen-yun, zhu-de, ye-jianying, liu-shaoqi]
-  verify: true
-  why: 库内尚无原文；“第一个号令”的内容与下达经过、老干部疏散名单出自党史著作和 1971 年后的中央文件
+  voices:
+    - { voice: scholar, text: 林彪于１０月１６日由北京抵达苏州，１０月１７日，口授了“关于加强战备，防止敌人突然袭击的紧急指示”（余汝信，2006 年）, cite: cnd-2006-yu-ruxin-1969-war-prep, quote: true }
+    - { voice: official1966, text: 一九六九年十月十八日，林彪趁毛主席不在北京，擅自发布所谓‘林副主席指示第一个号令’，调动全军进入战备状态，这样的大事，竟不请示毛主席，党中央，实际上是一次篡党夺权的预演（1971 年中共中央文件，余汝信文引）, cite: cnd-2006-yu-ruxin-1969-war-prep, quote: true }
+    - { voice: editor, text: 本条旧摘要还列有同月老干部疏散名单（朱德、董必武去广东，叶剑英去湖南，邓小平、陈云去江西，刘少奇送开封），出自党史著作，库内尚无原文，暂删。, cite: cnd-2006-yu-ruxin-1969-war-prep }
+  cites: [cnd-2006-yu-ruxin-1969-war-prep]
 
 - id: 1969-11-12-liu-death
   date: 1969-11-12

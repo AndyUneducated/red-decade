@@ -338,14 +338,14 @@
   lane: culture
   weight: 2
   place: 北京
-  summary: 《评“三家村”》发表后第 8 天。起诉书把邓拓与刘仁、吴晗、乐松生并列为“被迫害致死”，归入林彪、江青、康生、谢富治指使的北京市委冤案，但没有给出日期和方式。
+  summary: 《评“三家村”》发表后第 8 天。前一夜他给彭真、刘仁并市委写下遗书。1987 年北京市大事记把死期记在 5 月 18 日，只写“含冤去世”。起诉书把邓拓与刘仁、吴晗、乐松生并列为“被迫害致死”，归入林彪、江青、康生、谢富治指使的北京市委冤案，但没有给出日期和方式。
   people: [deng-tuo]
   voices:
+    - { voice: doc, text: 遗憾的是我近来旧病都发作了，再拖下去徒然给党和人民增加负担。（邓拓 5 月 17 日夜遗书）, cite: ccrd-1966-05-17-deng-tuo-letter, quote: true }
+    - { voice: officialLater, text: 市委书记处书记、中共中央华北局候补书记邓拓含冤去世。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
     - { voice: judicial1980, text: 刘仁、邓拓、吴晗、乐松生被迫害致死。, cite: ws-1980-indictment, quote: true }
-    - { voice: editor, text: 邓拓死于 5 月，早于中央文革小组成立和林彪、江青掌握实权；起诉书把这桩死亡与 1968 年的北京市公安局冤案写在同一段里，时间上的因果并不清楚。日期与方式待核。 }
-  cites: [ws-1980-indictment]
-  verify: true
-  why: 日期与方式出自党史著作和家属回忆；起诉书只把邓拓列为“被迫害致死”
+    - { voice: editor, text: 邓拓死于 5 月，早于中央文革小组成立和林彪、江青掌握实权；起诉书把这桩死亡与 1968 年的北京市公安局冤案写在同一段里，时间上的因果并不清楚。“自杀”是据遗书“当我要离开你们的时候”的语意和通行说法，大事记与起诉书都没有写死亡方式。遗书是 CCRD 据《邓拓全集》的转录，未核原件。, cite: ccrd-1966-05-17-deng-tuo-letter }
+  cites: [ccrd-1966-05-17-deng-tuo-letter, ccrd-1987-bj-chronology-192, ws-1980-indictment]
 
 - id: 1966-05-23-tian-jiaying
   date: 1966-05-23
@@ -353,10 +353,13 @@
   lane: center
   weight: 1
   place: 中南海
-  summary: 毛泽东秘书，被停职审查后次日自杀。
-  people: [tian-jiaying]
-  verify: true
-  why: 库内尚无原文；停职审查与死亡日期出自党史著作和家属回忆
+  summary: 毛泽东秘书。据当时奉命接管其工作的戚本禹回忆，5 月 21 日下午安子文、王力、戚本禹到中南海永福堂宣布他停职反省，23 日上午他被发现在永福堂西厢房自缢。经过与日期出自当事人回忆，非一手档案。
+  people: [tian-jiaying, qi-benyu]
+  voices:
+    - { voice: witness, text: 1966年5月21日上午，安子文打电话通知我，让我在下午二时半，到中共中央组织部与他和王力会合，然后一起去中南海找田家英谈话。（戚本禹回忆录）, cite: marxists-qibenyu-tian-jiaying, quote: true }
+    - { voice: witness, text: 第三天，即1966年5月23日上午约十时许，田家英的勤务员小陈，第一个发现田家英在永福堂的西厢房里上吊自杀了。（戚本禹回忆录）, cite: marxists-qibenyu-tian-jiaying, quote: true }
+    - { voice: editor, text: 本条旧摘要作“被停职审查后次日自杀”；按戚本禹回忆，宣布停职与死亡相隔一天，改从回忆录。, cite: marxists-qibenyu-tian-jiaying }
+  cites: [marxists-qibenyu-tian-jiaying]
 
 - id: 1966-05-25-nie-dazibao
   date: 1966-05-25
@@ -540,14 +543,17 @@
 
 - id: 1966-07-29-activists-meeting
   date: 1966-07-29
-  title: 人民大会堂师生大会：刘少奇“老革命遇到新问题”
+  title: 人民大会堂师生大会：刘少奇“我也不晓得”
   lane: center
   weight: 1
   place: 人民大会堂
-  summary: 北京大专院校和中学师生文化革命积极分子大会，刘少奇、邓小平、周恩来讲话检讨工作组问题。
-  people: [liu-shaoqi, deng-xiaoping, zhou-enlai]
-  verify: true
-  why: 库内尚无大会讲话原文；刘少奇“老革命遇到新问题”一语出自讲话记录稿的转述
+  summary: 北京大专院校和中学师生文化革命积极分子大会。李雪峰宣布市委撤销大中学校全部工作组，邓小平、周恩来、刘少奇讲话。刘少奇说“派工作组是中央决定的，中央同意的”，又说“革命怎么革”，“我也不晓得”。讲话文本是当时群众组织的记录稿，非正式文件。
+  people: [liu-shaoqi, deng-xiaoping, zhou-enlai, li-xuefeng]
+  voices:
+    - { voice: doc, text: 你们问我们革命怎么革，我老实回答你们，我也不晓得（刘少奇讲话记录稿）, cite: ccrd-1966-07-29-liu-shaoqi-speech, quote: true }
+    - { voice: officialLater, text: 李雪峰在北京市大专学校和中等学校师生文化大革命积极分子大会上宣布：根据中央和毛主席指示，市委作出了撤销大专学校和中等学校所有工作组的决定。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: editor, text: 本条旧题作“刘少奇‘老革命遇到新问题’”。库内刘少奇讲话记录稿中没有这句话，说话人与出处待查，故改题。, cite: ccrd-1966-07-29-liu-shaoqi-speech }
+  cites: [ccrd-1966-07-29-liu-shaoqi-speech, ccrd-1987-bj-chronology-192]
 
 # ── 1966 年 8 月 十一中全会与红八月 ─────────────────────────
 - id: 1966-08-01-plenum
@@ -676,14 +682,14 @@
   lane: culture
   weight: 2
   place: 北京国子监孔庙、太平湖
-  summary: 北京市文联干部、作家与京剧演员被押至孔庙，在焚烧戏装的火堆旁遭殴打。老舍次日死于太平湖。
+  summary: 红卫兵在孔庙焚烧市文化局收存的戏装，把文化局、文联的干部、作家和戏曲艺术家约 30 人押到火场，罚跪抽打，老舍头部被打出血。他次日离家未归，8 月 25 日早晨尸体在太平湖被发现。孔庙经过见 1987 年北京市大事记；投湖经过出自王友琴的调查，非一手档案。
   people: [lao-she]
   voices:
+    - { voice: officialLater, text: 将文化局系统领导干部赵鼎新、张梦庚等，著名作家老舍、肖军、骆宾基、端木蕻良等，著名戏曲艺术家荀慧生、白芸生等共约30人，押送到孔庙火场，命令跪在火堆周围，轮番抽打。老舍头部被打出血。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: scholar, text: 第三天，8月25日早晨，在西城区太平湖上发现了老舍的尸体。（王友琴《文革受难者》）, cite: wangyouqin-lao-she, quote: true }
     - { voice: judicial1980, text: 著名作家、艺术家老舍、赵树理、周信芳、盖叫天、潘天寿、应云卫、郑君里、孙维世等迫害致死。, cite: ws-1980-indictment, quote: true }
-    - { voice: editor, text: 起诉书把老舍之死列入林彪、江青集团的罪责，但没有给出日期和经过；孔庙批斗的实施者是红卫兵学生，这一层在起诉书中不出现。日期与经过待核（亲历者回忆、王友琴《文革受难者》）。 }
-  cites: [ws-1980-indictment]
-  verify: true
-  why: 孔庙批斗和次日投湖的经过出自亲历者回忆；起诉书只把老舍列为“迫害致死”
+    - { voice: editor, text: 起诉书把老舍之死列入林彪、江青集团的罪责，但没有给出日期和经过；孔庙批斗的实施者是红卫兵学生，这一层在起诉书中不出现。1987 年大事记写的是“红卫兵”，同样没有写投湖。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [ccrd-1987-bj-chronology-192, wangyouqin-lao-she, ws-1980-indictment]
 
 - id: 1966-08-23-very-good
   date: 1966-08-23
@@ -713,10 +719,11 @@
   lane: local
   weight: 2
   place: 北京大兴县
-  summary: 在“红八月”气氛下，大兴县十余个公社对“四类分子”及其家属集体杀戮。具体死亡人数各来源说法不一，待核。
+  summary: 在“红八月”气氛下，大兴县约 13 个公社有组织地杀害“四类分子”及其家属 325 人，22 户被杀绝。数字出自 1987 年北京市大事记（征求意见稿），库内尚无大兴县自己的复查材料。
   concepts: [bloodline]
-  verify: true
-  why: 库内尚无原文；各来源死亡人数说法不一，需地方志或 1980 年代复查材料
+  voices:
+    - { voice: officialLater, text: 大兴县约13个公社，有组织地先后杀害“四类分子”及其家属325人，有22户被杀绝。被杀害的人中，最大的80岁，最小的38天。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+  cites: [ccrd-1987-bj-chronology-192]
 
 # ── 1966 年 9–12 月 串连、造反与路线斗争 ─────────────────────
 - id: 1966-09-05-exchange
@@ -864,13 +871,15 @@
 
 - id: 1966-12-peng-dehuai-seized
   date: 1966-12
-  title: 彭德怀被红卫兵从成都揪回北京
+  title: 红卫兵赴四川揪彭德怀
   lane: mass
   weight: 1
-  people: [peng-dehuai]
-  summary: 北京航空学院等红卫兵赴成都，将彭德怀押回北京。
-  verify: true
-  why: 库内尚无原文；起诉书只写 1967 年 7 月戚本禹布置批斗彭德怀，成都押回北京的经过出自党史著作
+  people: [peng-dehuai, qi-benyu, jiang-qing, han-aijing]
+  summary: 12 月中旬，戚本禹按江青的意思，指令北京航空学院的韩爱晶派人去四川抓彭德怀；26 日戚本禹写信向江青报告，彭德怀已被红卫兵抓住，一两日内押送回京。经过出自 1987 年北京市大事记。
+  voices:
+    - { voice: officialLater, text: 戚本禹按照江青的旨意，指令航空学院的韩爱晶派人去四川抓彭德怀。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: editor, text: 本条旧题作“从成都揪回北京”；大事记只写“去四川”，押回北京的具体日期和地点库内尚无记载。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [ccrd-1987-bj-chronology-192]
 
 - id: 1966-12-18-zhang-kuai
   date: 1966-12-18
