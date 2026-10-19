@@ -141,8 +141,8 @@
     - { date: 1981-06-27, text: 历史决议说谭震林、陈毅、叶剑英、李富春等 1967 年 2 月前后对文革的错误作法提出批评，被诬为“二月逆流”而受到压制和打击, cite: ws-1981-resolution }
   fate:
     - { date: 1922, s: normal, note: 勤工俭学期间入党，为旅欧总支部领导者之一, cite: rmrb-1975-01-16-li-fuchun-eulogy }
-    - { date: 1954-09, s: power, note: 国务院副总理、国家计委主任, verify: true }
-    - { date: 1966-08, s: rise, note: 进入政治局常委, verify: true }
+    - { date: 1954-09, s: power, note: 国务院副总理兼国家计委主任（维基百科，未核原件）, cite: zhwiki-li-fuchun }
+    - { date: 1966-08, s: rise, note: 八届十一中全会当选政治局常委（维基百科，未核原件）, cite: zhwiki-li-fuchun }
     - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
     - { date: 1968-12, s: attacked, note: “中国（马列）共产党”假案中被诬为“总理”, cite: ws-1980-indictment }
     - { date: 1969-04-28, s: sidelined, note: 九届一中全会选出的政治局中没有他, cite: ws-1969-04-28-9th-cc-plenum }
@@ -221,7 +221,7 @@
     - { date: 1976-10-06, s: power, note: 参与粉碎“四人帮”, cite: ws-1981-resolution }
     - { date: 1977-08, s: rise, note: 十一届一中全会当选政治局常委、中共中央副主席, cite: rmrb-1992-06-27-li-xiannian-life }
     - { date: 1983-06, s: power, note: 六届人大一次会议当选国家主席, cite: rmrb-1992-06-27-li-xiannian-life }
-    - { date: 1992-06-21, s: dead, verify: true }
+    - { date: 1992-06-21, s: dead, note: 在全国政协主席任上病逝（维基百科，未核原件）, cite: zhwiki-li-xiannian }
   cites: [ws-1981-resolution, ws-1969-04-28-9th-cc-plenum, ws-1980-indictment, ws-1982-xu-jingxian-case]
 
 - id: xu-xiangqian
@@ -289,13 +289,13 @@
     - { date: 1927-03, s: normal, note: 入党, cite: people-jiangshuai-xu-xiangqian }
     - { date: 1931-11, s: power, note: 红四方面军总指挥, cite: people-jiangshuai-xu-xiangqian }
     - { date: 1955-09-23, s: normal, note: 全国人大常委会决定授予元帅军衔, cite: ws-1955-09-23-marshal-ranks }
-    - { date: 1966-08, s: rise, note: 政治局委员, verify: true }
+    - { date: 1966-08, s: rise, note: 八届十一中全会当选政治局委员（维基百科，未核原件）, cite: zhwiki-xu-xiangqian }
     - { date: 1967-01, s: power, note: 全军文革小组组长, cite: people-jiangshuai-xu-xiangqian }
     - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
     - { date: 1967-07-29, s: attacked, note: 清华井冈山抄家、企图绑架, cite: ws-1982-12-kuai-dafu-case }
     - { date: 1969-04-28, s: sidelined, note: 九届一中全会选出的政治局中没有他, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1969-10, s: sidelined, note: 被林彪以战备为名“疏散”到河南开封, cite: people-jiangshuai-xu-xiangqian }
-    - { date: 1977-08, s: restored, note: 重新当选政治局委员, verify: true }
+    - { date: 1977, s: restored, note: 十一大后重新当选政治局委员（此前数据作 1977-08）（维基百科，未核原件）, cite: zhwiki-xu-xiangqian }
     - { date: 1978, s: power, note: 国务院副总理兼国防部长, cite: people-jiangshuai-xu-xiangqian }
     - { date: 1990-09-21, s: dead, cite: people-jiangshuai-xu-xiangqian }
   cites: [ws-1980-indictment, ws-1982-12-kuai-dafu-case, ws-1981-resolution]

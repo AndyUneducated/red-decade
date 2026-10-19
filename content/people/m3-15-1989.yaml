@@ -154,9 +154,9 @@
   factions: [reform]
   fate:
     - { date: 1959, s: rise, note: 人民大会堂青年突击队长、劳动模范, verify: true }
-    - { date: 1982, s: rise, note: 天津市市长, verify: true }
+    - { date: 1982, s: rise, note: 天津市代理市长、市长（维基百科，未核原件）, cite: zhwiki-li-ruihuan }
     - { date: 1989-06-24, s: power, note: 政治局常委、书记处书记, cite: ws-1989-06-24-fourth-plenum }
-    - { date: 2003-03, s: normal, note: 卸任全国政协主席, verify: true }
+    - { date: 2003-03, s: normal, note: 卸任全国政协主席，退休（维基百科，未核原件）, cite: zhwiki-li-ruihuan }
   cites: [ws-1989-06-24-fourth-plenum]
 
 - id: chen-xitong

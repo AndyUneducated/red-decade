@@ -1740,8 +1740,8 @@
     - { date: 1959-09, s: power, note: 总参谋长 }
     - { date: 1965-12, s: purged, note: 上海会议“背靠背的斗争”, cite: ws-1966-04-luo-report }
     - { date: 1966-03-18, s: purged, note: 小组会期间跳楼自杀，受伤, cite: ws-1966-04-luo-report }
-    - { date: 1966-12, s: detained, verify: true }
-    - { date: 1973, s: sidelined, note: 获释，未恢复工作, verify: true }
+    - { date: 1966-12, s: detained, note: 被红卫兵劫出医院，押到北京卫戍区部队驻地（维基百科，未核原件）, cite: zhwiki-luo-ruiqing }
+    - { date: 1973-11, s: sidelined, note: 解除监护，未恢复工作（此前数据作 1973）（维基百科，未核原件）, cite: zhwiki-luo-ruiqing }
     - { date: 1975-08, s: restored, note: 恢复工作，任中央军委顾问, cite: people-jiangshuai-luo-ruiqing }
     - { date: 1977-08, s: restored, note: 复任中央军委常委和秘书长, cite: people-jiangshuai-luo-ruiqing }
     - { date: 1978-08-03, s: dead }
@@ -1833,7 +1833,8 @@
     - { date: 1959, s: power, note: 国务院副总理（此前数据作 1959-04）, cite: rmrb-1996-05-21-lu-dingyi-bio }
     - { date: 1966-05, s: purged, cite: ws-1980-indictment }
     - { date: 1966-12, s: detained, note: 生平称文革中被关押近 13 年；起始月份待核, verify: true }
-    - { date: 1979, s: restored, note: 获释平反, verify: true }
+    - { date: 1968-04, s: detained, note: 下旬转入秦城监狱，编号“68164”（维基百科，未核原件）, cite: zhwiki-lu-dingyi }
+    - { date: 1979-06-08, s: restored, note: 中共中央为其平反（此前数据作 1979）（维基百科，未核原件）, cite: zhwiki-lu-dingyi }
     - { date: 1996-05-09, s: dead }
   cites: [ws-1966-02-outline, ws-1980-indictment, ws-1981-01-25-judgment]
 
@@ -2041,8 +2042,8 @@
     - { date: 1950-10, s: power, note: 志愿军司令员兼政委, cite: people-jiangshuai-peng-dehuai }
     - { date: 1954-09, s: power, note: 国防部长 }
     - { date: 1959-08-16, s: purged, note: 八届八中全会定为“反党集团”头子, cite: ws-1959-08-16-peng-resolution }
-    - { date: 1965-11, s: sidelined, note: 调往成都三线, place: chengdu, verify: true }
-    - { date: 1966-12, s: detained, note: 被北京红卫兵从成都揪回, place: beijing, verify: true }
+    - { date: 1965-11-30, s: sidelined, note: 抵达成都，任西南局三线建委第三副主任（此前数据作 1965-11）（维基百科，未核原件）, place: chengdu, cite: zhwiki-peng-dehuai }
+    - { date: 1966-12, s: detained, note: 北京地质学院王大宾等红卫兵在江青授意下从成都押回北京（维基百科，未核原件）, place: beijing, cite: zhwiki-peng-dehuai }
     - { date: 1974-11-29, s: dead, cite: ws-1980-indictment }
   cites: [ws-1959-08-16-peng-resolution, ws-1966-05-16-notice-attachment@1965-12-21, ws-1967-08-16-peng-dehuai, ws-1978-12-third-plenum, ws-1980-indictment, ws-1981-resolution]
 
@@ -3544,7 +3545,7 @@
     - { date: 1948-08, s: normal, note: 入党，与刘少奇结婚, cite: cpwf-2006-wang-guangmei-bio }
     - { date: 1963-11, s: normal, note: 桃园蹲点, cite: ws-1967-taoyuan-survey }
     - { date: 1964-09-01, s: rise, note: 桃园经验由中央批发全国, cite: ws-1964-09-01-taoyuan-endorse }
-    - { date: 1966-06, s: power, note: 清华工作组顾问, cite: ws-1966-10-liu-self-criticism, verify: true }
+    - { date: 1966-06-19, s: power, note: 出任清华大学工作组顾问（维基百科，未核原件）, cite: zhwiki-wang-guangmei }
     - { date: 1966-08, s: attacked, note: 工作组撤出, cite: ws-1966-qinghua-workteam-survey }
     - { date: 1967-07-18, s: attacked, note: 中南海批斗, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1967-09, s: detained, note: 逮捕关押, verify: true }

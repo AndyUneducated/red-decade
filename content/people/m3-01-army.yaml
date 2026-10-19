@@ -69,7 +69,7 @@
   factions: [lin]
   fate:
     - { date: 1927-09, s: normal, note: 参加秋收起义, cite: people-jiangshuai-huang-yongsheng }
-    - { date: 1955-02, s: power, note: 广州军区司令员, verify: true }
+    - { date: 1955, s: power, note: 广州军区司令员（此前数据作 1955-02）（维基百科，未核原件）, cite: zhwiki-huang-yongsheng }
     - { date: 1967-06-23, s: power, note: 批准调查叶剑英的“第一号调查方案”, cite: ws-1980-indictment }
     - { date: 1968-02-21, s: power, note: 广东省革委会主任, verify: true }
     - { date: 1968-03-22, s: rise, note: 中共中央任命为总参谋长（此前数据作 3 月 24 日）, cite: ccrd-1987-bj-chronology-192 }

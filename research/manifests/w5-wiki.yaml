@@ -422,3 +422,160 @@ web:
     keep: ["1973年12月，陈锡联与李德生对调", "1976年2月，原主持中共中央军委工作"]
     via: 中文维基百科（CC BY-SA 4.0）
     note: 维基百科综述，转录、未核原件。
+  # W5 第 9 批（2026-10-18）：将帅与中央领导人。
+  - id: zhwiki-zeng-siyu
+    title: 曾思玉（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“曾思玉”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9B%BE%E6%80%9D%E7%8E%89
+    excerpt: true
+    keep: ["1967年7月武汉七·二〇事件后", "1973年任济南军区司令员"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wei-guoqing
+    title: 韦国清（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“韦国清”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%9F%A6%E5%9B%BD%E6%B8%85
+    excerpt: true
+    keep: ["1961年7月任广西区党委第一书记", "1968年8月任广西自治区革命委员会主任"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-gao-gang
+    title: 高岗（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“高岗”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%AB%98%E5%B2%97
+    excerpt: true
+    keep: ["1952年，高岗调任中央人民政府国家计划委员会任主席", "8月17日，高岗服大量安眠药自杀身亡"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-huang-kecheng
+    title: 黄克诚（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“黄克诚”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%BB%84%E5%85%8B%E8%AF%9A
+    excerpt: true
+    keep: ["1965年，被贬为山西省人民委员会副省长", "1975年，被按人民内部矛盾处理"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-li-ruihuan
+    title: 李瑞环（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“李瑞环”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9D%8E%E7%91%9E%E7%8E%AF
+    excerpt: true
+    keep: ["1982年起任天津市代理市长、市长", "至2003年3月卸任退休"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-luo-ruiqing
+    title: 罗瑞卿（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“罗瑞卿”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%BD%97%E7%91%9E%E5%8D%BF
+    excerpt: true
+    keep: ["被红卫兵劫出医院"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-lu-dingyi
+    title: 陆定一（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“陆定一”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%99%86%E5%AE%9A%E4%B8%80
+    excerpt: true
+    keep: ["1968年4月下旬，陆定一被转入秦城监狱", "1979年6月8日，中共中央为陆定一平反"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-peng-dehuai
+    title: 彭德怀（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“彭德怀”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%BD%AD%E5%BE%B7%E6%80%80
+    excerpt: true
+    keep: ["1965年11月30日，彭德怀抵达成都", "1966年12月，北京地质学院造反派王大宾"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-guangmei
+    title: 王光美（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王光美”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E5%85%89%E7%BE%8E
+    excerpt: true
+    keep: ["1966年6月19日，出任清华大学工作组的顾问"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-huang-yongsheng
+    title: 黄永胜（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“黄永胜”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%BB%84%E6%B0%B8%E8%83%9C
+    excerpt: true
+    keep: ["1955年出任广州军区司令员"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-li-fuchun
+    title: 李富春（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“李富春”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9D%8E%E5%AF%8C%E6%98%A5
+    excerpt: true
+    keep: ["1954年9月起任国务院副总理兼国家计委主任", "1966年8月中共八届十一中全会上，当选中央政治局常委"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-li-xiannian
+    title: 李先念（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“李先念”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9D%8E%E5%85%88%E5%BF%B5
+    excerpt: true
+    keep: ["1992年6月21日，李先念病逝于全国政协主席任上"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-xu-xiangqian
+    title: 徐向前（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“徐向前”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%BE%90%E5%90%91%E5%89%8D
+    excerpt: true
+    keep: ["8月，徐向前在中共八届十一中全会上当选中央政治局委员", "1977年十一大上当选为中央政治局委员"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。

@@ -38,9 +38,9 @@
   factions: [gaorao]
   fate:
     - { date: 1949-03, s: power, note: 东北局书记, verify: true }
-    - { date: 1952-11, s: power, note: 国家计划委员会主席, verify: true }
+    - { date: 1952-11, s: power, note: 调任国家计划委员会主席（正文只记 1952 年，月份据信息框）（维基百科，未核原件）, cite: zhwiki-gao-gang }
     - { date: 1954-02, s: attacked, note: 七届四中全会揭发, cite: ws-1955-03-31-gao-rao-resolution }
-    - { date: 1954-08-17, s: dead, note: 自杀, cite: ws-1955-03-31-gao-rao-resolution, verify: true }
+    - { date: 1954-08-17, s: dead, note: 服大量安眠药自杀（维基百科，未核原件）, cite: zhwiki-gao-gang }
   cites: [ws-1955-03-31-gao-rao-resolution, ws-1981-resolution]
 
 - id: rao-shushi

@@ -112,10 +112,10 @@
     - { voice: editor, text: 1974 年的指示要点出自批林批孔运动，湖北造反派借此要求“揭盖子”，中央在这份文件里同时保了曾思玉、压了“翻七二〇案”的要求。 }
   factions: [provincial]
   fate:
-    - { date: 1967-07, s: rise, note: 调任武汉军区司令员, verify: true }
+    - { date: 1967-07, s: rise, note: 七二〇事件后任武汉军区司令员（维基百科，未核原件）, cite: zhwiki-zeng-siyu }
     - { date: 1968-02-05, s: power, note: 湖北省革委会主任, verify: true }
     - { date: 1969-04, s: power, note: 九届中央委员, cite: people-jiangshuai-zeng-siyu }
-    - { date: 1973-12, s: power, note: 调任济南军区司令员, verify: true }
+    - { date: 1973, s: power, note: 调任济南军区司令员（此前数据作 1973-12）（维基百科，未核原件）, cite: zhwiki-zeng-siyu }
     - { date: 1974-05-21, s: attacked, note: 中央指示称其犯了严重错误、是“好人犯错误”, cite: ws-1974-05-21-hubei-instructions }
     - { date: 1980, s: sidelined, note: 改任南京军区顾问（至 1982 年）, cite: people-jiangshuai-zeng-siyu }
     - { date: 2012-12-31, s: dead, note: 在大连逝世, cite: xinhua-2013-zeng-siyu-death }
@@ -569,10 +569,10 @@
     - { voice: editor, text: 1980 年代的审判没有涉及广西的屠杀，他一直任高职到 1985 年；文革后广西的调查和处理主要在地方进行，结论多年未公开。 }
   factions: [provincial]
   fate:
-    - { date: 1961-07, s: power, note: 广西区党委第一书记, verify: true }
+    - { date: 1961-07, s: power, note: 广西区党委第一书记（维基百科，未核原件）, cite: zhwiki-wei-guoqing }
     - { date: 1967, s: attacked, note: 被“四二二”攻击, verify: true }
     - { date: 1967-11-18, s: power, note: 中央决定肯定其检查，主持广西革筹, cite: ws-1967-11-18-guangxi-decision }
-    - { date: 1968-08-26, s: power, note: 广西革委会主任, verify: true }
+    - { date: 1968-08, s: power, note: 广西革委会主任（此前数据作 1968-08-26）（维基百科，未核原件）, cite: zhwiki-wei-guoqing }
     - { date: 1973-08-30, s: power, note: 十届一中全会当选政治局委员, cite: ws-1973-08-30-first-plenum }
     - { date: 1977, s: power, note: 总政治部主任, cite: people-jiangshuai-wei-guoqing }
     - { date: 1989-06-14, s: dead, cite: people-jiangshuai-wei-guoqing }
