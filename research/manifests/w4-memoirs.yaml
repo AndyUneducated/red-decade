@@ -120,3 +120,145 @@ web:
     note: 回忆录 2016 年香港出版，转录、未核原书。
     excerpt: true
     keep: [12月26日下午4时许, 5时前，我们就来到了, 主席说，今天过个生日, 主席又说，斯大林是七十三岁死的, 为明年全国全面内战胜利干杯, 主席说“全面内战”这四个字]
+  # 王友琴“文革受难者”网站各条：作者据采访写成，3 级。网页多不标日期，取《文革受难者》（2004 年香港开放杂志社）出版年；网页与书中文字是否一致未核。
+  - id: ywang-saping
+    title: 沙坪
+    date: 2007-04
+    author: 王友琴；陈寿仁
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“沙坪”条（附 2007 年 4 月女三中历史教师陈寿仁来信）
+    url: http://ywang.uchicago.edu/history/saping.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 网页是 Word 导出，meta 写 gb2312，实为 utf-8。日期取文末所附陈寿仁来信的日期；正文早于此。
+    charset: utf-8
+    start: 沙坪，女，北京第三女子中学校长
+  - id: ywang-huajin
+    title: 活人怎么成了“红八月”的“牺牲”：华锦之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“华锦”条
+    url: http://ywang.uchicago.edu/history/huajin.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中引 1978 年 6 月 3 日西城区委昭雪决定，原件库内没有。
+    start: 华锦，女，1914年生
+  - id: ywang-liwenbo
+    title: 李文波
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“李文波”条
+    url: http://ywang.uchicago.edu/history/liwenbo.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 只有一段简介。
+    start: 李文波,男
+  - id: ywang-chenmengjia
+    title: 诗人和考古学家陈梦家之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“陈梦家”条
+    url: http://ywang.uchicago.edu/history/ChenMengJia.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 陈梦家，男，1911年生
+  - id: ywang-chengxiance
+    title: 程贤策之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“程贤策”条
+    url: http://ywang.uchicago.edu/history/ChengXianCe.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 程贤策，男，中共北京大学
+  - id: ywang-luhongeng
+    title: 陆洪恩之死
+    date: 2005-03
+    author: 王友琴；刘文忠
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“陆洪恩”条（附刘文忠《一桩等了三十七年才完成的遗托》）
+    url: http://ywang.uchicago.edu/history/LuHongEng.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 王文自称 2001 年完成、收入 2004 年书；2005 年 3 月附上刘文忠文。刘文忠是陆洪恩在上海第一看守所的同监难友，所引陆洪恩临刑前“表态”摘自刘的自传《风雨人生路》（2004），是三十多年后的追记。
+    start: 陆洪恩，男，1919年生
+  - id: ywang-dongtiebao
+    title: 留美归国博士董铁宝之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“董铁宝”条
+    url: http://ywang.uchicago.edu/history/DongTieBao.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中转引《北京大学纪事1898-1997》，原书库内没有。
+    start: 董铁宝，1917年生
+  - id: ywang-wuxinghua
+    title: 校园“劳改队”的建立和吴兴华之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“吴兴华”条
+    url: http://ywang.uchicago.edu/history/WuXingHua.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 吴兴华，男，北京大学英语教授
+  - id: ywang-lijingyi
+    title: 暴力性“斗争会”的最早的受难者：李敬仪和吴天石之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“李敬仪、吴天石”条
+    url: http://ywang.uchicago.edu/history/LiJingYi.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中转引陈光 1986 年《新华日报》文章与江渭清回忆录《七十年的征程》（1996），原文库内没有。
+    start: 李敬仪，女，1966年时
+  - id: ywang-xiaoguangyan
+    title: 肖光琰
+    date: 2006-02-01
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“肖光琰”条
+    url: http://ywang.uchicago.edu/history/xiaoguangyan.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 网页是 Word 导出，日期取文件元数据；meta 写 gb2312，实为 utf-8。
+    charset: utf-8
+    start: 肖光琰，男，
+  - id: ywang-yangshuo
+    title: 文革受难者杨朔
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“杨朔”条
+    url: http://ywang.uchicago.edu/history/YangShuo.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中转引张光年《向阳日记》（1997），原书库内没有。
+    start: 杨朔，1913
+  - id: ywang-wangguanghua
+    title: 学生王光华之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“王光华”条
+    url: http://ywang.uchicago.edu/history/wangguanghua.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中转引《陈伯达遗稿》（1998），原书库内没有。
+    start: 王光华，男，北京第六中学学生
+  - id: ywang-fuluohuan
+    title: 历史学家的命运：傅洛焕之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“傅洛焕”条
+    url: http://ywang.uchicago.edu/history/FuLuoHuan.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 傅洛焕，男，北京中央民族学院

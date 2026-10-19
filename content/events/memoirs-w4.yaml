@@ -129,3 +129,213 @@
     - { voice: judicial1980, text: 被告人戚本禹供认了大部分犯罪事实，但不承认犯反革命罪（同上）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
     - { voice: witness, text: 他父亲说，戚本禹的案子是邓小平亲自指示，要加重处理的（戚本禹转述友人转述江华之子）, cite: marxists-qibenyu-4-06-trial, quote: true }
   cites: [ws-1983-11-02-qi-benyu-case, marxists-qibenyu-4-06-trial]
+
+# 以下据王友琴“文革受难者”网站各条（采访整理，3 级）；能找到当时或官方记载的并列。
+
+- id: 1966-06-fu-luohuan
+  date: 1966-06
+  title: 中央民族学院历史系教授傅洛焕投湖
+  lane: culture
+  weight: 1
+  place: 北京陶然亭
+  summary: 清史专家、中央民族学院历史系副主任傅洛焕在工作组进校后遭大字报和斗争会攻击，6 月在陶然亭投湖自杀；他是傅斯年的侄子，这层亲属关系也成为罪名。同月北京大学历史系汪篯（11 日）、华东师范大学历史系李平心（15 日）自杀。据王友琴的调查，非一手档案；具体日期不详。
+  voices:
+    - { voice: scholar, text: 在遭到大字报和“斗争会”的攻击后，1966年6月，他在北京陶然亭跳湖自杀。（王友琴《文革受难者》）, cite: ywang-fuluohuan, quote: true }
+    - { voice: scholar, text: 另外，他是傅斯年的侄子。（同上）, cite: ywang-fuluohuan, quote: true }
+    - { voice: scholar, text: 上海华东师范大学历史系李平心教授，1966年6月15日开煤气自杀。（同上）, cite: ywang-fuluohuan, quote: true }
+    - { voice: editor, text: 原文把汪篯写作“汪钱（+竹字头）”。王友琴称文革“对历史学工作者打击得更大和更早”，列举的死者多与 1965 年 11 月批判《海瑞罢官》以来的史学批判相连。, cite: ywang-fuluohuan }
+  cites: [ywang-fuluohuan]
+
+- id: 1966-08-03-nanjing-wu-tianshi
+  date: 1966-08-03
+  end: 1966-08-05
+  title: 南京师范学院批斗游街，李敬仪、吴天石夫妇死亡
+  lane: local
+  weight: 1
+  place: 南京师范学院
+  summary: 8 月 3 日傍晚，南京师范学院一些学生把教务长、党委副书记李敬仪和她的丈夫、江苏省教育厅厅长吴天石从家中拖出，在台上批斗，又拖上大街“游街”。李敬仪死在游街途中；吴天石被拉回学校继续斗争，昏迷两天后 8 月 5 日死去。吴天石此前已被江苏省委作为点名批判对象。王友琴称二人是现有资料中全国最早在“斗争会”过程中被打死的人。当天的组织者后来成立“八三师”。据王友琴的调查，非一手档案。
+  people: [jiang-weiqing]
+  voices:
+    - { voice: scholar, text: 1966年8月3日傍晚，南京师范学院的一些学生冲进李敬仪和吴天石的家，把他们架出门去。（王友琴《文革受难者》）, cite: ywang-lijingyi, quote: true }
+    - { voice: scholar, text: 李敬仪的身上磨得血肉模糊，死在“游街”过程中。（同上）, cite: ywang-lijingyi, quote: true }
+    - { voice: witness, text: 江渭清说他告诉了毛泽东和周恩来，现在，学生把人戴高帽子，拖上街游行，打骂侮辱，把人都搞死了。（江渭清回忆录《七十年的征程》，王友琴转引）, cite: ywang-lijingyi, quote: true }
+    - { voice: editor, text: 吴天石死的 8 月 5 日，北京师大女附中副校长卞仲耘被打死（见该条）。江渭清是当时的江苏省委第一书记，他说在八届十一中全会期间向毛泽东、周恩来报告过南京的打死人事件；回忆录原书库内没有。, cite: ywang-lijingyi }
+  cites: [ywang-lijingyi]
+
+- id: 1966-08-03-wu-xinghua
+  date: 1966-08-03
+  title: 北大“劳改队”中的英语教授吴兴华死亡
+  lane: mass
+  weight: 1
+  place: 北京大学
+  summary: 7 月 27 日聂元梓倡议成立北大文革筹委会，同时把“黑帮分子”揪出来“监督劳动”，北大正式建立数百人的校园“劳改队”。西语系前系主任、1957 年被划为右派的吴兴华在其中。8 月 3 日他在校园拔草时被红卫兵强按着喝下水沟里的化工厂污水，昏倒后被说成“装死”，当晚死于医院。红卫兵坚称他是自杀，不顾妻子反对命令医生解剖尸体。据王友琴的调查，非一手档案。
+  people: [nie-yuanzi]
+  voices:
+    - { voice: scholar, text: 在聂元梓同志的倡议下，黑帮份子被革命师生员工揪了出来，实行监督劳动。（文革时期“北大文革大事记”，王友琴引）, cite: ywang-wuxinghua, quote: true }
+    - { voice: scholar, text: 在场的红卫兵说他是“装死”，不准送学校医务所。（王友琴《文革受难者》）, cite: ywang-wuxinghua, quote: true }
+    - { voice: scholar, text: 吴兴华死了，死于急性痢疾。北大的红卫兵却说，吴兴华是自杀的，对抗文化大革命，罪大恶极。（同上）, cite: ywang-wuxinghua, quote: true }
+    - { voice: editor, text: 同一网站的吴兴华条写 8 月 3 日、死时 45 岁；程贤策条写 8 月 4 日、45 岁；杨朔条写 8 月 4 日、44 岁。这里暂从本人条目。, cite: ywang-chengxiance }
+  cites: [ywang-wuxinghua, ywang-chengxiance, ywang-yangshuo]
+
+- id: 1966-08-19-music-hall-struggle
+  date: 1966-08-19
+  title: 中山公园音乐堂批斗北京教育界干部
+  lane: mass
+  weight: 1
+  place: 北京中山公园音乐堂
+  summary: 第一次天安门接见的次日，北京四中、六中、八中红卫兵在中山公园音乐堂召开大会，批斗北京市教育系统和团市委领导干部。1987 年北京市大事记记作 13 人，“逐个进行了毒打”；王友琴的调查说教育局局长孙国梁被打断三根肋骨，八中副校长温寒江被绳子套着脖子从学校跟着自行车跑到会场、昏死在舞台上。
+  voices:
+    - { voice: officialLater, text: 北京市第4、6、8中学红卫兵，在中山公园音乐堂召开批斗张文松、孙国梁、汪家镠、李晨等13位教育系统、团市委领导干部的大会，会上对孙国梁等逐个进行了毒打。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: scholar, text: 当年八中的人印象深刻的是：副校长温寒江脖子上套着一根绳子，绳子的另一端在一个红卫兵学生手里。（王友琴《文革受难者》）, cite: ywang-huajin, quote: true }
+    - { voice: scholar, text: 如此下来，北京教育局局长孙国梁被打断了三根肋骨。温寒江浑身是血昏死在舞台上。（同上）, cite: ywang-huajin, quote: true }
+    - { voice: editor, text: 大事记说被批斗的是 13 位干部；王友琴的沙坪条说“毒打二十多名教育工作者”，可能把陪斗的校长教师也算在内，库内无名单可核。, cite: ywang-saping }
+  cites: [ccrd-1987-bj-chronology-192, ywang-huajin, ywang-saping]
+
+- id: 1966-08-20-sha-ping
+  date: 1966-08-20
+  title: 北京女三中校长沙坪被打死
+  lane: mass
+  weight: 1
+  place: 北京第三女子中学
+  summary: 女三中“文革委员会”在校内设“劳改队”和三间“无产阶级专政室”。8 月 19 日晚红卫兵拷打校长沙坪到深夜，20 日上午在全校斗争大会上把她当众打死；同期该校数学教师张梅岩被抄家后自杀，校外抓来的一名妇女和一名老人也死在校内。“打死个人，不就是 28 块钱的事儿”一语据说出自这里。1979 年北京市教育局调查此案，中途停止。经过据王友琴的调查和该校历史教师陈寿仁 2007 年的来信，非一手档案。
+  voices:
+    - { voice: scholar, text: 20日上午，沙萍在全校“斗争大会”上被当众打死。（王友琴《文革受难者》）, cite: ywang-saping, quote: true }
+    - { voice: witness, text: 20日上午，奄奄一息的沙坪被被拖到原女三中的中院，在有全校师生参加的批斗会上，当众被殴打至死。（女三中历史教师陈寿仁 2007 年来信）, cite: ywang-saping, quote: true }
+    - { voice: scholar, text: “打死个人，不就是28块钱的事儿吗。”这句话最早就是从女三中流传出来的。（王友琴）, cite: ywang-saping, quote: true }
+    - { voice: scholar, text: 打死沙坪的主要参与者住在北京的军队“大院”里。（王友琴）, cite: ywang-saping, quote: true }
+    - { voice: scholar, text: 董光苔记得的内容是：“此人如无大罪恶，可以放出来。”（王友琴记副校长董光苔所说毛泽东批示）, cite: ywang-saping, quote: true }
+    - { voice: witness, text: 传言董振堂的夫人在董光苔进入“劳改队”后，曾写信给党中央要求解放她，不久即获得林彪副统帅的“如无大过，保其过关”的批示(此批示有人亲眼看见过)。（陈寿仁来信）, cite: ywang-saping, quote: true }
+    - { voice: editor, text: 同一页的摘要和陈寿仁信都作 8 月 20 日；正文另一处却说“8月22日，在沙坪被打死的同一天”华锦死去，华锦条也说“同日”，与 20 日矛盾，这里从 20 日。副校长董光苔获释所凭的批示，王友琴据董本人回忆说是毛泽东批的，陈寿仁据传言说是林彪批的，措辞也不同；原件库内没有。陈寿仁还说董光苔后来任该校革委会主任、主持清队，“不能说是文革的受害者”。, cite: ywang-saping }
+  cites: [ywang-saping]
+
+- id: 1966-08-22-hua-jin
+  date: 1966-08-22
+  title: 北京八中党支部书记华锦死于关押处
+  lane: mass
+  weight: 1
+  place: 北京第八中学
+  summary: 华锦在 8 月 19 日音乐堂批斗后继续在八中被打被关，8 月 22 日早晨被发现吊死在关她的房间的窗栓上。红卫兵说她自杀，家属和不少老师认为她是被打死的：前一夜有人听见楼道里打她到深夜。该校红卫兵同期还打死校外“牛鬼蛇神”8 人，副校长韩九芳被打成重伤。1978 年西城区委的昭雪决定说她“壮烈牺牲”，不写死因。据王友琴的调查，非一手档案。
+  voices:
+    - { voice: scholar, text: 1966年8月22日早晨被发现吊死在关她的房间的窗栓上。红卫兵宣称她是自杀的。她的家人和学校的很多老师坚持认为她是被打死的。（王友琴《文革受难者》）, cite: ywang-huajin, quote: true }
+    - { voice: scholar, text: 在8月21日夜，第八中学的一个工作人员，住在附近，听到有人在楼道里打华锦，打到很晚，打了很长时间，直到深夜，才安静下来。（同上）, cite: ywang-huajin, quote: true }
+    - { voice: officialLater, text: 严刑拷打，不幸于1966年8月22日凌晨壮烈牺牲。（1978 年 6 月 3 日中共西城区委昭雪决定，王友琴引）, cite: ywang-huajin, quote: true }
+    - { voice: editor, text: 昭雪决定把迫害归于“林彪、‘四人帮’反革命修正主义路线”，用“牺牲”而不写他杀还是自杀；王友琴专门批评了这个词。决定原件库内没有，只见王文转引。, cite: ywang-huajin }
+  cites: [ywang-huajin, ywang-saping]
+
+- id: 1966-08-25-li-wenbo
+  date: 1966-08-25
+  title: 崇文区李文波“打红卫兵”事件
+  lane: mass
+  weight: 1
+  place: 北京崇文区杆栏市
+  summary: 红卫兵以“前小业主”为由抄李文波的家，传说他还手打了红卫兵，消息很快以“阶级敌人杀害红卫兵”传遍北京。据王友琴，事件导致李文波及妻子和杆栏市一带大批人被打死，并成为全城打人升级的借口，“血债要用血来还”成了新口号；文革后知情者说李文波并没有动手。王友琴该条只有一段简介。
+  voices:
+    - { voice: scholar, text: 1966年8月25日，红卫兵以李文波是前小业主为借口，抄了李文波的家。据说李文波在抄家中还手打了红卫兵。（王友琴《文革受难者》）, cite: ywang-liwenbo, quote: true }
+    - { voice: scholar, text: 文革后，据知情者说，李文波根本没有动手打红卫兵，只是曾要求红卫兵让他的妻子上厕所。（同上）, cite: ywang-liwenbo, quote: true }
+    - { voice: scholar, text: “血债要用血来还”成为红卫兵新的口号。（同上）, cite: ywang-liwenbo, quote: true }
+    - { voice: editor, text: 当时的报道、公安记录或判决库内都没有；“大批人被打死”没有人数。次日谢富治在市公安局要求民警“站在红卫兵一边”（见 1987 年大事记 8 月 26 日条）。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [ywang-liwenbo, ccrd-1987-bj-chronology-192]
+
+- id: 1966-09-02-cheng-xiance
+  date: 1966-09-02
+  title: 北大中文系总支书记程贤策自杀
+  lane: mass
+  weight: 1
+  place: 北京香山
+  summary: 程贤策在 6 月 1 日后被停职批判，“六一八事件”中被从女厕所里揪出殴打，工作组撤走后进“劳改队”，被剃十字头、挂牌在商店前拾垃圾，8 月 24 日被抄家并用铜头皮带毒打。9 月 2 日他带一瓶烈酒和两瓶敌敌畏到香山树林中自杀。死后系里开会，用白纸写他的名字插在会上“斗争”。据王友琴对多位北大教师的访谈，非一手档案。
+  voices:
+    - { voice: scholar, text: 9月2日，程贤策带一瓶烈酒和两瓶浓缩杀虫剂敌敌畏，来到北京大学西北方向十公里外的香山的树林中自杀。（王友琴《文革受难者》）, cite: ywang-chengxiance, quote: true }
+    - { voice: scholar, text: 程贤策小声关照他：“老向，千万稳住，别有特别的表示。”（同上，记中文系副主任向景洁被剪头发前）, cite: ywang-chengxiance, quote: true }
+    - { voice: scholar, text: 程贤策虽然死了，还用白纸写了他的名字插在会上“斗争”，两边还站着“陪斗的”人。（同上）, cite: ywang-chengxiance, quote: true }
+    - { voice: editor, text: 乐黛云《绝色霜枫》记程贤策在 6 月第一次挨打后立即自杀；王友琴据同事访谈认为这是误记，实际是三个月后。王文还写到程贤策 1951 年任江西土改工作团副团长、劝乐黛云接受枪决地主，以说明他从“革命者”变为革命对象。, cite: ywang-chengxiance }
+  cites: [ywang-chengxiance]
+
+- id: 1966-09-03-chen-mengjia
+  date: 1966-09-03
+  title: 考古学家陈梦家自缢
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 新月派诗人、考古研究所研究员陈梦家 1957 年被划为右派。1966 年 8 月他在考古所被批斗、抄家，夫妇被赶进汽车库住。8 月 24 日斗争后他到朋友家说“我不能再让别人把我当猴子耍了”，所里的人追来强按他下跪，押回所里。当夜他服安眠药未死，9 月 3 日自缢。同一天，考古所旁的东厂胡同至少六名居民被红卫兵打死。据王友琴的调查，非一手档案。
+  voices:
+    - { voice: scholar, text: 他告诉朋友说：“我不能再让别人把我当猴子耍了。”（王友琴《文革受难者》）, cite: ywang-chenmengjia, quote: true }
+    - { voice: scholar, text: 十天以后，陈梦家又一次自杀。陈梦家自缢，死于1966年9月3日。（同上）, cite: ywang-chenmengjia, quote: true }
+    - { voice: scholar, text: 那一天，在考古研究所旁边的东厂胡同，至少有六个居民被红卫兵活活打死。（同上）, cite: ywang-chenmengjia, quote: true }
+    - { voice: scholar, text: 据说这份“简报”写道，到8月底止，北京全市共打死上千人。（同上，指 9 月 5 日中央文革小组简报）, cite: ywang-chenmengjia, quote: true }
+    - { voice: editor, text: 王友琴引的中央文革简报标题和“上千人”都是“据说”，原件库内没有。她在李敬仪、吴天石条另引“内部”统计称 1966 年夏北京有 1772 人被红卫兵打死，两个数字口径不同。, cite: ywang-lijingyi }
+  cites: [ywang-chenmengjia, ywang-lijingyi]
+
+- id: 1966-09-28-wang-guanghua
+  date: 1966-09-28
+  title: 北京六中“劳改所”打死学生王光华
+  lane: mass
+  weight: 1
+  place: 北京第六中学
+  summary: 六中红卫兵把音乐教室小院改成“牛鬼蛇神劳改所”，墙上写“红色恐怖万岁”，关押教职员和学生一百多天，在其中打死三人。高三学生王光华出身“小业主”，不是红卫兵，私自外出“串连”，9 月 27 日傍晚回京即被抓进去毒打，28 日下午死亡。红卫兵后来向他母亲索要 28 元火葬费。11 月 19 日陈伯达到六中解散了这所监狱。据王友琴的调查，非一手档案。
+  people: [chen-boda]
+  voices:
+    - { voice: scholar, text: 监狱建成后，有红卫兵在墙上用红色油漆写了“红色恐怖万岁”六个大字加惊叹号。（王友琴《文革受难者》）, cite: ywang-wangguanghua, quote: true }
+    - { voice: scholar, text: 9月27日傍晚，王光华回到北京，立即被抓进监狱。一进门，十几个红卫兵成员围上去一起用棍棒皮带打王光华。（同上）, cite: ywang-wangguanghua, quote: true }
+    - { voice: scholar, text: 多日之后，六中红卫兵向王光华的母亲索取28块钱，告诉她这是王光华的火葬费。（同上）, cite: ywang-wangguanghua, quote: true }
+    - { voice: witness, text: 我约当时北京市负责人到北京市区一些地方，发现有私设的，立即解散这些私设公堂和拘所，立即放人。（陈伯达遗稿，王友琴转引）, cite: ywang-wangguanghua, quote: true }
+    - { voice: editor, text: 王友琴指出陈伯达 9 月 6 日曾到六中支持红卫兵，王光华在此后三周被打死；遗稿只记后来解散监狱。1978 年六中为王光华开了追悼会，政府发给家属 400 元。, cite: ywang-wangguanghua }
+  cites: [ywang-wangguanghua]
+
+- id: 1968-04-27-lu-hongen
+  date: 1968-04-27
+  title: 上海交响乐团指挥陆洪恩被公判枪决
+  lane: culture
+  weight: 1
+  place: 上海文化广场
+  summary: 陆洪恩 1965 年被上海精神病院诊断为精神分裂症，1966 年 5 月再次发病，在讨论姚文元《评“三家村”》的小组会上与人争辩，5 月 28 日被扭送公安局。羁押中停药，病情加重。1968 年 4 月 27 日上海市公检法领导机关在文化广场召开万人公判大会，宣布他和另外六人死刑立即执行，并电视转播。1979 年 9 月平反。据王友琴的调查和同监难友刘文忠的追记。
+  people: [zhang-chunqiao]
+  voices:
+    - { voice: official1966, text: 大会宣判后，被判处死刑、立即执行的柳友新等七名现行反革命份子当即被押赴刑场，执行枪决。（1968 年 4 月 28 日《解放日报》，王友琴引）, cite: ywang-luhongeng, quote: true }
+    - { voice: scholar, text: 你们说我是，我就是，并且说了“赫鲁晓夫万岁”。（王友琴记陆洪恩在小组会上的话）, cite: ywang-luhongeng, quote: true }
+    - { voice: witness, text: 我看不出吴晗、邓拓、廖沫沙的文章有什么错误，你们说我修正主义，我就修正主义，修正主义万岁。（陆洪恩之子陆于为转述单位同事所说，刘文忠记）, cite: ywang-luhongeng, quote: true }
+    - { voice: witness, text: 陆先生在临刑前留下遗托给我：“小兄弟如能出狱的话，请详尽转告我儿子，我是如何死在监狱里的。”（同监难友刘文忠）, cite: ywang-luhongeng, quote: true }
+    - { voice: editor, text: 小组会上那句话有“赫鲁晓夫万岁”和“修正主义万岁”两种说法。张春桥“陆洪恩不是精神病，是反革命”一语王友琴注明是“据传”，未见会议记录；刘文忠书中陆洪恩临刑前的长篇“表态”是三十多年后的追记。同场被枪决的另六人姓名见王文，身份不详。, cite: ywang-luhongeng }
+  cites: [ywang-luhongeng]
+
+- id: 1968-08-03-yang-shuo
+  date: 1968-08-03
+  title: 作家杨朔服安眠药死亡
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 散文《荔枝蜜》《雪浪花》《茶花赋》的作者、作协外国文学委员会主任杨朔 1968 年被列为单位重点批斗对象，8 月 3 日服大剂量安眠药死亡，时年 55 岁。1975 年家属向作协负责人张光年、严文井说明他是“因病逝世”，同年 12 月作协为他举行移灵式。文革后的平反消息只说“被迫害致死”。据王友琴的调查，非一手档案。
+  voices:
+    - { voice: scholar, text: 他在1968年8月3日服大剂量安眠药自杀死亡。（王友琴《文革受难者》）, cite: ywang-yangshuo, quote: true }
+    - { voice: witness, text: 晚杨朔的弟弟杨玉玮、杨朔女儿杨渡来访，严文井在座。玉玮细谈了杨朔因病逝世情况及他为此进行调查研究经过，谈了两小时。（张光年《向阳日记》1975 年 11 月 12 日，王友琴引）, cite: ywang-yangshuo, quote: true }
+    - { voice: editor, text: 家属说“因病逝世”（服药过量），王友琴认为是自杀，并解释当时自杀本身就是罪名，家属只能争辩“不是自杀”。日记原书库内没有。, cite: ywang-yangshuo }
+  cites: [ywang-yangshuo]
+
+- id: 1968-10-18-dong-tiebao
+  date: 1968-10-18
+  title: 北大清队中教授董铁宝自杀
+  lane: mass
+  weight: 1
+  place: 北京大学
+  summary: 1968 年 8 月工宣队、军宣队进驻北大领导清队，全校 900 多人被“重点审查”。1956 年从美国归国的力学博士、数学力学系教授董铁宝被“隔离审查”关在 28 楼，10 月 18 日据说趁看守不注意离开 28 楼，在学校附近的树上自缢。同月物理系教授饶毓泰（16 日）和“新北大领导小组”副组长崔雄昆（17 日）也死亡。据王友琴的调查与她转引的《北京大学纪事》，非一手档案。
+  voices:
+    - { voice: scholar, text: 在“隔离审查”中，1968年10月18日，董铁宝自杀身亡。（王友琴《文革受难者》）, cite: ywang-dongtiebao, quote: true }
+    - { voice: scholar, text: 全校有900多人被“重点审查”(当时北大有四千多教职员工)。（同上）, cite: ywang-dongtiebao, quote: true }
+    - { voice: officialLater, text: 数学力学系教授董铁宝自杀身亡。（《北京大学纪事1898-1997》，王友琴引）, cite: ywang-dongtiebao, quote: true }
+    - { voice: judicial1980, text: 著名教授熊庆来、翦伯赞、何思敬、王守融、顾毓珍、李广田、饶毓泰、刘盼遂、马特等被迫害致死。, cite: ws-1980-indictment, quote: true }
+    - { voice: editor, text: 1980 年起诉书的“迫害致死”名单有同月死去的饶毓泰，没有董铁宝；校史只记一行“自杀身亡”。王友琴说校史只记系级、教授级以上的死者，三周后跳楼的数学系教师陈永和不见记载。, cite: ywang-dongtiebao }
+  cites: [ywang-dongtiebao, ws-1980-indictment]
+
+- id: 1968-12-11-xiao-guangyan
+  date: 1968-12-11
+  title: 大连化物所“特务案”：萧光琰一家三口死亡
+  lane: local
+  weight: 1
+  place: 中国科学院大连化学物理研究所
+  summary: 清队中，大连化物所在军代表和工宣队领导下把一百多人指为“特务”，留学回国者全部被指为特务组织成员，隔离审查、刑讯，七人死亡，都被宣布为自杀。1950 年从芝加哥大学回国的研究员萧（肖）光琰 10 月被关进“牛棚”，12 月 11 日死亡，被宣布服安眠药自杀；两天后他的妻子甄素辉和 15 岁的女儿萧络连被发现在家中服安眠药死去。幸存者张存浩后任所长。据王友琴的调查，非一手档案。
+  voices:
+    - { voice: scholar, text: 从国外留学回国的人全部都被指控为“特务”组织成员。（王友琴《文革受难者》）, cite: ywang-xiaoguangyan, quote: true }
+    - { voice: scholar, text: 这七个人都被宣布是自杀的。他们的家属都认为他们是被打死的。（同上）, cite: ywang-xiaoguangyan, quote: true }
+    - { voice: scholar, text: 他们服安眠药自杀。一个三口之家就此彻底被毁灭。（同上）, cite: ywang-xiaoguangyan, quote: true }
+    - { voice: scholar, text: 他被打了一个晚上的耳光，说他“态度不老实”。（同上，记张存浩被逼认“特务”名单）, cite: ywang-xiaoguangyan, quote: true }
+    - { voice: editor, text: 网页标题作“肖光琰”，网站目录作“萧光琰”，女儿名作“萧络连”。另外六名死者的姓名王文没有列出，库内也没有该所清队的档案。, cite: ywang-xiaoguangyan }
+  cites: [ywang-xiaoguangyan]
