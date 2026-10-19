@@ -262,3 +262,163 @@ web:
     url: http://ywang.uchicago.edu/history/FuLuoHuan.htm
     via: 作者在芝加哥大学的个人网站
     start: 傅洛焕，男，北京中央民族学院
+  - id: ywang-chenyanrong
+    title: 无声无息的受难者陈彦荣
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“陈彦荣”条
+    url: http://ywang.uchicago.edu/history/ChenYanRong_text.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 陈彦荣，男，1929年生
+  - id: ywang-chenyuanzhi
+    title: 以日记获罪致死的语文教师：陈沅芷之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“陈沅芷”条
+    url: http://ywang.uchicago.edu/history/ChenYuanZhi.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中引陈沅芷丈夫舒芜 1978 年 12 月的回忆，原刊处王文未注。
+    start: 陈沅芷，女，1924年1月4日生
+  - id: ywang-hejiefu
+    title: “遣返”，对城市和平居民的非法驱逐：何洁夫之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“何洁夫”条
+    url: http://ywang.uchicago.edu/history/HeJieFu.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中引 1967 年 3 月 18 日北京市公安局军管会布告，原件库内没有。
+    start: 何洁夫，男，北京农业大学职员
+  - id: ywang-huxiuzheng
+    title: “翻案就是现反（现行反革命）”：胡秀正之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“胡秀正”条
+    url: http://ywang.uchicago.edu/history/HuXiuZheng.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 作者 1996 年前后访问胡秀正的丈夫张连元写成。
+    start: 胡秀正，1933年生
+  - id: ywang-huangruiwu
+    title: 黄瑞五一家五人之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“房产之祸：黄瑞五一家五人之死”条
+    url: http://ywang.uchicago.edu/history/byLiXian.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中 1772 人一数据王文说出自 1966 年 10 月中央工作会议文件《把旧世界打个落花流水》，原件库内没有。
+    start: 1966年8月末，一个恐怖的消息
+  - id: ywang-liangguangqi
+    title: 梁光琪之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“梁光琪”条
+    url: http://ywang.uchicago.edu/history/liangguangqi.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 据梁光琪之子口述；文中提到读过本网站“李文波”页，写成晚于该页。
+    start: 梁光琪，1912年生
+  - id: ywang-liuhao
+    title: 医生刘浩之死
+    date: 2001
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“刘浩”条
+    url: http://ywang.uchicago.edu/history/liuhao.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中说“刘浩已经离开他们三十三年了”，据此推为 2001 年。
+    start: 刘浩，1926年生
+  - id: ywang-nanbaoshan
+    title: 打“小流氓”和南保山父子之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“南保山”条
+    url: http://ywang.uchicago.edu/history/nanbaoshan.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 文中转引老鬼（马波）《血与铁》（1998）。
+    start: 南保山，男，南鹤龙
+  - id: ywang-sunqikun
+    title: 孙启坤孙玉坤两姐妹之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“孙启坤、孙玉坤”条
+    url: http://ywang.uchicago.edu/history/SunQiKun.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 作者 1990 年代初访问孙启坤之弟孙菊生写成。
+    start: 孙启坤，女，北京永定门外
+  - id: ywang-yanshuangguang
+    title: 严双光之死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“严双光”条
+    url: http://ywang.uchicago.edu/history/yan_s_g.htm
+    via: 作者在芝加哥大学的个人网站
+    note: 含 1996 年 6 月 19 日作者对严四光的访谈记录，并转引《严济慈先生访谈录》（《中国科技史料》1999 年第 3 期）。
+    start: 严双光，男，1929年出生
+  - id: ywang-zhangfang
+    title: 张放和记住张放之死的人们
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“张放”条
+    url: http://ywang.uchicago.edu/history/ZhangFang.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 张放，女，北京西城区二龙路中学
+  - id: ywang-zhanghuaiyi
+    title: 张怀怡同学自杀前后
+    date: 2001-11-28
+    author: 周启博
+    kind: memoir
+    tier: 3
+    alias: 周启博《张怀怡同学自杀前后》（作者时为清华大学代表队“文革领导小组”成员）
+    url: http://ywang.uchicago.edu/history/zhanghuaiyi.htm
+    via: 王友琴“文革受难者”网站
+    note: 文末列出 1978 年清华党委平反决定等三份档案，网页只有标题，原件库内没有。
+    start: 张怀怡生于1945年
+  - id: ywang-wangzf
+    title: 医生和所谓“里通外国”
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“王中方”条
+    url: http://ywang.uchicago.edu/history/wangzf.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 王中方，男，1913年生
+  - id: ywang-xiaogong
+    title: 校工之死：文革帮穷人了吗？
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“校工之死”条
+    url: http://ywang.uchicago.edu/history/xiaogong.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 姚福贵，男，天津红桥区
+  - id: ywang-dangqingfan
+    title: 八旬老人党晴梵被打死
+    date: 2004
+    author: 王友琴
+    kind: article
+    tier: 3
+    alias: 王友琴《文革受难者》网站“党晴梵”条
+    url: http://ywang.uchicago.edu/history/dangqingfan.htm
+    via: 作者在芝加哥大学的个人网站
+    start: 党晴梵，男，1885年生

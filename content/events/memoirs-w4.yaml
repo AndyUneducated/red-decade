@@ -228,13 +228,227 @@
   lane: mass
   weight: 1
   place: 北京崇文区杆栏市
-  summary: 红卫兵以“前小业主”为由抄李文波的家，传说他还手打了红卫兵，消息很快以“阶级敌人杀害红卫兵”传遍北京。据王友琴，事件导致李文波及妻子和杆栏市一带大批人被打死，并成为全城打人升级的借口，“血债要用血来还”成了新口号；文革后知情者说李文波并没有动手。王友琴该条只有一段简介。
+  summary: 女十五中红卫兵以“前小业主”为由抄李文波的家，称他用菜刀袭击红卫兵，消息很快以“阶级敌人杀害红卫兵”传遍北京。据王友琴，李文波当场被打死，妻子刘文秀被警车带走，9 月 12 日被北京法院判处死刑、13 日枪决；杆栏市一带大批居民被打死，事件成为全城打人升级的借口，“血债要用血来还”成了新口号。文革后知情者说李文波并没有动手。周恩来在几次讲话中提到此事，强调保护红卫兵。均据王友琴的调查，判决书和讲话原文库内没有。
   voices:
     - { voice: scholar, text: 1966年8月25日，红卫兵以李文波是前小业主为借口，抄了李文波的家。据说李文波在抄家中还手打了红卫兵。（王友琴《文革受难者》）, cite: ywang-liwenbo, quote: true }
     - { voice: scholar, text: 文革后，据知情者说，李文波根本没有动手打红卫兵，只是曾要求红卫兵让他的妻子上厕所。（同上）, cite: ywang-liwenbo, quote: true }
     - { voice: scholar, text: “血债要用血来还”成为红卫兵新的口号。（同上）, cite: ywang-liwenbo, quote: true }
-    - { voice: editor, text: 当时的报道、公安记录或判决库内都没有；“大批人被打死”没有人数。次日谢富治在市公安局要求民警“站在红卫兵一边”（见 1987 年大事记 8 月 26 日条）。, cite: ccrd-1987-bj-chronology-192 }
-  cites: [ywang-liwenbo, ccrd-1987-bj-chronology-192]
+    - { voice: scholar, text: 李文波当时就被红卫兵打死。李文波的妻子刘文秀被公安局用警车抓走。9月12日，刘文秀被北京法院判处死刑，9月13日被枪决。（王友琴“梁光琪”条）, cite: ywang-liangguangqi, quote: true }
+    - { voice: scholar, text: 查当年的“首长讲话”记录，周恩来总理在几次讲话中提到李文波事件，强调要注意保护红卫兵。（王友琴“陈彦荣”条）, cite: ywang-chenyanrong, quote: true }
+    - { voice: editor, text: 李文波条说“李文波及妻子”被打死，梁光琪条说妻子是被法院判处死刑枪决的，这里从后者；地名一作“杆栏市”，一作“栏杆市”。次日谢富治在市公安局要求民警“站在红卫兵一边”（见 1987 年大事记 8 月 26 日条）。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [ywang-liwenbo, ywang-liangguangqi, ywang-chenyanrong, ccrd-1987-bj-chronology-192]
+
+- id: 1966-08-25-liang-guangqi
+  date: 1966-08-25
+  title: 北京女十五中党支部书记梁光琪被打死
+  lane: mass
+  weight: 1
+  place: 北京第十五女子中学（后改名广渠门中学）
+  summary: 梁光琪 1938 年去延安，50 年代任全国总工会女工部长，1958 年下放到中学。8 月中旬她被本校红卫兵关押、剃“阴阳头”；8 月 25 日该校红卫兵在附近抄李文波家引发“栏杆市事件”，当夜她在校内被打死。她的二儿子当时是四中红卫兵，也参加过抄家打人。据王友琴对梁光琪之子的访谈，非一手档案。
+  voices:
+    - { voice: scholar, text: 就在李文波被打死的当天，1966年8月25日夜间，梁光琪在女十五中学内被打死。（王友琴《文革受难者》）, cite: ywang-liangguangqi, quote: true }
+    - { voice: scholar, text: 关于是谁打死了她，据说后来这个学校的红卫兵推说是外校来的人打死的。（同上）, cite: ywang-liangguangqi, quote: true }
+    - { voice: scholar, text: 看了网页上的“李文波之死与八月杀戮升级”以后，他认识到这不能赖李文波。（同上，记梁光琪之子）, cite: ywang-liangguangqi, quote: true }
+  cites: [ywang-liangguangqi]
+
+- id: 1966-08-13-workers-stadium-hooligans
+  date: 1966-08-13
+  title: 工人体育场“斗争小流氓”大会
+  lane: mass
+  weight: 1
+  place: 北京工人体育场
+  summary: 中学红卫兵在工人体育场召开大会斗争“小流氓”学生，会上发生殴打。1987 年北京市大事记记为 7 万人，说会后各校“斗打‘流氓’学生的现象有新发展”。王友琴的调查记为十万人，被斗者之一南鹤龄此前据说用刀捅伤红卫兵，会后被判刑 15 年；8 月底他的父亲、理发师南保山被揪到区联服务社用棒子打死，哥哥南鹤龙被打后锁在家中断水断食数日而死。
+  people: [zhou-enlai]
+  voices:
+    - { voice: officialLater, text: 在工人体育场召开了有7万人参加的斗争大会。会上斗争了几名学生，并且发生了殴打现象，大会以后，一些学校斗打“流氓”学生的现象有新发展。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: witness, text: 在会上他们把小流氓打得极惨，可当时在坐的中央首长包括周总理等没一人制止。（老鬼《血与铁》，王友琴转引）, cite: ywang-nanbaoshan, quote: true }
+    - { voice: scholar, text: 南鹤龄的父亲南保山一天被揪到区联服务社“斗争”，被用棒子打死了。（王友琴《文革受难者》）, cite: ywang-nanbaoshan, quote: true }
+    - { voice: scholar, text: 南鹤龙被关和打了几天以后，连伤带饿，死去了，当时26岁。（同上）, cite: ywang-nanbaoshan, quote: true }
+    - { voice: editor, text: 大事记 7 万人，王友琴和老鬼都说十万人；大事记没有写主办者，老鬼说是 47 中“红红红”等召集。南鹤龄的判决库内没有。, cite: ywang-nanbaoshan }
+  cites: [ccrd-1987-bj-chronology-192, ywang-nanbaoshan]
+
+- id: 1966-08-27-chen-yanrong
+  date: 1966-08-27
+  title: 北大附中“红旗”打死工人陈彦荣
+  lane: mass
+  weight: 1
+  place: 北京海淀蓝旗营、北京大学附属中学
+  summary: 中科院气体厂工人陈彦荣有七个孩子。8 月 27 日傍晚北大附中“红旗战斗小组”红卫兵抄他的家，索要“变天账”、金条和手枪，把他和妻子刘万才先拉到清华园中学、又拉到北大附中拷打，当夜他被打死；妻子次日回家，说的第一句话是红卫兵要 28 元火葬费。前一晚清华附中斗争会后，26 岁的物理教员刘树华跳进清华锅炉房烟囱自杀。据王友琴对陈彦荣之子陈书祥等人的访谈，非一手档案。
+  voices:
+    - { voice: scholar, text: 1966年8月27日北京大学附属中学“红旗战斗小组”红卫兵抄了他的家，并把他和妻子刘万才一起抓到北京大学附属中学拷打。当天夜里陈彦荣被打死。（王友琴《文革受难者》）, cite: ywang-chenyanrong, quote: true }
+    - { voice: scholar, text: 母亲进家门以后说的第一句话是：红卫兵让送２８块火葬费。（同上）, cite: ywang-chenyanrong, quote: true }
+    - { voice: scholar, text: 他到了清华大学锅炉房，爬上锅炉房的大烟囱，从烟囱顶上，往里面跳了下去。（同上，记清华附中教员刘树华）, cite: ywang-chenyanrong, quote: true }
+    - { voice: editor, text: 同文摘要和正文都作 8 月 27 日（星期六），后文一处写“在８月２６日来他们家抄家”，应是笔误；同段又把第一次接见误作“1968年”。, cite: ywang-chenyanrong }
+  cites: [ywang-chenyanrong]
+
+- id: 1966-08-27-sun-qikun
+  date: 1966-08-27
+  end: 1966-08-29
+  title: 孙启坤、孙玉坤姐妹被打死
+  lane: mass
+  weight: 1
+  place: 北京西城区
+  summary: 退休会计孙启坤的丈夫是大学教授，在校天天挨斗，学校又刚有人被打死，夫妇决定出逃。8 月 27 日下午孙启坤到弟弟孙菊生家暂避，那里已被 31 中和女八中红卫兵抄家数日；她一进门即被追来的大学红卫兵抓住毒打，不说丈夫去向，在送医途中死在弟弟背上。两天后，她的姐姐孙玉坤也被打死。孙菊生后来是画猫的国画家；文革后家人到西城区法院申诉，未受理。据王友琴 1990 年代初对孙菊生的访谈。
+  voices:
+    - { voice: scholar, text: 她一进门，就被抓了起来，在弟弟家的北房打，当时北房的家具已经都被搬走了。（王友琴《文革受难者》）, cite: ywang-sunqikun, quote: true }
+    - { voice: scholar, text: 但是铁道学院的人还大声叱责孙菊生：“你故意把你姐姐摔死了，你是杀人灭口。”（同上）, cite: ywang-sunqikun, quote: true }
+    - { voice: scholar, text: 孙玉坤在她妹妹孙启坤被打死两天之后被打死。（同上）, cite: ywang-sunqikun, quote: true }
+    - { voice: scholar, text: 法院的人说：“那是特殊时期。”没有受理。（同上）, cite: ywang-sunqikun, quote: true }
+    - { voice: editor, text: 本条说孙启坤丈夫在北京铁道学院、孙菊生住南文昌胡同，孙玉坤住前细瓦厂；同网站黄瑞五条却说丈夫在北京钢铁学院、孙菊生住前细瓦厂。两处出自同一作者，互相矛盾，这里从本条。, cite: ywang-huangruiwu }
+  cites: [ywang-sunqikun, ywang-huangruiwu]
+
+- id: 1966-08-28-huang-ruiwu
+  date: 1966-08-28
+  title: 黄瑞五一家五口三小时内被打死
+  lane: mass
+  weight: 1
+  place: 北京西城区西四
+  summary: 北京 38 中红卫兵抄清华毕业的技术员黄瑞五家（自有房产），搜出体育射击训练留下的空子弹壳，咬定他藏枪，把全家捆绑跪在院中用木棍和铜头皮带打，三小时打死外婆李秀蓉、母亲陈玉润、大姐黄炜班、老佣人和黄瑞五五人，一岁半的孩子被保姆抱走得免。同日，师大二附中红卫兵在地安门打死劝阻打人的工友李丛贞。38 中、师大二附中都是“西纠”的发起学校。据王友琴的调查，非一手档案。
+  voices:
+    - { voice: scholar, text: 他们在黄瑞五的房间里搜出一个空子弹壳。黄瑞五解释说空子弹壳是体育训练中作射击练习时留下来的。（王友琴《文革受难者》）, cite: ywang-huangruiwu, quote: true }
+    - { voice: scholar, text: 红卫兵三个小时的毒打，打死了黄瑞五家中的五口人。（同上）, cite: ywang-huangruiwu, quote: true }
+    - { voice: scholar, text: 李丛贞老人见红卫兵毒打朱医生，上前劝说：“朱大夫是好人，别打他了”。（同上）, cite: ywang-huangruiwu, quote: true }
+    - { voice: scholar, text: 文件中说，北京红卫兵在1966年8月底到9月20日，打死了1，772人，没收了50万间房屋，以及黄金白银等等。（同上，指 1966 年 10 月中央工作会议文件）, cite: ywang-huangruiwu, quote: true }
+    - { voice: editor, text: 1772 人这个数，王友琴在本条说出自 10 月中央工作会议文件《把旧世界打个落花流水》、时段是 8 月底到 9 月 20 日；在李敬仪条说是“1966年夏天”；陈梦家条则把相近的标题归于 9 月 5 日中央文革简报，数字是 8 月底前“上千人”。原件库内都没有。, cite: ywang-chenmengjia }
+  cites: [ywang-huangruiwu, ywang-lijingyi, ywang-chenmengjia]
+
+- id: 1966-09-04-dang-qingfan
+  date: 1966-09-04
+  title: 西安：八旬老人党晴梵被红卫兵打死
+  lane: local
+  weight: 1
+  place: 陕西西安
+  summary: 党晴梵是同盟会员、陕西省政协副主席，8 月初被省政协定为“反党反社会主义分子”批斗。8 月 30 日起陕西师大二附中红卫兵连日抄他的家，9 月 3 日用卡车拉走书画家具，9 月 4 日中午三名红卫兵进他卧室，一二十分钟后离开，他头部重伤很快死亡，墙上血迹高一米多。次日全家被“遣返”合阳原籍。该校红卫兵多是西北局、陕西省委高级干部子女，不久成立“红色恐怖队”。此后省里几次调查都没有结果。据王友琴对党家的访谈，非一手档案。
+  voices:
+    - { voice: scholar, text: 1966年9月4日，党晴梵在家中被红卫兵打死。他的血喷溅在他的房间的墙上。党晴梵被打死的时候81岁。（王友琴《文革受难者》）, cite: ywang-dangqingfan, quote: true }
+    - { voice: scholar, text: 房间里留下了一个沉重的楠木笔筒，笔筒上有血。（同上）, cite: ywang-dangqingfan, quote: true }
+    - { voice: scholar, text: 调查的“结论”是：时间太久，不可能弄清楚了；这是林彪路线的错。（同上，记 70 年代陕西省委统战部的调查）, cite: ywang-dangqingfan, quote: true }
+    - { voice: editor, text: 王文记 1980 年代陕西省政协审干处曾致信北京市委，指一名当年的红卫兵骨干、时任北京市委干部参与杀害，北京市委派人到党家调查，结果不详；此说无其他出处，这里不录姓名。, cite: ywang-dangqingfan }
+  cites: [ywang-dangqingfan]
+
+- id: 1966-09-08-chen-yuanzhi
+  date: 1966-09-08
+  title: 北京 25 中语文教师陈沅芷因日记被打死
+  lane: mass
+  weight: 1
+  place: 北京第二十五中学
+  summary: 25 中红卫兵 8 月下旬抄陈沅芷家，抄出日记，说其中有“反动言论”，把她关进校内挂着“教育室”牌子的监狱毒打。她的丈夫舒芜 1957 年被划为右派，日记里记了家中因此受的歧视。9 月 8 日她被打死，红卫兵对舒芜说她“绝食自杀”。1978 年的平反结论只写“于1966年9月逝世”。据王友琴的调查和她引的舒芜 1978 年回忆。
+  voices:
+    - { voice: witness, text: 陈沅芷反动透顶，居然骂我们比国民党还坏，那我们就不客气，是把她捆了起来，是打了她几下。（红卫兵对舒芜语，舒芜 1978 年 12 月回忆，王友琴引）, cite: ywang-chenyuanzhi, quote: true }
+    - { voice: witness, text: 黑五类的骨灰，不许领。（火葬场人员对舒芜语，同上）, cite: ywang-chenyuanzhi, quote: true }
+    - { voice: officialLater, text: 陈沅芷同志在林彪‘四人帮’反革命修正主义路线迫害下，于1966年9月逝世。（1978 年 11 月 25 中党支部等《关于对陈沅芷同志实施的结论意见》，王友琴引）, cite: ywang-chenyuanzhi, quote: true }
+    - { voice: editor, text: 红卫兵说“绝食自杀”，舒芜说她前一天还让家里送粮票；结论意见不写死因。舒芜回忆的原刊处王文没有注明。, cite: ywang-chenyuanzhi }
+  cites: [ywang-chenyuanzhi]
+
+- id: 1966-08-school-workers
+  date: 1966-08
+  title: 天津金钟桥小学工友姚福贵、北京景山学校工友李锦坡之死
+  lane: mass
+  weight: 1
+  place: 天津红桥区、北京景山学校
+  summary: 天津金钟桥小学的小学生打工友姚福贵，他冲出学校跳河，头扎进河底泥沙中死去，约在 8 月下旬；据说他当过国民党兵。北京景山学校的红卫兵说传达室工友李锦坡（一作李景坡）是“历史反革命”，把他打死，约在 8 月 18 日后。王友琴借这两人和其他校工的死，反驳“文革帮穷人”的说法。两人的生平和确切死日王友琴都没有查到。
+  voices:
+    - { voice: scholar, text: 河岸上的很多人看到他的身体这样倒栽在水中死去。这一天大概是在8月下旬。（王友琴《文革受难者》）, cite: ywang-xiaogong, quote: true }
+    - { voice: scholar, text: 这个学校的红卫兵说李景坡是“历史反革命”，就把他打死。（同上）, cite: ywang-xiaogong, quote: true }
+    - { voice: editor, text: 李锦坡的死日是王友琴据目击者记得“下大雨”、再查气象记录（8 月 22 日北京有大雨）推出的，只是可能。, cite: ywang-xiaogong }
+  cites: [ywang-xiaogong]
+
+- id: 1967-03-25-zhang-huaiyi
+  date: 1967-03-25
+  title: 清华学生张怀怡在批判会前跳楼
+  lane: mass
+  weight: 1
+  place: 清华大学
+  summary: 张怀怡是清华数学力学系学生、预备党员、举重体操队队员，在日记和谈话中流露对林彪、江青等人和对批判本系政治辅导员的不满，被队里“紧跟毛新路线者”认定为“反革命”。学校代表队“文革领导小组”决定 3 月 25 日下午在全队百余人范围开会批判他；当天中午他趁看守疏忽从宿舍楼顶跳下，颅内骨折身亡。1978 年 6 月清华党委为他平反。经过据当时任领导小组成员的周启博 2001 年的回忆。
+  voices:
+    - { voice: witness, text: "1967年3月25日中午, 张乘看守疏忽, 从校代表队男宿舍2号楼顶以体操腾空姿势跳下。（周启博回忆）", cite: ywang-zhanghuaiyi, quote: true }
+    - { voice: witness, text: 看守大喊“反革命跳楼”。（同上）, cite: ywang-zhanghuaiyi, quote: true }
+    - { voice: witness, text: "我未伸援手, 对他的死有几分责任? 这两个问题困扰我以后几十年。（同上）", cite: ywang-zhanghuaiyi, quote: true }
+    - { voice: editor, text: 回忆者是决定开批判会的五人小组成员之一。文末列出的 1978 年平反决定、抚恤收条和 1985 年核查报告网页上只有标题，库内没有原件。, cite: ywang-zhanghuaiyi }
+  cites: [ywang-zhanghuaiyi]
+
+- id: 1967-11-14-he-jiefu
+  date: 1967-11-14
+  title: 被“遣返”广西的北京农大职员何洁夫被打死
+  lane: local
+  weight: 1
+  place: 广西农村
+  summary: 1966 年夏，北京农业大学有 69 人被强制遣送回乡，职员何洁夫和妻子、会计高吉章被遣返广西原籍。1967 年 11 月 14 日何洁夫在村里被活活打死，7 岁的儿子目睹后精神失常。被遣返者 1966 年底起陆续回京上访，1967 年 3 月 18 日北京市公安局军管会布告命令他们立即离京。据王友琴的调查，非一手档案。
+  voices:
+    - { voice: scholar, text: 1967年11月14日，何洁夫在村子里被活活打死。（王友琴《文革受难者》）, cite: ywang-hejiefu, quote: true }
+    - { voice: scholar, text: 在北京农业大学，1966年夏天有69个人被强制遣送回乡。（同上）, cite: ywang-hejiefu, quote: true }
+    - { voice: official1966, text: 必须立即离京，违者有革命群众组织和公安机关强制遣送（1967 年 3 月 18 日北京市公安局军管会布告，王友琴引）, cite: ywang-hejiefu, quote: true }
+    - { voice: officialLater, text: 9个城近郊区共迁出77000余人（1987 年《北京市“文化大革命”大事记》，统计到 9 月 15 日）, cite: ccrd-1987-bj-chronology-192, quote: true }
+    - { voice: editor, text: 王友琴说近十万人被驱逐，大事记统计到 9 月 15 日为 77000 余人，其中五类分子 37000 余名、家属 3 万余名。, cite: ccrd-1987-bj-chronology-192 }
+  cites: [ywang-hejiefu, ccrd-1987-bj-chronology-192]
+
+- id: 1968-05-31-liu-hao
+  date: 1968-05-31
+  title: 陆军总医院骨科医生刘浩“隔离审查”中死亡
+  lane: army
+  weight: 1
+  place: 北京陆军总医院（今北京军区总医院）
+  summary: 清队中骨科主治医生刘浩被揭发为“特务”，在全院大会上被“揪”出来批斗、游斗，关在院内专门关人打人的平房里。5 月 31 日他被发现吊死在敷料间，绳子是撕成条的床单接上一截鞋带；妻子见他双手有很深的淤青，认为是被勒死后伪造自杀。他的母亲得知后服农药自杀。同院骨科老医生沈天觉此前已被打后自杀。一星期前中共中央刚转发毛泽东批示的新华印刷厂“对敌斗争经验”。据王友琴对家属的访谈，非一手档案。
+  voices:
+    - { voice: scholar, text: 1968年5月31日，刘浩被发现吊死在敷料间里。（王友琴《文革受难者》）, cite: ywang-liuhao, quote: true }
+    - { voice: scholar, text: 她质问：“鞋带能吊死人吗？”领导说：“怎么不行？”（同上，记刘浩妻子）, cite: ywang-liuhao, quote: true }
+    - { voice: scholar, text: 刘浩的母亲听到刘浩的死讯，非常悲痛。老人因此自杀。（同上）, cite: ywang-liuhao, quote: true }
+  cites: [ywang-liuhao]
+
+- id: 1968-08-11-hu-xiuzheng
+  date: 1968-08-11
+  title: 师大女附中化学教师胡秀正“隔离审查”中坠楼
+  lane: mass
+  weight: 1
+  place: 北京师范大学附属女子中学
+  summary: 胡秀正的公公 1964 年“四清”中被划为“漏网地主”，丈夫、八中物理教员张连元写信要求复查。1966 年 9 月 3 日村里干部来京，八中红卫兵毒打张连元，夫妇被押回农村斗争，后设法回京上访要恢复户口。1967 年 10 月中央规定不准“乘机翻案”，1968 年清队中胡秀正以“翻案”被隔离审查，8 月 11 日从学生宿舍五楼坠下身亡，学校称她自杀，开会声讨她“自绝于党”。丈夫始终不信她自杀。据王友琴对张连元的访谈。
+  voices:
+    - { voice: scholar, text: 他们说胡秀正是在8月11日自杀的，是从北京师范大学附属女子中学学生宿舍的五层楼上跳下来的。（王友琴《文革受难者》）, cite: ywang-huxiuzheng, quote: true }
+    - { voice: scholar, text: 1967年10月26日，中共中央发出了一个文件，编号为“中发(67)325号”，标题叫做“中共中央关于不准地、富、反、坏、右乘机翻案的规定”。（同上）, cite: ywang-huxiuzheng, quote: true }
+    - { voice: scholar, text: 张连元一直不相信她是自杀的。（同上）, cite: ywang-huxiuzheng, quote: true }
+    - { voice: editor, text: 中发〔67〕325 号原文库内没有。王文另一处把华锦死日写作 8 月 23 日，与华锦条的 8 月 22 日不合。, cite: ywang-huxiuzheng }
+  cites: [ywang-huxiuzheng]
+
+- id: 1968-zhang-fang
+  date: 1968
+  title: 二龙路中学英语教师张放在新乡自杀
+  lane: mass
+  weight: 1
+  place: 河南新乡
+  summary: 张放 1966 年夏被本校红卫兵严重打伤，1968 年清队中再被审查，逃到新乡朋友家。学校派人事干部和一名红卫兵头头追到新乡抓她，红卫兵头头在火车站打她耳光；她留下遗书自杀，被埋在新乡坟场，没有标记。1979 年女儿唐京京在新乡找到一座无主坟，凭 35 号塑料鞋认出母亲遗骨。因那名红卫兵头头已在学校任领导，追悼会难以召开，区教育局把他调走。张放的名字是王小波 1996 年在电话里告诉王友琴的。具体死日不详。
+  voices:
+    - { voice: scholar, text: 该校红卫兵负责人追到新乡，把她抓获，要把她带回北京。在新乡火车站红卫兵负责人打她耳光。张放在新乡写下遗书自杀。（王友琴《文革受难者》）, cite: ywang-zhangfang, quote: true }
+    - { voice: scholar, text: 由于当时打张放的红卫兵头头在学校任领导职务，张放亲属强烈抗议，难以开追悼会，西城区教育局调走了他，调到别的中学。（同上）, cite: ywang-zhangfang, quote: true }
+    - { voice: editor, text: 王小波把她记成物理老师，王友琴后来查明是英语老师。她的遗书 1979 年时据说还在新乡公安局，库内没有。, cite: ywang-zhangfang }
+  cites: [ywang-zhangfang]
+
+- id: 1969-04-28-wang-zhongfang
+  date: 1969-04-28
+  title: 福建医学院“里通外国”案：内科教授王中方死亡
+  lane: local
+  weight: 1
+  place: 福建医学院（福州）
+  summary: 清队中，福建省卫生厅一名副厅长被打后供出一个两百多人的“反共救国军”，协和毕业的内科教授王中方被牵入，又因哥哥在美国加上“里通外国”罪名，1968 年 7 月被隔离审查，家中地面被掘开六尺。1969 年 4 月 28 日他死在关押处，学院说他用刀片“割颈动脉自杀”，不准家属看尸体。同案共有六名医生死亡，包括主治医生林庆雷。他的弟弟、微生物学家王岳因与美国导师瓦克斯曼通信讨论抗菌素，也以“里通外国”被关押到 1974 年。据王友琴的调查，非一手档案。
+  voices:
+    - { voice: scholar, text: 1969年4月28日王中方在被关的地方死亡。学院当局通知家属王中方“割颈动脉自杀”。（王友琴《文革受难者》）, cite: ywang-wangzf, quote: true }
+    - { voice: scholar, text: 在福建医学院，仅仅为这一个案件，就造成了六名医生的死亡。（同上）, cite: ywang-wangzf, quote: true }
+    - { voice: doc, text: 对于确有证据的杀人、放火、放毒、抢劫、制造交通事故进行暗害、冲击监狱和管制犯人机关、里通外国、盗窃国家机密、进行破坏活动等现行反革命分子，应当依法惩办。（1967 年 1 月“公安六条”第一条）, cite: ws-1967-01-13-public-security, quote: true }
+    - { voice: editor, text: 本条摘要作 4 月 28 日死亡，正文说家属 4 月 29 日接到通知。“公安六条”把“里通外国”列入“确有证据”的现行反革命行为，王文说王中方案没有任何证据。, cite: ywang-wangzf }
+  cites: [ywang-wangzf, ws-1967-01-13-public-security]
+
+- id: 1971-09-07-yan-shuangguang
+  date: 1971-09-07
+  title: 严济慈之子、132 厂副总冶金师严双光在“学习班”中被打死
+  lane: army
+  weight: 1
+  place: 兰州空军司令部“毛泽东思想学习班”
+  summary: 严双光 1929 年生于法国，是成都 132 飞机厂副总冶金师，文革中被批为“反动学术权威”，又被指为武斗幕后指挥、“里通外国”，在全国被通缉，后被关进兰州空军司令部办的“毛泽东思想学习班”，9 月 7 日死亡，嘴里只剩一颗牙。家属 9 月 10 日赶到，接待的军人几天后因林彪事件被关押；家属后来到秦城监狱找学习班主管人，被问“就是一个人？”。据王友琴 1996 年对其弟严四光的访谈和严济慈 1999 年的访谈录。
+  voices:
+    - { voice: witness, text: 1971年9月7日，我们接到双光已死的电话，我同四光火速赶到成都，双光躺在一领芦席下面，遍体鳞伤，嘴里只剩下一颗牙（严济慈，1999 年《严济慈先生访谈录》，王友琴转引）, cite: ywang-yanshuangguang, quote: true }
+    - { voice: witness, text: 跟我们接谈的军人，几天后突然不见了。因为9月13日发生了林彪事件，他们和林彪有关系，被关起来了。（严四光，1996 年王友琴访谈）, cite: ywang-yanshuangguang, quote: true }
+    - { voice: witness, text: 那人问：“就是一个人？”（同上）, cite: ywang-yanshuangguang, quote: true }
+    - { voice: editor, text: 王友琴摘要作 9 月 8 日，严济慈和严四光都说 9 月 7 日；严济慈说赶到成都，严四光说人关在兰州空军学习班；平反时间严济慈说 1981 年，严四光说 1978 年由胡耀邦过问。, cite: ywang-yanshuangguang }
+  cites: [ywang-yanshuangguang]
 
 - id: 1966-09-02-cheng-xiance
   date: 1966-09-02
