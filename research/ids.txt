@@ -1617,7 +1617,14 @@ figures/clean-ranks-beijing
 figures/clean-ranks-national
 figures/daoxian
 figures/daxing
+figures/famine-anhui
+figures/famine-guizhou
+figures/famine-henan
+figures/famine-hunan
 figures/famine-national
+figures/famine-provinces-cao
+figures/famine-shandong
+figures/famine-sichuan
 figures/guangxi
 figures/guangxi-1956
 figures/guizhou-fights
@@ -4560,6 +4567,7 @@ sources/zhwiki-deng-tuo
 sources/zhwiki-deng-zihui
 sources/zhwiki-fang-lizhi
 sources/zhwiki-gao-gang
+sources/zhwiki-great-famine
 sources/zhwiki-guan-feng
 sources/zhwiki-hu-qiaomu
 sources/zhwiki-huang-kecheng

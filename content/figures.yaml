@@ -238,15 +238,134 @@
   title: 大饥荒的全国死亡人数
   period: 1959–1961
   region: 全国
-  summary: 当时没有全国数字：1960 年 12 月中共中央转发山东、河南、甘肃、贵州“严重情况”的指示，把这些地区的问题定性为“封建势力在地方上篡夺领导”，不给死亡数字；国家统计局 1959–1978 年间没有公报（见研究结论 C047）。后来官方的回溯数也不给死亡人数，只有逐年死亡率和年末人口：死亡率 1957 年 10.80‰，1959 年 14.59‰，1960 年 25.43‰，1961 年 14.33‰，1962 年回到 10.08‰；年末人口 1959 年 67206.9 万，1960 年 66207 万，1961 年 65859.1 万，两年减少 1347.8 万。本站按这两组数推算超常死亡，结果随基准年变化：以 1957 年为基准约 1460 万，以 1958 年为基准约 1230 万。
+  summary: 当时没有全国数字：1960 年 12 月中共中央转发山东、河南、甘肃、贵州“严重情况”的指示，把这些地区的问题定性为“封建势力在地方上篡夺领导”，不给死亡数字；国家统计局 1959–1978 年间没有公报（见研究结论 C047）。后来官方的回溯数也不给死亡人数，只有逐年死亡率和年末人口：死亡率 1957 年 10.80‰，1959 年 14.59‰，1960 年 25.43‰，1961 年 14.33‰，1962 年回到 10.08‰；年末人口 1959 年 67206.9 万，1960 年 66207 万，1961 年 65859.1 万，两年减少 1347.8 万。本站按这两组数推算超常死亡，结果随基准年变化：以 1957 年为基准约 1460 万，以 1958 年为基准约 1230 万。1980 年代以来中外学者用普查、地方志和档案所作的估算，低至 250 万以下，高至 5500 万。
   events: [1960-12-08-four-provinces-directive]
   counts:
     - { measure: none, what: 统计局回溯死亡率（不给人数）, scope: 1960 年, voice: officialLater, cite: nbs-retro-death-rate, quote: 1960 25.43, note: 逐年死亡率见“经济与人口”页的死亡率序列；1999 年《新中国五十年统计资料汇编》1960 年同为 25.43‰。 }
     - { measure: none, what: 统计局回溯年末人口（不给人数）, scope: 1959–1961 年, voice: officialLater, cite: nbs-retro-population, quote: 1960 66207.00, note: 1959 年末 67206.9 万，1961 年末 65859.1 万。人口减少同时反映死亡增加和出生减少（出生率 1961 年 18.13‰），不能直接当作死亡数。 }
     - { measure: deaths, what: 本站按回溯死亡率推算的超常死亡（基准 1957 年 10.80‰）, scope: 1959–1961 年, value: 14600000, approx: 约, voice: editor, cite: nbs-retro-death-rate, quote: 1957 10.80, note: 每年超出基准的死亡率乘以年中人口（前后两年年末人口的平均）：1959 年约 252 万，1960 年约 976 万，1961 年约 233 万。 }
     - { measure: deaths, what: 本站按回溯死亡率推算的超常死亡（基准 1958 年 11.98‰）, scope: 1959–1961 年, value: 12300000, approx: 约, voice: editor, cite: nbs-retro-death-rate, quote: 1958 11.98, note: 方法同上，只换基准年。1958 年本身已是大跃进第一年。 }
-  caveats: 两个推算都只用统计局回溯数，结果取决于基准死亡率，也完全依赖回溯死亡率本身；回溯数怎样整理、何时修订，本库没有原文（死亡率序列的说明记了 1999 年以后的小幅改动）。人口学者据历次普查重建的估算与此不同，原文本库还没有，见“待补”。
-  need: 人口学估算的原始文本（据普查重建的死亡率与超常死亡估计），以便与官方回溯数并列
+    - { measure: deaths, what: 余习广据上书档案, scope: 大饥荒期间, value: 55000000, voice: scholar, cite: zhwiki-great-famine, quote: 认为大饥荒期间非正常死亡人数达5500万, note: 维基百科转述《大跃进・苦日子上书集》（2005），未核原书。 }
+    - { measure: deaths, what: 冯客据各省解密档案, scope: 1958 年初至 1962 年底, value: 45000000, approx: 至少, voice: scholar, cite: zhwiki-great-famine, quote: 认为1958年初至1962年底的大饥荒至少造成4500万人非正常死亡, note: 维基百科转述《毛泽东的大饥荒》（2010），未核原书。同一书估计其中至少 250 万人死于酷刑或直接处决。 }
+    - { measure: deaths, what: 体改所调查队（陈一谘转述）, scope: 大饥荒期间, value: 46000000, approx: 4300–, voice: witness, cite: zhwiki-great-famine, quote: 报告约有4300万-4600万人死于大饥荒, note: 维基百科转述贝克《饿鬼》（1996）对陈一谘的采访，调查报告本身未公开。 }
+    - { measure: deaths, what: 丁抒推算, scope: 1959–1961 年, value: 44000000, approx: 3500–, voice: scholar, cite: zhwiki-great-famine, quote: 计算出1959-1961三年间的非正常死亡人数约达3500万─4400万左右, note: 维基百科转述《人祸》（1997），未核原书。 }
+    - { measure: deaths, what: 杨继绳《墓碑》, scope: 1958–1962 年, value: 36000000, voice: scholar, cite: zhwiki-great-famine, quote: 认为在1958年到1962年的大饥荒期间中国大陆有3600万人饿死, note: 维基百科转述（2008），未核原书。 }
+    - { measure: deaths, what: 曹树基据地方志重建, scope: 1959–1961 年, value: 32500000, approx: 约, voice: scholar, cite: zhwiki-great-famine, quote: 曹树基的研究认为非正常死亡人数在3250万人左右, note: 维基百科转述《大饥荒：1959–1961 年的中国人口》（2005），各省分数见“大饥荒各省估算”诸案。 }
+    - { measure: deaths, what: 巴尼斯特（美国人口普查局）, scope: 1958–1961 年, value: 30000000, approx: 约, voice: scholar, cite: zhwiki-great-famine, quote: 估算1958-1961年间非正常死亡人数在3000万人左右, note: 维基百科转述 China’s Changing Population（1987），未核原书。 }
+    - { measure: deaths, what: 科尔（普林斯顿人口研究所）, scope: 大跃进期间, value: 27000000, approx: 约, voice: scholar, cite: zhwiki-great-famine, quote: 认为中国大跃进期间的非正常死亡人数约在2700万人左右, note: 维基百科转述 Rapid Population Change in China, 1952–1982（1984），未核原书。 }
+    - { measure: deaths, what: 彭希哲, scope: 1958–1962 年, value: 23000000, approx: 约, voice: scholar, cite: zhwiki-great-famine, quote: 认为1958-1962年间非正常死亡人口数约为2300万, note: 维基百科转述（1987），未核原文。 }
+    - { measure: deaths, what: 李成瑞（前国家统计局局长）综合蒋正华与科尔, scope: 大饥荒期间, value: 22000000, voice: scholar, cite: zhwiki-great-famine, quote: 两者综合考虑取死亡数字2200万人, note: 维基百科转述（1997），未核原文。 }
+    - { measure: deaths, what: 蒋正华、李南生命表推算, scope: 大饥荒期间, value: 17000000, voice: scholar, cite: zhwiki-great-famine, quote: 以生命表的纯统计学方式计算出死亡1700万, note: 国家计生委与统计局下达的课题，收入《中国人口年鉴·1987》；条目称学界一般视之为下限。维基百科转述，未核原文。 }
+    - { measure: deaths, what: 中国科学院国情分析研究小组, scope: 大饥荒期间, value: 15000000, approx: 约, voice: scholar, cite: zhwiki-great-famine, quote: 按保守的估计，因营养不良而死亡约1500万人, note: 《生存与发展》（1989）第 39 页，维基百科转录，未核原书。 }
+    - { measure: deaths, what: 程恩富、詹志华, scope: 1959–1961 年, value: 5000000, approx: 400–, voice: scholar, cite: zhwiki-great-famine, quote: 认为1959-1961年非正常死亡人数为400万-500万人, note: 维基百科转述（2017），未核原文。 }
+    - { measure: deaths, what: 孙经先“营养性死亡”, scope: 1959–1961 年, value: 2500000, approx: 至多, voice: scholar, cite: zhwiki-great-famine, quote: 人数在250万以下, note: 维基百科转述（2011）。孙经先认为饿死只占“营养性死亡”的一小部分，是各家估算中最低的。 }
+  caveats: 本站的两个推算只用统计局回溯数，结果取决于基准死亡率，也完全依赖回溯死亡率本身；回溯数怎样整理、何时修订，本库没有原文（死亡率序列的说明记了 1999 年以后的小幅改动）。学者估算 14 条都转录自中文维基百科“三年大饥荒”条目（4 级，未核原书）；起止年份、“非正常死亡”“饿死”“营养性死亡”的口径各家不同，不能直接相减。
+
+- id: famine-anhui
+  title: 大饥荒各省估算：安徽
+  period: 1959–1961
+  region: 安徽
+  summary: 曹树基的重建里，安徽非正常死亡占灾前人口的比例全国最高。当年的副省长、中监委调查组和后来的中组部部长各给一个数，中监委调查组逐级汇总的数和“正式上报”的数差 50 万。
+  events: [1961-03-anhui-responsibility]
+  people: [an-ziwen, wan-li]
+  counts:
+    - { measure: deaths, what: 副省长张恺帆回忆：实际死亡（含正常死亡）, scope: 1959–1961 年, value: 5480000, voice: witness, cite: zhwiki-great-famine, quote: 安徽全省1959年至1961年实际死亡人数是548万, note: 《张恺帆回忆录》，维基百科转述，未核原书。 }
+    - { measure: deaths, what: 张恺帆回忆：饿死, scope: 1959–1961 年, value: 5000000, voice: witness, cite: zhwiki-great-famine, quote: 除去正常死亡数、逃亡及失踪数等，安徽饿死500万人 }
+    - { measure: deaths, what: 中监委调查组李坚逐级汇总, scope: 截至 1961 年 3、4 月, value: 3500000, voice: witness, cite: zhwiki-great-famine, quote: 安徽全省饿死人总数350万，正式上报为300万, note: 据《中国新闻周刊》2014 年对李坚的访谈，维基百科转述。 }
+    - { measure: reported, what: 中监委调查组正式上报, scope: 截至 1961 年 3、4 月, value: 3000000, voice: witness, cite: zhwiki-great-famine, quote: 安徽全省饿死人总数350万，正式上报为300万 }
+    - { measure: deaths, what: 中组部部长安子文文革后的说法, value: 3500000, voice: witness, cite: zhwiki-great-famine, quote: 核实结果，安徽饿死350万没错 }
+    - { measure: deaths, what: 万里的说法, approx: 三四百万, voice: witness, cite: zhwiki-great-famine, quote: 光安徽省的所谓非正常死亡人口就三四百万 }
+    - { measure: deaths, what: 洪振快据地方志推测, scope: 大饥荒期间, value: 4000000, voice: scholar, cite: zhwiki-great-famine, quote: 可以推测大饥荒期间安徽非正常死亡应有400万人，最低估计也不应少于350万人, note: 洪振快《地方志中的大饥荒死亡数字》（《炎黄春秋》2014 年第 5 期），维基百科转述。 }
+    - { measure: deaths, what: 曹树基重建, scope: 灾前人口 3446.0 万 · 占 18.37%, value: 6330000, voice: scholar, cite: zhwiki-great-famine, quote: 安徽 13.0 13.0 74.6 73.6 3446.0 633.0 18.37 1, note: 表列依次为全部府数、灾区府数、全部县数、灾区县数、灾前人口（万）、非正常死亡人口（万）、比例（%）、排序。曹树基 2005 年《大饥荒》，维基百科转录，未核原书。 }
+  caveats: 各数口径不一：张恺帆的 548 万包括正常死亡，500 万扣除了正常死亡、逃亡与失踪；李坚的汇总只到 1961 年春；曹树基的数是按府重建的非正常死亡。全部转录自维基百科，原书本库未收。
+
+- id: famine-sichuan
+  title: 大饥荒各省估算：四川
+  period: 1958–1961
+  region: 四川
+  summary: 四川死亡人数在各省中最多。官方的《四川省志》只给死亡率和人口减少；1000 万的说法来自前省政协主席廖伯康据 1962 年省委文件附表所作的推算，与曹树基的重建相近。
+  people: [li-jingquan]
+  counts:
+    - { measure: deaths, what: 廖伯康的说法, value: 10000000, voice: witness, cite: zhwiki-great-famine, quote: 大饥荒四川“死了1000万人”, note: 据维基百科注释，廖伯康用 1962 年省委精简文件附表中的 1960 年底人口 6236 万，减去统计年鉴的 1957 年人口 7215.7 万得出，是人口差额，不是逐人统计。 }
+    - { measure: deaths, what: 曹树基重建, scope: 灾前人口 7191.5 万 · 占 13.07%, value: 9402000, voice: scholar, cite: zhwiki-great-famine, quote: 四川 26.0 23.0 201.0 188.0 7191.5 940.2 13.07 2, note: 表列含义同安徽一案。 }
+    - { measure: none, what: 《四川省志》1960 年死亡率, scope: 1960 年, voice: officialLater, cite: zhwiki-great-famine, quote: 1960年人口死亡率达到了最高的53.97‰, note: 同年全国回溯死亡率为 25.43‰。 }
+    - { measure: none, what: 《四川省志》人口减少, scope: 1957–1961 年末, voice: officialLater, cite: zhwiki-great-famine, quote: 1961年底全省人口为6459.2万人，比57年的7081万人，减少约621.8万人, note: 人口减少同时反映死亡增加和出生减少，不能直接当作死亡数。 }
+  caveats: 廖伯康的数和《四川省志》的人口减少数用的 1957 年基数不同（7215.7 万与 7081 万）。全部转录自维基百科，原书本库未收。
+
+- id: famine-henan
+  title: 大饥荒各省估算：河南
+  period: 1958–1960
+  region: 河南
+  summary: 河南的死亡集中在 1960 年，信阳专区是重灾区（见“信阳事件”一案）。地方志给出的全省死亡总数包括正常死亡，扣除正常死亡后粗估的非正常死亡，约为曹树基按府重建之数的一半。
+  events: [1960-12-08-four-provinces-directive]
+  counts:
+    - { measure: deaths, what: 地方志死亡总数（含正常死亡）, scope: 1958–1960 年, value: 3259000, voice: scholar, cite: zhwiki-great-famine, quote: 1958－1960年河南共死亡325.9万人, note: 洪振快据地方志汇总，维基百科转述。 }
+    - { measure: deaths, what: 同上，粗估非正常死亡, scope: 1958–1960 年, value: 1500000, approx: 约, voice: scholar, cite: zhwiki-great-famine, quote: 粗略估计非正常死亡约150万人, note: 其中 1960 年约 135 万。 }
+    - { measure: deaths, what: 曹树基重建, scope: 灾前人口 4805.8 万 · 占 6.12%, value: 2939000, voice: scholar, cite: zhwiki-great-famine, quote: 河南 13.0 13.0 128.7 106.7 4805.8 293.9 6.12 6, note: 表列含义同安徽一案。 }
+  caveats: 全部转录自维基百科，原书本库未收。信阳一个专区的一手数字见“信阳事件”一案。
+
+- id: famine-shandong
+  title: 大饥荒各省估算：山东
+  period: 1958–1960
+  region: 山东
+  summary: 两个当时的说法都出自省里领导的讲话，经后人转述：一个是 1960 年冬全省人口比 1957 年减少 500 万，一个是省长赵健民所说一年半里非正常死亡 65 万。
+  events: [1960-12-08-four-provinces-directive]
+  people: [zhao-jianmin]
+  counts:
+    - { measure: none, what: 省领导 1960 年大会讲话：人口减少, scope: 1957 年至 1960 年冬, voice: official1966, cite: zhwiki-great-famine, quote: 现在（1960年冬天）还有5000万，减少了500万, note: 张广友《抹不掉的记忆》转述，维基百科转录。人口减少包括外流和少生，不是死亡数。 }
+    - { measure: deaths, what: 省长赵健民的发言：非正常死亡, scope: 1958 年冬至 1960 年上半年, value: 650000, voice: official1966, cite: zhwiki-great-famine, quote: 全省非正常死亡65万人，外流109万人, note: 原话称“据不完全统计”；维基百科转述，未核原文。 }
+    - { measure: deaths, what: 曹树基重建, scope: 灾前人口 5343.5 万 · 占 3.38%, value: 1806000, voice: scholar, cite: zhwiki-great-famine, quote: 山东 12.0 12.0 140.0 126.0 5343.5 180.6 3.38 9, note: 表列含义同安徽一案。 }
+  caveats: 赵健民的 65 万只到 1960 年上半年，1960 年下半年和 1961 年不在内。全部转录自维基百科，原书本库未收。
+
+- id: famine-guizhou
+  title: 大饥荒各省估算：贵州
+  period: 1959–1961
+  region: 贵州
+  summary: 全省数字有“官方统计”的 250 多万和曹树基的 174.6 万两种；县一级，江口县流传的“饿死 4 万”与县志记载的三年合计死亡 5105 人相差近八倍。
+  events: [1960-12-08-four-provinces-directive]
+  counts:
+    - { measure: deaths, what: 官方统计（经晏乐斌转述）, scope: 1959–1961 年, value: 2500000, approx: 多, voice: officialLater, cite: zhwiki-great-famine, quote: 官方统计数字指1959年至1961年贵州省全省共饿死250多万人, note: 出自原贵州省公安厅干部晏乐斌《贵州的大饥荒年代》（《炎黄春秋》2012），统计本身未公开；维基百科转述。 }
+    - { measure: deaths, what: 曹树基重建, scope: 灾前人口 1706.4 万 · 占 10.23%, value: 1746000, voice: scholar, cite: zhwiki-great-famine, quote: 贵州 16.0 15.0 81.0 74.0 1706.4 174.6 10.23 3, note: 表列含义同安徽一案。 }
+    - { measure: deaths, what: 流传说法, scope: 江口县, value: 40000, voice: witness, cite: zhwiki-great-famine, quote: 一说全县不足10万人却饿死了4万人 }
+    - { measure: deaths, what: 《江口县志》三年合计死亡, scope: 江口县 · 1959–1961 年, value: 5105, voice: officialLater, cite: zhwiki-great-famine, quote: 《江口县志》记载的该县1959—1961年三年合计死亡5105人, note: 含正常死亡，占全县人口 4.6%。 }
+  caveats: 全部转录自维基百科，原书本库未收。
+
+- id: famine-hunan
+  title: 大饥荒各省估算：湖南
+  period: 1957–1962
+  region: 湖南
+  summary: 湖南省统计局在《湖南统计年鉴—2021》里公布了逐年出生、死亡人口：1960 年死亡 106.81 万人，是 1957 年的近三倍；1961 年出生人口跌到 44.27 万。统计局只给死亡总数，不给非正常死亡；曹树基的重建是 248.6 万。
+  counts:
+    - { measure: deaths, what: 统计年鉴：全年死亡（对照年）, scope: 1957 年, value: 370100, voice: officialLater, cite: zhwiki-great-famine, quote: 1957 119.00 37.01 33.47‰ 10.41‰, note: 表列依次为年份、出生人口（万）、死亡人口（万）、出生率、死亡率。 }
+    - { measure: deaths, what: 统计年鉴：全年死亡, scope: 1959 年, value: 478300, voice: officialLater, cite: zhwiki-great-famine, quote: 1959 88.38 47.83 24.00‰ 12.99‰ }
+    - { measure: deaths, what: 统计年鉴：全年死亡, scope: 1960 年, value: 1068100, voice: officialLater, cite: zhwiki-great-famine, quote: 1960 70.76 106.81 19.49‰ 29.42‰ }
+    - { measure: deaths, what: 统计年鉴：全年死亡, scope: 1961 年, value: 618600, voice: officialLater, cite: zhwiki-great-famine, quote: 1961 44.27 61.86 12.51‰ 17.48‰ }
+    - { measure: deaths, what: 曹树基重建, scope: 灾前人口 3651.9 万 · 占 6.81%, value: 2486000, voice: scholar, cite: zhwiki-great-famine, quote: 湖南 17.0 17.0 96.0 91.0 3651.9 248.6 6.81 4, note: 表列含义同安徽一案。 }
+  caveats: 统计年鉴的数是全部死亡，含正常死亡；以 1957 年 37.01 万为基准，1959–1961 三年超出约 105 万（本站按表中数字相减），与曹树基的 248.6 万口径不同。全部转录自维基百科，原表本库未收。
+
+- id: famine-provinces-cao
+  title: 大饥荒各省估算：其余 15 省（曹树基）
+  period: 1959–1961
+  region: 甘肃、广西、云南、江苏、湖北、福建、辽宁、广东、黑龙江、河北、江西、陕西、吉林、浙江、山西
+  summary: 曹树基 2005 年《大饥荒：1959–1961 年的中国人口》按府、县的地方志人口数据重建各省非正常死亡，合计 3245.8 万。这里列安徽、四川、河南、山东、贵州、湖南六省以外的 15 省，按非正常死亡占灾前人口的比例排列；这些省份本库目前没有第二种估算。
+  counts:
+    - { measure: deaths, what: 甘肃, scope: 灾前人口 1585.7 万 · 占 6.45%, value: 1023000, voice: scholar, cite: zhwiki-great-famine, quote: 甘肃 13.0 12.0 108.0 87.3 1585.7 102.3 6.45 5 }
+    - { measure: deaths, what: 广西, scope: 灾前人口 2009.9 万 · 占 4.63%, value: 931000, voice: scholar, cite: zhwiki-great-famine, quote: 广西 12.0 12.0 75.0 72.7 2009.9 93.1 4.63 7 }
+    - { measure: deaths, what: 云南, scope: 灾前人口 1918.3 万 · 占 4.19%, value: 804000, voice: scholar, cite: zhwiki-great-famine, quote: 云南 22.0 22.0 132.0 112.0 1918.3 80.4 4.19 8 }
+    - { measure: deaths, what: 江苏, scope: 灾前人口 5296.3 万 · 占 2.88%, value: 1527000, voice: scholar, cite: zhwiki-great-famine, quote: 江苏 12.0 11.0 84.0 63.0 5296.3 152.7 2.88 10 }
+    - { measure: deaths, what: 湖北, scope: 灾前人口 3074.9 万 · 占 2.20%, value: 675000, voice: scholar, cite: zhwiki-great-famine, quote: 湖北 11.0 11.0 79.8 72.6 3074.9 67.5 2.20 11 }
+    - { measure: deaths, what: 福建, scope: 灾前人口 1547.9 万 · 占 2.02%, value: 313000, voice: scholar, cite: zhwiki-great-famine, quote: 福建 11.0 11.0 70.0 56.0 1547.9 31.3 2.02 12 }
+    - { measure: deaths, what: 辽宁, scope: 灾前人口 1931.0 万 · 占 1.71%, value: 330000, voice: scholar, cite: zhwiki-great-famine, quote: 辽宁 1931.0 33.0 1.71 13 }
+    - { measure: deaths, what: 广东, scope: 灾前人口 3839.3 万 · 占 1.71%, value: 657000, voice: scholar, cite: zhwiki-great-famine, quote: 广东 15.0 12.0 110.0 72.0 3839.3 65.7 1.71 14 }
+    - { measure: deaths, what: 黑龙江, scope: 灾前人口 1564.0 万 · 占 1.21%, value: 190000, voice: scholar, cite: zhwiki-great-famine, quote: 黑龙江 1564.0 19.0 1.21 15 }
+    - { measure: deaths, what: 河北, scope: 灾前人口 5544.6 万 · 占 1.10%, value: 610000, voice: scholar, cite: zhwiki-great-famine, quote: 河北 18.0 17.0 183.0 135.0 5544.6 61.0 1.10 16 }
+    - { measure: deaths, what: 江西, scope: 灾前人口 1713.6 万 · 占 1.06%, value: 181000, voice: scholar, cite: zhwiki-great-famine, quote: 江西 14.0 13.0 89.0 51.0 1713.6 18.1 1.06 17 }
+    - { measure: deaths, what: 陕西, scope: 灾前人口 1832.0 万 · 占 1.02%, value: 187000, voice: scholar, cite: zhwiki-great-famine, quote: 陕西 12.0 4.0 101.0 30.3 1832.0 18.7 1.02 18 }
+    - { measure: deaths, what: 吉林, scope: 灾前人口 1280.9 万 · 占 0.94%, value: 120000, voice: scholar, cite: zhwiki-great-famine, quote: 吉林 1280.9 12.0 0.94 19 }
+    - { measure: deaths, what: 浙江, scope: 灾前人口 2570.3 万 · 占 0.55%, value: 141000, voice: scholar, cite: zhwiki-great-famine, quote: 浙江 11.0 10.0 91.0 51.4 2570.3 14.1 0.55 20 }
+    - { measure: deaths, what: 山西, scope: 灾前人口 1621.1 万 · 占 0.37%, value: 60000, voice: scholar, cite: zhwiki-great-famine, quote: 山西 1621.1 6.0 0.37 21 }
+    - { measure: deaths, what: 21 省合计, scope: 灾前人口 63474.9 万 · 占 5.11%, value: 32458000, voice: scholar, cite: zhwiki-great-famine, quote: 合计 248.0 228.0 1844.1 1462.6 63474.9 3245.8 5.11 }
+  caveats: 表中辽宁、黑龙江、吉林、山西四省没有府县数，只有灾前人口、非正常死亡和比例。表里没有北京、上海、天津、内蒙古、新疆、西藏、青海、宁夏等地。全部转录自维基百科“三年大饥荒”条目的表格，原书本库未收。
 
 - id: beijing-1989
   title: 1989 年 6 月北京

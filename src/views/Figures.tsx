@@ -8,8 +8,8 @@ import { VOICE_COLOR } from './Narratives'
 type Count = Figure['counts'][number]
 
 // One log scale for every case, so 24 deaths and 1.38 million persecuted sit on the same ruler.
-const LOG_MAX = 7
-const TICKS = [1, 10, 100, 1e3, 1e4, 1e5, 1e6]
+const LOG_MAX = 8
+const TICKS = [1, 10, 100, 1e3, 1e4, 1e5, 1e6, 1e7]
 const pct = (v: number) => (Math.log10(Math.max(v, 1)) / LOG_MAX) * 100
 const tickLabel = (v: number) => (v >= 1e4 ? `${v / 1e4} 万` : v >= 1e3 ? `${v / 1e3} 千` : String(v))
 
