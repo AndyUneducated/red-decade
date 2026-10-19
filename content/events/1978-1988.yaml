@@ -31,7 +31,8 @@
     - { voice: official1981, text: 一九七八年十二月召开的十一届三中全会，是建国以来我党历史上具有深远意义的伟大转折（1981 年历史决议）, cite: ws-1981-resolution, quote: true }
     - { voice: scholar, text: 到1978年冬，在“重点转移”的问题上，华与邓没有根本性分歧（韩钢 2008 年，据华国锋 1978 年 10–11 月讲话传达记录）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
     - { voice: scholar, text: 但对华国锋来说，这次会议成了他政治上的“滑铁卢”。富有意味的是，这个结果同他的包容和宽厚有关（同一文章）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
-  cites: [ws-1978-12-third-plenum, ws-1981-resolution, aisixiang-2008-han-gang-hua-guofeng]
+    - { voice: scholar, text: 'As this nianpu shows, these events did not occur as depicted by the accepted narrative: there was no Hua-Deng conflict leading to a Deng victory, and there is no record of Deng launching reform and opening（Teiwes 2024 年评孙万国《华国锋年谱》：工作会议和三中全会并非华邓之争、邓胜出，也没有邓发动改革开放的记录）', cite: teiwes-2024-hua-nianpu, quote: true }
+  cites: [ws-1978-12-third-plenum, ws-1981-resolution, aisixiang-2008-han-gang-hua-guofeng, teiwes-2024-hua-nianpu]
 
 - id: 1979-07-15-special-zones
   date: 1979-07-15
@@ -44,7 +45,8 @@
   voices:
     - { voice: officialLater, text: 关于出口特区，可先在深圳、珠海两市试办，待取得经验后，再考虑在汕头、厦门设置的问题（中发〔1979〕50 号）, cite: ws-1979-07-15-guangdong-fujian, quote: true }
     - { voice: scholar, text: 这实际上是后来建立深圳、珠海经济特区的最早酝酿，也是对外开放实施“两头在外”战略的最初萌芽（韩钢 2008 年，评 1978 年 6 月华国锋对赴港澳考察组建议在宝安、珠海搞出口基地的表态）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
-  cites: [ws-1979-07-15-guangdong-fujian, aisixiang-2008-han-gang-hua-guofeng]
+    - { voice: scholar, text: 'In an oral account published by noted investigative journalist Yang Jisheng, Wu discusses how Hua, not Deng, was the key figure in approving Guangdong province’s proposals（Teiwes 2024 年转述深圳特区首任负责人吴南生的口述：批准广东提议的关键人物是华国锋而非邓小平）', cite: teiwes-2024-hua-nianpu, quote: true }
+  cites: [ws-1979-07-15-guangdong-fujian, aisixiang-2008-han-gang-hua-guofeng, teiwes-2024-hua-nianpu]
 
 - id: 1979-10-16-wei-jingsheng-sentenced
   date: 1979-10-16
@@ -75,7 +77,8 @@
     - { voice: officialLater, text: 决定批准汪东兴、纪登奎、吴德、陈锡联四位同志的辞职请求（同一公报）, cite: rmrb-1980-03-01-fifth-plenum, quote: true }
     - { voice: officialLater, text: 恢复刘少奇同志作为伟大的马克思主义者和无产阶级革命家、党和国家的主要领导人之一的名誉（1980 年五中全会为刘少奇平反的决议）, cite: ws-1980-02-29-liu-rehab, quote: true }
     - { voice: foreign, text: 'Teng seems intent on eliminating several top leaders who acquiesced in his 1975 tumble and who are foot-dragging on his bold modernization campaign（1978 年 11 月 15 日奥克森伯格致布热津斯基备忘录，一年多前的判断）', cite: frus-7780v13-d153, quote: true }
-  cites: [rmrb-1980-03-01-fifth-plenum, ws-1980-02-29-liu-rehab, frus-7780v13-d153]
+    - { voice: scholar, text: 'Deng had launched his quiet coup against him at the end of 1979（Teiwes 2024 年据华国锋家属回忆，称邓小平 1979 年底起对华国锋发动了一场不动声色的政变）', cite: teiwes-2024-hua-nianpu, quote: true }
+  cites: [rmrb-1980-03-01-fifth-plenum, ws-1980-02-29-liu-rehab, frus-7780v13-d153, teiwes-2024-hua-nianpu]
 
 - id: 1980-11-20-special-court
   date: 1980-11-20

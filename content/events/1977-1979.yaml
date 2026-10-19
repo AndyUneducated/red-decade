@@ -32,7 +32,8 @@
     - { voice: foreign, text: 'Hua has recently shifted to the right to endorse a number of Teng’s pragmatic programs designed to accelerate China’s modernization（同一评估）', cite: frus-7780v13-d140, quote: true }
     - { voice: scholar, text: 上述经过说明，这个经典表述不出自华国锋（韩钢 2008 年《还原华国锋》）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
     - { voice: scholar, text: 1977年3月中央工作会议以后，华再未提过“两个凡是”，官方文件、官方媒体也不再出现“两个凡是”（同一文章）, cite: aisixiang-2008-han-gang-hua-guofeng, quote: true }
-  cites: [ws-1981-resolution, frus-7780v13-d140, aisixiang-2008-han-gang-hua-guofeng]
+    - { voice: scholar, text: 'The “two whatevers” were added merely to express general fealty to Mao, not to block Deng’s return (which had already been approved by the Politburo on January 6), nor to create a rigid framework preventing innovation（Teiwes 2024 年据孙万国《华国锋年谱》评 1977 年 2 月 7 日社论：“两个凡是”只是表示效忠毛，并非阻挠邓复出）', cite: teiwes-2024-hua-nianpu, quote: true }
+  cites: [ws-1981-resolution, frus-7780v13-d140, aisixiang-2008-han-gang-hua-guofeng, teiwes-2024-hua-nianpu]
 
 - id: 1978-02-fifth-npc
   date: 1978-02-26
@@ -154,7 +155,8 @@
     - { voice: officialLater, text: 会议指出：一九七六年四月五日的天安门事件完全是革命行动（1978 年十一届三中全会公报）, cite: ws-1978-12-third-plenum, quote: true }
     - { voice: official1981, text: 拖延和阻挠恢复老干部工作和平反历史上冤假错案（包括“天安门事件”）的进程（1981 年历史决议评华国锋）, cite: ws-1981-resolution, quote: true }
     - { voice: foreign, text: 'The poster attacks tend to implicate Wang Tung-hsing and Chen Hsi-lien, the Peking Military Region Commander. All three were involved in the suppression of pro-Teng rioters in April 1976（1978 年 11 月 15 日奥克森伯格致布热津斯基备忘录，“三人”指吴德、汪东兴、陈锡联）', cite: frus-7780v13-d153, quote: true }
-  cites: [ws-1978-12-third-plenum, ws-1981-resolution, frus-7780v13-d153]
+    - { voice: scholar, text: 'Even more clearly linked to Hua is the important 1976 Tiananmen incident, which was reversed cautiously by the Beijing Municipal Party Committee on the eve of the work conference with the direct authority of Hua（Teiwes 2024 年据《华国锋年谱》：北京市委在工作会议前夕的平反经华国锋直接授权，与 1981 年决议的说法相反）', cite: teiwes-2024-hua-nianpu, quote: true }
+  cites: [ws-1978-12-third-plenum, ws-1981-resolution, frus-7780v13-d153, teiwes-2024-hua-nianpu]
 
 - id: 1978-12-16-us-normalization
   topics: [hk-macau-taiwan]

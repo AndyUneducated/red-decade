@@ -1,0 +1,21 @@
+# W6（2026-10-18）：长期缺口。PDF 研究文献，英文原文照录，节点说明用中文概括（4 级，作者在世，只留引用的段落）。
+web:
+  - id: teiwes-2024-hua-nianpu
+    title: Understanding Elite Politics Through Relentless Research：Warren Sun’s Hua Guofeng Nianpu
+    date: 2024-07
+    author: Frederick C. Teiwes
+    kind: article
+    tier: 4
+    alias: Teiwes 2024 年悉尼大学中国研究中心工作论文《评孙万国〈华国锋年谱〉》
+    url: https://www.sydney.edu.au/content/dam/corporate/documents/china-studies-centre/working-paper/hua-nianpu-csc-working-paper-final.pdf
+    pdf: true
+    unwrap: en
+    excerpt: true
+    keep:
+      - no Hua-Deng conflict leading to a Deng victory
+      - were added merely to express general fealty to Mao
+      - reversed cautiously by the Beijing Municipal Party Committee
+      - Gu later confessed it had been necessary to attribute everything to Deng
+      - quiet coup against him at the end of 1979
+    via: 悉尼大学中国研究中心（China Studies Centre Working Paper，ISSN 2653-4037）
+    note: 悉尼大学荣休教授对孙万国（Warren Sun）未刊《华国锋年谱》（1971–1981）的出版前书评，据年谱逐项辨析华国锋—邓小平关系的通行叙事。

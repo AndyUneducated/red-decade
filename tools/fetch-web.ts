@@ -8,7 +8,7 @@
 // `excerpt: true` + `keep: [...]` keeps only paragraphs containing one of the `keep` strings.
 // `rows: true` keeps each table row on one line. `charset: gbk` overrides the detected encoding.
 // `pdf: true` keeps the PDF as sources/raw/<id>.pdf and extracts one line per PDF text line
-// (`pages: [first, last]` limits the pages; add `unwrap: true` to join wrapped lines,
+// (`pages: [first, last]` limits the pages; add `unwrap: true` (`unwrap: en` for English) to join wrapped lines,
 // `despace: true` to drop the spaces OCR puts between Chinese characters).
 // Usage:
 //   node tools/fetch-web.ts [--force] [id ...]
@@ -30,7 +30,7 @@ type Entry = {
   end?: string
   excerpt?: boolean
   keep?: string[]
-  unwrap?: boolean
+  unwrap?: boolean | 'en'
   breaks?: string
   reflow?: boolean
   pdf?: boolean
@@ -123,7 +123,16 @@ for (const e of entries) {
   let paras = text.split(/\n+/).map((p) => p.trim()).filter(Boolean)
   // `unwrap`: pages exported from Word break every visual line into its own paragraph; a line
   // that does not end a sentence continues into the next one
-  if (e.unwrap)
+  // `unwrap: en`: English lines join with a space (a trailing hyphen joins without one) and
+  // break only after a full stop, so a quoted sentence never spans two kept paragraphs
+  if (e.unwrap === 'en')
+    paras = paras.reduce<string[]>((out, p) => {
+      const last = out[out.length - 1]
+      if (out.length && !/[.!?:][”’"')\]]?$/.test(last)) out[out.length - 1] = /[A-Za-z]-$/.test(last) ? last + p : `${last} ${p}`
+      else out.push(p)
+      return out
+    }, [])
+  else if (e.unwrap)
     paras = paras.reduce<string[]>((out, p) => {
       if (out.length && !/[。！？：”）)!?]$/.test(out[out.length - 1])) out[out.length - 1] += p
       else out.push(p)
