@@ -253,3 +253,172 @@ web:
     keep: ["1949年12月，应周恩来委托", "1951年12月，因为《龙须沟》", "押至北京孔庙大成门前", "当日深夜，老舍于太平湖畔"]
     via: 中文维基百科（CC BY-SA 4.0）
     note: 维基百科综述，转录、未核原件。
+  # W5 第 8 批（2026-10-18）：政治局与军区人物、文化界受难者。
+  - id: zhwiki-tan-zhenlin
+    title: 谭震林（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“谭震林”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E8%B0%AD%E9%9C%87%E6%9E%97
+    excerpt: true
+    keep: ["被恢复党和国家领导人的生活待遇"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wu-de
+    title: 吴德（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“吴德”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%90%B4%E5%BE%B7
+    excerpt: true
+    keep: ["吴德1933年加入中国共产党", "1955年又升任吉林省第一书记", "吴德（1913年2月5日—1995年11月29日）"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-deng-zihui
+    title: 邓子恢（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“邓子恢”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%82%93%E5%AD%90%E6%81%A2
+    excerpt: true
+    keep: ["改任第四届全国政协副主席", "1965年1月召开的第三届全国人民代表大会第一次会议"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-qiu-huizuo
+    title: 邱会作（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“邱会作”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%82%B1%E4%BC%9A%E4%BD%9C
+    excerpt: true
+    keep: ["1959年洪学智被免职", "1967年1月，邱会作受到总后勤部造反派的冲击", "1987年，邱会作刑满释放", "改革开放后，邱会作才被保外就医至西安", "2002年7月18日在北京去世"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-chen-yun
+    title: 陈云（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“陈云”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%99%88%E4%BA%91
+    excerpt: true
+    keep: ["9月在中共八届一中全会上，陈云当选", "同年10月20日，他被下放到江西南昌", "同年4月24日，他由南昌返回北京"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-chen-yonggui
+    title: 陈永贵（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“陈永贵”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%99%88%E6%B0%B8%E8%B4%B5
+    excerpt: true
+    keep: ["1952年，陈永贵接替", "1980年9月，陈永贵被迫辞职"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-li-jingquan
+    title: 李井泉（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“李井泉”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9D%8E%E4%BA%95%E6%B3%89
+    excerpt: true
+    keep: ["1973年李井泉当选"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-zhang-wentian
+    title: 张闻天（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“张闻天”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%BC%A0%E9%97%BB%E5%A4%A9
+    excerpt: true
+    keep: ["1956年9月中共八大上当选为中共中央政治局候补委员", "1960年11月12日，到中国科学院", "1968年5月17日起，张闻天", "1969年10月24日，张闻天化名张普"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-yao-wenyuan
+    title: 姚文元（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“姚文元”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%A7%9A%E6%96%87%E5%85%83
+    excerpt: true
+    keep: ["1948年10月秘密加入共产党", "1957年2月6日，姚文元在《文汇报》", "1957年中，反右运动爆发", "1996年10月5日，姚文元刑满出狱"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-jian-bozan
+    title: 翦伯赞（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“翦伯赞”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%BF%A6%E4%BC%AF%E8%B5%9E
+    excerpt: true
+    keep: ["1937年5月加入中国共产党", "1952年，全国高校院系调整，翦伯赞", "要给出路"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-yu-luoke
+    title: 遇罗克（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“遇罗克”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%81%87%E7%BD%97%E5%85%8B
+    excerpt: true
+    keep: ["1967年4月14日，中央文化革命小组成员戚本禹", "1968年1月5日，遇罗克被捕"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-li-zuopeng
+    title: 李作鹏（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“李作鹏”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9D%8E%E4%BD%9C%E9%B9%8F
+    excerpt: true
+    keep: ["1962年6月10日任海军常务副司令员", "2009年1月3日7时30分"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-xu-shiyou
+    title: 许世友（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“许世友”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E8%AE%B8%E4%B8%96%E5%8F%8B
+    excerpt: true
+    keep: ["1955年3月，许世友被任命为南京军区司令员", "1968年3月任江苏省革命委员会主任"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-chen-xilian
+    title: 陈锡联（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“陈锡联”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%99%88%E9%94%A1%E8%81%94
+    excerpt: true
+    keep: ["1973年12月，陈锡联与李德生对调", "1976年2月，原主持中共中央军委工作"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。

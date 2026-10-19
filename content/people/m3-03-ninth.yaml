@@ -205,15 +205,15 @@
     - { voice: scholar, text: 研究者把吴德看作文革中“不倒”的地方大员：既执行了 1966 年派工作组和 1976 年清场两项后来被否定的决定，又在 1976 年 10 月站到了华国锋、叶剑英一边。, cite: macfarquhar-schoenhals }
   factions: [mao]
   fate:
-    - { date: 1933, s: normal, note: 入党, verify: true }
-    - { date: 1955, s: power, note: 吉林省委第一书记, verify: true }
+    - { date: 1933, s: normal, note: 入党，在唐山组织罢工（维基百科，未核原件）, cite: zhwiki-wu-de }
+    - { date: 1955, s: power, note: 吉林省委第一书记（维基百科，未核原件）, cite: zhwiki-wu-de }
     - { date: 1966-06-03, s: rise, note: 调任北京市委第二书记, cite: rmrb-1966-06-04-new-committee }
     - { date: 1967-04-20, s: power, note: 北京市革委会副主任, cite: rmrb-1967-04-21-beijing-revcom }
     - { date: 1972-10, s: power, note: 北京市委第一书记, verify: true }
     - { date: 1976-04-05, s: power, note: 天安门广场广播讲话, verify: true }
     - { date: 1978-10, s: sidelined, note: 离开北京市, verify: true }
     - { date: 1980-02, s: sidelined, note: 十一届五中全会批准辞职, cite: rmrb-1980-03-01-fifth-plenum }
-    - { date: 1995-11-29, s: dead, verify: true }
+    - { date: 1995-11-29, s: dead, note: 在北京病逝（维基百科，未核原件）, cite: zhwiki-wu-de }
   cites: [rmrb-1966-06-04-new-committee, ws-1977-07-tenth-third-plenum, wu-de-memoir]
 
 - id: li-desheng
@@ -359,8 +359,8 @@
     - { date: 1959, s: power, note: 起任沈阳军区司令员, cite: people-jiangshuai-chen-xilian }
     - { date: 1968-05-10, s: power, note: 辽宁省革委会主任, verify: true }
     - { date: 1969-04-28, s: rise, note: 政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
-    - { date: 1973-12, s: power, note: 北京军区司令员, verify: true }
-    - { date: 1976-02, s: power, note: 主持军委日常工作, verify: true }
+    - { date: 1973-12, s: power, note: 与李德生对调，任北京军区司令员（维基百科，未核原件）, cite: zhwiki-chen-xilian }
+    - { date: 1976-02, s: power, note: 叶剑英“因病休息”后主持军委日常工作，至 1977 年 2 月（维基百科，未核原件）, cite: zhwiki-chen-xilian }
     - { date: 1980-01, s: sidelined, note: 被免去政治局委员、国务院副总理和北京军区司令员职务（此前数据作 1980 年 2 月十一届五中全会辞职）, cite: people-jiangshuai-chen-xilian }
     - { date: 1999-06-10, s: dead, cite: people-jiangshuai-chen-xilian }
   cites: [ws-1969-04-28-9th-cc-plenum, ws-1977-07-tenth-third-plenum]
@@ -567,12 +567,12 @@
   factions: [mao]
   fate:
     - { date: 1948, s: normal, note: 入党, cite: rmrb-1986-03-27-chen-yonggui-death }
-    - { date: 1953, s: normal, note: 大寨党支部书记, verify: true }
+    - { date: 1952, s: normal, note: 接替贾进才任大寨大队支部书记（此前数据作 1953）（维基百科，未核原件）, cite: zhwiki-chen-yonggui }
     - { date: 1964, s: rise, note: “农业学大寨”, verify: true }
     - { date: 1967-03, s: power, note: 山西省革委会副主任, verify: true }
     - { date: 1973-08, s: rise, note: 政治局委员, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
-    - { date: 1980-09, s: sidelined, note: 辞去副总理, verify: true }
+    - { date: 1980-09, s: sidelined, note: 被迫辞去副总理（维基百科，未核原件）, cite: zhwiki-chen-yonggui }
     - { date: 1983, s: normal, note: 分配到北京东郊农场任顾问, cite: rmrb-1986-03-27-chen-yonggui-death }
     - { date: 1986-03-26, s: dead, note: 肺癌病逝, cite: rmrb-1986-03-27-chen-yonggui-death }
   cites: [ws-1966-08-12-plenum-communique, ws-1967-red-flag-index, ws-1977-07-tenth-third-plenum]

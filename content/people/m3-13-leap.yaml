@@ -211,7 +211,7 @@
     - { date: 1955-07, s: attacked, note: 被批“小脚女人”, verify: true }
     - { date: 1962-08, s: attacked, note: 被批“单干风”, verify: true }
     - { date: 1962-11, s: sidelined, note: 农村工作部撤销, verify: true }
-    - { date: 1965-01, s: sidelined, note: 全国政协副主席, verify: true }
+    - { date: 1965-01, s: sidelined, note: 三届人大一次会议免去副总理，改任全国政协副主席（维基百科，未核原件）, cite: zhwiki-deng-zihui }
     - { date: 1967, s: attacked, note: 文革中受批判, verify: true }
     - { date: 1972-12-10, s: dead, note: 在北京病逝, cite: rmrb-1972-12-15-deng-zihui-memorial }
   cites: [ws-1966-10-liu-self-criticism, ws-1980-indictment, ws-1981-resolution]

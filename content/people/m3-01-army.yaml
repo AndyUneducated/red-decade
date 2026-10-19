@@ -141,7 +141,7 @@
   fate:
     - { date: 1930, s: normal, note: 参加红军, cite: people-jiangshuai-li-zuopeng }
     - { date: 1955, s: normal, note: 授中将, cite: people-jiangshuai-li-zuopeng }
-    - { date: 1962, s: rise, note: 海军副司令员, verify: true }
+    - { date: 1962-06-10, s: rise, note: 任海军常务副司令员（此前数据作 1962）（维基百科，未核原件）, cite: zhwiki-li-zuopeng }
     - { date: 1967, s: power, note: 海军第一政委, cite: ws-1980-indictment }
     - { date: 1968-04-03, s: power, note: 写材料诬陷贺龙、叶剑英, cite: ws-1980-indictment }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1980-indictment }
@@ -149,7 +149,7 @@
     - { date: 1971-09-29, s: detained, note: 离职反省，隔离审查, cite: ws-1971-09-29-notice }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑十七年, cite: ws-1981-01-25-judgment }
     - { date: 1988, s: normal, note: 刑满，住北京, verify: true }
-    - { date: 2009-01-03, s: dead, verify: true }
+    - { date: 2009-01-03, s: dead, note: 在北京病逝（维基百科，未核原件）, cite: zhwiki-li-zuopeng }
   cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-29-notice, ws-1972-lin-material-3]
 
 - id: qiu-huizuo
@@ -212,14 +212,14 @@
   fate:
     - { date: 1929-12, s: normal, note: 参加红军, cite: people-jiangshuai-qiu-huizuo }
     - { date: 1955, s: normal, note: 授中将, cite: people-jiangshuai-qiu-huizuo }
-    - { date: 1959-09, s: power, note: 总后勤部部长, verify: true }
-    - { date: 1967-01, s: attacked, note: 被总后造反派揪斗, verify: true }
+    - { date: 1959, s: power, note: 接替洪学智任总后方勤务部部长（此前数据作 1959-09）（维基百科，未核原件）, cite: zhwiki-qiu-huizuo }
+    - { date: 1967-01, s: attacked, note: 被总后造反派抓走批斗，肋骨断裂，多次昏厥（维基百科，未核原件）, cite: zhwiki-qiu-huizuo }
     - { date: 1967-08, s: power, note: 进入军委办事组, verify: true }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1980-indictment }
     - { date: 1971-09-29, s: detained, note: 离职反省，隔离审查, cite: ws-1971-09-29-notice }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑十六年, cite: ws-1981-01-25-judgment }
-    - { date: 1987, s: normal, note: 刑满，住西安, verify: true }
-    - { date: 2002-07-18, s: dead, note: 人民网将帅名录作 2002 年 8 月 3 日在北京逝世，与此处不同, verify: true }
+    - { date: 1987, s: normal, note: 刑满释放，此前已保外就医至西安，就地安置（维基百科，未核原件）, cite: zhwiki-qiu-huizuo }
+    - { date: 2002-07-18, s: dead, note: 在北京去世（维基百科，未核原件）；人民网将帅名录作 2002 年 8 月 3 日，与此不同, cite: zhwiki-qiu-huizuo }
   cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1971-09-29-notice, ws-1971-12-lin-chen-material-1]
 
 - id: lin-liguo
@@ -610,9 +610,9 @@
   fate:
     - { date: 1927-11, s: normal, note: 黄麻起义, cite: people-jiangshuai-xu-shiyou }
     - { date: 1948-09, s: normal, note: 被指定为济南战役攻城部队总指挥, cite: people-jiangshuai-xu-shiyou }
-    - { date: 1955-02, s: power, note: 南京军区司令员, verify: true }
+    - { date: 1955-03, s: power, note: 南京军区司令员（此前数据作 1955-02）（维基百科，未核原件）, cite: zhwiki-xu-shiyou }
     - { date: 1967-01, s: attacked, note: 造反派冲击军区，一度离开南京, verify: true }
-    - { date: 1968-03-23, s: power, note: 江苏省革委会主任, verify: true }
+    - { date: 1968-03, s: power, note: 江苏省革委会主任（此前数据作 1968-03-23）（维基百科，未核原件）, cite: zhwiki-xu-shiyou }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1973, s: power, note: 调任广州军区司令员, cite: people-jiangshuai-xu-shiyou }
     - { date: 1979, s: power, note: 指挥广西方向的对越作战, cite: people-jiangshuai-xu-shiyou }

@@ -76,7 +76,7 @@
     - { date: 1967-02-16, s: attacked, note: 怀仁堂碰头会上痛斥张春桥, verify: true }
     - { date: 1967-03, s: sidelined, note: 停职检讨, verify: true }
     - { date: 1969-04, s: sidelined, note: 九大落选中央委员, verify: true }
-    - { date: 1973-08, s: restored, note: 十大恢复中央委员, verify: true }
+    - { date: 1973, s: restored, note: 经毛泽东指示恢复待遇，十大当选中央委员（此前数据作 1973-08）（维基百科，未核原件）, cite: zhwiki-tan-zhenlin }
     - { date: 1975-01-17, s: normal, note: 四届人大一次会议选为全国人大常委会副委员长, cite: rmrb-1975-01-19-npc-sc-list }
     - { date: 1983-09-30, s: dead, cite: rmrb-1983-10-03-tan-zhenlin-obituary }
   cites: [ws-1981-resolution, ws-1969-04-ninth-report, ws-1980-indictment]
@@ -596,12 +596,12 @@
   fate:
     - { date: 1925, s: normal, note: 参加五卅运动与商务印书馆罢工后入党, cite: rmrb-1995-04-12-chen-yun-obituary }
     - { date: 1937-10, s: power, note: 10 月底到延安任中组部长（此前数据作 1937-12）, cite: rmrb-1995-04-12-chen-yun-obituary }
-    - { date: 1956-09, s: power, note: 中共中央副主席, verify: true }
+    - { date: 1956-09, s: power, note: 八届一中全会当选政治局常委、中共中央副主席（维基百科，未核原件）, cite: zhwiki-chen-yun }
     - { date: 1962-03, s: sidelined, note: 受毛泽东批评后养病, verify: true }
     - { date: 1966-08, s: sidelined, note: 不再任副主席, verify: true }
     - { date: 1967-02, s: attacked, note: 受到批判, cite: ws-1981-resolution }
-    - { date: 1969-10, s: sidelined, note: 疏散到南昌, verify: true }
-    - { date: 1972, s: normal, note: 回京, verify: true }
+    - { date: 1969-10-20, s: sidelined, note: 下放到江西南昌青云谱江西化工石油机械厂（维基百科，未核原件）, cite: zhwiki-chen-yun }
+    - { date: 1972-04-24, s: normal, note: 由南昌返回北京（此前数据作 1972）（维基百科，未核原件）, cite: zhwiki-chen-yun }
     - { date: 1978-12, s: restored, note: 十一届三中全会增选为中央副主席, cite: ws-1978-12-third-plenum }
     - { date: 1987, s: power, note: 十三大后退出中央领导工作，任中顾委主任（讣告未写月份）, cite: rmrb-1995-04-12-chen-yun-obituary }
     - { date: 1995-04-10, s: dead, cite: rmrb-1995-04-12-chen-yun-obituary }

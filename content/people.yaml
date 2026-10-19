@@ -1090,15 +1090,15 @@
     - { title: 论林彪反党集团的社会基础, date: 1975-03 }
   factions: [ccrg, shanghai]
   fate:
-    - { date: 1948, s: normal, note: 入党, verify: true }
-    - { date: 1957, s: rise, note: 反右文章受毛泽东赏识, verify: true }
+    - { date: 1948-10, s: normal, note: 在沪新中学秘密入党（信息框作 1948 年 7 月）（维基百科，未核原件）, cite: zhwiki-yao-wenyuan }
+    - { date: 1957, s: rise, note: 2 月《文汇报》文章得毛泽东赞许，6 月撰文《录以备考》参与反右（维基百科，未核原件）, cite: zhwiki-yao-wenyuan }
     - { date: 1965-11-10, s: rise, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
     - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
     - { date: 1969-04, s: power, note: 九大政治局委员, cite: ws-1981-01-25-judgment }
     - { date: 1976-10-06, s: detained, note: 隔离审查, cite: ws-1976-10-18-notice }
     - { date: 1977-07, s: purged, note: 永远开除党籍, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑二十年, cite: ws-1981-01-25-judgment }
-    - { date: 1996-10, s: normal, note: 刑满释放, verify: true }
+    - { date: 1996-10-05, s: normal, note: 刑满出狱，隐居湖州与上海（维基百科，未核原件）, cite: zhwiki-yao-wenyuan }
     - { date: 2005-12-23, s: dead }
   cites: [ws-1965-hairui-critique-index, ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1976-10-18-notice, ws-1977-07-tenth-third-plenum, ws-1981-01-25-judgment]
 
@@ -4532,12 +4532,12 @@
     - { title: 中国史纲要（主编）, date: 1962 }
   factions: [academics]
   fate:
-    - { date: 1937, s: normal, note: 秘密入党, verify: true }
-    - { date: 1952, s: power, note: 任北大历史系主任, verify: true }
+    - { date: 1937-05, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-jian-bozan }
+    - { date: 1952, s: power, note: 院系调整中转到北大，任历史学系教授兼系主任（维基百科，未核原件）, cite: zhwiki-jian-bozan }
     - { date: 1965-12-08, s: attacked, note: 戚本禹文章不点名批判, cite: ws-1966-05-16-notice-attachment@1965-12-08 }
     - { date: 1966-03-25, s: attacked, note: 《红旗》点名批判, cite: ws-1966-05-16-notice-attachment@1966-03-25 }
     - { date: 1966-06-08, s: purged, note: 《红旗》社论点名为“反共老手”, cite: ws-1966-06-red-flag-long-live }
-    - { date: 1968-10, s: sidelined, note: 毛泽东称“要给出路”, verify: true }
+    - { date: 1968-10, s: sidelined, note: 毛泽东在八届十二中全会上称“对北京大学的翦伯赞、冯友兰要给出路”（维基百科，未核原件）, cite: zhwiki-jian-bozan }
     - { date: 1968-12-18, s: dead, note: 与妻子一同服药自尽, cite: ws-1980-indictment }
   cites: [ws-1966-05-16-notice-attachment, ws-1966-06-red-flag-long-live, ws-1966-red-flag-index, ws-1980-indictment, ws-1981-01-25-judgment]
 
@@ -4727,8 +4727,8 @@
   fate:
     - { date: 1965, s: normal, note: 进厂当学徒工, cite: ws-1970-yu-luoke-death-sentence, verify: true }
     - { date: 1967-01-18, s: rise, note: 发表《出身论》, cite: ws-1967-yu-origin-theory }
-    - { date: 1967-04, s: attacked, note: 戚本禹宣布《出身论》是“大毒草”, verify: true }
-    - { date: 1968-01, s: detained, note: 被捕, cite: ws-1979-yu-luoke-acquittal, verify: true }
+    - { date: 1967-04-14, s: attacked, note: 戚本禹公开宣布《出身论》是“大毒草”（维基百科，未核原件）, cite: zhwiki-yu-luoke }
+    - { date: 1968-01-05, s: detained, note: 被捕（维基百科，未核原件）, cite: zhwiki-yu-luoke }
     - { date: 1970-03-05, s: dead, note: 以“现行反革命”罪被判处死刑，立即执行, cite: ws-1970-yu-luoke-death-sentence }
   cites: [ws-1967-yu-origin-theory, ws-1970-yu-luoke-death-sentence, ws-1979-yu-luoke-acquittal, web-1966-10-16-chen-speech, ws-1967-01-01-to-the-end]
 

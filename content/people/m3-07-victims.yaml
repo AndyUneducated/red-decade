@@ -249,11 +249,11 @@
     - { voice: official1981, text: 八届八中全会关于所谓“彭德怀、黄克诚、张闻天、周小舟反党集团”的决议是完全错误的, cite: ws-1981-resolution, quote: true }
   factions: [lushan, dissent]
   fate:
-    - { date: 1956-09, s: power, note: 政治局候补委员, verify: true }
+    - { date: 1956-09, s: power, note: 八大当选政治局候补委员（维基百科，未核原件）, cite: zhwiki-zhang-wentian }
     - { date: 1959-08-16, s: purged, note: 八届八中全会定为“反党集团”, cite: ws-1959-08-16-peng-resolution }
-    - { date: 1959-09, s: sidelined, note: 调科学院经济所, verify: true }
-    - { date: 1968-05, s: detained, note: 被“监护”, verify: true }
-    - { date: 1969-10, s: sidelined, note: 遣送肇庆, verify: true }
+    - { date: 1960-11-12, s: sidelined, note: 到中国科学院经济研究所任特约研究员（此前数据作 1959-09）（维基百科，未核原件）, cite: zhwiki-zhang-wentian }
+    - { date: 1968-05-17, s: detained, note: 在寓所内被“监护”（维基百科，未核原件）, cite: zhwiki-zhang-wentian }
+    - { date: 1969-10-24, s: sidelined, note: 化名张普，与家人下放广东肇庆（维基百科，未核原件）, cite: zhwiki-zhang-wentian }
     - { date: 1976-07-01, s: dead, note: 受迫害，在无锡含冤逝世, cite: rmrb-1979-08-26-zhang-wentian-memorial }
     - { date: 1979-08-25, s: restored, note: 北京举行追悼会，邓小平致悼词, cite: rmrb-1979-08-26-zhang-wentian-memorial }
   cites: [ws-1959-08-16-peng-resolution, ws-1980-indictment, ws-1981-resolution]
