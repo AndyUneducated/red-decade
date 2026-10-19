@@ -114,3 +114,77 @@ web:
     unwrap: true
     excerpt: true
     keep: [官方当年标准的指控词是, 由北京抵达苏州, 总参谋部向各军区]
+  - id: difangwenge-yu-ruxin-1966-anti-coup
+    title: 林彪“５·１８讲话”前后的防政变措施
+    date: 2010-01-18
+    author: 余汝信
+    kind: article
+    tier: 3
+    alias: 余汝信《林彪“5·18 讲话”前后的防政变措施》（文革与当代史研究网转贴）
+    url: https://www.difangwenge.org/forum.php?mod=viewthread&tid=687
+    via: 文革与当代史研究网（论坛转贴）
+    note: 作者据国内已公开的年谱、传记写成；论坛转贴，未核原刊。
+    unwrap: true
+    start: 一、更换中办领导人
+    end: 杨的罪名，是在半年内逐步升级的。
+  - id: cnd-2009-yan-yangsheng-qhfz-100-days
+    title: 清华附中红卫兵１００天
+    date: 2008-12
+    author: 阎阳生
+    kind: memoir
+    tier: 3
+    alias: 阎阳生《清华附中红卫兵 100 天》（《炎黄春秋》2008 年第 12 期删节发表；作者为清华附中红卫兵发起人之一）
+    url: http://cnd.org/CR/ZK09/cr517.gb.html
+    via: 《华夏文摘》增刊·文革博物馆通讯（五一七），据《记忆》所刊作者原稿
+    note: 作者采访清华附中当事人上百人次写成；转录、未核原刊。
+    unwrap: true
+    excerpt: true
+    keep: [关于红卫兵成立的日期, 但几个红卫兵主要创始人都对此不以为然, 目前最原始的记录是宋柏林, 笔者的记忆是, 第一张署名红卫兵的大字报]
+  - id: difangwenge-bu-dahua-red-guard
+    title: 我的红卫兵经历
+    date: 2011
+    author: 卜大华
+    kind: memoir
+    tier: 3
+    alias: 卜大华《我的红卫兵经历》（口述，卜伟华博客原载，文革与当代史研究网转贴）
+    url: https://difangwenge.org/forum.php?mod=viewthread&tid=6443
+    via: 文革与当代史研究网（论坛转贴）
+    note: 作者为清华附中红卫兵发起人之一；转录、未核原载。
+    excerpt: true
+    keep: [这样，矛盾逐渐激化, 5月29日，我们高二、高三几个班的同学]
+  - id: bha-1978-11-26-wuhan-720-redress
+    title: 中共中央文件（中发〔1978〕71 号）
+    date: 1978-11-26
+    author: 中共中央
+    kind: party-doc
+    alias: 中发〔1978〕71 号：中共中央转发湖北省委、省革委会、武汉军区党委《关于处理武汉“七·二〇事件”的请示报告》
+    url: https://raw.githubusercontent.com/banned-historical-archives/banned-historical-archives11/main/data/2599/2599.pdf
+    via: banned-historical-archives（GitHub）扫描件，OCR 文字层
+    note: 原件扫描的 OCR 文字（已去掉字间空格），未逐字核对影像。
+    pdf: true
+    despace: true
+    unwrap: true
+  - id: marxists-qibenyu-wuhan-720
+    title: 武汉“七二〇事件”
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第二十五章“武汉‘七二〇事件’”
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-25.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 作者时为中央文革小组成员，在北京布置迎接谢富治、王力；回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1967年7月22日上午, 总理和谢富治、王力是分乘两架飞机, 在7月25日那天，参加大会的有几十万人]
+  - id: wikipedia-zh-wuhan-720
+    title: 七·二〇事件
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: article
+    tier: 3
+    alias: 中文维基百科“七·二〇事件”条（2026 年 10 月 18 日抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E4%B8%83%C2%B7%E4%BA%8C%E9%9B%B6%E4%BA%8B%E4%BB%B6
+    via: 中文维基百科
+    note: 百科条目，随时可能改动；所引页码主要出自徐海亮《武汉“七二〇”事件实录》（香港 2017），未核原书。
+    excerpt: true
+    keep: [20日早晨, 21日，在周恩来的要求下, 27日，陈再道、钟汉华的职务被撤销, 武汉“七二〇”事件实录. 香港]

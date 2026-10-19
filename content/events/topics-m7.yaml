@@ -45,3 +45,49 @@
     - { voice: doc, text: 规定澳门特别行政区成立后不实行社会主义的制度和政策，保持现行的社会、经济制度和生活方式，五十年不变（附件一）, cite: ws-1987-04-13-macau-declaration, quote: true }
     - { voice: doc, text: 规定香港特别行政区成立后不实行社会主义的制度和政策，保持香港原有的资本主义制度和生活方式，五十年不变（1984 年中英联合声明附件一）, cite: ws-1984-09-26-hongkong-declaration, quote: true }
   cites: [ws-1987-04-13-macau-declaration, ws-1984-09-26-hongkong-declaration]
+
+- id: 1966-12-03-macau-123
+  topics: [hk-macau-taiwan]
+  date: 1966-12-03
+  end: 1966-12-11
+  title: 澳门“一二·三”事件：《人民日报》“严厉警告澳门葡萄牙当局”
+  lane: intl
+  weight: 1
+  place: 澳门
+  summary: 氹仔居民自筹经费修建校舍受阻，引起冲突（《人民日报》称“氹仔血案”，打伤四十多人）。12 月 3、4 日澳葡当局出动军警镇压，据《人民日报》称打死打伤一百多人。广东省人委外事处长 12 月 9 日发表四项主张；10 日澳门各界同胞代表一百多人开会，向澳督嘉乐庇递交抗议书，提出严惩肇事者、撤销戒严、赔偿抚恤、释放被捕者、公开认罪等六项要求；同日珠海县九千多红卫兵和群众集会声援。11 日《人民日报》评论员文章警告澳葡当局“必将自食恶果”。以上都是中方当时的报道，葡方说法未入库。
+  voices:
+    - { voice: official1966, text: 据不完全统计，十二月三、四两日，澳门葡萄牙当局共打死打伤我爱国同胞一百多人（1966 年 12 月 11 日《人民日报》评论员）, cite: rmrb-1966-12-11-macau-warning, quote: true }
+    - { voice: official1966, text: 如果澳门葡萄牙当局竟然让蒋介石匪帮和美英帝国主义插手澳门事务，中国人民将绝对不能允许，一切严重后果必须由澳门葡萄牙当局承担（同上）, cite: rmrb-1966-12-11-macau-warning, quote: true }
+    - { voice: official1966, text: 立即向澳门同胞当面认罪和签具认罪书，同时将该认罪书在报章和电台公布（澳门各界同胞代表会议抗议书第六项，新华社 12 月 10 日电）, cite: rmrb-1966-12-11-macau-meeting, quote: true }
+    - { voice: editor, text: 伤亡数字只有“打死打伤一百多人”的合计，抗议书还要求澳葡当局“公布全部真实的伤亡名单”；事件此后如何收场，库内尚无原文。, cite: rmrb-1966-12-11-macau-meeting }
+  cites: [rmrb-1966-12-11-macau-warning, rmrb-1966-12-11-macau-meeting]
+
+- id: 1975-04-17-phnom-penh
+  topics: [global]
+  date: 1975-04-17
+  title: 金边解放：毛泽东、朱德、周恩来致电西哈努克祝贺
+  lane: intl
+  weight: 1
+  place: 金边
+  summary: 柬埔寨民族解放人民武装力量“完全解放”金边，距朗诺 1970 年政变五年。毛泽东、朱德、周恩来 4 月 17 日联名致电国家元首西哈努克亲王、首相宾努和副首相兼武装力量总司令乔森潘，称这是“民族解放战争的决定性胜利”，再引“弱国就一定能够打败强国，小国就一定能够打败大国”，并说“中国人民将永远同你们站在一起”。贺电仍只写西哈努克为主席的民族统一阵线，没有提到柬埔寨共产党。
+  people: [mao-zedong, zhu-de, zhou-enlai]
+  voices:
+    - { voice: official1966, text: 柬埔寨人民通过武装斗争所取得的这一伟大胜利，再一次雄辩地证明，只要坚持正确的道路，弱国就一定能够打败强国，小国就一定能够打败大国（1975 年 4 月 17 日贺电）, cite: rmrb-1975-04-18-phnom-penh, quote: true }
+    - { voice: official1966, text: 柬埔寨将以崭新的面貌出现在世界的东方（同上）, cite: rmrb-1975-04-18-phnom-penh, quote: true }
+    - { voice: editor, text: “没有提到柬埔寨共产党”是对贺电全文逐字检索的结果；两年后波尔布特以柬共中央书记身份访华，见 1977 年 9 月 28 日条。, cite: rmrb-1975-04-18-phnom-penh }
+  cites: [rmrb-1975-04-18-phnom-penh]
+
+- id: 1977-09-28-pol-pot-visit
+  topics: [global]
+  date: 1977-09-28
+  title: 波尔布特访华：华国锋和十多万人隆重欢迎
+  lane: intl
+  weight: 1
+  place: 北京
+  summary: 柬埔寨共产党中央书记、民主柬埔寨总理波尔布特率党政代表团（副总理英萨利、温威等）正式访华。华国锋、邓小平、李先念到机场迎接，十多万群众在机场、天安门广场和迎宾馆前欢迎，华国锋陪他换乘敞篷车通过天安门广场；当晚中共中央、国务院设宴，叶剑英、汪东兴等出席，宴会同时庆祝“柬埔寨共产党成立十七周年”。这是粉碎“四人帮”后第一个国庆节的前夕。
+  people: [hua-guofeng, deng-xiaoping, li-xiannian, ye-jianying, wang-dongxing]
+  voices:
+    - { voice: officialLater, text: 中柬两国人民是在反帝、反修、反霸斗争中并肩战斗的亲密战友（1977 年 9 月 28 日新华社电）, cite: rmrb-1977-09-29-pol-pot, quote: true }
+    - { voice: officialLater, text: 共同庆祝柬埔寨共产党成立十七周年，庆祝中国共产党第十一次全国代表大会的胜利召开（同上）, cite: rmrb-1977-09-29-pol-pot, quote: true }
+    - { voice: editor, text: 1971–1975 年《人民日报》的柬埔寨报道和金边解放贺电都只写西哈努克与民族统一阵线；这篇报道是库内原文中第一次以“柬埔寨共产党中央委员会书记”称呼波尔布特。民主柬埔寨时期国内的情况，库内尚无原文。, cite: rmrb-1977-09-29-pol-pot }
+  cites: [rmrb-1977-09-29-pol-pot, rmrb-1975-04-18-phnom-penh]

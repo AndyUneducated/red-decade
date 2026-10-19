@@ -313,6 +313,7 @@ archive/rmrb-page-1966-07-25-1
 archive/rmrb-page-1966-08-19-1
 archive/rmrb-page-1966-08-19-2
 archive/rmrb-page-1966-08-24-2
+archive/rmrb-page-1966-12-11-1
 archive/rmrb-page-1967-01-26-1
 archive/rmrb-page-1967-02-02-1
 archive/rmrb-page-1967-02-28-1
@@ -407,6 +408,7 @@ archive/rmrb-page-1975-01-19-3
 archive/rmrb-page-1975-02-22-1
 archive/rmrb-page-1975-03-01-1
 archive/rmrb-page-1975-04-01-1
+archive/rmrb-page-1975-04-18-1
 archive/rmrb-page-1975-05-01-1
 archive/rmrb-page-1975-09-04-1
 archive/rmrb-page-1975-09-16-1
@@ -424,6 +426,7 @@ archive/rmrb-page-1976-09-19-1
 archive/rmrb-page-1976-10-09-1
 archive/rmrb-page-1976-10-22-1
 archive/rmrb-page-1976-10-25-1
+archive/rmrb-page-1977-09-29-1
 archive/rmrb-page-1978-05-21-2
 archive/rmrb-page-1978-06-19-2
 archive/rmrb-page-1978-07-06-4
@@ -1030,6 +1033,7 @@ events/1966-10-09-shanghai-raid
 events/1966-10-work-conference
 events/1966-11-01-two-lines-editorial
 events/1966-11-09-shanghai-wgs
+events/1966-12-03-macau-123
 events/1966-12-05-liandong
 events/1966-12-06-deng-black-gang
 events/1966-12-13-nie-yuanzi-shanghai
@@ -1324,6 +1328,7 @@ events/1975-03-17-war-criminals
 events/1975-04-01-zhang-dictatorship
 events/1975-04-04-zhang-zhixin-executed
 events/1975-04-05-chiang-death
+events/1975-04-17-phnom-penh
 events/1975-04-23-empiricism
 events/1975-04-30-saigon
 events/1975-05-03-sirenbang
@@ -1370,6 +1375,7 @@ events/1976-hefei-manure
 events/1977-04-wang-shenyou-executed
 events/1977-07-tenth-third-plenum
 events/1977-08-eleventh-congress
+events/1977-09-28-pol-pot-visit
 events/1977-10-06-college-admissions
 events/1977-11-01-li-qinglin-arrested
 events/1977-12-li-jiulian-executed
@@ -3130,6 +3136,7 @@ sources/aisixiang-2008-han-gang-hua-guofeng
 sources/aisixiang-chen-xiaoping-liang-feng
 sources/aisixiang-song-chengyou-zhou-yiliang
 sources/aisixiang-yang-xiaokai-my-life
+sources/bha-1978-11-26-wuhan-720-redress
 sources/bjd-2022-xing-yanzi
 sources/bjzc-1996-09-pan-guoping
 sources/bu-weihua-smash
@@ -3247,6 +3254,7 @@ sources/chinawriter-cao-yu
 sources/chinawriter-yang-hansheng
 sources/cnd-1999-hunger-strike-declaration
 sources/cnd-2006-yu-ruxin-1969-war-prep
+sources/cnd-2009-yan-yangsheng-qhfz-100-days
 sources/cnd-2009-zhao-ziyang-fourth-plenum
 sources/cnd-2016-yu-ruxin-zhao-ziyang
 sources/cnd-2024-du-junfu-516
@@ -3260,7 +3268,9 @@ sources/czmingren-liu-jianxun
 sources/dangshi-1927-11-politburo-meeting
 sources/dangshi-2012-sun-weishi
 sources/dangshi-2016-gouba-meeting
+sources/difangwenge-bu-dahua-red-guard
 sources/difangwenge-tianjin-1978
+sources/difangwenge-yu-ruxin-1966-anti-coup
 sources/ding-kaiwen-lin
 sources/dong-bian-tian-jiaying
 sources/dswxyjy-2013-cao-ying-rectification
@@ -3339,6 +3349,7 @@ sources/marxists-1967-zhang-chunqiao-jiangsu
 sources/marxists-1968-01-yang-xiguang-whither-china
 sources/marxists-1968-07-30-five-leaders
 sources/marxists-qibenyu-tian-jiaying
+sources/marxists-qibenyu-wuhan-720
 sources/moa-2009-xing-yanzi
 sources/mou-zhijing-chushenlun
 sources/mzd-1975-11-18-wang-mantian
@@ -3707,6 +3718,7 @@ sources/wangyouqin-1986-female-barbarity
 sources/wangyouqin-lao-she
 sources/web-1966-10-16-chen-speech
 sources/whb-2018-11-23-shangguan-yunzhu
+sources/wikipedia-zh-wuhan-720
 sources/witke-jiang
 sources/wjs-1978-fifth-modernization
 sources/wp-1989-casualties

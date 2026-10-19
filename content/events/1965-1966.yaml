@@ -47,11 +47,12 @@
   title: 杨尚昆被免去中央办公厅主任
   lane: center
   weight: 1
-  summary: 与姚文元文章同日。杨尚昆后与彭真、罗瑞卿、陆定一并称“彭罗陆杨”。
-  people: [yang-shangkun]
-  cites: [ws-1966-05-16-notice-attachment]
-  verify: true
-  why: 免职日期出自党史著作；库内原文只有 1966 年 5 月政治局扩大会议“讨论彭真、陆定一、罗瑞卿、杨尚昆四同志的错误问题”
+  summary: 与姚文元文章同日，中共中央通知免去杨尚昆中央办公厅主任职务，由警卫局局长汪东兴接任。10 月 29 日周恩来、邓小平、彭真已向杨传达毛泽东要调他工作的意见，11 月 5 日彭真在书记处会议上宣布调他去广东。杨尚昆后与彭真、罗瑞卿、陆定一并称“彭罗陆杨”。日期与经过据余汝信的研究，非一手。
+  people: [yang-shangkun, wang-dongxing, peng-zhen]
+  voices:
+    - { voice: scholar, text: １１月１０日，中共中央正式通知，免去杨尚昆中办主任职务，任命中办警卫局局长汪东兴为中办主任（余汝信，论坛转贴）, cite: difangwenge-yu-ruxin-1966-anti-coup, quote: true }
+    - { voice: scholar, text: 中央正式通知，用的是“免去”的说法，与“撤销”性质有所不同。杨的罪名，是在半年内逐步升级的（余汝信）, cite: difangwenge-yu-ruxin-1966-anti-coup, quote: true }
+  cites: [difangwenge-yu-ruxin-1966-anti-coup, ws-1966-05-16-notice-attachment]
 
 - id: 1965-11-beijing-silence
   date: 1965-11-11
@@ -397,13 +398,14 @@
   lane: mass
   weight: 2
   place: 清华大学附属中学
-  summary: 一批以干部子弟为主的学生以“红卫兵”署名贴大字报。“5 月 29 日”这一日期尚无原文；已入库原文中最早的“红卫兵”署名是 6 月 24 日的《无产阶级的革命造反精神万岁》。
+  summary: 清华附中高二、高三几个班反对校领导的学生（多为干部子弟）在圆明园聚会，商定统一行动；这一天后来被定为红卫兵成立日。名称何时正式采用，当事人说法不一：卜大华说当天就定了统一名称，阎阳生记得是 6 月 1 日晚才正式采用张承志墙报上的“红卫兵”署名，6 月 2 日贴出第一张署名红卫兵的大字报。经过据当事人回忆，非一手；已入库原文中最早的“红卫兵”署名是 6 月 24 日的《无产阶级的革命造反精神万岁》。
   concepts: [rebellion]
   voices:
-    - { voice: editor, text: 名称出现的日期、成员与发起人，需以当事人回忆或清华附中校史核对；工作组时期的大字报原件没有入库。 }
-  cites: [rmrb-1966-08-24-rebel-1]
-  verify: true
-  why: “5 月 29 日”和发起人出自当事人回忆与清华附中校史；库内最早的“红卫兵”署名原文是 6 月 24 日
+    - { voice: witness, text: 5月29日，我们高二、高三几个班的同学在一起聚会的时候，确定了要共同行动和采用统一名称的原则，以显示我们的力量（卜大华口述）, cite: difangwenge-bu-dahua-red-guard, quote: true }
+    - { voice: witness, text: ５月２９日是各班的反对派统一行动的协调会。６月１日晚上在圆明园开会正式采用张承志在墙报上用的署名“红卫兵”作为正式名称（阎阳生，2008 年）, cite: cnd-2009-yan-yangsheng-qhfz-100-days, quote: true }
+    - { voice: witness, text: ……中午我们‘红卫士’的一部分战士到圆明园去开会，正式建立起组织机构，订好了反攻计划（宋柏林 1966 年 6 月 3 日日记，阎阳生文引）, cite: cnd-2009-yan-yangsheng-qhfz-100-days, quote: true }
+    - { voice: editor, text: 当时的日记把这群人称作“红卫士”，与“红卫兵”名称的先后仍有争议；工作组时期的大字报原件没有入库。, cite: cnd-2009-yan-yangsheng-qhfz-100-days }
+  cites: [difangwenge-bu-dahua-red-guard, cnd-2009-yan-yangsheng-qhfz-100-days, rmrb-1966-08-24-rebel-1]
 
 - id: 1966-06-24-rebel-essays
   date: 1966-06-24

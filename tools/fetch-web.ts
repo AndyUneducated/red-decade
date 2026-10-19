@@ -8,7 +8,8 @@
 // `excerpt: true` + `keep: [...]` keeps only paragraphs containing one of the `keep` strings.
 // `rows: true` keeps each table row on one line. `charset: gbk` overrides the detected encoding.
 // `pdf: true` keeps the PDF as sources/raw/<id>.pdf and extracts one line per PDF text line
-// (`pages: [first, last]` limits the pages; add `unwrap: true` to join wrapped lines).
+// (`pages: [first, last]` limits the pages; add `unwrap: true` to join wrapped lines,
+// `despace: true` to drop the spaces OCR puts between Chinese characters).
 // Usage:
 //   node tools/fetch-web.ts [--force] [id ...]
 //   node tools/fetch-web.ts --list <url> ...    People's Daily headings -> .probe/rmrb-list.txt
@@ -34,6 +35,7 @@ type Entry = {
   reflow?: boolean
   pdf?: boolean
   pages?: [number, number]
+  despace?: boolean
   frus?: boolean
   rows?: boolean
   charset?: string
@@ -72,7 +74,9 @@ for (const e of entries) {
   const html = bytes ? '' : await get(e.url, e.charset)
   let text: string
   if (bytes) {
-    const all = await pdfText(bytes, e.pages)
+    const raw = await pdfText(bytes, e.pages)
+    // `despace`: OCR layers of scanned Chinese documents put a space after every character
+    const all = e.despace ? raw.replace(/(?<![A-Za-z]) | (?![A-Za-z])/g, '') : raw
     const i = e.start ? all.indexOf(e.start) : 0
     const j = e.end ? all.indexOf(e.end, Math.max(0, i)) : -1
     if (i < 0 || (e.end && j < 0)) {

@@ -248,14 +248,17 @@
   lane: army
   weight: 3
   place: 武汉东湖宾馆
-  summary: 毛泽东到武汉处理“百万雄师”与“工总”的对立，谢富治、王力宣布武汉军区支左方向错误。7 月 20 日凌晨“百万雄师”和部分军人冲进东湖宾馆，揪走王力殴打。毛泽东当天转移上海；王力、谢富治 22 日回京受到盛大欢迎。中央 7 月 26 日的信称这是“叛变行动”，陈再道、钟汉华撤职，“百万雄师”被打成反革命，湖北此后据统计有十八万余人被打伤打残、六百多人死亡。
-  people: [chen-zaidao, zhong-hanhua, wang-li, xie-fuzhi, mao-zedong, zhou-enlai, wang-renzhong]
+  summary: 毛泽东到武汉处理“百万雄师”与“工总”的对立，谢富治、王力宣布武汉军区支左方向错误。7 月 20 日早晨“百万雄师”和 8201 部队部分战士包围东湖宾馆，把王力带到军区大院批斗；毛泽东当夜乘飞机转往上海。王力、谢富治 22 日回京，中央文革组织到机场迎接，25 日天安门开几十万人大会。中央的信称这是“叛变行动”，27 日陈再道、钟汉华被撤职，“百万雄师”被称作“反革命组织”。1978 年 11 月中央转发湖北的报告为事件平反，但规定“不要登报和广播”。毛泽东转移、王谢回京和撤职的经过据维基百科与戚本禹回忆，非一手。
+  people: [chen-zaidao, zhong-hanhua, wang-li, xie-fuzhi, mao-zedong, zhou-enlai, wang-renzhong, qi-benyu, jiang-qing]
   voices:
     - { voice: official1966, text: 这是明目张胆地反对我们的伟大的领袖毛主席、反对毛主席的无产阶级革命路线、反对党中央、反对中央军委、反对中央文革小组的叛变行动（1967 年 7 月中央致武汉的信）, cite: ws-1967-07-26-wuhan-notice, quote: true }
-    - { voice: editor, text: 同一份中央文件把武汉军区的支左称为“方向、路线错误”，又说“王任重和陈再道则是上述事件的罪魁祸首”——王任重这时已在北京被打倒，并不在武汉。1978 年中央为此事平反。, cite: ws-1967-07-26-wuhan-notice }
-  cites: [ws-1967-07-26-wuhan-notice]
-  verify: true
-  why: 毛泽东转移上海、王谢回京受欢迎、陈再道钟汉华撤职、“百万雄师”的定性、湖北伤亡数字和 1978 年平反出自党史著作；库内只有 7 月的武汉军区公告
+    - { voice: witness, text: 等王力下了飞机，就坐在了轮椅上，总理和江青站在两边迎接他，一副欢迎英雄归来的样子（戚本禹回忆）, cite: marxists-qibenyu-wuhan-720, quote: true }
+    - { voice: scholar, text: 27日，陈再道、钟汉华的职务被撤销（中文维基百科，引徐海亮《武汉“七二〇”事件实录》）, cite: wikipedia-zh-wuhan-720, quote: true }
+    - { voice: officialLater, text: 有些解放军指战员和群众，把王力拉到军区大院进行说理斗争，这就是所谓“揪斗、围攻、绑架、殴打中央代表”的“七·二〇事件”的真相（1978 年 9 月湖北省委等请示报告）, cite: bha-1978-11-26-wuhan-720-redress, quote: true }
+    - { voice: officialLater, text: “七•二〇事件”应予平反、昭雪，但平反昭雪的决定和“七·二〇事件”经过，不要登报和广播（1978 年 11 月中共中央通知）, cite: bha-1978-11-26-wuhan-720-redress, quote: true }
+    - { voice: editor, text: 同一份中央文件把武汉军区的支左称为“方向、路线错误”，又说“王任重和陈再道则是上述事件的罪魁祸首”——王任重这时已在北京被打倒，并不在武汉。, cite: ws-1967-07-26-wuhan-notice }
+    - { voice: editor, text: 本条旧摘要作“7 月 20 日凌晨……冲进东湖宾馆，揪走王力殴打”“毛泽东当天转移上海”，并有“湖北此后据统计有十八万余人被打伤打残、六百多人死亡”；现据所引材料改写，伤亡数字暂无可抓取的出处，删去待补。, cite: wikipedia-zh-wuhan-720 }
+  cites: [ws-1967-07-26-wuhan-notice, bha-1978-11-26-wuhan-720-redress, marxists-qibenyu-wuhan-720, wikipedia-zh-wuhan-720]
 
 - id: 1967-08-01-army-handful
   date: 1967-08-01
