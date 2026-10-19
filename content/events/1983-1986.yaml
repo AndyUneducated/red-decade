@@ -80,7 +80,8 @@
   concepts: [factionalism]
   voices:
     - { voice: doc, text: 清理“三种人”，是纯洁组织的关键问题（1983 年《关于整党的决定》）, cite: ws-1983-10-11-party-rectification, quote: true }
-  cites: [ws-1983-10-11-party-rectification]
+    - { voice: officialLater, text: 但是，整党工作发展不平衡，有相当一部分单位包括一部分高、中级党政领导机关，没有全面完成整党的四项基本任务，有的甚至走了过场（1987 年 5 月薄一波的整党总结报告，新华社摘发）, cite: rmrb-1987-05-27-party-rectification-summary, quote: true }
+  cites: [ws-1983-10-11-party-rectification, rmrb-1987-05-27-party-rectification-summary]
 
 - id: 1983-11-02-zhao-dengcheng-sentenced
   date: 1983-11-02
@@ -557,9 +558,10 @@
   title: 邓小平谈学生闹事：“不能搞三权鼎立那一套”
   lane: center
   weight: 2
-  summary: 据大事记，邓小平同几位中央负责同志谈学生上街问题，说“学生闹事，大事出不了，但从问题的性质来看，是一个很重大的事件”；凡是闹得起来的地方，都是领导“旗帜不鲜明，态度不坚决”，是几年来反对资产阶级自由化不力的结果；讲民主不能搬用资产阶级民主。此前 12 月 26 日，北京市人大常委会通过关于游行示威的暂行规定。1987 年 1 月 6 日，中共中央通知向全体党员和干部群众传达这次讲话的要点。
+  summary: 邓小平同几位中央负责同志谈学生上街问题，说“学生闹事，大事出不了，但从问题的性质来看，是一个很重大的事件”；凡是闹得起来的地方，都是领导“旗帜不鲜明，态度不坚决”，是几年来反对资产阶级自由化不力的结果；讲民主不能搬用资产阶级民主。此前 12 月 26 日，北京市人大常委会通过关于游行示威的暂行规定。1987 年 1 月 6 日，中共中央通知向全体党员和干部群众传达这次讲话的要点。
   people: [deng-xiaoping]
   voices:
     - { voice: officialLater, text: 学生闹事，大事出不了，但从问题的性质来看，是一个很重大的事件, cite: ws-1987-01-deng-student-unrest, quote: true }
     - { voice: officialLater, text: 我们讲民主，不能搬用资产阶级的民主，不能搞三权鼎立那一套, cite: ws-1987-01-deng-student-unrest, quote: true }
-  cites: [ws-1987-01-deng-student-unrest]
+    - { voice: doc, text: 凡是闹得起来的地方，都是因为那里的领导旗帜不鲜明，态度不坚决（谈话原文，《邓小平文选》第三卷）, cite: reformdata-1986-deng-anti-liberalization, quote: true }
+  cites: [ws-1987-01-deng-student-unrest, reformdata-1986-deng-anti-liberalization]

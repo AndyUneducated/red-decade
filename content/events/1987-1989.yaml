@@ -169,7 +169,8 @@
   people: [zhao-ziyang]
   voices:
     - { voice: officialLater, text: 在政治思想领域，消除资产阶级自由化思潮影响的任务还相当艰巨（1987 年政府工作报告）, cite: ws-1987-gov-report, quote: true }
-  cites: [ws-1987-gov-report]
+    - { voice: doc, text: 要防止以“左”批右，决不允许因为反对资产阶级自由化而妨碍改革、开放、搞活政策的贯彻执行（两个月前的中央反自由化通知）, cite: reformdata-1987-01-28-anti-liberalization-notice, quote: true }
+  cites: [ws-1987-gov-report, reformdata-1987-01-28-anti-liberalization-notice]
 
 - id: 1987-04-npcsc-laws
   date: 1987-04
@@ -263,11 +264,12 @@
   lane: econ
   weight: 2
   place: 北京
-  summary: 李鹏在七届人大二次会议上的报告以“治理经济环境和整顿经济秩序”为主题，承认政府在指导上“也有缺点和失误”，在经济建设中“存在着急于求成的倾向”，忽视人口多、资源短缺、发展不平衡的实际。一个月后胡耀邦去世。
+  summary: 李鹏在七届人大二次会议上的报告以“治理经济环境和整顿经济秩序”为主题，承认政府在指导上“也有缺点和失误”，在经济建设中“存在着急于求成的倾向”，忽视人口多、资源短缺、发展不平衡的实际。半年前的十三届三中全会已决定把明后两年的重点“突出地放到治理经济环境和整顿经济秩序上来”。一个月后胡耀邦去世。
   people: [li-peng]
   voices:
     - { voice: officialLater, text: 但与此同时，我们在对工作的指导上也有缺点和失误。总的来看，在经济建设中，存在着急于求成的倾向（1989 年政府工作报告）, cite: ws-1989-03-gov-report, quote: true }
-  cites: [ws-1989-03-gov-report]
+    - { voice: doc, text: 明年价格改革的步子较小。务必确保明年的物价上涨幅度明显低于今年，明年一切工作都要服从这一点（1988 年 9 月十三届三中全会公报）, cite: reformdata-1988-09-30-third-plenum-communique, quote: true }
+  cites: [ws-1989-03-gov-report, reformdata-1988-09-30-third-plenum-communique]
 
 - id: 1989-05-20-beijing-orders
   date: 1989-05-20

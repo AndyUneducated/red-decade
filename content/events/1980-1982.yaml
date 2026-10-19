@@ -63,7 +63,8 @@
     - { voice: officialLater, text: 为了争取在本世纪末把我国人口总数控制在十二亿以内，国务院已经向全国人民发出号召，提倡一对夫妇只生育一个孩子（1980 年中共中央公开信）, cite: ws-1980-09-25-population-letter, quote: true }
     - { voice: officialLater, text: 而中华人民共和国建立以后的三十年中，出生了人口六亿多，除去死亡，净增四亿三千多万人（同一公开信）, cite: ws-1980-09-25-population-letter, quote: true }
     - { voice: officialLater, text: 并且坚决不干强迫命令违法乱纪的事，也劝说别人不干强迫命令违法乱纪的事（同一公开信）, cite: ws-1980-09-25-population-letter, quote: true }
-  cites: [ws-1980-09-25-population-letter]
+    - { voice: doc, text: 实行计划生育，是我国的一项基本国策。到本世纪末，必须力争把我国人口控制在十二亿以内（两年后胡耀邦的十二大报告）, cite: ws-1982-09-01-twelfth-congress-report, quote: true }
+  cites: [ws-1980-09-25-population-letter, ws-1982-09-01-twelfth-congress-report]
 
 - id: 1980-09-29-hu-feng-rehab
   date: 1980-09-29
@@ -136,7 +137,8 @@
   people: [zhao-ziyang]
   voices:
     - { voice: officialLater, text: 围绕着提高经济效益，走出一条经济建设的新路子，必须认真贯彻执行下列十条方针（1981 年政府工作报告）, cite: ws-1981-gov-report, quote: true }
-  cites: [ws-1981-gov-report]
+    - { voice: doc, text: 为了促进社会主义经济的全面高涨，在全部经济工作中，必须继续贯彻执行五届人大四次会议批准的十条经济建设方针（1982 年 9 月胡耀邦的十二大报告）, cite: ws-1982-09-01-twelfth-congress-report, quote: true }
+  cites: [ws-1981-gov-report, ws-1982-09-01-twelfth-congress-report]
 
 - id: 1982-02-20-cadre-retirement
   date: 1982-02-20
@@ -291,7 +293,8 @@
   people: [zhao-ziyang]
   voices:
     - { voice: officialLater, text: 要求从一九八三年到一九八七年的五年间争取实现国家财政经济状况的根本好转（1982 年政府工作报告）, cite: ws-1982-12-gov-report, quote: true }
-  cites: [ws-1982-12-gov-report]
+    - { voice: doc, text: 在一九八一年到一九八五年的第六个五年计划期间，要继续坚定不移地贯彻执行调整、改革、整顿、提高的方针，厉行节约，反对浪费，把全部经济工作转到以提高经济效益为中心的轨道上来（三个月前胡耀邦的十二大报告）, cite: ws-1982-09-01-twelfth-congress-report, quote: true }
+  cites: [ws-1982-12-gov-report, ws-1982-09-01-twelfth-congress-report]
 
 - id: 1980-cangwu-death-verdicts
   date: 1980
@@ -364,7 +367,8 @@
   voices:
     - { voice: officialLater, text: 近三年来安置了二千多万人就业, cite: ws-1981-urban-employment, quote: true }
     - { voice: officialLater, text: 党中央、国务院对城镇集体经济和个体经济的发展采取积极扶持的方针, cite: ws-1981-urban-employment, quote: true }
-  cites: [ws-1981-urban-employment]
+    - { voice: doc, text: 城镇青年和其他居民集资经营的合作经济，近几年在许多地方发展了起来，起了很好的作用。党和政府应当给以支持和指导，决不允许任何方面对它们排挤和打击（1982 年 9 月胡耀邦的十二大报告）, cite: ws-1982-09-01-twelfth-congress-report, quote: true }
+  cites: [ws-1981-urban-employment, ws-1982-09-01-twelfth-congress-report]
 
 - id: 1982-03-08-economic-crimes-decision
   date: 1982-03-08

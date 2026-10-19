@@ -42,6 +42,37 @@ web:
     url: http://www.reformdata.org/1987/0128/2928.shtml
     via: 改革大数据服务平台转录《十二大以来重要文献选编》下
     start: 一、各级党组织务必充分认识
+  - id: reformdata-1986-deng-anti-liberalization
+    title: 旗帜鲜明地反对资产阶级自由化
+    date: 1986-12-30
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《旗帜鲜明地反对资产阶级自由化》（1986 年 12 月 30 日同几位中央负责同志的谈话，《邓小平文选》第三卷）
+    url: http://app.reformdata.org/print.php?contentid=1702
+    via: 改革大数据服务平台转录《邓小平文选》第三卷（打印页）
+    start: （一九八六年十二月三十日）
+    end: 领导态度坚决了，就闹不起来了。
+  - id: reformdata-1988-09-30-third-plenum-communique
+    title: 中国共产党第十三届中央委员会第三次全体会议公报
+    date: 1988-09-30
+    author: 中共十三届三中全会
+    kind: party-doc
+    tier: 1
+    alias: 1988 年 9 月 30 日十三届三中全会公报（治理经济环境、整顿经济秩序）
+    url: http://www.reformdata.org/1988/0930/3200.shtml
+    via: 改革大数据服务平台转录《十三大以来重要文献选编》上
+    start: （一九八八年九月三十日通过）
+    end: 有关方面主要负责同志六十三人。
+  - id: rmrb-1987-05-27-party-rectification-summary
+    title: 薄一波在全国整党工作总结会议上宣布 全国整党工作基本结束
+    date: 1987-05-27
+    author: 新华社
+    kind: news
+    alias: 1987 年 5 月 27 日新华社电：薄一波宣布全国整党基本结束
+    url: https://cn.govopendata.com/renminribao/1987/5/27/1/
+    via: 《人民日报》1987-05-27 第 1 版（govopendata 转录）
+    article: 薄一波在全国整党工作总结会议上宣布
   - id: nsarchive-1999-tiananmen-ebb16
     title: "Tiananmen Square, 1989: The Declassified History (National Security Archive Electronic Briefing Book No. 16)"
     date: 1999-06-01

@@ -452,6 +452,7 @@ archive/rmrb-page-1987-01-15-1
 archive/rmrb-page-1987-01-17-1
 archive/rmrb-page-1987-01-25-1
 archive/rmrb-page-1987-02-21-2
+archive/rmrb-page-1987-05-27-1
 archive/rmrb-page-1988-02-24-2
 archive/rmrb-page-1989-03-01-2
 archive/rmrb-page-1989-04-16-1
@@ -3387,7 +3388,9 @@ sources/reformdata-1982-peng-zhen-constitution-report
 sources/reformdata-1983-10-12-commune-separation
 sources/reformdata-1984-deng-special-zones
 sources/reformdata-1985-ten-rural-policies
+sources/reformdata-1986-deng-anti-liberalization
 sources/reformdata-1987-01-28-anti-liberalization-notice
+sources/reformdata-1988-09-30-third-plenum-communique
 sources/reformdata-1988-deng-price-reform
 sources/rfa-2001-03-03-yu-luowen
 sources/rmrb-1954-11-01-census-1953
@@ -3561,6 +3564,7 @@ sources/rmrb-1987-01-15-wang-ruowang
 sources/rmrb-1987-01-17-politburo
 sources/rmrb-1987-01-25-liu-binyan
 sources/rmrb-1987-02-21-stats-1986
+sources/rmrb-1987-05-27-party-rectification-summary
 sources/rmrb-1988-02-24-stats-1987
 sources/rmrb-1989-03-01-stats-1988
 sources/rmrb-1989-04-16-hu-yaobang-obit

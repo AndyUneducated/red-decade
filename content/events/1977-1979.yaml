@@ -88,7 +88,8 @@
     - { voice: officialLater, text: 有反必肃，有错必纠，这是我党的一贯方针。已经发现划错了的，尽管事隔多年，也应予以改正（中发〔1978〕55 号）, cite: ws-1978-09-17-cc-notice, quote: true }
     - { voice: officialLater, text: 至七月中旬，属于错划已经改正的有××万余人，占所划右派总数的百分之九十（1979 年五部门请示）, cite: ws-1979-rightist-followup, quote: true }
     - { voice: officialLater, text: 拟维持原案的五人：章伯钧（故）．罗隆基（故）．彭文应（故），储安平（故），陈仁炳（1980 年统战部复查报告）, cite: ws-1980-05-08-rightist-review, quote: true }
-  cites: [ws-1978-09-17-cc-notice, ws-1979-rightist-followup, ws-1980-05-08-rightist-review]
+    - { voice: doc, text: 错误在于扩大化。统战部写了个报告给中央，提出错划的都要改正，没有错划的不能改正（1980 年邓小平谈历史决议起草，同时说“一九五七年反右派斗争还是要肯定”）, cite: reformdata-1980-deng-resolution-drafting, quote: true }
+  cites: [ws-1978-09-17-cc-notice, ws-1979-rightist-followup, ws-1980-05-08-rightist-review, reformdata-1980-deng-resolution-drafting]
 
 - id: 1978-05-21-huang-shuai
   date: 1978-05-21
