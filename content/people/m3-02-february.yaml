@@ -73,7 +73,7 @@
     - { date: 1926, s: normal, note: 入党, cite: rmrb-1983-10-03-tan-zhenlin-obituary }
     - { date: 1959-04, s: power, note: 国务院副总理, verify: true }
     - { date: 1967-01, s: attacked, note: 农林口造反派揪斗, verify: true }
-    - { date: 1967-02-16, s: attacked, note: 怀仁堂碰头会上痛斥张春桥, verify: true }
+    - { date: 1967-02-16, s: attacked, note: 怀仁堂碰头会上痛斥张春桥（维基只记 1967 年 2 月，称他在怀仁堂会上与陈伯达、江青、康生、张春桥等激烈争论，事后被斥为“资产阶级复辟派”）（维基百科，未核原件）, cite: enwiki-tan-zhenlin }
     - { date: 1967-03, s: sidelined, note: 停职检讨, verify: true }
     - { date: 1969-04, s: sidelined, note: 九大落选中央委员, verify: true }
     - { date: 1973, s: restored, note: 经毛泽东指示恢复待遇，十大当选中央委员（此前数据作 1973-08）（维基百科，未核原件）, cite: zhwiki-tan-zhenlin }
@@ -598,7 +598,7 @@
     - { date: 1937-10, s: power, note: 10 月底到延安任中组部长（此前数据作 1937-12）, cite: rmrb-1995-04-12-chen-yun-obituary }
     - { date: 1956-09, s: power, note: 八届一中全会当选政治局常委、中共中央副主席（维基百科，未核原件）, cite: zhwiki-chen-yun }
     - { date: 1962-03, s: sidelined, note: 受毛泽东批评后养病, verify: true }
-    - { date: 1966-08, s: sidelined, note: 不再任副主席, verify: true }
+    - { date: 1966-08, s: sidelined, note: 不再任副主席（维基信息框记副主席任期止于 1966 年 8 月 1 日）（维基百科，未核原件）, cite: enwiki-chen-yun }
     - { date: 1967-02, s: attacked, note: 受到批判, cite: ws-1981-resolution }
     - { date: 1969-10-20, s: sidelined, note: 下放到江西南昌青云谱江西化工石油机械厂（维基百科，未核原件）, cite: zhwiki-chen-yun }
     - { date: 1972-04-24, s: normal, note: 由南昌返回北京（此前数据作 1972）（维基百科，未核原件）, cite: zhwiki-chen-yun }

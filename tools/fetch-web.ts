@@ -5,7 +5,8 @@
 //   research/fetch-log.jsonl   one line per fetch (append-only), sha256 of the raw page
 // Extraction: `article` picks a People's Daily article by heading; otherwise `start`/`end`
 // mark the first and last characters of the wanted text (inclusive).
-// `excerpt: true` + `keep: [...]` keeps only paragraphs containing one of the `keep` strings.
+// `excerpt: true` + `keep: [...]` keeps only paragraphs containing one of the `keep` strings
+// (a `keep` string starting with `=` must equal the whole paragraph, for short infobox lines).
 // `rows: true` keeps each table row on one line. `charset: gbk` overrides the detected encoding.
 // `pdf: true` keeps the PDF as sources/raw/<id>.pdf and extracts one line per PDF text line
 // (`pages: [first, last]` limits the pages; add `unwrap: true` (`unwrap: en` for English) to join wrapped lines,
@@ -146,7 +147,7 @@ for (const e of entries) {
     await new Promise((r) => setTimeout(r, 1500))
     continue
   }
-  if (e.excerpt) paras = paras.filter((p) => (e.keep ?? []).some((k) => p.includes(k)))
+  if (e.excerpt) paras = paras.filter((p) => (e.keep ?? []).some((k) => (k.startsWith('=') ? p === k.slice(1) : p.includes(k))))
   else if (bytes) writeFileSync(join(ROOT, 'sources', 'raw', `${e.id}.pdf`), bytes)
   else writeFileSync(join(ROOT, 'sources', 'raw', `${e.id}.html`), html)
   text = paras.join('\n\n')

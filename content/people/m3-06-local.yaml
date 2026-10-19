@@ -249,7 +249,7 @@
   fate:
     - { date: 1952, s: power, note: 秋任四川省委第一书记（此前数据作 1952-09）, cite: rmrb-1989-05-08-li-jingquan-bio }
     - { date: 1958-05, s: power, note: 增选为政治局委员, verify: true }
-    - { date: 1960-11, s: power, note: 西南局第一书记, verify: true }
+    - { date: 1961, s: power, note: 任西南局第一书记，仍兼四川省委第一书记（此前数据作 1960-11）（维基百科，未核原件）, cite: enwiki-li-jingquan }
     - { date: 1967-01, s: attacked, note: 刘结挺、张西挺散发《李井泉罪行录》, cite: ws-1982-liu-zhang-case }
     - { date: 1967-04-04, s: purged, note: 中央通知定为“走资本主义道路当权派”, cite: ws-1967-04-04-yibin-rehab }
     - { date: 1973, s: restored, note: 当选十届中央委员（此前数据作 1973-08）（维基百科，未核原件）, cite: zhwiki-li-jingquan }

@@ -135,7 +135,7 @@
   fate:
     - { date: 1938-04, s: normal, note: 入党, cite: rmrb-1988-08-02-ji-dengkui-bio }
     - { date: 1963, s: rise, note: 河南省委常委、候补书记兼秘书长（此前数据作 1958 年任省委书记处书记；生平作 1963 年）, cite: rmrb-1988-08-02-ji-dengkui-bio }
-    - { date: 1967, s: attacked, note: 河南造反派揪斗, verify: true }
+    - { date: 1967-01, s: attacked, note: 一月风暴中被河南造反派关押六个月，多次批斗，7 月获释（此前数据作 1967）（维基百科，未核原件）, cite: enwiki-ji-dengkui }
     - { date: 1968, s: restored, note: 河南省革委会副主任（此前数据作 1968-01；生平未写月份）, cite: rmrb-1988-08-02-ji-dengkui-bio }
     - { date: 1969-04-28, s: rise, note: 政治局候补委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1971-01, s: power, note: 北京军区第一政委, cite: ws-1971-12-lin-chen-material-1 }
@@ -209,7 +209,7 @@
     - { date: 1955, s: power, note: 吉林省委第一书记（维基百科，未核原件）, cite: zhwiki-wu-de }
     - { date: 1966-06-03, s: rise, note: 调任北京市委第二书记, cite: rmrb-1966-06-04-new-committee }
     - { date: 1967-04-20, s: power, note: 北京市革委会副主任, cite: rmrb-1967-04-21-beijing-revcom }
-    - { date: 1972-10, s: power, note: 北京市委第一书记, verify: true }
+    - { date: 1972, s: power, note: 谢富治死后接任北京市革委会主任兼市委第一书记（此前数据作 1972-10，维基只记年份）（维基百科，未核原件）, cite: enwiki-wu-de }
     - { date: 1976-04-05, s: power, note: 天安门广场广播讲话, verify: true }
     - { date: 1978-10, s: sidelined, note: 离开北京市, verify: true }
     - { date: 1980-02, s: sidelined, note: 十一届五中全会批准辞职, cite: rmrb-1980-03-01-fifth-plenum }
@@ -569,7 +569,7 @@
     - { date: 1948, s: normal, note: 入党, cite: rmrb-1986-03-27-chen-yonggui-death }
     - { date: 1952, s: normal, note: 接替贾进才任大寨大队支部书记（此前数据作 1953）（维基百科，未核原件）, cite: zhwiki-chen-yonggui }
     - { date: 1964, s: rise, note: “农业学大寨”, verify: true }
-    - { date: 1967-03, s: power, note: 山西省革委会副主任, verify: true }
+    - { date: 1967, s: power, note: 山西省革委会副主任（此前数据作 1967-03，维基只记年份）（维基百科，未核原件）, cite: enwiki-chen-yonggui }
     - { date: 1973-08, s: rise, note: 政治局委员, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
     - { date: 1980-09, s: sidelined, note: 被迫辞去副总理（维基百科，未核原件）, cite: zhwiki-chen-yonggui }

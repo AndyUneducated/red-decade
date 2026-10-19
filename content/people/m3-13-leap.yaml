@@ -207,9 +207,9 @@
   rehab:
     - { date: 1981-06-27, text: 历史决议把“农业中要实行生产责任制的观点”记在“邓子恢等同志”名下，与毛泽东、刘少奇、周恩来、陈云、邓小平、朱德的观点并列, cite: ws-1981-resolution }
   fate:
-    - { date: 1952-11, s: power, note: 中央农村工作部部长, verify: true }
+    - { date: 1953, s: power, note: 任新设的中央农村工作部部长（维基作“early 1953”；此前数据作 1952-11）（维基百科，未核原件）, cite: enwiki-deng-zihui }
     - { date: 1955-07, s: attacked, note: 被批“小脚女人”, verify: true }
-    - { date: 1962-08, s: attacked, note: 被批“单干风”, verify: true }
+    - { date: 1962-08, s: attacked, note: 北戴河中央工作会议上“单干风”受批判，8 月 10 日自辩，次日遭毛泽东贬斥（维基百科，未核原件）, cite: enwiki-deng-zihui }
     - { date: 1962-11, s: sidelined, note: 农村工作部撤销, verify: true }
     - { date: 1965-01, s: sidelined, note: 三届人大一次会议免去副总理，改任全国政协副主席（维基百科，未核原件）, cite: zhwiki-deng-zihui }
     - { date: 1967, s: attacked, note: 文革中受批判, verify: true }

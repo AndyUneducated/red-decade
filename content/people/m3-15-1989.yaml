@@ -360,7 +360,7 @@
   factions: [democracy]
   fate:
     - { date: 1957, s: purged, note: 反右运动中被划为右派，开除党籍（维基百科，未核原件）, cite: zhwiki-fang-lizhi }
-    - { date: 1966, s: attacked, note: 文革中受审查、被关押，下放淮南煤矿劳动（月份不详）, verify: true }
+    - { date: 1969, s: attacked, note: 随中国科大迁到合肥，与其他“问题人员”一起下放煤矿劳动，1971 年又到砖厂劳动（此前数据作 1966，称文革中受审查、被关押，下放淮南煤矿）（维基百科，未核原件）, cite: enwiki-fang-lizhi }
     - { date: 1978, s: restored, note: 恢复党籍, verify: true }
     - { date: 1984-09-17, s: rise, note: 中国科学技术大学第一副校长（至 1987-01-12）（维基百科，未核原件）, cite: zhwiki-fang-lizhi }
     - { date: 1987-01, s: purged, note: 撤销副校长职务，1 月 17 日安徽省纪委决定开除党籍（维基百科，未核原件）, cite: zhwiki-fang-lizhi }
@@ -452,7 +452,7 @@
     - { voice: officialLater, text: “高自联”的头头王丹说，选在13日开始绝食，“正好可以借戈尔巴乔夫访华压他们”（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
   factions: [democracy]
   fate:
-    - { date: 1989-04, s: rise, note: 北京高校学生自治联合会负责人, verify: true }
+    - { date: 1989, s: rise, note: 作为北京大学代表加入学运的组织机构（此前数据作 1989-04，称北京高校学生自治联合会负责人）（维基百科，未核原件）, cite: enwiki-wang-dan }
     - { date: 1989-07-02, s: detained, note: 在北京被捕，关押秦城（维基百科，未核原件）, cite: zhwiki-wang-dan }
     - { date: 1993-02, s: sidelined, note: 获释（维基百科，未核原件）, cite: zhwiki-wang-dan }
     - { date: 1995-05-21, s: detained, note: 再次被捕，1996-10-30 以“阴谋颠覆政府罪”判刑十一年（维基百科，未核原件）, cite: zhwiki-wang-dan }

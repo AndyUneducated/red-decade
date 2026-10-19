@@ -537,13 +537,13 @@
   factions: [marshals]
   fate:
     - { date: 1927, s: normal, note: 参加黄麻起义, cite: people-jiangshuai-chen-zaidao }
-    - { date: 1955-02, s: power, note: 武汉军区司令员, verify: true }
+    - { date: 1954, s: power, note: 武汉军区司令员（维基作 1954–1967 年在任；此前数据作 1955-02）（维基百科，未核原件）, cite: enwiki-chen-zaidao }
     - { date: 1967-03, s: power, note: 武汉军区宣布取缔“工人总部”, verify: true }
     - { date: 1967-07-20, s: power, note: 七二〇事件, cite: ws-1967-07-26-wuhan-notice }
     - { date: 1967-07-26, s: purged, note: 军区公告定为“罪魁祸首”, cite: ws-1967-07-26-wuhan-notice }
     - { date: 1967-08, s: detained, note: 在京西宾馆遭批斗，隔离审查, verify: true }
     - { date: 1972, s: restored, note: 起任福州军区副司令员, cite: people-jiangshuai-chen-zaidao }
-    - { date: 1977, s: power, note: 铁道兵司令员, verify: true }
+    - { date: 1977, s: power, note: 铁道兵司令员（至 1983 年）（维基百科，未核原件）, cite: enwiki-chen-zaidao }
     - { date: 1978-12, s: power, note: 增补为中央委员, cite: ws-1978-12-third-plenum }
     - { date: 1993-04-06, s: dead, cite: people-jiangshuai-chen-zaidao }
   cites: [ws-1967-07-26-wuhan-notice, ws-1978-12-third-plenum, ws-1980-indictment]

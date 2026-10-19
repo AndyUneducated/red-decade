@@ -1536,7 +1536,7 @@
   factions: [premier, ccrg]
   fate:
     - { date: 1926, s: normal, note: 入黄埔军校第五期，同年入党（维基百科，未核原件）, cite: zhwiki-tao-zhu }
-    - { date: 1927-12, s: normal, note: 参加广州起义, verify: true }
+    - { date: 1927-12, s: normal, note: 参加广州起义（维基称他先后参加南昌起义和广州起义）（维基百科，未核原件）, cite: enwiki-tao-zhu }
     - { date: 1933, s: detained, note: 在上海被捕，押送南京宪兵司令部，判处无期徒刑（维基百科，未核原件）, place: nanjing, cite: zhwiki-tao-zhu }
     - { date: 1937-09-26, s: normal, note: 经周恩来、叶剑英交涉，由黄文杰营救出狱（此前数据作 1937）（维基百科，未核原件）, cite: zhwiki-tao-zhu }
     - { date: 1945-09, s: rise, note: 抵沈阳，任辽西省委书记（维基百科，未核原件）, cite: zhwiki-tao-zhu }
@@ -1921,7 +1921,7 @@
     - { date: 1934-01, s: rise, note: 红三军团政委、中央候补委员, cite: ws-1998-09-yang-shangkun-obituary }
     - { date: 1937-11, s: power, note: 北方局书记, cite: ws-1998-09-yang-shangkun-obituary }
     - { date: 1945, s: power, note: 中央办公厅主任 }
-    - { date: 1965-11-10, s: purged, note: 被免去中办主任, verify: true }
+    - { date: 1965-11-10, s: purged, note: 被免去中办主任（维基信息框记中办主任任期止于 1965 年 11 月 10 日；正文称 1965 年 12 月中旬被定为反革命）（维基百科，未核原件）, cite: enwiki-yang-shangkun }
     - { date: 1966-12, s: detained, verify: true }
     - { date: 1978-12, s: restored, note: 任广东省委第二书记, cite: ws-1998-09-yang-shangkun-obituary }
     - { date: 1982-09, s: power, note: 军委常务副主席, cite: ws-1998-09-yang-shangkun-obituary }
@@ -4253,8 +4253,8 @@
   deathPlace: 蒙古温都尔汗附近
   party: 中国共产党
   positions:
-    - { title: 林彪办公室主任, orgName: 林彪办公室, sys: army, from: 1965, to: 1971-09-13, verify: true }
-    - { title: 中央军委办事组成员, orgName: 中央军委办事组, from: 1967-08, to: 1971-09-13, verify: true }
+    - { title: 林彪办公室主任, orgName: 林彪办公室, sys: army, from: 1960, to: 1971-09-13, cite: enwiki-ye-qun }
+    - { title: 中央军委办事组成员, orgName: 中央军委办事组, from: 1967-08, to: 1971-09-13, cite: enwiki-ye-qun }
     - { title: 中共第九届中央政治局委员, orgName: 中共中央政治局, from: 1969-04-28, to: 1971-09-13, cite: ws-1969-04-28-9th-cc-plenum }
   tier: 2
   role1966: 林彪办公室主任
@@ -4298,9 +4298,9 @@
     - { voice: judicial1980, text: 叶群（原中共第九届中央政治局委员，林彪之妻）……都是林彪、江青反革命集团案的主犯（1981 年特别法庭判决书；因已死亡不再追究刑事责任）, cite: ws-1981-01-25-judgment }
   factions: [lin]
   fate:
-    - { date: 1965, s: power, note: 林彪办公室主任, verify: true }
+    - { date: 1960, s: power, note: 从广州回北京，任林彪办公室主任（此前数据作 1965）（维基百科，未核原件）, cite: enwiki-ye-qun }
     - { date: 1966-08-11, s: power, note: 向雷英夫口授诬陷刘少奇的材料, cite: ws-1980-indictment }
-    - { date: 1967-08, s: power, note: 军委办事组成员, verify: true }
+    - { date: 1967-08, s: power, note: 军委办事组成立，为四名创始成员之一（维基百科，未核原件）, cite: enwiki-ye-qun }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1970-10-15, s: attacked, note: 毛泽东批评其书面检讨, cite: ws-1971-12-lin-chen-material-1 }
     - { date: 1971-09-13, s: dead, note: 随林彪出逃，坠机身亡, cite: ws-1971-09-18-notice }

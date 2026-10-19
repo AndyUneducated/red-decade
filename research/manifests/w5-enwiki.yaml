@@ -1,0 +1,182 @@
+# W5 第 11 批（2026-10-19）：英文维基百科条目（4 级，转录、未核原件；英文原文照录，只留与待核节点有关的段落）。
+web:
+  - id: enwiki-tan-zhenlin
+    title: Tan Zhenlin (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Tan Zhenlin”条目（2026-10-19 抓取，谭震林）
+    url: https://en.wikipedia.org/wiki/Tan_Zhenlin
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['led a session at Huairen Hall']
+  - id: enwiki-deng-zihui
+    title: Deng Zihui (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Deng Zihui”条目（2026-10-19 抓取，邓子恢）
+    url: https://en.wikipedia.org/wiki/Deng_Zihui
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['head the party''s new Rural Work Department in early 1953', 'winds of individual farming']
+  - id: enwiki-chen-zaidao
+    title: Chen Zaidao (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Chen Zaidao”条目（2026-10-19 抓取，陈再道）
+    url: https://en.wikipedia.org/wiki/Chen_Zaidao
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['commanded the Wuhan Military Region from 1954 to 1967', 'Railway Corps', '1977–1983', '1977 – 1983']
+  - id: enwiki-wu-de
+    title: Wu De (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Wu De”条目（2026-10-19 抓取，吴德）
+    url: https://en.wikipedia.org/wiki/Wu_De
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['After Xie Fuzhi''s death in 1972']
+  - id: enwiki-yang-xiguang
+    title: Xiaokai Yang (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Xiaokai Yang”条目（2026-10-19 抓取，杨曦光）
+    url: https://en.wikipedia.org/wiki/Xiaokai_Yang
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['6 October 1948 –']
+  - id: enwiki-li-jingquan
+    title: Li Jingquan (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Li Jingquan”条目（2026-10-19 抓取，李井泉）
+    url: https://en.wikipedia.org/wiki/Li_Jingquan
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['In 1961, Li was made']
+  - id: enwiki-yang-shangkun
+    title: Yang Shangkun (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Yang Shangkun”条目（2026-10-19 抓取，杨尚昆）
+    url: https://en.wikipedia.org/wiki/Yang_Shangkun
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['=Director of the General Office of the Chinese Communist Party', '– 10 November 1965']
+  - id: enwiki-ye-qun
+    title: Ye Qun (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Ye Qun”条目（2026-10-19 抓取，叶群）
+    url: https://en.wikipedia.org/wiki/Ye_Qun
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['served as director of Lin Biao''s office', 'formed in August 1967']
+  - id: enwiki-chen-yun
+    title: Chen Yun (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Chen Yun”条目（2026-10-19 抓取，陈云）
+    url: https://en.wikipedia.org/wiki/Chen_Yun
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['=Vice Chairman of the Chinese Communist Party', '– 1 August 1966']
+  - id: enwiki-chen-yonggui
+    title: Chen Yonggui (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Chen Yonggui”条目（2026-10-19 抓取，陈永贵）
+    url: https://en.wikipedia.org/wiki/Chen_Yonggui
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['Learn from Dazhai in agriculture', 'vice-chairman of the Shanxi Revolutionary Committee in 1967']
+  - id: enwiki-fang-lizhi
+    title: Fang Lizhi (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Fang Lizhi”条目（2026-10-19 抓取，方励之）
+    url: https://en.wikipedia.org/wiki/Fang_Lizhi
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['Upon arriving in Hefei in 1969']
+  - id: enwiki-tao-zhu
+    title: Tao Zhu (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Tao Zhu”条目（2026-10-19 抓取，陶铸）
+    url: https://en.wikipedia.org/wiki/Tao_Zhu
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['participated in the Nanchang Uprising and the Guangzhou Uprising']
+  - id: enwiki-ji-dengkui
+    title: Ji Dengkui (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Ji Dengkui”条目（2026-10-19 抓取，纪登奎）
+    url: https://en.wikipedia.org/wiki/Ji_Dengkui
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['imprisoned by the Rebels for six months']
+  - id: enwiki-guo-moruo
+    title: Guo Moruo (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Guo Moruo”条目（2026-10-19 抓取，郭沫若）
+    url: https://en.wikipedia.org/wiki/Guo_Moruo
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['first President of the Chinese Academy of Sciences']
+  - id: enwiki-wang-dan
+    title: Wang Dan (dissident) (Wikipedia)
+    date: 2026-10-19
+    author: Wikipedia editors
+    kind: database
+    tier: 4
+    alias: 英文维基百科“Wang Dan (dissident)”条目（2026-10-19 抓取，王丹）
+    url: https://en.wikipedia.org/wiki/Wang_Dan_(dissident)
+    via: 英文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+    excerpt: true
+    keep: ['joined the movement''s organizing body']
