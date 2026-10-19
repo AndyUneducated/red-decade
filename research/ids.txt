@@ -3445,7 +3445,6 @@ sources/people-jiangshuai-liu-bocheng
 sources/people-jiangshuai-luo-ruiqing
 sources/people-jiangshuai-nie-rongzhen
 sources/people-jiangshuai-peng-dehuai
-sources/people-jiangshuai-qin-jiwei
 sources/people-jiangshuai-qiu-huizuo
 sources/people-jiangshuai-su-yu
 sources/people-jiangshuai-ulanhu
@@ -3457,7 +3456,6 @@ sources/people-jiangshuai-xu-xiangqian
 sources/people-jiangshuai-yang-chengwu
 sources/people-jiangshuai-yang-yong
 sources/people-jiangshuai-zeng-siyu
-sources/people-jiangshuai-zhang-aiping
 sources/people-jiangshuai-zhu-de
 sources/people-leaders-memorial
 sources/people-lin-biao-bio
