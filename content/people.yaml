@@ -1161,14 +1161,16 @@
     - { title: 王力反思录, date: 2001 }
   factions: [ccrg, propdept]
   fate:
-    - { date: 1939, s: normal, note: 入党, verify: true }
-    - { date: 1958, s: rise, note: 《红旗》编委, verify: true }
+    - { date: 1939-03, s: normal, note: 经谷牧介绍入党（维基百科，未核原件）, cite: zhwiki-wang-li }
+    - { date: 1958, s: rise, note: 《红旗》创刊，任编委，后任副总编辑（维基百科，未核原件）, cite: zhwiki-wang-li }
     - { date: 1965-01, s: power }
     - { date: 1966-02-03, s: power, note: 五人小组办公室成员, cite: ws-1966-02-outline }
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
     - { date: 1967-07-20, s: attacked, note: 在武汉被绑架, cite: ws-1967-07-26-wuhan-notice }
-    - { date: 1967-08-30, s: detained, note: 王力、关锋被隔离审查, verify: true }
-    - { date: 1982-01, s: normal, note: 获释，开除党籍, verify: true }
+    - { date: 1967-08-30, s: detained, note: 8 月底毛泽东批示“立刻抓起来”，宣布“请假检讨”，实为隔离审查（维基百科，未核原件）, cite: zhwiki-wang-li }
+    - { date: 1968-01-26, s: detained, note: 投入秦城监狱，囚禁十四年，从未被正式起诉（维基百科，未核原件）, cite: zhwiki-wang-li }
+    - { date: 1982-01-28, s: normal, note: 获释（此前数据作 1982-01“获释，开除党籍”）（维基百科，未核原件）, cite: zhwiki-wang-li }
+    - { date: 1983, s: purged, note: 开除党籍，此后未获正式平反（维基百科，未核原件）, cite: zhwiki-wang-li }
     - { date: 1996-10-21, s: dead }
   cites: [ws-1966-02-outline, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-07-26-wuhan-notice, ws-1967-08-01-gun, ws-1980-indictment]
 
@@ -1229,14 +1231,14 @@
     - { title: 擦亮眼睛，辨别真伪（署名何明）, date: 1966-05-09, cite: ws-1966-05-16-notice-attachment }
   factions: [ccrg]
   fate:
-    - { date: 1933, s: normal, note: 入党, verify: true }
+    - { date: 1933-08, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-guan-feng }
     - { date: 1958, s: rise, note: 《红旗》编委, verify: true }
     - { date: 1965-01, s: normal }
     - { date: 1966-01-08, s: attacked, note: 杂文被送给彭真作为“整左派”的材料, cite: ws-1966-05-16-notice-attachment@1966-01-08 }
     - { date: 1966-02-08, s: rise, note: 毛泽东当面回护, cite: ws-1966-05-16-notice-attachment@1966-02-08 }
     - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
-    - { date: 1967-08-30, s: detained, verify: true }
-    - { date: 1982, s: normal, note: 获释，开除党籍, verify: true }
+    - { date: 1967-08-31, s: detained, note: 王关戚事件后被隔离审查，后关进秦城监狱（此前数据作 1967-08-30）（维基百科，未核原件）, cite: zhwiki-guan-feng }
+    - { date: 1982, s: normal, note: 年初释放出狱（此前数据作“获释，开除党籍”，维基未述开除党籍）（维基百科，未核原件）, cite: zhwiki-guan-feng }
     - { date: 2005-03-03, s: dead }
   cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-08-01-gun, ws-1980-indictment]
 
@@ -1301,16 +1303,16 @@
     - { title: 戚本禹回忆录, date: 2016 }
   factions: [ccrg]
   fate:
-    - { date: 1949, s: normal, note: 入党, verify: true }
+    - { date: 1949, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-qi-benyu }
     - { date: 1950, s: normal, note: 调中央办公厅秘书室, verify: true }
-    - { date: 1963, s: rise, note: 《评〈李秀成自述〉》, verify: true }
+    - { date: 1963, s: rise, note: 发表关于李秀成的论文，受毛泽东高度赞誉（维基百科，未核原件）, cite: zhwiki-qi-benyu }
     - { date: 1965-01, s: normal }
     - { date: 1965-12-21, s: rise, note: 毛泽东点名称赞, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
     - { date: 1966-05-28, s: power, cite: ws-1966-05-ccrg-list }
-    - { date: 1968-01-13, s: detained, verify: true }
+    - { date: 1968-01-14, s: detained, note: 中央宣布“请假检讨”，送秦城监狱（此前数据作 1968-01-13）（维基百科，未核原件）, cite: zhwiki-qi-benyu }
     - { date: 1980-07-14, s: detained, note: 依法逮捕, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1983-11-02, s: detained, note: 判处有期徒刑十八年, cite: ws-1983-11-02-qi-benyu-case }
-    - { date: 1986, s: normal, note: 刑满释放, verify: true }
+    - { date: 1986, s: normal, note: 出狱，后在上海图书馆当图书管理员（维基百科，未核原件）, cite: zhwiki-qi-benyu }
     - { date: 2016-04-20, s: dead }
   cites: [ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-07-09-liu-jiangong-review, ws-1967-08-09-renegades, ws-1980-indictment, ws-1981-01-25-judgment, ws-1983-11-02-qi-benyu-case]
 
@@ -1533,16 +1535,16 @@
     - { title: 理想、情操、精神生活, date: 1962 }
   factions: [premier, ccrg]
   fate:
-    - { date: 1926, s: normal, note: 入党，入黄埔军校, verify: true }
+    - { date: 1926, s: normal, note: 入黄埔军校第五期，同年入党（维基百科，未核原件）, cite: zhwiki-tao-zhu }
     - { date: 1927-12, s: normal, note: 参加广州起义, verify: true }
-    - { date: 1933, s: detained, note: 在上海被捕，关押南京, place: nanjing, verify: true }
-    - { date: 1937, s: normal, note: 国共合作后获释, verify: true }
-    - { date: 1945, s: rise, note: 赴东北任省委书记, verify: true }
-    - { date: 1955, s: power, note: 广东省委第一书记, verify: true }
-    - { date: 1961, s: power, note: 中南局第一书记, verify: true }
-    - { date: 1966-06, s: rise, note: 调任中宣部部长, verify: true }
+    - { date: 1933, s: detained, note: 在上海被捕，押送南京宪兵司令部，判处无期徒刑（维基百科，未核原件）, place: nanjing, cite: zhwiki-tao-zhu }
+    - { date: 1937-09-26, s: normal, note: 经周恩来、叶剑英交涉，由黄文杰营救出狱（此前数据作 1937）（维基百科，未核原件）, cite: zhwiki-tao-zhu }
+    - { date: 1945-09, s: rise, note: 抵沈阳，任辽西省委书记（维基百科，未核原件）, cite: zhwiki-tao-zhu }
+    - { date: 1955, s: power, note: 广东省委书记、第一书记（维基百科，未核原件）, cite: zhwiki-tao-zhu }
+    - { date: 1960, s: power, note: 兼中南局第一书记（此前数据作 1961）（维基百科，未核原件）, cite: zhwiki-tao-zhu }
+    - { date: 1966-05-23, s: rise, note: 政治局扩大会议决定其任书记处常务书记兼中宣部部长（此前数据作 1966-06）（维基百科，未核原件）, cite: zhwiki-tao-zhu }
     - { date: 1966-08, s: power, note: 政治局常委，排名第四, cite: ws-1966-tao-zhu-adviser }
-    - { date: 1967-01-04, s: purged, note: 陈伯达、江青公开宣布其为“保皇派”, verify: true }
+    - { date: 1967-01-04, s: purged, note: 江青、陈伯达、康生宣布其为“中国最大的保皇派”，当晚被软禁于中南海（维基百科，未核原件）, cite: zhwiki-tao-zhu }
     - { date: 1969-10, s: detained, note: 胰腺癌病危中被押送合肥（女儿陶斯亮回忆）, place: hefei, cite: rmrb-1978-12-11-tao-siliang-letter }
     - { date: 1969-11-30, s: dead, note: 到合肥后四十三天去世, cite: rmrb-1978-12-11-tao-siliang-letter }
   cites: [ws-1966-tao-zhu-adviser, ws-1978-12-third-plenum, ws-1981-resolution]
@@ -2549,12 +2551,12 @@
     - { title: 关于《海瑞罢官》的自我批评, date: 1965-12-27, cite: ws-1966-05-16-notice-attachment@1965-12-27 }
   factions: [bjcommittee, academics]
   fate:
-    - { date: 1931, s: normal, note: 入清华大学史学系, verify: true }
-    - { date: 1943, s: normal, note: 加入民盟, verify: true }
-    - { date: 1949-11, s: power, note: 北京市副市长, verify: true }
+    - { date: 1931, s: normal, note: 考入清华大学史学系（维基百科，未核原件）, cite: zhwiki-wu-han }
+    - { date: 1943-07, s: normal, note: 在昆明加入民盟（维基百科，未核原件）, cite: zhwiki-wu-han }
+    - { date: 1949-11, s: power, note: 北京市副市长（维基百科，未核原件）, cite: zhwiki-wu-han }
     - { date: 1965-11-10, s: attacked, note: 姚文元文章发表, cite: ws-1966-05-16-notice-attachment@1965-11-10 }
     - { date: 1966-04-16, s: purged, note: 《北京日报》三版材料, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
-    - { date: 1968-03, s: detained, verify: true }
+    - { date: 1968-03, s: detained, note: 经康生、谢富治批准被捕入狱（维基百科，未核原件）, cite: zhwiki-wu-han }
     - { date: 1969-10-11, s: dead, note: 起诉书列为“被迫害致死”, cite: ws-1980-indictment }
   cites: [ws-1966-05-16-notice-attachment, ws-1966-05-18-lin-speech, ws-1966-06-red-flag-long-live, ws-1967-08-16-peng-dehuai, ws-1980-indictment, ws-1981-01-25-judgment, su-wang-wuhan-bio]
 
@@ -2644,15 +2646,15 @@
     - { title: 从《海瑞罢官》谈到“道德继承论”（署名向阳生）, date: 1965-12-12, cite: ws-1966-05-16-notice-attachment@1965-12-12 }
   factions: [bjcommittee]
   fate:
-    - { date: 1930, s: normal, note: 在上海入党, verify: true }
-    - { date: 1933, s: detained, note: 在上海被捕, place: shanghai, verify: true }
+    - { date: 1930-12, s: normal, note: 在上海入党（维基百科，未核原件）, cite: zhwiki-deng-tuo }
+    - { date: 1932-12-11, s: detained, note: 参加纪念“广州暴动”五周年游行时被捕，送苏州反省院（此前数据作 1933）（维基百科，未核原件）, place: shanghai, cite: zhwiki-deng-tuo }
     - { date: 1938, s: rise, note: 主持《抗敌报》, verify: true }
-    - { date: 1949, s: power, note: 《人民日报》总编辑, verify: true }
+    - { date: 1949, s: power, note: 秋任《人民日报》社长兼总编辑（维基百科，未核原件）, cite: zhwiki-deng-tuo }
     - { date: 1957-04, s: attacked, note: 毛泽东批评《人民日报》“死人办报”, cite: ws-1968-09-01-news-front }
-    - { date: 1958, s: power, note: 调任北京市委书记处书记, verify: true }
+    - { date: 1958-09-12, s: power, note: 调任北京市委书记处书记，吴冷西接任人民日报社长（维基百科，未核原件）, cite: zhwiki-deng-tuo }
     - { date: 1966-04-16, s: attacked, note: 《北京日报》三版材料, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
     - { date: 1966-05-10, s: purged, note: 姚文元《评“三家村”》, cite: ws-1966-05-16-notice-attachment@1966-05-10 }
-    - { date: 1966-05-18, s: dead, note: 自杀；起诉书列为“被迫害致死”但未给日期, cite: ws-1980-indictment, verify: true }
+    - { date: 1966-05-18, s: dead, note: 自杀（维基百科，未核原件）；起诉书列为“被迫害致死”但未给日期, cite: zhwiki-deng-tuo }
   cites: [ws-1962-deng-tuo-yanshan-5, ws-1966-05-16-notice-attachment, ws-1966-05-18-lin-speech, ws-1966-06-02-hail-pku, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: liao-mosha
@@ -3058,10 +3060,10 @@
     - { date: 1933, s: rise, note: 左联党团书记, verify: true }
     - { date: 1949, s: power, note: 中宣部副部长, verify: true }
     - { date: 1966-07-01, s: purged, note: 《红旗》点名, cite: ws-1966-red-flag-index }
-    - { date: 1966-12, s: detained, verify: true }
-    - { date: 1975-07, s: restored, note: 获释, verify: true }
+    - { date: 1967-05, s: detained, note: 入秦城监狱（此前数据作 1966-12）（维基百科，未核原件）, cite: zhwiki-zhou-yang }
+    - { date: 1975, s: restored, note: 出狱（此前数据作 1975-07）（维基百科，未核原件）, cite: zhwiki-zhou-yang }
     - { date: 1979-11, s: power, note: 中国文联主席, verify: true }
-    - { date: 1983-11, s: attacked, note: “清除精神污染”中受批评, verify: true }
+    - { date: 1983-11-06, s: attacked, note: “清除精神污染”中，《人民日报》头版刊登其就“异化”“人道主义”文章所作的自我批评（此前数据作 1983-11）（维基百科，未核原件）, cite: zhwiki-zhou-yang }
     - { date: 1989-07-31, s: dead }
   cites: [ws-1966-03-army-arts, ws-1966-05-16-notice-attachment, ws-1966-red-flag-index, ws-1966-11-01-luxun, ws-1967-red-flag-index, rmrb-1967-04-01-qi-benyu, ws-1967-05-10-opera, ws-1980-indictment]
 
@@ -3684,17 +3686,17 @@
     - { title: 聂元梓回忆录, date: 2005, cite: nie-yuanzi-memoir }
   factions: [rebels]
   fate:
-    - { date: 1938, s: normal, note: 入党, verify: true }
-    - { date: 1964, s: normal, note: 任北大哲学系总支书记, verify: true }
+    - { date: 1938-01, s: normal, note: 经刘子超、路凯介绍入党（维基百科，未核原件）, cite: zhwiki-nie-yuanzi }
+    - { date: 1963, s: normal, note: 春任北大哲学系党总支书记（此前数据作 1964）（维基百科，未核原件）, cite: zhwiki-nie-yuanzi }
     - { date: 1966-05-25, s: rise, note: 贴出大字报, cite: rmrb-1966-06-02-nie-dazibao }
     - { date: 1966-06-01, s: rise, note: 毛泽东决定广播大字报, cite: ws-1967-01-16-rebels-unite }
     - { date: 1966-09, s: power, note: 北大校文革主任, verify: true }
     - { date: 1967-04-20, s: power, note: 北京市革委会副主任, cite: rmrb-1967-04-21-beijing-revcom }
-    - { date: 1969-04, s: power, note: 九届中央候补委员, cite: ws-1982-10-05-nie-yuanzi-case, verify: true }
-    - { date: 1971, s: detained, note: 隔离审查, verify: true }
+    - { date: 1969-04, s: power, note: 九届中央候补委员（维基百科，未核原件）, cite: zhwiki-nie-yuanzi }
+    - { date: 1971, s: detained, note: 年初被隔离审查（维基百科，未核原件）, cite: zhwiki-nie-yuanzi }
     - { date: 1978-04-19, s: detained, note: 逮捕, cite: ws-1982-10-05-nie-yuanzi-case }
     - { date: 1983-03-10, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-10-05-nie-yuanzi-case }
-    - { date: 1984, s: normal, note: 保外就医, verify: true }
+    - { date: 1984-06, s: normal, note: 保外就医，1986 年假释（维基百科，未核原件）, cite: zhwiki-nie-yuanzi }
     - { date: 2019-08-28, s: dead }
   cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, ws-1967-01-16-rebels-unite, ws-1967-02-seize-power, ws-1967-08-bombard-anniv, rmrb-1966-08-19-first-rally, ws-1982-10-05-nie-yuanzi-case, ws-1983-11-02-qi-benyu-case]
 
@@ -4079,12 +4081,12 @@
     - { voice: doc, text: 你们要注意呢，不要搞成四人小宗派呢（毛泽东 1974 年 7 月 17 日，见 1976 年中央通知）, cite: ws-1976-10-18-notice, quote: true }
   factions: [rebels, shanghai]
   fate:
-    - { date: 1950, s: normal, note: 参加志愿军, verify: true }
-    - { date: 1956, s: normal, note: 复员进上海国棉十七厂, verify: true }
-    - { date: 1966-11-09, s: rise, note: 工总司成立, verify: true }
-    - { date: 1966-11-10, s: rise, note: 安亭事件, verify: true }
+    - { date: 1950, s: normal, note: 应征参加志愿军，赴朝鲜（维基百科，未核原件）, cite: zhwiki-wang-hongwen }
+    - { date: 1956-09, s: normal, note: 以预备役少尉转业进上海国棉十七厂（维基百科，未核原件）, cite: zhwiki-wang-hongwen }
+    - { date: 1966-11-06, s: rise, note: 与潘国平、陈阿大等筹组工总司并任司令（此前数据作 1966-11-09“工总司成立”）（维基百科，未核原件）, cite: zhwiki-wang-hongwen }
+    - { date: 1966-11-10, s: rise, note: 率工总司卧轨拦车，安亭事件（维基百科，未核原件）, cite: zhwiki-wang-hongwen }
     - { date: 1967-02, s: power, note: 上海市革委会副主任, cite: ws-1981-01-25-judgment }
-    - { date: 1969-04, s: power, note: 九大中央委员, verify: true }
+    - { date: 1969-04, s: power, note: 九大中央委员（维基百科，未核原件）, cite: zhwiki-wang-hongwen }
     - { date: 1973-08, s: power, note: 中共中央副主席 }
     - { date: 1976-10-06, s: detained, note: 隔离审查, cite: ws-1976-10-18-notice }
     - { date: 1977-07, s: purged, note: 永远开除党籍, cite: ws-1977-07-tenth-third-plenum }
@@ -4596,10 +4598,10 @@
     - { title: 茶馆, date: 1957 }
   factions: [academics]
   fate:
-    - { date: 1949-12, s: normal, note: 回国, verify: true }
-    - { date: 1951-12, s: rise, note: 获“人民艺术家”称号, verify: true }
-    - { date: 1966-08-23, s: attacked, note: 孔庙批斗殴打, verify: true }
-    - { date: 1966-08-24, s: dead, note: 投太平湖；起诉书列为“迫害致死”，未给日期, cite: ws-1980-indictment, verify: true }
+    - { date: 1949-12, s: normal, note: 应邀回国到北京（维基百科，未核原件）, cite: zhwiki-lao-she }
+    - { date: 1951-12, s: rise, note: 因《龙须沟》获北京市人民政府授予“人民艺术家”称号（维基百科，未核原件）, cite: zhwiki-lao-she }
+    - { date: 1966-08-23, s: attacked, note: 红卫兵冲击北京市文联，押至孔庙大成门前殴打（维基百科，未核原件）, cite: zhwiki-lao-she }
+    - { date: 1966-08-24, s: dead, note: 深夜于太平湖畔投湖（维基百科，未核原件）；起诉书列为“迫害致死”，未给日期, cite: zhwiki-lao-she }
   cites: [ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: bian-zhongyun

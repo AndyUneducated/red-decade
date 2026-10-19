@@ -47,11 +47,12 @@
     - { voice: editor, text: 起诉书只在 1976 年批邓一节提到他，判决与刑期都不在本站已收的文件里。, cite: ws-1980-indictment }
   factions: [ccrg, provincial]
   fate:
-    - { date: 1968-05, s: rise, note: 辽宁省革委会副主任, verify: true }
-    - { date: 1975-09, s: rise, note: 毛泽东的联络员, verify: true }
-    - { date: 1976-10-06, s: detained, note: 隔离审查, verify: true }
-    - { date: 1986, s: detained, note: 判处有期徒刑十七年, verify: true }
-    - { date: 1993, s: sidelined, note: 刑满释放, verify: true }
+    - { date: 1968-05-14, s: rise, note: 辽宁省革委会成立，任副主任（维基百科，未核原件）, cite: zhwiki-mao-yuanxin }
+    - { date: 1975, s: rise, note: 被毛泽东指定为中央政治局联络员（此前数据作 1975-09，正文只记年份）（维基百科，未核原件）, cite: zhwiki-mao-yuanxin }
+    - { date: 1976-10-06, s: detained, note: 晚上被张耀祠等拘捕，宣布“保护审查”（维基百科，未核原件）, cite: zhwiki-mao-yuanxin }
+    - { date: 1986-03, s: detained, note: 沈阳市中级人民法院判处有期徒刑十七年（维基百科，未核原件）, cite: zhwiki-mao-yuanxin }
+    - { date: 1989-03-17, s: sidelined, note: 在南昌保外就医（维基百科，未核原件）, cite: zhwiki-mao-yuanxin }
+    - { date: 1993-10, s: sidelined, note: 刑满释放，化名李实在上海汽车工业质量检测研究所工作（维基百科，未核原件）, cite: zhwiki-mao-yuanxin }
   cites: [ws-1980-indictment, ws-1982-chi-qun-case]
 
 - id: wang-hairong

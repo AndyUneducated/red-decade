@@ -181,12 +181,13 @@
   memberships:
     - { f: shgang, from: 1967-01, note: 被张春桥“解放”并结合进市革委会 }
   fate:
-    - { date: 1958, s: normal, note: 上海市委书记处书记, verify: true }
+    - { date: 1956-07, s: normal, note: 上海市委书记处书记（此前数据作 1958）（维基百科，未核原件）, cite: zhwiki-ma-tianshui }
     - { date: 1967-01, s: attacked, note: 一月夺权中被揪斗, verify: true }
-    - { date: 1967-02-24, s: power, note: 市革委会副主任, verify: true }
+    - { date: 1967-02, s: power, note: 市革委会副主任，至 1971 年 1 月（此前数据作 1967-02-24）（维基百科，未核原件）, cite: zhwiki-ma-tianshui }
     - { date: 1976-08, s: power, note: 批准向民兵发枪, cite: ws-1981-01-25-judgment }
     - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
-    - { date: 1988, s: dead, verify: true }
+    - { date: 1978, s: purged, note: 开除党籍，以反革命罪正式逮捕（维基百科，未核原件）, cite: zhwiki-ma-tianshui }
+    - { date: 1988-11-15, s: dead, note: 在精神病院逝世（维基百科，未核原件）, cite: zhwiki-ma-tianshui }
   cites: [ws-1981-01-25-judgment, ws-1982-xu-jingxian-case, ws-1980-indictment]
 
 - id: zhu-yongjia

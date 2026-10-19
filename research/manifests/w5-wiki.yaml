@@ -108,3 +108,148 @@ web:
     keep: ["1983年4月至1993年2月任北京市市长", "1995年4月27日", "1998年7月31日，陈希同被北京市高级", "2004年陈希同获", "2013年6月2日9点54分"]
     via: 中文维基百科（CC BY-SA 4.0）
     note: 维基百科综述，转录、未核原件。
+  # W5 第 7 批（2026-10-18）：文革人物。
+  - id: zhwiki-tao-zhu
+    title: 陶铸（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“陶铸”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%99%B6%E9%93%B8
+    excerpt: true
+    keep: ["陶铸进入广州黄埔军校第五期", "后被国民政府逮捕", "九月中旬抵沈阳", "1955年起，任中共广东省委书记", "1960年，兼任中共中央中南局第一书记", "1966年5月23日中共中央政治局扩大会议", "另一个厅接见武汉"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-deng-tuo
+    title: 邓拓（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“邓拓”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%82%93%E6%8B%93
+    excerpt: true
+    keep: ["1930年12月加入中国共产党", "1932年12月11日", "1949年秋任人民日报社长", "1958年9月12日，邓拓调任", "邓拓（1912年2月26日—1966年5月18日）"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-zhou-yang
+    title: 周扬（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“周扬 (政治人物)”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%91%A8%E6%89%AC_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)
+    excerpt: true
+    keep: ["1967年5月后，入秦城监狱", "1975年，周扬出狱", "1983年11月6日，《人民日报》头版"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-nie-yuanzi
+    title: 聂元梓（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“聂元梓”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E8%81%82%E5%85%83%E6%A2%93
+    excerpt: true
+    keep: ["由刘子超和路凯介绍", "1963年春，任北大哲学系党总支书记", "1969年4月在中国共产党第九次全国代表大会上", "1971年初被隔离审查", "1984年6月，被准保外就医"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-qi-benyu
+    title: 戚本禹（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“戚本禹”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%88%9A%E6%9C%AC%E7%A6%B9
+    excerpt: true
+    keep: ["1942年迁居上海，1949年加入中国共产党", "受到毛泽东的高度赞誉", "1968年1月14日，戚本禹被中央宣布", "1986年出狱后在上海图书馆"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-li
+    title: 王力 (1922年)（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王力 (1922年)”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E5%8A%9B_(1922%E5%B9%B4)
+    excerpt: true
+    keep: ["由谷牧介绍加入中国共产党", "1958年《红旗》杂志创刊", "8月底，毛泽东批示", "1968年1月26日，被投入秦城监狱", "1982年1月28日被释放", "1983年被开除党籍"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-guan-feng
+    title: 关锋（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“关锋”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%85%B3%E9%94%8B
+    excerpt: true
+    keep: ["1933年8月，关锋加入", "8月31日，被隔离审查", "1982年初，释放出狱"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-mao-yuanxin
+    title: 毛远新（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“毛远新”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%AF%9B%E8%BF%9C%E6%96%B0
+    excerpt: true
+    keep: ["1968年5月14日，辽宁省革命委员会宣布成立", "毛远新被毛泽东指定为中央政治局联络员", "10月6日20点30分", "经辽宁省沈阳市中级人民法院判决", "1989年3月17日", "1993年10月，毛远新刑满释放后"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-ma-tianshui
+    title: 马天水（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“马天水”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%A9%AC%E5%A4%A9%E6%B0%B4
+    excerpt: true
+    keep: ["1956年7月到1959年7月", "1967年2月到1971年1月", "1978年，马天水被开除", "1988年11月15日，马天水"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-hongwen
+    title: 王洪文（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王洪文”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E6%B4%AA%E6%96%87
+    excerpt: true
+    keep: ["1950年，王洪文由长春市郊区", "1956年9月，以预备役少尉", "1966年11月6日，王洪文与潘国平", "1966年11月10日，由于上海市委", "1969年4月，中共九大选举王洪文"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wu-han
+    title: 吴晗（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“吴晗”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%90%B4%E6%99%97
+    excerpt: true
+    keep: ["顺利录取清华大学史学系", "1943年7月，在昆明加入", "11月任北京市副市长", "1968年3月经康生、谢富治批准"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-lao-she
+    title: 老舍（维基百科）
+    date: 2026-10-18
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“老舍”条目（2026-10-18 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E8%80%81%E8%88%8D
+    excerpt: true
+    keep: ["1949年12月，应周恩来委托", "1951年12月，因为《龙须沟》", "押至北京孔庙大成门前", "当日深夜，老舍于太平湖畔"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
