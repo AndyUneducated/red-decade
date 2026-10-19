@@ -390,6 +390,7 @@ archive/rmrb-page-1972-02-22-1
 archive/rmrb-page-1972-02-28-1
 archive/rmrb-page-1972-09-30-1
 archive/rmrb-page-1972-10-01-1
+archive/rmrb-page-1972-12-15-1
 archive/rmrb-page-1973-04-13-1
 archive/rmrb-page-1973-07-01-1
 archive/rmrb-page-1973-08-07-1
@@ -430,6 +431,7 @@ archive/rmrb-page-1977-09-29-1
 archive/rmrb-page-1978-05-21-2
 archive/rmrb-page-1978-06-19-2
 archive/rmrb-page-1978-07-06-4
+archive/rmrb-page-1978-12-11-2
 archive/rmrb-page-1979-06-11-2
 archive/rmrb-page-1979-06-28-2
 archive/rmrb-page-1979-07-09-2
@@ -3307,9 +3309,11 @@ sources/cnd-2016-yu-ruxin-zhao-ziyang
 sources/cnd-2024-du-junfu-516
 sources/cpc-1980-09-29-hu-feng-rehab
 sources/cpc-eighth-11th-plenum-summary
+sources/cppcc-2011-wang-renzhong-bio
 sources/cppcc-kang-sheng
 sources/cppcc-wang-enmao
 sources/cppcc-zhao-ziyang
+sources/cpwf-2006-wang-guangmei-bio
 sources/crt-2025-wu-guixian
 sources/czmingren-liu-jianxun
 sources/dangshi-1927-11-politburo-meeting
@@ -3323,6 +3327,7 @@ sources/dong-bian-tian-jiaying
 sources/dswxyjy-2013-cao-ying-rectification
 sources/dswxyjy-2013-ningdu-meeting
 sources/dswxyjy-2014-nanning-meeting
+sources/dswxyjy-2015-ren-zhongyi
 sources/frus-1964-68-xxx
 sources/frus-7780v13-d125
 sources/frus-7780v13-d140
@@ -3593,6 +3598,7 @@ sources/rmrb-1972-02-22-mao-nixon
 sources/rmrb-1972-02-28-shanghai-communique
 sources/rmrb-1972-09-30-japan-statement
 sources/rmrb-1972-10-01-national-day
+sources/rmrb-1972-12-15-deng-zihui-memorial
 sources/rmrb-1973-04-13-sihanouk-banquet
 sources/rmrb-1973-07-01-new-members
 sources/rmrb-1973-08-07-yang-rongguo
@@ -3637,6 +3643,7 @@ sources/rmrb-1977-09-29-pol-pot
 sources/rmrb-1978-05-21-huang-shuai-exposed
 sources/rmrb-1978-06-19-guo-moruo
 sources/rmrb-1978-07-06-shi-chuanxiang
+sources/rmrb-1978-12-11-tao-siliang-letter
 sources/rmrb-1979-06-11-zhang-zhixin
 sources/rmrb-1979-06-28-stats-1978
 sources/rmrb-1979-07-09-xu-guangda

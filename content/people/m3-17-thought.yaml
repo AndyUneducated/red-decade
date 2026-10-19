@@ -89,10 +89,10 @@
   factions: [provincial, reform]
   fate:
     - { date: 1966, s: attacked, note: 哈尔滨市委第一书记任上被打倒, verify: true }
-    - { date: 1978, s: rise, note: 辽宁省委第一书记, verify: true }
+    - { date: 1978-09-04, s: rise, note: 中央任命为辽宁省委第一书记、省革委会主任, cite: dswxyjy-2015-ren-zhongyi }
     - { date: 1979-03-31, s: rise, note: 主持为张志新平反, cite: people-2014-ren-zhongyi-zhang-zhixin }
-    - { date: 1980-11, s: rise, note: 广东省委第一书记, verify: true }
-    - { date: 1985-07, s: sidelined, note: 退居二线, verify: true }
+    - { date: 1980-11-09, s: rise, note: 中央任命为广东省委第一书记, cite: dswxyjy-2015-ren-zhongyi }
+    - { date: 1985-07-04, s: sidelined, note: 中央批准广东新班子，离任省委第一书记；9 月 23 日增选为中顾委委员, cite: dswxyjy-2015-ren-zhongyi }
   cites: [people-2014-ren-zhongyi-zhang-zhixin]
 
 - id: liu-wenhui

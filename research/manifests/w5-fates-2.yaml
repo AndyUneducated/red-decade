@@ -7,6 +7,8 @@ web:
     kind: obituary
     alias: 2007 年新华社《薄一波同志生平》
     url: https://www.chinanews.com/gn/news/2007/01-21/858229.shtml
+    excerpt: true
+    keep: ["中国共产党的优秀党员，伟大的", "薄一波同志1908年2月6日", "大革命失败后，薄一波同志任中", "薄一波同志出狱后，1936年", "1956年5月，国家经济委员", "1978年12月党中央为薄一", "1982年9月，党的十二大决"]
     via: 中国新闻网转载
     start: 中国共产党的优秀党员，伟大的共产主义战士
     end: 薄一波同志永垂不朽
@@ -17,6 +19,8 @@ web:
     kind: obituary
     alias: 2015 年新华社《汪东兴同志生平》
     url: http://www.xinhuanet.com/politics/2015-08/27/c_1116397181.htm
+    excerpt: true
+    keep: ["中国共产党的优秀党员，久经考", "汪东兴同志1916年1月出生", "解放战争时期，汪东兴同志先后", "1958年6月至1960年8", "1960年8月至1970年6", "1965年11月至1978年", "1976年9月9日，毛泽东同", "粉碎“四人帮”后，汪东兴同志", "1980年2月，在党的十一届"]
     via: 新华网
     start: 中国共产党的优秀党员，久经考验的忠诚的共产主义战士，无产阶级革命家，曾担任
     end: 汪东兴同志永垂不朽
@@ -27,6 +31,8 @@ web:
     kind: obituary
     alias: 2011 年新华社《李德生同志生平》
     url: https://epaper.gmw.cn/gmrb/html/2011-05/15/nw.D110000gmrb_20110515_1-04.htm
+    excerpt: true
+    keep: ["中国共产党的优秀党员,久经考", "李德生同志1916年4月出生", "土地革命战争时期,李德生同志", "“文化大革命”中,李德生同志", "1973年12月至1985年", "1985年11月,李德生同志", "李德生同志是中共第九届、十届"]
     via: 《光明日报》2011-05-15 第 4 版电子版
     start: 中国共产党的优秀党员,久经考验的忠诚的共产主义战士,无产阶级革命家、军事家
     end: 李德生同志永垂不朽
@@ -37,6 +43,8 @@ web:
     kind: obituary
     alias: 1996 年新华社《陆定一同志生平》
     url: https://cn.govopendata.com/renminribao/1996/05/21/4/
+    excerpt: true
+    keep: ["陆定一同志生平", "陆定一同志１９０６年６月９日", "１９３７年抗日战争爆发后，陆", "中华人民共和国成立后，陆定一"]
     via: 《人民日报》1996-05-21 第 4 版（govopendata 转录）
     article: 陆定一同志生平
   - id: rmrb-1988-08-02-ji-dengkui-bio
@@ -46,6 +54,8 @@ web:
     kind: obituary
     alias: 1988 年新华社《纪登奎同志生平》
     url: https://cn.govopendata.com/renminribao/1988/08/02/4/
+    excerpt: true
+    keep: ["纪登奎同志生平", "中国共产党的优秀党员、忠诚的", "纪登奎同志是山西省武乡县人，", "纪登奎1949年任许昌地委副", "1968年至1980年，他历"]
     via: 《人民日报》1988-08-02 第 4 版（govopendata 转录）
     article: 纪登奎同志生平
   - id: rmrb-1992-06-27-li-xiannian-life
@@ -55,6 +65,8 @@ web:
     kind: obituary
     alias: 1992 年《人民日报》《李先念同志光辉战斗的一生》
     url: https://cn.govopendata.com/renminribao/1992/06/27/1/
+    excerpt: true
+    keep: ["李先念同志光辉战斗的一生", "李先念1909年6月23日生", "为执行党中央新的战略决策，李", "1954年夏，李先念调到中央", "1977年，在党的十一届一中"]
     via: 《人民日报》1992-06-27 第 1 版（govopendata 转录）
     article: 李先念同志光辉战斗的一生
   - id: rmrb-1995-04-12-chen-yun-obituary
@@ -64,6 +76,8 @@ web:
     kind: obituary
     alias: 1995 年陈云讣告（《人民日报》1995-04-12）
     url: https://cn.govopendata.com/renminribao/1995/04/12/1/
+    excerpt: true
+    keep: ["中共中央全国人大常委会国务院", "中国共产党中央委员会、中华人", "陈云同志是上海市青浦县练塘镇", "１９３３年１月，陈云同志离开", "１９３７年１０月底，陈云同志", "中国共产党第十三次全国代表大会以后"]
     via: 《人民日报》1995-04-12 第 1 版（govopendata 转录）
     article: 中共中央全国人大常委会国务院全国政协中央军委沉痛宣告陈云同志在北京逝世
   # W5 第 4 批（2026-10-18）：讣告、生平与追悼会报道。
@@ -74,6 +88,8 @@ web:
     kind: obituary
     alias: 1983 年谭震林讣告（《人民日报》1983-10-03）
     url: https://cn.govopendata.com/renminribao/1983/10/03/1/
+    excerpt: true
+    keep: ["中共中央、中央顾问委员会沉痛", "新华社北京10月2日电 中国", "谭震林同志是中国共产党的优秀"]
     via: 《人民日报》1983-10-03 第 1 版（govopendata 转录）
     article: "中共中央、中央顾问委员会沉痛宣告  杰出的无产阶级革命家谭震林同志逝世"
   - id: rmrb-1986-03-27-chen-yonggui-death
@@ -83,6 +99,8 @@ web:
     kind: obituary
     alias: 1986 年新华社《陈永贵同志在京逝世》
     url: https://cn.govopendata.com/renminribao/1986/03/27/4/
+    excerpt: true
+    keep: ["全国著名劳动模范、原山西省昔", "新华社北京3月26日电 全国", "陈永贵同志是山西省昔阳县人，", "陈永贵衷心拥护党的十一届三中"]
     via: 《人民日报》1986-03-27 第 4 版（govopendata 转录）
     article: "全国著名劳动模范、原山西省昔阳县大寨党支部书记  陈永贵同志在京逝世"
   - id: rmrb-1989-05-08-li-jingquan-bio
@@ -92,6 +110,8 @@ web:
     kind: obituary
     alias: 1989 年新华社《李井泉同志生平》
     url: https://cn.govopendata.com/renminribao/1989/05/08/4/
+    excerpt: true
+    keep: ["李井泉同志生平", "中国共产党的优秀党员，久经考", "１９４９年冬，李井泉同志任入"]
     via: 《人民日报》1989-05-08 第 4 版（govopendata 转录）
     article: 李井泉同志生平
   - id: rmrb-1979-08-26-zhang-wentian-memorial
@@ -101,6 +121,8 @@ web:
     kind: obituary
     alias: 1979 年张闻天追悼会报道（《人民日报》1979-08-26）
     url: https://cn.govopendata.com/renminribao/1979/08/26/1/
+    excerpt: true
+    keep: ["张闻天同志追悼会隆重举行", "新华社北京八月二十五日电 中"]
     via: 《人民日报》1979-08-26 第 1 版（govopendata 转录）
     article: 张闻天同志追悼会隆重举行
   - id: rmrb-1989-09-05-zhou-yang-farewell
@@ -110,5 +132,65 @@ web:
     kind: obituary
     alias: 1989 年周扬遗体告别仪式报道（《人民日报》1989-09-05）
     url: https://cn.govopendata.com/renminribao/1989/09/05/1/
+    excerpt: true
+    keep: ["周扬同志遗体告别仪式在京举行", "周扬同志原名周起应，1908"]
     via: 《人民日报》1989-09-05 第 1 版（govopendata 转录）
     article: "周扬同志遗体告别仪式在京举行  江泽民杨尚昆李鹏万里乔石姚依林宋平李瑞环等参加"
+  # W5 第 5 批（2026-10-18）。
+  - id: rmrb-1972-12-15-deng-zihui-memorial
+    title: 首都隆重举行追悼邓子恢同志大会
+    date: 1972-12-15
+    author: 新华社
+    kind: obituary
+    alias: 1972 年邓子恢追悼大会报道（《人民日报》1972-12-15）
+    url: https://cn.govopendata.com/renminribao/1972/12/15/1/
+    via: 《人民日报》1972-12-15 第 1 版（govopendata 转录）
+    article: 首都隆重举行追悼邓子恢同志大会　伟大领袖毛主席和中共中央送了花圈
+  - id: rmrb-1978-12-11-tao-siliang-letter
+    title: 一封终于发出的信——给我的爸爸陶铸
+    date: 1978-12-11
+    author: 陶斯亮
+    kind: memoir
+    alias: 陶斯亮《一封终于发出的信》（《人民日报》1978-12-11）
+    url: https://cn.govopendata.com/renminribao/1978/12/11/2/
+    excerpt: true
+    keep: ["原来您在一九六八年十月", "十月中旬，您差不多已是", "分别的日子终于到了", "被林彪一伙控制的广州军区突然有人"]
+    note: 个人作品，作者在世，只留四段：发病、押送合肥的命令、诀别、死讯。
+    via: 《人民日报》1978-12-11 第 2 版（govopendata 转录）
+    article: 一封终于发出的信——给我的爸爸陶铸陶斯亮
+  - id: cpwf-2006-wang-guangmei-bio
+    title: 王光美同志生平
+    date: 2006-10-19
+    author: 新华社
+    kind: obituary
+    tier: 2
+    alias: 2006 年《王光美同志生平》（中国人口福利基金会网站转载）
+    url: https://www.cpwf.org.cn/content/4780
+    excerpt: true
+    keep: ["中国共产党的优秀党员，久经考验的忠诚的共产主义战士，中国社会科学院", "王光美同志1921年9月26日", "开始后不久，王光美同志即受到"]
+    note: 新华社生平的网站转载，未核《人民日报》原版。
+    via: 中国人口福利基金会网站转载
+  - id: cppcc-2011-wang-renzhong-bio
+    title: 王任重（1917—1992）
+    date: 2011-09-28
+    author: 全国政协
+    kind: bio
+    tier: 2
+    alias: 全国政协网《王任重（1917—1992）》小传
+    url: http://www.cppcc.gov.cn/2011/09/28/ARTI1317197311031153.shtml
+    excerpt: true
+    keep: ["中国人民政治协商会议第七届全国委员会副主席，中共政协", "河北景县人。1932年", "1992年3月16日在北京逝世"]
+    note: 官方的后来叙述（往届副主席小传），网页日期 2011-09-28。
+    via: 中国政协网
+  - id: dswxyjy-2015-ren-zhongyi
+    title: 倡导解放思想与坚守改革开放的任仲夷
+    date: 2015-04-16
+    author: 中央党史研究室网站
+    kind: article
+    tier: 2
+    alias: 2015 年《倡导解放思想与坚守改革开放的任仲夷》（中央党史和文献研究院网站）
+    url: https://www.dswxyjy.org.cn/n/2015/0416/c222139-26856840.html
+    excerpt: true
+    keep: ["从1976年11月起到1985年7月，任仲夷", "1972年6月，在", "一直想亲历创办经济特区的任仲夷", "1985年7月4日，中央批准", "走完了他不平凡人生的最后一步"]
+    note: 党史研究者的文章，2 级；去世日期作 2005-11-16，与新华社 11-15 不同。
+    via: 中共中央党史和文献研究院网站

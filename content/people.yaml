@@ -1373,15 +1373,15 @@
     - { title: 突出政治，用毛泽东思想统帅一切, date: 1966-04, cite: ws-1966-red-flag-index }
   factions: [ccrg]
   fate:
-    - { date: 1933, s: normal, note: 入党, verify: true }
-    - { date: 1945, s: rise, note: 冀南区党委书记, verify: true }
-    - { date: 1954, s: power, note: 湖北省委第一书记, verify: true }
+    - { date: 1933, s: normal, note: 入党, cite: cppcc-2011-wang-renzhong-bio }
+    - { date: 1945, s: rise, note: 冀南行署主任、区党委副书记、代理书记（此前数据作区党委书记）, cite: cppcc-2011-wang-renzhong-bio }
+    - { date: 1954, s: power, note: 湖北省委第一书记, cite: cppcc-2011-wang-renzhong-bio }
     - { date: 1965-01, s: power }
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
     - { date: 1966-07-16, s: power, note: 陪同毛泽东畅游长江, cite: rmrb-1966-07-25-yangtze }
     - { date: 1966-12, s: purged, verify: true }
     - { date: 1967-07-26, s: purged, note: 武汉军区公告定为七二〇事件“罪魁祸首”, place: wuhan, cite: ws-1967-07-26-wuhan-notice }
-    - { date: 1978, s: restored, note: 陕西省委第一书记, verify: true }
+    - { date: 1978, s: restored, note: 恢复工作，任陕西省委第二书记、第一书记, cite: cppcc-2011-wang-renzhong-bio }
     - { date: 1978-12-22, s: restored, note: 增补为中央委员, cite: ws-1978-12-third-plenum }
     - { date: 1992-03-16, s: dead }
   cites: [rmrb-1966-07-25-yangtze, rmrb-1966-08-19-first-rally, ws-1966-05-ccrg-list, ws-1966-red-flag-index, ws-1967-07-26-wuhan-notice, ws-1978-12-third-plenum, ws-1980-indictment]
@@ -1543,8 +1543,8 @@
     - { date: 1966-06, s: rise, note: 调任中宣部部长, verify: true }
     - { date: 1966-08, s: power, note: 政治局常委，排名第四, cite: ws-1966-tao-zhu-adviser }
     - { date: 1967-01-04, s: purged, note: 陈伯达、江青公开宣布其为“保皇派”, verify: true }
-    - { date: 1969-10, s: detained, note: 病中被押送合肥, place: hefei, verify: true }
-    - { date: 1969-11-30, s: dead }
+    - { date: 1969-10, s: detained, note: 胰腺癌病危中被押送合肥（女儿陶斯亮回忆）, place: hefei, cite: rmrb-1978-12-11-tao-siliang-letter }
+    - { date: 1969-11-30, s: dead, note: 到合肥后四十三天去世, cite: rmrb-1978-12-11-tao-siliang-letter }
   cites: [ws-1966-tao-zhu-adviser, ws-1978-12-third-plenum, ws-1981-resolution]
 
 # ── 第一批被打倒者 ──────────────────────────────────────────
@@ -3539,7 +3539,7 @@
     - { title: 王光美访谈录（黄峥执笔）, date: 2006, cite: huang-zheng-wang-guangmei }
   factions: [frontline, workteams]
   fate:
-    - { date: 1948, s: normal, note: 与刘少奇结婚、入党, verify: true }
+    - { date: 1948-08, s: normal, note: 入党，与刘少奇结婚, cite: cpwf-2006-wang-guangmei-bio }
     - { date: 1963-11, s: normal, note: 桃园蹲点, cite: ws-1967-taoyuan-survey }
     - { date: 1964-09-01, s: rise, note: 桃园经验由中央批发全国, cite: ws-1964-09-01-taoyuan-endorse }
     - { date: 1966-06, s: power, note: 清华工作组顾问, cite: ws-1966-10-liu-self-criticism, verify: true }
@@ -3547,7 +3547,7 @@
     - { date: 1967-07-18, s: attacked, note: 中南海批斗, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1967-09, s: detained, note: 逮捕关押, verify: true }
     - { date: 1979-03, s: restored, note: 中组部结论“政治历史清楚，没有问题”, cite: ws-1980-02-29-liu-rehab }
-    - { date: 2006-10-13, s: dead }
+    - { date: 2006-10-13, s: dead, cite: cpwf-2006-wang-guangmei-bio }
   cites: [ws-1964-09-01-taoyuan-endorse, ws-1966-10-liu-self-criticism, ws-1966-qinghua-workteam-survey, ws-1967-taoyuan-survey, ws-1968-liu-case-report, ws-1980-indictment, ws-1981-01-25-judgment, ws-1980-02-29-liu-rehab, ws-1983-11-02-qi-benyu-case]
 
 - id: zhang-chengxian
