@@ -55,8 +55,8 @@
   fate:
     - { date: 1955-09, s: power, note: 授元帅, cite: rmrb-1986-10-17-liu-bocheng }
     - { date: 1966-01, s: power, note: 中央军委副主席, cite: rmrb-1986-10-17-liu-bocheng }
-    - { date: 1982-09, s: sidelined, note: 因年龄和健康原因退出领导职务, verify: true }
-    - { date: 1986-10-07, s: dead, verify: true }
+    - { date: 1982, s: sidelined, note: 因年龄和健康原因辞去党政军领导职务, cite: people-jiangshuai-liu-bocheng }
+    - { date: 1986-10-07, s: dead, cite: people-jiangshuai-liu-bocheng }
   cites: [rmrb-1986-10-17-liu-bocheng, ws-1980-indictment, ws-1977-07-tenth-third-plenum]
 
 - id: su-yu
@@ -109,9 +109,9 @@
   factions: [marshals]
   fate:
     - { date: 1954, s: power, note: 总参谋长, cite: rmrb-1984-02-14-su-yu }
-    - { date: 1958, s: sidelined, note: 军委扩大会议受批判，免去总参谋长, verify: true }
+    - { date: 1958, s: sidelined, note: 受到错误批判，调任国防部副部长兼军事科学院副院长, cite: people-jiangshuai-su-yu }
     - { date: 1980, s: restored, note: 五届全国人大常委会副委员长, cite: rmrb-1984-02-14-su-yu }
-    - { date: 1984-02-05, s: dead, verify: true }
+    - { date: 1984-02-05, s: dead, cite: people-jiangshuai-su-yu }
   cites: [rmrb-1984-02-14-su-yu, ws-1980-indictment]
 
 - id: xiao-hua
@@ -316,9 +316,9 @@
     - { voice: editor, text: 文章说“窃居中央文革小组顾问的那个‘理论家’”在文革中诬他是“特务”，指的是康生，但没有点名；康生 1980 年才被开除党籍、撤销悼词。, cite: rmrb-1979-07-09-xu-guangda }
   factions: [marshals]
   fate:
-    - { date: 1955-09, s: power, note: 授大将, verify: true }
-    - { date: 1967, s: detained, note: 在“二月兵变”案中被关押审讯, cite: rmrb-1979-07-09-xu-guangda }
-    - { date: 1969-06-03, s: dead, note: 关押中去世, verify: true }
+    - { date: 1955, s: power, note: 授大将, cite: people-jiangshuai-xu-guangda }
+    - { date: 1967, s: detained, note: 在“二月兵变”案中被关押审讯（将帅名录作 1967 年 1 月被关押）, cite: rmrb-1979-07-09-xu-guangda }
+    - { date: 1969-06-03, s: dead, note: 关押中去世, cite: people-jiangshuai-xu-guangda }
   cites: [rmrb-1979-07-09-xu-guangda, ws-1980-indictment]
 
 - id: zhang-aiping

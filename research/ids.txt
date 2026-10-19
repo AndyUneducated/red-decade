@@ -3435,6 +3435,17 @@ sources/people-2014-xiaojinzhuang
 sources/people-2015-07-23-wan-li
 sources/people-2019-zhou-tianjin-arrest
 sources/people-2020-shen-jilan
+sources/people-jiangshuai-he-long
+sources/people-jiangshuai-huang-kecheng
+sources/people-jiangshuai-liu-bocheng
+sources/people-jiangshuai-luo-ruiqing
+sources/people-jiangshuai-nie-rongzhen
+sources/people-jiangshuai-peng-dehuai
+sources/people-jiangshuai-su-yu
+sources/people-jiangshuai-xu-guangda
+sources/people-jiangshuai-xu-xiangqian
+sources/people-jiangshuai-yang-chengwu
+sources/people-jiangshuai-zhu-de
 sources/people-leaders-memorial
 sources/people-lin-biao-bio
 sources/people-qiyi-zhang-chunqiao
@@ -4445,6 +4456,7 @@ sources/wu-lengxi-memoir
 sources/xhrb-2015-07-09-jiang-weiqing
 sources/xinhua-1997-qin-jiwei
 sources/xinhua-2003-zhang-aiping
+sources/xinhua-2004-yang-chengwu-bio
 sources/xinhua-2005-01-29-zhao-ziyang
 sources/xinhua-2005-05-10-zhang-chunqiao-death
 sources/xinhua-2005-ba-jin

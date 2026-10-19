@@ -145,7 +145,7 @@
     - { date: 1966-08, s: rise, note: 进入政治局常委, verify: true }
     - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
     - { date: 1968-12, s: attacked, note: “中国（马列）共产党”假案中被诬为“总理”, cite: ws-1980-indictment }
-    - { date: 1969-04, s: sidelined, note: 九大退出政治局, verify: true }
+    - { date: 1969-04-28, s: sidelined, note: 九届一中全会选出的政治局中没有他, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1975-01-09, s: dead, verify: true }
   cites: [ws-1981-resolution, ws-1980-indictment]
 
@@ -286,17 +286,18 @@
     - { voice: scholar, text: 红四方面军和西路军的历史使徐向前在延安以后长期处于边缘，研究者认为这也是他在文革中容易被造反派当作“军内走资派”靶子的原因之一。, cite: macfarquhar-schoenhals }
   factions: [marshals]
   fate:
-    - { date: 1927, s: normal, note: 入党, verify: true }
-    - { date: 1931-11, s: power, note: 红四方面军总指挥, verify: true }
-    - { date: 1955-09-27, s: normal, note: 授元帅衔, verify: true }
+    - { date: 1927-03, s: normal, note: 入党, cite: people-jiangshuai-xu-xiangqian }
+    - { date: 1931-11, s: power, note: 红四方面军总指挥, cite: people-jiangshuai-xu-xiangqian }
+    - { date: 1955-09-23, s: normal, note: 全国人大常委会决定授予元帅军衔, cite: ws-1955-09-23-marshal-ranks }
     - { date: 1966-08, s: rise, note: 政治局委员, verify: true }
-    - { date: 1967-01, s: power, note: 全军文革小组组长, verify: true }
+    - { date: 1967-01, s: power, note: 全军文革小组组长, cite: people-jiangshuai-xu-xiangqian }
     - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
     - { date: 1967-07-29, s: attacked, note: 清华井冈山抄家、企图绑架, cite: ws-1982-12-kuai-dafu-case }
-    - { date: 1969-04, s: sidelined, note: 九大退出政治局, verify: true }
+    - { date: 1969-04-28, s: sidelined, note: 九届一中全会选出的政治局中没有他, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1969-10, s: sidelined, note: 被林彪以战备为名“疏散”到河南开封, cite: people-jiangshuai-xu-xiangqian }
     - { date: 1977-08, s: restored, note: 重新当选政治局委员, verify: true }
-    - { date: 1978-03, s: power, note: 国防部长, verify: true }
-    - { date: 1990-09-21, s: dead, verify: true }
+    - { date: 1978, s: power, note: 国务院副总理兼国防部长, cite: people-jiangshuai-xu-xiangqian }
+    - { date: 1990-09-21, s: dead, cite: people-jiangshuai-xu-xiangqian }
   cites: [ws-1980-indictment, ws-1982-12-kuai-dafu-case, ws-1981-resolution]
 
 - id: nie-rongzhen
@@ -371,16 +372,16 @@
     - { voice: scholar, text: 国防科委系统在文革中受到的冲击比其他部门轻，研究者多归因于周恩来和聂荣臻对“两弹”项目的特别保护，但七机部等单位的派性武斗仍造成研制停顿。, cite: macfarquhar-schoenhals }
   factions: [marshals]
   fate:
-    - { date: 1923, s: normal, note: 入党, verify: true }
-    - { date: 1937-11, s: power, note: 晋察冀军区司令员, verify: true }
-    - { date: 1955-09-27, s: normal, note: 授元帅衔, verify: true }
-    - { date: 1958-10, s: power, note: 国防科委主任, verify: true }
+    - { date: 1923, s: normal, note: 入党, cite: people-jiangshuai-nie-rongzhen }
+    - { date: 1937, s: power, note: 开辟晋察冀根据地，任晋察冀军区司令员兼政委, cite: people-jiangshuai-nie-rongzhen }
+    - { date: 1955-09-23, s: normal, note: 全国人大常委会决定授予元帅军衔, cite: ws-1955-09-23-marshal-ranks }
+    - { date: 1958, s: power, note: 兼任国防科委主任、国家科委主任, cite: people-jiangshuai-nie-rongzhen }
     - { date: 1966-08, s: rise, note: 政治局委员, verify: true }
     - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
     - { date: 1968-04, s: attacked, note: “华北山头主义”批判, cite: ws-1980-indictment }
-    - { date: 1969-04, s: sidelined, note: 九大退出政治局, verify: true }
-    - { date: 1977-08, s: restored, note: 重新当选政治局委员, verify: true }
-    - { date: 1992-05-14, s: dead, verify: true }
+    - { date: 1969-04-28, s: sidelined, note: 九届一中全会选出的政治局中没有他, cite: ws-1969-04-28-9th-cc-plenum }
+    - { date: 1977-08, s: restored, note: 任中央军委副主席, cite: people-jiangshuai-nie-rongzhen }
+    - { date: 1992-05-14, s: dead, cite: people-jiangshuai-nie-rongzhen }
   cites: [ws-1980-indictment, ws-1981-resolution, ws-1966-04-luo-report, ws-1980-02-29-liu-rehab]
 
 - id: yu-qiuli

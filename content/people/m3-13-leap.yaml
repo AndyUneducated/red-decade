@@ -55,14 +55,14 @@
     - { voice: official1981, text: 八届八中全会关于所谓“彭德怀、黄克诚、张闻天、周小舟反党集团”的决议是完全错误的（1981 年决议）, cite: ws-1981-resolution, quote: true }
   factions: [lushan]
   fate:
-    - { date: 1958-10, s: power, note: 总参谋长, verify: true }
+    - { date: 1958-10, s: power, note: 总参谋长, cite: people-jiangshuai-huang-kecheng }
+    - { date: 1959, s: sidelined, note: 庐山会议后受到长期审查，被撤销一切职务, cite: people-jiangshuai-huang-kecheng }
     - { date: 1959-08-16, s: purged, note: 八届八中全会定为“反党集团”成员, cite: ws-1959-08-16-peng-resolution }
-    - { date: 1959-09, s: sidelined, note: 撤销总参谋长职务, verify: true }
     - { date: 1965, s: sidelined, note: 山西省副省长, verify: true }
     - { date: 1966-12, s: detained, note: 被揪回北京批斗、监护审查, verify: true }
     - { date: 1975, s: sidelined, note: 获释，山西省革委会副主任, verify: true }
     - { date: 1978-12, s: restored, note: 中央纪委常务书记, cite: ws-1978-12-third-plenum }
-    - { date: 1986-12-28, s: dead, note: 病逝, verify: true }
+    - { date: 1986-12-28, s: dead, note: 病逝, cite: people-jiangshuai-huang-kecheng }
   rehab:
     - { date: 1978-12, text: 十一届三中全会增补为中央委员、选为中央纪委常务书记, cite: ws-1978-12-third-plenum }
     - { date: 1981-06-27, text: 历史决议宣布八届八中全会的决议“完全错误”, cite: ws-1981-resolution }

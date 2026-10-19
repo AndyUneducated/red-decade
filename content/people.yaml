@@ -1732,15 +1732,16 @@
     - { voice: scholar, text: 研究者多认为罗与林彪的冲突既有军队训练方针（“大比武”与“突出政治”）之争，也有林彪对罗主持军委日常工作、与贺龙等关系密切的戒心；毛泽东在 1965 年接受林彪方面的揭发，也与即将发动的文革需要军队稳固有关。, cite: macfarquhar-schoenhals }
   factions: [plly, marshals]
   fate:
-    - { date: 1928, s: normal, note: 入党，参加红军, verify: true }
-    - { date: 1932, s: rise, note: 红一军团政治保卫局局长, verify: true }
-    - { date: 1949-10, s: power, note: 首任公安部长, verify: true }
+    - { date: 1928, s: normal, note: 到上海转入中国共产党，在中央军委领导下做秘密工作, cite: people-jiangshuai-luo-ruiqing }
+    - { date: 1933-01, s: rise, note: 红一军团政治保卫局局长, cite: people-jiangshuai-luo-ruiqing }
+    - { date: 1949, s: power, note: 受命组建公安部并任部长, cite: people-jiangshuai-luo-ruiqing }
     - { date: 1959-09, s: power, note: 总参谋长 }
     - { date: 1965-12, s: purged, note: 上海会议“背靠背的斗争”, cite: ws-1966-04-luo-report }
     - { date: 1966-03-18, s: purged, note: 小组会期间跳楼自杀，受伤, cite: ws-1966-04-luo-report }
     - { date: 1966-12, s: detained, verify: true }
     - { date: 1973, s: sidelined, note: 获释，未恢复工作, verify: true }
-    - { date: 1977-08, s: restored, note: 任中央军委秘书长, verify: true }
+    - { date: 1975-08, s: restored, note: 恢复工作，任中央军委顾问, cite: people-jiangshuai-luo-ruiqing }
+    - { date: 1977-08, s: restored, note: 复任中央军委常委和秘书长, cite: people-jiangshuai-luo-ruiqing }
     - { date: 1978-08-03, s: dead }
   cites: [ws-1966-04-luo-report, ws-1980-05-20-luo-rehab]
 
@@ -2029,13 +2030,13 @@
     - { title: 彭德怀自述, date: 1981 }
   factions: [marshals, lushan]
   fate:
-    - { date: 1916, s: normal, note: 入湘军当兵, verify: true }
-    - { date: 1928-04, s: normal, note: 加入中国共产党, verify: true }
-    - { date: 1928-07-22, s: rise, note: 领导平江起义，任红五军军长, verify: true }
-    - { date: 1930-06, s: rise, note: 红三军团总指挥, verify: true }
-    - { date: 1937-08, s: power, note: 八路军副总指挥, verify: true }
-    - { date: 1947-03, s: power, note: 西北野战军司令员, verify: true }
-    - { date: 1950-10, s: power, note: 志愿军司令员, verify: true }
+    - { date: 1916-03, s: normal, note: 入湘军当兵, cite: people-jiangshuai-peng-dehuai }
+    - { date: 1928-04, s: normal, note: 经段德昌介绍加入中国共产党, cite: people-jiangshuai-peng-dehuai }
+    - { date: 1928-07-22, s: rise, note: 领导平江起义，任红五军军长, cite: people-jiangshuai-peng-dehuai }
+    - { date: 1930-06, s: rise, note: 红三军团总指挥, cite: people-jiangshuai-peng-dehuai }
+    - { date: 1937, s: power, note: 八路军副总指挥（9 月 11 日改称第十八集团军副总司令）, cite: people-jiangshuai-peng-dehuai }
+    - { date: 1947-03, s: power, note: 西北野战兵团司令员兼政委, cite: people-jiangshuai-peng-dehuai }
+    - { date: 1950-10, s: power, note: 志愿军司令员兼政委, cite: people-jiangshuai-peng-dehuai }
     - { date: 1954-09, s: power, note: 国防部长 }
     - { date: 1959-08-16, s: purged, note: 八届八中全会定为“反党集团”头子, cite: ws-1959-08-16-peng-resolution }
     - { date: 1965-11, s: sidelined, note: 调往成都三线, place: chengdu, verify: true }
@@ -2148,7 +2149,7 @@
     - { date: 1954, s: power, note: 国务院副总理 }
     - { date: 1966-07, s: attacked, note: 康生诬陷其搞“二月兵变”, cite: ws-1982-he-long-rehab }
     - { date: 1966-09-08, s: attacked, note: 林彪在军委常委会议上说他“伸手夺权”, cite: ws-1982-he-long-rehab }
-    - { date: 1967-01, s: purged, note: 被揪斗，转移西山隐居, verify: true }
+    - { date: 1967-01, s: purged, note: 人身安全受到威胁，经周恩来安排转往西山, cite: people-jiangshuai-he-long }
     - { date: 1967-09, s: detained, note: 中央同意立案审查, cite: ws-1974-he-long-name }
     - { date: 1969-06-09, s: dead, cite: ws-1974-he-long-name }
   cites: [ws-1974-he-long-name, ws-1980-indictment, ws-1981-01-25-judgment, ws-1981-resolution, ws-1982-he-long-rehab]
@@ -2247,8 +2248,9 @@
   fate:
     - { date: 1909, s: normal, note: 在云南陆军讲武堂，秘密加入同盟会, cite: people-2009-zhu-chronology }
     - { date: 1911-10, s: normal, note: 辛亥革命爆发后参加云南起义, place: kunming, cite: people-2009-zhu-chronology }
-    - { date: 1916, s: rise, note: 护国战争，升任滇军旅长（人民网年表作 1915 年参加护国战争、任团长）, verify: true }
-    - { date: 1922-11, s: normal, note: 柏林入党（人民网年表作 10 月在德国入党）, verify: true }
+    - { date: 1916, s: normal, note: 率部入川，参加纳溪战役（护国战争；人民网年表作 1915 年参加护国战争、任团长）, cite: people-jiangshuai-zhu-de }
+    - { date: 1917, s: rise, note: 升任滇军少将旅长, cite: people-jiangshuai-zhu-de }
+    - { date: 1922-11, s: normal, note: 经张申府、周恩来介绍在柏林入党（人民网年表作 10 月在德国入党）, cite: people-jiangshuai-zhu-de }
     - { date: 1927-08-01, s: rise, note: 参加领导南昌起义, cite: people-2009-zhu-chronology }
     - { date: 1928-04, s: rise, note: 井冈山会师，任红四军军长, cite: people-2009-zhu-chronology }
     - { date: 1931-11, s: power, note: 中华苏维埃共和国中央革命军事委员会主席（1933 年 5 月任红军总司令）, cite: people-2009-zhu-chronology }
@@ -2257,7 +2259,7 @@
     - { date: 1959-04, s: power, note: 全国人大常委会委员长, cite: ws-1976-07-07-zhu-obituary }
     - { date: 1966-09, s: attacked, cite: ws-1980-indictment }
     - { date: 1969-10, s: sidelined, note: 疏散到广东从化, verify: true }
-    - { date: 1973-08, s: restored, note: 十大重入政治局常委, verify: true }
+    - { date: 1973-08-30, s: restored, note: 十届一中全会当选政治局常委, cite: ws-1973-08-30-first-plenum }
     - { date: 1976-07-06, s: dead, cite: ws-1976-07-07-zhu-obituary }
   cites: [ws-1976-07-07-zhu-obituary, ws-1980-indictment]
 

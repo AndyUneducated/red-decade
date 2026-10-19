@@ -355,16 +355,16 @@
   memberships:
     - { f: marshals, from: 1968-03-24, note: 杨余傅事件后被林彪方面打倒 }
   fate:
-    - { date: 1929, s: normal, note: 参加闽西暴动, verify: true }
-    - { date: 1935-05, s: normal, note: 飞夺泸定桥, verify: true }
-    - { date: 1955-02, s: power, note: 北京军区司令员, verify: true }
-    - { date: 1966-08, s: rise, note: 代总参谋长, verify: true }
+    - { date: 1929-02, s: normal, note: 参加古城、四都农民暴动, cite: xinhua-2004-yang-chengwu-bio }
+    - { date: 1935-05, s: normal, note: 率红四团夺占泸定桥, cite: people-jiangshuai-yang-chengwu }
+    - { date: 1955, s: power, note: 北京军区司令员兼防空军司令员, cite: people-jiangshuai-yang-chengwu }
+    - { date: 1965-12, s: rise, note: 起任代理总参谋长（此前数据作 1966 年 8 月）, cite: people-jiangshuai-yang-chengwu }
     - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
-    - { date: 1968-03-24, s: purged, note: 杨余傅事件, verify: true }
+    - { date: 1968-03-22, s: purged, note: 杨余傅事件：中共中央决定撤销其代总参谋长职务（此前数据作 3 月 24 日）, cite: ccrd-1987-bj-chronology-192 }
     - { date: 1968-03-25, s: detained, verify: true }
-    - { date: 1974-07, s: restored, note: 平反，复任副总参谋长, verify: true }
-    - { date: 1977, s: power, note: 福州军区司令员, verify: true }
-    - { date: 2004-02-14, s: dead, verify: true }
+    - { date: 1974-11, s: restored, note: 重新工作，任副总参谋长（此前数据作 1974 年 7 月）, cite: xinhua-2004-yang-chengwu-bio }
+    - { date: 1978, s: power, note: 副总参谋长兼福州军区司令员（此前数据作 1977 年）, cite: people-jiangshuai-yang-chengwu }
+    - { date: 2004-02-14, s: dead, cite: xinhua-2004-yang-chengwu-bio }
   cites: [ws-1966-04-luo-report, ws-1966-05-16-notice-attachment, rmrb-1966-08-19-first-rally, ws-1967-red-flag-index, ws-1980-indictment]
 
 - id: yu-lijin

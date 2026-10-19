@@ -1,0 +1,144 @@
+# W5: 2 级人物待核命运节点（2026-10-18 起）。第一批：人民网资料中心“中国人民解放军开国将帅名录”（官方的后来叙述，网页无日期，取页脚版权年份 2018）。
+web:
+  - id: people-jiangshuai-zhu-de
+    title: 朱德（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《朱德》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/126780/7489937.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中华人民共和国元帅（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-peng-dehuai
+    title: 彭德怀（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《彭德怀》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/126780/7490066.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中华人民共和国元帅（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-liu-bocheng
+    title: 刘伯承（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《刘伯承》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/126780/7490151.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中华人民共和国元帅（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-he-long
+    title: 贺龙（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《贺龙》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/126780/7490379.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中华人民共和国元帅（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-xu-xiangqian
+    title: 徐向前（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《徐向前》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/126780/7490461.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中华人民共和国元帅（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-nie-rongzhen
+    title: 聂荣臻（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《聂荣臻》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/126780/7490472.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中华人民共和国元帅（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-su-yu
+    title: 粟裕（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《粟裕》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127855/7536807.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军大将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-huang-kecheng
+    title: 黄克诚（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《黄克诚》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127855/7537011.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军大将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-luo-ruiqing
+    title: 罗瑞卿（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《罗瑞卿》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127855/7537195.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军大将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-xu-guangda
+    title: 许光达（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《许光达》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127855/7537271.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军大将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: people-jiangshuai-yang-chengwu
+    title: 杨成武（开国将帅名录）
+    date: 2018
+    author: 人民网-中国共产党新闻网
+    kind: bio
+    tier: 2
+    alias: 人民网资料中心《杨成武》（开国将帅名录）
+    url: http://cpc.people.com.cn/GB/64162/126778/127857/7538135.html
+    via: 人民网“资料中心·中国人民解放军开国将帅名录”
+    start: 中国人民解放军上将（1955）。
+    end: 来源：人民网-中国共产党新闻网
+    note: 官方的后来叙述；网页未注明日期，取页脚版权年份；网页转录，未核原书。
+  - id: xinhua-2004-yang-chengwu-bio
+    title: 杨成武同志生平
+    date: 2004-02-22
+    author: 新华社
+    kind: obituary
+    alias: 2004 年新华社《杨成武同志生平》
+    url: https://web.archive.org/web/20141015005536id_/http://news.xinhuanet.com/newscenter/2004-02/22/content_1325745.htm
+    via: 新华网 2004-02-22（Wayback 存档）
+    start: 新华网北京２月２２日电
+    end: 杨成武同志永垂不朽！
