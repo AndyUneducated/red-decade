@@ -213,14 +213,14 @@
     - { voice: scholar, text: 研究者认为李先念在文革中靠周恩来的庇护和经济工作的不可替代性留在台上，因而在“二月逆流”诸人中受冲击最轻；改革时期他又是对市场化步伐持保留态度的元老之一。, cite: macfarquhar-schoenhals }
   factions: [premier]
   fate:
-    - { date: 1927, s: normal, note: 入党, verify: true }
-    - { date: 1954-06, s: power, note: 财政部长, verify: true }
+    - { date: 1927-12, s: normal, note: 参加黄麻起义后入党, cite: rmrb-1992-06-27-li-xiannian-life }
+    - { date: 1954-09, s: power, note: 国务院副总理兼财政部长（此前数据作 1954-06；生平称 1954 年夏调中央，9 月任职）, cite: rmrb-1992-06-27-li-xiannian-life }
     - { date: 1967-02, s: attacked, note: 被列入“二月逆流”, cite: ws-1981-resolution }
     - { date: 1967-03, s: power, note: 国务院业务组组长, verify: true }
     - { date: 1969-04-28, s: power, note: 九届政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1976-10-06, s: power, note: 参与粉碎“四人帮”, cite: ws-1981-resolution }
-    - { date: 1977-08, s: rise, note: 中共中央副主席, verify: true }
-    - { date: 1983-06, s: power, note: 国家主席, verify: true }
+    - { date: 1977-08, s: rise, note: 十一届一中全会当选政治局常委、中共中央副主席, cite: rmrb-1992-06-27-li-xiannian-life }
+    - { date: 1983-06, s: power, note: 六届人大一次会议当选国家主席, cite: rmrb-1992-06-27-li-xiannian-life }
     - { date: 1992-06-21, s: dead, verify: true }
   cites: [ws-1981-resolution, ws-1969-04-28-9th-cc-plenum, ws-1980-indictment, ws-1982-xu-jingxian-case]
 
@@ -594,8 +594,8 @@
     - { voice: scholar, text: 傅高义把陈云描述为邓小平之外改革时期最有分量的元老：既推动平反和经济调整，又以平衡与计划为原则限制改革速度，两人的分歧贯穿 1980 年代。, cite: vogel-deng }
   factions: [premier]
   fate:
-    - { date: 1925, s: normal, note: 入党, verify: true }
-    - { date: 1937-12, s: power, note: 中组部长, verify: true }
+    - { date: 1925, s: normal, note: 参加五卅运动与商务印书馆罢工后入党, cite: rmrb-1995-04-12-chen-yun-obituary }
+    - { date: 1937-10, s: power, note: 10 月底到延安任中组部长（此前数据作 1937-12）, cite: rmrb-1995-04-12-chen-yun-obituary }
     - { date: 1956-09, s: power, note: 中共中央副主席, verify: true }
     - { date: 1962-03, s: sidelined, note: 受毛泽东批评后养病, verify: true }
     - { date: 1966-08, s: sidelined, note: 不再任副主席, verify: true }
@@ -603,8 +603,8 @@
     - { date: 1969-10, s: sidelined, note: 疏散到南昌, verify: true }
     - { date: 1972, s: normal, note: 回京, verify: true }
     - { date: 1978-12, s: restored, note: 十一届三中全会增选为中央副主席, cite: ws-1978-12-third-plenum }
-    - { date: 1987-11, s: power, note: 中顾委主任, verify: true }
-    - { date: 1995-04-10, s: dead, verify: true }
+    - { date: 1987, s: power, note: 十三大后退出中央领导工作，任中顾委主任（讣告未写月份）, cite: rmrb-1995-04-12-chen-yun-obituary }
+    - { date: 1995-04-10, s: dead, cite: rmrb-1995-04-12-chen-yun-obituary }
   cites: [ws-1966-10-liu-self-criticism, ws-1978-12-third-plenum, ws-1981-resolution, ws-1980-indictment]
 
 - id: bo-yibo
@@ -675,16 +675,16 @@
     - { voice: scholar, text: 研究者指出六十一人出狱是经中共中央批准的组织决定，文革中把它定为叛变的主要目的是坐实刘少奇“招降纳叛”；薄一波本人复出后则成为 1980 年代政治上最保守的元老之一。, cite: macfarquhar-schoenhals }
   factions: [frontline]
   fate:
-    - { date: 1925, s: normal, note: 入党, verify: true }
-    - { date: 1931, s: detained, note: 在北平被捕, verify: true }
-    - { date: 1936, s: normal, note: 按北方局决定出狱, verify: true }
-    - { date: 1956-05, s: power, note: 国家经委主任, verify: true }
+    - { date: 1925-12, s: normal, note: 同年秋入团，12 月转为党员, cite: xinhua-2007-bo-yibo-bio }
+    - { date: 1931-06, s: detained, note: 在北平被捕, cite: xinhua-2007-bo-yibo-bio }
+    - { date: 1936-09, s: normal, note: 经党组织营救，按国民党规定履行出狱手续出狱, cite: xinhua-2007-bo-yibo-bio }
+    - { date: 1956-05, s: power, note: 国家经委主任, cite: xinhua-2007-bo-yibo-bio }
     - { date: 1966-12, s: attacked, note: 被红卫兵从广州揪回北京, verify: true }
     - { date: 1967-03, s: detained, note: 定为“六十一人叛徒集团”，关押, verify: true }
     - { date: 1978-12, s: restored, note: 平反, cite: ws-1978-12-third-plenum }
-    - { date: 1979-07, s: power, note: 国务院副总理, verify: true }
-    - { date: 1982-09, s: power, note: 中顾委常务副主任, verify: true }
-    - { date: 2007-01-15, s: dead, verify: true }
+    - { date: 1979-07, s: power, note: 五届人大二次会议任命为国务院副总理, cite: xinhua-2007-bo-yibo-bio }
+    - { date: 1982-09, s: power, note: 中顾委常务副主任, cite: xinhua-2007-bo-yibo-bio }
+    - { date: 2007-01-15, s: dead, cite: xinhua-2007-bo-yibo-bio }
   cites: [ws-1968-liu-case-report, ws-1980-02-29-liu-rehab, ws-1978-12-third-plenum, ws-1982-10-05-nie-yuanzi-case]
 
 - id: an-ziwen

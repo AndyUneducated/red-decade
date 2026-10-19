@@ -62,16 +62,16 @@
     - { voice: scholar, text: 傅高义等认为汪东兴在 1977–1978 年是华国锋最重要的支持者，他对专案材料和宣传口的控制是邓小平复出后首先要解决的问题。, cite: vogel-deng }
   factions: [mao]
   fate:
-    - { date: 1932, s: normal, note: 入党, verify: true }
-    - { date: 1947, s: normal, note: 负责毛泽东警卫, verify: true }
-    - { date: 1958, s: sidelined, note: 下放江西, verify: true }
-    - { date: 1965-11, s: power, note: 中共中央办公厅主任, verify: true }
+    - { date: 1932-06, s: normal, note: 参加红军并转为党员, cite: xinhua-2015-wang-dongxing-bio }
+    - { date: 1947-03, s: normal, note: 中央撤离延安转战陕北，负责警卫, cite: xinhua-2015-wang-dongxing-bio }
+    - { date: 1958-06, s: sidelined, note: 任江西省副省长兼农垦厅厅长，至 1960-08, cite: xinhua-2015-wang-dongxing-bio }
+    - { date: 1965-11, s: power, note: 中共中央办公厅主任（至 1978-12）, cite: xinhua-2015-wang-dongxing-bio }
     - { date: 1969-04-28, s: rise, note: 政治局候补委员, cite: ws-1969-04-28-9th-cc-plenum }
-    - { date: 1976-10-06, s: power, note: 指挥拘捕“四人帮”, verify: true }
-    - { date: 1977-08, s: power, note: 中共中央副主席, verify: true }
-    - { date: 1978-12, s: sidelined, note: 卸任中办主任, verify: true }
-    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞职, verify: true }
-    - { date: 2015-08-21, s: dead, verify: true }
+    - { date: 1976-10-06, s: power, note: 指挥拘捕“四人帮”, cite: xinhua-2015-wang-dongxing-bio }
+    - { date: 1977-08, s: power, note: 政治局常委、中共中央副主席, cite: xinhua-2015-wang-dongxing-bio }
+    - { date: 1978-12, s: sidelined, note: 卸任中办主任, cite: xinhua-2015-wang-dongxing-bio }
+    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞去副主席、政治局常委等职, cite: xinhua-2015-wang-dongxing-bio }
+    - { date: 2015-08-21, s: dead, cite: xinhua-2015-wang-dongxing-bio }
   cites: [ws-1966-04-luo-report, ws-1967-07-09-liu-jiangong-review, ws-1983-11-02-qi-benyu-case, ws-1969-04-28-9th-cc-plenum, ws-1978-12-third-plenum]
 
 - id: ji-dengkui
@@ -133,15 +133,15 @@
     - { voice: scholar, text: 纪登奎是文革中靠毛泽东个人提拔、从省级越过数级进入中央的典型；研究者认为他在 1970 年代主管的干部审查既有执行“左”的政策的一面，也为一些老干部“解放”做过安排。, cite: macfarquhar-schoenhals }
   factions: [mao]
   fate:
-    - { date: 1938, s: normal, note: 入党, verify: true }
-    - { date: 1958, s: rise, note: 河南省委书记处书记, verify: true }
+    - { date: 1938-04, s: normal, note: 入党, cite: rmrb-1988-08-02-ji-dengkui-bio }
+    - { date: 1963, s: rise, note: 河南省委常委、候补书记兼秘书长（此前数据作 1958 年任省委书记处书记；生平作 1963 年）, cite: rmrb-1988-08-02-ji-dengkui-bio }
     - { date: 1967, s: attacked, note: 河南造反派揪斗, verify: true }
-    - { date: 1968-01, s: restored, note: 河南省革委会副主任, verify: true }
+    - { date: 1968, s: restored, note: 河南省革委会副主任（此前数据作 1968-01；生平未写月份）, cite: rmrb-1988-08-02-ji-dengkui-bio }
     - { date: 1969-04-28, s: rise, note: 政治局候补委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1971-01, s: power, note: 北京军区第一政委, cite: ws-1971-12-lin-chen-material-1 }
-    - { date: 1975-01, s: power, note: 国务院副总理, verify: true }
-    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞职, verify: true }
-    - { date: 1988-07-13, s: dead, verify: true }
+    - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
+    - { date: 1980-02, s: sidelined, note: 十一届五中全会批准辞职, cite: rmrb-1980-03-01-fifth-plenum }
+    - { date: 1988-07-13, s: dead, cite: rmrb-1988-08-02-ji-dengkui-bio }
   cites: [ws-1969-04-28-9th-cc-plenum, ws-1971-12-lin-chen-material-1, ws-1977-07-tenth-third-plenum]
 
 - id: wu-de
@@ -212,7 +212,7 @@
     - { date: 1972-10, s: power, note: 北京市委第一书记, verify: true }
     - { date: 1976-04-05, s: power, note: 天安门广场广播讲话, verify: true }
     - { date: 1978-10, s: sidelined, note: 离开北京市, verify: true }
-    - { date: 1980-02, s: sidelined, note: 十一届五中全会辞职, verify: true }
+    - { date: 1980-02, s: sidelined, note: 十一届五中全会批准辞职, cite: rmrb-1980-03-01-fifth-plenum }
     - { date: 1995-11-29, s: dead, verify: true }
   cites: [rmrb-1966-06-04-new-committee, ws-1977-07-tenth-third-plenum, wu-de-memoir]
 
@@ -279,16 +279,16 @@
     - { voice: scholar, text: 研究者认为毛泽东在 1970–1973 年提拔李德生，是要在林彪的军委办事组和此后的军队高层中安插一个不属于四野系统的可靠人物；十大后他与王洪文同为副主席，但实际影响有限。, cite: macfarquhar-schoenhals }
   factions: [mao]
   fate:
-    - { date: 1932, s: normal, note: 入党, verify: true }
+    - { date: 1932-02, s: normal, note: 转为党员, cite: xinhua-2011-li-desheng-bio }
     - { date: 1952-10, s: normal, note: 上甘岭战役, verify: true }
-    - { date: 1968-04-18, s: power, note: 安徽省革委会主任, verify: true }
+    - { date: 1968-04, s: power, note: 率部赴皖，历任安徽省军区司令员、省革委会主任（此前数据作 1968-04-18）, cite: xinhua-2011-li-desheng-bio }
     - { date: 1969-04-28, s: rise, note: 政治局候补委员, cite: ws-1969-04-28-9th-cc-plenum }
-    - { date: 1970, s: power, note: 总政治部主任, verify: true }
+    - { date: 1970-04, s: power, note: 总政治部主任（至 1973-12）, cite: xinhua-2011-li-desheng-bio }
     - { date: 1971-01, s: power, note: 北京军区司令员, cite: ws-1971-12-lin-chen-material-1 }
-    - { date: 1973-08, s: rise, note: 中共中央副主席, verify: true }
+    - { date: 1973-08, s: rise, note: 十届一中全会当选政治局常委、中共中央副主席, cite: xinhua-2011-li-desheng-bio }
     - { date: 1975-01, s: normal, note: 辞去副主席, verify: true }
-    - { date: 1985-12, s: normal, note: 国防大学政委, verify: true }
-    - { date: 2011-05-08, s: dead, verify: true }
+    - { date: 1985-11, s: normal, note: 新组建的国防大学政委（此前数据作 1985-12）, cite: xinhua-2011-li-desheng-bio }
+    - { date: 2011-05-08, s: dead, cite: xinhua-2011-li-desheng-bio }
   cites: [ws-1971-12-lin-chen-material-1, ws-1969-04-28-9th-cc-plenum, ws-1977-07-tenth-third-plenum]
 
 - id: chen-xilian

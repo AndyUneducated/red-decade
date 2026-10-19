@@ -1,0 +1,68 @@
+# W5 第 3 批：2 级人物待核命运节点，新华社生平与讣告（2026-10-18）。
+web:
+  - id: xinhua-2007-bo-yibo-bio
+    title: 薄一波同志生平
+    date: 2007-01-21
+    author: 新华社
+    kind: obituary
+    alias: 2007 年新华社《薄一波同志生平》
+    url: https://www.chinanews.com/gn/news/2007/01-21/858229.shtml
+    via: 中国新闻网转载
+    start: 中国共产党的优秀党员，伟大的共产主义战士
+    end: 薄一波同志永垂不朽
+  - id: xinhua-2015-wang-dongxing-bio
+    title: 汪东兴同志生平
+    date: 2015-08-27
+    author: 新华社
+    kind: obituary
+    alias: 2015 年新华社《汪东兴同志生平》
+    url: http://www.xinhuanet.com/politics/2015-08/27/c_1116397181.htm
+    via: 新华网
+    start: 中国共产党的优秀党员，久经考验的忠诚的共产主义战士，无产阶级革命家，曾担任
+    end: 汪东兴同志永垂不朽
+  - id: xinhua-2011-li-desheng-bio
+    title: 李德生同志生平
+    date: 2011-05-15
+    author: 新华社
+    kind: obituary
+    alias: 2011 年新华社《李德生同志生平》
+    url: https://epaper.gmw.cn/gmrb/html/2011-05/15/nw.D110000gmrb_20110515_1-04.htm
+    via: 《光明日报》2011-05-15 第 4 版电子版
+    start: 中国共产党的优秀党员,久经考验的忠诚的共产主义战士,无产阶级革命家、军事家
+    end: 李德生同志永垂不朽
+  - id: rmrb-1996-05-21-lu-dingyi-bio
+    title: 陆定一同志生平
+    date: 1996-05-21
+    author: 新华社
+    kind: obituary
+    alias: 1996 年新华社《陆定一同志生平》
+    url: https://cn.govopendata.com/renminribao/1996/05/21/4/
+    via: 《人民日报》1996-05-21 第 4 版（govopendata 转录）
+    article: 陆定一同志生平
+  - id: rmrb-1988-08-02-ji-dengkui-bio
+    title: 纪登奎同志生平
+    date: 1988-08-02
+    author: 新华社
+    kind: obituary
+    alias: 1988 年新华社《纪登奎同志生平》
+    url: https://cn.govopendata.com/renminribao/1988/08/02/4/
+    via: 《人民日报》1988-08-02 第 4 版（govopendata 转录）
+    article: 纪登奎同志生平
+  - id: rmrb-1992-06-27-li-xiannian-life
+    title: 李先念同志光辉战斗的一生
+    date: 1992-06-27
+    author: 新华社
+    kind: obituary
+    alias: 1992 年《人民日报》《李先念同志光辉战斗的一生》
+    url: https://cn.govopendata.com/renminribao/1992/06/27/1/
+    via: 《人民日报》1992-06-27 第 1 版（govopendata 转录）
+    article: 李先念同志光辉战斗的一生
+  - id: rmrb-1995-04-12-chen-yun-obituary
+    title: 陈云同志逝世讣告
+    date: 1995-04-12
+    author: 中共中央、全国人大常委会、国务院、全国政协
+    kind: obituary
+    alias: 1995 年陈云讣告（《人民日报》1995-04-12）
+    url: https://cn.govopendata.com/renminribao/1995/04/12/1/
+    via: 《人民日报》1995-04-12 第 1 版（govopendata 转录）
+    article: 中共中央全国人大常委会国务院全国政协中央军委沉痛宣告陈云同志在北京逝世
