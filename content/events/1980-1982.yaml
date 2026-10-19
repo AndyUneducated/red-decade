@@ -11,7 +11,8 @@
   concepts: [factionalism]
   voices:
     - { voice: officialLater, text: 集体领导是党的领导的最高原则之一（1980 年《关于党内政治生活的若干准则》第二条“坚持集体领导，反对个人专断”）, cite: ws-1980-02-29-party-life-norms, quote: true }
-  cites: [ws-1980-02-29-party-life-norms]
+    - { voice: doc, text: 发扬民主可以经过很多渠道来实现。比如党内政治生活的准则就规定，要讲真话，有意见摆到桌面上（1980 年 2 月 29 日邓小平在五中全会上的讲话，同时说明取消“四大”的理由）, cite: reformdata-1980-deng-party-line, quote: true }
+  cites: [ws-1980-02-29-party-life-norms, reformdata-1980-deng-party-line]
 
 - id: 1980-05-20-luo-ruiqing-rehab
   date: 1980-05-20
@@ -48,6 +49,7 @@
   people: [hua-guofeng, zhao-ziyang, deng-xiaoping, li-xiannian, chen-yun, xu-xiangqian, wang-zhen]
   voices:
     - { voice: officialLater, text: 根据以上的原则，我向中共中央提出并经中共中央决定，我不再兼任国务院总理（1980 年 9 月 7 日华国锋讲话）, cite: ws-1980-09-07-hua-npc-speech, quote: true }
+    - { voice: doc, text: 国务院领导成员的变动，将是五届人大三次会议的主要议题之一。这次变动，包括华国锋同志不兼任总理，由赵紫阳同志接替（会前 8 月 18 日邓小平在政治局扩大会议上的讲话）, cite: ws-1980-08-18-leadership-reform, quote: true }
   cites: [ws-1980-09-07-hua-npc-speech, ws-1980-08-18-leadership-reform]
 
 - id: 1980-09-25-one-child-letter
@@ -247,6 +249,7 @@
   voices:
     - { voice: judicial1980, text: 一九六三年留学回国后分配在中国科学院地质研究所工作。一九六六年九月调贵阳地球化学研究所任研究实习员。“文化大革命”中曾任贵州省革命委员会常委、副主任、党的核心小组成员（1982 年孙昌德案起诉书）, cite: ws-1982-sun-changde-case, quote: true }
     - { voice: judicial1980, text: “文化大革命”中曾任贵州省革命委员会委员、常委、党的核心领导小组成员，中共贵州省委委员（徐英年案起诉书）, cite: ws-1982-xu-yingnian-case, quote: true }
+    - { voice: officialLater, text: 由李再含及其核心成员罗锡康、张明、孙昌德、徐英年等少数几个人阴谋策划、指挥下造成的，矛头是针对坚持毛主席革命路线的各级领导干部的（1979 年中共中央否定贵州“一月夺权”的批示，起诉前三年）, cite: ccrd-1979-gz-jan-seizure, quote: true }
   cites: [ws-1982-sun-changde-case, ws-1982-xu-yingnian-case, ccrd-1979-gz-jan-seizure]
 
 - id: 1982-12-04-constitution
@@ -260,7 +263,8 @@
   concepts: [continuous-revolution, mass-democracy]
   voices:
     - { voice: officialLater, text: 中华人民共和国公民的人格尊严不受侵犯。禁止用任何方法对公民进行侮辱、诽谤和诬告陷害（1982 年宪法第三十八条）, cite: ws-1982-12-04-constitution, quote: true }
-  cites: [ws-1982-12-04-constitution, ws-1978-03-05-constitution]
+    - { voice: doc, text: 根据历史的经验和“文化大革命”的教训，草案关于公民的各项基本权利的规定，不仅恢复了一九五四年宪法的内容，而且规定得更加切实和明确，还增加了新的内容。例如关于公民的人格尊严不受侵犯的条文，是新增加的（1982 年 11 月 26 日彭真关于宪法修改草案的报告）, cite: reformdata-1982-peng-zhen-constitution-report, quote: true }
+  cites: [ws-1982-12-04-constitution, ws-1978-03-05-constitution, reformdata-1982-peng-zhen-constitution-report]
 
 - id: 1982-economic-crime-campaign
   date: 1982-04

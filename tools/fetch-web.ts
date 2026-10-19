@@ -29,6 +29,7 @@ type Entry = {
   keep?: string[]
   unwrap?: boolean
   breaks?: string
+  reflow?: boolean
   frus?: boolean
   rows?: boolean
   charset?: string
@@ -85,7 +86,12 @@ for (const e of entries) {
     // `breaks`: plain-text dumps inside <pre> mark paragraphs only by an indent run (a regex source)
     // and wrap visual lines with a bare CR, which is dropped
     // `rows`: data tables lay one cell per source line; a table row is kept as one line of cells
-    const src = e.rows ? html.replace(/<tr[\s\S]*?<\/tr>/gi, (r) => r.replace(/<\/t[dh]>/gi, ' ').replace(/\s+/g, ' ')) : html
+    // `reflow`: hand-written English pages wrap source lines inside <p>; only tags break paragraphs
+    const src = e.rows
+      ? html.replace(/<tr[\s\S]*?<\/tr>/gi, (r) => r.replace(/<\/t[dh]>/gi, ' ').replace(/\s+/g, ' '))
+      : e.reflow
+        ? html.replace(/\s*[\r\n]+\s*/g, ' ')
+        : html
     const all = htmlToText(e.frus ? frusBody(src) : e.breaks ? src.replace(/\r(?!\n)/g, '').replace(new RegExp(e.breaks, 'g'), '\n') : src)
     const i = e.start ? all.indexOf(e.start) : 0
     const j = e.end ? all.indexOf(e.end, Math.max(0, i)) : -1

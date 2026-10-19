@@ -121,4 +121,6 @@
     - { voice: officialLater, text: 王若望自1979年以来，特别是近两年来，经常借作报告、发表文章的机会，鼓吹资产阶级自由化，反对四项基本原则，屡教不改（1987 年上海市纪委决定）, cite: rmrb-1987-01-15-wang-ruowang, quote: true }
     - { voice: officialLater, text: 刘宾雁严重违反党章、党纪和党的决议，在许多地方发表讲演、文章，否定四项基本原则，鼓吹资产阶级自由化（1987 年人民日报社纪委决定）, cite: rmrb-1987-01-25-liu-binyan, quote: true }
     - { voice: officialLater, text: 二是，彻底否定反对资产阶级自由化，为反自由化中所谓“蒙受不白之冤的公民”平反昭雪（1989 年陈希同报告，转述学生的要求）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
-  cites: [rmrb-1987-01-17-politburo, rmrb-1987-01-15-wang-ruowang, rmrb-1987-01-25-liu-binyan, ws-1989-06-30-chen-xitong-report]
+    - { voice: doc, text: 需要在报刊上公开指名批评和作出组织处理的，只是极个别公开鼓吹资产阶级自由化、屡教不改、影响很大的党员（1987 年 1 月 28 日中共中央反自由化通知）, cite: reformdata-1987-01-28-anti-liberalization-notice, quote: true }
+    - { voice: foreign, text: "is probably the result of the recent student demonstrations.（1987 年 1 月 17 日美军太平洋司令部情报摘要评胡耀邦辞职，据美国国家安全档案馆电子简报转引）", cite: nsarchive-1999-tiananmen-ebb16, quote: true }
+  cites: [rmrb-1987-01-17-politburo, rmrb-1987-01-15-wang-ruowang, rmrb-1987-01-25-liu-binyan, ws-1989-06-30-chen-xitong-report, reformdata-1987-01-28-anti-liberalization-notice, nsarchive-1999-tiananmen-ebb16]

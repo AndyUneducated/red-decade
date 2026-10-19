@@ -233,13 +233,14 @@
   lane: econ
   weight: 2
   place: 北京
-  summary: 华国锋在政府工作报告里承认比例严重失调、百分之二十四的国营工业企业亏损，提出用三年时间调整国民经济，收缩一年前的十年规划。会议通过刑法、刑事诉讼法等七个法律。
+  summary: 华国锋在政府工作报告里承认比例严重失调、百分之二十四的国营工业企业亏损，提出用三年时间调整国民经济，收缩一年前的十年规划。三个月前，陈云 3 月 21 日在政治局会议上已说比例失调“相当严重”，“要有两三年调整时间，最好三年”。会议通过刑法、刑事诉讼法等七个法律。
   people: [hua-guofeng, chen-yun, li-xiannian, peng-zhen]
   voices:
+    - { voice: doc, text: 现在比例失调的情况相当严重。基本建设项目大的一千七百多个，小的几万个。赶快下决心，搞不了的，丢掉一批就是了（1979 年 3 月 21 日陈云在政治局会议上的讲话）, cite: reformdata-1979-chen-yun-adjustment, quote: true }
     - { voice: officialLater, text: 从今年起集中三年的时间，认真搞好国民经济的调整、改革、整顿、提高，把它逐步纳入持久的按比例的高速度发展的轨道（1979 年政府工作报告）, cite: ws-1979-06-18-gov-report, quote: true }
     - { voice: officialLater, text: 有百分之二十四的国营工业企业存在着程度不同的亏损（同一报告）, cite: ws-1979-06-18-gov-report, quote: true }
     - { voice: officialLater, text: 五届人大二次会议通过的七个法律的实施，对于发挥全国人民的社会主义积极性，打击刑事犯罪，维护人民利益，保障现代化建设的顺利进行，正在发挥重要作用（1980 年华国锋讲话）, cite: ws-1980-09-07-hua-npc-speech, quote: true }
-  cites: [ws-1979-06-18-gov-report, ws-1980-09-07-hua-npc-speech]
+  cites: [ws-1979-06-18-gov-report, ws-1980-09-07-hua-npc-speech, reformdata-1979-chen-yun-adjustment]
 
 - id: 1979-yu-luoke-acquittal
   date: 1979

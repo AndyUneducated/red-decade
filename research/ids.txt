@@ -3352,6 +3352,7 @@ sources/nbs-retro-sugar
 sources/netease-2025-miao-changqing-hua-guofeng
 sources/nfpeople-2018-pan-guoping
 sources/nie-yuanzi-memoir
+sources/nsarchive-1999-tiananmen-ebb16
 sources/open-2007-04-wu-guoguang-zhao-legacy
 sources/peng-zhen-chronicle
 sources/people-2009-deng-chronology
@@ -3374,15 +3375,19 @@ sources/people-xiao-hua
 sources/pku-2014-tang-yijie
 sources/pku-feng-youlan
 sources/qi-benyu-memoir
+sources/reformdata-1979-chen-yun-adjustment
+sources/reformdata-1980-deng-party-line
 sources/reformdata-1980-deng-resolution-drafting
 sources/reformdata-1980-deng-rural-policy
 sources/reformdata-1981-deng-ideological-front
 sources/reformdata-1982-deng-economic-crime
 sources/reformdata-1982-deng-streamlining
 sources/reformdata-1982-deng-twelfth-congress-opening
+sources/reformdata-1982-peng-zhen-constitution-report
 sources/reformdata-1983-10-12-commune-separation
 sources/reformdata-1984-deng-special-zones
 sources/reformdata-1985-ten-rural-policies
+sources/reformdata-1987-01-28-anti-liberalization-notice
 sources/reformdata-1988-deng-price-reform
 sources/rfa-2001-03-03-yu-luowen
 sources/rmrb-1954-11-01-census-1953

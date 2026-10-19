@@ -433,12 +433,14 @@
   title: 中央反自由化通知：“严格限于党内”，“不搞政治运动”
   lane: ideology
   weight: 2
-  summary: 据大事记，中共中央发出《关于当前反对资产阶级自由化若干问题的通知》，把资产阶级自由化界定为否定社会主义制度、主张资本主义制度，“核心是否定党的领导”；同时规定这场斗争“严格限于党内”，主要在政治思想领域进行，以正面教育为主，“不搞政治运动”。通知把坚持四项基本原则与坚持改革开放称为三中全会以来路线的“两个基本点”，十三大沿用了这个提法。
+  summary: 中共中央发出《关于当前反对资产阶级自由化若干问题的通知》，把资产阶级自由化界定为否定社会主义制度、主张资本主义制度，“核心是否定党的领导”；同时规定这场斗争“严格限于党内”，主要在政治思想领域进行，以正面教育为主，“不搞政治运动”。通知把坚持四项基本原则与坚持改革开放称为三中全会以来路线的“两个基本点”，十三大沿用了这个提法。
   voices:
     - { voice: officialLater, text: 搞资产阶级自由化，即否定社会主义制度、主张资本主义制度，核心是否定党的领导, cite: ws-1987-01-deng-student-unrest, quote: true }
     - { voice: officialLater, text: 但这场斗争严格限于党内，主要在政治思想领域内进行, cite: ws-1987-01-deng-student-unrest, quote: true }
     - { voice: officialLater, text: 团结绝大多数的方针，不搞政治运动, cite: ws-1987-01-deng-student-unrest, quote: true }
-  cites: [ws-1987-01-deng-student-unrest]
+    - { voice: doc, text: 这场斗争严格限于党内，而且主要在政治思想领域内进行（通知原文第二条）, cite: reformdata-1987-01-28-anti-liberalization-notice, quote: true }
+    - { voice: doc, text: 反对资产阶级自由化必须采取正确的方法，不搞政治运动（通知原文第四条）, cite: reformdata-1987-01-28-anti-liberalization-notice, quote: true }
+  cites: [ws-1987-01-deng-student-unrest, reformdata-1987-01-28-anti-liberalization-notice]
 
 - id: 1987-11-24-village-committees
   date: 1987-11-24

@@ -392,7 +392,9 @@
   people: [fang-lizhi, hu-yaobang, deng-xiaoping]
   voices:
     - { voice: officialLater, text: 合肥、北京等地一些高等学校的少数学生出于各种情绪和缘由上街游行（官方大事记）, cite: ws-1987-01-student-protest-chronology, quote: true }
-  cites: [ws-1987-01-student-protest-chronology, rmrb-1987-01-17-politburo]
+    - { voice: doc, text: 去年年底波及不少城市的学潮，其性质是严重的。直接引发这一学潮的原因，各地各校有所不同（1987 年 1 月 28 日中共中央反自由化通知）, cite: reformdata-1987-01-28-anti-liberalization-notice, quote: true }
+    - { voice: foreign, text: "There can be no doubt that the authorities will crack down, and crack down hard, if stability seems to be being called into question.（1986 年 12 月 24 日美国驻华使馆电报，据美国国家安全档案馆电子简报转引）", cite: nsarchive-1999-tiananmen-ebb16, quote: true }
+  cites: [ws-1987-01-student-protest-chronology, rmrb-1987-01-17-politburo, reformdata-1987-01-28-anti-liberalization-notice, nsarchive-1999-tiananmen-ebb16]
 
 - id: 1983-zhongshan-survey
   date: 1983

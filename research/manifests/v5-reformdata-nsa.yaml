@@ -1,0 +1,57 @@
+# V5 为只有“后来官方”声部的 1977–1989 年事件补当时的文件与讲话（改革大数据服务平台转录），
+# 并为 1986–1987 年学潮补外国档案声部（美国国家安全档案馆电子简报转引的美方电报）。
+web:
+  - id: reformdata-1979-chen-yun-adjustment
+    title: 调整国民经济，坚持按比例发展
+    date: 1979-03-21
+    author: 陈云
+    kind: speech
+    tier: 2
+    alias: 陈云《调整国民经济，坚持按比例发展》（1979 年 3 月 21 日在中央政治局会议上的讲话，《陈云文选》第三卷）
+    url: http://www.reformdata.org/1979/0321/2344.shtml
+    via: 改革大数据服务平台转录《陈云文选》第三卷
+    start: 今天讲四个问题。
+    end: 只能量力而行。
+  - id: reformdata-1980-deng-party-line
+    title: 坚持党的路线，改进工作方法
+    date: 1980-02-29
+    author: 邓小平
+    kind: speech
+    tier: 2
+    alias: 邓小平《坚持党的路线，改进工作方法》（1980 年 2 月 29 日在十一届五中全会第三次会议上的讲话，《邓小平文选》第二卷）
+    url: http://www.reformdata.org/1980/0229/5183.shtml
+    via: 改革大数据服务平台转录《邓小平文选》第二卷
+    start: 我今天讲三点：一、讲这次会议
+  - id: reformdata-1982-peng-zhen-constitution-report
+    title: 关于中华人民共和国宪法修改草案的报告
+    date: 1982-11-26
+    author: 彭真
+    kind: speech
+    tier: 2
+    alias: 彭真《关于中华人民共和国宪法修改草案的报告》（1982 年 11 月 26 日在五届人大五次会议上，《十二大以来重要文献选编》上）
+    url: http://www.reformdata.org/1982/1126/1732.shtml
+    via: 改革大数据服务平台转录《十二大以来重要文献选编》上
+    start: 主席团、各位代表：
+  - id: reformdata-1987-01-28-anti-liberalization-notice
+    title: 中共中央关于当前反对资产阶级自由化若干问题的通知
+    date: 1987-01-28
+    author: 中共中央
+    kind: party-doc
+    tier: 1
+    alias: 1987 年 1 月 28 日《中共中央关于当前反对资产阶级自由化若干问题的通知》
+    url: http://www.reformdata.org/1987/0128/2928.shtml
+    via: 改革大数据服务平台转录《十二大以来重要文献选编》下
+    start: 一、各级党组织务必充分认识
+  - id: nsarchive-1999-tiananmen-ebb16
+    title: "Tiananmen Square, 1989: The Declassified History (National Security Archive Electronic Briefing Book No. 16)"
+    date: 1999-06-01
+    author: Jeffrey T. Richelson, Michael L. Evans
+    kind: database
+    tier: 4
+    alias: 美国国家安全档案馆电子简报第 16 号《1989 年天安门：解密史》（1999 年）
+    url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB16/documents/index.html
+    via: 美国国家安全档案馆（乔治·华盛顿大学）
+    note: 编者对所收美国政府解密文件的说明，引文转录自所附电报与情报摘要，未核原件。
+    reflow: true
+    start: The student demonstrations at Tiananmen Square in 1989 were not the first time
+    end: "p. 1."
