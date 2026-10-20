@@ -470,6 +470,7 @@ archive/rmrb-page-1966-06-02-1
 archive/rmrb-page-1966-06-04-1
 archive/rmrb-page-1966-06-18-1
 archive/rmrb-page-1966-07-25-1
+archive/rmrb-page-1966-08-01-1
 archive/rmrb-page-1966-08-19-1
 archive/rmrb-page-1966-08-19-2
 archive/rmrb-page-1966-08-24-2
@@ -3738,6 +3739,7 @@ sources/rmrb-1966-06-04-pku-committee
 sources/rmrb-1966-06-18-education-editorial
 sources/rmrb-1966-06-18-exam-postponed
 sources/rmrb-1966-07-25-yangtze
+sources/rmrb-1966-08-01-mao-thought-school
 sources/rmrb-1966-08-18-zhou-speech
 sources/rmrb-1966-08-19-first-rally
 sources/rmrb-1966-08-24-rebel-1
@@ -4312,6 +4314,7 @@ sources/ws-1966-10-xicheng-11
 sources/ws-1966-11-01-luxun
 sources/ws-1966-11-red-flag-two-lines
 sources/ws-1966-11-shanghai-wgs
+sources/ws-1966-12-09-industry-ten
 sources/ws-1966-12-liandong
 sources/ws-1966-12-wangli-dictatorship
 sources/ws-1966-qinghua-workteam-survey

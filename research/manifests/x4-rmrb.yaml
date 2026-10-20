@@ -1,0 +1,19 @@
+# X4（2026-10-20）：1966 年缺一手出处的事件。《人民日报》当日报道（govopendata 转录，只留相关段落）与维基文库原件。
+wikisource:
+  - id: ws-1966-12-09-industry-ten
+    title: 中共中央关于抓革命、促生产的十条规定（草案）
+    date: 1966-12-09
+    author: 中共中央
+    kind: party-doc
+    alias: 工业“十条”
+web:
+  - id: rmrb-1966-08-01-mao-thought-school
+    title: 全国都应该成为毛泽东思想的大学校（社论）
+    date: 1966-08-01
+    author: 人民日报社论
+    kind: news
+    alias: 1966 年 8 月 1 日《人民日报》社论《全国都应该成为毛泽东思想的大学校》
+    url: https://cn.govopendata.com/renminribao/1966/08/01/1/
+    excerpt: true
+    keep: [最近，毛泽东同志指出：人民解放军应该是一个大学校]
+    via: 《人民日报》1966-08-01 第 1 版（govopendata 转录）

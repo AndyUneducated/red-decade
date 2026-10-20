@@ -46,13 +46,14 @@
   title: 毛泽东给林彪的批示（“五七指示”）
   lane: ideology
   weight: 2
-  summary: 毛泽东在林彪转呈的总后勤部报告上给林彪写了批示。据戚本禹回忆，毛泽东在上海召陈伯达、戚本禹等修改时说，军队战士除了军事训练还可以做工、务农、学文化，这是“未来共产主义社会的萌芽”；5 月 14 日批回，15 日政治局扩大会议通过，以中共中央名义下发，因批示写于 5 月 7 日而称“五七指示”。此后各地的“五七干校”即以此为名。批示原文库内没有。
+  summary: 毛泽东在林彪转呈的总后勤部报告上给林彪写了批示。据戚本禹回忆，毛泽东在上海召陈伯达、戚本禹等修改时说，军队战士除了军事训练还可以做工、务农、学文化，这是“未来共产主义社会的萌芽”；5 月 14 日批回，15 日政治局扩大会议通过，以中共中央名义下发，因批示写于 5 月 7 日而称“五七指示”。此后各地的“五七干校”即以此为名。批示全文库内没有；1966 年 8 月 1 日《人民日报》社论《全国都应该成为毛泽东思想的大学校》以“最近，毛泽东同志指出”引用了其中关于军队是“一个大学校”的话。
   people: [mao-zedong, lin-biao, chen-boda, qi-benyu, yang-chengwu]
   voices:
     - { voice: witness, text: 解放军战士除了军事训练，还可以做工，务农，还能学习文化知识，发展艺术才能（毛泽东语，戚本禹回忆）, cite: marxists-qibenyu-3-04-may-seventh, quote: true }
     - { voice: witness, text: 1966年5月15日，在中央政治局扩大会议上一致通过了这个文件，并以中共中央的名义正式向全党下发了这个文件（戚本禹回忆）, cite: marxists-qibenyu-3-04-may-seventh, quote: true }
     - { voice: witness, text: 有些人甚至把它看做是“牛棚”，是“劳改”，是一种政治迫害（戚本禹谈“五七干校”）, cite: marxists-qibenyu-3-04-may-seventh, quote: true }
-  cites: [marxists-qibenyu-3-04-may-seventh]
+    - { voice: official1966, text: 最近，毛泽东同志指出：人民解放军应该是一个大学校。这个大学校，要学政治，学军事，学文化，又能从事农副业生产（《人民日报》1966 年 8 月 1 日社论）, cite: rmrb-1966-08-01-mao-thought-school, quote: true }
+  cites: [marxists-qibenyu-3-04-may-seventh, rmrb-1966-08-01-mao-thought-school]
 
 - id: 1966-11-09-qufu-anti-confucius
   date: 1966-11-09
