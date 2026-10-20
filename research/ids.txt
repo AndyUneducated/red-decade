@@ -3612,6 +3612,7 @@ sources/mao-manuscripts-12
 sources/marxists-1967-zhang-chunqiao-jiangsu
 sources/marxists-1968-01-yang-xiguang-whither-china
 sources/marxists-1968-07-30-five-leaders
+sources/marxists-qibenyu-2-01-zhongnanhai
 sources/marxists-qibenyu-2-08-eight-sima
 sources/marxists-qibenyu-2-09-xinfan
 sources/marxists-qibenyu-2-14-beidaihe

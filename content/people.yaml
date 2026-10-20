@@ -1304,7 +1304,7 @@
   factions: [ccrg]
   fate:
     - { date: 1949, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-qi-benyu }
-    - { date: 1950, s: normal, note: 调中央办公厅秘书室, verify: true }
+    - { date: 1950-05-04, s: normal, note: 到中南海报到，任中央书记处政治秘书室见习秘书（戚本禹回忆）, cite: marxists-qibenyu-2-01-zhongnanhai }
     - { date: 1963, s: rise, note: 发表关于李秀成的论文，受毛泽东高度赞誉（维基百科，未核原件）, cite: zhwiki-qi-benyu }
     - { date: 1965-01, s: normal }
     - { date: 1965-12-21, s: rise, note: 毛泽东点名称赞, cite: ws-1966-05-16-notice-attachment@1965-12-21 }
@@ -1832,7 +1832,7 @@
     - { date: 1954, s: power }
     - { date: 1959, s: power, note: 国务院副总理（此前数据作 1959-04）, cite: rmrb-1996-05-21-lu-dingyi-bio }
     - { date: 1966-05, s: purged, cite: ws-1980-indictment }
-    - { date: 1966-12, s: detained, note: 生平称文革中被关押近 13 年；起始月份待核, verify: true }
+    - { date: 1966-12, s: detained, note: 12 月初与彭真、罗瑞卿一起被叶向真等人抓走（戚本禹回忆）；生平称文革中被关押近 13 年, cite: marxists-qibenyu-3-15-peng-luo-lu-yang }
     - { date: 1968-04, s: detained, note: 下旬转入秦城监狱，编号“68164”（维基百科，未核原件）, cite: zhwiki-lu-dingyi }
     - { date: 1979-06-08, s: restored, note: 中共中央为其平反（此前数据作 1979）（维基百科，未核原件）, cite: zhwiki-lu-dingyi }
     - { date: 1996-05-09, s: dead }
@@ -3961,7 +3961,7 @@
     - { date: 1966-06-24, s: attacked, note: 清华工作组开始“反蒯”（据 1967 年反工作组一方的调查报告）, cite: ws-1966-qinghua-workteam-survey }
     - { date: 1966-08-04, s: rise, note: 工作组撤出后，陈伯达等到清华为其平反（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1966-12-18, s: power, note: 张春桥单独接见, cite: ws-1980-indictment }
-    - { date: 1967-04-20, s: power, note: 北京市革委会常委, cite: ws-1982-12-kuai-dafu-case, verify: true }
+    - { date: 1967-04-20, s: power, note: 北京市革委会常委（成立大会报道所列出席常委）, cite: rmrb-1967-04-21-beijing-revcom }
     - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1968-12, s: sidelined, note: 分配到宁夏三〇四厂, place: yinchuan, cite: ws-1982-12-kuai-dafu-case }
     - { date: 1970-11, s: detained, note: 以清查“五一六”名义被审查（维基百科，未核原件）, cite: zhwiki-kuai-dafu }

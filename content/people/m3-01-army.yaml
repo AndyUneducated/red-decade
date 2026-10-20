@@ -71,7 +71,7 @@
     - { date: 1927-09, s: normal, note: 参加秋收起义, cite: people-jiangshuai-huang-yongsheng }
     - { date: 1955, s: power, note: 广州军区司令员（此前数据作 1955-02）（维基百科，未核原件）, cite: zhwiki-huang-yongsheng }
     - { date: 1967-06-23, s: power, note: 批准调查叶剑英的“第一号调查方案”, cite: ws-1980-indictment }
-    - { date: 1968-02-21, s: power, note: 广东省革委会主任, verify: true }
+    - { date: 1968-02-21, s: power, note: 广东省革委会主任, cite: rmrb-1968-02-23-guangdong-revcom }
     - { date: 1968-03-22, s: rise, note: 中共中央任命为总参谋长（此前数据作 3 月 24 日）, cite: ccrd-1987-bj-chronology-192 }
     - { date: 1969-04-28, s: power, note: 九届一中全会当选政治局委员, cite: ws-1980-indictment }
     - { date: 1971-09, s: purged, note: 被撤职（此前数据作 9 月 24 日隔离审查）, cite: people-jiangshuai-huang-yongsheng }
@@ -214,7 +214,7 @@
     - { date: 1955, s: normal, note: 授中将, cite: people-jiangshuai-qiu-huizuo }
     - { date: 1959, s: power, note: 接替洪学智任总后方勤务部部长（此前数据作 1959-09）（维基百科，未核原件）, cite: zhwiki-qiu-huizuo }
     - { date: 1967-01, s: attacked, note: 被总后造反派抓走批斗，肋骨断裂，多次昏厥（维基百科，未核原件）, cite: zhwiki-qiu-huizuo }
-    - { date: 1967-08, s: power, note: 进入军委办事组, verify: true }
+    - { date: 1967-09-26, s: power, note: 进入军委办事组（吴法宪回忆办事组当晚成立；原记 1967-08）, cite: wu-faxian-memoir-cwo }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1980-indictment }
     - { date: 1971-09-29, s: detained, note: 离职反省，隔离审查, cite: ws-1971-09-29-notice }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑十六年, cite: ws-1981-01-25-judgment }
@@ -611,7 +611,7 @@
     - { date: 1927-11, s: normal, note: 黄麻起义, cite: people-jiangshuai-xu-shiyou }
     - { date: 1948-09, s: normal, note: 被指定为济南战役攻城部队总指挥, cite: people-jiangshuai-xu-shiyou }
     - { date: 1955-03, s: power, note: 南京军区司令员（此前数据作 1955-02）（维基百科，未核原件）, cite: zhwiki-xu-shiyou }
-    - { date: 1967-01, s: attacked, note: 造反派冲击军区，一度离开南京, verify: true }
+    - { date: 1967-01, s: attacked, note: 南京军区八个领导被揪斗，许世友跑到大别山（吴法宪回忆）, cite: wu-faxian-memoir-cwo }
     - { date: 1968-03, s: power, note: 江苏省革委会主任（此前数据作 1968-03-23）（维基百科，未核原件）, cite: zhwiki-xu-shiyou }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1973, s: power, note: 调任广州军区司令员, cite: people-jiangshuai-xu-shiyou }

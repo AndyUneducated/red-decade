@@ -325,7 +325,7 @@
     - { date: 1941-02, s: normal, note: 毛泽东秘书, cite: rmrb-1992-10-04-hu-qiaomu }
     - { date: 1966-06, s: sidelined, note: 秘书职务结束, cite: rmrb-1992-10-04-hu-qiaomu }
     - { date: 1975, s: restored, note: 国务院政治研究室主任, cite: rmrb-1992-10-04-hu-qiaomu }
-    - { date: 1976-03, s: attacked, note: 政研室被批为“邓记谣言公司”, verify: true }
+    - { date: 1976-03, s: attacked, note: 江青说政研室是“邓小平的谣言公司”，胡乔木是“副经理”（邓力群回忆）, cite: higrid-dengliqun-12 }
     - { date: 1977, s: power, note: 中国社会科学院院长（此前数据作 1977-05）（维基百科，未核原件）, cite: zhwiki-hu-qiaomu }
     - { date: 1980-02-29, s: power, note: 中央书记处书记, cite: rmrb-1980-03-01-fifth-plenum }
     - { date: 1992-09-28, s: dead, note: 病逝, cite: rmrb-1992-10-04-hu-qiaomu }

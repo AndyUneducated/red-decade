@@ -113,7 +113,7 @@
   factions: [provincial]
   fate:
     - { date: 1967-07, s: rise, note: 七二〇事件后任武汉军区司令员（维基百科，未核原件）, cite: zhwiki-zeng-siyu }
-    - { date: 1968-02-05, s: power, note: 湖北省革委会主任, verify: true }
+    - { date: 1968-02-05, s: power, note: 湖北省革委会主任, cite: rmrb-1968-02-07-hubei-revcom }
     - { date: 1969-04, s: power, note: 九届中央委员, cite: people-jiangshuai-zeng-siyu }
     - { date: 1973, s: power, note: 调任济南军区司令员（此前数据作 1973-12）（维基百科，未核原件）, cite: zhwiki-zeng-siyu }
     - { date: 1974-05-21, s: attacked, note: 中央指示称其犯了严重错误、是“好人犯错误”, cite: ws-1974-05-21-hubei-instructions }

@@ -210,7 +210,7 @@
     - { date: 1966-06-03, s: rise, note: 调任北京市委第二书记, cite: rmrb-1966-06-04-new-committee }
     - { date: 1967-04-20, s: power, note: 北京市革委会副主任, cite: rmrb-1967-04-21-beijing-revcom }
     - { date: 1972, s: power, note: 谢富治死后接任北京市革委会主任兼市委第一书记（此前数据作 1972-10，维基只记年份）（维基百科，未核原件）, cite: enwiki-wu-de }
-    - { date: 1976-04-05, s: power, note: 天安门广场广播讲话, verify: true }
+    - { date: 1976-04-05, s: power, note: 天安门广场广播讲话, cite: rmrb-1976-04-08-wude }
     - { date: 1978-10, s: sidelined, note: 离开北京市, verify: true }
     - { date: 1980-02, s: sidelined, note: 十一届五中全会批准辞职, cite: rmrb-1980-03-01-fifth-plenum }
     - { date: 1995-11-29, s: dead, note: 在北京病逝（维基百科，未核原件）, cite: zhwiki-wu-de }
@@ -357,7 +357,7 @@
     - { date: 1937-10, s: normal, note: 夜袭阳明堡机场, cite: people-jiangshuai-chen-xilian }
     - { date: 1955, s: normal, note: 授上将, cite: people-jiangshuai-chen-xilian }
     - { date: 1959, s: power, note: 起任沈阳军区司令员, cite: people-jiangshuai-chen-xilian }
-    - { date: 1968-05-10, s: power, note: 辽宁省革委会主任, verify: true }
+    - { date: 1968-05-10, s: power, note: 辽宁省革委会主任, cite: rmrb-1968-05-12-liaoning-revcom }
     - { date: 1969-04-28, s: rise, note: 政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1973-12, s: power, note: 与李德生对调，任北京军区司令员（维基百科，未核原件）, cite: zhwiki-chen-xilian }
     - { date: 1976-02, s: power, note: 叶剑英“因病休息”后主持军委日常工作，至 1977 年 2 月（维基百科，未核原件）, cite: zhwiki-chen-xilian }
