@@ -122,3 +122,53 @@
     - { voice: witness, text: 他的这个报告讲得很好，是在空军放了一颗“政治卫星”（吴法宪回忆自己对叶群说的话）, cite: wu-faxian-memoir-cwo, quote: true }
     - { voice: witness, text: 我感觉林立果讲话的口气太大（吴法宪回忆听录音的感觉）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [wu-faxian-memoir-cwo]
+
+- id: 1969-01-25-luo-ruiqing-amputation
+  date: 1969-01-25
+  title: 罗瑞卿在三〇一医院截肢
+  lane: army
+  weight: 1
+  place: 北京
+  summary: 罗瑞卿 1966 年 3 月跳楼自杀未遂，受审查期间做了截肢手术。吴法宪在回忆录里引一篇报道说，1969 年 1 月 25 日由三〇一总院副院长曹根慧主持为罗瑞卿截肢，因股骨头已坏死，截肢后又切除了股骨。吴法宪认为这段描述“基本属实”，并说为罗瑞卿做手术的几位医生“九一三事件”后都被捕了。经过只有吴法宪的回忆和他转引的报道。
+  people: [luo-ruiqing]
+  voices:
+    - { voice: witness, text: 一九六九年一月二十五日，由总院副院长曹根慧主持罗瑞卿大将的截肢手术（吴法宪转引的报道）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1969-05-17-jiang-qing-diaoyutai-talk
+  date: 1969-05-17
+  title: 江青在钓鱼台召集黄吴李邱等谈话
+  lane: center
+  weight: 1
+  place: 北京钓鱼台
+  summary: 据吴法宪回忆，九大闭幕后不久的 1969 年 5 月 17 日早上，叶群通知黄永胜、吴法宪、李作鹏、邱会作到江青住的钓鱼台十一号楼开会，姚文元、李德生也在，连江青共七个政治局委员。江青要大家不作记录，从上午九点一个人讲到十二点，先讲自己的经历和与毛泽东的婚姻。经过只有吴法宪的回忆。
+  people: [jiang-qing, ye-qun, huang-yongsheng, wu-faxian, li-zuopeng, qiu-huizuo, yao-wenyuan, li-desheng]
+  voices:
+    - { voice: witness, text: 今天随便同大家谈一谈，请大家不要作记录（江青语，吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+    - { voice: witness, text: 那天，江青一个人从上午九点一直说到了十二点，一气说了三个小时（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1970-08-14-constitution-group-dispute
+  date: 1970-08-14
+  title: 宪法修改小组争论设不设国家主席
+  lane: center
+  weight: 1
+  place: 北京中南海
+  summary: 据吴法宪回忆，1970 年 8 月 14 日下午宪法修改小组在怀仁堂开会，实际只有康生、张春桥和吴法宪在场。康生主张不设国家主席，吴法宪坚持要设，相持不下，康生说各自保留意见，提交政治局。吴法宪又要在国务院一章写上毛泽东思想是“一切工作的指导方针”，张春桥反对，说“有人口口声声说天才地，全面地，创造性地发展了马列主义”，吴法宪认为这是冲着林彪的《毛主席语录》再版前言，当场与张春桥争吵。九天后九届二中全会在庐山开幕。经过只有吴法宪的回忆。
+  people: [wu-faxian, kang-sheng, zhang-chunqiao, chen-boda, lin-biao]
+  voices:
+    - { voice: witness, text: 那就各自保留意见吧，以后提交政治局讨论（康生语，吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1970-09-17-peng-dehuai-case-report
+  date: 1970-09-17
+  title: 彭德怀专案组报告建议“判处无期徒刑”
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 据吴法宪回忆，1970 年 9 月 17 日彭德怀专案组写出《关于反党头目、里通外国分子彭德怀罪行审查的综合报告》，建议撤销彭德怀一切职务、永远开除出党、判处无期徒刑，11 月 3 日主管专案组的黄永胜批示“同意”。吴法宪说黄永胜一直只承认是同意上报中央，又说彭德怀的问题“应该由毛泽东来负全部或主要责任”。报告和批示原件未见，此处只据吴法宪的节录。
+  people: [peng-dehuai, huang-yongsheng, mao-zedong, zhou-enlai]
+  voices:
+    - { voice: witness, text: 我们建议，撤销彭德怀党内外一切职务，永远开除出党，判处无期徒刑（吴法宪节录的专案组报告）, cite: wu-faxian-memoir-cwo, quote: true }
+    - { voice: witness, text: 按照我们当时的作法和理解，黄永胜当时批示的意思，应当是同意上报中央（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
