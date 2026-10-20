@@ -29,6 +29,36 @@
     - { voice: witness, text: 到1966年11月16日召开的工交座谈会上，陶铸和中央文革小组的矛盾就公开化了（戚本禹回忆）, cite: marxists-qibenyu-3-18-tao-zhu, quote: true }
   cites: [marxists-qibenyu-3-16-anting, marxists-qibenyu-3-18-tao-zhu]
 
+- id: 1966-11-13-academies-rally
+  date: 1966-11-13
+  title: 工人体育场十万人大会：老帅动员外地军队院校学员离京
+  lane: army
+  weight: 1
+  place: 北京工人体育场
+  summary: 据吴法宪回忆，外地来京的军事院校学员冲击驻京军事机关，经林彪同意，军委在 1966 年 11 月 13 日下午于北京工人体育场召开十万人大会，请贺龙、陈毅、徐向前、叶剑英四位老帅出席，动员学员各自回本单位搞运动。大会由总政治部主任萧华、副主任刘志坚主持，陈毅在讲话中批评学员“无组织、无纪律”，说打砸抢“不叫‘文化大革命’，这叫破坏”。吴法宪又记陈伯达后来指责萧华请老帅开这次大会“都不通知中央文革一声”。经过只有吴法宪的回忆。
+  people: [chen-yi, he-long, xu-xiangqian, ye-jianying, xiao-hua, lin-biao, wu-faxian, chen-boda]
+  voices:
+    - { voice: witness, text: 搞路线斗争，第一要顾全大局（陈毅讲话，吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+    - { voice: witness, text: 他说，这种行为是极端错误的，这不叫“文化大革命”，这叫破坏（吴法宪记陈毅讲话）, cite: wu-faxian-memoir-cwo, quote: true }
+    - { voice: witness, text: 你请四位老帅参加首都十万人大会，动员军事院校的师生离京，都不通知中央文革一声（陈伯达指责萧华，吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1967-01-jingxi-hotel-meeting
+  date: 1967-01
+  title: 京西宾馆军委扩大会议：陈伯达批萧华，叶剑英拍桌
+  lane: army
+  weight: 2
+  place: 北京京西宾馆
+  summary: 据吴法宪回忆，1967 年 1 月上旬经毛泽东同意，中央军委在京西宾馆召开扩大会议，由林彪委托叶剑英主持，“破天荒地一直开了三个月”，用开会的名义把各地被揪斗的军队领导人接到北京保护起来；会议首先制定《中共中央关于不得把斗争锋芒指向军队的通知》，1 月 14 日下发，后来又有 1 月 28 日的“军委八条”。会上中央文革小组的陈伯达批评总政治部主任萧华领导军队运动不力。戚本禹转述关锋的话说，叶剑英、聂荣臻当场指责陈伯达想把军队搞乱，叶剑英拍桌时伤了手掌；叶剑英随后向林彪告状，林彪在毛家湾对江青大发脾气。萧华此后被关押七年。批萧华的日期两说不一：戚本禹记在 1967 年 1 月这次会议上，吴法宪说“大约是在一九六七年二月十九日”的一次小型会议；本条从戚本禹，只到月。
+  people: [ye-jianying, xiao-hua, chen-boda, guan-feng, nie-rongzhen, xu-xiangqian, lin-biao, jiang-qing, wu-faxian, qi-benyu]
+  voices:
+    - { voice: witness, text: 这个会议破天荒地一直开了三个月（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+    - { voice: witness, text: 萧华是个‘资产阶级政客’，他把部队的政治工作引导到了资产阶级的轨道上去了（陈伯达语，吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+    - { voice: witness, text: 叶剑英不买账，对着徐向前拍桌子，反驳陈伯达。拍的时候不小心，拍在了桌上放着的一个茶杯盖上，又用力过猛，据说他的手掌骨折了（戚本禹转述关锋）, cite: marxists-qibenyu-3-20-jingxi, quote: true }
+    - { voice: witness, text: 叶剑英告状以后，林彪就把江青叫到毛家湾去大发了一顿脾气，把一个小茶几都推翻了（戚本禹回忆）, cite: marxists-qibenyu-3-20-jingxi, quote: true }
+    - { voice: editor, text: 吴法宪说批萧华“大约是在一九六七年二月十九日”，戚本禹把它放在 1967 年 1 月的军委常委扩大会议上，两人都是事后回忆，戚本禹本人不在场。, cite: wu-faxian-memoir-cwo }
+  cites: [wu-faxian-memoir-cwo, marxists-qibenyu-3-20-jingxi]
+
 - id: 1967-01-04-down-with-tao-zhu
   date: 1967-01-04
   title: 陈伯达、江青公开批评陶铸，街头出现“打倒陶铸”

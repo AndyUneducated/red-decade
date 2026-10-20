@@ -21,6 +21,10 @@ import { parse } from 'yaml'
 
 const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')
 const UA = 'Mozilla/5.0 (red-decade-research; github.com/AndyUneducated/red-decade)'
+// CJK Radicals Supplement forms have no NFKC mapping
+const RADICALS: Record<string, string> = Object.fromEntries(
+  [...'⻓长⺠民⻄西⻅见⻩黄⻘青⻜飞⻚页⻋车⻔门⻢马⻛风⻰龙⻝食⻬齐⻥鱼⻁虎⻨麦⻆角⻣骨⻦鸟⻤鬼⻙韦⻮齿'].flatMap((c, i, a) => (i % 2 ? [] : [[c, a[i + 1]]])),
+)
 
 type Entry = {
   id: string
@@ -75,7 +79,8 @@ for (const e of entries) {
   const html = bytes ? '' : await get(e.url, e.charset)
   let text: string
   if (bytes) {
-    const raw = await pdfText(bytes, e.pages)
+    // some PDFs encode common characters as radicals (⼀ U+2F00 for 一, ⻓ U+2ED3 for 长); quotes need the unified ones
+    const raw = (await pdfText(bytes, e.pages)).replace(/[\u2E80-\u2FDF]/g, (c) => RADICALS[c] ?? c.normalize('NFKC'))
     // `despace`: OCR layers of scanned Chinese documents put a space after every character
     const all = e.despace ? raw.replace(/(?<![A-Za-z]) | (?![A-Za-z])/g, '') : raw
     const i = e.start ? all.indexOf(e.start) : 0

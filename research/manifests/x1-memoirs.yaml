@@ -48,6 +48,18 @@ web:
     note: 回忆录 2016 年香港出版，转录、未核原书。
     excerpt: true
     keep: [到1966年11月16日召开的工交座谈会上, 但是，在1967年1月8日]
+  - id: marxists-qibenyu-3-20-jingxi
+    title: 陈毅、谭震林等人大闹怀仁堂和批“二月逆流”
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第二十章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-20.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1967年1月，中央军委在京西宾馆召开常委扩大会议, 这件事情发生后，叶剑英又到林彪那儿去告状]
   - id: marxists-qibenyu-3-29-isolation
     title: 关于“整江青黑材料”案和我的被隔离审査
     date: 2016
@@ -72,3 +84,18 @@ web:
     note: 回忆录 2016 年香港出版，转录、未核原书。
     excerpt: true
     keep: [1968年1月12日夜晚]
+  - id: wu-faxian-memoir-cwo
+    title: 岁月艰难：吴法宪回忆录
+    date: 2006
+    author: 吴法宪
+    kind: memoir
+    tier: 3
+    alias: 吴法宪《岁月艰难》网友整理 PDF（书目另见 wu-faxian-memoir）
+    url: https://chanworld.org/wp-content/uploads/wpforo/default_attachments/1624916269-CWO.pdf
+    via: chanworld.org 论坛附件（“CWO 收集 研究参考 2021”扫描整理本）
+    note: 回忆录 2006 年香港北星出版社出版，转录、未核原书；PDF 是网友整理本，文字有 OCR 错字。
+    pdf: true
+    unwrap: true
+    despace: true
+    excerpt: true
+    keep: [军委决定于一九六六年十一月十三日下午, 大会由总政部主任萧华和副主任刘志坚一起主持, 陈毅在讲话中公开批评了到会的军队院校师生, 十五、一九六七年军委扩大会议, 这个会议破天荒地一直开了三个月, 会议首先制定的是《中共中央关于不得把斗争锋芒指向军队的通知》, 首先是揪斗萧华的事件, 陈伯达在会上首先发言，批评萧华, 他还指责萧华说]

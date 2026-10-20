@@ -1227,6 +1227,7 @@ events/1966-10-work-conference
 events/1966-11-01-two-lines-editorial
 events/1966-11-09-qufu-anti-confucius
 events/1966-11-09-shanghai-wgs
+events/1966-11-13-academies-rally
 events/1966-11-16-industry-forum
 events/1966-12-03-macau-123
 events/1966-12-05-liandong
@@ -1252,6 +1253,7 @@ events/1967-01-23-pla-support-left
 events/1967-01-28-eight-orders
 events/1967-01-29-kang-sheng-deng
 events/1967-01-30-zhejiang-decision
+events/1967-01-jingxi-hotel-meeting
 events/1967-01-shanxi-guizhou-heilongjiang
 events/1967-02-03-shandong-revcom
 events/1967-02-05-shanghai-commune
@@ -3596,6 +3598,7 @@ sources/marxists-qibenyu-3-15-peng-luo-lu-yang
 sources/marxists-qibenyu-3-16-anting
 sources/marxists-qibenyu-3-17-birthday
 sources/marxists-qibenyu-3-18-tao-zhu
+sources/marxists-qibenyu-3-20-jingxi
 sources/marxists-qibenyu-3-21-qinghai
 sources/marxists-qibenyu-3-29-isolation
 sources/marxists-qibenyu-4-01-arrest
@@ -4689,6 +4692,7 @@ sources/ws-kmt-defectors-policy
 sources/ws-qionglai-market
 sources/wu-de-memoir
 sources/wu-faxian-memoir
+sources/wu-faxian-memoir-cwo
 sources/wu-lengxi-memoir
 sources/xhrb-2015-07-09-jiang-weiqing
 sources/xinhua-1997-qin-jiwei
