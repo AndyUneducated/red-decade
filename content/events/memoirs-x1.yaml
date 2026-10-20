@@ -333,3 +333,51 @@
   voices:
     - { voice: witness, text: 他经过杨尚昆转达，指名要胡乔木和邓力群来起草中央同意他辞职的决定（邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
   cites: [higrid-dengliqun-12]
+
+- id: 1980-11-23-dazhai-review
+  date: 1980-11-23
+  title: 中央转发山西省委学大寨检查报告
+  lane: econ
+  weight: 1
+  place: 山西
+  summary: 1980 年 11 月 23 日中共中央转发山西省委《关于农业学大寨运动中经验教训的检查报告》。据邓力群回忆，转发指示是他在 10 月底至 11 月初主持起草的：肯定周恩来总结的大寨几条经验，同时承认学习中走偏、搞过头，如在没有条件的地方硬修水平梯田；指示说责任不在大寨、昔阳，应由山西省委和中央承担。邓力群说文件发出后“为大寨解除了一些压力”。
+  people: [chen-yonggui, zhou-enlai]
+  voices:
+    - { voice: witness, text: 造成失误的责任不在大寨，也不在昔阳，应由山西省委和党中央承担责任（邓力群回忆转发指示的内容）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1981-02-20-illegal-publications-directive
+  date: 1981-02-20
+  title: 中央、国务院发出处理非法刊物非法组织的指示
+  lane: mass
+  weight: 1
+  place: 全国
+  summary: 1981 年 2 月 20 日中共中央、国务院发出《关于处理非法刊物非法组织和有关问题的指示》。据邓力群回忆，此前胡乔木按邓小平、陈云的指示起草了包括取缔非法组织、非法刊物的条例稿，书记处讨论时否定，主张制定“结社法”“出版法”；胡乔木 1 月 24 日写信反对让这些组织登记，陈云找邓力群和胡乔木说要让它们“处于非法地位”，之后才有这个指示。指示原文未收，只据邓力群的回忆。
+  people: [hu-qiaomu, chen-yun, deng-xiaoping, hu-yaobang, peng-zhen]
+  voices:
+    - { voice: witness, text: 无论如何不能让所有的秘密的或半公开的组织和刊物登记，要让它们处于非法地位，禁止它们活动（陈云语，邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1982-02-24-five-stresses
+  date: 1982-02-24
+  title: “五讲四美”与“全民文明礼貌月”
+  lane: culture
+  weight: 1
+  place: 全国
+  summary: 据邓力群回忆，1982 年 2 月全国开展“五讲四美”文明礼貌活动；2 月 24 日中央办公厅转发中宣部《关于深入开展“五讲四美”活动的报告》，定每年 3 月为“全民文明礼貌月”。十二大后胡乔木补上“三热爱”（热爱祖国、热爱社会主义、热爱中国共产党），改称“五讲四美三热爱”，并成立了以万里为主任的委员会。邓力群又记黄克诚说“心灵美”是基督教的语言。
+  people: [hu-qiaomu, wan-li, huang-kecheng]
+  voices:
+    - { voice: witness, text: 从1982年3月起，每年3月为"全民文明礼貌月"（邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1982-12-hired-labor-debate
+  date: 1982-12-16
+  title: 书记处研究室质疑“雇工剥削”，陈云说“不怕人家讲错话”
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 据邓力群回忆，1982 年 12 月 16 日中央书记处研究室的张云声写了《到处出现雇工剥削引起的思考》，不赞成发展以雇工经营为特征的私人企业，万里看了很不高兴，邓力群把它送给陈云。12 月 31 日政治局扩大会议讨论 1983 年中央 1 号文件《关于当前农村经济政策的若干问题》时，陈云说党内应允许有不同意见。
+  people: [chen-yun, wan-li]
+  voices:
+    - { voice: witness, text: 我过去说过，不怕人家讲错话，就怕人家不说话（陈云 1982 年 12 月 31 日讲话，邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]

@@ -1652,14 +1652,17 @@ events/1980-10-16-kang-xie-expelled
 events/1980-10-zhao-dan-testament
 events/1980-11-20-indictment-victims
 events/1980-11-20-special-court
+events/1980-11-23-dazhai-review
 events/1980-cangwu-death-verdicts
 events/1980-county-direct-elections
+events/1981-02-20-illegal-publications-directive
 events/1981-06-27-resolution
 events/1981-11-fourth-npc-session
 events/1981-bitter-love
 events/1981-urban-employment
 events/1982-02-09-liu-zhang-indicted
 events/1982-02-20-cadre-retirement
+events/1982-02-24-five-stresses
 events/1982-03-08-economic-crimes-decision
 events/1982-03-31-religion-document
 events/1982-03-liu-zhang-indicted
@@ -1672,6 +1675,7 @@ events/1982-09-twelfth-congress
 events/1982-10-27-census
 events/1982-11-guizhou-cases
 events/1982-12-04-constitution
+events/1982-12-hired-labor-debate
 events/1982-12-sixth-five-year-plan
 events/1982-economic-crime-campaign
 events/1982-hunan-rebels-tried
