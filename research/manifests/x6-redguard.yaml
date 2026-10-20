@@ -34,6 +34,13 @@ wikisource:
     kind: redguard
     alias: 《邓修外传》编后附记
     note: 清华井冈山兵团两份小报编著的章回体“小说”，十回正文维基文库多数未录入，只收编后附记。
+  - id: ws-1966-12-20-tan-lifu-arrest
+    title: 现行反革命分子谭立夫等被捕法办
+    date: 1966-12-20
+    author: 开封市红卫兵革命造反司令部宣传部
+    kind: redguard
+    alias: 开封《造反有理报》1966 年 12 月 20 日号外
+    note: 号外转载“北京十七日下午五时来电”，称公安部逮捕谭立夫（谭力夫）、李洪山、兰瑞瑞等。
   - id: ws-1982-tu-xiaolei-case
     title: 涂晓雷反革命案云南省昆明市人民检察院起诉书
     date: 1982-04-29
@@ -90,3 +97,27 @@ web:
     note: 审问在批斗会上进行，答语是被审者在压力下的供述，不能当作事实陈述；录文者把繁体改为简体，把原书的“毛✕✕”“林副✕✕”改回“毛主席”“林副主席”。转录、未核原件。
     start: 附：审问记录
     end: 陈再道等五人供认是一小撮是一个黑窝子
+  - id: hatena-1966-09-04-tan-lifu-dossier
+    title: 东方红（有关谭力夫讲话材料专辑）
+    date: 1966-09-04
+    author: 北京工业大学《东方红公社》编辑部
+    kind: redguard
+    tier: 3
+    alias: 北京工业大学《东方红》谭力夫讲话材料专辑（1966-09-04）
+    url: https://aoyamasyuhou.hatenablog.jp/entry/2023/09/15/111358
+    via: 日本藏书博客“蔵書目録 Archive Blog”据所藏原件录文
+    note: 录文只有目录、编者按、讲话注释两条和附件 1《从对联谈起》（刘京、谭力夫，8 月 12 日），8 月 20 日讲话记录正文未录；转录、未核原件。
+    start: （有关谭力夫讲话材料专辑）
+    end: 无产阶级革命造反精神万岁！
+  - id: hatena-1966-08-22-xin-beida
+    title: 新北大 创刊号
+    date: 1966-08-22
+    author: 新北大
+    kind: redguard
+    tier: 3
+    alias: 《新北大》创刊号（1966-08-22）
+    url: https://aoyamasyuhou.hatenablog.jp/entry/2026/01/05/224544
+    via: 日本藏书博客“蔵書目録 Archive Blog”据所藏原报录文
+    note: 录文含发刊词、二版 8 月 18 日接见报道和北京大学文化革命委员会筹备委员会公告的开头；转录、未核原件。
+    start: 创刊号 1966年8月22日
+    end: （本刊特约记者）

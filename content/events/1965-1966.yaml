@@ -673,7 +673,42 @@
     - { voice: editor, text: 十天前的《十六条》要求“文斗”、“一律不整”学生；林彪讲话则要使打击对象“永世不得翻身”。同一个月里，成文政策的约束与动员性话语并行。, cite: ws-1966-08-08-sixteen-points }
     - { voice: editor, text: 同一讲台上，周恩来把任务限定在“本单位”的斗批改，并要求首都学生“好好接待客人”；全篇没有“造反”二字，而林彪讲话开头就是“敢造反”。两篇讲话由《人民日报》同版刊出。, cite: rmrb-1966-08-18-zhou-speech }
     - { voice: official1981, text: 对毛泽东同志的个人崇拜被鼓吹到了狂热的程度。, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1966-08-18-lin-speech, rmrb-1966-08-18-zhou-speech, rmrb-1966-08-19-first-rally, ws-1966-red-flag-index, ws-1981-resolution]
+    - { voice: doc, text: 七时零五分，毛主席在天安门城楼正中的大厅里，接见了北大的革命师生代表（《新北大》创刊号，1966 年 8 月 22 日）, cite: hatena-1966-08-22-xin-beida, quote: true }
+  cites: [ws-1966-08-18-lin-speech, rmrb-1966-08-18-zhou-speech, rmrb-1966-08-19-first-rally, ws-1966-red-flag-index, ws-1981-resolution, hatena-1966-08-22-xin-beida]
+
+- id: 1966-08-20-tan-lifu-speech
+  date: 1966-08-20
+  title: 谭力夫在北京工业大学辩论会上讲话
+  lane: mass
+  weight: 2
+  place: 北京工业大学
+  summary: 北京工业大学校文革在工作组问题上组织全校辩论。8 月 20 日最后一次辩论会上，三系（无线电系）文革小组长、三年级学生谭力夫讲话一个多小时，校文革主席刘京当场“表示完全同意谭力夫的观点”。8 天前，刘京、谭力夫合写《从对联谈起》，为“老子英雄儿好汉，老子反动儿混蛋”对联辩护。讲话随后传抄到北京各校和外省市。9 月 4 日，该校反对派《东方红公社》编印批判专辑，指出流传的版本被删改过。
+  people: []
+  concepts: [bloodline]
+  docs: [hatena-1966-09-04-tan-lifu-dossier]
+  voices:
+    - { voice: doc, text: 对联也成了无产阶级文化大革命的武器，这也是人民群众在革命运动中的发明创造。（刘京、谭力夫《从对联谈起》，8 月 12 日）, cite: hatena-1966-09-04-tan-lifu-dossier, quote: true }
+    - { voice: doc, text: 说明我们是有成份论者，“基本如此”说明我们是不唯成份论者（同上）, cite: hatena-1966-09-04-tan-lifu-dossier, quote: true }
+    - { voice: doc, text: 目前这个讲话已传到首都许多大专学校和外省市，甚至有人误以为是什么首长的讲话，将其传抄。（《东方红公社》编者按，9 月 4 日）, cite: hatena-1966-09-04-tan-lifu-dossier, quote: true }
+    - { voice: doc, text: 红缨的“记录”把许多处不符合主席思想的话都删去了（同上）, cite: hatena-1966-09-04-tan-lifu-dossier, quote: true }
+    - { voice: editor, text: 专辑编者按说讲话“长达一个多小时”，同一专辑的注释却说“历时近2小时，听众约1500人”。专辑收的是反对派校核过的记录，讲话原文本站暂未收录；录文出自日本藏书博客，未核原件。, cite: hatena-1966-09-04-tan-lifu-dossier }
+  cites: [hatena-1966-09-04-tan-lifu-dossier]
+
+- id: 1966-08-22-xin-beida
+  date: 1966-08-22
+  title: 北大新校刊《新北大》创刊
+  lane: mass
+  weight: 1
+  place: 北京大学
+  summary: 北京大学新校刊《新北大》创刊，取代旧校刊《北京大学》。发刊词说毛泽东为新校刊题词，宣布按“全党办报，群众办报”的方针办报；二版报道 8 月 18 日毛泽东在天安门城楼接见北大四十多名师生代表。
+  people: [mao-zedong]
+  concepts: []
+  docs: [hatena-1966-08-22-xin-beida]
+  voices:
+    - { voice: doc, text: 毛主席在百忙中为我们新校刊题词，这是对我们最大的关怀，最大的支持，最大的鼓舞！, cite: hatena-1966-08-22-xin-beida, quote: true }
+    - { voice: doc, text: 旧校刊《北京大学》是陆平、彭珮黑帮贯彻前北京市委反革命修正主义路线的工具，它的罪行必须彻底清算。, cite: hatena-1966-08-22-xin-beida, quote: true }
+    - { voice: editor, text: 发刊词说要让报纸“接受群众的监督和批评”，同时又规定“凡是不符合毛泽东思想的，我们就坚决反对，彻底批判”。录文出自日本藏书博客，未核原件。, cite: hatena-1966-08-22-xin-beida }
+  cites: [hatena-1966-08-22-xin-beida]
 
 - id: 1966-08-red-august
   date: 1966-08-19
@@ -946,6 +981,22 @@
     - { voice: officialLater, text: 戚本禹按照江青的旨意，指令航空学院的韩爱晶派人去四川抓彭德怀。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
     - { voice: editor, text: 本条旧题作“从成都揪回北京”；大事记只写“去四川”，押回北京的具体日期和地点库内尚无记载。, cite: ccrd-1987-bj-chronology-192 }
   cites: [ccrd-1987-bj-chronology-192]
+
+- id: 1966-12-17-tan-lifu-arrest
+  date: 1966-12-17
+  title: 谭力夫、李洪山等北京学生被捕
+  lane: mass
+  weight: 2
+  place: 北京
+  summary: 开封红卫兵小报《造反有理报》12 月 20 日号外转发“北京十七日下午五时来电”：谭力夫（号外写作“谭立夫”）被批判后不认错，他和同伙提出“踢开中央文革小组，自己闹革命！”等口号；公安部“亲自出证”，逮捕了北京工业大学谭立夫、北京林业学院李洪山、北京航空学院兰瑞瑞和北京矿业学院两名学生。四个月前，谭力夫因“对联”讲话出名（见 8 月 20 日）。
+  people: []
+  concepts: [bloodline, two-lines]
+  docs: [ws-1966-12-20-tan-lifu-arrest]
+  voices:
+    - { voice: doc, text: 公然提出什么“踢开中央文革小组，自己闹革命！”、“江青是资产阶级反动路线的制定者！”、“周恩来、陈伯达是资产阶级反动路线的顽固执行者！”等等极其反动的口号, cite: ws-1966-12-20-tan-lifu-arrest, quote: true }
+    - { voice: doc, text: 正告一小撮顽固执行资产阶级反动路线的谭氏“先生”们, cite: ws-1966-12-20-tan-lifu-arrest, quote: true }
+    - { voice: editor, text: 号外和被捕学生用的是同一个罪名：号外说谭氏“先生”们执行“资产阶级反动路线”，被捕者的口号说江青是这条路线的“制定者”（C012）。消息是外地小报转发的电讯，被捕日期和“两个反动学生”的姓名，库内尚无其他来源核对。, cite: ws-1966-12-20-tan-lifu-arrest }
+  cites: [ws-1966-12-20-tan-lifu-arrest, hatena-1966-09-04-tan-lifu-dossier]
 
 - id: 1966-12-18-zhang-kuai
   date: 1966-12-18

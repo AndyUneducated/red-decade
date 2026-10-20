@@ -1210,7 +1210,9 @@ events/1966-08-14-lei-yingfu-letter
 events/1966-08-18-first-rally
 events/1966-08-19-music-hall-struggle
 events/1966-08-20-sha-ping
+events/1966-08-20-tan-lifu-speech
 events/1966-08-22-hua-jin
+events/1966-08-22-xin-beida
 events/1966-08-23-lao-she
 events/1966-08-23-very-good
 events/1966-08-25-li-wenbo
@@ -1247,6 +1249,7 @@ events/1966-12-03-macau-123
 events/1966-12-05-liandong
 events/1966-12-06-deng-black-gang
 events/1966-12-13-nie-yuanzi-shanghai
+events/1966-12-17-tan-lifu-arrest
 events/1966-12-18-zhang-kuai
 events/1966-12-25-down-with-liu
 events/1966-12-26-mao-birthday-toast
@@ -3595,6 +3598,8 @@ sources/gmw-2004-liang-shuming-shengping
 sources/gmw-2009-chen-boda-secretary
 sources/gpnu-liang-shuming
 sources/gu-xiaoyang-2020-mou-zhijing
+sources/hatena-1966-08-22-xin-beida
+sources/hatena-1966-09-04-tan-lifu-dossier
 sources/hatena-1966-11-18-bingtuan-zhanbao
 sources/hatena-1967-06-19-baiwan-xiongshi
 sources/hatena-1967-07-20-teji-huyu
@@ -4326,6 +4331,7 @@ sources/ws-1966-11-01-luxun
 sources/ws-1966-11-red-flag-two-lines
 sources/ws-1966-11-shanghai-wgs
 sources/ws-1966-12-09-industry-ten
+sources/ws-1966-12-20-tan-lifu-arrest
 sources/ws-1966-12-liandong
 sources/ws-1966-12-wangli-dictatorship
 sources/ws-1966-qinghua-workteam-survey
