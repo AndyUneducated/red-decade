@@ -1,0 +1,92 @@
+# X6（2026-10-20）：群众组织原件第二批（维基文库转录）。日期据页首模板或文末落款。
+wikisource:
+  - id: ws-1966-08-26-xicheng-1
+    title: 《首都红卫兵纠察队》西城指挥部第一号通令
+    date: 1966-08-26
+    author: 首都红卫兵纠察队西城分队
+    kind: redguard
+    alias: 西城纠察队第一号通令（撤销红一中禁售毛主席著作和像的通令）
+  - id: ws-1966-08-liu-jiangong-talks
+    title: 刘少奇在北京建筑工业学院的讲话
+    date: 1966-08-02
+    author: 刘少奇
+    kind: speech
+    alias: 刘少奇 1966 年 8 月 2–4 日在北京建工学院的讲话（群众记录稿）
+    note: 群众组织流传的记录稿，未经本人审定；页面注把时间误作“1967年8月初”，正文各节标题为 1966 年 8 月 2–4 日。
+  - id: ws-1967-02-wuhan-statement
+    title: 关于武汉地区当前局势的声明
+    date: 1967-02-07
+    author: 毛泽东思想武汉地区工人总部等
+    kind: redguard
+    alias: “二·八声明”
+    note: 文末落款 1967 年 2 月 7 日，页首模板记 2 月 8 日《长江日报》，署名十五个群众组织。
+  - id: ws-1967-08-10-wuhan-talk-summary
+    title: 中央首长在武汉革命派组织的座谈会上的谈话纪要
+    date: 1967-08-10
+    author: 武汉钢工总等群众组织整理
+    kind: redguard
+    alias: 中央首长 1967 年 8 月 9–10 日接见武汉造反派谈话纪要
+    note: 群众组织整理、负责人与武汉军区曾思玉、刘丰联署；“对这次接见的传达以此文件为准”。
+  - id: ws-1967-07-08-dengxiu-afterword
+    title: 邓修外传/编后附记
+    date: 1967-07-08
+    author: 红代会清华井冈山兵团《老实话》《遵义曙光》
+    kind: redguard
+    alias: 《邓修外传》编后附记
+    note: 清华井冈山兵团两份小报编著的章回体“小说”，十回正文维基文库多数未录入，只收编后附记。
+  - id: ws-1982-tu-xiaolei-case
+    title: 涂晓雷反革命案云南省昆明市人民检察院起诉书
+    date: 1982-04-29
+    author: 云南省昆明市人民检察院
+    kind: judicial
+    alias: 涂晓雷案起诉书与判决书
+    note: 起诉书（〔82〕昆检刑诉字19号，无落款日）与昆明市中级人民法院判决书（1982-04-29）；页面注出处《历史的审判》。
+web:
+  - id: hatena-1966-11-18-bingtuan-zhanbao
+    title: 兵团战报 第二期（转载《做顶天立地的人》）
+    date: 1966-11-18
+    author: 毛泽东思想红卫兵首都兵团政治部宣传部
+    kind: redguard
+    tier: 3
+    alias: 1966 年 11 月 18 日《兵团战报》第二期
+    url: https://aoyamasyuhou.hatenablog.jp/entry/2023/09/18/160614
+    via: 日本藏书博客“蔵書目録 Archive Blog”据所藏原报录文
+    note: 小报原件录文，转录、未核原件。转载的《做顶天立地的人》署“红卫兵战校（前清华附中）高六五五班核心组（即领导小组）”，落款 1966 年 8 月。
+    start: 兵團战报
+    end: 六六年八月
+  - id: hatena-1967-06-19-baiwan-xiongshi
+    title: 百万雄师 创刊号
+    date: 1967-06-19
+    author: 百万雄师
+    kind: redguard
+    tier: 3
+    alias: 《百万雄师》战报创刊号发刊词
+    url: https://aoyamasyuhou.hatenablog.jp/entry/2023/09/20/162601
+    via: 日本藏书博客“蔵書目録 Archive Blog”据所藏原报录文
+    note: 武汉“百万雄师”联络站主办的战报，只录了封面的毛泽东诗和发刊词，转录、未核原件。
+    start: 发刊词
+    end: 一九六七年六月十九日
+  - id: hatena-1967-07-20-teji-huyu
+    title: 特级呼籲
+    date: 1967-07-20
+    author: 中国人民解放军8201部队全体指战员
+    kind: redguard
+    tier: 3
+    alias: 8201 部队 1967 年 7 月 20 日《特级呼籲》
+    url: https://aoyamasyuhou.hatenablog.jp/entry/2022/02/28/152733
+    via: 日本藏书博客“蔵書目録 Archive Blog”据所藏传单录文
+    note: 传单落款“中国人民解放军8201部队全体指战员 一九六七年七月二十日”，由“百万雄师”古田联络站、湖北省新华印刷厂革命组织指挥部同日翻印；转录、未核原件。
+    start: 我们伟大领袖毛主席亲自发动和领导的这场伟大的
+    end: 古田联络站湖北省新华印刷厂革命组织指挥部翻印
+  - id: hatena-1967-08-04-chen-zaidao-interrogation
+    title: 审问记录（陈再道 第一次）
+    date: 1967-08-04
+    author: 在京军队机关和文体单位红卫兵
+    kind: redguard
+    tier: 3
+    alias: 1967 年 8 月 4 日红卫兵审问陈再道等五人记录
+    url: https://aoyamasyuhou.hatenablog.jp/entry/2023/06/14/191752
+    via: 日本藏书博客“蔵書目録 Archive Blog”录文，底本为台湾国防部情报局 1979 年编印《共匪文化大革命重要文件汇编》（增订本）
+    note: 审问在批斗会上进行，答语是被审者在压力下的供述，不能当作事实陈述；录文者把繁体改为简体，把原书的“毛✕✕”“林副✕✕”改回“毛主席”“林副主席”。转录、未核原件。
+    start: 附：审问记录
+    end: 陈再道等五人供认是一小撮是一个黑窝子

@@ -574,6 +574,22 @@
     - { voice: official1981, text: 对所谓“彭真、罗瑞卿、陆定一、杨尚昆反党集团”和对所谓“刘少奇、邓小平司令部”进行了错误的斗争，对党中央领导机构进行了错误的改组。, cite: ws-1981-resolution, quote: true }
   cites: [ws-1966-08-12-plenum-communique, ws-1966-10-liu-self-criticism, ws-1981-resolution]
 
+- id: 1966-08-02-liu-jiangong
+  date: 1966-08-02
+  end: 1966-08-04
+  title: 刘少奇到北京建工学院听取两派意见
+  lane: center
+  weight: 1
+  place: 北京建筑工业学院；中南海
+  summary: 十一中全会期间，刘少奇 8 月 2 日晚到北京建筑工业学院参加辩论大会，3 日晚与李雪峰、谷牧、戚本禹再去，分别找反对工作组的“八一团”和支持院党委、工作组的“革命团”代表谈话，4 日晚在中南海找工作组负责人谈话。他在会上承认“派工作组不对”，责任不全在工作组，“我们党中央和北京新市委也有责任”。讲话文本是群众组织流传的记录稿；一年后他在书面检查里说，那几天他已形成“八一战斗团”大方向正确的印象，但没有来得及宣布。
+  people: [liu-shaoqi, li-xuefeng, gu-mu, qi-benyu]
+  voices:
+    - { voice: doc, text: 看来工作组在你们学校是犯了错误的。这个错误也不能完全由工作组负责，我们党中央和北京新市委也有责任（8 月 2 日讲话记录稿）, cite: ws-1966-08-liu-jiangong-talks, quote: true }
+    - { voice: doc, text: 如果反革命冒头，你就打回去，蛇一露头，你就打，结果一个也抓不住了。蛇出洞了就好打了。（8 月 4 日对工作组讲话记录稿）, cite: ws-1966-08-liu-jiangong-talks, quote: true }
+    - { voice: witness, text: 在我的脑子中已逐渐形成了这样的印象：即“八一战斗团”的斗争大方向是正确的（刘少奇 1967 年 7 月书面检查）, cite: ws-1967-07-09-liu-jiangong-review, quote: true }
+    - { voice: editor, text: 记录稿没有经本人审定。维基文库页面注把时间写成“1967年8月初”，与正文各节标题和刘少奇 1967 年检查所记 1966 年 8 月 2–4 日不符，本站取后者。, cite: ws-1966-08-liu-jiangong-talks }
+  cites: [ws-1966-08-liu-jiangong-talks, ws-1967-07-09-liu-jiangong-review]
+
 - id: 1966-08-05-bombard
   date: 1966-08-05
   title: 毛泽东《炮打司令部——我的一张大字报》
@@ -733,8 +749,11 @@
   summary: 由北京三中、女一中、四中等中学红卫兵组成，宣言自称“革命的造反队，是无产阶级专政的工具”。此后数月内，“造反派”一词将转而专指反对他们的一方。
   people: []
   concepts: [rebellion]
-  docs: [ws-1966-08-xicheng-founding]
-  cites: [ws-1966-08-xicheng-founding]
+  voices:
+    - { voice: doc, text: 撤销红一中关于不许出售毛主席著作和毛主席像的通令（西城纠察队第一号通令，1966 年 8 月 26 日）, cite: ws-1966-08-26-xicheng-1, quote: true }
+    - { voice: editor, text: 成立第二天发出的第一号通令，内容是撤销另一所学校红卫兵的通令、指示新华书店恢复出售——纠察队一开始就以能够裁决其他红卫兵组织和指挥国营商店的机构自居。, cite: ws-1966-08-26-xicheng-1 }
+  docs: [ws-1966-08-xicheng-founding, ws-1966-08-26-xicheng-1]
+  cites: [ws-1966-08-xicheng-founding, ws-1966-08-26-xicheng-1]
 
 - id: 1966-08-27-daxing
   date: 1966-08-27
@@ -869,6 +888,21 @@
     - { voice: witness, text: 张春桥在上面签了字（同一访谈，指回上海第二天在文化广场的书面协议）, cite: bjzc-1996-09-pan-guoping, quote: true }
     - { voice: witness, text: 他和“中央文革小组”代表张春桥谈判，后者签字承认了“工总司”是“革命群众组织”（2018 年魏承思《起起伏伏潘司令》）, cite: nfpeople-2018-pan-guoping, quote: true }
   cites: [ws-1966-11-shanghai-wgs, bjzc-1996-09-pan-guoping, nfpeople-2018-pan-guoping]
+
+- id: 1966-11-18-bingtuan-zhanbao
+  date: 1966-11-18
+  title: 《兵团战报》转载《做顶天立地的人》
+  lane: mass
+  weight: 1
+  place: 北京
+  summary: 毛泽东思想红卫兵首都兵团主办的《兵团战报》第二期出版，目录有社论《欢迎大辩论》、本报评论员《正确理解党的阶级路线》和《评“对联”》。编辑部说第二期因“一小撮人当官作老爷”“百般习难”才拖到这时出版。报纸“不惜版面”全文转载清华附中（红卫兵战校）高六五五班核心组 1966 年 8 月的《做顶天立地的人》，作为“中学存在的资产阶级反动路线”的样本：原文宣布“任何出身不好的人在我们面前必须老老实实，不许乱说乱动”，“他们在我们面前必须矮三寸”。编者按只反问一句：“我们工农革干子弟在非工农革干子女面前何必如临大敌？”——反驳的一方同样以“工农革干子弟”自称。两个月后遇罗克的《出身论》才从根本上否定以出身划线。
+  people: []
+  concepts: [bloodline, two-lines]
+  voices:
+    - { voice: doc, text: 我们工农革干子弟要当家做主人，任何出身不好的人在我们面前必须老老实实，不许乱说乱动！（清华附中高六五五班核心组《做顶天立地的人》，1966 年 8 月）, cite: hatena-1966-11-18-bingtuan-zhanbao, quote: true }
+    - { voice: doc, text: 我们只想奉劝清华附中高六五五班核心组的同志们一句：我们工农革干子弟在非工农革干子女面前何必如临大敌？！（《兵团战报》编者按）, cite: hatena-1966-11-18-bingtuan-zhanbao, quote: true }
+    - { voice: editor, text: 小报录文出自日本收藏者博客，据所藏原报转录，未核原件。编者按把这篇文章归为“资产阶级反动路线”，用的是 10 月以后官方报刊的说法（参见 C011）；批评的是对“非工农革干子女”的态度，没有否定出身划分本身。, cite: hatena-1966-11-18-bingtuan-zhanbao }
+  cites: [hatena-1966-11-18-bingtuan-zhanbao]
 
 - id: 1966-12-05-liandong
   date: 1966-12-05

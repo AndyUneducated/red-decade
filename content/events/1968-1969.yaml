@@ -617,7 +617,9 @@
   people: [kang-sheng, xie-fuzhi]
   voices:
     - { voice: judicial1980, text: 康生、谢富治不准赵健民申辩，由谢富治当场宣布逮捕赵健民。在康生、谢富治的煽动下，制造了“赵健民特务案”，这个冤案使云南大批干部、群众遭到诬陷、迫害，一万四千余人被迫害致死。（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
-  cites: [ws-1980-indictment]
+    - { voice: judicial1980, text: 在全省开展追查赵健民“执行国民党云南特务组计划”中，造成大批干部群众被迫害致死致残，这篇文章起了极坏的欺骗、煽动作用（1982 年昆明市人民检察院涂晓雷案起诉书，指 1968 年 11 月 21 日《云南日报》文章）, cite: ws-1982-tu-xiaolei-case, quote: true }
+    - { voice: editor, text: 涂晓雷案起诉书把云南的株连归到地方造反派写手身上：他与人合写的《批臭反革命黑“六论”，肃清“二月逆流”流毒》1968 年 11 月 21 日发表在《云南日报》，起诉书说他“对此严重后果”“负有罪责”；1980 年起诉书则把同一冤案归于康生、谢富治的煽动。, cite: ws-1982-tu-xiaolei-case }
+  cites: [ws-1980-indictment, ws-1982-tu-xiaolei-case]
 
 - id: 1968-04-north-china-mountaintop
   date: 1968-04

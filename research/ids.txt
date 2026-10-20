@@ -1197,6 +1197,7 @@ events/1966-07-18-mao-returns
 events/1966-07-24-withdraw-decision
 events/1966-07-29-activists-meeting
 events/1966-08-01-plenum
+events/1966-08-02-liu-jiangong
 events/1966-08-03-nanjing-wu-tianshi
 events/1966-08-03-wu-xinghua
 events/1966-08-05-bian-zhongyun
@@ -1241,6 +1242,7 @@ events/1966-11-09-qufu-anti-confucius
 events/1966-11-09-shanghai-wgs
 events/1966-11-13-academies-rally
 events/1966-11-16-industry-forum
+events/1966-11-18-bingtuan-zhanbao
 events/1966-12-03-macau-123
 events/1966-12-05-liandong
 events/1966-12-06-deng-black-gang
@@ -1271,6 +1273,7 @@ events/1967-01-shanxi-guizhou-heilongjiang
 events/1967-02-03-shandong-revcom
 events/1967-02-05-shanghai-commune
 events/1967-02-06-guiyang-seize-power-resolution
+events/1967-02-07-wuhan-statement
 events/1967-02-16-february-countercurrent
 events/1967-02-23-cadres-editorial
 events/1967-02-23-xining-shooting
@@ -3592,6 +3595,10 @@ sources/gmw-2004-liang-shuming-shengping
 sources/gmw-2009-chen-boda-secretary
 sources/gpnu-liang-shuming
 sources/gu-xiaoyang-2020-mou-zhijing
+sources/hatena-1966-11-18-bingtuan-zhanbao
+sources/hatena-1967-06-19-baiwan-xiongshi
+sources/hatena-1967-07-20-teji-huyu
+sources/hatena-1967-08-04-chen-zaidao-interrogation
 sources/hbds-lv-yulan
 sources/hebcdi-2021-men-he
 sources/higrid-dengliqun-12
@@ -4295,7 +4302,9 @@ sources/ws-1966-08-08-sixteen-points
 sources/ws-1966-08-12-plenum-communique
 sources/ws-1966-08-18-lin-speech
 sources/ws-1966-08-23-very-good
+sources/ws-1966-08-26-xicheng-1
 sources/ws-1966-08-31-lin-speech
+sources/ws-1966-08-liu-jiangong-talks
 sources/ws-1966-08-sixteen-points-redflag
 sources/ws-1966-08-xicheng-3
 sources/ws-1966-08-xicheng-4
@@ -4345,6 +4354,7 @@ sources/ws-1967-02-18-adverse-current
 sources/ws-1967-02-21-cc-notice-eight-orders
 sources/ws-1967-02-23-cadres
 sources/ws-1967-02-seize-power
+sources/ws-1967-02-wuhan-statement
 sources/ws-1967-03-01-three-in-one-rmrb
 sources/ws-1967-03-04-four-cleanups
 sources/ws-1967-03-07-resume-classes
@@ -4366,12 +4376,14 @@ sources/ws-1967-06-01-strategic
 sources/ws-1967-06-04-wuhan-forces-notice
 sources/ws-1967-06-06-tongling
 sources/ws-1967-07-01-party-road
+sources/ws-1967-07-08-dengxiu-afterword
 sources/ws-1967-07-09-liu-jiangong-review
 sources/ws-1967-07-26-wuhan-notice
 sources/ws-1967-08-01-gun
 sources/ws-1967-08-09-renegades
 sources/ws-1967-08-10-hunan-decision
 sources/ws-1967-08-10-parliament
+sources/ws-1967-08-10-wuhan-talk-summary
 sources/ws-1967-08-13-qinghai
 sources/ws-1967-08-15-socialist-road
 sources/ws-1967-08-16-peng-dehuai
@@ -4634,6 +4646,7 @@ sources/ws-1982-liu-zhang-case
 sources/ws-1982-procuratorate-report
 sources/ws-1982-sun-changde-case
 sources/ws-1982-supreme-court-report
+sources/ws-1982-tu-xiaolei-case
 sources/ws-1982-wang-weiguo-case
 sources/ws-1982-xu-jingxian-case
 sources/ws-1982-xu-yingnian-case

@@ -1,0 +1,22 @@
+{{header
+ | title =《首都红卫兵纠察队》西城指挥部第一号通令
+ | author = 首都红卫兵纠察队西城分队
+ | translator =
+ | section =
+ | previous =
+ | next =[[《首都红卫兵纠察队》西城指挥部第二号通令]]
+ | year = 1966
+ | month = 8 
+ | day = 26 
+ | notes =
+ | edition = 
+}}
+
+{{gap}}撤销红一中关于不许出售毛主席著作和毛主席像的通令。
+
+{{gap}}从现在起各新华书店开始大量出售毛主席著作和毛主席像。
+
+{{gap}}此通令立即生效。
+
+{{text-align|right|一九六六年八月二十六日}}
+{{Not-PD-US-anon|1966}}

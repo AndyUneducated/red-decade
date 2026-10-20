@@ -266,8 +266,13 @@
     - { voice: officialLater, text: 有些解放军指战员和群众，把王力拉到军区大院进行说理斗争，这就是所谓“揪斗、围攻、绑架、殴打中央代表”的“七·二〇事件”的真相（1978 年 9 月湖北省委等请示报告）, cite: bha-1978-11-26-wuhan-720-redress, quote: true }
     - { voice: officialLater, text: “七•二〇事件”应予平反、昭雪，但平反昭雪的决定和“七·二〇事件”经过，不要登报和广播（1978 年 11 月中共中央通知）, cite: bha-1978-11-26-wuhan-720-redress, quote: true }
     - { voice: editor, text: 同一份中央文件把武汉军区的支左称为“方向、路线错误”，又说“王任重和陈再道则是上述事件的罪魁祸首”——王任重这时已在北京被打倒，并不在武汉。, cite: ws-1967-07-26-wuhan-notice }
+    - { voice: doc, text: 他们最听毛主席的话，紧紧掌握了斗争大方向，把斗争的锋芒始终对准党内一小撮走资本主义道路当权派（8201 部队全体指战员 1967 年 7 月 20 日《特级呼籲》，称“百万雄师”）, cite: hatena-1967-07-20-teji-huyu, quote: true }
+    - { voice: doc, text: 黑工总是个地地道道的被反革命分子操纵的组织（同上）, cite: hatena-1967-07-20-teji-huyu, quote: true }
+    - { voice: doc, text: 「百万雄师」、独立师到底怎么一下子起来，我也弄不清楚，我也挨了他们打（1967 年 8 月 4 日陈再道在北京受红卫兵审问时的答语）, cite: hatena-1967-08-04-chen-zaidao-interrogation, quote: true }
+    - { voice: editor, text: 8201 部队有部分战士参与了 7 月 20 日的行动。它当天发出的传单喊“打倒刘、邓、陶、王！打倒孟夫唐！”，要“粉碎资本主义复辟反革命逆流”；“百万雄师”6 月的发刊词也要粉碎“王任重、孟夫唐之流”掀起的“反革命复辟的逆流”——而对立的工人总部一方 2 月的声明同样以王任重为头号目标。两派用的是同一套语言。陈再道的答语出自批斗会上的审问记录，经台湾 1979 年编印的文件汇编转录，只能说明他当时被迫怎样表态。, cite: hatena-1967-06-19-baiwan-xiongshi }
+    - { voice: doc, text: 毛主席抓住了武汉这个典型的例子，把坏事变成顶好顶好的事情，武汉出了反革命叛乱，矛盾暴露得充分，武汉军区和专政机构的问题都是在这场大风暴中彻底解决了（1967 年 8 月 9–10 日中央首长接见武汉造反派谈话纪要，群众组织整理）, cite: ws-1967-08-10-wuhan-talk-summary, quote: true }
     - { voice: editor, text: 本条旧摘要作“7 月 20 日凌晨……冲进东湖宾馆，揪走王力殴打”“毛泽东当天转移上海”，并有“湖北此后据统计有十八万余人被打伤打残、六百多人死亡”；现据所引材料改写，伤亡数字暂无可抓取的出处，删去待补。, cite: wikipedia-zh-wuhan-720 }
-  cites: [ws-1967-07-26-wuhan-notice, bha-1978-11-26-wuhan-720-redress, marxists-qibenyu-wuhan-720, wikipedia-zh-wuhan-720]
+  cites: [ws-1967-07-26-wuhan-notice, ws-1967-08-10-wuhan-talk-summary, hatena-1967-07-20-teji-huyu, hatena-1967-06-19-baiwan-xiongshi, hatena-1967-08-04-chen-zaidao-interrogation, bha-1978-11-26-wuhan-720-redress, marxists-qibenyu-wuhan-720, wikipedia-zh-wuhan-720]
 
 - id: 1967-08-01-army-handful
   date: 1967-08-01
@@ -527,6 +532,20 @@
     - { voice: official1966, text: 二月三日，近十万无产阶级革命者在济南举行了盛大的夺权大会，宣告了新的临时权力机构——山东省革命委员会的诞生。（1967 年新华社报道）, cite: rmrb-1967-03-02-shandong-revcom, quote: true }
   cites: [rmrb-1967-03-02-shandong-revcom]
 
+- id: 1967-02-07-wuhan-statement
+  date: 1967-02-07
+  title: 武汉造反派“二·八声明”
+  lane: mass
+  weight: 1
+  place: 武汉
+  summary: 毛泽东思想武汉地区工人总部、“九·一三”战斗兵团等十五个组织联名发表《关于武汉地区当前局势的声明》，落款 2 月 7 日，维基文库页首记 8 日《长江日报》。声明把矛头指向同为造反派的“武汉地区工人造反总司令部的某些人”，说他们是“湖北黑省委的别动队”，搞的是“托派小联合”和“形‘左’实右的假夺权”；结尾号召“全武汉、全湖北要大乱、特乱，乱深、乱透”。到这时，武汉的对立已不只是造反派与保守派，而是造反派内部争夺“夺权”资格。
+  people: [wang-renzhong]
+  voices:
+    - { voice: doc, text: 而以武汉地区工人造反总司令部的某些人为首，却把矛头对准毛泽东思想武汉地区工人总部和毛泽东思想红卫兵武汉地区革命造反司令部（“二·八声明”）, cite: ws-1967-02-wuhan-statement, quote: true }
+    - { voice: doc, text: 全武汉、全湖北要大乱、特乱，乱深、乱透。我们要继续大造反、特造反，一反到底！（“二·八声明”）, cite: ws-1967-02-wuhan-statement, quote: true }
+    - { voice: editor, text: 署名的十五个组织里有一个部队里的造反组织（后字空二四八部队红色造反野战军），还有北航、西安军电、哈军工三个外地院校的驻汉联络站；声明也点名攻击北京南下的“联合行动委员会”。半年后七二〇事件之后，在北京为中央首长谈话纪要联署的武汉组织有“钢工总”“钢九一三”“三司革联”等七家。, cite: ws-1967-08-10-wuhan-talk-summary }
+  cites: [ws-1967-02-wuhan-statement, ws-1967-08-10-wuhan-talk-summary]
+
 - id: 1967-03-07-resume-classes
   date: 1967-03-07
   title: “中小学复课闹革命”
@@ -734,7 +753,9 @@
   voices:
     - { voice: official1966, text: 他历来是中国最大的“议会迷”，也是当代世界上最大的“议会迷”。（1967 年 8 月 10 日上海《文汇报》等编辑部文章）, cite: ws-1967-08-10-parliament, quote: true }
     - { voice: official1966, text: 中国向何处去？是走社会主义道路，还是走资本主义道路？这不仅是中国政治的根本问题，同时也是关系到世界无产阶级革命命运的问题。（1967 年 8 月 15 日两报编辑部文章）, cite: ws-1967-08-15-socialist-road, quote: true }
-  cites: [ws-1967-08-10-parliament, ws-1967-08-15-socialist-road]
+    - { voice: doc, text: 考虑到配合大批判的高潮，暂先付印。……本小说中，有关邓小平的一切言行，均有揭发材料，绝无杜撰，顺此说明。（1967 年 7 月 8 日清华井冈山兵团《老实话》《遵义曙光》编《邓修外传》编后附记）, cite: ws-1967-07-08-dengxiu-afterword, quote: true }
+    - { voice: editor, text: 报刊文章不点名的时候，红卫兵小报已经点名并写成章回小说：《邓修外传》编后附记称邓小平是“第二号走资本主义道路当权派”，引陈伯达的话说他“比刘少奇更狡猾、更隐蔽、更危险”。, cite: ws-1967-07-08-dengxiu-afterword }
+  cites: [ws-1967-08-10-parliament, ws-1967-08-15-socialist-road, ws-1967-07-08-dengxiu-afterword]
 
 - id: 1967-08-16-peng-resolution-published
   date: 1967-08-16
