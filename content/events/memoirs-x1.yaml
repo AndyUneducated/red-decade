@@ -232,3 +232,104 @@
   voices:
     - { voice: witness, text: 贺龙提出要撤销军衔制，“恢复红军时期官兵一致的优良传统和作风”（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [wu-faxian-memoir-cwo]
+
+- id: 1977-05-24-deng-three-weeds
+  date: 1977-05-24
+  title: 邓小平说“三株大毒草”是香花
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 1976 年“反击右倾翻案风”时，国务院政治研究室起草的《论全党全国各项工作的总纲》、科学院《汇报提纲》和《工业二十条》被批为“三株大毒草”。据邓力群回忆，邓小平复出前的 1977 年 5 月 24 日同王震和邓力群谈话，说《论总纲》是最近才看到的，“是香花，不是毒草”，又说这些文章也有缺点。经过只有邓力群的回忆。
+  people: [deng-xiaoping, wang-zhen]
+  voices:
+    - { voice: witness, text: 文章写得好，针锋相对，很尖锐。是香花，不是毒草（邓小平语，邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+    - { voice: witness, text: 这些文章也有缺点，没有缺点的香花我看是没有的（同上）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1979-01-18-theory-conference
+  date: 1979-01-18
+  end: 1979-04-03
+  title: 理论工作务虚会；邓小平讲“坚持四项基本原则”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 1979 年 1 月 18 日至 4 月 3 日中共中央召开全国理论工作务虚会。据邓力群回忆，当时社会上借知青回城、平反冤假错案等问题“煽动闹事”，会上也有少数人对怀疑社会主义道路、党的领导的思潮给予支持；3 月 30 日邓小平在会上作《坚持四项基本原则》的讲话。邓力群说此后情况有所好转，但对毛泽东和文革的评价分歧仍大。邓力群是会议的批评者一方，叙述带有立场。
+  people: [deng-xiaoping, hu-yaobang, hu-qiaomu]
+  voices:
+    - { voice: witness, text: 3月30日邓小平同志在党的理论工作务虚会上发表了《坚持四项基本原则》的讲话，对这股错误思潮进行了说理和批驳（邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1979-03-21-chen-yun-readjustment
+  date: 1979-03-21
+  title: 陈云在政治局会议上提出用三年调整国民经济
+  lane: econ
+  weight: 1
+  place: 北京
+  summary: 据邓力群回忆，1979 年 3 月 21 日陈云在中央政治局会议上讲话，建议用两三年、最好三年时间调整国民经济；这个意见在 3 月 14 日陈云、李先念联名给中央的信中已经提出。同年 6 月五届人大二次会议定下“调整、改革、整顿、提高”的方针。
+  people: [chen-yun, li-xiannian]
+  voices:
+    - { voice: witness, text: 建议用两三年、最好三年时间调整国民经济（邓力群回忆陈云 1979 年 3 月 21 日讲话）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1979-10-30-fourth-writers-artists-congress
+  date: 1979-10-30
+  title: 第四次文代会开幕，邓小平致祝词
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 中国文学艺术工作者第四次代表大会 1979 年 10 月 30 日在北京开幕，邓小平代表党中央、国务院致祝词。据邓力群回忆，祝词由他和卫建林起草，周扬不赞成分几个问题讲，邓小平同意改成一气讲下来，胡乔木又作修改。祝词肯定文革前十七年的文艺路线“基本上是正确的”，说“黑线专政”是林彪、“四人帮”的污蔑。
+  people: [deng-xiaoping, zhou-yang, hu-qiaomu]
+  voices:
+    - { voice: witness, text: 指出所谓“黑线专政”完全是林彪、“四人帮”的污蔑（邓力群回忆祝词内容）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1984-12-29-writers-fourth-congress
+  date: 1984-12-29
+  end: 1985-01-05
+  title: 作协第四次代表大会：巴金任主席，刘宾雁任第一副主席
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 中国作家协会第四次会员代表大会 1984 年 12 月 29 日至 1985 年 1 月 5 日召开，巴金当选主席，刘宾雁当选第一副主席。邓力群在回忆里说会议“开得一塌糊涂”，转述李先念说这“实际上是一个反党的会”，又记夏衍称之为中国文学史上的“遵义会议”。两种评价都只见于邓力群的回忆。
+  people: [ba-jin, liu-binyan, li-xiannian, xia-yan, hu-yaobang]
+  voices:
+    - { voice: witness, text: 这个会实际上是一个反党的会（李先念语，邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+    - { voice: witness, text: 这次作协代表会议，是中国文学史上的“遵义会议”（夏衍语，邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1987-07-07-secretariat-research-office-abolished
+  date: 1987-07-07
+  title: 中央撤销书记处研究室
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 据邓力群回忆，1987 年 7 月 7 日中央开会，正式决定撤销他负责的中央书记处研究室，7 月 9 日薄一波正式通知他。邓力群说自己不知道哪些人参加了这次会。同年 11 月十三大，邓力群在中央委员选举中落选。
+  people: [bo-yibo]
+  voices:
+    - { voice: witness, text: 1987年7月7日，中央开会，不知道哪些人参加了，正式决定撤销书记处研究室（邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1989-06-21-wang-zhen-river-elegy
+  date: 1989-06-21
+  title: 王震在政治局扩大会议上批《河殇》和赵紫阳
+  lane: culture
+  weight: 1
+  place: 北京
+  summary: 据邓力群书中所引，1989 年 6 月 21 日王震在中央政治局扩大会议上发表书面讲话，说《河殇》的要害是所谓“新纪元”，是用“蓝色文明”即资本主义代替社会主义，并把经济过热、通货膨胀、腐败和“动乱”的“总祸根”归于赵紫阳。三天后十三届四中全会撤销赵紫阳的职务。讲话原文未见，只据邓力群的转引。
+  people: [wang-zhen, zhao-ziyang]
+  voices:
+    - { voice: officialLater, text: 巴黎公社不是新纪元。十月革命不是新纪元，中华人民共和国成立不是新纪元（王震书面讲话，邓力群书中转引）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]
+
+- id: 1989-09-04-deng-resigns
+  date: 1989-09-04
+  end: 1989-11-09
+  title: 邓小平提出辞去军委主席，十三届五中全会同意
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 据邓力群回忆，1989 年 9 月 4 日邓小平同中央常委和杨尚昆、万里谈话，提出辞去党和国家军委主席的职务，经杨尚昆转达，点名要胡乔木和邓力群起草中央同意他辞职的决定。11 月 6 日至 9 日十三届五中全会通过《关于同意邓小平同志辞去中共中央军事委员会主席职务的决定》。
+  people: [deng-xiaoping, yang-shangkun, wan-li, hu-qiaomu]
+  voices:
+    - { voice: witness, text: 他经过杨尚昆转达，指名要胡乔木和邓力群来起草中央同意他辞职的决定（邓力群回忆）, cite: higrid-dengliqun-12, quote: true }
+  cites: [higrid-dengliqun-12]

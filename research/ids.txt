@@ -928,6 +928,7 @@ essays/rehabilitation-1980s
 essays/revcom-1967-69
 essays/succession-1970-76
 events/1949-09-cppcc
+events/1949-11-11-air-force-founded
 events/1950-02-14-sino-soviet-treaty
 events/1950-02-24-opium-ban
 events/1950-03-03-unify-finance
@@ -1054,6 +1055,7 @@ events/1959-09-08-zhou-nehru
 events/1959-09-17-amnesty
 events/1959-09-17-on-hai-rui
 events/1959-09-23-rural-fairs
+events/1959-10-07-rb57d-shot-down
 events/1959-11-08-luoshan-five-counties
 events/1959-11-13-luoshan-seed-grain
 events/1959-11-25-zhangfan-longtang
@@ -1088,6 +1090,7 @@ events/1961-06-16-urban-population-check
 events/1961-06-19-pingdiao-refund
 events/1961-06-28-cut-staff
 events/1961-07-11-korea-treaty
+events/1961-09-14-mac-political-work
 events/1961-10-05-nepal-boundary
 events/1961-10-cpsu-twentysecond
 events/1961-11-09-reeducation-rightists
@@ -1097,6 +1100,7 @@ events/1962-04-23-xu-wenbo-punishment
 events/1962-04-yili
 events/1962-05-27-cut-urban-population
 events/1962-07-25-beidaihe-work-conference
+events/1962-09-09-u2-shot-down
 events/1962-09-27-consolidate-collective
 events/1962-09-sixty-articles
 events/1962-09-tenth-plenum
@@ -1135,6 +1139,7 @@ events/1964-economics-institute-four-cleanups
 events/1965-01-03-third-npc
 events/1965-01-14-twenty-three
 events/1965-02-26-southwest-third-front
+events/1965-06-01-ranks-abolished
 events/1965-08-25-tibet-region
 events/1965-09-03-people-war
 events/1965-09-23-peng-equality
@@ -1392,6 +1397,7 @@ events/1968-12-29-nanjing-bridge
 events/1968-12-ml-party-case
 events/1968-zhang-fang
 events/1969-01-01-mao-thought-command
+events/1969-01-25-luo-ruiqing-amputation
 events/1969-02-21-industry
 events/1969-03-02-zhenbao
 events/1969-03-15-sum-up-experience
@@ -1399,6 +1405,7 @@ events/1969-04-28-first-plenum
 events/1969-04-28-wang-zhongfang
 events/1969-04-ninth-congress
 events/1969-05-06-qinghua-policy
+events/1969-05-17-jiang-qing-diaoyutai-talk
 events/1969-05-27-wuhan-anti-restoration
 events/1969-06-09-he-long-death
 events/1969-06-10-barluk
@@ -1427,7 +1434,9 @@ events/1970-05-20-mao-statement
 events/1970-06-enrollment
 events/1970-07-31-lin-liguo-report
 events/1970-07-chengkun
+events/1970-08-14-constitution-group-dispute
 events/1970-08-lushan-plenum
+events/1970-09-17-peng-dehuai-case-report
 events/1970-10-01-national-day
 events/1970-10-13-canada
 events/1970-11-06-italy
@@ -1589,6 +1598,7 @@ events/1976-12-17-shi-yunfeng-sentenced
 events/1976-anhui-commune-enterprise
 events/1976-hefei-manure
 events/1977-04-wang-shenyou-executed
+events/1977-05-24-deng-three-weeds
 events/1977-07-tenth-third-plenum
 events/1977-08-eleventh-congress
 events/1977-09-28-pol-pot-visit
@@ -1612,14 +1622,17 @@ events/1978-12-16-us-normalization
 events/1978-12-third-plenum
 events/1979-01-01-taiwan-message
 events/1979-01-17-kmt-notice-6
+events/1979-01-18-theory-conference
 events/1979-01-landlord-caps
 events/1979-02-17-vietnam-war
 events/1979-02-gz-january-seizure
+events/1979-03-21-chen-yun-readjustment
 events/1979-03-31-zhang-zhixin-rehab
 events/1979-06-second-npc-adjustment
 events/1979-07-01-criminal-law
 events/1979-07-15-special-zones
 events/1979-10-16-wei-jingsheng-sentenced
+events/1979-10-30-fourth-writers-artists-congress
 events/1979-12-hua-linsen-sentenced
 events/1979-12-zhang-qinli-sentenced
 events/1979-kmt-defectors-policy
@@ -1680,6 +1693,7 @@ events/1984-05-coastal-cities
 events/1984-09-26-hongkong-declaration
 events/1984-10-20-economic-reform
 events/1984-12-03-ban-cadre-business
+events/1984-12-29-writers-fourth-congress
 events/1984-chuyi-compensation-gx
 events/1984-commune-dissolution
 events/1984-grain-record
@@ -1724,6 +1738,7 @@ events/1987-05-20-jianghua-report
 events/1987-05-20-yongzhou-report
 events/1987-05-31-lanshan-report
 events/1987-06-02-qiyang-report
+events/1987-07-07-secretariat-research-office-abolished
 events/1987-07-10-ningyuan-report
 events/1987-09-lhasa-unrest
 events/1987-10-25-party-government-separation
@@ -1748,9 +1763,11 @@ events/1989-05-20-beijing-orders
 events/1989-05-20-martial-law
 events/1989-06-04-crackdown
 events/1989-06-07-tianjin-telegram
+events/1989-06-21-wang-zhen-river-elegy
 events/1989-06-24-fourth-plenum
 events/1989-06-tibet-telegram
 events/1989-07-06-npcsc-resolution
+events/1989-09-04-deng-resigns
 events/1989-10-31-assembly-law
 events/1989-propaganda-notice
 events/1990-01-10-lift-martial-law
@@ -3566,6 +3583,7 @@ sources/gpnu-liang-shuming
 sources/gu-xiaoyang-2020-mou-zhijing
 sources/hbds-lv-yulan
 sources/hebcdi-2021-men-he
+sources/higrid-dengliqun-12
 sources/hljxxw-pan-fusheng
 sources/huang-zheng-wang-guangmei
 sources/hybsl-2015-gao-tianding-peng-zhen
