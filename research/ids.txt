@@ -1242,6 +1242,7 @@ events/1966-12-peng-dehuai-seized
 events/1967-01-01-new-year-editorial
 events/1967-01-04-down-with-tao-zhu
 events/1967-01-04-shanghai-letter
+events/1967-01-08-yan-hongyan-death
 events/1967-01-11-cc-telegram
 events/1967-01-13-public-security
 events/1967-01-16-rebels-unite
@@ -1273,6 +1274,7 @@ events/1967-04-06-ten-orders
 events/1967-04-13-inner-mongolia-decision
 events/1967-04-20-beijing-revcom
 events/1967-04-28-army-people
+events/1967-04-30-mao-unity-meeting
 events/1967-04-xu-xiangqian
 events/1967-05-01-may-day
 events/1967-05-07-jinan-compound
@@ -1317,6 +1319,7 @@ events/1967-11-06-continuous-revolution
 events/1967-11-14-he-jiefu
 events/1967-11-18-guangxi-decision
 events/1967-11-24-countryside
+events/1967-11-27-ninth-congress-consultation
 events/1967-11-inner-mongolia-revcom
 events/1967-11-tianjin-leaflet-case
 events/1967-11-you-xuetao-group
@@ -1422,6 +1425,7 @@ events/1970-04-24-dongfanghong-1
 events/1970-05-02-lin-biao-who-is-head
 events/1970-05-20-mao-statement
 events/1970-06-enrollment
+events/1970-07-31-lin-liguo-report
 events/1970-07-chengkun
 events/1970-08-lushan-plenum
 events/1970-10-01-national-day

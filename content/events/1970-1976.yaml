@@ -72,7 +72,8 @@
     - { voice: official1966, text: 中央决定黄永胜、吴法宪、李作鹏、邱会作离职反省、彻底交代以后，军委各总部、各军兵种党组织也开始对黄、吴、李、邱揭发批判（1971 年 10 月 6 日中共中央通知）, cite: ws-1971-10-06-notice, quote: true }
     - { voice: foreign, text: 'The purge has obviously altered the prospects for the succession to Mao Tse-tung（1972 年 7 月美国国家情报评估）', cite: frus-v17-d240, quote: true }
     - { voice: foreign, text: 'The civilian leaders now find the military reluctant to relinquish their authority, even in the wake of Lin’s death while fleeing toward the Soviet Union（1973 年 3 月美国国务院分析）', cite: frus-v18-d23, quote: true }
-  cites: [ws-1971-10-06-notice, frus-v17-d240, frus-v18-d23]
+    - { voice: witness, text: 一九七一年九月二十四日凌晨四点，我的秘书张叔良接到中央办公厅的电话通知，要我上午八时到人民大会堂福建厅参加军委办事组的会议（吴法宪回忆，他在这次会上被收审，早于 10 月 6 日通知）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [ws-1971-10-06-notice, frus-v17-d240, frus-v18-d23, wu-faxian-memoir-cwo]
 
 - id: 1971-10-20-kissinger-second
   date: 1971-10-20

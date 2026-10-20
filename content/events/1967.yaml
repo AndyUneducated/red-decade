@@ -425,7 +425,8 @@
   people: [chen-boda, xie-fuzhi, wu-faxian, zhu-de, chen-yi, li-fuchun, ye-jianying]
   voices:
     - { voice: judicial1980, text: 陈伯达、谢富治和吴法宪利用一九六七年十一月在天津破获的“中共中央非常委员会”传单案，以追“后台”为名，阴谋诬陷、迫害党和国家领导人（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
-  cites: [ws-1980-indictment]
+    - { voice: witness, text: 一九六七年十月八日晚，在北京外交部街四周的邮箱里，同时被人投入一种油印的传单，署名为“中国共产党中央非常委员会”（吴法宪回忆，地点和日期与起诉书“天津破获”不同）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [ws-1980-indictment, wu-faxian-memoir-cwo]
 
 - id: 1967-10-guangdong-underground
   date: 1967-10

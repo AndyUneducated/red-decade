@@ -72,3 +72,53 @@
     - { voice: witness, text: 陈伯达你这是“一个政治局常委要打倒另一个政治局常委”，是“突然袭击”（毛泽东语，戚本禹回忆）, cite: marxists-qibenyu-3-18-tao-zhu, quote: true }
     - { voice: witness, text: 说陶是邓小平介绍到中央来的，这个人不老实（戚本禹回忆毛泽东 1967 年 1 月 8 日讲话）, cite: marxists-qibenyu-3-18-tao-zhu, quote: true }
   cites: [marxists-qibenyu-3-18-tao-zhu]
+
+- id: 1967-01-08-yan-hongyan-death
+  date: 1967-01-08
+  title: 云南省委第一书记阎红彦自杀
+  lane: local
+  weight: 1
+  place: 昆明
+  summary: 据吴法宪回忆，1967 年 1 月 8 日阎红彦白天被揪斗七八个小时，晚上打电话给中央请求保护，陈伯达回电话让他“还是出来见群众”；他出来后被群众揪住不放，当天深夜自杀。吴法宪写的是“第二天一出来”“当天深夜”，按字面死期应在 1 月 9 日，库里人物条目记为 1 月 8 日，此处暂按人物条目。经过只有吴法宪的回忆。
+  people: [yan-hongyan, chen-boda]
+  voices:
+    - { voice: witness, text: 你还是出来见群众，不要怕（陈伯达回阎红彦电话，吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+    - { voice: witness, text: 陈伯达的一个电话，就送了阎红彦的命（吴法宪回忆当时的议论）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1967-04-30-mao-unity-meeting
+  date: 1967-04-30
+  title: 毛泽东召集老帅、副总理开“团结会”
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 据吴法宪回忆，“二月逆流”之后，1967 年 4 月 30 日晚毛泽东请周恩来、李富春、徐向前、聂荣臻、李先念等人到住所开“团结会”。周恩来当晚拟订“五一”首都庆祝大会的领导人名单，名单里有李富春等人，毛泽东批准后他们次日都上了天安门城楼。吴法宪说，当时在报纸上露面就意味着“站出来”了。经过只有吴法宪的回忆。
+  people: [mao-zedong, zhou-enlai, li-fuchun, xu-xiangqian, nie-rongzhen, li-xiannian]
+  voices:
+    - { voice: witness, text: 只要参加了重大活动并且在报纸上一露面，就意味着“站出来”了（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1967-11-27-ninth-congress-consultation
+  date: 1967-11-27
+  title: 中央通报征询召开“九大”的意见
+  lane: center
+  weight: 1
+  place: 北京
+  summary: 据吴法宪回忆，1967 年 11 月 27 日中共中央、中央文革发出《关于对征询召开“九大”的意见的通报》，说多数人建议 1968 年国庆节前开“九大”，会后接着开人大，罢免刘少奇、解决国家主席问题。“九大”没有按期召开，毛泽东改为先开八届十二中全会解决刘少奇问题。通报原文未见，此处只据吴法宪的转引。
+  people: [liu-shaoqi, mao-zedong]
+  voices:
+    - { voice: witness, text: 关于‘九大’开会的时间，多数同志建议明年秋天国庆节前召开（吴法宪转引通报）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1970-07-31-lin-liguo-report
+  date: 1970-07-31
+  title: 林立果在空军作“讲用报告”
+  lane: army
+  weight: 1
+  place: 北京
+  summary: 据吴法宪回忆，1970 年 7 月 31 日空军政委王辉球召集空军司令部、政治部二级部长以上干部，听林立果作学习毛泽东著作的“讲用报告”，差不多讲了一整天；王辉球、王飞讲话给予很高评价，王飞又宣传吴法宪说过的“两个一切”。吴法宪事后听了录音，觉得口气太大，但打电话对叶群说这是在空军放了一颗“政治卫星”。录音后来在空军“三代会”上播放。经过只有吴法宪的回忆。
+  people: [lin-liguo, wu-faxian, wang-fei, zhou-yuchi, ye-qun]
+  voices:
+    - { voice: witness, text: 他的这个报告讲得很好，是在空军放了一颗“政治卫星”（吴法宪回忆自己对叶群说的话）, cite: wu-faxian-memoir-cwo, quote: true }
+    - { voice: witness, text: 我感觉林立果讲话的口气太大（吴法宪回忆听录音的感觉）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
