@@ -23,6 +23,9 @@
   summary: 上海工总司等十一个造反组织在 1 月 4 日夺权后的《文汇报》上发表《告上海全市人民书》，把罢工、停产和铁路中断归咎于上海市委“以经济福利问题来转移斗争的大方向”。1 月 6 日造反派在人民广场召开“打倒上海市委大会”，陈丕显、曹荻秋被批斗。
   people: [wang-hongwen, zhang-chunqiao, yao-wenyuan, chen-pixian, cao-diqiu, geng-jinzhang]
   concepts: [rebellion]
+  voices:
+    - { voice: doc, text: 我们革命造反派的工人，最听毛主席的话，坚决执行毛主席亲自提出的“抓革命，促生产”的方针（《告上海全市人民书》）, cite: ws-1967-01-04-shanghai-letter, quote: true }
+    - { voice: witness, text: 这样公开由报纸来煽动，实际是向上海市委全面夺权的一个讯号（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [ws-1967-01-04-shanghai-letter, ws-1967-01-shanghai-urgent]
 
 - id: 1967-01-11-cc-telegram
@@ -142,6 +145,9 @@
   weight: 2
   summary: 中央军委决定把各总部、军兵种机关的“四大”暂告一段落，抽调三分之一到三分之二的人员投入支左、支农、支工、军管、军训，即“三支两军”。到 1972 年撤回时，先后有二百八十多万人次参加。
   people: [lin-biao, ye-jianying]
+  voices:
+    - { voice: doc, text: 集中力量完成毛主席赋予军队的支左、支农、支工、军管、军训等项重大任务（中央军委决定）, cite: ws-1967-03-19-three-supports, quote: true }
+    - { voice: witness, text: 就使军队支援地方的任务，从之前的“支左”，一下子扩大到了“支左、支农、支工、军管、军训”五项（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [ws-1967-03-19-three-supports]
 
 - id: 1967-03-18-factory-letter
@@ -226,6 +232,9 @@
   place: 新疆罗布泊
   summary: 距第一颗原子弹不到三年。9 月的《人民日报》社论把它作为“抓革命，促生产”的成绩：“第一颗氢弹爆炸成功，标志着我国的工业生产、科学技术达到了一个新的水平。”
   people: []
+  voices:
+    - { voice: official1966, text: 第一颗氢弹爆炸成功，标志着我国的工业生产、科学技术达到了一个新的水平（《人民日报》社论）, cite: ws-1967-09-20-production, quote: true }
+    - { voice: official1981, text: 氢弹试验和人造卫星发射回收的成功（1981 年决议列举“文化大革命”期间的成就）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1967-09-20-production]
 
 # ── 夏季：揪刘、武汉、“揪军内一小撮” ───────────────────────────
@@ -293,6 +302,7 @@
   people: [wang-li, chen-yi, zhou-enlai, ji-pengfei, qiao-guanhua]
   voices:
     - { voice: judicial1980, text: 一九六七年八月七日，“中央文革小组”成员王力说：“揪陈毅大方向当然对”，“打倒刘、邓、陈的口号为什么不能喊”？！煽动篡夺外交领导权（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
+    - { voice: witness, text: 八月七日，王力对外交部造反派讲了一次话，公开动员他们起来夺权（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [ws-1980-indictment]
 
 - id: 1967-08-22-british-office

@@ -14,6 +14,7 @@
     - { voice: doc, text: 中農一般不要出賣勞動力，貧農一般要出賣小部分勞動力，這是分別中農與貧農的主要標準（同上）, cite: ws-1950-08-04-class-status, quote: true }
     - { voice: doc, text: 知識分子不應該看做一種階級成份。知識分子的階級出身，依其家庭成份决定，其本人的階級成份，依本人取得主要生活來源的方法决定（同上）, cite: ws-1950-08-04-class-status, quote: true }
     - { voice: doc, text: 沒有任何反動行爲，連續五年以上者，經鄉人民代表大會通過，縣人民政府批准後，得按照其所從事之勞動或經營的性質，改變其地主成份爲勞動者的成份或其他成份（政务院的若干新决定）, cite: ws-1950-08-04-class-status, quote: true }
+    - { voice: official1981, text: 完成了新解放区土地制度的改革（1981 年决议列举建国后头三年的成就）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1950-08-04-class-status]
 
 - id: 1950-11-21-suburban-land-reform
@@ -211,6 +212,7 @@
     - { voice: doc, text: 应該允許社員經营少量的自留地（同上）, cite: ws-1960-11-03-urgent-letter, quote: true }
     - { voice: doc, text: 十二个月的口粮按十三个月安排，留有余地。必須算了再吃，絶不能吃了再算（同上）, cite: ws-1960-11-03-urgent-letter, quote: true }
     - { voice: doc, text: 严禁干部用“不准打飯”和“不发口粮”的办法来处罰社員（同上）, cite: ws-1960-11-03-urgent-letter, quote: true }
+    - { voice: official1981, text: 一九六〇年冬，党中央和毛泽东同志开始纠正农村工作中的左倾错误（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1960-11-03-urgent-letter]
 
 - id: 1960-12-22-xinyang-rectification
@@ -266,6 +268,7 @@
     - { voice: doc, text: 安排經济計划的次序，是农业、輕工业、重工业（十中全会决定）, cite: ws-1962-09-27-consolidate-collective, quote: true }
     - { voice: doc, text: 条例規定，这种基本核算單位制度定下来以后，至少三十年不变（同上）, cite: ws-1962-09-27-consolidate-collective, quote: true }
     - { voice: doc, text: 前几年农业生产下降，是由于連續的严重自然灾害，还由于我們工作中发生过的缺点和錯誤（同上）, cite: ws-1962-09-27-consolidate-collective, quote: true }
+    - { voice: official1981, text: 在一九六二年九月的八届十中全会上，毛泽东同志把社会主义社会中一定范围内存在的阶级斗争扩大化和绝对化（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1962-09-27-consolidate-collective]
 
 - id: 1964-02-05-daqing
@@ -317,6 +320,7 @@
     - { voice: officialLater, text: 从一九五九年到—九六四年，先后五批摘掉约三十余万人的右派帽子（同上）, cite: ws-1980-05-08-rightist-review, quote: true }
     - { voice: officialLater, text: “章罗同盟”在组织上应肯定其不存在，但在作为资产阶级右派政治势力的代表的意义上仍应认为存在（同上）, cite: ws-1980-05-08-rightist-review, quote: true }
     - { voice: officialLater, text: 后来又对形势估计得过于严重，随着运动的发展，特别在后期，确实犯了扩大化的错误（同上）, cite: ws-1980-05-08-rightist-review, quote: true }
+    - { voice: official1981, text: 但是反右派斗争被严重地扩大化了，把一批知识分子、爱国人士和党内干部错划为“右派分子”，造成了不幸的后果（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1980-05-08-rightist-review]
 
 - id: 1957-06-17-guangxi-famine-punishment

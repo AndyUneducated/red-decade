@@ -104,6 +104,7 @@
   voices:
     - { voice: doc, text: 對於以上兩種半守法半違法戶的處理辦法是「補退不罰」（北京市分类处理标准）, cite: ws-1952-03-12-beijing-five-anti, quote: true }
     - { voice: doc, text: 對於以上四種完全違法戶的處理辦法，應予法辦，除令其退出違法所得外，並按其情節從重處以罰金，或判徒刑，最重者可判死刑，並沒收其財産的一部或全部（同上）, cite: ws-1952-03-12-beijing-five-anti, quote: true }
+    - { voice: official1981, text: 开展了打退资产阶级进攻的反行贿、反偷税漏税、反盗骗国家财产、反偷工减料、反盗窃国家经济情报的“五反”运动（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1952-03-12-beijing-five-anti]
 
 - id: 1952-03-24-five-anti-tribunal
@@ -327,6 +328,7 @@
   voices:
     - { voice: official1966, text: 七月间，苏联政府突然片面决定，在一个月内撤走全部在中国的苏联专家，从而撕毁了几百个协议和合同（一评，1963）, cite: ws-1963-09-06-first-comment, quote: true }
     - { voice: official1966, text: 片面地决定撤走在中国帮助工作的一千三百九十名苏联专家，撕毁了三百四十三个专家合同和合同补充书，废除了二百五十七个科学技术合作项目（七评，1964）, cite: ws-1964-02-04-seventh-comment, quote: true }
+    - { voice: official1981, text: 主要由于“大跃进”和“反右倾”的错误，加上当时自然灾害和苏联政府背信弃义地撕毁合同，我国国民经济在一九五九年到一九六一年发生严重困难（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1963-09-06-first-comment, ws-1964-02-04-seventh-comment]
 
 - id: 1960-12-06-moscow-statement

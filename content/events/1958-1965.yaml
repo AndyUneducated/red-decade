@@ -52,6 +52,7 @@
     - { voice: doc, text: 打破社界、乡界、县界的大协作，组织军事化、行动战斗化、生活集体化成为群众性的行动，进一步提高了五亿农民的共产主义觉悟（北戴河决议）, cite: ws-1958-08-29-commune-resolution, quote: true }
     - { voice: doc, text: 在目前形势下，建立农林牧副渔全面发展、工农商学兵互相结合的人民公社，是指导农民加速社会主义建设，提前建成社会主义并逐步过渡到共产主义所必须采取的基本方针（同上）, cite: ws-1958-08-29-commune-resolution, quote: true }
     - { voice: doc, text: 二、社的组织规模，就目前说，一般以一乡一社、两千户左右较为合适（同上）, cite: ws-1958-08-29-commune-resolution, quote: true }
+    - { voice: official1981, text: 就在总路线提出后轻率地发动了“大跃进”运动和农村人民公社化运动，使得以高指标、瞎指挥、浮夸风和“共产风”为主要标志的左倾错误严重地泛滥开来（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1958-08-29-commune-resolution, ws-1981-resolution]
 
 - id: 1958-11-zhengzhou-wuchang
@@ -80,6 +81,7 @@
     - { voice: doc, text: 八届六中全会的主要议程是：关于人民公社问题，关于一九五九年国民经济计划问题，关于不提名毛泽东同志作下届中华人民共和国主席候选人问题（六中全会公报）, cite: ws-1958-12-10-sixth-plenum, quote: true }
     - { voice: doc, text: 这是我们自己队伍中的好心人，只是太性急了，他们把高度发展的现代工业等等看得非常容易，把全面地实现社会主义的全民所有制以至实现共产主义看得非常容易（关于人民公社若干问题的决议）, cite: ws-1958-12-10-commune-questions, quote: true }
     - { voice: doc, text: 钢产量将从今年预计产量一千一百万吨左右增加到一千八百万吨左右（六中全会公报）, cite: ws-1958-12-10-sixth-plenum, quote: true }
+    - { voice: official1981, text: 从一九五八年底到一九五九年七月中央政治局庐山会议前期，毛泽东同志和党中央曾经努力领导全党纠正已经觉察到的错误（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1958-12-10-sixth-plenum, ws-1958-12-10-commune-questions, ws-1959-08-16-thrift-resolution]
 
 - id: 1959-04-05-seventh-plenum
@@ -131,6 +133,7 @@
   voices:
     - { voice: doc, text: 根据去年农业产量的核实情况、今年上半年国民经济计划的完成情况和最近时期的灾害情况，八届八中全会建议国务院向全国人民代表大会常务委员会对一九五九年的计划提出适当的调整：把不包括土钢的钢产量定为一千二百万吨（增产节约决议）, cite: ws-1959-08-16-thrift-resolution, quote: true }
     - { voice: doc, text: 很明显，调整以后的国民经济计划，仍然是一个继续跃进的计划（同上）, cite: ws-1959-08-16-thrift-resolution, quote: true }
+    - { voice: official1981, text: 这场斗争在政治上使党内从中央到基层的民主生活遭到严重损害，在经济上打断了纠正左倾错误的进程，使错误延续了更长时间（1981 年决议谈庐山会议后期的“反右倾”）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1959-08-16-thrift-resolution]
 
 - id: 1959-1961-hardship
@@ -260,6 +263,7 @@
   concepts: [class-struggle, capitalist-roaders]
   voices:
     - { voice: official1981, text: 一九六三年至一九六五年间，在部分农村和少数城市基层开展的社会主义教育运动，虽然对于解决干部作风和经济管理等方面的问题起了一定作用，但由于把这些不同性质的问题都认为是阶级斗争或者是阶级斗争在党内的反映，在一九六四年下半年使不少基层干部受到不应有的打击（1981 年决议）, cite: ws-1981-resolution, quote: true }
+    - { voice: doc, text: 这次运动的重点，是整党内那些走资本主义道路的当权派，进一步地巩固和发展城乡社会主义的阵地（“二十三条”）, cite: ws-1965-01-14-twenty-three, quote: true }
   cites: [ws-1981-resolution, ws-1964-09-01-taoyuan, ws-1965-01-14-twenty-three, ws-1963-03-01-five-anti]
 
 - id: 1963-06-14-general-line
@@ -272,6 +276,7 @@
   voices:
     - { voice: doc, text: 如果把国际共产主义运动的总路线片面地归结为“和平共处”、“和平竞赛”、“和平过渡”，那就是违反一九五七年宣言和一九六○年声明的革命原则（中共中央复信）, cite: ws-1963-06-14-general-line, quote: true }
     - { voice: doc, text: 事实上，迄今为止，世界历史上还没有过从资本主义和平过渡到社会主义的先例（同上）, cite: ws-1963-06-14-general-line, quote: true }
+    - { voice: official1981, text: 苏联领导人挑起中苏论战，并把两党之间的原则争论变为国家争端（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1963-06-14-general-line, ws-1963-09-13-stalin, ws-1964-07-14-ninth-comment]
 
 - id: 1963-09-13-on-stalin
@@ -321,6 +326,7 @@
   voices:
     - { voice: official1966, text: 争取在不太长的历史时期内，把我国建成一个具有现代农业、现代工业、现代国防和现代科学技术的社会主义强国（周恩来报告摘要）, cite: ws-1964-12-21-zhou-report, quote: true }
     - { voice: official1966, text: 在有阶级存在的社会内，阶级斗争不会完结（同上）, cite: ws-1964-12-21-zhou-report, quote: true }
+    - { voice: official1981, text: 要努力把我国逐步建设成为一个具有现代农业、现代工业、现代国防和现代科学技术的社会主义强国。这个号召由于“文化大革命”而没有得到实行（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1964-12-21-zhou-report]
 
 - id: 1965-01-14-twenty-three

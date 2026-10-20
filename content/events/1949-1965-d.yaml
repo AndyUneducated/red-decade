@@ -27,6 +27,7 @@
   voices:
     - { voice: doc, text: 一切國家機關、企業、學校及其附屬機構的工作人員，凡侵吞、盜竊、騙取、套取國家財物，強索他人財物，收受賄賂以及其他假公濟私違法取利之行為，均為貪污罪（惩治贪污条例第二条）, cite: ws-1952-04-18-anti-corruption-act, quote: true }
     - { voice: doc, text: 個人貪污的數額，在人民幣一億元以上者，判處十年以上有期徒刑或無期徒刑；其情節特別嚴重者判處死刑（第三条）, cite: ws-1952-04-18-anti-corruption-act, quote: true }
+    - { voice: official1981, text: 开展了反贪污、反浪费、反官僚主义的“三反”运动（1981 年决议列举建国后头三年的成就）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1952-04-18-anti-corruption-act]
 
 - id: 1954-09-27-npc-elections
@@ -41,6 +42,7 @@
     - { voice: doc, text: 第一屆全國人民代表大會第一次會議已於一九五四年九月二十七日選舉……毛澤東為中華人民共和國主席（人大公告）, cite: ws-1954-09-27-npc-announcement, quote: true }
     - { voice: doc, text: 委員長　劉少奇（同上）, cite: ws-1954-09-27-npc-announcement, quote: true }
     - { voice: doc, text: 根據中華人民共和國主席的提名，決定周恩來為中華人民共和國國務院總理（同上）, cite: ws-1954-09-27-npc-announcement, quote: true }
+    - { voice: official1981, text: 一九五四年九月召开了第一次全国人民代表大会，制定了中华人民共和国宪法（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1954-09-27-npc-announcement]
 
 - id: 1954-12-08-mutual-defense-statement
@@ -317,6 +319,7 @@
   voices:
     - { voice: doc, text: 第三届全国人民代表大会第一次会议于一九六五年一月三日选出中华人民共和国主席和中华人民共和国副主席……中华人民共和国主席　刘少奇（人大公告）, cite: ws-1965-01-03-npc-announcement, quote: true }
     - { voice: doc, text: 根据中华人民共和国主席的提名，决定周恩来为中华人民共和国国务院总理（同上）, cite: ws-1965-01-03-npc-announcement, quote: true }
+    - { voice: official1981, text: 一九六四年底到一九六五年初召开的第三届全国人民代表大会宣布：调整国民经济的任务已经基本完成（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1965-01-03-npc-announcement]
 
 - id: 1965-08-25-tibet-region

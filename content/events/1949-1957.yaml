@@ -54,6 +54,7 @@
   voices:
     - { voice: doc, text: 因此，在镇压反革命问题上，发生了严重的右的偏向（中共中央指示）, cite: ws-1950-10-10-suppress-directive, quote: true }
     - { voice: doc, text: 这不仅助长了反革命的气焰，而且引起了群众的抱怨，说我们“宽大无边”、“有天无法”（同上）, cite: ws-1950-10-10-suppress-directive, quote: true }
+    - { voice: official1981, text: 镇压了反革命（1981 年决议列举建国后头三年的成就）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1950-10-10-suppress-directive]
 
 - id: 1951-02-20-counterrev-regulations
@@ -81,6 +82,7 @@
     - { voice: doc, text: 一、西藏人民團結起來，驅逐帝國主義侵略勢力出西藏，西藏人民回到中華人民共和國祖國大家庭中來（十七条协议）, cite: ws-1951-05-23-tibet-agreement, quote: true }
     - { voice: doc, text: 四、對於西藏的現行政治制度，中央不予變更（同上）, cite: ws-1951-05-23-tibet-agreement, quote: true }
     - { voice: doc, text: 達賴喇嘛的固有地位及職權，中央亦不予變更（同上）, cite: ws-1951-05-23-tibet-agreement, quote: true }
+    - { voice: official1981, text: 实现了西藏的和平解放（1981 年决议列举建国后头三年的成就）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1951-05-23-tibet-agreement]
 
 - id: 1951-12-15-mutual-aid
@@ -92,6 +94,7 @@
   voices:
     - { voice: doc, text: 农民在土地改革基础上所发扬起来的生产积极性，表现在两个方面：一方面是个体经济的积极性，另方面是劳动互助的积极性（决议草案）, cite: ws-1951-12-15-mutual-aid, quote: true }
     - { voice: doc, text: 以上两种形式的互助组织所包括的农民，在华北已发展到占全体农民的百分之六十，在东北则达到了百分之七十（同上）, cite: ws-1951-12-15-mutual-aid, quote: true }
+    - { voice: official1981, text: 对个体农业，我们遵循自愿互利、典型示范和国家帮助的原则，创造了从临时互助组和常年互助组，发展到半社会主义性质的初级农业生产合作社，再发展到社会主义性质的高级农业生产合作社的过渡形式（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1951-12-15-mutual-aid]
 
 - id: 1953-02-04-zhou-three-years
@@ -242,6 +245,7 @@
   voices:
     - { voice: official1966, text: 今年1月上旬，北京市资本主义工商业的社会主义改造如巨浪激流似的汹涌地展开，于1月10日全部资本主义工商业就过渡到了国家资本主义的高级形式（陈叔通报告）, cite: ws-1956-01-31-chen-shutong-commerce, quote: true }
     - { voice: official1966, text: 全国各城市的资本主义工商业基本上已纳入了国家资本主义高级形式，实现了全行业的公私合营（同上）, cite: ws-1956-01-31-chen-shutong-commerce, quote: true }
+    - { voice: official1981, text: 一九五六年资本主义工商业改造基本完成以后，对于一部分原工商业者的使用和处理也不很适当（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1956-01-31-chen-shutong-commerce, ws-1981-resolution]
 
 - id: 1956-01-intellectuals
@@ -278,6 +282,7 @@
   summary: 1956 年 6 月 30 日，一届人大三次会议通过《高级农业生产合作社示范章程》，规定把社员私有的主要生产资料转为合作社集体所有，组织集体劳动，实行“各尽所能，按劳取酬”。
   voices:
     - { voice: doc, text: 第二条　农业生产合作社按照社会主义的原则，把社员私有的主要生产资料转为合作社集体所有，组织集体劳动，实行“各尽所能，按劳取酬”，不分男女老少，同工同酬（高级社示范章程）, cite: ws-1956-06-30-advanced-coop-charter, quote: true }
+    - { voice: official1981, text: 在一九五五年夏季以后，农业合作化以及对手工业和个体商业的改造要求过急，工作过粗，改变过快，形式也过于简单划一，以致在长期间遗留了一些问题（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1956-06-30-advanced-coop-charter]
 
 - id: 1956-09-eighth-congress

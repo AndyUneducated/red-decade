@@ -239,6 +239,7 @@
     - { voice: doc, text: 三十六、在生产队办不办食堂，完全由社员讨论决定（1961 年修正草案）, cite: ws-1961-06-15-sixty-revised, quote: true }
     - { voice: doc, text: 凡是要办食堂的，都办社员的合伙食堂，实行自愿参加、自由结合、自己管理、自负开销和自由退出的原则（同上）, cite: ws-1961-06-15-sixty-revised, quote: true }
     - { voice: doc, text: 生产大队是基本核算单位（同上）, cite: ws-1961-06-15-sixty-revised, quote: true }
+    - { voice: official1981, text: 党中央在调整国民经济过程中陆续制定的农村人民公社工作条例草案和有关工业、商业、教育、科学、文艺等方面的工作条例草案，比较系统地总结了社会主义建设的经验（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1961-06-15-sixty-revised, ws-1962-09-27-sixty-articles]
 
 - id: 1961-industry-seventy
@@ -249,6 +250,7 @@
   summary: 1961 年中共中央制定《国营工业企业工作条例（草案）》，规定国营工业企业实行“党委领导下的行政管理上的厂长负责制”，作为企业管理的根本制度。
   voices:
     - { voice: doc, text: 在国营工业企业中，实行党委领导下的行政管理上的厂长负责制，这是我国企业管理的根本制度（工业七十条草案）, cite: ws-1961-industry-seventy, quote: true }
+    - { voice: official1981, text: 党中央在调整国民经济过程中陆续制定的农村人民公社工作条例草案和有关工业、商业、教育、科学、文艺等方面的工作条例草案，比较系统地总结了社会主义建设的经验（1981 年决议）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1961-industry-seventy]
 
 - id: 1962-10-20-sino-indian-war

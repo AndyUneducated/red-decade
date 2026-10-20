@@ -27,6 +27,7 @@
     - { voice: doc, text: 根据各区报告：全国军政公教人员已近九百万人（政务院决定）, cite: ws-1950-03-03-unify-finance, quote: true }
     - { voice: doc, text: 全国各地所收公粮，除地方附加粮外，全部归中央人民政府财政部统一调度使用（同上）, cite: ws-1950-03-03-unify-finance, quote: true }
     - { voice: doc, text: 必须强调部分服从全体、地方服从中央的原则，宁愿忍受若干较小的困难，以便防止和避免更大的困难（同上）, cite: ws-1950-03-03-unify-finance, quote: true }
+    - { voice: official1981, text: 统一了全国财政经济工作，稳定了物价（1981 年决议列举建国后头三年的成就）, cite: ws-1981-resolution, quote: true }
   cites: [ws-1950-03-03-unify-finance]
 
 - id: 1951-02-26-labor-insurance

@@ -197,6 +197,7 @@
   voices:
     - { voice: official1966, text: 一九六九年三月二日晨，苏联边防军侵入中国黑龙江省珍宝岛地区，开枪打死打伤我边防军人员多名，制造了一次极为严重的边境武装冲突（1969 年 3 月 2 日外交部照会）, cite: rmrb-1969-03-03-zhenbao, quote: true }
     - { voice: official1966, text: 不管你们来多少人，不管你们联合什么人一起来，我们都要把你们坚决彻底干净全部消灭之。（1969 年 3 月 4 日两报社论《打倒新沙皇！》）, cite: ws-1969-03-04-new-tsar, quote: true }
+    - { voice: witness, text: 一九六九年三月二日，珍宝岛战斗打响了。很快，陈锡联司令员就打来了电话（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [rmrb-1969-03-03-zhenbao, ws-1969-03-04-new-tsar]
 
 - id: 1969-04-ninth-congress
@@ -223,6 +224,9 @@
   weight: 2
   summary: 选举毛泽东为主席、林彪为副主席，政治局常委为毛泽东、林彪、陈伯达、周恩来、康生。陈伯达排在周恩来之前；一年后他因在庐山支持设国家主席而倒台。
   people: [mao-zedong, lin-biao, chen-boda, zhou-enlai, kang-sheng]
+  voices:
+    - { voice: doc, text: 毛泽东同志主持了这次会议，并且作了极其重要讲话（九届一中全会公报）, cite: ws-1969-04-28-9th-cc-plenum, quote: true }
+    - { voice: witness, text: 四月二十八日下午，九届一中全会正式举行。毛泽东主持了这次会议，并提出了中央政治局、政治局常委会的全部候选人名单（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [ws-1969-04-28-9th-cc-plenum]
 
 - id: 1969-10-18-order-one
@@ -247,6 +251,9 @@
   place: 河南开封
   summary: 1980 年十一届五中全会为刘少奇平反的决议说，他“早在一九六六年冬即被隔离和批斗”，“被完全剥夺了申辩的权利”；1969 年 10 月“于重病中被强行从北京押送到开封‘监护’”，11 月 12 日去世。决议决定“在适当时间”由中共中央商同全国人大常委会为他举行追悼会。
   people: [liu-shaoqi, wang-guangmei]
+  voices:
+    - { voice: officialLater, text: 一九六九年十月，于重病中被强行从北京押送到开封“监护”，同年十一月十二日被迫害含冤逝世（1980 年中共中央为刘少奇平反的决议）, cite: ws-1980-02-29-liu-rehab, quote: true }
+    - { voice: witness, text: 一九六九年十一月十二日，在长期被折磨之后，刘少奇终于在河南开封含冤逝世（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [ws-1980-02-29-liu-rehab]
 
 - id: 1970-03-05-yu-luoke-executed
@@ -497,6 +504,7 @@
   summary: 8 月 13 日上午，苏军出动直升机、数十辆坦克装甲车和数百名士兵，在新疆裕民县铁列克提与中国边防巡逻队交火。中国外交部当天照会说苏军进入中国境内“纵深达两公里”，“当场打死打伤中国边防战士多名”，并说苏方“正继续调集大批军队和坦克”。继珍宝岛之后，西段边界也爆发正面冲突。
   voices:
     - { voice: official1966, text: 一九六九年八月十三日上午，苏联方面出动直升飞机两架、坦克、装甲车数十辆和武装部队数百人，侵入中国新疆维吾尔自治区裕民县铁列克提地区纵深达两公里（1969 年 8 月 13 日外交部照会）, cite: rmrb-1969-08-14-tieliekti, quote: true }
+    - { voice: witness, text: 一些人，特别是苏联军方，主张对我们实行空袭，甚至动用核武器，打击我们的核攻击力量（吴法宪回忆新疆冲突后苏联领导层的意见）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [rmrb-1969-08-14-tieliekti]
 
 - id: 1969-09-04-ho-chi-minh
@@ -545,6 +553,7 @@
   people: [lin-liguo, wu-faxian, lin-biao, wang-fei, zhou-yuchi, ye-qun]
   voices:
     - { voice: judicial1980, text: 空军的一切都要向立果同志汇报，都可以由立果同志调动、指挥。（吴法宪 1969 年 10 月 18 日语，1980 年起诉书引）, cite: ws-1980-indictment, quote: true }
+    - { voice: witness, text: 我当时说这话的意思，是因为他可以直接向林彪汇报，可以直接接受林彪的指示，所以就不假思索地冲口出来了这“两个一切”（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [ws-1980-indictment]
 
 - id: 1969-08-15-jin-xunhua
