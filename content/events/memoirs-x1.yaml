@@ -172,3 +172,63 @@
     - { voice: witness, text: 我们建议，撤销彭德怀党内外一切职务，永远开除出党，判处无期徒刑（吴法宪节录的专案组报告）, cite: wu-faxian-memoir-cwo, quote: true }
     - { voice: witness, text: 按照我们当时的作法和理解，黄永胜当时批示的意思，应当是同意上报中央（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
   cites: [wu-faxian-memoir-cwo]
+
+- id: 1949-11-11-air-force-founded
+  date: 1949-11-11
+  title: 中国人民解放军空军成立
+  lane: army
+  weight: 1
+  place: 北京
+  summary: 据吴法宪回忆，1949 年 10 月 25 日中央军委任命刘亚楼为空军司令员、萧华为政委、王秉璋为参谋长，11 月 11 日军委通告各军区、各野战军空军已经成立，后来定这一天为空军成立日。吴法宪 1950 年到空军任职。当时的急务是准备攻打台湾，周恩来要求航校第一批学员最好在 1950 年九十月毕业。
+  people: [xiao-hua, wu-faxian, zhou-enlai]
+  voices:
+    - { voice: witness, text: 十一月十一日，中央军委通告各军区、各野战军，中国人民解放军空军已经成立（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1959-10-07-rb57d-shot-down
+  date: 1959-10-07
+  title: 地空导弹在北京上空击落台湾 RB-57D 侦察机
+  lane: army
+  weight: 1
+  place: 北京通县
+  summary: 据吴法宪回忆，1959 年 10 月 7 日，组建不到十个月的空军地空导弹部队在北京上空击落国民党空军美制 RB-57D 高空侦察机，残骸落在通县东南。吴法宪说这是世界上第一次用地空导弹在实战中击落敌机。他又说此后赫鲁晓夫撕毁协议、断绝援助，导弹部队一时无法扩大。
+  people: [wu-faxian]
+  voices:
+    - { voice: witness, text: 开创了世界防空史上首次运用地空导弹击落敌机的记录（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1961-09-14-mac-political-work
+  date: 1961-09-14
+  title: 军委扩大会议起草《关于加强军队政治思想工作的决议》
+  lane: army
+  weight: 1
+  place: 北京
+  summary: 据吴法宪回忆，1961 年 9 月 14 日中央军委在北京召开扩大会议，专门讨论军队政治工作，由罗瑞卿、萧华主持，林彪很少到会。会议按林彪的指示起草《关于加强军队政治思想工作的决议》，把“四个第一”“三八作风”等写成文件；梁必业和吴法宪各带人起草一稿，罗瑞卿决定两稿合用。吴法宪说，决议里有“理解的要执行，不理解的也要执行”等后来广为流传的话。经过只有吴法宪的回忆。
+  people: [lin-biao, luo-ruiqing, xiao-hua, wu-faxian]
+  voices:
+    - { voice: witness, text: 对毛主席的话理解的要执行，不理解的也要执行，在执行中加深理解（吴法宪回忆决议中的话）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1962-09-09-u2-shot-down
+  date: 1962-09-09
+  title: 地空导弹在江西上空击落 U-2 侦察机
+  lane: army
+  weight: 1
+  place: 江西
+  summary: 据吴法宪回忆，罗瑞卿要求对打 U-2“海底捞针，总不死心”，空军司令员刘亚楼决定把固定在北京的地空导弹部队拉出去机动设伏。1962 年 9 月 9 日，一架 U-2 在江西上空被导弹二营击落。周恩来听到报告说这是“伟大的胜利”。吴法宪说，1963 至 1965 年导弹部队又击落了三架 U-2。
+  people: [luo-ruiqing, zhou-enlai, wu-faxian]
+  voices:
+    - { voice: witness, text: 很好，这是个伟大的胜利（周恩来语，吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
+
+- id: 1965-06-01-ranks-abolished
+  date: 1965-06-01
+  title: 解放军撤销军衔制
+  lane: army
+  weight: 1
+  place: 全国
+  summary: 据吴法宪回忆，1955 年 9 月开始实行的军衔制实行了近十年。1965 年林彪生病，贺龙代他主持军委工作，提出撤销军衔制，“恢复红军时期官兵一致的优良传统和作风”，毛泽东同意，6 月 1 日军队正式撤销军衔制。撤销军衔的正式决定原文未收。
+  people: [he-long, lin-biao, mao-zedong]
+  voices:
+    - { voice: witness, text: 贺龙提出要撤销军衔制，“恢复红军时期官兵一致的优良传统和作风”（吴法宪回忆）, cite: wu-faxian-memoir-cwo, quote: true }
+  cites: [wu-faxian-memoir-cwo]
