@@ -56,13 +56,13 @@
     - { voice: editor, text: 她被捕的直接原因，各种说法都指向江青和叶群，但没有公开的专案材料。1981 年判决书只把她列入被迫害致死的名单，没有写明由谁负责。, cite: ws-1981-01-25-judgment }
   factions: [academics]
   fate:
-    - { date: 1937, s: normal, note: 赴延安, verify: true }
+    - { date: 1937, s: normal, note: 赴延安（维基百科，未核原件）, cite: zhwiki-sun-weishi }
     - { date: 1956-09, s: normal, note: 中央实验话剧院副院长兼总导演, cite: dangshi-2012-sun-weishi }
     - { date: 1966, s: attacked, note: 被批为“反动学术权威”, cite: dangshi-2012-sun-weishi }
     - { date: 1967-12, s: attacked, note: 金山入狱，家被抄, cite: dangshi-2012-sun-weishi }
     - { date: 1968-03-01, s: detained, note: 以“苏修特务”罪名被捕, cite: dangshi-2012-sun-weishi }
     - { date: 1968-10-14, s: dead, note: 死在北京市公安局看守所, cite: dangshi-2012-sun-weishi }
-    - { date: 1977-06, s: restored, note: 平反，遗像安放仪式, verify: true }
+    - { date: 1977-06-09, s: restored, note: 平反，遗像安放仪式（此前数据作 1977-06）（维基百科，未核原件）, cite: zhwiki-sun-weishi }
   cites: [dangshi-2012-sun-weishi, ws-1981-01-25-judgment, ws-1980-indictment]
 
 - id: zheng-junli
@@ -111,7 +111,7 @@
   fate:
     - { date: 1949-11, s: normal, note: 上海电影制片厂导演, verify: true }
     - { date: 1966-10-09, s: attacked, note: 被冒充红卫兵的人抄家, cite: ws-1980-indictment }
-    - { date: 1967-11, s: detained, note: 隔离审查, verify: true }
+    - { date: 1967-11-26, s: detained, note: 隔离审查（此前数据作 1967-11）（维基百科，未核原件）, cite: zhwiki-zheng-junli }
     - { date: 1969-04-23, s: dead, note: 死于关押中, cite: ywang-zheng-junli }
     - { date: 1978, s: restored, note: 平反, verify: true }
   cites: [ywang-zheng-junli, ws-1980-indictment, ws-1981-01-25-judgment]
@@ -220,11 +220,11 @@
     - { voice: editor, text: 她的专案组属于上海，审问的重点与毛泽东有关，这一点只见于家属和知情人的回忆。死因有自杀和被害两说，后一说没有证据，这里按自杀记，并标为有争议。 }
   factions: [academics]
   fate:
-    - { date: 1940, s: normal, note: 用艺名上官云珠从影, verify: true }
+    - { date: 1940, s: normal, note: 用艺名上官云珠从影（维基百科，未核原件）, cite: zhwiki-shangguan-yunzhu }
     - { date: 1956-01-10, s: normal, note: 受毛泽东接见, cite: whb-2018-11-23-shangguan-yunzhu }
     - { date: 1966, s: attacked, note: 《早春二月》《舞台姐妹》被批, verify: true }
     - { date: 1968-11-23, s: dead, note: 从家中四楼跳下身亡, cite: whb-2018-11-23-shangguan-yunzhu }
-    - { date: 1978-12, s: restored, note: 上影为她平反, verify: true }
+    - { date: 1978-12, s: restored, note: 上影为她平反（维基百科，未核原件）, cite: zhwiki-shangguan-yunzhu }
   cites: [whb-2018-11-23-shangguan-yunzhu]
 
 - id: yan-fengying

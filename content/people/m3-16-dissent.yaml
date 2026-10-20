@@ -173,7 +173,7 @@
   fate:
     - { date: 1989-06, s: detained, note: 被捕，1991 年判刑五年, verify: true }
     - { date: 1994, s: sidelined, note: 刑满释放, verify: true }
-    - { date: 2007-10, s: dead, note: 在北京病逝, verify: true }
+    - { date: 2007-10-28, s: dead, note: 在北京病逝（此前数据作 2007-10）（维基百科，未核原件）, cite: zhwiki-bao-zunxin }
   cites: [ws-1989-06-30-chen-xitong-report]
 
 - id: su-shaozhi
@@ -204,8 +204,8 @@
     - { voice: officialLater, text: 今年1月28日，苏绍智（中国社会科学院马列所研究员）、方励之等人在北京的“都乐书屋”搞了一个所谓“新启蒙沙龙活动”（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
   factions: [democracy]
   fate:
-    - { date: 1982, s: rise, note: 中国社会科学院马列所所长, verify: true }
-    - { date: 1987, s: sidelined, note: 被撤销所长职务, verify: true }
+    - { date: 1982, s: rise, note: 中国社会科学院马列所所长（维基百科，未核原件）, cite: zhwiki-su-shaozhi }
+    - { date: 1987, s: sidelined, note: 被撤销所长职务（维基百科，未核原件）, cite: zhwiki-su-shaozhi }
     - { date: 1989-06, s: purged, note: 出走海外, verify: true }
   cites: [ws-1989-06-30-chen-xitong-report]
 
@@ -276,7 +276,7 @@
   factions: [democracy]
   fate:
     - { date: 1982, s: rise, note: 《光明日报》记者, verify: true }
-    - { date: 1989-07, s: detained, note: 被关押十个月, verify: true }
+    - { date: 1989-07-14, s: detained, note: 被关押十个月（此前数据作 1989-07）（维基百科，未核原件）, cite: zhwiki-dai-qing }
     - { date: 1990-05, s: sidelined, note: 获释，作品被禁, verify: true }
   cites: [ws-1989-06-30-chen-xitong-report]
 
@@ -315,7 +315,7 @@
     - { date: 1957, s: purged, note: 划为右派, verify: true }
     - { date: 1980, s: restored, note: 复任《新观察》主编, verify: true }
     - { date: 1989-06, s: sidelined, note: 留在美国，《新观察》停刊, verify: true }
-    - { date: 2009-01-18, s: dead, note: 在纽约去世, verify: true }
+    - { date: 2009-01-18, s: dead, note: 在纽约去世（维基百科，未核原件）, cite: zhwiki-ge-yang }
   cites: [ws-1989-06-30-chen-xitong-report]
 
 - id: wan-runnan

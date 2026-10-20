@@ -368,11 +368,11 @@
   rehab:
     - { date: 1980, text: 中央统战部右派复查报告把他列入拟予改正的爱国人士, cite: ws-1980-ufwd-rightist-review }
   fate:
-    - { date: 1949, s: normal, note: 在香港通电起义, verify: true }
-    - { date: 1954-09, s: power, note: 国防委员会副主席, verify: true }
+    - { date: 1949-08-13, s: normal, note: 与 44 人在香港联名发表声明，与蒋中正决裂（原记在香港通电起义）（此前数据作 1949）（维基百科，未核原件）, cite: zhwiki-long-yun }
+    - { date: 1954-09, s: power, note: 国防委员会副主席（维基百科，未核原件）, cite: zhwiki-long-yun }
     - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }
     - { date: 1958-01-31, s: purged, note: 被建议罢免各项职务, cite: ws-1958-npc-rightists-removal }
-    - { date: 1962-06-27, s: dead, note: 病逝, verify: true }
+    - { date: 1962-06-27, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-long-yun }
   cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
 
 - id: huang-shaohong
@@ -413,5 +413,5 @@
     - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }
     - { date: 1958-01-31, s: purged, note: 被建议罢免人大常委会委员职务, cite: ws-1958-npc-rightists-removal }
     - { date: 1966-08, s: attacked, note: 红卫兵抄家批斗, verify: true }
-    - { date: 1966-08-31, s: dead, note: 自杀, verify: true }
+    - { date: 1966-08-31, s: dead, note: 自杀（维基百科，未核原件）, cite: zhwiki-huang-shaohong }
   cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]

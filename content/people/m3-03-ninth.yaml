@@ -500,13 +500,13 @@
     - { voice: scholar, text: 研究者评价于会泳是文革中少有的真正懂专业的文艺官员：他在京剧唱腔和配器上的创新被音乐界普遍承认，而他总结的“三突出”则成了压制其他创作的教条。, cite: macfarquhar-schoenhals }
   factions: [ccrg]
   fate:
-    - { date: 1946, s: normal, note: 参加胶东文工团, verify: true }
-    - { date: 1965, s: rise, note: 受江青注意，参与样板戏音乐设计, verify: true }
-    - { date: 1968-05-23, s: rise, note: 《文汇报》文章提出“三突出”, verify: true }
+    - { date: 1946, s: normal, note: 参加胶东文工团（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
+    - { date: 1965, s: rise, note: 受江青注意，参与样板戏音乐设计（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
+    - { date: 1968-05-23, s: rise, note: 《文汇报》文章提出“三突出”（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
     - { date: 1971-05, s: power, note: 国务院文化组副组长, verify: true }
     - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为文化部部长, cite: rmrb-1975-01-19-state-council-list }
-    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
-    - { date: 1977-08-28, s: dead, note: 服毒自杀, verify: true }
+    - { date: 1976-10, s: detained, note: 隔离审查（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
+    - { date: 1977-08-28, s: dead, note: 服毒自杀（信息框作 8-31）（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
   cites: [macfarquhar-schoenhals, wang-nianyi-turmoil]
 
 - id: chen-yonggui

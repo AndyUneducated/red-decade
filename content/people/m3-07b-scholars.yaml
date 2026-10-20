@@ -50,11 +50,11 @@
     - { voice: editor, text: 遗书通篇是事务性的托付，自称“来自旧社会的渣滓”，又反复申明清白；这是 1966 年 8–9 月上海抄家风潮中留下的少数当事人亲笔。, cite: fu-lei-1966-09-02-note }
   factions: [academics]
   fate:
-    - { date: 1958-04, s: attacked, note: 划为右派, verify: true }
-    - { date: 1961, s: normal, note: 摘帽, verify: true }
+    - { date: 1958-04, s: attacked, note: 划为右派（维基百科，未核原件）, cite: zhwiki-fu-lei }
+    - { date: 1961-09, s: normal, note: 摘帽（此前数据作 1961）（维基百科，未核原件）, cite: zhwiki-fu-lei }
     - { date: 1966-08, s: attacked, note: 抄家、批斗, cite: fu-lei-1966-09-02-note }
-    - { date: 1966-09-03, s: dead, note: 与妻子朱梅馥一同自尽, verify: true }
-    - { date: 1979-04, s: restored, note: 追悼会，平反, verify: true }
+    - { date: 1966-09-03, s: dead, note: 与妻子朱梅馥一同自尽（维基百科，未核原件）, cite: zhwiki-fu-lei }
+    - { date: 1979-04, s: restored, note: 追悼会，平反（维基百科，未核原件）, cite: zhwiki-fu-lei }
   cites: [fu-lei-1966-09-02-note]
 
 - id: xiong-shili
@@ -156,11 +156,11 @@
     - { voice: editor, text: 这份答复由汪篯记录，副本存中山大学档案馆，1995 年陆键东《陈寅恪的最后二十年》首次公开全文；本站据的是网上转录本。, cite: chen-yinke-1953-12-01-reply }
   factions: [academics]
   fate:
-    - { date: 1949-01, s: normal, note: 南下广州任教, verify: true }
+    - { date: 1949-01-16, s: normal, note: 南下广州任教（此前数据作 1949-01）（维基百科，未核原件）, cite: zhwiki-chen-yinke }
     - { date: 1953-12-01, s: normal, note: 拒绝北上任中古史所长, cite: chen-yinke-1953-12-01-reply }
     - { date: 1958, s: attacked, note: 被批“厚古薄今”, verify: true }
     - { date: 1966, s: attacked, note: 抄家、批斗、停薪, verify: true }
-    - { date: 1969-10-07, s: dead, note: 在中山大学去世, verify: true }
+    - { date: 1969-10-07, s: dead, note: 在中山大学去世（维基百科，未核原件）, cite: zhwiki-chen-yinke }
   cites: [chen-yinke-1953-12-01-reply]
 
 - id: gu-zhun
@@ -210,13 +210,13 @@
   factions: [dissent, academics]
   fate:
     - { date: 1949-05, s: power, note: 上海市财政局长, cite: cass-ie-gu-zhun }
-    - { date: 1952, s: purged, note: “三反”中撤职, verify: true }
+    - { date: 1952, s: purged, note: “三反”中撤职（维基百科，未核原件）, cite: zhwiki-gu-zhun }
     - { date: 1956, s: normal, note: 经济所研究员, cite: cass-ie-gu-zhun }
     - { date: 1957, s: attacked, note: 划为右派, cite: cass-ie-gu-zhun }
     - { date: 1962, s: normal, note: 回经济所, cite: cass-ie-gu-zhun }
     - { date: 1964, s: attacked, note: 再戴右派帽子, cite: cass-ie-gu-zhun }
     - { date: 1966, s: detained, note: 批斗、监管, cite: cass-ie-gu-zhun }
     - { date: 1969, s: sidelined, note: 息县五七干校, cite: cass-ie-gu-zhun }
-    - { date: 1974-12-03, s: dead, note: 病逝于北京, verify: true }
+    - { date: 1974-12-03, s: dead, note: 病逝于北京（维基百科，未核原件）, cite: zhwiki-gu-zhun }
     - { date: 1979-05, s: restored, note: 右派改正，恢复党籍, verify: true }
   cites: [cass-ie-gu-zhun]

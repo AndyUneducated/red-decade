@@ -153,8 +153,8 @@
     - { date: 1949-07, s: normal, note: 剧协主席, verify: true }
     - { date: 1964, s: attacked, note: 《谢瑶环》被批, verify: true }
     - { date: 1966-12-04, s: detained, verify: true }
-    - { date: 1968-12-10, s: dead, note: 化名“李伍”死于三〇一医院, verify: true }
-    - { date: 1979-04, s: restored, note: 平反, verify: true }
+    - { date: 1968-12-10, s: dead, note: 化名“李伍”死于三〇一医院（维基百科，未核原件）, cite: zhwiki-tian-han }
+    - { date: 1979-04, s: restored, note: 平反（维基百科，未核原件）, cite: zhwiki-tian-han }
   cites: [ws-1971-03-02-tian-han-critique, ws-1967-05-10-opera]
 
 - id: yan-hongyan
@@ -390,10 +390,10 @@
     - { voice: judicial1980, text: 老舍、赵树理、周信芳、盖叫天（1981 年判决书所列被迫害致死的文艺界人士）, cite: ws-1981-01-25-judgment, quote: true }
   factions: [academics]
   fate:
-    - { date: 1964, s: attacked, note: 被批为写“中间人物”, verify: true }
-    - { date: 1966, s: detained, note: 押回山西批斗, verify: true }
-    - { date: 1970-09-23, s: dead, note: 批斗中受伤致死, verify: true }
-    - { date: 1978, s: restored, note: 平反, verify: true }
+    - { date: 1964, s: attacked, note: 被批为写“中间人物”（维基百科，未核原件）, cite: zhwiki-zhao-shuli }
+    - { date: 1966, s: detained, note: 押回山西批斗（维基百科，未核原件）, cite: zhwiki-zhao-shuli }
+    - { date: 1970-09-23, s: dead, note: 批斗中受伤致死（维基百科，未核原件）, cite: zhwiki-zhao-shuli }
+    - { date: 1978-10-17, s: restored, note: 平反（此前数据作 1978）（维基百科，未核原件）, cite: zhwiki-zhao-shuli }
   cites: [ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: zhou-xinfang
@@ -441,12 +441,12 @@
     - { voice: judicial1980, text: 老舍、赵树理、周信芳、盖叫天（1980 年起诉书所列被迫害致死的文艺界人士）, cite: ws-1980-indictment, quote: true }
   factions: [academics]
   fate:
-    - { date: 1955-03, s: normal, note: 上海京剧院院长, verify: true }
+    - { date: 1955-03, s: normal, note: 上海京剧院院长（维基百科，未核原件）, cite: zhwiki-zhou-xinfang }
     - { date: 1966, s: attacked, note: 《海瑞上疏》被批, verify: true }
     - { date: 1968-03, s: detained, note: 被诬为“反共老手”拘留, cite: ws-1982-xu-jingxian-case }
     - { date: 1970-10, s: purged, note: 戴“反革命分子”帽子，永远开除出党, cite: ws-1982-xu-jingxian-case }
-    - { date: 1975-03-08, s: dead, note: 在上海病逝, verify: true }
-    - { date: 1978-08, s: restored, note: 平反, verify: true }
+    - { date: 1975-03-08, s: dead, note: 在上海病逝（维基百科，未核原件）, cite: zhwiki-zhou-xinfang }
+    - { date: 1978-08-16, s: restored, note: 平反（此前数据作 1978-08）（维基百科，未核原件）, cite: zhwiki-zhou-xinfang }
   cites: [ws-1982-xu-jingxian-case, ws-1980-indictment, ws-1981-01-25-judgment, ws-1966-05-16-notice-attachment]
 
 - id: rong-guotuan
@@ -483,8 +483,8 @@
     - { voice: judicial1980, text: 优秀教练傅其芳、容国团、姜永宁被迫害致死, cite: ws-1980-indictment, quote: true }
   factions: [academics]
   fate:
-    - { date: 1959-04, s: rise, note: 世乒赛男单冠军, verify: true }
+    - { date: 1959-04, s: rise, note: 世乒赛男单冠军（维基百科，未核原件）, cite: zhwiki-rong-guotuan }
     - { date: 1968, s: detained, note: 隔离审查, verify: true }
-    - { date: 1968-06-20, s: dead, note: 自缢, verify: true }
-    - { date: 1978, s: restored, note: 平反, verify: true }
+    - { date: 1968-06-20, s: dead, note: 自缢（维基百科，未核原件）, cite: zhwiki-rong-guotuan }
+    - { date: 1978, s: restored, note: 平反（维基百科，未核原件）, cite: zhwiki-rong-guotuan }
   cites: [ws-1980-indictment]

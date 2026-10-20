@@ -3379,7 +3379,7 @@
     - { voice: official1966, text: 以周扬、齐燕铭、夏衍、林默涵为代表的文艺界反革命修正主义路线（1967 年 5 月《红旗》社论《欢呼京剧革命的伟大胜利》）, cite: ws-1967-05-10-opera, quote: true }
   factions: [propdept]
   fate:
-    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1938-09, s: normal, note: 入党（此前数据作 1938）（维基百科，未核原件）, cite: zhwiki-lin-mohan }
     - { date: 1959, s: power, note: 中宣部副部长, verify: true }
     - { date: 1966-04-07, s: power, note: 全国创作会议报告, cite: ws-1966-05-16-notice-attachment@1966-04-07 }
     - { date: 1966-07, s: purged, verify: true }
@@ -4018,7 +4018,7 @@
   fate:
     - { date: 1966-06, s: rise, note: 贴出学校第一张大字报, verify: true }
     - { date: 1966-08-18, s: rise, note: 新华社当日电只说“师大女附中一个‘红卫兵’”，未点名, cite: rmrb-1966-08-19-first-rally, verify: true }
-    - { date: 1968, s: normal, note: 下乡插队, verify: true }
+    - { date: 1968-04, s: detained, note: 与母亲被押到沈阳软禁（原记下乡插队）（此前数据作 1968）（维基百科，未核原件）, cite: zhwiki-song-binbin }
   cites: [rmrb-1966-08-19-first-rally, wang-youqin-victims]
   verify: true
 

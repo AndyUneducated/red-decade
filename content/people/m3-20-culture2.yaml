@@ -173,7 +173,7 @@
     - { date: 1952-06, s: normal, note: 北京人艺院长, verify: true }
     - { date: 1966, s: attacked, note: 被打成“反动权威”, cite: chinanews-2010-cao-yu, verify: true }
     - { date: 1978-06-30, s: restored, note: 平反，恢复院长职务, cite: chinanews-2010-cao-yu }
-    - { date: 1996-12-13, s: dead, verify: true }
+    - { date: 1996-12-13, s: dead, note: （维基百科，未核原件）, cite: zhwiki-cao-yu }
   cites: [chinawriter-cao-yu, chinanews-2010-cao-yu]
 
 - id: xia-yan
@@ -231,8 +231,8 @@
     - { date: 1966-06-16, s: attacked, note: 作为“阎王殿”成员被集中批斗, cite: thepaper-2016-xia-yan }
     - { date: 1966-12-04, s: detained, note: 被红卫兵抓走，后由卫戍区“监护”, cite: thepaper-2016-xia-yan }
     - { date: 1975-07-12, s: normal, note: 解除监护，没有结论, cite: thepaper-2016-xia-yan }
-    - { date: 1977, s: restored, verify: true }
-    - { date: 1995-02-06, s: dead, verify: true }
+    - { date: 1977, s: restored, note: （维基百科，未核原件）, cite: zhwiki-xia-yan }
+    - { date: 1995-02-06, s: dead, note: （维基百科，未核原件）, cite: zhwiki-xia-yan }
   cites: [thepaper-2016-xia-yan, ws-1967-05-10-opera, ws-1971-03-02-tian-han-critique]
 
 - id: yang-hansheng

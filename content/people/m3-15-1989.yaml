@@ -237,7 +237,7 @@
   factions: [reform]
   fate:
     - { date: 1988, s: rise, note: 国务院发言人, verify: true }
-    - { date: 2018-12, s: dead, note: 去世, verify: true }
+    - { date: 2018-12-13, s: dead, note: 去世（此前数据作 2018-12）（维基百科，未核原件）, cite: zhwiki-yuan-mu }
   cites: [ws-1989-06-30-chen-xitong-report, wp-1989-casualties]
 
 - id: bao-tong
@@ -317,7 +317,7 @@
   factions: [democracy]
   fate:
     - { date: 1985, s: rise, note: 中国社会科学院政治学研究所所长, verify: true }
-    - { date: 1989-06, s: purged, note: 被通缉，出走法国, verify: true }
+    - { date: 1989-06, s: purged, note: 被通缉，出走法国（维基百科，未核原件）, cite: zhwiki-yan-jiaqi }
   cites: [ws-1989-06-30-chen-xitong-report]
 
 - id: fang-lizhi

@@ -115,7 +115,7 @@
   factions: [frontline]
   fate:
     - { date: 1967-02, s: power, note: 主持发布《福建前线部队公告》, cite: rmrb-1986-10-12-han-xianchu }
-    - { date: 1968-08-19, s: power, note: 福建省革委会主任, verify: true }
+    - { date: 1968-08-19, s: power, note: 福建省革委会主任（维基百科，未核原件）, cite: zhwiki-han-xianchu }
     - { date: 1974, s: attacked, note: 批林批孔中受到打击, cite: rmrb-1986-10-12-han-xianchu }
     - { date: 1979, s: power, note: 中央军委常委, cite: rmrb-1986-10-12-han-xianchu }
     - { date: 1986-10-03, s: dead, cite: rmrb-1986-10-12-han-xianchu }
@@ -178,7 +178,7 @@
   fate:
     - { date: 1967-01-15, s: attacked, note: 被带到南京大学、南京工学院批斗、挂牌游街, cite: ccrd-1967-01-22-jiang-weiqing }
     - { date: 1967-01-22, s: detained, note: 自称“已被监督劳动，隔离反省”, cite: ccrd-1967-01-22-jiang-weiqing }
-    - { date: 1974, s: restored, note: 江西省委第一书记, verify: true }
+    - { date: 1974-02, s: restored, note: 江西省委第一书记（此前数据作 1974）（维基百科，未核原件）, cite: zhwiki-jiang-weiqing }
     - { date: 2000-06-16, s: dead, cite: xhrb-2015-07-09-jiang-weiqing }
   cites: [xhrb-2015-07-09-jiang-weiqing, ccrd-1967-01-22-jiang-weiqing, marxists-1967-zhang-chunqiao-jiangsu, ws-1980-indictment]
 
