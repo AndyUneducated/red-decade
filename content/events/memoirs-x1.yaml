@@ -1,0 +1,44 @@
+# X1 据回忆录补的事件。回忆录是 3 级出处，摘要写明“据某某回忆”；有官方文件或判决的并列。
+
+- id: 1962-07-25-beidaihe-work-conference
+  date: 1962-07-25
+  end: 1962-08-24
+  title: 北戴河中央工作会议：批“包产到户”
+  lane: center
+  weight: 2
+  place: 北戴河
+  summary: 1962 年 7 月 25 日至 8 月 24 日中共中央在北戴河召开工作会议，8 月 26 日至 9 月 23 日又在北京开八届十中全会的预备会议。据戚本禹回忆，会上毛泽东严厉批评党内一部分人的“包产到户”主张；此前田家英让他把群众来信编成《关于群众对“包产到户”的意见》，通过《群众反映》送中央领导参考，谭震林在这份专辑上批示，说编辑“在为资本主义呼喊，要追查”。戚本禹 8 月 25 日的工作日记记下田家英回京后的传达：会上不少人把“包产到户”批为“两条道路问题”，谭震林最起劲；田家英说自己发了一个“滑头发言”。会议之后是 9 月的八届十中全会。经过只有戚本禹的回忆和日记。
+  people: [mao-zedong, tian-jiaying, tan-zhenlin, qi-benyu]
+  voices:
+    - { voice: witness, text: 北戴河中央工作会议上毛主席严厉批评党内一部分人的“包产到户”的主张（戚本禹回忆）, cite: marxists-qibenyu-2-14-beidaihe, quote: true }
+    - { voice: witness, text: 会上不少人批判“包产到户”主张，说这是两条道路问题。谭震林最起劲（戚本禹 1962 年 8 月 25 日工作日记，记田家英的传达）, cite: marxists-qibenyu-2-15-diary, quote: true }
+    - { voice: witness, text: 他在北戴河会议上发言一小时，但他没有昧着良心去批判人家“包产到户”是两条道路的斗争（同日日记记田家英语）, cite: marxists-qibenyu-2-15-diary, quote: true }
+  cites: [marxists-qibenyu-2-14-beidaihe, marxists-qibenyu-2-15-diary]
+
+- id: 1966-11-16-industry-forum
+  date: 1966-11-16
+  title: 全国工交座谈会：“十五条”被否定，改出“十条”
+  lane: econ
+  weight: 2
+  place: 北京
+  summary: 据戚本禹回忆，1966 年 11 月 16 日起中央召开全国工交座谈会，平时由陶铸主持，余秋里、谷牧、国务院各部部长、各省市管工业的书记和中央文革小组成员参加。会议否定了中央文革小组提出的“十二条”，由余秋里、谷牧组织起草《工交企业进行文化大革命的若干规定》（“十五条”），要求工矿企业的文化大革命仍按“四清”部署进行，不搞“四大”，不搞串连，坚持八小时生产。毛泽东否定“十五条”后，周恩来主持以陈伯达的“十二条”为基础起草，补充为十条；林彪主持常委会讨论时说这次工交会“开得不好”，要“来个180度的大转变”。戚本禹说陶铸与中央文革小组的矛盾在这次会上公开化。经过只有戚本禹的回忆，“十二条”“十五条”和“十条”的原文库内没有。
+  people: [tao-zhu, chen-boda, zhou-enlai, lin-biao, mao-zedong, qi-benyu]
+  voices:
+    - { voice: witness, text: 工矿企业的文化大革命仍按“四清”部署结合进行，分期分批，正面教育，不搞“四大”，不搞串连，坚持八小时生产（戚本禹回忆“十五条”的要求）, cite: marxists-qibenyu-3-16-anting, quote: true }
+    - { voice: witness, text: 这次工交会开得不好，一些人的思想很不对头，需要来个180度的大转变（林彪语，戚本禹回忆）, cite: marxists-qibenyu-3-16-anting, quote: true }
+    - { voice: witness, text: 到1966年11月16日召开的工交座谈会上，陶铸和中央文革小组的矛盾就公开化了（戚本禹回忆）, cite: marxists-qibenyu-3-18-tao-zhu, quote: true }
+  cites: [marxists-qibenyu-3-16-anting, marxists-qibenyu-3-18-tao-zhu]
+
+- id: 1967-01-04-down-with-tao-zhu
+  date: 1967-01-04
+  title: 陈伯达、江青公开批评陶铸，街头出现“打倒陶铸”
+  lane: center
+  weight: 2
+  place: 北京
+  summary: 据戚本禹回忆，1966 年 12 月 27、28 日陈伯达在周恩来主持的会上说陶铸与刘少奇、邓小平是一伙的，江青也说要打倒陶铸；叶剑英等人向毛泽东告状，29 日上午毛泽东在会上批评了陈伯达、江青。1967 年 1 月 4 日下午，陈伯达、康生、江青接见“武汉赴广州专揪王任重造反兵团”时公开批评陶铸，5 日讲话印成传单，大街上贴满“打倒陶铸”的标语。戚本禹又说，毛泽东 1 月 8 日在一次中央会议上说陶铸“不老实”，2 月 6 日、10 日两次在会上批评陈伯达、江青“突然袭击”，但陶铸最终仍被打倒。经过只有戚本禹的回忆；同年 9 月姚文元发表《评陶铸的两本书》。
+  people: [tao-zhu, chen-boda, jiang-qing, kang-sheng, mao-zedong, ye-jianying, wang-renzhong, qi-benyu]
+  voices:
+    - { voice: witness, text: 1月5日，陈伯达、江青的讲话就已印成传单公开，大街上贴满了“打倒陶铸”的大标语（戚本禹回忆）, cite: marxists-qibenyu-3-18-tao-zhu, quote: true }
+    - { voice: witness, text: 陈伯达你这是“一个政治局常委要打倒另一个政治局常委”，是“突然袭击”（毛泽东语，戚本禹回忆）, cite: marxists-qibenyu-3-18-tao-zhu, quote: true }
+    - { voice: witness, text: 说陶是邓小平介绍到中央来的，这个人不老实（戚本禹回忆毛泽东 1967 年 1 月 8 日讲话）, cite: marxists-qibenyu-3-18-tao-zhu, quote: true }
+  cites: [marxists-qibenyu-3-18-tao-zhu]

@@ -1,0 +1,74 @@
+# X1 回忆录新事件（2026-10-19 起）。回忆录一律 3 级，摘要里注明“据某某回忆”；与官方文件、当时报刊冲突处并列。
+web:
+  - id: marxists-qibenyu-2-14-beidaihe
+    title: 北戴河会议反对“包产到户”和八届十中全会重提阶级斗争
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第二部分第十四章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/2-14.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1962年7月25日至8月24日, 北戴河中央工作会议上毛主席严厉批评, 他在小册子的空白处]
+  - id: marxists-qibenyu-2-15-diary
+    title: 日记残页(1962年4月20日—1962年10月24日)
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第二部分第十五章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/2-15.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1962.8.25，晴, 田家英回北京，谈起中央政治局扩大会, （二）会上不少人批判“包产到户”主张, （三）田说，他在北戴河会议上发言一小时]
+  - id: marxists-qibenyu-3-16-anting
+    title: 张春桥处理上海“安亭事件”和中央召开工交座谈会
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第十六章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-16.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1966年11月16日开始，中央召开, 可是在陶铸的主持下, 这样就在陶铸的主持下, 毛主席否定了“十五条”, 接下来的会议就由总理来主持了, 然后主席又让林彪主持]
+  - id: marxists-qibenyu-3-18-tao-zhu
+    title: 打倒陶铸及中央文革小组的变化
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第十八章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-18.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [到1966年11月16日召开的工交座谈会上, 但是，在1967年1月8日]
+  - id: marxists-qibenyu-3-29-isolation
+    title: 关于“整江青黑材料”案和我的被隔离审査
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第三部分第二十九章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/3-29.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1968年1月20日夜晚]
+  - id: marxists-qibenyu-4-01-arrest
+    title: 从“请假检讨”到被捕入狱
+    date: 2016
+    author: 戚本禹
+    kind: memoir
+    tier: 3
+    alias: 《戚本禹回忆录》第四部分第一章
+    url: https://www.marxists.org/chinese/reference-books/qibenyu/4-01.htm
+    via: 马克思主义文库（marxists.org）转录
+    note: 回忆录 2016 年香港出版，转录、未核原书。
+    excerpt: true
+    keep: [1968年1月12日夜晚]

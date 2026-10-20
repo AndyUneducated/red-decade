@@ -321,7 +321,10 @@
   voices:
     - { voice: officialLater, text: 经毛泽东批准，王力、关锋被隔离审查，1968年1月，戚本禹也被隔离审查。（1987 年《北京市“文化大革命”大事记》）, cite: ccrd-1987-bj-chronology-192, quote: true }
     - { voice: editor, text: 本条旧版日期作 1967 年 8 月 30 日至 1968 年 1 月 13 日，摘要还写有 8 月 26 日毛泽东在上海对杨成武说“王、关、戚是破坏文化大革命的，不是好人”，以及三人被当作“五一六”后台；均出自党史著作与回忆录，库内尚无原文，改从大事记。, cite: ccrd-1987-bj-chronology-192 }
-  cites: [ccrd-1987-bj-chronology-192]
+    - { voice: witness, text: 1968年1月20日夜晚，总理的秘书通知我去怀仁堂开会，会上宣布我“隔离审查”（戚本禹回忆录第三部分第二十九章）, cite: marxists-qibenyu-3-29-isolation, quote: true }
+    - { voice: witness, text: 1968年1月12日夜晚，我从钓鱼台的办公室里被叫到怀仁堂去开会（戚本禹回忆录第四部分第一章）, cite: marxists-qibenyu-4-01-arrest, quote: true }
+    - { voice: editor, text: 戚本禹回忆录两章对自己被隔离审查的日期说法不一，一作 1968 年 1 月 20 日，一作 1 月 12 日；本条只到月，从北京大事记。, cite: marxists-qibenyu-3-29-isolation }
+  cites: [ccrd-1987-bj-chronology-192, marxists-qibenyu-3-29-isolation, marxists-qibenyu-4-01-arrest]
 
 - id: 1967-08-renegade-group
   date: 1967-08-09

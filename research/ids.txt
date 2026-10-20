@@ -1096,6 +1096,7 @@ events/1962-01-seven-thousand
 events/1962-04-23-xu-wenbo-punishment
 events/1962-04-yili
 events/1962-05-27-cut-urban-population
+events/1962-07-25-beidaihe-work-conference
 events/1962-09-27-consolidate-collective
 events/1962-09-sixty-articles
 events/1962-09-tenth-plenum
@@ -1226,6 +1227,7 @@ events/1966-10-work-conference
 events/1966-11-01-two-lines-editorial
 events/1966-11-09-qufu-anti-confucius
 events/1966-11-09-shanghai-wgs
+events/1966-11-16-industry-forum
 events/1966-12-03-macau-123
 events/1966-12-05-liandong
 events/1966-12-06-deng-black-gang
@@ -1237,6 +1239,7 @@ events/1966-12-30-kangping-road
 events/1966-12-military-training
 events/1966-12-peng-dehuai-seized
 events/1967-01-01-new-year-editorial
+events/1967-01-04-down-with-tao-zhu
 events/1967-01-04-shanghai-letter
 events/1967-01-11-cc-telegram
 events/1967-01-13-public-security
@@ -3583,13 +3586,19 @@ sources/marxists-1968-01-yang-xiguang-whither-china
 sources/marxists-1968-07-30-five-leaders
 sources/marxists-qibenyu-2-08-eight-sima
 sources/marxists-qibenyu-2-09-xinfan
+sources/marxists-qibenyu-2-14-beidaihe
+sources/marxists-qibenyu-2-15-diary
 sources/marxists-qibenyu-2-17-li-xiucheng
 sources/marxists-qibenyu-3-04-may-seventh
 sources/marxists-qibenyu-3-12-liandong
 sources/marxists-qibenyu-3-13-intellectuals
 sources/marxists-qibenyu-3-15-peng-luo-lu-yang
+sources/marxists-qibenyu-3-16-anting
 sources/marxists-qibenyu-3-17-birthday
+sources/marxists-qibenyu-3-18-tao-zhu
 sources/marxists-qibenyu-3-21-qinghai
+sources/marxists-qibenyu-3-29-isolation
+sources/marxists-qibenyu-4-01-arrest
 sources/marxists-qibenyu-4-06-trial
 sources/marxists-qibenyu-tian-jiaying
 sources/marxists-qibenyu-wuhan-720
