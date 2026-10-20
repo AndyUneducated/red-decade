@@ -459,9 +459,12 @@ archive/rmrb-page-1954-11-01-1
 archive/rmrb-page-1955-09-23-2
 archive/rmrb-page-1956-06-15-2
 archive/rmrb-page-1958-02-12-1
+archive/rmrb-page-1958-05-26-1
 archive/rmrb-page-1958-10-13-7
 archive/rmrb-page-1959-04-14-2
 archive/rmrb-page-1959-04-15-2
+archive/rmrb-page-1959-04-29-1
+archive/rmrb-page-1964-02-10-1
 archive/rmrb-page-1966-05-05-2
 archive/rmrb-page-1966-06-02-1
 archive/rmrb-page-1966-06-04-1
@@ -604,6 +607,7 @@ archive/rmrb-page-1982-05-23-2
 archive/rmrb-page-1982-10-28-1
 archive/rmrb-page-1983-01-16-2
 archive/rmrb-page-1983-04-30-2
+archive/rmrb-page-1983-06-19-1
 archive/rmrb-page-1983-10-03-1
 archive/rmrb-page-1984-02-14-4
 archive/rmrb-page-1984-04-30-2
@@ -3720,9 +3724,12 @@ sources/rmrb-1954-11-01-census-1953
 sources/rmrb-1955-09-23-stats-1954
 sources/rmrb-1956-06-15-stats-1955
 sources/rmrb-1958-02-12-presidential-order
+sources/rmrb-1958-05-26-eighth-fifth-plenum
 sources/rmrb-1958-10-13-zhang-bourgeois-right
 sources/rmrb-1959-04-14-stats-fyp1
 sources/rmrb-1959-04-15-stats-1958
+sources/rmrb-1959-04-29-state-council
+sources/rmrb-1964-02-10-dazhai-road
 sources/rmrb-1966-05-05-guo-moruo
 sources/rmrb-1966-06-02-nie-dazibao
 sources/rmrb-1966-06-04-new-committee
@@ -3879,6 +3886,7 @@ sources/rmrb-1982-05-23-ma-yinchu
 sources/rmrb-1982-10-28-census-1982
 sources/rmrb-1983-01-16-yang-yong
 sources/rmrb-1983-04-30-stats-1982
+sources/rmrb-1983-06-19-npc-vice-chairs
 sources/rmrb-1983-10-03-tan-zhenlin-obituary
 sources/rmrb-1984-02-14-su-yu
 sources/rmrb-1984-04-30-stats-1983

@@ -1,0 +1,42 @@
+# X2（2026-10-19）：2 级待核命运节点，《人民日报》当日报道（govopendata 转录，只留含名单的段落）。
+web:
+  - id: rmrb-1958-05-26-eighth-fifth-plenum
+    title: 中共八届五中全会昨日举行
+    date: 1958-05-26
+    author: 新华社
+    kind: news
+    alias: 1958 年 5 月 26 日《人民日报》八届五中全会报道
+    url: https://cn.govopendata.com/renminribao/1958/05/26/1/
+    excerpt: true
+    keep: [李井泉]
+    via: 《人民日报》1958-05-26 第 1 版（govopendata 转录）
+  - id: rmrb-1959-04-29-state-council
+    title: 二届人大一次会议通过国务院组成人员
+    date: 1959-04-29
+    author: 新华社
+    kind: news
+    alias: 1959 年 4 月 29 日《人民日报》二届人大一次会议报道
+    url: https://cn.govopendata.com/renminribao/1959/04/29/1/
+    excerpt: true
+    keep: [周恩来总理今天向会议提出了国务院副总理]
+    via: 《人民日报》1959-04-29 第 1 版（govopendata 转录）
+  - id: rmrb-1964-02-10-dazhai-road
+    title: 大寨之路（通讯与社论）
+    date: 1964-02-10
+    author: 新华社、人民日报社论
+    kind: news
+    alias: 1964 年 2 月 10 日《人民日报》通讯《大寨之路》与社论
+    url: https://cn.govopendata.com/renminribao/1964/02/10/1/
+    excerpt: true
+    keep: [今天本报发表的题为《大寨之路》的通讯, 正如大寨大队党支部书记陈永贵同志所说]
+    via: 《人民日报》1964-02-10 第 1 版（govopendata 转录）
+  - id: rmrb-1983-06-19-npc-vice-chairs
+    title: 六届人大一次会议选举国家主席、副主席和人大常委会组成人员
+    date: 1983-06-19
+    author: 新华社
+    kind: news
+    alias: 1983 年 6 月 19 日《人民日报》六届人大一次会议选举结果
+    url: https://cn.govopendata.com/renminribao/1983/06/19/1/
+    excerpt: true
+    keep: [国家副主席乌兰夫，人大常委会副委员长陈丕显, 新华社北京6月18日电 第六届全国人民代表大会第一次会议今天选举]
+    via: 《人民日报》1983-06-19 第 1 版（govopendata 转录）
