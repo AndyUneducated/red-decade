@@ -346,10 +346,10 @@
   factions: [rebels]
   fate:
     - { date: 1973-08-10, s: rise, note: 《人民日报》转载他的信, cite: rmrb-1973-08-10-zhang-tiesheng }
-    - { date: 1975-01, s: rise, note: 四届人大常委, verify: true }
+    - { date: 1975-01, s: rise, note: 四届人大常委（维基百科，未核原件）, cite: zhwiki-zhang-tiesheng }
     - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
     - { date: 1983, s: detained, note: 判处有期徒刑十五年, verify: true }
-    - { date: 1991, s: sidelined, note: 刑满释放, verify: true }
+    - { date: 1991-10-16, s: sidelined, note: 刑满释放（此前数据作 1991）（维基百科，未核原件）, cite: zhwiki-zhang-tiesheng }
   cites: [rmrb-1973-08-10-zhang-tiesheng]
 
 - id: huang-shuai

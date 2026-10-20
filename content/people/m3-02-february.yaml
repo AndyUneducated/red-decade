@@ -443,15 +443,15 @@
     - { voice: scholar, text: 研究者常把余秋里看作毛泽东“三线建设”和“大庆模式”的执行人；他在 1978 年主持的十年规划因引进规模过大，被陈云等人批评为“洋跃进”。, cite: vogel-deng }
   factions: [premier]
   fate:
-    - { date: 1931, s: normal, note: 入党, verify: true }
-    - { date: 1958-02, s: power, note: 石油工业部长, verify: true }
+    - { date: 1931-05, s: normal, note: 入党（此前数据作 1931）（维基百科，未核原件）, cite: zhwiki-yu-qiuli }
+    - { date: 1958-02, s: power, note: 石油工业部长（维基百科，未核原件）, cite: zhwiki-yu-qiuli }
     - { date: 1965-01, s: rise, note: 主持国家计委（“小计委”）, verify: true }
     - { date: 1967-01, s: attacked, note: 造反派揪斗, verify: true }
     - { date: 1967-03, s: power, note: 回到计委、参加国务院业务组, verify: true }
     - { date: 1968-12, s: attacked, note: “中国（马列）共产党”假案, cite: ws-1980-indictment }
     - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
     - { date: 1980-08, s: normal, note: 卸任计委主任, verify: true }
-    - { date: 1999-02-03, s: dead, verify: true }
+    - { date: 1999-02-03, s: dead, note: （维基百科，未核原件）, cite: zhwiki-yu-qiuli }
   cites: [ws-1980-indictment]
 
 - id: gu-mu
@@ -510,15 +510,15 @@
     - { voice: scholar, text: 傅高义认为 1978 年谷牧的西欧考察报告是中国高层第一次系统认识到与西方的经济差距，为十一届三中全会前后的开放决策提供了依据。, cite: vogel-deng }
   factions: [premier]
   fate:
-    - { date: 1932, s: normal, note: 入党, verify: true }
-    - { date: 1965-03, s: power, note: 国家建委主任, verify: true }
+    - { date: 1932-07, s: normal, note: 入党（此前数据作 1932）（维基百科，未核原件）, cite: zhwiki-gu-mu }
+    - { date: 1965-04, s: power, note: 国家建委主任（此前数据作 1965-03）（维基百科，未核原件）, cite: zhwiki-gu-mu }
     - { date: 1966-08, s: normal, note: 到北京建筑工业学院, cite: ws-1967-07-09-liu-jiangong-review }
     - { date: 1967, s: attacked, note: 被揪斗, verify: true }
     - { date: 1969, s: restored, note: 回到国家建委, verify: true }
     - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
     - { date: 1979-07, s: power, note: 主管对外开放与经济特区, verify: true }
-    - { date: 1988-04, s: normal, note: 退休, verify: true }
-    - { date: 2009-11-06, s: dead, verify: true }
+    - { date: 1988-04, s: normal, note: 当选第七届全国政协副主席（原记退休）（维基百科，未核原件）, cite: zhwiki-gu-mu }
+    - { date: 2009-11-06, s: dead, note: （维基百科，未核原件）, cite: zhwiki-gu-mu }
   cites: [ws-1967-07-09-liu-jiangong-review, ws-1980-indictment]
 
 - id: chen-yun
@@ -734,12 +734,12 @@
     - { voice: officialLater, text: 指使薄一波、刘澜涛、安子文等六十一人“投降国民党、叛变共产党”的问题，已由中共中央一九七八年十二月十六日中发75号文件予以否定, cite: ws-1980-02-29-liu-rehab, quote: true }
   factions: [frontline]
   fate:
-    - { date: 1927, s: normal, note: 入党, verify: true }
-    - { date: 1931, s: detained, note: 在天津被捕, verify: true }
-    - { date: 1936, s: normal, note: 按北方局决定出狱, verify: true }
-    - { date: 1956-11, s: power, note: 中组部长, verify: true }
+    - { date: 1927-12, s: normal, note: 入党（此前数据作 1927）（维基百科，未核原件）, cite: zhwiki-an-ziwen }
+    - { date: 1931-03, s: detained, note: 被捕，关押于北平草岚子监狱（原记在天津被捕）（此前数据作 1931）（维基百科，未核原件）, cite: zhwiki-an-ziwen }
+    - { date: 1936, s: normal, note: 从草岚子监狱获释（原记按北方局决定出狱）（维基百科，未核原件）, cite: zhwiki-an-ziwen }
+    - { date: 1956-11, s: power, note: 中组部长（维基百科，未核原件）, cite: zhwiki-an-ziwen }
     - { date: 1967, s: detained, note: 定为叛徒，关押, verify: true }
     - { date: 1968-01, s: attacked, note: 康生指使诬陷历任中组部长, cite: ws-1980-indictment }
     - { date: 1978-12, s: restored, note: “六十一人案”平反, cite: ws-1980-02-29-liu-rehab }
-    - { date: 1980-01-25, s: dead, verify: true }
+    - { date: 1980-06-25, s: dead, note: （此前数据作 1980-01-25）（维基百科，未核原件）, cite: zhwiki-an-ziwen }
   cites: [ws-1980-indictment, ws-1968-liu-case-report, ws-1980-02-29-liu-rehab, ws-1967-11-24-countryside]

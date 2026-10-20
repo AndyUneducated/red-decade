@@ -50,9 +50,9 @@
     - { date: 1955-12, s: power, note: 武汉军区政委, verify: true }
     - { date: 1967-07-20, s: attacked, note: 七二〇事件, cite: ws-1967-07-26-wuhan-notice }
     - { date: 1967-07-27, s: purged, note: 被撤职, verify: true }
-    - { date: 1972, s: restored, note: 任广州军区副政委, verify: true }
-    - { date: 1979, s: power, note: 成都军区政委, verify: true }
-    - { date: 1987-01-02, s: dead, verify: true }
+    - { date: 1972, s: restored, note: 任广州军区副政委（维基百科，未核原件）, cite: zhwiki-zhong-hanhua }
+    - { date: 1979, s: power, note: 成都军区政委（维基百科，未核原件）, cite: zhwiki-zhong-hanhua }
+    - { date: 1987-01-02, s: dead, note: （维基百科，未核原件）, cite: zhwiki-zhong-hanhua }
   cites: [ws-1967-07-26-wuhan-notice, ws-1980-indictment]
 
 - id: zeng-siyu
@@ -177,13 +177,13 @@
     - { voice: editor, text: 起诉书把这次泄密写成林彪下决心行动的直接诱因之一，但刘丰本人没有被列为被告，此后也没有受审。 }
   factions: [lin, provincial]
   fate:
-    - { date: 1967-07, s: rise, note: 升任武汉军区政委, verify: true }
+    - { date: 1967-07, s: rise, note: 升任武汉军区政委（维基百科，未核原件）, cite: zhwiki-liu-feng }
     - { date: 1969-04-24, s: power, note: 九大名单中为中央委员（原记还有“中央军委委员”，名单不涉及）, cite: rmrb-1969-04-25-ninth-cc-list }
     - { date: 1971-09-06, s: power, note: 向李作鹏透露毛泽东南巡谈话, cite: ws-1980-indictment }
     - { date: 1971-11, s: purged, note: 免职审查, verify: true }
-    - { date: 1973, s: purged, note: 开除党籍, verify: true }
+    - { date: 1973, s: purged, note: 开除党籍（维基百科，未核原件）, cite: zhwiki-liu-feng }
     - { date: 1974-05-21, s: attacked, note: 中央文件称其“林彪死党”, cite: ws-1974-05-21-hubei-instructions }
-    - { date: 1993-03-09, s: dead, verify: true }
+    - { date: 1993-03-09, s: dead, note: （维基百科，未核原件）, cite: zhwiki-liu-feng }
   cites: [ws-1980-indictment, ws-1974-05-21-hubei-instructions]
 
 - id: li-jingquan
@@ -367,13 +367,13 @@
     - { voice: editor, text: 起诉书和判决书都把她与刘结挺并列为共同被告，现有材料很难把二人的行为分开叙述。 }
   factions: [rebels]
   fate:
-    - { date: 1956, s: power, note: 宜宾市委第一书记, verify: true }
+    - { date: 1956-08, s: power, note: 宜宾市委第一书记（此前数据作 1956）（维基百科，未核原件）, cite: zhwiki-zhang-xiting }
     - { date: 1963, s: purged, note: 撤职，1965 年开除党籍, cite: ws-1982-liu-zhang-case }
     - { date: 1967-04-04, s: restored, note: 中央通知平反, cite: ws-1967-04-04-yibin-rehab }
     - { date: 1968-05-31, s: power, note: 四川省革委会副主任, cite: ws-1982-liu-zhang-case }
     - { date: 1978-06-24, s: detained, note: 被逮捕, cite: ws-1982-liu-zhang-case }
     - { date: 1982-03, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-liu-zhang-case }
-    - { date: 1993-07, s: dead, verify: true }
+    - { date: 1993-07-24, s: dead, note: （此前数据作 1993-07）（维基百科，未核原件）, cite: zhwiki-zhang-xiting }
   cites: [ws-1982-liu-zhang-case, ws-1967-04-04-yibin-rehab]
 
 - id: ulanhu
@@ -503,12 +503,12 @@
     - { voice: editor, text: 起诉书把内人党案的责任归于康生、谢富治，没有点他的名；他是在地方主持这场运动的人，最终没有受审。 }
   factions: [provincial]
   fate:
-    - { date: 1967-04, s: rise, note: 奉命到内蒙古主持军区, verify: true }
-    - { date: 1967-11-01, s: power, note: 内蒙古革委会主任, verify: true }
+    - { date: 1967-04, s: rise, note: 奉命到内蒙古主持军区（维基百科，未核原件）, cite: zhwiki-teng-haiqing }
+    - { date: 1967-11-01, s: power, note: 内蒙古革委会主任（维基百科，未核原件）, cite: zhwiki-teng-haiqing }
     - { date: 1968-04-26, s: power, note: 向中央报告“内人党”案“初步突破”, cite: ws-1968-04-26-neirendang-report }
     - { date: 1971-05, s: sidelined, note: 离开内蒙古，接受审查, verify: true }
-    - { date: 1975, s: restored, note: 济南军区副司令员, verify: true }
-    - { date: 1997-10-26, s: dead, verify: true }
+    - { date: 1975, s: restored, note: 济南军区副司令员（维基百科，未核原件）, cite: zhwiki-teng-haiqing }
+    - { date: 1997-10-26, s: dead, note: （维基百科，未核原件）, cite: zhwiki-teng-haiqing }
   cites: [ws-1968-04-26-neirendang-report, ws-1980-indictment]
 
 - id: wei-guoqing
@@ -632,8 +632,8 @@
     - { date: 1967-08-10, s: rise, note: 中央任命为江西省军区政委, cite: song-yongyi-database }
     - { date: 1968-01-05, s: power, note: 江西省革委会主任, verify: true }
     - { date: 1969-04-24, s: power, note: 九大名单中为中央委员, cite: rmrb-1969-04-25-ninth-cc-list }
-    - { date: 1971, s: purged, note: 九一三事件后撤职审查, verify: true }
-    - { date: 1978-10, s: detained, note: 被逮捕, verify: true }
-    - { date: 1982-01, s: restored, note: 获释，免予起诉, verify: true }
-    - { date: 2008-04-29, s: dead, verify: true }
+    - { date: 1972-06-28, s: purged, note: 被隔离审查（原记九一三事件后撤职审查）（此前数据作 1971）（维基百科，未核原件）, cite: zhwiki-cheng-shiqing }
+    - { date: 1978-10-23, s: detained, note: 被逮捕（此前数据作 1978-10）（维基百科，未核原件）, cite: zhwiki-cheng-shiqing }
+    - { date: 1982-01-15, s: restored, note: 获释，免予起诉（此前数据作 1982-01）（维基百科，未核原件）, cite: zhwiki-cheng-shiqing }
+    - { date: 2008-04-29, s: dead, note: （维基百科，未核原件）, cite: zhwiki-cheng-shiqing }
   cites: [song-yongyi-database]

@@ -110,10 +110,10 @@
     - { voice: editor, text: 决议里的“省委第一书记”指的就是周小舟，四人中只有他是地方干部。四人中只有黄克诚活到了平反：周小舟 1966 年、彭德怀 1974 年、张闻天 1976 年先后去世。, cite: ws-1959-08-16-peng-resolution }
   factions: [lushan]
   fate:
-    - { date: 1953, s: power, note: 湖南省委主要负责人, verify: true }
+    - { date: 1953, s: power, note: 湖南省委主要负责人（维基百科，未核原件）, cite: zhwiki-zhou-xiaozhou }
     - { date: 1959-08-16, s: purged, note: 八届八中全会定为“反党集团”成员, cite: ws-1959-08-16-peng-resolution }
-    - { date: 1962, s: sidelined, note: 中南局委员、科学院中南分院副院长, verify: true }
-    - { date: 1966-12-26, s: dead, note: 在广州自杀, verify: true }
+    - { date: 1962-06, s: sidelined, note: 中南局委员、科学院中南分院副院长（此前数据作 1962）（维基百科，未核原件）, cite: zhwiki-zhou-xiaozhou }
+    - { date: 1966-12-26, s: dead, note: 在广州自杀（维基百科，未核原件）, cite: zhwiki-zhou-xiaozhou }
   rehab:
     - { date: 1979, text: 中共中央为其平反, verify: true }
     - { date: 1981-06-27, text: 历史决议宣布八届八中全会的决议“完全错误”, cite: ws-1981-resolution }
@@ -156,9 +156,9 @@
     - { voice: editor, text: 同一个地委，1960 年 4 月报“死亡 71658人”并归因于疫病，1962 年 7 月说“全区死亡百余万人”。处分决定也承认此事“和‘五风’错误、执行左倾盲干有极大关系，上级应负很大责任”，但追责止于地委一级。, cite: ws-1962-07-10-lu-xianwen-punishment }
   factions: [provincial]
   fate:
-    - { date: 1958-11, s: power, note: 信阳地委第一书记, verify: true }
+    - { date: 1958-11, s: power, note: 信阳地委第一书记（维基百科，未核原件）, cite: zhwiki-lu-xianwen }
     - { date: 1959-10, s: power, note: 全区推行反瞒产, cite: ws-1962-07-10-lu-xianwen-punishment }
-    - { date: 1960-09-20, s: purged, note: 撤职查办, verify: true }
+    - { date: 1960-09-20, s: purged, note: 撤职查办（维基百科，未核原件）, cite: zhwiki-lu-xianwen }
     - { date: 1962-07-06, s: purged, note: 开除党籍，建议判刑, cite: ws-1962-07-10-lu-xianwen-punishment }
   cites: [ws-1962-07-10-lu-xianwen-punishment, ws-1960-04-04-xinyang-deaths-report, ws-1961-04-29-xinyang-cadres-disposal]
 
@@ -259,13 +259,13 @@
     - { voice: editor, text: 这两篇 1971 年的批判文章署名“中央党校革命大批判写作组”——批判他的，是他当过校长的那所学校；而党校本身 1966 年起已经停办。, cite: ws-1971-01-09-philosophy-struggle }
   factions: [academics]
   fate:
-    - { date: 1955, s: power, note: 中央高级党校校长, verify: true }
-    - { date: 1964-07, s: attacked, note: “合二而一”受全国批判, verify: true }
+    - { date: 1955, s: power, note: 中央高级党校校长（维基百科，未核原件）, cite: zhwiki-yang-xianzhen }
+    - { date: 1964-07, s: attacked, note: “合二而一”受全国批判（维基百科，未核原件）, cite: zhwiki-yang-xianzhen }
     - { date: 1964-12, s: sidelined, note: 撤去党校领导职务, verify: true }
     - { date: 1967, s: detained, note: 作为“六十一人叛徒集团”成员关押, verify: true }
     - { date: 1975, s: sidelined, note: 获释，下放陕西潼关, verify: true }
-    - { date: 1978, s: restored, note: 平反回京, verify: true }
-    - { date: 1992-08-25, s: dead, note: 病逝, verify: true }
+    - { date: 1978, s: restored, note: 平反回京（维基百科，未核原件）, cite: zhwiki-yang-xianzhen }
+    - { date: 1992-08-25, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-yang-xianzhen }
   cites: [ws-1971-03-29-heer-reactionary, ws-1971-01-09-philosophy-struggle, ws-1980-indictment]
 
 - id: sun-yefang
@@ -312,9 +312,9 @@
   factions: [academics]
   fate:
     - { date: 1957, s: normal, note: 经济研究所所长, verify: true }
-    - { date: 1964, s: attacked, note: 被批“中国的利别尔曼”, verify: true }
+    - { date: 1964, s: attacked, note: 被批“中国的利别尔曼”（维基百科，未核原件）, cite: zhwiki-sun-yefang }
     - { date: 1968-04, s: detained, note: 被捕，关押秦城, verify: true }
     - { date: 1970-02-24, s: detained, note: 《人民日报》点名批判, cite: ws-1970-02-24-sun-yefang-critique }
     - { date: 1975-04, s: restored, note: 获释, verify: true }
-    - { date: 1983-02-22, s: dead, note: 病逝, verify: true }
+    - { date: 1983-02-22, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-sun-yefang }
   cites: [ws-1970-02-24-sun-yefang-critique]

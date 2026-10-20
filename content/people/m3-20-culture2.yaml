@@ -397,9 +397,9 @@
   fate:
     - { date: 1951-06, s: normal, note: 北京大学校长, verify: true }
     - { date: 1958, s: attacked, note: “新人口论”被批判, verify: true }
-    - { date: 1960-03, s: sidelined, note: 辞去北大校长, verify: true }
+    - { date: 1960-03, s: sidelined, note: 辞去北大校长，1月请辞（维基百科，未核原件）, cite: zhwiki-ma-yinchu }
     - { date: 1979, s: restored, note: 平反, cite: rmrb-1982-05-23-ma-yinchu }
-    - { date: 1982-05-10, s: dead, verify: true }
+    - { date: 1982-05-10, s: dead, note: （维基百科，未核原件）, cite: zhwiki-ma-yinchu }
   cites: [rmrb-1982-05-23-ma-yinchu]
 
 - id: zhao-jiuzhang

@@ -412,15 +412,15 @@
       cites: [macfarquhar-schoenhals]
   factions: [marshals]
   fate:
-    - { date: 1930, s: normal, note: 参加红军, verify: true }
-    - { date: 1955-09, s: normal, note: 授中将, verify: true }
+    - { date: 1930, s: normal, note: 入党（原记参加红军）（维基百科，未核原件）, cite: zhwiki-yu-lijin }
+    - { date: 1955-09, s: normal, note: 授中将（维基百科，未核原件）, cite: zhwiki-yu-lijin }
     - { date: 1965, s: power, note: 空军政委, verify: true }
     - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
     - { date: 1968-03-24, s: purged, note: 杨余傅事件, verify: true }
     - { date: 1968-03-25, s: detained, verify: true }
     - { date: 1974-07, s: restored, note: 平反, verify: true }
     - { date: 1975, s: normal, note: 南京军区副政委, verify: true }
-    - { date: 1978-06, s: dead, verify: true }
+    - { date: 1978-12-02, s: dead, note: （此前数据作 1978-06）（维基百科，未核原件）, cite: zhwiki-yu-lijin }
   cites: [rmrb-1966-08-19-first-rally]
 
 - id: fu-chongbi
@@ -469,7 +469,7 @@
       cites: [ws-1980-indictment, macfarquhar-schoenhals]
   factions: [marshals]
   fate:
-    - { date: 1932, s: normal, note: 参加红军, verify: true }
+    - { date: 1932, s: normal, note: 参加红军（维基百科，未核原件）, cite: zhwiki-fu-chongbi }
     - { date: 1951, s: normal, note: 六十三军军长, verify: true }
     - { date: 1966-05, s: power, note: 北京卫戍区司令员, verify: true }
     - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
@@ -477,7 +477,7 @@
     - { date: 1968-03-25, s: detained, verify: true }
     - { date: 1974, s: restored, note: 平反，北京军区副司令员, verify: true }
     - { date: 1979, s: power, note: 复任北京卫戍区司令员, verify: true }
-    - { date: 2003-01-17, s: dead, verify: true }
+    - { date: 2003-01-17, s: dead, note: （维基百科，未核原件）, cite: zhwiki-fu-chongbi }
   cites: [rmrb-1966-08-19-first-rally, ws-1980-indictment]
 
 - id: chen-zaidao

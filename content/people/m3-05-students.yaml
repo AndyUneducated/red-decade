@@ -46,8 +46,8 @@
     - { date: 1967-04-20, s: power, note: 北京市革委会常委（成立大会报道所列出席常委）, cite: rmrb-1967-04-21-beijing-revcom }
     - { date: 1967-07-19, s: power, note: 审斗彭德怀, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖, verify: true }
-    - { date: 1978, s: detained, note: 被逮捕, verify: true }
-    - { date: 1983, s: detained, note: 判处有期徒刑十五年, verify: true }
+    - { date: 1978-04-19, s: detained, note: 被逮捕（此前数据作 1978）（维基百科，未核原件）, cite: zhwiki-han-aijing }
+    - { date: 1983-03-16, s: detained, note: 判处有期徒刑十五年（此前数据作 1983）（维基百科，未核原件）, cite: zhwiki-han-aijing }
   cites: [ws-1983-11-02-qi-benyu-case, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: tan-houlan
@@ -105,9 +105,9 @@
     - { date: 1966-09, s: rise, note: 北师大井冈山公社负责人, verify: true }
     - { date: 1966-11-09, s: power, note: 曲阜讨孔, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1967-04-20, s: power, note: 北京市革委会常委（成立大会报道所列出席常委）, cite: rmrb-1967-04-21-beijing-revcom }
-    - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖, verify: true }
-    - { date: 1978, s: detained, note: 被逮捕, verify: true }
-    - { date: 1982, s: dead, note: 病故，未被判刑, verify: true }
+    - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖（维基百科，未核原件）, cite: zhwiki-tan-houlan }
+    - { date: 1978-04, s: detained, note: 被逮捕（此前数据作 1978）（维基百科，未核原件）, cite: zhwiki-tan-houlan }
+    - { date: 1982-11, s: dead, note: 病故，未被判刑（此前数据作 1982）（维基百科，未核原件）, cite: zhwiki-tan-houlan }
   cites: [ws-1983-11-02-qi-benyu-case, ws-1967-red-flag-index]
 
 - id: wang-dabin
@@ -152,8 +152,8 @@
     - { date: 1967-04-20, s: power, note: 北京市革委会常委, verify: true }
     - { date: 1967-07, s: power, note: 组织批斗彭德怀, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖, verify: true }
-    - { date: 1978, s: detained, note: 被逮捕, verify: true }
-    - { date: 1983, s: detained, note: 被判刑, verify: true }
+    - { date: 1978, s: detained, note: 被逮捕（维基百科，未核原件）, cite: zhwiki-wang-dabin }
+    - { date: 1983, s: normal, note: 获释出狱（原记被判刑）（维基百科，未核原件）, cite: zhwiki-wang-dabin }
   cites: [ws-1983-11-02-qi-benyu-case, ws-1967-red-flag-index]
 
 - id: shen-ruhuai

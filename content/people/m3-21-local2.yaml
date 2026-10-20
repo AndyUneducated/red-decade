@@ -389,7 +389,7 @@
     - { date: 1967-02-03, s: rise, note: 山东省革命委员会主任, verify: true }
     - { date: 1967-05-07, s: power, note: 制造省革委会大院武斗事件, cite: ws-1980-indictment }
     - { date: 1971-03, s: purged, note: 杨得志接任省革委会主任, cite: sdcg-shandong-rgw }
-    - { date: 1979-02, s: purged, note: 被开除党籍, verify: true }
+    - { date: 1979-02, s: purged, note: 被开除党籍（维基百科，未核原件）, cite: zhwiki-wang-xiaoyu }
   cites: [ws-1980-indictment, ws-1981-01-25-judgment, sdcg-shandong-rgw, ws-1967-red-flag-index]
 
 - id: pan-fusheng

@@ -57,14 +57,14 @@
     - { voice: editor, text: 十名主犯里他的职务最低，1968 年起已无实职。他被“升”为主犯，与原定主犯王飞患精神分裂症不能受审有关。, cite: ws-1981-01-25-judgment }
   factions: [lin]
   fate:
-    - { date: 1930, s: normal, note: 参加红军, verify: true }
+    - { date: 1930, s: normal, note: 参加红军（维基百科，未核原件）, cite: zhwiki-jiang-tengjiao }
     - { date: 1966-10-09, s: power, note: 在上海搜查文艺界五人的家, cite: ws-1980-indictment }
-    - { date: 1966-12, s: power, note: 南京军区空军政委, verify: true }
-    - { date: 1968-04, s: sidelined, note: 被撤职, verify: true }
+    - { date: 1966-12, s: power, note: 南京军区空军政委（维基百科，未核原件）, cite: zhwiki-jiang-tengjiao }
+    - { date: 1968-04-29, s: sidelined, note: 被撤职（此前数据作 1968-04）（维基百科，未核原件）, cite: zhwiki-jiang-tengjiao }
     - { date: 1971-03-31, s: rise, note: 上海秘密会议，负责“三点联系”, cite: ws-1980-indictment }
     - { date: 1971-09-14, s: detained, note: 交代罪行, cite: ws-1981-01-25-judgment }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑十八年, cite: ws-1981-01-25-judgment }
-    - { date: 2009-05-08, s: dead, verify: true }
+    - { date: 2009-05-08, s: dead, note: （维基百科，未核原件）, cite: zhwiki-jiang-tengjiao }
   cites: [ws-1980-indictment, ws-1981-01-25-judgment, ws-1972-lin-material-3]
 
 - id: zhou-yuchi
@@ -109,7 +109,7 @@
     - { voice: editor, text: 他和林立果都没有活到受审，“571工程纪要”由谁起草、他在谋杀计划中实际做了多少，只能依据于新野笔记、李伟信供词和直升机上缴获的文件。, cite: ws-1972-lin-material-3 }
   factions: [lin]
   fate:
-    - { date: 1946, s: normal, note: 参加冀东八路军, verify: true }
+    - { date: 1946, s: normal, note: 参加冀东八路军（维基百科，未核原件）, cite: zhwiki-zhou-yuchi }
     - { date: 1969-10-18, s: rise, note: 吴法宪交权给林立果，周宇驰在场, cite: ws-1980-indictment }
     - { date: 1971-03, s: power, note: 制订《“571工程”纪要》, cite: ws-1980-indictment }
     - { date: 1971-09-13, s: dead, note: 劫机迫降后自杀, cite: ws-1972-lin-material-3 }
@@ -220,13 +220,13 @@
   factions: [lin]
   fate:
     - { date: 1938-03, s: normal, note: 入伍, cite: ws-1982-wang-weiguo-case }
-    - { date: 1967-03, s: rise, note: 空四军第二政委、上海市革委会常委, verify: true }
+    - { date: 1967-03-05, s: rise, note: 空四军第二政委、上海市革委会常委（此前数据作 1967-03）（维基百科，未核原件）, cite: zhwiki-wang-weiguo }
     - { date: 1969-04, s: power, note: 九届中央候补委员, cite: ws-1982-wang-weiguo-case }
     - { date: 1971-03-31, s: power, note: 被指定为上海的“头”, cite: ws-1982-wang-weiguo-case }
     - { date: 1971-09-20, s: detained, note: 隔离审查, cite: ws-1982-wang-weiguo-case }
     - { date: 1982-03-09, s: detained, note: 判处有期徒刑十四年, cite: ws-1982-wang-weiguo-case }
     - { date: 1985-09-19, s: normal, note: 刑满释放, cite: ws-1982-wang-weiguo-case }
-    - { date: 1993-06-06, s: dead, verify: true }
+    - { date: 1993-06-06, s: dead, note: （维基百科，未核原件）, cite: zhwiki-wang-weiguo }
   cites: [ws-1982-wang-weiguo-case, ws-1980-indictment, ws-1971-12-lin-chen-material-1]
 
 - id: chen-liyun
@@ -280,7 +280,7 @@
     - { date: 1971-03-31, s: power, note: 被指定为杭州的“头”, cite: ccom-chen-liyun-interview }
     - { date: 1971-09-20, s: detained, note: 隔离审查, cite: ccom-chen-liyun-interview }
     - { date: 1982-03-10, s: normal, note: 免予起诉, cite: ccom-chen-liyun-interview }
-    - { date: 2004-12, s: dead, verify: true }
+    - { date: 2004-12, s: dead, note: （维基百科，未核原件）, cite: zhwiki-chen-liyun }
   cites: [ccom-chen-liyun-interview, ws-1980-indictment, ws-1971-12-lin-chen-material-1, ws-1972-lin-material-3]
 
 - id: liu-xingyuan
@@ -336,12 +336,12 @@
     - { voice: editor, text: 起诉书把广东两大冤案都写作“黄永胜伙同刘兴元”，但被告只有黄永胜一人。刘兴元此后继续任大军区主官，是被点名而未受追究的典型。, cite: ws-1980-indictment }
   factions: [provincial, lin]
   fate:
-    - { date: 1931, s: normal, note: 参加红军, verify: true }
+    - { date: 1931-05, s: normal, note: 参加红军（此前数据作 1931）（维基百科，未核原件）, cite: zhwiki-liu-xingyuan }
     - { date: 1955-11, s: normal, note: 广州军区第二政委, verify: true }
     - { date: 1967-10, s: power, note: 审查广东地下党, cite: ws-1980-indictment }
     - { date: 1969-06, s: power, note: 广东省革委会主任, verify: true }
     - { date: 1972-03, s: normal, note: 调任成都军区, verify: true }
-    - { date: 1990-08-14, s: dead, verify: true }
+    - { date: 1990-08-14, s: dead, note: （维基百科，未核原件）, cite: zhwiki-liu-xingyuan }
   cites: [ws-1980-indictment]
 
 - id: ding-sheng
@@ -392,13 +392,13 @@
     - { voice: editor, text: 起诉书把这次密谈写成上海准备武装叛乱的起点，但丁盛本人没有被起诉；他的问题以党纪和退役处理。他先后被看作黄永胜和“四人帮”两方面的人，两次都没有上法庭。, cite: ws-1980-indictment }
   factions: [lin, shgang]
   fate:
-    - { date: 1932, s: normal, note: 入党, verify: true }
-    - { date: 1969-07, s: power, note: 广州军区司令员, verify: true }
+    - { date: 1932, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-ding-sheng }
+    - { date: 1969-07, s: power, note: 广州军区司令员（维基百科，未核原件）, cite: zhwiki-ding-sheng }
     - { date: 1973-12, s: power, note: 对调南京军区司令员, verify: true }
     - { date: 1976-08, s: power, note: 延安饭店密谈, cite: ws-1980-indictment }
     - { date: 1977-03, s: purged, note: 撤职审查, verify: true }
-    - { date: 1982-10, s: sidelined, note: 开除党籍、离休, verify: true }
-    - { date: 1999-09-25, s: dead, verify: true }
+    - { date: 1982-10, s: sidelined, note: 开除党籍、离休（维基百科，未核原件）, cite: zhwiki-ding-sheng }
+    - { date: 1999-09-25, s: dead, note: （维基百科，未核原件）, cite: zhwiki-ding-sheng }
   cites: [ws-1980-indictment, ws-1982-xu-jingxian-case]
 
 - id: chi-qun
@@ -453,11 +453,11 @@
     - { voice: editor, text: 同案的谢静宜因“坦白认罪较好”被免予起诉，辩护律师曾在法庭上说某些重要意图是江青通过谢静宜转达给他的。, verify: true }
   factions: [ccrg]
   fate:
-    - { date: 1949, s: normal, note: 参军, verify: true }
+    - { date: 1949, s: normal, note: 参军（维基百科，未核原件）, cite: zhwiki-chi-qun }
     - { date: 1968-07, s: rise, note: 随军宣队进驻清华, verify: true }
     - { date: 1971, s: power, note: 清华党委书记、革委会主任, cite: ws-1982-chi-qun-case }
     - { date: 1975-09, s: power, note: 指挥两校写作班子批邓, cite: ws-1982-chi-qun-case }
-    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
+    - { date: 1976-10, s: detained, note: 隔离审查（维基百科，未核原件）, cite: zhwiki-chi-qun }
     - { date: 1977-08-05, s: detained, note: 逮捕, cite: ws-1982-chi-qun-case }
     - { date: 1983-11-02, s: detained, note: 判处有期徒刑十八年, cite: ws-1982-chi-qun-case }
   cites: [ws-1982-chi-qun-case, ws-1980-indictment]
@@ -512,11 +512,11 @@
     - { voice: editor, text: 起诉书和迟群案文书多处写“迟群伙同谢静宜”，但她本人没有受审。 }
   factions: [ccrg]
   fate:
-    - { date: 1952, s: normal, note: 参军, verify: true }
-    - { date: 1968, s: rise, note: 随军宣队进驻清华, verify: true }
-    - { date: 1973-08, s: power, note: 十届中央委员, verify: true }
+    - { date: 1952, s: normal, note: 参军（维基百科，未核原件）, cite: zhwiki-xie-jingyi }
+    - { date: 1968, s: rise, note: 随军宣队进驻清华（维基百科，未核原件）, cite: zhwiki-xie-jingyi }
+    - { date: 1973-08, s: power, note: 十届中央委员（维基百科，未核原件）, cite: zhwiki-xie-jingyi }
     - { date: 1976-03-26, s: power, note: 与迟群围攻邓小平, cite: ws-1982-chi-qun-case }
-    - { date: 1976-10, s: detained, note: 隔离审查, verify: true }
+    - { date: 1976-10-06, s: detained, note: 被捕，被撤销党内外职务（原记隔离审查）（此前数据作 1976-10）（维基百科，未核原件）, cite: zhwiki-xie-jingyi }
     - { date: 1983, s: normal, note: 免予起诉, verify: true }
-    - { date: 2017-03-25, s: dead, verify: true }
+    - { date: 2017-03-25, s: dead, note: （维基百科，未核原件）, cite: zhwiki-xie-jingyi }
   cites: [ws-1982-chi-qun-case, ws-1980-indictment, rmrb-1975-01-19-npc-sc-list]

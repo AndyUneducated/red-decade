@@ -166,11 +166,11 @@
   fate:
     - { date: 1949-11, s: normal, note: 上海电影制片厂演员, verify: true }
     - { date: 1966-10-09, s: attacked, note: 被冒充红卫兵的人抄家, cite: ws-1980-indictment }
-    - { date: 1967-12, s: detained, note: 被关押，单独监禁, verify: true }
+    - { date: 1967-12, s: detained, note: 被关押，单独监禁（维基百科，未核原件）, cite: zhwiki-zhao-dan }
     - { date: 1973, s: sidelined, note: 放回家，没有工作, verify: true }
-    - { date: 1978, s: restored, note: 第五届全国政协委员, verify: true }
+    - { date: 1978, s: restored, note: 第五届全国政协委员（维基百科，未核原件）, cite: zhwiki-zhao-dan }
     - { date: 1980-10-08, s: normal, note: 《人民日报》发表《管得太具体　文艺没希望》, cite: rmrb-1980-10-08-zhao-dan }
-    - { date: 1980-10-10, s: dead, note: 在北京病逝, verify: true }
+    - { date: 1980-10-10, s: dead, note: 在北京病逝（维基百科，未核原件）, cite: zhwiki-zhao-dan }
   cites: [rmrb-1980-10-08-zhao-dan, ws-1980-indictment, ws-1981-01-25-judgment]
 
 - id: shangguan-yunzhu

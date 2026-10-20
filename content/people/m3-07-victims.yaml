@@ -39,7 +39,7 @@
     - { voice: judicial1980, text: 一九六六年十二月十四日，江青诬陷“张霖之是彭真死党”。十九日，张霖之被北京矿业学院一些人非法扣押。（1983 年戚本禹案判决书）, cite: ws-1983-11-02-qi-benyu-case, quote: true }
   factions: [premier]
   fate:
-    - { date: 1957, s: power, note: 煤炭工业部部长, verify: true }
+    - { date: 1957, s: power, note: 煤炭工业部部长（维基百科，未核原件）, cite: zhwiki-zhang-linzhi }
     - { date: 1966-12-14, s: attacked, note: 江青点名, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1966-12-19, s: detained, note: 被北京矿业学院一些人扣押, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1967-01-22, s: dead, note: 被打成重伤致死, cite: ws-1981-01-25-judgment }
@@ -96,11 +96,11 @@
   factions: [provincial]
   fate:
     - { date: 1949-11, s: power, note: 劳动部部长, verify: true }
-    - { date: 1954-09, s: sidelined, note: 离开劳动部, verify: true }
-    - { date: 1960, s: normal, note: 华北局书记处书记, verify: true }
+    - { date: 1954-09, s: sidelined, note: 离开劳动部（维基百科，未核原件）, cite: zhwiki-li-lisan }
+    - { date: 1960, s: normal, note: 华北局书记处书记（维基百科，未核原件）, cite: zhwiki-li-lisan }
     - { date: 1967, s: attacked, note: 被多次批斗, verify: true }
-    - { date: 1967-06-22, s: dead, note: 服安眠药死亡, verify: true }
-    - { date: 1980-03, s: restored, note: 追悼会，平反, verify: true }
+    - { date: 1967-06-22, s: dead, note: 服安眠药死亡（维基百科，未核原件）, cite: zhwiki-li-lisan }
+    - { date: 1980-03-20, s: restored, note: 追悼会，平反（此前数据作 1980-03）（维基百科，未核原件）, cite: zhwiki-li-lisan }
   cites: [ws-1969-04-ninth-report, ws-1971-09-18-notice, ws-1980-indictment]
 
 - id: tian-han
@@ -195,10 +195,10 @@
     - { voice: judicial1980, text: 赵紫阳、吴芝圃、阎红彦、魏文伯（1980 年起诉书所列被诬陷迫害的省级负责人）, cite: ws-1980-indictment, quote: true }
   factions: [provincial]
   fate:
-    - { date: 1959-08, s: power, note: 云南省委第一书记, verify: true }
+    - { date: 1959-08, s: power, note: 云南省委第一书记（维基百科，未核原件）, cite: zhwiki-yan-hongyan }
     - { date: 1966-12, s: attacked, note: 造反派冲击省委, verify: true }
-    - { date: 1967-01-08, s: dead, note: 服安眠药自杀, verify: true }
-    - { date: 1978-01, s: restored, note: 骨灰安放仪式，平反, verify: true }
+    - { date: 1967-01-08, s: dead, note: 服安眠药自杀（维基百科，未核原件）, cite: zhwiki-yan-hongyan }
+    - { date: 1978-01, s: restored, note: 骨灰安放仪式，平反（维基百科，未核原件）, cite: zhwiki-yan-hongyan }
   cites: [ws-1980-indictment]
 
 - id: zhang-wentian
@@ -301,11 +301,11 @@
     - { voice: editor, text: 判决书列出的罪状主要是她在狱中写下的文字和血书；判决依据是劳动改造条例和惩治反革命条例。, cite: ws-1968-04-19-lin-zhao-death-sentence }
   factions: [dissent]
   fate:
-    - { date: 1957, s: attacked, note: 划为右派, verify: true }
-    - { date: 1960-10, s: detained, note: 因《星火》被捕, verify: true }
+    - { date: 1957, s: attacked, note: 划为右派（维基百科，未核原件）, cite: zhwiki-lin-zhao }
+    - { date: 1960-10, s: detained, note: 因《星火》被捕（维基百科，未核原件）, cite: zhwiki-lin-zhao }
     - { date: 1965-05-31, s: detained, note: 判徒刑二十年, cite: ws-1968-04-19-lin-zhao-death-sentence }
-    - { date: 1968-04-29, s: dead, note: 被执行死刑, verify: true }
-    - { date: 1980-08, s: restored, note: 上海高院复审撤销原判, verify: true }
+    - { date: 1968-04-29, s: dead, note: 被执行死刑（维基百科，未核原件）, cite: zhwiki-lin-zhao }
+    - { date: 1980-08-22, s: restored, note: 上海高院复审撤销原判（此前数据作 1980-08）（维基百科，未核原件）, cite: zhwiki-lin-zhao }
   cites: [ws-1968-04-19-lin-zhao-death-sentence]
 
 - id: li-da

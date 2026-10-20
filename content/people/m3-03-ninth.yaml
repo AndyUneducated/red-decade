@@ -637,13 +637,13 @@
     - { voice: scholar, text: 研究者指出 1976 年 10 月中央派苏振华而非地方干部接管上海，是因为上海民兵当时掌握大量武器，需要一位有军队背景、又曾遭林彪集团打击的人选。, cite: macfarquhar-schoenhals }
   factions: [marshals]
   fate:
-    - { date: 1928, s: normal, note: 平江起义, verify: true }
+    - { date: 1928, s: normal, note: 平江起义（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
     - { date: 1930, s: normal, note: 入党, verify: true }
-    - { date: 1955-09, s: normal, note: 授上将, verify: true }
-    - { date: 1957, s: power, note: 海军第一政委, verify: true }
+    - { date: 1955-09, s: normal, note: 授上将（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
+    - { date: 1957-02, s: power, note: 海军第一政委（此前数据作 1957）（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
     - { date: 1967, s: purged, note: 被李作鹏等打倒、关押, verify: true }
-    - { date: 1972, s: restored, note: 恢复海军第一政委, verify: true }
+    - { date: 1972-05, s: restored, note: 复出任海军第一副司令员，1973年3月改任海军第一政委（原记恢复海军第一政委）（此前数据作 1972）（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
     - { date: 1973-08, s: rise, note: 政治局候补委员, cite: ws-1977-07-tenth-third-plenum }
     - { date: 1976-10, s: power, note: 接管上海, verify: true }
-    - { date: 1979-02-07, s: dead, verify: true }
+    - { date: 1979-02-07, s: dead, note: （维基百科，未核原件）, cite: zhwiki-su-zhenhua }
   cites: [ws-1980-indictment, ws-1977-07-tenth-third-plenum]

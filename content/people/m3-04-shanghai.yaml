@@ -319,12 +319,12 @@
     - { voice: judicial1980, text: 诬陷中共中央华东局书记魏文伯是“罪恶累累的叛徒”（1982 年王秀珍案起诉书）, cite: ws-1982-08-21-wang-xiuzhen-case, quote: true }
   factions: [shanghai]
   fate:
-    - { date: 1926, s: normal, note: 入党, verify: true }
+    - { date: 1926, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-wei-wenbo }
     - { date: 1961-01, s: normal, note: 华东局书记处书记, verify: true }
-    - { date: 1965-04, s: power, note: 主持华东局, verify: true }
+    - { date: 1965-04, s: power, note: 主持华东局（维基百科，未核原件）, cite: zhwiki-wei-wenbo }
     - { date: 1966-03-28, s: power, note: 参加毛泽东批“二月提纲”的谈话, cite: ws-1966-05-16-notice-attachment }
     - { date: 1967, s: purged, note: 被打倒, verify: true }
     - { date: 1968-03, s: attacked, note: 《旧华东局机关有鬼》, cite: ws-1982-xu-jingxian-case }
     - { date: 1979-09, s: restored, note: 司法部长, verify: true }
-    - { date: 1987, s: dead, verify: true }
+    - { date: 1987-11-15, s: dead, note: （此前数据作 1987）（维基百科，未核原件）, cite: zhwiki-wei-wenbo }
   cites: [ws-1966-05-16-notice-attachment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case, ws-1980-indictment]

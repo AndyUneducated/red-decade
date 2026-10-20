@@ -1441,15 +1441,15 @@
     - { voice: official1966, text: 总政治部刘志坚同志根据彭真同志的意见，于三月三十一日，代中央为《林彪同志委托江青同志召开的部队文艺工作座谈会纪要》起草了一个批语（五一六通知附件）, cite: ws-1966-05-16-notice-attachment, quote: true }
   factions: [ccrg, lin]
   fate:
-    - { date: 1930, s: normal, note: 参加红军、入党, verify: true }
-    - { date: 1955-09-27, s: rise, note: 授中将衔, verify: true }
+    - { date: 1930, s: normal, note: 加入共青团，1931年转入中共（原记参加红军、入党）（维基百科，未核原件）, cite: zhwiki-liu-zhijian }
+    - { date: 1955-09-27, s: rise, note: 授中将衔（维基百科，未核原件）, cite: zhwiki-liu-zhijian }
     - { date: 1957, s: power, note: 总政治部副主任, verify: true }
     - { date: 1965-01, s: power }
     - { date: 1966-02-02, s: power, note: 参加部队文艺工作座谈会, cite: ws-1966-03-army-arts }
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
     - { date: 1967-01, s: purged, verify: true }
     - { date: 1978, s: restored, verify: true }
-    - { date: 2006, s: dead, verify: true }
+    - { date: 2006-03-11, s: dead, note: （此前数据作 2006）（维基百科，未核原件）, cite: zhwiki-liu-zhijian }
   cites: [ws-1966-03-army-arts, ws-1966-04-luo-report, ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1980-indictment]
 
 - id: tao-zhu
@@ -2357,11 +2357,11 @@
   rehab:
     - { date: 1981-06-27, text: 历史决议说谭震林、陈毅、叶剑英、李富春等 1967 年 2 月前后对文革的错误作法提出批评，被诬为“二月逆流”而受到压制和打击, cite: ws-1981-resolution }
   fate:
-    - { date: 1923, s: normal, note: 入党, verify: true }
+    - { date: 1923-11, s: normal, note: 入党（此前数据作 1923）（维基百科，未核原件）, cite: zhwiki-chen-yi }
     - { date: 1928-04, s: rise, note: 井冈山，红四军, verify: true }
     - { date: 1934-10, s: sidelined, note: 留在南方坚持游击战争, verify: true }
-    - { date: 1941-01, s: power, note: 新四军代军长, verify: true }
-    - { date: 1947, s: power, note: 华东野战军司令员, verify: true }
+    - { date: 1941-01, s: power, note: 新四军代军长（维基百科，未核原件）, cite: zhwiki-chen-yi }
+    - { date: 1947-01, s: power, note: 华东野战军司令员（此前数据作 1947）（维基百科，未核原件）, cite: zhwiki-chen-yi }
     - { date: 1949-05, s: power, note: 上海市长, verify: true }
     - { date: 1958-02, s: power }
     - { date: 1967-02, s: attacked, note: “二月逆流”, cite: ws-1981-resolution }
@@ -2446,20 +2446,20 @@
     - { voice: scholar, text: 研究者多认为叶剑英在 1976 年 10 月政变中起了关键作用，并在其后对华国锋的继续支持与对邓小平复出的推动之间扮演了平衡角色；他的 1979 年国庆讲话是 1981 年决议的先声。, cite: macfarquhar-schoenhals }
   factions: [marshals]
   fate:
-    - { date: 1917, s: normal, note: 入云南陆军讲武堂, verify: true }
-    - { date: 1924, s: rise, note: 黄埔军校教授部副主任, verify: true }
-    - { date: 1927-07, s: normal, note: 秘密入党, verify: true }
-    - { date: 1927-12, s: rise, note: 参与领导广州起义, verify: true }
+    - { date: 1917, s: normal, note: 入云南陆军讲武堂（维基百科，未核原件）, cite: zhwiki-ye-jianying }
+    - { date: 1924-05-05, s: rise, note: 黄埔军校教授部副主任（此前数据作 1924）（维基百科，未核原件）, cite: zhwiki-ye-jianying }
+    - { date: 1927-07, s: normal, note: 秘密入党（维基百科，未核原件）, cite: zhwiki-ye-jianying }
+    - { date: 1927-12, s: rise, note: 参与领导广州起义（维基百科，未核原件）, cite: zhwiki-ye-jianying }
     - { date: 1937-08, s: power, note: 八路军参谋长, verify: true }
     - { date: 1949-10, s: power, note: 广州市长, verify: true }
     - { date: 1955, s: power }
     - { date: 1967-02, s: attacked, note: “二月逆流”, cite: ws-1981-resolution }
     - { date: 1969-10, s: sidelined, note: 疏散到湖南, verify: true }
     - { date: 1971-09, s: restored, note: 主持军委日常工作, verify: true }
-    - { date: 1973-08, s: power, note: 中共中央副主席, verify: true }
+    - { date: 1973-08, s: power, note: 中共中央副主席（维基百科，未核原件）, cite: zhwiki-ye-jianying }
     - { date: 1976-10-06, s: power, note: 参与粉碎“四人帮”, cite: ws-1981-resolution }
-    - { date: 1978-03, s: power, note: 全国人大常委会委员长, verify: true }
-    - { date: 1985-09, s: normal, note: 退出中央领导职务, verify: true }
+    - { date: 1978-03, s: power, note: 全国人大常委会委员长（维基百科，未核原件）, cite: zhwiki-ye-jianying }
+    - { date: 1985-09-23, s: normal, note: 退出中央领导职务（此前数据作 1985-09）（维基百科，未核原件）, cite: zhwiki-ye-jianying }
     - { date: 1986-10-22, s: dead }
   cites: [ws-1977-07-tenth-third-plenum, ws-1980-indictment, ws-1981-01-25-judgment, ws-1981-resolution]
 
@@ -2729,11 +2729,11 @@
     - { title: 三家村札记（与邓拓、吴晗合写）, date: 1961 }
   factions: [bjcommittee]
   fate:
-    - { date: 1930, s: normal, note: 入党, verify: true }
+    - { date: 1930, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-liao-mosha }
     - { date: 1949, s: power, note: 北京市委宣传部副部长, verify: true }
     - { date: 1966-04-16, s: attacked, note: 《北京日报》三版材料, cite: ws-1966-05-16-notice-attachment@1966-04-16 }
-    - { date: 1966-05, s: purged, verify: true }
-    - { date: 1979, s: restored, verify: true }
+    - { date: 1966-05, s: purged, note: （维基百科，未核原件）, cite: zhwiki-liao-mosha }
+    - { date: 1979-08, s: restored, note: （此前数据作 1979）（维基百科，未核原件）, cite: zhwiki-liao-mosha }
     - { date: 1990-12-27, s: dead }
   cites: [ws-1966-05-16-notice-attachment, ws-1966-05-18-lin-speech, ws-1966-06-red-flag-long-live]
 
@@ -2805,7 +2805,7 @@
     - { voice: judicial1980, text: 北京市领导干部十三人遭到诬陷迫害，市委书记刘仁、邓拓和副市长吴晗、乐松生被迫害致死（1981 年判决书）, cite: ws-1981-01-25-judgment, quote: true }
   factions: [bjcommittee]
   fate:
-    - { date: 1927, s: normal, note: 入党, verify: true }
+    - { date: 1927, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-liu-ren }
     - { date: 1943, s: rise, note: 晋察冀分局城工部部长, verify: true }
     - { date: 1949, s: power, note: 北京市委副书记, verify: true }
     - { date: 1966-06-03, s: purged, note: 北京市委改组, cite: rmrb-1966-06-04-new-committee }
@@ -2881,11 +2881,11 @@
     - { voice: judicial1980, text: 中共北京市委书记刘仁、郑天翔、万里、邓拓等七人和北京市副市长吴晗、乐松等六人全部被分别诬陷为“特务”、“叛徒”、“反革命修正主义分子”、“反动资本家”、“反动学术权威”（1980 年起诉书）, cite: ws-1980-indictment, quote: true }
   factions: [bjcommittee]
   fate:
-    - { date: 1936, s: normal, note: 入党, verify: true }
-    - { date: 1952, s: power, note: 北京市委秘书长, verify: true }
+    - { date: 1936-12, s: normal, note: 入党（此前数据作 1936）（维基百科，未核原件）, cite: zhwiki-zheng-tianxiang }
+    - { date: 1952, s: power, note: 北京市委秘书长（维基百科，未核原件）, cite: zhwiki-zheng-tianxiang }
     - { date: 1966-06-03, s: purged, note: 北京市委改组, cite: rmrb-1966-06-04-new-committee }
     - { date: 1977, s: restored, note: 七机部部长, verify: true }
-    - { date: 1983-06, s: power, note: 最高人民法院院长, verify: true }
+    - { date: 1983-06, s: power, note: 最高人民法院院长（维基百科，未核原件）, cite: zhwiki-zheng-tianxiang }
     - { date: 1988-04, s: normal, note: 卸任退休, verify: true }
     - { date: 2013-10-10, s: dead }
   cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment, rmrb-1966-06-04-new-committee, ws-1980-indictment]
@@ -2964,12 +2964,12 @@
     - { voice: official1966, text: 指出了李雪峰、郑维山在政治上所犯的方向、路线的严重错误（同上，记 1971 年 1 月 24 日华北会议）, cite: ws-1971-12-lin-chen-material-1, quote: true }
   factions: [frontline]
   fate:
-    - { date: 1933, s: normal, note: 入党, verify: true }
-    - { date: 1956-09, s: rise, note: 中央书记处书记, verify: true }
+    - { date: 1933-10, s: normal, note: 1927年入党后失去联系，1933年10月接上关系（原记入党）（此前数据作 1933）（维基百科，未核原件）, cite: zhwiki-li-xuefeng }
+    - { date: 1956-09, s: rise, note: 中央书记处书记（维基百科，未核原件）, cite: zhwiki-li-xuefeng }
     - { date: 1963, s: power, note: 华北局第一书记, verify: true }
     - { date: 1966-06-03, s: power, note: 兼北京市委第一书记, cite: rmrb-1966-06-04-new-committee }
     - { date: 1971-01-24, s: purged, note: 华北会议上被点名, cite: ws-1971-12-lin-chen-material-1 }
-    - { date: 1982, s: restored, note: 恢复党籍, verify: true }
+    - { date: 1982-04, s: restored, note: 获得平反（原记恢复党籍）（此前数据作 1982）（维基百科，未核原件）, cite: zhwiki-li-xuefeng }
     - { date: 2003-03-18, s: dead }
   cites: [rmrb-1966-06-04-new-committee, rmrb-1966-06-04-pku-committee, ws-1966-07-withdraw-workteams, ws-1967-07-09-liu-jiangong-review, ws-1971-12-lin-chen-material-1]
 
@@ -3120,7 +3120,7 @@
     - { date: 1961, s: power, note: 中宣部副部长, verify: true }
     - { date: 1966-02-04, s: power, note: 起草《二月提纲》, cite: ws-1966-05-16-notice-attachment@1966-02-04 }
     - { date: 1966-05, s: purged, verify: true }
-    - { date: 2000, s: dead, verify: true }
+    - { date: 2000-07-16, s: dead, note: （此前数据作 2000）（维基百科，未核原件）, cite: zhwiki-xu-liqun }
   cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment]
 
 - id: yao-zhen
@@ -3173,7 +3173,7 @@
     - { date: 1961, s: power, note: 中宣部副部长, verify: true }
     - { date: 1966-02-04, s: power, note: 起草《二月提纲》, cite: ws-1966-05-16-notice-attachment@1966-02-04 }
     - { date: 1966-05, s: purged, verify: true }
-    - { date: 1966-07-23, s: dead, note: 自杀, verify: true }
+    - { date: 1966-08-07, s: dead, note: 自杀（此前数据作 1966-07-23）（维基百科，未核原件）, cite: zhwiki-yao-zhen }
   cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment]
 
 - id: hu-sheng
@@ -3245,11 +3245,11 @@
     - { title: 中国共产党的七十年（主编）, date: 1991 }
   factions: [propdept]
   fate:
-    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1938-01, s: normal, note: 入党（此前数据作 1938）（维基百科，未核原件）, cite: zhwiki-hu-sheng }
     - { date: 1958, s: rise, note: 《红旗》副总编辑, verify: true }
     - { date: 1966-02, s: power, note: 五人小组办公室, cite: ws-1966-02-outline }
     - { date: 1966-05, s: attacked, verify: true }
-    - { date: 1985, s: power, note: 社科院院长, verify: true }
+    - { date: 1985, s: power, note: 社科院院长（维基百科，未核原件）, cite: zhwiki-hu-sheng }
     - { date: 2000-11-05, s: dead }
   cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment]
 
@@ -3319,7 +3319,7 @@
   fate:
     - { date: 1938, s: normal, note: 入党, verify: true }
     - { date: 1952, s: rise, note: 新华社社长, verify: true }
-    - { date: 1957, s: power, note: 《人民日报》总编辑, verify: true }
+    - { date: 1957, s: power, note: 《人民日报》总编辑（维基百科，未核原件）, cite: zhwiki-wu-lengxi }
     - { date: 1966-05-31, s: purged, note: 陈伯达率工作组进驻人民日报, verify: true }
     - { date: 1979, s: restored, verify: true }
     - { date: 2002-06-16, s: dead }
@@ -3450,10 +3450,10 @@
   factions: [mao]
   fate:
     - { date: 1938, s: normal, note: 入党, verify: true }
-    - { date: 1948, s: power, note: 任毛泽东秘书, verify: true }
+    - { date: 1948, s: power, note: 任毛泽东秘书（维基百科，未核原件）, cite: zhwiki-tian-jiaying }
     - { date: 1962-07, s: attacked, note: 主张包产到户受毛泽东批评, verify: true }
     - { date: 1966-05-22, s: purged, note: 停职审查, verify: true }
-    - { date: 1966-05-23, s: dead, note: 自尽, verify: true }
+    - { date: 1966-05-23, s: dead, note: 自尽（维基百科，未核原件）, cite: zhwiki-tian-jiaying }
   cites: [dong-bian-tian-jiaying, ws-1966-05-16-notice-attachment]
   verify: true
 
@@ -3769,7 +3769,7 @@
   factions: [bjcommittee, academics]
   fate:
     - { date: 1936, s: normal, note: 入党, verify: true }
-    - { date: 1957-10, s: power, note: 任北大党委第一书记, verify: true }
+    - { date: 1957-10, s: power, note: 任北大党委第一书记（维基百科，未核原件）, cite: zhwiki-lu-ping }
     - { date: 1964-07, s: attacked, note: 北大社教中受批判, verify: true }
     - { date: 1965-03, s: power, note: 社教纠偏后恢复工作, verify: true }
     - { date: 1966-05-25, s: attacked, note: 聂元梓大字报点名, cite: rmrb-1966-06-02-nie-dazibao }
@@ -3877,13 +3877,13 @@
     - { voice: judicial1980, text: 对陆平、彭佩云等一百余人非法监禁（1982 年聂元梓案起诉书）, cite: ws-1982-10-05-nie-yuanzi-case, quote: true }
   factions: [bjcommittee]
   fate:
-    - { date: 1946, s: normal, note: 入党, verify: true }
-    - { date: 1964, s: power, note: 任北大党委副书记, verify: true }
+    - { date: 1946-05, s: normal, note: 入党（此前数据作 1946）（维基百科，未核原件）, cite: zhwiki-peng-peiyun }
+    - { date: 1964, s: power, note: 任北大党委副书记（维基百科，未核原件）, cite: zhwiki-peng-peiyun }
     - { date: 1966-05-25, s: attacked, note: 聂元梓大字报点名, cite: rmrb-1966-06-02-nie-dazibao }
     - { date: 1966-06-03, s: purged, note: 撤销一切职务, cite: rmrb-1966-06-04-pku-committee }
     - { date: 1968-05, s: detained, note: 关入“监改大院”, cite: ws-1982-10-05-nie-yuanzi-case }
-    - { date: 1978, s: restored, verify: true }
-    - { date: 1988, s: power, note: 国家计生委主任, verify: true }
+    - { date: 1978, s: restored, note: （维基百科，未核原件）, cite: zhwiki-peng-peiyun }
+    - { date: 1988-01, s: power, note: 国家计生委主任（此前数据作 1988）（维基百科，未核原件）, cite: zhwiki-peng-peiyun }
   cites: [rmrb-1966-06-02-nie-dazibao, ws-1966-06-02-hail-pku, rmrb-1966-06-04-pku-committee, ws-1982-10-05-nie-yuanzi-case]
   verify: true
 
@@ -4150,11 +4150,11 @@
     - { voice: judicial1980, text: 一九七五年一月，徐景贤和马天水、王秀珍等人，扣压曹荻秋写给党中央的申诉信（1982 年徐景贤案起诉书）, cite: ws-1982-xu-jingxian-case, quote: true }
   factions: [shanghai]
   fate:
-    - { date: 1952, s: power, note: 任重庆市长, verify: true }
-    - { date: 1965-11, s: power, note: 任上海市长, verify: true }
+    - { date: 1952-09, s: power, note: 任重庆市长（此前数据作 1952）（维基百科，未核原件）, cite: zhwiki-cao-diqiu }
+    - { date: 1965-11, s: power, note: 任上海市长（维基百科，未核原件）, cite: zhwiki-cao-diqiu }
     - { date: 1966-12-18, s: attacked, note: 徐景贤等召开大会诬陷市委, cite: ws-1982-xu-jingxian-case }
     - { date: 1967-01, s: purged, note: 造反派宣布“不再承认”其市长职务, cite: ws-1982-xu-jingxian-case }
-    - { date: 1967-02, s: detained, note: 被非法监禁, cite: ws-1982-xu-jingxian-case, verify: true }
+    - { date: 1967-02, s: detained, note: 被罢免并关押（原记被非法监禁）（维基百科，未核原件）, cite: zhwiki-cao-diqiu }
     - { date: 1968-06-28, s: attacked, note: 全市电视批斗大会, cite: ws-1982-08-21-wang-xiuzhen-case }
     - { date: 1973-09, s: detained, note: 审查报告定为“叛徒”, cite: ws-1982-08-21-wang-xiuzhen-case }
     - { date: 1976-03-29, s: dead, note: 被迫害致死, cite: ws-1982-xu-jingxian-case }
@@ -4226,14 +4226,14 @@
     - { title: 陈丕显回忆录——在“一月风暴”的中心, date: 2005, cite: chen-pixian-memoir }
   factions: [shanghai]
   fate:
-    - { date: 1931, s: normal, note: 入党, verify: true }
-    - { date: 1965, s: power, note: 任上海市委第一书记, verify: true }
+    - { date: 1931, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-chen-pixian }
+    - { date: 1965-11, s: power, note: 任上海市委第一书记（此前数据作 1965）（维基百科，未核原件）, cite: zhwiki-chen-pixian }
     - { date: 1966-12-18, s: attacked, note: 徐景贤等召开大会诬陷市委, cite: ws-1982-xu-jingxian-case }
     - { date: 1967-01, s: purged, note: 造反派宣布“不再承认”其第一书记职务, cite: ws-1982-xu-jingxian-case }
     - { date: 1967-02, s: detained, note: 被非法监禁, cite: ws-1982-xu-jingxian-case, verify: true }
     - { date: 1970-11, s: detained, note: 审查报告定为“叛徒”“现行反革命”, cite: ws-1982-xu-jingxian-case }
     - { date: 1975, s: sidelined, note: 解除关押, verify: true }
-    - { date: 1977, s: restored, note: 任湖北省委第一书记, verify: true }
+    - { date: 1977-02, s: restored, note: 任云南省委书记，同年7月调湖北省委第二书记（原记任湖北省委第一书记）（此前数据作 1977）（维基百科，未核原件）, cite: zhwiki-chen-pixian }
     - { date: 1995-08-22, s: dead }
   cites: [ws-1980-indictment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case]
 
@@ -4377,7 +4377,7 @@
   factions: [lin]
   fate:
     - { date: 1932, s: normal, note: 入党, verify: true }
-    - { date: 1965-05, s: power, note: 任空军司令员, verify: true }
+    - { date: 1965-05, s: power, note: 任空军司令员（维基百科，未核原件）, cite: zhwiki-wu-faxian }
     - { date: 1966-09-03, s: power, note: 送林彪诬陷贺龙的材料, cite: ws-1981-01-25-judgment }
     - { date: 1967-08, s: power, note: 军委办事组副组长, verify: true }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
@@ -4656,10 +4656,10 @@
     - { voice: witness, text: 王友琴据当年师生的口述，确认 8 月 5 日的殴打发生在校内学生组织主持的批斗中，并把卞仲耘列为北京第一位被打死的教育工作者（待核，需对照原书）。, cite: wang-youqin-victims }
   factions: [academics]
   fate:
-    - { date: 1941, s: normal, note: 入党, verify: true }
+    - { date: 1941, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-bian-zhongyun }
     - { date: 1950, s: power, note: 任师大女附中副校长, verify: true }
     - { date: 1966-06, s: attacked, note: 学生大字报批判校领导, verify: true }
-    - { date: 1966-08-05, s: dead, note: 被学生殴打致死, verify: true }
+    - { date: 1966-08-05, s: dead, note: 被学生殴打致死（维基百科，未核原件）, cite: zhwiki-bian-zhongyun }
   cites: [wang-youqin-victims]
   verify: true
 

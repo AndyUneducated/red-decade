@@ -104,12 +104,12 @@
     - { voice: editor, text: 1976 年底的免职没有公开的中央文件说明；常见的说法是他在批邓中表态积极、与江青往来，属于“与四人帮有牵连”而非帮派成员，此后未再起用。 }
   factions: [premier]
   fate:
-    - { date: 1964, s: normal, note: 外交部副部长, verify: true }
+    - { date: 1964-03, s: normal, note: 外交部副部长（此前数据作 1964）（维基百科，未核原件）, cite: zhwiki-qiao-guanhua }
     - { date: 1967-05, s: attacked, note: 造反派要求停止其对外活动, cite: zou-yimin-yao-dengshan, verify: true }
     - { date: 1971-11-15, s: rise, note: 联大首次发言, cite: rmrb-1971-11-17-qiao-un }
-    - { date: 1974-11, s: power, note: 外交部长, verify: true }
-    - { date: 1976-12, s: purged, note: 受审查后免职, verify: true }
-    - { date: 1983-09-22, s: dead, verify: true }
+    - { date: 1974-11, s: power, note: 外交部长（维基百科，未核原件）, cite: zhwiki-qiao-guanhua }
+    - { date: 1976-12, s: purged, note: 受审查后免职（维基百科，未核原件）, cite: zhwiki-qiao-guanhua }
+    - { date: 1983-09-22, s: dead, note: （维基百科，未核原件）, cite: zhwiki-qiao-guanhua }
   cites: [rmrb-1971-11-17-qiao-un, rmrb-1975-01-19-state-council-list, zou-yimin-yao-dengshan]
 
 - id: ji-pengfei
@@ -160,11 +160,11 @@
     - { voice: editor, text: 死因官方未说明为自杀，境外传闻与其子受贿案有关，这里标为有争议。 }
   factions: [premier]
   fate:
-    - { date: 1955, s: normal, note: 外交部副部长, verify: true }
+    - { date: 1955, s: normal, note: 外交部副部长（维基百科，未核原件）, cite: zhwiki-ji-pengfei }
     - { date: 1967-05, s: attacked, note: 造反派要求撤销其职务, cite: zou-yimin-yao-dengshan, verify: true }
-    - { date: 1971, s: power, note: 代理外交部长, verify: true }
-    - { date: 1974-11, s: sidelined, note: 由乔冠华接任, verify: true }
+    - { date: 1971-04-01, s: power, note: 代理外交部长（此前数据作 1971）（维基百科，未核原件）, cite: zhwiki-ji-pengfei }
+    - { date: 1974-11-18, s: sidelined, note: 由乔冠华接任（此前数据作 1974-11）（维基百科，未核原件）, cite: zhwiki-ji-pengfei }
     - { date: 1975-01-17, s: normal, note: 人大常委会委员, cite: rmrb-1975-01-19-npc-sc-list }
-    - { date: 1979-01, s: power, note: 中联部部长, verify: true }
-    - { date: 2000-02-10, s: dead, verify: true }
+    - { date: 1979-01, s: power, note: 中联部部长（维基百科，未核原件）, cite: zhwiki-ji-pengfei }
+    - { date: 2000-02-10, s: dead, note: （维基百科，未核原件）, cite: zhwiki-ji-pengfei }
   cites: [zou-yimin-yao-dengshan, rmrb-1975-01-19-npc-sc-list, rmrb-1975-01-19-state-council-list]

@@ -133,13 +133,13 @@
     - { voice: officialLater, text: 声称“要为资产阶级自由化辩护，我就是要自由化，不给我自由，我就要斗”，公然以“资产阶级自由化老祖宗”自居（同一决定）, cite: rmrb-1987-01-15-wang-ruowang, quote: true }
   factions: [democracy, rightists]
   fate:
-    - { date: 1957, s: purged, note: 划为右派, verify: true }
+    - { date: 1957, s: purged, note: 划为右派（维基百科，未核原件）, cite: zhwiki-wang-ruowang }
     - { date: 1966, s: detained, note: 文革中被关押（月份不详）, verify: true }
     - { date: 1979, s: restored, note: 右派改正, verify: true }
     - { date: 1987-01-13, s: purged, note: 上海市纪委开除党籍, cite: rmrb-1987-01-15-wang-ruowang }
-    - { date: 1989-06, s: detained, note: 因参加游行被关押, verify: true }
-    - { date: 1992, s: sidelined, note: 赴美, verify: true }
-    - { date: 2001-12-19, s: dead, note: 在纽约去世, verify: true }
+    - { date: 1989-09-08, s: detained, note: 以颠覆无产阶级专政罪名被捕，入狱14个月（原记因参加游行被关押）（此前数据作 1989-06）（维基百科，未核原件）, cite: zhwiki-wang-ruowang }
+    - { date: 1992-08, s: sidelined, note: 赴美（此前数据作 1992）（维基百科，未核原件）, cite: zhwiki-wang-ruowang }
+    - { date: 2001-12-19, s: dead, note: 在纽约去世（维基百科，未核原件）, cite: zhwiki-wang-ruowang }
   cites: [rmrb-1987-01-15-wang-ruowang]
 
 - id: bao-zunxin
@@ -239,11 +239,11 @@
     - { voice: officialLater, text: 这个座谈会由戈扬主持，参加的有严家其、苏绍智、陈子明（北京社会经济科学研究所所长）、刘锐绍（香港文汇报驻北京办事处主任）等人（1989 年陈希同报告）, cite: ws-1989-06-30-chen-xitong-report, quote: true }
   factions: [democracy]
   fate:
-    - { date: 1975, s: detained, note: 因通信被定为反革命，劳动教养, verify: true }
+    - { date: 1975-08, s: detained, note: 因通信被定为反革命，劳动教养（此前数据作 1975）（维基百科，未核原件）, cite: zhwiki-chen-ziming }
     - { date: 1978-11, s: restored, note: 随“四五”平反, verify: true }
     - { date: 1989-10, s: detained, note: 被捕，1991 年判刑十三年, verify: true }
-    - { date: 1994, s: sidelined, note: 保外就医, verify: true }
-    - { date: 2014-10-21, s: dead, note: 在北京病逝, verify: true }
+    - { date: 1994-05, s: sidelined, note: 保外就医（此前数据作 1994）（维基百科，未核原件）, cite: zhwiki-chen-ziming }
+    - { date: 2014-10-21, s: dead, note: 在北京病逝（维基百科，未核原件）, cite: zhwiki-chen-ziming }
   cites: [ws-1989-06-30-chen-xitong-report]
 
 - id: dai-qing

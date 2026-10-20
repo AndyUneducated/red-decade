@@ -82,8 +82,8 @@
     - { date: 1953-01, s: power, note: 中央组织部部长, verify: true }
     - { date: 1954-02, s: attacked, note: 七届四中全会揭发, cite: ws-1955-03-31-gao-rao-resolution }
     - { date: 1955-03-31, s: purged, note: 开除党籍, cite: ws-1955-03-31-gao-rao-resolution }
-    - { date: 1955-04, s: detained, note: 被捕，1965 年判刑十四年, verify: true }
-    - { date: 1975-03-02, s: dead, note: 死于辽宁的劳改农场, verify: true }
+    - { date: 1955-04, s: detained, note: 被捕，1965 年判刑十四年（维基百科，未核原件）, cite: zhwiki-rao-shushi }
+    - { date: 1975-03-02, s: dead, note: 病死于监狱（原记死于辽宁的劳改农场）（维基百科，未核原件）, cite: zhwiki-rao-shushi }
   cites: [ws-1955-03-31-gao-rao-resolution]
 
 - id: hu-feng
@@ -126,11 +126,11 @@
   factions: [dissent]
   fate:
     - { date: 1954-07, s: normal, note: 向中央递交“三十万言书”, verify: true }
-    - { date: 1955-01, s: attacked, note: 公开批判, verify: true }
+    - { date: 1955-01, s: attacked, note: 公开批判（维基百科，未核原件）, cite: zhwiki-hu-feng }
     - { date: 1955-05-17, s: detained, note: 被捕，1965 年判刑, verify: true }
-    - { date: 1979-01, s: restored, note: 获释, verify: true }
+    - { date: 1979-01, s: restored, note: 获释（维基百科，未核原件）, cite: zhwiki-hu-feng }
     - { date: 1980-09-29, s: restored, note: 中央通知平反, cite: cpc-1980-09-29-hu-feng-rehab }
-    - { date: 1985-06-08, s: dead, note: 病逝, cite: cpc-1980-09-29-hu-feng-rehab, verify: true }
+    - { date: 1985-06-08, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-hu-feng }
   rehab:
     - { date: 1980-09-29, text: 中共中央批转复查报告，宣布“胡风反革命集团”案是错案，予以平反, cite: cpc-1980-09-29-hu-feng-rehab }
     - { date: 1988-06-18, text: 中办补充通知，取消对其文艺思想和宗派活动的指责, cite: cpc-1980-09-29-hu-feng-rehab }
@@ -173,7 +173,7 @@
     - { date: 1949-10, s: power, note: 交通部长, verify: true }
     - { date: 1957-07, s: attacked, note: 被定为“章罗同盟”首领, verify: true }
     - { date: 1958-01-31, s: purged, note: 人大常委会建议不再出席人大, cite: ws-1958-npc-rightists-removal }
-    - { date: 1969-05-17, s: dead, note: 病逝, verify: true }
+    - { date: 1969-05-17, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-zhang-bojun }
   cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
 
 - id: luo-longji
@@ -212,7 +212,7 @@
     - { date: 1956-05, s: power, note: 森林工业部部长, verify: true }
     - { date: 1957-07, s: attacked, note: 被定为“章罗同盟”首领, verify: true }
     - { date: 1958-01-31, s: purged, note: 人大常委会建议罢免其人大法案委员会委员职务, cite: ws-1958-npc-rightists-removal }
-    - { date: 1965-12-07, s: dead, note: 病逝, verify: true }
+    - { date: 1965-12-07, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-luo-longji }
   cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
 
 - id: chu-anping
@@ -245,11 +245,11 @@
     - { voice: editor, text: 1980 年统战部列出的五名“拟维持原案”者是章伯钧、罗隆基、彭文应、储安平、陈仁炳；其余二十二名上层人士拟予改正。, cite: ws-1980-ufwd-rightist-review }
   factions: [rightists]
   fate:
-    - { date: 1957-04, s: power, note: 《光明日报》总编辑, verify: true }
+    - { date: 1957-04-01, s: power, note: 《光明日报》总编辑（此前数据作 1957-04）（维基百科，未核原件）, cite: zhwiki-chu-anping }
     - { date: 1957-06, s: attacked, note: “党天下”发言后被划为右派, verify: true }
     - { date: 1958-01-31, s: purged, note: 人大常委会建议不再出席人大, cite: ws-1958-npc-rightists-removal }
     - { date: 1966-08, s: attacked, note: 被红卫兵批斗, verify: true }
-    - { date: 1966-09, s: dead, note: 失踪，下落不明, verify: true }
+    - { date: 1966-09, s: dead, note: 失踪，下落不明（维基百科，未核原件）, cite: zhwiki-chu-anping }
   cites: [ws-1980-ufwd-rightist-review, ws-1958-npc-rightists-removal]
 
 - id: zhang-naiqi
@@ -284,10 +284,10 @@
     - { voice: officialLater, text: 拟予改正的二十二人：章乃器（故），陈铭枢（故）、黄绍肱（故）、龙云（故）（1980 年中央统战部报告）, cite: ws-1980-ufwd-rightist-review, quote: true }
   factions: [rightists]
   fate:
-    - { date: 1952-08, s: power, note: 粮食部部长, verify: true }
+    - { date: 1952-08, s: power, note: 粮食部部长（维基百科，未核原件）, cite: zhwiki-zhang-naiqi }
     - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }
     - { date: 1958-01-31, s: purged, note: 人大常委会建议不再出席人大，次月撤销部长职务, cite: ws-1958-npc-rightists-removal }
-    - { date: 1977-05-13, s: dead, note: 病逝, verify: true }
+    - { date: 1977-05-13, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-zhang-naiqi }
     - { date: 1980, s: restored, note: 统战部复查拟予改正, cite: ws-1980-ufwd-rightist-review }
   cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
 
@@ -327,10 +327,10 @@
   fate:
     - { date: 1957-07, s: attacked, note: 被划为右派, verify: true }
     - { date: 1958-01-31, s: sidelined, note: 被建议罢免人大民族委员会委员职务, cite: ws-1958-npc-rightists-removal }
-    - { date: 1966-08, s: attacked, note: 文革中被批斗, verify: true }
+    - { date: 1966-09-01, s: attacked, note: 文革中被批斗（此前数据作 1966-08）（维基百科，未核原件）, cite: zhwiki-fei-xiaotong }
     - { date: 1980, s: restored, note: 右派问题改正, cite: ws-1980-ufwd-rightist-review }
-    - { date: 1988-04, s: power, note: 全国人大常委会副委员长, verify: true }
-    - { date: 2005-04-24, s: dead, note: 病逝, verify: true }
+    - { date: 1988-04, s: power, note: 全国人大常委会副委员长（维基百科，未核原件）, cite: zhwiki-fei-xiaotong }
+    - { date: 2005-04-24, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-fei-xiaotong }
   cites: [ws-1958-npc-rightists-removal, ws-1980-ufwd-rightist-review]
 
 - id: long-yun
