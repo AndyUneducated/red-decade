@@ -1,0 +1,10 @@
+# X5（2026-10-20）：复核结论时补入的《人民日报》文本（govopendata 转录）。
+web:
+  - id: rmrb-1960-01-23-stats-1959
+    title: "关于一九五九年国民经济发展情况的新闻公报"
+    date: 1960-01-23
+    author: 国家统计局
+    kind: party-doc
+    alias: "1959 年国民经济发展情况新闻公报"
+    url: https://cn.govopendata.com/renminribao/1960/1/23/1/
+    via: "《人民日报》1960-01-23 第 1 版（govopendata 转录）"

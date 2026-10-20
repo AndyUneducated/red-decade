@@ -18,7 +18,7 @@
     - { year: 1957, value: 18500, cite: rmrb-1959-04-14-stats-fyp1, quote: "粮食总产量达到3，700亿斤" }
     - { year: 1958, value: 37500, cite: rmrb-1959-04-15-stats-1958, quote: "粮食总产量达到7，500亿斤，比上年增长了一倍" }
     - { year: 1958, value: 25000, kind: revised, cite: ws-1959-08-eighth-plenum, quote: "过去发表的一九五八年的农业产品产量的统计偏高……一九五八年的粮食的实际收获量为五千亿斤", note: 八届八中全会公报，1959 年 8 月 }
-    - { year: 1959, value: 27005, cite: ws-1960-04-06-tan-agri-report, quote: "增加到了一九五九年的五千四百零一亿斤" }
+    - { year: 1959, value: 27005, cite: rmrb-1960-01-23-stats-1959, quote: "粮食达到五千四百零一亿斤", note: 1960 年 1 月新闻公报的数字，谭震林 1960 年 4 月报告相同 }
     - { year: 1971, value: 25015, cite: ws-1972-grain, quote: "比去年实报五千零三亿斤", note: 同一报告另处作“一九七一年粮食产量达到了五千亿斤” }
     - { year: 1972, value: 24060, approx: true, cite: ws-1972-grain, quote: "初步估计，粮食产量可达四千八百一十二亿斤", note: 当年的初步估计 }
     - { year: 1977, value: 28275, cite: rmrb-1979-06-28-stats-1978, quote: "粮 食 30，475万吨 28，275万吨" }

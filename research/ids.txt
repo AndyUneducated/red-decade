@@ -464,6 +464,7 @@ archive/rmrb-page-1958-10-13-7
 archive/rmrb-page-1959-04-14-2
 archive/rmrb-page-1959-04-15-2
 archive/rmrb-page-1959-04-29-1
+archive/rmrb-page-1960-01-23-1
 archive/rmrb-page-1964-02-10-1
 archive/rmrb-page-1966-05-05-2
 archive/rmrb-page-1966-06-02-1
@@ -3731,6 +3732,7 @@ sources/rmrb-1958-10-13-zhang-bourgeois-right
 sources/rmrb-1959-04-14-stats-fyp1
 sources/rmrb-1959-04-15-stats-1958
 sources/rmrb-1959-04-29-state-council
+sources/rmrb-1960-01-23-stats-1959
 sources/rmrb-1964-02-10-dazhai-road
 sources/rmrb-1966-05-05-guo-moruo
 sources/rmrb-1966-06-02-nie-dazibao
