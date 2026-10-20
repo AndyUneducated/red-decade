@@ -178,7 +178,7 @@
   factions: [lin, provincial]
   fate:
     - { date: 1967-07, s: rise, note: 升任武汉军区政委, verify: true }
-    - { date: 1969-04, s: power, note: 九届中央委员、中央军委委员, verify: true }
+    - { date: 1969-04-24, s: power, note: 九大名单中为中央委员（原记还有“中央军委委员”，名单不涉及）, cite: rmrb-1969-04-25-ninth-cc-list }
     - { date: 1971-09-06, s: power, note: 向李作鹏透露毛泽东南巡谈话, cite: ws-1980-indictment }
     - { date: 1971-11, s: purged, note: 免职审查, verify: true }
     - { date: 1973, s: purged, note: 开除党籍, verify: true }
@@ -631,7 +631,7 @@
   fate:
     - { date: 1967-08-10, s: rise, note: 中央任命为江西省军区政委, cite: song-yongyi-database }
     - { date: 1968-01-05, s: power, note: 江西省革委会主任, verify: true }
-    - { date: 1969-04, s: power, note: 九届中央委员, verify: true }
+    - { date: 1969-04-24, s: power, note: 九大名单中为中央委员, cite: rmrb-1969-04-25-ninth-cc-list }
     - { date: 1971, s: purged, note: 九一三事件后撤职审查, verify: true }
     - { date: 1978-10, s: detained, note: 被逮捕, verify: true }
     - { date: 1982-01, s: restored, note: 获释，免予起诉, verify: true }

@@ -40,3 +40,11 @@ web:
     excerpt: true
     keep: [国家副主席乌兰夫，人大常委会副委员长陈丕显, 新华社北京6月18日电 第六届全国人民代表大会第一次会议今天选举]
     via: 《人民日报》1983-06-19 第 1 版（govopendata 转录）
+  - id: rmrb-1969-04-25-ninth-cc-list
+    title: 九大闭幕新闻公报与九届中央委员、候补中央委员名单
+    date: 1969-04-25
+    author: 新华社
+    kind: news
+    alias: 1969 年 4 月 25 日《人民日报》九大闭幕公报与中央委员名单
+    url: https://cn.govopendata.com/renminribao/1969/04/25/2/
+    via: 《人民日报》1969-04-25 第 2 版（govopendata 转录）

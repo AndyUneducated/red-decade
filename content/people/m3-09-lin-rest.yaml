@@ -276,7 +276,7 @@
   factions: [lin]
   fate:
     - { date: 1938-03, s: normal, note: 入伍, cite: ccom-chen-liyun-interview }
-    - { date: 1969-04, s: rise, note: 九届中央候补委员, verify: true }
+    - { date: 1969-04-24, s: rise, note: 九大名单中为候补中央委员, cite: rmrb-1969-04-25-ninth-cc-list }
     - { date: 1971-03-31, s: power, note: 被指定为杭州的“头”, cite: ccom-chen-liyun-interview }
     - { date: 1971-09-20, s: detained, note: 隔离审查, cite: ccom-chen-liyun-interview }
     - { date: 1982-03-10, s: normal, note: 免予起诉, cite: ccom-chen-liyun-interview }

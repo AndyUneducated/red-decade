@@ -75,7 +75,7 @@
     - { date: 1967-01, s: attacked, note: 农林口造反派揪斗, verify: true }
     - { date: 1967-02-16, s: attacked, note: 怀仁堂碰头会上痛斥张春桥（维基只记 1967 年 2 月，称他在怀仁堂会上与陈伯达、江青、康生、张春桥等激烈争论，事后被斥为“资产阶级复辟派”）（维基百科，未核原件）, cite: enwiki-tan-zhenlin }
     - { date: 1967-03, s: sidelined, note: 停职检讨, verify: true }
-    - { date: 1969-04, s: sidelined, note: 九大落选中央委员, verify: true }
+    - { date: 1969-04-24, s: sidelined, note: 九大公布的中央委员、候补中央委员名单中无其人, cite: rmrb-1969-04-25-ninth-cc-list }
     - { date: 1973, s: restored, note: 经毛泽东指示恢复待遇，十大当选中央委员（此前数据作 1973-08）（维基百科，未核原件）, cite: zhwiki-tan-zhenlin }
     - { date: 1975-01-17, s: normal, note: 四届人大一次会议选为全国人大常委会副委员长, cite: rmrb-1975-01-19-npc-sc-list }
     - { date: 1983-09-30, s: dead, cite: rmrb-1983-10-03-tan-zhenlin-obituary }
