@@ -20,14 +20,14 @@
 | 研究 | 研究结论 70 条（每个时期至少 10 条）、长文 7 篇、专题 9 个，引文全部逐字核对 |
 | 视觉档案 | 647 条，429 条有图像，逐条登记出处与版权 |
 
-完整性审计见 [`research/audit-v1.md`](research/audit-v1.md)：各里程碑的数量验收全部达标，“待核”事件已清零。没有达到的是 1966 年“全部有一手出处”（现为 77%：新补的红卫兵小报多为海外藏书的 3 级录文，按审计口径不算一手）。多声部比例各时期在 29%–59% 之间。缺口写在 [`research/progress.md`](research/progress.md)。
+完整性审计见 [`research/audit-v1.md`](research/audit-v1.md)：各里程碑的数量验收全部达标，“待核”事件已清零。没有达到的是 1966 年“全部有一手出处”（现为 80%：剩下的多是红八月受难者和私下场合，当时没有公开文件）。多声部比例各时期在 29%–59% 之间。缺口写在 [`research/progress.md`](research/progress.md)。
 
 ## 怎样看：一条导览路线
 
 1. **[今天](https://andyuneducated.github.io/red-decade/#/today)**：首页是一面年轮表盘：41 圈对应 1949–1989 年，表盘转到今天，指针下有记录的年份亮起；指向一圈读那一年，点表盘别处转到那一天。下方列出同月同日的事件、文件和人物命运。
 2. **[时间线](https://andyuneducated.github.io/red-decade/#/timeline)**：八条泳道，从四十年缩放到一天。点 1966 年 5 月 16 日的《五一六通知》，抽屉里是摘要、各声部的说法和原文出处。
 3. **[原文](https://andyuneducated.github.io/red-decade/#/docs/ws-1966-05-16-notice)**：在阅读器里打开通知本身，和《二月提纲》逐条对照。
-4. **[人物](https://andyuneducated.github.io/red-decade/#/people/liu-shaoqi)**：刘少奇的传记页，职务时间带、命运色带、足迹地图，每段生平附出处；点“以此人视角看全站”，时间线、网络、文献等页面就只显示与他有关的内容。
+4. **[人物](https://andyuneducated.github.io/red-decade/#/people/liu-shaoqi)**：刘少奇的传记页，职务时间带、命运色带、足迹地图，每段生平附出处；在任何页面点他的名字打开人物卡片，再点卡片上的“以此人视角看全站”，时间线、网络、文献等页面就只显示与他有关的内容。
 5. **[网络](https://andyuneducated.github.io/red-decade/#/network)**：拖动时间轴，看 1966–1976 年人物关系怎样重组。
 6. **[数字争议](https://andyuneducated.github.io/red-decade/#/figures)**：内人党、广西、道县等案件的死亡与迫害数字，按出处并列在同一把对数刻度上。
 7. **[长文](https://andyuneducated.github.io/red-decade/#/essays/procedure-1966)**：《先有行动，后有罪名：1966 年的程序之争》，把研究结论连成文章，每节末尾可以点开所依据的结论与原文。
