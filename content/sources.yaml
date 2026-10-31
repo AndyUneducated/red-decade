@@ -13,11 +13,11 @@
   kind: collected
   tier: 2
   locator: 页
-  access: unread
+  access: partial
   want:
     - 《炮打司令部——我的一张大字报》原稿（C002、C003）
     - 1966-08-01 致清华附中红卫兵信
-  note: 收 1966 年 1 月至 1968 年 12 月文稿。
+  note: 收 1966 年 1 月至 1968 年 12 月文稿。上面两篇已据晶牛毛泽东思想网转录入库（mzd-1966-08-05-bombard、mzd-1966-08-01-tsinghua-letter，节录），未核原书。
 
 - id: mao-chronicle-1949
   title: 毛泽东年谱（1949—1976）

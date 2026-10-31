@@ -1,4 +1,4 @@
 # Ids that were published (research/ids.txt) and later renamed, merged or withdrawn.
 # id and to are <table>/<id>; leave out `to` when the record was withdrawn without a successor.
 # - { id: people/old-id, to: people/new-id, date: 2026-10-13, note: 改用通行拼音 }
-[]
+- { id: sources/ws-1966-11-red-flag-two-lines, to: sources/rmrb-1966-11-02-red-flag-two-lines, date: 2026-10-31, note: 维基文库无此篇，改用《人民日报》1966-11-02 第 1 版转载 }

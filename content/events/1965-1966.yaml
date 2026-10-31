@@ -414,17 +414,19 @@
   lane: mass
   weight: 3
   place: 清华大学附属中学
-  summary: 落款“清华大学附属中学 红卫兵”的三张大字报，分别署 6 月 24 日、7 月 4 日、7 月 27 日，贴出时正值工作组在校。毛泽东 8 月 1 日复信表示“热烈的支持”（据陈伯达 10 月讲话转引）；8 月 21 日《红旗》第 11 期以“革命大字报选”刊出，配本刊评论员《向革命的青少年致敬》，8 月 24 日《人民日报》转载。
+  summary: 落款“清华大学附属中学 红卫兵”的三张大字报，分别署 6 月 24 日、7 月 4 日、7 月 27 日，贴出时正值工作组在校。毛泽东 7 月 31 日先把复信稿送刘少奇等十五人审阅，8 月 1 日改定，信中表示“热烈的支持”；据《建国以来毛泽东文稿》编者注，这封信没有发出，陈伯达 10 月 16 日的讲话引用了其中一句。8 月 21 日《红旗》第 11 期以“革命大字报选”刊出，配本刊评论员《向革命的青少年致敬》，8 月 24 日《人民日报》转载。
   concepts: [rebellion]
-  docs: [rmrb-1966-08-24-rebel-1, rmrb-1966-08-24-rebel-2, rmrb-1966-08-24-rebel-3, rmrb-1966-08-24-salute-youth]
+  docs: [rmrb-1966-08-24-rebel-1, rmrb-1966-08-24-rebel-2, rmrb-1966-08-24-rebel-3, rmrb-1966-08-24-salute-youth, mzd-1966-08-01-tsinghua-letter]
   voices:
     - { voice: doc, text: 革命就是造反，毛泽东思想的灵魂就是造反。, cite: rmrb-1966-08-24-rebel-1, quote: true }
     - { voice: doc, text: 我们只许左派造反，不许右派造反！你们胆敢造反，我们就立即镇压！这就是我们的逻辑。反正国家机器在我们手里。（再论）, cite: rmrb-1966-08-24-rebel-2, quote: true }
     - { voice: doc, text: 我们就是要把你们打翻在地上，再踏上一只脚！, cite: rmrb-1966-08-24-rebel-1, quote: true }
     - { voice: official1966, text: 本刊特选几篇大字报，公之于世，让广大人民群众来作鉴定。（《红旗》评论员）, cite: rmrb-1966-08-24-salute-youth, quote: true }
     - { voice: doc, text: 在八月一日，他就向清华大学附属中学红卫兵写信，说：“我向你们表示热烈的支持”。（陈伯达 10 月 16 日讲话）, cite: web-1966-10-16-chen-speech, quote: true }
+    - { voice: doc, text: 说明对反动派造反有理，我向你们表示热烈的支持。（毛泽东复信，《建国以来毛泽东文稿》第十二册）, cite: mzd-1966-08-01-tsinghua-letter, quote: true }
+    - { voice: doc, text: 我们支持你们，我们又要求你们注意争取团结一切可以团结的人们。（同上）, cite: mzd-1966-08-01-tsinghua-letter, quote: true }
     - { voice: editor, text: “造反”在这里的第一义不是反对权力：再论宣称“国家机器在我们手里”，造反权只属于左派，右派造反要“立即镇压”。造反的发明者把自己放在国家一边——这与 11 月工总司造本地党委的反，是同一个词的两种用法（C006）。 }
-  cites: [rmrb-1966-08-24-rebel-1, rmrb-1966-08-24-rebel-2, rmrb-1966-08-24-rebel-3, rmrb-1966-08-24-salute-youth, web-1966-10-16-chen-speech]
+  cites: [rmrb-1966-08-24-rebel-1, rmrb-1966-08-24-rebel-2, rmrb-1966-08-24-rebel-3, rmrb-1966-08-24-salute-youth, web-1966-10-16-chen-speech, mzd-1966-08-01-tsinghua-letter]
 
 # ── 1966 年 6–7 月 工作组“五十多天” ─────────────────────────
 - id: 1966-06-01-sweep-editorial
@@ -598,12 +600,14 @@
   summary: 全文不足 300 字，不点名地指“从中央到地方的某些领导同志”在“五十多天里”实行“白色恐怖”，并“联系到一九六二年的右倾和一九六四年形'左'而实右的错误倾向”。8 月 7 日印发全会。
   people: [mao-zedong, liu-shaoqi, deng-xiaoping]
   concepts: [bourgeois-hq, two-lines]
-  docs: [ws-1967-08-bombard-anniv]
+  docs: [mzd-1966-08-05-bombard, ws-1967-08-bombard-anniv]
   voices:
     - { voice: doc, text: 联系到一九六二年的右倾和一九六四年形“左”而实右的错误倾向，岂不是可以发人深醒的吗？, cite: ws-1967-08-bombard-anniv, quote: true }
+    - { voice: doc, text: 可是在五十多天里，从中央到地方的某些领导同志，却反其道而行之（《建国以来毛泽东文稿》所收手稿本）, cite: mzd-1966-08-05-bombard, quote: true }
     - { voice: official1966, text: 一年后的周年社论将其解释为揭露了“以中国赫鲁晓夫为首的资产阶级司令部”——原文并无此语。, cite: ws-1967-08-bombard-anniv }
     - { voice: official1981, text: 党内根本不存在所谓以刘少奇、邓小平为首的“资产阶级司令部”。, cite: ws-1981-resolution, quote: true }
-  cites: [ws-1967-08-bombard-anniv, ws-1981-resolution]
+    - { voice: editor, text: 《建国以来毛泽东文稿》的手稿本与 1967 年 8 月 5 日公开发表的文本有三处字面差别：“好啊”作“好呵”，“重读这一篇大字报和这篇评论”作“重读一遍这张大字报和这个评论”，“资产阶级立场”作“资产阶级立场上”，意思没有变化。文稿编者注说，这篇原写在 1966 年 6 月 2 日的《北京日报》上，后来改过两次、加了标题，8 月 17 日由中办印发到县团级。, cite: mzd-1966-08-05-bombard }
+  cites: [mzd-1966-08-05-bombard, ws-1967-08-bombard-anniv, ws-1981-resolution]
 
 - id: 1966-08-05-bian-zhongyun
   date: 1966-08-05
@@ -900,12 +904,14 @@
   title: 《红旗》第 14 期：《以毛主席为代表的无产阶级革命路线的胜利》
   lane: ideology
   weight: 1
-  summary: 同期另一篇社论借鲁迅逝世三十周年号召“彻底批判资产阶级反动路线”，宣称在两条路线之间“没有中间道路可走”。“两条路线”框架此前已由 10 月 1 日国庆社论公开提出。主社论原文尚未入库。
+  summary: 主社论把两条路线的分歧归结为对群众的态度，要求区分“提出错误路线的”和“执行错误路线的”，以是否公开承认错误、给被打成“反革命”的群众平反作为改正与否的标志；对坚持错误路线的人，矛盾会“从非对抗性矛盾变成为对抗性矛盾”。《人民日报》11 月 2 日头版转载。同期另一篇社论借鲁迅逝世三十周年号召“彻底批判资产阶级反动路线”，宣称在两条路线之间“没有中间道路可走”。“两条路线”框架此前已由 10 月 1 日国庆社论公开提出。
   concepts: [two-lines]
-  docs: [ws-1966-11-01-luxun]
+  docs: [rmrb-1966-11-02-red-flag-two-lines, ws-1966-11-01-luxun]
   voices:
+    - { voice: official1966, text: 应当把提出错误路线的（只不过是一两个或几个人）和执行错误路线的区别开来, cite: rmrb-1966-11-02-red-flag-two-lines, quote: true }
+    - { voice: official1966, text: 如果坚持错误路线，他们同党同群众的矛盾的性质就会起变化，就会从非对抗性矛盾变成为对抗性矛盾, cite: rmrb-1966-11-02-red-flag-two-lines, quote: true }
     - { voice: doc, text: 在这两条路线的斗争中，进行调和、折中，这实际上就是维护资产阶级反动路线，反对无产阶级革命路线。, cite: ws-1966-11-01-luxun, quote: true }
-  cites: [ws-1966-red-flag-index, ws-1966-11-01-luxun]
+  cites: [ws-1966-red-flag-index, rmrb-1966-11-02-red-flag-two-lines, ws-1966-11-01-luxun]
 
 - id: 1966-11-09-shanghai-wgs
   date: 1966-11-09

@@ -475,6 +475,7 @@ archive/rmrb-page-1966-08-01-1
 archive/rmrb-page-1966-08-19-1
 archive/rmrb-page-1966-08-19-2
 archive/rmrb-page-1966-08-24-2
+archive/rmrb-page-1966-11-02-1
 archive/rmrb-page-1966-12-11-1
 archive/rmrb-page-1967-01-26-1
 archive/rmrb-page-1967-02-02-1
@@ -3661,6 +3662,8 @@ sources/marxists-qibenyu-tian-jiaying
 sources/marxists-qibenyu-wuhan-720
 sources/moa-2009-xing-yanzi
 sources/mou-zhijing-chushenlun
+sources/mzd-1966-08-01-tsinghua-letter
+sources/mzd-1966-08-05-bombard
 sources/mzd-1975-11-18-wang-mantian
 sources/nbs-50-years
 sources/nbs-retro-birth-rate
@@ -3768,6 +3771,7 @@ sources/rmrb-1966-08-24-rebel-1
 sources/rmrb-1966-08-24-rebel-2
 sources/rmrb-1966-08-24-rebel-3
 sources/rmrb-1966-08-24-salute-youth
+sources/rmrb-1966-11-02-red-flag-two-lines
 sources/rmrb-1966-12-11-macau-meeting
 sources/rmrb-1966-12-11-macau-warning
 sources/rmrb-1967-01-26-harbin
