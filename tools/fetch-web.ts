@@ -198,7 +198,7 @@ async function getBytes(url: string): Promise<Uint8Array> {
 // text items carry their own end-of-line flag; CJK PDFs often split one visual line into many items
 async function pdfText(bytes: Uint8Array, pages?: [number, number]): Promise<string> {
   const { getDocument } = await import('pdfjs-dist/legacy/build/pdf.mjs')
-  const task = getDocument({ data: bytes.slice(), isEvalSupported: false, verbosity: 0 })
+  const task = getDocument({ data: bytes.slice(), verbosity: 0 })
   const doc = await task.promise
   const [first, last] = pages ?? [1, doc.numPages]
   const lines: string[] = []

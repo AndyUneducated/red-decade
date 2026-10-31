@@ -46,7 +46,7 @@ const reg: Record<string, Rec> = existsSync(regPath) ? (parse(readFileSync(regPa
 const known = new Set(Object.values(reg).map((r) => r.file))
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
-async function api(params: Record<string, string>) {
+async function api(params: Record<string, string>): Promise<any> {
   const u = new URL('https://commons.wikimedia.org/w/api.php')
   for (const [k, v] of Object.entries({ format: 'json', ...params })) u.searchParams.set(k, v)
   // Commons answers 429 after bursts; back off for longer each time

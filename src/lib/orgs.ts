@@ -1,5 +1,5 @@
 // Time-scoped reading of content/orgs.yaml: what existed, where, and under whom at a moment t.
-import type { Org, OrgLink } from '../data/schema'
+import type { Org } from '../data/schema'
 import { toT } from './dates'
 
 type Span = { from?: string; to?: string }
@@ -34,24 +34,6 @@ export const placeAt = (o: Org, t: number) => nearest(o.places, t)?.at
 
 export const KIND_ORDER = ['party', 'state', 'army', 'mass', 'popular', 'unit'] as const
 export const LEVEL_ORDER = ['central', 'regional', 'provincial', 'local', 'basic'] as const
-
-// verbs for a dated link, read from this org's side and from the other org's side
-export const LINK_OUT: Record<OrgLink, string> = {
-  lead: '领导',
-  found: '设立',
-  oppose: '对立于',
-  merge: '并入',
-  takeover: '夺权 / 接管',
-  replace: '取代',
-}
-export const LINK_IN: Record<OrgLink, string> = {
-  lead: '受其领导：',
-  found: '由其设立：',
-  oppose: '与之对立：',
-  merge: '并入本机构：',
-  takeover: '夺权 / 接管本机构：',
-  replace: '被其取代：',
-}
 
 // heads of a body, as opposed to deputies, members and staff
 const HEAD = /(主席|书记|部长|组长|主任|司令员?|总指挥|总理|校长|院长|社长|总编辑|委员长|军长|师长|军团长|局长|政治委员|政委|团长|教育长|参谋长|总负责人)/

@@ -1,4 +1,6 @@
 # X6（2026-10-20）：群众组织原件第二批（维基文库转录）。日期据页首模板或文末落款。
+# Y1（2026-10-31）：藏书博客据所藏原件录文的五份由 3 级改为 1 级（与华夏文摘转录的油印传单同例，note 注“转录、未核原件”）；
+# 陈再道审问记录的底本是 1979 年台湾编印的汇编、录文者又改过字，仍为 3 级。
 wikisource:
   - id: ws-1966-08-26-xicheng-1
     title: 《首都红卫兵纠察队》西城指挥部第一号通令
@@ -54,7 +56,6 @@ web:
     date: 1966-11-18
     author: 毛泽东思想红卫兵首都兵团政治部宣传部
     kind: redguard
-    tier: 3
     alias: 1966 年 11 月 18 日《兵团战报》第二期
     url: https://aoyamasyuhou.hatenablog.jp/entry/2023/09/18/160614
     via: 日本藏书博客“蔵書目録 Archive Blog”据所藏原报录文
@@ -66,7 +67,6 @@ web:
     date: 1967-06-19
     author: 百万雄师
     kind: redguard
-    tier: 3
     alias: 《百万雄师》战报创刊号发刊词
     url: https://aoyamasyuhou.hatenablog.jp/entry/2023/09/20/162601
     via: 日本藏书博客“蔵書目録 Archive Blog”据所藏原报录文
@@ -78,7 +78,6 @@ web:
     date: 1967-07-20
     author: 中国人民解放军8201部队全体指战员
     kind: redguard
-    tier: 3
     alias: 8201 部队 1967 年 7 月 20 日《特级呼籲》
     url: https://aoyamasyuhou.hatenablog.jp/entry/2022/02/28/152733
     via: 日本藏书博客“蔵書目録 Archive Blog”据所藏传单录文
@@ -102,7 +101,6 @@ web:
     date: 1966-09-04
     author: 北京工业大学《东方红公社》编辑部
     kind: redguard
-    tier: 3
     alias: 北京工业大学《东方红》谭力夫讲话材料专辑（1966-09-04）
     url: https://aoyamasyuhou.hatenablog.jp/entry/2023/09/15/111358
     via: 日本藏书博客“蔵書目録 Archive Blog”据所藏原件录文
@@ -114,7 +112,6 @@ web:
     date: 1966-08-22
     author: 新北大
     kind: redguard
-    tier: 3
     alias: 《新北大》创刊号（1966-08-22）
     url: https://aoyamasyuhou.hatenablog.jp/entry/2026/01/05/224544
     via: 日本藏书博客“蔵書目録 Archive Blog”据所藏原报录文

@@ -48,7 +48,7 @@ const outDir = join(ROOT, 'public', 'photos')
 mkdirSync(outDir, { recursive: true })
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
-async function api(host: string, params: Record<string, string>) {
+async function api(host: string, params: Record<string, string>): Promise<any> {
   const u = new URL(`https://${host}/w/api.php`)
   for (const [k, v] of Object.entries({ format: 'json', ...params })) u.searchParams.set(k, v)
   for (let i = 0; i < 3; i++) {

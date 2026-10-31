@@ -1,6 +1,7 @@
 ﻿// Depth audit (milestones.md part 3): per period, how far the events, claims and sources meet the standard.
-// Reads public/data/atlas.json, so run `node tools/build-data.ts` first. --gaps lists the events that fall short.
-//   node tools/audit.ts [--gaps]
+// Reads public/data/atlas.json, so run `node tools/build-data.ts` first. --gaps lists the events that fall short;
+// --voices lists the events of a span of years that have fewer than two voices, the work list for adding voices.
+//   node tools/audit.ts [--gaps] [--voices <from> <to>]
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import type { Atlas, Event, Person } from '../src/data/schema.ts'
@@ -55,3 +56,11 @@ console.log(`待核命运节点 ${people.reduce((n, p) => n + p.fate.filter((f) 
 console.log(`研究结论 ${atlas.claims.length}（${Object.entries(Object.groupBy(atlas.claims, (c) => c.status)).map(([k, v]) => `${k} ${v!.length}`).join('，')}），专题长文 ${atlas.essays.length}`)
 console.log(`来源 ${atlas.sources.length}：一手 ${atlas.sources.filter((s) => s.tier === 1).length}，有全文 ${atlas.sources.filter((s) => s.hasText).length}`)
 if (gaps) console.log(`\n${short.join('\n')}`)
+
+const vi = process.argv.indexOf('--voices')
+if (vi > 0) {
+  const [from, to] = [Number(process.argv[vi + 1] ?? 1949), Number(process.argv[vi + 2] ?? 1989)]
+  const single = atlas.events.filter((e) => year(e.date) >= from && year(e.date) <= to && voices(e) < 2)
+  console.log(`\n${from}–${to} 少于两种声部的事件 ${single.length} 条：`)
+  for (const e of single) console.log(`${e.id} | ${e.title} | ${[...new Set(e.voices.map((v) => v.voice))].join(',') || '无声部'} | ${e.cites.join(',')}`)
+}
