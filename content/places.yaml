@@ -273,6 +273,7 @@
 - { id: faku, name: 辽宁法库, names: [法库], lat: 42.50, lon: 123.41 }
 - { id: qianan, name: 河北迁安, names: [迁安], lat: 40.02, lon: 118.70 }
 - { id: lixian-hb, name: 河北蠡县, names: [蠡县], lat: 38.49, lon: 115.58 }
+- { id: wuhu, name: 安徽芜湖, names: [芜湖], lat: 31.33, lon: 118.38 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
@@ -280,3 +281,4 @@
 - { id: moscow, name: 莫斯科, names: [莫斯科], lat: 55.75, lon: 37.62, far: true }
 - { id: melbourne, name: 澳大利亚墨尔本, names: [墨尔本], lat: -37.81, lon: 144.96, far: true }
 - { id: heidelberg, name: 联邦德国海德堡, names: [海德堡], lat: 49.40, lon: 8.67, far: true }
+- { id: creteil, name: 法国克雷伊, names: [克雷伊], lat: 48.79, lon: 2.46, far: true }

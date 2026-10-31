@@ -2816,6 +2816,7 @@ places/chaoyang-ln
 places/chengdu
 places/chongqing
 places/chuzhou
+places/creteil
 places/dalian
 places/daqing
 places/daxian
@@ -2980,6 +2981,7 @@ places/weihai
 places/weixian
 places/wendeng
 places/wuhan
+places/wuhu
 places/wujiang
 places/wujin
 places/wuping
