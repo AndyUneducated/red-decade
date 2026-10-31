@@ -93,7 +93,7 @@
       from: 1946
       to: 1966-05
       text: |
-        1946 年回国，在东北做工运和统战工作，1948 年任全国总工会副主席，1949 年 11 月任中央人民政府劳动部部长。1951 年因主张工会相对独立被批评，1954 年离开劳动部，转到中央工业部门任副职。1960 年起任中共中央华北局书记处书记。
+        1946 年回国，在东北做工运和统战工作，1948 年任全国总工会副主席，1949 年 11 月任中央人民政府劳动部部长（维基百科记在 1949 年 9 月政协会议之后，未分别给出任命日期）。1951 年因主张工会相对独立被批评，1954 年离开劳动部，转到中央工业部门任副职。1960 年起任中共中央华北局书记处书记。
       verify: true
     - h: 批斗与死亡
       from: 1966-06
@@ -108,7 +108,7 @@
     - { voice: editor, text: 他的死在 1967 年按自杀处理，药从何来、死前是否被逼都没有官方文件说明，这里标为有争议。 }
   factions: [provincial]
   fate:
-    - { date: 1949-11, s: power, note: 劳动部部长, verify: true }
+    - { date: 1949-09, s: power, note: 政协会议后任政协常委、中央人民政府委员、劳动部长（维基未分别给出任命日期；此前数据作 1949-11）（维基百科，未核原件）, cite: zhwiki-li-lisan }
     - { date: 1954-09, s: sidelined, note: 离开劳动部（维基百科，未核原件）, cite: zhwiki-li-lisan }
     - { date: 1960, s: normal, note: 华北局书记处书记（维基百科，未核原件）, cite: zhwiki-li-lisan }
     - { date: 1967, s: attacked, note: 被多次批斗, verify: true }
@@ -163,7 +163,7 @@
     - { voice: editor, text: 《人民日报》点他“反革命分子”时，他已在两年多前死于关押中；死讯当时没有公开。 }
   factions: [propdept, academics]
   fate:
-    - { date: 1949-07, s: normal, note: 剧协主席, verify: true }
+    - { date: 1953, s: normal, note: 当选中国戏剧家协会主席（此前数据作 1949-07）（维基百科，未核原件）, cite: zhwiki-tian-han }
     - { date: 1964, s: attacked, note: 《谢瑶环》被批, verify: true }
     - { date: 1966-12-04, s: detained, verify: true }
     - { date: 1968-12-10, s: dead, note: 化名“李伍”死于三〇一医院（维基百科，未核原件）, cite: zhwiki-tian-han }

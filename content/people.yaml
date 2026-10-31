@@ -1443,11 +1443,11 @@
   fate:
     - { date: 1930, s: normal, note: 加入共青团，1931年转入中共（原记参加红军、入党）（维基百科，未核原件）, cite: zhwiki-liu-zhijian }
     - { date: 1955-09-27, s: rise, note: 授中将衔（维基百科，未核原件）, cite: zhwiki-liu-zhijian }
-    - { date: 1957, s: power, note: 总政治部副主任, verify: true }
+    - { date: 1957-10, s: power, note: 总政治部副主任（此前数据作 1957）（维基百科，未核原件）, cite: zhwiki-liu-zhijian }
     - { date: 1965-01, s: power }
     - { date: 1966-02-02, s: power, note: 参加部队文艺工作座谈会, cite: ws-1966-03-army-arts }
     - { date: 1966-05-28, s: rise, cite: ws-1966-05-ccrg-list }
-    - { date: 1967-01, s: purged, verify: true }
+    - { date: 1967-01, s: purged, note: 被打倒（维基信息框记总政治部副主任任期止于 1967 年 1 月）（维基百科，未核原件）, cite: zhwiki-liu-zhijian }
     - { date: 1978, s: restored, verify: true }
     - { date: 2006-03-11, s: dead, note: （此前数据作 2006）（维基百科，未核原件）, cite: zhwiki-liu-zhijian }
   cites: [ws-1966-03-army-arts, ws-1966-04-luo-report, ws-1966-05-16-notice-attachment, ws-1966-05-ccrg-list, ws-1980-indictment]
@@ -2358,15 +2358,15 @@
     - { date: 1981-06-27, text: 历史决议说谭震林、陈毅、叶剑英、李富春等 1967 年 2 月前后对文革的错误作法提出批评，被诬为“二月逆流”而受到压制和打击, cite: ws-1981-resolution }
   fate:
     - { date: 1923-11, s: normal, note: 入党（此前数据作 1923）（维基百科，未核原件）, cite: zhwiki-chen-yi }
-    - { date: 1928-04, s: rise, note: 井冈山，红四军, verify: true }
-    - { date: 1934-10, s: sidelined, note: 留在南方坚持游击战争, verify: true }
+    - { date: 1928-04, s: rise, note: 在宁冈砻市与毛泽东部会师，成立工农革命军第四军，任第 12 师师长（维基百科，未核原件）, cite: zhwiki-chen-yi }
+    - { date: 1934-10, s: sidelined, note: 长征开始后因腿伤未愈留在苏区，此后坚持三年游击战争（维基百科，未核原件）, cite: zhwiki-chen-yi }
     - { date: 1941-01, s: power, note: 新四军代军长（维基百科，未核原件）, cite: zhwiki-chen-yi }
     - { date: 1947-01, s: power, note: 华东野战军司令员（此前数据作 1947）（维基百科，未核原件）, cite: zhwiki-chen-yi }
-    - { date: 1949-05, s: power, note: 上海市长, verify: true }
+    - { date: 1949-05, s: power, note: 攻占上海后兼任上海市军管会主任和市长（维基百科，未核原件）, cite: zhwiki-chen-yi }
     - { date: 1958-02, s: power }
     - { date: 1967-02, s: attacked, note: “二月逆流”, cite: ws-1981-resolution }
     - { date: 1967-08-07, s: attacked, note: 王力称“揪陈毅大方向当然对”, cite: ws-1980-indictment }
-    - { date: 1969-10, s: sidelined, note: 疏散到石家庄, place: shijiazhuang, verify: true }
+    - { date: 1969-10, s: sidelined, note: 林彪“第一号令”后疏散到石家庄（维基百科，未核原件）, place: shijiazhuang, cite: zhwiki-chen-yi }
     - { date: 1972-01-06, s: dead }
   cites: [ws-1980-indictment, ws-1981-resolution]
 
@@ -2450,12 +2450,12 @@
     - { date: 1924-05-05, s: rise, note: 黄埔军校教授部副主任（此前数据作 1924）（维基百科，未核原件）, cite: zhwiki-ye-jianying }
     - { date: 1927-07, s: normal, note: 秘密入党（维基百科，未核原件）, cite: zhwiki-ye-jianying }
     - { date: 1927-12, s: rise, note: 参与领导广州起义（维基百科，未核原件）, cite: zhwiki-ye-jianying }
-    - { date: 1937-08, s: power, note: 八路军参谋长, verify: true }
-    - { date: 1949-10, s: power, note: 广州市长, verify: true }
+    - { date: 1937-08, s: power, note: 红军主力改编为八路军，任参谋长（维基百科，未核原件）, cite: zhwiki-ye-jianying }
+    - { date: 1949-10, s: power, note: 攻占广州后任广东省人民政府主席兼广州市市长（维基百科，未核原件）, cite: zhwiki-ye-jianying }
     - { date: 1955, s: power }
     - { date: 1967-02, s: attacked, note: “二月逆流”, cite: ws-1981-resolution }
-    - { date: 1969-10, s: sidelined, note: 疏散到湖南, verify: true }
-    - { date: 1971-09, s: restored, note: 主持军委日常工作, verify: true }
+    - { date: 1969-10, s: sidelined, note: 林彪“第一号令”后疏散到长沙（维基百科，未核原件）, cite: zhwiki-ye-jianying }
+    - { date: 1971-09, s: restored, note: 九一三事件后以军委副主席身份主持军委日常工作（维基百科，未核原件）, cite: zhwiki-ye-jianying }
     - { date: 1973-08, s: power, note: 中共中央副主席（维基百科，未核原件）, cite: zhwiki-ye-jianying }
     - { date: 1976-10-06, s: power, note: 参与粉碎“四人帮”, cite: ws-1981-resolution }
     - { date: 1978-03, s: power, note: 全国人大常委会委员长（维基百科，未核原件）, cite: zhwiki-ye-jianying }
@@ -2884,7 +2884,7 @@
     - { date: 1936-12, s: normal, note: 入党（此前数据作 1936）（维基百科，未核原件）, cite: zhwiki-zheng-tianxiang }
     - { date: 1952, s: power, note: 北京市委秘书长（维基百科，未核原件）, cite: zhwiki-zheng-tianxiang }
     - { date: 1966-06-03, s: purged, note: 北京市委改组, cite: rmrb-1966-06-04-new-committee }
-    - { date: 1977, s: restored, note: 七机部部长, verify: true }
+    - { date: 1977, s: restored, note: 任中共北京市委书记、市革委会副主任，1978 年后历任七机部第一副部长、部长（此前数据作 1977 年任七机部部长）（维基百科，未核原件）, cite: zhwiki-zheng-tianxiang }
     - { date: 1983-06, s: power, note: 最高人民法院院长（维基百科，未核原件）, cite: zhwiki-zheng-tianxiang }
     - { date: 1988-04, s: normal, note: 卸任退休, verify: true }
     - { date: 2013-10-10, s: dead }
@@ -2913,7 +2913,7 @@
     - { date: 1982, text: 中共中央为李雪峰恢复党籍, verify: true }
   tier: 3
   role1966: 华北局第一书记、新北京市委第一书记
-  bio: 长期主政华北的干部。抗战时期在太行根据地任区党委书记（待核），1956 年起任中央书记处书记，1963 年起任华北局第一书记。1966 年 6 月 3 日接替彭真兼任北京市委第一书记，新市委随即向北大等校派出工作组，7 月 28 日又以新市委名义宣布撤销工作组；8 月陪同刘少奇到建工学院。九大后任政治局候补委员（待核）。1970 年夏陪陈伯达在华北各地活动，九届二中全会上“华北组第六号简报”经他之手发出；1971 年 1 月华北会议上周恩来代表中央指出他“在政治上所犯的方向、路线的严重错误”，此后被撤职审查。1982 年恢复党籍（待核）。
+  bio: 长期主政华北的干部。抗战时期在太行根据地任区党委书记（待核），1956 年起任中央书记处书记，1960 年代任华北局第一书记。1966 年 6 月 3 日接替彭真兼任北京市委第一书记，新市委随即向北大等校派出工作组，7 月 28 日又以新市委名义宣布撤销工作组；8 月陪同刘少奇到建工学院。九大后任政治局候补委员（待核）。1970 年夏陪陈伯达在华北各地活动，九届二中全会上“华北组第六号简报”经他之手发出；1971 年 1 月华北会议上周恩来代表中央指出他“在政治上所犯的方向、路线的严重错误”，此后被撤职审查。1982 年恢复党籍（待核）。
   life:
     - h: 早年与太行
       from: 1907
@@ -2926,7 +2926,7 @@
       from: 1949
       to: 1965
       text: |
-        建国后在中南、中央工业部门工作，1956 年八大当选中央委员和中央书记处书记，主管工业（待核）。1963 年起任中共中央华北局第一书记。
+        建国后在中南、中央工业部门工作，1956 年八大当选中央委员和中央书记处书记，主管工业（待核）。1963 年起任中共中央华北局第一书记（维基百科作 1960 年 11 月起任华北局第一书记、北京军区第一政委）。
       verify: true
       cites: [ccp-figures-bios]
     - h: 新北京市委与工作组
@@ -2966,7 +2966,7 @@
   fate:
     - { date: 1933-10, s: normal, note: 1927年入党后失去联系，1933年10月接上关系（原记入党）（此前数据作 1933）（维基百科，未核原件）, cite: zhwiki-li-xuefeng }
     - { date: 1956-09, s: rise, note: 中央书记处书记（维基百科，未核原件）, cite: zhwiki-li-xuefeng }
-    - { date: 1963, s: power, note: 华北局第一书记, verify: true }
+    - { date: 1960-11, s: power, note: 任中共中央华北局第一书记、北京军区第一政委（此前数据作 1963）（维基百科，未核原件）, cite: zhwiki-li-xuefeng }
     - { date: 1966-06-03, s: power, note: 兼北京市委第一书记, cite: rmrb-1966-06-04-new-committee }
     - { date: 1971-01-24, s: purged, note: 华北会议上被点名, cite: ws-1971-12-lin-chen-material-1 }
     - { date: 1982-04, s: restored, note: 获得平反（原记恢复党籍）（此前数据作 1982）（维基百科，未核原件）, cite: zhwiki-li-xuefeng }
@@ -3005,7 +3005,7 @@
       from: 1908
       to: 1937
       text: |
-        1908 年 11 月 7 日生于湖南益阳，原名周起应。1925 年入上海大夏大学，1927 年入党，1928 年赴日本留学。回国后参加中国左翼作家联盟，1933 年起任左联党团书记，与鲁迅关系日渐紧张。1936 年提出“国防文学”口号，鲁迅等人提出“民族革命战争的大众文学”，形成“两个口号”论争（待核）。
+        1908 年 11 月 7 日生于湖南益阳，原名周起应。1925 年入上海大夏大学，1927 年入党，1928 年赴日本留学。回国后参加中国左翼作家联盟，1933 年起任左联党团书记（维基百科作 1932 年加入左联后成为实际领导人），与鲁迅关系日渐紧张。1936 年提出“国防文学”口号，鲁迅等人提出“民族革命战争的大众文学”，形成“两个口号”论争（待核）。
       verify: true
       cites: [ccp-figures-bios]
     - h: 延安与鲁艺
@@ -3036,7 +3036,7 @@
       from: 1966
       to: 1982
       text: |
-        1966 年底被关押，后囚于秦城监狱；1975 年 7 月经毛泽东批示获释（待核）。1977 年起任中国社会科学院副院长，1979 年第四次文代会上当选中国文联主席，并任中宣部顾问（待核）。
+        1966 年底被关押，后囚于秦城监狱；1975 年 7 月经毛泽东批示获释（待核）。1977 年起任中国社会科学院副院长，1979 年第四次文代会上当选中国文联主席，并任中宣部顾问（待核；维基百科作 1978 年 6 月 12 日任文联主席）。
       verify: true
       cites: [ccp-figures-bios]
     - h: “异化”讨论与晚年
@@ -3058,12 +3058,12 @@
   factions: [propdept]
   fate:
     - { date: 1927, s: normal, note: 四一二政变后入党, cite: rmrb-1989-09-05-zhou-yang-farewell }
-    - { date: 1933, s: rise, note: 左联党团书记, verify: true }
-    - { date: 1949, s: power, note: 中宣部副部长, verify: true }
+    - { date: 1932, s: rise, note: 加入左联，成为“左联”实际领导人（此前数据作 1933 年任左联党团书记）（维基百科，未核原件）, cite: zhwiki-zhou-yang }
+    - { date: 1949, s: power, note: 建国后主要任中宣部副部长、文化部副部长（维基百科，未核原件）, cite: zhwiki-zhou-yang }
     - { date: 1966-07-01, s: purged, note: 《红旗》点名, cite: ws-1966-red-flag-index }
     - { date: 1967-05, s: detained, note: 入秦城监狱（此前数据作 1966-12）（维基百科，未核原件）, cite: zhwiki-zhou-yang }
     - { date: 1975, s: restored, note: 出狱（此前数据作 1975-07）（维基百科，未核原件）, cite: zhwiki-zhou-yang }
-    - { date: 1979-11, s: power, note: 中国文联主席, verify: true }
+    - { date: 1978-06-12, s: power, note: 任中国文联主席、党组书记（此前数据作 1979-11 第四次文代会）（维基百科，未核原件）, cite: zhwiki-zhou-yang }
     - { date: 1983-11-06, s: attacked, note: “清除精神污染”中，《人民日报》头版刊登其就“异化”“人道主义”文章所作的自我批评（此前数据作 1983-11）（维基百科，未核原件）, cite: zhwiki-zhou-yang }
     - { date: 1989-07-31, s: dead }
   cites: [ws-1966-03-army-arts, ws-1966-05-16-notice-attachment, ws-1966-red-flag-index, ws-1966-11-01-luxun, ws-1967-red-flag-index, rmrb-1967-04-01-qi-benyu, ws-1967-05-10-opera, ws-1980-indictment]
@@ -3248,7 +3248,7 @@
     - { date: 1938-01, s: normal, note: 入党（此前数据作 1938）（维基百科，未核原件）, cite: zhwiki-hu-sheng }
     - { date: 1958, s: rise, note: 《红旗》副总编辑, verify: true }
     - { date: 1966-02, s: power, note: 五人小组办公室, cite: ws-1966-02-outline }
-    - { date: 1966-05, s: attacked, verify: true }
+    - { date: 1966-05, s: attacked, note: 《二月提纲》被撤销后在中央政治局扩大会议上检讨，被解除《红旗》杂志的工作（维基百科，未核原件）, cite: zhwiki-hu-sheng }
     - { date: 1985, s: power, note: 社科院院长（维基百科，未核原件）, cite: zhwiki-hu-sheng }
     - { date: 2000-11-05, s: dead }
   cites: [ws-1966-02-outline, ws-1966-05-16-notice-attachment]
@@ -3279,7 +3279,7 @@
       from: 1919
       to: 1956
       text: |
-        1919 年 12 月生于广东新会。1937 年到延安，1938 年入党，在《解放日报》国际部、新华社工作。1952 年任新华社社长（待核）。
+        1919 年 12 月生于广东新会。1937 年到延安，1938 年入党，在《解放日报》国际部、新华社工作。1952 年任新华社社长（待核；维基百科信息框作 1952 年 12 月，正文作 1951 年 12 月）。
       verify: true
       cites: [ccp-figures-bios, wu-lengxi-memoir]
     - h: 主持《人民日报》
@@ -3318,7 +3318,7 @@
   factions: [propdept]
   fate:
     - { date: 1938, s: normal, note: 入党, verify: true }
-    - { date: 1952, s: rise, note: 新华社社长, verify: true }
+    - { date: 1952-12, s: rise, note: 任新华社社长（维基信息框作 1952 年 12 月起，正文作 1951 年 12 月；此前数据作 1952）（维基百科，未核原件）, cite: zhwiki-wu-lengxi }
     - { date: 1957, s: power, note: 《人民日报》总编辑（维基百科，未核原件）, cite: zhwiki-wu-lengxi }
     - { date: 1966-05-31, s: purged, note: 陈伯达率工作组进驻人民日报, verify: true }
     - { date: 1979, s: restored, verify: true }
@@ -3449,10 +3449,10 @@
       cites: [dong-bian-tian-jiaying]
   factions: [mao]
   fate:
-    - { date: 1938, s: normal, note: 入党, verify: true }
+    - { date: 1938, s: normal, note: 赴延安入陕北公学，同年入党（维基百科，未核原件）, cite: zhwiki-tian-jiaying }
     - { date: 1948, s: power, note: 任毛泽东秘书（维基百科，未核原件）, cite: zhwiki-tian-jiaying }
     - { date: 1962-07, s: attacked, note: 主张包产到户受毛泽东批评, verify: true }
-    - { date: 1966-05-22, s: purged, note: 停职审查, verify: true }
+    - { date: 1966-05-22, s: purged, note: 以“一贯右倾”“篡改毛泽东著作”被勒令停职反省（维基百科，未核原件）, cite: zhwiki-tian-jiaying }
     - { date: 1966-05-23, s: dead, note: 自尽（维基百科，未核原件）, cite: zhwiki-tian-jiaying }
   cites: [dong-bian-tian-jiaying, ws-1966-05-16-notice-attachment]
   verify: true
@@ -3966,7 +3966,7 @@
     - { date: 1968-12, s: sidelined, note: 分配到宁夏三〇四厂, place: yinchuan, cite: ws-1982-12-kuai-dafu-case }
     - { date: 1970-11, s: detained, note: 以清查“五一六”名义被审查（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1978-04-19, s: detained, note: 逮捕, cite: ws-1982-12-kuai-dafu-case }
-    - { date: 1983, s: detained, note: 判处有期徒刑十七年, cite: ws-1982-12-kuai-dafu-case, verify: true }
+    - { date: 1983-03-16, s: detained, note: 北京市中级人民法院判处有期徒刑十七年（此前数据作 1983）（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
     - { date: 1987-10-31, s: normal, note: 刑满释放（刑期从 1970-11-01 隔离审查算起）（维基百科，未核原件）, cite: zhwiki-kuai-dafu }
   cites: [ws-1966-qinghua-workteam-survey, ws-1966-10-liu-self-criticism, ws-1980-indictment, ws-1981-01-25-judgment, ws-1982-12-kuai-dafu-case]
 
@@ -4016,7 +4016,7 @@
     - { title: 我给毛主席戴上了红袖章（署名宋要武）, date: 1966-08 }
   factions: [oldrg]
   fate:
-    - { date: 1966-06, s: rise, note: 贴出学校第一张大字报, verify: true }
+    - { date: 1966-06-02, s: rise, note: 与刘进、马德秀署名贴出师大女附中第一张大字报（据“卞仲耘”条；此前数据作 1966-06）（维基百科，未核原件）, cite: zhwiki-bian-zhongyun }
     - { date: 1966-08-18, s: rise, note: 新华社当日电只说“师大女附中一个‘红卫兵’”，未点名, cite: rmrb-1966-08-19-first-rally, verify: true }
     - { date: 1968-04, s: detained, note: 与母亲被押到沈阳软禁（原记下乡插队）（此前数据作 1968）（维基百科，未核原件）, cite: zhwiki-song-binbin }
   cites: [rmrb-1966-08-19-first-rally, wang-youqin-victims]
@@ -4232,7 +4232,7 @@
     - { date: 1967-01, s: purged, note: 造反派宣布“不再承认”其第一书记职务, cite: ws-1982-xu-jingxian-case }
     - { date: 1967-02, s: detained, note: 被非法监禁, cite: ws-1982-xu-jingxian-case, verify: true }
     - { date: 1970-11, s: detained, note: 审查报告定为“叛徒”“现行反革命”, cite: ws-1982-xu-jingxian-case }
-    - { date: 1975, s: sidelined, note: 解除关押, verify: true }
+    - { date: 1975-07-01, s: sidelined, note: 经毛泽东同意，“恢复了中断近九年的组织生活”（此前数据作 1975“解除关押”）（维基百科，未核原件）, cite: zhwiki-chen-pixian }
     - { date: 1977-02, s: restored, note: 任云南省委书记，同年7月调湖北省委第二书记（原记任湖北省委第一书记）（此前数据作 1977）（维基百科，未核原件）, cite: zhwiki-chen-pixian }
     - { date: 1995-08-22, s: dead }
   cites: [ws-1980-indictment, ws-1982-xu-jingxian-case, ws-1982-08-21-wang-xiuzhen-case]
@@ -4379,11 +4379,11 @@
     - { date: 1932, s: normal, note: 入党, verify: true }
     - { date: 1965-05, s: power, note: 任空军司令员（维基百科，未核原件）, cite: zhwiki-wu-faxian }
     - { date: 1966-09-03, s: power, note: 送林彪诬陷贺龙的材料, cite: ws-1981-01-25-judgment }
-    - { date: 1967-08, s: power, note: 军委办事组副组长, verify: true }
+    - { date: 1967-08-17, s: power, note: 军委看守小组成立，任组长；9 月 24 日杨成武任组长后改任副组长，主持军委日常工作（此前数据作 1967-08）（维基百科，未核原件）, cite: zhwiki-wu-faxian }
     - { date: 1969-04-28, s: power, note: 当选政治局委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1969-10-17, s: power, note: 任命林立果, cite: ws-1972-lin-material-3 }
     - { date: 1970-10-14, s: attacked, note: 毛泽东批评其书面检讨, cite: ws-1971-12-lin-chen-material-1 }
-    - { date: 1971-09-24, s: detained, note: 隔离审查, verify: true }
+    - { date: 1971-09-24, s: detained, note: 与黄永胜、李作鹏、邱会作一同被隔离审查（维基百科，未核原件）, cite: zhwiki-wu-faxian }
     - { date: 1971-09-29, s: purged, note: 中央通知离职反省, cite: ws-1971-09-29-notice }
     - { date: 1981-01-25, s: detained, note: 判处有期徒刑十七年, cite: ws-1981-01-25-judgment }
     - { date: 2004-10-17, s: dead }
@@ -4658,7 +4658,7 @@
   fate:
     - { date: 1941, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-bian-zhongyun }
     - { date: 1950, s: power, note: 任师大女附中副校长, verify: true }
-    - { date: 1966-06, s: attacked, note: 学生大字报批判校领导, verify: true }
+    - { date: 1966-06-02, s: attacked, note: 刘进、宋彬彬、马德秀署名的全校第一张大字报攻击校领导（此前数据作 1966-06）（维基百科，未核原件）, cite: zhwiki-bian-zhongyun }
     - { date: 1966-08-05, s: dead, note: 被学生殴打致死（维基百科，未核原件）, cite: zhwiki-bian-zhongyun }
   cites: [wang-youqin-victims]
   verify: true

@@ -202,7 +202,7 @@
     - { voice: officialLater, text: 没有发现章、罗二人有在组织上共同策划，进行阴谋活动的事实（1980 年中央统战部报告，关于“章罗同盟”）, cite: ws-1980-ufwd-rightist-review, quote: true }
   factions: [rightists]
   fate:
-    - { date: 1949-10, s: power, note: 交通部长, verify: true }
+    - { date: 1949-10, s: power, note: 建国后任中央人民政府交通部部长等职（维基百科，未核原件）, cite: zhwiki-zhang-bojun }
     - { date: 1957-07, s: attacked, note: 被定为“章罗同盟”首领, verify: true }
     - { date: 1958-01-31, s: purged, note: 人大常委会建议不再出席人大, cite: ws-1958-npc-rightists-removal }
     - { date: 1969-05-17, s: dead, note: 病逝（维基百科，未核原件）, cite: zhwiki-zhang-bojun }

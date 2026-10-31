@@ -197,7 +197,7 @@
   factions: [reform, bjcommittee]
   fate:
     - { date: 1958-03, s: power, note: 北京市委书记处书记、副市长, cite: people-2015-07-23-wan-li }
-    - { date: 1966-06, s: detained, note: 随旧市委被打倒，监护审查, verify: true }
+    - { date: 1966-06, s: purged, note: 文革前期失势，北京市副市长任至 1966 年 6 月（此前数据作“随旧市委被打倒，监护审查”）（维基百科，未核原件）, cite: zhwiki-wan-li }
     - { date: 1973-05, s: restored, note: 北京市委书记、革委会副主任, cite: people-2015-07-23-wan-li }
     - { date: 1975-01, s: power, note: 铁道部部长, cite: people-2015-07-23-wan-li }
     - { date: 1976, s: purged, note: “反击右倾翻案风”中再次被打倒, cite: people-2015-07-23-wan-li }

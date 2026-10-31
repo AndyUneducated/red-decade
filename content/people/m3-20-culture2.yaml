@@ -170,7 +170,7 @@
     - { voice: editor, text: 中国作家网转载的《曹禺生平》从 1949 年直接写到他和同事“经过四十多年的奋斗”建成北京人艺，同样不提文革；他在文革中的遭遇主要靠梁秉堃等同事的回忆。, cite: chinawriter-cao-yu }
   factions: [academics]
   fate:
-    - { date: 1952-06, s: normal, note: 北京人艺院长, verify: true }
+    - { date: 1952-06, s: normal, note: 北京人艺院长（维基信息框，任至 1996 年 12 月）（维基百科，未核原件）, cite: zhwiki-cao-yu }
     - { date: 1966, s: attacked, note: 被打成“反动权威”, cite: chinanews-2010-cao-yu, verify: true }
     - { date: 1978-06-30, s: restored, note: 平反，恢复院长职务, cite: chinanews-2010-cao-yu }
     - { date: 1996-12-13, s: dead, note: （维基百科，未核原件）, cite: zhwiki-cao-yu }
@@ -395,8 +395,8 @@
     - { voice: editor, text: 1982 年的消息把批判归于康生、陈伯达的“策划鼓动”，没有提毛泽东；也没有写他辞去北大校长的年份，本站用的 1960 年 3 月来自北大校长名录，需要核对。, cite: rmrb-1982-05-23-ma-yinchu }
   factions: [academics]
   fate:
-    - { date: 1951-06, s: normal, note: 北京大学校长, verify: true }
-    - { date: 1958, s: attacked, note: “新人口论”被批判, verify: true }
+    - { date: 1951-05, s: normal, note: 被任命为北京大学校长（此前数据作 1951-06）（维基百科，未核原件）, cite: zhwiki-ma-yinchu }
+    - { date: 1958, s: attacked, note: “双反”运动中经济理论和“新人口论”受批判（维基百科，未核原件）, cite: zhwiki-ma-yinchu }
     - { date: 1960-03, s: sidelined, note: 辞去北大校长，1月请辞（维基百科，未核原件）, cite: zhwiki-ma-yinchu }
     - { date: 1979, s: restored, note: 平反, cite: rmrb-1982-05-23-ma-yinchu }
     - { date: 1982-05-10, s: dead, note: （维基百科，未核原件）, cite: zhwiki-ma-yinchu }

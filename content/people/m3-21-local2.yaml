@@ -231,7 +231,7 @@
   factions: [provincial]
   fate:
     - { date: 1967-02, s: purged, note: 山东省委被造反派夺权, verify: true }
-    - { date: 1973, s: restored, note: 浙江省委第一书记, verify: true }
+    - { date: 1972-04, s: restored, note: 任浙江省委书记（主持工作），后任省委第一书记（此前数据作 1973）（维基百科，未核原件）, cite: zhwiki-tan-qilong }
     - { date: 2003-01-22, s: dead, cite: rmrb-2003-02-06-tan-qilong }
   cites: [rmrb-2003-02-06-tan-qilong, ws-1980-indictment]
 
@@ -287,7 +287,7 @@
     - { date: 1968, s: sidelined, note: 调离新疆, verify: true }
     - { date: 1969-04, s: sidelined, note: 九大上降为候补中央委员, cite: cppcc-wang-enmao }
     - { date: 1977, s: restored, note: 吉林省委第一书记, verify: true }
-    - { date: 1981-10, s: power, note: 重回新疆任自治区党委第一书记, verify: true }
+    - { date: 1981, s: power, note: 重回新疆任自治区党委第一书记，至 1985 年（此前数据作 1981-10）（维基百科，未核原件）, cite: zhwiki-wang-enmao }
     - { date: 2001-04-12, s: dead, cite: cppcc-wang-enmao }
   cites: [cppcc-wang-enmao, ws-1980-indictment]
 

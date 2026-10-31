@@ -222,7 +222,7 @@
   fate:
     - { date: 1940, s: normal, note: 用艺名上官云珠从影（维基百科，未核原件）, cite: zhwiki-shangguan-yunzhu }
     - { date: 1956-01-10, s: normal, note: 受毛泽东接见, cite: whb-2018-11-23-shangguan-yunzhu }
-    - { date: 1966, s: attacked, note: 《早春二月》《舞台姐妹》被批, verify: true }
+    - { date: 1966, s: attacked, note: 主演的《早春二月》《舞台姐妹》被定为“大毒草”，9 月在上影批判会上被殴打（维基百科，未核原件）, cite: zhwiki-shangguan-yunzhu }
     - { date: 1968-11-23, s: dead, note: 从家中四楼跳下身亡, cite: whb-2018-11-23-shangguan-yunzhu }
     - { date: 1978-12, s: restored, note: 上影为她平反（维基百科，未核原件）, cite: zhwiki-shangguan-yunzhu }
   cites: [whb-2018-11-23-shangguan-yunzhu]

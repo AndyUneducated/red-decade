@@ -1,0 +1,38 @@
+# Y4（2026-10-31）：核对待核命运节点时新增的中文维基百科条目（4 级，编者综述，转录、未核原件；只留所引段落）。
+web:
+  - id: zhwiki-wan-li
+    title: 万里（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“万里”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E4%B8%87%E9%87%8C
+    excerpt: true
+    keep: ["1958年8月－1966年6月，北京市副市长","“文化大革命”前期，万里失势"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-tan-qilong
+    title: 谭启龙（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“谭启龙”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E8%B0%AD%E5%90%AF%E9%BE%99
+    excerpt: true
+    keep: ["中共建政后，历任浙江省委副书记"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-enmao
+    title: 王恩茂（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王恩茂”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E6%81%A9%E8%8C%82
+    excerpt: true
+    keep: ["王恩茂曾任第三届国防委员会委员"]
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。

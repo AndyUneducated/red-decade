@@ -102,7 +102,7 @@
     - { voice: editor, text: 判决书把曲阜讨孔写成戚本禹通过林杰“指使”的结果；她本人没有受审，现存材料里看不到她自己的辩解。 }
   factions: [rebels]
   fate:
-    - { date: 1966-09, s: rise, note: 北师大井冈山公社负责人, verify: true }
+    - { date: 1966-08, s: rise, note: 8 月底组织北师大“毛泽东思想红卫兵井冈山战斗团”并任总负责人（此前数据作 1966-09）（维基百科，未核原件）, cite: zhwiki-tan-houlan }
     - { date: 1966-11-09, s: power, note: 曲阜讨孔, cite: ws-1983-11-02-qi-benyu-case }
     - { date: 1967-04-20, s: power, note: 北京市革委会常委（成立大会报道所列出席常委）, cite: rmrb-1967-04-21-beijing-revcom }
     - { date: 1968-07-28, s: sidelined, note: 毛泽东召见五大领袖（维基百科，未核原件）, cite: zhwiki-tan-houlan }

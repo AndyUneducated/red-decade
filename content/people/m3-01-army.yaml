@@ -361,7 +361,7 @@
     - { date: 1965-12, s: rise, note: 起任代理总参谋长（此前数据作 1966 年 8 月）, cite: people-jiangshuai-yang-chengwu }
     - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
     - { date: 1968-03-22, s: purged, note: 杨余傅事件：中共中央决定撤销其代总参谋长职务（此前数据作 3 月 24 日）, cite: ccrd-1987-bj-chronology-192 }
-    - { date: 1968-03-25, s: detained, verify: true }
+    - { date: 1968-03-25, s: detained, note: 撤职后与家人交武汉军区看管（维基百科只写在 3 月 22 日撤职“之后”，日期待核）, verify: true }
     - { date: 1974-11, s: restored, note: 重新工作，任副总参谋长（此前数据作 1974 年 7 月）, cite: xinhua-2004-yang-chengwu-bio }
     - { date: 1978, s: power, note: 副总参谋长兼福州军区司令员（此前数据作 1977 年）, cite: people-jiangshuai-yang-chengwu }
     - { date: 2004-02-14, s: dead, cite: xinhua-2004-yang-chengwu-bio }
@@ -414,7 +414,7 @@
   fate:
     - { date: 1930, s: normal, note: 入党（原记参加红军）（维基百科，未核原件）, cite: zhwiki-yu-lijin }
     - { date: 1955-09, s: normal, note: 授中将（维基百科，未核原件）, cite: zhwiki-yu-lijin }
-    - { date: 1965, s: power, note: 空军政委, verify: true }
+    - { date: 1965-05, s: power, note: 空军政委，任至 1968 年 3 月（维基信息框；此前数据作 1965）（维基百科，未核原件）, cite: zhwiki-yu-lijin }
     - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
     - { date: 1968-03-24, s: purged, note: 杨余傅事件, verify: true }
     - { date: 1968-03-25, s: detained, verify: true }
@@ -457,7 +457,7 @@
       from: 1950
       to: 1968-03
       text: |
-        1951 年任志愿军第十九兵团第六十三军军长，在铁原一带阻击“联合国军”。1955 年授少将军衔。1966 年 5 月任北京卫戍区司令员（首都工作组成立、调兵加强北京卫戍之际），8 月 18 日出席第一次接见红卫兵大会。此后按周恩来的安排保护受冲击的中央和地方干部，在 1967 年多次与要求“揪斗”干部的群众组织交涉。
+        1951 年任志愿军第十九兵团第六十三军军长，在铁原一带阻击“联合国军”。1955 年授少将军衔。1966 年 5 月任北京卫戍区司令员（首都工作组成立、调兵加强北京卫戍之际；维基百科作 1965 年任北京军区副司令员兼北京卫戍区司令员），8 月 18 日出席第一次接见红卫兵大会。此后按周恩来的安排保护受冲击的中央和地方干部，在 1967 年多次与要求“揪斗”干部的群众组织交涉。
       verify: true
       cites: [rmrb-1966-08-19-first-rally, klein-clark-1971]
     - h: 杨余傅事件与平反
@@ -471,7 +471,7 @@
   fate:
     - { date: 1932, s: normal, note: 参加红军（维基百科，未核原件）, cite: zhwiki-fu-chongbi }
     - { date: 1951, s: normal, note: 六十三军军长, verify: true }
-    - { date: 1966-05, s: power, note: 北京卫戍区司令员, verify: true }
+    - { date: 1965, s: power, note: 北京军区副司令员兼北京卫戍区司令员（此前数据作 1966-05）（维基百科，未核原件）, cite: zhwiki-fu-chongbi }
     - { date: 1966-08-18, s: power, note: 出席第一次接见红卫兵大会, cite: rmrb-1966-08-19-first-rally }
     - { date: 1968-03-24, s: purged, note: 杨余傅事件, verify: true }
     - { date: 1968-03-25, s: detained, verify: true }

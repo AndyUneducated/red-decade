@@ -180,7 +180,7 @@
     - { date: 1967-07, s: rise, note: 升任武汉军区政委（维基百科，未核原件）, cite: zhwiki-liu-feng }
     - { date: 1969-04-24, s: power, note: 九大名单中为中央委员（原记还有“中央军委委员”，名单不涉及）, cite: rmrb-1969-04-25-ninth-cc-list }
     - { date: 1971-09-06, s: power, note: 向李作鹏透露毛泽东南巡谈话, cite: ws-1980-indictment }
-    - { date: 1971-11, s: purged, note: 免职审查, verify: true }
+    - { date: 1971-11, s: purged, note: 因私自向李作鹏透露毛泽东视察武汉情况被免职，审查期间曾自杀未遂（维基百科，未核原件）, cite: zhwiki-liu-feng }
     - { date: 1973, s: purged, note: 开除党籍（维基百科，未核原件）, cite: zhwiki-liu-feng }
     - { date: 1974-05-21, s: attacked, note: 中央文件称其“林彪死党”, cite: ws-1974-05-21-hubei-instructions }
     - { date: 1993-03-09, s: dead, note: （维基百科，未核原件）, cite: zhwiki-liu-feng }
@@ -570,8 +570,8 @@
   factions: [provincial]
   fate:
     - { date: 1961-07, s: power, note: 广西区党委第一书记（维基百科，未核原件）, cite: zhwiki-wei-guoqing }
-    - { date: 1967, s: attacked, note: 被“四二二”攻击, verify: true }
     - { date: 1967-11-18, s: power, note: 中央决定肯定其检查，主持广西革筹, cite: ws-1967-11-18-guangxi-decision }
+    - { date: 1968, s: attacked, note: 造反派“四二二”反对他的领导，他向“四二二”发起攻击，引发大规模流血冲突（此前数据作 1967）（维基百科，未核原件）, cite: zhwiki-wei-guoqing }
     - { date: 1968-08, s: power, note: 广西革委会主任（此前数据作 1968-08-26）（维基百科，未核原件）, cite: zhwiki-wei-guoqing }
     - { date: 1973-08-30, s: power, note: 十届一中全会当选政治局委员, cite: ws-1973-08-30-first-plenum }
     - { date: 1977, s: power, note: 总政治部主任, cite: people-jiangshuai-wei-guoqing }

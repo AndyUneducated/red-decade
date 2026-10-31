@@ -322,7 +322,7 @@
       from: 1955-11
       to: 1972-03
       text: |
-        1955 年 11 月起任广州军区第二政委。据 1980 年起诉书，“一九六七年十月，黄永胜伙同广州部队政治委员刘兴元等提出对中共广东地下党进行‘审查’”，组织专门班子，制造“广东地下党”冤案，“使七千一百多人遭到诬陷、迫害，林锵云等八十五人被迫害致死”；又从 1967 年 5 月到 1970 年 11 月在广州部队制造“反革命集团”冤案，诬陷副司令员文年生等“夺权搞政变”，株连七百多名干部，文年生等被迫害致死。1969 年 4 月任中央军委委员，6 月接任广东省革委会主任，1970 年 12 月任广东省委第一书记。
+        1955 年 11 月起任广州军区第二政委。据 1980 年起诉书，“一九六七年十月，黄永胜伙同广州部队政治委员刘兴元等提出对中共广东地下党进行‘审查’”，组织专门班子，制造“广东地下党”冤案，“使七千一百多人遭到诬陷、迫害，林锵云等八十五人被迫害致死”；又从 1967 年 5 月到 1970 年 11 月在广州部队制造“反革命集团”冤案，诬陷副司令员文年生等“夺权搞政变”，株连七百多名干部，文年生等被迫害致死。1969 年 4 月任中央军委委员，6 月接任广东省革委会主任（维基百科作 1969 年 11 月），1970 年 12 月任广东省委第一书记。
       cites: [ws-1980-indictment]
       verify: true
     - h: 成都
@@ -337,10 +337,10 @@
   factions: [provincial, lin]
   fate:
     - { date: 1931-05, s: normal, note: 参加红军（此前数据作 1931）（维基百科，未核原件）, cite: zhwiki-liu-xingyuan }
-    - { date: 1955-11, s: normal, note: 广州军区第二政委, verify: true }
+    - { date: 1955-11, s: normal, note: 广州军区第二政委（维基百科，未核原件）, cite: zhwiki-liu-xingyuan }
     - { date: 1967-10, s: power, note: 审查广东地下党, cite: ws-1980-indictment }
-    - { date: 1969-06, s: power, note: 广东省革委会主任, verify: true }
-    - { date: 1972-03, s: normal, note: 调任成都军区, verify: true }
+    - { date: 1969-11, s: power, note: 广东省革委会主任、省革委会党的核心小组组长（此前数据作 1969-06）（维基百科，未核原件）, cite: zhwiki-liu-xingyuan }
+    - { date: 1972-03, s: normal, note: 调任成都军区第一政委、四川省委第一书记（维基百科，未核原件）, cite: zhwiki-liu-xingyuan }
     - { date: 1990-08-14, s: dead, note: （维基百科，未核原件）, cite: zhwiki-liu-xingyuan }
   cites: [ws-1980-indictment]
 
@@ -394,7 +394,7 @@
   fate:
     - { date: 1932, s: normal, note: 入党（维基百科，未核原件）, cite: zhwiki-ding-sheng }
     - { date: 1969-07, s: power, note: 广州军区司令员（维基百科，未核原件）, cite: zhwiki-ding-sheng }
-    - { date: 1973-12, s: power, note: 对调南京军区司令员, verify: true }
+    - { date: 1973, s: power, note: 八大军区司令员对调，与许世友对调到南京军区（此前数据作 1973-12）（维基百科，未核原件）, cite: zhwiki-ding-sheng }
     - { date: 1976-08, s: power, note: 延安饭店密谈, cite: ws-1980-indictment }
     - { date: 1977-03, s: purged, note: 撤职审查, verify: true }
     - { date: 1982-10, s: sidelined, note: 开除党籍、离休（维基百科，未核原件）, cite: zhwiki-ding-sheng }
@@ -454,7 +454,7 @@
   factions: [ccrg]
   fate:
     - { date: 1949, s: normal, note: 参军（维基百科，未核原件）, cite: zhwiki-chi-qun }
-    - { date: 1968-07, s: rise, note: 随军宣队进驻清华, verify: true }
+    - { date: 1968, s: rise, note: 随“军宣队”进入清华，任党委副书记、革委会副主任（此前数据作 1968-07）（维基百科，未核原件）, cite: zhwiki-chi-qun }
     - { date: 1971, s: power, note: 清华党委书记、革委会主任, cite: ws-1982-chi-qun-case }
     - { date: 1975-09, s: power, note: 指挥两校写作班子批邓, cite: ws-1982-chi-qun-case }
     - { date: 1976-10, s: detained, note: 隔离审查（维基百科，未核原件）, cite: zhwiki-chi-qun }
@@ -517,6 +517,6 @@
     - { date: 1973-08, s: power, note: 十届中央委员（维基百科，未核原件）, cite: zhwiki-xie-jingyi }
     - { date: 1976-03-26, s: power, note: 与迟群围攻邓小平, cite: ws-1982-chi-qun-case }
     - { date: 1976-10-06, s: detained, note: 被捕，被撤销党内外职务（原记隔离审查）（此前数据作 1976-10）（维基百科，未核原件）, cite: zhwiki-xie-jingyi }
-    - { date: 1983, s: normal, note: 免予起诉, verify: true }
+    - { date: 1983, s: normal, note: 审判迟群时“因坦白认罪较好，被免予起诉”（维基百科，未核原件）, cite: zhwiki-xie-jingyi }
     - { date: 2017-03-25, s: dead, note: （维基百科，未核原件）, cite: zhwiki-xie-jingyi }
   cites: [ws-1982-chi-qun-case, ws-1980-indictment, rmrb-1975-01-19-npc-sc-list]

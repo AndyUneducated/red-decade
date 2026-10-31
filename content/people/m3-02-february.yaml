@@ -421,7 +421,7 @@
       from: 1950
       to: 1966
       text: |
-        1955 年授中将，任总后勤部政委、财务部长。1958 年 2 月转任石油工业部长，1960 年组织大庆石油会战，次年大庆基本建成。1964 年毛泽东批评计委工作，年底另组以他为首的“小计委”，1965 年 1 月他任计委副主任主持日常工作，编制以三线建设为中心的第三个五年计划。
+        1955 年授中将，任总后勤部政委、财务部长。1958 年 2 月转任石油工业部长，1960 年组织大庆石油会战，次年大庆基本建成。1964 年毛泽东批评计委工作，年底另组以他为首的“小计委”，1965 年 1 月他任计委副主任主持日常工作（维基百科作 1964 年 12 月起任计委第一副主任兼秘书长），编制以三线建设为中心的第三个五年计划。
       verify: true
       cites: [klein-clark-1971, ccp-org-history]
     - h: 文革
@@ -445,7 +445,7 @@
   fate:
     - { date: 1931-05, s: normal, note: 入党（此前数据作 1931）（维基百科，未核原件）, cite: zhwiki-yu-qiuli }
     - { date: 1958-02, s: power, note: 石油工业部长（维基百科，未核原件）, cite: zhwiki-yu-qiuli }
-    - { date: 1965-01, s: rise, note: 主持国家计委（“小计委”）, verify: true }
+    - { date: 1964-12, s: rise, note: 到国家计委任第一副主任兼秘书长，领导中央“小计委”（此前数据作 1965-01）（维基百科，未核原件）, cite: zhwiki-yu-qiuli }
     - { date: 1967-01, s: attacked, note: 造反派揪斗, verify: true }
     - { date: 1967-03, s: power, note: 回到计委、参加国务院业务组, verify: true }
     - { date: 1968-12, s: attacked, note: “中国（马列）共产党”假案, cite: ws-1980-indictment }
@@ -516,7 +516,7 @@
     - { date: 1967, s: attacked, note: 被揪斗, verify: true }
     - { date: 1969, s: restored, note: 回到国家建委, verify: true }
     - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为国务院副总理, cite: rmrb-1975-01-19-state-council-list }
-    - { date: 1979-07, s: power, note: 主管对外开放与经济特区, verify: true }
+    - { date: 1978-12, s: power, note: 自 1978 年底起近十年在国务院主管对外开放工作（此前数据作 1979-07）（维基百科，未核原件）, cite: zhwiki-gu-mu }
     - { date: 1988-04, s: normal, note: 当选第七届全国政协副主席（原记退休）（维基百科，未核原件）, cite: zhwiki-gu-mu }
     - { date: 2009-11-06, s: dead, note: （维基百科，未核原件）, cite: zhwiki-gu-mu }
   cites: [ws-1967-07-09-liu-jiangong-review, ws-1980-indictment]
@@ -597,7 +597,7 @@
     - { date: 1925, s: normal, note: 参加五卅运动与商务印书馆罢工后入党, cite: rmrb-1995-04-12-chen-yun-obituary }
     - { date: 1937-10, s: power, note: 10 月底到延安任中组部长（此前数据作 1937-12）, cite: rmrb-1995-04-12-chen-yun-obituary }
     - { date: 1956-09, s: power, note: 八届一中全会当选政治局常委、中共中央副主席（维基百科，未核原件）, cite: zhwiki-chen-yun }
-    - { date: 1962-03, s: sidelined, note: 受毛泽东批评后养病, verify: true }
+    - { date: 1962-03, s: sidelined, note: 3 月 7 日在中央财经小组讲话、向毛泽东建议包产到户，此后因心脏病多年在南方疗养（维基百科，未核原件）, cite: zhwiki-chen-yun }
     - { date: 1966-08, s: sidelined, note: 不再任副主席（维基信息框记副主席任期止于 1966 年 8 月 1 日）（维基百科，未核原件）, cite: enwiki-chen-yun }
     - { date: 1967-02, s: attacked, note: 受到批判, cite: ws-1981-resolution }
     - { date: 1969-10-20, s: sidelined, note: 下放到江西南昌青云谱江西化工石油机械厂（维基百科，未核原件）, cite: zhwiki-chen-yun }

@@ -280,7 +280,7 @@
   factions: [mao]
   fate:
     - { date: 1932-02, s: normal, note: 转为党员, cite: xinhua-2011-li-desheng-bio }
-    - { date: 1952-10, s: normal, note: 上甘岭战役, verify: true }
+    - { date: 1952-10, s: normal, note: 上甘岭战役中一度任第一线总指挥，指挥十二军作战（维基百科，未核原件）, cite: zhwiki-li-desheng }
     - { date: 1968-04, s: power, note: 率部赴皖，历任安徽省军区司令员、省革委会主任（此前数据作 1968-04-18）, cite: xinhua-2011-li-desheng-bio }
     - { date: 1969-04-28, s: rise, note: 政治局候补委员, cite: ws-1969-04-28-9th-cc-plenum }
     - { date: 1970-04, s: power, note: 总政治部主任（至 1973-12）, cite: xinhua-2011-li-desheng-bio }
@@ -493,7 +493,7 @@
       from: 1971
       to: 1977
       text: |
-        1971 年 5 月国务院文化组成立，任副组长（组长吴德），实际主持日常工作；1975 年 1 月四届人大任文化部长，与浩亮（钱浩梁）、刘庆棠、刘春桥等掌握文艺界。1976 年 10 月“四人帮”被捕后被隔离审查，1977 年 8 月服毒自杀（日期与细节待核）。
+        1971 年 5 月国务院文化组成立，任副组长（组长吴德），实际主持日常工作（维基百科作 1970 年任文化组组员、1973 年任副组长）；1975 年 1 月四届人大任文化部长，与浩亮（钱浩梁）、刘庆棠、刘春桥等掌握文艺界。1976 年 10 月“四人帮”被捕后被隔离审查，1977 年 8 月服毒自杀（日期与细节待核）。
       verify: true
       cites: [wang-nianyi-turmoil]
   assess:
@@ -503,7 +503,7 @@
     - { date: 1946, s: normal, note: 参加胶东文工团（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
     - { date: 1965, s: rise, note: 受江青注意，参与样板戏音乐设计（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
     - { date: 1968-05-23, s: rise, note: 《文汇报》文章提出“三突出”（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
-    - { date: 1971-05, s: power, note: 国务院文化组副组长, verify: true }
+    - { date: 1973, s: power, note: 任国务院文化组副组长，1970 年起任组员（此前数据作 1971-05）（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
     - { date: 1975-01-17, s: power, note: 四届人大一次会议任命为文化部部长, cite: rmrb-1975-01-19-state-council-list }
     - { date: 1976-10, s: detained, note: 隔离审查（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
     - { date: 1977-08-28, s: dead, note: 服毒自杀（信息框作 8-31）（维基百科，未核原件）, cite: zhwiki-yu-huiyong }
@@ -638,12 +638,12 @@
   factions: [marshals]
   fate:
     - { date: 1928, s: normal, note: 平江起义（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
-    - { date: 1930, s: normal, note: 入党, verify: true }
+    - { date: 1930-11, s: normal, note: 由共青团转入中共（此前数据作 1930）（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
     - { date: 1955-09, s: normal, note: 授上将（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
     - { date: 1957-02, s: power, note: 海军第一政委（此前数据作 1957）（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
     - { date: 1967, s: purged, note: 被李作鹏等打倒、关押, verify: true }
     - { date: 1972-05, s: restored, note: 复出任海军第一副司令员，1973年3月改任海军第一政委（原记恢复海军第一政委）（此前数据作 1972）（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
     - { date: 1973-08, s: rise, note: 政治局候补委员, cite: ws-1977-07-tenth-third-plenum }
-    - { date: 1976-10, s: power, note: 接管上海, verify: true }
+    - { date: 1976-10, s: power, note: 率中央工作组秘密进驻上海，接管当地党政权力（维基百科，未核原件）, cite: zhwiki-su-zhenhua }
     - { date: 1979-02-07, s: dead, note: （维基百科，未核原件）, cite: zhwiki-su-zhenhua }
   cites: [ws-1980-indictment, ws-1977-07-tenth-third-plenum]
