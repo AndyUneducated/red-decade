@@ -268,6 +268,11 @@
 - { id: fugou, name: 河南扶沟, names: [扶沟], lat: 34.06, lon: 114.39 }
 - { id: tongzhou, name: 北京通州, names: [通州], lat: 39.91, lon: 116.66 }
 - { id: xuchang, name: 河南许昌, names: [许昌], lat: 34.03, lon: 113.85 }
+# Y3
+- { id: shenxian-hb, name: 河北深县, names: [深县, 深州], lat: 38.00, lon: 115.56 }
+- { id: faku, name: 辽宁法库, names: [法库], lat: 42.50, lon: 123.41 }
+- { id: qianan, name: 河北迁安, names: [迁安], lat: 40.02, lon: 118.70 }
+- { id: lixian-hb, name: 河北蠡县, names: [蠡县], lat: 38.49, lon: 115.58 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }

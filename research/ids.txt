@@ -2826,6 +2826,7 @@ places/dingxing
 places/donglan
 places/dongping
 places/dunhua
+places/faku
 places/fengrun
 places/fengxian
 places/fengyang
@@ -2898,6 +2899,7 @@ places/linxian
 places/linyi
 places/linyi-sx
 places/liuyang
+places/lixian-hb
 places/longyan
 places/macheng
 places/malan
@@ -2924,6 +2926,7 @@ places/pingjiang
 places/pingshun
 places/pingyi
 places/putian
+places/qianan
 places/qichun
 places/qihe
 places/qingan
@@ -2947,6 +2950,7 @@ places/shangyou
 places/shantou
 places/shaoshan
 places/shengxian
+places/shenxian-hb
 places/shenyang
 places/shenzhen
 places/shexian
