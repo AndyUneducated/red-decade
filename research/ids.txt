@@ -2843,6 +2843,7 @@ places/gongxian
 places/guangan
 places/guanghan
 places/guangzhou
+places/guinan
 places/guiyang
 places/haian
 places/haikou
@@ -2996,6 +2997,7 @@ places/xiangtan
 places/xiangxiang
 places/xianning
 places/xinfeng
+places/xingcheng
 places/xingguo
 places/xinghua
 places/xingxian

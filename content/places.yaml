@@ -274,6 +274,8 @@
 - { id: qianan, name: 河北迁安, names: [迁安], lat: 40.02, lon: 118.70 }
 - { id: lixian-hb, name: 河北蠡县, names: [蠡县], lat: 38.49, lon: 115.58 }
 - { id: wuhu, name: 安徽芜湖, names: [芜湖], lat: 31.33, lon: 118.38 }
+- { id: xingcheng, name: 辽宁兴城, names: [兴城], lat: 40.61, lon: 120.73 }
+- { id: guinan, name: 青海贵南（巴仓农场）, names: [贵南, 巴仓农场], lat: 35.59, lon: 100.75 }
 
 # ── outside China ──
 - { id: ondorkhaan, name: 蒙古温都尔汗, names: [温都尔汗], lat: 47.32, lon: 110.66 }
