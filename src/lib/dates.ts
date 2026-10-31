@@ -18,6 +18,8 @@ export function toT(date: string | undefined, end = false): number {
 }
 
 export function fromT(t: number): { y: number; m: number; d: number } {
+  // float noise would otherwise floor the exact start of a day or month into the one before
+  t += 1e-9
   const y = Math.floor(t)
   const mf = (t - y) * 12
   const m = Math.floor(mf) + 1
