@@ -1,0 +1,266 @@
+# Y3（2026-10-31）：46 位简传人物补完整传记用的中文维基百科条目（4 级，编者综述，转录、未核原件；只留所引段落）。
+web:
+  - id: zhwiki-li-da
+    title: 李达（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“李达 (哲学家)”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9D%8E%E8%BE%BE_(%E5%93%B2%E5%AD%A6%E5%AE%B6)
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-ding-zilin
+    title: 丁子霖（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“丁子霖”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E4%B8%81%E5%AD%90%E9%9C%96
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wan-runnan
+    title: 万润南（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“万润南”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E4%B8%87%E6%B6%A6%E5%8D%97
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-jin-guantao
+    title: 金观涛（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“金观涛”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%87%91%E8%A7%82%E6%B6%9B
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-liu-wenhui
+    title: 刘文辉（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“刘文辉 (1937年)”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%88%98%E6%96%87%E8%BE%89_(1937%E5%B9%B4)
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-peiying
+    title: 王佩英（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王佩英”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E4%BD%A9%E8%8B%B1
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-lu-lanxiu
+    title: 陆兰秀（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“陆兰秀”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%99%86%E5%85%B0%E7%A7%80
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-shi-yunfeng
+    title: 史云峰（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“史云峰”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%8F%B2%E4%BA%91%E5%B3%B0
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-li-jiulian
+    title: 李九莲（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“李九莲”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9D%8E%E4%B9%9D%E8%8E%B2
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-hairong
+    title: 王海容（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王海容”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E6%B5%B7%E5%AE%B9
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-sun-jian
+    title: 孙健（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“孙健 (1936年)”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%AD%99%E5%81%A5_(1936%E5%B9%B4)
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-shen-jilan
+    title: 申纪兰（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“申纪兰”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%94%B3%E7%BA%AA%E5%85%B0
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-guofan
+    title: 王国藩（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王国藩”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E5%9B%BD%E8%97%A9
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-xing-yanzi
+    title: 邢燕子（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“邢燕子”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%82%A2%E7%87%95%E5%AD%90
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-shi-laihe
+    title: 史来贺（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“史来贺”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%8F%B2%E6%9D%A5%E8%B4%BA
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-jin-xunhua
+    title: 金训华（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“金训华”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%87%91%E8%AE%AD%E5%8D%8E
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-men-he
+    title: 门合（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“门合”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E9%97%A8%E5%90%88
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-cui-yueli
+    title: 崔月犁（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“崔月犁”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%B4%94%E6%9C%88%E7%8A%81
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-feng-jiping
+    title: 冯基平（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“冯基平”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E5%86%AF%E5%9F%BA%E5%B9%B3
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-pan-jingyin
+    title: 潘景寅（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“潘景寅”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%BD%98%E6%99%AF%E5%AF%85
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-wang-pu
+    title: 王璞（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“王璞 (空军)”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E7%8E%8B%E7%92%9E_(%E7%A9%BA%E5%86%9B)
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
+  - id: zhwiki-zhu-meifu
+    title: 朱梅馥（维基百科）
+    date: 2026-10-31
+    author: 维基百科编者
+    kind: database
+    tier: 4
+    alias: 中文维基百科“朱梅馥”条目（2026-10-31 抓取）
+    url: https://zh.wikipedia.org/zh-cn/%E6%9C%B1%E6%A2%85%E9%A6%A5
+    excerpt: true
+    keep: []
+    via: 中文维基百科（CC BY-SA 4.0）
+    note: 维基百科综述，转录、未核原件。
